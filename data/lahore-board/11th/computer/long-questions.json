@@ -1,0 +1,1951 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Computer",
+  "slug": "computer",
+  "source": "PTS PTB INTER-I (Class 11) Computer (read-only export)",
+  "total_questions": 1349,
+  "counts": {
+    "mcq": 700,
+    "short": 456,
+    "long": 193
+  },
+  "fieldCounts": {
+    "MCQ": 700,
+    "QA": 456,
+    "LONG": 193
+  },
+  "questions": [
+    {
+      "id": 403785,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Imagine you are managing a project to develop a simple mobile application. Describe how you would use the Agile Methodology to handle this project."
+    },
+    {
+      "id": 403788,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the importance of software development tools in the software development process.a) Explain the role of language editors, translators, and debuggers in creating and maintaining software. b) Provide examples of each tool and describe how they contribute to the efficiency and accuracy of software development."
+    },
+    {
+      "id": 403942,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of variables in Python."
+    },
+    {
+      "id": 450777,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following Python expressions. (25+3 * 4 ** 2-6)/ (2 ** 3 + 1) - 7"
+    },
+    {
+      "id": 450780,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following Python expressions. 45/(2** 2+3* 4)+8 * (7 - 3)"
+    },
+    {
+      "id": 403943,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a Python program that takes a number as input and checks whether it is positive, negative, or zero using an if-elif-else statement."
+    },
+    {
+      "id": 403944,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a Python program using a while loop that prints all the odd numbers between 1 and100. Also, count and print the total number of odd numbers."
+    },
+    {
+      "id": 403939,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Translating the following mathematical expressions to Python syntax. (a) 5x(3 + 22) 6 - 2x3 (b) 7+22"
+    },
+    {
+      "id": 404122,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the nature of optimization problems and provide examples of their applications in real-world scenarios."
+    },
+    {
+      "id": 404124,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the differences between time complexity and space complexity. How do they impact the choice of an algorithm for a specific problem?"
+    },
+    {
+      "id": 404120,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the characteristics of search problems and compare the efficiency of Linear Search and Binary Search algorithm."
+    },
+    {
+      "id": 404123,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the process and time complexity of the Bubble Sort algorithm. Compare it with another sorting algorithm of your choice in terms of efficiency."
+    },
+    {
+      "id": 404127,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the dynamic size property of lists in Python. How does this property make lists more flexible?"
+    },
+    {
+      "id": 404131,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the operations on stack with real-life example and Python code."
+    },
+    {
+      "id": 404133,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write, a simple program to implement a queue (insertion and deletion)."
+    },
+    {
+      "id": 404135,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define Tree and explain its properties"
+    },
+    {
+      "id": 404136,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a graph? Explain the differences between directed and undirected graphs."
+    },
+    {
+      "id": 404255,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the concept of measure of tendency with example."
+    },
+    {
+      "id": 404254,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain data collection methods."
+    },
+    {
+      "id": 404253,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the types of data visualizations and their uses."
+    },
+    {
+      "id": 404288,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define cloud deployment models and assess the differences among them."
+    },
+    {
+      "id": 404290,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify the various types of cloud services and compare them, highlighting key distinctions."
+    },
+    {
+      "id": 404295,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe \"Cloud Deployment Models\" with examples."
+    },
+    {
+      "id": 404291,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the advancements and benefits of edge computing in modern technology."
+    },
+    {
+      "id": 404315,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the common clauses found in Terms of Use and describe how they protect both the service provider and the user."
+    },
+    {
+      "id": 404316,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of bridging the digital divide and discuss the roles of government initiatives in addressing this issue. Provide relevant examples from Pakistan."
+    },
+    {
+      "id": 404317,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how critical thinking skills contribute to responsible information utilization. Provide examples of how these skills can be applied in real-life scenarios."
+    },
+    {
+      "id": 404318,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the importance of collaborative problem solving in a digital environment and provide examples of how human-machine collaboration can enhance this process"
+    },
+    {
+      "id": 404348,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the different types of online research and their purposes, providing examples for each type."
+    },
+    {
+      "id": 404349,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of digital literacy and its key components. How does it contribute to effective use of digital tools and resources?"
+    },
+    {
+      "id": 404351,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the process of developing a clear and focused research question. Illustrate your answer with examples of well-formulated and poorly-formulated research questions."
+    },
+    {
+      "id": 404352,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the importance of research ethics in maintaining the credibility and reliability of research findings. Explain how unethical practices could affect the research community and society."
+    },
+    {
+      "id": 404354,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the various types of intellectual property and provide examples of each. Explain how each type helps in protecting different kinds of creations and innovations."
+    },
+    {
+      "id": 404415,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the importance of Design Thinking in developing business solutions. Provide examples of how it can be applied."
+    },
+    {
+      "id": 404416,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the process of creating a business plan, and why each step is critical to the success of a new business."
+    },
+    {
+      "id": 404417,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does market insight influence business decisions? Give examples of how businesses can use this information."
+    },
+    {
+      "id": 404418,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the essential components of a marketing and sales strategy? Discuss how these strategies can be tailored for different markets."
+    },
+    {
+      "id": 404419,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the role of communication and storytelling in building a brand and connecting with customers."
+    },
+    {
+      "id": 444261,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what software development is and describe the purpose of the Software Development Life Cycle (SDLC)."
+    },
+    {
+      "id": 444262,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a software development framework, and how does it help in the SDLC process? Give an example."
+    },
+    {
+      "id": 444263,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the activities involved in the requirement gathering phase. Why is this phase important in software development?"
+    },
+    {
+      "id": 444264,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the purpose of functional and non-functional requirements in software development. Why are they important?"
+    },
+    {
+      "id": 444265,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the key activities involved in the design phase of software development. How do they contribute to building a successful software product?"
+    },
+    {
+      "id": 444266,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how diagrams, models, architecture planning, and requirement specification play a role in the design process."
+    },
+    {
+      "id": 444267,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process that takes place during the coding or development phase. How does it relate to the design phase?"
+    },
+    {
+      "id": 444268,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the importance of translating design specifications into code and how this step is crucial for building a functional software product."
+    },
+    {
+      "id": 444269,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the role of maintenance in the software development life cycle and explain why it is important even after the software is deployed."
+    },
+    {
+      "id": 444270,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What types of changes or issues are typically addressed during the maintenance phase of software development?"
+    },
+    {
+      "id": 444271,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what software development methodologies are and how they contribute to building high-quality software."
+    },
+    {
+      "id": 444272,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the purpose and benefits of using software process models in the software development life cycle."
+    },
+    {
+      "id": 444273,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the main phases of the waterfall model and describe what happens in each phase."
+    },
+    {
+      "id": 444274,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the benefits and limitations of using the waterfall model in software development?"
+    },
+    {
+      "id": 444275,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the key practices used in agile methodology and explain how they help improve the development process."
+    },
+    {
+      "id": 444276,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the main benefits and challenges of using the agile method in software development projects."
+    },
+    {
+      "id": 444277,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the steps involved in risk assessment and management during a software project."
+    },
+    {
+      "id": 444278,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is comprehensive project planning important before starting software development, and how does it help in successful project execution?"
+    },
+    {
+      "id": 444279,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the steps involved in identifying use cases for a software system."
+    },
+    {
+      "id": 444280,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do use case diagrams help in planning and testing during software development?"
+    },
+    {
+      "id": 444281,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the example of organizing a room help explain the concept of a class diagram in software systems."
+    },
+    {
+      "id": 444282,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the relationship between classes, attributes, and methods in a class diagram using the given example."
+    },
+    {
+      "id": 444283,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how sequence diagrams help in understanding the interactions between objects in a system."
+    },
+    {
+      "id": 444284,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Using the room and boxes example, describe the sequence of actions that a user performs and how it would appear in a sequence diagram."
+    },
+    {
+      "id": 444285,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role of activity diagrams in simplifying complex operations with the help of the restaurant example."
+    },
+    {
+      "id": 444286,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How would an activity diagram help developers understand the workflow in a restaurant management system?"
+    },
+    {
+      "id": 444287,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can UML be used to enhance communication between technical and non-technical stakeholders in a software project?"
+    },
+    {
+      "id": 444288,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the advantages of using UML during the planning, development, and communication phases of software development."
+    },
+    {
+      "id": 444289,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare and contrast the factory pattern and the strategy pattern. How are they different in terms of their application and benefits?"
+    },
+    {
+      "id": 444290,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the singleton pattern and provide a practical example of its use in software development."
+    },
+    {
+      "id": 444291,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the role of design pattern in improving software maintainability. How do they contribute to a flexible and scalable system?"
+    },
+    {
+      "id": 444292,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the impact of design patterns on communication within development teams. How do they facilitate better collaboration and understanding?"
+    },
+    {
+      "id": 444293,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of debugging in software development. what are the key steps involved in identifying and fixing bugs in the software?"
+    },
+    {
+      "id": 444294,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the different tools and best practices that helps in debugging. How do these tools improve the software development process?"
+    },
+    {
+      "id": 444295,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the different levels of software testing and their significance in ensuring the software meets the requirements. How do unit,integration, system, and acceptance testing work together in this process?"
+    },
+    {
+      "id": 444296,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the role of acceptance testing in the software development life cycle. Who conducts it, and what is its primary purpose?"
+    },
+    {
+      "id": 444297,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the different types of translators in software development. How do interpreters and compilers differ in term of functionality and usage?"
+    },
+    {
+      "id": 444298,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the importance of debugging tools in software development.How do tools like GDB and visual studio debugger assist developers in identifying and fixing errors in the code?"
+    },
+    {
+      "id": 444299,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role of an IDE in the SDLC. How do IDEs improve developer productivity?"
+    },
+    {
+      "id": 444300,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the advantages of using an IDE over using individual software development tools such as code editors and compilers."
+    },
+    {
+      "id": 444301,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role of online and offline computing platforms in software development. How do they differ in terms of accessibility and functionality?"
+    },
+    {
+      "id": 444302,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the importance of source code repositories in version control. How do they support collaboration among developers working on the same project?"
+    },
+    {
+      "id": 444303,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the steps involved in setting up a Python development environment."
+    },
+    {
+      "id": 444304,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role and importance of comments in a Python program."
+    },
+    {
+      "id": 444305,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how variables are used to store different types of data in Python. Give example of each data type."
+    },
+    {
+      "id": 444306,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the input and output operations in Python. How does the input( ) function work, and how can you display the entered data?"
+    },
+    {
+      "id": 444307,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the various arithmetic operators in Python and give an example of each."
+    },
+    {
+      "id": 444308,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the different comparison operators in Python and provide examples of how each one works."
+    },
+    {
+      "id": 444309,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how compound assignment operators help simplify code in Python."
+    },
+    {
+      "id": 444310,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the usage of logical operators (and , or and not) in Pyhon with examples."
+    },
+    {
+      "id": 444311,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how parentheses influence operator precedence in Python, and give examples of how they can change the result of an expression."
+    },
+    {
+      "id": 444312,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss different types of conditional statements in Python and explain their usage."
+    },
+    {
+      "id": 444313,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between an if statement and an if-else statement in Python with examples."
+    },
+    {
+      "id": 444314,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the if-elif-else statement works in Python with an example."
+    },
+    {
+      "id": 444315,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the while loop works in Python with an example."
+    },
+    {
+      "id": 444316,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the for loop works in Python with an example."
+    },
+    {
+      "id": 444317,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how to define and invoke a function in Python with an example."
+    },
+    {
+      "id": 444318,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how default parameters work in Python with an example."
+    },
+    {
+      "id": 444319,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the steps involved in importing a library and using its functions in Python?"
+    },
+    {
+      "id": 444320,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the benefits of using packages in Python, especially for large-scale projects."
+    },
+    {
+      "id": 444321,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how to modify a list in Python. Give an example of updating and appending items."
+    },
+    {
+      "id": 444322,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how list slicing works with an example."
+    },
+    {
+      "id": 444323,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the Differences between lists and tuples. Provide examples of when to use each."
+    },
+    {
+      "id": 444324,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain modular programming in Python and describe how it helps in large projects."
+    },
+    {
+      "id": 444325,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of classes and objects in OOP with an example."
+    },
+    {
+      "id": 444326,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how exception handling works in Python using try and except blocks."
+    },
+    {
+      "id": 444327,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how to open, read and close a file in Python. Include examples."
+    },
+    {
+      "id": 444328,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain different types of testing in Python."
+    },
+    {
+      "id": 444329,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain with an example how input, process, and output work together to solve a computational problem."
+    },
+    {
+      "id": 444330,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the four major types of computational problems with examples."
+    },
+    {
+      "id": 444331,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the Generate and Test algorithm with a real-life example."
+    },
+    {
+      "id": 444332,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between solvable and unsolvable problems with examples."
+    },
+    {
+      "id": 444335,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is analyzing time complexity important in selecting algorithms?"
+    },
+    {
+      "id": 444336,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the divide and conquer approach with the help of a sorting example."
+    },
+    {
+      "id": 444337,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the working of the divide and conquer method using the merge sort algorithm as an example."
+    },
+    {
+      "id": 444338,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how Dynamic Programming can optimize the calculation of the Fibonacci sequence."
+    },
+    {
+      "id": 444339,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the process of how Backtracking works using an example."
+    },
+    {
+      "id": 444340,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the advantages and disadvantages of using Bubble sort for sorting large datasets."
+    },
+    {
+      "id": 444341,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the advantages and disadvantages of using selection sort for sorting large datasets."
+    },
+    {
+      "id": 444342,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does binary search improve efficiency over linear search, especially for large datasets?"
+    },
+    {
+      "id": 444343,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how BFS is used for finding the shortest path in an unweighted graph."
+    },
+    {
+      "id": 444344,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of lists in Python, including how they are created and accessed. Provide examples."
+    },
+    {
+      "id": 444345,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the main properties of Python lists and explain how these properties make lists a flexible data structure."
+    },
+    {
+      "id": 444346,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the lists are used in implementing stack and queue data structures, including their practical uses in computer science."
+    },
+    {
+      "id": 444349,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the concept and working of a queue using real-world examples. Also, explain the enqueue and dequeue operations with the help of a Python example."
+    },
+    {
+      "id": 444350,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the structure and properties of a tree data structure. How does it differ from linear data structure such as lists? Include examples."
+    },
+    {
+      "id": 444351,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a tree and a graph. Provide at least three key difference with examples."
+    },
+    {
+      "id": 444353,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the main types of graphs with examples. Also describe the key characteristics and properties of graphs."
+    },
+    {
+      "id": 444354,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the different measures of central tendency (mean, median, and mode) and explain in which situations each measure is most useful."
+    },
+    {
+      "id": 444355,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what is meant by measures of dispersion. Compare and contrast the variance of Class A and Class B using given examples. Why is it important to measure the spread of data?"
+    },
+    {
+      "id": 444356,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the importance of standard deviation in statistical analysis and how it helps in understanding data variation."
+    },
+    {
+      "id": 444357,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role of probability in weather forecasting. How is it applied to predict weather events?"
+    },
+    {
+      "id": 444358,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the advantages and disadvantages of using surveys as a data collection method."
+    },
+    {
+      "id": 444359,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the steps involved in data preparation and describe why each step is important for accurate analysis."
+    },
+    {
+      "id": 444360,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain three different methods used to handle missing data with suitable examples."
+    },
+    {
+      "id": 444361,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the five main steps involved in building a statistical model and explain their importance using a real-life example."
+    },
+    {
+      "id": 444364,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how logistic regression is different from linear regression using an example involving exam results."
+    },
+    {
+      "id": 444366,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is K-means clustering and how does it work in grouping students based on subject performance?"
+    },
+    {
+      "id": 444368,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the differences between error metrics and accuracy metrics using real-life examples."
+    },
+    {
+      "id": 444370,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the purpose and use of different types of data visualizations with suitable examples."
+    },
+    {
+      "id": 444372,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the step by step process of creating a chart in Microsoft Excel or Google Sheets and explain why each step is important."
+    },
+    {
+      "id": 444374,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are emerging technologies such as AI , Blockchain and Cloud Computing changing the way we live and work?"
+    },
+    {
+      "id": 444375,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the basic concept of cloud computing and how virtualization, scalability and on demand access make it more useful and efficient."
+    },
+    {
+      "id": 444377,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define and compare the tree main types of cloud services: IaaS, PaaS and SaaS with examples."
+    },
+    {
+      "id": 444380,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the three main cloud deployment models and explain how they differ in terms of control, security, and flexibility."
+    },
+    {
+      "id": 444381,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the main applications of cloud computing in modern technology with examples."
+    },
+    {
+      "id": 444385,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the major implications of cloud computing, including security, scalability, cost and compliance."
+    },
+    {
+      "id": 444387,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the fundamentals of blockchain technology. How do transparency, security and decentralization work in a blockchain system?"
+    },
+    {
+      "id": 444389,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the core principles of blockchain technology. How do decentralization, immutability and consensus work together to ensure blockchain's security and reliability?"
+    },
+    {
+      "id": 444390,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how blockchain technology is used in different industries such as cryptocurrency, supply chain, healthcare and voting systems."
+    },
+    {
+      "id": 444391,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are cryptocurrencies and smart contracts? Explain how they use blockchain to improve digital finance and remove intermediaries."
+    },
+    {
+      "id": 444392,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does blockchain technology help in tracking the origin of products in supply chain? Explain the benefits of using blockchain for transparency and security."
+    },
+    {
+      "id": 444393,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does blockchain technology improve the speed and cost-effectiveness of financial transactions, especially for international money transfers?"
+    },
+    {
+      "id": 444397,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how blockchain ensures data security using encryption, digital signatures and decentralization. How do these elements contribute to safeguarding sensitive information?"
+    },
+    {
+      "id": 444394,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how edge computing improves the efficiency and performance of cloud computing, providing an example to illustrate its benefits."
+    },
+    {
+      "id": 444398,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are serverless architectures, and how do they reduce operational complexity for developers? Give an examples of a serverless computing service."
+    },
+    {
+      "id": 444401,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Term of Use and why are they important for both users and service providers? Give a relevant example."
+    },
+    {
+      "id": 444402,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do Terms of Use help in protecting user rights and ensuring responsible use of online services?"
+    },
+    {
+      "id": 444403,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is understanding the Terms of Use important for both users and service providers? Discuss with examples."
+    },
+    {
+      "id": 444404,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how Terms of Use provide legal safeguards for businesses and help maintain transparency with users."
+    },
+    {
+      "id": 444406,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the common Clauses found in Terms of Use and explain how they protect both users and service providers."
+    },
+    {
+      "id": 444407,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Analyze the role of privacy and intellectual property rights clauses in protecting user data and service provider content."
+    },
+    {
+      "id": 444408,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the legal, ethical and personal rights issues related to violating Terms of Use , using relevant examples."
+    },
+    {
+      "id": 444409,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do Terms of Use ensure protection of personal rights and why is it important for users to be aware of them?"
+    },
+    {
+      "id": 444410,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the different types of security threats that users face while using online services, using examples."
+    },
+    {
+      "id": 444412,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain different techniques used to prevent security threats on the internet with examples."
+    },
+    {
+      "id": 444415,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the main causes of the digital divide and how they contribute to inequality in access to ICT."
+    },
+    {
+      "id": 444416,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the major impacts of the digital divide?"
+    },
+    {
+      "id": 444418,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the some ways to do bridging the digital divide."
+    },
+    {
+      "id": 444420,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the +ive and -ive impacts of computing on society and how can we address the challenges posed by these impacts?"
+    },
+    {
+      "id": 444423,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the term of digital citizenship and ethical considerations. Explain that why is it important for maintaining privacy and security online?"
+    },
+    {
+      "id": 444424,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is creating accessible digital content important and how can it be achieved? Provide examples of design strategies."
+    },
+    {
+      "id": 444425,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does collaborative problem solving works?"
+    },
+    {
+      "id": 444426,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the importance of online research and discuss how it can be used to make informed decisions."
+    },
+    {
+      "id": 444427,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the types of online research? Discuss the purpose of each type and provide relevant examples."
+    },
+    {
+      "id": 444429,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the key components of digital literacy and provide examples for each. Why is it important to evaluate the source of information found online?"
+    },
+    {
+      "id": 444430,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the importance of online libraries and research databases. Explain the steps involved in effective navigation and managing digital information when conducting online research."
+    },
+    {
+      "id": 444431,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define research ethics with its importance. Also explain the key principles of research ethics. How can researchers ensure they follow these principles while conducting a study?"
+    },
+    {
+      "id": 444433,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the different types of intellectual property."
+    },
+    {
+      "id": 444435,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the different ways to protect intellectual property. How can you protect your own inventions, trademarks or creative works?"
+    },
+    {
+      "id": 444437,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can design thinking be applied to improve a product and what are the key steps involved in this process? Illustrate with an example of a product like a school bag."
+    },
+    {
+      "id": 444440,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is business plan? What are the key parts of a business plans? Explain each section and its purpose in ensuring the success of a business with an example."
+    },
+    {
+      "id": 444445,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role of financial modeling in business plan creation. How do collaborative tools facilitate real-time feedback and revisions?"
+    },
+    {
+      "id": 444449,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between qualitative and quantitative research in market analysis. Provide examples of each method."
+    },
+    {
+      "id": 444450,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are customer surveys and focus groups and how are they used in market research? Provide examples of each."
+    },
+    {
+      "id": 444452,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can market data analysis help businesses make better decisions? Provide examples."
+    },
+    {
+      "id": 444453,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a business pitch? List and explain the five steps to pitching a business idea."
+    },
+    {
+      "id": 444455,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are marketing and sales strategies. How these can be developed effectively?"
+    },
+    {
+      "id": 444456,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between revenue and profit? Provide examples."
+    },
+    {
+      "id": 444458,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the terms of investment and saving. How do loans and interest work in business? Provides example of each term."
+    },
+    {
+      "id": 444461,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the different types of communication and give examples of each."
+    },
+    {
+      "id": 444465,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is storytelling? Explain how to improve your communication and storytelling skills?"
+    },
+    {
+      "id": 444468,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what are collaboration and iteration with examples and why these are important."
+    },
+    {
+      "id": 444471,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How to foster innovation and creativity?"
+    },
+    {
+      "id": 444472,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is innovation and creativity and why these are important?"
+    }
+  ],
+  "type": "long"
+}

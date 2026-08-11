@@ -1,0 +1,274 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Computer",
+  "slug": "computer",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction to Software Development",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Software Development"
+        },
+        {
+          "id": "1.2",
+          "title": "Introduction to Software Development Life Cycle  (Sdlc)"
+        },
+        {
+          "id": "1.3",
+          "title": "Software Development Methodologies"
+        },
+        {
+          "id": "1.4",
+          "title": "Project Planning and Management"
+        },
+        {
+          "id": "1.5",
+          "title": "Graphical Representation of Software Systems"
+        },
+        {
+          "id": "1.6",
+          "title": "Introduction to Design Patterns"
+        },
+        {
+          "id": "1.7",
+          "title": "Software Debugging and Testing"
+        },
+        {
+          "id": "1.8",
+          "title": "Software Development Tools"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Python Programming",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Introduction to Python Programming"
+        },
+        {
+          "id": "2.2",
+          "title": "Basic Python Syntax and Structure"
+        },
+        {
+          "id": "2.3",
+          "title": "Operators and Expressions"
+        },
+        {
+          "id": "2.4",
+          "title": "Control Structures"
+        },
+        {
+          "id": "2.5",
+          "title": "Python Modules and Built-in Data Structures"
+        },
+        {
+          "id": "2.6",
+          "title": "Built-in Data Structures"
+        },
+        {
+          "id": "2.7",
+          "title": "Modular Programming in Python"
+        },
+        {
+          "id": "2.8",
+          "title": "Object-Oriented Programming in Python"
+        },
+        {
+          "id": "2.9",
+          "title": "Advanced Python Concepts"
+        },
+        {
+          "id": "2.10",
+          "title": "Testing and Debugging in Python"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Algorithms and Problem Solving",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Understanding Computational Problems"
+        },
+        {
+          "id": "3.2",
+          "title": "Algorithms for Problem Solving"
+        },
+        {
+          "id": "3.3",
+          "title": "Problem Solvability and Complexity"
+        },
+        {
+          "id": "3.4",
+          "title": "Algorithm Analysis"
+        },
+        {
+          "id": "3.5",
+          "title": "Algorithm Design Techniques"
+        },
+        {
+          "id": "3.6",
+          "title": "Commonly Used Algorithms"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Computational Structures",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Primitive Computational Structures"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Data Analytics",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Basic Statistical Concepts"
+        },
+        {
+          "id": "5.2",
+          "title": "Data Collection and Preparation"
+        },
+        {
+          "id": "5.3",
+          "title": "Building Statistical Models"
+        },
+        {
+          "id": "5.4",
+          "title": "Introduction to Data Visualization"
+        },
+        {
+          "id": "5.5",
+          "title": "Tools for Data Visualization"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Emerging Technologies",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Definition and Overview of Emerging Technologies"
+        },
+        {
+          "id": "6.2",
+          "title": "Cloud Computing"
+        },
+        {
+          "id": "6.3",
+          "title": "Applications and Implications of Cloud Computing"
+        },
+        {
+          "id": "6.4",
+          "title": "Introduction to Blockchain Technology"
+        },
+        {
+          "id": "6.5",
+          "title": "Applications and Implications of Blockchain"
+        },
+        {
+          "id": "6.6",
+          "title": "Future Trends and Innovations"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Legal and Ethical Aspects of Computing System",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Understanding Terms of Use"
+        },
+        {
+          "id": "7.2",
+          "title": "Privacy and Security Threats"
+        },
+        {
+          "id": "7.3",
+          "title": "the Digital Divide and Its Impacts"
+        },
+        {
+          "id": "7.4",
+          "title": "Computing'S Impact On Individuals and Society"
+        },
+        {
+          "id": "7.5",
+          "title": "Digital Citizenship and Ethical Considerations"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Online Research and Digital Literacy",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Online Research and Digital Literacy"
+        },
+        {
+          "id": "8.2",
+          "title": "Utilizing Digital Resources"
+        },
+        {
+          "id": "8.3",
+          "title": "Research Ethics"
+        },
+        {
+          "id": "8.4",
+          "title": "Understanding Intellectual Property"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Entrepreneurship in Digital Age",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Design Thinking and Business Solutions"
+        },
+        {
+          "id": "9.2",
+          "title": "Creating a Business Plan"
+        },
+        {
+          "id": "9.3",
+          "title": "Collecting Market Insights"
+        },
+        {
+          "id": "9.4",
+          "title": "Developing Effective Marketing and Sales Strategies"
+        },
+        {
+          "id": "9.5",
+          "title": "Financial Concepts for Business"
+        },
+        {
+          "id": "9.6",
+          "title": "Communication and Storytelling Skills"
+        },
+        {
+          "id": "9.7",
+          "title": "Collaborating and Iteration"
+        },
+        {
+          "id": "9.8",
+          "title": "Innovation and Creativity"
+        }
+      ]
+    }
+  ]
+}

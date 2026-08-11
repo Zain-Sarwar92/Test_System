@@ -1,0 +1,103 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "Biology",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "HUMAN DIGESTIVE SYSTEM",
+      "topics": [
+        { "id": "1.1", "title": "NUTRITION AND ITS IMPORTANCE" },
+        { "id": "1.2", "title": "HUMAN DIGESTIVE SYSTEM" },
+        { "id": "1.3", "title": "DISORDERS OF THE DIGESTIVE SYSTEM" }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "HUMAN RESPIRATORY SYSTEM",
+      "topics": [
+        { "id": "2.1", "title": "HUMAN RESPIRATORY SYSTEM" },
+        { "id": "2.2", "title": "THE MECHANISM OF BREATHING" },
+        { "id": "2.3", "title": "RESPIRATORY DISORDERS" }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "HUMAN BLOOD CIRCULATORY SYSTEM",
+      "topics": [
+        { "id": "3.1", "title": "BLOOD AND ITS COMPONENTS" },
+        { "id": "3.2", "title": "HUMAN HEART" },
+        { "id": "3.3", "title": "BLOOD VESSELS" },
+        { "id": "3.4", "title": "ARTERIAL & VENOUS SYSTEMS" },
+        { "id": "3.5", "title": "CARDIOVASCULAR DISORDERS" }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "HUMAN URINARY SYSTEM",
+      "topics": [
+        { "id": "4.1", "title": "HUMAN URINARY SYSTEM" },
+        { "id": "4.2", "title": "FUNCTIONING OF THE KIDNEY" },
+        { "id": "4.3", "title": "DISORDERS OF KIDNEY" }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "COORDINATION",
+      "topics": [
+        { "id": "5.1", "title": "NEURONS - THE UNITS OF NERVOUS SYSTEM" },
+        { "id": "5.2", "title": "DIVISIONS OF THE NERVOUS SYSTEM" },
+        { "id": "5.3", "title": "ENDOCRINE SYSTEM" }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "REPRODUCTION",
+      "topics": [
+        { "id": "6.1", "title": "FORMATION OF GAMETES AND FERTILIZATION" },
+        { "id": "6.2", "title": "ROLE OF HORMONES IN SEXUAL DEVELOPMENT" },
+        { "id": "6.3", "title": "REPRODUCTIVE SYSTEMS" },
+        { "id": "6.4", "title": "SEXUALLY TRANSMITTED DISEASES" }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "INHERITANCE",
+      "topics": [
+        { "id": "7.1", "title": "STRUCTURE OF CHROMOSOME" },
+        { "id": "7.2", "title": "DNA AND RNA" },
+        { "id": "7.3", "title": "MENDEL'S LAWS OF INHERITANCE" }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "BIOTECHNOLOGY",
+      "topics": [
+        { "id": "8.1", "title": "INTRODUCTION OF BIOTECHNOLOGY" },
+        { "id": "8.2", "title": "GENETIC ENGINEERING" },
+        { "id": "8.3", "title": "APPLICATIONS OF BIOTECHNOLOGY" },
+        { "id": "8.4", "title": "POTENTIAL RISKS OF BIOTECHNOLOGY" }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "DISEASES AND IMMUNITY",
+      "topics": [
+        { "id": "9.1", "title": "DISEASE" },
+        { "id": "9.2", "title": "PATHOGENS" },
+        { "id": "9.3", "title": "IMMUNITY" }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "EVOLUTION",
+      "topics": [
+        { "id": "10.1", "title": "DARWIN'S OBSERVATIONS" },
+        { "id": "10.2", "title": "THEORY OF EVOLUTION BY NATURAL SELECTION" },
+        { "id": "10.3", "title": "SPECIES AND SPECIATION" },
+        { "id": "10.4", "title": "SOURCES OF VARIATION" },
+        { "id": "10.5", "title": "EVIDENCES OF EVOLUTION" }
+      ]
+    }
+  ]
+}

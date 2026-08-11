@@ -1,0 +1,5817 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "11",
+  "className": "INTER-I",
+  "subject": "ترجمۃ القرآن مجید",
+  "slug": "tarjuma-quran",
+  "type": "mcq",
+  "field": "MCQ",
+  "exportName": "mcq",
+  "subTypeId": 1,
+  "total": 116,
+  "exportedAt": "2026-08-10T12:45:05.295Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 188006,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>قرآن مجید کی سب سے طویل سورت ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403281,
+          "QuestionID": 188006,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  المَائِدَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403282,
+          "QuestionID": 188006,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ النِّسَاَءِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403283,
+          "QuestionID": 188006,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ اٰلَ عَمرٰنَ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403284,
+          "QuestionID": 188006,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  البَقَرَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188007,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>قرآن مجید کی سب سے فضلیت والی آیت ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403285,
+          "QuestionID": 188007,
+          "UmOption": "<p>آیت دین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403286,
+          "QuestionID": 188007,
+          "UmOption": "<p>آیت عدل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403287,
+          "QuestionID": 188007,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">اٰیَۃُ الکُرسِیِّ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403288,
+          "QuestionID": 188007,
+          "UmOption": "<p>آیت مباہلہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188008,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حضرت عمر نے  <span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ البَقَرَۃِ</span>سیکھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 405777,
+          "QuestionID": 188008,
+          "UmOption": "<p>دس سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405778,
+          "QuestionID": 188008,
+          "UmOption": "<p>گیارہ سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405779,
+          "QuestionID": 188008,
+          "UmOption": "<p>بارہ سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 405780,
+          "QuestionID": 188008,
+          "UmOption": "<p>تیرہ سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188009,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">اٰیَۃُ الکُرسِیِّ</span> حصہ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 405797,
+          "QuestionID": 188009,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  الرَّحمٰنِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405798,
+          "QuestionID": 188009,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  یٰس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405799,
+          "QuestionID": 188009,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  اٰلِ عِمرٰنَ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405800,
+          "QuestionID": 188009,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  البَقَرَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188010,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>عربی زبان میں بقرۃ کا معنی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 122997,
+          "QuestionID": 188010,
+          "UmOption": "<p>ہاتھی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 122998,
+          "QuestionID": 188010,
+          "UmOption": "<p>گائے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 122999,
+          "QuestionID": 188010,
+          "UmOption": "<p>اونٹ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123000,
+          "QuestionID": 188010,
+          "UmOption": "<p>مکڑی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188011,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حدیث نبویﷺ کے مطابق شیطان اس گھر میں داخل نہیں ہوتا جس میں تلاوت کی جائے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403333,
+          "QuestionID": 188011,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  النَّسَاءِ کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403334,
+          "QuestionID": 188011,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  یٰس کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403335,
+          "QuestionID": 188011,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ یُونُسَ کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403336,
+          "QuestionID": 188011,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  البَقَرۃِ کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188012,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p> البقرۃکو قراردیا گیا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 405793,
+          "QuestionID": 188012,
+          "UmOption": "<p>قرآن مجید کا دل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405794,
+          "QuestionID": 188012,
+          "UmOption": "<p>قرآن مجید کی زینت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405795,
+          "QuestionID": 188012,
+          "UmOption": "<p>قرآن مجید کی شان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405796,
+          "QuestionID": 188012,
+          "UmOption": "<p>قرآن مجید کی چوٹی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188013,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  البَقَرَۃِ</span> کا مرکزی مضمون ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403421,
+          "QuestionID": 188013,
+          "UmOption": "<p>آخرت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403422,
+          "QuestionID": 188013,
+          "UmOption": "<p>ہدایت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403423,
+          "QuestionID": 188013,
+          "UmOption": "<p>تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403424,
+          "QuestionID": 188013,
+          "UmOption": "<p>سیاست</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188014,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ  البَقَرَۃِ</span>  میں انسانوں کی قسمیں بیان کی گئی ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403493,
+          "QuestionID": 188014,
+          "UmOption": "<p>تین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403494,
+          "QuestionID": 188014,
+          "UmOption": "<p>چار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403495,
+          "QuestionID": 188014,
+          "UmOption": "<p>پانچ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403496,
+          "QuestionID": 188014,
+          "UmOption": "<p>چھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188015,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مدینہ منورہ کے آس پاس بڑی تعداد میں آباد تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123017,
+          "QuestionID": 188015,
+          "UmOption": "<p>مسیحی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123018,
+          "QuestionID": 188015,
+          "UmOption": "<p>صابی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123019,
+          "QuestionID": 188015,
+          "UmOption": "<p>یہودی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123020,
+          "QuestionID": 188015,
+          "UmOption": "<p>مجوسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188016,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حضرت ابراہیم علیہ السلام کو اپنا روحانی پیشوا مانتے تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123021,
+          "QuestionID": 188016,
+          "UmOption": "<p>یہودی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123022,
+          "QuestionID": 188016,
+          "UmOption": "<p>نصاریٰ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123023,
+          "QuestionID": 188016,
+          "UmOption": "<p>مشرکین مکہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123024,
+          "QuestionID": 188016,
+          "UmOption": "<p>یہ سب</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188017,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اللہ تعالیٰ اور نبی کریم ﷺ کے خلاف جنگ سے تعبیر کیا گیا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123025,
+          "QuestionID": 188017,
+          "UmOption": "<p>سود کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123026,
+          "QuestionID": 188017,
+          "UmOption": "<p>بدعت کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123027,
+          "QuestionID": 188017,
+          "UmOption": "<p>کم تولنے کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123028,
+          "QuestionID": 188017,
+          "UmOption": "<p>ملاوٹ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188018,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ایمان کا اظہار ہوتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123029,
+          "QuestionID": 188018,
+          "UmOption": "<p>چہرے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123030,
+          "QuestionID": 188018,
+          "UmOption": "<p>باتوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123031,
+          "QuestionID": 188018,
+          "UmOption": "<p>اعمال سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123032,
+          "QuestionID": 188018,
+          "UmOption": "<p>آنکھوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188019,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مصائب اور تکالیف میں اللہ تعالیٰ کی مدد طلب کرنی چاہیے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123033,
+          "QuestionID": 188019,
+          "UmOption": "<p>والدین کے ذریعے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123034,
+          "QuestionID": 188019,
+          "UmOption": "<p>مال و دولت کے ذریعے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123035,
+          "QuestionID": 188019,
+          "UmOption": "<p>رشتہ داروں کے ذریعے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123036,
+          "QuestionID": 188019,
+          "UmOption": "<p>صبر اور نماز کے ذریعے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188020,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سود کا انجام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123037,
+          "QuestionID": 188020,
+          "UmOption": "<p>مفلسی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123038,
+          "QuestionID": 188020,
+          "UmOption": "<p>موت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123039,
+          "QuestionID": 188020,
+          "UmOption": "<p>بیماری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123040,
+          "QuestionID": 188020,
+          "UmOption": "<p>ذلت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188072,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>آل عمران کا معنیٰ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123041,
+          "QuestionID": 188072,
+          "UmOption": "<p>عمران کے پڑوسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123042,
+          "QuestionID": 188072,
+          "UmOption": "<p>عمران کا قبیلہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123043,
+          "QuestionID": 188072,
+          "UmOption": "<p>عمران کا خاندان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123044,
+          "QuestionID": 188072,
+          "UmOption": "<p>عمران کے رشتے دار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188073,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سورۃ آل عمران کی آیات کی تعداد ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 405805,
+          "QuestionID": 188073,
+          "UmOption": "<p>75</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405806,
+          "QuestionID": 188073,
+          "UmOption": "<p>129</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405807,
+          "QuestionID": 188073,
+          "UmOption": "<p>200</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 405808,
+          "QuestionID": 188073,
+          "UmOption": "<p>286</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188074,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حضرت عمران نانا ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123049,
+          "QuestionID": 188074,
+          "UmOption": "<p>حضرت یونس علیہ السلام کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123050,
+          "QuestionID": 188074,
+          "UmOption": "<p>حضرت موسیٰ علیہ السلام کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123051,
+          "QuestionID": 188074,
+          "UmOption": "<p>حضرت زکریا علیہ السلام کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123052,
+          "QuestionID": 188074,
+          "UmOption": "<p>حضرت عیٰسی علیہ السلام کے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188075,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سَورَۃُ اٰلِ عِمرٰنَ</span> کی آیت اکسٹھ(61) کہلاتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403649,
+          "QuestionID": 188075,
+          "UmOption": "<p>آیت احسان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403650,
+          "QuestionID": 188075,
+          "UmOption": "<p>آیت مباہلہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403651,
+          "QuestionID": 188075,
+          "UmOption": "<p>آیت سجدہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403652,
+          "QuestionID": 188075,
+          "UmOption": "<p>آیت عدل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188076,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نجران کا وفد مدینہ منورہ آیا تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123057,
+          "QuestionID": 188076,
+          "UmOption": "<p>جاسوسی کرنے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123058,
+          "QuestionID": 188076,
+          "UmOption": "<p>مناظرہ کرنے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123059,
+          "QuestionID": 188076,
+          "UmOption": "<p>جنگ کرنے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123060,
+          "QuestionID": 188076,
+          "UmOption": "<p>تجارت کرنے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188077,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سَورَۃُ اٰلِ عِمرٰنَ</span> میں جن دو جنگوں کا ذکر ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403657,
+          "QuestionID": 188077,
+          "UmOption": "<p>یرموک اور یمامہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403658,
+          "QuestionID": 188077,
+          "UmOption": "<p>تبوک اور موتہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403659,
+          "QuestionID": 188077,
+          "UmOption": "<p>بدر اور اُحد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403660,
+          "QuestionID": 188077,
+          "UmOption": "<p>خندق اور حنین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188078,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ احد میں مشرکین مکہ کے لشکر کی قیادت کی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123065,
+          "QuestionID": 188078,
+          "UmOption": "<p>ابو سفیان نے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123066,
+          "QuestionID": 188078,
+          "UmOption": "<p>امیہ بن خلف نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123067,
+          "QuestionID": 188078,
+          "UmOption": "<p>ابو لہب نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123068,
+          "QuestionID": 188078,
+          "UmOption": "<p>ابو جہل نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188079,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ احد میں شہید ہونے والے صحابی ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123069,
+          "QuestionID": 188079,
+          "UmOption": "<p>حضرت ابو ہریرہ رضی اللہ عنہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123070,
+          "QuestionID": 188079,
+          "UmOption": "<p>حضرت حمزہ رضی اللہ عنہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123071,
+          "QuestionID": 188079,
+          "UmOption": "<p>حضرت ابو عبیدہ رضی اللہ عنہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123072,
+          "QuestionID": 188079,
+          "UmOption": "<p>حضرت طلحہ رضی اللہ عنہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188080,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ احد میں مسلمان شہدا کی تعداد ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123073,
+          "QuestionID": 188080,
+          "UmOption": "<p>پچاس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123074,
+          "QuestionID": 188080,
+          "UmOption": "<p>ساٹھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123075,
+          "QuestionID": 188080,
+          "UmOption": "<p>ستر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123076,
+          "QuestionID": 188080,
+          "UmOption": "<p>اسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188082,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سَورَۃُ اٰلِ عِمرٰنَ</span> میں بہترین امت قرار دیا گیا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403653,
+          "QuestionID": 188082,
+          "UmOption": "<p>بنی اسرائیل کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403654,
+          "QuestionID": 188082,
+          "UmOption": "<p>اہل مدین کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403655,
+          "QuestionID": 188082,
+          "UmOption": "<p>قوم سبا کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403656,
+          "QuestionID": 188082,
+          "UmOption": "<p>امت مسلمہ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188083,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>امت مسلمہ کو سب سے زیادہ ضرورت ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123081,
+          "QuestionID": 188083,
+          "UmOption": "<p>افرادی قوت کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123082,
+          "QuestionID": 188083,
+          "UmOption": "<p>اتفاق و اتحاد کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123083,
+          "QuestionID": 188083,
+          "UmOption": "<p>ریاستوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123084,
+          "QuestionID": 188083,
+          "UmOption": "<p>وسائل کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188084,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اللہ تعالیٰ کا ذکر کرنا چاہیے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123085,
+          "QuestionID": 188084,
+          "UmOption": "<p>غم کی حالت میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123086,
+          "QuestionID": 188084,
+          "UmOption": "<p>خوشی کی حالت میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123087,
+          "QuestionID": 188084,
+          "UmOption": "<p>جنگ کی حالت میں&nbsp;</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123088,
+          "QuestionID": 188084,
+          "UmOption": "<p>ہر حالت میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188085,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>\"اہل کتاب کی غلطیوں کا پردہ چاک کرنا  اور اہل اسلام کو ان کی ذمہ داریوں  کا احساس دلانا \" مرکزی موضوع ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 405801,
+          "QuestionID": 188085,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سَورَۃُ  الرَّحمٰنِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405802,
+          "QuestionID": 188085,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سَورَۃُ یٰس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405803,
+          "QuestionID": 188085,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سَورَۃُ اٰلِ عِمرٰانَ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 405804,
+          "QuestionID": 188085,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سَورَۃُ البَقَرَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188086,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مسلمانوں کو اللہ تعالی کی راہ میں مال خرچ کرنا چاہیے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123093,
+          "QuestionID": 188086,
+          "UmOption": "<p>بد حالی میں&nbsp;</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123094,
+          "QuestionID": 188086,
+          "UmOption": "<p>خوشحالی میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123095,
+          "QuestionID": 188086,
+          "UmOption": "<p>مفلسی میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123096,
+          "QuestionID": 188086,
+          "UmOption": "<p>ہرحال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188246,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ اٰلِ عِمرٰنَ</span> میں خصوصیت کے ساتھ خطاب ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403689,
+          "QuestionID": 188246,
+          "UmOption": "<p>اہل کتاب کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403690,
+          "QuestionID": 188246,
+          "UmOption": "<p>اہل علم کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403691,
+          "QuestionID": 188246,
+          "UmOption": "<p>اہل یمن کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403692,
+          "QuestionID": 188246,
+          "UmOption": "<p>اہل عرب کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188119,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ الاَنفَالِ</span>  کی کل آیات ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403733,
+          "QuestionID": 188119,
+          "UmOption": "<p>75</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403734,
+          "QuestionID": 188119,
+          "UmOption": "<p>129</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403735,
+          "QuestionID": 188119,
+          "UmOption": "<p>200</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403736,
+          "QuestionID": 188119,
+          "UmOption": "<p>286</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188120,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ الاَنفَالِ</span> نازل  ہوئی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403721,
+          "QuestionID": 188120,
+          "UmOption": "<p>پانچ ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403722,
+          "QuestionID": 188120,
+          "UmOption": "<p>چار ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403723,
+          "QuestionID": 188120,
+          "UmOption": "<p>تین ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403724,
+          "QuestionID": 188120,
+          "UmOption": "<p>دو ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188121,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ بدر میں مکی لشکر کا سردار تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123105,
+          "QuestionID": 188121,
+          "UmOption": "<p>ابو لہب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123106,
+          "QuestionID": 188121,
+          "UmOption": "<p>ابو جہل</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123107,
+          "QuestionID": 188121,
+          "UmOption": "<p>ابوسفیان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123108,
+          "QuestionID": 188121,
+          "UmOption": "<p>اُمیہ بن خلف</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188122,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ بدر میں کافر جنگجوؤں کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123109,
+          "QuestionID": 188122,
+          "UmOption": "<p>500</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123110,
+          "QuestionID": 188122,
+          "UmOption": "<p>1000</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123111,
+          "QuestionID": 188122,
+          "UmOption": "<p>1500</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123112,
+          "QuestionID": 188122,
+          "UmOption": "<p>2000</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188123,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ بدر میں مسلمان مجاہدین کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123113,
+          "QuestionID": 188123,
+          "UmOption": "<p>213</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123114,
+          "QuestionID": 188123,
+          "UmOption": "<p>313</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123115,
+          "QuestionID": 188123,
+          "UmOption": "<p>413</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123116,
+          "QuestionID": 188123,
+          "UmOption": "<p>513</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188124,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ بدر اسلام اور کفر کے درمیان جنگ تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123117,
+          "QuestionID": 188124,
+          "UmOption": "<p>پہلی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123118,
+          "QuestionID": 188124,
+          "UmOption": "<p>دوسری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123119,
+          "QuestionID": 188124,
+          "UmOption": "<p>تیسری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123120,
+          "QuestionID": 188124,
+          "UmOption": "<p>چوتھی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188125,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مکہ والوں کے تجارتی قافلے کا سردار تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123121,
+          "QuestionID": 188125,
+          "UmOption": "<p>ابو لہب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123122,
+          "QuestionID": 188125,
+          "UmOption": "<p>امیہ بن خلف</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123123,
+          "QuestionID": 188125,
+          "UmOption": "<p>ابو سفیان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123124,
+          "QuestionID": 188125,
+          "UmOption": "<p>ابو جہل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188126,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ بدر کا دوسرا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123125,
+          "QuestionID": 188126,
+          "UmOption": "<p>یوم الفرقان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123126,
+          "QuestionID": 188126,
+          "UmOption": "<p>غزوہ احزاب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123127,
+          "QuestionID": 188126,
+          "UmOption": "<p>جیش العسرۃ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123128,
+          "QuestionID": 188126,
+          "UmOption": "<p>جنگ فجار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188127,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ الاَنفَالِ</span> میں احکام بیان ہوئے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403725,
+          "QuestionID": 188127,
+          "UmOption": "<p>جہاد کے </p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403726,
+          "QuestionID": 188127,
+          "UmOption": "<p>نماز کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403727,
+          "QuestionID": 188127,
+          "UmOption": "<p>پردے کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403728,
+          "QuestionID": 188127,
+          "UmOption": "<p>حج کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188128,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سورۃ الانفال  میں اہل مکہ کو انجام سے ڈریا گیا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 405809,
+          "QuestionID": 188128,
+          "UmOption": "<p>قوم ثمود کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405810,
+          "QuestionID": 188128,
+          "UmOption": "<p>قوم عاد کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405811,
+          "QuestionID": 188128,
+          "UmOption": "<p>نبی اسرائیل کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405812,
+          "QuestionID": 188128,
+          "UmOption": "<p>آل فرعون کے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188167,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُالتَّوبَۃِ</span> کی آیات کی تعداد ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403765,
+          "QuestionID": 188167,
+          "UmOption": "<p>75</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403766,
+          "QuestionID": 188167,
+          "UmOption": "<p>129</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403767,
+          "QuestionID": 188167,
+          "UmOption": "<p>200</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403768,
+          "QuestionID": 188167,
+          "UmOption": "<p>286</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188168,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ التَّوبَۃِ</span> کا دوسرا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403769,
+          "QuestionID": 188168,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ المِلَائِکَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403770,
+          "QuestionID": 188168,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ الاِسرَاءِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403771,
+          "QuestionID": 188168,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ العُقُودِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403772,
+          "QuestionID": 188168,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ البَرَاءَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188169,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ تبوک میں مسلمانوں کا مقابلہ تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123145,
+          "QuestionID": 188169,
+          "UmOption": "<p>عیسائیوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123146,
+          "QuestionID": 188169,
+          "UmOption": "<p>مشرکین سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123147,
+          "QuestionID": 188169,
+          "UmOption": "<p>یہودیوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123148,
+          "QuestionID": 188169,
+          "UmOption": "<p>منافقین سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188170,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>جس سورت کے شروع میں بِسمِ اللہِ نہیں ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403773,
+          "QuestionID": 188170,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ الاَنفَالِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403774,
+          "QuestionID": 188170,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ التَّوبَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403775,
+          "QuestionID": 188170,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ الفَاتِحَۃِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403776,
+          "QuestionID": 188170,
+          "UmOption": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ النَّملِ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188171,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ التَّوبَۃِ</span> نازل ہوئی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403777,
+          "QuestionID": 188171,
+          "UmOption": "<p>فتح مکہ کے بعد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403778,
+          "QuestionID": 188171,
+          "UmOption": "<p>صلح حدیبیہ کے بعد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403779,
+          "QuestionID": 188171,
+          "UmOption": "<p>غزوہ احد کے بعد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403780,
+          "QuestionID": 188171,
+          "UmOption": "<p>غزوہ تبوک کے بعد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188172,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ تبوک میں مسلمانوں کا ہدف تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123157,
+          "QuestionID": 188172,
+          "UmOption": "<p>ایرانیوں کا لشکر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123158,
+          "QuestionID": 188172,
+          "UmOption": "<p>یہودیوں کا لشکر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123159,
+          "QuestionID": 188172,
+          "UmOption": "<p>مکہ والوں کا لشکر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123160,
+          "QuestionID": 188172,
+          "UmOption": "<p>رومیوں کا لشکر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188173,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مسجد کی تعمیر اور نگرانی کےلیے شرط ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 123161,
+          "QuestionID": 188173,
+          "UmOption": "<p>ایمان کامل</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 123162,
+          "QuestionID": 188173,
+          "UmOption": "<p>تاجر ہونا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123163,
+          "QuestionID": 188173,
+          "UmOption": "<p>مال دار ہونا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 123164,
+          "QuestionID": 188173,
+          "UmOption": "<p>صاحب علم ہونا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188174,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سورۃ التوبۃ میں تفصیلی ذکر ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 405825,
+          "QuestionID": 188174,
+          "UmOption": "<p>جنگ یرموک کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405826,
+          "QuestionID": 188174,
+          "UmOption": "<p>فتح مکہ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 405827,
+          "QuestionID": 188174,
+          "UmOption": "<p>غزوہ تبوک کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 405828,
+          "QuestionID": 188174,
+          "UmOption": "<p>جنگ موتہ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188175,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ التَّوبَۃِ</span> میں ذکر ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403781,
+          "QuestionID": 188175,
+          "UmOption": "<p>عرفات کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403782,
+          "QuestionID": 188175,
+          "UmOption": "<p>حدیبیہ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403783,
+          "QuestionID": 188175,
+          "UmOption": "<p>غاز ثور کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403784,
+          "QuestionID": 188175,
+          "UmOption": "<p>غار حرا کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 188176,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p><span style=\"font-family:'Al Qalam Quran Majeed Web'\">سُورَۃُ التَّوبَۃِ</span> میں سازشیں بے نقاب کی گئی ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 403785,
+          "QuestionID": 188176,
+          "UmOption": "<p>منافقین کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 403786,
+          "QuestionID": 188176,
+          "UmOption": "<p>یہودیوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403787,
+          "QuestionID": 188176,
+          "UmOption": "<p>عسائیوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 403788,
+          "QuestionID": 188176,
+          "UmOption": "<p>مشرکین کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248641,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ کے لغوی معنی ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174813,
+          "QuestionID": 248641,
+          "UmOption": "<p>بلندی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174814,
+          "QuestionID": 248641,
+          "UmOption": "<p>لمبقائی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174815,
+          "QuestionID": 248641,
+          "UmOption": "<p>چوڑائی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174816,
+          "QuestionID": 248641,
+          "UmOption": "<p>موٹائی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248642,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ البقرۃ قرآن پاک کی ترتیب کے لحاظ سے ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174817,
+          "QuestionID": 248642,
+          "UmOption": "<p>دوری سورت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174818,
+          "QuestionID": 248642,
+          "UmOption": "<p>تیسری سورت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174819,
+          "QuestionID": 248642,
+          "UmOption": "<p>چوتھی سورت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174820,
+          "QuestionID": 248642,
+          "UmOption": "<p>پانچویں سورت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248643,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ البقرۃ میں گائے ذبح کرنے کا حکم کس کو دیا گیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174821,
+          "QuestionID": 248643,
+          "UmOption": "<p>بنی اسرائیل کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174822,
+          "QuestionID": 248643,
+          "UmOption": "<p>کافروں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174823,
+          "QuestionID": 248643,
+          "UmOption": "<p>منافقین کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174824,
+          "QuestionID": 248643,
+          "UmOption": "<p>مومنوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248644,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بقرۃ لفظ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174825,
+          "QuestionID": 248644,
+          "UmOption": "<p>عربی کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174826,
+          "QuestionID": 248644,
+          "UmOption": "<p>فارسی کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174827,
+          "QuestionID": 248644,
+          "UmOption": "<p>لاطینی کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174828,
+          "QuestionID": 248644,
+          "UmOption": "<p>عبرانی کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248645,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>گائے کو عربی میں کہتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174829,
+          "QuestionID": 248645,
+          "UmOption": "<p>بقرۃ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174830,
+          "QuestionID": 248645,
+          "UmOption": "<p>فیل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174831,
+          "QuestionID": 248645,
+          "UmOption": "<p>شاۃ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174832,
+          "QuestionID": 248645,
+          "UmOption": "<p>جمل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248646,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ البقرۃ کس موقع پر نازل ہوئی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174833,
+          "QuestionID": 248646,
+          "UmOption": "<p>ہجرت مدینہ کے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174834,
+          "QuestionID": 248646,
+          "UmOption": "<p>طائف کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174835,
+          "QuestionID": 248646,
+          "UmOption": "<p>فتح مکہ کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174836,
+          "QuestionID": 248646,
+          "UmOption": "<p>غزوہ تبوک کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248647,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضور خاتم النبین ﷺ نے فرمایا اپنے گھروں کو نہ بناؤ:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174837,
+          "QuestionID": 248647,
+          "UmOption": "<p>قبرستان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174838,
+          "QuestionID": 248647,
+          "UmOption": "<p>اصطبل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174839,
+          "QuestionID": 248647,
+          "UmOption": "<p>ویران</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174840,
+          "QuestionID": 248647,
+          "UmOption": "<p>مویشی خانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248648,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضور خاتم النبین ﷺ نے قرآن پاک کی چوٹی کس سورت کو قرار دیا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174841,
+          "QuestionID": 248648,
+          "UmOption": "<p>سورۃ آل عمران کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174842,
+          "QuestionID": 248648,
+          "UmOption": "<p>سورۃ البقرۃ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174843,
+          "QuestionID": 248648,
+          "UmOption": "<p>سورۃ النسا کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174844,
+          "QuestionID": 248648,
+          "UmOption": "<p>سورۃ المائدہ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248649,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ البقرۃ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174845,
+          "QuestionID": 248649,
+          "UmOption": "<p>مدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174846,
+          "QuestionID": 248649,
+          "UmOption": "<p>مکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174847,
+          "QuestionID": 248649,
+          "UmOption": "<p>مکی و مدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174848,
+          "QuestionID": 248649,
+          "UmOption": "<p>حضری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248650,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسرائیل لقب ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174849,
+          "QuestionID": 248650,
+          "UmOption": "<p>حضرت اسحاقؑ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174850,
+          "QuestionID": 248650,
+          "UmOption": "<p>حضرت ابراہیمؑ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174851,
+          "QuestionID": 248650,
+          "UmOption": "<p>حضرت یعقوبؑ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174852,
+          "QuestionID": 248650,
+          "UmOption": "<p>حضرت اسماعیلؑ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248651,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>الم ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174853,
+          "QuestionID": 248651,
+          "UmOption": "<p>حروف جارہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174854,
+          "QuestionID": 248651,
+          "UmOption": "<p>حروف مقطعات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174855,
+          "QuestionID": 248651,
+          "UmOption": "<p>حروف عطف</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174856,
+          "QuestionID": 248651,
+          "UmOption": "<p>حروف&nbsp;مشبہ بالفعل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248652,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بنی اسرائیل کے دل ہوگئے تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174857,
+          "QuestionID": 248652,
+          "UmOption": "<p>پتھر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174858,
+          "QuestionID": 248652,
+          "UmOption": "<p>لوہا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174859,
+          "QuestionID": 248652,
+          "UmOption": "<p>پہاڑ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174860,
+          "QuestionID": 248652,
+          "UmOption": "<p>نرم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248653,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃالبقرۃ میں مذکورہ گائے کا رنگ تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174861,
+          "QuestionID": 248653,
+          "UmOption": "<p>سفید</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174862,
+          "QuestionID": 248653,
+          "UmOption": "<p>سرخ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174863,
+          "QuestionID": 248653,
+          "UmOption": "<p>زرد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174864,
+          "QuestionID": 248653,
+          "UmOption": "<p>سیاہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248654,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضرت عبداللہ بن عمرؓ نے سورۃ البقرۃ سیکھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174865,
+          "QuestionID": 248654,
+          "UmOption": "<p>آٹھ سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174866,
+          "QuestionID": 248654,
+          "UmOption": "<p>نو سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174867,
+          "QuestionID": 248654,
+          "UmOption": "<p>دس سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174868,
+          "QuestionID": 248654,
+          "UmOption": "<p>گیارہ سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248655,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تمام آیتوں کی سردار ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174869,
+          "QuestionID": 248655,
+          "UmOption": "<p>آیت الکرسی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174870,
+          "QuestionID": 248655,
+          "UmOption": "<p>آیت دین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174871,
+          "QuestionID": 248655,
+          "UmOption": "<p>آیت مباہلہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174872,
+          "QuestionID": 248655,
+          "UmOption": "<p>آیت عدل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248656,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>آیت الکرسی کا نمبر ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174873,
+          "QuestionID": 248656,
+          "UmOption": "<p>255</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174874,
+          "QuestionID": 248656,
+          "UmOption": "<p>256</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174875,
+          "QuestionID": 248656,
+          "UmOption": "<p>257</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174876,
+          "QuestionID": 248656,
+          "UmOption": "<p>258</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248657,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ البقرۃ کی کل آیات ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174877,
+          "QuestionID": 248657,
+          "UmOption": "<p>286</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174878,
+          "QuestionID": 248657,
+          "UmOption": "<p>285</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174879,
+          "QuestionID": 248657,
+          "UmOption": "<p>284</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174880,
+          "QuestionID": 248657,
+          "UmOption": "<p>283</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248658,
+      "SubjectID": 115,
+      "TopicID": 6865,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ البَقَرَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>آیت ربو کا نمبر ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174881,
+          "QuestionID": 248658,
+          "UmOption": "<p>275</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174882,
+          "QuestionID": 248658,
+          "UmOption": "<p>276</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174883,
+          "QuestionID": 248658,
+          "UmOption": "<p>277</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174884,
+          "QuestionID": 248658,
+          "UmOption": "<p>278</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248680,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قرآن مجید کی ترتیب کے لحاظ سے تیسری بری سورت ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174885,
+          "QuestionID": 248680,
+          "UmOption": "<p>آل عمران</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174886,
+          "QuestionID": 248680,
+          "UmOption": "<p>البقرۃ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174887,
+          "QuestionID": 248680,
+          "UmOption": "<p>لفاتحہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174888,
+          "QuestionID": 248680,
+          "UmOption": "<p>المائدہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248681,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ آل عمران کی آیات کی کل تعداد ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174889,
+          "QuestionID": 248681,
+          "UmOption": "<p>200</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174890,
+          "QuestionID": 248681,
+          "UmOption": "<p>201</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174891,
+          "QuestionID": 248681,
+          "UmOption": "<p>202</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174892,
+          "QuestionID": 248681,
+          "UmOption": "<p>203</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248682,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضرت عیسیؑ کی والدہ کا نام تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174893,
+          "QuestionID": 248682,
+          "UmOption": "<p>حضرت مریم</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174894,
+          "QuestionID": 248682,
+          "UmOption": "<p>حضرت آسیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174895,
+          "QuestionID": 248682,
+          "UmOption": "<p>حضرت آمنہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174896,
+          "QuestionID": 248682,
+          "UmOption": "<p>حضرت عائشہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248683,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ آل عمران کا ایک نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174897,
+          "QuestionID": 248683,
+          "UmOption": "<p>الامان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174898,
+          "QuestionID": 248683,
+          "UmOption": "<p>ایمان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174899,
+          "QuestionID": 248683,
+          "UmOption": "<p>سنام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174900,
+          "QuestionID": 248683,
+          "UmOption": "<p>عروس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248684,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زہرا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174901,
+          "QuestionID": 248684,
+          "UmOption": "<p>سورۃ آل عمران کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174902,
+          "QuestionID": 248684,
+          "UmOption": "<p>سورۃ البقرۃ کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174903,
+          "QuestionID": 248684,
+          "UmOption": "<p>سورۃ الرحمن کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174904,
+          "QuestionID": 248684,
+          "UmOption": "<p>سورۃ یس کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248685,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ آل عمران کی کون سی آیت مباہلہ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174905,
+          "QuestionID": 248685,
+          "UmOption": "<p>61</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174906,
+          "QuestionID": 248685,
+          "UmOption": "<p>62</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174907,
+          "QuestionID": 248685,
+          "UmOption": "<p>63</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174908,
+          "QuestionID": 248685,
+          "UmOption": "<p>64</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248686,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نصاری بڑی تعداد میں آباد تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174909,
+          "QuestionID": 248686,
+          "UmOption": "<p>نجران میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174910,
+          "QuestionID": 248686,
+          "UmOption": "<p>یمن میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174911,
+          "QuestionID": 248686,
+          "UmOption": "<p>طائف میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174912,
+          "QuestionID": 248686,
+          "UmOption": "<p>مدینہ میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248687,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نجران کے عیسائیوں کا وفد مشتمل تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174913,
+          "QuestionID": 248687,
+          "UmOption": "<p>60</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174914,
+          "QuestionID": 248687,
+          "UmOption": "<p>65</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174915,
+          "QuestionID": 248687,
+          "UmOption": "<p>70</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174916,
+          "QuestionID": 248687,
+          "UmOption": "<p>75</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248688,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نجران کے وفد میں سرداروں کی تعداد کتنی تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174917,
+          "QuestionID": 248688,
+          "UmOption": "<p>12</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174918,
+          "QuestionID": 248688,
+          "UmOption": "<p>13</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174919,
+          "QuestionID": 248688,
+          "UmOption": "<p>14</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174920,
+          "QuestionID": 248688,
+          "UmOption": "<p>15</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248689,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>عیسائیوں کے وفد میں خاص افراد کی تعداد کتنی تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174921,
+          "QuestionID": 248689,
+          "UmOption": "<p>2</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174922,
+          "QuestionID": 248689,
+          "UmOption": "<p>3</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174923,
+          "QuestionID": 248689,
+          "UmOption": "<p>4</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174924,
+          "QuestionID": 248689,
+          "UmOption": "<p>5</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248690,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>احد نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174925,
+          "QuestionID": 248690,
+          "UmOption": "<p>پہاڑکا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174926,
+          "QuestionID": 248690,
+          "UmOption": "<p>درخت کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174927,
+          "QuestionID": 248690,
+          "UmOption": "<p>آدمی کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174928,
+          "QuestionID": 248690,
+          "UmOption": "<p>پھل کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248691,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ احد پیش آیا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174929,
+          "QuestionID": 248691,
+          "UmOption": "<p>3 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174930,
+          "QuestionID": 248691,
+          "UmOption": "<p>4 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174931,
+          "QuestionID": 248691,
+          "UmOption": "<p>5ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174932,
+          "QuestionID": 248691,
+          "UmOption": "<p>6 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248692,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ احد میں مسلمانوں کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174933,
+          "QuestionID": 248692,
+          "UmOption": "<p>400</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174934,
+          "QuestionID": 248692,
+          "UmOption": "<p>500</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174935,
+          "QuestionID": 248692,
+          "UmOption": "<p>600</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174936,
+          "QuestionID": 248692,
+          "UmOption": "<p>700</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248693,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ احد میں کفار کی تعداد تگی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174937,
+          "QuestionID": 248693,
+          "UmOption": "<p>3000</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174938,
+          "QuestionID": 248693,
+          "UmOption": "<p>4000</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174939,
+          "QuestionID": 248693,
+          "UmOption": "<p>5000</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174940,
+          "QuestionID": 248693,
+          "UmOption": "<p>6000</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248694,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضرت حمزہؓ کس غزوہ میں شہید ہوئے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174941,
+          "QuestionID": 248694,
+          "UmOption": "<p>غزوہ احد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174942,
+          "QuestionID": 248694,
+          "UmOption": "<p>غزوہ بدر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174943,
+          "QuestionID": 248694,
+          "UmOption": "<p>غزوہ خندق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174944,
+          "QuestionID": 248694,
+          "UmOption": "<p>غذوہ تبوک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248695,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ احد میں کتنے مسلمان شہید ہوئے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174945,
+          "QuestionID": 248695,
+          "UmOption": "<p>70</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174946,
+          "QuestionID": 248695,
+          "UmOption": "<p>80</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174947,
+          "QuestionID": 248695,
+          "UmOption": "<p>90</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174948,
+          "QuestionID": 248695,
+          "UmOption": "<p>100</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248696,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضور خاتم النبین ﷺ کے دندان مبارک کس غزوہ میں شہید ہوئے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174949,
+          "QuestionID": 248696,
+          "UmOption": "<p>غزوہ بدر میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174950,
+          "QuestionID": 248696,
+          "UmOption": "<p>غزوہ احد میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174951,
+          "QuestionID": 248696,
+          "UmOption": "<p>غزوہ تبوک میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174952,
+          "QuestionID": 248696,
+          "UmOption": "<p>غزوہ خندق میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248697,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ احد میں کفار کے پاس گھوڑوں کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174953,
+          "QuestionID": 248697,
+          "UmOption": "<p>200</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174954,
+          "QuestionID": 248697,
+          "UmOption": "<p>300</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174955,
+          "QuestionID": 248697,
+          "UmOption": "<p>400</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174956,
+          "QuestionID": 248697,
+          "UmOption": "<p>500</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248698,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ احد میں کفار کے پاس اونٹوں کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174957,
+          "QuestionID": 248698,
+          "UmOption": "<p>100</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174958,
+          "QuestionID": 248698,
+          "UmOption": "<p>200</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174959,
+          "QuestionID": 248698,
+          "UmOption": "<p>300</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174960,
+          "QuestionID": 248698,
+          "UmOption": "<p>400</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248699,
+      "SubjectID": 115,
+      "TopicID": 6866,
+      "TopicRef": "8",
+      "TopicName": "8 سُورَۃُ الِ عِمرٰنَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>منافقین کے سردار کا نام کیا تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174961,
+          "QuestionID": 248699,
+          "UmOption": "<p>عبداللہ بن ابی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174962,
+          "QuestionID": 248699,
+          "UmOption": "<p>ولید</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174963,
+          "QuestionID": 248699,
+          "UmOption": "<p>شیبہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174964,
+          "QuestionID": 248699,
+          "UmOption": "<p>عتبہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248715,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ الانفال ترتیب کے لحاظظ سے سورۃ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174965,
+          "QuestionID": 248715,
+          "UmOption": "<p>آٹھویں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174966,
+          "QuestionID": 248715,
+          "UmOption": "<p>نوٰں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174967,
+          "QuestionID": 248715,
+          "UmOption": "<p>دسویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174968,
+          "QuestionID": 248715,
+          "UmOption": "<p>گیارویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248716,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>الانفال کے معنی ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174969,
+          "QuestionID": 248716,
+          "UmOption": "<p>نفل</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174970,
+          "QuestionID": 248716,
+          "UmOption": "<p>تنفیل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174971,
+          "QuestionID": 248716,
+          "UmOption": "<p>نفال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174972,
+          "QuestionID": 248716,
+          "UmOption": "<p>نفعل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248717,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نفل کا معنی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174973,
+          "QuestionID": 248717,
+          "UmOption": "<p>زائد چیز</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174974,
+          "QuestionID": 248717,
+          "UmOption": "<p>نکمی چیز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174975,
+          "QuestionID": 248717,
+          "UmOption": "<p>عمدہ چیز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174976,
+          "QuestionID": 248717,
+          "UmOption": "<p>سستی چیز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248718,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ کا لغوی معنی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174977,
+          "QuestionID": 248718,
+          "UmOption": "<p>صلح</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174978,
+          "QuestionID": 248718,
+          "UmOption": "<p>امن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174979,
+          "QuestionID": 248718,
+          "UmOption": "<p>لڑائی یا جنگ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174980,
+          "QuestionID": 248718,
+          "UmOption": "<p>معاہدہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248719,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضرت محمد خاتم النبین ﷺ کا پہلا غزوہ تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174981,
+          "QuestionID": 248719,
+          "UmOption": "<p>بدر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174982,
+          "QuestionID": 248719,
+          "UmOption": "<p>احد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174983,
+          "QuestionID": 248719,
+          "UmOption": "<p>تبوک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174984,
+          "QuestionID": 248719,
+          "UmOption": "<p>خندق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248720,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام اور کفر کے درمیان پہلے باقاعدہ معرکے کی حیثیت رکھتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174985,
+          "QuestionID": 248720,
+          "UmOption": "<p>غزوہ احد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174986,
+          "QuestionID": 248720,
+          "UmOption": "<p>غزوہ بدر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174987,
+          "QuestionID": 248720,
+          "UmOption": "<p>غزوہ تبوک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174988,
+          "QuestionID": 248720,
+          "UmOption": "<p>غزوہ خندق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248721,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ بدر کا ذکر تفصیل کے ساتھ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174989,
+          "QuestionID": 248721,
+          "UmOption": "<p>سورۃ الانفال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174990,
+          "QuestionID": 248721,
+          "UmOption": "<p>سورۃ التوبہ میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174991,
+          "QuestionID": 248721,
+          "UmOption": "<p>سورۃ الاحزاب میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174992,
+          "QuestionID": 248721,
+          "UmOption": "<p>سورۃ آل عمران میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248722,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ بدر ہوا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174993,
+          "QuestionID": 248722,
+          "UmOption": "<p>17 رمضان 2 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174994,
+          "QuestionID": 248722,
+          "UmOption": "<p>18 رمضان 2 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174995,
+          "QuestionID": 248722,
+          "UmOption": "<p>19 رمضان 2 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174996,
+          "QuestionID": 248722,
+          "UmOption": "<p>20 رمضان 2 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248723,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ابو جہل نے دوران طواف دھمکی دی تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174997,
+          "QuestionID": 248723,
+          "UmOption": "<p>سعد بن معاذ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174998,
+          "QuestionID": 248723,
+          "UmOption": "<p>سعید بن معاذ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174999,
+          "QuestionID": 248723,
+          "UmOption": "<p>معاذ بن جبل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175000,
+          "QuestionID": 248723,
+          "UmOption": "<p>سعد بن عبادہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248724,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ابو جہل کس غزوہ میں مارا گیا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175001,
+          "QuestionID": 248724,
+          "UmOption": "<p>غزوہ بدر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175002,
+          "QuestionID": 248724,
+          "UmOption": "<p>غزوہ احد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175003,
+          "QuestionID": 248724,
+          "UmOption": "<p>غزوہ خندق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175004,
+          "QuestionID": 248724,
+          "UmOption": "<p>غزوہ تبوک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248725,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ بدر میں مسلمانوں کے پاس کل اونٹ تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175005,
+          "QuestionID": 248725,
+          "UmOption": "<p>70</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175006,
+          "QuestionID": 248725,
+          "UmOption": "<p>80</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175007,
+          "QuestionID": 248725,
+          "UmOption": "<p>90</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175008,
+          "QuestionID": 248725,
+          "UmOption": "<p>100</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248726,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ بدر میں مسلمانوں کے پاس کل گھوڑے تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175009,
+          "QuestionID": 248726,
+          "UmOption": "<p>2</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175010,
+          "QuestionID": 248726,
+          "UmOption": "<p>3</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175011,
+          "QuestionID": 248726,
+          "UmOption": "<p>4</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175012,
+          "QuestionID": 248726,
+          "UmOption": "<p>5</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248727,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ بدر میں مسلمانوں کے پاس زرہیں تھیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175013,
+          "QuestionID": 248727,
+          "UmOption": "<p>60</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175014,
+          "QuestionID": 248727,
+          "UmOption": "<p>70</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175015,
+          "QuestionID": 248727,
+          "UmOption": "<p>80</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175016,
+          "QuestionID": 248727,
+          "UmOption": "<p>90</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248728,
+      "SubjectID": 115,
+      "TopicID": 6867,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ الاَنَفَالِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ بدر میں ہلاک کفار کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175017,
+          "QuestionID": 248728,
+          "UmOption": "<p>70</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175018,
+          "QuestionID": 248728,
+          "UmOption": "<p>80</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175019,
+          "QuestionID": 248728,
+          "UmOption": "<p>85</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175020,
+          "QuestionID": 248728,
+          "UmOption": "<p>90</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248752,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کس سورٹ کے آغاز میں بسم اللہ لکھی ہوئی نہیں ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175021,
+          "QuestionID": 248752,
+          "UmOption": "<p>سورۃ التوبۃ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175022,
+          "QuestionID": 248752,
+          "UmOption": "<p>سورۃ الانفال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175023,
+          "QuestionID": 248752,
+          "UmOption": "<p>سورۃ الاحزاب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175024,
+          "QuestionID": 248752,
+          "UmOption": "<p>سورۃ لرحمن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248753,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سورۃ التوبۃ قرآن پاک کی ترتیب کے لحاظ سے سورت ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175025,
+          "QuestionID": 248753,
+          "UmOption": "<p>نویں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175026,
+          "QuestionID": 248753,
+          "UmOption": "<p>دسویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175027,
+          "QuestionID": 248753,
+          "UmOption": "<p>گیارویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175028,
+          "QuestionID": 248753,
+          "UmOption": "<p>بارہوں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248754,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>براءت کا معنی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175029,
+          "QuestionID": 248754,
+          "UmOption": "<p>بیزار ہونا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175030,
+          "QuestionID": 248754,
+          "UmOption": "<p>قطع تعلق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175031,
+          "QuestionID": 248754,
+          "UmOption": "<p>دست بردار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175032,
+          "QuestionID": 248754,
+          "UmOption": "<p>تمام&nbsp;درست</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248755,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ موتہ میں مسلمانوں کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175033,
+          "QuestionID": 248755,
+          "UmOption": "<p>3000</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175034,
+          "QuestionID": 248755,
+          "UmOption": "<p>3100</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175035,
+          "QuestionID": 248755,
+          "UmOption": "<p>3500</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175036,
+          "QuestionID": 248755,
+          "UmOption": "<p>4000</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248756,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ موتہ میں عیسائی لشکر کی تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175037,
+          "QuestionID": 248756,
+          "UmOption": "<p>دو لاکھ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175038,
+          "QuestionID": 248756,
+          "UmOption": "<p>تین لاکھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175039,
+          "QuestionID": 248756,
+          "UmOption": "<p>چار لاکھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175040,
+          "QuestionID": 248756,
+          "UmOption": "<p>پانچ لاکھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248757,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کس غزوہ کےلیے حضور اکرم خاتم النبین ﷺ نے عام اعلان فرمایا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175041,
+          "QuestionID": 248757,
+          "UmOption": "<p>غزوہ بدر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175042,
+          "QuestionID": 248757,
+          "UmOption": "<p>غزوہ تبوک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175043,
+          "QuestionID": 248757,
+          "UmOption": "<p>غزوہ احد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175044,
+          "QuestionID": 248757,
+          "UmOption": "<p>غزوہ موتہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248758,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضور اکرم خاتم النبین ﷺ ملک شام کےلیے روانہ ہوئے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175045,
+          "QuestionID": 248758,
+          "UmOption": "<p>رجب نو ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175046,
+          "QuestionID": 248758,
+          "UmOption": "<p>شعبان نو ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175047,
+          "QuestionID": 248758,
+          "UmOption": "<p>رمضان نو ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175048,
+          "QuestionID": 248758,
+          "UmOption": "<p>شوال نو ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248759,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ تبوک میں مجاہدین کے کل تعداد تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175049,
+          "QuestionID": 248759,
+          "UmOption": "<p>اکتیس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175050,
+          "QuestionID": 248759,
+          "UmOption": "<p>تیس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175051,
+          "QuestionID": 248759,
+          "UmOption": "<p>بیس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175052,
+          "QuestionID": 248759,
+          "UmOption": "<p>دس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248760,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوہ تبوک میں سوار تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175053,
+          "QuestionID": 248760,
+          "UmOption": "<p>دس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175054,
+          "QuestionID": 248760,
+          "UmOption": "<p>بیس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175055,
+          "QuestionID": 248760,
+          "UmOption": "<p>تیس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175056,
+          "QuestionID": 248760,
+          "UmOption": "<p>چالیس ہزار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248761,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مسلمان فوج نے تبوک میں پڑاؤ کیا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175057,
+          "QuestionID": 248761,
+          "UmOption": "<p>بیس دن</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175058,
+          "QuestionID": 248761,
+          "UmOption": "<p>تیس دن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175059,
+          "QuestionID": 248761,
+          "UmOption": "<p>چالیس دن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175060,
+          "QuestionID": 248761,
+          "UmOption": "<p>پچاس دن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248762,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>روم کے بادشاہ کانام تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175061,
+          "QuestionID": 248762,
+          "UmOption": "<p>ہرقل</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175062,
+          "QuestionID": 248762,
+          "UmOption": "<p>قیصر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175063,
+          "QuestionID": 248762,
+          "UmOption": "<p>مقوقس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175064,
+          "QuestionID": 248762,
+          "UmOption": "<p>یوحنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248763,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایلہ کا رئیس تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175065,
+          "QuestionID": 248763,
+          "UmOption": "<p>ہرقل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175066,
+          "QuestionID": 248763,
+          "UmOption": "<p>قیصر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175067,
+          "QuestionID": 248763,
+          "UmOption": "<p>مقوقس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175068,
+          "QuestionID": 248763,
+          "UmOption": "<p>یوحنا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248764,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غزوۃ العسرہ اور آخری غزوہ کیا جاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175069,
+          "QuestionID": 248764,
+          "UmOption": "<p>غزوہ تبوک کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175070,
+          "QuestionID": 248764,
+          "UmOption": "<p>غزوہ موتہ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175071,
+          "QuestionID": 248764,
+          "UmOption": "<p>غزوہ حنین کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175072,
+          "QuestionID": 248764,
+          "UmOption": "<p>غزوہ طائف کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248765,
+      "SubjectID": 115,
+      "TopicID": 6868,
+      "TopicRef": "16",
+      "TopicName": "16 سُورَۃُ  التَّوبَۃِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کس غزوہ میں حضرت ابو بکر صدیقؓ نے گھر کا پورا سامان&nbsp;اللہ کی راہ میں وقف کیا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 175073,
+          "QuestionID": 248765,
+          "UmOption": "<p>غزوہ تبوک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 175074,
+          "QuestionID": 248765,
+          "UmOption": "<p>غزوہ بدر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175075,
+          "QuestionID": 248765,
+          "UmOption": "<p>غزوہ احد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 175076,
+          "QuestionID": 248765,
+          "UmOption": "<p>غزوہ موتہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    }
+  ]
+}

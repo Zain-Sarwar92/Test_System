@@ -1,0 +1,68 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Business Statistics",
+  "slug": "business-statistics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "What Is Statistics?",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "What Is Statistics?"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Presentation of Data",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Presentation of Data"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Averages of First Order",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Averages of First Order"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Index Numbers",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Index Numbers"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Basic Set Theory and Counting Techniques",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Basic Set Theory and Counting Techniques"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Probability Theory",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Probability Theory"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6117 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "12",
+  "className": "INTER-II",
+  "subject": "BIOLOGY",
+  "slug": "biology",
+  "type": "mcq",
+  "field": "MCQ",
+  "exportName": "mcq",
+  "subTypeId": 1,
+  "total": 122,
+  "exportedAt": "2026-08-10T13:03:14.604Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 530070,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which term covers the rest of the three?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517401,
+          "QuestionID": 530070,
+          "UmOption": null,
+          "EmOption": "<p>Osmoregulation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517402,
+          "QuestionID": 530070,
+          "UmOption": null,
+          "EmOption": "<p>Excretion</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517403,
+          "QuestionID": 530070,
+          "UmOption": null,
+          "EmOption": "<p>Thermoregulation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517404,
+          "QuestionID": 530070,
+          "UmOption": null,
+          "EmOption": "<p>Homeostasis</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530073,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Marine fishes compensate for water loss by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517413,
+          "QuestionID": 530073,
+          "UmOption": null,
+          "EmOption": "<p>Producing dilute uine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517414,
+          "QuestionID": 530073,
+          "UmOption": null,
+          "EmOption": "<p>Drinking seawater</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517415,
+          "QuestionID": 530073,
+          "UmOption": null,
+          "EmOption": "<p>Absorbing salt</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517416,
+          "QuestionID": 530073,
+          "UmOption": null,
+          "EmOption": "<p>Reducing thirst</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530075,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do freshwater fish primarily gain water?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517421,
+          "QuestionID": 530075,
+          "UmOption": null,
+          "EmOption": "<p>Drinking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517422,
+          "QuestionID": 530075,
+          "UmOption": null,
+          "EmOption": "<p>Active transport</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517423,
+          "QuestionID": 530075,
+          "UmOption": null,
+          "EmOption": "<p>Osmosis</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517424,
+          "QuestionID": 530075,
+          "UmOption": null,
+          "EmOption": "<p>Diffusion</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530078,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the primary heat source for endotherms?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517433,
+          "QuestionID": 530078,
+          "UmOption": null,
+          "EmOption": "<p>Sunlight</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517434,
+          "QuestionID": 530078,
+          "UmOption": null,
+          "EmOption": "<p>Internal metabolism</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517435,
+          "QuestionID": 530078,
+          "UmOption": null,
+          "EmOption": "<p>Warm rocks</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517436,
+          "QuestionID": 530078,
+          "UmOption": null,
+          "EmOption": "<p>Convection</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530080,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the control center for human thermoregulation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517441,
+          "QuestionID": 530080,
+          "UmOption": null,
+          "EmOption": "<p>Pituitary gland</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517442,
+          "QuestionID": 530080,
+          "UmOption": null,
+          "EmOption": "<p>Hypothalamus</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517443,
+          "QuestionID": 530080,
+          "UmOption": null,
+          "EmOption": "<p>Adrenal gland</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517444,
+          "QuestionID": 530080,
+          "UmOption": null,
+          "EmOption": "<p>Medulla oblongat</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530081,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which waste product requires the most water for excretion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517445,
+          "QuestionID": 530081,
+          "UmOption": null,
+          "EmOption": "<p>Ammonia</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517446,
+          "QuestionID": 530081,
+          "UmOption": null,
+          "EmOption": "<p>Urea</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517447,
+          "QuestionID": 530081,
+          "UmOption": null,
+          "EmOption": "<p>Uric acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517448,
+          "QuestionID": 530081,
+          "UmOption": null,
+          "EmOption": "<p>Creatinine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530084,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which nitrogenous waste is the least toxic and water-insoluble?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517457,
+          "QuestionID": 530084,
+          "UmOption": null,
+          "EmOption": "<p>Urea</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517458,
+          "QuestionID": 530084,
+          "UmOption": null,
+          "EmOption": "<p>Ammonia</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517459,
+          "QuestionID": 530084,
+          "UmOption": null,
+          "EmOption": "<p>Uric acid</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517460,
+          "QuestionID": 530084,
+          "UmOption": null,
+          "EmOption": "<p>Nitrate</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530086,
+      "SubjectID": 116,
+      "TopicID": 15514,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In which part of the body, the conversion of ammonia to urea takes place?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517465,
+          "QuestionID": 530086,
+          "UmOption": null,
+          "EmOption": "<p>Liver</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517466,
+          "QuestionID": 530086,
+          "UmOption": null,
+          "EmOption": "<p>Muscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517467,
+          "QuestionID": 530086,
+          "UmOption": null,
+          "EmOption": "<p>Brain</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517468,
+          "QuestionID": 530086,
+          "UmOption": null,
+          "EmOption": "<p>Small intestine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530420,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one of these is not a part of single nephron?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517973,
+          "QuestionID": 530420,
+          "UmOption": null,
+          "EmOption": "<p>Distal convoluted tubule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517974,
+          "QuestionID": 530420,
+          "UmOption": null,
+          "EmOption": "<p>Collecting duct</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517975,
+          "QuestionID": 530420,
+          "UmOption": null,
+          "EmOption": "<p>Bowman’s capsule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517976,
+          "QuestionID": 530420,
+          "UmOption": null,
+          "EmOption": "<p>Loop of Henle</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530421,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In a healthy person, glucose is present in blood but not in urine. This is because glucose molecules are;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517977,
+          "QuestionID": 530421,
+          "UmOption": null,
+          "EmOption": "<p>Reabsorbed from the proximal convoluted tubule to blood</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517978,
+          "QuestionID": 530421,
+          "UmOption": null,
+          "EmOption": "<p>Oxidised in kidneys</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517979,
+          "QuestionID": 530421,
+          "UmOption": null,
+          "EmOption": "<p>Stored in kidneys</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517980,
+          "QuestionID": 530421,
+          "UmOption": null,
+          "EmOption": "<p>Too large to enter Bowman's capsule</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530422,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The sizes of molecules present in Bowman's capsule are smaller than the sizes of molecules present in;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517981,
+          "QuestionID": 530422,
+          "UmOption": null,
+          "EmOption": "<p>Afferent renal arteriole</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517982,
+          "QuestionID": 530422,
+          "UmOption": null,
+          "EmOption": "<p>Collecting duct</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517983,
+          "QuestionID": 530422,
+          "UmOption": null,
+          "EmOption": "<p>Loop of Henle</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517984,
+          "QuestionID": 530422,
+          "UmOption": null,
+          "EmOption": "<p>Proximal tubule</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530423,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If a drug reduces mitochondrial activity in nephrons, which chemical will be present in increased amounts in the urine?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517985,
+          "QuestionID": 530423,
+          "UmOption": null,
+          "EmOption": "<p>Ammonia</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517986,
+          "QuestionID": 530423,
+          "UmOption": null,
+          "EmOption": "<p>Glucose</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517987,
+          "QuestionID": 530423,
+          "UmOption": null,
+          "EmOption": "<p>Uric acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517988,
+          "QuestionID": 530423,
+          "UmOption": null,
+          "EmOption": "<p>Urea</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530424,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The water content of blood is regulated by ADH. In which part of the nephron this regulation occurs?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517989,
+          "QuestionID": 530424,
+          "UmOption": null,
+          "EmOption": "<p>Bowman's capsule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517990,
+          "QuestionID": 530424,
+          "UmOption": null,
+          "EmOption": "<p>Proximal convoluted tubule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517991,
+          "QuestionID": 530424,
+          "UmOption": null,
+          "EmOption": "<p>Loop of Henle</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517992,
+          "QuestionID": 530424,
+          "UmOption": null,
+          "EmOption": "<p>Collecting duct</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530425,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In kidneys, glucose is reabsorbed into blood. Where does this reabsorption occur?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517993,
+          "QuestionID": 530425,
+          "UmOption": null,
+          "EmOption": "<p>Bowman’s capsule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517994,
+          "QuestionID": 530425,
+          "UmOption": null,
+          "EmOption": "<p>Glomerulus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517995,
+          "QuestionID": 530425,
+          "UmOption": null,
+          "EmOption": "<p>Proximal convoluted tubule</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 517996,
+          "QuestionID": 530425,
+          "UmOption": null,
+          "EmOption": "<p>Collecting duct</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530426,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In normal conditions, which one is completely reabsorbed from renal tubule into blood?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 517997,
+          "QuestionID": 530426,
+          "UmOption": null,
+          "EmOption": "<p>Urea</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517998,
+          "QuestionID": 530426,
+          "UmOption": null,
+          "EmOption": "<p>Water</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 517999,
+          "QuestionID": 530426,
+          "UmOption": null,
+          "EmOption": "<p>Salts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518000,
+          "QuestionID": 530426,
+          "UmOption": null,
+          "EmOption": "<p>Glucose</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530428,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If the loops of Henle are absent in all nephrons, what would happen?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518005,
+          "QuestionID": 530428,
+          "UmOption": null,
+          "EmOption": "<p>No urine formation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518006,
+          "QuestionID": 530428,
+          "UmOption": null,
+          "EmOption": "<p>Formation of urine with normal concentration</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518007,
+          "QuestionID": 530428,
+          "UmOption": null,
+          "EmOption": "<p>Formation of concentrated urine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518008,
+          "QuestionID": 530428,
+          "UmOption": null,
+          "EmOption": "<p>Formation of dilute urine</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530430,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In peritoneal dialysis, the lining of which part of the body acts as a filter?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518013,
+          "QuestionID": 530430,
+          "UmOption": null,
+          "EmOption": "<p>Stomach</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518014,
+          "QuestionID": 530430,
+          "UmOption": null,
+          "EmOption": "<p>Intestine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518015,
+          "QuestionID": 530430,
+          "UmOption": null,
+          "EmOption": "<p>Lungs</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518016,
+          "QuestionID": 530430,
+          "UmOption": null,
+          "EmOption": "<p>Abdomen</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530434,
+      "SubjectID": 116,
+      "TopicID": 15610,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>During which of these treatments, the patients are prescribed immunosuppressant drugs?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518025,
+          "QuestionID": 530434,
+          "UmOption": null,
+          "EmOption": "<p>Lithotripsy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518026,
+          "QuestionID": 530434,
+          "UmOption": null,
+          "EmOption": "<p>Haemodialysis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518027,
+          "QuestionID": 530434,
+          "UmOption": null,
+          "EmOption": "<p>Kidney transplant</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518028,
+          "QuestionID": 530434,
+          "UmOption": null,
+          "EmOption": "<p>Peritoneal dialysis</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530725,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Neurotransmitter receptors are located on;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518517,
+          "QuestionID": 530725,
+          "UmOption": null,
+          "EmOption": "<p>Nuclear membrane</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518518,
+          "QuestionID": 530725,
+          "UmOption": null,
+          "EmOption": "<p>Nodes of Ranvier</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518519,
+          "QuestionID": 530725,
+          "UmOption": null,
+          "EmOption": "<p>Postsynaptic membrane</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518520,
+          "QuestionID": 530725,
+          "UmOption": null,
+          "EmOption": "<p>Myelin sheath</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530726,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which neurotransmitter is released by all motor neurons at their synapses with skeletal muscles?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518521,
+          "QuestionID": 530726,
+          "UmOption": null,
+          "EmOption": "<p>Acetylcholine</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518522,
+          "QuestionID": 530726,
+          "UmOption": null,
+          "EmOption": "<p>GABA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518523,
+          "QuestionID": 530726,
+          "UmOption": null,
+          "EmOption": "<p>Norepinephrine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518524,
+          "QuestionID": 530726,
+          "UmOption": null,
+          "EmOption": "<p>Dopamine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530730,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which part of the nervous system prepares the body during emergency?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518525,
+          "QuestionID": 530730,
+          "UmOption": null,
+          "EmOption": "<p>Central nervous system</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518526,
+          "QuestionID": 530730,
+          "UmOption": null,
+          "EmOption": "<p>Sympathetic nervous system</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518527,
+          "QuestionID": 530730,
+          "UmOption": null,
+          "EmOption": "<p>Parasympathetic nervous system</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518528,
+          "QuestionID": 530730,
+          "UmOption": null,
+          "EmOption": "<p>Sensory pathway</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530734,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of these is closest to the brain tissue?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518529,
+          "QuestionID": 530734,
+          "UmOption": null,
+          "EmOption": "<p>Acetylcholine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518530,
+          "QuestionID": 530734,
+          "UmOption": null,
+          "EmOption": "<p>Arachnoid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518531,
+          "QuestionID": 530734,
+          "UmOption": null,
+          "EmOption": "<p>Pia mater</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518532,
+          "QuestionID": 530734,
+          "UmOption": null,
+          "EmOption": "<p>Cranium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530738,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In meninges, the cerebrospinal fluid is present between;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518533,
+          "QuestionID": 530738,
+          "UmOption": null,
+          "EmOption": "<p>Skull and dura mater</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518534,
+          "QuestionID": 530738,
+          "UmOption": null,
+          "EmOption": "<p>Dura mater and arachnoid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518535,
+          "QuestionID": 530738,
+          "UmOption": null,
+          "EmOption": "<p>Arachnoid and pia mater</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518536,
+          "QuestionID": 530738,
+          "UmOption": null,
+          "EmOption": "<p>Pia mater and brain or spinal cord</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530740,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which is NOT a function of cerebrospinal fluid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518537,
+          "QuestionID": 530740,
+          "UmOption": null,
+          "EmOption": "<p>Cushions brain</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518538,
+          "QuestionID": 530740,
+          "UmOption": null,
+          "EmOption": "<p>Produces hormones</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518539,
+          "QuestionID": 530740,
+          "UmOption": null,
+          "EmOption": "<p>Transport nutrients to brain</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518540,
+          "QuestionID": 530740,
+          "UmOption": null,
+          "EmOption": "<p>Protects the spinal cord</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530741,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>During saltatory conduction, the nerve impulse jumps from one ...... to another</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518541,
+          "QuestionID": 530741,
+          "UmOption": null,
+          "EmOption": "<p>Axon</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518542,
+          "QuestionID": 530741,
+          "UmOption": null,
+          "EmOption": "<p>Synapse</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518543,
+          "QuestionID": 530741,
+          "UmOption": null,
+          "EmOption": "<p>Myelin sheath</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518544,
+          "QuestionID": 530741,
+          "UmOption": null,
+          "EmOption": "<p>None of Ranvier</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530742,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In a resting neuron, which of these ions has the highest permeability?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518545,
+          "QuestionID": 530742,
+          "UmOption": null,
+          "EmOption": "<p>Chloride</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518546,
+          "QuestionID": 530742,
+          "UmOption": null,
+          "EmOption": "<p>Sodium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518547,
+          "QuestionID": 530742,
+          "UmOption": null,
+          "EmOption": "<p>Potassium</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518548,
+          "QuestionID": 530742,
+          "UmOption": null,
+          "EmOption": "<p>Calcium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530744,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If nerve impulses in a neuron ‘a’ are travelling faster than the impulses in neuron ‘b’, what might be the reason? </p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518549,
+          "QuestionID": 530744,
+          "UmOption": null,
+          "EmOption": "<p>Hyperpolarization in neuron ‘a’</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518550,
+          "QuestionID": 530744,
+          "UmOption": null,
+          "EmOption": "<p>Neuron ‘a’ is myelinated</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518551,
+          "QuestionID": 530744,
+          "UmOption": null,
+          "EmOption": "<p>There is a high concentration of sodium ions inside neuron ‘a’</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518552,
+          "QuestionID": 530744,
+          "UmOption": null,
+          "EmOption": "<p>Neuron ‘a’ is thicker than neuron ‘b’</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530746,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Dorsal root of spinal nerve contains?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518553,
+          "QuestionID": 530746,
+          "UmOption": null,
+          "EmOption": "<p>Sensory neurons</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518554,
+          "QuestionID": 530746,
+          "UmOption": null,
+          "EmOption": "<p>Inter-neurons</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518555,
+          "QuestionID": 530746,
+          "UmOption": null,
+          "EmOption": "<p>Motor neurons</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518556,
+          "QuestionID": 530746,
+          "UmOption": null,
+          "EmOption": "<p>Sensory and motor neurons</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530749,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which ions cause the presynaptic vesicles to fuse with the presynaptic membrane and release a neurotransmitter into the synaptic area?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518557,
+          "QuestionID": 530749,
+          "UmOption": null,
+          "EmOption": "<p>Sodium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518558,
+          "QuestionID": 530749,
+          "UmOption": null,
+          "EmOption": "<p>Potassium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518559,
+          "QuestionID": 530749,
+          "UmOption": null,
+          "EmOption": "<p>Calcium</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518560,
+          "QuestionID": 530749,
+          "UmOption": null,
+          "EmOption": "<p>Iodine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530751,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The most common cause of dementia is;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518561,
+          "QuestionID": 530751,
+          "UmOption": null,
+          "EmOption": "<p>Alzheimer's disease</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518562,
+          "QuestionID": 530751,
+          "UmOption": null,
+          "EmOption": "<p>Brain tumour</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518563,
+          "QuestionID": 530751,
+          "UmOption": null,
+          "EmOption": "<p>Stroke</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518564,
+          "QuestionID": 530751,
+          "UmOption": null,
+          "EmOption": "<p>Meningitis</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530753,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Nociceptors are specialized receptors that detect:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518565,
+          "QuestionID": 530753,
+          "UmOption": null,
+          "EmOption": "<p>Light touch</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518566,
+          "QuestionID": 530753,
+          "UmOption": null,
+          "EmOption": "<p>Deep pressure</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518567,
+          "QuestionID": 530753,
+          "UmOption": null,
+          "EmOption": "<p>Pain</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518568,
+          "QuestionID": 530753,
+          "UmOption": null,
+          "EmOption": "<p>Taste</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530754,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which receptor detects deep pressure and vibration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518569,
+          "QuestionID": 530754,
+          "UmOption": null,
+          "EmOption": "<p>Meissner’s corpuscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518570,
+          "QuestionID": 530754,
+          "UmOption": null,
+          "EmOption": "<p>Pacinian corpuscles</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518571,
+          "QuestionID": 530754,
+          "UmOption": null,
+          "EmOption": "<p>Merkel cells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518572,
+          "QuestionID": 530754,
+          "UmOption": null,
+          "EmOption": "<p>Ruffini endings</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530756,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a narcotic drug used for pain relief?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518573,
+          "QuestionID": 530756,
+          "UmOption": null,
+          "EmOption": "<p>Caffeine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518574,
+          "QuestionID": 530756,
+          "UmOption": null,
+          "EmOption": "<p>Morphine</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518575,
+          "QuestionID": 530756,
+          "UmOption": null,
+          "EmOption": "<p>Alcohol</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518576,
+          "QuestionID": 530756,
+          "UmOption": null,
+          "EmOption": "<p>Nicotine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530758,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Withdrawal symptoms of drug abuse include:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518577,
+          "QuestionID": 530758,
+          "UmOption": null,
+          "EmOption": "<p>Improved concentration</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518578,
+          "QuestionID": 530758,
+          "UmOption": null,
+          "EmOption": "<p>Headache, nausea, and anxiety</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518579,
+          "QuestionID": 530758,
+          "UmOption": null,
+          "EmOption": "<p>Increased euphoria</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518580,
+          "QuestionID": 530758,
+          "UmOption": null,
+          "EmOption": "<p>Faster drug metabolism</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530759,
+      "SubjectID": 116,
+      "TopicID": 15623,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Caffeine increases alertness by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518581,
+          "QuestionID": 530759,
+          "UmOption": null,
+          "EmOption": "<p>Increasing dopamine receptors</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518582,
+          "QuestionID": 530759,
+          "UmOption": null,
+          "EmOption": "<p>Blocking adenosine receptors</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518583,
+          "QuestionID": 530759,
+          "UmOption": null,
+          "EmOption": "<p>Stimulating nociceptors</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518584,
+          "QuestionID": 530759,
+          "UmOption": null,
+          "EmOption": "<p>Enhancing serotonin degradation</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530845,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following pair of hormones has antagonistic (opposing) effects?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518617,
+          "QuestionID": 530845,
+          "UmOption": null,
+          "EmOption": "<p>Parathyroid hormone and calcitonin</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518618,
+          "QuestionID": 530845,
+          "UmOption": null,
+          "EmOption": "<p>Growth hormone and epinephrine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518619,
+          "QuestionID": 530845,
+          "UmOption": null,
+          "EmOption": "<p>Estrogen and progesterone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518620,
+          "QuestionID": 530845,
+          "UmOption": null,
+          "EmOption": "<p>Cortisol and aldosterone</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530847,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which gland produces hormones that control other endocrine glands?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518625,
+          "QuestionID": 530847,
+          "UmOption": null,
+          "EmOption": "<p>Anterior pituitary</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518626,
+          "QuestionID": 530847,
+          "UmOption": null,
+          "EmOption": "<p>Posterior pituitary</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518627,
+          "QuestionID": 530847,
+          "UmOption": null,
+          "EmOption": "<p>Thyroid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518628,
+          "QuestionID": 530847,
+          "UmOption": null,
+          "EmOption": "<p>Intermediate pituitary</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530848,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is NOT released by anterior pituitary?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518629,
+          "QuestionID": 530848,
+          "UmOption": null,
+          "EmOption": "<p>Prolactin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518630,
+          "QuestionID": 530848,
+          "UmOption": null,
+          "EmOption": "<p>ADH</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518631,
+          "QuestionID": 530848,
+          "UmOption": null,
+          "EmOption": "<p>FSH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518632,
+          "QuestionID": 530848,
+          "UmOption": null,
+          "EmOption": "<p>TSH</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530865,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Antidiuretic and oxytocin hormones are produced by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518717,
+          "QuestionID": 530865,
+          "UmOption": null,
+          "EmOption": "<p>Anterior pituitary</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518718,
+          "QuestionID": 530865,
+          "UmOption": null,
+          "EmOption": "<p>Posterior pituitary</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518719,
+          "QuestionID": 530865,
+          "UmOption": null,
+          "EmOption": "<p>Intermediate pituitary</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518720,
+          "QuestionID": 530865,
+          "UmOption": null,
+          "EmOption": "<p>Hypothalamus</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530875,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following hormones binds to the receptors located inside the cell?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518721,
+          "QuestionID": 530875,
+          "UmOption": null,
+          "EmOption": "<p>FSH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518722,
+          "QuestionID": 530875,
+          "UmOption": null,
+          "EmOption": "<p>Testosterone</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518723,
+          "QuestionID": 530875,
+          "UmOption": null,
+          "EmOption": "<p>Insulin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518724,
+          "QuestionID": 530875,
+          "UmOption": null,
+          "EmOption": "<p>Growth hormone</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530880,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a function of a hormone released by the posterior pituitary?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518725,
+          "QuestionID": 530880,
+          "UmOption": null,
+          "EmOption": "<p>Maturation of egg and sperm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518726,
+          "QuestionID": 530880,
+          "UmOption": null,
+          "EmOption": "<p>Decrease in calcium levels</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518727,
+          "QuestionID": 530880,
+          "UmOption": null,
+          "EmOption": "<p>Water retention</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518728,
+          "QuestionID": 530880,
+          "UmOption": null,
+          "EmOption": "<p>Increase in thyroid hormone level</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530882,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following hormones would be expected to increase if you were studying all day for a test and skipped breakfast and lunch?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518729,
+          "QuestionID": 530882,
+          "UmOption": null,
+          "EmOption": "<p>Glucagon</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518730,
+          "QuestionID": 530882,
+          "UmOption": null,
+          "EmOption": "<p>Insulin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518731,
+          "QuestionID": 530882,
+          "UmOption": null,
+          "EmOption": "<p>Growth hormone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518732,
+          "QuestionID": 530882,
+          "UmOption": null,
+          "EmOption": "<p>Calcitonin</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530885,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is both an endocrine and exocrine gland?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518733,
+          "QuestionID": 530885,
+          "UmOption": null,
+          "EmOption": "<p>Anterior pituitary</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518734,
+          "QuestionID": 530885,
+          "UmOption": null,
+          "EmOption": "<p>Pancreas</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518735,
+          "QuestionID": 530885,
+          "UmOption": null,
+          "EmOption": "<p>Thyroid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518736,
+          "QuestionID": 530885,
+          "UmOption": null,
+          "EmOption": "<p>Adrenal medulla</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530888,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone increases basal metabolic rate in the body?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518737,
+          "QuestionID": 530888,
+          "UmOption": null,
+          "EmOption": "<p>Thyroxine</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518738,
+          "QuestionID": 530888,
+          "UmOption": null,
+          "EmOption": "<p>Parathormone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518739,
+          "QuestionID": 530888,
+          "UmOption": null,
+          "EmOption": "<p>Glucagon</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518740,
+          "QuestionID": 530888,
+          "UmOption": null,
+          "EmOption": "<p>Secretin</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530890,
+      "SubjectID": 116,
+      "TopicID": 15666,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is NOT a site of action of insulin?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518741,
+          "QuestionID": 530890,
+          "UmOption": null,
+          "EmOption": "<p>Smooth muscles</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518742,
+          "QuestionID": 530890,
+          "UmOption": null,
+          "EmOption": "<p>Skeletal muscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518743,
+          "QuestionID": 530890,
+          "UmOption": null,
+          "EmOption": "<p>Adipose tissue</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518744,
+          "QuestionID": 530890,
+          "UmOption": null,
+          "EmOption": "<p>Liver</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530945,
+      "SubjectID": 116,
+      "TopicID": 15668,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Fertilization of the ovum occurs in:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518757,
+          "QuestionID": 530945,
+          "UmOption": null,
+          "EmOption": "<p>Oviduct</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518758,
+          "QuestionID": 530945,
+          "UmOption": null,
+          "EmOption": "<p>Uterus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518759,
+          "QuestionID": 530945,
+          "UmOption": null,
+          "EmOption": "<p>Cervix</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518760,
+          "QuestionID": 530945,
+          "UmOption": null,
+          "EmOption": "<p>Vagina</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530947,
+      "SubjectID": 116,
+      "TopicID": 15668,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which cells of the testis secrete testosterone hormone?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518765,
+          "QuestionID": 530947,
+          "UmOption": null,
+          "EmOption": "<p>Sertoli cells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518766,
+          "QuestionID": 530947,
+          "UmOption": null,
+          "EmOption": "<p>Germline cells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518767,
+          "QuestionID": 530947,
+          "UmOption": null,
+          "EmOption": "<p>Spermatogonia</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518768,
+          "QuestionID": 530947,
+          "UmOption": null,
+          "EmOption": "<p>Leydig cells</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530949,
+      "SubjectID": 116,
+      "TopicID": 15668,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The site of the production of sperm is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518769,
+          "QuestionID": 530949,
+          "UmOption": null,
+          "EmOption": "<p>Seminiferous tubules</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518770,
+          "QuestionID": 530949,
+          "UmOption": null,
+          "EmOption": "<p>Epididymis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518771,
+          "QuestionID": 530949,
+          "UmOption": null,
+          "EmOption": "<p>Seminal vesicle</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518772,
+          "QuestionID": 530949,
+          "UmOption": null,
+          "EmOption": "<p>Vas deference</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530951,
+      "SubjectID": 116,
+      "TopicID": 15668,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which part produces fructose-rich fluid for the sperm?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518777,
+          "QuestionID": 530951,
+          "UmOption": null,
+          "EmOption": "<p>Prostate gland</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518778,
+          "QuestionID": 530951,
+          "UmOption": null,
+          "EmOption": "<p>Seminal vesicles</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518779,
+          "QuestionID": 530951,
+          "UmOption": null,
+          "EmOption": "<p>Testis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518780,
+          "QuestionID": 530951,
+          "UmOption": null,
+          "EmOption": "<p>Bulbourethral gland</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530953,
+      "SubjectID": 116,
+      "TopicID": 15668,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In males, which hormone initiates spermatogenesis?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518785,
+          "QuestionID": 530953,
+          "UmOption": null,
+          "EmOption": "<p>Luteinizing hormone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518786,
+          "QuestionID": 530953,
+          "UmOption": null,
+          "EmOption": "<p>Follicle stimulating hormone</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518787,
+          "QuestionID": 530953,
+          "UmOption": null,
+          "EmOption": "<p>Gonadotropin-releasing hormone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518788,
+          "QuestionID": 530953,
+          "UmOption": null,
+          "EmOption": "<p>Testosterone</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530955,
+      "SubjectID": 116,
+      "TopicID": 15668,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>During ovulation which cell is actually released from ovary?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518793,
+          "QuestionID": 530955,
+          "UmOption": null,
+          "EmOption": "<p>Oogonium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518794,
+          "QuestionID": 530955,
+          "UmOption": null,
+          "EmOption": "<p>Primary oocyte</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518795,
+          "QuestionID": 530955,
+          "UmOption": null,
+          "EmOption": "<p>Secondary oocyte</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518796,
+          "QuestionID": 530955,
+          "UmOption": null,
+          "EmOption": "<p>Mature ovum</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 530956,
+      "SubjectID": 116,
+      "TopicID": 15668,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone stimulates the Graafian follicle to release ovum?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518797,
+          "QuestionID": 530956,
+          "UmOption": null,
+          "EmOption": "<p>LH</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518798,
+          "QuestionID": 530956,
+          "UmOption": null,
+          "EmOption": "<p>FSH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518799,
+          "QuestionID": 530956,
+          "UmOption": null,
+          "EmOption": "<p>Estrogen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518800,
+          "QuestionID": 530956,
+          "UmOption": null,
+          "EmOption": "<p>Progesterone</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531006,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the monohybrid cross of Mendel, when a pure round-seeded plant was crossed with a winkled-seeded plant, all the F1 progeny were round-seeded, because of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518857,
+          "QuestionID": 531006,
+          "UmOption": null,
+          "EmOption": "<p>Co-dominance</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518858,
+          "QuestionID": 531006,
+          "UmOption": null,
+          "EmOption": "<p>Incomplete dominance</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518859,
+          "QuestionID": 531006,
+          "UmOption": null,
+          "EmOption": "<p>Complete dominance</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518860,
+          "QuestionID": 531006,
+          "UmOption": null,
+          "EmOption": "<p>Epistasis</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531008,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In a cross of AaBb x AaBb, what fraction of the offspring can be expected to express one of the two dominant alleles, but not both?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518865,
+          "QuestionID": 531008,
+          "UmOption": null,
+          "EmOption": "<p>1/16</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518866,
+          "QuestionID": 531008,
+          "UmOption": null,
+          "EmOption": "<p>6/16</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518867,
+          "QuestionID": 531008,
+          "UmOption": null,
+          "EmOption": "<p>9/1</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518868,
+          "QuestionID": 531008,
+          "UmOption": null,
+          "EmOption": "<p>16/16</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531010,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In which of these cases, two genes can experience independent assortment?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518873,
+          "QuestionID": 531010,
+          "UmOption": null,
+          "EmOption": "<p>They are located in close proximity on the same chromosome</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518874,
+          "QuestionID": 531010,
+          "UmOption": null,
+          "EmOption": "<p>Crossing over between the genes does not occur</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518875,
+          "QuestionID": 531010,
+          "UmOption": null,
+          "EmOption": "<p>They are located on different chromosomes or are far apart on the same <br />\r\nchromosome.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518876,
+          "QuestionID": 531010,
+          "UmOption": null,
+          "EmOption": "<p>The expression of one gene does not affect the expression of the other</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531011,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The blood group AB may be given to a person who has blood group;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518877,
+          "QuestionID": 531011,
+          "UmOption": null,
+          "EmOption": "<p>A</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518878,
+          "QuestionID": 531011,
+          "UmOption": null,
+          "EmOption": "<p>O</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518879,
+          "QuestionID": 531011,
+          "UmOption": null,
+          "EmOption": "<p>B</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518880,
+          "QuestionID": 531011,
+          "UmOption": null,
+          "EmOption": "<p>AB</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531013,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If father has blood group B and the mother has blood group A, what blood groups their children have?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518885,
+          "QuestionID": 531013,
+          "UmOption": null,
+          "EmOption": "<p>A or B only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518886,
+          "QuestionID": 531013,
+          "UmOption": null,
+          "EmOption": "<p>AB only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518887,
+          "QuestionID": 531013,
+          "UmOption": null,
+          "EmOption": "<p>AB or O only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518888,
+          "QuestionID": 531013,
+          "UmOption": null,
+          "EmOption": "<p>A, B, AB or O</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531017,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A gene for corn has two alleles, one for yellow kernels and one for white kernels. Cross pollination of yellow corn and white corn results in ears with approximately equal number of yellow and white kernels. Which term best describes the relationship between the two alleles?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518893,
+          "QuestionID": 531017,
+          "UmOption": null,
+          "EmOption": "<p>Crossing over</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518894,
+          "QuestionID": 531017,
+          "UmOption": null,
+          "EmOption": "<p>Recombination</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518895,
+          "QuestionID": 531017,
+          "UmOption": null,
+          "EmOption": "<p>Incomplete dominance</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518896,
+          "QuestionID": 531017,
+          "UmOption": null,
+          "EmOption": "<p>Codominance</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531021,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A cross between two plants with genotypes AaBb and AaBb results in an F1 generation that is 25% AABB, 50% AaBb, and 25% aabb. Which reason most likely explains why other possible genotypes are not present?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518901,
+          "QuestionID": 531021,
+          "UmOption": null,
+          "EmOption": "<p>The genes underwent independent assortment</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518902,
+          "QuestionID": 531021,
+          "UmOption": null,
+          "EmOption": "<p>The loci of the genes are close together</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518903,
+          "QuestionID": 531021,
+          "UmOption": null,
+          "EmOption": "<p>The loci of the genes are on different chromosomes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518904,
+          "QuestionID": 531021,
+          "UmOption": null,
+          "EmOption": "<p>Crossing over occurred between chromosomes</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531025,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In pea plants, the allele for tall stalks (T) is dominant over the allele for short stalks (t). Suppose a cross between a tall pea plant and a short pea plant produces 43 tall offspring and 47 short offspring. If one of the tall offspring is crossed with one of the short offspring, what ratio of genotypes would be most likely in their offspring?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518905,
+          "QuestionID": 531025,
+          "UmOption": null,
+          "EmOption": "<p>1 TT : 2 Tt : 1 tt</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518906,
+          "QuestionID": 531025,
+          "UmOption": null,
+          "EmOption": "<p>3 Tt : 1 tt</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518907,
+          "QuestionID": 531025,
+          "UmOption": null,
+          "EmOption": "<p>All Tt</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518908,
+          "QuestionID": 531025,
+          "UmOption": null,
+          "EmOption": "<p>1 Tt : 1 tt</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531030,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Allele B produces black coat colour while b produces white coat colour. Allele C produces curly fur while c produces straight fur. In a cross between two BbCc parents, predict the fraction of offspring with black coat colour and straight fur.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518917,
+          "QuestionID": 531030,
+          "UmOption": null,
+          "EmOption": "<p>1/16</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518918,
+          "QuestionID": 531030,
+          "UmOption": null,
+          "EmOption": "<p>9/16</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518919,
+          "QuestionID": 531030,
+          "UmOption": null,
+          "EmOption": "<p>3/4</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518920,
+          "QuestionID": 531030,
+          "UmOption": null,
+          "EmOption": "<p>16/16</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531034,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the criterion to mark an allele as dominant?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518925,
+          "QuestionID": 531034,
+          "UmOption": null,
+          "EmOption": "<p>The frequency of the allele in population</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518926,
+          "QuestionID": 531034,
+          "UmOption": null,
+          "EmOption": "<p>The expression of the allele in heterozygous genotype</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518927,
+          "QuestionID": 531034,
+          "UmOption": null,
+          "EmOption": "<p>The location of the allele on chromosome</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518928,
+          "QuestionID": 531034,
+          "UmOption": null,
+          "EmOption": "<p>The frequency of the crossing over of the allele</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531036,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of these characters is controlled by a multiple allelic system?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518929,
+          "QuestionID": 531036,
+          "UmOption": null,
+          "EmOption": "<p>ABO blood group system</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518930,
+          "QuestionID": 531036,
+          "UmOption": null,
+          "EmOption": "<p>Rh blood group system</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518931,
+          "QuestionID": 531036,
+          "UmOption": null,
+          "EmOption": "<p>MNS blood group system</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518932,
+          "QuestionID": 531036,
+          "UmOption": null,
+          "EmOption": "<p>All of these</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531038,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Albinism is caused by a recessive gene. A woman with albino father marries an albino man. What will be the proportion of her progeny?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518937,
+          "QuestionID": 531038,
+          "UmOption": null,
+          "EmOption": "<p>2 normal : 1 albino</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518938,
+          "QuestionID": 531038,
+          "UmOption": null,
+          "EmOption": "<p>All normal</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518939,
+          "QuestionID": 531038,
+          "UmOption": null,
+          "EmOption": "<p>All albino</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518940,
+          "QuestionID": 531038,
+          "UmOption": null,
+          "EmOption": "<p>1 normal : 1 albino</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531042,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When the activity of one gene is suppressed by the activity of a non-allelic gene, it is known as;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518945,
+          "QuestionID": 531042,
+          "UmOption": null,
+          "EmOption": "<p>Incomplete dominance</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518946,
+          "QuestionID": 531042,
+          "UmOption": null,
+          "EmOption": "<p>Epistasis</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 518947,
+          "QuestionID": 531042,
+          "UmOption": null,
+          "EmOption": "<p>Complete dominance</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518948,
+          "QuestionID": 531042,
+          "UmOption": null,
+          "EmOption": "<p>Multiple allelic effect</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531045,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a result of Erythroblastosis fetalis?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 518949,
+          "QuestionID": 531045,
+          "UmOption": null,
+          "EmOption": "<p>Anaemia in the foetus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518950,
+          "QuestionID": 531045,
+          "UmOption": null,
+          "EmOption": "<p>Jaundice in the foetus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518951,
+          "QuestionID": 531045,
+          "UmOption": null,
+          "EmOption": "<p>Mental retardation in the foetus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 518952,
+          "QuestionID": 531045,
+          "UmOption": null,
+          "EmOption": "<p>All of these</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531084,
+      "SubjectID": 116,
+      "TopicID": 15677,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Colour blindness is more common in males because it is a/an;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519053,
+          "QuestionID": 531084,
+          "UmOption": null,
+          "EmOption": "<p>Autosomal trait</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519054,
+          "QuestionID": 531084,
+          "UmOption": null,
+          "EmOption": "<p>X-linked dominant trait</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519055,
+          "QuestionID": 531084,
+          "UmOption": null,
+          "EmOption": "<p>X-linked recessive trait</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519056,
+          "QuestionID": 531084,
+          "UmOption": null,
+          "EmOption": "<p>Y-linked trait</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531162,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following looks like beads on a string?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519081,
+          "QuestionID": 531162,
+          "UmOption": null,
+          "EmOption": "<p>Chromosomes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519082,
+          "QuestionID": 531162,
+          "UmOption": null,
+          "EmOption": "<p>Chromatin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519083,
+          "QuestionID": 531162,
+          "UmOption": null,
+          "EmOption": "<p>Nucleosomes</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519084,
+          "QuestionID": 531162,
+          "UmOption": null,
+          "EmOption": "<p>Heterochromatin</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531163,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The most convincing proof that DNA is the genetic material was provided by;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519085,
+          "QuestionID": 531163,
+          "UmOption": null,
+          "EmOption": "<p>Mendel</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519086,
+          "QuestionID": 531163,
+          "UmOption": null,
+          "EmOption": "<p>Morgan</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519087,
+          "QuestionID": 531163,
+          "UmOption": null,
+          "EmOption": "<p>Hershey & Chase</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519088,
+          "QuestionID": 531163,
+          "UmOption": null,
+          "EmOption": "<p>Meselson and Stahl</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531164,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Degeneracy of genetic code means that:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519089,
+          "QuestionID": 531164,
+          "UmOption": null,
+          "EmOption": "<p>A codon consists of 3 nucleotides</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519090,
+          "QuestionID": 531164,
+          "UmOption": null,
+          "EmOption": "<p>Multiple codons can specify the same amino acid</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519091,
+          "QuestionID": 531164,
+          "UmOption": null,
+          "EmOption": "<p>Same codon can specify multiple amino acids</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519092,
+          "QuestionID": 531164,
+          "UmOption": null,
+          "EmOption": "<p>Each codon is read independently of the adjacent codons</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531166,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How many codons are needed to specify for five amino acids?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519097,
+          "QuestionID": 531166,
+          "UmOption": null,
+          "EmOption": "<p>3</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519098,
+          "QuestionID": 531166,
+          "UmOption": null,
+          "EmOption": "<p>5</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519099,
+          "QuestionID": 531166,
+          "UmOption": null,
+          "EmOption": "<p>15</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519100,
+          "QuestionID": 531166,
+          "UmOption": null,
+          "EmOption": "<p>30</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531167,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is NOT involved in the initiation of replication?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519101,
+          "QuestionID": 531167,
+          "UmOption": null,
+          "EmOption": "<p>DNA ligase</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519102,
+          "QuestionID": 531167,
+          "UmOption": null,
+          "EmOption": "<p>DNA gyrase</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519103,
+          "QuestionID": 531167,
+          "UmOption": null,
+          "EmOption": "<p>Single-stranded binding protein</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519104,
+          "QuestionID": 531167,
+          "UmOption": null,
+          "EmOption": "<p>Primase</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531168,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why DNA polymerase synthesises the leading and lagging strands of DNA in different manners?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519105,
+          "QuestionID": 531168,
+          "UmOption": null,
+          "EmOption": "<p>The origins of replication occur only at the 5’ end</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519106,
+          "QuestionID": 531168,
+          "UmOption": null,
+          "EmOption": "<p>DNA ligase works only in the 3’ to 5’ direction</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519107,
+          "QuestionID": 531168,
+          "UmOption": null,
+          "EmOption": "<p>DNA polymerase can only work on one strand at a time</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519108,
+          "QuestionID": 531168,
+          "UmOption": null,
+          "EmOption": "<p>DNA polymerase can join new nucleotides only to the 3’ end of strand</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531171,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Synthesis of a new DNA strand usually begins with:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519113,
+          "QuestionID": 531171,
+          "UmOption": null,
+          "EmOption": "<p>RNA primer</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519114,
+          "QuestionID": 531171,
+          "UmOption": null,
+          "EmOption": "<p>DNA primer</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519115,
+          "QuestionID": 531171,
+          "UmOption": null,
+          "EmOption": "<p>DNA ligase</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519116,
+          "QuestionID": 531171,
+          "UmOption": null,
+          "EmOption": "<p>Okazaki fragment</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531172,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The elongation of the leading strand during DNA synthesis;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519117,
+          "QuestionID": 531172,
+          "UmOption": null,
+          "EmOption": "<p>Progresses away from the replication fork</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519118,
+          "QuestionID": 531172,
+          "UmOption": null,
+          "EmOption": "<p>Occurs in the 3’ – 5’ direction</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519119,
+          "QuestionID": 531172,
+          "UmOption": null,
+          "EmOption": "<p>Produces Okazaki fragments</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519120,
+          "QuestionID": 531172,
+          "UmOption": null,
+          "EmOption": "<p>Depends on the action of polymerase</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531174,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following enzymes remove supercoiling in replicating DNA ahead of the replication fork?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519125,
+          "QuestionID": 531174,
+          "UmOption": null,
+          "EmOption": "<p>DNA polymerases</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519126,
+          "QuestionID": 531174,
+          "UmOption": null,
+          "EmOption": "<p>Helicases</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519127,
+          "QuestionID": 531174,
+          "UmOption": null,
+          "EmOption": "<p>Primases</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519128,
+          "QuestionID": 531174,
+          "UmOption": null,
+          "EmOption": "<p>Topoisomerases</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531175,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which enzyme joins the bits of DNA?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519129,
+          "QuestionID": 531175,
+          "UmOption": null,
+          "EmOption": "<p>DNA polymerase</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519130,
+          "QuestionID": 531175,
+          "UmOption": null,
+          "EmOption": "<p>DNA ligase</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519131,
+          "QuestionID": 531175,
+          "UmOption": null,
+          "EmOption": "<p>Endonuclease</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519132,
+          "QuestionID": 531175,
+          "UmOption": null,
+          "EmOption": "<p>Primase</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531179,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of these subunits of RNA polymerase is required to initiate transcription?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519137,
+          "QuestionID": 531179,
+          "UmOption": null,
+          "EmOption": "<p>Alpha</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519138,
+          "QuestionID": 531179,
+          "UmOption": null,
+          "EmOption": "<p>Sigma</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519139,
+          "QuestionID": 531179,
+          "UmOption": null,
+          "EmOption": "<p>Omega</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519140,
+          "QuestionID": 531179,
+          "UmOption": null,
+          "EmOption": "<p>Beta</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531182,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When and where does the splicing of mRNA occur?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519141,
+          "QuestionID": 531182,
+          "UmOption": null,
+          "EmOption": "<p>Before transcription in nucleus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519142,
+          "QuestionID": 531182,
+          "UmOption": null,
+          "EmOption": "<p>After transcription in nucleus</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519143,
+          "QuestionID": 531182,
+          "UmOption": null,
+          "EmOption": "<p>After transcription in cytoplasm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519144,
+          "QuestionID": 531182,
+          "UmOption": null,
+          "EmOption": "<p>After mRNA attachment with ribosome</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531184,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens in mRNA splicing?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519145,
+          "QuestionID": 531184,
+          "UmOption": null,
+          "EmOption": "<p>Introns and exons are removed from the gene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519146,
+          "QuestionID": 531184,
+          "UmOption": null,
+          "EmOption": "<p>Introns and exons are joined together</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519147,
+          "QuestionID": 531184,
+          "UmOption": null,
+          "EmOption": "<p>Exons are removed and introns are joined together</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519148,
+          "QuestionID": 531184,
+          "UmOption": null,
+          "EmOption": "<p>Introns are removed and exons are joined together</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531186,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of these happens first during protein synthesis?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519149,
+          "QuestionID": 531186,
+          "UmOption": null,
+          "EmOption": "<p>Peptide bond formation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519150,
+          "QuestionID": 531186,
+          "UmOption": null,
+          "EmOption": "<p>Binding of aminoacyl t-RNA with ribosome</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519151,
+          "QuestionID": 531186,
+          "UmOption": null,
+          "EmOption": "<p>Translocation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519152,
+          "QuestionID": 531186,
+          "UmOption": null,
+          "EmOption": "<p>Binding of release factor with ribosome</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531188,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The synthesis of protein chains is initiated with the amino acid;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519153,
+          "QuestionID": 531188,
+          "UmOption": null,
+          "EmOption": "<p>Arginine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519154,
+          "QuestionID": 531188,
+          "UmOption": null,
+          "EmOption": "<p>Methionine</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519155,
+          "QuestionID": 531188,
+          "UmOption": null,
+          "EmOption": "<p>Serine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519156,
+          "QuestionID": 531188,
+          "UmOption": null,
+          "EmOption": "<p>Valine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531197,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The main function of tRNA is to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519157,
+          "QuestionID": 531197,
+          "UmOption": null,
+          "EmOption": "<p>Bind the mRNA with the smaller ribosomal subunit</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519158,
+          "QuestionID": 531197,
+          "UmOption": null,
+          "EmOption": "<p>Form a portion of ribosomes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519159,
+          "QuestionID": 531197,
+          "UmOption": null,
+          "EmOption": "<p style=\"text-align: justify;\">Bind the complementary RNA and DNA strands together</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519160,
+          "QuestionID": 531197,
+          "UmOption": null,
+          "EmOption": "<p>Bring amino acids from the cytoplasm to the ribosomes?</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531204,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Ultraviolet radiation can cause mutations by;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519161,
+          "QuestionID": 531204,
+          "UmOption": null,
+          "EmOption": "<p>Making double covalent bonds between adjacent pyrimidine bases</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519162,
+          "QuestionID": 531204,
+          "UmOption": null,
+          "EmOption": "<p>Breaking phosphodiester bonds in DNA strands</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519163,
+          "QuestionID": 531204,
+          "UmOption": null,
+          "EmOption": "<p>Adding nucleotides in NA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519164,
+          "QuestionID": 531204,
+          "UmOption": null,
+          "EmOption": "<p>Substituting nucleotides in DNA</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531207,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Phenylketonuria is a genetic disorder with a defect in the metabolism of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519165,
+          "QuestionID": 531207,
+          "UmOption": null,
+          "EmOption": "<p>Vitamin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519166,
+          "QuestionID": 531207,
+          "UmOption": null,
+          "EmOption": "<p>Glucose</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519167,
+          "QuestionID": 531207,
+          "UmOption": null,
+          "EmOption": "<p>Amino acid</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519168,
+          "QuestionID": 531207,
+          "UmOption": null,
+          "EmOption": "<p>Lipid</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531211,
+      "SubjectID": 116,
+      "TopicID": 15686,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The condition sickle cell anaemia is due to;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519169,
+          "QuestionID": 531211,
+          "UmOption": null,
+          "EmOption": "<p>Deletion type point mutation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519170,
+          "QuestionID": 531211,
+          "UmOption": null,
+          "EmOption": "<p>Substitution type point mutation</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519171,
+          "QuestionID": 531211,
+          "UmOption": null,
+          "EmOption": "<p>Insertion type point mutation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519172,
+          "QuestionID": 531211,
+          "UmOption": null,
+          "EmOption": "<p>Chromosomal rearrangement</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531333,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Identify the FALSE statement.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519221,
+          "QuestionID": 531333,
+          "UmOption": null,
+          "EmOption": "<p>Restriction enzyme is used for the production of RFLPs.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519222,
+          "QuestionID": 531333,
+          "UmOption": null,
+          "EmOption": "<p>DNA ligase enzyme is used to cut DNA, creating the sticky ends</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519223,
+          "QuestionID": 531333,
+          "UmOption": null,
+          "EmOption": "<p>Reverse transcriptase enzyme is used for making cDNA from mRNA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519224,
+          "QuestionID": 531333,
+          "UmOption": null,
+          "EmOption": "<p>Electrophoresis means the separation of DNA fragments</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531334,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which bacterium is used in the production of insulin by genetic engineering?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519225,
+          "QuestionID": 531334,
+          "UmOption": null,
+          "EmOption": "<p>Saccharomyces</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519226,
+          "QuestionID": 531334,
+          "UmOption": null,
+          "EmOption": "<p>Rhizobium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519227,
+          "QuestionID": 531334,
+          "UmOption": null,
+          "EmOption": "<p>Escherichia</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519228,
+          "QuestionID": 531334,
+          "UmOption": null,
+          "EmOption": "<p>Mycobacterium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531335,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which technique is used for cloning of gene/DNA?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519229,
+          "QuestionID": 531335,
+          "UmOption": null,
+          "EmOption": "<p>RFLP analysis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519230,
+          "QuestionID": 531335,
+          "UmOption": null,
+          "EmOption": "<p>Polymerase Chain Reaction (PCR)</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519231,
+          "QuestionID": 531335,
+          "UmOption": null,
+          "EmOption": "<p>Electroporation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519232,
+          "QuestionID": 531335,
+          "UmOption": null,
+          "EmOption": "<p>Gel electrophoresis</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531336,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which method is used for obtaining the gene of interest?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519233,
+          "QuestionID": 531336,
+          "UmOption": null,
+          "EmOption": "<p>Artificial gene synthesis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519234,
+          "QuestionID": 531336,
+          "UmOption": null,
+          "EmOption": "<p>Reverse transcription</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519235,
+          "QuestionID": 531336,
+          "UmOption": null,
+          "EmOption": "<p>Cleavage from chromosome</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519236,
+          "QuestionID": 531336,
+          "UmOption": null,
+          "EmOption": "<p>All of these</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531337,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When a gene of interest is attached to the vector, the new molecule is called;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519237,
+          "QuestionID": 531337,
+          "UmOption": null,
+          "EmOption": "<p>Recombinant DNA</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519238,
+          "QuestionID": 531337,
+          "UmOption": null,
+          "EmOption": "<p>Restriction length fragment</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519239,
+          "QuestionID": 531337,
+          "UmOption": null,
+          "EmOption": "<p>Complimentary DNA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519240,
+          "QuestionID": 531337,
+          "UmOption": null,
+          "EmOption": "<p>Genomic library</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531338,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the use of plasmid in genetic engineering?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519241,
+          "QuestionID": 531338,
+          "UmOption": null,
+          "EmOption": "<p>To carry DNA to a cell</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519242,
+          "QuestionID": 531338,
+          "UmOption": null,
+          "EmOption": "<p>To cut DNA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519243,
+          "QuestionID": 531338,
+          "UmOption": null,
+          "EmOption": "<p>To join pieces of DNA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519244,
+          "QuestionID": 531338,
+          "UmOption": null,
+          "EmOption": "<p>To replicate DNA</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531339,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of these can serve as ideal expression system for gene cloning?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519245,
+          "QuestionID": 531339,
+          "UmOption": null,
+          "EmOption": "<p>Bacteriophages</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519246,
+          "QuestionID": 531339,
+          "UmOption": null,
+          "EmOption": "<p>Bacterial cells</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519247,
+          "QuestionID": 531339,
+          "UmOption": null,
+          "EmOption": "<p>Plant cells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519248,
+          "QuestionID": 531339,
+          "UmOption": null,
+          "EmOption": "<p>Animal cells</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531340,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In PCR, optimum temperature for carrying out the extension of primer is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519249,
+          "QuestionID": 531340,
+          "UmOption": null,
+          "EmOption": "<p>98° C</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519250,
+          "QuestionID": 531340,
+          "UmOption": null,
+          "EmOption": "<p>72° C</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519251,
+          "QuestionID": 531340,
+          "UmOption": null,
+          "EmOption": "<p>60° C</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519252,
+          "QuestionID": 531340,
+          "UmOption": null,
+          "EmOption": "<p>37° C</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531341,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which enzyme is used for the extension of primer in PCR?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519253,
+          "QuestionID": 531341,
+          "UmOption": null,
+          "EmOption": "<p>DNA polymerase</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519254,
+          "QuestionID": 531341,
+          "UmOption": null,
+          "EmOption": "<p>Transcriptase</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519255,
+          "QuestionID": 531341,
+          "UmOption": null,
+          "EmOption": "<p>DNA ligase</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519256,
+          "QuestionID": 531341,
+          "UmOption": null,
+          "EmOption": "<p>Restriction endonuclease</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531342,
+      "SubjectID": 116,
+      "TopicID": 15692,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is true for a Genetically Modified Organism:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519257,
+          "QuestionID": 531342,
+          "UmOption": null,
+          "EmOption": "<p>Genes have been introduced</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519258,
+          "QuestionID": 531342,
+          "UmOption": null,
+          "EmOption": "<p>Genes have been enhanced</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519259,
+          "QuestionID": 531342,
+          "UmOption": null,
+          "EmOption": "<p>Genes have been deleted</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519260,
+          "QuestionID": 531342,
+          "UmOption": null,
+          "EmOption": "<p>All of these</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531530,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of these are known for stimulating an immune response?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519549,
+          "QuestionID": 531530,
+          "UmOption": null,
+          "EmOption": "<p>Pathogens</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519550,
+          "QuestionID": 531530,
+          "UmOption": null,
+          "EmOption": "<p>Antigens</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519551,
+          "QuestionID": 531530,
+          "UmOption": null,
+          "EmOption": "<p>Antibodies</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519552,
+          "QuestionID": 531530,
+          "UmOption": null,
+          "EmOption": "<p>Histamines</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531531,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a part of the innate immune system?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519553,
+          "QuestionID": 531531,
+          "UmOption": null,
+          "EmOption": "<p>T lymphocytes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519554,
+          "QuestionID": 531531,
+          "UmOption": null,
+          "EmOption": "<p>B lymphocytes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519555,
+          "QuestionID": 531531,
+          "UmOption": null,
+          "EmOption": "<p>Skin and mucous membranes</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519556,
+          "QuestionID": 531531,
+          "UmOption": null,
+          "EmOption": "<p>Antibodies</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531533,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of these is not involved in body’s non-specific defence?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519561,
+          "QuestionID": 531533,
+          "UmOption": null,
+          "EmOption": "<p>Natural killer cells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519562,
+          "QuestionID": 531533,
+          "UmOption": null,
+          "EmOption": "<p>Inflammatory response</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519563,
+          "QuestionID": 531533,
+          "UmOption": null,
+          "EmOption": "<p>Antibodies</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519564,
+          "QuestionID": 531533,
+          "UmOption": null,
+          "EmOption": "<p>Complement system</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531534,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Skin offers an impenetrable barrier to microbes. It is categorized as;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519565,
+          "QuestionID": 531534,
+          "UmOption": null,
+          "EmOption": "<p>Non-specific defence</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519566,
+          "QuestionID": 531534,
+          "UmOption": null,
+          "EmOption": "<p>Specific defence</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519567,
+          "QuestionID": 531534,
+          "UmOption": null,
+          "EmOption": "<p>Acquired immunity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519568,
+          "QuestionID": 531534,
+          "UmOption": null,
+          "EmOption": "<p>Passive Immunity</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531536,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the difference between B cells and T cells?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519573,
+          "QuestionID": 531536,
+          "UmOption": null,
+          "EmOption": "<p>B cells make antibodies, and T cells destroy infected cells</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519574,
+          "QuestionID": 531536,
+          "UmOption": null,
+          "EmOption": "<p>B cells and T cells do the same work</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519575,
+          "QuestionID": 531536,
+          "UmOption": null,
+          "EmOption": "<p>B cells attack germs directly, and T cells make antibodies</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519576,
+          "QuestionID": 531536,
+          "UmOption": null,
+          "EmOption": "<p>B cells fight germs in body fluids, and T cells work inside cells</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531541,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do the neutrophils kill microbes?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519585,
+          "QuestionID": 531541,
+          "UmOption": null,
+          "EmOption": "<p>By engulfing and digesting them</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519586,
+          "QuestionID": 531541,
+          "UmOption": null,
+          "EmOption": "<p>By producing antibodies</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519587,
+          "QuestionID": 531541,
+          "UmOption": null,
+          "EmOption": "<p>By releasing hormones</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519588,
+          "QuestionID": 531541,
+          "UmOption": null,
+          "EmOption": "<p>By carrying oxygen to cells</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531548,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which group of chemicals is involved in inflammatory response?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519589,
+          "QuestionID": 531548,
+          "UmOption": null,
+          "EmOption": "<p>Antibodies</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519590,
+          "QuestionID": 531548,
+          "UmOption": null,
+          "EmOption": "<p>Histamines and prostaglandins</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519591,
+          "QuestionID": 531548,
+          "UmOption": null,
+          "EmOption": "<p>Prostaglandins and pyrogens</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519592,
+          "QuestionID": 531548,
+          "UmOption": null,
+          "EmOption": "<p>Antibodies and pyrogens</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531551,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which type of white blood cell is responsible for producing antibodies?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519593,
+          "QuestionID": 531551,
+          "UmOption": null,
+          "EmOption": "<p>Neutrophils</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519594,
+          "QuestionID": 531551,
+          "UmOption": null,
+          "EmOption": "<p>B lymphocytes (B cells)</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519595,
+          "QuestionID": 531551,
+          "UmOption": null,
+          "EmOption": "<p>Macrophages</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519596,
+          "QuestionID": 531551,
+          "UmOption": null,
+          "EmOption": "<p>Natural killer cells</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531555,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What types of drug are not prescribed to a recipient of organ-transplantation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519597,
+          "QuestionID": 531555,
+          "UmOption": null,
+          "EmOption": "<p>Drugs that suppress immunity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519598,
+          "QuestionID": 531555,
+          "UmOption": null,
+          "EmOption": "<p>Drugs that strengthen immunity</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519599,
+          "QuestionID": 531555,
+          "UmOption": null,
+          "EmOption": "<p>Anti-inflammatory drugs</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519600,
+          "QuestionID": 531555,
+          "UmOption": null,
+          "EmOption": "<p>Anti-histamine drugs</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531558,
+      "SubjectID": 116,
+      "TopicID": 15696,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Cell-mediated immunity works best against;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519605,
+          "QuestionID": 531558,
+          "UmOption": null,
+          "EmOption": "<p>Viruses infected cells and toxic molecules</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519606,
+          "QuestionID": 531558,
+          "UmOption": null,
+          "EmOption": "<p>Viruses and toxic molecules</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519607,
+          "QuestionID": 531558,
+          "UmOption": null,
+          "EmOption": "<p>Virus infected cells and cancer cells</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519608,
+          "QuestionID": 531558,
+          "UmOption": null,
+          "EmOption": "<p>Toxic molecules and cancer cells</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531712,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a primary data collection method?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519853,
+          "QuestionID": 531712,
+          "UmOption": null,
+          "EmOption": "<p>Government reports</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519854,
+          "QuestionID": 531712,
+          "UmOption": null,
+          "EmOption": "<p>Published articles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519855,
+          "QuestionID": 531712,
+          "UmOption": null,
+          "EmOption": "<p>Experiment and surveys</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519856,
+          "QuestionID": 531712,
+          "UmOption": null,
+          "EmOption": "<p>Online databases</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531717,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does mode represent in a dataset?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519865,
+          "QuestionID": 531717,
+          "UmOption": null,
+          "EmOption": "<p>The average of values</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519866,
+          "QuestionID": 531717,
+          "UmOption": null,
+          "EmOption": "<p>The value occurring most frequently</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519867,
+          "QuestionID": 531717,
+          "UmOption": null,
+          "EmOption": "<p>The difference between two values</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519868,
+          "QuestionID": 531717,
+          "UmOption": null,
+          "EmOption": "<p>None of these</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531721,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which statistical measure is also called the 50th percentile?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519873,
+          "QuestionID": 531721,
+          "UmOption": null,
+          "EmOption": "<p>Mean</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519874,
+          "QuestionID": 531721,
+          "UmOption": null,
+          "EmOption": "<p>Median</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519875,
+          "QuestionID": 531721,
+          "UmOption": null,
+          "EmOption": "<p>Mode</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519876,
+          "QuestionID": 531721,
+          "UmOption": null,
+          "EmOption": "<p>Range</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531725,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If the maximum value in a dataset is 50 and the minimum value is 20, what is the range?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519885,
+          "QuestionID": 531725,
+          "UmOption": null,
+          "EmOption": "<p>30</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519886,
+          "QuestionID": 531725,
+          "UmOption": null,
+          "EmOption": "<p>25</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519887,
+          "QuestionID": 531725,
+          "UmOption": null,
+          "EmOption": "<p>20</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519888,
+          "QuestionID": 531725,
+          "UmOption": null,
+          "EmOption": "<p>115</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531727,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does it mean if the 40th percentile value is 148cm?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519893,
+          "QuestionID": 531727,
+          "UmOption": null,
+          "EmOption": "<p>40% of values are above 148cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519894,
+          "QuestionID": 531727,
+          "UmOption": null,
+          "EmOption": "<p>40% of values are below or equal to 148cm</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519895,
+          "QuestionID": 531727,
+          "UmOption": null,
+          "EmOption": "<p>All the values are equal to 148cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519896,
+          "QuestionID": 531727,
+          "UmOption": null,
+          "EmOption": "<p>60% of values are above 148cm</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531729,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In a pie chart, what does the full circle represent?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519901,
+          "QuestionID": 531729,
+          "UmOption": null,
+          "EmOption": "<p>180</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519902,
+          "QuestionID": 531729,
+          "UmOption": null,
+          "EmOption": "<p>280</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519903,
+          "QuestionID": 531729,
+          "UmOption": null,
+          "EmOption": "<p>380</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519904,
+          "QuestionID": 531729,
+          "UmOption": null,
+          "EmOption": "<p>360</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531731,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What do error bars represents in a chart?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519909,
+          "QuestionID": 531731,
+          "UmOption": null,
+          "EmOption": "<p>Average</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519910,
+          "QuestionID": 531731,
+          "UmOption": null,
+          "EmOption": "<p>Variability or uncertainty in data</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519911,
+          "QuestionID": 531731,
+          "UmOption": null,
+          "EmOption": "<p>Both of these</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519912,
+          "QuestionID": 531731,
+          "UmOption": null,
+          "EmOption": "<p>None of these</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531733,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In an experiment, what does the dependent variable represent?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519917,
+          "QuestionID": 531733,
+          "UmOption": null,
+          "EmOption": "<p>The factor kept constant</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519918,
+          "QuestionID": 531733,
+          "UmOption": null,
+          "EmOption": "<p>The factor being changed</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519919,
+          "QuestionID": 531733,
+          "UmOption": null,
+          "EmOption": "<p>The factor ignored</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519920,
+          "QuestionID": 531733,
+          "UmOption": null,
+          "EmOption": "<p>All of these</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531736,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the main purpose of including a control group in an experiment?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519929,
+          "QuestionID": 531736,
+          "UmOption": null,
+          "EmOption": "<p>To test the dependent variable</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519930,
+          "QuestionID": 531736,
+          "UmOption": null,
+          "EmOption": "<p>To provide a baseline for comparison</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519931,
+          "QuestionID": 531736,
+          "UmOption": null,
+          "EmOption": "<p>To collect random data</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519932,
+          "QuestionID": 531736,
+          "UmOption": null,
+          "EmOption": "<p>All of these</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531739,
+      "SubjectID": 116,
+      "TopicID": 15701,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which group in an experiment receives the treatment?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 519933,
+          "QuestionID": 531739,
+          "UmOption": null,
+          "EmOption": "<p>Control group</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519934,
+          "QuestionID": 531739,
+          "UmOption": null,
+          "EmOption": "<p>Dependent group</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 519935,
+          "QuestionID": 531739,
+          "UmOption": null,
+          "EmOption": "<p>Experimental group</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 519936,
+          "QuestionID": 531739,
+          "UmOption": null,
+          "EmOption": "<p>Independent group</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531863,
+      "SubjectID": 116,
+      "TopicID": 15706,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>The first step in drugs discovery is .......</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 520005,
+          "QuestionID": 531863,
+          "UmOption": "<p>Lead optimization</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520006,
+          "QuestionID": 531863,
+          "UmOption": "<p>Preclinical Testing</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520007,
+          "QuestionID": 531863,
+          "UmOption": "<p>Target identification</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 520008,
+          "QuestionID": 531863,
+          "UmOption": "<p>Hit identification</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531867,
+      "SubjectID": 116,
+      "TopicID": 15706,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>Testing in a larger group about 100–300 patients to test the effectiveness and side effects of drugs indicate ......</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 520009,
+          "QuestionID": 531867,
+          "UmOption": "<p>Phase 1</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520010,
+          "QuestionID": 531867,
+          "UmOption": "<p>Phase 2</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 520011,
+          "QuestionID": 531867,
+          "UmOption": "<p>Phase 3</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520012,
+          "QuestionID": 531867,
+          "UmOption": "<p>Phase 4</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531870,
+      "SubjectID": 116,
+      "TopicID": 15706,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>Penicillin is highly effective against ......</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 520013,
+          "QuestionID": 531870,
+          "UmOption": "<p>Gram-positive bacteria</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 520014,
+          "QuestionID": 531870,
+          "UmOption": "<p>Gram-negative bacteria</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520015,
+          "QuestionID": 531870,
+          "UmOption": "<p>Streptomyces</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520016,
+          "QuestionID": 531870,
+          "UmOption": "<p>Penicillium notatum</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531872,
+      "SubjectID": 116,
+      "TopicID": 15706,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>The ...... antibiotic derived from soil-dwelling bacteria of the genus Streptomyces,</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 520017,
+          "QuestionID": 531872,
+          "UmOption": "<p>Penicillin</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520018,
+          "QuestionID": 531872,
+          "UmOption": "<p>Fluoroquinolones</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520019,
+          "QuestionID": 531872,
+          "UmOption": "<p>Sulfonamides</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520020,
+          "QuestionID": 531872,
+          "UmOption": "<p>Tetracycline</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531873,
+      "SubjectID": 116,
+      "TopicID": 15706,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>The ...... drugs are synthetic compounds derived from sulfanilamide,</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 520021,
+          "QuestionID": 531873,
+          "UmOption": "<p>Penicillin</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520022,
+          "QuestionID": 531873,
+          "UmOption": "<p>Fluoroquinolones</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520023,
+          "QuestionID": 531873,
+          "UmOption": "<p>Sulfonamides</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 520024,
+          "QuestionID": 531873,
+          "UmOption": "<p>Tetracycline</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 531875,
+      "SubjectID": 116,
+      "TopicID": 15706,
+      "TopicRef": ".",
+      "TopicName": ". EXERCISE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>Monoclonal antibodies are considered highly affect because:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 520025,
+          "QuestionID": 531875,
+          "UmOption": "<p>Have broad spectrum action</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520026,
+          "QuestionID": 531875,
+          "UmOption": "<p>Are highly specific to antigens</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 520027,
+          "QuestionID": 531875,
+          "UmOption": "<p>Do not bind to any target</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 520028,
+          "QuestionID": 531875,
+          "UmOption": "<p>Are non-biological in nature</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    }
+  ]
+}

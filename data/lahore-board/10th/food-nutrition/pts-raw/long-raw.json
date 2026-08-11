@@ -1,0 +1,535 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "غذا اور غذائیت",
+  "slug": "food-nutrition",
+  "type": "long",
+  "exportName": "long",
+  "subTypeId": 13,
+  "total": 26,
+  "exportedAt": "2026-08-10T11:38:17.207Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 451959,
+      "SubjectID": 1537,
+      "TopicID": 13753,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 غذاؤں کی تیاری اور پکانے کے طریقے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>دودھ، انڈے اور گوشت کی رنگت، ہیئت اور ذائقے پر پکانے کے کیا اثرات مرتب ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 451960,
+      "SubjectID": 1537,
+      "TopicID": 13753,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 غذاؤں کی تیاری اور پکانے کے طریقے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کھانا پکانے کے مختلف طریقے لکھیں ۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 451961,
+      "SubjectID": 1537,
+      "TopicID": 13754,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 باورچی خانے میں حفاظتی اقدامات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>محفوظ باورچی خانے کی خصوصیات بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 451962,
+      "SubjectID": 1537,
+      "TopicID": 13754,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 باورچی خانے میں حفاظتی اقدامات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>باورچی خانے میں حادثات اور ان کی روک تھام پر نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 451976,
+      "SubjectID": 1537,
+      "TopicID": 13755,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 معاشرے کے حساس گروہوں کی غذائی ضروریات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حاملہ خواتین کی غذائی ضروریات پر تفصیلاً نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 451977,
+      "SubjectID": 1537,
+      "TopicID": 13755,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 معاشرے کے حساس گروہوں کی غذائی ضروریات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>شیر خوار بچوں کی غذائی ضروریات بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 451978,
+      "SubjectID": 1537,
+      "TopicID": 13756,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 معاشرے میں غذائی قلت کی روک تھام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نقصِ غذائیت سے بچاؤ کے مختلف اقدامات پر بحث کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 451979,
+      "SubjectID": 1537,
+      "TopicID": 13756,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 معاشرے میں غذائی قلت کی روک تھام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>معاشرے میں نقصِ غذائیت کی روک تھام پر مضمون لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452009,
+      "SubjectID": 1537,
+      "TopicID": 13757,
+      "TopicRef": "8.1",
+      "TopicName": "8.1 انتظام طعام کے اصول",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>فہرست طعام کے اصول تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452010,
+      "SubjectID": 1537,
+      "TopicID": 13758,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 مختلف معاشی طبقات کے لیے فہرست طعام ( مینو ) بنانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مینو پلاننگ کی اہمیت اور بنانے کا طریقہ تفصیل سے بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452011,
+      "SubjectID": 1537,
+      "TopicID": 13758,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 مختلف معاشی طبقات کے لیے فہرست طعام ( مینو ) بنانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کم آمدنی والے خاندان کے لیے مینو پلاننگ کا طریقہ بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452012,
+      "SubjectID": 1537,
+      "TopicID": 13758,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 مختلف معاشی طبقات کے لیے فہرست طعام ( مینو ) بنانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درمیانہ آمدنی اور زیادہ آمدنی والے خاندان کے لیے مینو پلاننگ کا طریقہ بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452013,
+      "SubjectID": 1537,
+      "TopicID": 13759,
+      "TopicRef": "8.3",
+      "TopicName": "8.3 زندگی کے مختلف ادوار کے لیے فہرست طعام ( مینو ) بنانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سکول جانے والے بچوں کے لیے مینو پلان کا طریقہ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452014,
+      "SubjectID": 1537,
+      "TopicID": 13759,
+      "TopicRef": "8.3",
+      "TopicName": "8.3 زندگی کے مختلف ادوار کے لیے فہرست طعام ( مینو ) بنانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نو بالغ کے لیے مینو پلان کرنے کا طریقہ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452015,
+      "SubjectID": 1537,
+      "TopicID": 13760,
+      "TopicRef": "8.4",
+      "TopicName": "8.4 مختلف تقاریب کے لیے فہرست طعام ( مینو ) بنانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مختلف تقاریب کے لیے مینو پلانگ پر تفصیلاً روشنی ڈالیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452031,
+      "SubjectID": 1537,
+      "TopicID": 13761,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 کھانا پیش کرنا اور میز لگانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کھانا پیش کرنے کی کیا اہمیت ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452032,
+      "SubjectID": 1537,
+      "TopicID": 13761,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 کھانا پیش کرنا اور میز لگانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>میز پر مشرقی طریقے سے کھانا پیش کرنے کا طریقہ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452033,
+      "SubjectID": 1537,
+      "TopicID": 13761,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 کھانا پیش کرنا اور میز لگانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مغربی طریقے میں رسمی انداز سے کھانا کیونکر پیش کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452034,
+      "SubjectID": 1537,
+      "TopicID": 13761,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 کھانا پیش کرنا اور میز لگانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>بوفے طریقے سے کھانا پیش کرنے کا طریقہ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452035,
+      "SubjectID": 1537,
+      "TopicID": 13761,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 کھانا پیش کرنا اور میز لگانا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ایک فرد کے لیے اور زیادہ افراد کے لیے ٹرے لگانے کا طریقہ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452036,
+      "SubjectID": 1537,
+      "TopicID": 13762,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 کھانا کھانے کے آداب و طور طریقے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کھانا کھانے کے آداب اور طور طریقے لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452057,
+      "SubjectID": 1537,
+      "TopicID": 13763,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 غذاؤں کو محفوظ کرنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غذاؤں کو محفوظ کرنے کی کیا اہمیت ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452058,
+      "SubjectID": 1537,
+      "TopicID": 13763,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 غذاؤں کو محفوظ کرنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غذاؤں کو محفوظ کرنے کے اصول کون کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452059,
+      "SubjectID": 1537,
+      "TopicID": 13763,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 غذاؤں کو محفوظ کرنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>طویل عرصے کے لیے غذاؤں کو محفوظ کرنے کے طریقے لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452060,
+      "SubjectID": 1537,
+      "TopicID": 13764,
+      "TopicRef": "10.2",
+      "TopicName": "10.2 غذاؤں کا خراب ہونا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غذاؤں کو خراب کرنے والے کارندوں کے بارے میں تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 452061,
+      "SubjectID": 1537,
+      "TopicID": 13765,
+      "TopicRef": "10.3",
+      "TopicName": "10.3 غذاؤں میں آمیزی اجزا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غذاؤں کے آمیزی اجزا پر نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    }
+  ]
+}

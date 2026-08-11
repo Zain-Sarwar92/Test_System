@@ -1,0 +1,895 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "ایجوکیشن",
+  "slug": "education",
+  "type": "long",
+  "exportName": "long",
+  "subTypeId": 13,
+  "total": 44,
+  "exportedAt": "2026-08-10T11:35:38.301Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 27205,
+      "SubjectID": 70,
+      "TopicID": 1080,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 نصاب کی تعریف",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نصاب کامفہوم تفصیل سے بیان&nbsp;کیجیے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27206,
+      "SubjectID": 70,
+      "TopicID": 1080,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 نصاب کی تعریف",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نصاب تعلیم میں کیا کیا سرگرمیاں اور تجربات شامل کیے جاتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27207,
+      "SubjectID": 70,
+      "TopicID": 1081,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 اجزا کا  ارتباط",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>&nbsp;نصاب کے اجزائے ترکیبی کیا ہیں؟ان اجزائے ترکیبی کو وضاحت سے بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27008,
+      "SubjectID": 70,
+      "TopicID": 1082,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 پاکستان میں نصاب کی تیاری",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اجزائے ترکیبی نصاب میں مقاصد نصاب ، باقی&nbsp;&nbsp;اجزائے ترکیبی پر کیسے اثر انداز ہوتے ہیں؟ مثالیں دے کر وضاحت کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27209,
+      "SubjectID": 70,
+      "TopicID": 1082,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 پاکستان میں نصاب کی تیاری",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اجزائے ترکیبی نصاب میں ربط سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27210,
+      "SubjectID": 70,
+      "TopicID": 1082,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 پاکستان میں نصاب کی تیاری",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نصاب کے بنانے میں مقاصد تعلیم کیا اہم کردار ادا کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27469,
+      "SubjectID": 70,
+      "TopicID": 1083,
+      "TopicRef": "8.1",
+      "TopicName": "8.1 مدرسہ میں ہم نصابی سرگرمیوں کی کی اہمیت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نصابی اور ہم نصابی سرگرمیوں میں فرق بیان کریں۔مثالیں دے کر اپنے جواب کی وضاحت بھی کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27470,
+      "SubjectID": 70,
+      "TopicID": 1084,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 ہم نصابی سرگرموں کا طلبہ کی نشوونما میں کردار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہم نصابی سرگرمیوں کے انتظام کی ضرورت کیوں پیش آتی ہے؟ واضح&nbsp;کیجیے۔&nbsp;</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27472,
+      "SubjectID": 70,
+      "TopicID": 1084,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 ہم نصابی سرگرموں کا طلبہ کی نشوونما میں کردار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>&nbsp;بزم ادب کے انعقاد کے لیے کس قسم کے انتظامات کی ضرورت ہو گی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27475,
+      "SubjectID": 70,
+      "TopicID": 1084,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 ہم نصابی سرگرموں کا طلبہ کی نشوونما میں کردار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہم نصابی سرگرمیوں کے ذریعے طلبہ میں کون سے اوصاف فروغ پاتے ہیں؟ مثالوں سے وضاحت کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27213,
+      "SubjectID": 70,
+      "TopicID": 1085,
+      "TopicRef": "8.3",
+      "TopicName": "8.3 ماحول اور ہم نصابی سرگرمیاں ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مدرسہ کا اندرونی ماحول کس طرح ہم نصابی سرگرمیوں پر اثر انداز ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27214,
+      "SubjectID": 70,
+      "TopicID": 1085,
+      "TopicRef": "8.3",
+      "TopicName": "8.3 ماحول اور ہم نصابی سرگرمیاں ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سماجی اور ثقافتی اقدار کیوں کر ہم نصابی سرگرمیوں پر اپنا اثر مرتب کرتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28836,
+      "SubjectID": 70,
+      "TopicID": 1086,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 رہنمائی اور مشاورت کے معانی اور تعریف",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مدرسہ میں رہنمائی کی ضرورت کیوں پیش آتی ہے؟ مثالیں دے کر وضاحت کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28844,
+      "SubjectID": 70,
+      "TopicID": 1087,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 طلبہ کو پیش آنے والے مسائل",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مشاورت سے کیا مراد ہے؟ طلبہ کو اس کی ضرورت کب پیش آتی ہے؟ تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28848,
+      "SubjectID": 70,
+      "TopicID": 1087,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 طلبہ کو پیش آنے والے مسائل",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>طلبہ کے تعلیمی و تدریسی مسائل پر نوٹ لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28850,
+      "SubjectID": 70,
+      "TopicID": 1088,
+      "TopicRef": "9.3",
+      "TopicName": "9.3 مدرسے میں رہنمائی اور مشاورت کا کردار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>رہنمائی اور مشاورت کے عمل سے گزرنے کے بعد طالب علم میں کیا صلاحیتیں فروغ پا جاتی ہیں؟ مثالیں دے کر وضاحت کیجیے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28854,
+      "SubjectID": 70,
+      "TopicID": 1088,
+      "TopicRef": "9.3",
+      "TopicName": "9.3 مدرسے میں رہنمائی اور مشاورت کا کردار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پیشہ ورانہ مسائل کے حل کے لیے معلم یا مدرسہ کیا رہنمائی کر سکتا ہے؟ بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25674,
+      "SubjectID": 70,
+      "TopicID": 1077,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 پاکستان میں مقاصد تعلیم",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بانی پاکستان قائداعظم نے پاکستان کی پہلی تعلیمی کانفرنس کے نام کیا پیغام دیا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25675,
+      "SubjectID": 70,
+      "TopicID": 1077,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 پاکستان میں مقاصد تعلیم",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پاکستان کے پہلے وزیر تعللیم نے پاکستان کی پہلی تعلیمی کانفرنس میں اپنے خطبے میں کیا فرمایا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25676,
+      "SubjectID": 70,
+      "TopicID": 1077,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 پاکستان میں مقاصد تعلیم",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پاکستان کے تعلیمی مقاصد تعلیمی پالیسیوں کے حوالے سے بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25677,
+      "SubjectID": 70,
+      "TopicID": 1077,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 پاکستان میں مقاصد تعلیم",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تعلیمی پالیسی2010-1998کے مطابق تعلیم کے مقاصد بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25678,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تعلیم کی اقسام کے نام لکھیں؟نیز پیشہ ورانہ تعلیم پر نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25679,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پاکستان میں زراعت کی تعلیم پر نوٹ لکھے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25680,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>طب کی تعلیم پر پانچ سطروں میں جواب&nbsp;لکھے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25681,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کمپیوٹر اور انفارمیشن ٹیکنالوجی کی اہمیت لکھے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25682,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>عام تعلیم سے کیا مراد ہے؟ &nbsp;مذہبی تعلیم پر نوٹ لکھے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25683,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مذہبی تعلیم کیا ہے؟ مذہبی تعلیم کہاں دی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25684,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پیشہ ورانہ اور عام تعلیم کا فرق واضح کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25685,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>عام تعلیم اور ہوم اکنامکس کی تعلیم پر مفصل نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25686,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>نوٹ لکھیں۔ (i)بزنس اور کامرس کی تعلیم&nbsp; &nbsp; (ii)ہوم اکنامکس کی تعلیم</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 25687,
+      "SubjectID": 70,
+      "TopicID": 1079,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 تعلیم کے مدارج",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تعلیم کے مدارج تفصیل سے لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27208,
+      "SubjectID": 70,
+      "TopicID": 1081,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 اجزا کا  ارتباط",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>جائزہ سے کیا مراد ہے؟ تفصیلاً بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27212,
+      "SubjectID": 70,
+      "TopicID": 1082,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 پاکستان میں نصاب کی تیاری",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پاکستان میں نصاب سازی کے اداروں کو تفصیل سے بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27474,
+      "SubjectID": 70,
+      "TopicID": 1084,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 ہم نصابی سرگرموں کا طلبہ کی نشوونما میں کردار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ہم نصابی سرگرمیوں کا طلبہ کی نشوونما میں کردار وضاحت سے لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 27476,
+      "SubjectID": 70,
+      "TopicID": 1085,
+      "TopicRef": "8.3",
+      "TopicName": "8.3 ماحول اور ہم نصابی سرگرمیاں ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ماحول اور ہم نصابی سرگرمیوں میں گہرا تعلق ہے۔ وضاحت کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28846,
+      "SubjectID": 70,
+      "TopicID": 1087,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 طلبہ کو پیش آنے والے مسائل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>طلباہ کو پیش آنے والے مسائل پر تفصیلاً لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28852,
+      "SubjectID": 70,
+      "TopicID": 1088,
+      "TopicRef": "9.3",
+      "TopicName": "9.3 مدرسے میں رہنمائی اور مشاورت کا کردار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تعلیم کے جدید مفہوم کے مطابق معلم کے فرائض تفصیلاً بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28517,
+      "SubjectID": 70,
+      "TopicID": 1077,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 پاکستان میں مقاصد تعلیم",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان میں مقاصد تعلیم پر &nbsp;بحث کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28518,
+      "SubjectID": 70,
+      "TopicID": 1077,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 پاکستان میں مقاصد تعلیم",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تربیت اُساتذہ کے حوالے سے نوٹ تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28520,
+      "SubjectID": 70,
+      "TopicID": 1078,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 تعلیم کی اقسام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پرائمری اور قانون کی تعلیم پر نوٹ تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28519,
+      "SubjectID": 70,
+      "TopicID": 1079,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 تعلیم کے مدارج",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان کے عمومی مقاصد پر نوٹ تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28935,
+      "SubjectID": 70,
+      "TopicID": 1087,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 طلبہ کو پیش آنے والے مسائل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>طلبہ کو پیش آمدہ معاشی اور ذاتی مسائل لکھیں اور بتائیں کہ انہیں کیسے حل کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28937,
+      "SubjectID": 70,
+      "TopicID": 1087,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 طلبہ کو پیش آنے والے مسائل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>طلبہ کی ذاتی و نفسیاتی مسائل کی تفصیلاً نشان دہی کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 28939,
+      "SubjectID": 70,
+      "TopicID": 1087,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 طلبہ کو پیش آنے والے مسائل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تعلیم کے جدید مفہوم کے مطابق معلم کے فرائض تفصیل سے بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    }
+  ]
+}

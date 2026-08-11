@@ -1,0 +1,575 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "اسلامیات لازمی",
+  "slug": "islamiyat-compulsory",
+  "type": "long",
+  "exportName": "long",
+  "subTypeId": 13,
+  "total": 28,
+  "exportedAt": "2026-08-10T11:34:12.359Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 217467,
+      "SubjectID": 67,
+      "TopicID": 7524,
+      "TopicRef": "2",
+      "TopicName": "2 حفاظت و تدوینِ حدیث: دورِاوّل",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>جمع و تدوینِ حدیث پر نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220875,
+      "SubjectID": 67,
+      "TopicID": 7553,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 ملائکہ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حدیث جبریل علیہ السلام کے تناظر میں&nbsp;تعلیم و تعلم کے آداب تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220886,
+      "SubjectID": 67,
+      "TopicID": 7554,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 کتب سماویہ (آسمانی کتابیں)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کتب سماویہ یعنی&nbsp;آسمانی کتابوں پر ایک جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220897,
+      "SubjectID": 67,
+      "TopicID": 7555,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 عقیدۂ آخرت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>عقیدۂ آخرت پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220908,
+      "SubjectID": 67,
+      "TopicID": 7556,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 زکوۃ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>زکوۃ و عشر پر تفصیلی نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220919,
+      "SubjectID": 67,
+      "TopicID": 7557,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 حج اور قربانی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حج اور قربانی کے بارے میں ایک جامع مضمون تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220931,
+      "SubjectID": 67,
+      "TopicID": 7558,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 غزوۂ تبوک",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>غزوہ تبوک پر تفصیلی نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220942,
+      "SubjectID": 67,
+      "TopicID": 7559,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 حجۃ الوداع",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>خطبہ حجۃ الوداع پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220953,
+      "SubjectID": 67,
+      "TopicID": 7560,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 وصال نبوی (خاتم النبین)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>وصال نبوی&nbsp;(خاتم النبینﷺ) پر نوٹ تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220964,
+      "SubjectID": 67,
+      "TopicID": 7561,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 صلہ رحمی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>صلہ رحمی کی اہمیت پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220975,
+      "SubjectID": 67,
+      "TopicID": 7562,
+      "TopicRef": "3.5",
+      "TopicName": "3.5 خواتین کے ساتھ حسن سلوک",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سیرت طیبہ کی روشنی میں خواتین کے ساتھ حسن سلوک پر جامع نوٹ تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220986,
+      "SubjectID": 67,
+      "TopicID": 7563,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 اندازِ تربیت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نبی کریم خاتم النبین ﷺ کے انداز تربیت پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 220997,
+      "SubjectID": 67,
+      "TopicID": 7564,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 اخلاص و تقویٰ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اخلاص و تقویٰ کا مفہوم و اہمیت بیان کرتے ہوئے سیرت طیبہ سے اس کی مثالیں پیش کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221008,
+      "SubjectID": 67,
+      "TopicID": 7565,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 پردہ پوشی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اسلامی تعلیمات کی روشنی میں&nbsp;پردہ پوشی پر تفصیلی نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221019,
+      "SubjectID": 67,
+      "TopicID": 7566,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 جھوٹ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اسلامی تعلیمات کی روشنی میں جھوٹ کی مذمت پر جامع مضمون لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221030,
+      "SubjectID": 67,
+      "TopicID": 7567,
+      "TopicRef": "4.4",
+      "TopicName": "4.4 غیبت اور بہتان",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اسلامی تعلیمات کی روشنی میں غیبت اور بہتان کی حرمت پر مضمون تحریرکریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221041,
+      "SubjectID": 67,
+      "TopicID": 7568,
+      "TopicRef": "4.5",
+      "TopicName": "4.5 جادو،فال اور توہم پرستی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>جادو،فال اور توہم پرستی کے بارے میں اسلامی تعلیمات پر روشنی ڈالیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221095,
+      "SubjectID": 67,
+      "TopicID": 7570,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 حضرت عمروبن العاصؓ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حضرت عمروبن العاص رضی اللہ تعالی عنہ کی شخصیت پر تفصیلی مضمون لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221106,
+      "SubjectID": 67,
+      "TopicID": 7571,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 حضرت جابربن عبداللہؓ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حضرت جابر بن عبداللہ رضی اللہ تعالیٰ عنہ&nbsp;کی شخصیت پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221117,
+      "SubjectID": 67,
+      "TopicID": 7572,
+      "TopicRef": "6.4",
+      "TopicName": "6.4 حضرت انس بن مالکؓ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حضرت انس&nbsp;بن مالک&nbsp;رضی اللہ تعالیٰ عنہ کی شخصیت پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221128,
+      "SubjectID": 67,
+      "TopicID": 7573,
+      "TopicRef": "6.5",
+      "TopicName": "6.5 صحابیاتؓ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل صحابیات کی شخصیات پر جامع نوٹ لکھیں۔ حضرت ام عمارہ رضی اللہ تعالیٰ عنھا، حضرت ام ایمن رضی اللہ تعالیٰ عنھا، حضرت اسما بنت ابی بکر رضی اللہ تعالیٰ عنھا</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221139,
+      "SubjectID": 67,
+      "TopicID": 7574,
+      "TopicRef": "6.6",
+      "TopicName": "6.6 صوفیہ کرام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل شخصیات پر نوٹ لکھیں۔ مولانا عبدالرحمن جامی رحمۃ اللہ علیہ،&nbsp;حضرت لعل شہباز قلندر رحمۃ اللہ علیہ، حضرت شاہ عبداللطیف رحمۃ اللہ علیہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221052,
+      "SubjectID": 67,
+      "TopicID": 7576,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 سود کی حرمت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اسلامی تعلیمات کی روشنی میں&nbsp;سود کی حرمت پرمضمون تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221058,
+      "SubjectID": 67,
+      "TopicID": 7577,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 اسلامی ریاست",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مدینہ منورہ کی اسلامی ریاست پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221074,
+      "SubjectID": 67,
+      "TopicID": 7578,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 جہاز فی سبیل اللہ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اسلام کے تصور جہاد پر جامع نوٹ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221150,
+      "SubjectID": 67,
+      "TopicID": 7575,
+      "TopicRef": "6.7",
+      "TopicName": "6.7 ؒعلماومفکرین",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل شخصیات پر تفصیلی نوٹ لکھیں: ابن عربی&nbsp;رحمتہ اللہ علیہ&nbsp;، شاہ عبدالعزیز&nbsp;رحمتہ اللہ علیہ، ابن رشد&nbsp;رحمتہ اللہ علیہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221161,
+      "SubjectID": 67,
+      "TopicID": 7579,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 اسلام میں مستقبل کی منصوبہ بندی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>قرآن و سنت کی روشنی میں مستقبل کی منصوبہ&nbsp;بندی کی اہمیت بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 221172,
+      "SubjectID": 67,
+      "TopicID": 7580,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 اسلامی تہذیب کی امتیازات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اسلامی تہذیب کے امتیازات پر جامع مضمون لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "exportName": "long"
+      }
+    }
+  ]
+}

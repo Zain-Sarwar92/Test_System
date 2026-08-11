@@ -1,0 +1,584 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Physics",
+  "slug": "physics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Measurements",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Physical Quantities and Their Units"
+        },
+        {
+          "id": "1.2",
+          "title": "International System of Units"
+        },
+        {
+          "id": "1.3",
+          "title": "Uncertainty in Measurement"
+        },
+        {
+          "id": "1.4",
+          "title": "Use of Significant Figures"
+        },
+        {
+          "id": "1.5",
+          "title": "Precision and Accuracy"
+        },
+        {
+          "id": "1.6",
+          "title": "Assessment of Total Uncertainty in the Final Result"
+        },
+        {
+          "id": "1.7",
+          "title": "Dimensions of Physical Quantities"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Force and Motion",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Scalars"
+        },
+        {
+          "id": "2.2",
+          "title": "Vectors"
+        },
+        {
+          "id": "2.3",
+          "title": "Product of Two Vectors"
+        },
+        {
+          "id": "2.4",
+          "title": "Equations of Motions"
+        },
+        {
+          "id": "2.5",
+          "title": "Motion Under Gravity"
+        },
+        {
+          "id": "2.6",
+          "title": "Projectile Motion"
+        },
+        {
+          "id": "2.7",
+          "title": "Momentum"
+        },
+        {
+          "id": "2.8",
+          "title": "Elastic and Inelastic Collisions"
+        },
+        {
+          "id": "2.9",
+          "title": "Inelastic Collision in One Dimension"
+        },
+        {
+          "id": "2.10",
+          "title": "Elastic Collision in Two Dimensions"
+        },
+        {
+          "id": "2.11",
+          "title": "Inelastic Collision in Two Dimension"
+        },
+        {
+          "id": "2.12",
+          "title": "Rocket Propulsion"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Circular and Rotational Motion",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Angular Measurements"
+        },
+        {
+          "id": "3.2",
+          "title": "Centripetal Force"
+        },
+        {
+          "id": "3.3",
+          "title": "Artificial Satellites"
+        },
+        {
+          "id": "3.4",
+          "title": "Moment of Inertia"
+        },
+        {
+          "id": "3.5",
+          "title": "Angular Momentum"
+        },
+        {
+          "id": "3.6",
+          "title": "Law of Conservation of Angular Momentum"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Work, Energy and Power",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Work Done By a Constant Force"
+        },
+        {
+          "id": "4.2",
+          "title": "Work Done By a Variable Force"
+        },
+        {
+          "id": "4.3",
+          "title": "Conservative and Non-Conservative Forces"
+        },
+        {
+          "id": "4.4",
+          "title": "Power"
+        },
+        {
+          "id": "4.5",
+          "title": "Energy"
+        },
+        {
+          "id": "4.6",
+          "title": "Escape Velocity"
+        },
+        {
+          "id": "4.7",
+          "title": "Work-Energy Theorem"
+        },
+        {
+          "id": "4.8",
+          "title": "Interconversion of Potential Energy and Kinetic Energy"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Solid and Fluid Dynamics",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Classification of Solids"
+        },
+        {
+          "id": "5.2",
+          "title": "Mechanical Properties of Solids"
+        },
+        {
+          "id": "5.3",
+          "title": "Stress, Strain and Young'S Modulus"
+        },
+        {
+          "id": "5.4",
+          "title": "Determination of Young'S Modulus of a Wire"
+        },
+        {
+          "id": "5.5",
+          "title": "Elastic Deformation, Plastic Deformation and Elastic Limit"
+        },
+        {
+          "id": "5.6",
+          "title": "Strain Energy in Deformed Materials"
+        },
+        {
+          "id": "5.7",
+          "title": "Archimedes Principle and Floatation"
+        },
+        {
+          "id": "5.8",
+          "title": "Steady, Non-Viscous and Ideal Fluid"
+        },
+        {
+          "id": "5.9",
+          "title": "Equation of Continuity"
+        },
+        {
+          "id": "5.10",
+          "title": "Increasing in Flow Velocity"
+        },
+        {
+          "id": "5.11",
+          "title": "Bernoulli'S Equation"
+        },
+        {
+          "id": "5.12",
+          "title": "Uses of Bernoulli'S Equation"
+        },
+        {
+          "id": "5.13",
+          "title": "Viscous Drag and Stokes Law"
+        },
+        {
+          "id": "5.14",
+          "title": "Terminal Velocity"
+        },
+        {
+          "id": "5.15",
+          "title": "Real Fluids Are Viscous Fluids"
+        },
+        {
+          "id": "5.16",
+          "title": "Super Fluids"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Heat and Thermodynamics",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Assumptions of the Kinetic Theory of Gases"
+        },
+        {
+          "id": "6.2",
+          "title": "Internal Energy"
+        },
+        {
+          "id": "6.3",
+          "title": "Heat and Work"
+        },
+        {
+          "id": "6.4",
+          "title": "First Law of Thermodynamics"
+        },
+        {
+          "id": "6.5",
+          "title": "Reversible and Irreversible Processes"
+        },
+        {
+          "id": "6.6",
+          "title": "Heat Engine"
+        },
+        {
+          "id": "6.7",
+          "title": "Second Law of Thermodynamics"
+        },
+        {
+          "id": "6.8",
+          "title": "Carnot Engine and Carnot'S Theorem"
+        },
+        {
+          "id": "6.9",
+          "title": "Refrigerator"
+        },
+        {
+          "id": "6.10",
+          "title": "Entropy"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Waves and Vibrations",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Waves"
+        },
+        {
+          "id": "7.2",
+          "title": "Principle of Superposition of Waves"
+        },
+        {
+          "id": "7.3",
+          "title": "Interference and Its Types"
+        },
+        {
+          "id": "7.4",
+          "title": "Stationary Waves & Their Formation"
+        },
+        {
+          "id": "7.5",
+          "title": "Stationary Waves On a Stretched String"
+        },
+        {
+          "id": "7.6",
+          "title": "Stationary Waves in Air Columns"
+        },
+        {
+          "id": "7.7",
+          "title": "Experiment Demonstrating Stationary Waves Using Microwaves"
+        },
+        {
+          "id": "7.8",
+          "title": "Diffraction of Waves"
+        },
+        {
+          "id": "7.9",
+          "title": "Beats"
+        },
+        {
+          "id": "7.10",
+          "title": "Intensity (I) of a Wave"
+        },
+        {
+          "id": "7.11",
+          "title": "Doppler Effect"
+        },
+        {
+          "id": "7.12",
+          "title": "Applications of Doppler Effect"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Physical Optics and Gravitational Waves",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Polarization of Light"
+        },
+        {
+          "id": "8.2",
+          "title": "Types of Polarization"
+        },
+        {
+          "id": "8.3",
+          "title": "Production and Detection of Plane Polarized Light"
+        },
+        {
+          "id": "8.4",
+          "title": "Polarization of Light By the Method of Reflection"
+        },
+        {
+          "id": "8.5",
+          "title": "Malus'S Law"
+        },
+        {
+          "id": "8.6",
+          "title": "Gravitational Waves (Gws)"
+        },
+        {
+          "id": "8.7",
+          "title": "Interferometer"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Electrostatics and Current Electricity",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Coulomb'S Law"
+        },
+        {
+          "id": "9.2",
+          "title": "Electric Field Strength"
+        },
+        {
+          "id": "9.3",
+          "title": "Electric Flux"
+        },
+        {
+          "id": "9.4",
+          "title": "Gauss'S Law"
+        },
+        {
+          "id": "9.5",
+          "title": "Electric Potential"
+        },
+        {
+          "id": "9.6",
+          "title": "Electron Volt"
+        },
+        {
+          "id": "9.7",
+          "title": "Motion of Charged Particles in a Uniform Electric Field"
+        },
+        {
+          "id": "9.8",
+          "title": "Path of a Charged Particle"
+        },
+        {
+          "id": "9.9",
+          "title": "Shielding From External Electric Field"
+        },
+        {
+          "id": "9.10",
+          "title": "Electric Current"
+        },
+        {
+          "id": "9.11",
+          "title": "Current Through a Conductor"
+        },
+        {
+          "id": "9.12",
+          "title": "Ohm'S Law"
+        },
+        {
+          "id": "9.13",
+          "title": "Resistivity and Its Dependence Upon Temperature"
+        },
+        {
+          "id": "9.14",
+          "title": "Electric Power"
+        },
+        {
+          "id": "9.15",
+          "title": "Electromotive Force (Emf) and Potential Difference"
+        },
+        {
+          "id": "9.16",
+          "title": "Kirchhoff'S Rules"
+        },
+        {
+          "id": "9.17",
+          "title": "Wheatstone Bridge"
+        },
+        {
+          "id": "9.18",
+          "title": "Potentiometer"
+        },
+        {
+          "id": "9.19",
+          "title": "Use of Galvanometer"
+        },
+        {
+          "id": "9.20",
+          "title": "Thermistors"
+        },
+        {
+          "id": "9.21",
+          "title": "Light Dependent Resistor"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Electromagnetism",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Force On a Current-Carrying Conductor in a Uniform Magnetic Field"
+        },
+        {
+          "id": "10.2",
+          "title": "Magnetic Flux and Flux Density"
+        },
+        {
+          "id": "10.3",
+          "title": "Magnetic Flux Linkage"
+        },
+        {
+          "id": "10.4",
+          "title": "Motion of a Charged Particles in a Magnetic Field"
+        },
+        {
+          "id": "10.5",
+          "title": "Velocity Selector"
+        },
+        {
+          "id": "10.6",
+          "title": "Induced Emf and Faraday'S Law"
+        },
+        {
+          "id": "10.7",
+          "title": "Lenz'S Law and Direction of Induced Emf"
+        },
+        {
+          "id": "10.8",
+          "title": "Factors Affecting Emf"
+        },
+        {
+          "id": "10.9",
+          "title": "Ferrofluids"
+        },
+        {
+          "id": "10.10",
+          "title": "a Seismometer"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Special Theory of Relativity",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Relative Motion"
+        },
+        {
+          "id": "11.2",
+          "title": "Frames of Reference"
+        },
+        {
+          "id": "11.3",
+          "title": "Special Theory of Relativity"
+        },
+        {
+          "id": "11.4",
+          "title": "the Equivalence Between Mass and Energy"
+        },
+        {
+          "id": "11.5",
+          "title": "Space-Time in Relativity"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Nuclear and Particle Physics",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Structure and Properties of the Nucleus"
+        },
+        {
+          "id": "12.2",
+          "title": "Fundamental Forces of Nature"
+        },
+        {
+          "id": "12.3",
+          "title": "Matter and Anti-Matter"
+        },
+        {
+          "id": "12.4",
+          "title": "Radioactivity"
+        },
+        {
+          "id": "12.5",
+          "title": "Fundamental Particles"
+        },
+        {
+          "id": "12.6",
+          "title": "Quarks"
+        },
+        {
+          "id": "12.7",
+          "title": "Higgs Boson"
+        },
+        {
+          "id": "12.8",
+          "title": "Conservation Laws"
+        },
+        {
+          "id": "12.9",
+          "title": "the Asymmetry of Matter and Anti-Matter in the Universe"
+        },
+        {
+          "id": "12.10",
+          "title": "Most of the Matter in the Observable Universe in Plasma"
+        },
+        {
+          "id": "12.11",
+          "title": "the Theories About the Forces Between the Masses of Particles"
+        },
+        {
+          "id": "12.12",
+          "title": "the Standard Model"
+        }
+      ]
+    }
+  ]
+}

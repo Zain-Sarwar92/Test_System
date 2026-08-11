@@ -1,0 +1,7002 @@
+1.1 INTRODUCTION TO OPERATING SYSTEM (OS)
+1.1
+Exercise
+
+1
+
+Why is the operating system referred to as the "central controller"?
+
+آپریٹنگ سسٹم کو مرکزی کنٹرولر کیوں کہا جاتا ہے؟
+
+1
+
+1.1
+Exercise
+
+2
+
+How does the OS act as a translator between the user and hardware?
+
+OS صارف اور ہارڈویئر کے درمیان مترجم کے طور پر کیسے کام کرتا ہے؟
+
+2
+
+1.1
+Exercise
+
+3
+
+Define one way to create a new user account in Windows.
+
+ونڈوز میں نیا یوزر اکاؤنٹ بنانے کا ایک طریقہ بیان کریں۔
+
+3
+
+1.1
+Additional
+
+4
+
+Define operating system and write the names of some popular operating systems.
+
+آپریٹنگ سسٹم کی تعریف کریں اور کچھ مشہور آپریٹنگ سسٹمز کے نام لکھیں۔
+
+4
+
+1.1
+Additional
+
+5
+
+Which are the processes and operation perform or controlled by operating system?
+
+وہ کون سے پروسیسز  اور آپریشنز ہیں جن کا انتظام یا کنٹرول آپریٹنگ سسٹم کرتا ہے؟
+
+5
+
+1.1
+Additional
+
+6
+
+How operating system works?
+
+آپریٹنگ سسٹم کیسے کام کرتا ہے؟
+
+6
+
+1.1
+Additional
+
+7
+
+Describe any two responsibilities of operating system in multi-user environment.
+
+ملٹی یوزر ماحول میں آپریٹنگ سسٹم کی کوئی دو ذمہ داریاں بیان کریں۔
+
+7
+
+1.1
+Additional
+
+8
+
+Why can computer hardware not understand human language directly?
+
+کمپیوٹر ہارڈ ویئر براہ راست انسانی زبان کیوں نہیں سمجھ سکتا؟
+
+8
+
+1.1
+Additional
+
+9
+
+What is a multi-user environment?
+
+ملٹی یوزر انوائرمنٹ کیا ہے؟
+
+9
+
+1.1
+Additional
+
+10
+
+How does an OS protect shared resources from unauthorized access?
+
+ایک OS مشترکہ وسائل کو غیر مجاز رسائی سے کیسے محفوظ رکھتا ہے؟
+
+10
+
+1.1
+Additional
+
+11
+
+What is binary language or binary code?
+
+بائنری زبان یا بائنری کوڈ سے کیا مراد ہے؟
+
+11
+
+1.1
+Additional
+
+12
+
+Explain how an OS manages separate user accounts.
+
+وضاحت کریں کہ OS مختلف صارف اکاؤنٹس کا انتظام کیسے کرتا ہے۔
+
+12
+
+1.1
+Additional
+
+13
+
+What is the binary representation of the letter 'A'?
+
+انگریزی حرف 'A' کی بائنری شکل کیا ہے؟
+
+13
+
+1.1
+Additional
+
+14
+
+How does an Operating System work like a traffic controller?
+
+آپریٹنگ سسٹم ایک ٹریفک کنٹرولر کی طرح کیسے کام کرتا ہے؟
+
+14
+
+1.1
+Additional
+
+15
+
+Name any three types of user accounts that can be created in Windows.
+
+ونڈوز میں بنائے جانے والے کوئی سے تین قسم کے صارف اکاؤنٹس کے نام لکھیں۔
+
+15
+
+1.1
+Additional
+
+16
+
+How does an OS handle multiple tasks running at the same time?
+
+ایک ہی وقت میں چلنے والے متعدد ٹاسکس کو OS کیسے ہینڈل کرتا ہے؟
+
+16
+
+1.1
+Additional
+
+17
+
+What happens instantly when you press a letter on the keyboard?
+
+جب آپ کی بورڈ پر کوئی حرف دباتے ہیں تو فوری طور پر کیا عمل ہوتا ہے؟
+
+17
+
+1.1
+Additional
+
+18
+
+Why does an OS keep each student's work separate and private in a computer lab?
+
+کمپیوٹر لیب میں OS ہر طالب علم کے کام کو الگ اور نجی کیوں رکھتا ہے؟
+
+18
+
+1.2 ARCHITECTURE OF AN OPERATING SYSTEM
+1.2
+Exercise
+
+19
+
+How is the kernel different from the shell?
+
+کرنل شیل سے کیسے مختلف ہے؟
+
+19
+
+1.2
+Exercise
+
+20
+
+Give one example of a system library and its purpose.
+
+ایک سسٹم لائبریری اور اس کے مقصد کی ایک مثال دیں۔
+
+20
+
+1.2
+Additional
+
+21
+
+Differentiate between graphic shells and command line shells.
+
+ گرافیکل شیلزاور کمانڈ لائن شیلز میں فرق کریں۔
+
+21
+
+1.2
+Additional
+
+22
+
+What is meant by the Architecture of an Operating System?
+
+آپریٹنگ سسٹم کے آرکیٹیکچر سے کیا مراد ہے؟
+
+22
+
+1.2
+Additional
+
+23
+
+Define the Kernel of an operating system.
+
+آپریٹنگ سسٹم کے کرنل کی تعریف کریں۔
+
+23
+
+1.2
+Additional
+
+24
+
+What are the primary responsibilities of the Kernel?
+
+کرنل کی بنیادی ذمہ داریاں کیا ہیں؟
+
+24
+
+1.2
+Additional
+
+25
+
+Define the Shell of an operating system.
+
+آپریٹنگ سسٹم کے شیل کی تعریف کریں۔
+
+25
+
+1.2
+Additional
+
+26
+
+What is a Graphical Shell? Give an example.
+
+گرافیکل شیل کیا ہے؟ ایک مثال دیں۔
+
+26
+
+1.2
+Additional
+
+27
+
+What is a Command-line Shell?
+
+کمانڈ لائن شیل سے کیا مراد ہے؟
+
+27
+
+1.2
+Additional
+
+28
+
+How do the Shell and Kernel interact with each other?
+
+شیل اور کرنل آپس میں کیسے رابطہ کرتے ہیں؟
+
+28
+
+1.2
+Additional
+
+29
+
+What is Modular Design in operating systems?
+
+آپریٹنگ سسٹمز میں ماڈیولر ڈیزائن کیا ہوتا ہے؟
+
+29
+
+1.2
+Additional
+
+30
+
+State the advantage of dividing an OS design into layers.
+
+آپریٹنگ سسٹم کے ڈیزائن کو تہوں میں تقسیم کرنے کا فائدہ بتائیں۔
+
+30
+
+1.2
+Additional
+
+31
+
+What is the function of the Lower Layer in OS architecture?
+
+آپریٹنگ سسٹم آرکیٹیکچر میں نچلی تہہ کا کیا کام ہے؟
+
+31
+
+1.2
+Additional
+
+32
+
+What does the Middle Layer manage in an operating system?
+
+آپریٹنگ سسٹم میں درمیانی تہہ کس چیز کا انتظام کرتی ہے؟
+
+32
+
+1.2
+Additional
+
+33
+
+What is the role of the Upper Layer in OS architecture?
+
+آپریٹنگ سسٹم آرکیٹیکچر میں اوپری تہہ کا کیا کردار ہے؟
+
+33
+
+1.2
+Additional
+
+34
+
+How does a layer in a layered design depend on other layers?
+
+لیئرڈ ڈیزائن میں ایک تہہ دوسری تہوں پر کیسے انحصار کرتی ہے؟
+
+34
+
+1.2
+Additional
+
+35
+
+Define System Libraries.
+
+سسٹم لائبریریز کی تعریف کریں۔
+
+35
+
+1.2
+Additional
+
+36
+
+Why does an OS need device drivers to communicate with hardware?
+
+آپریٹنگ سسٹم کو ہارڈ ویئر کے ساتھ بات چیت کرنے کے لیے ڈیوائس ڈرائیورز کی ضرورت کیوں ہوتی ہے؟
+
+36
+
+1.3 PROCESS MANAGEMENT IN OPERATING SYSTEM (OS)
+1.3
+Exercise
+
+37
+
+Explain one advantage and one disadvantage of FCFS scheduling.
+
+FCFS شیڈولنگ کا ایک فائدہ اور ایک نقصان بیان کریں۔
+
+37
+
+1.3
+Exercise
+
+38
+
+Define multitasking in computer system.
+
+کمپیوٹر سسٹم میں ملٹی ٹاسکنگ کی تعریف کریں۔
+
+38
+
+1.3
+Additional
+
+39
+
+Differentiate between process and resource.
+
+پروسیس اور ریسورس میں فرق کریں۔
+
+39
+
+1.3
+Additional
+
+40
+
+What is process life cycle? Named its stages.
+
+پروسیس لائف سائیکل کیا ہے؟ اس کے مراحل کے نام لکھیں۔
+
+40
+
+1.3
+Additional
+
+41
+
+Differentiate between multitasking and concurrency.
+
+ملٹی ٹاسکنگ اور ہم آہنگی میں فرق کریں۔
+
+41
+
+1.3
+Additional
+
+42
+
+What is FCFS? Give an example.
+
+FCFS کے بارے میں آپ کیا جانتے ہیں؟ ایک مثال دیں۔
+
+42
+
+1.3
+Additional
+
+43
+
+Describe advantages of FCFS.
+
+FCFS کے فوائد بیان کریں۔
+
+43
+
+1.3
+Additional
+
+44
+
+Describe disadvantages of FCFS.
+
+FCFS کے نقصانات بیان کریں۔
+
+44
+
+1.3
+Additional
+
+45
+
+Define a process in the context of an Operating System.
+
+آپریٹنگ سسٹم کے تناظر میں پروسیس کی تعریف کریں۔
+
+45
+
+1.3
+Additional
+
+46
+
+What is process management?
+
+پروسیس مینجمنٹ کیا ہے؟
+
+46
+
+1.3
+Additional
+
+47
+
+What happens during the "creation" stage of a process?
+
+پروسیس کے "تخلیق" کے مرحلے میں کیا ہوتا ہے؟
+
+47
+
+1.3
+Additional
+
+48
+
+Explain the "execution" stage of a process.
+
+پروسیس کے "عمل در آمد" مرحلے کی وضاحت کریں۔
+
+48
+
+1.3
+Additional
+
+49
+
+What does the OS do during the "termination" stage of a process?
+
+پروسیس کے "اختتام" کے مرحلے کے دوران OS کیا کرتا ہے؟
+
+49
+
+1.3
+Additional
+
+50
+
+What is meant by concurrency in process management?
+
+پروسیس مینجمنٹ میں کنکرنسی سے کیا مراد ہے؟
+
+50
+
+1.3
+Additional
+
+51
+
+What are process scheduling concepts?
+
+پروسیس شیڈولنگ تصورات کیا ہیں؟
+
+51
+
+1.3
+Additional
+
+52
+
+What two critical decisions must an OS make regarding process scheduling?
+
+پروسیس شیڈولنگ کے حوالے سے OS کو کون سے دو اہم فیصلے کرنے پڑتے ہیں؟
+
+52
+
+1.3
+Additional
+
+53
+
+Why can a CPU not run all processes at the exact same time?
+
+ایک CPU بالکل ایک ہی وقت میں تمام پروسیسز کو کیوں نہیں چلا سکتا؟
+
+53
+
+1.3
+Additional
+
+54
+
+How fast can a CPU switch between processes, and what is its benefit?
+
+ایک CPU پروسیسز کے درمیان کتنی تیزی سے سوئچ  کر سکتا ہے، اور اس کا کیا فائدہ ہے؟
+
+54
+
+1.3
+Additional
+
+55
+
+Suppose we have three processes P1, P2, and P3 having arrival times 0s, 1s, and 2s, and burst times 3s, 4s, and 2s, respectively. How much total time is required to complete all three processes?
+
+فرض کریں ہمارے پاس تین پروسیسز ہیں P1، P2، اور P3 جن کے آنے کا وقت بالترتیب 0 سیکنڈ، 1 سیکنڈ، اور 2 سیکنڈ ہے، اور برسٹ ٹائم بالترتیب 3 سیکنڈ، 4 سیکنڈ، اور 2 سیکنڈ ہے۔ تینوں پروسیسز کو مکمل کرنے میں کُل کتنا وقت درکار ہوگا؟
+
+55
+
+1.4 MEMORY
+1.4
+Exercise
+
+56
+
+Why is virtual memory slower than RAM?
+
+ورچوئل میموری RAM سے سست کیوں ہے؟
+
+56
+
+1.4
+Additional
+
+57
+
+Define memory in a computer system. Write the names of its types.
+
+کمپیوٹر سسٹم میں میموری کی تعریف کریں۔ اس کی اقسام کے نام لکھیں۔
+
+57
+
+1.4
+Additional
+
+58
+
+Differentiate between primary and virtual memory.
+
+پرائمری اور ورچوئل میموری میں فرق کریں۔
+
+58
+
+1.4
+Additional
+
+59
+
+Why is virtual memory compulsory for today's technology?
+
+آج کی ٹیکنالوجی کے لیے ورچوئل میموری کیوں ضروری ہے؟
+
+59
+
+1.4
+Additional
+
+60
+
+What is primary memory and what is its other name?
+
+پرائمری میموری کیا ہے اور اس کا دوسرا نام کیا ہے؟
+
+60
+
+1.4
+Additional
+
+61
+
+Why is RAM considered a temporary storage area?
+
+ریم کو ایک عارضی سٹوریج ایریا کیوں مانا جاتا ہے؟
+
+61
+
+1.4
+Additional
+
+62
+
+Define virtual memory. What is its other name?
+
+ورچوئل میموری کی تعریف کریں۔ اس کا دوسرا نام کیا ہے؟
+
+62
+
+1.4
+Additional
+
+63
+
+What action does the OS take when several programs are open simultaneously?
+
+جب ایک ساتھ کئی پروگرام کھلے ہوں تو OS کیا اقدام کرتا ہے؟
+
+63
+
+1.4
+Additional
+
+64
+
+Which was the first personal computer and when was it released?
+
+پہلا پرسنل کمپیوٹر کون سا تھا اور یہ کب ریلیز ہوا؟
+
+64
+
+1.4
+Additional
+
+65
+
+How much RAM did the IBM 5150 computer have?
+
+آئی بی ایم 5150 کمپیوٹر میں کتنی ریم موجود تھی؟
+
+65
+
+1.4
+Additional
+
+66
+
+State the data transfer speed of modern DDR5 RAM.
+
+جدید ڈی ڈی آر 5 ریم کی ڈیٹا ٹرانسفر سپیڈ بیان کریں۔
+
+66
+
+1.4
+Additional
+
+67
+
+How does virtual memory benefit a system when running multiple programs?
+
+متعدد پروگرام چلاتے وقت ورچوئل میموری سسٹم کو کیا فائدہ پہنچاتی ہے؟
+
+67
+
+1.4
+Additional
+
+68
+
+Which hardware storage drives can be used as virtual memory?
+
+کون سی ہارڈ ویئر سٹوریج ڈرائیوز کو ورچوئل میموری کے طور پر استعمال کیا جا سکتا ہے؟
+
+68
+
+1.5 PROCESSES VS THREADS
+1.5
+Additional
+
+69
+
+Differentiate between process and thread.
+
+پروسیس اور تھریڈ میں فرق کریں۔
+
+69
+
+1.5
+Additional
+
+70
+
+Describe any two benefits of multithreading.
+
+ملٹی تھریڈنگ کے کوئی دو فوائد بیان کریں۔
+
+70
+
+1.5
+Additional
+
+71
+
+Define a process.
+
+پروسیس کی تعریف کریں۔
+
+71
+
+1.5
+Additional
+
+72
+
+Define a thread.
+
+تھریڈ کی تعریف کریں۔
+
+72
+
+1.5
+Additional
+
+73
+
+What resources does a process typically own?
+
+ایک پروسیس کے پاس عام طور پر کون سے وسائل ہوتے ہیں؟
+
+73
+
+1.5
+Additional
+
+74
+
+Why are processes isolated from one another?
+
+پروسیسز کو ایک دوسرے سے الگ کیوں رکھا جاتا ہے؟
+
+74
+
+1.5
+Additional
+
+75
+
+What is shared among threads belonging to the same process?
+
+ایک ہی پروسیس کے تمام تھریڈز آپس میں کیا شیئر کرتے ہیں؟
+
+75
+
+1.5
+Additional
+
+76
+
+How do threads inside a single process operate?
+
+ایک ہی پروسیس کے اندر موجود تھریڈز کیسے کام کرتے ہیں؟
+
+76
+
+1.5
+Additional
+
+77
+
+List two specific tasks performed by different threads in a web browser.
+
+ویب براؤزر میں مختلف تھریڈز کے ذریعے کیے جانے والے کوئی سے دو کام لکھیں۔
+
+77
+
+1.5
+Additional
+
+78
+
+What is the main advantage of using multiple threads in a web browser?
+
+ویب براؤزر میں ملٹی پل تھریڈز استعمال کرنے کا بنیادی فائدہ کیا ہے؟
+
+78
+
+1.5
+Additional
+
+79
+
+Define the term multithreading.
+
+ملٹی تھریڈنگ کی اصطلاح کی تعریف کریں۔
+
+79
+
+1.5
+Additional
+
+80
+
+How does multithreading provide enhanced performance?
+
+ملٹی تھریڈنگ بہتر کارکردگی کیسے فراہم کرتی ہے؟
+
+80
+
+1.5
+Additional
+
+81
+
+What is meant by improved responsiveness in multithreading?
+
+ملٹی تھریڈنگ میں بہتر رسپانسو نیس سے کیا مراد ہے؟
+
+81
+
+1.5
+Additional
+
+82
+
+What does support for concurrent operations mean?
+
+کنکرنٹ آپریشنز کے لیے سپورٹ سے کیا مراد ہے؟
+
+82
+
+1.5
+Additional
+
+83
+
+How does multithreading ensure efficient use of resources?
+
+ملٹی تھریڈنگ وسائل کے موثر استعمال کو کیسے یقینی بناتی ہے؟
+
+83
+
+1.6 SYSTEM CALLS
+1.6
+Exercise
+
+84
+
+Define a system call.
+
+سسٹم کال کی تعریف کریں۔
+
+84
+
+1.6
+Additional
+
+85
+
+What is fork call and why it is used? Give an example.
+
+فورک کال کیا ہے اور یہ کیوں استعمال ہوتی ہے؟ ایک مثال دیں۔
+
+85
+
+1.6
+Additional
+
+86
+
+What are the consequences if programs directly control hardware without system calls?
+
+اگر پروگرام سسٹم کالز کے بغیر ہارڈ ویئر کو براہ راست کنٹرول کریں تو اس کے کیا نتائج ہو سکتے ہیں؟
+
+86
+
+1.6
+Additional
+
+87
+
+List the four main types of system calls.
+
+سسٹم کالز کی چار اہم اقسام کے نام لکھیں۔
+
+87
+
+1.6
+Additional
+
+88
+
+What is the function of the "open" system call?
+
+"open" سسٹم کال کا کیا کام ہے؟
+
+88
+
+1.6
+Additional
+
+89
+
+Define the "read" system call with an example.
+
+مثال کے ساتھ "read" سسٹم کال کی تعریف کریں۔
+
+89
+
+1.6
+Additional
+
+90
+
+What is the role of the "write" system call?
+
+"write" سسٹم کال کا کیا کردار ہے؟
+
+90
+
+1.6
+Additional
+
+91
+
+Compare the number of system calls in Linux/macOS with Windows.
+
+لینکس/میک او ایس اور ونڈوز میں سسٹم کالز کی تعداد کا موازنہ کریں۔
+
+91
+
+1.6
+Additional
+
+92
+
+What general tasks are handled by system calls?
+
+سسٹم کالز عام طور پر کون سے کام سنبھالتی ہیں؟
+
+92
+
+1.7 FILE SYSTEM STRUCTURE AND MANAGEMENT
+1.7
+Exercise
+
+93
+
+What is the role of a file system?
+
+فائل سسٹم کا کردار کیا ہے؟
+
+93
+
+1.7
+Additional
+
+94
+
+Differentiate between file and folder.
+
+فائل اور فولڈر میں فرق کریں۔
+
+94
+
+1.7
+Additional
+
+95
+
+Define a file system and its main purpose.
+
+فائل سسٹم کی تعریف کریں اور اس کا بنیادی مقصد بتائیں۔
+
+95
+
+1.7
+Additional
+
+96
+
+What is a file? List the types of data it may contain.
+
+فائل کیا ہے؟ اس میں موجود ڈیٹا کی اقسام کی فہرست بنائیں۔
+
+96
+
+1.7
+Additional
+
+97
+
+Define a folder or a directory.
+
+فولڈر یا ڈائریکٹری کی تعریف کریں۔
+
+97
+
+1.7
+Additional
+
+98
+
+What is meant by metadata?
+
+میٹا ڈیٹا سے کیا مراد ہے؟
+
+98
+
+1.7
+Additional
+
+99
+
+List any four attributes included in a file's metadata.
+
+کسی فائل کے میٹا ڈیٹا میں شامل کوئی سے چار اوصاف لکھیں۔
+
+99
+
+1.7
+Additional
+
+100
+
+Write four widely used computer-based file systems.
+
+کمپیوٹر پر مبنی بڑے پیمانے پر استعمال ہونے والے چار فائل سسٹمز لکھیں۔
+
+100
+
+1.7
+Additional
+
+101
+
+What factors are affected by the choice of a file system?
+
+فائل سسٹم کے انتخاب سے کون سے عوامل متاثر ہوتے ہیں؟
+
+101
+
+1.7
+Additional
+
+102
+
+Explain the librarian analogy used for file systems.
+
+فائل سسٹمز کے لیے استعمال ہونے والی لائبریرین کی مثال واضح کریں۔
+
+102
+
+1.7
+Additional
+
+103
+
+What does a well-designed file system ensure for complex data?
+
+ایک بہترین ڈیزائن کردہ فائل سسٹم پیچیدہ ڈیٹا کے لیے کیا یقینی بناتا ہے؟
+
+103
+
+1.8 TYPES OF OPERATING SYSTEMS
+1.8
+Additional
+
+104
+
+Describe the key features and applications of RTOS.
+
+RTOS کی اہم خصوصیات اور استعمالات بیان کریں۔
+
+104
+
+1.8
+Additional
+
+105
+
+What is NOS? Also write its applications.
+
+NOS کیا ہے؟ نیز اس کے استعمالات لکھیں۔
+
+105
+
+1.8
+Additional
+
+106
+
+Why are operating systems designed in different types?
+
+آپریٹنگ سسٹم مختلف اقسام میں کیوں ڈیزائن کیے جاتے ہیں؟
+
+106
+
+1.8
+Additional
+
+107
+
+Define a RTOS.
+
+RTOS کی تعریف کریں۔
+
+107
+
+1.8
+Additional
+
+108
+
+What is meant by a "deadline" in RTOS?
+
+RTOS میں "ڈیڈ لائن" سے کیا مراد ہے؟
+
+108
+
+1.8
+Additional
+
+109
+
+Name three critical systems that use RTOS.
+
+تین اہم سسٹمز کے نام لکھیں جو RTOS استعمال کرتے ہیں۔
+
+109
+
+1.8
+Additional
+
+110
+
+What happens if a tiny delay occurs in RTOS?
+
+RTOS میں معمولی تاخیر سے کیا ہو سکتا ہے؟
+
+110
+
+1.8
+Additional
+
+111
+
+Define an EOS.
+
+EOS کی تعریف کریں۔
+
+111
+
+1.8
+Additional
+
+112
+
+Why is an EOS not meant for general computing?
+
+EOS عام کمپیوٹنگ کے لیے کیوں نہیں ہوتا؟
+
+112
+
+1.8
+Additional
+
+113
+
+State two key features of an EOS.
+
+EOS کی کوئی سی دو خصوصیات بیان کریں۔
+
+113
+
+1.8
+Additional
+
+114
+
+How does NOS help students in a computer lab?
+
+NOS کمپیوٹر لیب میں طلبہ کی کیسے مدد کرتا ہے؟
+
+114
+
+1.8
+Additional
+
+115
+
+Define a MOS.
+
+MOS کی تعریف کریں۔
+
+115
+
+1.8
+Additional
+
+116
+
+For what features is a MOS optimized?
+
+MOS کن خصوصیات کے لیے موزوں ہوتا ہے؟
+
+116
+
+1.8
+Additional
+
+117
+
+Which early MOS was used in early Nokia phones?
+
+پرانے نوکیا فونز میں کون سا ابتدائی MOS استعمال ہوتا تھا؟
+
+117
+
+1.8
+Additional
+
+118
+
+Compare early MOS with modern platforms.
+
+ابتدائی MOS کا جدید پلیٹ فارمز سے موازنہ کریں۔
+
+118
+
+1.8
+Additional
+
+119
+
+What are the applications of EOS?
+
+EOS کے استعمالات کیا ہیں؟
+
+119
+
+2.1 INTRODUCTION TO POST-TROUBLESHOOTING
+2.1
+Additional
+
+120
+
+How troubleshooting process work? Give an example.
+
+ٹربل شوٹنگ کا عمل کیسے کام کرتا ہے؟ ایک مثال دیں۔
+
+120
+
+2.1
+Additional
+
+121
+
+What is post-troubleshooting? Also, give an example.
+
+پوسٹ ٹربل شوٹنگ کیا ہے؟ نیز ایک مثال دیں۔
+
+121
+
+2.1
+Additional
+
+122
+
+Why is regular troubleshooting more important for the user?
+
+صارف کے لیے باقاعدہ دیکھ بھال کیوں زیادہ اہم ہے؟
+
+122
+
+2.1
+Additional
+
+123
+
+How many activities are followed by different tools for health check?
+
+ہیلتھ چیک کے لیے ونڈوز کے ٹولز کے ذریعے کتنی سرگرمیاں انجام دی جاتی ہیں؟
+
+123
+
+2.1
+Additional
+
+124
+
+Explain with an example why continuous maintenance is important for a computer.
+
+مثال کے ساتھ بیان کریں کہ کمپیوٹر کے لیے مسلسل دیکھ بھال کیوں ضروری ہے۔
+
+124
+
+2.1
+Additional
+
+125
+
+Write down a list of common problems resulting from a lack of regular maintenance.
+
+باقاعدہ دیکھ بھال نہ کرنے کی وجہ سے ہونے والے عام مسائل کی فہرست لکھیں۔
+
+125
+
+2.1
+Additional
+
+126
+
+How do temporary files and background processes cause slow performance?
+
+عارضی فائلیں اور بیک گراؤنڈ پروسیسز کمپیوٹر کی رفتار کو کیسے سست کرتے ہیں؟
+
+126
+
+2.1
+Additional
+
+127
+
+What is the impact of not installing system updates?
+
+سسٹم اپ ڈیٹس انسٹال نہ کرنے کا کیا نقصان ہوتا ہے؟
+
+127
+
+2.1
+Additional
+
+128
+
+Why does poor maintenance increase security risks?
+
+دیکھ بھال نہ کرنے سے کمپیوٹر میں سیکیورٹی کے خطرات کیوں بڑھ جاتے ہیں؟
+
+128
+
+2.1
+Additional
+
+129
+
+How can data loss occur due to lack of regular maintenance?
+
+باقاعدگی سے دیکھ بھال نہ کرنے کی وجہ سے ڈیٹا کا نقصان کیسے ہو سکتا ہے؟
+
+129
+
+2.1
+Additional
+
+130
+
+What causes hardware damage in an unmaintained system?
+
+دیکھ بھال سے محروم سسٹم میں ہارڈ ویئر کے نقصان کی بنیادی وجوہات کیا ہیں؟
+
+130
+
+2.1
+Additional
+
+131
+
+Define system health monitoring.
+
+سسٹم ہیلتھ مانیٹرنگ سے کیا مراد ہے؟
+
+131
+
+2.1
+Additional
+
+132
+
+Which built-in tools are included in modern operating systems for monitoring?
+
+جدید آپریٹنگ سسٹمز میں نگرانی کے لیے کون سے بلٹ ان ٹولز شامل ہوتے ہیں؟
+
+132
+
+2.1
+Additional
+
+133
+
+Why should a user view system warnings and error messages?
+
+صارف کے لیے سسٹم کی وارننگز اور ایرر میسجز دیکھنا کیوں ضروری ہے؟
+
+133
+
+2.1
+Additional
+
+134
+
+How can regular monitoring identify programs that slow down the computer?
+
+باقاعدہ مانیٹرنگ کمپیوٹر کو سست کرنے والے پروگراموں کی شناخت کیسے کرتی ہے؟
+
+134
+
+2.1
+Additional
+
+135
+
+What is the main benefit of detecting small issues early through monitoring?
+
+مانیٹرنگ کے ذریعے معمولی مسائل کا جلد پتہ لگانے کا بنیادی فائدہ کیا ہے؟
+
+135
+
+2.1
+Additional
+
+136
+
+List any three actions a user can take using built-in monitoring tools.
+
+بلٹ ان مانیٹرنگ ٹولز کا استعمال کرتے ہوئے صارف کون سے کوئی سے تین اقدامات کر سکتا ہے؟
+
+136
+
+2.2 USING BUILT-IN DIAGNOSTIC TOOLS
+2.2
+Exercise
+
+137
+
+Write one key function of the resource monitor.
+
+ریسورس مانیٹر کا ایک اہم فنکشن لکھیں۔
+
+137
+
+2.2
+Additional
+
+138
+
+Name three important diagnostic tools available in microsoft windows.
+
+مائیکروسافٹ ونڈوز میں دستیاب تین اہم ڈائیگنوسٹک ٹولز کے نام لکھیں۔
+
+138
+
+2.2
+Additional
+
+139
+
+Define task manager and its main function.
+
+ٹاسک مینیجر کی تعریف کریں اور اس کا بنیادی کام لکھیں۔
+
+139
+
+2.2
+Additional
+
+140
+
+What is a resource monitor and write down its responsibilities?
+
+ریسورس مانیٹر کیا ہے اور اس کی ذمہ داریاں تحریر کریں؟
+
+140
+
+2.2
+Additional
+
+141
+
+What is event viewer? Describe its responsibilities?
+
+ایونٹ ویور کیا ہے؟ اس کی ذمہ داریاں تحریر کریں۔
+
+141
+
+2.2
+Additional
+
+142
+
+Did ending the task improve system performance?
+
+کیا ٹاسک ختم کرنے سے سسٹم کی کارکردگی بہتر ہوتی ہے؟
+
+142
+
+2.2
+Additional
+
+143
+
+What is the purpose of built-in diagnostic tools in windows?
+
+ونڈوز میں بلٹ اِن ڈائیگنوسٹک ٹولز کا کیا مقصد ہے؟
+
+143
+
+2.2
+Additional
+
+144
+
+What does the processes tab of the task manager show?
+
+ٹاسک مینیجر کا پروسیسز ٹیب کیا ظاہر کرتا ہے؟
+
+144
+
+2.2
+Additional
+
+145
+
+What information is provided by the performance tab in task manager?
+
+ٹاسک مینیجر میں پرفارمنس ٹیب کیا معلومات فراہم کرتا ہے؟
+
+145
+
+2.2
+Additional
+
+146
+
+Write two simple ways to open task manager in windows.
+
+ونڈوز میں ٹاسک مینیجر کھولنے کے دو آسان طریقے لکھیں۔
+
+146
+
+2.2
+Additional
+
+147
+
+When is task manager helpful for a computer user?
+
+ٹاسک مینیجر کمپیوٹر صارف کے لیے کب مددگار ثابت ہوتا ہے؟
+
+147
+
+2.2
+Additional
+
+148
+
+How can you close an unresponsive application using task manager?
+
+آپ ٹاسک مینیجر کا استعمال کرتے ہوئے غیر جوابدہ ایپلیکیشن کو کیسے بند کر سکتے ہیں؟
+
+148
+
+2.2
+Additional
+
+149
+
+How does resource monitor differ from task manager?
+
+ریسورس مانیٹر ٹاسک مینیجر سے کیسے مختلف ہے؟
+
+149
+
+2.2
+Additional
+
+150
+
+Write two methods to open resource monitor.
+
+ریسورس مانیٹر کھولنے کے دو طریقے لکھیں۔
+
+150
+
+2.2
+Additional
+
+151
+
+What is the function of the CPU Tab in resource monitor?
+
+ریسورس مانیٹر میں سی پی یو ٹیب کا کیا کام ہے؟
+
+151
+
+2.2
+Additional
+
+152
+
+Explain the utility of the memory tab in resource monitor.
+
+ریسورس مانیٹر میں میموری ٹیب کی افادیت واضح کریں۔
+
+152
+
+2.2
+Additional
+
+153
+
+What does the disk tab monitor in resource monitor?
+
+ریسورس مانیٹر میں ڈسک ٹیب کس چیز کی نگرانی کرتا ہے؟
+
+153
+
+2.2
+Additional
+
+154
+
+Describe the purpose of the network tab in resource monitor.
+
+ریسورس مانیٹر میں نیٹ ورک ٹیب کا مقصد بیان کریں۔
+
+154
+
+2.2
+Additional
+
+155
+
+Write the command and method to open event viewer.
+
+ایونٹ ویور کھولنے کا طریقہ اور کمانڈ لکھیں۔
+
+155
+
+2.2
+Additional
+
+156
+
+When is it highly recommended to use the resource monitor tool?
+
+ریسورس مانیٹر ٹول استعمال کرنے کی سخت سفارش کب کی جاتی ہے؟
+
+156
+
+2.2
+Additional
+
+157
+
+What type of messages or logs are displayed in event viewer?
+
+ایونٹ ویور میں کس قسم کے پیغامات یا لاگز دکھائے جاتے ہیں؟
+
+157
+
+2.3 SYSTEM RECOVERY OPTIONS
+2.3
+Exercise
+
+158
+
+Define the use of safe mode in system recovery.
+
+سسٹم ریکوری میں سیف موڈ کے استعمال کی تعریف کریں۔
+
+158
+
+2.3
+Exercise
+
+159
+
+List the steps to create a bootable USB using Rufus.
+
+روفوس (Rufus) کا استعمال کرتے ہوئے بوٹ ایبل USB بنانے کے اقدامات درج کریں۔
+
+159
+
+2.3
+Additional
+
+160
+
+Why a recovery option is important in today's technology?
+
+آج کی ٹیکنالوجی میں ریکوری آپشن کیوں اہم ہے؟
+
+160
+
+2.3
+Additional
+
+161
+
+Why bootable storage media is important?
+
+بوٹ ایبل اسٹوریج میڈیا کیوں اہم ہے؟
+
+161
+
+2.3
+Additional
+
+162
+
+Explain any two built-in recovery tools used in MS Windows.
+
+ایم ایس ونڈوز میں استعمال ہونے والے کسی دو بلٹ ان ریکوری ٹولز کی وضاحت کریں۔
+
+162
+
+2.3
+Additional
+
+163
+
+What are system recovery options?
+
+سسٹم ریکوری آپشنز کیا ہیں؟
+
+163
+
+2.3
+Additional
+
+164
+
+How do you open safe mode on most modern systems?
+
+زیادہ تر جدید سسٹمز پر سیف موڈ کیسے کھولا جاتا ہے؟
+
+164
+
+2.3
+Additional
+
+165
+
+How do you access safe mode on older systems?
+
+پرانے سسٹمز پر سیف موڈ تک کیسے رسائی حاصل کی جاتی ہے؟
+
+165
+
+2.3
+Additional
+
+166
+
+What is safe mode with networking?
+
+سیف موڈ نیٹ ورکنگ کیا ہے؟
+
+166
+
+2.3
+Additional
+
+167
+
+State precautions while using safe mode.
+
+سیف موڈ استعمال کرتے وقت احتیاطی تدابیر لکھیں۔
+
+167
+
+2.3
+Additional
+
+168
+
+What is system restore?
+
+سسٹم ریسٹور کیا ہے؟
+
+168
+
+2.3
+Additional
+
+169
+
+What are restore points?
+
+ریسٹور پوائنٹس کیا ہوتے ہیں؟
+
+169
+
+2.3
+Additional
+
+170
+
+When are restore points created automatically?
+
+ریسٹور پوائنٹس خود بخود کب بنتے ہیں؟
+
+170
+
+2.3
+Additional
+
+171
+
+Write down the steps to create a restore point manually.
+
+خود ری اسٹور پوائنٹ بنانے کے لیے اقدامات لکھیں۔
+
+171
+
+2.3
+Additional
+
+172
+
+Write down the steps to use a restore point.
+
+ریسٹور پوائنٹ استعمال کرنے کے اقدامات لکھیں۔
+
+172
+
+2.3
+Additional
+
+173
+
+What is bootable recovery media?
+
+بوٹ ایبل ریکوری میڈیا کیا ہے؟
+
+173
+
+2.3
+Additional
+
+174
+
+Why is it important to understand bootable media and its uses?
+
+بوٹ ایبل میڈیا اور اس کے استعمالات کو سمجھنا کیوں ضروری ہے؟
+
+174
+
+2.3
+Additional
+
+175
+
+How do we create and use a bootable USB?
+
+ہم بوٹ ایبل یو ایس بی کیسے بناتے اور استعمال کرتے ہیں؟
+
+175
+
+2.3
+Additional
+
+176
+
+Differentiate between GPT and MBR partition schemes for creating a bootable USB.
+
+بوٹ ایبل یو ایس بی بنانے کے لیے GPT اور MBR پارٹیشن اسکیموں میں فرق واضح کریں۔
+
+176
+
+2.3
+Additional
+
+177
+
+What are GPT and MBR?
+
+جی پی ٹی اور ایم بی آر کیا ہیں؟
+
+177
+
+2.3
+Additional
+
+178
+
+Why do new computers and operating systems prefer GPT over MBR?
+
+نئے کمپیوٹرز اور آپریٹنگ سسٹمز MBR کے مقابلے میں GPT کو کیوں ترجیح دیتے ہیں؟
+
+178
+
+2.3
+Additional
+
+179
+
+Write down the steps to check the partition style in windows.
+
+ونڈوز میں پارٹیشن اسٹائل چیک کرنے کے مراحل لکھیں۔
+
+179
+
+2.3
+Additional
+
+180
+
+What happens if there is a mismatch between the computer's partition style and the USB format?
+
+اگر کمپیوٹر کے پارٹیشن اسٹائل اور یو ایس بی فارمیٹ کے درمیان مطابقت نہ ہو تو کیا ہوگا؟
+
+180
+
+2.3
+Additional
+
+181
+
+When do we need to use bootable recovery media?
+
+ہمیں بوٹ ایبل ریکوری میڈیا استعمال کرنے کی ضرورت کب پڑتی ہے؟
+
+181
+
+2.3
+Additional
+
+182
+
+Define safe mode in windows.
+
+ونڈوز میں سیف موڈ کی تعریف کریں۔
+
+182
+
+2.4 BIOS/UEFI AND BOOT PROCESS AWARENESS
+2.4
+Exercise
+
+183
+
+What happens during the Power-On Self-Test (POST).
+
+پاور-آن سیلف-ٹیسٹ (POST) کے دوران کیا ہوتا ہے؟
+
+183
+
+2.4
+Exercise
+
+184
+
+Why is the boot order setting important when using recovery tools from a USB drive?
+
+USB ڈرائیو سے ریکوری ٹولز استعمال کرتے وقت بوٹ آرڈر (Boot Order) کی سیٹنگ کیوں اہم ہے؟
+
+184
+
+2.4
+Additional
+
+185
+
+What is firmware?
+
+فرم ویئر کیا ہے؟
+
+185
+
+2.4
+Additional
+
+186
+
+Explain types of firmware.
+
+فرم ویئر کی اقسام بیان کریں۔
+
+186
+
+2.4
+Additional
+
+187
+
+Define POST test with an example.
+
+POST ٹیسٹ کی تعریف ایک مثال کے ساتھ بیان کریں۔
+
+187
+
+2.4
+Additional
+
+188
+
+How can a user open BIOS/UEFI settings on a computer?
+
+ایک صارف کمپیوٹر پر بائیوس/یو ای ایف آئی سیٹنگز کیسے کھول سکتا ہے؟
+
+188
+
+2.4
+Additional
+
+189
+
+What is boot order and boot repair?
+
+بوٹ آرڈر اور بوٹ ریپیئر کیا ہے؟
+
+189
+
+2.4
+Additional
+
+190
+
+Differences between BIOS and UEFI.
+
+بائیوس اور یو ای ایف آئی میں فرق لکھیں۔
+
+190
+
+2.4
+Additional
+
+191
+
+Write the roles of BIOS/UEFI in starting the computer.
+
+کمپیوٹر اسٹارٹ کرنے میں BIOS/UEFI کے کردار لکھیں۔
+
+191
+
+2.4
+Additional
+
+192
+
+When was BIOS developed and why is UEFI preferred now?
+
+بائیوس کب بنا تھا اور اب یو ای ایف آئی کو کیوں ترجیح دی جاتی ہے؟
+
+192
+
+2.4
+Additional
+
+193
+
+Why do different computers use different keys to open BIOS?
+
+مختلف کمپیوٹرز بائیوس کھولنے کے لیے مختلف کیز کیوں استعمال کرتے ہیں؟
+
+193
+
+2.4
+Additional
+
+194
+
+How can you restore BIOS/UEFI to its original state if wrong settings are saved?
+
+اگر غلط سیٹنگز محفوظ ہو جائیں تو آپ BIOS/UEFI کو اس کی اصل حالت میں کیسے بحال کر سکتے ہیں؟
+
+194
+
+2.4
+Additional
+
+195
+
+Write the steps to change the boot order in BIOS/UEFI settings.
+
+بائیوس/یو ای ایف آئی سیٹنگز میں بوٹ آرڈر تبدیل کرنے کے مراحل لکھیں۔
+
+195
+
+2.4
+Additional
+
+196
+
+How can startup errors due to missing system files be fixed?
+
+سسٹم فائلوں کے غائب ہونے کی وجہ سے آنے والی اسٹارٹ اپ خرابیوں کو کیسے ٹھیک کیا جا سکتا ہے؟
+
+196
+
+2.5 DATA RECOVERY TECHNIQUES
+2.5
+Additional
+
+197
+
+For what purpose build-in recovers tools are available in windows? Give an example.
+
+ونڈوز میں بلٹ ان ریکوری ٹولز کس مقصد کے لیے موجود ہیں؟ ایک مثال دیں۔
+
+197
+
+2.5
+Additional
+
+198
+
+What is the function of the Recycle Bin in Windows?
+
+ونڈوز میں ری سائیکل بن کا کیا کام ہے؟
+
+198
+
+2.5
+Additional
+
+199
+
+What is data recovery?
+
+ڈیٹا ریکوری کیا ہے؟
+
+199
+
+2.5
+Additional
+
+200
+
+What are the two main ways to recover deleted files?
+
+ڈیلیٹ شدہ فائلوں کو بحال کرنے کے دو اہم طریقے کون سے ہیں؟
+
+200
+
+2.5
+Additional
+
+201
+
+Why are certain utilities called "Built-in Tools"?
+
+کچھ یوٹیلیٹیز کو "بلٹ ان ٹولز" کیوں کہا جاتا ہے؟
+
+201
+
+2.5
+Additional
+
+202
+
+Define the file history feature in windows.
+
+ونڈوز میں فائل ہسٹری فیچر کی تعریف کریں۔
+
+202
+
+2.5
+Additional
+
+203
+
+Write down the steps to turn on file history in windows settings.
+
+ونڈوز سیٹنگز میں فائل ہسٹری کو آن کرنے کے مراحل لکھیں۔
+
+203
+
+2.5
+Additional
+
+204
+
+Which default folders are backed up regularly when File History is enabled?
+
+فائل ہسٹری آن ہونے پر کون سے ڈیفالٹ فولڈرز کا باقاعدگی سے بیک اپ لیا جاتا ہے؟
+
+204
+
+2.5
+Additional
+
+205
+
+What is the benefit of the "Previous Versions" tab in folder properties?
+
+فولڈر کی پراپرٹیز میں "Previous Versions" ٹیب کا کیا فائدہ ہے؟
+
+205
+
+2.5
+Additional
+
+206
+
+When does a user need to use Third-party recovery tools?
+
+صارف کو تھرڈ پارٹی ریکوری ٹولز استعمال کرنے کی ضرورت کب پڑتی ہے؟
+
+206
+
+2.5
+Additional
+
+207
+
+Write down the steps to recover files using Tenorshare.
+
+ٹینور شیئر کا استعمال کرتے ہوئے فائلوں کو بحال کرنے کے مراحل لکھیں۔
+
+207
+
+2.5
+Additional
+
+208
+
+State the major limitations of data recovery software.
+
+ڈیٹا ریکوری سافٹ ویئر کی بڑی حد بندیوں کو بیان کریں۔
+
+208
+
+2.5
+Additional
+
+209
+
+Why should you never install recovery software on the same drive where lost files were stored?
+
+آپ کو ریکوری سافٹ ویئر کو اسی ڈرائیو پر کیوں انسٹال نہیں کرنا چاہیے جہاں سے فائلیں ضائع ہوئی تھیں؟
+
+209
+
+2.5
+Additional
+
+210
+
+What is the easiest and safest way to restore deleted files?
+
+ڈیلیٹ شدہ فائلوں کو بحال کرنے کا سب سے آسان اور محفوظ ترین طریقہ کون سا ہے؟
+
+210
+
+2.6 BEST PRACTICES FOR PREVENTIVE MAINTENANCE
+2.6
+Exercise
+
+211
+
+List the two benefits of running regular disk cleanup.
+
+باقاعدگی سے ڈسک کلین اپ چلانے کے دو فائدے درج کریں۔
+
+211
+
+2.6
+Exercise
+
+212
+
+How does Windows Defender help in maintaining system health?
+
+ونڈوز ڈیفنڈر (Windows Defender) سسٹم کی صحت کو برقرار رکھنے میں کیسے مدد کرتا ہے؟
+
+212
+
+2.6
+Additional
+
+213
+
+Define preventive maintenance.
+
+پریوینٹیو مینٹیننس کی تعریف کریں۔
+
+213
+
+2.6
+Additional
+
+214
+
+What is disk cleanup?
+
+ڈسک کلین اپ کیا ہے؟
+
+214
+
+2.6
+Additional
+
+215
+
+What is software update? Describe the method to check system update.
+
+سافٹ ویئر اپ ڈیٹ کیا ہے؟ سسٹم اپ ڈیٹ چیک کرنے کا طریقہ بیان کریں۔
+
+215
+
+2.6
+Additional
+
+216
+
+Why is it important to keep a maintenance calendar record?
+
+مینٹیننس کیلنڈر کا ریکارڈ رکھنا کیوں اہم ہے؟
+
+216
+
+2.6
+Additional
+
+217
+
+Why does system performance slow down over time?
+
+وقت کے ساتھ سسٹم کی کارکردگی کیوں سست ہو جاتی ہے؟
+
+217
+
+2.6
+Additional
+
+218
+
+Write down the steps to perform disk cleanup.
+
+ڈسک کلین اپ کرنے کے مراحل لکھیں۔
+
+218
+
+2.6
+Additional
+
+219
+
+How many types of system updates?
+
+سسٹم اپڈیٹس کی کتنی اقسام ہیں؟
+
+219
+
+2.6
+Additional
+
+220
+
+What is windows defender?
+
+ونڈوز ڈیفینڈر کیا ہے؟
+
+220
+
+2.6
+Additional
+
+221
+
+Name the two types of scans offered by windows defender.
+
+ونڈوز ڈیفینڈر کے فراہم کردہ اسکینز کی دو اقسام کے نام لکھیں۔
+
+221
+
+2.6
+Additional
+
+222
+
+What is meant by real-time protection in windows defender?
+
+ونڈوز ڈیفینڈر میں ریئل ٹائم پروٹیکشن سے کیا مراد ہے؟
+
+222
+
+2.7 SYSTEM DOCUMENTATION AND LOGS
+2.7
+Additional
+
+223
+
+Why Keeping proper records is compulsory for future maintenance?
+
+مستقبل کی مینٹیننس کے لیے مناسب ریکارڈ رکھنا کیوں ضروری ہے؟
+
+223
+
+3.1 INTRODUCTION TO PYTHON PROGRAMMING
+3.1
+Additional
+
+224
+
+Define Computer Programming. Also give an example.
+
+کمپیوٹر پروگرامنگ کی تعریف کریں۔ نیز ایک مثال دیں۔
+
+224
+
+3.1
+Additional
+
+225
+
+Define Python Programming Language.
+
+پائتھن پروگرامنگ لینگویج کی تعریف کریں۔
+
+225
+
+3.1
+Additional
+
+226
+
+Write down the applications of Python.
+
+پائتھن کے استعمالات لکھیں۔
+
+226
+
+3.1
+Additional
+
+227
+
+What are the advantage of python?
+
+پائتھن کے فوائد کیا ہیں؟
+
+227
+
+3.1
+Additional
+
+228
+
+Which option must be check when installing Python and why?
+
+پائتھن انسٹال کرتے وقت کون سا آپشن چیک کرنا ضروری ہے اور کیوں؟
+
+228
+
+3.1
+Additional
+
+229
+
+Write down the procedure to install Python.
+
+پائتھن انسٹال کرنے کا طریقہ کار لکھیں۔
+
+229
+
+3.1
+Additional
+
+230
+
+What is Google Colab?
+
+گوگل کولیب کیا ہے؟
+
+230
+
+3.1
+Additional
+
+231
+
+Why must programming instructions be clear and precise?
+
+پروگرامنگ کی ہدایات کا واضح اور درست ہونا کیوں ضروری ہے؟
+
+231
+
+3.1
+Additional
+
+232
+
+What is meant by a Python Development Environment?
+
+پائتھن ڈویلپمنٹ انوائرمنٹ سے کیا مراد ہے؟
+
+232
+
+3.1
+Additional
+
+233
+
+Where and how do you download Python?
+
+پائتھن کہاں سے اور کیسے ڈاؤن لوڈ کرتے ہیں؟
+
+233
+
+3.1
+Additional
+
+234
+
+What does IDE stand for? Name three popular IDEs for Python.
+
+آئی ڈی ای سے کیا مراد ہے؟ پائتھن کے لیے تین مشہور IDEs کے نام لکھیں۔
+
+234
+
+3.1
+Additional
+
+235
+
+What is PyCharm? Name its two available editions.
+
+پائی چارم کیا ہے؟ اس کے دستیاب دو ایڈیشنز کے نام لکھیں۔
+
+235
+
+3.1
+Additional
+
+236
+
+How do you configure an IDE with Python?
+
+آئی ڈی ای کو پائتھن کے ساتھ کیسے کنفیگر کیا جاتا ہے؟
+
+236
+
+3.1
+Additional
+
+237
+
+How can you test if your Python IDE configuration is working correctly?
+
+آپ کیسے ٹیسٹ کر سکتے ہیں کہ آپ کی پائتھن IDE کنفیگریشن درست کام کر رہی ہے؟
+
+237
+
+3.1
+Additional
+
+238
+
+State any two advantages of using Google Colab.
+
+گوگل کولیب استعمال کرنے کے کوئی سے دو فوائد لکھیں۔
+
+238
+
+3.2 BASIC PYTHON SYNTAX AND STRUCTURE
+3.2
+Exercise
+
+239
+
+Why are comments important in programming?
+
+پروگرامنگ میں کمنٹس کیوں اہم ہیں؟
+
+239
+
+3.2
+Exercise
+
+240
+
+Discuss three basic data types in python.
+
+پائتھون میں متغیرات کی تین بنیادی اقسام پر بحث کریں۔
+
+240
+
+3.2
+Exercise
+
+241
+
+Describe the difference between integer and float data types in Python.
+
+پائتھون میں integer اور float ڈیٹا اقسام کے درمیان فرق بیان کریں۔
+
+241
+
+3.2
+Exercise
+
+242
+
+How does the if statement differ from the if-else statement?
+
+if سٹیٹمنٹ if-else سٹیٹمنٹ سے کیسے مختلف ہے؟
+
+242
+
+3.2
+Exercise
+
+243
+
+How do you get user input in Python?
+
+آپ پائتھون میں صارف سے ان پٹ کیسے حاصل کرتے ہیں؟
+
+243
+
+3.2
+Exercise
+
+244
+
+What is the purpose of print() statement in Python?
+
+پائتھون میں ()print سٹیٹمنٹ کا مقصد کیا ہے؟
+
+244
+
+3.2
+Exercise
+
+245
+
+Write any three main rules for naming variables in Python?
+
+پائتھون میں متغیرات کے نام رکھنے کے تین اہم اصول کیا ہیں؟
+
+245
+
+3.2
+Additional
+
+246
+
+Explain the basic python syntax and structure.
+
+بنیادی پائتھن سینٹیکس اور سٹرکچر کی وضاحت کریں۔
+
+246
+
+3.2
+Additional
+
+247
+
+Define single line comment with example.
+
+سنگل لائن کمنٹ کی مثال دے کر تعریف کریں۔
+
+247
+
+3.2
+Additional
+
+248
+
+Define Multiline comment with example.
+
+ملٹی لائن کمنٹ کی مثال دے کر تعریف کریں۔
+
+248
+
+3.2
+Additional
+
+249
+
+Why is it compulsory to close multi-line comment?
+
+ملٹی لائن کمنٹ کو بند کرنا کیوں ضروری ہے؟
+
+249
+
+3.2
+Additional
+
+250
+
+What is a variable in Python? Give an example.
+
+پائتھن میں ویری ایبل کیا ہے؟ ایک مثال دیں۔
+
+250
+
+3.2
+Additional
+
+251
+
+Explain the purpose of input and output functions.
+
+ان پٹ اور آؤٹ پٹ فنکشنز کے مقصد کی وضاحت کریں۔
+
+251
+
+3.2
+Additional
+
+252
+
+Write the output of the following code:
+
+# This is a single-line comment
+
+print("K2 is the second-highest mountain in the world")
+
+'''
+
+This is a comment.
+
+'''
+
+print("Edhi Foundation operates the world's largest volunteer ambulance network."
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+# This is a single-line comment
+
+print("K2 is the second-highest mountain in the world")
+
+'''
+
+This is a comment.
+
+'''
+
+print("Edhi Foundation operates the world's largest volunteer ambulance network."
+
+252
+
+3.2
+Additional
+
+253
+
+Define reserved keywords with examples.
+
+مثالوں کے ساتھ ریزروڈ کی ورڈز کی تعریف کریں۔
+
+253
+
+3.2
+Additional
+
+254
+
+Differentiate between boolean and string variables in Python.
+
+پائتھن میں بولین اور اسٹرنگ ویری ایبلز میں فرق واضح کریں۔
+
+254
+
+3.2
+Additional
+
+255
+
+Write the output of the following code:
+
+print(age = "Hello, dear students!")
+
+age = 71
+
+print("Azam lived for", age, "years")
+
+age = 60
+
+print(" Iqbal lived for", age, "years")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(age = "Hello, dear students!")
+
+age = 71
+
+print("Azam lived for", age, "years")
+
+age = 60
+
+print(" Iqbal lived for", age, "years")
+
+255
+
+3.2
+Additional
+
+256
+
+Why do we need int() or float() functions with the input() function?
+
+ہمیں input() فنکشن کے ساتھ int() یا float() فنکشنز استعمال کرنے کی ضرورت کیوں پڑتی ہے؟
+
+256
+
+3.2
+Additional
+
+257
+
+Define Indentation in Python and state its importance.
+
+پائتھن میں انڈنٹیشن کی تعریف کریں اور اس کی اہمیت بتائیں۔
+
+257
+
+3.2
+Additional
+
+258
+
+Write the output of the following code:
+
+name = input("Enter your name: ")
+
+print(" Hello, " + name + "!")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+name = input("Enter your name: ")
+
+print(" Hello, " + name + "!")
+
+258
+
+3.2
+Additional
+
+259
+
+Write the output of the following code:
+
+user_age = int(input("Enter your age: "))
+
+print("Your age is:",user_age)
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+user_age = int(input("Enter your age: "))
+
+print("Your age is:",user_age)
+
+259
+
+3.2
+Additional
+
+260
+
+Write the output of the following code:
+
+user_height = float(input("Enter your height in meters:") )
+
+print("Your height is", user_height,"meters")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+user_height = float(input("Enter your height in meters:") )
+
+print("Your height is", user_height,"meters")
+
+260
+
+3.3 OPERATORS AND EXPRESSIONS
+3.3
+Exercise
+
+261
+
+What are logical operators and name all three?
+
+منطقی آپریٹرز کیا ہیں اور تینوں کے نام بتائیں؟
+
+261
+
+3.3
+Exercise
+
+262
+
+What is operator precedence? Give an example.
+
+آپریٹر کی ترجیح کیا ہے؟ ایک مثال دیں۔
+
+262
+
+3.3
+Additional
+
+263
+
+Differentiate between operators and expressions.
+
+آپریٹرز اور ایکسپریشنز میں فرق واضح کریں۔
+
+263
+
+3.3
+Additional
+
+264
+
+Define arithmetic operators with an example.
+
+مثال کے ساتھ حسابی آپریٹرز کی تعریف کریں۔
+
+264
+
+3.3
+Additional
+
+265
+
+Define the comparison operator with an example.
+
+مثال کے ساتھ کمپیریژن آپریٹر کی تعریف کریں۔
+
+265
+
+3.3
+Additional
+
+266
+
+What type of value do logical operators return?
+
+لاجیکل آپریٹرز کس قسم کی ویلیو واپس کرتے ہیں؟
+
+266
+
+3.3
+Additional
+
+267
+
+What are compound assignment operators? Give an example.
+
+کمپاؤنڈ اسائنمنٹ آپریٹرز کیا ہیں؟ مثال دیں۔
+
+267
+
+3.3
+Additional
+
+268
+
+Solve 8+342.
+
+248+3حل کریں۔
+
+268
+
+3.3
+Additional
+
+269
+
+What is the purpose of assignment operator in Python?
+
+پائتھن میں اسائنمنٹ آپریٹر کا کیا مقصد ہے؟
+
+269
+
+3.3
+Additional
+
+270
+
+Differentiate between the assignment operator (=) and equal to operator (==).
+
+اسائنمنٹ آپریٹر (=) اور برابر ہونے والے آپریٹر (==) میں فرق بتائیں۔
+
+270
+
+3.3
+Additional
+
+271
+
+Explain with an example which operator has the highest precedence in Python?
+
+مثال کے ساتھ وضاحت کریں کہ پائتھن میں کس آپریٹر کی پریسیڈینس سب سے زیادہ ہوتی ہے؟
+
+271
+
+3.3
+Additional
+
+272
+
+Explain with an example which operators have the lowest precedence in Python?
+
+مثال کے ساتھ وضاحت کریں کہ پائتھن میں کن آپریٹرز کی پریسیڈینس سب سے کم ہوتی ہے؟
+
+272
+
+3.3
+Additional
+
+273
+
+What is the purpose of placing "f" before a string in Python?
+
+پائتھن میں اسٹرنگ سے پہلے "f" لگانے کا کیا مقصد ہے؟
+
+273
+
+3.3
+Additional
+
+274
+
+What is meant by the statement that exponentiation is "right associative"?
+
+اس بات سے کیا مراد ہے کہ ایکسپونینشی ایشن "رائٹ ایسوسی ایٹو" ہے؟
+
+274
+
+3.3
+Additional
+
+275
+
+If a = 10 and b = 3, what will be the output of a + b and a * b?
+
+اگر a = 10 اور b = 3 ہو، تو a + b اور a * b کا آؤٹ پٹ کیا ہوگا؟
+
+275
+
+3.3
+Additional
+
+276
+
+If a = 10 and b = 3, what will be the output of a / b and a // b?
+
+اگر a = 10 اور b = 3 ہو، تو a / b اور a // b کا آؤٹ پٹ کیا ہوگا؟
+
+276
+
+3.3
+Additional
+
+277
+
+If a = 10 and b = 3, what will be the output of a % b and a ** b?
+
+اگر a = 10 اور b = 3 ہو، تو a % b اور a ** b کا آؤٹ پٹ کیا ہوگا؟
+
+277
+
+3.3
+Additional
+
+278
+
+If x = 10 and y = 5, what will be the output of x > y and x < y?
+
+اگر x = 10 اور y = 5 ہو، تو x > y اور x < y کا آؤٹ پٹ کیا ہوگا؟
+
+278
+
+3.3
+Additional
+
+279
+
+If x = 10 and y = 5, what will be the output of x == y and x != y?
+
+اگر x = 10 اور y = 5 ہو، تو x == y اور x != y کا آؤٹ پٹ کیا ہوگا؟
+
+279
+
+3.3
+Additional
+
+280
+
+If x = 10 and y = 5, what will be the output of x >= y and x <= y?
+
+اگر x = 10 اور y = 5 ہو، تو x >= y اور x <= y کا آؤٹ پٹ کیا ہوگا؟
+
+280
+
+3.3
+Additional
+
+281
+
+If a = 10 and b = 5, what will be the output of x = a and a += b?
+
+اگر a = 10 اور b = 5 ہو، تو x = a اور a += b  کا آؤٹ پٹ کیا ہوگا؟
+
+281
+
+3.3
+Additional
+
+282
+
+If a = 10 and b = 5, what will be the output of a -= b and a *= b?
+
+اگر a = 10 اور b = 5 ہو، تو a -= b اور a *= b  کا آؤٹ پٹ کیا ہوگا؟
+
+282
+
+3.3
+Additional
+
+283
+
+If a = 10 and b = 5, what will be the output of a /= b and a //= b?
+
+اگر a = 10 اور b = 5 ہو، تو a /= b اور a //= b  کا آؤٹ پٹ کیا ہوگا؟
+
+283
+
+3.3
+Additional
+
+284
+
+If a = 10 and b = 5, what will be the output of a %= b and a **= b?
+
+اگر a = 10 اور b = 5 ہو، تو a %= b اور a **= b  کا آؤٹ پٹ کیا ہوگا؟
+
+284
+
+3.3
+Additional
+
+285
+
+If x = True and y = False, what will be the output of x AND y and x OR y?
+
+اگر x = True اور y = False ہو، تو x AND y اور x OR y  کا آؤٹ پٹ کیا ہوگا؟
+
+285
+
+3.3
+Additional
+
+286
+
+If x = True and y = False, what will be the output of NOT x and NOT y?
+
+اگر x = True اور y = False ہو، تو NOT x اور NOT y  کا آؤٹ پٹ کیا ہوگا؟
+
+286
+
+3.3
+Additional
+
+287
+
+Write the output of the following code: 
+
+print(f"3 + 2 * 5 = {3 + 2 * 5}")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(f"3 + 2 * 5 = {3 + 2 * 5}")
+
+287
+
+3.3
+Additional
+
+288
+
+Write the output of the following code: 
+
+print(f"(3 + 2) * 5 = {(3 + 2) * 5}")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(f"(3 + 2) * 5 = {(3 + 2) * 5}")
+
+288
+
+3.3
+Additional
+
+289
+
+Write the output of the following code: 
+
+print(f"2 ** 3 * 4 = {2 ** 3 * 4}")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(f"2 ** 3 * 4 = {2 ** 3 * 4}")
+
+289
+
+3.3
+Additional
+
+290
+
+Write the output of the following code: 
+
+print(f"15 / 3 * 2 = {15 / 3 * 2}")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(f"15 / 3 * 2 = {15 / 3 * 2}")
+
+290
+
+3.3
+Additional
+
+291
+
+Write the output of the following code: 
+
+print(f"15 // 4 + 2 = {15 // 4 + 2}")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(f"15 // 4 + 2 = {15 // 4 + 2}")
+
+291
+
+3.3
+Additional
+
+292
+
+Write the output of the following code: 
+
+print(f"11 // 4 + 2 = {11 // 4 + 2}")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(f"11 // 4 + 2 = {11 // 4 + 2}")
+
+292
+
+3.3
+Additional
+
+293
+
+Write the output of the following code: 
+
+print(f"17 % 5 * 2 = {17 % 5 * 2}")
+
+مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:
+
+print(f"17 % 5 * 2 = {17 % 5 * 2}")
+
+293
+
+4.1 DECISION MAKING
+4.1
+Additional
+
+294
+
+What are control structures? Name their main types.
+
+کنٹرول سٹرکچرز کیا ہیں؟ ان کی اہم اقسام کے نام لکھیں۔
+
+294
+
+4.1
+Additional
+
+295
+
+Define decision-making with its main types.
+
+اقسام کے ساتھ فیصلہ سازی کی تعریف کریں۔
+
+295
+
+4.1
+Additional
+
+296
+
+What is the importance of indentation in python programming?
+
+پائتھن پروگرامنگ میں انڈنٹیشن کی کیا اہمیت ہے؟
+
+296
+
+4.1
+Additional
+
+297
+
+Define if-else statement with its general syntax.
+
+جنرل سینٹیکس کے ساتھ if-else سٹیٹمنٹ کی تعریف کریں۔
+
+297
+
+4.1
+Additional
+
+298
+
+Define a nested if statement with its general syntax.
+
+جنرل سینٹیکس کے ساتھ نیسٹڈ اِف سٹیٹمنٹ کی تعریف کریں۔
+
+298
+
+4.1
+Additional
+
+299
+
+Define an if statement with its general syntax.
+
+جنرل سینٹیکس کے ساتھ if سٹیٹمنٹ کی تعریف کریں۔
+
+299
+
+4.1
+Additional
+
+300
+
+Differentiate between if and if-else statement.
+
+if اور if-else سٹیٹمنٹ میں فرق واضح کریں۔
+
+300
+
+4.2 LOOPING CONSTRUCTS
+4.2
+Exercise
+
+301
+
+Explain the use of the range(  ) function in for loop?
+
+for لوپ میں (  )range فنکشن کے استعمال کی وضاحت کریں۔
+
+301
+
+4.2
+Exercise
+
+302
+
+What are the three parameters of the range( ) function?
+
+()range فنکشن کے تین پیرامیٹرز کیا ہیں؟
+
+302
+
+4.2
+Exercise
+
+303
+
+What is the purpose of the end parameter in print( )?
+
+()print میں end پیرامیٹر کا مقصد کیا ہے؟
+
+303
+
+4.2
+Additional
+
+304
+
+Define a loop and the named types of loops used in Python.
+
+لوپ کی تعریف کریں اور پائتھن میں استعمال ہونے والی لوپ کی اقسام کے نام بتائیں۔
+
+304
+
+4.2
+Additional
+
+305
+
+Differentiate between for loop and while loop.
+
+for لوپ اور while لوپ کے درمیان فرق کریں۔
+
+305
+
+4.2
+Additional
+
+306
+
+Define nested loop.
+
+نیسٹڈ لوپ کی تعریف کریں۔
+
+306
+
+4.2
+Additional
+
+307
+
+Define while loop with its general syntax.
+
+جنرل سینٹیکس کے ساتھ while لوپ کی تعریف کریں۔
+
+307
+
+4.2
+Additional
+
+308
+
+Define for loop with its general syntax.
+
+جنرل سینٹیکس کے ساتھ for لوپ کی تعریف کریں۔
+
+308
+
+4.2
+Additional
+
+309
+
+What is a string in Python? Explain how strings are defined using single and double quotation marks with the help of an example.
+
+پائتھن میں سٹرنگ سے کیا مراد ہے؟ مثال کی مدد سے واضح کریں کہ سنگل اور ڈبل کوٹیشن مارکس کا استعمال کرتے ہوئے سٹرنگز کو کیسے لکھا جاتا ہے۔
+
+309
+
+4.3 LIBRARIES IN PYTHON
+4.3
+Exercise
+
+310
+
+How do you import a library in Python?
+
+آپ پائیتھن میں ایک لائبریری کو کیسے امپورٹ کرتے ہیں؟
+
+310
+
+4.3
+Additional
+
+311
+
+Define data structure.
+
+ڈیٹا سٹرکچر کی تعریف کریں۔
+
+311
+
+4.3
+Additional
+
+312
+
+What are libraries in Python?
+
+پائتھن میں لائبریریز کیا ہے؟
+
+312
+
+4.3
+Additional
+
+313
+
+Why do we use Python libraries? Give one benefit.
+
+ہم پائتھن لائبریریز کیوں استعمال کرتے ہیں؟ کوئی ایک فائدہ لکھیں۔
+
+313
+
+4.3
+Additional
+
+314
+
+What is the purpose of the statistics and random libraries in Python?
+
+پائتھن میں سٹیٹسٹکس اور رینڈم لائبریریز کا مقصد کیا ہے؟
+
+314
+
+4.4 LISTS IN PYTHON
+4.4
+Exercise
+
+315
+
+What is the difference between the append and remove methods in Python lists?
+
+پائیتھن لسٹوں میں append اور remove میتھڈز کے درمیان کیا فرق ہے؟
+
+315
+
+4.4
+Exercise
+
+316
+
+Name three list methods and their purposes.
+
+لسٹ کے تین میتھڈز اور ان کے مقاصد کے نام بتائیں۔
+
+316
+
+4.4
+Exercise
+
+317
+
+How do you access the third element in a list?
+
+آپ ایک لسٹ میں تیسرے عنصر تک کیسے رسائی حاصل کرتے ہیں؟
+
+317
+
+4.4
+Exercise
+
+318
+
+How can we access an element from the list?
+
+ہم لسٹ میں سے ایک عنصر تک رسائی کیسے حاصل کرسکتے ہیں؟
+
+318
+
+4.4
+Exercise
+
+319
+
+How do you modify an existing item in a list?
+
+آپ ایک لسٹ میں موجود موجودہ آئٹم میں کیسے ترمیم کرتے ہیں؟
+
+319
+
+4.4
+Additional
+
+320
+
+Define a list in Python and write its basic syntax.
+
+پائتھن میں لسٹ کی تعریف کریں اور اس کا بنیادی سنٹیکس لکھیں۔
+
+320
+
+4.4
+Additional
+
+321
+
+Can a Python list contain items of different data types? Give an example.
+
+کیا پائتھن لسٹ میں مختلف ڈیٹا ٹائپس کی اشیاء شامل ہو سکتی ہیں؟ ایک مثال دیں۔
+
+321
+
+4.4
+Additional
+
+322
+
+What are built-in list methods in Python? Write their name.
+
+پائتھن میں پہلے سے بنے بنائے لسٹ میتھڈز کیا ہیں؟ ان کے نام لکھیں۔
+
+322
+
+4.4
+Additional
+
+323
+
+What is the difference between sort() and reverse() methods?
+
+لسٹ کے sort() اور reverse() میتھڈز میں کیا فرق ہے؟
+
+323
+
+4.5 TESTING AND DEBUGGING IN PYTHON
+4.5
+Exercise
+
+324
+
+Define debugging.
+
+ڈی بگنگ کی تعریف کریں۔
+
+324
+
+4.5
+Exercise
+
+325
+
+What is unit testing and why is it important?
+
+یونٹ ٹیسٹنگ کیا ہے اور یہ کیوں اہم ہے؟
+
+325
+
+4.5
+Additional
+
+326
+
+Define testing in Python programming and named its types.
+
+پائتھن پروگرامنگ میں ٹیسٹنگ کی تعریف کریں اور اس کی اقسام کے نام بتائیں۔
+
+326
+
+4.5
+Additional
+
+327
+
+Differentiate between testing and debugging.
+
+ٹیسٹنگ اور ڈیبگنگ میں فرق واضح کریں۔
+
+327
+
+4.5
+Additional
+
+328
+
+Define integration testing.
+
+انٹیگریشن ٹیسٹنگ کی تعریف کریں۔
+
+328
+
+4.5
+Additional
+
+329
+
+What is the purpose of regression testing?
+
+ریگریشن ٹیسٹنگ کا کیا مقصد ہے؟
+
+329
+
+4.5
+Additional
+
+330
+
+Explain functional testing from the user's perspective.
+
+صارف کے نقطہ نظر سے فنکشنل ٹیسٹنگ کی وضاحت کریں۔
+
+330
+
+4.5
+Additional
+
+331
+
+How can Print Statements be used as a debugging technique?
+
+پرنٹ سٹیٹمنٹس کو ڈیبگنگ کی تکنیک کے طور پر کیسے استعمال کیا جا سکتا ہے؟
+
+331
+
+4.5
+Additional
+
+332
+
+What are debugging tools? Name the built-in tool in Python.
+
+ڈیبگنگ ٹولز کیا ہیں؟ پائتھون کے اندرونی ٹول کا نام لکھیں۔
+
+332
+
+4.5
+Additional
+
+333
+
+How do error messages assist in debugging code?
+
+ایرر میسجز کوڈ کو ڈیبگ کرنے میں کیسے مددگار ثابت ہوتے ہیں؟
+
+333
+
+4.5
+Additional
+
+334
+
+Write the names of debugging techniques in Python.
+
+پائتھن میں ڈیبگنگ تکنیکوں کے نام لکھیں۔
+
+334
+
+5.1 INTRODUCTION TO DATA SCIENCE
+5.1
+Additional
+
+335
+
+Define data science.
+
+ڈیٹا سائنس کی تعریف کریں۔
+
+335
+
+5.1
+Additional
+
+336
+
+Why is data science important?
+
+ڈیٹا سائنس کیوں اہم ہے؟
+
+336
+
+5.1
+Additional
+
+337
+
+How data science techniques used by business organizations?
+
+کاروباری تنظیموں کے ذریعے ڈیٹا سائنس کی تکنیک کیسے استعمال ہوتی ہے؟
+
+337
+
+5.1
+Additional
+
+338
+
+What key activities are involved in data science?
+
+ڈیٹا سائنس میں کون سے اہم کام شامل ہیں؟
+
+338
+
+5.1
+Additional
+
+339
+
+Why is data important in decision making?
+
+فیصلہ سازی میں ڈیٹا کیوں اہم ہے؟
+
+339
+
+5.1
+Additional
+
+340
+
+How does social media use data science?
+
+سوشل میڈیا ڈیٹا سائنس کو کیسے استعمال کرتی ہیں؟
+
+340
+
+5.1
+Additional
+
+341
+
+Explain the application of data science in online shopping.
+
+آن لائن شاپنگ میں ڈیٹا سائنس کے استعمال کی وضاحت کریں۔
+
+341
+
+5.1
+Additional
+
+342
+
+How is data science useful in healthcare?
+
+شعبہ صحت میں ڈیٹا سائنس کیسے مفید ہے؟
+
+342
+
+5.1
+Additional
+
+343
+
+What is the role of data science in transport?
+
+ٹرانسپورٹ کے شعبے میں ڈیٹا سائنس کا کیا کردار ہے؟
+
+343
+
+5.1
+Additional
+
+344
+
+How does education benefit from data science?
+
+شعبہ تعلیم کو ڈیٹا سائنس سے کیا فائدہ ہوتا ہے؟
+
+344
+
+5.1
+Additional
+
+345
+
+How does data science make our daily lives smarter?
+
+ڈیٹا سائنس ہماری روزمرہ کی زندگی کو کیسے زیادہ اسمارٹ اور آسان بناتی ہے؟
+
+345
+
+5.1
+Additional
+
+346
+
+What are the real-life applications of data science?
+
+حقیقی زندگی میں ڈیٹا سائنس کے استعمالات کیا ہیں؟
+
+346
+
+5.2 OVERVIEW OF THE DATA SCIENCE LIFE CYCLE
+5.2
+Exercise
+
+347
+
+What is the importance of understanding a problem before collecting data?
+
+ڈیٹا اکٹھا کرنے سے پہلے مسئلے کو سمجھنے کی کیا اہمیت ہے؟
+
+347
+
+5.2
+Exercise
+
+348
+
+Name any two methods of collecting data and give one example of each.
+
+ڈیٹا اکٹھا کرنے کے کوئی دو طریقوں کے نام بتائیں اور ہر ایک کی ایک مثال دیں۔
+
+348
+
+5.2
+Exercise
+
+349
+
+What do we mean by "cleaning" data?
+
+"ڈیٹا کلیننگ" سے ہمارا کیا مطلب ہے؟
+
+349
+
+5.2
+Exercise
+
+350
+
+Why is it important to validate data before using it?
+
+ڈیٹا استعمال کرنے سے پہلے اسے تصدیق (validate) کرنا کیوں ضروری ہے؟
+
+350
+
+5.2
+Exercise
+
+351
+
+How does bias in data affect results?
+
+ڈیٹا میں جانبداری نتائج کو کیسے متاثر کرتی ہے؟
+
+351
+
+5.2
+Exercise
+
+352
+
+Write two steps you will follow to clean a messy survey.
+
+ایک بے ترتیب سروے کو کلین کرنے کے لیے کوئی سے دو مراحل / اقدامات لکھیں۔
+
+352
+
+5.2
+Additional
+
+353
+
+Define DSLC and write the name of its steps.
+
+DSLC کی تعریف کریں اور اس کے مراحل کے نام لکھیں۔
+
+353
+
+5.2
+Additional
+
+354
+
+How many steps are considered to identify the problem?
+
+مسئلے کی نشاندہی کرنے کے لیے کتنے مراحل شمار کیے جاتے ہیں؟
+
+354
+
+5.2
+Additional
+
+355
+
+What are the advantages of clear understand a problem?
+
+مسئلے کو واضح طور پر سمجھنے کے کیا فوائد ہیں؟
+
+355
+
+5.2
+Additional
+
+356
+
+Define data collection and name the steps of data collection methods.
+
+ڈیٹا اکٹھا کرنے کی تعریف کریں اور ڈیٹا اکٹھا کرنے کے طریقوں کے مراحل کے نام بتائیں۔
+
+356
+
+5.2
+Additional
+
+357
+
+Define surveys with example.
+
+مثال کے ساتھ سروے کی تعریف کریں۔
+
+357
+
+5.2
+Additional
+
+358
+
+What is the purpose of APIs and online sources?
+
+APIs اور آن لائن ذرائع کا مقصد کیا ہے؟
+
+358
+
+5.2
+Additional
+
+359
+
+Define IoT and Sensor data.
+
+IoT اور سینسر ڈیٹا کی تعریف کریں۔
+
+359
+
+5.2
+Additional
+
+360
+
+What is bias in data collection?
+
+ڈیٹا اکٹھا کرنے میں جانبداری کیا ہے؟
+
+360
+
+5.2
+Additional
+
+361
+
+What measures are taken to avoid bias?
+
+جانبداری سے بچنے کے لیے کیا اقدامات کیے جاتے ہیں؟
+
+361
+
+5.2
+Additional
+
+362
+
+Describe data cleaning methods.
+
+ڈیٹا کلیننگ کرنے کے طریقوں کی وضاحت کریں۔
+
+362
+
+5.2
+Additional
+
+363
+
+Name the simple tools for analyzing data.
+
+ڈیٹا کے تجزیہ کے لیے آسان ٹولز کے نام بتائیں۔
+
+363
+
+5.2
+Additional
+
+364
+
+What is the most important step in DSLC and why?
+
+ڈی ایس ایل سی کا سب سے اہم مرحلہ کون سا ہے اور کیوں؟
+
+364
+
+5.2
+Additional
+
+365
+
+What happens if we do not understand the problem properly?
+
+اگر ہم مسئلے کو ٹھیک طرح سے نہ سمجھیں تو کیا نقصان ہوتا ہے؟
+
+365
+
+5.2
+Additional
+
+366
+
+Define a good problem.
+
+اچھے مسئلے کی تعریف کریں۔
+
+366
+
+5.2
+Additional
+
+367
+
+Which three basic questions should be asked in the initial step?
+
+ابتدائی مرحلے میں کون سے تین بنیادی سوالات پوچھے جانے چاہئیں؟
+
+367
+
+5.2
+Additional
+
+368
+
+Write down three rules to consider when defining a problem.
+
+کسی مسئلے کی واضح تعریف کرتے وقت کن تین قواعد کا خیال رکھنا ضروری ہے؟
+
+368
+
+5.2
+Additional
+
+369
+
+Define objectives in the context of data science.
+
+ڈیٹا سائنس کے تناظر میں مقاصد کی تعریف کریں۔
+
+369
+
+5.2
+Additional
+
+370
+
+What three things do our objectives state?
+
+ہمارے مقاصد کن تین چیزوں کو واضح کرتے ہیں؟
+
+370
+
+5.2
+Additional
+
+371
+
+Why should we write our objectives like a checklist?
+
+ہمیں اپنے مقاصد کو ایک چیک لسٹ کی طرح کیوں لکھنا چاہیے؟
+
+371
+
+5.2
+Additional
+
+372
+
+Write down any two objectives for the problem "Many students arrive late at school".
+
+"بہت سے طلباء اسکول دیر سے آتے ہیں" اس مسئلے کے لیے کوئی سے دو مقاصد لکھیں۔
+
+372
+
+5.2
+Additional
+
+373
+
+Write an objectives for a school canteen that wants to know about students' favorite snacks.
+
+ایک اسکول کینٹین جو طلباء کے پسندیدہ سنیکس کے بارے میں جاننا چاہتی ہے، اس کے مقاصد لکھیں۔
+
+373
+
+5.2
+Additional
+
+374
+
+What are the objectives if the problem is that "Many students are not drinking enough water during school hours"?
+
+اگر مسئلہ یہ ہو کہ "بہت سے طلباء اسکول کے اوقات میں کافی پانی نہیں پی رہے ہیں" تو مقاصد کیا ہوں گے؟
+
+374
+
+5.2
+Additional
+
+375
+
+What is the benefit of setting clear objectives in a data science project?
+
+ڈیٹا سائنس پروجیکٹ میں واضح مقاصد طے کرنے کا کیا فائدہ ہے؟
+
+375
+
+5.2
+Additional
+
+376
+
+Why is data compared to raw material in data science?
+
+ڈیٹا سائنس میں ڈیٹا کو خام مال سے کیوں تشبیہ دی جاتی ہے؟
+
+376
+
+5.2
+Additional
+
+377
+
+Write the names of four common methods used to collect data.
+
+ڈیٹا اکٹھا کرنے کے لیے استعمال ہونے والے چار عام طریقوں کے نام لکھیں۔
+
+377
+
+5.2
+Additional
+
+378
+
+Define surveys and name two ways they can be conducted.
+
+سروے کی تعریف کریں اور ان دو طریقوں کے نام بتائیں جن کے ذریعے یہ کیے جا سکتے ہیں۔
+
+378
+
+5.2
+Additional
+
+379
+
+What does the acronym API stand for and what is its function?
+
+لفظ API کس کا مخفف ہے اور اس کا کیا کام ہے؟
+
+379
+
+5.2
+Additional
+
+380
+
+Define IoT and name devices that automatically collect data.
+
+آئی او ٹی کی تعریف کریں اور ایسی ڈیوائسز کے نام لکھیں جو خودکار طریقے سے ڈیٹا اکٹھا کرتی ہیں۔
+
+380
+
+5.2
+Additional
+
+381
+
+What is meant by web scraping?
+
+ویب سکریپنگ سے کیا مراد ہے؟
+
+381
+
+5.2
+Additional
+
+382
+
+Which three qualities must we consider when choosing the right data source?
+
+صحیح ڈیٹا کا ذریعہ منتخب کرتے وقت ہمیں کن تین خصوصیات کو مدنظر رکھنا چاہیے؟
+
+382
+
+5.2
+Additional
+
+383
+
+What is meant by data quality?
+
+ڈیٹا کے معیار سے کیا مراد ہے؟
+
+383
+
+5.2
+Additional
+
+384
+
+Define bias in data science with an example.
+
+ڈیٹا سائنس میں تعصب کی مثال کے ساتھ تعریف کریں۔
+
+384
+
+5.2
+Additional
+
+385
+
+State rules to avoid bias during data collection.
+
+ڈیٹا اکٹھا کرنے کے دوران تعصب سے بچنے کے اصول بیان کریں۔
+
+385
+
+5.2
+Additional
+
+386
+
+Write the names of common data errors found in raw data with examples.
+
+مثالوں کے ساتھ خام ڈیٹا میں پائی جانے والی عام غلطیوں کے نام لکھیں۔
+
+386
+
+5.2
+Additional
+
+387
+
+What is meant by mixed capitalization in data collection? Give an example.
+
+ڈیٹا اکٹھا کرنے میں مکسڈ کیپیٹلائزیشن سے کیا مراد ہے؟ مثال دیں۔
+
+387
+
+5.2
+Additional
+
+388
+
+Define duplicate entries with an example.
+
+مثال کے ساتھ ڈپلیکیٹ اینٹریز کی تعریف کریں۔
+
+388
+
+5.2
+Additional
+
+389
+
+What are outliers in raw data? Give an example.
+
+خام ڈیٹا میں آؤٹ لائرز سے کیا مراد ہے؟ مثال دیں۔
+
+389
+
+5.2
+Additional
+
+390
+
+Define data validation in data science.
+
+ڈیٹا سائنس میں ڈیٹا ویلیڈیشن کی تعریف کریں۔
+
+390
+
+5.2
+Additional
+
+391
+
+How can we apply validation in surveys to avoid text errors?
+
+ٹیکسٹ کی غلطیوں سے بچنے کے لیے ہم سروے میں ویلیڈیشن کا اطلاق کیسے کر سکتے ہیں؟
+
+391
+
+5.2
+Additional
+
+392
+
+What is meant by missing data? Give an example.
+
+ڈیٹا کا غائب ہونا سے کیا مراد ہے؟ مثال دیں۔
+
+392
+
+5.2
+Additional
+
+393
+
+Define inconsistent formats in raw data with an example.
+
+خام ڈیٹا میں غیر مستقل فارمیٹس کی مثال کے ساتھ تعریف کریں۔
+
+393
+
+5.2
+Additional
+
+394
+
+What are spelling mistakes in data collection? Give examples.
+
+ڈیٹا اکٹھا کرنے میں املاء کی غلطیوں سے کیا مراد ہے؟ مثالیں دیں۔
+
+394
+
+5.2
+Additional
+
+395
+
+What is meant by analyzing data?
+
+ڈیٹا کا تجزیہ کرنے سے کیا مراد ہے؟
+
+395
+
+5.2
+Additional
+
+396
+
+Which measures can be used to analyze data?
+
+ڈیٹا کا تجزیہ کرنے کے لیے کون سے پیمانے استعمال کیے جا سکتے ہیں؟
+
+396
+
+5.2
+Additional
+
+397
+
+State three reasons why data visualization is important.
+
+ڈیٹا ویژولائزیشن اہم ہونے کے تین وجوہات لکھیں۔
+
+397
+
+5.2
+Additional
+
+398
+
+Differentiate between a Bar Chart and a Pie Chart.
+
+بار چارٹ اور پائی چارٹ میں فرق بیان کریں۔
+
+398
+
+5.2
+Additional
+
+399
+
+When do we use a line chart? Give an example.
+
+لائن چارٹ کب استعمال کیا جاتا ہے؟ ایک مثال دیں۔
+
+399
+
+5.2
+Additional
+
+400
+
+Explain the rules for making a chart.
+
+چارٹ بنانے کے اصول بیان کریں۔
+
+400
+
+5.2
+Additional
+
+401
+
+What is the final step in the Data Science Life Cycle?
+
+ڈیٹا سائنس لائف سائیکل کا آخری مرحلہ کون سا ہے؟
+
+401
+
+5.2
+Additional
+
+402
+
+Why do we need to clean and validate data after collecting it?
+
+ڈیٹا اکٹھا کرنے کے بعد ہمیں اسے صاف اور درست کرنے کی ضرورت کیوں ہوتی ہے؟
+
+402
+
+5.2
+Additional
+
+403
+
+Define raw data with a brief example.
+
+مختصر مثال کے ساتھ خام ڈیٹا کی تعریف کریں۔
+
+403
+
+5.2
+Additional
+
+404
+
+What happens if we perform data analysis on unchecked data?
+
+اگر ہم غیر تصدیق شدہ ڈیٹا پر ڈیٹا کا تجزیہ کریں تو کیا ہوگا؟
+
+404
+
+5.2
+Additional
+
+405
+
+Which three attributes of data are verified during the cleaning process?
+
+ڈیٹا کی صفائی کے عمل کے دوران ڈیٹا کی کن تین خصوصیات کی تصدیق کی جاتی ہے؟
+
+405
+
+5.2
+Additional
+
+406
+
+What is the main benefit of the data validation step in DSLC?
+
+DSLC میں ڈیٹا ویلیڈیشن کے مرحلے کا بنیادی فائدہ کیا ہے؟
+
+406
+
+5.2
+Additional
+
+407
+
+Write down the basic steps to clean data.
+
+ڈیٹا صاف کرنے کے بنیادی طریقے لکھیں۔
+
+407
+
+5.2
+Additional
+
+408
+
+Why does cleaning data matter?
+
+ڈیٹا صاف کرنا کیوں اہم ہے؟
+
+408
+
+5.2
+Additional
+
+409
+
+Summarize why clean data is important for decision-making.
+
+وضاحت کریں کہ فیصلے کرنے کے لیے صاف ڈیٹا کیوں ضروری ہے؟
+
+409
+
+5.2
+Additional
+
+410
+
+Name two tools that provide rules to validate data.
+
+دو ٹولز کے نام لکھیں جو ڈیٹا کی توثیق کے لیے قواعد فراہم کرتے ہیں۔
+
+410
+
+5.2
+Additional
+
+411
+
+What is the main goal of the interpreting data step?
+
+ڈیٹا کی تشریح کرنے کے مرحلے کا بنیادی مقصد کیا ہے؟
+
+411
+
+5.2
+Additional
+
+412
+
+Which three questions do we ask ourselves after summarizing the data?
+
+ڈیٹا کا خلاصہ پیش کرنے کے بعد ہم خود سے کون سے تین سوالات پوچھ سکتے ہیں؟
+
+412
+
+5.2
+Additional
+
+413
+
+What is the benefit of creating a chart in the final step of DSLC?
+
+DSLC کے آخری مرحلے میں چارٹ بنانے کا کیا فائدہ ہے؟
+
+413
+
+5.2
+Additional
+
+414
+
+Why do we use data visualizations instead of showing numbers?
+
+ہم نمبر دکھانے کے بجائے ڈیٹا ویژولائزیشن کیوں استعمال کرتے ہیں؟
+
+414
+
+5.2
+Additional
+
+415
+
+How should we explain our findings once a chart is ready?
+
+چارٹ تیار ہونے کے بعد ہمیں اپنے نتائج کی وضاحت کیسے کرنی چاہیے؟
+
+415
+
+5.2
+Additional
+
+416
+
+What is meant by visualizing data?
+
+ویزولائزنگ ڈیٹا سے کیا مراد ہے؟
+
+416
+
+5.2
+Additional
+
+417
+
+State the primary benefit of data visualization.
+
+ڈیٹا ویژولائزیشن کا بنیادی فائدہ بیان کریں۔
+
+417
+
+5.2
+Additional
+
+418
+
+What are the two essential principles to follow when working on visual forms?
+
+بصری اشکال پر کام کرتے وقت کن دو لازمی اصولوں پر عمل کرنا چاہیے؟
+
+418
+
+5.3 TOOLS FOR VISUALIZATION
+5.3
+Exercise
+
+419
+
+What is the purpose of visualizing data using charts?
+
+چارٹس کا استعمال کرتے ہوئے ڈیٹا کو بصری شکل دینے کا کیا مقصد ہے؟
+
+419
+
+5.3
+Exercise
+
+420
+
+Name any two tools used for creating charts.
+
+چارٹ بنانے کے لیے استعمال ہونے والے کوئی سے دو ٹولز کے نام بتائیں۔
+
+420
+
+5.3
+Additional
+
+421
+
+Name an additional step that can be added to the standard DSLC.
+
+ایک اضافی مرحلے کا نام بتائیں جسے معیاری ڈی ایس ایل سی میں شامل کیا جا سکتا ہے۔
+
+421
+
+5.3
+Additional
+
+422
+
+Why is storing and organizing data important in team settings?
+
+ٹیم سیٹنگز یا بڑے پروجیکٹس میں ڈیٹا کو اسٹور اور آرگنائز کرنا کیوں ضروری ہے؟
+
+422
+
+5.3
+Additional
+
+423
+
+List any three reasons why we make use of spreadsheets for creating charts.
+
+چارٹس بنانے کے لیے ہم اسپریڈ شیٹس کا استعمال کیوں کرتے ہیں؟ کوئی سی تین وجوہات لکھیں۔
+
+423
+
+5.3
+Additional
+
+424
+
+Write down the steps to create a chart in Google Sheets.
+
+گوگل شیٹس میں چارٹ بنانے کے مراحل لکھیں۔
+
+424
+
+5.3
+Additional
+
+425
+
+Define a dashboard and state its main function.
+
+ڈیش بورڈ کی تعریف کریں اور اس کا بنیادی کام بیان کریں۔
+
+425
+
+5.3
+Additional
+
+426
+
+How is the storage and organization of data managed in large-scale projects?
+
+بڑے پیمانے کے پروجیکٹس میں ڈیٹا کی اسٹوریج اور آرگنائزیشن کو کس طرح مینیج کیا جاتا ہے؟
+
+426
+
+5.4 DATABASES AND STORING DATA
+5.4
+Additional
+
+427
+
+What are the advantages of spreadsheet software?
+
+اسپریڈ شیٹ سافٹ ویئر کے کیا فوائد ہیں؟
+
+427
+
+5.4
+Additional
+
+428
+
+Describe the uses of DSLC in real life.
+
+حقیقی زندگی میں DSLC کے استعمال کی وضاحت کریں۔
+
+428
+
+5.4
+Additional
+
+429
+
+What is the purpose of Database?
+
+ڈیٹا بیس کا مقصد کیا ہے؟
+
+429
+
+5.4
+Additional
+
+430
+
+Define DBMS with examples.
+
+مثالوں کے ساتھ DBMS کی تعریف کریں۔
+
+430
+
+5.4
+Additional
+
+431
+
+Explain some queries used in SQL.
+
+SQL میں استعمال ہونے والے کچھ استفسارات کی وضاحت کریں۔
+
+431
+
+5.4
+Additional
+
+432
+
+Differentiate between spreadsheets and databases.
+
+اسپریڈ شیٹس اور ڈیٹا بیس میں فرق بیان کریں۔
+
+432
+
+5.4
+Additional
+
+433
+
+Why should data be stored in a structured way?
+
+ڈیٹا کو منظم طریقے سے کیوں محفوظ کیا جانا چاہیے؟
+
+433
+
+5.4
+Additional
+
+434
+
+What are the two main ways to store structured data?
+
+سٹرکچرڈ ڈیٹا کو اسٹور کرنے کے دو اہم طریقے کون سے ہیں؟
+
+434
+
+5.4
+Additional
+
+435
+
+Define a database and state how it stores data.
+
+ڈیٹا بیس کی تعریف کریں اور بتائیں کہ یہ ڈیٹا کو کس طرح اسٹور کرتا ہے۔
+
+435
+
+5.4
+Additional
+
+436
+
+Differentiate between a record and a field in a database table.
+
+ڈیٹا بیس ٹیبل میں ریکارڈ اور فیلڈ کے درمیان فرق واضح کریں۔
+
+436
+
+5.4
+Additional
+
+437
+
+What is meant by a table in a database? Give an example.
+
+ڈیٹا بیس میں ٹیبل سے کیا مراد ہے؟ ایک مثال دیں۔
+
+437
+
+5.4
+Additional
+
+438
+
+What is SQL?
+
+SQL کیا ہے؟
+
+438
+
+6.1 AI, ML AND OVERVIEW
+6.1
+Exercise
+
+439
+
+What is the difference between AI and ML?
+
+AI اور ML کے درمیان کیا فرق ہے؟
+
+439
+
+6.1
+Exercise
+
+440
+
+Give one real-life example of AI used in Pakistan.
+
+پاکستان میں استعمال ہونے والی AI کی ایک حقیقی زندگی کی مثال دیں۔
+
+440
+
+6.1
+Additional
+
+441
+
+Name two fields of the modern era used in every technology.
+
+جدید دور کے کسی بھی دو شعبوں کے نام بتائیں جو ہر ٹیکنالوجی میں استعمال ہوتے ہیں۔
+
+441
+
+6.1
+Additional
+
+442
+
+Name the fields in which AI and ML are used now a days.
+
+ان شعبوں کے نام بتائیں جن میں آج کل AI اور ML استعمال ہوتے ہیں۔
+
+442
+
+6.1
+Additional
+
+443
+
+Why are AI and ML important for us?
+
+AI اور ML ہمارے لیے کیوں اہم ہیں؟
+
+443
+
+6.1
+Additional
+
+444
+
+How could you define ML? Give one example.
+
+آپ ML کی تعریف کیسے کریں گے؟ ایک مثال دیں۔
+
+444
+
+6.1
+Additional
+
+445
+
+Define an AI.
+
+AI کی تعریف کریں۔
+
+445
+
+6.1
+Additional
+
+446
+
+Compare the data requirements for AI and ML systems.
+
+ڈیٹا کی ضرورت کے لحاظ سے AI اور ML سسٹمز کا موازنہ کریں۔
+
+446
+
+6.1
+Additional
+
+447
+
+Differentiate between AI and ML as broader and narrower concepts.
+
+وسیع اور محدود تصورات کے لحاظ سے AI اور ML کے درمیان فرق بیان کریں۔
+
+447
+
+6.1
+Additional
+
+448
+
+How does AI and ML compare to the human brain and experience?
+
+AI اور ML کا انسانی دماغ اور تجربے سے کیا موازنہ ہے؟
+
+448
+
+6.2 MACHINE LEARNING TYPES
+6.2
+Exercise
+
+449
+
+How does supervised learning work?
+
+سپروائزڈ لرننگ کیسے کام کرتی ہے؟
+
+449
+
+6.2
+Exercise
+
+450
+
+What kind of data is used in unsupervised learning?
+
+ان سپروائزڈ لرننگ میں کس قسم کا ڈیٹا استعمال ہوتا ہے؟
+
+450
+
+6.2
+Additional
+
+451
+
+Why is machine learning important? Give an example.
+
+مشین لرننگ کیوں اہم ہے؟ ایک مثال دیں۔
+
+451
+
+6.2
+Additional
+
+452
+
+What is supervised learning? Give an example.
+
+سپروائزڈ لرننگ کیا ہے؟ ایک مثال دیں۔
+
+452
+
+6.2
+Additional
+
+453
+
+What is unsupervised learning? Give an example.
+
+ان سپروائزڈ لرننگ کیا ہے؟ ایک مثال دیں۔
+
+453
+
+6.2
+Additional
+
+454
+
+What are the two main types of machine learning?
+
+مشین لرننگ کی دو بڑی اقسام کون سی ہیں؟
+
+454
+
+6.2
+Additional
+
+455
+
+Do unsupervised and supervised learning use labeled data?
+
+کیا ان سپر وائزڈ اور سپر وائزڈ لرننگ میں لیبل شدہ ڈیٹا استعمال ہوتا ہے؟
+
+455
+
+6.2
+Additional
+
+456
+
+What is the main task of supervised and unsupervised learning?
+
+سپر وائزڈ اور ان سپر وائزڈ لرننگ کا بنیادی کام کیا ہے؟
+
+456
+
+6.2
+Additional
+
+457
+
+Where are both types of machine learning applied in Pakistan?
+
+پاکستان میں مشین لرننگ کی دونوں اقسام کا استعمال کہاں ہو رہا ہے؟
+
+457
+
+6.2
+Additional
+
+458
+
+State the comparison between supervised and unsupervised learning.
+
+سپروائزڈ اور ان سپروائزڈ لرننگ کے درمیان موازنہ بیان کریں۔
+
+458
+
+6.3 PRACTICAL APPLICATIONS OF AI/ML
+6.3
+Exercise
+
+459
+
+How can businesses use AI?
+
+کاروبار مصنوی ذہانت کا استعمال کیسے کر سکتے ہیں؟
+
+459
+
+6.3
+Exercise
+
+460
+
+Give one example each of a smart assistant and a recommendation system.
+
+ایک سمارٹ معاون اور ایک تجویز کے نظام کی ایک ایک مثال دیں۔
+
+460
+
+6.3
+Exercise
+
+461
+
+How can businesses use machine learning?
+
+کاروبار مشین لرننگ کا استعمال کیسے کر سکتے ہیں؟
+
+461
+
+6.3
+Additional
+
+462
+
+Define smart assistants. Give an example.
+
+سمارٹ اسسٹنٹس کی تعریف کریں۔ ایک مثال دیں۔
+
+462
+
+6.3
+Additional
+
+463
+
+What are recommendation systems? Give an example.
+
+ریکومینڈیشن سسٹمز کیا ہیں؟ ایک مثال دیں۔
+
+463
+
+6.3
+Additional
+
+464
+
+What is customer analysis?
+
+کسٹمر تجزیہ کیا ہے؟
+
+464
+
+6.3
+Additional
+
+465
+
+How many fields in real life use chatbots and why?
+
+حقیقی زندگی میں کتنے شعبے چیٹ بوٹس استعمال کرتے ہیں اور کیوں؟
+
+465
+
+6.3
+Additional
+
+466
+
+What is bias in AI?
+
+AI میں تعصب کیا ہے؟
+
+466
+
+6.3
+Additional
+
+467
+
+What are the best practices to protect data?
+
+ڈیٹا کی حفاظت کے بہترین طریقے کیا ہیں؟
+
+467
+
+6.3
+Additional
+
+468
+
+Describe the responsibility of human when AI is used?
+
+AI استعمال کرتے وقت انسان کی کیا ذمہ داریاں ہیں؟
+
+468
+
+6.3
+Additional
+
+469
+
+How can we reduce bias in AI systems?
+
+ہم AI سسٹمز میں تعصب کو کیسے کم کر سکتے ہیں؟
+
+469
+
+6.3
+Additional
+
+470
+
+Explain with an example which personal data AI systems often use.
+
+مثال کے ساتھ بیان کریں کہ AI سسٹمز اکثر کون سا ذاتی ڈیٹا استعمال کرتے ہیں۔
+
+470
+
+6.4 SUPERVISED AND UNSUPERVISED ALGORITHMS
+6.4
+Additional
+
+471
+
+Define supervised learning and unsupervised learning algorithms.
+
+سپروائزڈ لرننگ اور ان سپروائزڈ لرننگ الگورتھم کی تعریف کریں۔
+
+471
+
+6.4
+Additional
+
+472
+
+Why to choose right algorithm is important?
+
+صحیح الگورتھم کا انتخاب کیوں اہم ہے؟
+
+472
+
+6.4
+Additional
+
+473
+
+Name some common data science algorithms. Also, define them.
+
+ڈیٹا سائنس کے کچھ عام الگورتھم کے نام بتائیں۔ ان کی تعریف بھی کریں۔
+
+473
+
+6.4
+Additional
+
+474
+
+What are the uses of linear regression?
+
+لینیئر ریگریشن کے استعمالات کیا ہیں؟
+
+474
+
+6.4
+Additional
+
+475
+
+On what factors does the choice of a data science algorithm depend?
+
+ڈیٹا سائنس الگورتھم کے انتخاب کا انحصار کن عوامل پر ہوتا ہے؟
+
+475
+
+6.4
+Additional
+
+476
+
+Define linear regression with a real-world example.
+
+لینیئر ریگریشن کی تعریف کریں اور ایک حقیقی مثال دیں۔
+
+476
+
+6.4
+Additional
+
+477
+
+What is the main purpose of using decision trees algorithm?
+
+ڈیسیژن ٹریز الگورتھم استعمال کرنے کا بنیادی مقصد کیا ہے؟
+
+477
+
+6.4
+Additional
+
+478
+
+How does K-Means (Clustering) algorithm group different items?
+
+کے-مینز کلسٹرنگ الگورتھم مختلف اشیاء کا گروپ کیسے بناتا ہے؟
+
+478
+
+6.4
+Additional
+
+479
+
+How can algorithms help organizations in solving real-world problems? Give two examples.
+
+الگورتھم حقیقی دنیا کے مسائل حل کرنے میں تنظیموں کی کیسے مدد کر سکتے ہیں؟ دو مثالیں دیں۔
+
+479
+
+6.4
+Additional
+
+480
+
+Why is an algorithm compared to a kitchen recipe?
+
+ایک الگورتھم کا موازنہ کچن کی ریسپی سے کیوں کیا گیا ہے؟
+
+480
+
+6.4
+Additional
+
+481
+
+Differentiate between simple linear regression and multiple linear regression.
+
+سمپل لینیئر ریگریشن اور ملٹی پل لینیئر ریگریشن میں فرق واضح کریں۔
+
+481
+
+6.5 EVALUATING MODEL PERFORMANCE
+6.5
+Exercise
+
+482
+
+Define confusion matrix.
+
+کنفیوژن میٹرکس کی تعریف کریں۔
+
+482
+
+6.5
+Additional
+
+483
+
+Describe the parameters of the confusion matrix.
+
+کنفیوژن میٹرکس کے پیرامیٹرز بیان کریں۔
+
+483
+
+6.5
+Additional
+
+484
+
+Why is it necessary to evaluate the performance of a machine learning model?
+
+مشین لرننگ ماڈل کی کارکردگی کو جانچنا کیوں ضروری ہے؟
+
+484
+
+6.5
+Additional
+
+485
+
+Differentiate between True Positive (TP) and True Negative (TN).
+
+ٹرو پوزیٹو (TP) اور ٹرو نیگیٹو (TN) میں فرق واضح کریں۔
+
+485
+
+6.5
+Additional
+
+486
+
+Differentiate between False Positive (FP) and False Negative (FN).
+
+فالس پوزیٹو (FP) اور فالس نیگیٹو (FN) میں فرق واضح کریں۔
+
+486
+
+6.5
+Additional
+
+487
+
+Define Accuracy. Write down the mathematical formula to calculate model accuracy.
+
+درستگی کی تعریف کریں۔ ماڈل کی ایکوریسی معلوم کرنے کا ریاضیاتی فارمولا لکھیں۔
+
+487
+
+6.5
+Additional
+
+488
+
+If a model's total predictions are 15, and the sum of TP and TN is 12, what will be its accuracy percentage?
+
+اگر ایک ماڈل کی کل پیشگوئیاں 15 ہوں، اور TP اور TN کا مجموعہ 12 ہو، تو اس کی ایکوریسی کا فیصد کیا ہوگا؟
+
+488
+
+6.5
+Additional
+
+489
+
+If you have data of 15 students, out of which 8 passed and 7 failed, what would the accuracy percentage be?
+
+اگر آپ کے پاس 15 طلباء کا ڈیٹا ہے، جن میں سے 8 پاس ہوئے اور 7 فیل ہوئے تو درستگی کا فیصد کیا ہوگا؟
+
+489
+
+6.5
+Additional
+
+490
+
+How does a confusion matrix help us understand a model's mistakes?
+
+ایک کنفیوژن میٹرکس ماڈل کی غلطیوں کو سمجھنے میں ہماری کیسے مدد کرتا ہے؟
+
+490
+
+7.1 INTRODUCTION TO ARTIFICIAL INTELLIGENCE (AI)
+7.1
+Exercise
+
+491
+
+What is Artificial Intelligence (AI)?
+
+مصنوعی ذہانت (AI) کیا ہے؟
+
+491
+
+7.1
+Exercise
+
+492
+
+How is AI used in daily life?
+
+AI روزمرہ زندگی میں کیسے استعمال ہوتا ہے؟
+
+492
+
+7.1
+Additional
+
+493
+
+Give two real-world examples of AI voice assistants or tools.
+
+اے آئی وائس اسسٹنٹس یا ٹولز کی دو حقیقی مثالیں دیں۔
+
+493
+
+7.1
+Additional
+
+494
+
+Briefly explain how AI helps doctors and students.
+
+مختصراً وضاحت کریں کہ اے آئی (AI) ڈاکٹروں اور طلباء کی کس طرح مدد کرتی ہے۔
+
+494
+
+7.1
+Additional
+
+495
+
+What creative tasks can AI perform like a human?
+
+اے آئی انسان کی طرح کون سے تخلیقی کام کر سکتی ہے؟
+
+495
+
+7.1
+Additional
+
+496
+
+How is AI transforming traditional work in factories?
+
+فیکٹریوں میں روایتی کام کو اے آئی (AI) کس طرح تبدیل کر رہی ہے؟
+
+496
+
+7.1
+Additional
+
+497
+
+State the advantages of using machines over human experts in factories.
+
+فیکٹریوں میں انسانی ماہرین کے مقابلے میں مشینوں کے استعمال کے فوائد بتائیں۔
+
+497
+
+7.1
+Additional
+
+498
+
+Name three fast-growing career roles created by AI.
+
+اے آئی کی وجہ سے تیزی سے ابھرنے والے تین کیریئر یا ملازمت کے شعبوں کے نام لکھیں۔
+
+498
+
+7.1
+Additional
+
+499
+
+Does AI only eliminate jobs, or does it also create new ones? Explain briefly.
+
+کیا اے آئی (AI) صرف ملازمتیں ختم کرتی ہے، یا یہ نئی ملازمتیں بھی پیدا کرتی ہے؟ مختصراً وضاحت کریں۔
+
+499
+
+7.2 DATA AND AI
+7.2
+Exercise
+
+500
+
+Why does AI need large and good-quality data?
+
+AI کو بڑے اور اچھی کوالٹی کے ڈیٹا کی ضرورت کیوں ہوتی ہے؟
+
+500
+
+7.2
+Additional
+
+501
+
+Define the term automatic data collection with an example.
+
+آٹومیٹک ڈیٹا کلیکشن کی تعریف کریں اور ایک مثال دیں۔
+
+501
+
+7.2
+Additional
+
+502
+
+Differentiate between data quantity and data quality in AI context.
+
+اے آئی کے تناظر میں ڈیٹا کی مقدار اور ڈیٹا کی کوالٹی میں فرق واضح کریں۔
+
+502
+
+7.2
+Additional
+
+503
+
+What happens if an AI system is trained with poor-quality data?
+
+اگر کسی اے آئی سسٹم کو ناقص کوالٹی کے ڈیٹا پر ٹرین کیا جائے تو کیا ہوگا؟
+
+503
+
+7.2
+Additional
+
+504
+
+Name three types of data that mobile phones automatically collect about users.
+
+ڈیٹا کی ان تین اقسام کے نام بتائیں جو موبائل فون صارفین کے بارے میں خودکار طور پر جمع کرتے ہیں۔
+
+504
+
+7.2
+Additional
+
+505
+
+State two benefits of automatic data collection for AI systems.
+
+اے آئی سسٹمز کے لیے آٹومیٹک ڈیٹا کلیکشن کے دو فوائد بیان کریں۔
+
+505
+
+7.2
+Additional
+
+506
+
+Write two flaws in data that can cause an AI to learn the wrong things.
+
+ڈیٹا میں موجود ایسی دو خامیاں لکھیں جن کی وجہ سے اے آئی غلط چیزیں سیکھ سکتی ہے۔
+
+506
+
+7.2
+Additional
+
+507
+
+What analogy is used to explain how AI learns from data?
+
+اے آئی ڈیٹا سے کیسے سیکھتی ہے اس کی وضاحت کے لیے کون سی تشبیہ استعمال کی گئی ہے؟
+
+507
+
+7.3 REAL-WORLD APPLICATIONS OF AI
+7.3
+Exercise
+
+508
+
+What is the role of Natural Language Processing (NLP)?
+
+نیچرل لینگویج پروسیسنگ (NLP) کا کیا کردار ہے؟
+
+508
+
+7.3
+Exercise
+
+509
+
+Give one example of robotics in everyday life.
+
+روزمرہ زندگی میں روبوٹکس کی ایک مثال دیں۔
+
+509
+
+7.3
+Exercise
+
+510
+
+What is the purpose of speech recognition technology?
+
+آواز کی پہچان ٹیکنالوجی کا مقصد کیا ہے؟
+
+510
+
+7.3
+Exercise
+
+511
+
+How do recommendation systems work?
+
+سفارشی نظام کیسے کام کرتے ہیں؟
+
+511
+
+7.3
+Additional
+
+512
+
+Explain shortly the uses of AI.
+
+AI کے استعمالات کی مختصر وضاحت کریں۔
+
+512
+
+7.3
+Additional
+
+513
+
+Name the real-world application of NLP.
+
+این ایل پی کی حقیقی دنیا میں ایپلی کیشن کے نام بتائیں۔
+
+513
+
+7.3
+Additional
+
+514
+
+Write two applications of speech technology in real life.
+
+حقیقی زندگی میں آواز کی ٹیکنالوجی کی دو ایپلی کیشنز لکھیں۔
+
+514
+
+7.3
+Additional
+
+515
+
+Write any one example of recommendation system.
+
+تجاویز کے نظام کی کوئی ایک مثال لکھیں۔
+
+515
+
+7.3
+Additional
+
+516
+
+Describe any two advantages of self-driving cars.
+
+خود چلنے والی کاروں کے کوئی دو فوائد بتائیں۔
+
+516
+
+7.3
+Additional
+
+517
+
+What are the challenges faced by self-driving cars?
+
+خود چلنے والی کاروں کو کس چیلنج کا سامنا ہے؟
+
+517
+
+7.3
+Additional
+
+518
+
+What is the advantage of using chatbots on websites?
+
+ویب سائٹس پر چیٹ باٹس کے استعمال کا کیا فائدہ ہے؟
+
+518
+
+7.3
+Additional
+
+519
+
+Write the name of tasks that robots can perform intelligently in everyday life.
+
+روزمرہ کی زندگی میں روبوٹس ذہانت سے کون سے کام انجام دے سکتے ہیں؟ ان کے نام لکھیں۔
+
+519
+
+7.3
+Additional
+
+520
+
+Why are robots considered more efficient than humans for certain daily tasks?
+
+بعض روزمرہ کے کاموں کے لیے روبوٹس کو انسانوں سے زیادہ کارآمد کیوں سمجھا جاتا ہے؟
+
+520
+
+7.3
+Additional
+
+521
+
+How does voice control assist people in smart homes?
+
+سمارٹ ہومز میں وائس کنٹرول لوگوں کی کس طرح مدد کرتا ہے؟
+
+521
+
+7.3
+Additional
+
+522
+
+Give any two applications of speech technology in the healthcare or customer service sector.
+
+ہیلتھ کیئر یا کسٹمر سروس کے شعبے میں سپیچ ٹیکنالوجی کی کوئی سی دو ایپلی کیشنز بتائیں۔
+
+522
+
+7.3
+Additional
+
+523
+
+How has voice recognition improved smartphone security?
+
+وائس ریکگنیشن نے سمارٹ فون کی سیکیورٹی کو کیسے بہتر بنایا ہے؟
+
+523
+
+7.3
+Additional
+
+524
+
+State two functions that voice-controlled cars can perform today.
+
+وائس کنٹرولڈ کاریں آج کون سے دو کام سرانجام دے سکتی ہیں؟
+
+524
+
+7.3
+Additional
+
+525
+
+Explain how an online shopping website uses recommendation systems.
+
+وضاحت کریں کہ ایک آن لائن شاپنگ ویب سائٹ ریکمنڈیشن سسٹمز کا استعمال کیسے کرتی ہے۔
+
+525
+
+7.3
+Additional
+
+526
+
+How do educational websites benefit from recommendation systems?
+
+تعلیمی ویب سائٹس ریکمنڈیشن سسٹمز سے کس طرح فائدہ اٹھاتی ہیں؟
+
+526
+
+7.3
+Additional
+
+527
+
+Why should recommendation systems be used carefully? Mention one risk.
+
+ریکمنڈیشن سسٹمز کو احتیاط سے کیوں استعمال کیا جانا چاہیے؟ کوئی ایک خطرہ بتائیں۔
+
+527
+
+7.3
+Additional
+
+528
+
+Identify the underlying AI technology when YouTube displays a "videos you may like" section.
+
+جب یوٹیوب آپ کو "videos you may like" کا سیکشن دکھاتا ہے تو اس کے پیچھے کارفرما اے آئی ٹیکنالوجی کی نشاندہی کریں۔
+
+528
+
+7.3
+Additional
+
+529
+
+State two tasks that robots can perform in modern restaurants.
+
+جدید ریسٹورنٹس میں روبوٹس کون سے دو کام سرانجام دے سکتے ہیں؟ بیان کریں۔
+
+529
+
+7.3
+Additional
+
+530
+
+Define autonomous vehicles.
+
+آٹونومس وہیکلز کی تعریف کریں۔
+
+530
+
+7.3
+Additional
+
+531
+
+Name three tools used by self-driving cars to detect their surroundings.
+
+سیلف ڈرائیونگ کاریں اپنے ارد گرد کے ماحول کا پتہ لگانے کے لیے کن تین ٹولز کا استعمال کرتی ہیں؟ ان کے نام لکھیں۔
+
+531
+
+7.3
+Additional
+
+532
+
+State two social challenges or concerns associated with self-driving cars.
+
+سیلف ڈرائیونگ کاروں سے وابستہ دو سماجی چیلنجز یا خدشات بیان کریں۔
+
+532
+
+7.4 BENEFITS AND CHALLENGES OF AI APPLICATIONS
+7.4
+Additional
+
+533
+
+Write down any two benefits of AI.
+
+AI کے کوئی سے دو فوائد لکھیں۔
+
+533
+
+7.4
+Additional
+
+534
+
+Write down any two limitations of AI.
+
+AI کی کوئی  سی دو حدود لکھیں۔
+
+534
+
+7.4
+Additional
+
+535
+
+How do AI systems assist students in the field of education?
+
+اے آئی (AI) سسٹمز شعبہ تعلیم میں طلباء کی کس طرح مدد کرتے ہیں؟
+
+535
+
+7.4
+Additional
+
+536
+
+Name three professional fields whose efficiency is increased by AI tools.
+
+ایسے تین پیشہ ورانہ شعبوں کے نام بتائیں جن کی کارکردگی میں اے آئی ٹولز کی وجہ سے اضافہ ہو رہا ہے۔
+
+536
+
+7.4
+Additional
+
+537
+
+Why can small AI mistakes lead to major problems in fields like law and health?
+
+قانون اور صحت جیسے شعبوں میں اے آئی (AI) کی چھوٹی غلطیاں بڑے مسائل کا سبب کیوں بن سکتی ہیں؟
+
+537
+
+7.4
+Additional
+
+538
+
+Which three human job roles are most likely to be replaced by AI systems?
+
+انسانوں کے ایسے کون سے تین ملازمت کے شعبے ہیں جن کی جگہ اے آئی سسٹمز لے سکتے ہیں؟
+
+538
+
+7.4
+Additional
+
+539
+
+Under what conditions can an AI system give wrong or unfair results?
+
+کن شرائط یا حالات میں ایک اے آئی سسٹم غلط یا غیر منصفانہ نتائج دے سکتا ہے؟
+
+539
+
+7.5 ETHICS, FAIRNESS, AND SOCIAL IMPACT OF AI
+7.5
+Exercise
+
+540
+
+What is meant by bias in AI systems?
+
+AI سسٹم میں جانبداری سے کیا مراد ہے؟
+
+540
+
+7.5
+Exercise
+
+541
+
+Why should AI systems be transparent and fair?
+
+AI سسٹم کو شفاف اور منصفانہ کیوں ہونا چاہیے؟
+
+541
+
+7.5
+Additional
+
+542
+
+What is meant by ethics in artificial intelligence?
+
+آرٹیفیشل انٹیلیجنس میں اخلاقیات سے کیا مراد ہے؟
+
+542
+
+7.5
+Additional
+
+543
+
+Why is justice important in today's world?
+
+آج کی دنیا میں انصاف کیوں اہم ہے؟
+
+543
+
+7.5
+Additional
+
+544
+
+Give an example of an unfair decision made by an AI system.
+
+ایک اے آئی سسٹم کے غیر منصفانہ فیصلے کی ایک مثال دیں۔
+
+544
+
+7.5
+Additional
+
+545
+
+Why might a face recognition tool fail to work well for all skin colors?
+
+فیس ریکگنیشن ٹول تمام رنگت کے لوگوں کے لیے بہتر کام کرنے میں کیوں ناکام ہو سکتا ہے؟
+
+545
+
+7.5
+Additional
+
+546
+
+How can developers remove bias from AI systems?
+
+ڈویلپرز اے آئی سسٹمز سے تعصب کو کیسے ختم کر سکتے ہیں؟
+
+546
+
+7.5
+Additional
+
+547
+
+What does fairness mean in the context of artificial intelligence?
+
+آرٹیفیشل انٹیلیجنس کے تناظر میں مروّت یا انصاف سے کیا مراد ہے؟
+
+547
+
+7.5
+Additional
+
+548
+
+Why is fairness critical in systems that handle university admissions or job interviews?
+
+یونیورسٹی داخلوں یا ملازمت کے انٹرویوز کو سنبھالنے والے سسٹمز میں انصاف کیوں ضروری ہے؟
+
+548
+
+7.5
+Additional
+
+549
+
+Define transparency in AI.
+
+AI میں شفافیت کی تعریف کریں۔
+
+549
+
+7.5
+Additional
+
+550
+
+What right does a user have if an AI rejects their loan application?
+
+اگر کوئی اے آئی سسٹم کسی صارف کی لون کی درخواست مسترد کر دے تو صارف کا کیا حق ہے؟
+
+550
+
+7.5
+Additional
+
+551
+
+Differentiate between privacy and data security.
+
+رازداری اور ڈیٹا سیکیورٹی میں فرق واضح کریں۔
+
+551
+
+7.5
+Additional
+
+552
+
+Name three types of personal information that AI systems commonly collect from users.
+
+ذاتی معلومات کی ایسی تین اقسام کے نام بتائیں جو اے آئی سسٹمز عام طور پر صارفین سے جمع کرتے ہیں۔
+
+552
+
+7.5
+Additional
+
+553
+
+What is surveillance, and when can it become harmful?
+
+نگرانی کیا ہے، اور یہ کب نقصان دہ بن سکتی ہے؟
+
+553
+
+7.5
+Additional
+
+554
+
+What is meant by AI and social equity?
+
+اے آئی اور سماجی برابری سے کیا مراد ہے؟
+
+554
+
+7.5
+Additional
+
+555
+
+How can new AI technologies create a gap between different groups of people?
+
+نئی اے آئی ٹیکنالوجیز لوگوں کے مختلف گروہوں کے درمیان فرق یا فاصلہ کیسے پیدا کر سکتی ہیں؟
+
+555
+
+7.5
+Additional
+
+556
+
+How should AI tools be designed to support fairness in society?
+
+معاشرے میں انصاف برقرار رکھنے کے لیے اے آئی ٹولز کو کس طرح ڈیزائن کیا جانا چاہیے؟
+
+556
+
+7.6 RESPONSIBILITY OF AI DESIGNERS
+7.6
+Additional
+
+557
+
+Why are human designers held responsible if an AI system makes a wrong decision?
+
+اگر کوئی AI سسٹم غلط فیصلہ کرے تو انسانی ڈیزائنرز کو اس کا ذمہ دار کیوں ٹھہرایا جاتا ہے؟
+
+557
+
+7.6
+Additional
+
+558
+
+Why is making a helpful AI considered a moral duty rather than just a technical job?
+
+ایک مددگار اے آئی بنانا محض ایک تکنیکی کام کے بجائے ایک اخلاقی فرض کیوں سمجھا جاتا ہے؟
+
+558
+
+7.6
+Additional
+
+559
+
+Write down two ways through which ethical AI design builds trust between people and technology.
+
+ایسے دو طریقے لکھیں جن کے ذریعے اخلاقی اے آئی ڈیزائن لوگوں اور ٹیکنالوجی کے درمیان اعتماد پیدا کرتا ہے۔
+
+559
+
+7.6
+Additional
+
+560
+
+Why must AI designers act responsibly?
+
+AI ڈیزائنرز کے لیے ذمہ داری سے کام کرنا کیوں ضروری ہے؟
+
+560
+
+7.6
+Additional
+
+561
+
+What three negative outcomes must AI designers prevent their systems from doing?
+
+اے آئی ڈیزائنرز کو اپنے سسٹمز کو کن تین منفی کاموں یا نتائج سے لازمی روکنا چاہیے؟
+
+561
+
+7.6
+Additional
+
+562
+
+What two things should users know about how an AI system works?
+
+صارفین کو اے آئی سسٹم کے کام کرنے کے طریقے کے بارے میں کون سی دو باتیں معلوم ہونی چاہئیں؟
+
+562
+
+8.1 FROM BASICS TO ADVANCED ENTREPRENEURSHIP
+8.1
+Additional
+
+563
+
+Why are legal, ethical, and strategic skills important in business?
+
+کاروبار میں قانونی، اخلاقی اور اسٹریٹجک مہارتیں کیوں اہم ہیں؟
+
+563
+
+8.1
+Additional
+
+564
+
+What is strategic marketing?
+
+اسٹریٹجک مارکیٹنگ کیا ہے؟
+
+564
+
+8.1
+Additional
+
+565
+
+Define entrepreneurship and state its primary goal.
+
+انٹرپرینیورشپ کی تعریف کریں اور اس کا بنیادی مقصد بیان کریں۔
+
+565
+
+8.1
+Additional
+
+566
+
+What are fundamental digital tools essential for modern entrepreneurs?
+
+جدید کاروباری افراد کے لیے کون سے بنیادی ڈیجیٹل ٹولز ضروری ہیں؟
+
+566
+
+8.1
+Additional
+
+567
+
+Differentiate between legal compliance and regulatory awareness in business.
+
+کاروبار میں قانونی تعمیل اور ریگولیٹری آگاہی میں فرق واضح کریں۔
+
+567
+
+8.1
+Additional
+
+568
+
+Differentiate between ethical frameworks and strategic marketing in business.
+
+کاروبار میں اخلاقی فریم ورک اور اسٹریٹیجک مارکیٹنگ میں فرق واضح کریں۔
+
+568
+
+8.1
+Additional
+
+569
+
+List the intellectual responsibilities expected of today's digital entrepreneurs.
+
+آج کے ڈیجیٹل کاروباری افراد سے جو علمی ذمہ داریاں متوقع ہیں ان کی فہرست بنائیں۔
+
+569
+
+8.2 PROBLEM-SOLVING & ADAPTABILITY
+8.2
+Exercise
+
+570
+
+What does SWOT analysis help identify?
+
+SWOT تجزیہ کس چیز کی شناخت میں مدد کرتا ہے؟
+
+570
+
+8.2
+Additional
+
+571
+
+What is setback recovery?
+
+ناکامی یا دھچکے سے بحالی کیا ہے؟
+
+571
+
+8.2
+Additional
+
+572
+
+Write three common challenges that can arise at any time in the business world.
+
+ کاروباری دنیا میں کسی بھی وقت پیدا ہونے والے تین عام چیلنجز کے نام لکھیں۔
+
+572
+
+8.2
+Additional
+
+573
+
+Define problem-solving in a business environment.
+
+کاروباری ماحول میں مسائل حل کرنے کی تعریف کریں۔
+
+573
+
+8.2
+Additional
+
+574
+
+Define structured problem-solving.
+
+منظم مسئلہ حل کرنے کی تعریف کریں۔
+
+574
+
+8.2
+Additional
+
+575
+
+What is meant by the root cause of a business problem? Give an example.
+
+کسی کاروباری مسئلے کی بنیادی وجہ سے کیا مراد ہے؟ ایک مثال دیں۔
+
+575
+
+8.2
+Additional
+
+576
+
+Define SWOT analysis and state its full form.
+
+SWOT تجزیہ کی تعریف کریں اور اس کا پورا نام لکھیں۔
+
+576
+
+8.2
+Additional
+
+577
+
+Define adaptability in the context of a changing business environment.
+
+بدلتے ہوئے کاروباری ماحول کے تناظر میں مطابقت پذیری کی تعریف کریں۔
+
+577
+
+8.2
+Additional
+
+578
+
+What is meant by resilience in entrepreneurship?
+
+انٹرپرینیورشپ میں لچک پذیری یا بحالی سے کیا مراد ہے؟
+
+578
+
+8.2
+Additional
+
+579
+
+Why must a business change its strategies quickly when technology upgrades?
+
+ٹیکنالوجی کے جدید ہونے پر کسی کاروبار کو اپنی حکمتِ عملی کیوں جلدی تبدیل کرنی چاہیے؟
+
+579
+
+8.2
+Additional
+
+580
+
+How can one recover from failures in any business? Explain with an example.
+
+کسی بھی کاروبار میں ناکامیوں سے کیسے نکلا جا سکتا ہے مثال کے ساتھ وضاحت کریں۔
+
+580
+
+8.2
+Additional
+
+581
+
+What lesson do we learn from the pivot/history of Netflix and YouTube?
+
+نیٹ فلکس اور یوٹیوب کی تاریخ سے ہمیں کیا سبق ملتا ہے؟
+
+581
+
+8.2
+Additional
+
+582
+
+Why should businesses ask why often?
+
+کاروباری اداروں کو اکثر کیوں کا سوال کیوں پوچھنا چاہیے؟
+
+582
+
+8.3 ETHICAL BUSINESS PRACTICES & DIGITAL ETHICS
+8.3
+Exercise
+
+583
+
+Define data privacy.
+
+ڈیٹا پرائیویسی کی تعریف کریں۔
+
+583
+
+8.3
+Exercise
+
+584
+
+Give one example of ethical decision-making in business.
+
+کاروبار میں اخلاقی فیصلہ سازی کی ایک مثال دیں۔
+
+584
+
+8.3
+Exercise
+
+585
+
+Why is honesty important in business decisions?
+
+کاروباری فیصلوں میں ایمانداری کیوں ضروری ہے؟
+
+585
+
+8.3
+Additional
+
+586
+
+Define ethical decision-making in the digital age.
+
+ڈیجیٹل دور میں اخلاقی فیصلہ سازی کی تعریف کریں۔
+
+586
+
+8.3
+Additional
+
+587
+
+Write down the advantages of ethical decision-making.
+
+اخلاقی بنیادوں پر فیصلہ سازی کے فوائد تحریر کریں۔
+
+587
+
+8.3
+Additional
+
+588
+
+Write down the advantages of responsible marketing.
+
+ذمہ دارانہ مارکیٹنگ کے فوائد تحریر کریں۔
+
+588
+
+8.3
+Additional
+
+589
+
+What is meant by ethics in business?
+
+کاروبار میں اخلاقیات سے کیا مراد ہے؟
+
+589
+
+8.3
+Additional
+
+590
+
+Define conflict of interest with an example.
+
+مثال کے ساتھ مفادات کے ٹکراؤ کی تعریف کریں۔
+
+590
+
+8.3
+Additional
+
+591
+
+Explain with an example how a business can balance its profit with customer welfare.
+
+مثال کے ساتھ بیان کریں کہ ایک کاروبار اپنے منافع اور کسٹمر کی بہبود کے درمیان توازن کیسے پیدا کر سکتا ہے۔
+
+591
+
+8.3
+Additional
+
+592
+
+Define digital ethics and state the responsibilities of businesses under it.
+
+ڈیجیٹل اخلاقیات کی تعریف کریں اور اس کے تحت کاروباری اداروں کی ذمہ داریاں لکھیں۔
+
+592
+
+8.3
+Additional
+
+593
+
+Define responsible marketing.
+
+ذمہ دارانہ مارکیٹنگ کی تعریف کریں۔
+
+593
+
+8.3
+Additional
+
+594
+
+Why should business advertisements avoid exaggerations and hidden conditions?
+
+کاروباری اشتہارات کو مبالغہ آرائی اور پوشیدہ شرائط سے کیوں بچنا چاہیے؟
+
+594
+
+8.3
+Additional
+
+595
+
+What rule must a business follow before using personal data for targeted advertisements?
+
+ٹارگٹڈ اشتہارات کے لیے ذاتی ڈیٹا استعمال کرنے سے پہلے کسی کاروبار کو کس اصول پر عمل کرنا لازمی ہے؟
+
+595
+
+8.3
+Additional
+
+596
+
+What are data privacy laws?
+
+ڈیٹا کی رازداری کے قوانین کیا ہیں؟
+
+596
+
+8.3
+Additional
+
+597
+
+According to the personal data protection bill of Pakistan, what are the rules for data collection?
+
+پاکستان کے پرسنل ڈیٹا پروٹیکشن بل کے مطابق، ڈیٹا جمع کرنے کے کیا اصول ہیں؟
+
+597
+
+8.3
+Additional
+
+598
+
+Differentiate between GDPR and COPPA.
+
+GDPR اور COPPA کے درمیان فرق کریں۔
+
+598
+
+8.3
+Additional
+
+599
+
+Define regulatory awareness in a business environment.
+
+کاروباری ماحول میں ریگولیٹری آگاہی کی تعریف کریں۔
+
+599
+
+8.3
+Additional
+
+600
+
+What is meant by a compliance audit for a business?
+
+کسی کاروبار کے لیے کمپلائنس آڈٹ سے کیا مراد ہے؟
+
+600
+
+8.3
+Additional
+
+601
+
+Why were Google and YouTube fined $170 million in 2019?
+
+2019 میں گوگل اور یوٹیوب پر 170 ملین ڈالر کا جرمانہ کیوں عائد کیا گیا تھا؟
+
+601
+
+8.4 LEGAL FRAMEWORK & COMPLIANCE
+8.4
+Exercise
+
+602
+
+How does copyright protect creators in the digital world?
+
+ڈیجیٹل دنیا میں کاپی رائٹ تخلیق کاروں کی حفاظت کیسے کرتا ہے؟
+
+602
+
+8.4
+Exercise
+
+603
+
+Differentiate between a patent and a trademark.
+
+پیٹنٹ اور ٹریڈ مارک میں فرق واضح کریں۔
+
+603
+
+8.4
+Additional
+
+604
+
+Define legal framework & compliance in a business environment.
+
+ کاروباری ماحول میں قانونی فریم ورک اور تعمیل کی تعریف کریں۔
+
+604
+
+8.4
+Additional
+
+605
+
+Why is it important to register a business in Pakistan?
+
+پاکستان میں کاروبار کی رجسٹریشن کروانا کیوں ضروری ہے؟
+
+605
+
+8.4
+Additional
+
+606
+
+Write the process to obtain NTN in Pakistan.
+
+پاکستان میں NTN حاصل کرنے کا طریقہ کار تحریر کریں۔
+
+606
+
+8.4
+Additional
+
+607
+
+What type of documents need to be understood before registering a business?
+
+کاروبار کی رجسٹریشن سے قبل کس قسم کی دستاویزات کو سمجھنا ضروری ہے؟
+
+607
+
+8.4
+Additional
+
+608
+
+Define contract in digital business.
+
+ڈیجیٹل کاروبار میں معاہدے کی تعریف کریں۔
+
+608
+
+8.4
+Additional
+
+609
+
+Why are contracts important in business?
+
+کاروبار میں معاہدے کیوں اہم ہیں؟
+
+609
+
+8.4
+Additional
+
+610
+
+Define intellectual property rights.
+
+دانشورانہ املاک کے حقوق کی تعریف کریں۔
+
+610
+
+8.4
+Additional
+
+611
+
+Explain how we can protect trade secrets in the digital age.
+
+وضاحت کریں کہ ہم ڈیجیٹل دور میں تجارتی رازوں کا تحفظ کیسے کر سکتے ہیں۔
+
+611
+
+8.4
+Additional
+
+612
+
+State the benefits of registering a new business with the government.
+
+حکومت کے ساتھ نئے کاروبار کو رجسٹر کرنے کے فوائد بیان کریں۔
+
+612
+
+8.4
+Additional
+
+613
+
+What is the role of SECP in the business sector of Pakistan?
+
+پاکستان کے کاروباری شعبے میں ایس ای سی پی کا کیا کردار ہے؟
+
+613
+
+8.4
+Additional
+
+614
+
+What does a certificate of incorporation prove for a startup?
+
+ایک اسٹارٹ اپ کے لیے سرٹیفکیٹ آف انکورپوریشن کیا ثابت کرتا ہے؟
+
+614
+
+8.4
+Additional
+
+615
+
+Differentiate between memorandum of association and articles of association.
+
+میمورنڈم آف ایسوسی ایشن اور آرٹیکلز آف ایسوسی ایشن میں فرق واضح کریں۔
+
+615
+
+8.4
+Additional
+
+616
+
+Define a partnership deed and state its purpose.
+
+پارٹنرشپ ڈیڈ کی تعریف کریں اور اس کا مقصد بتائیں۔
+
+616
+
+8.4
+Additional
+
+617
+
+What is an NTN, and which authority issues it in Pakistan?
+
+NTN کیا ہے، اور پاکستان میں یہ کون سا ادارہ جاری کرتا ہے؟
+
+617
+
+8.4
+Additional
+
+618
+
+Why is accurate record-keeping crucial for registered businesses regarding tax filing?
+
+رجسٹرڈ کاروباری اداروں کے لیے ٹیکس فائلنگ کے سلسلے میں درست ریکارڈ رکھنا کیوں ضروری ہے؟
+
+618
+
+8.4
+Additional
+
+619
+
+What are industry specific regulations? Give an example related to an e-commerce bookstore.
+
+انڈسٹری سپیسیفک ریگولیشنز کیا ہیں؟ ای کامرس بک اسٹور کے حوالے سے ایک مثال دیں۔
+
+619
+
+8.5 STRATEGIC MARKETING & BRANDING
+8.5
+Exercise
+
+620
+
+Explain the purpose of data-driven marketing.
+
+ڈیٹا پر مبنی مارکیٹنگ کا مقصد بیان کریں۔
+
+620
+
+8.5
+Exercise
+
+621
+
+Explain the purpose of setting KPIs in marketing.
+
+مارکیٹنگ میں KPIs متعین کرنے کا مقصد واضح کریں۔
+
+621
+
+8.5
+Additional
+
+622
+
+Define strategic marketing.
+
+اسٹریٹجک مارکیٹنگ کی تعریف کریں۔
+
+622
+
+8.5
+Additional
+
+623
+
+How does a CRM tool work? Explain with an example.
+
+CRM ٹول کیسے کام کرتا ہے؟ مثال کے ساتھ وضاحت کریں۔
+
+623
+
+8.5
+Additional
+
+624
+
+Write down the benefits of a small business.
+
+چھوٹے کاروبار کے فوائد تحریر کریں۔
+
+624

@@ -1,0 +1,5625 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "Computer",
+  "type": "short",
+  "total_questions": 624,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is the operating system referred to as the \"central controller\"?",
+      "ur": "آپریٹنگ سسٹم کو مرکزی کنٹرولر کیوں کہا جاتا ہے؟"
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does the OS act as a translator between the user and hardware?",
+      "ur": "OS صارف اور ہارڈویئر کے درمیان مترجم کے طور پر کیسے کام کرتا ہے؟"
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define one way to create a new user account in Windows.",
+      "ur": "ونڈوز میں نیا یوزر اکاؤنٹ بنانے کا ایک طریقہ بیان کریں۔"
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define operating system and write the names of some popular operating systems.",
+      "ur": "آپریٹنگ سسٹم کی تعریف کریں اور کچھ مشہور آپریٹنگ سسٹمز کے نام لکھیں۔"
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which are the processes and operation perform or controlled by operating system?",
+      "ur": "وہ کون سے پروسیسز اور آپریشنز ہیں جن کا انتظام یا کنٹرول آپریٹنگ سسٹم کرتا ہے؟"
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How operating system works?",
+      "ur": "آپریٹنگ سسٹم کیسے کام کرتا ہے؟"
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe any two responsibilities of operating system in multi-user environment.",
+      "ur": "ملٹی یوزر ماحول میں آپریٹنگ سسٹم کی کوئی دو ذمہ داریاں بیان کریں۔"
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why can computer hardware not understand human language directly?",
+      "ur": "کمپیوٹر ہارڈ ویئر براہ راست انسانی زبان کیوں نہیں سمجھ سکتا؟"
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a multi-user environment?",
+      "ur": "ملٹی یوزر انوائرمنٹ کیا ہے؟"
+    },
+    {
+      "id": 10,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does an OS protect shared resources from unauthorized access?",
+      "ur": "ایک OS مشترکہ وسائل کو غیر مجاز رسائی سے کیسے محفوظ رکھتا ہے؟"
+    },
+    {
+      "id": 11,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is binary language or binary code?",
+      "ur": "بائنری زبان یا بائنری کوڈ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 12,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain how an OS manages separate user accounts.",
+      "ur": "وضاحت کریں کہ OS مختلف صارف اکاؤنٹس کا انتظام کیسے کرتا ہے۔"
+    },
+    {
+      "id": 13,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the binary representation of the letter 'A'?",
+      "ur": "انگریزی حرف 'A' کی بائنری شکل کیا ہے؟"
+    },
+    {
+      "id": 14,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does an Operating System work like a traffic controller?",
+      "ur": "آپریٹنگ سسٹم ایک ٹریفک کنٹرولر کی طرح کیسے کام کرتا ہے؟"
+    },
+    {
+      "id": 15,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name any three types of user accounts that can be created in Windows.",
+      "ur": "ونڈوز میں بنائے جانے والے کوئی سے تین قسم کے صارف اکاؤنٹس کے نام لکھیں۔"
+    },
+    {
+      "id": 16,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does an OS handle multiple tasks running at the same time?",
+      "ur": "ایک ہی وقت میں چلنے والے متعدد ٹاسکس کو OS کیسے ہینڈل کرتا ہے؟"
+    },
+    {
+      "id": 17,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens instantly when you press a letter on the keyboard?",
+      "ur": "جب آپ کی بورڈ پر کوئی حرف دباتے ہیں تو فوری طور پر کیا عمل ہوتا ہے؟"
+    },
+    {
+      "id": 18,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does an OS keep each student's work separate and private in a computer lab?",
+      "ur": "کمپیوٹر لیب میں OS ہر طالب علم کے کام کو الگ اور نجی کیوں رکھتا ہے؟"
+    },
+    {
+      "id": 19,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How is the kernel different from the shell?",
+      "ur": "کرنل شیل سے کیسے مختلف ہے؟"
+    },
+    {
+      "id": 20,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give one example of a system library and its purpose.",
+      "ur": "ایک سسٹم لائبریری اور اس کے مقصد کی ایک مثال دیں۔"
+    },
+    {
+      "id": 21,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between graphic shells and command line shells.",
+      "ur": "گرافیکل شیلزاور کمانڈ لائن شیلز میں فرق کریں۔"
+    },
+    {
+      "id": 22,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by the Architecture of an Operating System?",
+      "ur": "آپریٹنگ سسٹم کے آرکیٹیکچر سے کیا مراد ہے؟"
+    },
+    {
+      "id": 23,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the Kernel of an operating system.",
+      "ur": "آپریٹنگ سسٹم کے کرنل کی تعریف کریں۔"
+    },
+    {
+      "id": 24,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the primary responsibilities of the Kernel?",
+      "ur": "کرنل کی بنیادی ذمہ داریاں کیا ہیں؟"
+    },
+    {
+      "id": 25,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the Shell of an operating system.",
+      "ur": "آپریٹنگ سسٹم کے شیل کی تعریف کریں۔"
+    },
+    {
+      "id": 26,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a Graphical Shell? Give an example.",
+      "ur": "گرافیکل شیل کیا ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 27,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a Command-line Shell?",
+      "ur": "کمانڈ لائن شیل سے کیا مراد ہے؟"
+    },
+    {
+      "id": 28,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do the Shell and Kernel interact with each other?",
+      "ur": "شیل اور کرنل آپس میں کیسے رابطہ کرتے ہیں؟"
+    },
+    {
+      "id": 29,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Modular Design in operating systems?",
+      "ur": "آپریٹنگ سسٹمز میں ماڈیولر ڈیزائن کیا ہوتا ہے؟"
+    },
+    {
+      "id": 30,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the advantage of dividing an OS design into layers.",
+      "ur": "آپریٹنگ سسٹم کے ڈیزائن کو تہوں میں تقسیم کرنے کا فائدہ بتائیں۔"
+    },
+    {
+      "id": 31,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of the Lower Layer in OS architecture?",
+      "ur": "آپریٹنگ سسٹم آرکیٹیکچر میں نچلی تہہ کا کیا کام ہے؟"
+    },
+    {
+      "id": 32,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the Middle Layer manage in an operating system?",
+      "ur": "آپریٹنگ سسٹم میں درمیانی تہہ کس چیز کا انتظام کرتی ہے؟"
+    },
+    {
+      "id": 33,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of the Upper Layer in OS architecture?",
+      "ur": "آپریٹنگ سسٹم آرکیٹیکچر میں اوپری تہہ کا کیا کردار ہے؟"
+    },
+    {
+      "id": 34,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a layer in a layered design depend on other layers?",
+      "ur": "لیئرڈ ڈیزائن میں ایک تہہ دوسری تہوں پر کیسے انحصار کرتی ہے؟"
+    },
+    {
+      "id": 35,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define System Libraries.",
+      "ur": "سسٹم لائبریریز کی تعریف کریں۔"
+    },
+    {
+      "id": 36,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does an OS need device drivers to communicate with hardware?",
+      "ur": "آپریٹنگ سسٹم کو ہارڈ ویئر کے ساتھ بات چیت کرنے کے لیے ڈیوائس ڈرائیورز کی ضرورت کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 37,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Explain one advantage and one disadvantage of FCFS scheduling.",
+      "ur": "FCFS شیڈولنگ کا ایک فائدہ اور ایک نقصان بیان کریں۔"
+    },
+    {
+      "id": 38,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define multitasking in computer system.",
+      "ur": "کمپیوٹر سسٹم میں ملٹی ٹاسکنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 39,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between process and resource.",
+      "ur": "پروسیس اور ریسورس میں فرق کریں۔"
+    },
+    {
+      "id": 40,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is process life cycle? Named its stages.",
+      "ur": "پروسیس لائف سائیکل کیا ہے؟ اس کے مراحل کے نام لکھیں۔"
+    },
+    {
+      "id": 41,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between multitasking and concurrency.",
+      "ur": "ملٹی ٹاسکنگ اور ہم آہنگی میں فرق کریں۔"
+    },
+    {
+      "id": 42,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is FCFS? Give an example.",
+      "ur": "FCFS کے بارے میں آپ کیا جانتے ہیں؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 43,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe advantages of FCFS.",
+      "ur": "FCFS کے فوائد بیان کریں۔"
+    },
+    {
+      "id": 44,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe disadvantages of FCFS.",
+      "ur": "FCFS کے نقصانات بیان کریں۔"
+    },
+    {
+      "id": 45,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a process in the context of an Operating System.",
+      "ur": "آپریٹنگ سسٹم کے تناظر میں پروسیس کی تعریف کریں۔"
+    },
+    {
+      "id": 46,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is process management?",
+      "ur": "پروسیس مینجمنٹ کیا ہے؟"
+    },
+    {
+      "id": 47,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens during the \"creation\" stage of a process?",
+      "ur": "پروسیس کے \"تخلیق\" کے مرحلے میں کیا ہوتا ہے؟"
+    },
+    {
+      "id": 48,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the \"execution\" stage of a process.",
+      "ur": "پروسیس کے \"عمل در آمد\" مرحلے کی وضاحت کریں۔"
+    },
+    {
+      "id": 49,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the OS do during the \"termination\" stage of a process?",
+      "ur": "پروسیس کے \"اختتام\" کے مرحلے کے دوران OS کیا کرتا ہے؟"
+    },
+    {
+      "id": 50,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by concurrency in process management?",
+      "ur": "پروسیس مینجمنٹ میں کنکرنسی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 51,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are process scheduling concepts?",
+      "ur": "پروسیس شیڈولنگ تصورات کیا ہیں؟"
+    },
+    {
+      "id": 52,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What two critical decisions must an OS make regarding process scheduling?",
+      "ur": "پروسیس شیڈولنگ کے حوالے سے OS کو کون سے دو اہم فیصلے کرنے پڑتے ہیں؟"
+    },
+    {
+      "id": 53,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why can a CPU not run all processes at the exact same time?",
+      "ur": "ایک CPU بالکل ایک ہی وقت میں تمام پروسیسز کو کیوں نہیں چلا سکتا؟"
+    },
+    {
+      "id": 54,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How fast can a CPU switch between processes, and what is its benefit?",
+      "ur": "ایک CPU پروسیسز کے درمیان کتنی تیزی سے سوئچ کر سکتا ہے، اور اس کا کیا فائدہ ہے؟"
+    },
+    {
+      "id": 55,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Suppose we have three processes P1, P2, and P3 having arrival times 0s, 1s, and 2s, and burst times 3s, 4s, and 2s, respectively. How much total time is required to complete all three processes?",
+      "ur": "فرض کریں ہمارے پاس تین پروسیسز ہیں P1، P2، اور P3 جن کے آنے کا وقت بالترتیب 0 سیکنڈ، 1 سیکنڈ، اور 2 سیکنڈ ہے، اور برسٹ ٹائم بالترتیب 3 سیکنڈ، 4 سیکنڈ، اور 2 سیکنڈ ہے۔ تینوں پروسیسز کو مکمل کرنے میں کُل کتنا وقت درکار ہوگا؟"
+    },
+    {
+      "id": 56,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is virtual memory slower than RAM?",
+      "ur": "ورچوئل میموری RAM سے سست کیوں ہے؟"
+    },
+    {
+      "id": 57,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define memory in a computer system. Write the names of its types.",
+      "ur": "کمپیوٹر سسٹم میں میموری کی تعریف کریں۔ اس کی اقسام کے نام لکھیں۔"
+    },
+    {
+      "id": 58,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between primary and virtual memory.",
+      "ur": "پرائمری اور ورچوئل میموری میں فرق کریں۔"
+    },
+    {
+      "id": 59,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is virtual memory compulsory for today's technology?",
+      "ur": "آج کی ٹیکنالوجی کے لیے ورچوئل میموری کیوں ضروری ہے؟"
+    },
+    {
+      "id": 60,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is primary memory and what is its other name?",
+      "ur": "پرائمری میموری کیا ہے اور اس کا دوسرا نام کیا ہے؟"
+    },
+    {
+      "id": 61,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is RAM considered a temporary storage area?",
+      "ur": "ریم کو ایک عارضی سٹوریج ایریا کیوں مانا جاتا ہے؟"
+    },
+    {
+      "id": 62,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define virtual memory. What is its other name?",
+      "ur": "ورچوئل میموری کی تعریف کریں۔ اس کا دوسرا نام کیا ہے؟"
+    },
+    {
+      "id": 63,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What action does the OS take when several programs are open simultaneously?",
+      "ur": "جب ایک ساتھ کئی پروگرام کھلے ہوں تو OS کیا اقدام کرتا ہے؟"
+    },
+    {
+      "id": 64,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which was the first personal computer and when was it released?",
+      "ur": "پہلا پرسنل کمپیوٹر کون سا تھا اور یہ کب ریلیز ہوا؟"
+    },
+    {
+      "id": 65,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How much RAM did the IBM 5150 computer have?",
+      "ur": "آئی بی ایم 5150 کمپیوٹر میں کتنی ریم موجود تھی؟"
+    },
+    {
+      "id": 66,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the data transfer speed of modern DDR5 RAM.",
+      "ur": "جدید ڈی ڈی آر 5 ریم کی ڈیٹا ٹرانسفر سپیڈ بیان کریں۔"
+    },
+    {
+      "id": 67,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does virtual memory benefit a system when running multiple programs?",
+      "ur": "متعدد پروگرام چلاتے وقت ورچوئل میموری سسٹم کو کیا فائدہ پہنچاتی ہے؟"
+    },
+    {
+      "id": 68,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which hardware storage drives can be used as virtual memory?",
+      "ur": "کون سی ہارڈ ویئر سٹوریج ڈرائیوز کو ورچوئل میموری کے طور پر استعمال کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 69,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between process and thread.",
+      "ur": "پروسیس اور تھریڈ میں فرق کریں۔"
+    },
+    {
+      "id": 70,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe any two benefits of multithreading.",
+      "ur": "ملٹی تھریڈنگ کے کوئی دو فوائد بیان کریں۔"
+    },
+    {
+      "id": 71,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a process.",
+      "ur": "پروسیس کی تعریف کریں۔"
+    },
+    {
+      "id": 72,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a thread.",
+      "ur": "تھریڈ کی تعریف کریں۔"
+    },
+    {
+      "id": 73,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What resources does a process typically own?",
+      "ur": "ایک پروسیس کے پاس عام طور پر کون سے وسائل ہوتے ہیں؟"
+    },
+    {
+      "id": 74,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are processes isolated from one another?",
+      "ur": "پروسیسز کو ایک دوسرے سے الگ کیوں رکھا جاتا ہے؟"
+    },
+    {
+      "id": 75,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is shared among threads belonging to the same process?",
+      "ur": "ایک ہی پروسیس کے تمام تھریڈز آپس میں کیا شیئر کرتے ہیں؟"
+    },
+    {
+      "id": 76,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do threads inside a single process operate?",
+      "ur": "ایک ہی پروسیس کے اندر موجود تھریڈز کیسے کام کرتے ہیں؟"
+    },
+    {
+      "id": 77,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "List two specific tasks performed by different threads in a web browser.",
+      "ur": "ویب براؤزر میں مختلف تھریڈز کے ذریعے کیے جانے والے کوئی سے دو کام لکھیں۔"
+    },
+    {
+      "id": 78,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main advantage of using multiple threads in a web browser?",
+      "ur": "ویب براؤزر میں ملٹی پل تھریڈز استعمال کرنے کا بنیادی فائدہ کیا ہے؟"
+    },
+    {
+      "id": 79,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the term multithreading.",
+      "ur": "ملٹی تھریڈنگ کی اصطلاح کی تعریف کریں۔"
+    },
+    {
+      "id": 80,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does multithreading provide enhanced performance?",
+      "ur": "ملٹی تھریڈنگ بہتر کارکردگی کیسے فراہم کرتی ہے؟"
+    },
+    {
+      "id": 81,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by improved responsiveness in multithreading?",
+      "ur": "ملٹی تھریڈنگ میں بہتر رسپانسو نیس سے کیا مراد ہے؟"
+    },
+    {
+      "id": 82,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does support for concurrent operations mean?",
+      "ur": "کنکرنٹ آپریشنز کے لیے سپورٹ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 83,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does multithreading ensure efficient use of resources?",
+      "ur": "ملٹی تھریڈنگ وسائل کے موثر استعمال کو کیسے یقینی بناتی ہے؟"
+    },
+    {
+      "id": 84,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define a system call.",
+      "ur": "سسٹم کال کی تعریف کریں۔"
+    },
+    {
+      "id": 85,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is fork call and why it is used? Give an example.",
+      "ur": "فورک کال کیا ہے اور یہ کیوں استعمال ہوتی ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 86,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the consequences if programs directly control hardware without system calls?",
+      "ur": "اگر پروگرام سسٹم کالز کے بغیر ہارڈ ویئر کو براہ راست کنٹرول کریں تو اس کے کیا نتائج ہو سکتے ہیں؟"
+    },
+    {
+      "id": 87,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "List the four main types of system calls.",
+      "ur": "سسٹم کالز کی چار اہم اقسام کے نام لکھیں۔"
+    },
+    {
+      "id": 88,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of the \"open\" system call?",
+      "ur": "\"open\" سسٹم کال کا کیا کام ہے؟"
+    },
+    {
+      "id": 89,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the \"read\" system call with an example.",
+      "ur": "مثال کے ساتھ \"read\" سسٹم کال کی تعریف کریں۔"
+    },
+    {
+      "id": 90,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of the \"write\" system call?",
+      "ur": "\"write\" سسٹم کال کا کیا کردار ہے؟"
+    },
+    {
+      "id": 91,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Compare the number of system calls in Linux/macOS with Windows.",
+      "ur": "لینکس/میک او ایس اور ونڈوز میں سسٹم کالز کی تعداد کا موازنہ کریں۔"
+    },
+    {
+      "id": 92,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What general tasks are handled by system calls?",
+      "ur": "سسٹم کالز عام طور پر کون سے کام سنبھالتی ہیں؟"
+    },
+    {
+      "id": 93,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the role of a file system?",
+      "ur": "فائل سسٹم کا کردار کیا ہے؟"
+    },
+    {
+      "id": 94,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between file and folder.",
+      "ur": "فائل اور فولڈر میں فرق کریں۔"
+    },
+    {
+      "id": 95,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a file system and its main purpose.",
+      "ur": "فائل سسٹم کی تعریف کریں اور اس کا بنیادی مقصد بتائیں۔"
+    },
+    {
+      "id": 96,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a file? List the types of data it may contain.",
+      "ur": "فائل کیا ہے؟ اس میں موجود ڈیٹا کی اقسام کی فہرست بنائیں۔"
+    },
+    {
+      "id": 97,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a folder or a directory.",
+      "ur": "فولڈر یا ڈائریکٹری کی تعریف کریں۔"
+    },
+    {
+      "id": 98,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by metadata?",
+      "ur": "میٹا ڈیٹا سے کیا مراد ہے؟"
+    },
+    {
+      "id": 99,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "List any four attributes included in a file's metadata.",
+      "ur": "کسی فائل کے میٹا ڈیٹا میں شامل کوئی سے چار اوصاف لکھیں۔"
+    },
+    {
+      "id": 100,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write four widely used computer-based file systems.",
+      "ur": "کمپیوٹر پر مبنی بڑے پیمانے پر استعمال ہونے والے چار فائل سسٹمز لکھیں۔"
+    },
+    {
+      "id": 101,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What factors are affected by the choice of a file system?",
+      "ur": "فائل سسٹم کے انتخاب سے کون سے عوامل متاثر ہوتے ہیں؟"
+    },
+    {
+      "id": 102,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the librarian analogy used for file systems.",
+      "ur": "فائل سسٹمز کے لیے استعمال ہونے والی لائبریرین کی مثال واضح کریں۔"
+    },
+    {
+      "id": 103,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does a well-designed file system ensure for complex data?",
+      "ur": "ایک بہترین ڈیزائن کردہ فائل سسٹم پیچیدہ ڈیٹا کے لیے کیا یقینی بناتا ہے؟"
+    },
+    {
+      "id": 104,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the key features and applications of RTOS.",
+      "ur": "RTOS کی اہم خصوصیات اور استعمالات بیان کریں۔"
+    },
+    {
+      "id": 105,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is NOS? Also write its applications.",
+      "ur": "NOS کیا ہے؟ نیز اس کے استعمالات لکھیں۔"
+    },
+    {
+      "id": 106,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are operating systems designed in different types?",
+      "ur": "آپریٹنگ سسٹم مختلف اقسام میں کیوں ڈیزائن کیے جاتے ہیں؟"
+    },
+    {
+      "id": 107,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a RTOS.",
+      "ur": "RTOS کی تعریف کریں۔"
+    },
+    {
+      "id": 108,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by a \"deadline\" in RTOS?",
+      "ur": "RTOS میں \"ڈیڈ لائن\" سے کیا مراد ہے؟"
+    },
+    {
+      "id": 109,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three critical systems that use RTOS.",
+      "ur": "تین اہم سسٹمز کے نام لکھیں جو RTOS استعمال کرتے ہیں۔"
+    },
+    {
+      "id": 110,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens if a tiny delay occurs in RTOS?",
+      "ur": "RTOS میں معمولی تاخیر سے کیا ہو سکتا ہے؟"
+    },
+    {
+      "id": 111,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define an EOS.",
+      "ur": "EOS کی تعریف کریں۔"
+    },
+    {
+      "id": 112,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is an EOS not meant for general computing?",
+      "ur": "EOS عام کمپیوٹنگ کے لیے کیوں نہیں ہوتا؟"
+    },
+    {
+      "id": 113,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "State two key features of an EOS.",
+      "ur": "EOS کی کوئی سی دو خصوصیات بیان کریں۔"
+    },
+    {
+      "id": 114,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does NOS help students in a computer lab?",
+      "ur": "NOS کمپیوٹر لیب میں طلبہ کی کیسے مدد کرتا ہے؟"
+    },
+    {
+      "id": 115,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a MOS.",
+      "ur": "MOS کی تعریف کریں۔"
+    },
+    {
+      "id": 116,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "For what features is a MOS optimized?",
+      "ur": "MOS کن خصوصیات کے لیے موزوں ہوتا ہے؟"
+    },
+    {
+      "id": 117,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which early MOS was used in early Nokia phones?",
+      "ur": "پرانے نوکیا فونز میں کون سا ابتدائی MOS استعمال ہوتا تھا؟"
+    },
+    {
+      "id": 118,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Compare early MOS with modern platforms.",
+      "ur": "ابتدائی MOS کا جدید پلیٹ فارمز سے موازنہ کریں۔"
+    },
+    {
+      "id": 119,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the applications of EOS?",
+      "ur": "EOS کے استعمالات کیا ہیں؟"
+    },
+    {
+      "id": 120,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How troubleshooting process work? Give an example.",
+      "ur": "ٹربل شوٹنگ کا عمل کیسے کام کرتا ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 121,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is post-troubleshooting? Also, give an example.",
+      "ur": "پوسٹ ٹربل شوٹنگ کیا ہے؟ نیز ایک مثال دیں۔"
+    },
+    {
+      "id": 122,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is regular troubleshooting more important for the user?",
+      "ur": "صارف کے لیے باقاعدہ دیکھ بھال کیوں زیادہ اہم ہے؟"
+    },
+    {
+      "id": 123,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How many activities are followed by different tools for health check?",
+      "ur": "ہیلتھ چیک کے لیے ونڈوز کے ٹولز کے ذریعے کتنی سرگرمیاں انجام دی جاتی ہیں؟"
+    },
+    {
+      "id": 124,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain with an example why continuous maintenance is important for a computer.",
+      "ur": "مثال کے ساتھ بیان کریں کہ کمپیوٹر کے لیے مسلسل دیکھ بھال کیوں ضروری ہے۔"
+    },
+    {
+      "id": 125,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down a list of common problems resulting from a lack of regular maintenance.",
+      "ur": "باقاعدہ دیکھ بھال نہ کرنے کی وجہ سے ہونے والے عام مسائل کی فہرست لکھیں۔"
+    },
+    {
+      "id": 126,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do temporary files and background processes cause slow performance?",
+      "ur": "عارضی فائلیں اور بیک گراؤنڈ پروسیسز کمپیوٹر کی رفتار کو کیسے سست کرتے ہیں؟"
+    },
+    {
+      "id": 127,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the impact of not installing system updates?",
+      "ur": "سسٹم اپ ڈیٹس انسٹال نہ کرنے کا کیا نقصان ہوتا ہے؟"
+    },
+    {
+      "id": 128,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does poor maintenance increase security risks?",
+      "ur": "دیکھ بھال نہ کرنے سے کمپیوٹر میں سیکیورٹی کے خطرات کیوں بڑھ جاتے ہیں؟"
+    },
+    {
+      "id": 129,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can data loss occur due to lack of regular maintenance?",
+      "ur": "باقاعدگی سے دیکھ بھال نہ کرنے کی وجہ سے ڈیٹا کا نقصان کیسے ہو سکتا ہے؟"
+    },
+    {
+      "id": 130,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What causes hardware damage in an unmaintained system?",
+      "ur": "دیکھ بھال سے محروم سسٹم میں ہارڈ ویئر کے نقصان کی بنیادی وجوہات کیا ہیں؟"
+    },
+    {
+      "id": 131,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define system health monitoring.",
+      "ur": "سسٹم ہیلتھ مانیٹرنگ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 132,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which built-in tools are included in modern operating systems for monitoring?",
+      "ur": "جدید آپریٹنگ سسٹمز میں نگرانی کے لیے کون سے بلٹ ان ٹولز شامل ہوتے ہیں؟"
+    },
+    {
+      "id": 133,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why should a user view system warnings and error messages?",
+      "ur": "صارف کے لیے سسٹم کی وارننگز اور ایرر میسجز دیکھنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 134,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can regular monitoring identify programs that slow down the computer?",
+      "ur": "باقاعدہ مانیٹرنگ کمپیوٹر کو سست کرنے والے پروگراموں کی شناخت کیسے کرتی ہے؟"
+    },
+    {
+      "id": 135,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main benefit of detecting small issues early through monitoring?",
+      "ur": "مانیٹرنگ کے ذریعے معمولی مسائل کا جلد پتہ لگانے کا بنیادی فائدہ کیا ہے؟"
+    },
+    {
+      "id": 136,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "List any three actions a user can take using built-in monitoring tools.",
+      "ur": "بلٹ ان مانیٹرنگ ٹولز کا استعمال کرتے ہوئے صارف کون سے کوئی سے تین اقدامات کر سکتا ہے؟"
+    },
+    {
+      "id": 137,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write one key function of the resource monitor.",
+      "ur": "ریسورس مانیٹر کا ایک اہم فنکشن لکھیں۔"
+    },
+    {
+      "id": 138,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three important diagnostic tools available in microsoft windows.",
+      "ur": "مائیکروسافٹ ونڈوز میں دستیاب تین اہم ڈائیگنوسٹک ٹولز کے نام لکھیں۔"
+    },
+    {
+      "id": 139,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define task manager and its main function.",
+      "ur": "ٹاسک مینیجر کی تعریف کریں اور اس کا بنیادی کام لکھیں۔"
+    },
+    {
+      "id": 140,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a resource monitor and write down its responsibilities?",
+      "ur": "ریسورس مانیٹر کیا ہے اور اس کی ذمہ داریاں تحریر کریں؟"
+    },
+    {
+      "id": 141,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is event viewer? Describe its responsibilities?",
+      "ur": "ایونٹ ویور کیا ہے؟ اس کی ذمہ داریاں تحریر کریں۔"
+    },
+    {
+      "id": 142,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Did ending the task improve system performance?",
+      "ur": "کیا ٹاسک ختم کرنے سے سسٹم کی کارکردگی بہتر ہوتی ہے؟"
+    },
+    {
+      "id": 143,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of built-in diagnostic tools in windows?",
+      "ur": "ونڈوز میں بلٹ اِن ڈائیگنوسٹک ٹولز کا کیا مقصد ہے؟"
+    },
+    {
+      "id": 144,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the processes tab of the task manager show?",
+      "ur": "ٹاسک مینیجر کا پروسیسز ٹیب کیا ظاہر کرتا ہے؟"
+    },
+    {
+      "id": 145,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What information is provided by the performance tab in task manager?",
+      "ur": "ٹاسک مینیجر میں پرفارمنس ٹیب کیا معلومات فراہم کرتا ہے؟"
+    },
+    {
+      "id": 146,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write two simple ways to open task manager in windows.",
+      "ur": "ونڈوز میں ٹاسک مینیجر کھولنے کے دو آسان طریقے لکھیں۔"
+    },
+    {
+      "id": 147,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "When is task manager helpful for a computer user?",
+      "ur": "ٹاسک مینیجر کمپیوٹر صارف کے لیے کب مددگار ثابت ہوتا ہے؟"
+    },
+    {
+      "id": 148,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can you close an unresponsive application using task manager?",
+      "ur": "آپ ٹاسک مینیجر کا استعمال کرتے ہوئے غیر جوابدہ ایپلیکیشن کو کیسے بند کر سکتے ہیں؟"
+    },
+    {
+      "id": 149,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does resource monitor differ from task manager?",
+      "ur": "ریسورس مانیٹر ٹاسک مینیجر سے کیسے مختلف ہے؟"
+    },
+    {
+      "id": 150,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write two methods to open resource monitor.",
+      "ur": "ریسورس مانیٹر کھولنے کے دو طریقے لکھیں۔"
+    },
+    {
+      "id": 151,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of the CPU Tab in resource monitor?",
+      "ur": "ریسورس مانیٹر میں سی پی یو ٹیب کا کیا کام ہے؟"
+    },
+    {
+      "id": 152,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the utility of the memory tab in resource monitor.",
+      "ur": "ریسورس مانیٹر میں میموری ٹیب کی افادیت واضح کریں۔"
+    },
+    {
+      "id": 153,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the disk tab monitor in resource monitor?",
+      "ur": "ریسورس مانیٹر میں ڈسک ٹیب کس چیز کی نگرانی کرتا ہے؟"
+    },
+    {
+      "id": 154,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the purpose of the network tab in resource monitor.",
+      "ur": "ریسورس مانیٹر میں نیٹ ورک ٹیب کا مقصد بیان کریں۔"
+    },
+    {
+      "id": 155,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the command and method to open event viewer.",
+      "ur": "ایونٹ ویور کھولنے کا طریقہ اور کمانڈ لکھیں۔"
+    },
+    {
+      "id": 156,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "When is it highly recommended to use the resource monitor tool?",
+      "ur": "ریسورس مانیٹر ٹول استعمال کرنے کی سخت سفارش کب کی جاتی ہے؟"
+    },
+    {
+      "id": 157,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What type of messages or logs are displayed in event viewer?",
+      "ur": "ایونٹ ویور میں کس قسم کے پیغامات یا لاگز دکھائے جاتے ہیں؟"
+    },
+    {
+      "id": 158,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define the use of safe mode in system recovery.",
+      "ur": "سسٹم ریکوری میں سیف موڈ کے استعمال کی تعریف کریں۔"
+    },
+    {
+      "id": 159,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "List the steps to create a bootable USB using Rufus.",
+      "ur": "روفوس (Rufus) کا استعمال کرتے ہوئے بوٹ ایبل USB بنانے کے اقدامات درج کریں۔"
+    },
+    {
+      "id": 160,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why a recovery option is important in today's technology?",
+      "ur": "آج کی ٹیکنالوجی میں ریکوری آپشن کیوں اہم ہے؟"
+    },
+    {
+      "id": 161,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why bootable storage media is important?",
+      "ur": "بوٹ ایبل اسٹوریج میڈیا کیوں اہم ہے؟"
+    },
+    {
+      "id": 162,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain any two built-in recovery tools used in MS Windows.",
+      "ur": "ایم ایس ونڈوز میں استعمال ہونے والے کسی دو بلٹ ان ریکوری ٹولز کی وضاحت کریں۔"
+    },
+    {
+      "id": 163,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are system recovery options?",
+      "ur": "سسٹم ریکوری آپشنز کیا ہیں؟"
+    },
+    {
+      "id": 164,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do you open safe mode on most modern systems?",
+      "ur": "زیادہ تر جدید سسٹمز پر سیف موڈ کیسے کھولا جاتا ہے؟"
+    },
+    {
+      "id": 165,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do you access safe mode on older systems?",
+      "ur": "پرانے سسٹمز پر سیف موڈ تک کیسے رسائی حاصل کی جاتی ہے؟"
+    },
+    {
+      "id": 166,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is safe mode with networking?",
+      "ur": "سیف موڈ نیٹ ورکنگ کیا ہے؟"
+    },
+    {
+      "id": 167,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "State precautions while using safe mode.",
+      "ur": "سیف موڈ استعمال کرتے وقت احتیاطی تدابیر لکھیں۔"
+    },
+    {
+      "id": 168,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is system restore?",
+      "ur": "سسٹم ریسٹور کیا ہے؟"
+    },
+    {
+      "id": 169,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are restore points?",
+      "ur": "ریسٹور پوائنٹس کیا ہوتے ہیں؟"
+    },
+    {
+      "id": 170,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "When are restore points created automatically?",
+      "ur": "ریسٹور پوائنٹس خود بخود کب بنتے ہیں؟"
+    },
+    {
+      "id": 171,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the steps to create a restore point manually.",
+      "ur": "خود ری اسٹور پوائنٹ بنانے کے لیے اقدامات لکھیں۔"
+    },
+    {
+      "id": 172,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the steps to use a restore point.",
+      "ur": "ریسٹور پوائنٹ استعمال کرنے کے اقدامات لکھیں۔"
+    },
+    {
+      "id": 173,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is bootable recovery media?",
+      "ur": "بوٹ ایبل ریکوری میڈیا کیا ہے؟"
+    },
+    {
+      "id": 174,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is it important to understand bootable media and its uses?",
+      "ur": "بوٹ ایبل میڈیا اور اس کے استعمالات کو سمجھنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 175,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do we create and use a bootable USB?",
+      "ur": "ہم بوٹ ایبل یو ایس بی کیسے بناتے اور استعمال کرتے ہیں؟"
+    },
+    {
+      "id": 176,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between GPT and MBR partition schemes for creating a bootable USB.",
+      "ur": "بوٹ ایبل یو ایس بی بنانے کے لیے GPT اور MBR پارٹیشن اسکیموں میں فرق واضح کریں۔"
+    },
+    {
+      "id": 177,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are GPT and MBR?",
+      "ur": "جی پی ٹی اور ایم بی آر کیا ہیں؟"
+    },
+    {
+      "id": 178,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do new computers and operating systems prefer GPT over MBR?",
+      "ur": "نئے کمپیوٹرز اور آپریٹنگ سسٹمز MBR کے مقابلے میں GPT کو کیوں ترجیح دیتے ہیں؟"
+    },
+    {
+      "id": 179,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the steps to check the partition style in windows.",
+      "ur": "ونڈوز میں پارٹیشن اسٹائل چیک کرنے کے مراحل لکھیں۔"
+    },
+    {
+      "id": 180,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens if there is a mismatch between the computer's partition style and the USB format?",
+      "ur": "اگر کمپیوٹر کے پارٹیشن اسٹائل اور یو ایس بی فارمیٹ کے درمیان مطابقت نہ ہو تو کیا ہوگا؟"
+    },
+    {
+      "id": 181,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "When do we need to use bootable recovery media?",
+      "ur": "ہمیں بوٹ ایبل ریکوری میڈیا استعمال کرنے کی ضرورت کب پڑتی ہے؟"
+    },
+    {
+      "id": 182,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define safe mode in windows.",
+      "ur": "ونڈوز میں سیف موڈ کی تعریف کریں۔"
+    },
+    {
+      "id": 183,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What happens during the Power-On Self-Test (POST).",
+      "ur": "پاور-آن سیلف-ٹیسٹ (POST) کے دوران کیا ہوتا ہے؟"
+    },
+    {
+      "id": 184,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is the boot order setting important when using recovery tools from a USB drive?",
+      "ur": "USB ڈرائیو سے ریکوری ٹولز استعمال کرتے وقت بوٹ آرڈر (Boot Order) کی سیٹنگ کیوں اہم ہے؟"
+    },
+    {
+      "id": 185,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is firmware?",
+      "ur": "فرم ویئر کیا ہے؟"
+    },
+    {
+      "id": 186,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain types of firmware.",
+      "ur": "فرم ویئر کی اقسام بیان کریں۔"
+    },
+    {
+      "id": 187,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define POST test with an example.",
+      "ur": "POST ٹیسٹ کی تعریف ایک مثال کے ساتھ بیان کریں۔"
+    },
+    {
+      "id": 188,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can a user open BIOS/UEFI settings on a computer?",
+      "ur": "ایک صارف کمپیوٹر پر بائیوس/یو ای ایف آئی سیٹنگز کیسے کھول سکتا ہے؟"
+    },
+    {
+      "id": 189,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is boot order and boot repair?",
+      "ur": "بوٹ آرڈر اور بوٹ ریپیئر کیا ہے؟"
+    },
+    {
+      "id": 190,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differences between BIOS and UEFI.",
+      "ur": "بائیوس اور یو ای ایف آئی میں فرق لکھیں۔"
+    },
+    {
+      "id": 191,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the roles of BIOS/UEFI in starting the computer.",
+      "ur": "کمپیوٹر اسٹارٹ کرنے میں BIOS/UEFI کے کردار لکھیں۔"
+    },
+    {
+      "id": 192,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "When was BIOS developed and why is UEFI preferred now?",
+      "ur": "بائیوس کب بنا تھا اور اب یو ای ایف آئی کو کیوں ترجیح دی جاتی ہے؟"
+    },
+    {
+      "id": 193,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do different computers use different keys to open BIOS?",
+      "ur": "مختلف کمپیوٹرز بائیوس کھولنے کے لیے مختلف کیز کیوں استعمال کرتے ہیں؟"
+    },
+    {
+      "id": 194,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can you restore BIOS/UEFI to its original state if wrong settings are saved?",
+      "ur": "اگر غلط سیٹنگز محفوظ ہو جائیں تو آپ BIOS/UEFI کو اس کی اصل حالت میں کیسے بحال کر سکتے ہیں؟"
+    },
+    {
+      "id": 195,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the steps to change the boot order in BIOS/UEFI settings.",
+      "ur": "بائیوس/یو ای ایف آئی سیٹنگز میں بوٹ آرڈر تبدیل کرنے کے مراحل لکھیں۔"
+    },
+    {
+      "id": 196,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can startup errors due to missing system files be fixed?",
+      "ur": "سسٹم فائلوں کے غائب ہونے کی وجہ سے آنے والی اسٹارٹ اپ خرابیوں کو کیسے ٹھیک کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 197,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "For what purpose build-in recovers tools are available in windows? Give an example.",
+      "ur": "ونڈوز میں بلٹ ان ریکوری ٹولز کس مقصد کے لیے موجود ہیں؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 198,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of the Recycle Bin in Windows?",
+      "ur": "ونڈوز میں ری سائیکل بن کا کیا کام ہے؟"
+    },
+    {
+      "id": 199,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is data recovery?",
+      "ur": "ڈیٹا ریکوری کیا ہے؟"
+    },
+    {
+      "id": 200,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the two main ways to recover deleted files?",
+      "ur": "ڈیلیٹ شدہ فائلوں کو بحال کرنے کے دو اہم طریقے کون سے ہیں؟"
+    },
+    {
+      "id": 201,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are certain utilities called \"Built-in Tools\"?",
+      "ur": "کچھ یوٹیلیٹیز کو \"بلٹ ان ٹولز\" کیوں کہا جاتا ہے؟"
+    },
+    {
+      "id": 202,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the file history feature in windows.",
+      "ur": "ونڈوز میں فائل ہسٹری فیچر کی تعریف کریں۔"
+    },
+    {
+      "id": 203,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the steps to turn on file history in windows settings.",
+      "ur": "ونڈوز سیٹنگز میں فائل ہسٹری کو آن کرنے کے مراحل لکھیں۔"
+    },
+    {
+      "id": 204,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which default folders are backed up regularly when File History is enabled?",
+      "ur": "فائل ہسٹری آن ہونے پر کون سے ڈیفالٹ فولڈرز کا باقاعدگی سے بیک اپ لیا جاتا ہے؟"
+    },
+    {
+      "id": 205,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the benefit of the \"Previous Versions\" tab in folder properties?",
+      "ur": "فولڈر کی پراپرٹیز میں \"Previous Versions\" ٹیب کا کیا فائدہ ہے؟"
+    },
+    {
+      "id": 206,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "When does a user need to use Third-party recovery tools?",
+      "ur": "صارف کو تھرڈ پارٹی ریکوری ٹولز استعمال کرنے کی ضرورت کب پڑتی ہے؟"
+    },
+    {
+      "id": 207,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the steps to recover files using Tenorshare.",
+      "ur": "ٹینور شیئر کا استعمال کرتے ہوئے فائلوں کو بحال کرنے کے مراحل لکھیں۔"
+    },
+    {
+      "id": 208,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the major limitations of data recovery software.",
+      "ur": "ڈیٹا ریکوری سافٹ ویئر کی بڑی حد بندیوں کو بیان کریں۔"
+    },
+    {
+      "id": 209,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why should you never install recovery software on the same drive where lost files were stored?",
+      "ur": "آپ کو ریکوری سافٹ ویئر کو اسی ڈرائیو پر کیوں انسٹال نہیں کرنا چاہیے جہاں سے فائلیں ضائع ہوئی تھیں؟"
+    },
+    {
+      "id": 210,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the easiest and safest way to restore deleted files?",
+      "ur": "ڈیلیٹ شدہ فائلوں کو بحال کرنے کا سب سے آسان اور محفوظ ترین طریقہ کون سا ہے؟"
+    },
+    {
+      "id": 211,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "List the two benefits of running regular disk cleanup.",
+      "ur": "باقاعدگی سے ڈسک کلین اپ چلانے کے دو فائدے درج کریں۔"
+    },
+    {
+      "id": 212,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does Windows Defender help in maintaining system health?",
+      "ur": "ونڈوز ڈیفنڈر (Windows Defender) سسٹم کی صحت کو برقرار رکھنے میں کیسے مدد کرتا ہے؟"
+    },
+    {
+      "id": 213,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define preventive maintenance.",
+      "ur": "پریوینٹیو مینٹیننس کی تعریف کریں۔"
+    },
+    {
+      "id": 214,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is disk cleanup?",
+      "ur": "ڈسک کلین اپ کیا ہے؟"
+    },
+    {
+      "id": 215,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is software update? Describe the method to check system update.",
+      "ur": "سافٹ ویئر اپ ڈیٹ کیا ہے؟ سسٹم اپ ڈیٹ چیک کرنے کا طریقہ بیان کریں۔"
+    },
+    {
+      "id": 216,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is it important to keep a maintenance calendar record?",
+      "ur": "مینٹیننس کیلنڈر کا ریکارڈ رکھنا کیوں اہم ہے؟"
+    },
+    {
+      "id": 217,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does system performance slow down over time?",
+      "ur": "وقت کے ساتھ سسٹم کی کارکردگی کیوں سست ہو جاتی ہے؟"
+    },
+    {
+      "id": 218,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the steps to perform disk cleanup.",
+      "ur": "ڈسک کلین اپ کرنے کے مراحل لکھیں۔"
+    },
+    {
+      "id": 219,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How many types of system updates?",
+      "ur": "سسٹم اپڈیٹس کی کتنی اقسام ہیں؟"
+    },
+    {
+      "id": 220,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is windows defender?",
+      "ur": "ونڈوز ڈیفینڈر کیا ہے؟"
+    },
+    {
+      "id": 221,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the two types of scans offered by windows defender.",
+      "ur": "ونڈوز ڈیفینڈر کے فراہم کردہ اسکینز کی دو اقسام کے نام لکھیں۔"
+    },
+    {
+      "id": 222,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by real-time protection in windows defender?",
+      "ur": "ونڈوز ڈیفینڈر میں ریئل ٹائم پروٹیکشن سے کیا مراد ہے؟"
+    },
+    {
+      "id": 223,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why Keeping proper records is compulsory for future maintenance?",
+      "ur": "مستقبل کی مینٹیننس کے لیے مناسب ریکارڈ رکھنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 224,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Computer Programming. Also give an example.",
+      "ur": "کمپیوٹر پروگرامنگ کی تعریف کریں۔ نیز ایک مثال دیں۔"
+    },
+    {
+      "id": 225,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Python Programming Language.",
+      "ur": "پائتھن پروگرامنگ لینگویج کی تعریف کریں۔"
+    },
+    {
+      "id": 226,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the applications of Python.",
+      "ur": "پائتھن کے استعمالات لکھیں۔"
+    },
+    {
+      "id": 227,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the advantage of python?",
+      "ur": "پائتھن کے فوائد کیا ہیں؟"
+    },
+    {
+      "id": 228,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which option must be check when installing Python and why?",
+      "ur": "پائتھن انسٹال کرتے وقت کون سا آپشن چیک کرنا ضروری ہے اور کیوں؟"
+    },
+    {
+      "id": 229,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the procedure to install Python.",
+      "ur": "پائتھن انسٹال کرنے کا طریقہ کار لکھیں۔"
+    },
+    {
+      "id": 230,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Google Colab?",
+      "ur": "گوگل کولیب کیا ہے؟"
+    },
+    {
+      "id": 231,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why must programming instructions be clear and precise?",
+      "ur": "پروگرامنگ کی ہدایات کا واضح اور درست ہونا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 232,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by a Python Development Environment?",
+      "ur": "پائتھن ڈویلپمنٹ انوائرمنٹ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 233,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Where and how do you download Python?",
+      "ur": "پائتھن کہاں سے اور کیسے ڈاؤن لوڈ کرتے ہیں؟"
+    },
+    {
+      "id": 234,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does IDE stand for? Name three popular IDEs for Python.",
+      "ur": "آئی ڈی ای سے کیا مراد ہے؟ پائتھن کے لیے تین مشہور IDEs کے نام لکھیں۔"
+    },
+    {
+      "id": 235,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is PyCharm? Name its two available editions.",
+      "ur": "پائی چارم کیا ہے؟ اس کے دستیاب دو ایڈیشنز کے نام لکھیں۔"
+    },
+    {
+      "id": 236,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do you configure an IDE with Python?",
+      "ur": "آئی ڈی ای کو پائتھن کے ساتھ کیسے کنفیگر کیا جاتا ہے؟"
+    },
+    {
+      "id": 237,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can you test if your Python IDE configuration is working correctly?",
+      "ur": "آپ کیسے ٹیسٹ کر سکتے ہیں کہ آپ کی پائتھن IDE کنفیگریشن درست کام کر رہی ہے؟"
+    },
+    {
+      "id": 238,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State any two advantages of using Google Colab.",
+      "ur": "گوگل کولیب استعمال کرنے کے کوئی سے دو فوائد لکھیں۔"
+    },
+    {
+      "id": 239,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why are comments important in programming?",
+      "ur": "پروگرامنگ میں کمنٹس کیوں اہم ہیں؟"
+    },
+    {
+      "id": 240,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Discuss three basic data types in python.",
+      "ur": "پائتھون میں متغیرات کی تین بنیادی اقسام پر بحث کریں۔"
+    },
+    {
+      "id": 241,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Describe the difference between integer and float data types in Python.",
+      "ur": "پائتھون میں integer اور float ڈیٹا اقسام کے درمیان فرق بیان کریں۔"
+    },
+    {
+      "id": 242,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does the if statement differ from the if-else statement?",
+      "ur": "if سٹیٹمنٹ if-else سٹیٹمنٹ سے کیسے مختلف ہے؟"
+    },
+    {
+      "id": 243,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do you get user input in Python?",
+      "ur": "آپ پائتھون میں صارف سے ان پٹ کیسے حاصل کرتے ہیں؟"
+    },
+    {
+      "id": 244,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the purpose of print() statement in Python?",
+      "ur": "پائتھون میں ()print سٹیٹمنٹ کا مقصد کیا ہے؟"
+    },
+    {
+      "id": 245,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write any three main rules for naming variables in Python?",
+      "ur": "پائتھون میں متغیرات کے نام رکھنے کے تین اہم اصول کیا ہیں؟"
+    },
+    {
+      "id": 246,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the basic python syntax and structure.",
+      "ur": "بنیادی پائتھن سینٹیکس اور سٹرکچر کی وضاحت کریں۔"
+    },
+    {
+      "id": 247,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define single line comment with example.",
+      "ur": "سنگل لائن کمنٹ کی مثال دے کر تعریف کریں۔"
+    },
+    {
+      "id": 248,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Multiline comment with example.",
+      "ur": "ملٹی لائن کمنٹ کی مثال دے کر تعریف کریں۔"
+    },
+    {
+      "id": 249,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is it compulsory to close multi-line comment?",
+      "ur": "ملٹی لائن کمنٹ کو بند کرنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 250,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a variable in Python? Give an example.",
+      "ur": "پائتھن میں ویری ایبل کیا ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 251,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the purpose of input and output functions.",
+      "ur": "ان پٹ اور آؤٹ پٹ فنکشنز کے مقصد کی وضاحت کریں۔"
+    },
+    {
+      "id": 252,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: # This is a single-line comment print(\"K2 is the second-highest mountain in the world\") ''' This is a comment. ''' print(\"Edhi Foundation operates the world's largest volunteer ambulance network.\" # This is a single-line comment print(\"K2 is the second-highest mountain in the world\") ''' This is a comment. ''' print(\"Edhi Foundation operates the world's largest volunteer ambulance network.\"",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 253,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define reserved keywords with examples.",
+      "ur": "مثالوں کے ساتھ ریزروڈ کی ورڈز کی تعریف کریں۔"
+    },
+    {
+      "id": 254,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between boolean and string variables in Python.",
+      "ur": "پائتھن میں بولین اور اسٹرنگ ویری ایبلز میں فرق واضح کریں۔"
+    },
+    {
+      "id": 255,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(age = \"Hello, dear students!\") age = 71 print(\"Azam lived for\", age, \"years\") age = 60 print(\" Iqbal lived for\", age, \"years\") print(age = \"Hello, dear students!\") age = 71 print(\"Azam lived for\", age, \"years\") age = 60 print(\" Iqbal lived for\", age, \"years\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 256,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do we need int() or float() functions with the input() function?",
+      "ur": "ہمیں input() فنکشن کے ساتھ int() یا float() فنکشنز استعمال کرنے کی ضرورت کیوں پڑتی ہے؟"
+    },
+    {
+      "id": 257,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Indentation in Python and state its importance.",
+      "ur": "پائتھن میں انڈنٹیشن کی تعریف کریں اور اس کی اہمیت بتائیں۔"
+    },
+    {
+      "id": 258,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: name = input(\"Enter your name: \") print(\" Hello, \" + name + \"!\") name = input(\"Enter your name: \") print(\" Hello, \" + name + \"!\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 259,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: user_age = int(input(\"Enter your age: \")) print(\"Your age is:\",user_age) user_age = int(input(\"Enter your age: \")) print(\"Your age is:\",user_age)",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 260,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: user_height = float(input(\"Enter your height in meters:\") ) print(\"Your height is\", user_height,\"meters\") user_height = float(input(\"Enter your height in meters:\") ) print(\"Your height is\", user_height,\"meters\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 261,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are logical operators and name all three?",
+      "ur": "منطقی آپریٹرز کیا ہیں اور تینوں کے نام بتائیں؟"
+    },
+    {
+      "id": 262,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is operator precedence? Give an example.",
+      "ur": "آپریٹر کی ترجیح کیا ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 263,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between operators and expressions.",
+      "ur": "آپریٹرز اور ایکسپریشنز میں فرق واضح کریں۔"
+    },
+    {
+      "id": 264,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define arithmetic operators with an example.",
+      "ur": "مثال کے ساتھ حسابی آپریٹرز کی تعریف کریں۔"
+    },
+    {
+      "id": 265,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the comparison operator with an example.",
+      "ur": "مثال کے ساتھ کمپیریژن آپریٹر کی تعریف کریں۔"
+    },
+    {
+      "id": 266,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What type of value do logical operators return?",
+      "ur": "لاجیکل آپریٹرز کس قسم کی ویلیو واپس کرتے ہیں؟"
+    },
+    {
+      "id": 267,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are compound assignment operators? Give an example.",
+      "ur": "کمپاؤنڈ اسائنمنٹ آپریٹرز کیا ہیں؟ مثال دیں۔"
+    },
+    {
+      "id": 268,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Solve 8+342.",
+      "ur": "248+3حل کریں۔"
+    },
+    {
+      "id": 269,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of assignment operator in Python?",
+      "ur": "پائتھن میں اسائنمنٹ آپریٹر کا کیا مقصد ہے؟"
+    },
+    {
+      "id": 270,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between the assignment operator (=) and equal to operator (==).",
+      "ur": "اسائنمنٹ آپریٹر (=) اور برابر ہونے والے آپریٹر (==) میں فرق بتائیں۔"
+    },
+    {
+      "id": 271,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain with an example which operator has the highest precedence in Python?",
+      "ur": "مثال کے ساتھ وضاحت کریں کہ پائتھن میں کس آپریٹر کی پریسیڈینس سب سے زیادہ ہوتی ہے؟"
+    },
+    {
+      "id": 272,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain with an example which operators have the lowest precedence in Python?",
+      "ur": "مثال کے ساتھ وضاحت کریں کہ پائتھن میں کن آپریٹرز کی پریسیڈینس سب سے کم ہوتی ہے؟"
+    },
+    {
+      "id": 273,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of placing \"f\" before a string in Python?",
+      "ur": "پائتھن میں اسٹرنگ سے پہلے \"f\" لگانے کا کیا مقصد ہے؟"
+    },
+    {
+      "id": 274,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by the statement that exponentiation is \"right associative\"?",
+      "ur": "اس بات سے کیا مراد ہے کہ ایکسپونینشی ایشن \"رائٹ ایسوسی ایٹو\" ہے؟"
+    },
+    {
+      "id": 275,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a = 10 and b = 3, what will be the output of a + b and a * b?",
+      "ur": "اگر a = 10 اور b = 3 ہو، تو a + b اور a * b کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 276,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a = 10 and b = 3, what will be the output of a / b and a // b?",
+      "ur": "اگر a = 10 اور b = 3 ہو، تو a / b اور a // b کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 277,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a = 10 and b = 3, what will be the output of a % b and a ** b?",
+      "ur": "اگر a = 10 اور b = 3 ہو، تو a % b اور a ** b کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 278,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If x = 10 and y = 5, what will be the output of x > y and x < y?",
+      "ur": "اگر x = 10 اور y = 5 ہو، تو x > y اور x < y کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 279,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If x = 10 and y = 5, what will be the output of x == y and x != y?",
+      "ur": "اگر x = 10 اور y = 5 ہو، تو x == y اور x != y کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 280,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If x = 10 and y = 5, what will be the output of x >= y and x <= y?",
+      "ur": "اگر x = 10 اور y = 5 ہو، تو x >= y اور x <= y کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 281,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a = 10 and b = 5, what will be the output of x = a and a += b?",
+      "ur": "اگر a = 10 اور b = 5 ہو، تو x = a اور a += b کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 282,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a = 10 and b = 5, what will be the output of a -= b and a *= b?",
+      "ur": "اگر a = 10 اور b = 5 ہو، تو a -= b اور a *= b کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 283,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a = 10 and b = 5, what will be the output of a /= b and a //= b?",
+      "ur": "اگر a = 10 اور b = 5 ہو، تو a /= b اور a //= b کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 284,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a = 10 and b = 5, what will be the output of a %= b and a **= b?",
+      "ur": "اگر a = 10 اور b = 5 ہو، تو a %= b اور a **= b کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 285,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If x = True and y = False, what will be the output of x AND y and x OR y?",
+      "ur": "اگر x = True اور y = False ہو، تو x AND y اور x OR y کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 286,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "If x = True and y = False, what will be the output of NOT x and NOT y?",
+      "ur": "اگر x = True اور y = False ہو، تو NOT x اور NOT y کا آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 287,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(f\"3 + 2 * 5 = {3 + 2 * 5}\") print(f\"3 + 2 * 5 = {3 + 2 * 5}\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 288,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(f\"(3 + 2) * 5 = {(3 + 2) * 5}\") print(f\"(3 + 2) * 5 = {(3 + 2) * 5}\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 289,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(f\"2 ** 3 * 4 = {2 ** 3 * 4}\") print(f\"2 ** 3 * 4 = {2 ** 3 * 4}\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 290,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(f\"15 / 3 * 2 = {15 / 3 * 2}\") print(f\"15 / 3 * 2 = {15 / 3 * 2}\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 291,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(f\"15 // 4 + 2 = {15 // 4 + 2}\") print(f\"15 // 4 + 2 = {15 // 4 + 2}\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 292,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(f\"11 // 4 + 2 = {11 // 4 + 2}\") print(f\"11 // 4 + 2 = {11 // 4 + 2}\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 293,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the output of the following code: print(f\"17 % 5 * 2 = {17 % 5 * 2}\") print(f\"17 % 5 * 2 = {17 % 5 * 2}\")",
+      "ur": "مندرجہ ذیل کوڈ کا آوٹ پُٹ لکھیں:"
+    },
+    {
+      "id": 294,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are control structures? Name their main types.",
+      "ur": "کنٹرول سٹرکچرز کیا ہیں؟ ان کی اہم اقسام کے نام لکھیں۔"
+    },
+    {
+      "id": 295,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define decision-making with its main types.",
+      "ur": "اقسام کے ساتھ فیصلہ سازی کی تعریف کریں۔"
+    },
+    {
+      "id": 296,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the importance of indentation in python programming?",
+      "ur": "پائتھن پروگرامنگ میں انڈنٹیشن کی کیا اہمیت ہے؟"
+    },
+    {
+      "id": 297,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define if-else statement with its general syntax.",
+      "ur": "جنرل سینٹیکس کے ساتھ if-else سٹیٹمنٹ کی تعریف کریں۔"
+    },
+    {
+      "id": 298,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a nested if statement with its general syntax.",
+      "ur": "جنرل سینٹیکس کے ساتھ نیسٹڈ اِف سٹیٹمنٹ کی تعریف کریں۔"
+    },
+    {
+      "id": 299,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define an if statement with its general syntax.",
+      "ur": "جنرل سینٹیکس کے ساتھ if سٹیٹمنٹ کی تعریف کریں۔"
+    },
+    {
+      "id": 300,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between if and if-else statement.",
+      "ur": "if اور if-else سٹیٹمنٹ میں فرق واضح کریں۔"
+    },
+    {
+      "id": 301,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Explain the use of the range( ) function in for loop?",
+      "ur": "for لوپ میں ( )range فنکشن کے استعمال کی وضاحت کریں۔"
+    },
+    {
+      "id": 302,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are the three parameters of the range( ) function?",
+      "ur": "()range فنکشن کے تین پیرامیٹرز کیا ہیں؟"
+    },
+    {
+      "id": 303,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the purpose of the end parameter in print( )?",
+      "ur": "()print میں end پیرامیٹر کا مقصد کیا ہے؟"
+    },
+    {
+      "id": 304,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a loop and the named types of loops used in Python.",
+      "ur": "لوپ کی تعریف کریں اور پائتھن میں استعمال ہونے والی لوپ کی اقسام کے نام بتائیں۔"
+    },
+    {
+      "id": 305,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between for loop and while loop.",
+      "ur": "for لوپ اور while لوپ کے درمیان فرق کریں۔"
+    },
+    {
+      "id": 306,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define nested loop.",
+      "ur": "نیسٹڈ لوپ کی تعریف کریں۔"
+    },
+    {
+      "id": 307,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define while loop with its general syntax.",
+      "ur": "جنرل سینٹیکس کے ساتھ while لوپ کی تعریف کریں۔"
+    },
+    {
+      "id": 308,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define for loop with its general syntax.",
+      "ur": "جنرل سینٹیکس کے ساتھ for لوپ کی تعریف کریں۔"
+    },
+    {
+      "id": 309,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a string in Python? Explain how strings are defined using single and double quotation marks with the help of an example.",
+      "ur": "پائتھن میں سٹرنگ سے کیا مراد ہے؟ مثال کی مدد سے واضح کریں کہ سنگل اور ڈبل کوٹیشن مارکس کا استعمال کرتے ہوئے سٹرنگز کو کیسے لکھا جاتا ہے۔"
+    },
+    {
+      "id": 310,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do you import a library in Python?",
+      "ur": "آپ پائیتھن میں ایک لائبریری کو کیسے امپورٹ کرتے ہیں؟"
+    },
+    {
+      "id": 311,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define data structure.",
+      "ur": "ڈیٹا سٹرکچر کی تعریف کریں۔"
+    },
+    {
+      "id": 312,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are libraries in Python?",
+      "ur": "پائتھن میں لائبریریز کیا ہے؟"
+    },
+    {
+      "id": 313,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do we use Python libraries? Give one benefit.",
+      "ur": "ہم پائتھن لائبریریز کیوں استعمال کرتے ہیں؟ کوئی ایک فائدہ لکھیں۔"
+    },
+    {
+      "id": 314,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of the statistics and random libraries in Python?",
+      "ur": "پائتھن میں سٹیٹسٹکس اور رینڈم لائبریریز کا مقصد کیا ہے؟"
+    },
+    {
+      "id": 315,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the difference between the append and remove methods in Python lists?",
+      "ur": "پائیتھن لسٹوں میں append اور remove میتھڈز کے درمیان کیا فرق ہے؟"
+    },
+    {
+      "id": 316,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Name three list methods and their purposes.",
+      "ur": "لسٹ کے تین میتھڈز اور ان کے مقاصد کے نام بتائیں۔"
+    },
+    {
+      "id": 317,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do you access the third element in a list?",
+      "ur": "آپ ایک لسٹ میں تیسرے عنصر تک کیسے رسائی حاصل کرتے ہیں؟"
+    },
+    {
+      "id": 318,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How can we access an element from the list?",
+      "ur": "ہم لسٹ میں سے ایک عنصر تک رسائی کیسے حاصل کرسکتے ہیں؟"
+    },
+    {
+      "id": 319,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do you modify an existing item in a list?",
+      "ur": "آپ ایک لسٹ میں موجود موجودہ آئٹم میں کیسے ترمیم کرتے ہیں؟"
+    },
+    {
+      "id": 320,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a list in Python and write its basic syntax.",
+      "ur": "پائتھن میں لسٹ کی تعریف کریں اور اس کا بنیادی سنٹیکس لکھیں۔"
+    },
+    {
+      "id": 321,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Can a Python list contain items of different data types? Give an example.",
+      "ur": "کیا پائتھن لسٹ میں مختلف ڈیٹا ٹائپس کی اشیاء شامل ہو سکتی ہیں؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 322,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are built-in list methods in Python? Write their name.",
+      "ur": "پائتھن میں پہلے سے بنے بنائے لسٹ میتھڈز کیا ہیں؟ ان کے نام لکھیں۔"
+    },
+    {
+      "id": 323,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the difference between sort() and reverse() methods?",
+      "ur": "لسٹ کے sort() اور reverse() میتھڈز میں کیا فرق ہے؟"
+    },
+    {
+      "id": 324,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define debugging.",
+      "ur": "ڈی بگنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 325,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is unit testing and why is it important?",
+      "ur": "یونٹ ٹیسٹنگ کیا ہے اور یہ کیوں اہم ہے؟"
+    },
+    {
+      "id": 326,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define testing in Python programming and named its types.",
+      "ur": "پائتھن پروگرامنگ میں ٹیسٹنگ کی تعریف کریں اور اس کی اقسام کے نام بتائیں۔"
+    },
+    {
+      "id": 327,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between testing and debugging.",
+      "ur": "ٹیسٹنگ اور ڈیبگنگ میں فرق واضح کریں۔"
+    },
+    {
+      "id": 328,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define integration testing.",
+      "ur": "انٹیگریشن ٹیسٹنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 329,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of regression testing?",
+      "ur": "ریگریشن ٹیسٹنگ کا کیا مقصد ہے؟"
+    },
+    {
+      "id": 330,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain functional testing from the user's perspective.",
+      "ur": "صارف کے نقطہ نظر سے فنکشنل ٹیسٹنگ کی وضاحت کریں۔"
+    },
+    {
+      "id": 331,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can Print Statements be used as a debugging technique?",
+      "ur": "پرنٹ سٹیٹمنٹس کو ڈیبگنگ کی تکنیک کے طور پر کیسے استعمال کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 332,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are debugging tools? Name the built-in tool in Python.",
+      "ur": "ڈیبگنگ ٹولز کیا ہیں؟ پائتھون کے اندرونی ٹول کا نام لکھیں۔"
+    },
+    {
+      "id": 333,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do error messages assist in debugging code?",
+      "ur": "ایرر میسجز کوڈ کو ڈیبگ کرنے میں کیسے مددگار ثابت ہوتے ہیں؟"
+    },
+    {
+      "id": 334,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the names of debugging techniques in Python.",
+      "ur": "پائتھن میں ڈیبگنگ تکنیکوں کے نام لکھیں۔"
+    },
+    {
+      "id": 335,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define data science.",
+      "ur": "ڈیٹا سائنس کی تعریف کریں۔"
+    },
+    {
+      "id": 336,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is data science important?",
+      "ur": "ڈیٹا سائنس کیوں اہم ہے؟"
+    },
+    {
+      "id": 337,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How data science techniques used by business organizations?",
+      "ur": "کاروباری تنظیموں کے ذریعے ڈیٹا سائنس کی تکنیک کیسے استعمال ہوتی ہے؟"
+    },
+    {
+      "id": 338,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What key activities are involved in data science?",
+      "ur": "ڈیٹا سائنس میں کون سے اہم کام شامل ہیں؟"
+    },
+    {
+      "id": 339,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is data important in decision making?",
+      "ur": "فیصلہ سازی میں ڈیٹا کیوں اہم ہے؟"
+    },
+    {
+      "id": 340,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does social media use data science?",
+      "ur": "سوشل میڈیا ڈیٹا سائنس کو کیسے استعمال کرتی ہیں؟"
+    },
+    {
+      "id": 341,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the application of data science in online shopping.",
+      "ur": "آن لائن شاپنگ میں ڈیٹا سائنس کے استعمال کی وضاحت کریں۔"
+    },
+    {
+      "id": 342,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is data science useful in healthcare?",
+      "ur": "شعبہ صحت میں ڈیٹا سائنس کیسے مفید ہے؟"
+    },
+    {
+      "id": 343,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of data science in transport?",
+      "ur": "ٹرانسپورٹ کے شعبے میں ڈیٹا سائنس کا کیا کردار ہے؟"
+    },
+    {
+      "id": 344,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does education benefit from data science?",
+      "ur": "شعبہ تعلیم کو ڈیٹا سائنس سے کیا فائدہ ہوتا ہے؟"
+    },
+    {
+      "id": 345,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does data science make our daily lives smarter?",
+      "ur": "ڈیٹا سائنس ہماری روزمرہ کی زندگی کو کیسے زیادہ اسمارٹ اور آسان بناتی ہے؟"
+    },
+    {
+      "id": 346,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the real-life applications of data science?",
+      "ur": "حقیقی زندگی میں ڈیٹا سائنس کے استعمالات کیا ہیں؟"
+    },
+    {
+      "id": 347,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the importance of understanding a problem before collecting data?",
+      "ur": "ڈیٹا اکٹھا کرنے سے پہلے مسئلے کو سمجھنے کی کیا اہمیت ہے؟"
+    },
+    {
+      "id": 348,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Name any two methods of collecting data and give one example of each.",
+      "ur": "ڈیٹا اکٹھا کرنے کے کوئی دو طریقوں کے نام بتائیں اور ہر ایک کی ایک مثال دیں۔"
+    },
+    {
+      "id": 349,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What do we mean by \"cleaning\" data?",
+      "ur": "\"ڈیٹا کلیننگ\" سے ہمارا کیا مطلب ہے؟"
+    },
+    {
+      "id": 350,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is it important to validate data before using it?",
+      "ur": "ڈیٹا استعمال کرنے سے پہلے اسے تصدیق (validate) کرنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 351,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does bias in data affect results?",
+      "ur": "ڈیٹا میں جانبداری نتائج کو کیسے متاثر کرتی ہے؟"
+    },
+    {
+      "id": 352,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write two steps you will follow to clean a messy survey.",
+      "ur": "ایک بے ترتیب سروے کو کلین کرنے کے لیے کوئی سے دو مراحل / اقدامات لکھیں۔"
+    },
+    {
+      "id": 353,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define DSLC and write the name of its steps.",
+      "ur": "DSLC کی تعریف کریں اور اس کے مراحل کے نام لکھیں۔"
+    },
+    {
+      "id": 354,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How many steps are considered to identify the problem?",
+      "ur": "مسئلے کی نشاندہی کرنے کے لیے کتنے مراحل شمار کیے جاتے ہیں؟"
+    },
+    {
+      "id": 355,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the advantages of clear understand a problem?",
+      "ur": "مسئلے کو واضح طور پر سمجھنے کے کیا فوائد ہیں؟"
+    },
+    {
+      "id": 356,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define data collection and name the steps of data collection methods.",
+      "ur": "ڈیٹا اکٹھا کرنے کی تعریف کریں اور ڈیٹا اکٹھا کرنے کے طریقوں کے مراحل کے نام بتائیں۔"
+    },
+    {
+      "id": 357,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define surveys with example.",
+      "ur": "مثال کے ساتھ سروے کی تعریف کریں۔"
+    },
+    {
+      "id": 358,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of APIs and online sources?",
+      "ur": "APIs اور آن لائن ذرائع کا مقصد کیا ہے؟"
+    },
+    {
+      "id": 359,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define IoT and Sensor data.",
+      "ur": "IoT اور سینسر ڈیٹا کی تعریف کریں۔"
+    },
+    {
+      "id": 360,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is bias in data collection?",
+      "ur": "ڈیٹا اکٹھا کرنے میں جانبداری کیا ہے؟"
+    },
+    {
+      "id": 361,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What measures are taken to avoid bias?",
+      "ur": "جانبداری سے بچنے کے لیے کیا اقدامات کیے جاتے ہیں؟"
+    },
+    {
+      "id": 362,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe data cleaning methods.",
+      "ur": "ڈیٹا کلیننگ کرنے کے طریقوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 363,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the simple tools for analyzing data.",
+      "ur": "ڈیٹا کے تجزیہ کے لیے آسان ٹولز کے نام بتائیں۔"
+    },
+    {
+      "id": 364,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the most important step in DSLC and why?",
+      "ur": "ڈی ایس ایل سی کا سب سے اہم مرحلہ کون سا ہے اور کیوں؟"
+    },
+    {
+      "id": 365,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens if we do not understand the problem properly?",
+      "ur": "اگر ہم مسئلے کو ٹھیک طرح سے نہ سمجھیں تو کیا نقصان ہوتا ہے؟"
+    },
+    {
+      "id": 366,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a good problem.",
+      "ur": "اچھے مسئلے کی تعریف کریں۔"
+    },
+    {
+      "id": 367,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which three basic questions should be asked in the initial step?",
+      "ur": "ابتدائی مرحلے میں کون سے تین بنیادی سوالات پوچھے جانے چاہئیں؟"
+    },
+    {
+      "id": 368,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down three rules to consider when defining a problem.",
+      "ur": "کسی مسئلے کی واضح تعریف کرتے وقت کن تین قواعد کا خیال رکھنا ضروری ہے؟"
+    },
+    {
+      "id": 369,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define objectives in the context of data science.",
+      "ur": "ڈیٹا سائنس کے تناظر میں مقاصد کی تعریف کریں۔"
+    },
+    {
+      "id": 370,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What three things do our objectives state?",
+      "ur": "ہمارے مقاصد کن تین چیزوں کو واضح کرتے ہیں؟"
+    },
+    {
+      "id": 371,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why should we write our objectives like a checklist?",
+      "ur": "ہمیں اپنے مقاصد کو ایک چیک لسٹ کی طرح کیوں لکھنا چاہیے؟"
+    },
+    {
+      "id": 372,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down any two objectives for the problem \"Many students arrive late at school\".",
+      "ur": "\"بہت سے طلباء اسکول دیر سے آتے ہیں\" اس مسئلے کے لیے کوئی سے دو مقاصد لکھیں۔"
+    },
+    {
+      "id": 373,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write an objectives for a school canteen that wants to know about students' favorite snacks.",
+      "ur": "ایک اسکول کینٹین جو طلباء کے پسندیدہ سنیکس کے بارے میں جاننا چاہتی ہے، اس کے مقاصد لکھیں۔"
+    },
+    {
+      "id": 374,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the objectives if the problem is that \"Many students are not drinking enough water during school hours\"?",
+      "ur": "اگر مسئلہ یہ ہو کہ \"بہت سے طلباء اسکول کے اوقات میں کافی پانی نہیں پی رہے ہیں\" تو مقاصد کیا ہوں گے؟"
+    },
+    {
+      "id": 375,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the benefit of setting clear objectives in a data science project?",
+      "ur": "ڈیٹا سائنس پروجیکٹ میں واضح مقاصد طے کرنے کا کیا فائدہ ہے؟"
+    },
+    {
+      "id": 376,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is data compared to raw material in data science?",
+      "ur": "ڈیٹا سائنس میں ڈیٹا کو خام مال سے کیوں تشبیہ دی جاتی ہے؟"
+    },
+    {
+      "id": 377,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the names of four common methods used to collect data.",
+      "ur": "ڈیٹا اکٹھا کرنے کے لیے استعمال ہونے والے چار عام طریقوں کے نام لکھیں۔"
+    },
+    {
+      "id": 378,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define surveys and name two ways they can be conducted.",
+      "ur": "سروے کی تعریف کریں اور ان دو طریقوں کے نام بتائیں جن کے ذریعے یہ کیے جا سکتے ہیں۔"
+    },
+    {
+      "id": 379,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the acronym API stand for and what is its function?",
+      "ur": "لفظ API کس کا مخفف ہے اور اس کا کیا کام ہے؟"
+    },
+    {
+      "id": 380,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define IoT and name devices that automatically collect data.",
+      "ur": "آئی او ٹی کی تعریف کریں اور ایسی ڈیوائسز کے نام لکھیں جو خودکار طریقے سے ڈیٹا اکٹھا کرتی ہیں۔"
+    },
+    {
+      "id": 381,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by web scraping?",
+      "ur": "ویب سکریپنگ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 382,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which three qualities must we consider when choosing the right data source?",
+      "ur": "صحیح ڈیٹا کا ذریعہ منتخب کرتے وقت ہمیں کن تین خصوصیات کو مدنظر رکھنا چاہیے؟"
+    },
+    {
+      "id": 383,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by data quality?",
+      "ur": "ڈیٹا کے معیار سے کیا مراد ہے؟"
+    },
+    {
+      "id": 384,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define bias in data science with an example.",
+      "ur": "ڈیٹا سائنس میں تعصب کی مثال کے ساتھ تعریف کریں۔"
+    },
+    {
+      "id": 385,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State rules to avoid bias during data collection.",
+      "ur": "ڈیٹا اکٹھا کرنے کے دوران تعصب سے بچنے کے اصول بیان کریں۔"
+    },
+    {
+      "id": 386,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the names of common data errors found in raw data with examples.",
+      "ur": "مثالوں کے ساتھ خام ڈیٹا میں پائی جانے والی عام غلطیوں کے نام لکھیں۔"
+    },
+    {
+      "id": 387,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by mixed capitalization in data collection? Give an example.",
+      "ur": "ڈیٹا اکٹھا کرنے میں مکسڈ کیپیٹلائزیشن سے کیا مراد ہے؟ مثال دیں۔"
+    },
+    {
+      "id": 388,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define duplicate entries with an example.",
+      "ur": "مثال کے ساتھ ڈپلیکیٹ اینٹریز کی تعریف کریں۔"
+    },
+    {
+      "id": 389,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are outliers in raw data? Give an example.",
+      "ur": "خام ڈیٹا میں آؤٹ لائرز سے کیا مراد ہے؟ مثال دیں۔"
+    },
+    {
+      "id": 390,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define data validation in data science.",
+      "ur": "ڈیٹا سائنس میں ڈیٹا ویلیڈیشن کی تعریف کریں۔"
+    },
+    {
+      "id": 391,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can we apply validation in surveys to avoid text errors?",
+      "ur": "ٹیکسٹ کی غلطیوں سے بچنے کے لیے ہم سروے میں ویلیڈیشن کا اطلاق کیسے کر سکتے ہیں؟"
+    },
+    {
+      "id": 392,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by missing data? Give an example.",
+      "ur": "ڈیٹا کا غائب ہونا سے کیا مراد ہے؟ مثال دیں۔"
+    },
+    {
+      "id": 393,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define inconsistent formats in raw data with an example.",
+      "ur": "خام ڈیٹا میں غیر مستقل فارمیٹس کی مثال کے ساتھ تعریف کریں۔"
+    },
+    {
+      "id": 394,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are spelling mistakes in data collection? Give examples.",
+      "ur": "ڈیٹا اکٹھا کرنے میں املاء کی غلطیوں سے کیا مراد ہے؟ مثالیں دیں۔"
+    },
+    {
+      "id": 395,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by analyzing data?",
+      "ur": "ڈیٹا کا تجزیہ کرنے سے کیا مراد ہے؟"
+    },
+    {
+      "id": 396,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which measures can be used to analyze data?",
+      "ur": "ڈیٹا کا تجزیہ کرنے کے لیے کون سے پیمانے استعمال کیے جا سکتے ہیں؟"
+    },
+    {
+      "id": 397,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State three reasons why data visualization is important.",
+      "ur": "ڈیٹا ویژولائزیشن اہم ہونے کے تین وجوہات لکھیں۔"
+    },
+    {
+      "id": 398,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between a Bar Chart and a Pie Chart.",
+      "ur": "بار چارٹ اور پائی چارٹ میں فرق بیان کریں۔"
+    },
+    {
+      "id": 399,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "When do we use a line chart? Give an example.",
+      "ur": "لائن چارٹ کب استعمال کیا جاتا ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 400,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the rules for making a chart.",
+      "ur": "چارٹ بنانے کے اصول بیان کریں۔"
+    },
+    {
+      "id": 401,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the final step in the Data Science Life Cycle?",
+      "ur": "ڈیٹا سائنس لائف سائیکل کا آخری مرحلہ کون سا ہے؟"
+    },
+    {
+      "id": 402,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do we need to clean and validate data after collecting it?",
+      "ur": "ڈیٹا اکٹھا کرنے کے بعد ہمیں اسے صاف اور درست کرنے کی ضرورت کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 403,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define raw data with a brief example.",
+      "ur": "مختصر مثال کے ساتھ خام ڈیٹا کی تعریف کریں۔"
+    },
+    {
+      "id": 404,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens if we perform data analysis on unchecked data?",
+      "ur": "اگر ہم غیر تصدیق شدہ ڈیٹا پر ڈیٹا کا تجزیہ کریں تو کیا ہوگا؟"
+    },
+    {
+      "id": 405,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which three attributes of data are verified during the cleaning process?",
+      "ur": "ڈیٹا کی صفائی کے عمل کے دوران ڈیٹا کی کن تین خصوصیات کی تصدیق کی جاتی ہے؟"
+    },
+    {
+      "id": 406,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main benefit of the data validation step in DSLC?",
+      "ur": "DSLC میں ڈیٹا ویلیڈیشن کے مرحلے کا بنیادی فائدہ کیا ہے؟"
+    },
+    {
+      "id": 407,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the basic steps to clean data.",
+      "ur": "ڈیٹا صاف کرنے کے بنیادی طریقے لکھیں۔"
+    },
+    {
+      "id": 408,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does cleaning data matter?",
+      "ur": "ڈیٹا صاف کرنا کیوں اہم ہے؟"
+    },
+    {
+      "id": 409,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Summarize why clean data is important for decision-making.",
+      "ur": "وضاحت کریں کہ فیصلے کرنے کے لیے صاف ڈیٹا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 410,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name two tools that provide rules to validate data.",
+      "ur": "دو ٹولز کے نام لکھیں جو ڈیٹا کی توثیق کے لیے قواعد فراہم کرتے ہیں۔"
+    },
+    {
+      "id": 411,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main goal of the interpreting data step?",
+      "ur": "ڈیٹا کی تشریح کرنے کے مرحلے کا بنیادی مقصد کیا ہے؟"
+    },
+    {
+      "id": 412,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which three questions do we ask ourselves after summarizing the data?",
+      "ur": "ڈیٹا کا خلاصہ پیش کرنے کے بعد ہم خود سے کون سے تین سوالات پوچھ سکتے ہیں؟"
+    },
+    {
+      "id": 413,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the benefit of creating a chart in the final step of DSLC?",
+      "ur": "DSLC کے آخری مرحلے میں چارٹ بنانے کا کیا فائدہ ہے؟"
+    },
+    {
+      "id": 414,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do we use data visualizations instead of showing numbers?",
+      "ur": "ہم نمبر دکھانے کے بجائے ڈیٹا ویژولائزیشن کیوں استعمال کرتے ہیں؟"
+    },
+    {
+      "id": 415,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How should we explain our findings once a chart is ready?",
+      "ur": "چارٹ تیار ہونے کے بعد ہمیں اپنے نتائج کی وضاحت کیسے کرنی چاہیے؟"
+    },
+    {
+      "id": 416,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by visualizing data?",
+      "ur": "ویزولائزنگ ڈیٹا سے کیا مراد ہے؟"
+    },
+    {
+      "id": 417,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the primary benefit of data visualization.",
+      "ur": "ڈیٹا ویژولائزیشن کا بنیادی فائدہ بیان کریں۔"
+    },
+    {
+      "id": 418,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the two essential principles to follow when working on visual forms?",
+      "ur": "بصری اشکال پر کام کرتے وقت کن دو لازمی اصولوں پر عمل کرنا چاہیے؟"
+    },
+    {
+      "id": 419,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the purpose of visualizing data using charts?",
+      "ur": "چارٹس کا استعمال کرتے ہوئے ڈیٹا کو بصری شکل دینے کا کیا مقصد ہے؟"
+    },
+    {
+      "id": 420,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Name any two tools used for creating charts.",
+      "ur": "چارٹ بنانے کے لیے استعمال ہونے والے کوئی سے دو ٹولز کے نام بتائیں۔"
+    },
+    {
+      "id": 421,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name an additional step that can be added to the standard DSLC.",
+      "ur": "ایک اضافی مرحلے کا نام بتائیں جسے معیاری ڈی ایس ایل سی میں شامل کیا جا سکتا ہے۔"
+    },
+    {
+      "id": 422,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is storing and organizing data important in team settings?",
+      "ur": "ٹیم سیٹنگز یا بڑے پروجیکٹس میں ڈیٹا کو اسٹور اور آرگنائز کرنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 423,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "List any three reasons why we make use of spreadsheets for creating charts.",
+      "ur": "چارٹس بنانے کے لیے ہم اسپریڈ شیٹس کا استعمال کیوں کرتے ہیں؟ کوئی سی تین وجوہات لکھیں۔"
+    },
+    {
+      "id": 424,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the steps to create a chart in Google Sheets.",
+      "ur": "گوگل شیٹس میں چارٹ بنانے کے مراحل لکھیں۔"
+    },
+    {
+      "id": 425,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a dashboard and state its main function.",
+      "ur": "ڈیش بورڈ کی تعریف کریں اور اس کا بنیادی کام بیان کریں۔"
+    },
+    {
+      "id": 426,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is the storage and organization of data managed in large-scale projects?",
+      "ur": "بڑے پیمانے کے پروجیکٹس میں ڈیٹا کی اسٹوریج اور آرگنائزیشن کو کس طرح مینیج کیا جاتا ہے؟"
+    },
+    {
+      "id": 427,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the advantages of spreadsheet software?",
+      "ur": "اسپریڈ شیٹ سافٹ ویئر کے کیا فوائد ہیں؟"
+    },
+    {
+      "id": 428,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the uses of DSLC in real life.",
+      "ur": "حقیقی زندگی میں DSLC کے استعمال کی وضاحت کریں۔"
+    },
+    {
+      "id": 429,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of Database?",
+      "ur": "ڈیٹا بیس کا مقصد کیا ہے؟"
+    },
+    {
+      "id": 430,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define DBMS with examples.",
+      "ur": "مثالوں کے ساتھ DBMS کی تعریف کریں۔"
+    },
+    {
+      "id": 431,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain some queries used in SQL.",
+      "ur": "SQL میں استعمال ہونے والے کچھ استفسارات کی وضاحت کریں۔"
+    },
+    {
+      "id": 432,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between spreadsheets and databases.",
+      "ur": "اسپریڈ شیٹس اور ڈیٹا بیس میں فرق بیان کریں۔"
+    },
+    {
+      "id": 433,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why should data be stored in a structured way?",
+      "ur": "ڈیٹا کو منظم طریقے سے کیوں محفوظ کیا جانا چاہیے؟"
+    },
+    {
+      "id": 434,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the two main ways to store structured data?",
+      "ur": "سٹرکچرڈ ڈیٹا کو اسٹور کرنے کے دو اہم طریقے کون سے ہیں؟"
+    },
+    {
+      "id": 435,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a database and state how it stores data.",
+      "ur": "ڈیٹا بیس کی تعریف کریں اور بتائیں کہ یہ ڈیٹا کو کس طرح اسٹور کرتا ہے۔"
+    },
+    {
+      "id": 436,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between a record and a field in a database table.",
+      "ur": "ڈیٹا بیس ٹیبل میں ریکارڈ اور فیلڈ کے درمیان فرق واضح کریں۔"
+    },
+    {
+      "id": 437,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by a table in a database? Give an example.",
+      "ur": "ڈیٹا بیس میں ٹیبل سے کیا مراد ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 438,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is SQL?",
+      "ur": "SQL کیا ہے؟"
+    },
+    {
+      "id": 439,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the difference between AI and ML?",
+      "ur": "AI اور ML کے درمیان کیا فرق ہے؟"
+    },
+    {
+      "id": 440,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give one real-life example of AI used in Pakistan.",
+      "ur": "پاکستان میں استعمال ہونے والی AI کی ایک حقیقی زندگی کی مثال دیں۔"
+    },
+    {
+      "id": 441,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name two fields of the modern era used in every technology.",
+      "ur": "جدید دور کے کسی بھی دو شعبوں کے نام بتائیں جو ہر ٹیکنالوجی میں استعمال ہوتے ہیں۔"
+    },
+    {
+      "id": 442,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the fields in which AI and ML are used now a days.",
+      "ur": "ان شعبوں کے نام بتائیں جن میں آج کل AI اور ML استعمال ہوتے ہیں۔"
+    },
+    {
+      "id": 443,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are AI and ML important for us?",
+      "ur": "AI اور ML ہمارے لیے کیوں اہم ہیں؟"
+    },
+    {
+      "id": 444,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How could you define ML? Give one example.",
+      "ur": "آپ ML کی تعریف کیسے کریں گے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 445,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define an AI.",
+      "ur": "AI کی تعریف کریں۔"
+    },
+    {
+      "id": 446,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Compare the data requirements for AI and ML systems.",
+      "ur": "ڈیٹا کی ضرورت کے لحاظ سے AI اور ML سسٹمز کا موازنہ کریں۔"
+    },
+    {
+      "id": 447,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between AI and ML as broader and narrower concepts.",
+      "ur": "وسیع اور محدود تصورات کے لحاظ سے AI اور ML کے درمیان فرق بیان کریں۔"
+    },
+    {
+      "id": 448,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does AI and ML compare to the human brain and experience?",
+      "ur": "AI اور ML کا انسانی دماغ اور تجربے سے کیا موازنہ ہے؟"
+    },
+    {
+      "id": 449,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does supervised learning work?",
+      "ur": "سپروائزڈ لرننگ کیسے کام کرتی ہے؟"
+    },
+    {
+      "id": 450,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What kind of data is used in unsupervised learning?",
+      "ur": "ان سپروائزڈ لرننگ میں کس قسم کا ڈیٹا استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 451,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is machine learning important? Give an example.",
+      "ur": "مشین لرننگ کیوں اہم ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 452,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is supervised learning? Give an example.",
+      "ur": "سپروائزڈ لرننگ کیا ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 453,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is unsupervised learning? Give an example.",
+      "ur": "ان سپروائزڈ لرننگ کیا ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 454,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the two main types of machine learning?",
+      "ur": "مشین لرننگ کی دو بڑی اقسام کون سی ہیں؟"
+    },
+    {
+      "id": 455,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Do unsupervised and supervised learning use labeled data?",
+      "ur": "کیا ان سپر وائزڈ اور سپر وائزڈ لرننگ میں لیبل شدہ ڈیٹا استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 456,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main task of supervised and unsupervised learning?",
+      "ur": "سپر وائزڈ اور ان سپر وائزڈ لرننگ کا بنیادی کام کیا ہے؟"
+    },
+    {
+      "id": 457,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Where are both types of machine learning applied in Pakistan?",
+      "ur": "پاکستان میں مشین لرننگ کی دونوں اقسام کا استعمال کہاں ہو رہا ہے؟"
+    },
+    {
+      "id": 458,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the comparison between supervised and unsupervised learning.",
+      "ur": "سپروائزڈ اور ان سپروائزڈ لرننگ کے درمیان موازنہ بیان کریں۔"
+    },
+    {
+      "id": 459,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How can businesses use AI?",
+      "ur": "کاروبار مصنوی ذہانت کا استعمال کیسے کر سکتے ہیں؟"
+    },
+    {
+      "id": 460,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give one example each of a smart assistant and a recommendation system.",
+      "ur": "ایک سمارٹ معاون اور ایک تجویز کے نظام کی ایک ایک مثال دیں۔"
+    },
+    {
+      "id": 461,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How can businesses use machine learning?",
+      "ur": "کاروبار مشین لرننگ کا استعمال کیسے کر سکتے ہیں؟"
+    },
+    {
+      "id": 462,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define smart assistants. Give an example.",
+      "ur": "سمارٹ اسسٹنٹس کی تعریف کریں۔ ایک مثال دیں۔"
+    },
+    {
+      "id": 463,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are recommendation systems? Give an example.",
+      "ur": "ریکومینڈیشن سسٹمز کیا ہیں؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 464,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is customer analysis?",
+      "ur": "کسٹمر تجزیہ کیا ہے؟"
+    },
+    {
+      "id": 465,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How many fields in real life use chatbots and why?",
+      "ur": "حقیقی زندگی میں کتنے شعبے چیٹ بوٹس استعمال کرتے ہیں اور کیوں؟"
+    },
+    {
+      "id": 466,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is bias in AI?",
+      "ur": "AI میں تعصب کیا ہے؟"
+    },
+    {
+      "id": 467,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the best practices to protect data?",
+      "ur": "ڈیٹا کی حفاظت کے بہترین طریقے کیا ہیں؟"
+    },
+    {
+      "id": 468,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the responsibility of human when AI is used?",
+      "ur": "AI استعمال کرتے وقت انسان کی کیا ذمہ داریاں ہیں؟"
+    },
+    {
+      "id": 469,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can we reduce bias in AI systems?",
+      "ur": "ہم AI سسٹمز میں تعصب کو کیسے کم کر سکتے ہیں؟"
+    },
+    {
+      "id": 470,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain with an example which personal data AI systems often use.",
+      "ur": "مثال کے ساتھ بیان کریں کہ AI سسٹمز اکثر کون سا ذاتی ڈیٹا استعمال کرتے ہیں۔"
+    },
+    {
+      "id": 471,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define supervised learning and unsupervised learning algorithms.",
+      "ur": "سپروائزڈ لرننگ اور ان سپروائزڈ لرننگ الگورتھم کی تعریف کریں۔"
+    },
+    {
+      "id": 472,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why to choose right algorithm is important?",
+      "ur": "صحیح الگورتھم کا انتخاب کیوں اہم ہے؟"
+    },
+    {
+      "id": 473,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name some common data science algorithms. Also, define them.",
+      "ur": "ڈیٹا سائنس کے کچھ عام الگورتھم کے نام بتائیں۔ ان کی تعریف بھی کریں۔"
+    },
+    {
+      "id": 474,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the uses of linear regression?",
+      "ur": "لینیئر ریگریشن کے استعمالات کیا ہیں؟"
+    },
+    {
+      "id": 475,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "On what factors does the choice of a data science algorithm depend?",
+      "ur": "ڈیٹا سائنس الگورتھم کے انتخاب کا انحصار کن عوامل پر ہوتا ہے؟"
+    },
+    {
+      "id": 476,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define linear regression with a real-world example.",
+      "ur": "لینیئر ریگریشن کی تعریف کریں اور ایک حقیقی مثال دیں۔"
+    },
+    {
+      "id": 477,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main purpose of using decision trees algorithm?",
+      "ur": "ڈیسیژن ٹریز الگورتھم استعمال کرنے کا بنیادی مقصد کیا ہے؟"
+    },
+    {
+      "id": 478,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does K-Means (Clustering) algorithm group different items?",
+      "ur": "کے-مینز کلسٹرنگ الگورتھم مختلف اشیاء کا گروپ کیسے بناتا ہے؟"
+    },
+    {
+      "id": 479,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can algorithms help organizations in solving real-world problems? Give two examples.",
+      "ur": "الگورتھم حقیقی دنیا کے مسائل حل کرنے میں تنظیموں کی کیسے مدد کر سکتے ہیں؟ دو مثالیں دیں۔"
+    },
+    {
+      "id": 480,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is an algorithm compared to a kitchen recipe?",
+      "ur": "ایک الگورتھم کا موازنہ کچن کی ریسپی سے کیوں کیا گیا ہے؟"
+    },
+    {
+      "id": 481,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between simple linear regression and multiple linear regression.",
+      "ur": "سمپل لینیئر ریگریشن اور ملٹی پل لینیئر ریگریشن میں فرق واضح کریں۔"
+    },
+    {
+      "id": 482,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define confusion matrix.",
+      "ur": "کنفیوژن میٹرکس کی تعریف کریں۔"
+    },
+    {
+      "id": 483,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the parameters of the confusion matrix.",
+      "ur": "کنفیوژن میٹرکس کے پیرامیٹرز بیان کریں۔"
+    },
+    {
+      "id": 484,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is it necessary to evaluate the performance of a machine learning model?",
+      "ur": "مشین لرننگ ماڈل کی کارکردگی کو جانچنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 485,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between True Positive (TP) and True Negative (TN).",
+      "ur": "ٹرو پوزیٹو (TP) اور ٹرو نیگیٹو (TN) میں فرق واضح کریں۔"
+    },
+    {
+      "id": 486,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between False Positive (FP) and False Negative (FN).",
+      "ur": "فالس پوزیٹو (FP) اور فالس نیگیٹو (FN) میں فرق واضح کریں۔"
+    },
+    {
+      "id": 487,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Accuracy. Write down the mathematical formula to calculate model accuracy.",
+      "ur": "درستگی کی تعریف کریں۔ ماڈل کی ایکوریسی معلوم کرنے کا ریاضیاتی فارمولا لکھیں۔"
+    },
+    {
+      "id": 488,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "If a model's total predictions are 15, and the sum of TP and TN is 12, what will be its accuracy percentage?",
+      "ur": "اگر ایک ماڈل کی کل پیشگوئیاں 15 ہوں، اور TP اور TN کا مجموعہ 12 ہو، تو اس کی ایکوریسی کا فیصد کیا ہوگا؟"
+    },
+    {
+      "id": 489,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "If you have data of 15 students, out of which 8 passed and 7 failed, what would the accuracy percentage be?",
+      "ur": "اگر آپ کے پاس 15 طلباء کا ڈیٹا ہے، جن میں سے 8 پاس ہوئے اور 7 فیل ہوئے تو درستگی کا فیصد کیا ہوگا؟"
+    },
+    {
+      "id": 490,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a confusion matrix help us understand a model's mistakes?",
+      "ur": "ایک کنفیوژن میٹرکس ماڈل کی غلطیوں کو سمجھنے میں ہماری کیسے مدد کرتا ہے؟"
+    },
+    {
+      "id": 491,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is Artificial Intelligence (AI)?",
+      "ur": "مصنوعی ذہانت (AI) کیا ہے؟"
+    },
+    {
+      "id": 492,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How is AI used in daily life?",
+      "ur": "AI روزمرہ زندگی میں کیسے استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 493,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give two real-world examples of AI voice assistants or tools.",
+      "ur": "اے آئی وائس اسسٹنٹس یا ٹولز کی دو حقیقی مثالیں دیں۔"
+    },
+    {
+      "id": 494,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Briefly explain how AI helps doctors and students.",
+      "ur": "مختصراً وضاحت کریں کہ اے آئی (AI) ڈاکٹروں اور طلباء کی کس طرح مدد کرتی ہے۔"
+    },
+    {
+      "id": 495,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What creative tasks can AI perform like a human?",
+      "ur": "اے آئی انسان کی طرح کون سے تخلیقی کام کر سکتی ہے؟"
+    },
+    {
+      "id": 496,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is AI transforming traditional work in factories?",
+      "ur": "فیکٹریوں میں روایتی کام کو اے آئی (AI) کس طرح تبدیل کر رہی ہے؟"
+    },
+    {
+      "id": 497,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the advantages of using machines over human experts in factories.",
+      "ur": "فیکٹریوں میں انسانی ماہرین کے مقابلے میں مشینوں کے استعمال کے فوائد بتائیں۔"
+    },
+    {
+      "id": 498,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three fast-growing career roles created by AI.",
+      "ur": "اے آئی کی وجہ سے تیزی سے ابھرنے والے تین کیریئر یا ملازمت کے شعبوں کے نام لکھیں۔"
+    },
+    {
+      "id": 499,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Does AI only eliminate jobs, or does it also create new ones? Explain briefly.",
+      "ur": "کیا اے آئی (AI) صرف ملازمتیں ختم کرتی ہے، یا یہ نئی ملازمتیں بھی پیدا کرتی ہے؟ مختصراً وضاحت کریں۔"
+    },
+    {
+      "id": 500,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why does AI need large and good-quality data?",
+      "ur": "AI کو بڑے اور اچھی کوالٹی کے ڈیٹا کی ضرورت کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 501,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the term automatic data collection with an example.",
+      "ur": "آٹومیٹک ڈیٹا کلیکشن کی تعریف کریں اور ایک مثال دیں۔"
+    },
+    {
+      "id": 502,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between data quantity and data quality in AI context.",
+      "ur": "اے آئی کے تناظر میں ڈیٹا کی مقدار اور ڈیٹا کی کوالٹی میں فرق واضح کریں۔"
+    },
+    {
+      "id": 503,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens if an AI system is trained with poor-quality data?",
+      "ur": "اگر کسی اے آئی سسٹم کو ناقص کوالٹی کے ڈیٹا پر ٹرین کیا جائے تو کیا ہوگا؟"
+    },
+    {
+      "id": 504,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three types of data that mobile phones automatically collect about users.",
+      "ur": "ڈیٹا کی ان تین اقسام کے نام بتائیں جو موبائل فون صارفین کے بارے میں خودکار طور پر جمع کرتے ہیں۔"
+    },
+    {
+      "id": 505,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State two benefits of automatic data collection for AI systems.",
+      "ur": "اے آئی سسٹمز کے لیے آٹومیٹک ڈیٹا کلیکشن کے دو فوائد بیان کریں۔"
+    },
+    {
+      "id": 506,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write two flaws in data that can cause an AI to learn the wrong things.",
+      "ur": "ڈیٹا میں موجود ایسی دو خامیاں لکھیں جن کی وجہ سے اے آئی غلط چیزیں سیکھ سکتی ہے۔"
+    },
+    {
+      "id": 507,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What analogy is used to explain how AI learns from data?",
+      "ur": "اے آئی ڈیٹا سے کیسے سیکھتی ہے اس کی وضاحت کے لیے کون سی تشبیہ استعمال کی گئی ہے؟"
+    },
+    {
+      "id": 508,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the role of Natural Language Processing (NLP)?",
+      "ur": "نیچرل لینگویج پروسیسنگ (NLP) کا کیا کردار ہے؟"
+    },
+    {
+      "id": 509,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give one example of robotics in everyday life.",
+      "ur": "روزمرہ زندگی میں روبوٹکس کی ایک مثال دیں۔"
+    },
+    {
+      "id": 510,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the purpose of speech recognition technology?",
+      "ur": "آواز کی پہچان ٹیکنالوجی کا مقصد کیا ہے؟"
+    },
+    {
+      "id": 511,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do recommendation systems work?",
+      "ur": "سفارشی نظام کیسے کام کرتے ہیں؟"
+    },
+    {
+      "id": 512,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain shortly the uses of AI.",
+      "ur": "AI کے استعمالات کی مختصر وضاحت کریں۔"
+    },
+    {
+      "id": 513,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the real-world application of NLP.",
+      "ur": "این ایل پی کی حقیقی دنیا میں ایپلی کیشن کے نام بتائیں۔"
+    },
+    {
+      "id": 514,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write two applications of speech technology in real life.",
+      "ur": "حقیقی زندگی میں آواز کی ٹیکنالوجی کی دو ایپلی کیشنز لکھیں۔"
+    },
+    {
+      "id": 515,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write any one example of recommendation system.",
+      "ur": "تجاویز کے نظام کی کوئی ایک مثال لکھیں۔"
+    },
+    {
+      "id": 516,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe any two advantages of self-driving cars.",
+      "ur": "خود چلنے والی کاروں کے کوئی دو فوائد بتائیں۔"
+    },
+    {
+      "id": 517,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the challenges faced by self-driving cars?",
+      "ur": "خود چلنے والی کاروں کو کس چیلنج کا سامنا ہے؟"
+    },
+    {
+      "id": 518,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the advantage of using chatbots on websites?",
+      "ur": "ویب سائٹس پر چیٹ باٹس کے استعمال کا کیا فائدہ ہے؟"
+    },
+    {
+      "id": 519,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the name of tasks that robots can perform intelligently in everyday life.",
+      "ur": "روزمرہ کی زندگی میں روبوٹس ذہانت سے کون سے کام انجام دے سکتے ہیں؟ ان کے نام لکھیں۔"
+    },
+    {
+      "id": 520,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are robots considered more efficient than humans for certain daily tasks?",
+      "ur": "بعض روزمرہ کے کاموں کے لیے روبوٹس کو انسانوں سے زیادہ کارآمد کیوں سمجھا جاتا ہے؟"
+    },
+    {
+      "id": 521,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does voice control assist people in smart homes?",
+      "ur": "سمارٹ ہومز میں وائس کنٹرول لوگوں کی کس طرح مدد کرتا ہے؟"
+    },
+    {
+      "id": 522,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give any two applications of speech technology in the healthcare or customer service sector.",
+      "ur": "ہیلتھ کیئر یا کسٹمر سروس کے شعبے میں سپیچ ٹیکنالوجی کی کوئی سی دو ایپلی کیشنز بتائیں۔"
+    },
+    {
+      "id": 523,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How has voice recognition improved smartphone security?",
+      "ur": "وائس ریکگنیشن نے سمارٹ فون کی سیکیورٹی کو کیسے بہتر بنایا ہے؟"
+    },
+    {
+      "id": 524,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "State two functions that voice-controlled cars can perform today.",
+      "ur": "وائس کنٹرولڈ کاریں آج کون سے دو کام سرانجام دے سکتی ہیں؟"
+    },
+    {
+      "id": 525,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain how an online shopping website uses recommendation systems.",
+      "ur": "وضاحت کریں کہ ایک آن لائن شاپنگ ویب سائٹ ریکمنڈیشن سسٹمز کا استعمال کیسے کرتی ہے۔"
+    },
+    {
+      "id": 526,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do educational websites benefit from recommendation systems?",
+      "ur": "تعلیمی ویب سائٹس ریکمنڈیشن سسٹمز سے کس طرح فائدہ اٹھاتی ہیں؟"
+    },
+    {
+      "id": 527,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why should recommendation systems be used carefully? Mention one risk.",
+      "ur": "ریکمنڈیشن سسٹمز کو احتیاط سے کیوں استعمال کیا جانا چاہیے؟ کوئی ایک خطرہ بتائیں۔"
+    },
+    {
+      "id": 528,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Identify the underlying AI technology when YouTube displays a \"videos you may like\" section.",
+      "ur": "جب یوٹیوب آپ کو \"videos you may like\" کا سیکشن دکھاتا ہے تو اس کے پیچھے کارفرما اے آئی ٹیکنالوجی کی نشاندہی کریں۔"
+    },
+    {
+      "id": 529,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "State two tasks that robots can perform in modern restaurants.",
+      "ur": "جدید ریسٹورنٹس میں روبوٹس کون سے دو کام سرانجام دے سکتے ہیں؟ بیان کریں۔"
+    },
+    {
+      "id": 530,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define autonomous vehicles.",
+      "ur": "آٹونومس وہیکلز کی تعریف کریں۔"
+    },
+    {
+      "id": 531,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three tools used by self-driving cars to detect their surroundings.",
+      "ur": "سیلف ڈرائیونگ کاریں اپنے ارد گرد کے ماحول کا پتہ لگانے کے لیے کن تین ٹولز کا استعمال کرتی ہیں؟ ان کے نام لکھیں۔"
+    },
+    {
+      "id": 532,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "State two social challenges or concerns associated with self-driving cars.",
+      "ur": "سیلف ڈرائیونگ کاروں سے وابستہ دو سماجی چیلنجز یا خدشات بیان کریں۔"
+    },
+    {
+      "id": 533,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down any two benefits of AI.",
+      "ur": "AI کے کوئی سے دو فوائد لکھیں۔"
+    },
+    {
+      "id": 534,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down any two limitations of AI.",
+      "ur": "AI کی کوئی سی دو حدود لکھیں۔"
+    },
+    {
+      "id": 535,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do AI systems assist students in the field of education?",
+      "ur": "اے آئی (AI) سسٹمز شعبہ تعلیم میں طلباء کی کس طرح مدد کرتے ہیں؟"
+    },
+    {
+      "id": 536,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three professional fields whose efficiency is increased by AI tools.",
+      "ur": "ایسے تین پیشہ ورانہ شعبوں کے نام بتائیں جن کی کارکردگی میں اے آئی ٹولز کی وجہ سے اضافہ ہو رہا ہے۔"
+    },
+    {
+      "id": 537,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why can small AI mistakes lead to major problems in fields like law and health?",
+      "ur": "قانون اور صحت جیسے شعبوں میں اے آئی (AI) کی چھوٹی غلطیاں بڑے مسائل کا سبب کیوں بن سکتی ہیں؟"
+    },
+    {
+      "id": 538,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which three human job roles are most likely to be replaced by AI systems?",
+      "ur": "انسانوں کے ایسے کون سے تین ملازمت کے شعبے ہیں جن کی جگہ اے آئی سسٹمز لے سکتے ہیں؟"
+    },
+    {
+      "id": 539,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Under what conditions can an AI system give wrong or unfair results?",
+      "ur": "کن شرائط یا حالات میں ایک اے آئی سسٹم غلط یا غیر منصفانہ نتائج دے سکتا ہے؟"
+    },
+    {
+      "id": 540,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is meant by bias in AI systems?",
+      "ur": "AI سسٹم میں جانبداری سے کیا مراد ہے؟"
+    },
+    {
+      "id": 541,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why should AI systems be transparent and fair?",
+      "ur": "AI سسٹم کو شفاف اور منصفانہ کیوں ہونا چاہیے؟"
+    },
+    {
+      "id": 542,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by ethics in artificial intelligence?",
+      "ur": "آرٹیفیشل انٹیلیجنس میں اخلاقیات سے کیا مراد ہے؟"
+    },
+    {
+      "id": 543,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is justice important in today's world?",
+      "ur": "آج کی دنیا میں انصاف کیوں اہم ہے؟"
+    },
+    {
+      "id": 544,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give an example of an unfair decision made by an AI system.",
+      "ur": "ایک اے آئی سسٹم کے غیر منصفانہ فیصلے کی ایک مثال دیں۔"
+    },
+    {
+      "id": 545,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why might a face recognition tool fail to work well for all skin colors?",
+      "ur": "فیس ریکگنیشن ٹول تمام رنگت کے لوگوں کے لیے بہتر کام کرنے میں کیوں ناکام ہو سکتا ہے؟"
+    },
+    {
+      "id": 546,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can developers remove bias from AI systems?",
+      "ur": "ڈویلپرز اے آئی سسٹمز سے تعصب کو کیسے ختم کر سکتے ہیں؟"
+    },
+    {
+      "id": 547,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does fairness mean in the context of artificial intelligence?",
+      "ur": "آرٹیفیشل انٹیلیجنس کے تناظر میں مروّت یا انصاف سے کیا مراد ہے؟"
+    },
+    {
+      "id": 548,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is fairness critical in systems that handle university admissions or job interviews?",
+      "ur": "یونیورسٹی داخلوں یا ملازمت کے انٹرویوز کو سنبھالنے والے سسٹمز میں انصاف کیوں ضروری ہے؟"
+    },
+    {
+      "id": 549,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define transparency in AI.",
+      "ur": "AI میں شفافیت کی تعریف کریں۔"
+    },
+    {
+      "id": 550,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What right does a user have if an AI rejects their loan application?",
+      "ur": "اگر کوئی اے آئی سسٹم کسی صارف کی لون کی درخواست مسترد کر دے تو صارف کا کیا حق ہے؟"
+    },
+    {
+      "id": 551,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between privacy and data security.",
+      "ur": "رازداری اور ڈیٹا سیکیورٹی میں فرق واضح کریں۔"
+    },
+    {
+      "id": 552,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three types of personal information that AI systems commonly collect from users.",
+      "ur": "ذاتی معلومات کی ایسی تین اقسام کے نام بتائیں جو اے آئی سسٹمز عام طور پر صارفین سے جمع کرتے ہیں۔"
+    },
+    {
+      "id": 553,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is surveillance, and when can it become harmful?",
+      "ur": "نگرانی کیا ہے، اور یہ کب نقصان دہ بن سکتی ہے؟"
+    },
+    {
+      "id": 554,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by AI and social equity?",
+      "ur": "اے آئی اور سماجی برابری سے کیا مراد ہے؟"
+    },
+    {
+      "id": 555,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can new AI technologies create a gap between different groups of people?",
+      "ur": "نئی اے آئی ٹیکنالوجیز لوگوں کے مختلف گروہوں کے درمیان فرق یا فاصلہ کیسے پیدا کر سکتی ہیں؟"
+    },
+    {
+      "id": 556,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How should AI tools be designed to support fairness in society?",
+      "ur": "معاشرے میں انصاف برقرار رکھنے کے لیے اے آئی ٹولز کو کس طرح ڈیزائن کیا جانا چاہیے؟"
+    },
+    {
+      "id": 557,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are human designers held responsible if an AI system makes a wrong decision?",
+      "ur": "اگر کوئی AI سسٹم غلط فیصلہ کرے تو انسانی ڈیزائنرز کو اس کا ذمہ دار کیوں ٹھہرایا جاتا ہے؟"
+    },
+    {
+      "id": 558,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is making a helpful AI considered a moral duty rather than just a technical job?",
+      "ur": "ایک مددگار اے آئی بنانا محض ایک تکنیکی کام کے بجائے ایک اخلاقی فرض کیوں سمجھا جاتا ہے؟"
+    },
+    {
+      "id": 559,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down two ways through which ethical AI design builds trust between people and technology.",
+      "ur": "ایسے دو طریقے لکھیں جن کے ذریعے اخلاقی اے آئی ڈیزائن لوگوں اور ٹیکنالوجی کے درمیان اعتماد پیدا کرتا ہے۔"
+    },
+    {
+      "id": 560,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why must AI designers act responsibly?",
+      "ur": "AI ڈیزائنرز کے لیے ذمہ داری سے کام کرنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 561,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What three negative outcomes must AI designers prevent their systems from doing?",
+      "ur": "اے آئی ڈیزائنرز کو اپنے سسٹمز کو کن تین منفی کاموں یا نتائج سے لازمی روکنا چاہیے؟"
+    },
+    {
+      "id": 562,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What two things should users know about how an AI system works?",
+      "ur": "صارفین کو اے آئی سسٹم کے کام کرنے کے طریقے کے بارے میں کون سی دو باتیں معلوم ہونی چاہئیں؟"
+    },
+    {
+      "id": 563,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are legal, ethical, and strategic skills important in business?",
+      "ur": "کاروبار میں قانونی، اخلاقی اور اسٹریٹجک مہارتیں کیوں اہم ہیں؟"
+    },
+    {
+      "id": 564,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is strategic marketing?",
+      "ur": "اسٹریٹجک مارکیٹنگ کیا ہے؟"
+    },
+    {
+      "id": 565,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define entrepreneurship and state its primary goal.",
+      "ur": "انٹرپرینیورشپ کی تعریف کریں اور اس کا بنیادی مقصد بیان کریں۔"
+    },
+    {
+      "id": 566,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are fundamental digital tools essential for modern entrepreneurs?",
+      "ur": "جدید کاروباری افراد کے لیے کون سے بنیادی ڈیجیٹل ٹولز ضروری ہیں؟"
+    },
+    {
+      "id": 567,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between legal compliance and regulatory awareness in business.",
+      "ur": "کاروبار میں قانونی تعمیل اور ریگولیٹری آگاہی میں فرق واضح کریں۔"
+    },
+    {
+      "id": 568,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between ethical frameworks and strategic marketing in business.",
+      "ur": "کاروبار میں اخلاقی فریم ورک اور اسٹریٹیجک مارکیٹنگ میں فرق واضح کریں۔"
+    },
+    {
+      "id": 569,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "List the intellectual responsibilities expected of today's digital entrepreneurs.",
+      "ur": "آج کے ڈیجیٹل کاروباری افراد سے جو علمی ذمہ داریاں متوقع ہیں ان کی فہرست بنائیں۔"
+    },
+    {
+      "id": 570,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What does SWOT analysis help identify?",
+      "ur": "SWOT تجزیہ کس چیز کی شناخت میں مدد کرتا ہے؟"
+    },
+    {
+      "id": 571,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is setback recovery?",
+      "ur": "ناکامی یا دھچکے سے بحالی کیا ہے؟"
+    },
+    {
+      "id": 572,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write three common challenges that can arise at any time in the business world.",
+      "ur": "کاروباری دنیا میں کسی بھی وقت پیدا ہونے والے تین عام چیلنجز کے نام لکھیں۔"
+    },
+    {
+      "id": 573,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define problem-solving in a business environment.",
+      "ur": "کاروباری ماحول میں مسائل حل کرنے کی تعریف کریں۔"
+    },
+    {
+      "id": 574,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define structured problem-solving.",
+      "ur": "منظم مسئلہ حل کرنے کی تعریف کریں۔"
+    },
+    {
+      "id": 575,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by the root cause of a business problem? Give an example.",
+      "ur": "کسی کاروباری مسئلے کی بنیادی وجہ سے کیا مراد ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 576,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define SWOT analysis and state its full form.",
+      "ur": "SWOT تجزیہ کی تعریف کریں اور اس کا پورا نام لکھیں۔"
+    },
+    {
+      "id": 577,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define adaptability in the context of a changing business environment.",
+      "ur": "بدلتے ہوئے کاروباری ماحول کے تناظر میں مطابقت پذیری کی تعریف کریں۔"
+    },
+    {
+      "id": 578,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by resilience in entrepreneurship?",
+      "ur": "انٹرپرینیورشپ میں لچک پذیری یا بحالی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 579,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why must a business change its strategies quickly when technology upgrades?",
+      "ur": "ٹیکنالوجی کے جدید ہونے پر کسی کاروبار کو اپنی حکمتِ عملی کیوں جلدی تبدیل کرنی چاہیے؟"
+    },
+    {
+      "id": 580,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can one recover from failures in any business? Explain with an example.",
+      "ur": "کسی بھی کاروبار میں ناکامیوں سے کیسے نکلا جا سکتا ہے مثال کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 581,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What lesson do we learn from the pivot/history of Netflix and YouTube?",
+      "ur": "نیٹ فلکس اور یوٹیوب کی تاریخ سے ہمیں کیا سبق ملتا ہے؟"
+    },
+    {
+      "id": 582,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why should businesses ask why often?",
+      "ur": "کاروباری اداروں کو اکثر کیوں کا سوال کیوں پوچھنا چاہیے؟"
+    },
+    {
+      "id": 583,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define data privacy.",
+      "ur": "ڈیٹا پرائیویسی کی تعریف کریں۔"
+    },
+    {
+      "id": 584,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give one example of ethical decision-making in business.",
+      "ur": "کاروبار میں اخلاقی فیصلہ سازی کی ایک مثال دیں۔"
+    },
+    {
+      "id": 585,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is honesty important in business decisions?",
+      "ur": "کاروباری فیصلوں میں ایمانداری کیوں ضروری ہے؟"
+    },
+    {
+      "id": 586,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define ethical decision-making in the digital age.",
+      "ur": "ڈیجیٹل دور میں اخلاقی فیصلہ سازی کی تعریف کریں۔"
+    },
+    {
+      "id": 587,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the advantages of ethical decision-making.",
+      "ur": "اخلاقی بنیادوں پر فیصلہ سازی کے فوائد تحریر کریں۔"
+    },
+    {
+      "id": 588,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the advantages of responsible marketing.",
+      "ur": "ذمہ دارانہ مارکیٹنگ کے فوائد تحریر کریں۔"
+    },
+    {
+      "id": 589,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by ethics in business?",
+      "ur": "کاروبار میں اخلاقیات سے کیا مراد ہے؟"
+    },
+    {
+      "id": 590,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define conflict of interest with an example.",
+      "ur": "مثال کے ساتھ مفادات کے ٹکراؤ کی تعریف کریں۔"
+    },
+    {
+      "id": 591,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain with an example how a business can balance its profit with customer welfare.",
+      "ur": "مثال کے ساتھ بیان کریں کہ ایک کاروبار اپنے منافع اور کسٹمر کی بہبود کے درمیان توازن کیسے پیدا کر سکتا ہے۔"
+    },
+    {
+      "id": 592,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define digital ethics and state the responsibilities of businesses under it.",
+      "ur": "ڈیجیٹل اخلاقیات کی تعریف کریں اور اس کے تحت کاروباری اداروں کی ذمہ داریاں لکھیں۔"
+    },
+    {
+      "id": 593,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define responsible marketing.",
+      "ur": "ذمہ دارانہ مارکیٹنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 594,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why should business advertisements avoid exaggerations and hidden conditions?",
+      "ur": "کاروباری اشتہارات کو مبالغہ آرائی اور پوشیدہ شرائط سے کیوں بچنا چاہیے؟"
+    },
+    {
+      "id": 595,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What rule must a business follow before using personal data for targeted advertisements?",
+      "ur": "ٹارگٹڈ اشتہارات کے لیے ذاتی ڈیٹا استعمال کرنے سے پہلے کسی کاروبار کو کس اصول پر عمل کرنا لازمی ہے؟"
+    },
+    {
+      "id": 596,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are data privacy laws?",
+      "ur": "ڈیٹا کی رازداری کے قوانین کیا ہیں؟"
+    },
+    {
+      "id": 597,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "According to the personal data protection bill of Pakistan, what are the rules for data collection?",
+      "ur": "پاکستان کے پرسنل ڈیٹا پروٹیکشن بل کے مطابق، ڈیٹا جمع کرنے کے کیا اصول ہیں؟"
+    },
+    {
+      "id": 598,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between GDPR and COPPA.",
+      "ur": "GDPR اور COPPA کے درمیان فرق کریں۔"
+    },
+    {
+      "id": 599,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define regulatory awareness in a business environment.",
+      "ur": "کاروباری ماحول میں ریگولیٹری آگاہی کی تعریف کریں۔"
+    },
+    {
+      "id": 600,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by a compliance audit for a business?",
+      "ur": "کسی کاروبار کے لیے کمپلائنس آڈٹ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 601,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why were Google and YouTube fined $170 million in 2019?",
+      "ur": "2019 میں گوگل اور یوٹیوب پر 170 ملین ڈالر کا جرمانہ کیوں عائد کیا گیا تھا؟"
+    },
+    {
+      "id": 602,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does copyright protect creators in the digital world?",
+      "ur": "ڈیجیٹل دنیا میں کاپی رائٹ تخلیق کاروں کی حفاظت کیسے کرتا ہے؟"
+    },
+    {
+      "id": 603,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Differentiate between a patent and a trademark.",
+      "ur": "پیٹنٹ اور ٹریڈ مارک میں فرق واضح کریں۔"
+    },
+    {
+      "id": 604,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define legal framework & compliance in a business environment.",
+      "ur": "کاروباری ماحول میں قانونی فریم ورک اور تعمیل کی تعریف کریں۔"
+    },
+    {
+      "id": 605,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is it important to register a business in Pakistan?",
+      "ur": "پاکستان میں کاروبار کی رجسٹریشن کروانا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 606,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the process to obtain NTN in Pakistan.",
+      "ur": "پاکستان میں NTN حاصل کرنے کا طریقہ کار تحریر کریں۔"
+    },
+    {
+      "id": 607,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What type of documents need to be understood before registering a business?",
+      "ur": "کاروبار کی رجسٹریشن سے قبل کس قسم کی دستاویزات کو سمجھنا ضروری ہے؟"
+    },
+    {
+      "id": 608,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define contract in digital business.",
+      "ur": "ڈیجیٹل کاروبار میں معاہدے کی تعریف کریں۔"
+    },
+    {
+      "id": 609,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are contracts important in business?",
+      "ur": "کاروبار میں معاہدے کیوں اہم ہیں؟"
+    },
+    {
+      "id": 610,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define intellectual property rights.",
+      "ur": "دانشورانہ املاک کے حقوق کی تعریف کریں۔"
+    },
+    {
+      "id": 611,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain how we can protect trade secrets in the digital age.",
+      "ur": "وضاحت کریں کہ ہم ڈیجیٹل دور میں تجارتی رازوں کا تحفظ کیسے کر سکتے ہیں۔"
+    },
+    {
+      "id": 612,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the benefits of registering a new business with the government.",
+      "ur": "حکومت کے ساتھ نئے کاروبار کو رجسٹر کرنے کے فوائد بیان کریں۔"
+    },
+    {
+      "id": 613,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of SECP in the business sector of Pakistan?",
+      "ur": "پاکستان کے کاروباری شعبے میں ایس ای سی پی کا کیا کردار ہے؟"
+    },
+    {
+      "id": 614,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does a certificate of incorporation prove for a startup?",
+      "ur": "ایک اسٹارٹ اپ کے لیے سرٹیفکیٹ آف انکورپوریشن کیا ثابت کرتا ہے؟"
+    },
+    {
+      "id": 615,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between memorandum of association and articles of association.",
+      "ur": "میمورنڈم آف ایسوسی ایشن اور آرٹیکلز آف ایسوسی ایشن میں فرق واضح کریں۔"
+    },
+    {
+      "id": 616,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a partnership deed and state its purpose.",
+      "ur": "پارٹنرشپ ڈیڈ کی تعریف کریں اور اس کا مقصد بتائیں۔"
+    },
+    {
+      "id": 617,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is an NTN, and which authority issues it in Pakistan?",
+      "ur": "NTN کیا ہے، اور پاکستان میں یہ کون سا ادارہ جاری کرتا ہے؟"
+    },
+    {
+      "id": 618,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is accurate record-keeping crucial for registered businesses regarding tax filing?",
+      "ur": "رجسٹرڈ کاروباری اداروں کے لیے ٹیکس فائلنگ کے سلسلے میں درست ریکارڈ رکھنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 619,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are industry specific regulations? Give an example related to an e-commerce bookstore.",
+      "ur": "انڈسٹری سپیسیفک ریگولیشنز کیا ہیں؟ ای کامرس بک اسٹور کے حوالے سے ایک مثال دیں۔"
+    },
+    {
+      "id": 620,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Explain the purpose of data-driven marketing.",
+      "ur": "ڈیٹا پر مبنی مارکیٹنگ کا مقصد بیان کریں۔"
+    },
+    {
+      "id": 621,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Explain the purpose of setting KPIs in marketing.",
+      "ur": "مارکیٹنگ میں KPIs متعین کرنے کا مقصد واضح کریں۔"
+    },
+    {
+      "id": 622,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define strategic marketing.",
+      "ur": "اسٹریٹجک مارکیٹنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 623,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a CRM tool work? Explain with an example.",
+      "ur": "CRM ٹول کیسے کام کرتا ہے؟ مثال کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 624,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the benefits of a small business.",
+      "ur": "چھوٹے کاروبار کے فوائد تحریر کریں۔"
+    }
+  ]
+}

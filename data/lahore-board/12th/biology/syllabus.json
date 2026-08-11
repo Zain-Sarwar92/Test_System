@@ -1,0 +1,357 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Biology",
+  "slug": "biology",
+  "chapters": [
+    {
+      "number": 13,
+      "title": "Thermoregulation and Osmoregulation",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Homeostasis"
+        },
+        {
+          "id": "13.2",
+          "title": "Osmoregulation"
+        },
+        {
+          "id": "13.3",
+          "title": "Thermoregulation"
+        },
+        {
+          "id": "13.4",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Human Urinary System",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Human Urinary System"
+        },
+        {
+          "id": "14.2",
+          "title": "Regulation of the Urine Concentration"
+        },
+        {
+          "id": "14.3",
+          "title": "Disorders of Urinary Tract"
+        },
+        {
+          "id": "14.4",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Human Nervous System",
+      "topics": [
+        {
+          "id": "15.1",
+          "title": "Nervous Coordination"
+        },
+        {
+          "id": "15.2",
+          "title": "Neurons"
+        },
+        {
+          "id": "15.3",
+          "title": "Nerve Impulse"
+        },
+        {
+          "id": "15.4",
+          "title": "Synapse"
+        },
+        {
+          "id": "15.5",
+          "title": "Basic Organization of Human Nervous System"
+        },
+        {
+          "id": "15.6",
+          "title": "Receptors in Human Body"
+        },
+        {
+          "id": "15.7",
+          "title": "Effects of Drugs On Nervous Coordination"
+        },
+        {
+          "id": "15.8",
+          "title": "Disorders of Nervous System"
+        },
+        {
+          "id": "15.9",
+          "title": "Diagnostic Test for Nervous Disorders"
+        },
+        {
+          "id": "15.10",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Human Endocrine System",
+      "topics": [
+        {
+          "id": "16.1",
+          "title": "HORMONES – THE CHEMICAL MESSENGERS"
+        },
+        {
+          "id": "16.2",
+          "title": "Endocrine System of Man"
+        },
+        {
+          "id": "16.3",
+          "title": "Feedback Mechanism in Endocrine System"
+        },
+        {
+          "id": "16.4",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Human Reproductive System",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Reproductive Systems"
+        },
+        {
+          "id": "17.2",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Inheritance",
+      "topics": [
+        {
+          "id": "18.1",
+          "title": "Law of Segregation"
+        },
+        {
+          "id": "18.2",
+          "title": "Law of Independent Assortment"
+        },
+        {
+          "id": "18.3",
+          "title": "Dominance Relations and Multiple Alleles"
+        },
+        {
+          "id": "18.4",
+          "title": "Blood Group Systems"
+        },
+        {
+          "id": "18.5",
+          "title": "Polygenic Inheritance and Epistasis"
+        },
+        {
+          "id": "18.6",
+          "title": "Gene Linkage and Crossing Over"
+        },
+        {
+          "id": "18.7",
+          "title": "Sex Determination"
+        },
+        {
+          "id": "18.8",
+          "title": "Sex Linkage"
+        },
+        {
+          "id": "18.9",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Chromosome and Dna",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Detailed Structure of Chromosome"
+        },
+        {
+          "id": "19.2",
+          "title": "Dna As the Hereditary Material"
+        },
+        {
+          "id": "19.3",
+          "title": "Dna Replication"
+        },
+        {
+          "id": "19.4",
+          "title": "Gene Expression"
+        },
+        {
+          "id": "19.5",
+          "title": "Transcription"
+        },
+        {
+          "id": "19.6",
+          "title": "Translation"
+        },
+        {
+          "id": "19.7",
+          "title": "Regulating Gene Expression"
+        },
+        {
+          "id": "19.8",
+          "title": "Mutations"
+        },
+        {
+          "id": "19.9",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Biotechnology",
+      "topics": [
+        {
+          "id": "20.1",
+          "title": "Genetic Engineering"
+        },
+        {
+          "id": "20.2",
+          "title": "Recombinant Dna Technology"
+        },
+        {
+          "id": "20.3",
+          "title": "Polymerase Chain Reaction (Pcr)"
+        },
+        {
+          "id": "20.4",
+          "title": "Genetically Modified Organism (Gmo)"
+        },
+        {
+          "id": "20.5",
+          "title": "Formation of Human Insulin in Bacteria"
+        },
+        {
+          "id": "20.6",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Immunity",
+      "topics": [
+        {
+          "id": "21.1",
+          "title": "First Line of Defence"
+        },
+        {
+          "id": "21.2",
+          "title": "Second Line of Defence"
+        },
+        {
+          "id": "21.3",
+          "title": "Third Line of Defence"
+        },
+        {
+          "id": "21.4",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Biostatistics",
+      "topics": [
+        {
+          "id": "22.1",
+          "title": "Biostatistics"
+        },
+        {
+          "id": "22.2",
+          "title": "Key Statistical Measures and Their  Calculation"
+        },
+        {
+          "id": "22.3",
+          "title": "Chart"
+        },
+        {
+          "id": "22.4",
+          "title": "Experimental Design"
+        },
+        {
+          "id": "22.5",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Pharmacology",
+      "topics": [
+        {
+          "id": "23.1",
+          "title": "Drug Discovery and Development Process"
+        },
+        {
+          "id": "23.2",
+          "title": "Classes of Antibiotic"
+        },
+        {
+          "id": "23.3",
+          "title": "Antiviral and Antiretrovirals Drugs"
+        },
+        {
+          "id": "23.4",
+          "title": "Monoclonal Antibodies"
+        },
+        {
+          "id": "23.5",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Evolution",
+      "topics": [
+        {
+          "id": "24.1",
+          "title": "the Concept of Evolution"
+        },
+        {
+          "id": "24.2",
+          "title": "Theory of Evolution - Darwinism"
+        },
+        {
+          "id": "24.3",
+          "title": "Evidences of Evolution"
+        },
+        {
+          "id": "24.4",
+          "title": "Evolution From Prokaryotes to Eukaryotes"
+        },
+        {
+          "id": "24.5",
+          "title": "Lamarckism"
+        },
+        {
+          "id": "24.6",
+          "title": "Exercises"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Ecology",
+      "topics": []
+    }
+  ]
+}

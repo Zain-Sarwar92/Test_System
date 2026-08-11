@@ -1,0 +1,60 @@
+{
+  "course": {
+    "CourseID": 1,
+    "name": "PTB"
+  },
+  "class": {
+    "ClassID": 12,
+    "name": "INTER-II"
+  },
+  "subject": {
+    "SubjectID": 129,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 12,
+    "SubjectName": "اُردو لازمی",
+    "Category": "SNC-2026",
+    "ImageUrl": "/images/subjects/637341241364807520.JPG",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2026-08-08T11:28:44.367",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "slug": "urdu-compulsory",
+  "exportTypes": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 14,
+      "name": "short-qa",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 19,
+      "name": "long-poem",
+      "bankType": "long",
+      "field": "POEM"
+    },
+    {
+      "id": 28,
+      "name": "long-summary",
+      "bankType": "long",
+      "field": "SUMMARY"
+    },
+    {
+      "id": 48,
+      "name": "long-passage",
+      "bankType": "long",
+      "field": "PASSAGE"
+    }
+  ],
+  "chapters": [],
+  "topics": []
+}

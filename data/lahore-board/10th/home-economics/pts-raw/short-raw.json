@@ -1,0 +1,5895 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "ہوم اکنامکس",
+  "slug": "home-economics",
+  "type": "short",
+  "exportName": "short",
+  "subTypeId": 12,
+  "total": 294,
+  "exportedAt": "2026-08-10T11:36:59.130Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 21252,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پارچہ بافی کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21254,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>لباس کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21265,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>قدرتی ریشے کن ذرائع سے حاصل&nbsp;کیے جاتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 92630,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>دھاگا توڑنے کےعمل سے کپڑوں کی شناخت کیونکر کی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 92629,
+      "SubjectID": 73,
+      "TopicID": 858,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 ریشے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ریشے سے کیا مراد ہے؟ ریشوں کی اقسام کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 92631,
+      "SubjectID": 73,
+      "TopicID": 858,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 ریشے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>انسانی خود ساختہ ریشوں کےنام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21293,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کپڑے کی تعریف کریں اور کپڑے بنانے کے مختلف طریقوں کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21338,
+      "SubjectID": 73,
+      "TopicID": 860,
+      "TopicRef": "1.4",
+      "TopicName": "1.4 مارکیٹ میں دستیاب اصلی اور امتزاجی کپڑوں کا مطالعہ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مارکیٹ میں دستیاب&nbsp;اصلی(Pure)&nbsp;اور امتزاجی(Blended)کپڑوں&nbsp;کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21516,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سلائی /ٹیلرنگ کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21519,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سلائی کی اشیاء کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21522,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سوئنگ کِٹ سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21567,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>بچوں کے لباس کے لیے جسم کے بنیادی ناپ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21569,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ڈرافٹ سے پترن بنانےسے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 92633,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>شخصیت کے مطابق لباس کا انتخاب کرتے وقت کن اصولوں کو مدنظر رکھنا ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 92634,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>بنیادی رنگ کون کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21743,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>لباس کی وضع میں کتنے&nbsp; عوامل اہمیت کے حامل ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21745,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>لباس کی تراش خراش سے کیامراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21747,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>لباس کی موزونیت کن عوامل&nbsp; پر مبنی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21749,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>شخصیت کی کتنی اقسام ہیں؟ نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 92638,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>گیارہ سال سے سولہ سال کی عمر کے بچوں کے ملبوسات کیسے ہونے چاہییں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21917,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>انتظام کی تعریف بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21918,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>گھریلوں انتظام سے کیا مرا د ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21919,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>انتظام کے کتنے عوامل ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21936,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اقدار کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21937,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>اقدار کی اہمیت کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21938,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مقاصد سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21939,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مقاصد کی کتنی اقسام ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21940,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>معیار زندگی کی تعریف بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21949,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کام کو سادہ اور آسان بنانے کے کتنے عوامل ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21951,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>بجٹ سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21953,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>قوت و توانائی کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21954,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>قوت کے انتظام سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21956,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ذرائع و وسائل&nbsp;کے انتظام سے کیا&nbsp;مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22120,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ماحول سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22122,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>آلودگی کی کتنی اقسام ہیں۔ نا م لکھیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22124,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>صوتی آلودگی کو کیونکر کنٹرول کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22148,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>صفائی سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22149,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>گھریلو غلاظت کو دور کرنے کے لیے کون سے طریقے استعمال ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22162,
+      "SubjectID": 73,
+      "TopicID": 872,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 گھر میں تحفظ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>گھر میں عام طور پر کس قسم کے حادثات پیش آ سکتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22263,
+      "SubjectID": 73,
+      "TopicID": 873,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 ڈیزائن کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>آرٹ سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22264,
+      "SubjectID": 73,
+      "TopicID": 873,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 ڈیزائن کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ڈیزائن کتنی اقسام کے ہوتے ہیں؟ نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22270,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ڈیزائن کے عناصر کون کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22271,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>خطوط کی اقسام کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22272,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>رنگ کی کتنی اقسام ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22273,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>توازن کتنے طریقوں سے پیدا کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22274,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>چیزوں کو کیونکر نمایاں کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22276,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>تناسب سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22283,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درمیانی رنگ کون کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22312,
+      "SubjectID": 73,
+      "TopicID": 875,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 آرٹ کا گھر اور ماحول کے ساتھ تعلق",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>آرٹ کا گھر اور ماحول کے ساتھ کیسا تعلق ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22363,
+      "SubjectID": 73,
+      "TopicID": 876,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 لباس میں ڈیزائن کا استعمال ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>لباس کو ڈیزائن کرتے وقت کن پہلوؤں کو مد نظر رکھنا ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22377,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ماحول میں آرٹ کا استعمال کیونکر کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21256,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پارچہ بافی اور لباس کے مطالعے کی اہمیت مختصر بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21257,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پارچہ بافی کی مارکیٹنگ کسے کہتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21259,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشوں کا مطالعہ کیا علم ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21261,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشے کی تعریف بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21263,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشوں کی اقسام کتنی ہیں؟ نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21267,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پارچہ بافی کے ریشوں کی شناخت کے لیے کون کون سے طریقے استعمال کیے جاتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21268,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کونسا دھاگہ کچا ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21269,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>خوردبین سے کپڑوں کی شناخت کا طریقہ لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21271,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشوں کی شناخت کے کتنےطریقے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21272,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پارچہ جات کی اقسام بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21273,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>دھاگہ توڑنے کے عمل سے نائلون کی شناخت کیسے کی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21274,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فارمل ایسڈ کے ذریعے کپڑوں کی شناخت کیسے کی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21276,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>محسوس کرنے کے عمل سے نائلوں کی شناخت کیسے کی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21277,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لینن اور کاٹن کی پہچان کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21278,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>دھاگے کی کتنی اقسام ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21279,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فینول کی مدد سے پولی ایسٹر کی پہچان کیسے کی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21280,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>محسوس کرنے کے عمل سے سوتی کپڑے کی شناخت کیسے کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21282,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشے کی خصوصیات بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21284,
+      "SubjectID": 73,
+      "TopicID": 857,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 پارچہ بافی اور لباس کی تعریف اور اہمیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اون کا ریشہ کیسے حاصل کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21287,
+      "SubjectID": 73,
+      "TopicID": 858,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 ریشے",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>جلانے کے عمل سے کپڑوں کی شناخت کیسے کی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21288,
+      "SubjectID": 73,
+      "TopicID": 858,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 ریشے",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>جلانے کے عمل سے کاٹن کی شناخت کیسے کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21290,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انسانی خودساختہ ریشوں کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21295,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کیمیائی ریشوں کے پارچہ جات کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21296,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لینن کی دو خصوصیات بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21298,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اونی ریشے اور کپڑے کی دو خصوصیات بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21299,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>نباتاتی ذرائع سے حاصل ہونے والے ریشے بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21301,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سادہ بنائی سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21302,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تانا اور بانا میں کیا فرق ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21303,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بنائی سے کیامراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21305,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ساٹن بنائی کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21307,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>حیوانی ذرائع سے حاصل ہونے والے ریشے کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21308,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>نباتاتی ریشہ سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21310,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اونی ریشوں کی لمبائیاں معلوم کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21311,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لینن کے ریشے پر تیزاب کا کیا اثر ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21312,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اونی کپڑوں کی پائیداری کے لیے کیا کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21313,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بردار بنائی سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21314,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لینن کس پودے سے حاصل کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21316,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کاٹن سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21317,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سادہ بنائی اور ٹویل بنائی میں فرق لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21318,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>قدرتی ریشوں کے نام لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21320,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشم کے ریشے کی دو خصوصیات لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21321,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اچھی قسم کے اونی کپڑے کون کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21324,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مردانہ کپڑوں میں کتنے فیصد کاٹن اور کتنے فیصد پولی ایسٹر استعمال کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21325,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پولی ایسٹر کی تعریف کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21326,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کیمیائی ریشے کیا ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21328,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشم کا کپڑا کیسے بنتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21330,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کپڑے کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21331,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کھڈی پر بننے سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21332,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کیمیائی ریشے سے بنے ہوئے کپڑوں کی خصوصیات بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21334,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ریشم کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21335,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پولی ایسٹر سے بنے دو کپڑوں کے نام تحریر کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21337,
+      "SubjectID": 73,
+      "TopicID": 859,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 پارچہ بافی کے ر یشوں کی اقسام اور خصوصیات",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کپاس سے بنے ریشے کی خصوصیات بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21524,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ہیمر اور بائنڈ پرزوں کے کام تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21525,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ناپ لینے والا فیتہ کیسا ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21527,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گز یا میٹر راڈ کیسا ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21529,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کٹائی کے لیے استعمال ہونے والی قینچوں کی اقسام بتائیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21532,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سلائی کی قینچی کیسی ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21534,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سلائی مشین کی کون کون سی اقسام ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21537,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مشین میں بیڈ اور سلائیڈ پلیٹ کیسی ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21539,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انگشتانہ سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21542,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ڈسک سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21543,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>دندانے دار قینچی کس کام آتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21545,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ناپ لینے میں کون کونسی اشیاء درکار ہوتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21546,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آپ سلائی مشین کی حفاظت کس طرح کریں گے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21547,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سلائی مشین کے پرزوں کے نام لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21549,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مشین میں تیل ڈالنے کے بعد کیا کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21551,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پن اور پن کشن کے کام بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21552,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ٹریسنگ وہیل کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21554,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کٹائی کی قینچی کس کام آتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21555,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سلائی مشین میں دندانے اور پیر کا کیا کام ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21558,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سلائی مشین کی صفائی کس طرح کرنی چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21559,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سوئی کسنے والا پیچ کس کام آتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21561,
+      "SubjectID": 73,
+      "TopicID": 861,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 سلائی کا سامان",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مشین کا پہیہ کیا کام کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21566,
+      "SubjectID": 73,
+      "TopicID": 862,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 لباس کی سلائی کےاصول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سلائی کرنے کے دو/چار اصول بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21571,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کٹائی کرنے کے دو بنیادی اصول بنان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21572,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گرم کپڑوں کی سلائی و کٹائی کا طریقہ لکھیے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21573,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اُفقی اور عمودی خطوط کی خصوصیات لکھیئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21574,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>جسم کا صحیح ناپ لینا کیوں ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21576,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بروکیڈ کی سلائی کس طرح کرنی چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21577,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>چوڑے چہرے کیلئے کیسا گلا مناسب رہتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21578,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گول چہرے کیلئے کس قسم کا گلہ موزوں ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21579,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کپڑے کی ساخت کا خیال رکھنا کیوں ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21580,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سنجیدہ شخصیت کیلئے کونسے رنگ موزوں ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21583,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>نائلون کی کٹائی اور سلائی کیسے کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21584,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>چھاتی کا ناپ کیسے لیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21585,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کپڑے کی کٹائی کے لئے جگہ کس قسم کی ہونی چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21587,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آستین کا ناپ کیسے لیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21588,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>جالی اور کپڑوں کی کٹائی اور سلائی کا طریقہ تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21589,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سوتی کپڑوں کی کٹائی اور سلائی کیسے کی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21590,
+      "SubjectID": 73,
+      "TopicID": 863,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 کپڑے اور ڈیزائن کے انتخاب کا  طریقہ کار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فروالے کپڑوں کی کٹائی اور سلائی کا کیا طریقہ ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21750,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس اور موزوں لباس&nbsp; سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21753,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کے بنیادی مقصد کو پورا کرنے کے لیے کس قسم کے کپڑے کا انتخاب کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21755,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ڈیزائن و سٹائل سے کیا مرا د ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21758,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سال بھر کے موسموں کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21760,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>شادی بیاہ پر کس قسم کا لباس ہونا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21763,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>عمر و جنس کے مطابق لباس کا انتخاب کیسے کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21764,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ڈرامائی شخصیت کے لوگ کیسے ہوتے ہیں اور کپڑوں کا انتخاب کیسے کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21767,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>رسم و رواج کے مطابق لباس&nbsp; کا انتخاب کیسے کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21770,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>عمر کے مطابق لباس کا انتخاب کیونکر کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21772,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>زندہ دل اور شوخ دل شخصیت سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21774,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گرمیوں کے موسم میں کیسے کپڑے استعمال کیے جاتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21778,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>شخصیت سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21780,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس سے ہماری شخصیت پر کیا اثرات مرتب ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21782,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کے انتخاب پر فرد کا پیشہ کس طرح اثر انداز ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21784,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>باوقار شخصیت کی کیا پہچان ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21787,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کی تیاری میں موسم کی اہمیت بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21793,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس میں رنگوں کا انتخاب موسم کے لحاظ سے کس طرح کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21794,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کے انتخاب میں موقع محل کی اہمیت بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21798,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>حبس والے موسم میں کیسا لباس پہننا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21799,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کے انتخاب کی مذہبی اقدار میں کیا اہمیت ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21803,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اسلام میں لباس کا شرعی تصور کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21804,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>شرمیلی شخصیت سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21807,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کھلاڑی شخصیت سے کیا مر ادہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21809,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>نازک اندام شخصیت سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21812,
+      "SubjectID": 73,
+      "TopicID": 864,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 لباس کےانتخاب پر اثرانداز ہونےوالے عوامل",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کپڑے یا پارچہ جات کا انتخاب کیسے کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21815,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گیارہ/بارہ سال سے سولہ سال کی عمر کے بچوں کے ملبوسات کیسے ہونے چاہئیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21817,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>شیر خوار بچوں کے ملبوسات کیسے ہونے چاہئیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21820,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھٹنوں کے بل چلنے والے بچوں کا لباس کیسا ہونا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21823,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تین سے پانچ سال کے بچوں کے لیے کپڑوں کا انتخاب کرتے وقت کن باتوں کو مد نظر رکھنا ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21825,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ادھیڑ عمر کے لوگوں کے ملبوسات کیسے ہونے چاہئیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21828,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>قومی اور مضبوط شخصیت کے لیے کیسا لباس ہونا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21830,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لڑکیوں اور لڑکوں کے لباس میں خصوصی فرق لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21832,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ایک سے دو سال کے بچوں کے جوتے کیسے ہونے چاہئیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21834,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ایک سے دو سال کے بچوں کے ملبوسات کیسے ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21837,
+      "SubjectID": 73,
+      "TopicID": 865,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 عمر کے مختلف  گروہوں کے لئے کپڑوں کی موزونیت",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>درمیانی عمر کے ملبوسات کیسے ہونے چاہئیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21839,
+      "SubjectID": 73,
+      "TopicID": 866,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 کپڑوں میں ردوبدل کر کے انہیں نیا بنانا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پرانے لباس کو رد و بدل کرنے کے دو طریقے تحریر کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21841,
+      "SubjectID": 73,
+      "TopicID": 866,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 کپڑوں میں ردوبدل کر کے انہیں نیا بنانا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>دوپٹوں کو رد و بدل کے ذریعے کیسے استعمال کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21922,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>نِکل اینڈ ڈورسل کے مطابق گھریلو انتظام سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21923,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گراس اینڈ کرینڈل کے مطابق گھریلو انتظام کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21924,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انضباط سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21925,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فیصلہ کرنے کے کون کون سے اقدامات ہیں؟ نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21926,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>جائزہ لینے سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21927,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فیصلوں کے عمل سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21928,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فیصلہ کرنے کے لیے مسئلہ کا تجزیہ کرنا کیوں ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21929,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انتظام کے عمل میں رابطے کا کیا کردار ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21930,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اثاثوں سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21931,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انتظام کے عمل کے کتنے مراحل ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21932,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>منصوبہ بندی یا پیش بینی کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21933,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مسئلے کا حل کیسے تلاش کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21934,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انتظام کی کیا اہمیت ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21935,
+      "SubjectID": 73,
+      "TopicID": 867,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 انتظام کا تصور",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انتظامی عمل میں جائزہ کی کیا اہمیت ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21941,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اقدار کی کتنی اقسام ہیں؟ نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21942,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مقاصد کی اہمیت بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21943,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تعمیری یا مقاصدی اقدار کے بارے میں لکھیے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21944,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>غیر معینہ مقاصد کی تعریف کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21945,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بنیادی یا جبلتی اقدار سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21946,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>معینہ مدت کے مقاصد بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21947,
+      "SubjectID": 73,
+      "TopicID": 868,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 اقدار, مقاصد اور معیار",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فوری مقاصد سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21957,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بجٹ بنانے کے طریقے لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21960,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>قوت و توانائی کا استعمال بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21961,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>غیر انسانی یا مادی ذرائع و وسائل سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21964,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انسانی توانائی سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21965,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کام کی اکائی سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21967,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آمدنی کی اقسام کون کونسی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21969,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آمدنی میں اضافہ کے چار طریقے بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21970,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>نقد یا اقتصادی آمدنی کی تعریف کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21971,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>قوت و توانائی بچانے والے آلات کا استعمال بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21973,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اصل آمدنی سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21974,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>قوت و توانائی کے استعمال کے صحیح اقدامات کیا ہو سکتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21976,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آمدنی کے انتظام کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21977,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آمدنی میں اضافے کے چار طریقے بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21978,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گبرتھ کے مطابق &rdquo;تھکاوٹ&rdquo; کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21980,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بجٹ کی اقسام بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 21981,
+      "SubjectID": 73,
+      "TopicID": 869,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 زرائع کا انتظام,وقت,آمدنی،اور توانائی",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>خاتون خانہ کو خریداری کرتے وقت کن باتوں کو مد نظر رکھنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22127,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ماحول میں آلودگی سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22128,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فضائی آلودگی کیسے پیدا ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22129,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فضائی آلودگی کم کرنے کے دو طریقے لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22130,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آبی آلودگی کیسے پیدا ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22131,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آبی آلودگی کم کرنے کے تین طریقے لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22132,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>صوتی آلودگی کے اسباب بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22133,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>صحت مند ماحول سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22134,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آلودگی پیدا ہونے کی کیا وجوہات ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22136,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فضائی آلودگی/ہوائی آلودگی سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22137,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سیوریج سسٹم کا کیا فائدہ ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22138,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ماحول میں تبدیلی کی اصل وجہ کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22139,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کیٹالک کنورٹرز کا کیا فائدہ ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22140,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فیکٹریوں سے خارج ہونے والے زہریلے مادوں کے نام لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22142,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>انسانی سرگرمیاں کس طرح فضائی آلودگی کا سبب بنتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22143,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آبی اور صوتی آلودگی سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22145,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>صنعتی شور سے کون سی بیماریاں پیدا ہوتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22146,
+      "SubjectID": 73,
+      "TopicID": 870,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 صحت مند ماحول",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آبی آلودگی سے ہونے والی دو بیماریوں کے نام تحریر کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22151,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ذاتی صفائی سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22152,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گندے نالے کے ذریعے گندگی کو ٹھکانے لگانے کا طریقہ بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22153,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فاضل مادوں کو ٹحکانے لگانے کے طریقے لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22154,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>خندق والے طریقے سے غلاظت دور کرنے کا طریقہ بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22156,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>غلاظت دور کرنے کے لئے بہاؤ کے طریقے سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22157,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گندے پانی کے نکاس کا طریقہ لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22158,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>پولی تھین کے لفافے آلودگی کا باعث کیوں ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22159,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>فاضل مادوں کو ٹھکانے لگانے کے انتظام کی تعریف کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22161,
+      "SubjectID": 73,
+      "TopicID": 871,
+      "TopicRef": "5.2",
+      "TopicName": "5.2 صفائی اورفاضل مواد ٹھکانے لگانے کا انتظام",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>غلاظت دو ر کرنے کے لئے جلانے کے طریقہ سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22163,
+      "SubjectID": 73,
+      "TopicID": 872,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 گھر میں تحفظ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>آرام دہ اور محفوظ گھر کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22164,
+      "SubjectID": 73,
+      "TopicID": 872,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 گھر میں تحفظ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>چوہوں اور کیڑوں مکوڑوں سے بچاؤ کس طرح ممکن ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22165,
+      "SubjectID": 73,
+      "TopicID": 872,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 گھر میں تحفظ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>چاقو یا شیشے کے زخم کا کیا علاج کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22166,
+      "SubjectID": 73,
+      "TopicID": 872,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 گھر میں تحفظ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھروں میں پھسل کر گرنے کی عام وجوہات کیا ہوتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22265,
+      "SubjectID": 73,
+      "TopicID": 873,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 ڈیزائن کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بناوٹی یا بنیادی ڈیزائن سے کیا مرا د ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22266,
+      "SubjectID": 73,
+      "TopicID": 873,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 ڈیزائن کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سطحی یا آرائشی ڈیزائن سے کیا مرا د ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22267,
+      "SubjectID": 73,
+      "TopicID": 873,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 ڈیزائن کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بنیادی اور سجاوٹی ڈیزائن سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22268,
+      "SubjectID": 73,
+      "TopicID": 873,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 ڈیزائن کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ڈیزائن کی تعریف لکھیں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22278,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>قوسی اور ترچھے خطوط کیسے ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22280,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بنیادی رنگ کسے کہتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22281,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ثانوی رنگ کیسے بنائے جاتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22284,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گرم اور ٹھنڈے رنگ کون کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22285,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ڈیزائن کے اصول کون کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22286,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>توازن سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22287,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>رسمی توازن سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22288,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>غیر رسمی توازن کسے کہتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22290,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھومتے ہوئے توازن میں کیا ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22291,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تسلسل سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22292,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>تکونی چیزوں کے استعمال سے کیا محسوس ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22293,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مربع شکل کی اشیاء کیا تاثر دیتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22295,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>شکل و ۂیت سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22296,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اچھا ڈیزائن کن خصوصیات کا حامل ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22297,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ڈیزائن کے اصولوں اور عناصر سے واقفیت کیوں ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22298,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>خوبصورتی کو ہر فرد کیوں اپنانا چاہتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22299,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ایک اچھے ڈیزائن کی دو خصوصیات بیان کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22300,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>رنگوں کا دائرہ کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22301,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>اُفقی خطوط کی چار خصوصیات لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22303,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>سطحی کیفیت/ٹیکسچر سے کیا مرا دہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22304,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>بنیادی ڈیزائن ، سجاوٹی ڈیزائن سے زیادہ اہم ہوتا ہے۔ کیوں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22305,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>رنگ ماحول میں کس طرح خوبصورتی پیدا کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22306,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>قوسی خطوط کی چار خصوصیات لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22308,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گول شکلیں کیا تاثر دیتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22309,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>عمودی خطوط کے بارے میں لکھئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22310,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ہم آہنگی سے کیا مرا د ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22311,
+      "SubjectID": 73,
+      "TopicID": 874,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 ڈیزائن کے عناصر اور اصولوں کو سمجھنا",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>رنگوں کے بارے میں مشہور نظریہ کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22313,
+      "SubjectID": 73,
+      "TopicID": 875,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 آرٹ کا گھر اور ماحول کے ساتھ تعلق",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھر کے ماحول کو کیسے خوبصورت بنایا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22364,
+      "SubjectID": 73,
+      "TopicID": 876,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 لباس میں ڈیزائن کا استعمال ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کا مذہب سے کیا تعلق ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22365,
+      "SubjectID": 73,
+      "TopicID": 876,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 لباس میں ڈیزائن کا استعمال ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کی تیاری میں موسم کی اہمیت بیان کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22367,
+      "SubjectID": 73,
+      "TopicID": 876,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 لباس میں ڈیزائن کا استعمال ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کو ڈیزائن کرتے وقت موقع و محل کو مد نظر رکھنا کیوں ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22369,
+      "SubjectID": 73,
+      "TopicID": 876,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 لباس میں ڈیزائن کا استعمال ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>لباس کی تیاری میں رنگوں اور ڈیزائن کا انتخاب کیوں ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22371,
+      "SubjectID": 73,
+      "TopicID": 876,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 لباس میں ڈیزائن کا استعمال ",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>موقع و محل لباس کی ڈیزائننگ پر کس طرح اثر انداز ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22379,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھریلو آرائش میں آرٹ کا استعمال کیسے کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22381,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھر کے بیرونی حصے میں کس طرح خوبصورتی پیدا کی جا سکتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22383,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>ماحول میں آرٹ کا استعمال کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22385,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھریلو آرائش کے لیے اشیاء کا انتخاب کس طرح کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22386,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھر کی سجاوٹ کے دو فوائد تحریر کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22388,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>خوبصورتی کی تعریف کریں۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22389,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>افراد کی حسِ جمال گھریلو آرائش کو کیسے متاثر کرتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22390,
+      "SubjectID": 73,
+      "TopicID": 877,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 گھر اور ماحول  میں ڈیزائن  کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>گھر کی سجاوٹ میں کس چیز کا اظہار ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22391,
+      "SubjectID": 73,
+      "TopicID": 878,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 کھانا پیش کرنے میں ڈیزائن کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کھانے کی میز کی سجاوٹ کو کیسے بڑھایا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22392,
+      "SubjectID": 73,
+      "TopicID": 878,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 کھانا پیش کرنے میں ڈیزائن کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>مینیو بنانا کیوں ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22394,
+      "SubjectID": 73,
+      "TopicID": 878,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 کھانا پیش کرنے میں ڈیزائن کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کھانا پیش کرنے میں ڈیزائن کے استعمال کی وضاحت کیجئے۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 22396,
+      "SubjectID": 73,
+      "TopicID": 878,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 کھانا پیش کرنے میں ڈیزائن کا استعمال",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": "<p>کھانا پیش کرنے میں آرٹ کے عناصر اور اصولوں کا استعمال کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "exportName": "short"
+      }
+    }
+  ]
+}

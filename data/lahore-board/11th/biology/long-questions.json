@@ -1,0 +1,1711 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Biology",
+  "slug": "biology",
+  "source": "PTS PTB INTER-I (Class 11) Biology (read-only export)",
+  "total_questions": 3687,
+  "counts": {
+    "mcq": 1850,
+    "short": 1668,
+    "long": 169
+  },
+  "fieldCounts": {
+    "MCQ": 1850,
+    "QA": 1668,
+    "LONG": 169
+  },
+  "questions": [
+    {
+      "id": 397895,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the main characteristics of the kingdoms Protoctista, Fungi, Plantae, and Animalia. Provide examples for each kingdom."
+    },
+    {
+      "id": 397896,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Outline the major classification systems for viruses based on their structural features and replication methods. Discuss the significance of these classifications in virology."
+    },
+    {
+      "id": 397898,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the different levels at which biodiversity can be assessed. How do these levels contribute to our understanding of biological diversity and conservation efforts?"
+    },
+    {
+      "id": 397899,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the importance of random sampling methods in ecological studies."
+    },
+    {
+      "id": 397901,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the concept of an ecosystem and niche."
+    },
+    {
+      "id": 397893,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the mechanisms of allopatric and sympatric speciation."
+    },
+    {
+      "id": 399185,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare and contrast the cell wall of Gram-positive and Gram-negative bacteria."
+    },
+    {
+      "id": 399187,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the structure of bacterium flagellum."
+    },
+    {
+      "id": 399189,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the formation of endospore in bacteria."
+    },
+    {
+      "id": 399193,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the term normal flora. State the benefits which we get from normal bacterial flora."
+    },
+    {
+      "id": 399195,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the structure of a model bacteriophage and HIV."
+    },
+    {
+      "id": 401458,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify the role of glycolipids and glycoproteins as the cell surface markers."
+    },
+    {
+      "id": 401467,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure and functions of smooth and rough endoplasmic reticulum."
+    },
+    {
+      "id": 401471,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the formation and functions of lysosomes."
+    },
+    {
+      "id": 401459,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the structure, chemical composition and function of ribosomes."
+    },
+    {
+      "id": 401463,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure, chemical composition and function of chromosome."
+    },
+    {
+      "id": 401465,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss nuclear envelope and nuclear pore complex in detail."
+    },
+    {
+      "id": 401469,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structures of the three fibres that make the cytoskeleton."
+    },
+    {
+      "id": 401472,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare mitochondria and chloroplasts as the organelles that are involved in cellular energetics."
+    },
+    {
+      "id": 401473,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the basic structure of a mitochondrion, from outside inward."
+    },
+    {
+      "id": 401456,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write details of the structure and the chemical composition of cell walls of eukaryotes and prokaryotes."
+    },
+    {
+      "id": 401461,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the structure, and functions of Golgi complex."
+    },
+    {
+      "id": 401466,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how Golgi apparatus is involved in making cell secretions."
+    },
+    {
+      "id": 401468,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the role of lysosomes and peroxisomes in regulating the amounts of cellular contents."
+    },
+    {
+      "id": 401474,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the pathway of protein signal and steroid signal from outside of a cell to inside."
+    },
+    {
+      "id": 401457,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the chemical composition and the functions of plasma membrane."
+    },
+    {
+      "id": 401475,
+      "chapter": 3,
+      "topic_id": "3.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Categorize and explain different types of stem cells."
+    },
+    {
+      "id": 401477,
+      "chapter": 3,
+      "topic_id": "3.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the advantages and disadvantages of using induced Pluripotent Stem Cells?"
+    },
+    {
+      "id": 404625,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how the properties of water make it the medium of life."
+    },
+    {
+      "id": 404626,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish the properties and roles of monosaccharides and classify them."
+    },
+    {
+      "id": 404627,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the structural isomers and stereoisomers of glucose."
+    },
+    {
+      "id": 404628,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish the properties and roles of disaccharides."
+    },
+    {
+      "id": 404631,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the properties and roles of acylglycerols, phospholipids, terpenes and waxes."
+    },
+    {
+      "id": 404629,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define proteins and amino acids and outline the synthesis and breakage of peptide linkages."
+    },
+    {
+      "id": 404630,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify the significance of the sequence of amino acids through the example of sickle cell haemoglobin."
+    },
+    {
+      "id": 404632,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the molecular level structure of nucleotide."
+    },
+    {
+      "id": 404633,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the double helical structure of DNA as proposed by Watson and Crick."
+    },
+    {
+      "id": 404635,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the general structure of RNA and differentiate between the three types of RNA."
+    },
+    {
+      "id": 404636,
+      "chapter": 4,
+      "topic_id": "4.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define conjugated molecules and describe the roles of common conjugated molecules."
+    },
+    {
+      "id": 405868,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate among the three types of co-factors, by giving examples."
+    },
+    {
+      "id": 405877,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the mechanism of enzyme action through Induced Fit Model, comparing it with Lock and Key Model."
+    },
+    {
+      "id": 405878,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define activation energy and explain through graph how an enzyme speeds up a reaction by lowering activation energy."
+    },
+    {
+      "id": 405867,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure of enzyme, explaining the role and component parts of the active site of an enzyme."
+    },
+    {
+      "id": 405888,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain feedback inhibition."
+    },
+    {
+      "id": 405885,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe enzymatic inhibition, its types and its significance."
+    },
+    {
+      "id": 405886,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Categorize inhibitors into competitive and non-competitive inhibitors."
+    },
+    {
+      "id": 405889,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify enzymes on the basis of the reactions catalysed."
+    },
+    {
+      "id": 405891,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give examples of enzymes’ naming according to substrates."
+    },
+    {
+      "id": 405959,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe and illustrate how photosynthetic pigments are organized in thylakoid membrane?"
+    },
+    {
+      "id": 405960,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how the role of water in photosynthesis can be explained through experiment."
+    },
+    {
+      "id": 405962,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Illustrate the cyclic photophosphorylation."
+    },
+    {
+      "id": 405963,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe light independent reactions of photosynthesis in terms of paragraph and illustrate in terms of Calvin cycle."
+    },
+    {
+      "id": 405958,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How are the absorption spectra of chlorophyll ‘a’ and ‘b’ different?"
+    },
+    {
+      "id": 405961,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the events that capture light and convert it into chemical energy during light dependent reactions?"
+    },
+    {
+      "id": 405964,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What happens with glucose in anaerobic respiration and how different organisms modify the end products?"
+    },
+    {
+      "id": 405965,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is glucose broken down to pyruvic acid in glycolysis?"
+    },
+    {
+      "id": 405966,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how Krebs cycle is the completion of the oxidation of glycolytic products."
+    },
+    {
+      "id": 405967,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the passage of electron through electron transport chain."
+    },
+    {
+      "id": 405968,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define chemiosmosis. How would you relate it with electron transport chain?"
+    },
+    {
+      "id": 406897,
+      "chapter": 0,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the applications of structural biology."
+    },
+    {
+      "id": 406900,
+      "chapter": 0,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a note on principle and working of x-ray crystallography."
+    },
+    {
+      "id": 406902,
+      "chapter": 0,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Briefly describe key databases of computational biology."
+    },
+    {
+      "id": 406905,
+      "chapter": 0,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider there is a pandemic of a new unknown disease, and the causative agent is a virus. You also know that virus belongs to X family. How structural biology can be helpful in preventing the disease?"
+    },
+    {
+      "id": 406907,
+      "chapter": 0,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Suppose you find an unknown protein and determine amino acid sequence by Edman degradation/mass spectrometry. How you can exploit the computational biology to predict the structure and function of the protein."
+    },
+    {
+      "id": 406909,
+      "chapter": 0,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Homology models of macromolecules differ from experimentally determined structures of the macromolecules. Please comment."
+    },
+    {
+      "id": 406911,
+      "chapter": 0,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw a flow chart to describe the steps involved in drug development till its prescription."
+    },
+    {
+      "id": 406952,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of meristem in the growth of plants?"
+    },
+    {
+      "id": 406950,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe osmoregulation in Hydrophytes and Halophytes?"
+    },
+    {
+      "id": 406953,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the mechanism of opening and closing of stomata?"
+    },
+    {
+      "id": 406951,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the Physiological adaptation of plants to extreme conditions. How do plants adjust their cell membrane composition and protein structures to survive high and low temperatures?"
+    },
+    {
+      "id": 406955,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of photoperiodism and its influence on plant flowering. How do short-day, long-day and day-neutral plants differ in their flowering responses, and what role does phytochrome plays in this process?"
+    },
+    {
+      "id": 408072,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the complete process of digestion, starting from ingestion in the mouth to egestion in the large intestine. Include the roles of mechanical and chemical digestion at each stage."
+    },
+    {
+      "id": 408073,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure and function of the stomach in digestion."
+    },
+    {
+      "id": 408074,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare and contrast the roles of the small intestine and large intestine in digestion."
+    },
+    {
+      "id": 408075,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the absorption of food from the small intestine?"
+    },
+    {
+      "id": 408077,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss accessory organs (liver, gallbladder and pancreas) and their contributions in digestion."
+    },
+    {
+      "id": 408078,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the hormonal and nervous regulation of gastric acid secretion."
+    },
+    {
+      "id": 402551,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the mechanism of inhalation and exhalation."
+    },
+    {
+      "id": 402556,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure and function of haemoglobin."
+    },
+    {
+      "id": 402557,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the causes, symptoms and treatment of sinusitis."
+    },
+    {
+      "id": 402558,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the causes, symptoms and treatment of pneumonia and pulmonary tuberculosis."
+    },
+    {
+      "id": 402559,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe causes, symptoms and treatment of emphysema."
+    },
+    {
+      "id": 408122,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure of the walls of heart and rationalize the thickness of the walls of each chamber"
+    },
+    {
+      "id": 408123,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the flow of blood through heart as regulated by the valves."
+    },
+    {
+      "id": 408125,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how a heartbeat is initiated and controlled."
+    },
+    {
+      "id": 408129,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the components of pulmonary circulation."
+    },
+    {
+      "id": 408131,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define blood pressure and explain systolic and diastolic pressure."
+    },
+    {
+      "id": 408130,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the main components of coronary, hepatic-portal and renal circulation?"
+    },
+    {
+      "id": 408140,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure and role of lymph capillaries, lymph vessels and lymph ducts."
+    },
+    {
+      "id": 408898,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the structure of bone"
+    },
+    {
+      "id": 408899,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the structure of three types of cartilage."
+    },
+    {
+      "id": 408906,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw a diagram of sarcomere and label its parts."
+    },
+    {
+      "id": 408902,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the three types of muscles."
+    },
+    {
+      "id": 408903,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the ultrastructure of skeletal muscle."
+    },
+    {
+      "id": 408904,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a detailed note on the sliding filament model of muscle contraction."
+    },
+    {
+      "id": 408905,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the action of antagonistic muscles in the movement of knee joint."
+    },
+    {
+      "id": 408907,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe causes and symptoms of muscle fatigue, cramps and tetany."
+    },
+    {
+      "id": 444347,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the major groups of Archaea? Describe the unique characteristics of Archaea that differentiate them from Bacteria and Eukarya."
+    },
+    {
+      "id": 444348,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the general characteristics of domain Bacteria."
+    },
+    {
+      "id": 444352,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the taxonomic hierarchy used for the classification of living organisms."
+    },
+    {
+      "id": 444363,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the general characteristics of Phylum Nematoda."
+    },
+    {
+      "id": 444365,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the body structure and systems of organisms in Phylum Mollusca."
+    },
+    {
+      "id": 444367,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the structure and systems of organisms in Phylum Annelida."
+    },
+    {
+      "id": 444371,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the main features of Class Aves."
+    },
+    {
+      "id": 444373,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the major characteristics of class Mammalia. Also explain the types of mammals with examples."
+    },
+    {
+      "id": 444376,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are viruses? Explain their characteristics and classification in detail."
+    },
+    {
+      "id": 444378,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss various methods of assess the distribution and abundance of organisms."
+    },
+    {
+      "id": 444379,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is speciation? Describe the mechanisms through which new species arise."
+    },
+    {
+      "id": 444382,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the position of bacteria in various classification systems."
+    },
+    {
+      "id": 444383,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the structure and chemical composition of bacteria cell wall."
+    },
+    {
+      "id": 444384,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of endospore formation in bacteria."
+    },
+    {
+      "id": 444386,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the different types of motility patterns observed in bacteria. or explain different methods of movement in bateria."
+    },
+    {
+      "id": 444388,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are flagella in bacteria? Describe types of bacteria on the basis of number and arrangement of flagella."
+    },
+    {
+      "id": 444395,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the major groups of bacteria as proposed by Margulis and Schwartz."
+    },
+    {
+      "id": 444396,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the importance of bacteria in the environment and human life."
+    },
+    {
+      "id": 444399,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the seven basic properties of life and explain how these are performed at the cellular level."
+    },
+    {
+      "id": 444400,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the exceptions of cell theory, and how do they challenge the basic principles of the theory?"
+    },
+    {
+      "id": 444405,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and functions of the cell wall in detail."
+    },
+    {
+      "id": 444411,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the plasma membrane? Explain the fluid mosaic model of the plasma membrane."
+    },
+    {
+      "id": 444414,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and function of nucleus, along with its associated components."
+    },
+    {
+      "id": 444417,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are chloroplasts? Explain their structure and function in photosynthesis with proper detail."
+    },
+    {
+      "id": 444419,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are lysosomes and what are their major functions in the cell?"
+    },
+    {
+      "id": 444421,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are vacules and what are their functions in plant and animal cells?"
+    },
+    {
+      "id": 444432,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is passive transport? Describe its types with examples."
+    },
+    {
+      "id": 444434,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the different types of transport across the plasma membrane in detail."
+    },
+    {
+      "id": 444443,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the different types of bonds and interactions important in biological molecules."
+    },
+    {
+      "id": 444446,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the importance of water in biological systems."
+    },
+    {
+      "id": 444459,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and chemical composition of monosaccharides along with examples."
+    },
+    {
+      "id": 444462,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and chemical composition of disaccharides along with examples."
+    },
+    {
+      "id": 444464,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are polysaccharides? Explain their types with examples and structural features."
+    },
+    {
+      "id": 444467,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the structural levels of organization of proteins in detail."
+    },
+    {
+      "id": 444469,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structural and functional roles of proteins in the life of living organisms."
+    },
+    {
+      "id": 451740,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the structure, classification, chemical composition and functions of lipids?"
+    },
+    {
+      "id": 444474,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are nucleotides connnected to form nucleic acids? Explian the phosphodiester linkage and polynucleotide chain formation."
+    },
+    {
+      "id": 444477,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are enzymes? Describe their origin and occurrence in the cell?"
+    },
+    {
+      "id": 444478,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a complete note on the cofactors and coenzymes?"
+    },
+    {
+      "id": 444480,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the classification on enzymes on the base of reactions as well as substrates."
+    },
+    {
+      "id": 444486,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role of photosynthetic pigments in photosynthesis. or what are chlorophyll and accessory pigments? Describe their structure and function."
+    },
+    {
+      "id": 444488,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of non-cyclic photophosphorylation in detail."
+    },
+    {
+      "id": 444489,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of chemiosmosis in light-dependent reactions of photosynthesis. How is ATP synthesized during this process?"
+    },
+    {
+      "id": 444492,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Anaerobic Respiration and what are its types and Mechanism?"
+    },
+    {
+      "id": 444494,
+      "chapter": 0,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is structural homology and what is its importance in biological research and drug design?"
+    },
+    {
+      "id": 444498,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is signifiacane of insecctivorous plants? Explain their adaptations and give examples."
+    },
+    {
+      "id": 451741,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the structure and function of stomata in plants. How do stomata contribute to gaseous exchange?"
+    },
+    {
+      "id": 444501,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is water potential, and how do solute potential and pressure potential contribute to water movement in plant systems?"
+    },
+    {
+      "id": 451742,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the structure and function of xylem tissue in plants?"
+    },
+    {
+      "id": 444502,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and components of phloem tissue in plants."
+    },
+    {
+      "id": 444504,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the mechanism of translocation of food in plants."
+    },
+    {
+      "id": 444506,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by growth in plants and how does it occur in different plant types?"
+    },
+    {
+      "id": 444508,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do plants adjust osmotically in different environments? Discuss the adaptations in mesophytes and xerophytes."
+    },
+    {
+      "id": 444513,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and functions of the oral cavity. Also, discuss the roles of the pharynx and esophagus?"
+    },
+    {
+      "id": 444518,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the upper respiratory tract and what are the roles and structures of its components?"
+    },
+    {
+      "id": 444520,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe in detail the structure and function of the lower respiratory tract."
+    },
+    {
+      "id": 444521,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the mechanism of breathing or ventilation?"
+    },
+    {
+      "id": 444523,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are lower respiratory tract infections and which diseases do they include?"
+    },
+    {
+      "id": 444524,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the disorders of the lungs."
+    },
+    {
+      "id": 444529,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the structure & function of human heart."
+    },
+    {
+      "id": 444530,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Wrtie a note on Electrocadiogram (ECG)."
+    },
+    {
+      "id": 444532,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the pathways of circulation."
+    },
+    {
+      "id": 444534,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the types of blood pressure & its regulation."
+    },
+    {
+      "id": 444535,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the cardiovascular disorders, their diagnosis & treatments."
+    },
+    {
+      "id": 408133,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the term thrombus and differentiate between thrombus and embolus."
+    },
+    {
+      "id": 444537,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the lymphatic system of humans."
+    },
+    {
+      "id": 444540,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the arrangement of bones in the human skeleton (Axial & Appendicular)."
+    },
+    {
+      "id": 444541,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a joint, and what are the major kinds of joints found in the human body?"
+    },
+    {
+      "id": 444542,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on the disorders of skeleton."
+    },
+    {
+      "id": 444543,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain in detail the different types of injuries to joints, along with their causes, symptoms and first aid treatment."
+    },
+    {
+      "id": 444544,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure of skeletal muscles in details."
+    },
+    {
+      "id": 444545,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe some common muscle disorders in detail."
+    }
+  ],
+  "type": "long"
+}

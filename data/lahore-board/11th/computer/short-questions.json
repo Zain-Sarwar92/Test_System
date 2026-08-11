@@ -1,0 +1,4581 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Computer",
+  "slug": "computer",
+  "source": "PTS PTB INTER-I (Class 11) Computer (read-only export)",
+  "total_questions": 1349,
+  "counts": {
+    "mcq": 700,
+    "short": 456,
+    "long": 193
+  },
+  "fieldCounts": {
+    "MCQ": 700,
+    "QA": 456,
+    "LONG": 193
+  },
+  "questions": [
+    {
+      "id": 403768,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between functional and non-functional requirements."
+    },
+    {
+      "id": 403769,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why the testing phase is important in the Software Development Life Cycle (SDLC), and provide two reasons for its significance."
+    },
+    {
+      "id": 403776,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Illustrate the concept of continuous integration in Agile Methodology and discuss its importance in software development."
+    },
+    {
+      "id": 403779,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the main steps involved in risk assessment and management, and assess their importance in a software project."
+    },
+    {
+      "id": 403783,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the Factory Pattern and explain how it differs from directly creating objects, with an example."
+    },
+    {
+      "id": 403909,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the purpose of using comments in Python code."
+    },
+    {
+      "id": 403911,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define operator precedence and give an example of an expression where operator precedence affects the result."
+    },
+    {
+      "id": 403913,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the short-hand if-else statement differ from the regular if-else statement?"
+    },
+    {
+      "id": 403910,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the difference between integer and float data types in Python. Provide an example of each."
+    },
+    {
+      "id": 403915,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how default parameters work in Python functions."
+    },
+    {
+      "id": 403916,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why modular programming is useful in Python."
+    },
+    {
+      "id": 404109,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between well-defined and ill-defined problems within the realm of computational problem-solving."
+    },
+    {
+      "id": 404110,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Outline the main steps involved in the Generate-and-Test method."
+    },
+    {
+      "id": 404111,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare tractable and intractable problems in the context of computational complexity."
+    },
+    {
+      "id": 404118,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify the key factors used to evaluate the performance of an algorithm."
+    },
+    {
+      "id": 404112,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Summarize the key idea behind Greedy Algorithms"
+    },
+    {
+      "id": 404114,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the advantages of using Dynamic Programming"
+    },
+    {
+      "id": 404117,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the importance of breaking down a problem into smaller components in algorithmic thinking."
+    },
+    {
+      "id": 404116,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the advantages of Breadth-First Search (BFS) with Depth-First Search (DFS) in graph traversal."
+    },
+    {
+      "id": 404160,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how the ' insert()'function works in python lists. Provide an example."
+    },
+    {
+      "id": 404163,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the potential issues which could arise when two variables reference the same list in a program? Provide an example."
+    },
+    {
+      "id": 404164,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define a stack and explain the Last-In, First-Out (LIFO) principle."
+    },
+    {
+      "id": 404165,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between the Enqueue and Dequeue operations of queue."
+    },
+    {
+      "id": 404166,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name two basic operations performed on stack."
+    },
+    {
+      "id": 404168,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is difference between enqueue () and dequeue ()."
+    },
+    {
+      "id": 404247,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "List two types of data visualizations and describe when you would use each."
+    },
+    {
+      "id": 404248,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does visualizing data help in understanding descriptive statistics?"
+    },
+    {
+      "id": 404285,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between Elasticity and On-Demand access in cloud computing."
+    },
+    {
+      "id": 404275,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Analyze the role of Peer-to-Peer Networks in Blockchain. How do they function and why are they essential?"
+    },
+    {
+      "id": 404277,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the concept of immutability in blockchain. Why is it a critical feature?"
+    },
+    {
+      "id": 404279,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is edge computing and how does it benefit data processing?"
+    },
+    {
+      "id": 404281,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the concept of serverless architectures."
+    },
+    {
+      "id": 404282,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What advantages do serverless architectures offer to developers?"
+    },
+    {
+      "id": 404284,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does edge computing improve the efficiency of autonomous vehicles?"
+    },
+    {
+      "id": 404310,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it important for users to understand Terms of Use?"
+    },
+    {
+      "id": 404311,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between phishing and pharming."
+    },
+    {
+      "id": 404312,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify two impacts of the digital divide on social and civic participation."
+    },
+    {
+      "id": 404313,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the key steps involved in evaluating information sources?"
+    },
+    {
+      "id": 404314,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does responsible data sharing contribute to ethical use of information?"
+    },
+    {
+      "id": 404342,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can one ensure the reliability of information found online research?"
+    },
+    {
+      "id": 404343,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it important to evaluate the reliability of online sources?"
+    },
+    {
+      "id": 404345,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it important to use specific keywords when searching for information online?"
+    },
+    {
+      "id": 404346,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the purpose of a trademark."
+    },
+    {
+      "id": 404347,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does copyright differ from patent protection?"
+    },
+    {
+      "id": 404406,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define entrepreneurship in your own words."
+    },
+    {
+      "id": 404407,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the main focus of Design Thinking?"
+    },
+    {
+      "id": 404408,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "List the key steps involved in creating a business plan."
+    },
+    {
+      "id": 404409,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is market research important for a new business?"
+    },
+    {
+      "id": 404410,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the importance of a business pitch."
+    },
+    {
+      "id": 404412,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe one financial concept that is important for business."
+    },
+    {
+      "id": 404411,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can storytelling benefit a business?"
+    },
+    {
+      "id": 404413,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is collaboration important in the entrepreneurial process?"
+    },
+    {
+      "id": 444510,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define software development."
+    },
+    {
+      "id": 404456,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In which fields can Systems be applied?"
+    },
+    {
+      "id": 404457,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main goal of the Software Development Life Cycle (SDLC)?"
+    },
+    {
+      "id": 404458,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a framework in software development?"
+    },
+    {
+      "id": 404466,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the requirement gathering phase in software development?"
+    },
+    {
+      "id": 404467,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Mention any two methods used to collect requirements."
+    },
+    {
+      "id": 404473,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do non-functional requirements define in a software system?"
+    },
+    {
+      "id": 404474,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one example of a non-functional requirement related to system performance."
+    },
+    {
+      "id": 404476,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are non-functional requirements different from functional requirements."
+    },
+    {
+      "id": 404477,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are functional requirements in a software system?"
+    },
+    {
+      "id": 404489,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of the design phase in software development?"
+    },
+    {
+      "id": 404490,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are diagrams and models created during the design phase?"
+    },
+    {
+      "id": 404491,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does software architecture planning involve?"
+    },
+    {
+      "id": 404502,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main goal of the coding or development phase?"
+    },
+    {
+      "id": 404503,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do programmers use to guide their work during the coding phase?"
+    },
+    {
+      "id": 404504,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is code in the context of software development?"
+    },
+    {
+      "id": 404505,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of the maintenance phase?"
+    },
+    {
+      "id": 404506,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why might software need to be updated after deployment?"
+    },
+    {
+      "id": 404507,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does maintenance help with changing user needs?"
+    },
+    {
+      "id": 451790,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define SDLC."
+    },
+    {
+      "id": 404596,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are software development methodologies used for?"
+    },
+    {
+      "id": 404597,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do software process models help in managing software projects?"
+    },
+    {
+      "id": 404598,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is one benefit of using a structured development method?"
+    },
+    {
+      "id": 404604,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main characteristic of the Waterfall Model?"
+    },
+    {
+      "id": 404605,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name any two phases of the Waterfall Model."
+    },
+    {
+      "id": 404606,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are sprints in Agile methodology?"
+    },
+    {
+      "id": 404607,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name one advantage of using Agile for software development."
+    },
+    {
+      "id": 404608,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why can Agile be less predictable than other models?"
+    },
+    {
+      "id": 404644,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of setting project timelines in software development?"
+    },
+    {
+      "id": 404645,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two key factors that affect the cost estimation of a software project."
+    },
+    {
+      "id": 404646,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does risk assessment in project management involve?"
+    },
+    {
+      "id": 404652,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of graphical representation in software systems?"
+    },
+    {
+      "id": 404653,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does UML stand for?"
+    },
+    {
+      "id": 404654,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do use case diagrams show in software design?"
+    },
+    {
+      "id": 404661,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of a class diagram?"
+    },
+    {
+      "id": 404692,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of a sequence diagram?"
+    },
+    {
+      "id": 404709,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do activity diagrams show?"
+    },
+    {
+      "id": 404725,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is one key benefit of using UML during the planning stage?"
+    },
+    {
+      "id": 404726,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do UML diagrams assist developers during the development phase?"
+    },
+    {
+      "id": 404728,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Who benefits from using UML diagrams in communication?"
+    },
+    {
+      "id": 404737,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of using design patterns in software development?"
+    },
+    {
+      "id": 404738,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main benefit of using the Factory Pattern?"
+    },
+    {
+      "id": 404739,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the Observer Pattern work in a software system?"
+    },
+    {
+      "id": 404740,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the advantage of using the Strategy Pattern for algorithm selection?"
+    },
+    {
+      "id": 404749,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do design patterns reduce code complexity?"
+    },
+    {
+      "id": 404751,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main advantage of using design patterns in communication among developers?"
+    },
+    {
+      "id": 404752,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do design patterns contribute to code reusability?"
+    },
+    {
+      "id": 444550,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the Singleton Pattern ensure that only one instance of an object is created?"
+    },
+    {
+      "id": 404764,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is debugging in software development?"
+    },
+    {
+      "id": 404768,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two tools commonly used for debugging."
+    },
+    {
+      "id": 404769,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can code reviews help in debugging?"
+    },
+    {
+      "id": 404791,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary goal of Unit Testing?"
+    },
+    {
+      "id": 404793,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Integration Testing differ from Unit Testing?"
+    },
+    {
+      "id": 404797,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of Acceptance Testing?"
+    },
+    {
+      "id": 404823,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of a code editor in software development?"
+    },
+    {
+      "id": 404824,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do interpreters differ from compilers?"
+    },
+    {
+      "id": 404845,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an Integrated Development Environment (IDE)?"
+    },
+    {
+      "id": 404849,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two commonly used IDEs and their primary programming language."
+    },
+    {
+      "id": 404853,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between online and offline computing platforms?"
+    },
+    {
+      "id": 404855,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two examples of online computing platforms."
+    },
+    {
+      "id": 404856,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of source code repositories in software development?"
+    },
+    {
+      "id": 444555,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do debuggers play in the software development process?"
+    },
+    {
+      "id": 444556,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do IDEs streamline the software development process?"
+    },
+    {
+      "id": 404937,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main fields where Python is commonly used?"
+    },
+    {
+      "id": 404939,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the basic steps involved in writing a program?"
+    },
+    {
+      "id": 404942,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a development environment in Python programming?"
+    },
+    {
+      "id": 404944,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the print() function in Python?"
+    },
+    {
+      "id": 404945,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you write a single-line comment in Python?"
+    },
+    {
+      "id": 404946,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the use of adding Python to the PATH during installation?"
+    },
+    {
+      "id": 404959,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a variable in Python?"
+    },
+    {
+      "id": 404960,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the rules for naming variables in Python?"
+    },
+    {
+      "id": 404961,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you handle integer and float inputs in Python?"
+    },
+    {
+      "id": 404970,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the arithmetic operator // in Python?"
+    },
+    {
+      "id": 404971,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the ** operator do in Python?"
+    },
+    {
+      "id": 404972,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the modulus operator % used in Python?"
+    },
+    {
+      "id": 405003,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do comparison operators in Python do?"
+    },
+    {
+      "id": 405005,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the = = operator do in Python?"
+    },
+    {
+      "id": 405007,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the ! = operator in Python?"
+    },
+    {
+      "id": 405023,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of assignment operators in Python?"
+    },
+    {
+      "id": 405025,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the += operator do in Python?"
+    },
+    {
+      "id": 405026,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the **= operator work in Python?"
+    },
+    {
+      "id": 405039,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of logical operators in Python?"
+    },
+    {
+      "id": 405040,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which logical operator is used to combine conditions where both must be True?"
+    },
+    {
+      "id": 405041,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the not operator do in Python?"
+    },
+    {
+      "id": 405042,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an expression in Python?"
+    },
+    {
+      "id": 405043,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can parentheses be used in expressions?"
+    },
+    {
+      "id": 405045,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is operator precedence in Python?"
+    },
+    {
+      "id": 405077,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the if statement in Python?"
+    },
+    {
+      "id": 405078,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the if statement work in Python?"
+    },
+    {
+      "id": 405079,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can an if statement be used alone without any other control structures?"
+    },
+    {
+      "id": 405085,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the if-else statement do in Python?"
+    },
+    {
+      "id": 405086,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the syntax of the if-else statement in Python?"
+    },
+    {
+      "id": 405087,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the short-hand if-else statement different from the regular if-else statement in Python?"
+    },
+    {
+      "id": 405111,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the elif statement in the if-elif-else structure?"
+    },
+    {
+      "id": 405113,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the if-elif-else statement differ from the if-else statement?"
+    },
+    {
+      "id": 405114,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens if none of the conditions in an if-elif-else statement are true?"
+    },
+    {
+      "id": 405146,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of a while loop in Python?"
+    },
+    {
+      "id": 405148,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When does a while loop stop executing?"
+    },
+    {
+      "id": 405149,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What will happen if the condition in a while loop is always true?"
+    },
+    {
+      "id": 405151,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of a for loop in Python?"
+    },
+    {
+      "id": 405152,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can a for loop be used with a string?"
+    },
+    {
+      "id": 405153,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the for loop differ from the while loop?"
+    },
+    {
+      "id": 405177,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are functions defined in Python?"
+    },
+    {
+      "id": 405178,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of functions in Python?"
+    },
+    {
+      "id": 405180,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of modules in Python?"
+    },
+    {
+      "id": 405190,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are default parameters in Python?"
+    },
+    {
+      "id": 405191,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do default parameters work when calling a function in Python?"
+    },
+    {
+      "id": 405192,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can default parameters be used with other parameters in a function?"
+    },
+    {
+      "id": 405198,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of using libraries in Python?"
+    },
+    {
+      "id": 405199,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you generate a random number using the random library in Python?"
+    },
+    {
+      "id": 405200,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the correct syntax to import a module in Python?"
+    },
+    {
+      "id": 405202,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you import a module from a package in Python?"
+    },
+    {
+      "id": 405203,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to organize code into packages?"
+    },
+    {
+      "id": 405214,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a package in Python?"
+    },
+    {
+      "id": 405232,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a list in Python?"
+    },
+    {
+      "id": 405233,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you create a list in Python?"
+    },
+    {
+      "id": 405234,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you access an item in a list?"
+    },
+    {
+      "id": 405245,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is slicing in Python lists?"
+    },
+    {
+      "id": 405246,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the + operator do when used with lists in Python?"
+    },
+    {
+      "id": 405259,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main difference between lists and tuples in Python?"
+    },
+    {
+      "id": 405260,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does negative indexing do in Python?"
+    },
+    {
+      "id": 405269,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is modular programming in Python?"
+    },
+    {
+      "id": 405271,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the_name__ == &quot;_main_&quot; condition used in Python scripts?"
+    },
+    {
+      "id": 405284,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Object-Oriented Programming (OOP)?"
+    },
+    {
+      "id": 405285,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between a class and an object in OOP?"
+    },
+    {
+      "id": 405297,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is exception handling in Python?"
+    },
+    {
+      "id": 405298,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the try and except blocks in Python?"
+    },
+    {
+      "id": 405307,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is file handling in Python?"
+    },
+    {
+      "id": 405308,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the with statement when working with files?"
+    },
+    {
+      "id": 405309,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of testing in Python?"
+    },
+    {
+      "id": 405311,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is debugging in Python?"
+    },
+    {
+      "id": 405465,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a computational problem?"
+    },
+    {
+      "id": 405466,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three main components of a computational problem?"
+    },
+    {
+      "id": 405467,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of the process in solving a computational problem?"
+    },
+    {
+      "id": 405474,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of computational problem has a &quot;yes&quot; or &quot;no&quot; answer?"
+    },
+    {
+      "id": 444587,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three main elements needed to solve a computational problem?"
+    },
+    {
+      "id": 405480,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an algorithm?"
+    },
+    {
+      "id": 405481,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is the Generate and Test algorithm useful?"
+    },
+    {
+      "id": 405482,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two main steps in a Generate and Test algorithm?"
+    },
+    {
+      "id": 405598,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a solvable problem in computer science?"
+    },
+    {
+      "id": 405599,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of an unsolvable problem."
+    },
+    {
+      "id": 405601,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the GCD problem considered solvable?"
+    },
+    {
+      "id": 405631,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does time complexity measure?"
+    },
+    {
+      "id": 405632,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Big O notation used for?"
+    },
+    {
+      "id": 405633,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an example of a logarithmic time algorithm?"
+    },
+    {
+      "id": 405656,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the Divide and Conquer technique do?"
+    },
+    {
+      "id": 405657,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three steps in Divide and Conquer?"
+    },
+    {
+      "id": 405658,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name an algorithm that uses Divide and Conquer."
+    },
+    {
+      "id": 405676,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main idea behind Divide and Conquer?"
+    },
+    {
+      "id": 405677,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In which type of problems is Divide and Conquer most effective?"
+    },
+    {
+      "id": 405678,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can you name a sorting algorithm that uses Divide and Conquer?"
+    },
+    {
+      "id": 405679,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Dynamic Programming used for?"
+    },
+    {
+      "id": 405680,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is Dynamic Programming most effective?"
+    },
+    {
+      "id": 405681,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Dynamic Programming improve efficiency?"
+    },
+    {
+      "id": 405682,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Backtracking in algorithm design?"
+    },
+    {
+      "id": 405683,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When do we use Backtracking?"
+    },
+    {
+      "id": 405684,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens if a path fails in Backtracking?"
+    },
+    {
+      "id": 405699,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of sorting algorithms?"
+    },
+    {
+      "id": 405700,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does Bubble Sort do?"
+    },
+    {
+      "id": 405701,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the time complexity of Bubble Sort?"
+    },
+    {
+      "id": 405726,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a Binary Search algorithm work?"
+    },
+    {
+      "id": 405727,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the time complexity of Binary Search?"
+    },
+    {
+      "id": 405729,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Linear Search work?"
+    },
+    {
+      "id": 405730,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does BFS (Breadth-First Search) explore in a graph?"
+    },
+    {
+      "id": 405733,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does BFS keep track that need to be explored?"
+    },
+    {
+      "id": 405735,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main application of BFS in real-world scenarios?"
+    },
+    {
+      "id": 444756,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main idea behind the selection sort algorithm?"
+    },
+    {
+      "id": 444758,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the selection sort process move forward?"
+    },
+    {
+      "id": 444759,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the time complexity of selection sort?"
+    },
+    {
+      "id": 405356,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a list in Python?"
+    },
+    {
+      "id": 405357,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a list created in Python?"
+    },
+    {
+      "id": 405358,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an element in a list?"
+    },
+    {
+      "id": 405366,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does it mean that Python lists have dynamic size?"
+    },
+    {
+      "id": 405367,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you access elements in a list?"
+    },
+    {
+      "id": 405368,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which function is used to insert an item at a specific position in a list?"
+    },
+    {
+      "id": 405369,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two common applications of lists in programming?"
+    },
+    {
+      "id": 405371,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does LIFO stand for in the context of stacks?"
+    },
+    {
+      "id": 405372,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which operations are used in a stack?"
+    },
+    {
+      "id": 405383,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does FIFO stand for in queues?"
+    },
+    {
+      "id": 405384,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which two main operations are performed on a queue?"
+    },
+    {
+      "id": 405385,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a queue work in real life?"
+    },
+    {
+      "id": 405386,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a root node in a tree structure?"
+    },
+    {
+      "id": 405387,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a leaf in a tree structure?"
+    },
+    {
+      "id": 405388,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a tree different from a list?"
+    },
+    {
+      "id": 405399,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a graph in data structures?"
+    },
+    {
+      "id": 405400,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a graph different from a tree?"
+    },
+    {
+      "id": 405401,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give a real-life example of a graph."
+    },
+    {
+      "id": 405402,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a vertex in a graph?"
+    },
+    {
+      "id": 405403,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the degree of a vertex?"
+    },
+    {
+      "id": 405404,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a weighted graph?"
+    },
+    {
+      "id": 405787,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the mean of a dataset, and how is it calculated?"
+    },
+    {
+      "id": 405788,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the mode of a dataset, and how can it be determined?"
+    },
+    {
+      "id": 405790,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you find the median of a dataset with an even number of values?"
+    },
+    {
+      "id": 405823,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a high variance indicate about a dataset?"
+    },
+    {
+      "id": 405824,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the mean of the dataset: 50, 52, 55, 57, 60?"
+    },
+    {
+      "id": 405827,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which class had more scattered scores, Class A(50,52,55,57,60) or Class B(30,45,55,75,90)?"
+    },
+    {
+      "id": 405829,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is standard deviation?"
+    },
+    {
+      "id": 405830,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a high standard deviation indicate?"
+    },
+    {
+      "id": 405874,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is probability?"
+    },
+    {
+      "id": 405875,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the probability of getting heads when flipping a fair coin?"
+    },
+    {
+      "id": 405903,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of data collection in research?"
+    },
+    {
+      "id": 405904,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main difference between surveys and observations as data collection methods?"
+    },
+    {
+      "id": 405905,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do experiments help in data collection?"
+    },
+    {
+      "id": 405907,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is data preparation?"
+    },
+    {
+      "id": 405908,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is data cleaning important?"
+    },
+    {
+      "id": 405909,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are common problems fixed during data cleaning?"
+    },
+    {
+      "id": 405923,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by handling missing data?"
+    },
+    {
+      "id": 405924,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is imputation?"
+    },
+    {
+      "id": 405925,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does flagging a missing value mean?"
+    },
+    {
+      "id": 405943,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of outcome does logistic regression predict?"
+    },
+    {
+      "id": 405944,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does logistic regression output instead of a specific number?"
+    },
+    {
+      "id": 405945,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why should a model be regularly updated?"
+    },
+    {
+      "id": 405981,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of clustering?"
+    },
+    {
+      "id": 405982,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does K-means clustering require you to decide in advance?"
+    },
+    {
+      "id": 405983,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In the example of student performance, what characteristics are used for clustering?"
+    },
+    {
+      "id": 405984,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is model evaluation?"
+    },
+    {
+      "id": 405985,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are error metrics used for?"
+    },
+    {
+      "id": 405986,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is fairness important in modeling?"
+    },
+    {
+      "id": 405997,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is data visualization?"
+    },
+    {
+      "id": 405998,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When would you use a bar chart?"
+    },
+    {
+      "id": 406005,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which two common tools can be used to create data visualizations easily?"
+    },
+    {
+      "id": 406006,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the first step when creating a chart in Excel or Google Sheets?"
+    },
+    {
+      "id": 406007,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to add labels to charts?"
+    },
+    {
+      "id": 406018,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Artificial Intelligence (AI)?"
+    },
+    {
+      "id": 406020,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one example of cloud computing."
+    },
+    {
+      "id": 406023,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does loT stand for,and what does it do?"
+    },
+    {
+      "id": 406027,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is cloud computing?"
+    },
+    {
+      "id": 406029,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does virtualization allow?"
+    },
+    {
+      "id": 406031,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does scalability help in cloud computing?"
+    },
+    {
+      "id": 406063,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does laaS provide to users?"
+    },
+    {
+      "id": 406064,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main benefit of using PaaS for developers?"
+    },
+    {
+      "id": 406065,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is SaaS and give one example?"
+    },
+    {
+      "id": 406067,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a public cloud?"
+    },
+    {
+      "id": 406068,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why might a company choose a private cloud?"
+    },
+    {
+      "id": 406069,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a hybrid cloud work?"
+    },
+    {
+      "id": 406080,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is cloud storage used for?"
+    },
+    {
+      "id": 406081,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two cloud platforms used for web hosting."
+    },
+    {
+      "id": 406082,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is cloud computing useful for Al and machine learning?"
+    },
+    {
+      "id": 406101,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is data security important in cloud computing?"
+    },
+    {
+      "id": 406102,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is scalability in cloud computing?"
+    },
+    {
+      "id": 406104,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is compliance in the context of cloud computing?"
+    },
+    {
+      "id": 406105,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is blockchain in simple words?"
+    },
+    {
+      "id": 406108,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is blockchain considered secure?"
+    },
+    {
+      "id": 406113,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does decentralization mean in blockchain?"
+    },
+    {
+      "id": 406136,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does decentralization mean in blockchain, and why is it important?"
+    },
+    {
+      "id": 406137,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a block in blockchain, and what does it contain?"
+    },
+    {
+      "id": 406138,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a peer-to-peer (P2P) network work in blockchain?"
+    },
+    {
+      "id": 406140,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is blockchain used in cryptocurrencies like Bitcoin and Ethereum?"
+    },
+    {
+      "id": 406141,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is blockchain useful in supply chain management?"
+    },
+    {
+      "id": 406143,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can blockchain improve voting systems?"
+    },
+    {
+      "id": 406153,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are cryptocurrencies and how are they different from traditional money?"
+    },
+    {
+      "id": 406154,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a smart contract and how does it work?"
+    },
+    {
+      "id": 406157,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are some challenges of using smart contracts?"
+    },
+    {
+      "id": 406177,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does blockchain help in tracking products?"
+    },
+    {
+      "id": 406178,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the benefits of using blockchain for supply chain tracking?"
+    },
+    {
+      "id": 406179,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the decentralized nature of blockchain mean for tracking products?"
+    },
+    {
+      "id": 406200,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does blockchain improve financial transactions?"
+    },
+    {
+      "id": 406201,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is encryption in blockchain, and why is it important for security?"
+    },
+    {
+      "id": 406205,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does decentralization contribute to data security in blockchain?"
+    },
+    {
+      "id": 406211,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is edge computing, and how does it benefit cloud computing?"
+    },
+    {
+      "id": 406214,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does serverless computing reduce operational complexity for developers?"
+    },
+    {
+      "id": 406426,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Terms of Use?"
+    },
+    {
+      "id": 406427,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why should users agree to Terms of Use?"
+    },
+    {
+      "id": 406429,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can you give an example of Terms of Use in real life?"
+    },
+    {
+      "id": 406432,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are Terms of Use important for users?"
+    },
+    {
+      "id": 406433,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do Terms of Use help prevent misunderstandings?"
+    },
+    {
+      "id": 406434,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What legal benefit do Terms of Use offer to businesses?"
+    },
+    {
+      "id": 406470,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of a \"User Obligation\" clause in Terms of Use?"
+    },
+    {
+      "id": 406471,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are privacy clauses important in Terms of Use?"
+    },
+    {
+      "id": 406472,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the &quot;Termination of Service&quot; clause allow the provider to do?"
+    },
+    {
+      "id": 406473,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What can happen if a person violates Terms of Use?"
+    },
+    {
+      "id": 406474,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is fairness important in Terms of Use?"
+    },
+    {
+      "id": 406475,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What personal rights are protected in Terms of Use?"
+    },
+    {
+      "id": 406498,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is spyware?"
+    },
+    {
+      "id": 406500,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can phishing be dangerous?"
+    },
+    {
+      "id": 406501,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of cookies?"
+    },
+    {
+      "id": 406514,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does antivirus software do?"
+    },
+    {
+      "id": 406515,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you recognize a phishing attempt?"
+    },
+    {
+      "id": 406516,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is cookie management important?"
+    },
+    {
+      "id": 406587,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the digital divide?"
+    },
+    {
+      "id": 406588,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name one economic reason for the digital divide."
+    },
+    {
+      "id": 406590,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is digital literacy important in reducing the digital divide?"
+    },
+    {
+      "id": 406591,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the digital divide affect education?"
+    },
+    {
+      "id": 406593,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the link between the digital divide and unemployment?"
+    },
+    {
+      "id": 406594,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the digital divide affect civic participation?"
+    },
+    {
+      "id": 406618,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the digital divide affect health access?"
+    },
+    {
+      "id": 406619,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is digital literacy important in bridging the digital divide?"
+    },
+    {
+      "id": 406621,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can the government help bridge the digital divide?"
+    },
+    {
+      "id": 406652,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is one positive impact of computing on education?"
+    },
+    {
+      "id": 406654,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does computing affect global communication?"
+    },
+    {
+      "id": 406656,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the negative impacts of misinformation on society?"
+    },
+    {
+      "id": 406664,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is responsible digital behavior?"
+    },
+    {
+      "id": 406665,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to use strong passwords?"
+    },
+    {
+      "id": 406667,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What should you do if you receive a suspicious email asking for personal information?"
+    },
+    {
+      "id": 406679,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is cybersecurity awareness, and why is it important?"
+    },
+    {
+      "id": 406680,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can human-machine collaboration improve problem-solving?"
+    },
+    {
+      "id": 406682,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are some examples of designing digital content for accessibility?"
+    },
+    {
+      "id": 406335,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of online research?"
+    },
+    {
+      "id": 406336,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is academic research and how is it different from general information research?"
+    },
+    {
+      "id": 406337,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is fact-checking research important?"
+    },
+    {
+      "id": 406339,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are some examples of how market research can be used?"
+    },
+    {
+      "id": 406340,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is health research and how can it be useful?"
+    },
+    {
+      "id": 406341,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is digital literacy and why is it important?"
+    },
+    {
+      "id": 406342,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does it mean to evaluate sources when conducting online research?"
+    },
+    {
+      "id": 406343,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can searching for information online help people in their daily lives?"
+    },
+    {
+      "id": 406344,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it necessary to use technology in digital literacy?"
+    },
+    {
+      "id": 406345,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of how searching for information can be helpful in solving a problem?"
+    },
+    {
+      "id": 406359,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are digital resources, and how can they help in learning?"
+    },
+    {
+      "id": 406360,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are academic journals, and why are they considered trustworthy sources of information?"
+    },
+    {
+      "id": 406362,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you improve your online search for research materials?"
+    },
+    {
+      "id": 406363,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to manage digital information effectively?"
+    },
+    {
+      "id": 406364,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What tools can help in organizing and managing research information?"
+    },
+    {
+      "id": 406370,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of research ethics?"
+    },
+    {
+      "id": 406371,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is informed consent important in research?"
+    },
+    {
+      "id": 406372,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does confidentiality mean in research ethics?"
+    },
+    {
+      "id": 406373,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a researcher ensure integrity in their study?"
+    },
+    {
+      "id": 406374,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of respect for participants in research ethics?"
+    },
+    {
+      "id": 406375,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is intellectual property?"
+    },
+    {
+      "id": 406381,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of a patent?"
+    },
+    {
+      "id": 406382,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do trademarks help consumers?"
+    },
+    {
+      "id": 406383,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does copyright protect?"
+    },
+    {
+      "id": 406384,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you protect your inventions?"
+    },
+    {
+      "id": 406385,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a trademark protect?"
+    },
+    {
+      "id": 406386,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is copyright important?"
+    },
+    {
+      "id": 406387,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a trade secret?"
+    },
+    {
+      "id": 406388,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of intellectual property protection?"
+    },
+    {
+      "id": 406783,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the first step in Design Thinking?"
+    },
+    {
+      "id": 406784,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to create a prototype?"
+    },
+    {
+      "id": 406786,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the &quot;Ideate&quot; step help in the Design Thinking process?"
+    },
+    {
+      "id": 406788,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a business solution?"
+    },
+    {
+      "id": 406790,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Design Thinking help businesses?"
+    },
+    {
+      "id": 406791,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a business solution for a grocery store."
+    },
+    {
+      "id": 406810,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a business plan?"
+    },
+    {
+      "id": 406811,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a market analysis important in a business plan?"
+    },
+    {
+      "id": 406812,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the financial plan in a business plan?"
+    },
+    {
+      "id": 406826,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main benefit of using business plan software?"
+    },
+    {
+      "id": 406827,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do business plan tools like PlanGuru and Enloop help with financial planning?"
+    },
+    {
+      "id": 406828,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of business is PlanGuru or Enloop software useful for?"
+    },
+    {
+      "id": 406829,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main benefit of using collaborative tools like Google Drive or Dropbox Paper?"
+    },
+    {
+      "id": 406830,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can team collaboration improve the business planning process?"
+    },
+    {
+      "id": 406831,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What kind of work can you do simultaneously using collaborative tools in a business plan?"
+    },
+    {
+      "id": 406845,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of collecting market insights?"
+    },
+    {
+      "id": 406846,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two main types of market research techniques?"
+    },
+    {
+      "id": 406847,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can market research help with product development?"
+    },
+    {
+      "id": 406851,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is qualitative research?"
+    },
+    {
+      "id": 406853,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is quantitative research?"
+    },
+    {
+      "id": 406854,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one example of qualitative research."
+    },
+    {
+      "id": 406858,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one example of quantitative research."
+    },
+    {
+      "id": 406859,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is market research important for a business?"
+    },
+    {
+      "id": 406883,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a customer survey?"
+    },
+    {
+      "id": 406884,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a business use customer surveys?"
+    },
+    {
+      "id": 406885,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a focus group?"
+    },
+    {
+      "id": 406887,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a focus group helpful in business planning?"
+    },
+    {
+      "id": 406889,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of using a focus group in a bakery business."
+    },
+    {
+      "id": 406893,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does analyzing market data mean?"
+    },
+    {
+      "id": 406895,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a market trend?"
+    },
+    {
+      "id": 406896,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is market segmentation?"
+    },
+    {
+      "id": 406898,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does competitor analysis help a business?"
+    },
+    {
+      "id": 406899,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is predictive analysis?"
+    },
+    {
+      "id": 406901,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one reason why analyzing data is important."
+    },
+    {
+      "id": 406904,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do businesses study competitors?"
+    },
+    {
+      "id": 406906,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is predictive analysis used for?"
+    },
+    {
+      "id": 406908,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main benefit of making data-driven decisions?"
+    },
+    {
+      "id": 406910,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of data-driven decision-making."
+    },
+    {
+      "id": 406963,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a business pitch?"
+    },
+    {
+      "id": 406964,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the first step of pitching a business idea?"
+    },
+    {
+      "id": 406965,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to know your audience in a pitch?"
+    },
+    {
+      "id": 406966,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What should you be ready for after giving a pitch?"
+    },
+    {
+      "id": 406967,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is pitching important?"
+    },
+    {
+      "id": 406968,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the first step before marketing a product?"
+    },
+    {
+      "id": 406969,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a marketing plan?"
+    },
+    {
+      "id": 406970,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are sales strategies?"
+    },
+    {
+      "id": 406971,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to understand customer needs?"
+    },
+    {
+      "id": 406972,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of using social media in a sales strategy."
+    },
+    {
+      "id": 406986,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is revenue in a business?"
+    },
+    {
+      "id": 406987,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is profit different from revenue?"
+    },
+    {
+      "id": 406988,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are expenses in business?"
+    },
+    {
+      "id": 406989,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is budgeting important for a business?"
+    },
+    {
+      "id": 406990,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a business expense."
+    },
+    {
+      "id": 406991,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an investment in business?"
+    },
+    {
+      "id": 406992,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do businesses save money?"
+    },
+    {
+      "id": 406993,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a loan?"
+    },
+    {
+      "id": 406994,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is interest?"
+    },
+    {
+      "id": 407000,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of how savings can help a business."
+    },
+    {
+      "id": 445383,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a loan and an investment."
+    },
+    {
+      "id": 407024,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is communication?"
+    },
+    {
+      "id": 407025,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two types of communication?"
+    },
+    {
+      "id": 407027,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is speaking clearly important?"
+    },
+    {
+      "id": 407029,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can body language affect communication?"
+    },
+    {
+      "id": 407030,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is listening important during communication?"
+    },
+    {
+      "id": 407039,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is storytelling?"
+    },
+    {
+      "id": 407041,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can storytelling improve a debate?"
+    },
+    {
+      "id": 407045,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why should you know your audience when communicating or telling a story?"
+    },
+    {
+      "id": 407049,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do visual aids play in storytelling?"
+    },
+    {
+      "id": 407053,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you show emotion while telling a story?"
+    },
+    {
+      "id": 407055,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is collaboration?"
+    },
+    {
+      "id": 407056,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does iteration mean?"
+    },
+    {
+      "id": 407058,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of iteration in daily life."
+    },
+    {
+      "id": 407059,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is collaboration important?"
+    },
+    {
+      "id": 407061,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do collaboration and iteration work together?"
+    },
+    {
+      "id": 407103,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is innovation?"
+    },
+    {
+      "id": 407104,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is creativity useful in business?"
+    },
+    {
+      "id": 407106,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is curiosity important for innovation?"
+    },
+    {
+      "id": 407107,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can collaboration help creativity?"
+    }
+  ],
+  "type": "short"
+}

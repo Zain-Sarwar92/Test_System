@@ -1,0 +1,48 @@
+{
+  "course": {
+    "CourseID": 1,
+    "name": "PTB"
+  },
+  "class": {
+    "ClassID": 12,
+    "name": "INTER-II"
+  },
+  "subject": {
+    "SubjectID": 119,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 12,
+    "SubjectName": "MATHEMATICS",
+    "Category": "SNC-2026",
+    "ImageUrl": "/images/subjects/637341238908204204.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2026-08-08T09:52:36.127",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "slug": "mathematics",
+  "exportTypes": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "chapters": [],
+  "topics": []
+}

@@ -1,0 +1,921 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Computer",
+  "slug": "computer",
+  "source": "PTS PTB INTER-II (Class 12) Computer (read-only export)",
+  "total_questions": 478,
+  "counts": {
+    "mcq": 198,
+    "short": 190,
+    "long": 90
+  },
+  "fieldCounts": {
+    "MCQ": 198,
+    "QA": 190,
+    "LONG": 90
+  },
+  "questions": [
+    {
+      "id": 530123,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define a computer network. Explain its importance and uses in daily life."
+    },
+    {
+      "id": 530124,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain network architecture and describe the main components of a computer network."
+    },
+    {
+      "id": 530127,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the types of computer networks. Describe LAN, WAN, and the Internet."
+    },
+    {
+      "id": 530128,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the main networking devices used in a computer network and explain their functions."
+    },
+    {
+      "id": 530126,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define network topology. Explain bus, star, ring, and mesh topologies with advantages and disadvantages."
+    },
+    {
+      "id": 530125,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the OSI model? Explain its layers and their functions."
+    },
+    {
+      "id": 530129,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are network protocols? Explain TCP/IP, HTTP, FTP, and DNS."
+    },
+    {
+      "id": 530130,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain IP addressing. Describe IPv4, IPv6, the default gateway, and subnetting."
+    },
+    {
+      "id": 530165,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain computational thinking and discuss its importance in solving problems with suitable examples."
+    },
+    {
+      "id": 530166,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the steps involved in problem solving using computational thinking. Explain decomposition with an example."
+    },
+    {
+      "id": 530167,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is logic as a knowledge representation framework? Explain its role in reasoning and decision making."
+    },
+    {
+      "id": 530168,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain propositional logic. Discuss simple and compound propositions with examples."
+    },
+    {
+      "id": 530169,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are truth tables? Explain how truth tables are created and used to evaluate logical expressions."
+    },
+    {
+      "id": 530170,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain propositional equivalence. Describe how equivalent logical expressions are identified and why equivalence is important."
+    },
+    {
+      "id": 530172,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is propositional satisfiability? Explain satisfiable and unsatisfiable propositions with examples."
+    },
+    {
+      "id": 530173,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain predicate logic and quantifiers. Discuss how predicate logic is applied to real-world problems."
+    },
+    {
+      "id": 530284,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of classes and objects in Object-Oriented Programming (OOP)."
+    },
+    {
+      "id": 530286,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is encapsulation in OOP?"
+    },
+    {
+      "id": 530287,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does inheritance work in OOP?"
+    },
+    {
+      "id": 530289,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the advantages of using inheritance in Python?"
+    },
+    {
+      "id": 530290,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is polymorphism in OOP, and how does it enhance flexibility in code?"
+    },
+    {
+      "id": 530292,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can encapsulation help improve data security in OOP?"
+    },
+    {
+      "id": 530294,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the combination of inheritance, encapsulation, and polymorphism contribute to better software design?"
+    },
+    {
+      "id": 530295,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the key differences between a class and an object in Object-Oriented Programming?"
+    },
+    {
+      "id": 530461,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of data science and discuss its importance in modern applications."
+    },
+    {
+      "id": 530462,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe different types of data and explain various data sources and collection methods."
+    },
+    {
+      "id": 530463,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of machine learning and describe its different mechanisms, including supervised, unsupervised, reinforcement, and rule-based learning."
+    },
+    {
+      "id": 530464,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the applications of machine learning in healthcare, business, education, and daily life."
+    },
+    {
+      "id": 530465,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the steps involved in building a machine learning model, including feature selection, feature engineering, and train-test split."
+    },
+    {
+      "id": 530466,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe model evaluation techniques and explain accuracy, precision, recall, and F1-score."
+    },
+    {
+      "id": 530467,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain validation in machine learning and discuss how models can be improved using parameter tuning."
+    },
+    {
+      "id": 530468,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss predictive modeling and causality, and explain the importance of model interpretation in real-world use cases."
+    },
+    {
+      "id": 530365,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of Graphical User Interface (GUI) and discuss its importance in application development."
+    },
+    {
+      "id": 530366,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe Tkinter as Python's built-in GUI toolkit."
+    },
+    {
+      "id": 530367,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the key components and widgets in Tkinter?"
+    },
+    {
+      "id": 530368,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is layout management in Tkinter, and how are elements organized using pack(), grid(), and place()?"
+    },
+    {
+      "id": 530370,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can you design clean and responsive user interfaces in Tkinter?"
+    },
+    {
+      "id": 530371,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of event-driven programming in Tkinter."
+    },
+    {
+      "id": 530372,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you handle user input and connect widgets to functions in Tkinter?"
+    },
+    {
+      "id": 530373,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the process of connecting Python to a database using SQLite or MySQL."
+    },
+    {
+      "id": 530411,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is testing essential for reliable applications, and what role does it play in ensuring program stability?"
+    },
+    {
+      "id": 530413,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the common types of programming errors and bugs that occur during software development."
+    },
+    {
+      "id": 530414,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is unit testing, and how do Python's unittest and pytest modules support effective testing?"
+    },
+    {
+      "id": 530415,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the process of writing and executing test cases using Python's unittest or pytest modules."
+    },
+    {
+      "id": 530416,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do breakpoints and watch expressions help in debugging? Discuss their role in identifying issues in the code."
+    },
+    {
+      "id": 530417,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how to set breakpoints in IDEs like PyCharm or VS Code, and explain their significance in the debugging process."
+    },
+    {
+      "id": 530418,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is step-by-step debugging, and how does it help in identifying and fixing bugs in Python programs?"
+    },
+    {
+      "id": 530419,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does exception handling work in Python? Explain how to handle multiple exception types effectively to prevent program crashes."
+    },
+    {
+      "id": 530530,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of hypothesis testing and its role in data analysis."
+    },
+    {
+      "id": 530531,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe different types of hypotheses and explain how to formulate correct hypotheses."
+    },
+    {
+      "id": 530532,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain key concepts in hypothesis testing, including test statistics, critical region, and p-value."
+    },
+    {
+      "id": 530534,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the steps involved in performing hypothesis testing with a suitable example."
+    },
+    {
+      "id": 530535,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the importance of data visualization in hypothesis testing and how graphs help present results."
+    },
+    {
+      "id": 530536,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss ethical issues in data science, including bias, ethical use of data, and responsible communication."
+    },
+    {
+      "id": 530537,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how to interpret hypothesis testing results and connect conclusions to hypotheses."
+    },
+    {
+      "id": 530539,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how findings should be communicated clearly in data analysis and why it is important."
+    },
+    {
+      "id": 530609,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how Artificial Intelligence (AI), the Internet of Things (IoT), Cloud Computing, and Blockchain are transforming modern industries. Give suitable examples for each technology."
+    },
+    {
+      "id": 530610,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the benefits and challenges of Artificial Intelligence (AI) in society. How can ethical principles ensure fair and responsible use of AI?"
+    },
+    {
+      "id": 530612,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how IoT devices collect and communicate data for automation. How is IoT improving sectors such as healthcare, agriculture, and smart homes?"
+    },
+    {
+      "id": 530613,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how Cloud Computing supports scalability, accessibility, and collaboration. Compare different cloud platforms like Google Drive, AWS, and Microsoft Azure."
+    },
+    {
+      "id": 530614,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is Blockchain technology? Discuss how its decentralized nature improves transparency and security in financial and non-financial applications."
+    },
+    {
+      "id": 530615,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify key national challenges in Pakistan and describe how emerging technologies (AI, IoT, Cloud, Blockchain) can provide effective and innovative solutions."
+    },
+    {
+      "id": 530616,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the ethical and cultural considerations involved in designing AI systems. How can developers ensure inclusivity and respect for local values?"
+    },
+    {
+      "id": 530617,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the importance of policies, regulations, and interdisciplinary collaboration in promoting responsible innovation. How can Pakistan benefit from adopting global AI governance standards?"
+    },
+    {
+      "id": 530649,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the importance of online safety and describe how strong passwords and safe browsing habits protect personal data."
+    },
+    {
+      "id": 530650,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the role of software updates and security patches in maintaining computer security, and explain the risks associated with outdated software."
+    },
+    {
+      "id": 530651,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how privacy and security settings on online platforms can be managed. Explain why reading privacy policies is important for data protection."
+    },
+    {
+      "id": 530652,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain different types of cyber threats such as viruses, phishing, ransomware, spyware, and DDoS attacks. Discuss how these threats can affect both individuals and organizations."
+    },
+    {
+      "id": 530653,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss security tools and techniques like Two-Factor Authentication (2FA), biometric verification, firewalls, intrusion detection systems (IDS), and antivirus software. Explain how each helps in protecting data."
+    },
+    {
+      "id": 530654,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of entrepreneurship and describe how digital technologies have created new opportunities for entrepreneurs. Include at least three examples of digital entrepreneurship."
+    },
+    {
+      "id": 530655,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the legal aspects of computing by discussing international frameworks like GDPR and cybercrime laws and data protection policies in Pakistan. How do these laws protect digital information?"
+    },
+    {
+      "id": 530656,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the environmental and social impacts of computing. Explain how e-waste management and sustainable computing practices can reduce harm to the environment, and describe the role of technology in cultural and societal change."
+    },
+    {
+      "id": 531463,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the fundamental concept of Computer Networks. Also explain the use of computer networks in modern era."
+    },
+    {
+      "id": 531486,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of network architecture, its three core elements, and why a good architecture is essential for efficiency and future expansion."
+    },
+    {
+      "id": 531519,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain Local Area Networks (LAN) and Wide Area Networks (WAN), detailing their coverage area, ownership, speed, transmission media, and cost efficiency."
+    },
+    {
+      "id": 531520,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the Internet as a Public WAN, explaining how standard communication protocols enable worldwide information sharing across services such as email, websites, and cloud storage."
+    },
+    {
+      "id": 531631,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare Bus, Star, and Ring topologies in terms of central control dependence, failure impact, ease of installation, and modern usability."
+    },
+    {
+      "id": 531632,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on Bus, Star, Ring, Mesh, Hybrid topologies. Also write there advantages and disadvantages."
+    },
+    {
+      "id": 531663,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the OSI model by listing all seven layers in order from bottom to top and describing the specific functions, responsibilities, and protocols associated with each layer."
+    },
+    {
+      "id": 531664,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is OSI model? Explain any four layers in detail."
+    },
+    {
+      "id": 531683,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of network protocols, also explain functions of TCP/IP, HTTP, FTP and DNS."
+    },
+    {
+      "id": 531684,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between HTTP and HTTPs."
+    },
+    {
+      "id": 531789,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare and contrast IPv4 and IPv6 addressing schemes, detailing their formatting structure, bit lengths, total address capacity, and the specific breakdown of their component parts."
+    },
+    {
+      "id": 531791,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concepts of Subnetting and Network Address Translation (NAT)."
+    },
+    {
+      "id": 531831,
+      "chapter": 1,
+      "topic_id": "1.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare wired and wireless network connections in terms of speed, mobility, security, ease of installation, and stability."
+    },
+    {
+      "id": 531926,
+      "chapter": 1,
+      "topic_id": "1.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain in detail the concept of Router Web Interface. Also give detailed note on Router Configuration, WiFi Encryption and Default Gateway."
+    },
+    {
+      "id": 531938,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the significance of network troubleshooting, detailing how diagnostic tools reduce downtime and help maintain smooth communication across devices."
+    },
+    {
+      "id": 531939,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the operation of the ping command, including its syntax, underlying transmission mechanism, response time measurement, and how to interpret its output for diagnosing network delay issues."
+    },
+    {
+      "id": 531949,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the ping command tests network connectivity by sending data packets and measuring response times to detect delays or connection failures."
+    },
+    {
+      "id": 531950,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare network configuration tools (ipconfig and ifconfig) with remote management utilities (Telnet, PuTTY, and SSH), focusing on their settings and data encryption security."
+    }
+  ],
+  "type": "long"
+}

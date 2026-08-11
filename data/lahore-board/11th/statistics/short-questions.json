@@ -1,0 +1,6811 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Statistics",
+  "slug": "statistics",
+  "source": "PTS PTB INTER-I (Class 11) Statistics (read-only export)",
+  "total_questions": 1359,
+  "counts": {
+    "mcq": 438,
+    "short": 679,
+    "long": 242
+  },
+  "fieldCounts": {
+    "MCQ": 438,
+    "QA": 679,
+    "LONG": 242
+  },
+  "questions": [
+    {
+      "id": 275565,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the word statistics."
+    },
+    {
+      "id": 275568,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the term, Population and sample."
+    },
+    {
+      "id": 275569,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the term, Parameter and statistic."
+    },
+    {
+      "id": 275575,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the following using a summation sign with appropriate index. Y3 + Y4 + ... + Y15"
+    },
+    {
+      "id": 275577,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the following using a summation sign with appropriate index. <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-40.svg\" />"
+    },
+    {
+      "id": 275578,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the following using a summation sign with appropriate index. <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-41.svg\" />"
+    },
+    {
+      "id": 275579,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the following using a summation sign with appropriate index. <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-42.svg\" style=\"width: 172px; height: 22px;\" />"
+    },
+    {
+      "id": 275580,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Expand the following summation and product sign? <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-43.svg\" />"
+    },
+    {
+      "id": 275582,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Expand the following summation and product sign? <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-44.svg\" />"
+    },
+    {
+      "id": 275583,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Expand the following summation and product sign? <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-45.svg\" />"
+    },
+    {
+      "id": 275584,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Expand the following summation and product sign? <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-46.svg\" />"
+    },
+    {
+      "id": 275586,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Expand the following summation and product sign? <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-47.svg\" />"
+    },
+    {
+      "id": 275587,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Expand the following summation and product sign? <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-48.svg\" />"
+    },
+    {
+      "id": 275591,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Expand the following summation and product sign? <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-49.svg\" />"
+    },
+    {
+      "id": 275603,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify the following as categorical, discrete or continuous variable: Sex of an insect"
+    },
+    {
+      "id": 275605,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify the following as categorical, discrete or continuous variable: Weights of plants"
+    },
+    {
+      "id": 275606,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify the following as categorical, discrete or continuous variable: Major crops of Pakistan"
+    },
+    {
+      "id": 275608,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify the following as categorical, discrete or continuous variable: Level of satisfaction"
+    },
+    {
+      "id": 275609,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify the following as categorical, discrete or continuous variable: Teaching standards"
+    },
+    {
+      "id": 275611,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Classify the following as categorical, discrete or continuous variable: Temperature measured in Fahrenheit"
+    },
+    {
+      "id": 276312,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between one-way and two-way tables."
+    },
+    {
+      "id": 276315,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain &quot;Classification according to attributes.&quot;"
+    },
+    {
+      "id": 276316,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain &quot;Class limits.&quot;"
+    },
+    {
+      "id": 276318,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain &quot;Length of class interval.&quot;"
+    },
+    {
+      "id": 276319,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain &quot;Class frequency.&quot;"
+    },
+    {
+      "id": 276340,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by tabulation?"
+    },
+    {
+      "id": 276344,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is frequency distribution?"
+    },
+    {
+      "id": 276301,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the Histogram."
+    },
+    {
+      "id": 276306,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the frequency polygon."
+    },
+    {
+      "id": 276307,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the frequency curve."
+    },
+    {
+      "id": 276329,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define frequency Histogram."
+    },
+    {
+      "id": 276331,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down the important points for drawing graphs?"
+    },
+    {
+      "id": 276348,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain &quot;A Bar diagram&quot;."
+    },
+    {
+      "id": 276349,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain &quot;Subdivided bar diagram&quot;."
+    },
+    {
+      "id": 276350,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain &quot;Multiple bar diagram&quot;."
+    },
+    {
+      "id": 276678,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the geometric mean of 50, 67, 39, 40, 36, 60, 54, 43."
+    },
+    {
+      "id": 277248,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is semi-inter quartile range?"
+    },
+    {
+      "id": 277249,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define range and discuss its uses."
+    },
+    {
+      "id": 277256,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following table gives the marks of students: Marks 30-39 40-49 50-59 60-69 70-79 f 8 87 190 86 20 Calculate: \"Quartile deviation\"."
+    },
+    {
+      "id": 277303,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the moment ratios b1 and b2."
+    },
+    {
+      "id": 277257,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following table gives the marks of students: Marks 30-39 40-49 50-59 60-69 70-79 f 8 87 190 86 20 Calculate: \"Co-efficient of skewness\"."
+    },
+    {
+      "id": 277341,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What can you say of skewness in each of the following case: Q2 = 26.01, Q3 = 38.29, Q1 = 13.73"
+    },
+    {
+      "id": 277342,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What can you say of skewness of the following case: Mean = 1403 and Mode = 1487"
+    },
+    {
+      "id": 277388,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What can you say about skewness in the following case: Median is 26.01 while two Quartiles are 13.73 and 28.29."
+    },
+    {
+      "id": 277390,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What can you say about skewness in the following case: Mean = 140 and Mode = 148.7."
+    },
+    {
+      "id": 277391,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What can you say about skewness in the following case: First three moments about 16 are 0.35, 2.9 and 1.93 respectively"
+    },
+    {
+      "id": 278815,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 3, 5, 7}, B= {2, 4, 6, 8}, C= {1, 2, 3, 4, 5} and S= {1, 2, 3, 4, 5, 6, 7, 8} List the elements of the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-193.svg\" />"
+    },
+    {
+      "id": 278816,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 3, 5, 7}, B= {2, 4, 6, 8}, C= {1, 2, 3, 4, 5} and S= {1, 2, 3, 4, 5, 6, 7, 8} List the elements of the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-194.svg\" />"
+    },
+    {
+      "id": 278817,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 3, 5, 7}, B= {2, 4, 6, 8}, C= {1, 2, 3, 4, 5} and S= {1, 2, 3, 4, 5, 6, 7, 8} List the elements of the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-195.svg\" />"
+    },
+    {
+      "id": 278818,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 3, 5, 7}, B= {2, 4, 6, 8}, C= {1, 2, 3, 4, 5} and S= {1, 2, 3, 4, 5, 6, 7, 8} List the elements of the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-196.svg\" />"
+    },
+    {
+      "id": 278832,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 4}, B= {2, 3}, C= {3} be the subsets of the universal set S= {1, 2, 3, 4}, find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-204.svg\" />"
+    },
+    {
+      "id": 278833,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 4}, B= {2, 3}, C= {3} be the subsets of the universal set S= {1, 2, 3, 4}, find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-205.svg\" />"
+    },
+    {
+      "id": 278834,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 4}, B= {2, 3}, C= {3} be the subsets of the universal set S= {1, 2, 3, 4}, find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-206.svg\" />"
+    },
+    {
+      "id": 278822,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: 7!"
+    },
+    {
+      "id": 278823,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: 16!/8!"
+    },
+    {
+      "id": 278824,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: 17!8!4!"
+    },
+    {
+      "id": 278825,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-197.svg\" />"
+    },
+    {
+      "id": 278826,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-198.svg\" />"
+    },
+    {
+      "id": 278827,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-199.svg\" />"
+    },
+    {
+      "id": 278828,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-200.svg\" />"
+    },
+    {
+      "id": 278829,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-201.svg\" />"
+    },
+    {
+      "id": 278830,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-202.svg\" />"
+    },
+    {
+      "id": 278831,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let A= {1, 4}, B= {2, 3}, C= {3} be the subsets of the universal set S= {1, 2, 3, 4}, find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-203.svg\" />"
+    },
+    {
+      "id": 278835,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you understand by sample space?"
+    },
+    {
+      "id": 278836,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you understand by event?"
+    },
+    {
+      "id": 278837,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you understand by sample point?"
+    },
+    {
+      "id": 278838,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you understand by simple and compound event?"
+    },
+    {
+      "id": 278842,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability of the following: A head appears in tossing a fair coin."
+    },
+    {
+      "id": 278843,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability of the following: A 5 appears in rolling a six faced cubical dice."
+    },
+    {
+      "id": 278844,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability of the following: An even number appears when a perfect cubical die is rolled."
+    },
+    {
+      "id": 278869,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag contains 5 white and 7 black balls. If 3 balls are drawn from the bag, what is the probability that; All are white."
+    },
+    {
+      "id": 278871,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag contains 5 white and 7 black balls. If 3 balls are drawn from the bag, what is the probability that; Two are white and one is black."
+    },
+    {
+      "id": 278872,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag contains 5 white and 7 black balls. If 3 balls are drawn from the bag, what is the probability that; All are of the same colour?"
+    },
+    {
+      "id": 278873,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the probability for the following events: The sum 8 appears in a single toss of a pair of fair dice."
+    },
+    {
+      "id": 278874,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the probability for the following events: A sum 7 or 11 comes up in a single toss of a pair of fair dice."
+    },
+    {
+      "id": 278875,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the probability for the following events: A ball drawn at random from a bag containing 5 red, 6 white, 4 blue and 3 orange balls is either red or blue."
+    },
+    {
+      "id": 278877,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two card are drawn at random from a well shuffled pack of 52 cards. Find the probability that: One is king and other is queen."
+    },
+    {
+      "id": 278878,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two card are drawn at random from a well shuffled pack of 52 cards. Find the probability that: Both are of same colour."
+    },
+    {
+      "id": 278879,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two card are drawn at random from a well shuffled pack of 52 cards. Find the probability that: Both are of different colours."
+    },
+    {
+      "id": 278893,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by conditional probability?"
+    },
+    {
+      "id": 278912,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability that a man will alive in 25 years is 3/5 and that his wife will be alive in 25 years is 2/3, find the probability that: Both will alive in 25 years."
+    },
+    {
+      "id": 278913,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability that a man will alive in 25 years is 3/5 and that his wife will be alive in 25 years is 2/3, find the probability that: Only the man will alive in 25 years."
+    },
+    {
+      "id": 278915,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability that a man will alive in 25 years is 3/5 and that his wife will be alive in 25 years is 2/3, find the probability that: Only the wife will alive in 25 years."
+    },
+    {
+      "id": 278916,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability that a man will alive in 25 years is 3/5 and that his wife will be alive in 25 years is 2/3, find the probability that: Atleast one will alive in 25 years."
+    },
+    {
+      "id": 278917,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability that a man will alive in 25 years is 3/5 and that his wife will be alive in 25 years is 2/3, find the probability that: None of them will alive in 25 years."
+    },
+    {
+      "id": 278918,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability that a man will alive in 25 years is 3/5 and that his wife will be alive in 25 years is 2/3, find the probability that: At the most one will alive in 25 years."
+    },
+    {
+      "id": 278956,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "3 coins are tossed, what is the probability of getting atleast one head?"
+    },
+    {
+      "id": 280050,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Check whether the following function satisfy the conditions of a probability function? f(y) = 1/4 for y = 1,2,3,4,5"
+    },
+    {
+      "id": 280052,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Check whether the following function satisfy the conditions of a probability function? f(y) = 1/y for y = 1,2,3,4"
+    },
+    {
+      "id": 280053,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Check whether the following function satisfy the conditions of a probability function? f(y) = y/15 for y = 0,1,2,3,4,5"
+    },
+    {
+      "id": 280054,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Check whether the following function satisfy the conditions of a probability function? f(y) = (5 - y2)/6 for y = 0,1,2,3"
+    },
+    {
+      "id": 280107,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has probability density function giving f(x) = cx for 0 < X < 2. Find c."
+    },
+    {
+      "id": 280108,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has probability density function giving f(x) = cx for 0 < X < 2. Find probability that 1 < X < 1.5."
+    },
+    {
+      "id": 280110,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has probability density function giving f(x) = cx for 0 < X < 2. Find probability that X < 1.5."
+    },
+    {
+      "id": 280119,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From lot containing 12 items, 4 of which are defective, 5 are chosen at random. If X is the number of defective items found in the sample, write down. <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-64.svg\" />."
+    },
+    {
+      "id": 280124,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From lot containing 12 items, 4 of which are defective, 5 are chosen at random. If X is the number of defective items found in the sample, write down. Verify <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-65.svg\" />."
+    },
+    {
+      "id": 280144,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has a density function <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-67.svg\" /> for X = 2 to X = 4. Find P(X < 3.5)"
+    },
+    {
+      "id": 280145,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has a density function <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-67.svg\" /> for X = 2 to X = 4. Find P(2.4 < X < 3.5)"
+    },
+    {
+      "id": 280146,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has a density function <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-67.svg\" /> for X = 2 to X = 4. Find P(X = 1.5)."
+    },
+    {
+      "id": 280149,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has a density function given by <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-68.svg\" /> 5P(X < 4)."
+    },
+    {
+      "id": 280151,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X has a density function given by P(3 < X < 4)."
+    },
+    {
+      "id": 280154,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X which can assume values between X = 2 and X = 8 inclusive has a density function given by a(x+30), where 'a' is a constant. Find a."
+    },
+    {
+      "id": 280155,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X which can assume values between X = 2 and X = 8 inclusive has a density function given by a(x+30), where 'a' is a constant. Find P(3 < X < 6)."
+    },
+    {
+      "id": 280158,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X which can assume values between X = 2 and X = 8 inclusive has a density function given by a(x+30), where 'a' is a constant. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-69.svg\" />."
+    },
+    {
+      "id": 280160,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X which can assume values between X = 2 and X = 8 inclusive has a density function given by a(x+30), where 'a' is a constant. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-70.svg\" />."
+    },
+    {
+      "id": 280178,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the expected value for a random variable."
+    },
+    {
+      "id": 280192,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For the following Probability distribution. Find E(X) x -10 -20 30 P(X) 1/5 3/100 1/2"
+    },
+    {
+      "id": 280193,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For the following Probability distribution. Find E(X2) x -10 -20 30 P(X) 1/5 3/100 1/2"
+    },
+    {
+      "id": 280195,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For the following Probability distribution. Find E [ X-E (X) ]2 x -10 -20 30 P(X) 1/5 3/100 1/2"
+    },
+    {
+      "id": 280197,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define expectation of a random variable."
+    },
+    {
+      "id": 279524,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the Binominal Probability Distribution."
+    },
+    {
+      "id": 279527,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability i.e., tossing a fair coin four times there will appear 4 heads."
+    },
+    {
+      "id": 279528,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability i.e., tossing a fair coin four times there will appear 1 tail and 3 heads."
+    },
+    {
+      "id": 279529,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability i.e., tossing a fair coin four times there will appear at least 2 heads."
+    },
+    {
+      "id": 279530,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability i.e., tossing a fair coin four times there will appear at the most 2 heads."
+    },
+    {
+      "id": 279538,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If 8 coins are tossed what is the probability that there are exactly 5 heads."
+    },
+    {
+      "id": 279539,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If 8 coins are tossed what is the probability that there are 1 to 7 heads."
+    },
+    {
+      "id": 279552,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the binomial distribution whose mean is 12 and standard deviation is 3."
+    },
+    {
+      "id": 279553,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the mean and variance of the binomial distribution (q+p)3."
+    },
+    {
+      "id": 275383,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define statistics as a discipline of science."
+    },
+    {
+      "id": 275386,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given an example of the population and the sample."
+    },
+    {
+      "id": 275387,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is data?"
+    },
+    {
+      "id": 275393,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the aim of collecting numerical data for a statistical study?"
+    },
+    {
+      "id": 275394,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define statistics in singular sense."
+    },
+    {
+      "id": 275397,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Enumerate four uses of statistics."
+    },
+    {
+      "id": 275399,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is accuracy of measurement?"
+    },
+    {
+      "id": 275400,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Explain the meaning of accuracy of measurement by an example."
+    },
+    {
+      "id": 275401,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "When is meaning of error of measurement?"
+    },
+    {
+      "id": 275403,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are compensating errors?"
+    },
+    {
+      "id": 275404,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are biased errors?"
+    },
+    {
+      "id": 275415,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give x1 = 2, x2 = 8, x3 = -6, x4 = 1, x5 = 0 find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap1-3.svg\" /> (xi - a), when a = 2."
+    },
+    {
+      "id": 275416,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write two functions of statistics."
+    },
+    {
+      "id": 275421,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Distinguish between primary and secondary data."
+    },
+    {
+      "id": 275437,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the importance of Statistics in different fields?"
+    },
+    {
+      "id": 275423,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define variable and constant."
+    },
+    {
+      "id": 275424,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Distinguish between variable and attribute."
+    },
+    {
+      "id": 275425,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between discrete and continuous variables."
+    },
+    {
+      "id": 275427,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given an example each of the discrete and continuous variables."
+    },
+    {
+      "id": 275429,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between discrete and continuous data."
+    },
+    {
+      "id": 275430,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between quantitative and qualitative data."
+    },
+    {
+      "id": 275441,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between a Variable and a Random variable."
+    },
+    {
+      "id": 275443,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Descriptive Statistics."
+    },
+    {
+      "id": 275419,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Inferential Statistics."
+    },
+    {
+      "id": 275422,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give an example each of primary and secondary data."
+    },
+    {
+      "id": 275433,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Name the sources of primary data."
+    },
+    {
+      "id": 275435,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write any two sources of secondary data."
+    },
+    {
+      "id": 275648,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is presentation of data?"
+    },
+    {
+      "id": 275650,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is classification?"
+    },
+    {
+      "id": 275654,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the types of classification?"
+    },
+    {
+      "id": 275667,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Distinguish between one way classification and two ways classifications."
+    },
+    {
+      "id": 275652,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the four bases of classification of data."
+    },
+    {
+      "id": 275668,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a table?"
+    },
+    {
+      "id": 275669,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the main parts of a table."
+    },
+    {
+      "id": 275670,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define title."
+    },
+    {
+      "id": 275671,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define prefatory note."
+    },
+    {
+      "id": 275672,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between the row caption and stub."
+    },
+    {
+      "id": 275673,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between column caption and box-head."
+    },
+    {
+      "id": 275674,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define body of table."
+    },
+    {
+      "id": 275675,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define foot note."
+    },
+    {
+      "id": 275676,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define source note."
+    },
+    {
+      "id": 275677,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define tabulation."
+    },
+    {
+      "id": 275678,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the main steps in the construction of frequency distribution."
+    },
+    {
+      "id": 275681,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between grouped and ungrouped data."
+    },
+    {
+      "id": 275682,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define grouped data."
+    },
+    {
+      "id": 275684,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is an array?"
+    },
+    {
+      "id": 275687,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define frequency distribution."
+    },
+    {
+      "id": 275691,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the common types of frequency distributions."
+    },
+    {
+      "id": 275692,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the Sturges' rule to find the approximate number of classes."
+    },
+    {
+      "id": 275693,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are open-end classes?"
+    },
+    {
+      "id": 275694,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the difference between discrete and continuous classes?"
+    },
+    {
+      "id": 275696,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How do you find the width of a class or class interval in the construction of a frequency distribution?"
+    },
+    {
+      "id": 275697,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between class limits and class boundaries."
+    },
+    {
+      "id": 275698,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the class frequency."
+    },
+    {
+      "id": 275699,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is meant by cumulative frequency?"
+    },
+    {
+      "id": 275700,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a class mark?"
+    },
+    {
+      "id": 275701,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the size of a class interval?"
+    },
+    {
+      "id": 275702,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a graph?"
+    },
+    {
+      "id": 275703,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a diagram?"
+    },
+    {
+      "id": 275706,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What types of data are represented by diagrams and graphs?"
+    },
+    {
+      "id": 275708,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a component bar chart?"
+    },
+    {
+      "id": 275711,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a pie chart?"
+    },
+    {
+      "id": 275712,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the difference between a component bar chart and a pie chart?"
+    },
+    {
+      "id": 275713,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is multiple bar diagram?"
+    },
+    {
+      "id": 275714,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the important graphs of frequency distributions?"
+    },
+    {
+      "id": 275715,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define histogram."
+    },
+    {
+      "id": 275716,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a frequency polygon?"
+    },
+    {
+      "id": 275717,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is an ogive?"
+    },
+    {
+      "id": 275719,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a percentage ogive?"
+    },
+    {
+      "id": 275720,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a frequency curve?"
+    },
+    {
+      "id": 275722,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the class boundaries, mid points and class width of the following class: 8 - 12, 13 - 17"
+    },
+    {
+      "id": 275723,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the class boundaries, mid points and class width of the following class: 2.5 - 3.4, 3.5 - 4.4"
+    },
+    {
+      "id": 275725,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the class boundaries, mid points and class width of the following class: -3 - +3, 4 - 10"
+    },
+    {
+      "id": 275728,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given the frequencies of 5 classes 2, 6, 7, 3, 4, find cumulative frequencies and relative frequencies."
+    },
+    {
+      "id": 275729,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write the formula of angle of section used in pie chart."
+    },
+    {
+      "id": 275731,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between historigram and histogram."
+    },
+    {
+      "id": 275690,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the difference between univariate frequency distributions and bivariate frequency distributions?"
+    },
+    {
+      "id": 276391,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the term average."
+    },
+    {
+      "id": 276392,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is statistical average? Why is it called a measure of central tendency and a measure of location?"
+    },
+    {
+      "id": 276405,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the empirical relation between the mean, median and mode."
+    },
+    {
+      "id": 276406,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the relative position of the mean, median and mode in the symmetrical and moderately skewed distributions?"
+    },
+    {
+      "id": 276412,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "For a certain distribution: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-1.svg\" /> What is the value of mean and why?"
+    },
+    {
+      "id": 276413,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find six different statistical terms of the balance point or the central value of a symmetrical frequency curve."
+    },
+    {
+      "id": 276414,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Suppose Q1 = 67, Q2 = median = 75 and Q3 = 83. Interpret the significance of each."
+    },
+    {
+      "id": 276415,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Can all quartiles be expressed as percentiles? Explain."
+    },
+    {
+      "id": 276416,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find two numbers whose arithmetic mean is 9.0 and whose geometric mean is 7.2."
+    },
+    {
+      "id": 276438,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-5.svg\" /> find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-6.svg\" />."
+    },
+    {
+      "id": 276444,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A person spent Rs. 6000 for purchase of 10 items. What is the average price per item?"
+    },
+    {
+      "id": 276448,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the others names of average?"
+    },
+    {
+      "id": 276450,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In a skewed distribution if mode = 15 and mean = 10.5 find median."
+    },
+    {
+      "id": 276453,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If sum of 15 values is 300 and by addition of two more value it becomes 360. Find the new value if the ratio between them is 1 : 4."
+    },
+    {
+      "id": 276457,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Prove that <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-9.svg\" />."
+    },
+    {
+      "id": 276459,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If series comprises of 50 values, each value equal to 5, then what will be the average and dispersion of the series?"
+    },
+    {
+      "id": 276462,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Average of 5 values is 70. Find the sum of values."
+    },
+    {
+      "id": 276463,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "For a frequency distribution of a variable, it is given that <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-11.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-12.svg\" />. Find the value of mean."
+    },
+    {
+      "id": 276464,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-13.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-14.svg\" /> Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-15.svg\" />."
+    },
+    {
+      "id": 276482,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the demerits/disadvantages of Harmonic Mean."
+    },
+    {
+      "id": 276393,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give important advantages and disadvantage of the mean."
+    },
+    {
+      "id": 276394,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is coding?"
+    },
+    {
+      "id": 276395,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the procedure of coding?"
+    },
+    {
+      "id": 276396,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define arithmetic mean."
+    },
+    {
+      "id": 276398,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the weighted mean."
+    },
+    {
+      "id": 276399,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What do you understand by combined arithmetic mean? Write down the formula."
+    },
+    {
+      "id": 276403,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The mean is affected by change of origin and scale. Explain."
+    },
+    {
+      "id": 276404,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The scores obtained by five students in a test were 70, 50, 60, 70, 50.These scores are changed by (i) adding 10 points to all scores (ii) increasing all scores by 10%. What effect will these changes have on the mean?"
+    },
+    {
+      "id": 276408,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define weighted geometric mean."
+    },
+    {
+      "id": 276411,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is an average of position?"
+    },
+    {
+      "id": 276417,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "For a certain distribution if <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-2.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-3.svg\" />, what is the value of the mean and why?"
+    },
+    {
+      "id": 276425,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The H.M. and G.M. of two numbers are 3.2 and 4 respectively. Find the numbers and their A.M."
+    },
+    {
+      "id": 276426,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The mean of 10 numbers is 8. If an eleventh number is included, the mean becomes 9. What is the value of the eleventh number?"
+    },
+    {
+      "id": 276427,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give various methods of computing A.M. for grouped data."
+    },
+    {
+      "id": 276431,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If mode = 25 and median = 30, then find approximate value of mean."
+    },
+    {
+      "id": 276433,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The sum of deviations of 15 values from 20 is 45. Find A.M."
+    },
+    {
+      "id": 276434,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The sum of deviations from X=15 for 10 values is 25. Find A.M."
+    },
+    {
+      "id": 276439,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe any two properties of Arithmetic Mean."
+    },
+    {
+      "id": 276465,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A distribution consists of 3 components with respective size 45, 40 and 65 along with their means 2, 2.5 and 2. Compute the combined mean."
+    },
+    {
+      "id": 276471,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If for 10 observations, <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-17.svg\" />. Find the value of mean."
+    },
+    {
+      "id": 276477,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the merits/advantages of Arithmetic Mean."
+    },
+    {
+      "id": 276478,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the demerits/disadvantages of Arithmetic Mean."
+    },
+    {
+      "id": 276407,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In which situation, would you consider the geometric mean as an appropriate measure as compared to the mean?"
+    },
+    {
+      "id": 276409,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the compound interest formula and its role to find the average rate of increase."
+    },
+    {
+      "id": 276418,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The geometric mean of a series of three positive number is 4. By including the fourth number in the series the geometric mean becomes 2. What is the fourth number?"
+    },
+    {
+      "id": 276419,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The mean of a series of 15 numbers is 20, By adding two more numbers, it becomes 18. Find the two numbers if the ratio between them is 1 to 2."
+    },
+    {
+      "id": 276420,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the G.M. fom the following values. 4, 5, 10, 0, 20."
+    },
+    {
+      "id": 276428,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If we have <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-4.svg\" style=\"width: 126px; height: 18px;\" /> can we calculate the mean and what is?"
+    },
+    {
+      "id": 276430,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the mean and the sum of first n natural number."
+    },
+    {
+      "id": 276442,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write two merits of G.M."
+    },
+    {
+      "id": 276443,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State some disadvantage of geometric mean."
+    },
+    {
+      "id": 276454,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What happen to mean, median, G.M. and H.M. If 10% is subtracted from each value of given data."
+    },
+    {
+      "id": 276456,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Geometric Mean."
+    },
+    {
+      "id": 276472,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given X1=4, X2=16. Show that G.M.<img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-18.svg\" />."
+    },
+    {
+      "id": 276473,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given X1=2, X2=8. Show that A.M. > G.M. > H.M."
+    },
+    {
+      "id": 276474,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If G.M. of 3 items is 7. Find the Product of all items."
+    },
+    {
+      "id": 276475,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Calculate G.M. of 1, 1, 8."
+    },
+    {
+      "id": 276479,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the merits/advantages of Geometric Mean."
+    },
+    {
+      "id": 276480,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Geometric mean has following demerits/disadvantages."
+    },
+    {
+      "id": 276423,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the relation between A.M., G.M. and H.M."
+    },
+    {
+      "id": 276424,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The A.M., G.M. and H.M. of a distribution of a continuous variable were calculated as 23.95, 24.85 and 25.15. Identify the A.M., G.M. and H.M."
+    },
+    {
+      "id": 276432,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define harmonic mean and write down the formula to calculate it."
+    },
+    {
+      "id": 276440,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The mean of 'n' value is 8. If a new value 28 is included the mean becomes 9. Find the value of 'n'."
+    },
+    {
+      "id": 276452,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-7.svg\" style=\"width: 15px; height: 22px;\" /> and y=5x+10, then find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-8.svg\" style=\"width: 15px; height: 22px;\" />."
+    },
+    {
+      "id": 276455,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write two properties of Harmonic Mean."
+    },
+    {
+      "id": 276481,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the merits/advantages of Harmonic Mean."
+    },
+    {
+      "id": 276400,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Compute the median for the data -2, 5, 0, -1, 4, 2."
+    },
+    {
+      "id": 276401,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give a common advantage and a common disadvantage of the median and the mode."
+    },
+    {
+      "id": 276435,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Median with formula."
+    },
+    {
+      "id": 276445,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If the value of Q2, D5 and P50 are equal to 27.12, then find Median of the distribution."
+    },
+    {
+      "id": 276447,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given l = 60, h = 10, f = 20, n = 80 and C = 30. Find Median."
+    },
+    {
+      "id": 276451,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given that median = 15 and mode = 20 by using the empirical relationship find the value of the mean."
+    },
+    {
+      "id": 276458,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find Median of 0, -1, -3, -2, 3, 4."
+    },
+    {
+      "id": 276461,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If the values of Q2, D5 and P50 are equal to 27.12, then find median."
+    },
+    {
+      "id": 276466,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the merits and demerits of Median (any two)."
+    },
+    {
+      "id": 276470,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Mean = 75, mode = 70, find median."
+    },
+    {
+      "id": 276483,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the merits/advantages of Median."
+    },
+    {
+      "id": 276484,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the demerits/disadvantages of Median."
+    },
+    {
+      "id": 276410,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define deciles and percentiles."
+    },
+    {
+      "id": 276421,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the desirable qualities of a good average?"
+    },
+    {
+      "id": 276460,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define quartile."
+    },
+    {
+      "id": 276476,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the desirable qualities/properties of a good/ideal average (any two)?"
+    },
+    {
+      "id": 276422,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find mode from the given data: 4, 4, 5, 5, 6, 5, 7, 7, 7."
+    },
+    {
+      "id": 276429,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "For a frequency distribution, the mean is 40.5 and median is 36. Find the approximate value of the mode using the empirical relation connecting them."
+    },
+    {
+      "id": 276436,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Mean and Mode. Give two methods of calculating mean."
+    },
+    {
+      "id": 276437,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define mode with example. Write down the formula for group data."
+    },
+    {
+      "id": 276441,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the mode and median of letter STATISTICS."
+    },
+    {
+      "id": 276446,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Mean = 50, Median = 10. Find Mode."
+    },
+    {
+      "id": 276449,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In single peaked symmetrical distribution mean = 5, median = 5 then what will be the value of mode."
+    },
+    {
+      "id": 276467,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the mode of 3, 3, 7, 8, 11, 10, 12."
+    },
+    {
+      "id": 276468,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the advantages/merits of mode."
+    },
+    {
+      "id": 276469,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "<img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-16.svg\" />"
+    },
+    {
+      "id": 276485,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the merits/advantages of Mode."
+    },
+    {
+      "id": 276486,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the demerits/disadvantages of Mode."
+    },
+    {
+      "id": 276785,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the term Dispersion?"
+    },
+    {
+      "id": 276786,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What does quartile deviation measure in a distribution?"
+    },
+    {
+      "id": 276787,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the range & its coefficient. Also give an example."
+    },
+    {
+      "id": 276789,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the range for grouped data."
+    },
+    {
+      "id": 276790,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define a measure of relative dispersion that could be used for a set of data for which quartiles are known."
+    },
+    {
+      "id": 276791,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A frequency distribution that is approximately normal has a semi-interquartile range equal to 10. What values would you expect for (i) the standard deviation and (ii) the mean deviation?"
+    },
+    {
+      "id": 276793,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "By adding 5 to each of numbers in the set 3, 6, 2, 1, 5, 7, we obtain the set 8, 11, 7, 6, 10, 12. Show that the two sets have the same standard deviation but different means."
+    },
+    {
+      "id": 276795,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define absolute dispersion. Enlist/write down the absolute measures of dispersion."
+    },
+    {
+      "id": 276796,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is relative dispersion?"
+    },
+    {
+      "id": 276797,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write four relative measures of dispersion."
+    },
+    {
+      "id": 276818,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the properties of mean deviation."
+    },
+    {
+      "id": 276819,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is variance?"
+    },
+    {
+      "id": 276820,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-2.svg\" /> and Vard(X)=4. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-3.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-4.svg\" /> when Y = 2X - 1"
+    },
+    {
+      "id": 276821,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-2.svg\" /> and Vard(X)=4. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-3.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-4.svg\" /> when Y= <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-45.svg\" /> (4 + 3X)"
+    },
+    {
+      "id": 276827,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Why standard deviation is preferred over mean deviation?"
+    },
+    {
+      "id": 276828,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write any two properties of S.D."
+    },
+    {
+      "id": 276832,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give names of any four methods for calculating dispersion."
+    },
+    {
+      "id": 276833,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Dispersion, mean deviation and Standard deviation."
+    },
+    {
+      "id": 276840,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define/What is standard deviation?"
+    },
+    {
+      "id": 276842,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define average/mean deviation."
+    },
+    {
+      "id": 276844,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Calculate S.D. if <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-9.svg\" /> and h=2."
+    },
+    {
+      "id": 276846,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "For what value S.D. and variance are equal?"
+    },
+    {
+      "id": 276851,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If lower quartile is 20 and quartile deviation is 30 find upper quartile."
+    },
+    {
+      "id": 276852,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Q1 = 88.03, Q3 = 94.90. Find Quartile deviation."
+    },
+    {
+      "id": 276853,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Q3 = 178.25 and Q.D=53.725 Find the value of Q1"
+    },
+    {
+      "id": 276856,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Var(X) = 16, then find variance of 3x and 3x - 10."
+    },
+    {
+      "id": 276858,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Var(X) = 5 and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-10.svg\" /> then find Var(2X - 3Y)?"
+    },
+    {
+      "id": 276859,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Var(X) = 25, find Var(2x + 4)."
+    },
+    {
+      "id": 276864,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Compute range of the data -1, -3, -4, -10, -20."
+    },
+    {
+      "id": 276865,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Compute range of -1, -3, 0, 2, 5, 8, Xm = 8, Xo = -3."
+    },
+    {
+      "id": 276867,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-11.svg\" /> and n=5. Find variance"
+    },
+    {
+      "id": 276870,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If S.D. = 3 of set of data then what will be the variance."
+    },
+    {
+      "id": 276871,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Var(x) = 9, find Var(2x)"
+    },
+    {
+      "id": 276872,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If standard deviation of values of X is 10, what is the standard deviation of values of 5X."
+    },
+    {
+      "id": 276874,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Var(X) = 8, find Var (X + 3)."
+    },
+    {
+      "id": 276877,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A student calculated mean and standard deviation of 25 observations as 20 and 4 respectively. Find the value of coefficient of variation."
+    },
+    {
+      "id": 276880,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Compute coefficient of standard deviation if mean = 125 and standard deviation = 2."
+    },
+    {
+      "id": 276881,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write two properties of quartile deviation."
+    },
+    {
+      "id": 276882,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the formula for combined variances."
+    },
+    {
+      "id": 276886,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Standard Deviation with formula."
+    },
+    {
+      "id": 276888,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define variance and give its at least two formulas."
+    },
+    {
+      "id": 276897,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If variance is 5 and third moment about mean is -12.8, find b1 and discuss the distribution?"
+    },
+    {
+      "id": 276902,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given Mean = 29.6, Mode = 24.8, and Sk=0.32, then find the value of S.D."
+    },
+    {
+      "id": 276905,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How we calculate coefficient of quartile deviation?"
+    },
+    {
+      "id": 276907,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Range of 5 observations is -6 and smallest observation is -2, find the largest observation."
+    },
+    {
+      "id": 276908,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Enlist the relative measure of dispersion."
+    },
+    {
+      "id": 276909,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write the types of dispersion."
+    },
+    {
+      "id": 276910,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the semi-interquartile range or the quartile deviation."
+    },
+    {
+      "id": 276911,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write any two advantages of the range."
+    },
+    {
+      "id": 276798,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the coefficient of variation."
+    },
+    {
+      "id": 276799,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the usefulness of the coefficient of variation?"
+    },
+    {
+      "id": 276837,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-7.svg\" /> and n = 5. Find C.V."
+    },
+    {
+      "id": 276839,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-8.svg\" /> find the C.V."
+    },
+    {
+      "id": 276899,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-12.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-13.svg\" />. Find the coefficient of mean deviation."
+    },
+    {
+      "id": 276904,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The first two moments of a distribution about X = 10 are 2 and 20. Find coefficient of variation."
+    },
+    {
+      "id": 276906,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Q1 = 12.50 and Q3 = 48.36 find coefficient of quartile deviation."
+    },
+    {
+      "id": 276800,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define moments about mean with application."
+    },
+    {
+      "id": 276801,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If the first moment about the number 2 is equal to 5, what is the mean?"
+    },
+    {
+      "id": 276802,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The second, third, fourth moments of two distributions are 9 and 16' -8.1 and -12.8; 230 and 780 respectively. Which distribution is more skewed to the left?"
+    },
+    {
+      "id": 276803,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The second, third, fourth moments of two distributions are 9 and 16' -8.1 and -12.8; 230 and 780 respectively. Which distribution more nearly approximates the normal distribution from the view point of peakedness?"
+    },
+    {
+      "id": 276804,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Name the distribution if <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-1.svg\" />."
+    },
+    {
+      "id": 276807,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A series comprises of 50 values each equal to 5. What will be the average and dispersion of the series."
+    },
+    {
+      "id": 276809,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What would be the shape and name of the frequency distribution if: mean = median = mode"
+    },
+    {
+      "id": 276810,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What would be the shape and name of the frequency distribution if: mean > median > mode"
+    },
+    {
+      "id": 276811,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What would be the shape and name of the frequency distribution if: mean < median < mode"
+    },
+    {
+      "id": 276812,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What would be the shape and name of the frequency distribution if: Q3 - median > median - Q1?"
+    },
+    {
+      "id": 276815,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define moment ratios. In which units are they expressed?"
+    },
+    {
+      "id": 276816,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Compute mean coefficient of dispersion if mean deviation = 3.92 and mean = 16.25."
+    },
+    {
+      "id": 276817,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The standard deviation of a symmetrical distribution is 5. Find its first four moments about the mean."
+    },
+    {
+      "id": 276848,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "For a symmetrical distribution S.D. = 2, what is the value of m4 = ?"
+    },
+    {
+      "id": 276849,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Is it possible that first moment about mean is 10."
+    },
+    {
+      "id": 276831,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is Sheppard's correction?"
+    },
+    {
+      "id": 276829,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Pearson's first and second coefficients of skewness have (Mean-Mode) and 3(Mean-Mode) in the numerator of each formula respectively. What type of relationship is used to obtain one from the other?"
+    },
+    {
+      "id": 276830,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Measures of skewness and measures of kurtosis both measure the shape of the distribution. What is the difference between these two types of measures?"
+    },
+    {
+      "id": 276834,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is positive skewness?"
+    },
+    {
+      "id": 276835,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find Bowley's coefficient of Skewness given Q1 = 95, Median = 81, Q3 = 84. Also comment upon the result."
+    },
+    {
+      "id": 276836,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Q1 = 136.62, Q2 = 146 and Q3 = 153.13. Find Bowley's coefficient of skewness."
+    },
+    {
+      "id": 276845,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give the Bowley's formula of coefficient of Skewness."
+    },
+    {
+      "id": 276854,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between symmetrical/symmetry and skewness."
+    },
+    {
+      "id": 276861,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write the formula's of Karl's Pearson's coefficient of skewness."
+    },
+    {
+      "id": 276863,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given Mean = 50, Median = 48 and S.D. = 6. Find Karl Pearson's coefficient of Skewness."
+    },
+    {
+      "id": 276868,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If coefficient of Skewness is zero. i.e. SK=0, then what will you say about Mean, Median and Mode?"
+    },
+    {
+      "id": 276883,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is meant by Skewed distribution and how it is calculated?"
+    },
+    {
+      "id": 276884,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Distinguish between positively and negatively skewed distribution."
+    },
+    {
+      "id": 276885,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "When the distribution is leptokurtic and platykurtic."
+    },
+    {
+      "id": 276896,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "For a certain distribution mean = 40, median = 41 and coefficient of skewness = -0.25. Find the value of S.D."
+    },
+    {
+      "id": 276900,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given Mean = 20, Mode = 15, and Coefficient of skewness equal to 1, then find variance."
+    },
+    {
+      "id": 276903,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define/what is Kurtosis?"
+    },
+    {
+      "id": 277409,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define an index number."
+    },
+    {
+      "id": 277410,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What does an index number measure?"
+    },
+    {
+      "id": 277412,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define simple and composite index numbers."
+    },
+    {
+      "id": 277413,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the different types of index numbers?"
+    },
+    {
+      "id": 277414,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the base period?"
+    },
+    {
+      "id": 277416,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between Fixed Base method and Chain Base Method."
+    },
+    {
+      "id": 277417,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define simple price relative and write down its formula."
+    },
+    {
+      "id": 277418,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define link relative."
+    },
+    {
+      "id": 277419,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define chain index."
+    },
+    {
+      "id": 277420,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Distinguish between general-purpose index number and special-purpose index number."
+    },
+    {
+      "id": 277421,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Distinguish between an unweighted index number and a weighted index number."
+    },
+    {
+      "id": 277423,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Which index numbers satisfy the time reversal or factor reversal test or both?"
+    },
+    {
+      "id": 277425,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define a wholesale price index."
+    },
+    {
+      "id": 277427,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define/What is a consumer price index number?"
+    },
+    {
+      "id": 277428,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a market basket?"
+    },
+    {
+      "id": 277444,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the difference between average of relatives method and aggregate method?"
+    },
+    {
+      "id": 277447,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Name the sources of index numbers."
+    },
+    {
+      "id": 277452,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write any two uses of index numbers."
+    },
+    {
+      "id": 277461,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write any two limitations of index numbers."
+    },
+    {
+      "id": 277469,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Enlist the main steps involved in the construction of Index number."
+    },
+    {
+      "id": 277471,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How do we select commodities for index numbers?"
+    },
+    {
+      "id": 277474,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are quantity index numbers?"
+    },
+    {
+      "id": 277487,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Which averages are used in index numbers?"
+    },
+    {
+      "id": 277451,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Why index number are called economics barometer?"
+    },
+    {
+      "id": 277429,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the unweighted index numbers."
+    },
+    {
+      "id": 277449,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the main disadvantage of the unweighted index numbers?"
+    },
+    {
+      "id": 277465,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write two advantages of chain base method."
+    },
+    {
+      "id": 277466,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How many methods are used for selection of base period? Name those methods."
+    },
+    {
+      "id": 277488,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-9.svg\" />. Find price index number by using simple aggregative method."
+    },
+    {
+      "id": 277424,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Why Fisher's index number is called ideal?"
+    },
+    {
+      "id": 277430,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are weighted index numbers?"
+    },
+    {
+      "id": 277431,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe Laspeyre's price index number."
+    },
+    {
+      "id": 277432,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Name some important weighted index numbers."
+    },
+    {
+      "id": 277435,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the disadvantages of the Laspeyre's index?"
+    },
+    {
+      "id": 277442,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the disadvantages of the Paasche's index?"
+    },
+    {
+      "id": 277453,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Fisher's index number."
+    },
+    {
+      "id": 277454,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write the formula for Fisher's index number."
+    },
+    {
+      "id": 277457,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-1.svg\" />. Find Fisher's Ideal Prize Index."
+    },
+    {
+      "id": 277460,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Paasche's index number is 103.9 and Laspeyre's index number is 104.5, then find Fisher's index number."
+    },
+    {
+      "id": 277462,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-3.svg\" />. Find base year weighted index."
+    },
+    {
+      "id": 277468,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the Paasche's Index Number for given data <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-5.svg\" />."
+    },
+    {
+      "id": 277470,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between base year, weighted and current year weighted index numbers."
+    },
+    {
+      "id": 277473,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-6.svg\" />. Find Laspeyre's index number."
+    },
+    {
+      "id": 277475,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Fisher's ideal index = 117.84 and Laspeyre's index = 117.9 then what will be the Paasche's index?"
+    },
+    {
+      "id": 277477,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Fisher's ideal index = 75.76 and Paasche's index = 74.76 then what will be the Laspeyre's index?"
+    },
+    {
+      "id": 277478,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Laspeyre's index number = 105.4 and Paasche's index number = 103.2, then find the Fisher's index number."
+    },
+    {
+      "id": 277479,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define weighted index number."
+    },
+    {
+      "id": 277480,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-7.svg\" /> then Find Base year weighted index number."
+    },
+    {
+      "id": 277482,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-7.svg\" /> then Find Current year weighted index number."
+    },
+    {
+      "id": 277483,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-7.svg\" /> then Find Fisher index number."
+    },
+    {
+      "id": 277484,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-8.svg\" /> then find current year weighted index number."
+    },
+    {
+      "id": 277485,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the relationship between Laspeyre's, Paasche's and Fisher's ideal index numbers?"
+    },
+    {
+      "id": 277490,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-10.svg\" />. Find the cost of living index number by weighted average of relative method."
+    },
+    {
+      "id": 277434,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define a value index number."
+    },
+    {
+      "id": 277446,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State some uses of consumer price index number."
+    },
+    {
+      "id": 277455,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Which methods are used for the construction of consumer price index numbers?"
+    },
+    {
+      "id": 277458,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the CPI?"
+    },
+    {
+      "id": 277459,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Compute base year weighted and current year weighted index numbers for the given data: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-2.svg\" />"
+    },
+    {
+      "id": 277464,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-4.svg\" />, find consumer price index number and write the name of the method."
+    },
+    {
+      "id": 277491,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find consumer price index number by Family Budget Method if <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-11.svg\" />."
+    },
+    {
+      "id": 277493,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given W = 19, 23, 8, 17, 20 and I = 100, 136, 129, 144, 155. Find consumer price index number."
+    },
+    {
+      "id": 277884,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define a set and a subset."
+    },
+    {
+      "id": 277886,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the differentiate set operations."
+    },
+    {
+      "id": 277887,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is Venn diagram?"
+    },
+    {
+      "id": 277889,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define a proper subset."
+    },
+    {
+      "id": 277891,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is Union of sets?"
+    },
+    {
+      "id": 277892,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is intersection of a sets?"
+    },
+    {
+      "id": 277893,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is different of sets?"
+    },
+    {
+      "id": 277894,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is complements of a sets?"
+    },
+    {
+      "id": 277958,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define empty set."
+    },
+    {
+      "id": 277960,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a null set?"
+    },
+    {
+      "id": 277962,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define universal set."
+    },
+    {
+      "id": 278072,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Expand the following binomial expression: (q + p)4"
+    },
+    {
+      "id": 278073,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Expand the following binomial expression: (q + p)7"
+    },
+    {
+      "id": 278074,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Expand the following binomial expression: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-46.svg\" />"
+    },
+    {
+      "id": 278076,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Expand the following binomial expression: (q + p)n-1"
+    },
+    {
+      "id": 278078,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Expand the following binomial expression: (q + p)n"
+    },
+    {
+      "id": 278083,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2}, B= {2, 3} and C= {3} of the universal set S= {1, 2, 3}, Determine the elements of the sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-47.svg\" />"
+    },
+    {
+      "id": 278085,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2}, B= {2, 3} and C= {3} of the universal set S= {1, 2, 3}, Determine the elements of the sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-48.svg\" />"
+    },
+    {
+      "id": 278087,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2}, B= {2, 3} and C= {3} of the universal set S= {1, 2, 3}, Determine the elements of the sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-49.svg\" />"
+    },
+    {
+      "id": 278088,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2}, B= {2, 3} and C= {3} of the universal set S= {1, 2, 3}, Determine the elements of the sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-50.svg\" />"
+    },
+    {
+      "id": 278093,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-51.svg\" />"
+    },
+    {
+      "id": 278094,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-52.svg\" />"
+    },
+    {
+      "id": 278095,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-53.svg\" />"
+    },
+    {
+      "id": 278097,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-54.svg\" />"
+    },
+    {
+      "id": 278099,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-55.svg\" />"
+    },
+    {
+      "id": 278101,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-56.svg\" />"
+    },
+    {
+      "id": 278103,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find A - B"
+    },
+    {
+      "id": 278105,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find B - C"
+    },
+    {
+      "id": 278107,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find C - A"
+    },
+    {
+      "id": 278109,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A= {1, 2, 3, 4}, B= {2, 4, 6, 8} and C= {3, 4, 5, 6}. Find C - B"
+    },
+    {
+      "id": 278116,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-57.svg\" />"
+    },
+    {
+      "id": 278118,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-58.svg\" />"
+    },
+    {
+      "id": 278119,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-59.svg\" />"
+    },
+    {
+      "id": 278120,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-60.svg\" />"
+    },
+    {
+      "id": 278121,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-61.svg\" />"
+    },
+    {
+      "id": 278122,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-62.svg\" />"
+    },
+    {
+      "id": 278123,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-63.svg\" />"
+    },
+    {
+      "id": 278124,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-64.svg\" />"
+    },
+    {
+      "id": 278125,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-65.svg\" />"
+    },
+    {
+      "id": 278126,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let U= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, A= {2, 3, 4, 5}, B= {5, 6, 7, 8} and C= {3, 4, 5, 6}. List the members of the following sets: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-66.svg\" />"
+    },
+    {
+      "id": 277888,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write difference between combination and permutation."
+    },
+    {
+      "id": 277897,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write Permutations and Combination formulae with examples."
+    },
+    {
+      "id": 277956,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In how many permutation from the word \"Pakistan\" be formed?"
+    },
+    {
+      "id": 277963,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Permutation."
+    },
+    {
+      "id": 278042,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: 6!"
+    },
+    {
+      "id": 278044,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-27.svg\" />"
+    },
+    {
+      "id": 278045,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-28.svg\" />"
+    },
+    {
+      "id": 278047,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-29.svg\" />"
+    },
+    {
+      "id": 278048,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-30.svg\" />"
+    },
+    {
+      "id": 278056,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How many possible permutations can be formed from the word PAKPATTAN?"
+    },
+    {
+      "id": 278057,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In how many ways the word COMMITTEE can be arranged?"
+    },
+    {
+      "id": 277929,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the answer of <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-1.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-2.svg\" /> ?"
+    },
+    {
+      "id": 277964,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define combination with example."
+    },
+    {
+      "id": 278050,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-31.svg\" />"
+    },
+    {
+      "id": 278051,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-32.svg\" />"
+    },
+    {
+      "id": 278053,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-33.svg\" />"
+    },
+    {
+      "id": 278054,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-34.svg\" />"
+    },
+    {
+      "id": 278055,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-35.svg\" />"
+    },
+    {
+      "id": 278058,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-36.svg\" />"
+    },
+    {
+      "id": 278059,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-37.svg\" />"
+    },
+    {
+      "id": 278061,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-38.svg\" />"
+    },
+    {
+      "id": 278063,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-39.svg\" />"
+    },
+    {
+      "id": 278066,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Solve: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-40.svg\" />"
+    },
+    {
+      "id": 278067,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Show that: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-41.svg\" />"
+    },
+    {
+      "id": 278068,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Show that: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-42.svg\" />"
+    },
+    {
+      "id": 278069,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Show that: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-43.svg\" />"
+    },
+    {
+      "id": 278070,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Show that: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-44.svg\" />"
+    },
+    {
+      "id": 278071,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Show that: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-45.svg\" />"
+    },
+    {
+      "id": 278138,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a random experiment?"
+    },
+    {
+      "id": 278139,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the propertis of a random experiment."
+    },
+    {
+      "id": 278142,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the difference between an outcome and an event?"
+    },
+    {
+      "id": 278143,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define sample spaces."
+    },
+    {
+      "id": 278144,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a sample point?"
+    },
+    {
+      "id": 278145,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the difference between simple and compound events."
+    },
+    {
+      "id": 278147,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give an example each of simple and compound events."
+    },
+    {
+      "id": 278150,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the sample space when three distinct coins are tossed simultaneously? Also specify the event A 'exactly two heads occur'."
+    },
+    {
+      "id": 278152,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define mutually exclusive events."
+    },
+    {
+      "id": 278155,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define independent events."
+    },
+    {
+      "id": 278156,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is meant by dependent event?"
+    },
+    {
+      "id": 278159,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define exhaustive or completely exhaustive or collectively exhaustive outcomes."
+    },
+    {
+      "id": 278242,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Draw the sample space when four coins are tossed."
+    },
+    {
+      "id": 278244,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the minimum and maximum sum of dots when a pair of dice is rolled."
+    },
+    {
+      "id": 278246,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What do you meant by Equally Likely Events?"
+    },
+    {
+      "id": 278248,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give two examples of Mutually Exclusive Events."
+    },
+    {
+      "id": 278281,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State only law of addition for mutually exclusive and non-mutually exclusive events."
+    },
+    {
+      "id": 278160,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the classical or a priori definition of probability."
+    },
+    {
+      "id": 278161,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the axiomatic approach to probability?"
+    },
+    {
+      "id": 278163,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the relative frequency definition of probability."
+    },
+    {
+      "id": 278164,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the subjective approach to probability?"
+    },
+    {
+      "id": 278165,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Distinguish between joint probability and marginal probability."
+    },
+    {
+      "id": 278167,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define conditional probability."
+    },
+    {
+      "id": 278168,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the probability of getting at least one tail in three tosses of a coin?"
+    },
+    {
+      "id": 278171,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the probability that a card chosen at random from a pack of 52 cards will be either a king or a heart?"
+    },
+    {
+      "id": 278174,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give the probability for each of the following totals in the rolling of two dice: 1, 2, 5, 9, 10, 11 and 12."
+    },
+    {
+      "id": 278177,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the probability that a couple's second child will be (i) a boy given that their first child was a girl? (ii) a girl given that their first child was a girl?"
+    },
+    {
+      "id": 278181,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given that <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-67.svg\" />, find the probabilities <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-68.svg\" />."
+    },
+    {
+      "id": 278182,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Assume that for two events A and B, <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-69.svg\" />. Is this a consistent assignment of probabilities? Explain."
+    },
+    {
+      "id": 278183,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the probability that in selecting two cards one at a time from a deck with replacement, the second card is a face card given that the first card was red?"
+    },
+    {
+      "id": 278185,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A coin is tossed twice. Find the conditional probability of getting two heads given at least one head."
+    },
+    {
+      "id": 278186,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the odds for the occurrence of an event A if its probability is 4/7?"
+    },
+    {
+      "id": 278190,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A ball is drawn at random from a box containing 6 red balls, 4 white balls and 5 blue balls. Determine the probability that the ball drawn is (i) red (ii) white (iii) blue (iv) not red (v) red or white."
+    },
+    {
+      "id": 278193,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If A and B are independent events with P(A) = 0.2 and P(B) = 0.6. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-70.svg\" />."
+    },
+    {
+      "id": 278198,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Assume that X is a number chosen at random from the set of integers 1 and 15 inclusive. What is the probability that X is a single digit number."
+    },
+    {
+      "id": 278208,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Assume that X is a number chosen at random from the set of integers 1 and 15 inclusive. What is the probability that X is a multiple of 5."
+    },
+    {
+      "id": 278212,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-71.svg\" /> find P(B)."
+    },
+    {
+      "id": 278214,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If A and B are not mutually events and P(A) = 0.60 and P(B) = 0.08, then find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-72.svg\" />."
+    },
+    {
+      "id": 278218,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "An integer is chosen at random from the first 100 positive integers. Find the probability that it is divisible by 8 and 12."
+    },
+    {
+      "id": 278219,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "An integer is chosen at random from the first 100 positive integers. Find the probability that it is divisible by 16 and 20."
+    },
+    {
+      "id": 278223,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A and B be two events associated with an experiment. Let P(A) = 0.4, <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-73.svg\" />. Let P(B) = p. Find 'p' when A and B are mutually exclusive."
+    },
+    {
+      "id": 278225,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Let A and B be two events associated with an experiment. Let P(A) = 0.4, <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-73.svg\" />. Let P(B) = p. Find 'p' when A and B are independent."
+    },
+    {
+      "id": 278227,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A drum contains 50 bolts and 150 nuts. Half of the bolts and half of the nuts are rusted. If one item is chosen at random, what is the probability that it is rusted or is bolt?"
+    },
+    {
+      "id": 278229,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Are the events A and B independent if P(A) = 0.5 and P(A/B) = 0.4?"
+    },
+    {
+      "id": 278235,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-74.svg\" />. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-75.svg\" />. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-76.svg\" />."
+    },
+    {
+      "id": 278239,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the value of <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-77.svg\" /> if P(A) = 0.4, P(B) = 0.7 and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-78.svg\" />."
+    },
+    {
+      "id": 278245,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If P(A) = 40, find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-79.svg\" />. If P(B) = 0.25, find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-80.svg\" />."
+    },
+    {
+      "id": 278250,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find the probability of obtaining even numbers, when a dic is rolled."
+    },
+    {
+      "id": 278257,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the multiplicative law of probability for independent events."
+    },
+    {
+      "id": 278279,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If P(A) = 0.2, P(B) = 0.4 and P(A/B) = 0.375, find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-81.svg\" />."
+    },
+    {
+      "id": 278280,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "When does probability become negative."
+    },
+    {
+      "id": 278282,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If A and B are two independent events such that P(A) = 0.2 and P(B) = 0.15 then evaluate (1) <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-81.svg\" /> (2) P(A/B)."
+    },
+    {
+      "id": 278283,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If P(A) = 0.5 and P(B/A) = 0.3. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-82.svg\" />."
+    },
+    {
+      "id": 278284,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the range of probability?"
+    },
+    {
+      "id": 278285,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "P(A) = 0.3, P(B) = 0.4 and P(A and B) = 0.20. Are A and B statistically independent?"
+    },
+    {
+      "id": 278286,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If A and B are independent and P(A) = 0.4, P(B) = 0.3. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-82.svg\" />."
+    },
+    {
+      "id": 278288,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If P(A) = 0.30 and P(B) = 0.6 then find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-85.svg\" />"
+    },
+    {
+      "id": 278289,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If P(A) = 0.30 and P(B) = 0.6 then find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-86.svg\" />."
+    },
+    {
+      "id": 278290,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If P(A) = 0.60 and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-87.svg\" />, then find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-88.svg\" />."
+    },
+    {
+      "id": 99459,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define random experiment."
+    },
+    {
+      "id": 99461,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is mean by random variable?"
+    },
+    {
+      "id": 99462,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Can a random variable assume negative values?"
+    },
+    {
+      "id": 99476,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define random numbers."
+    },
+    {
+      "id": 99465,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Make random variable for tail when three coins are tossed."
+    },
+    {
+      "id": 99466,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the assumptions of random numbers."
+    },
+    {
+      "id": 99469,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How random number can be generated?"
+    },
+    {
+      "id": 99474,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Make a random variable for number of heads when two coins are tossed."
+    },
+    {
+      "id": 99463,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the application of random numbe?"
+    },
+    {
+      "id": 99467,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Differentiate between a variable and random variable."
+    },
+    {
+      "id": 99470,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Give two examples of random variable."
+    },
+    {
+      "id": 99471,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the two different types of random variable."
+    },
+    {
+      "id": 99475,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Two dice are thrown make a random variable for sum of dots."
+    },
+    {
+      "id": 99477,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the expectations and standard deviation of a constant?"
+    },
+    {
+      "id": 99479,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What does P.D.F stands for?"
+    },
+    {
+      "id": 99460,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define continuous random variable?"
+    },
+    {
+      "id": 99464,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is discrete random variable?"
+    },
+    {
+      "id": 99468,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the properties of a continuous random vireable."
+    },
+    {
+      "id": 99472,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the same sample space of a random experiment?"
+    },
+    {
+      "id": 99473,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Properties of discrete random variable."
+    },
+    {
+      "id": 99478,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given a random variable X with E (x) = 12 and S.D (X) =5. Find E(x2)."
+    },
+    {
+      "id": 99480,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write three properties of random experiment."
+    },
+    {
+      "id": 99487,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define discrete random variable."
+    },
+    {
+      "id": 279607,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the properties of a random experiment."
+    },
+    {
+      "id": 279597,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down two conditions of probability mass function."
+    },
+    {
+      "id": 279600,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-6.svg\" />, x = 1, 2, 3, 4. Show that f(x) is a probability function."
+    },
+    {
+      "id": 279584,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the formula for the probability distribution of the sum of spots when a pair of dice is rolled."
+    },
+    {
+      "id": 279567,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the properties of a discrete probability distribution."
+    },
+    {
+      "id": 279580,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How the distribution function is represented graphically in the discrete and continuous case?"
+    },
+    {
+      "id": 279593,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-74.svg\" />, x = 1, 2, 3, find K."
+    },
+    {
+      "id": 279594,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given x = 0, 1, 2, <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-3.svg\" /> find E(X), Var(X)."
+    },
+    {
+      "id": 279595,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given X = 2, 4, 6, <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-4.svg\" />, find E(X) and E(X2)."
+    },
+    {
+      "id": 279596,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If E(X) = 3, E(Y) = 2.5, then find E(X + Y)."
+    },
+    {
+      "id": 279599,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Var(X) = 2. Find Var(3X+2)."
+    },
+    {
+      "id": 279608,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find E(X), E(X2) from the following data. X 0 1 2 P(X) 1/4 2/4 1/4"
+    },
+    {
+      "id": 279592,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find 'k' for the given probability distribution."
+    },
+    {
+      "id": 279610,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define probability density function."
+    },
+    {
+      "id": 279611,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the properties of probability density function?"
+    },
+    {
+      "id": 279566,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define probability distribution."
+    },
+    {
+      "id": 279568,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the distribution function of a discrete random variable X."
+    },
+    {
+      "id": 279570,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define mathematical expectation."
+    },
+    {
+      "id": 279572,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What do you mean by expected value of a random variable?"
+    },
+    {
+      "id": 279574,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down two properties of expectation/mathematical expectation."
+    },
+    {
+      "id": 279576,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define variance and standard deviation of a random variable."
+    },
+    {
+      "id": 279578,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the properties of variance and standard deviation."
+    },
+    {
+      "id": 279581,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Suppose person gets Rs. 5 for a head and Rs. 3 for a tail. How much would you expect him to et per toss when he plays the game over and over gain."
+    },
+    {
+      "id": 279582,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A committee of size 5 is to be selected at random from 3 women and 5 men. Find the expected number of women on the committee."
+    },
+    {
+      "id": 279589,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A random variable X takes values 0, 1, 2, 3, 4, 5 with probabilities P(x) equal to 1/5, 1/10, 1/10, 1/5, 2/5 respectively. Suppose instead of the probabilities you are given frequencies 2, 1, 1, 2, 4. Will there be any change in the values of E(X) and standard deviation of <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-73.svg\" />?"
+    },
+    {
+      "id": 279598,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define variance of the discrete random variable."
+    },
+    {
+      "id": 279601,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If E(X) = 5, find E(-3X + 2). Var(X) = 1 and Var(2 - 3X)."
+    },
+    {
+      "id": 279602,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given 0, 1, 2, P(X) = 4C, 3C, C find the value of C."
+    },
+    {
+      "id": 279603,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given a random variable X with E(X) = 0.63 and Var(X)=0.2331, find E(X2) and C.V.(X)."
+    },
+    {
+      "id": 279604,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If E(X) = 2 and E(X2) = 10, Calculate coefficient of variation?"
+    },
+    {
+      "id": 279605,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If E(X) = 3 and E(X2) = 12, then find variance and S.D. of X?"
+    },
+    {
+      "id": 279606,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If E(X) = 5 and E(X2) = 50 then find Var(X)."
+    },
+    {
+      "id": 279609,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given E(X) = 200 and C.V.(X) = 7% find Var(X)."
+    },
+    {
+      "id": 279612,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given E(x) = 0.55 and Var(X) = 1.35 and Y = 2X + 1. Find Var(Y)."
+    },
+    {
+      "id": 279613,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If E(5X + 1) = 18 and E(5X + 10)2 = 530. Find Var(5X + 1)."
+    },
+    {
+      "id": 279569,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the properties of a distribution function."
+    },
+    {
+      "id": 279579,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "How would you represent the discrete probability distribution?"
+    },
+    {
+      "id": 279591,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What does \"p.d.f.\" stand for?"
+    },
+    {
+      "id": 279163,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define Bernoulli's Trail."
+    },
+    {
+      "id": 279171,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are Bernoulli trials?"
+    },
+    {
+      "id": 279164,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the binomial probability distribution."
+    },
+    {
+      "id": 279165,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Why is the discrete probability function <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-1.svg\" /> called the binomial distribution?"
+    },
+    {
+      "id": 279166,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define binomial experiment."
+    },
+    {
+      "id": 279168,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a binomial experiment?"
+    },
+    {
+      "id": 279169,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the properties of the binomial experiment."
+    },
+    {
+      "id": 279172,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the applications of the binomial distribution."
+    },
+    {
+      "id": 279174,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the mean and variance of the binomial distribution with parameters n and p?"
+    },
+    {
+      "id": 279175,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Describe the binomial frequency distribution."
+    },
+    {
+      "id": 279180,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define binomial random variable."
+    },
+    {
+      "id": 279182,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Identify the parameters of the binomial distribution b(x; n, p) and the hypergeometric distribution h(x; N, n, k)."
+    },
+    {
+      "id": 279184,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Establish the relation between the mean and variance of the binomial distribution b(x; n, p) and the hypergeometric distribution h(x; N, n, k)."
+    },
+    {
+      "id": 279185,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If n=10, q=0.4 find the mean and variance of the binomial distribution."
+    },
+    {
+      "id": 279186,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Is it possible to have binomial distribution with mean 10 and standard deviation 4?"
+    },
+    {
+      "id": 279187,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Is it possible to have binomial distribution with mean 5 and standard deviation 4?"
+    },
+    {
+      "id": 279190,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If the probability of getting caught copying in the examination is 0.2, find the probability of not getting caught in 3 attempts."
+    },
+    {
+      "id": 279191,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In binomial distribution Mean = 6, Variance, 2.4, find out parameters of binomial distribution."
+    },
+    {
+      "id": 279192,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If n=4, N=6 and K=3, find P(x=1)."
+    },
+    {
+      "id": 279194,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If N=10, k=5, n=3 Find P(X<1)."
+    },
+    {
+      "id": 279195,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the probability of getting 4 sixes when a die is rolled 5 times?"
+    },
+    {
+      "id": 279196,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If Mean=20, P=0.20 in binomial distribution, then find n."
+    },
+    {
+      "id": 279197,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "K=4, N=14, n=5. Find P(X=2) and P(X=3)."
+    },
+    {
+      "id": 279198,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If p=q, n=10, find out Mean and Variance."
+    },
+    {
+      "id": 279199,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In binomial distribution which type of sampling is used?"
+    },
+    {
+      "id": 279200,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given N=10, n=4 and K=5, find E(X)."
+    },
+    {
+      "id": 279202,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In a Binomial Distribution the Mean is 3 and S.D. is 1.5. Find its parameters."
+    },
+    {
+      "id": 279204,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In a binomial distribution mean=38 and q=0.83. Find n and p."
+    },
+    {
+      "id": 279205,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If n=8, <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-2.svg\" /> in binomial probability distribution, then find mean and variance."
+    },
+    {
+      "id": 279207,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-3.svg\" /> find mean and variance of the binomial distribution."
+    },
+    {
+      "id": 279209,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In binomial distribution n=5 and p=0.2. Find coefficient of variation. Also find P(X=2)."
+    },
+    {
+      "id": 279212,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Is it possible to have a binomial distribution with mean=5 and S.D. =3.7?"
+    },
+    {
+      "id": 279176,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is a hypergeometric experiment?"
+    },
+    {
+      "id": 279177,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define the hypergeometric probability function."
+    },
+    {
+      "id": 279178,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define hypergeometric distribution."
+    },
+    {
+      "id": 279179,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "State the properties of the hypergeometric experiment."
+    },
+    {
+      "id": 279181,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define hypergeometric random variable."
+    },
+    {
+      "id": 279183,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What are the parameters of hypergeometric distribution?"
+    },
+    {
+      "id": 279201,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Find Mean of the hypergeometric distribution when N=10, n=5 and K=3."
+    },
+    {
+      "id": 279208,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "If N=10, N - k=4, n=5. Find variance of the hypergeometric distribution."
+    },
+    {
+      "id": 279211,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down the formula of variance of hypergeometric distribution."
+    },
+    {
+      "id": 279213,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "In hypergeometric distribution N=11, n=5, k=4. Find mean and variance."
+    },
+    {
+      "id": 99483,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are random numbers?"
+    },
+    {
+      "id": 99484,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How we generate random numbers?"
+    },
+    {
+      "id": 99485,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is pseudo random technique?"
+    },
+    {
+      "id": 99492,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which methods are used in drwaing random numbers?"
+    },
+    {
+      "id": 99486,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the application of random numbers?"
+    },
+    {
+      "id": 99482,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is variable."
+    },
+    {
+      "id": 99491,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the types of random variable?"
+    },
+    {
+      "id": 99488,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give some examples of discrtes random variable."
+    },
+    {
+      "id": 99489,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define continuous random variable."
+    },
+    {
+      "id": 99490,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give some examples of continuous random variable."
+    }
+  ],
+  "type": "short"
+}

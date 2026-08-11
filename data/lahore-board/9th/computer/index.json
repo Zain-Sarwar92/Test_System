@@ -1,0 +1,11 @@
+{
+  "board": "Lahore",
+  "class": "9",
+  "subject": "Computer",
+  "files": {
+    "syllabus": "syllabus.json",
+    "shortRaw": "short-raw.txt",
+    "allQuestions": "all-questions.json"
+  },
+  "notes": "Short questions only. Parse with db:parse-computer-shorts then import with db:import-computer."
+}

@@ -1,0 +1,2109 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "Chemistry",
+  "type": "long",
+  "total_questions": 210,
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain how the kinetic particle Theory describes the behaviour, arrangement, and movement of particles in the three primary states of Matter.",
+      "ur": "وضاحت کریں کہ کائنیٹک پارٹیکل تھیوری کس طرح مادہ کی تین بنیادی حالتوں میں پارٹیکلز کی ترتیب اور حرکت کو بیان کرتی ہے؟"
+    },
+    {
+      "id": 2,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain solid-to-liquid conversion using kinetic molecular theory.",
+      "ur": "کائنیٹک مالیکیولر تھیوری کی روشنی میں ٹھوس کے مائع میں تبدیل ہونے کے عمل کی تفصیلی وضاحت کریں۔"
+    },
+    {
+      "id": 3,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the phenomenon of boiling and tell how vapor pressure and external pressure determine the boiling point.",
+      "ur": "بوائلنگ کے مظہرے کی وضاحت کریں اور بتائیں کہ ویپر پریشر اور بیرونی دباؤ کس طرح بوائلنگ پوائنٹ کا تعین کرتے ہیں۔"
+    },
+    {
+      "id": 4,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss condensation and why temperature remains constant during phase transitions.",
+      "ur": "کنڈینسیشن کے عمل پر بحث کریں اور وضاحت کریں کہ حالت کی تبدیلی کے دوران درجہ حرارت کیوں مستقل رہتا ہے۔"
+    },
+    {
+      "id": 5,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Draw heating curve for the physical changes water undergoes with change in temperature.",
+      "ur": "درجہ حرارت میں تبدیلی کے ساتھ پانی میں ہونے والی طبعی تبدیلیوں کے لیے حرارتی کرو (Curve) کھینچیں۔"
+    },
+    {
+      "id": 6,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define heating and cooling curves. Explain the various stages of heating and cooling curves for a solid substance with the help of a graph.",
+      "ur": "ہیٹنگ اور کولنگ کروز کی تعریف کریں۔ گراف کی مدد سے کسی ٹھوس شے میں ہیٹنگ اور کولنگ کروز کے مراحل کو بیان کریں۔"
+    },
+    {
+      "id": 7,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the heating curve of a solid substance step-by-step from point A to F with reference to internal energy and phase transitions.",
+      "ur": "انٹرنل انرجی اور حالت کی تبدیلیوں کے حوالے سے پوائنٹ A سے F تک کسی ٹھوس مادے کے ہیٹنگ کرو کی مرحلہ وار وضاحت کریں۔"
+    },
+    {
+      "id": 8,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the cooling curve of a gaseous substance back to solid form and compare its critical transition points with the heating curve.",
+      "ur": "ایک گیسی مادے کے دوبارہ ٹھوس شکل میں تبدیل ہونے کے کولنگ کرو کی وضاحت کریں اور اس کے اہم منتقلی پوائنٹس کا ہیٹنگ کرو کے ساتھ موازنہ کریں۔"
+    },
+    {
+      "id": 9,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss how factors other than temperature, such as pressure, can affect the interconversion of physical states.",
+      "ur": "بحث کریں کہ درجہ حرارت کے علاوہ دیگر عوامل، جیسے دباؤ، مادے کی طبعی حالتوں کی باہمی تبدیلی پر کیسے اثر انداز ہو سکتے ہیں۔"
+    },
+    {
+      "id": 10,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe effect of external pressure on the rates of evaporation and boiling.",
+      "ur": "ایوپوریشن اور بوائلنگ کی رفتار پر بیرونی پریشر کا اثر بیان کریں۔"
+    },
+    {
+      "id": 11,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define evaporation and boiling. Tabulate four key differences between them.",
+      "ur": "ایویپوریشن اور بوائلنگ کی تعریف کریں۔جدول (table) بنا کر ان کے درمیان چار بنیادی فرق واضح کریں۔"
+    },
+    {
+      "id": 12,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain in detail how external pressure influences the rate of evaporation in both open and closed environmental tendencies.",
+      "ur": "تفصیل سے وضاحت کریں کہ بیرونی دباؤ کھلے اور بند ماحول میں ایویپوریشن کی شرح کو کس طرح متاثر کرتا ہے۔"
+    },
+    {
+      "id": 13,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the phenomenon of boiling and describe how altitude or geographic location changes the boiling point of water, using Karachi and Murree as case studies.",
+      "ur": "بوائلنگ کے مظہرے پر بحث کریں اور کراچی اور مری کی مثالوں کا استعمال کرتے ہوئے وضاحت کریں کہ کس طرح اونچائی یا جغرافیائی محل وقوع پانی کے بوائلنگ پوائنٹ کو تبدیل کر دیتا ہے۔"
+    },
+    {
+      "id": 14,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain sublimation and deposition in detail with molecular behavior and examples.",
+      "ur": "مالیکیولر رویے اور مثالوں کے ساتھ سبلیمیشن اور ڈیپوزیشن کے عمل کی تفصیل سے وضاحت کریں۔"
+    },
+    {
+      "id": 15,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How does the process of sublimation helpful in printing and in the usage of air freshner?",
+      "ur": "لیمیشن، پرنٹنگ اور ایئر فریشنر کے استعمال میں کس طرح مدد گار ثابت ہوتی ہے؟"
+    },
+    {
+      "id": 16,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Compare sublimation printing with normal printing regarding durability and material applications.",
+      "ur": "پائیداری اور مادوں پر استعمال کے لحاظ سے سبلیمیشن پرنٹنگ کا عام پرنٹنگ سے موازنہ کریں۔"
+    },
+    {
+      "id": 17,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe an experimental verification of Boyle's law.",
+      "ur": "بوائل کے قانون کی تجرباتی تصدیق کی وضاحت کریں۔"
+    },
+    {
+      "id": 18,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the pressure-volume relationship on the basis of the kinetic molecular theory, and write its mathematical representation.",
+      "ur": "کائنیٹک مالیکیولر تھیوری کی بنیاد پر پریشر اور والیم کے تعلق کی وضاحت کریں اور اس کا ریاضیاتی اظہار لکھیں۔"
+    },
+    {
+      "id": 19,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the temperature-volume relationship using kinetic theory and explain it with the help of the labeled diagram.",
+      "ur": "کائنیٹک تھیوری کا استعمال کرتے ہوئے درجہ حرارت اور والیم کا تعلق بیان کریں اور نامزد شکل کی مدد سے وضاحت کریں۔"
+    },
+    {
+      "id": 20,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "State and explain Avogadro's Law based on kinetic concepts, showing how a larger volume compensates for an increased number of particles.",
+      "ur": "کائنیٹک تصورات کی بنیاد پر ایوگیڈرو کے قانون کو بیان اور واضح کریں، اور بتائیں کہ کس طرح زیادہ والیم ذرات کی بڑھتی ہوئی تعداد کا توازن برقرار رکھتا ہے۔"
+    },
+    {
+      "id": 21,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the difference in the rates of diffusion of two gases based on kinetic theory.",
+      "ur": "کائی نیٹک تھیوری کی بنیاد پر دو گیسوں کے درمیان ڈفیوژن کی شرح میں فرق کی وضاحت کریں۔"
+    },
+    {
+      "id": 22,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define diffusion. Explain in detail how molecular mass and temperature affect the rate of diffusion, using the examples and experiments (HCl and Ammonia).",
+      "ur": "ڈیفیوژن کی تعریف کریں۔ تفصیل سے وضاحت کریں کہ مالیکیولر ماس اور درجہ حرارت گیسوں کے ڈیفیوژن کی شرح پر کیسے اثر انداز ہوتے ہیں، مثالوں اور تجربات (HCl اور امونیا) کی مدد سے واضح کریں۔"
+    },
+    {
+      "id": 23,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss importance of rates of diffusion of medicines in human body.",
+      "ur": "انسانی جسم میں ادویات کے ڈیفیوز ہونے کی رفتار کی اہمیت بیان کریں۔"
+    },
+    {
+      "id": 24,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Calculate the number of moles, volume and number of molecules in 4.0 g of CH4 at RTP.",
+      "ur": "RTP پر 4.0 گرام CH4 میں مولز کی تعداد، والیوم اور مالیکیولز کی تعداد معلوم کریں۔"
+    },
+    {
+      "id": 25,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the concept of Molar Volume. Prove that the size and mass of gas molecules do not change the volume occupied by them at RTP.",
+      "ur": "مولر والیوم کے تصور کی تفصیل سے وضاحت کریں۔ ثابت کریں کہ گیس کے مالیکیولز کا سائز اور ماس آر ٹی پی پر ان کے گھیرے گئے والیوم کو تبدیل نہیں کرتے۔"
+    },
+    {
+      "id": 26,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Derive the formula relating mass, molar mass, and molar volume of a gas. Calculate the volume occupied by 100 g of Nitrogen gas at RTP.",
+      "ur": "کسی گیس کے ماس، مولر ماس اور مولر والیوم کے درمیان تعلق کا فارمولا اخذ کریں۔ آر ٹی پی پر 100 گرام نائٹروجن گیس کا والیوم معلوم کریں۔"
+    },
+    {
+      "id": 27,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Calculate the number of moles of nitrogen gas present when it occupies a volume of 2.5dm3 at RTP.",
+      "ur": "نائٹروجن گیس کا والیم RTP پر 2.5dm3 ہے۔ اس میں نائٹروجن گیس کے کتنے مولز موجود ہوں گے؟"
+    },
+    {
+      "id": 28,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Calculate the volume of 0.5 mol of hydrogen at RTP.",
+      "ur": "ہائیڈروجن گیس کے 0.5 مول کا RTP پر والیم کیا ہوگا؟"
+    },
+    {
+      "id": 29,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Calculate the volume occupied by 200g carbon dioxide at RTP.",
+      "ur": "200 گرام کاربن ڈائی آکسائیڈ گیس کا RTP پر والیم معلوم کریں۔"
+    },
+    {
+      "id": 30,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What mass of NaCl need to be dissolved in 150cm3 of a solution if the concentration of the solution is 0.4mol/dm3?",
+      "ur": "150cm3 سلوشن میں NaCl کی حل شدہ مقدار معلوم کریں اگر سلوشن کا ارتکاز 0.4mol/dm3 ہو۔"
+    },
+    {
+      "id": 31,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the concept of concentration of a solution. Differentiate between mass/volume concentration and molar concentration with formulas and units.",
+      "ur": "سلوشن کی کنسنٹریشن کے تصور کی تفصیل سے وضاحت کریں۔ ماس/والیوم کنسنٹریشن اور مولر کنسنٹریشن کے درمیان فارمولوں اور یونٹس کی مدد سے فرق واضح کریں۔"
+    },
+    {
+      "id": 32,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Calculate the concentration of a solution in g/dm3 which contains 20g of sodium chloride dissolved in 0.2dm3 of water.",
+      "ur": "ایک سلوشن بنانے کے لیے 20 گرام سوڈیم کلورائیڈ کو0.2dm3 پانی میں حل کیا گیا ہے۔ اس سلوشن کا ارتکاز معلوم کریں۔"
+    },
+    {
+      "id": 33,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "500cm3 of hydrochloric acid contains 1.8 g of dissolved hydrogen chloride. Calculate the concentration of the acid in g/dm3.",
+      "ur": "1.8 گرام ہائیڈروجن کلورائیڈ گیس کو پانی میں حل کر کے 500cm3 ہائیڈروکلورک ایسڈ کا سلوشن بنایا گیا ہے۔ ہائیڈروکلورک ایسڈ کا ارتکازg/dm3 میں معلوم کریں۔"
+    },
+    {
+      "id": 34,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Calculate the mass of copper sulphate in grams dissolved in 2dm3 of the solution to get a solution with a concentration 15g/dm3.",
+      "ur": "2dm3 کاپر سلفیٹ سلوشن کا ارتکاز 15g/dm3 ہے اس میں موجود کاپر سلفیٹ کی مقدار گراموں میں معلوم کریں۔"
+    },
+    {
+      "id": 35,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "A solution is prepared by dissolving 10 g of NaOH in 1.2dm3 of water. Calculate the concentration of the solution in mol/dm3.",
+      "ur": "1.2dm3 سوڈیم ہائیڈرو آکسائیڈ کا سلوشن بنانے کے لیے اس کے 10 گرام پانی میں حل کیے گئے ہیں۔ اس سلوشن کا ارتکاز mol/dm3 میں معلوم کریں۔"
+    },
+    {
+      "id": 36,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the step-by-step procedure to determine the concentration of a solution in titration using empirical data.",
+      "ur": "تجرباتی ڈیٹا کا استعمال کرتے ہوئے ٹائٹریشن میں کسی سلوشن کی کنسنٹریشن معلوم کرنے کے مرحلہ وار طریقہ کار کی تفصیل سے وضاحت کریں۔"
+    },
+    {
+      "id": 37,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "A titration is performed between NaOH and HCl till the endpoint is reached. 15cm3 of solution of sodium hydroxide having a molar concentration 0.5mol/dm3 is used to neutralize 23cm3 of HCl. Find out the concentration of HCl in mol/dm3.",
+      "ur": "سوڈیم ہائیڈرو آکسائیڈ (NaOH) سلوشن کو ہائیڈروکلورک ایسڈ (HCl) سلوشن کے ساتھ ٹائٹریٹ یا ری ایکٹ کیا گیا ہے۔ اس دوران 15cm3 سوڈیم ہائیڈرو آکسائیڈ سلوشن جس کا ارتکاز 0.5mol/dm3 تھا، نے 23cm3 ہائیڈروکلورک سلوشن کو پوری طرح نیوٹرلائز کیا۔ ہائیڈروکلورک ایسڈ سلوشن کا ارتکاز mol/dm3 میں معلوم کریں۔"
+    },
+    {
+      "id": 38,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Find out the percentage of sodium in NaHCO3.",
+      "ur": "NaHCO3میں سوڈیم کی پرسنٹ ایج معلوم کریں۔"
+    },
+    {
+      "id": 39,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is Percentage Composition? Explain how it can be determined theoretically using formula mass.",
+      "ur": "پرسنٹج کمپوزیشن کیا ہے؟ وضاحت کریں کہ فارمولا ماس کا استعمال کرتے ہوئے اسے نظریاتی طور پر کیسے معلوم کیا جا سکتا ہے۔"
+    },
+    {
+      "id": 40,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Find out the percentage composition of Ca(OH)2.",
+      "ur": "کیلشیم ہائیڈرو آکسائیڈ Ca(OH)2 کی فی صد مقدار معلوم کریں۔"
+    },
+    {
+      "id": 41,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "8.657g of a compound were decomposed into its elements. It gave 5.217g of carbon, 0.962g of hydrogen and 2.478g of oxygen. Find out the percentage composition of the compound.",
+      "ur": "ایک کمپاؤنڈ کے8.657g جب اُس کے ایلیمنٹس میں تحلیل کیا گیا تو 5.217g کاربن، 0.962g ہائیڈروجن اور2.478gآکسیجن ملے۔ کمپاؤنڈ میں موجود ایلیمنٹس کی فی صد مقدار معلوم کریں۔"
+    },
+    {
+      "id": 42,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "A sulphide of iron contains 1.926g of sulphur and 2.333g of iron. Find out the empirical formula of this compound.",
+      "ur": "آئرن کے سلفائڈ میں، 1.926g سلفر اور 2.333g آئرن موجود ہے۔ کمپاؤنڈ کا امپیریکل فارمولا معلوم کریں۔"
+    },
+    {
+      "id": 43,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "A compound contains by mass, 40.0% C, 6.71 % H and 53.3 % oxygen. A 0.320 mole of this compound weighs 28.8 g. What is the molecular formula of this compound?",
+      "ur": "ایک کمپاؤنڈ میں بلحاظ ماس %40.0 کاربن ، %6.71 ہائڈروجن جبکہ %53.3 آکسیجن موجود ہے ۔ 0.320mol کمپاؤنڈ کا وزن 28.8 گرام ہے۔ اس کمپاؤنڈ کا مالیکیولر فارمولا کیا ہوگا؟"
+    },
+    {
+      "id": 44,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is an empirical formula? Discuss its significance for ionic and covalent compounds, and explain why completely different chemical compounds can share the exact same empirical formula.",
+      "ur": "ایمپیریکل فارمولا کیا ہے؟ آئونک اور کوولنٹ کمپاؤنڈز کے لیے اس کی اہمیت پر بحث کریں، اور وضاحت کریں کہ بالکل مختلف کیمیائی کمپاؤنڈز کا ایمپیریکل فارمولا بالکل ایک جیسا کیوں ہو سکتا ہے۔"
+    },
+    {
+      "id": 45,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe in detail the five sequential steps required to calculate the empirical formula of a chemical compound from its experimental data.",
+      "ur": "کسی کیمیائی کمپاؤنڈ کے تجرباتی ڈیٹا سے اس کا ایمپیریکل فارمولا معلوم کرنے کے لیے ضروری پانچوں مراحل کی تفصیل سے وضاحت کریں۔"
+    },
+    {
+      "id": 46,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is a molecular formula? Explain how it is related to the empirical formula of a compound. Also, describe the step-by-step mathematical method to determine the molecular formula of a substance using its molecular mass.",
+      "ur": "مالیکیولر فارمولا کیا ہے؟ وضاحت کریں کہ یہ کسی کمپاؤنڈ کے ایمپیریکل فارمولا سے کس طرح تعلق رکھتا ہے۔ نیز، کسی مادے کے مالیکیولر ماس کو استعمال کرتے ہوئے اس کا مالیکیولر فارمولا معلوم کرنے کا مرحلہ وار ریاضیاتی طریقہ کار بیان کریں۔"
+    },
+    {
+      "id": 47,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are calculations based on chemical equations? Explain with a detailed example how a balanced chemical equation helps to determine the mass-mass relationship between reactants and products, using the neutralization reaction of calcium carbonate with hydrochloric acid.",
+      "ur": "کیمیائی مساوات پر مبنی حساب کتاب سے کیا مراد ہے؟ ایک تفصیلی مثال کی مدد سے وضاحت کریں کہ ایک متوازن کیمیائی مساوات ری ایکٹنٹس اور پروڈکٹس کے درمیان ماس-ماس تعلق معلوم کرنے میں کس طرح مدد کرتی ہے۔ کیلشیم کاربونیٹ اور ہائیڈروکلورک ایسڈ کے نیوٹرلائزیشن ری ایکشن کو بطور مثال استعمال کریں۔"
+    },
+    {
+      "id": 48,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "The percentage composition of a compound shows it to contain 25.26% Mg and 74.74% Chlorine. Find out its empirical formula.",
+      "ur": "ایک کمپاؤنڈ کی فی صد اجزائے ترکیبی ظاہر کرتی ہے کہ اُس میں ٪25.26 میگنیشیم اور ٪74.74 کلورین ہیں۔ اس کا ایمپیریکل فارمولا معلوم کریں۔"
+    },
+    {
+      "id": 49,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "The percentage composition of an organic compound by mass is 64.8% carbon, 15.62% hydrogen and 21.58% oxygen. Find out its empirical formula.",
+      "ur": "ایک آرگینک کمپاؤنڈ کی ماس کے لحاظ سے اجزائے ترکیبی یہ ہے کہ اس میں ٪64.8 کاربن، ٪13.62 ہائیڈروجن اور ٪21.58 آکسیجن موجود ہیں۔ اس کا ایمپیریکل فارمولا معلوم کریں۔"
+    },
+    {
+      "id": 50,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Benzene is represented by its empirical formula CH while its molecular mass is 78. Find out its molecular formula.",
+      "ur": "بینزین کا ایمپیریکل فارمولاCH ہے جبکہ اس کا مالیکیولر ماس 78g/molہے۔ اس کا مالیکیولر فارمولا نکالیں۔"
+    },
+    {
+      "id": 51,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Glucose has an empirical formula CH2O and its molecular mass is 180gmol1-. What will be its molecular formula?",
+      "ur": "گلوکوز کا ایمپیریکل فارمولا CH2O ہے جبکہ اس کا مالیکیولر ماس 180 گرام پر مول ہے۔ اس کا مالیکیولر فارمولا کیا ہوگا؟"
+    },
+    {
+      "id": 52,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "25g of lime stone (CaCO3) react with an excess of hydrochloric acid according to the equation. How much calcium chloride (CaCl2) will be produced?",
+      "ur": "25 گرام لائم سٹون(CaCO3) ہائیڈروکلورک ایسڈ کی زیادہ مقدار سے اوپر دی گئی کیمیائی مساوات کے مطابق ری ایکشن کرتا ہے۔ اس ری ایکشن میں کیلشیم کلورائیڈ کتنا بنے گا؟"
+    },
+    {
+      "id": 53,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "The formation of ammonia gas is given by the following equation: If you start reacting 12g of H2 with 64g of N2, which will be the limiting reactant?",
+      "ur": "امونیا گیس بنانے کا ری ایکشن درج ذیل ہے: اگر 12 گرام H2 کو 64 گرام N2کے ساتھ ملا کر ری ایکشن شروع کیا جائے تو ان میں سے کون سالمٹنگ ری ایکٹنٹ ہوگا؟"
+    },
+    {
+      "id": 54,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is a limiting reactant? Why do chemists deliberately use excess reactants in experimental setups? Describe in detail the three sequential steps required to identify a limiting reactant in a chemical reaction.",
+      "ur": "لیمیٹنگ ری ایکٹنٹ کیا ہے؟ کیمسٹ تجربات کے دوران جان بوجھ کر ری ایکٹنٹس کو زیادہ مقدار میں کیوں استعمال کرتے ہیں؟ کسی کیمیائی ری ایکشن میں لیمیٹنگ ری ایکٹنٹ کی شناخت کرنے کے لیے ضروری تینوں مراحل کی تفصیل سے وضاحت کریں۔"
+    },
+    {
+      "id": 55,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Calculate the amount of carbon dioxide in grams produced when 25g of glucose reacts with 40g of oxygen in the following photosynthesis reaction.",
+      "ur": "فوٹوسینتھیسز کے اس ری ایکشن کے دوران جب 25g گلوکوز، 40g آکسیجن سے ری ایکشن کرے گا تو گراموں میں کتنی کاربن ڈائی آکسائیڈ بنے گی؟"
+    },
+    {
+      "id": 56,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "When 305g of AgNO3 is reacted with excess of MgCl2 it produces 23.7g of Mg(NO3). What is the percentage yield of the reaction?",
+      "ur": "جب 305گرام AgNO3 کالا محدود MgCl2 کے ساتھ ری ایکشن کیا جاتا ہے تو 23.7گرام Mg(NO3)بنتا ہے۔ اس ری ایکشن کی پرسنٹ ایج پیلڈ کیا ہو گی؟"
+    },
+    {
+      "id": 57,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "A sample of metal has a total mass of 3.66kg and contains 2.45kg of gold. What is the percentage purity of gold in this sample?",
+      "ur": "میٹل کے ایک سیمپل کا ماس 3.66kg ہے جب کہ اس میں سونے کی مقدار 2.45kg ہے۔ اس نمونے میں سونے کی پرسنٹ ایچ پیورٹی معلوم کریں۔"
+    },
+    {
+      "id": 58,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is yield? Explain actual yield and theoretical yield. Why is actual yield practically less than theoretical yield? Give the formula for percentage yield.",
+      "ur": "ییلڈ کیا ہے؟ ایکچوئل ییلڈ اور تھیوریٹیکل ییلڈ کی وضاحت کریں۔ عملی طور پر ایکچوئل ییلڈ، تھیوریٹیکل ییلڈ سے کم کیوں ہوتی ہے؟ پرسنٹج ییلڈ کا فارمولا بھی لکھیں۔"
+    },
+    {
+      "id": 59,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the concept of percentage purity with its formula. Also, calculate the theoretical yield and percentage yield when 50 g of Zn reacts to give 80.2 g of Zn(NO3)2.",
+      "ur": "پرسنٹج پیورٹی کے تصور کی اس کے فارمولے کے ساتھ وضاحت کریں۔ نیز تھیوریٹیکل اور پرسنٹج ییلڈ معلوم کریں جب 50 گرام Zn ری ایکشن کر کے 80.2 گرام Zn(NO3)2 بنائے۔"
+    },
+    {
+      "id": 60,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "12.0g sample of a pharmaceutical product was found to contain 11.57g of the active drug. Find out the percentage purity of the sample.",
+      "ur": "ایک دوائی کے 12.0g نمونہ میں 11.57g حقیقی دوائی موجود ہے۔ اس نمونہ کا فی صد خالص پن نکالیں۔"
+    },
+    {
+      "id": 61,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Find the oxidation numbers of the indicated elements in the following compounds.",
+      "ur": "درج ذیل کمپاؤنڈز میں سے نشان زدہ ایلیمنٹ کا آکسیڈیشن نمبر معلوم کریں۔"
+    },
+    {
+      "id": 62,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write down the formulae of the following compounds using ionic charges: Sodium hypochlorite, calcium oxalate, ammonium phosphate, and calcium nitrite.",
+      "ur": "آئنک چارجز کا استعمال کرتے ہوئے درج ذیل کمپاؤنڈ ز کا فارمولا تحریر کریں: سوڈیم ہائیپوکلورائیٹ کیلشیم آگزالیٹ، امونیم فاسفیٹ کیلشیم نائٹریٹ۔"
+    },
+    {
+      "id": 63,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How the oxidation number of atoms in compounds and ions can be found out?",
+      "ur": "کمپاؤنڈز میں ایٹمز اور آئنز کا آکسیڈیشن نمبر کس طرح معلوم کیا جاتا ہے؟"
+    },
+    {
+      "id": 64,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define oxidation number. Explain any five rules used for assigning oxidation numbers to atoms in compounds and ions with appropriate examples.",
+      "ur": "آکسیڈیشن نمبر کی تعریف کریں۔ کمپاؤنڈز اور آئنز میں ایٹمز کو آکسیڈیشن نمبر دینے کے کوئی سے پانچ اصولوں کی مناسب مثالوں کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 65,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Assign oxidation number to sulphur in .",
+      "ur": "میں سلفر کا آکسیڈیشن نمبر کیا ہوگا؟"
+    },
+    {
+      "id": 66,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Find out the oxidation number of manganese in KMnO4.",
+      "ur": "KMnO4 میں موجود Mn کا آکسیڈیشن نمبر نکالیں۔"
+    },
+    {
+      "id": 67,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Examples",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Find out the oxidation number of Fe in Fe2O3.",
+      "ur": "Fe2O3 میں Fe کا آکسیڈیشن نمبر معلوم کریں۔"
+    },
+    {
+      "id": 68,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain with examples how the formula of ionic compound can be written using oxidation numbers.",
+      "ur": "آکسیڈیشن نمبر کا استعمال کرتے ہوئے آئنک کمپاؤنڈ کا فارمولا کسی طرح معلوم کیا جا سکتا ہے؟ مثال سے واضح کریں۔"
+    },
+    {
+      "id": 69,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss with examples how the chemical formulas of ionic compounds can be written using ionic charges.",
+      "ur": "مثالوں سے واضح کریں کہ آئنک چارجز کا استعمال کرتے ہوئے کس طرح آئنک کمپاؤنڈز کے کیمیکل فارمولے لکھے جاتے ہیں؟"
+    },
+    {
+      "id": 70,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the concepts of oxidation and reduction in detail on the basis of addition and removal of oxygen and hydrogen. Support your answer with at least four balanced chemical equations.",
+      "ur": "آکسیجن اور ہائیڈروجن کے اضافے اور اخراج کی بنیاد پر آکسیڈیشن اور ریڈکشن کے تصورات کی تفصیلی وضاحت کریں۔ اپنے جواب کی تائید میں کم از کم چار متوازن کیمیکل مساواتیں لکھیں۔"
+    },
+    {
+      "id": 71,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define and explain oxidation and reduction in terms of: (a) Loss or gain of electrons (b) Increase or decrease in oxidation number. Provide appropriate examples and ionic equations for each case.",
+      "ur": "درج ذیل کے لحاظ سے آکسیڈیشن اور ریڈکشن کی تعریف اور وضاحت کریں: (الف) الیکٹران کا نقصان یا فائدہ (ب) آکسیڈیشن نمبر میں اضافہ یا کمی۔ ہر صورت کے لیے مناسب مثالیں اور آئنک مساواتیں فراہم کریں۔"
+    },
+    {
+      "id": 72,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "English: What is an oxidation-reduction reaction? Explain the redox reaction of acidified potassium permanganate with: (a) Oxalic acid (b) Potassium iodide. Show the assignment of oxidation numbers, changes in electron transfer, and the balanced chemical equations for both reactions.",
+      "ur": "آکسیڈیشن ریڈکشن ری ایکشن کیا ہے؟ تیزابی پوٹاشیم پرمینگنیٹ کا درج ذیل کے ساتھ ریڈوکس ری ایکشن تفصیل سے بیان کریں:(الف) آکسالک ایسڈ (ب) پوٹاشیم آیوڈائیڈ۔ دونوں ری ایکشنز کے لیے آکسیڈیشن نمبرز کا تعین، الیکٹران کے تبادلے کی تبدیلیاں اور متوازن کیمیکل مساواتیں ظاہر کریں۔"
+    },
+    {
+      "id": 73,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "English: Define electrolysis. Explain the complete mechanism of electrolysis in an electrolytic cell, detailing the role of the battery, movement of ions, and reactions occurring at both electrodes.",
+      "ur": "الیکٹرولیسس کی تعریف کریں۔ ایک الیکٹرولائٹک سیل میں الیکٹرولیسس کا مکمل طریقہ کار بیان کریں، جس میں بیٹری کا کردار، آئنز کی حرکت اور دونوں الیکٹروڈز پر ہونے والے ری ایکشنز کی تفصیل شامل ہو۔"
+    },
+    {
+      "id": 74,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the electrolysis of a concentrated aqueous solution of sodium chloride (brine). Also, write the reactions occurring at the anode and cathode.",
+      "ur": "سوڈیم کلورائیڈ کے مرتکز آبی محلول (برائن) کی الیکٹرولائسز کی تفصیل سے وضاحت کریں۔ نیز اینوڈ اور کیتھوڈ پر ہونے والے ری ایکشنز بھی تحریر کریں۔"
+    },
+    {
+      "id": 75,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the electrolysis of aqueous solutions of metal halides. Discuss how the position of a metal in the electrochemical series and its concentration affect the products obtained at the cathode and anode.",
+      "ur": "میٹل ہیلائڈز کے آبی محلول کی الیکٹرولائسز کی تفصیل سے وضاحت کریں۔ نیز یہ بھی واضح کریں کہ الیکٹروکیمیکل سیریز میں میٹل کی پوزیشن اور اس کی کونسنٹریشن کیتھوڈ اور اینوڈ پر حاصل ہونے والے پروڈکٹس پر کیسے اثر انداز ہوتی ہے۔"
+    },
+    {
+      "id": 76,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the electrolysis of concentrated solutions of metal halides.",
+      "ur": "دھاتی میلائیڈز کے مرتکز سلوشن کے الیکٹر ولیسز پر بحث کریں۔"
+    },
+    {
+      "id": 77,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain electrolysis of molten lead (II) chloride.",
+      "ur": "پگھلے ہوئے لیڈ (II) کلورائڈ کی الیکٹرولیسز کی وضاحت کریں۔"
+    },
+    {
+      "id": 78,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe electrolysis of dilute solution of sulphuric acid using inert electrodes (carbon or Pt).",
+      "ur": "سلفیورک ایسڈ کے ڈائیلوٹ سلوشن کا الیکٹرولیسز انرٹ الیکٹروڈز کی مدد سے (کاربن یا پلاٹینم) کی وضاحت کریں۔"
+    },
+    {
+      "id": 79,
+      "chapter": 16,
+      "topic_id": "16.12",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss electrolysis of dilute aqueous solution of copper sulphate using inert electrodes or copper electrodes.",
+      "ur": "کاپر سلفیٹ کے ڈائیلوٹ ایکوس سلوشن کا الیکٹرولیسز انرٹ الیکٹروڈز یا کاپر الیکٹروڈز کی مدد سے بیان کریں۔"
+    },
+    {
+      "id": 80,
+      "chapter": 16,
+      "topic_id": "16.13",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the working of a fuel cell.",
+      "ur": "فیول سیل کے کام کرنے کے طریقہ کی وضاحت کریں۔"
+    },
+    {
+      "id": 81,
+      "chapter": 16,
+      "topic_id": "16.13",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the construction, working, and electrode reactions of a hydrogen-oxygen fuel cell. Discuss its major advantages and disadvantages over fossil fuels.",
+      "ur": "ہائیڈروجن-آکسیجن فیول سیل کی بناوٹ، کام کرنے کا طریقہ اور الیکٹروڈ ری ایکشنز کی وضاحت کریں۔ فوسل فیولز پر اس کے بڑے فوائد اور نقصانات بھی بیان کریں۔"
+    },
+    {
+      "id": 82,
+      "chapter": 16,
+      "topic_id": "16.14",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is corrosion? Explain the reactions involved in corrosion of iron.",
+      "ur": "کوروژن کیسے کہتے ہیں؟ آئرن کی کوروژن کے دوران ہونے والے ری ایکشنز کی وضاحت کریں۔"
+    },
+    {
+      "id": 83,
+      "chapter": 16,
+      "topic_id": "16.14",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the electrochemical mechanism of the rusting of iron with the help of chemical equations. Also, describe galvanization and sacrificial protection as methods for preventing corrosion.",
+      "ur": "کیمیائی مساواتوں کی مدد سے لوہے کو زنگ لگنے کے الیکٹروکیمیکل طریقہ کار کی وضاحت کریں۔ نیز، کروجن سے بچاؤ کے طریقوں کے طور پر گیلوانائزیشن اور سیکریفیشل پروٹیکشن کو تفصیل سے بیان کریں۔"
+    },
+    {
+      "id": 84,
+      "chapter": 16,
+      "topic_id": "16.15",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain electroplating giving examples.",
+      "ur": "مثالوں کے ساتھ الیکٹروپلیٹنگ کی وضاحت کریں۔"
+    },
+    {
+      "id": 85,
+      "chapter": 16,
+      "topic_id": "16.15",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the general procedure of electroplating. Explain the process of either silver plating or copper plating in detail, including the electrolyte used and the chemical reactions at both electrodes.",
+      "ur": "الیکٹروپلیٹنگ کے عمومی طریقہ کار کی وضاحت کریں۔ سلور پلیٹنگ یا کاپر پلیٹنگ میں سے کسی ایک کے عمل کو تفصیل سے بیان کریں، بشمول استعمال ہونے والا الیکٹرولائٹ اور دونوں الیکٹروڈز پر ہونے والے کیمیائی ری ایکشنز۔"
+    },
+    {
+      "id": 86,
+      "chapter": 16,
+      "topic_id": "16.16",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the construction, working principle, and chemical reactions of a Daniel cell with the help of a labeled diagram. Calculate its overall cell voltage.",
+      "ur": "ایک لیبل شدہ ڈائیگرام کی مدد سے ڈینیئل سیل کی بناوٹ، کام کرنے کا طریقہ کار اور کیمیائی ری ایکشنز کی وضاحت کریں۔ اس کے مجموعی سیل وولٹیج کا حساب بھی لگائیں۔"
+    },
+    {
+      "id": 87,
+      "chapter": 16,
+      "topic_id": "16.17",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How the reactivity of metals can be found out by using voltage data obtained from galvanic cell?",
+      "ur": "گیلوانک سیل سے حاصل ہونے والے وولٹیج ڈیٹا کی مدد سے ہم کس طرح دھاتوں کی ری ایکٹیویٹی کو معلوم کر سکتے ہیں؟"
+    },
+    {
+      "id": 88,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the main points of the collision theory of reaction rate.",
+      "ur": "ری ایکشن کے ریٹ کے بارے میں کولیژن تھیوری کے اہم نکات کی وضاحت کریں۔"
+    },
+    {
+      "id": 89,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is activation energy? Explain the concept of activation energy and the path of a reaction with the help of a potential energy diagram.",
+      "ur": "ایکٹیویشن انرجی کیا ہے؟ پوٹینشل انرجی ڈایاگرام کی مدد سے ایکٹیویشن انرجی کے تصور اور ری ایکشن کے راستے کی وضاحت کریں۔"
+    },
+    {
+      "id": 90,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the concept of change in mass during a chemical reaction according to the Law of Conservation of Mass.",
+      "ur": "ماس کے بقا کے قانون کے مطابق کیمیائی ری ایکشن کے دوران ماس میں تبدیلی کے تصور کی وضاحت کریں۔"
+    },
+    {
+      "id": 91,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe in detail how the concentrations of reactants and products vary from the start to the end of a chemical reaction.",
+      "ur": "تفصیل سے بیان کریں کہ کیمیائی ری ایکشن کے شروع سے لے کر آخر تک ری ایکٹنٹس اور پروڈکٹس کے ارتکاز میں کس طرح تبدیلی آتی ہے۔"
+    },
+    {
+      "id": 92,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain change in temperature during a chemical reaction.",
+      "ur": "کیمیکل ری ایکشن کے دوران ٹمپریچر میں تبدیلی کی وضاحت کریں۔"
+    },
+    {
+      "id": 93,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Differentiate between exothermic and endothermic reactions with suitable examples and chemical equations.",
+      "ur": "مناسب مثالوں اور کیمیائی مساوات کی مدد سے ایکسوتھرمک اور اینڈوتھرمک ری ایکشنز میں فرق کریں۔"
+    },
+    {
+      "id": 94,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the effect of surface area on the rate of a reaction.",
+      "ur": "ری ایکشن کے ریٹ پر سطح کے رقبے کے اثر کی وضاحت کریں۔"
+    },
+    {
+      "id": 95,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the following factors affecting the rate of a reaction: (a) Effect of concentrations of the reactants. (b) Effect of temperature at which a reaction is carried out.",
+      "ur": "ری ایکشن کے ریٹ کو متاثر کرنے والے درج ذیل عوامل کی وضاحت کریں۔ (الف) ری ایکٹنٹس کے ارتکاز کا اثر۔ (ب) درجہ حرارت کا اثر جس پر ری ایکشن وقوع پذیر ہوتا ہے۔"
+    },
+    {
+      "id": 96,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write briefly about the role enzymes play in our body as biological catalysts.",
+      "ur": "حیاتیاتی کیٹالسٹ کے طور پر ہمارے جسم میں انزائمز کے کردار کے بارے میں بتائیں۔"
+    },
+    {
+      "id": 97,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the effect of concentration of the reactants.",
+      "ur": "ری ایکٹنٹس کے ارتکاز کے اثرات کو بیان کریں۔"
+    },
+    {
+      "id": 98,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the effect of temperature at which a reaction is carried out.",
+      "ur": "درجہ حرارت کے اثر پر بحث کریں جس پر رد عمل کیا جاتا ہے۔"
+    },
+    {
+      "id": 99,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the following factors affecting the rate of reaction: (a) Reactants present in gas phase. (b) Effect of surface area of solids.",
+      "ur": "ری ایکشن کے ریٹ کو متاثر کرنے والے درج ذیل عوامل کی وضاحت کریں: (الف) ری ایکٹنٹس اگر گیسی حالت میں ہوں۔ (ب) ٹھوس اشیاء کی سطح کے ایریا کا اثر۔"
+    },
+    {
+      "id": 100,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the effect of catalyst on a chemical reaction.",
+      "ur": "کیمیکل ری ایکشن پر کیٹالسٹ کے اثر کی وضاحت کریں۔"
+    },
+    {
+      "id": 101,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How does chemical kinetics play an important role in the food industry?",
+      "ur": "خوراک کی صنعت کے لیے کیمیکل حرکیات (Chemical Kinetics) کس طرح اہم کردار ادا کرتی ہیں؟"
+    },
+    {
+      "id": 102,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the formation of the sodium chloride crystal.",
+      "ur": "سوڈیم کلورائیڈ کرسٹل کی تشکیل کی وضاحت کریں۔"
+    },
+    {
+      "id": 103,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How are the following salts prepared? K2SO4 , CuCl2 , CaCl2",
+      "ur": "مندرجہ ذیل سالٹس کیسے تیار کیے جاتے ہیں؟ K2SO4 , CuCl2 , CaCl2"
+    },
+    {
+      "id": 104,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is crystal lattice? Explain the formation of sodium chloride crystal.",
+      "ur": "کرسٹل لیٹس کیا ہے؟ سوڈیم کلورائیڈ کرسٹل کے بننے کی وضاحت کریں۔"
+    },
+    {
+      "id": 105,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss why the melting point of ionic compounds are generally very high.",
+      "ur": "آئنک کمپاؤنڈز کے میلٹنگ پوائنٹ عام طور پر زیادہ کیوں ہوتے ہیں وضاحت کریں۔"
+    },
+    {
+      "id": 106,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Why ionic compound do not conduct electricity in solid state but in molten state and when dissolved in water they conduct electricity?",
+      "ur": "آئنک کمپاؤنڈز ٹھوس حالت میں بجلی کنڈکٹ کیوں نہیں کرتے جبکہ پگھلی ہوئی حالت میں اور پانی میں حل ہو کر بجلی کنڈکٹ کرتے ہیں؟"
+    },
+    {
+      "id": 107,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe which salts are soluble in water and which are insoluble.",
+      "ur": "کون سے سالٹس پانی میں حل پذیر ہیں اور کون سے نا حل پذیر؟ وضاحت کریں۔"
+    },
+    {
+      "id": 108,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the methods of preparation of two soluble salts.",
+      "ur": "دو حل پذیر سالٹس کی تیاری کا طریقہ بیان کریں۔"
+    },
+    {
+      "id": 109,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the preparation of soluble salt.",
+      "ur": "حل پذیر سالٹس کی تیاری کی وضاحت کریں۔"
+    },
+    {
+      "id": 110,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How will you prepare pure crystals of sodium sulphate in the laboratory?",
+      "ur": "آپ لیبارٹری میں سوڈیم سلفیٹ کے خالص کرسٹل کیسے تیار کریں گے؟"
+    },
+    {
+      "id": 111,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the preparation of soluble salts by the reaction of a water-soluble acid with a water-soluble base.",
+      "ur": "پانی میں حل پذیر ایسڈ کو پانی میں حل پذیر بیس سے ری ایکشن کر کے حل پذیر سالٹس کی تیاری کی وضاحت کریں۔"
+    },
+    {
+      "id": 112,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the preparation of soluble salts by reaction of an acid with an insoluble base.",
+      "ur": "پانی میں حل پذیر ایسڈ اور پانی میں نا حل پذیر بیس کے ری ایکشن سےحل پذیر سالٹس کی تیاری کی وضاحت کریں۔"
+    },
+    {
+      "id": 113,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss how you will prepare pure crystals of zinc sulphate in the laboratory?",
+      "ur": "بحث کریں کہ آپ لیبارٹری میں زنک سلفیٹ کے خالص کرسٹل کیسے تیار کریں گے؟"
+    },
+    {
+      "id": 114,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the production of ammonia on industrial scale.",
+      "ur": "صنعتی پیمانے پر امونیا کی تیاری کی وضاحت کریں۔"
+    },
+    {
+      "id": 115,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How are nitrogen and hydrogen used in the Haber process obtained?",
+      "ur": "ہیبر پروسس میں استعمال ہونے والے نائٹروجن اور ہائیڈروجن کس طرح حاصل کیے جاتے ہیں؟"
+    },
+    {
+      "id": 116,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the contact process for the production of sulphuric acid.",
+      "ur": "سلفیورک ایسڈ کی پیداوار کے لیے کانٹیکٹ پراسس کا تفصیلی جائزہ دیں۔"
+    },
+    {
+      "id": 117,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the formation and properties of acidic and basic oxides.",
+      "ur": "ایسڈک اور بیسک آکسائیڈز کی تشکیل اور خصوصیات کی وضاحت کریں۔"
+    },
+    {
+      "id": 118,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are neutral oxides? Explain the formation and properties of amphoteric oxide.",
+      "ur": "نیوٹرل آکسائڈز کیا ہوتے ہیں؟ ایمفوٹیرک آکسائڈز کی تشکیل اور خصوصیات کی وضاحت کریں۔"
+    },
+    {
+      "id": 119,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Differentiate between first and second group metals based on their reactivities with oxygen and water.",
+      "ur": "آکسیجن اور پانی کے ساتھ ری ایکشنز کی بنیاد پر پہلے اور دوسرے گروپ کی دھاتوں کے درمیان فرق کی وضاحت کریں۔"
+    },
+    {
+      "id": 120,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Give the reaction of metals with cold water, steam, oxygen, and dilute acids.",
+      "ur": "ٹھنڈے پانی، بھاپ، آکسیجن اور ڈائلیوٹ ایسڈز کے ساتھ میٹلز کے ری ایکشنز کی وضاحت کریں۔"
+    },
+    {
+      "id": 121,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write a detailed note on the reactivity series of metals.",
+      "ur": "میٹلز کی ری ایکٹیویٹی سیریز پر تفصیلی نوٹ لکھیں۔"
+    },
+    {
+      "id": 122,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the role of oxides of nitrogen in the formation of PAN and the acid rain.",
+      "ur": "تیزابی بارش اور پی اے این (PAN) کی تشکیل میں نائٹروجن کے آکسائیڈز کے کردار کی وضاحت کریں۔"
+    },
+    {
+      "id": 123,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the natural and man-made sources of oxides of nitrogen in the atmosphere. Explain how these primary pollutants interact with ultraviolet radiation and other compounds to produce toxic secondary pollutants.",
+      "ur": "فضا میں نائٹروجن کے آکسائیڈز کے قدرتی اور انسانی ذرائع پر بحث کریں۔ وضاحت کریں کہ یہ پرائمری پلوٹنٹس کس طرح الٹرا وائلٹ (UV) شعاعوں اور دیگر مرکبات کے ساتھ تعامل کر کے زہریلے سیکنڈری پلوٹنٹس پیدا کرتے ہیں۔"
+    },
+    {
+      "id": 124,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the chemical test for water using anhydrous copper (II) sulfate.",
+      "ur": "این ہائڈرس کاپر سلفیٹ کو استعمال کرتے ہوئے پانی کے لیے کیمیکل ٹیسٹ بیان کریں۔"
+    },
+    {
+      "id": 125,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Which two physical constants are used to test the purity of water?",
+      "ur": "کون سے دو فزیکل کونسٹنٹ پانی کے خالص پن کو جانچنے کے لیے استعمال ہوتے ہیں؟"
+    },
+    {
+      "id": 126,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Differentiate between distilled water and tap water.",
+      "ur": "ڈسٹلڈ پانی اور نلکے کے پانی میں فرق کریں۔"
+    },
+    {
+      "id": 127,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain that dissolved oxygen in water obtained from natural sources is a useful commodity.",
+      "ur": "وضاحت کریں کہ قدرتی ذخائر سے حاصل کیے گئے پانی میں حل شدہ آکسیجن ایک مفید شے ہے۔"
+    },
+    {
+      "id": 128,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How do harmful microbes enter important sources of fresh water and affect its quality?",
+      "ur": "نقصان دہ مائکروبز کس طرح تازہ پانی کے اہم ذرائع میں شامل ہو کر اس کے معیار کو متاثر کرتے ہیں؟"
+    },
+    {
+      "id": 129,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How do heavy metals and their compounds enter in natural water and affect its quality?",
+      "ur": "بھاری دھاتوں اور ان کے کمپاؤنڈز کس طرح قدرتی پانی میں شامل ہو کر اس کے معیار کو متاثر کرتے ہیں؟"
+    },
+    {
+      "id": 130,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss plastics as harmful substances present in water and their effects.",
+      "ur": "پانی میں پائے جانے والے نقصان دہ مادے کے طور پر پلاسٹکس اور ان کے اثرات بیان کریں۔"
+    },
+    {
+      "id": 131,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How do nitrates and phosphates enter in natural water and affect its quality?",
+      "ur": "نائٹریٹس اور فاسفیٹس کس طرح قدرتی پانی میں شامل ہو کر اس کے معیار کو متاثر کرتے ہیں؟"
+    },
+    {
+      "id": 132,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How domestic water supply can be made fit for drinking?",
+      "ur": "گھروں میں مہیا کرنے والے پانی کو پینے کے قابل کیسے بنایا جا سکتا ہے؟"
+    },
+    {
+      "id": 133,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Which measures should be taken to avoid water-borne disease?",
+      "ur": "پانی سے پیدا ہونے والی بیماریوں سے بچاؤ کے لیے کون سے حفاظتی اقدامات کرنے چاہئیں؟"
+    },
+    {
+      "id": 134,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How can you avoid the negative effects of pollutants present in water?",
+      "ur": "پانی میں موجود آلودگی کے منفی اثرات سے کیسے بچا جا سکتا ہے؟"
+    },
+    {
+      "id": 135,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write a note on water scarcity in Pakistan.",
+      "ur": "پاکستان میں پانی کی کمی پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 136,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the elements essential for plant growth.",
+      "ur": "پودوں کی نشوونما کے لیے ضروری ایلیمنٹس کے بارے میں بیان کریں۔"
+    },
+    {
+      "id": 137,
+      "chapter": 20,
+      "topic_id": "20.9",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are fertilizers? Mention the essential qualities of a good fertilizer.",
+      "ur": "کھاد کسے کہتے ہیں؟ اچھی کھاد کی اہم خصوصیات کا ذکر کریں۔"
+    },
+    {
+      "id": 138,
+      "chapter": 20,
+      "topic_id": "20.10",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are the main functions of nitrogenous, phosphatic and potassium fertilizers?",
+      "ur": "نائٹروجن، فاسفیٹک اور پوٹاشیم کھادیں کیوں اہم ہیں؟"
+    },
+    {
+      "id": 139,
+      "chapter": 20,
+      "topic_id": "20.10",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the classification of fertilizers in detail.",
+      "ur": "کھادوں کی درجہ بندی پر تفصیل سے بحث کریں۔"
+    },
+    {
+      "id": 140,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is an organic compound? How organic compounds are classified based on the type of carbon chain present in them?",
+      "ur": "آرگینک کمپاؤنڈ کسے کہتے ہیں؟ ان میں موجود کاربن چین کی نوعیت کی بنیاد پر درجہ بندی کیسے کی جاتی ہے؟"
+    },
+    {
+      "id": 141,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Name the following compounds. (a) CH3 – CH2 – CH2OH (b) CH3 – CH2 – CHO (c) CH3 – CH2 – CH2 – COOH (d) CH3 – CH2 – CO – O – CH3",
+      "ur": "درج ذیل کمپاؤنڈز کے نام تحریر کریں۔ (الف) CH3 – CH2 – CH2OH (ب) CH3 – CH2 – CHO (ج) CH3 – CH2 – CH2 – COOH (د) CH3 – CH2 – CO – O – CH3"
+    },
+    {
+      "id": 142,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain structural formula giving examples.",
+      "ur": "مثالیں دے کر سٹرکچرل فارمولا کی وضاحت کریں۔"
+    },
+    {
+      "id": 143,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write down five characteristics of a homologous series.",
+      "ur": "ہومولوگس سیریز کی پانچ خصوصیات تحریر کریں۔"
+    },
+    {
+      "id": 144,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define the phenomenon of isomerism. Explain structural isomerism in detail by giving examples of both saturated and unsaturated hydrocarbons, along with their structural formulas.",
+      "ur": "آرگینک کمپاؤنڈز میں آئیسومیرزم کے مظاہرے کی تعریف کریں۔ سیر شدہ اور غیر سیر شدہ ہائیڈرو کاربنز کی مثالیں اور ان کے سٹرکچرل فارمولے دیتے ہوئے سٹرکچرل آئیسومیرزم کی تفصیل سے وضاحت کریں۔"
+    },
+    {
+      "id": 145,
+      "chapter": 21,
+      "topic_id": "21.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define a functional group. Explain any five important functional groups with their names, structural formulas, and examples for each.",
+      "ur": "فنکشنل گروپ کی تعریف کریں۔کوئی سے پانچ اہم فنکشنل گروپس کی ان کے نام، سٹرکچرل فارمولا اور مثالوں کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 146,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Give IUPAC rules for naming alcohols.",
+      "ur": "الکوحل کو نام دینے کے لیے IUPAC اصول بیان کریں۔"
+    },
+    {
+      "id": 147,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How systematic way of naming organic compounds introduced?",
+      "ur": "آرگینک کمپاؤنڈز کو باقاعدہ نام دینے کا طریقہ کیسے متعارف کروایا گیا؟"
+    },
+    {
+      "id": 148,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are Alkanes? How is an organic compound named according to the IUPAC system of Nomenclature?",
+      "ur": "الکینز کیا ہوتے ہیں؟ ایک آرگینک کمپاؤنڈ کو IUPAC نومن کلیچر کے مطابق کس طرح نام دیا جاتا ہے؟"
+    },
+    {
+      "id": 149,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is an alkyl group? Explain with examples how an alkyl group is formed .",
+      "ur": "الکائل گروپ کیا ہے؟ مثالوں کے ساتھ وضاحت کریں کہ الکائل گروپ کیسے بنتا ہے؟"
+    },
+    {
+      "id": 150,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Name the following compound according to the IUPAC system: CH3-CH2-CH2-CH3",
+      "ur": "IUPAC سسٹم کو واضح کرنے کے لیے مندرجہ ذیل کمپاؤنڈ کو نام دیں: CH3-CH2-CH2-CH3"
+    },
+    {
+      "id": 151,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are Alkenes? How are Alkenes named using the IUPAC system?",
+      "ur": "الکینز کیا ہوتے ہیں؟ IUPAC سسٹم کے مطابق الکینز کو کس طرح نام دیا جاتا ہے؟"
+    },
+    {
+      "id": 152,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Define carboxylic acids and explain the origin of the common names of Formic acid and Acetic acid.",
+      "ur": "کاربوکسل ایسڈز کی تعریف کریں اور فارمک ایسڈ اور ایسیٹک ایسڈ کے عام ناموں کے ماخذ کی وضاحت کریں۔"
+    },
+    {
+      "id": 153,
+      "chapter": 21,
+      "topic_id": "21.6",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are Esters? Describe their general formula, physical properties, and method of preparation using a balanced chemical equation.",
+      "ur": "ایسٹرز کیا ہیں؟ ان کا جنرل فارمولا، طبعی خصوصیات اور تیاری کا طریقہ ایک متوازن کیمیکل مساوات کی مدد سے بیان کریں۔"
+    },
+    {
+      "id": 154,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe two methods of preparation for ethene.",
+      "ur": "ایتھین کی تیاری کے لیے دو طریقے بیان کریں۔"
+    },
+    {
+      "id": 155,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain with examples the cracking of alkanes.",
+      "ur": "مثالوں کے ساتھ الکینز (Alkanes) کی کریکنگ کی وضاحت کریں۔"
+    },
+    {
+      "id": 156,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are alkenes. How are they prepared?",
+      "ur": "الکینز سے کیا مراد ہے؟ الکینز کو کیسے تیار کیا جاتا ہے؟"
+    },
+    {
+      "id": 157,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe important reactions of alkenes.",
+      "ur": "الکینز کے اہم کیمیائی ری ایکشنز بیان کریں۔"
+    },
+    {
+      "id": 158,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Give uses of acetylene.",
+      "ur": "ایتھائن کے دو استعمالات بیان کریں۔"
+    },
+    {
+      "id": 159,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write a detailed note on alkynes.",
+      "ur": "الکائنز پر ایک تفصیلی نوٹ تحریر کریں۔"
+    },
+    {
+      "id": 160,
+      "chapter": 22,
+      "topic_id": "22.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Identify the major sources from which organic compounds can be obtained.",
+      "ur": "آرگینک کمپاؤنڈز کو حاصل کرنے کے اہم ذرائع بیان کریں۔"
+    },
+    {
+      "id": 161,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the fractional distillation of petroleum.",
+      "ur": "پیٹرولیم کی فریکشنل ڈسٹلیشن کی تفصیل لکھیں۔"
+    },
+    {
+      "id": 162,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Which properties of petroleum fractions change with their boiling points?",
+      "ur": "پیٹرولیم فریکشنز کی کون سی خصوصیات ان کے بوائلنگ پوائنٹس کے ساتھ تبدیل ہوتی ہیں؟"
+    },
+    {
+      "id": 163,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write names, boiling range, composition and use of fractions of petroleum.",
+      "ur": "پیٹرولیم کے اجزا کا نام، بوائلنگ رینج، کمپوزیشن اور استعمالات لکھیں۔"
+    },
+    {
+      "id": 164,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Give a comparison of fermentation reaction and catalytic hydration of ethene for the preparation of ethanol.",
+      "ur": "ایتھانول کی تیاری کے لیے فرمنٹیشن ری ایکشن اور ایتھین کی کیٹالیٹک ہائیڈریشن کا موازنہ کریں۔"
+    },
+    {
+      "id": 165,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the preparation of ethanol by fermentation process.",
+      "ur": "فرمنٹیشن پراسس کے ذریعے ایتھانول کی تیاری کی وضاحت کریں۔"
+    },
+    {
+      "id": 166,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the applications of ethanol in pharmaceutical and cosmetic industries.",
+      "ur": "فارماسیوٹیکل اور کاسمیٹک انڈسٹری میں ایتھانول کے استعمال کی وضاحت کریں۔"
+    },
+    {
+      "id": 167,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the preparation of ethanol by hydration of ethene or ethylene.",
+      "ur": "ایتھین یا ایتھائلین کی ہائیڈریشن کے ذریعے ایتھانول کی تیاری کی وضاحت کریں۔"
+    },
+    {
+      "id": 168,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the combustion of alcohols.",
+      "ur": "الکوحلزکے جلنے کی وضاحت کریں۔"
+    },
+    {
+      "id": 169,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain why the amount of heat evolved increases as you move from methanol to butanol in the homologous series.",
+      "ur": "وضاحت کریں کہ جب آپ ہومولوگس سیریز میں میتھانول سے بیوٹانول میں جاتے ہیں تو حرارت کی مقدار کیوں بڑھ جاتی ہے۔"
+    },
+    {
+      "id": 170,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe applications of alcohols as fuels.",
+      "ur": "الکوحل کو ایندھن کے طور پر استعمال کرنے کی ایپلیکیشنز بیان کریں۔"
+    },
+    {
+      "id": 171,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the advantages and disadvantages of alcohols as fuels.",
+      "ur": "الکوحل کو ایندھن کے طور پر استعمال کرنے کے فوائد اور نقصانات بیان کریں۔"
+    },
+    {
+      "id": 172,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss the applications of ethanol in the pharmaceutical industry.",
+      "ur": "دواسازی کی صنعت میں ایتھانول کے استعمالات کی وضاحت کریں۔"
+    },
+    {
+      "id": 173,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the applications of ethanol in the cosmetic industry.",
+      "ur": "کاسمیٹک انڈسٹری میں ایتھنول کے استعمال کی وضاحت کریں۔"
+    },
+    {
+      "id": 174,
+      "chapter": 23,
+      "topic_id": "23.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the impact of alcohol on daily life.",
+      "ur": "روزمرہ کی زندگی پر الکوحل کے اثرات کی وضاحت کریں۔"
+    },
+    {
+      "id": 175,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain fermentation reaction which is used to prepare acetic acid on commercial scale.",
+      "ur": "فرمنٹیشن کے عمل کی وضاحت کریں جو کہ تجارتی پیمانے پر ایسٹک ایسڈ کی تیاری کے لیے استعمال ہوتا ہے۔"
+    },
+    {
+      "id": 176,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the oxidation of ethanol to form ethanoic acid.",
+      "ur": "ایتھانول کے آکسیڈائز ہونے اور ایتھینوک ایسڈ بنانے کی وضاحت کریں۔"
+    },
+    {
+      "id": 177,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the commercial production of ethanoic acid through oxidative fermentation.",
+      "ur": "تجارتی سطح پر ایتھانوئک ایسڈ کی آکسیڈیٹو فرمنٹیشن کے ذریعے تیاری کو بیان کریں۔"
+    },
+    {
+      "id": 178,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain the reactions of carboxylic acids with metals and carbonates.",
+      "ur": "کاربوکسلک ایسڈز کی دھاتوں اور کاربونیٹس کے ساتھ ری ایکشنز کی تفصیل بیان کریں۔"
+    },
+    {
+      "id": 179,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss reactions of carboxylic acids as acids.",
+      "ur": "بطور ایسڈ کاربوکسلگ ایسڈ کے ری ایکشن کی وضاحت کریں۔"
+    },
+    {
+      "id": 180,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the reaction of carboxylic acids with alcohols.",
+      "ur": "کاربوکسیلیک ایسڈز اور الکحل کے درمیان ردعمل کو بیان کریں۔"
+    },
+    {
+      "id": 181,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is an esterification reaction? Explain.",
+      "ur": "ایسٹری فکیشن ری ایکشن کیا ہوتا ہے؟ وضاحت کریں۔"
+    },
+    {
+      "id": 182,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the industrial applications of carboxylic acids and esters.",
+      "ur": "کاربوکسلک ایسڈز اور ایسٹرز کے صنعتی استعمال کی وضاحت کریں۔"
+    },
+    {
+      "id": 183,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are flavouring agents? Which carboxylic acids are used as flavouring agents?",
+      "ur": "فلیورنگ ایجنٹس کسے کہتے ہیں؟ کون سے کاربوکسلک ایسڈز بطور ذائقہ دار ایجنٹ استعمال ہوتے ہیں؟"
+    },
+    {
+      "id": 184,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe applications of esters in daily life.",
+      "ur": "روزمرہ زندگی میں ایسٹرز کے استعمال کی وضاحت کریں۔"
+    },
+    {
+      "id": 185,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe applications of carboxylic acids in daily life.",
+      "ur": "روزمرہ کی زندگی میں کاربوکسیلک ایسڈز کے استعمالات بیان کریں۔"
+    },
+    {
+      "id": 186,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Compare the roles played by carbohydrates, proteins and lipids in our body.",
+      "ur": "ہمارے جسم میں کاربوہائیڈریٹس، پروٹینز اور لپڈز کی طرف سے ادا کیے گئے کردار کا موازنہ کریں۔"
+    },
+    {
+      "id": 187,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What is biochemistry? Describe three main classes of food.",
+      "ur": "بائیو کیمسٹری کیا ہے؟ خوراک کی تین کلاسز کی وضاحت کریں۔"
+    },
+    {
+      "id": 188,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write a detailed note on the importance of nutrition.",
+      "ur": "غذائیت کی اہمیت پر تفصیلی نوٹ لکھیں۔"
+    },
+    {
+      "id": 189,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are the basics of healthy eating? Also, discuss healthy eating.",
+      "ur": "صحت مند کھانے کے بنیادی اصول کیا ہیں؟ اس کے علاوہ، صحت مند کھانے پر بات کریں۔"
+    },
+    {
+      "id": 190,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are the sources of fructose, maltose and lactose?",
+      "ur": "فرکٹوز، مالٹوز اور لیکٹوز کو حاصل کرنے کے ذرائع بیان کریں۔"
+    },
+    {
+      "id": 191,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Draw open chain structures of glucose and fructose.",
+      "ur": "گلوکوز اور فرکٹوز کی اوپن چین ساخت تشکیل دیں۔"
+    },
+    {
+      "id": 192,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are carbohydrates? Discuss some important carbohydrates in detail.",
+      "ur": "کاربو ہائیڈریٹس کیا ہیں؟ کچھ اہم کاربو ہائیڈریٹس کی تفصیل بیان کریں۔"
+    },
+    {
+      "id": 193,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Construct peptide linkage and explain the structure of a polypeptide.",
+      "ur": "پیپٹائیڈ لنکیج بنائیں، پولی پیپٹائیڈ کی ساخت تفصیلاً بیان کریں۔"
+    },
+    {
+      "id": 194,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are proteins? How are they formed? Identify different functions of proteins in the human body.",
+      "ur": "پروٹینز کیا ہیں؟ یہ کیسے بنتے ہیں؟ انسانی جسم میں پروٹینز کے افعال بیان کریں۔"
+    },
+    {
+      "id": 195,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Explain denaturation of proteins with examples.",
+      "ur": "پروٹین کی ڈی نیچریشن کی مثالوں کے ذریعے وضاحت کریں۔"
+    },
+    {
+      "id": 196,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe lipids in detail.",
+      "ur": "لپڈز کی وضاحت کریں۔"
+    },
+    {
+      "id": 197,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are vitamins? Explain the importance of vitamins in detail.",
+      "ur": "وٹامنز کیا ہیں؟ وٹامنز کی اہمیت کو تفصیل سے بیان کریں۔"
+    },
+    {
+      "id": 198,
+      "chapter": 25,
+      "topic_id": "25.6",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are DNA and RNA? Describe the role played by them in our body.",
+      "ur": "ڈی این اے اور آر این اے کیا ہیں؟ ان کا ہمارے جسم میں کیا کردار ہے، بیان کریں۔"
+    },
+    {
+      "id": 199,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Discuss applications of biochemistry in different fields.",
+      "ur": "مختلف شعبوں میں بائیو کیمسٹری کے استعمالات بیان کریں۔"
+    },
+    {
+      "id": 200,
+      "chapter": 26,
+      "topic_id": "26.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "How is PET formed? Can you recycle this polymer?",
+      "ur": "پی۔ای۔ٹی (PET) کیسے تیار کیا جاتا ہے؟ کیا آپ اس پولیمر کو ری سائیکل کر سکتے ہیں؟"
+    },
+    {
+      "id": 201,
+      "chapter": 26,
+      "topic_id": "26.1",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Differentiate between addition and condensation polymerizations.",
+      "ur": "ایڈیشن اور کنڈنسیشن پولیمرائزیشن کے درمیان فرق واضح کریں۔"
+    },
+    {
+      "id": 202,
+      "chapter": 26,
+      "topic_id": "26.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the following: (a) Monomers (b) Polymerization (c) Types of polymers (d) Importance of polymers",
+      "ur": "مندرجہ ذیل کی وضاحت کریں: (الف) مونومرز (ب) پولیمرائزیشن (ج) پولیمرز کی اقسام (د) پولیمرز کی اہمیت"
+    },
+    {
+      "id": 203,
+      "chapter": 26,
+      "topic_id": "26.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write a detailed note on addition polymers.",
+      "ur": "ایڈیشن پولیمرز پر تفصیلی نوٹ لکھیں۔"
+    },
+    {
+      "id": 204,
+      "chapter": 26,
+      "topic_id": "26.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "What are condensation polymers? How are they formed?",
+      "ur": "کنڈینسیشن پولیمرز کیا ہیں؟ یہ کیسے بنتے ہیں؟"
+    },
+    {
+      "id": 205,
+      "chapter": 26,
+      "topic_id": "26.1",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write formation of polyamide.",
+      "ur": "پولی امائڈ کے بننے کے عمل کو بیان کریں۔"
+    },
+    {
+      "id": 206,
+      "chapter": 26,
+      "topic_id": "26.2",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write down reactions along with the conditions to prepare polyamide and polyester.",
+      "ur": "پولی امائڈ اور پولی ایسٹر کی تیاری کے لیے شرائط کی وضاحت کریں اور ری ایکشنز تحریر کریں۔"
+    },
+    {
+      "id": 207,
+      "chapter": 26,
+      "topic_id": "26.2",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Write down the reaction along with the conditions to prepare an addition polymer.",
+      "ur": "ایڈیشن پولیمر کی تیاری کے لیے شرائط کی وضاحت کریں اور ری ایکشن تحریر کریں۔"
+    },
+    {
+      "id": 208,
+      "chapter": 26,
+      "topic_id": "26.3",
+      "source": "Additional",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe polymers of plastic and their uses.",
+      "ur": "پلاسٹک کے پولیمرز اور ان کے استعمالات کی وضاحت کریں۔"
+    },
+    {
+      "id": 209,
+      "chapter": 26,
+      "topic_id": "26.4",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the role of synthetic polymers in the textile industry.",
+      "ur": "ٹیکسٹائل انڈسٹری میں مصنوعی پولیمر کا کیا کردار ہے؟ وضاحت کریں۔"
+    },
+    {
+      "id": 210,
+      "chapter": 26,
+      "topic_id": "26.5",
+      "source": "Exercise",
+      "type": "long",
+      "series": "smart-syllabus",
+      "en": "Describe the effects of synthetic polymers on the environment.",
+      "ur": "مصنوعی پولیمر کے ماحول پر اثرات بیان کریں۔"
+    }
+  ]
+}

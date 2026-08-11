@@ -1,0 +1,414 @@
+{
+  "board": "Lahore",
+  "class": "9",
+  "subject": "Physics",
+  "slug": "physics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Physical Quantities and Measurements",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Physical and Non-Physical Quantities"
+        },
+        {
+          "id": "1.2",
+          "title": "Base and Derived Physical Quantities"
+        },
+        {
+          "id": "1.3",
+          "title": "International System of Units"
+        },
+        {
+          "id": "1.4",
+          "title": "Scientific Notation"
+        },
+        {
+          "id": "1.5",
+          "title": "Length Measuring Instruments"
+        },
+        {
+          "id": "1.6",
+          "title": "Mass Measuring Instruments"
+        },
+        {
+          "id": "1.7",
+          "title": "Time Measuring Instruments"
+        },
+        {
+          "id": "1.8",
+          "title": "Volume Measuring Instrument"
+        },
+        {
+          "id": "1.9",
+          "title": "Errors in Measurements"
+        },
+        {
+          "id": "1.10",
+          "title": "Uncertainity in a Measurement"
+        },
+        {
+          "id": "1.11",
+          "title": "Significant Figures"
+        },
+        {
+          "id": "1.12",
+          "title": "Precision and Accuracy"
+        },
+        {
+          "id": "1.13",
+          "title": "Rounding Off the Digits"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kinematics",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Scalars and Vectors"
+        },
+        {
+          "id": "2.2",
+          "title": "Rest and Motion"
+        },
+        {
+          "id": "2.3",
+          "title": "Types of Motion"
+        },
+        {
+          "id": "2.4",
+          "title": "Distance and Displacement"
+        },
+        {
+          "id": "2.5",
+          "title": "Speed and Velocity"
+        },
+        {
+          "id": "2.6",
+          "title": "Acceleration"
+        },
+        {
+          "id": "2.7",
+          "title": "Graphical Analysis of Motion"
+        },
+        {
+          "id": "2.8",
+          "title": "Gradient of a Distance-Time Graph"
+        },
+        {
+          "id": "2.9",
+          "title": "Speed-Time Graph"
+        },
+        {
+          "id": "2.10",
+          "title": "Gradient of a Speed-Time Graph"
+        },
+        {
+          "id": "2.11",
+          "title": "Area Under Speed-Time Graph"
+        },
+        {
+          "id": "2.12",
+          "title": "Solving Problems for Motion Under Gravity"
+        },
+        {
+          "id": "2.13",
+          "title": "Free Fall Acceleration"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Dynamics",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Concept of Force"
+        },
+        {
+          "id": "3.2",
+          "title": "Fundamental Forces"
+        },
+        {
+          "id": "3.3",
+          "title": "Forces in a Free-Body Diagram"
+        },
+        {
+          "id": "3.4",
+          "title": "Newton'S Laws of Motion"
+        },
+        {
+          "id": "3.5",
+          "title": "Limitations of Newton'S Laws of Motion"
+        },
+        {
+          "id": "3.6",
+          "title": "Mass and Weight"
+        },
+        {
+          "id": "3.7",
+          "title": "Mechanical and Electrical Balanes"
+        },
+        {
+          "id": "3.8",
+          "title": "Friction"
+        },
+        {
+          "id": "3.9",
+          "title": "Momentum and Impulse"
+        },
+        {
+          "id": "3.10",
+          "title": "Principle of Conservation of Momentum"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Turning Effects of Forces",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Like and Unlike Parallel Forces"
+        },
+        {
+          "id": "4.2",
+          "title": "Addition of Forces"
+        },
+        {
+          "id": "4.3",
+          "title": "Turning Effect of a Force"
+        },
+        {
+          "id": "4.4",
+          "title": "Resolution of Vectors"
+        },
+        {
+          "id": "4.5",
+          "title": "Determination of a Force From Its Prependicular Components"
+        },
+        {
+          "id": "4.6",
+          "title": "Principle of Moments"
+        },
+        {
+          "id": "4.7",
+          "title": "Centre of Gravity and Centre of Mass"
+        },
+        {
+          "id": "4.8",
+          "title": "Equilibrium"
+        },
+        {
+          "id": "4.9",
+          "title": "Conditions of Equilibrium"
+        },
+        {
+          "id": "4.10",
+          "title": "States of Equilibrium"
+        },
+        {
+          "id": "4.11",
+          "title": "Improvement of Stability"
+        },
+        {
+          "id": "4.12",
+          "title": "Application of Stability in Real Life"
+        },
+        {
+          "id": "4.13",
+          "title": "Centripetal Forces"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Work, Energy and Power",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Work"
+        },
+        {
+          "id": "5.2",
+          "title": "Energy"
+        },
+        {
+          "id": "5.3",
+          "title": "Conservation of Energy"
+        },
+        {
+          "id": "5.4",
+          "title": "Sources of Energy"
+        },
+        {
+          "id": "5.5",
+          "title": "Renewable and Non-Renewable Sources"
+        },
+        {
+          "id": "5.6",
+          "title": "the Advantages and Disadvantages of Method of Energy Production"
+        },
+        {
+          "id": "5.7",
+          "title": "Power"
+        },
+        {
+          "id": "5.8",
+          "title": "Efficiency"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Mechanical Properties of Matter",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Deformation of Solids"
+        },
+        {
+          "id": "6.2",
+          "title": "Hooke'S Law"
+        },
+        {
+          "id": "6.3",
+          "title": "Density"
+        },
+        {
+          "id": "6.4",
+          "title": "Pressure"
+        },
+        {
+          "id": "6.5",
+          "title": "Pressure in Liquids"
+        },
+        {
+          "id": "6.6",
+          "title": "Atmospheric Pressure"
+        },
+        {
+          "id": "6.7",
+          "title": "Measurement of Atmospheric Pressure"
+        },
+        {
+          "id": "6.8",
+          "title": "Measurement of Pressure By Manometer"
+        },
+        {
+          "id": "6.9",
+          "title": "Pascal'S Law"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Thermal Properties of Matter",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Kinetic Molecular Theory of Matter"
+        },
+        {
+          "id": "7.2",
+          "title": "Temperature and Heat"
+        },
+        {
+          "id": "7.3",
+          "title": "Thermometers"
+        },
+        {
+          "id": "7.4",
+          "title": "Sensitivity, Range and Linearity of Thermometers"
+        },
+        {
+          "id": "7.5",
+          "title": "Structure of a Liquid-in-Glass Thermometer"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Magnetism",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Magnetic Materials"
+        },
+        {
+          "id": "8.2",
+          "title": "Properties of Magnets"
+        },
+        {
+          "id": "8.3",
+          "title": "Induce Magnetism"
+        },
+        {
+          "id": "8.4",
+          "title": "Temporary and Permanent Magnets"
+        },
+        {
+          "id": "8.5",
+          "title": "Magnetic Fields"
+        },
+        {
+          "id": "8.6",
+          "title": "Uses of Permanent Magnets"
+        },
+        {
+          "id": "8.7",
+          "title": "Electromagnets"
+        },
+        {
+          "id": "8.8",
+          "title": "Domain Theory of Magnetism"
+        },
+        {
+          "id": "8.9",
+          "title": "Magnetization and Demagnetization"
+        },
+        {
+          "id": "8.10",
+          "title": "Applications of Magnets in Recording Technology"
+        },
+        {
+          "id": "8.11",
+          "title": "Soft Iron As Magnetic Shield"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Nature of Science",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Scope of Physics"
+        },
+        {
+          "id": "9.2",
+          "title": "Branches of Physics"
+        },
+        {
+          "id": "9.3",
+          "title": "Interdisciplinary Nature of Physics"
+        },
+        {
+          "id": "9.4",
+          "title": "Interdisciplinary Research"
+        },
+        {
+          "id": "9.5",
+          "title": "Scientific Method"
+        },
+        {
+          "id": "9.6",
+          "title": "Scientific Base of Technology and Engineering"
+        }
+      ]
+    }
+  ]
+}

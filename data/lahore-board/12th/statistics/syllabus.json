@@ -1,0 +1,340 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Statistics",
+  "slug": "statistics",
+  "chapters": [
+    {
+      "number": 10,
+      "title": "Normal Distribution",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Normal Distribution"
+        },
+        {
+          "id": "10.2",
+          "title": "Standard Normal Random Variable"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Sampling Techniques and Sampling Distribution",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Population (Or Universe)"
+        },
+        {
+          "id": "11.2",
+          "title": "Sample"
+        },
+        {
+          "id": "11.3",
+          "title": "Sampling Design"
+        },
+        {
+          "id": "11.4",
+          "title": "Non-Probability (Non Random) Sampling"
+        },
+        {
+          "id": "11.5",
+          "title": "Probability (Random) Sampling"
+        },
+        {
+          "id": "11.6",
+          "title": "Simple Random Sampling"
+        },
+        {
+          "id": "11.7",
+          "title": "Stratified Sampling"
+        },
+        {
+          "id": "11.8",
+          "title": "Errors"
+        },
+        {
+          "id": "11.9",
+          "title": "Simple Random Sampling and Sample Distribution"
+        },
+        {
+          "id": "11.10",
+          "title": "Sampling Distribution of a Statistics"
+        },
+        {
+          "id": "11.11",
+          "title": "Sampling Distribution From General Populations"
+        },
+        {
+          "id": "11.12",
+          "title": "Sampling Distribution of the Sample Mean"
+        },
+        {
+          "id": "11.13",
+          "title": "Sampling Distribution of the Difference Between Two Sample Means"
+        },
+        {
+          "id": "11.14",
+          "title": "Sample Distribution of Sample Proportion, P"
+        },
+        {
+          "id": "11.15",
+          "title": "Sampling Distribution of the Difference Between Two Sample Proportions,"
+        },
+        {
+          "id": "11.16",
+          "title": "Other Sampling Distributions"
+        },
+        {
+          "id": "11.17",
+          "title": "Sampling Distribution of the Sample Variance"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Estimation",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Statistical Inference"
+        },
+        {
+          "id": "12.2",
+          "title": "Statistical Estimation"
+        },
+        {
+          "id": "12.3",
+          "title": "Point Estimation of a Parameter"
+        },
+        {
+          "id": "12.4",
+          "title": "Unbiasedness"
+        },
+        {
+          "id": "12.5",
+          "title": "Best Estimator"
+        },
+        {
+          "id": "12.6",
+          "title": "Pooled Estimators From Two Samples"
+        },
+        {
+          "id": "12.7",
+          "title": "Interval Estimation"
+        },
+        {
+          "id": "12.8",
+          "title": "Confidence Interval for Population Means"
+        },
+        {
+          "id": "12.9",
+          "title": "Confidence Interval for Population Proportion of Success"
+        },
+        {
+          "id": "12.10",
+          "title": "Comparative Studies"
+        },
+        {
+          "id": "12.11",
+          "title": "Confidence Interval for Difference Between Two Population Means"
+        },
+        {
+          "id": "12.12",
+          "title": "Confidence Interval for Difference Between Two Population Proportions"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Hypothesis Testing",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "the Elements of a Test of Hypothesis"
+        },
+        {
+          "id": "13.2",
+          "title": "Test of Hypothesis About a Population Means"
+        },
+        {
+          "id": "13.3",
+          "title": "Test of Hypothesis About a Population Proportion"
+        },
+        {
+          "id": "13.4",
+          "title": "Test of  Hypothesis About the Difference Between Two Population- Independent Samples"
+        },
+        {
+          "id": "13.5",
+          "title": "Inferences About the Difference Between Two Population Means- Dependent Samples"
+        },
+        {
+          "id": "13.6",
+          "title": "Test of Hypothesis About the Difference Between Two Population Between Two Population Proportions"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Simple Linear Regression and Correlation",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Relations Between Variables"
+        },
+        {
+          "id": "14.2",
+          "title": "Regression Analysis"
+        },
+        {
+          "id": "14.3",
+          "title": "Curve Fitting"
+        },
+        {
+          "id": "14.4",
+          "title": "Simple Linear Regression"
+        },
+        {
+          "id": "14.5",
+          "title": "the Simple Linear Regression Model"
+        },
+        {
+          "id": "14.6",
+          "title": "Simple Linear Correlation"
+        },
+        {
+          "id": "14.7",
+          "title": "Correlation Analysis"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Association",
+      "topics": [
+        {
+          "id": "15.1",
+          "title": "Multinomial Populations"
+        },
+        {
+          "id": "15.2",
+          "title": "Attribute (Quality Variable)"
+        },
+        {
+          "id": "15.3",
+          "title": "Independence of Attributes"
+        },
+        {
+          "id": "15.4",
+          "title": "Association of a Attribures"
+        },
+        {
+          "id": "15.5",
+          "title": "Two Dimensional Count Data: Contingency Table"
+        },
+        {
+          "id": "12.6",
+          "title": "Test for Statistical Independence"
+        },
+        {
+          "id": "15.7",
+          "title": "Rank Correlation"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Analysis of Time Series",
+      "topics": [
+        {
+          "id": "16.1",
+          "title": "Time Series"
+        },
+        {
+          "id": "16.2",
+          "title": "Components of Time Series"
+        },
+        {
+          "id": "16.3",
+          "title": "Analysis of Time Series"
+        },
+        {
+          "id": "16.4",
+          "title": "Estimation of Secular Trend"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Orientation of Computers",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Introduction of Computer"
+        },
+        {
+          "id": "17.2",
+          "title": "History of Computer"
+        },
+        {
+          "id": "17.3",
+          "title": "Types of Computer"
+        },
+        {
+          "id": "17.4",
+          "title": "Classification of Cmputers"
+        },
+        {
+          "id": "17.5",
+          "title": "Hardware and Software"
+        },
+        {
+          "id": "17.6",
+          "title": "Hardware Components of a Personal Computer"
+        },
+        {
+          "id": "17.7",
+          "title": "Input Devices and Output Devices"
+        },
+        {
+          "id": "17.8",
+          "title": "System Software"
+        },
+        {
+          "id": "17.9",
+          "title": "Operating System"
+        },
+        {
+          "id": "17.10",
+          "title": "Application Sofware"
+        },
+        {
+          "id": "17.11",
+          "title": "Programming Language"
+        },
+        {
+          "id": "17.12",
+          "title": "Language Processors and Translators"
+        },
+        {
+          "id": "17.13",
+          "title": "Basic Idea of Writing and Running a Computer Program"
+        },
+        {
+          "id": "17.14",
+          "title": "Number System"
+        },
+        {
+          "id": "17.15",
+          "title": "How Computer Represents Data"
+        },
+        {
+          "id": "17.16",
+          "title": "Binary System As a Foundation of a Computer Programming"
+        }
+      ]
+    }
+  ]
+}

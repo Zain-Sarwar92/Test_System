@@ -1,0 +1,142 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "9",
+  "subject": "پنجابی",
+  "slug": "punjabi",
+  "type": "short",
+  "field": "WORD",
+  "exportName": "short-word",
+  "subTypeId": 37,
+  "total": 6,
+  "exportedAt": "2026-08-10T12:05:15.545Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 42592,
+      "SubjectID": 55,
+      "TopicID": 1488,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 نعت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>چاہت</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 37,
+        "bankType": "short",
+        "field": "WORD",
+        "exportName": "short-word"
+      }
+    },
+    {
+      "QuestionID": 42593,
+      "SubjectID": 55,
+      "TopicID": 1488,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 نعت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>گوڑھا</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 37,
+        "bankType": "short",
+        "field": "WORD",
+        "exportName": "short-word"
+      }
+    },
+    {
+      "QuestionID": 42594,
+      "SubjectID": 55,
+      "TopicID": 1488,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 نعت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نمھی</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 37,
+        "bankType": "short",
+        "field": "WORD",
+        "exportName": "short-word"
+      }
+    },
+    {
+      "QuestionID": 42596,
+      "SubjectID": 55,
+      "TopicID": 1488,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 نعت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>وحدت</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 37,
+        "bankType": "short",
+        "field": "WORD",
+        "exportName": "short-word"
+      }
+    },
+    {
+      "QuestionID": 42597,
+      "SubjectID": 55,
+      "TopicID": 1488,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 نعت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>شرک</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 37,
+        "bankType": "short",
+        "field": "WORD",
+        "exportName": "short-word"
+      }
+    },
+    {
+      "QuestionID": 42598,
+      "SubjectID": 55,
+      "TopicID": 1488,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 نعت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>جھانجھے جھیڑے</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 37,
+        "bankType": "short",
+        "field": "WORD",
+        "exportName": "short-word"
+      }
+    }
+  ]
+}

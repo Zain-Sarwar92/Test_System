@@ -1,0 +1,2441 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Statistics",
+  "slug": "statistics",
+  "source": "PTS PTB INTER-I (Class 11) Statistics (read-only export)",
+  "total_questions": 1359,
+  "counts": {
+    "mcq": 438,
+    "short": 679,
+    "long": 242
+  },
+  "fieldCounts": {
+    "MCQ": 438,
+    "QA": 679,
+    "LONG": 242
+  },
+  "questions": [
+    {
+      "id": 275566,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the word statistics and explain its different meanings."
+    },
+    {
+      "id": 275570,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between qualitative and quantitative variables."
+    },
+    {
+      "id": 275612,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain in detail the main aspects of a Statistical problem?"
+    },
+    {
+      "id": 275613,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define Descriptive and Inferential Statistics and differentiate between them."
+    },
+    {
+      "id": 275614,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between primary and secondary data and give different sources from which these are obtained."
+    },
+    {
+      "id": 276311,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between one-way and two-way tables. Illustrate your answers with examples."
+    },
+    {
+      "id": 276299,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are different methods of representation of statistical data?"
+    },
+    {
+      "id": 276308,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you understand by classification and tabulation? Discuss their importance in a statistical analysis."
+    },
+    {
+      "id": 276342,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by tabulation? Explain the main steps which are generally taken in tabulation?"
+    },
+    {
+      "id": 276345,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a frequency distribution? How is it constructed?"
+    },
+    {
+      "id": 276323,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following table gives the details of monthly budgets of two families. Represent these figures through a suitable diagram. Items Family A Family B Food Rs. 600 Rs. 800 Clothing Rs. 100 Rs. 100 House rent Rs. 400 Rs. 500 Fuel and lighting Rs. 100 Rs. 100 Miscellaneous Rs. 300 Rs. 500 Total Rs. 1500 Rs. 2000"
+    },
+    {
+      "id": 276304,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the Histogram, the frequency polygon and the frequency curve."
+    },
+    {
+      "id": 276326,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Represent the following data through pie diagram. Items of Expenditure Amount Food 4000 Clothing 1000 House rent 2500 Education 1000 Fuel and light 600 Miscellaneous 2000"
+    },
+    {
+      "id": 276330,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define frequency Histogram. Draw a Histogram for the following frequency distribution giving the steps involved. Mid values (X) 32 37 42 47 52 57 62 67 Frequency (f) 3 17 28 47 54 31 14 4"
+    },
+    {
+      "id": 276334,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In order to estimate the mean length of leaves from a certain tree, a sample of 100 leaves was chosen and their lengths are measured in millimeter. A grouped frequency table was set up and the results were as follows: Mid value 2.2 2.7 3.2 3.7 4.2 4.7 5.2 5.7 6.2 Frequency 3 5 8 12 18 24 20 8 2 (a) Display the table in the form of a frequency polygon. (b) What are the boundaries of the interval whose mid point is 3.7 cm?"
+    },
+    {
+      "id": 276335,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In a locality, total area is 500 acres where 250 acres are under sugarcane, 125 acres are under maize, 60 acres are under wheat and the remaining 65 acres are under other crops. Make a pie-diagram to present the distribution of acreage under different crops."
+    },
+    {
+      "id": 276347,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the advantages of diagrammatic representation?"
+    },
+    {
+      "id": 276351,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following data gives the record of a company's savings over the years. Draw a bar diagram to represent it: Year 1950 1951 1952 1953 1954 1955 1956 1957 Rs.(000) 1010 2050 3458 1980 2300 1295 1520 1070"
+    },
+    {
+      "id": 276352,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw a sub-divided bar diagram to represent the male and female population of four divisions of Punjab in 1961. Division Male Female Both Sexes Lahore 35 30 65 Multan 35 31 66 Sargodha 32 28 60 Rawalpindi 21 19 40"
+    },
+    {
+      "id": 276338,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A biologist was interested to know whether male spiders are longer or female spiders. He collected random samples of female and male green lynx spiders given below. Advise him? Length of female (in mm) Length of male (in mm) 5.7 5.2 4.7 5.8 8.2 9.9 5.9 8.4 6.1 6.3 7.0 5.7 9.6 7.0 6.6 7.8 7.5 6.4 6.5 4.7 7.5 9.8 6.3 8.3 6.2 5.4 6.2 5.8 8.0 9.1 6.3 8.3 4.8 5.9 5.2 6.8 8.7 7.4 7.9 10.2 5.6 5.5"
+    },
+    {
+      "id": 276346,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following data gives the lifetime in minutes, recorded to the nearest tenth of a minute of 50 sprayed insects. 1.2 2.2 0.7 3.9 1.7 1.9 1.4 1.8 2.0 4.3 2.5 0.9 3.4 2.8 3.7 3.5 0.4 2.8 1.1 0.2 3.9 6.3 2.5 2.1 1.3 2.1 0.3 0.4 2.4 2.1 3.5 2.9 1.2 5.3 1.7 2.7 1.8 4.8 3.2 1.6 2.6 1.8 2.3 1.3 3.1 1.5 2.6 5.9 2.0 2.3 Using 8 intervals with the lowest starting at 0.1 (i) Form a frequency distribution and a cumulative frequency distribution. (ii) Also draw Histogram and frequency polygon for the frequency distribution so formed."
+    },
+    {
+      "id": 276353,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following information is available about the age (in years) and their weights in kilograms (age, weight). Make a scatter plot and bivariate frequency distribution. (20, 60), (15, 55), (14, 45), (17, 60), (16, 48), (22, 70), (16, 63), (14, 55), (18, 57), (19, 67), (21, 67), (17, 65), (13, 60), (15, 60), (17, 49), (19, 65), (23, 73), (21, 65), (22, 70), (14, 50), (16, 60), (19, 59), (15, 62), (17, 59), (24, 75)."
+    },
+    {
+      "id": 276679,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A man traveling 100 kilometers has 5 stages at equal intervals. The speed the man in the various stages was observed to be 10, 16, 20, 14, 15 kilometers per hour. Find the average speed at which the man travels."
+    },
+    {
+      "id": 276688,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From the following data: Mid Value 2.2 2.7 3.2 3.7 4.2 4.7 5.2 5.7 6.2 Frequency 3 5 8 12 18 24 20 8 2 (i) Calculate an estimate for the mean leaf length. (ii) Construct a cumulative frequency table and use it to estimate the sample median."
+    },
+    {
+      "id": 276708,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three cities A, B, C are equidistant from each other. Fatima travels from A to B at the speed of 30 miles per hour by car. From B to C at speed of 50 miles per hour. Determine her average speed for the entire trip."
+    },
+    {
+      "id": 276676,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define arithmetic mean, geometric mean and harmonic mean. Explain situations when each of them is used perfectly?"
+    },
+    {
+      "id": 276677,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The relation between arithmetic mean (A.M.), geometric mean (G.M.) and harmonic mean (H.M.) is: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-46.svg\" /> Under what situation these are equal."
+    },
+    {
+      "id": 276689,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you understand by weighted mean? In what circumstances preferred to ordinary mean and why?"
+    },
+    {
+      "id": 276697,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the Mean for the following distribution. Classes 0-10 10-40 40-90 90-100 100-105 105-120 120-140 f 40 110 150 200 120 30 20"
+    },
+    {
+      "id": 276699,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The frequency distribution given below has been derived from the use of working origin. If D = X - 18, find arithmetic mean and Geometric mean. D -12 -8 -4 0 4 8 12 16 f 2 5 8 18 22 13 8 4"
+    },
+    {
+      "id": 276712,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The Arithmetic Mean and Geo Mean of three numbers are 34 and 18 respectively. Find all the three numbers, when the Geometric Mean of the first two numbers is 9."
+    },
+    {
+      "id": 276737,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bus traveling 200 miles has ten stages at equal intervals. The speed of the bus in the various stages was observed to be 10, 15, 20, 75, 20, 30, 40, 50, 30, 40 miles per hour. Find the average speed at which the bus has traveled."
+    },
+    {
+      "id": 276770,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Salman obtained the following marks in a certain examination. Find the weighted mean if weights 4, 3, 3, 2 and 2 respectively are allotted to the subjects. English Urdu Math Stat Physics 73 82 80 57 62"
+    },
+    {
+      "id": 276775,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate weighted mean for the following items: Items Expenditures Weights Food 290 7.5 Rent 54 2 Clothing 98 1.5 Fuel and light 75 1.0 Other Items 75 0.5"
+    },
+    {
+      "id": 276776,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For a certain distribution, if <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-45.svg\" />, What is the value of A.M and why?"
+    },
+    {
+      "id": 276778,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Arithmetic Mean of 15 values is 20 and by adding 3 more values, the mean remains 20. Find the new three values if ratio is a:b:c ::3:2:1."
+    },
+    {
+      "id": 276704,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reciprocals of 11 values of x are given below: 0.0500, 0.0454, 0.0400, 0.0333, 0.0285, 0.0232, 0.0213, 0.0200, 0.0182, 0.0151, 0.0143. Calculate Harmonic and Arithmetic Mean of the data."
+    },
+    {
+      "id": 276705,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Reciprocals of x are given below: 0.0267, 0.0235, 0.0211, 0.0191, 0.0174, 0.0160, 0.0148 Calculate Harmonic Mean of the data."
+    },
+    {
+      "id": 276711,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Harmonic Mean and Geometric Mean of two numbers are 3.2 and 4 respectively. Find their Arithmetic Mean and both the numbers as well."
+    },
+    {
+      "id": 276742,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following data has been obtained from a frequency distribution of a continuous variable x after making the substitution <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap3-44.svg\" /> U -4 -3 -2 -1 0 1 2 3 f 2 5 8 18 22 13 8 4 Find Harmonic Mean."
+    },
+    {
+      "id": 276686,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate mean, median and mode for the following frequency distribution. No. of rotten potatoes 0 1 2 3 4 Frequency 5 6 4 4 1"
+    },
+    {
+      "id": 276687,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate mean, median and mode for the following frequency distribution: Classes 2 - 4 4 - 8 8 - 12 12 - 16 16 - 22 22 - 30 f 5 10 12 14 6 4"
+    },
+    {
+      "id": 276717,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The given table shows the distribution of the maximum loads in short tons supported by certain cables produced by a company. Determine Mean, Median and Mode. Maximums No. of cables 9.3 - 9.7 2 9.8 - 10.2 5 10.3 - 10.7 12 10.8 - 11.2 17 11.3 - 11.7 14 11.8 - 12.2 6 12.3 - 12.7 3 12.8 - 13.2 1"
+    },
+    {
+      "id": 276727,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compute Mean, Median, Mode, 6th Decile, and 74th percentile for the data given in the table: Classes Frequency 0.7312 - 0.7313 10 0.7314 - 0.7315 15 0.7316 - 0.7317 20 0.7318 - 0.7319 25 0.7320 - 0.73221 30 0.7322 - 0.7323 8 0.7324 - 0.7325 2"
+    },
+    {
+      "id": 276695,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Bilal gets a rise of 10% in salary at the end of his first year of service and further rise of 20% and 25% at the end of the second and third year respectively. The rise in each case being calculated on his salary at the beginning of the year. To what annual percentage increased in this equivalent."
+    },
+    {
+      "id": 276715,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find out: (i) The average rate of motion in the case of a person who rides the first mile at the rate of 10 miles per hour the next mile at the rate of 8 miles per hour and the third at the rate of 6 miles per hour. (ii) Increase in population which in the first decade has increased 20% in the next 25% and in the third 4%."
+    },
+    {
+      "id": 276690,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the mode of a frequency distribution. How does it compare with other types of averages?"
+    },
+    {
+      "id": 276691,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down the empirical relation between mean, median and mode unimodal distribution of moderate asymmetry. Illustrate graphically the relative positions of the mean, median and mode for frequency curves which are skewed to the right and to the left."
+    },
+    {
+      "id": 276692,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For a certain frequency distribtion, with the mean and median 45 and 36 respectively, find the mode approximately using the empirical relations between the three."
+    },
+    {
+      "id": 276733,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the value Q3, D5, P5 and mode for the following data: Groups Frequency Groups Frequency 0 - 4.9 3 25 - 29.9 13 5 - 9.9 4 30 - 34.9 13 10 - 14.9 9 35 - 39.9 5 15 - 19.9 11 40 - 44.9 2 20 - 24.9 15 45 - 49.9 2"
+    },
+    {
+      "id": 276734,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If for any frequency distribution the Mean is 45 and the Median is 30. Find Mode approximately, using formula connecting the three."
+    },
+    {
+      "id": 277245,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you understand by dispersion? What are the most usual methods of measuring dispersion, indicate the advantages and disadvantages of these methods?"
+    },
+    {
+      "id": 277246,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define mean deviation and it's co-efficient. Discuss its advantages and uses."
+    },
+    {
+      "id": 277254,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the difference between absolute dispersion and relative dispersion and relative dispersion. Describe the properties of the standard deviation."
+    },
+    {
+      "id": 277255,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define various measures of dispersion and gives their formulae."
+    },
+    {
+      "id": 277263,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate quartile deviation for the data given below: Groups 25-50 50-75 75-100 100-125 125-150 150-175 Frequency 10 12 16 17 20 18 also calculate Range, Quartile Deviation and co-efficient of Quartile Deviation."
+    },
+    {
+      "id": 277264,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate standard deviation, variance and co-efficient of variation from the following data: y 525 500 475 450 425 400 375 f 24 35 46 37 47 34 22"
+    },
+    {
+      "id": 277267,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The mean of a set of 10 values is 25.2 and its standard deviation is 3.72 for another set of 15 values mean and standard deviation are 25.2 and 4.05 respectively. Find the combined standard deviation of the 25 values taken together."
+    },
+    {
+      "id": 277269,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For a group of 50 boys, the mean score and the standard deviation of scores on a test are 59.5 and 8.38 respectively, for a group of 40 girls, the mean and standard deviation are 54.0 and 8.23 respectively on the same test. Find the mean and standard deviation for the combined group of 90 children."
+    },
+    {
+      "id": 277270,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "By multiplying each number 3, 6, 1, 7, 2, 5 by 2 and then adding 5, we obtained 11, 17, 7, 19, 9, 15. What is the relationship between standard deviation and means for the two sets of numbers?"
+    },
+    {
+      "id": 277276,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The scores obtained by 5 students on a set of examination papers were 70, 50, 60, 70, 50. Their scores are changed by (i) adding 10 point to scores (ii) increasing all scores by 10%, what effect will these changes have on mean and on standard deviation?"
+    },
+    {
+      "id": 277286,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compute the mean wages and the co-efficient of variation for the employees working in two factories are given in the following table: Wages Factories Factory A Factory B 30 - 35 12 4 35 - 40 18 10 40 - 45 29 31 45 - 50 32 67 50 - 55 16 35 55 - 60 8 15"
+    },
+    {
+      "id": 277290,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compute median and mean deviation from median for the data given below: Daily Wages No. of Domestic Servants 6 5 8 10 10 18 12 20 14 22 16 14 18 7 20 3 22 1"
+    },
+    {
+      "id": 277295,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate mean deviation (about median) for the distribution given below: Groups Frequencies 100 -110 56 110 - 120 59 120 - 130 61 130 - 140 68 140 - 150 77 150 - 160 59 160 - 170 51 170 - 180 42 180 - 190 36 190 - 200 25"
+    },
+    {
+      "id": 277297,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate standard deviation by using arithmetic mean and also by using any provisional mean and compare the result for the data given below: 3, 5, 7, 13, 15, 17, 23, 27"
+    },
+    {
+      "id": 277299,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A manufacturer of television tubes produces two types A and B of tubes. The tubes have respective mean life times as <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-57.svg\" /> hours and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-58.svg\" /> hours and standard deviation SA = 280 hours and SB = 310 hours. Which tube has the greatest: (i) absolute dispersion (ii) relative dispersion"
+    },
+    {
+      "id": 277313,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A distribution consists of 3 components with frequency 100, 120 and 150 having means: 5.5, 15.8 and 10.5 and standard deviations: 2.4, 4.2 and 3.7 respectively. Find the co-efficient of variation for the combined distribution."
+    },
+    {
+      "id": 277261,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate Mean Deviation from Mean, Mean co-efficient of dispersion and variance from the data given below: Weights (kg) No. of students Weights (kg) No. of students 50 - 53 23 65 - 68 66 53 - 56 24 68 - 71 49 56 - 59 39 71 - 74 38 59 - 62 46 74 - 77 21 62 - 65 54 77 - 80 12 also calculate Range, Quartile Deviation and co-efficient of Quartile Deviation."
+    },
+    {
+      "id": 277308,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Computer calculated mean and standard deviation from 20 observations as 42 and 5 respectively. It was later discovered at the time of checking that it had copied down two values as 45 and 38 whereas the correct values were 35 and 58 respectively. Find the correct value of co-efficient of variation."
+    },
+    {
+      "id": 277301,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are moments about mean and about an arbitrary value. Give the relation between them."
+    },
+    {
+      "id": 277318,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate first four moments about mean for the following set of examination marks. 45, 32, 37, 46, 39, 36, 41, 48 and 36."
+    },
+    {
+      "id": 277326,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate first four moments for the following distribution of wages about y = 10. Find moments about mean: Earning 5 6 7 8 9 10 11 12 13 14 15 f 1 2 5 10 20 51 22 11 5 3 1"
+    },
+    {
+      "id": 277346,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given that <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-59.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-60.svg\" />. Find first four moments about mean and test the distribution for symmetry and kurtosis."
+    },
+    {
+      "id": 277381,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "First four moments of distribution about x = 2 are 1, 2.5, 5.5 and 16, calculate mean and co-efficient of variation."
+    },
+    {
+      "id": 277382,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find moments about mean <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-61.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-62.svg\" />. Given the first 4 moments about y = 20 as -2, 15, -25 and 80 respectively."
+    },
+    {
+      "id": 277386,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Second moment about mean of two distributions are 9 and 16 while fourth moment about mean are 230 and 780 respectively, which of the distribution is (i) Leptokurtic (ii) Platykurtic"
+    },
+    {
+      "id": 277394,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The fourth central moment of a symmetrical distribution is 243. What would be the value of standard deviation for which distribution is mesokurtic?"
+    },
+    {
+      "id": 277183,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The first four moments of a certain distribution about X = 17.5 are 0.3, 74, 45 and 12125 respectively. Find out whether the distribution is leptokurtic or platykurtic."
+    },
+    {
+      "id": 277333,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "First three moments of a distribution about y = 4 are 1, 4 and 10 respectively. Find co-efficient of variation. Is the distribution symmetrical or positively skewed or negatively skewed."
+    },
+    {
+      "id": 277349,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If distribution has mean 1403 and mode 1487, what can you say about the skewness."
+    },
+    {
+      "id": 277366,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Lower and upper quartiles of a distribution are 142.36 and 167.73 respectively while median is 153.50. Find co-efficient of skewness."
+    },
+    {
+      "id": 277379,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The daily income of employees range from Rs.0 to Rs.18. They are grouped in intervals of Rs.2 and class frequencies from the lowest to the highest class are 5, 39, 69, 41, 29, 22, 16, 7 and 5. Find the co-efficient of skewness."
+    },
+    {
+      "id": 277384,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by skewness and kurtosis. What aspects of the frequency curve are measured by them."
+    },
+    {
+      "id": 277790,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is an index number? Give the uses of an index number."
+    },
+    {
+      "id": 277791,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define an index number. Discuss the main points involved in the construction of index numbers of prices."
+    },
+    {
+      "id": 277792,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define an index number and describe the different types of index number."
+    },
+    {
+      "id": 277793,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the important problems involved in the construction of index number of prices."
+    },
+    {
+      "id": 277796,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the index number of price from the following data taking average price of all years as the base. Years 1970 1971 1972 1973 1974 1975 1976 1977 Prices 15 19 21 30 37 38 40 48"
+    },
+    {
+      "id": 277794,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the following concepts. (i) Simple and composite index (ii) Fixed and chain base method"
+    },
+    {
+      "id": 277797,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given the prices of a commodity per maund for the period 1945 to 1960 as: Year Prices Year Prices Year Prices 1945 12.7 1950 24.85 1955 15.65 1946 18.97 1951 20.90 1956 16.15 1947 19.70 1952 19.80 1957 20.20 1948 13.50 1953 23.65 1958 25.25 1949 15.65 1954 24.55 1959 32.40 Construct index numbers correct to 2 decimal place: (i) 1945 as base. (ii) Average price of all the year as base prices."
+    },
+    {
+      "id": 277798,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find index number using, i. 1977 as base ii. average of the price as base: Years Prices Years Prices Years Prices 1977 22.5 1980 30 1983 37.5 1978 25 1981 35 1984 47.5 1979 27.5 1982 32.5 1985 45"
+    },
+    {
+      "id": 277799,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find index number using, i. 1930 as base ii. average of 1st three years as base: iii. the year 1935 as base Years Prices Years Prices Years Prices 1930 4 1933 7 1936 9 1931 5 1934 8 1937 10 1932 6 1935 10 1938 11"
+    },
+    {
+      "id": 277800,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following figures show the wholesale prices of refined petroleum per gallon in UK for the year specified. On the basis of 1923 = 100, construct a series of price relatives. Years Prices Years Prices 1923 13 1928 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-30.svg\" /> 1924 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-31.svg\" /> 1929 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-32.svg\" /> 1925 13 1930 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-33.svg\" /> 1926 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-34.svg\" /> 1931 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-35.svg\" /> 1927 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-36.svg\" /> 1932 <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap5-37.svg\" />"
+    },
+    {
+      "id": 277801,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Construct index numbers of prices for the following data taking 1960 as base: Years Prices Years Prices 1960 50 1965 72 1961 52 1966 73 1962 55 1967 75 1963 57 1968 71 1964 62 1969 70"
+    },
+    {
+      "id": 277803,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The prices in Rs. Per maund of coal sold during the year 1953-58 as given below: Compute index of price for the year 1953 as base. Years Prices Years Prices Years Prices 1953 14.95 1955 15.10 1957 16.28 1954 14.95 1956 15.65 1958 16.28"
+    },
+    {
+      "id": 277807,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From the data given below, compute, the index numbers of prices, taking 1962 as base. Year Commodities (Price in Rs.) Firewood Soft cake Kerosene oil Matches 1962 3.25 2.50 0.20 0.06 1963 3.44 2.80 0.22 0.06 1964 3.50 2.00 0.25 0.06 1965 3.75 2.50 0.25 0.06"
+    },
+    {
+      "id": 277812,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compute index numbers of prices from the following data taking 1981 as base and using median as average. Year Prices A B C 1981 18 85 52 1982 22 76 60 1983 28 80 66 1984 31 95 80"
+    },
+    {
+      "id": 277816,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following table gives the average whole sale prices in rupees per unit of gold, wheat, cotton during the year 1912-1917. Construct index number with 1912 as base using. Commodities Average price in Rs. Per unit 1912 1913 1914 1915 1916 1917 Gold 25.3 30.8 33.4 35.5 35.4 36.0 Wheat 17.3 14.5 4.9 5.7 17.7 11.6 Cotton 7.8 5.4 6.7 5.6 7.2 10.2"
+    },
+    {
+      "id": 277818,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Construct chain indices for the following years, taking 1940 as base. Item Years 1940 1941 1942 1943 1944 Wheat 2.80 3.40 3.60 4.00 4.20 Rice 2.95 3.60 2.90 2.75 2.75 Maize 3.10 3.50 3.40 4.50 3.70"
+    },
+    {
+      "id": 277825,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Construct index numbers for 1963 assuming 1953 as base period by (i) Laspeyre's formula (ii) Paasche's formula. Commodities 1953 1963 Price Quality Price Quantity A 2 50 10 40 B 3 10 8 5 C 4 5 4 5"
+    },
+    {
+      "id": 277844,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An inquiry into the budgets of the middle class families in city of England gave the following information. What change in cost of living the figures of 1929 show as compared in 1928. Expenses on Food 35% Rent 15% Clothing 20% Fuel 10% Misc. 20% Price (1928) 150 30 75 25 40 Price (1929) 145 30 65 23 45"
+    },
+    {
+      "id": 277814,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find chain index numbers (using geometric mean to average the relatives) for the following data of prices, taking 1970 as the base year. Commodities Years 1970 1971 1972 1973 1974 A 40 43 45 42 50 B 160 162 165 161 168 C 20 29 52 23 27 D 240 245 247 250 255"
+    },
+    {
+      "id": 277833,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define weighted and unweighted index numbers and explain why weighted index numbers are preferred over unweighted index numbers."
+    },
+    {
+      "id": 277795,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the weighted index number?"
+    },
+    {
+      "id": 277826,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compute the weighted index numbers for 1964 from the following data with 1960 as base. Commodities Price Quality 1960 1964 1960 1964 Milk 3.95 4.25 97.75 104.36 Cheese 34.80 38.90 78 83 Butter 61.56 59.70 118 116"
+    },
+    {
+      "id": 277828,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compute Fisher's index number for the following data. Commodities Base Year Current Year Price Quantity Price Quantity A 7 70 5 49 B 5 27 7 28 C 10 35 9 29 D 9 50 4 42 E 3 16 10 25"
+    },
+    {
+      "id": 277830,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Construct the following with the help of data given below. Fisher's ideal index taking 1970 as base. Commodities Total Production (tons) Harvest Price (Rs) 1970 1971 1970 1971 Rice 71 26 3.80 3.50 Barley 107 83 2.90 1.90 Maize 72 48 2.90 1.80"
+    },
+    {
+      "id": 277832,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate Fisher's Ideal index from the following data with 1965 as base year. Commodities 1965 1970 Price Quantity Price Quantity A 4.6 102 9.50 96 B 3.7 15 7.36 28 C 10.2 17 8.42 21 D 8.9 19 9.87 13"
+    },
+    {
+      "id": 277834,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate Laspeyre's, Paasche's and Fisher's ideal index for the following data with 1992 as base. Item Average price (Rs) Quantity (Units) 1992 1993 1992 1993 Wheat flour 4.38 4.57 20Kg 16Kg Rice 14.15 15.58 10Kg 12Kg Moong pulse 18.67 17.28 1Kg 1Kg Gram pulse 10.41 16.36 1Kg 1Kg"
+    },
+    {
+      "id": 277840,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following figures give the average annual prices in U.K. for beef and mutton. Year Price Year Price Year Price Beef Mutton Beef Mutton Beef Mutton 1935 54 75 1938 62 62 1941 72 85 1936 54 73 1939 61 68 1942 76 90 1937 61 73 1940 72 85 1943 79 90 Construct index number of meat prices giving weights 2 and 1 for beef and mutton respectively. Take the year 1935 as the base year."
+    },
+    {
+      "id": 277842,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following table shows the average price in rupees for wheat, rice and barley. Year Price Wheat Rice Barley 1980 175.5 480.4 82.4 1981 180.3 509.7 90.6 Taking 1980 as base year, construct price index number by weighted average of relative method for the year 1981 using the weighted 20 for wheat, 12 for rice and 4 for barley."
+    },
+    {
+      "id": 278809,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define permutationa and combination and discriminate between these two?"
+    },
+    {
+      "id": 278839,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define mutually exclusive, independent and dependent events."
+    },
+    {
+      "id": 278840,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain with examples the terms; random experiment, sample space and an event."
+    },
+    {
+      "id": 278864,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that in a single throw with two die, the chance of throwing more than 7 is equal to that of throwing less than 7."
+    },
+    {
+      "id": 278965,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A, B and C take turns in throwing a die for a prize to be given to one who first obtains 6. Compare their chances of success."
+    },
+    {
+      "id": 278841,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State and prove the multiplicative law of probability for two events A and B that are not statistically independent."
+    },
+    {
+      "id": 278845,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the probability of selecting a card of diamonds from a pack of playing cards consisting of the usual 52 cards?"
+    },
+    {
+      "id": 278865,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag contains 12 balls of which 3 are marked, if 5 balls are drawn out together. What is the probability that 3 of the marked balls are among these 5?"
+    },
+    {
+      "id": 278867,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the probability of throwing either 7 or more than 10 with two dice?"
+    },
+    {
+      "id": 278868,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag containing 2 red, 3 green, 5 blue and 2 yellow balls. Find the probability that balls of all colours, are represented in a sample if four balls are selected at random."
+    },
+    {
+      "id": 278880,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag contains 9 white and 12 black balls. Find the probability of drawing 5 black balls out of the bag containing 21 balls."
+    },
+    {
+      "id": 278882,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From a bag containing 5 white, and 3 black balls, 2 are drawn at random. Find the chance that both are of the same colour."
+    },
+    {
+      "id": 278883,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A set of eight cards contains one joker. A and B, are two players, choose 5 cards at random, B takes the remaining 3 cards, what is the probability that A has a joker?"
+    },
+    {
+      "id": 278884,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From a pack of 52 cards, two cards are drawn. What is the probability that one is king and the other is queen."
+    },
+    {
+      "id": 278885,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In a poker hand consisting of 5 cards. What is the probability of holding? (i) 2 aces and 2 kings. (ii) 5 spades."
+    },
+    {
+      "id": 278891,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag containing 14 identical balls, out of which 4 are red, 5 black and 5 white balls, if three balls are drawn from the bag. Find the chance that (i) 3 are red. (ii) At least two are white."
+    },
+    {
+      "id": 278892,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A marble is drawn at random from a box containing 10 red, 30 white, 20 blue and 15 orange marbles. Find the probability that it is: (i) orange or red. (ii) not red or orange. (iii) not blue (iv) red, white or blue"
+    },
+    {
+      "id": 278897,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State and prove multiplication laws of probabilities for independent and dependent events."
+    },
+    {
+      "id": 278901,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A and B can solve 60% and 80% of the problems in a book respectively. What is the probability that either A or B can solve a problem chosen at random?"
+    },
+    {
+      "id": 278903,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A class contains 10 men and 20 women out of which half men and half women have brown eyes. Find the probability that a person chosen at random is a man or has brown eyes."
+    },
+    {
+      "id": 278904,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A box contains 9 tickets numbered 1 to 9. If 3 tickets are drawn from the box one at a time, find the probability that they are alternately either odd even odd or even odd even."
+    },
+    {
+      "id": 278906,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two drawings each of 3 balls are made from a bag containing 5 white and 8 black balls. The balls are not being replaced before the next trial. What is the probability that the first drawing will give 3 white balls and the second drawing will give three black balls."
+    },
+    {
+      "id": 278907,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three balls are drawn successively from a box containing 6 red balls, 4 white balls and 5 blue balls. Find the probability that they are drawn in the order red, white and blue if each ball is (i) replaced (ii) not replaced."
+    },
+    {
+      "id": 278908,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "One bag contains 4 white and 2 black balls another bag contains 3 white and 5 black balls. If one ball is drawn from each bag, find the probability that. (i) both are white (ii) both are black."
+    },
+    {
+      "id": 278909,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two urns contain respectively 3 white, 7 red balls and 15 black balls; 10 white balls, 6 red and 9 black balls. One ball is taken from each urn. What is the probability that both will be of the same colour?"
+    },
+    {
+      "id": 278921,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three cards are drawn at random from an ordinary pack of 52 cards. Find the probability that they will consists of a Jack, a queen and a king."
+    },
+    {
+      "id": 278925,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two cards are drawn from a well shuffled pack of 52 cards. Find the probability that they are both aces if the first cards drawn is: (i) replaced (ii) not replaced"
+    },
+    {
+      "id": 278929,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Urn A contains 5 red balls and 3 white balls and urn B contains 2 red balls and 6 white balls. If a ball is drawn from each urn what is the probability that both are of the same colour?"
+    },
+    {
+      "id": 278930,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Urn A contains 5 red balls and 3 white balls and urn B contains 2 red balls and 6 white balls. If two balls are drawn from each urn what is the probability that all 4 balls are of the same colour?"
+    },
+    {
+      "id": 278931,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three Ghori missiles are fired at a target. If the probabilities of hitting the target are 0.4, 0.5 and 0.6 respectively and the missiles are fired independently, what is the probability that atleast 2 missiles hit the target?"
+    },
+    {
+      "id": 278933,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Assume that X is a number chosen at random from the set of integers between 1 and 14 respectively. What is the probability that X is a single digit number."
+    },
+    {
+      "id": 278934,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Assume that X is a number chosen at random from the set of integers between 1 and 14 respectively. What is the probability that X is a multiple of 5 or 6."
+    },
+    {
+      "id": 278935,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the odds for the occurrence of an even if its probability is 4/7?"
+    },
+    {
+      "id": 278936,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Suppose that it is 9 to 7 against a person A who is now 35 years of age living till he is 65 and 3 to 2 against a person B now 45 years of age living till he is 75. Find the probability that one of these persons will be alive 30 years hence."
+    },
+    {
+      "id": 278938,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A purse contains 2 silver and 4 copper coins; a second purse contains 4 silver and 3 copper coins. If a coin is selected at random from one of the purses. What is the probability that it is a (i) Silver coin (ii) Copper coin."
+    },
+    {
+      "id": 278940,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "One purse contains 1 sovereign and 3 shillings, a second purse contains 2 sovereign and 4 shillings and third purse contains 3 sovereign and 1 shilling. If the coin taken out of the purse is selected at random. Find the chance that it is a sovereign."
+    },
+    {
+      "id": 278953,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability that a student will get a grade of A, B or C in statistics course are 0.09, 0.15 and 0.53 respectively, what is the probability that the student will get a grade lower than C."
+    },
+    {
+      "id": 278957,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A and B play 12 games of chess out of which 6 are won by A and 4 by B and two games end in a tie. They agree to play a tournament consisting of 3 games. Find the probability that A wins all the 3 games."
+    },
+    {
+      "id": 278958,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A and B play 12 games of chess out of which 6 are won by A and 4 by B and two games end in a tie. They agree to play a tournament consisting of 3 games. Find the probability that Two games end in tie."
+    },
+    {
+      "id": 278959,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A and B play 12 games of chess out of which 6 are won by A and 4 by B and two games end in a tie. They agree to play a tournament consisting of 3 games. Find the probability that A and B won alternately."
+    },
+    {
+      "id": 278960,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A and B play 12 games of chess out of which 6 are won by A and 4 by B and two games end in a tie. They agree to play a tournament consisting of 3 games. Find the probability that B wins atleast 1 game."
+    },
+    {
+      "id": 278962,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For two independent events A and B, P(A) = 0.25 and P(B) = 0.40. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap6-207.svg\" />?"
+    },
+    {
+      "id": 278963,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For 2 rolls of a balanced die, find the probability of getting 1st a five and then a number less than 4."
+    },
+    {
+      "id": 278964,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If two cards are drawn from an ordinary deck of 52 cards. What is the probability that both will be diamonds, if the drawing is without replacement?"
+    },
+    {
+      "id": 278966,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "First bag contains 4 white balls and 3 black balls and second bag contains 3 white and 5 black balls. One ball is drawn from the first bag and placed unseen in the second bag. What is the probability that a ball now drawn from the second bag is black?"
+    },
+    {
+      "id": 278968,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From a bag containing 4 white and 5 black balls, 2 balls are drawn at random. Find the probability that they are of same colour."
+    },
+    {
+      "id": 278969,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "3 groups of children contain respectively 3 girls and 1 boy, 2 girls and 2 boys and 1 girl and 3 boys. One child is selected at random from each group. Find the chance that the selected group comprises of one girl and two boys."
+    },
+    {
+      "id": 278971,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A can hit a target 4 times in 5 shots, B can hit 2 times in 5 shots and C can hit 2 times in 4 shots. Find the probability that (i) 2 shots hit (ii) at least two shots hit."
+    },
+    {
+      "id": 99481,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "(I) Define random variable and given an example to explain it. (ii) What are random numbers and how these are generated. Also give an example to explain their application. (iii) Classify each of the following random variables as either discrete or continuous. (a) The number of page in a book. (b) The number of questions asked in an oral examination. (C) The life time of a light bulb. (d) The amount of rainfall at a particular location during different months of 1996."
+    },
+    {
+      "id": 99493,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Generate the first 6 random digits using the pseudo-random number generator with m=100, a=21, b=7, xo=10."
+    },
+    {
+      "id": 99496,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let the digits 0, 1, 2, 3, 4 represent head and 5, 6, 7, 8, 9 represent tail. Use random numbers to simulate 20 flips of a coin."
+    },
+    {
+      "id": 99498,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two coins are tossed and let the random variable Y denote the number of heads. Write down the possible outcomes and the values assigned to the random variable."
+    },
+    {
+      "id": 99499,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "There are three children in a family. Let the random variable denote the number of boys in a family. Write down the possible outcomes and the values assigned by the random variable assuming equal chances for boys and girls."
+    },
+    {
+      "id": 99494,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Count the number of head and tails when a single coin is tossed 10 times without throwing a coin."
+    },
+    {
+      "id": 99495,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two coins are tossed. Let Y donates the number of heads, then the possible number of heads and their corresponding probabilities are given in the adjoinig table. Y p(Y) 0 1 2 0.25 0.50 0.25 First the squence of number of heads 20 times without throwing a coin?"
+    },
+    {
+      "id": 99497,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two students in a class asked to take one of the two courses Mathematics (M) or Biology (B). Define the random variable Y as number of students taking Biology. Write down the possible outcorners and the values assigned by the random variable Y."
+    },
+    {
+      "id": 99500,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Four balls are down from a bag containing 5 white and 3 balck balls. If X denotes the number of white ball drawn, then write down the possible values of the random variable X."
+    },
+    {
+      "id": 99501,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between discrete and countinuous random variable and given an example of each."
+    },
+    {
+      "id": 280088,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A box contains five slips of paper marked 1,2,3,4 and 5. Two slips are selected without replacement; list the possible values for each of the following random variables: (i) The sum of the two numbers on two slips. (ii) The difference between the first and second number."
+    },
+    {
+      "id": 280094,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Four randomly selected students from a class are asked their opinion about the teaching system as satisfactory (S) or not satisfactory (NS). Let Y denote the number of students saying satisfactory. Write down the possible outcomes and the possible Y values."
+    },
+    {
+      "id": 280114,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the probability distribution of the number of boys in families with three children, assuming equal probabilities for boys and girls."
+    },
+    {
+      "id": 280167,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A committee of size 5 is to be selected from 3 female and 5 male members. Find the expected number of female members on the committee."
+    },
+    {
+      "id": 280188,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Approximately 10% of the glass bottles coming from a production line have serious defects. If two bottles are selected at random, find the expected number of bottles that having serious defects."
+    },
+    {
+      "id": 280045,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A coin is tossed 4 times. If X denotes the number of tails, what is the probability distribution of X? Draw a probability histogram."
+    },
+    {
+      "id": 280047,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define probability function and give an example to explain it."
+    },
+    {
+      "id": 280049,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What properties a mathematical function should possess to be a probability function and probability density function?"
+    },
+    {
+      "id": 280055,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the value of c so that the function can serve as a probability function of a random variable. cy for Y = 1,2,3,4,5"
+    },
+    {
+      "id": 280069,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A random variable Y takes values 0, 1, 2, 3 with respective probabilities <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-61.svg\" />(1 + 30), 1/4(1 - 0), 1/4(1 + 20), 1/4(1 - 40). For what values of 0 is this a valid probability function?"
+    },
+    {
+      "id": 280085,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following table gives the probability distribution of the random variable Y, the number of courses taught by a teacher during spring semester in the University of Agriculture Faisalabad. y 1 2 3 4 5 P(y) .1 .2 .3 .3 .1 Find the probability that: (i) Teacher taught 2 courses. (ii) Teacher taught less than 4 courses. (iii) Teacher taught between 2 and 5 courses. (iv) Teacher taught atleast 3 courses. (v) Teacher taught at the most 4 course."
+    },
+    {
+      "id": 280100,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate mean and variance of the following probability distribution: y 0 1 2 3 4 5 P(y) 0.1 0.2 0.3 0.2 0.1 0.1"
+    },
+    {
+      "id": 280116,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From lot containing 12 items, 4 of which are defective, 5 are chosen at random. If X is the number of defective items found in the sample, write down the probability distribution of X."
+    },
+    {
+      "id": 280177,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "10 vegetable cans, all of the same size, have lost their labels. It is known that 5 contain tomatoes and 5 contain corns. If 5 cans are selected at random, then find the probability distribution and the distribution function for the number of tomato cans in the sample."
+    },
+    {
+      "id": 280187,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A coin is biased such that a head is thrice as likely to occur as a tail. Find the probability distribution of heads and also find the mean and variance of the distribution when it is tossed 4 times."
+    },
+    {
+      "id": 280189,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A random variable X takes the values -3, -2, 2, 3 and 4 with probabilities P(X) equal to 1/5, 1/110, 1/110, 1/5 and 2/5 respectively. Compute E(X) and show that E (5X+10) = 5E(X) + 10. Also compute the variance (X) and variance (5X+10). Find the ratio of two variances."
+    },
+    {
+      "id": 280112,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If f(x) has probability density kx2, 0"
+    },
+    {
+      "id": 280168,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the properties of probability function and probability density function?"
+    },
+    {
+      "id": 280043,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by probability distribution? Distinguish between discrete and continuous random variables by giving examples."
+    },
+    {
+      "id": 280070,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given the following probability distribution: x 0 1 2 3 4 P(x) 1/126 20/126 60/126 40/126 5/126 Verify that E (2X + 3) = 2 E (X) + 3"
+    },
+    {
+      "id": 280096,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A point is randomly selected on the surface of a lake that has maximum depth of 30 feet. Let y denote the depth of the lake at the randomly selected point. What are possible values of Y? Is Y a discrete variable or a continuous variable?"
+    },
+    {
+      "id": 280104,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A continuous random variable X having values only between 0 and 4 has a density function given by: <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-62.svg\" />, where a is a constant find (a) a (b) P(1 < X < 2)"
+    },
+    {
+      "id": 280125,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define continuous random variable and its probability distribution."
+    },
+    {
+      "id": 280127,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the constant k so that the function f(x) defined as follows may be a density function. <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-66.svg\" />"
+    },
+    {
+      "id": 280048,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two fair dice are thrown and Y denotes the product of the two scores. Obtain the probability distribution of Y."
+    },
+    {
+      "id": 280066,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the value of c so that the function can serve as a probability function of a random variable. (1 - c)cy for Y = 0,1,2..."
+    },
+    {
+      "id": 280202,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The probability distribution of a discrete random variable X is given by <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-72.svg\" style=\"width: 148px; height: 42px;\" />, X = 0,1,2,3. Find E(X) and E(X2)."
+    },
+    {
+      "id": 280040,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are random numbers? How can they be generated? Explain the applications of random numbers."
+    },
+    {
+      "id": 280080,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let X be a random variable with probability distribution: x -1 0 1 2 3 P(x) 0.125 0.500 0.200 0.050 0.125 Find (a) E(X) and Var(X) (b) The probability distribution of the random variable Y = 2X + 1. Using the probability distribution of Y, determine E(Y) and Var (Y)."
+    },
+    {
+      "id": 280113,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a random variable? Distinguish between discrete and continuous random variable, giving examples."
+    },
+    {
+      "id": 280129,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you mean by expected value? What are the properties of expectation?"
+    },
+    {
+      "id": 280132,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given the following discrete probability distribution: x 0 1 2 3 4 5 P(x) 6/36 10/36 8/36 6/36 4/36 2/36 Compute its mean, variance, standard deviation and coefficient of variation."
+    },
+    {
+      "id": 280136,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let X be a random variable with probability distribution as follows: x 1 2 3 4 5 f(x) 0.125 0.45 0.25 0.05 0.125 Find mean and variance."
+    },
+    {
+      "id": 280166,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In a summer season, a dealer of desert room coolers can earn Rs. 800 per day if the day is hot and can earn Rs. 200 per day if it is fair and loses Rs. 50 per day if it is cloudy. Find his mathematical expectation if the probability of the day being hot is 0.40 and for being cloudy it is 0.35."
+    },
+    {
+      "id": 280181,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The number of automobile accidents in a city are: 1, 2, 3, 4 with corresponding probabilities 1/8, 2/8, 2/8 and 3/8. What is the expected number of daily accidents?"
+    },
+    {
+      "id": 280184,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A and B throw a die for a prize of Rs. 11. Which is to be won by the player who first throws a 6. If A has the first throw, what are their respective expectations?"
+    },
+    {
+      "id": 280185,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag contains 2 white and 2 black balls. Three men A, B and C draw a ball and don't replace it. The person who draws the white ball first receives Rs. 12. What are their respective expectations?"
+    },
+    {
+      "id": 280186,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three balls are drawn from a bag containing 5 white and 3 black balls. If X denotes the number of white balls drawn from the bag, then find the probability distribution of X. Also find its mean and variance."
+    },
+    {
+      "id": 280190,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap8-71.svg\" /> for x = 2, 3, 4,...12, then find the mean and variance of the random variable X."
+    },
+    {
+      "id": 280041,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three balls are drawn from a bag containing 5 white and 3 black balls. If X denotes the number of white balls drawn from the bag, then find the probability distribution of X."
+    },
+    {
+      "id": 280042,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "There are seven candidates for three positions of typist. Four of the candidates know Urdu typing while the other three do not know it. If the three candidates are selected at random, find the probability distribution of the number of persons knowing Urdu typing among those selected."
+    },
+    {
+      "id": 280046,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bag contains 4 red and 6 black balls. A sample of 4 balls is selected from the bag without replacement. Let X be the number of red balls, find the probability distribution of X."
+    },
+    {
+      "id": 280172,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of distribution function."
+    },
+    {
+      "id": 279525,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a binomial experiment? Give its properties."
+    },
+    {
+      "id": 279526,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An event has the probability <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-40.svg\" />. Find the complete binomial distribution for n=5 trials."
+    },
+    {
+      "id": 279531,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If 20% of the bolts produced by a machine are defective, determine the probability that out of 4 bolts chosen at random (i) zero (ii) 2 bolts are defective."
+    },
+    {
+      "id": 279532,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given that the probability of passing an examination is 0.75. What is the probability of passing at least two examinations if you take six?"
+    },
+    {
+      "id": 279533,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given that the probability of passing an examination is 0.75. What is the probability of failing at least two examinations if you take four?"
+    },
+    {
+      "id": 279534,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The experience of a house agent indicates that he can provide suitable accommodation for 75% of the clients who come to him. If on a particular occasion 6 clients approach him independently, calculate the probability that less than 4 clients will et satisfactory accommodation."
+    },
+    {
+      "id": 279540,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If X = binomially distributed with n = 10, P = 0.4, then find Mean and variance of <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-41.svg\" />."
+    },
+    {
+      "id": 279541,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If X is the number of successes with probability of success as <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-42.svg\" /> in each of 5 independent trials. Find P(X=0)."
+    },
+    {
+      "id": 279542,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If X is the number of successes with probability of success as <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-42.svg\" /> in each of 5 independent trials. Find <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-43.svg\" />."
+    },
+    {
+      "id": 279544,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Five dice are tossed 96 times. Find the expected frequencies when throwing of a 4, 5 or 6 is regarded as success."
+    },
+    {
+      "id": 279546,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The mean and variance of the binomial distribution are 6 and 2.4 respectively. Find p and n, the two parameters of the binomial distribution."
+    },
+    {
+      "id": 279547,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the probability of a defective bolt is 0.1. Find the mean and standard deviation of the distribution of defective bolts in a total of 500."
+    },
+    {
+      "id": 279548,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If in a binomial distribution, the mean is 3 and the standard deviation is 1.5. Find its parameters."
+    },
+    {
+      "id": 279549,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is it possible to have a binomial distribution with mean = 5 and S.D. = 3.7."
+    },
+    {
+      "id": 279550,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In binomial distribution with n=5, what is the value of other parameters of the binomial. If p(X=0) =P(X=1) find mean of the distribution."
+    },
+    {
+      "id": 279551,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the statement that in a binomial distribution <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-44.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap9-45.svg\" />."
+    },
+    {
+      "id": 279554,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the mean and standard deviation of the Binomial distribution (q+p)n."
+    },
+    {
+      "id": 279535,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The experience of a house agent indicates that he can provide suitable accommodation for 75% of the clients who come to him. If on a particular occasion 6 clients approach him independently, calculate the probability that at least 5 clients will get satisfactory accommodation."
+    },
+    {
+      "id": 279536,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The incidence of an occupational disease in an industry is such that the workers have 20% chance of suffering from it. What is the probability that out of 6 workmen: not more than 2 will catch the disease?"
+    },
+    {
+      "id": 279537,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The incidence of an occupational disease in an industry is such that the workers have 20% chance of suffering from it. What is the probability that out of 6 workmen: 4 or more will catch the disease?"
+    },
+    {
+      "id": 279543,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If 5 true dice are thrown once, determine the probability of getting 0, 1, 2, 3, 4, 5 sixes. Find the mean and variance of the probability distribution so obtained."
+    },
+    {
+      "id": 279545,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Four dice are thrown and the number of sixes in each throw is recorded. This is repeated 180 times. Write down the theoretical frequencies 0, 1, 2, 3 and 4 sixes. Calculate the mean number of sixes in a single throw."
+    },
+    {
+      "id": 276822,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A child is born to Mrs. X every year for 7 consecutive years. Compute the standard deviation of the children's age when (i) the youngest is one year old (ii)The youngest is 8 years old. Why do the answers of (i) and (ii) coincide?"
+    },
+    {
+      "id": 276823,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "A manufacturer of T.V. tubes has two types of tubes A and B. The tubes have respective mean lifetimes <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-5.svg\" /> hours and <img alt=\"\" src=\"/pts-media/equations/11th/stat-chap4-6.svg\" /> hours and standard deviations SA = 280 hours SB = 310 hours. Which tube has the greater (i) absolute dispersion (ii) relative dispersion?"
+    },
+    {
+      "id": 276825,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The mean, standard deviation (s.d.) and the coefficient of skewness of a distribution are 29.6, 6.5 and 0.32 respectively. Find (i) mode (ii) median of this distribtution."
+    },
+    {
+      "id": 276824,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "What is the relation between (i) the first moment about zero and the mean (ii) the first moment about the value A and the mean (iii) The second moment about the mean and the variance?"
+    },
+    {
+      "id": 276826,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "The first three moments of a distribution about the value 4 are 1, 4 and 10. Is the distribution symmetrical, positively skewed or negatively skewed? Also find the coefficient of variation."
+    },
+    {
+      "id": 278080,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Write down all subsets of the sets: (i) A= {x, y, z} and (ii) B= {1, 4, 6, 8}"
+    },
+    {
+      "id": 278091,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Define a set, subset and product set."
+    },
+    {
+      "id": 279583,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Past Papers",
+      "priority": "Past Papers",
+      "en": "Given the following probability distribution. Find (i) m (ii) mean and variance of X. x 0 1 2 3 4 P(x) 1/210 20/120 m 70/120 10/210"
+    }
+  ],
+  "type": "long"
+}

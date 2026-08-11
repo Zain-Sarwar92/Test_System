@@ -1,0 +1,454 @@
+[
+  {
+    "slug": "biology",
+    "subject": "Biology",
+    "counts": {
+      "mcq": 1850,
+      "short": 1668,
+      "long": 169
+    },
+    "fieldCounts": {
+      "MCQ": 1850,
+      "QA": 1668,
+      "LONG": 169
+    },
+    "total": 3687
+  },
+  {
+    "slug": "business-maths",
+    "subject": "Business Maths",
+    "counts": {
+      "mcq": 485,
+      "short": 817,
+      "long": 238
+    },
+    "fieldCounts": {
+      "MCQ": 485,
+      "QA": 817,
+      "LONG": 238
+    },
+    "total": 1540
+  },
+  {
+    "slug": "chemistry",
+    "subject": "Chemistry",
+    "counts": {
+      "mcq": 1149,
+      "short": 948,
+      "long": 95
+    },
+    "fieldCounts": {
+      "MCQ": 1149,
+      "QA": 948,
+      "LONG": 95
+    },
+    "total": 2192
+  },
+  {
+    "slug": "civics",
+    "subject": "سوکس",
+    "counts": {
+      "mcq": 485,
+      "short": 535,
+      "long": 91
+    },
+    "fieldCounts": {
+      "MCQ": 485,
+      "QA": 535,
+      "LONG": 91
+    },
+    "total": 1111
+  },
+  {
+    "slug": "computer",
+    "subject": "Computer",
+    "counts": {
+      "mcq": 700,
+      "short": 456,
+      "long": 193
+    },
+    "fieldCounts": {
+      "MCQ": 700,
+      "QA": 456,
+      "LONG": 193
+    },
+    "total": 1349
+  },
+  {
+    "slug": "economics",
+    "subject": "Economics",
+    "counts": {
+      "mcq": 583,
+      "short": 411,
+      "long": 104
+    },
+    "fieldCounts": {
+      "MCQ": 583,
+      "QA": 411,
+      "LONG": 104
+    },
+    "total": 1098
+  },
+  {
+    "slug": "education",
+    "subject": "ایجوکیشن",
+    "counts": {
+      "mcq": 673,
+      "short": 796,
+      "long": 83
+    },
+    "fieldCounts": {
+      "MCQ": 673,
+      "QA": 796,
+      "LONG": 83
+    },
+    "total": 1552
+  },
+  {
+    "slug": "english",
+    "subject": "English",
+    "counts": {
+      "mcq": 608,
+      "short": 921,
+      "long": 131
+    },
+    "fieldCounts": {
+      "COMPREHENSION": 608,
+      "QA": 614,
+      "PAIR": 307,
+      "TRANSLATE_UR": 110,
+      "POEM_STANZA": 21
+    },
+    "total": 1660
+  },
+  {
+    "slug": "ethics",
+    "subject": "اخلاقیات",
+    "counts": {
+      "mcq": 187,
+      "short": 192,
+      "long": 31
+    },
+    "fieldCounts": {
+      "MCQ": 187,
+      "QA": 192,
+      "LONG": 31
+    },
+    "total": 410
+  },
+  {
+    "slug": "hadeeqatul-adab",
+    "subject": "حَدِیقَۃُ الاَدَبِ",
+    "counts": {
+      "mcq": 111,
+      "short": 144,
+      "long": 0
+    },
+    "fieldCounts": {
+      "MCQ": 111,
+      "QA": 144
+    },
+    "total": 255
+  },
+  {
+    "slug": "history-of-islam",
+    "subject": "تاریخِ اسلام",
+    "counts": {
+      "mcq": 644,
+      "short": 945,
+      "long": 112
+    },
+    "fieldCounts": {
+      "MCQ": 644,
+      "QA": 945,
+      "LONG": 112
+    },
+    "total": 1701
+  },
+  {
+    "slug": "history-of-pakistan",
+    "subject": "تاریخ پاکستان",
+    "counts": {
+      "mcq": 362,
+      "short": 256,
+      "long": 63
+    },
+    "fieldCounts": {
+      "MCQ": 362,
+      "QA": 256,
+      "LONG": 63
+    },
+    "total": 681
+  },
+  {
+    "slug": "home-economics",
+    "subject": "ہوم اکنامکس",
+    "counts": {
+      "mcq": 172,
+      "short": 278,
+      "long": 35
+    },
+    "fieldCounts": {
+      "MCQ": 172,
+      "QA": 278,
+      "LONG": 35
+    },
+    "total": 485
+  },
+  {
+    "slug": "islamiyat-compulsory",
+    "subject": "اسلامیات لازمی",
+    "counts": {
+      "mcq": 715,
+      "short": 549,
+      "long": 39
+    },
+    "fieldCounts": {
+      "MCQ": 715,
+      "QA": 549,
+      "LONG": 24,
+      "AYAT": 15
+    },
+    "total": 1303
+  },
+  {
+    "slug": "islamiyat-elective",
+    "subject": "اسلامیات اختیاری",
+    "counts": {
+      "mcq": 357,
+      "short": 457,
+      "long": 0
+    },
+    "fieldCounts": {
+      "MCQ": 357,
+      "QA": 457
+    },
+    "total": 814
+  },
+  {
+    "slug": "library-science",
+    "subject": "لائبریری سائنس",
+    "counts": {
+      "mcq": 368,
+      "short": 525,
+      "long": 36
+    },
+    "fieldCounts": {
+      "MCQ": 368,
+      "QA": 525,
+      "LONG": 36
+    },
+    "total": 929
+  },
+  {
+    "slug": "mathematics",
+    "subject": "Mathematics",
+    "counts": {
+      "mcq": 586,
+      "short": 841,
+      "long": 496
+    },
+    "fieldCounts": {
+      "MCQ": 586,
+      "QA": 841,
+      "LONG": 496
+    },
+    "total": 1923
+  },
+  {
+    "slug": "persian",
+    "subject": "فارسی",
+    "counts": {
+      "mcq": 150,
+      "short": 199,
+      "long": 0
+    },
+    "fieldCounts": {
+      "MCQ": 150,
+      "QA": 199
+    },
+    "total": 349
+  },
+  {
+    "slug": "physical-education",
+    "subject": "فزیکل ایجوکیشن",
+    "counts": {
+      "mcq": 642,
+      "short": 724,
+      "long": 50
+    },
+    "fieldCounts": {
+      "MCQ": 642,
+      "QA": 724,
+      "LONG": 50
+    },
+    "total": 1416
+  },
+  {
+    "slug": "physical-geography",
+    "subject": "طبعی جغرافیہ",
+    "counts": {
+      "mcq": 109,
+      "short": 223,
+      "long": 45
+    },
+    "fieldCounts": {
+      "MCQ": 109,
+      "QA": 223,
+      "LONG": 45
+    },
+    "total": 377
+  },
+  {
+    "slug": "physics",
+    "subject": "Physics",
+    "counts": {
+      "mcq": 1199,
+      "short": 625,
+      "long": 189
+    },
+    "fieldCounts": {
+      "MCQ": 1199,
+      "QA": 625,
+      "LONG": 189
+    },
+    "total": 2013
+  },
+  {
+    "slug": "principles-of-accounting",
+    "subject": "Principles of Accounting",
+    "counts": {
+      "mcq": 401,
+      "short": 433,
+      "long": 149
+    },
+    "fieldCounts": {
+      "MCQ": 401,
+      "QA": 433,
+      "LONG": 149
+    },
+    "total": 983
+  },
+  {
+    "slug": "principles-of-commerce",
+    "subject": "Principles of Commerce",
+    "counts": {
+      "mcq": 484,
+      "short": 501,
+      "long": 125
+    },
+    "fieldCounts": {
+      "MCQ": 484,
+      "QA": 501,
+      "LONG": 125
+    },
+    "total": 1110
+  },
+  {
+    "slug": "principles-of-economics",
+    "subject": "Principles of Economics",
+    "counts": {
+      "mcq": 960,
+      "short": 532,
+      "long": 85
+    },
+    "fieldCounts": {
+      "MCQ": 960,
+      "QA": 532,
+      "LONG": 85
+    },
+    "total": 1577
+  },
+  {
+    "slug": "psychology",
+    "subject": "نفسیات",
+    "counts": {
+      "mcq": 552,
+      "short": 635,
+      "long": 130
+    },
+    "fieldCounts": {
+      "MCQ": 552,
+      "QA": 635,
+      "LONG": 130
+    },
+    "total": 1317
+  },
+  {
+    "slug": "punjabi",
+    "subject": "پنجابی",
+    "counts": {
+      "mcq": 522,
+      "short": 563,
+      "long": 130
+    },
+    "fieldCounts": {
+      "MCQ": 522,
+      "QA": 563,
+      "POEM": 130
+    },
+    "total": 1215
+  },
+  {
+    "slug": "sociology",
+    "subject": "سوشیالوجی",
+    "counts": {
+      "mcq": 526,
+      "short": 341,
+      "long": 88
+    },
+    "fieldCounts": {
+      "MCQ": 526,
+      "QA": 341,
+      "LONG": 88
+    },
+    "total": 955
+  },
+  {
+    "slug": "statistics",
+    "subject": "Statistics",
+    "counts": {
+      "mcq": 438,
+      "short": 679,
+      "long": 242
+    },
+    "fieldCounts": {
+      "MCQ": 438,
+      "QA": 679,
+      "LONG": 242
+    },
+    "total": 1359
+  },
+  {
+    "slug": "tarjuma-quran",
+    "subject": "ترجمۃ القرآن مجید",
+    "counts": {
+      "mcq": 116,
+      "short": 199,
+      "long": 53
+    },
+    "fieldCounts": {
+      "MCQ": 116,
+      "QA": 99,
+      "LONG": 21,
+      "AYAT": 32,
+      "MEANING": 100
+    },
+    "total": 368
+  },
+  {
+    "slug": "urdu-compulsory",
+    "subject": "اُردو لازمی",
+    "counts": {
+      "mcq": 1559,
+      "short": 765,
+      "long": 87
+    },
+    "fieldCounts": {
+      "MCQ": 1559,
+      "QA": 765,
+      "POEM": 87
+    },
+    "total": 2411
+  }
+]

@@ -1,0 +1,338 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Computer",
+  "slug": "computer",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Computer Networks",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Introduction to Computer Networks"
+        },
+        {
+          "id": "1.2",
+          "title": "Network Architecture and Basic Concepts"
+        },
+        {
+          "id": "1.3",
+          "title": "Types of Computer Networks"
+        },
+        {
+          "id": "1.4",
+          "title": "Networking Devices"
+        },
+        {
+          "id": "1.5",
+          "title": "Network Topologies"
+        },
+        {
+          "id": "1.6",
+          "title": "Network Models and Layers"
+        },
+        {
+          "id": "1.7",
+          "title": "Network Protocols and Services"
+        },
+        {
+          "id": "1.8",
+          "title": "Ip Addressing and Subnetting"
+        },
+        {
+          "id": "1.9",
+          "title": "Home Network Setup and Configuration"
+        },
+        {
+          "id": "1.10",
+          "title": "Wi-Fi Security and Router Configuration"
+        },
+        {
+          "id": "1.11",
+          "title": "Network Diagnostic Tools and Commands"
+        },
+        {
+          "id": "1.12",
+          "title": "Network Performance"
+        },
+        {
+          "id": "1.13",
+          "title": "Network Load Balancing"
+        },
+        {
+          "id": "1.14",
+          "title": "Network Security"
+        },
+        {
+          "id": "1.15",
+          "title": "Data Backup and Recovery"
+        },
+        {
+          "id": "1.16",
+          "title": "Usability and Security Tradeoffs"
+        },
+        {
+          "id": "1.17",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Computational Thinking & Algorithms",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Introduction to Computational Thinking"
+        },
+        {
+          "id": "2.2",
+          "title": "Problem Solving Using Computational Thinking"
+        },
+        {
+          "id": "2.3",
+          "title": "Logic As a Knowledge Representation Framework"
+        },
+        {
+          "id": "2.4",
+          "title": "Propositional Logic"
+        },
+        {
+          "id": "2.5",
+          "title": "Truth Tables"
+        },
+        {
+          "id": "2.6",
+          "title": "Propositional Equivalence"
+        },
+        {
+          "id": "2.7",
+          "title": "Propositional Satisfiability"
+        },
+        {
+          "id": "2.8",
+          "title": "Predicate Logic"
+        },
+        {
+          "id": "2.9",
+          "title": "Quantifiers in Predicate Logic"
+        },
+        {
+          "id": "2.10",
+          "title": "Applying Predicate Logic to Real-World Problems"
+        },
+        {
+          "id": "2.11",
+          "title": "Logic-Based Reasoning and Inference"
+        },
+        {
+          "id": "2.12",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Object Oriented Programming Using Python",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Object-Oriented Programming (Oop) Using Python"
+        },
+        {
+          "id": "3.2",
+          "title": "Core Concept of Oop"
+        },
+        {
+          "id": "3.3",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Development of Graphical User Interface (Gui)",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Graphical User Interface (Gui) Development with Tkinter"
+        },
+        {
+          "id": "4.2",
+          "title": "Working with Database in Python"
+        },
+        {
+          "id": "4.3",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Code Testing and Debugging",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "5.2",
+          "title": "Testing and Debugging Technique"
+        },
+        {
+          "id": "5.3",
+          "title": "Profiling and Optimization"
+        },
+        {
+          "id": "5.4",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Data and Analysis",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Introduction to Data Science"
+        },
+        {
+          "id": "6.2",
+          "title": "Understanding Data"
+        },
+        {
+          "id": "6.3",
+          "title": "Overview of Machine Learning"
+        },
+        {
+          "id": "6.4",
+          "title": "Machine Learning Mechanisms"
+        },
+        {
+          "id": "6.5",
+          "title": "Application of Machine Learning"
+        },
+        {
+          "id": "6.6",
+          "title": "Building Machine Learning Model"
+        },
+        {
+          "id": "6.7",
+          "title": "Model Evaluation and Performance Metrics"
+        },
+        {
+          "id": "6.8",
+          "title": "Validation and Model Improvement"
+        },
+        {
+          "id": "6.9",
+          "title": "Predicitive Modeling and Causality"
+        },
+        {
+          "id": "6.10",
+          "title": "Machine Learning Tools and Platforms"
+        },
+        {
+          "id": "6.11",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Hypothesis Testing",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Introduction to Hypothesis Testing"
+        },
+        {
+          "id": "7.2",
+          "title": "Types of Hypotheses"
+        },
+        {
+          "id": "7.3",
+          "title": "Concepts in Hypothesis Testing"
+        },
+        {
+          "id": "7.4",
+          "title": "Performing Hypothesis Tests"
+        },
+        {
+          "id": "7.5",
+          "title": "Data Visualization for Hypothesis Testing"
+        },
+        {
+          "id": "7.6",
+          "title": "Ethical Issues in Data Science and Analysis"
+        },
+        {
+          "id": "7.7",
+          "title": "Communicating Results and Conclusions"
+        },
+        {
+          "id": "7.8",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Applications of Computer Science",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Understanding Emerging Technologies"
+        },
+        {
+          "id": "8.2",
+          "title": "Cultural and Ethical Implications of Ai Systems"
+        },
+        {
+          "id": "8.3",
+          "title": "Designing Applications for Pakistan Using Emerging Technologies"
+        },
+        {
+          "id": "8.4",
+          "title": "Policies, Regulations, and Responsible Innovation"
+        },
+        {
+          "id": "8.5",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Cybersecurity and Safe Digital Collaboration",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Safe and Responsible Digital Practices"
+        },
+        {
+          "id": "9.2",
+          "title": "Cybersecurity Awareness and Threat Management"
+        },
+        {
+          "id": "9.3",
+          "title": "Digital Collaboration and Equity in Computing"
+        },
+        {
+          "id": "9.4",
+          "title": "Digital Entrepreneurship and Innovation"
+        },
+        {
+          "id": "9.5",
+          "title": "Ethical, Legal and Environmental Impacts of Computing"
+        },
+        {
+          "id": "9.6",
+          "title": "Exercise"
+        }
+      ]
+    }
+  ]
+}

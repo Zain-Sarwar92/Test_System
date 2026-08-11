@@ -1,0 +1,48 @@
+{
+  "course": {
+    "CourseID": 1,
+    "name": "PTB"
+  },
+  "class": {
+    "ClassID": 12,
+    "name": "INTER-II"
+  },
+  "subject": {
+    "SubjectID": 118,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 12,
+    "SubjectName": "PHYSICS",
+    "Category": "SNC-2026",
+    "ImageUrl": "/images/subjects/637341238538527929.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2026-08-08T09:51:50.28",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "slug": "physics",
+  "exportTypes": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "chapters": [],
+  "topics": []
+}

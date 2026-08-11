@@ -1,0 +1,58 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "9",
+  "subject": "English",
+  "slug": "english",
+  "type": "long",
+  "field": "SUMMARY",
+  "exportName": "long-summary",
+  "subTypeId": 28,
+  "total": 2,
+  "exportedAt": "2026-08-10T12:02:03.139Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 339664,
+      "SubjectID": 48,
+      "TopicID": 10705,
+      "TopicRef": "3",
+      "TopicName": "3 DAFFODILS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Daffodils</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "field": "SUMMARY",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 339993,
+      "SubjectID": 48,
+      "TopicID": 10709,
+      "TopicRef": "7",
+      "TopicName": "7 IF",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "field": "SUMMARY",
+        "exportName": "long-summary"
+      }
+    }
+  ]
+}

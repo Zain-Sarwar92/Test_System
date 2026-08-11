@@ -1,0 +1,752 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Chemistry",
+  "slug": "chemistry",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Periodic Table and Periodic Properties",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Historical Background"
+        },
+        {
+          "id": "1.2",
+          "title": "Modern Periodic Table-Main Features"
+        },
+        {
+          "id": "1.3",
+          "title": "Metals, Non Metals and Metalloids"
+        },
+        {
+          "id": "1.4",
+          "title": "Blocks in Periodic Table"
+        },
+        {
+          "id": "1.5",
+          "title": "Families in Periodic Table"
+        },
+        {
+          "id": "1.6",
+          "title": "Periodic Arrangement and Electronic Configuration"
+        },
+        {
+          "id": "1.7",
+          "title": "Periodicity of Properties"
+        },
+        {
+          "id": "1.8",
+          "title": "Reactions of Sodium and Magnesium"
+        },
+        {
+          "id": "1.9",
+          "title": "Trends in Bonding in Oxides and Chlorides of Period 3"
+        },
+        {
+          "id": "1.10",
+          "title": "Variation in Oxidation Number in Oxides and Chlorides"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Atomic Structure",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Atomic Number, Proton Number and Nucleon Number; Identity of An Element"
+        },
+        {
+          "id": "2.2",
+          "title": "Effect of Electric Field and Fundamental Particles"
+        },
+        {
+          "id": "2.3",
+          "title": "Experimental Evidences for the Electronic Configuration"
+        },
+        {
+          "id": "2.4",
+          "title": "Quantum Numbers"
+        },
+        {
+          "id": "2.5",
+          "title": "Shapes of Atomic Orbitals"
+        },
+        {
+          "id": "2.6",
+          "title": "Electronic Configuration"
+        },
+        {
+          "id": "2.7",
+          "title": "Electronic Configuration and the Periodic Table"
+        },
+        {
+          "id": "2.8",
+          "title": "Electronic Configuration of Ions and Free Radicals"
+        },
+        {
+          "id": "2.9",
+          "title": "Electronic Configuration and the Formation of Semiconductors"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Chemical Bonding",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Types of Bonding"
+        },
+        {
+          "id": "3.2",
+          "title": "Electronegativity and the Type of Bond"
+        },
+        {
+          "id": "3.3",
+          "title": "Intermolecular Forces"
+        },
+        {
+          "id": "3.4",
+          "title": "Bond Energy and Bond Length"
+        },
+        {
+          "id": "3.5",
+          "title": "a Comparison Among Ionic, Covalent, Metallic Bond and Intermolecular Forces"
+        },
+        {
+          "id": "3.6",
+          "title": "Valence Bond Theory (Vbt)"
+        },
+        {
+          "id": "3.7",
+          "title": "Atomic Orbital Hybridization"
+        },
+        {
+          "id": "3.8",
+          "title": "Valence Shell Electron Pair Repulsion Model (Vsepr)"
+        },
+        {
+          "id": "3.9",
+          "title": "Molecular Orbital Theory (Mot)"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Stoichiometry",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Concept of Mole"
+        },
+        {
+          "id": "4.2",
+          "title": "Relationship Between Mole, Molar Mass and Avogadro'S Number"
+        },
+        {
+          "id": "4.3",
+          "title": "Molar Volume"
+        },
+        {
+          "id": "4.4",
+          "title": "Molar Mass and Density of Gases"
+        },
+        {
+          "id": "4.5",
+          "title": "Molar Concentration"
+        },
+        {
+          "id": "4.6",
+          "title": "Stoichiometric Relationships"
+        },
+        {
+          "id": "4.7",
+          "title": "Limiting and Excess Reactant"
+        },
+        {
+          "id": "4.8",
+          "title": "Theoretical Yield and Actual Yield"
+        },
+        {
+          "id": "4.9",
+          "title": "Importance of Stoichiometry in Production and Dosage of Medicine"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "States and Phases of Mater",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Properties of Gases"
+        },
+        {
+          "id": "5.2",
+          "title": "Ideal Gas Equation"
+        },
+        {
+          "id": "5.3",
+          "title": "Properties of Liquids"
+        },
+        {
+          "id": "5.4",
+          "title": "Intermolecular Forces"
+        },
+        {
+          "id": "5.5",
+          "title": "Surface Tension of Liquids"
+        },
+        {
+          "id": "5.6",
+          "title": "Viscostiy of Liquids"
+        },
+        {
+          "id": "5.7",
+          "title": "Evaporation"
+        },
+        {
+          "id": "5.8",
+          "title": "Vapour Pressure"
+        },
+        {
+          "id": "5.9",
+          "title": "Boiling Point"
+        },
+        {
+          "id": "5.10",
+          "title": "Energetics of Phase Changes"
+        },
+        {
+          "id": "5.11",
+          "title": "Solids"
+        },
+        {
+          "id": "5.12",
+          "title": "Types of Solids"
+        },
+        {
+          "id": "5.13",
+          "title": "Liquid Crystals"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Chemical Energetics",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Enthalpy Change"
+        },
+        {
+          "id": "6.2",
+          "title": "Energy Profile Diagram"
+        },
+        {
+          "id": "6.3",
+          "title": "Standing Enthalpy Changes"
+        },
+        {
+          "id": "6.4",
+          "title": "Bond Energy (Bond Dissociation Energy) and Enthalpy Changes"
+        },
+        {
+          "id": "6.5",
+          "title": "Enthalpy Change of Reactions, and Chemical Bonds"
+        },
+        {
+          "id": "6.6",
+          "title": "Measurement of Enthalpy Change of a Reaction"
+        },
+        {
+          "id": "6.7",
+          "title": "Enthalpy Change and Calorie Content of Food"
+        },
+        {
+          "id": "6.8",
+          "title": "Hess' Law of Heat Summation"
+        },
+        {
+          "id": "6.9",
+          "title": "Energetics of Solution"
+        },
+        {
+          "id": "6.10",
+          "title": "Born-Haber Cycle"
+        },
+        {
+          "id": "6.11",
+          "title": "Entropy"
+        },
+        {
+          "id": "6.12",
+          "title": "the Free Energy Change"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Reaction Kinetics",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Collision Theory"
+        },
+        {
+          "id": "7.2",
+          "title": "Rate of Reaction"
+        },
+        {
+          "id": "7.3",
+          "title": "Factors Affecting Rate of Chemical Reaction"
+        },
+        {
+          "id": "7.4",
+          "title": "Rate Law, Rate Constant and Order of Reaction"
+        },
+        {
+          "id": "7.5",
+          "title": "Determination of Rate Constant"
+        },
+        {
+          "id": "7.6",
+          "title": "Reaction Mechanism"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Chemical Equilibrium",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Macroscopic Events and Microscopic Events"
+        },
+        {
+          "id": "8.2",
+          "title": "Reversible Reactions, Microscopic Events and Dynamic Equilibrium"
+        },
+        {
+          "id": "8.3",
+          "title": "Relation Between Macroscopic and Microscopic Events"
+        },
+        {
+          "id": "8.4",
+          "title": "Dynamic Equilibrium Between Two Physical States"
+        },
+        {
+          "id": "8.5",
+          "title": "Conditions for Equilibrium"
+        },
+        {
+          "id": "8.6",
+          "title": "Characteristics of Chemical Equilibrium"
+        },
+        {
+          "id": "8.7",
+          "title": "Types of Equilibrium"
+        },
+        {
+          "id": "8.8",
+          "title": "Equilibrium Constant and Position of Equilibrium"
+        },
+        {
+          "id": "8.10",
+          "title": "Position of Equilibrium and Reaction Conditions"
+        },
+        {
+          "id": "8.11",
+          "title": "Le-Chatelier'S Principle"
+        },
+        {
+          "id": "8.12",
+          "title": "the Effect of Change of Concentrations"
+        },
+        {
+          "id": "8.13",
+          "title": "the Effect of Change in Pressure Or Volume"
+        },
+        {
+          "id": "8.14",
+          "title": "the Effect of Change in Temperature"
+        },
+        {
+          "id": "8.15",
+          "title": "Effect of Catalyst On Equilibrium"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Acid-Base Chemistry",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Bronsted-Lowry Concept"
+        },
+        {
+          "id": "9.2",
+          "title": "Lewis Concept of Acids and Bases"
+        },
+        {
+          "id": "9.3",
+          "title": "Ionic Product Water"
+        },
+        {
+          "id": "9.4",
+          "title": "Ph and Poh"
+        },
+        {
+          "id": "9.5",
+          "title": "Ionization Constant of a Acids (Ka)"
+        },
+        {
+          "id": "9.6",
+          "title": "Common Ion Effect"
+        },
+        {
+          "id": "9.7",
+          "title": "Buffer Solutions"
+        },
+        {
+          "id": "9.8",
+          "title": "Solubility Product"
+        },
+        {
+          "id": "9.9",
+          "title": "Salt Hydrolysis"
+        },
+        {
+          "id": "9.10",
+          "title": "Acid-Base Indicators"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Electrochemistry",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Oxidation, Reduction, and Redox Reactions"
+        },
+        {
+          "id": "10.2",
+          "title": "Oxidation Number and Its Significance"
+        },
+        {
+          "id": "10.3",
+          "title": "Disproportionnation Reaction"
+        },
+        {
+          "id": "10.4",
+          "title": "Oxidizing Agent (Oxidant) and Reducing Agent (Reductant)"
+        },
+        {
+          "id": "10.5",
+          "title": "Balancing of Redox Equations By Oxidation Number Method"
+        },
+        {
+          "id": "10.6",
+          "title": "Electrolytic Cell"
+        },
+        {
+          "id": "10.7",
+          "title": "Redox Reactions in Electrolysis"
+        },
+        {
+          "id": "10.8",
+          "title": "Mass of a Substance Deposited During Electrolysis"
+        },
+        {
+          "id": "10.9",
+          "title": "Amount of Substance Produced During Electrolysis"
+        },
+        {
+          "id": "10.10",
+          "title": "Avogadro'S Constant By the Electrolytic Method"
+        },
+        {
+          "id": "10.11",
+          "title": "Electrode Potentials"
+        },
+        {
+          "id": "10.12",
+          "title": "Standard Hydrogen Electrode (She)"
+        },
+        {
+          "id": "10.13",
+          "title": "Standard Electrode Potential (E)"
+        },
+        {
+          "id": "10.14",
+          "title": "Measuring Standard Electrode Potentials"
+        },
+        {
+          "id": "10.15",
+          "title": "Electrochemical Cell (Galvanic Cell)"
+        },
+        {
+          "id": "10.16",
+          "title": "Applications of E Values"
+        },
+        {
+          "id": "10.17",
+          "title": "Variation of E with Ion Concentration"
+        },
+        {
+          "id": "10.18",
+          "title": "Nernst Equation"
+        },
+        {
+          "id": "10.19",
+          "title": "Activity Series of Metals"
+        },
+        {
+          "id": "10.20",
+          "title": "Feasibility of Redox Reactions From Activity Series Or Reaction Data"
+        },
+        {
+          "id": "10.21",
+          "title": "Photovoltaic Cells"
+        },
+        {
+          "id": "10.22",
+          "title": "Winkler Method, Bod and Do"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Hydrocarbons",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Aliphatic and Aromatic Hydrocarbons"
+        },
+        {
+          "id": "11.2",
+          "title": "Nomenclature"
+        },
+        {
+          "id": "11.3",
+          "title": "Reaction Machanism and Modes of Bond Breaking"
+        },
+        {
+          "id": "11.4",
+          "title": "Unreactive Nature of Alkanes Towards Polar Reagents"
+        },
+        {
+          "id": "11.5",
+          "title": "Reactions of Alkanes"
+        },
+        {
+          "id": "11.6",
+          "title": "Alkenes"
+        },
+        {
+          "id": "11.7",
+          "title": "Structure and Reactivity of Alkenes"
+        },
+        {
+          "id": "11.8",
+          "title": "Reaction of Alkenes"
+        },
+        {
+          "id": "11.9",
+          "title": "Conjugated Dienes"
+        },
+        {
+          "id": "11.10",
+          "title": "Isomerism"
+        },
+        {
+          "id": "11.11",
+          "title": "Organic Redox Reaction"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Nitrogen and Sulfur",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Reactivity of Nitrogen (N)"
+        },
+        {
+          "id": "12.2",
+          "title": "Ammonia (Nh)"
+        },
+        {
+          "id": "12.3",
+          "title": "Oxides of Nitrogen"
+        },
+        {
+          "id": "12.4",
+          "title": "Sources of Oxides of Nitrogen"
+        },
+        {
+          "id": "12.5",
+          "title": "Role of No & No2 in Smog & Pan Formation"
+        },
+        {
+          "id": "12.6",
+          "title": "Catalytic Converter"
+        },
+        {
+          "id": "12.7",
+          "title": "Nitrification and Denitrification"
+        },
+        {
+          "id": "12.8",
+          "title": "Sulfur"
+        },
+        {
+          "id": "12.9",
+          "title": "Stability of Oxidation States of Sulfur"
+        },
+        {
+          "id": "12.10",
+          "title": "Reactions of Sulfur"
+        },
+        {
+          "id": "12.11",
+          "title": "Uses of Sulfur and Its Compounds"
+        },
+        {
+          "id": "12.12",
+          "title": "Role of Sulfur in Organic Synthesis"
+        },
+        {
+          "id": "12.13",
+          "title": "Sulfuric Acid"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Halogens",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Volatility of Chlorine, Bromine and Iodine"
+        },
+        {
+          "id": "13.2",
+          "title": "Trend in Volatility of the Halogens"
+        },
+        {
+          "id": "13.3",
+          "title": "the  Bond Strength of Halogen Molecules"
+        },
+        {
+          "id": "13.4",
+          "title": "Relative Reactivities of the Halogens As Oxidizing Agents"
+        },
+        {
+          "id": "13.5",
+          "title": "Reactions of the Halogens with Hydrogen"
+        },
+        {
+          "id": "13.6",
+          "title": "Relative Thermal Stabilities of Hydrogen Halides in Terms of Their Bond Strength"
+        },
+        {
+          "id": "13.7",
+          "title": "Relative Reacitivity of Halide Ions As Reducing Agents"
+        },
+        {
+          "id": "13.8",
+          "title": "Reactions of Halides with Aqueous Silver Ion Followed By Aqueous Ammonia"
+        },
+        {
+          "id": "13.9",
+          "title": "Reactions of Halides (X) with Concentrated Sulfuric Acid"
+        },
+        {
+          "id": "13.10",
+          "title": "Reactions of Chlorine with Cold and Hot Aqueous Sodium Hydroxide"
+        },
+        {
+          "id": "13.11",
+          "title": "Use of Chlorine in Water Purification"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Atmosphere",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Layers of the Atmospheres"
+        },
+        {
+          "id": "14.2",
+          "title": "Air Pollutants"
+        },
+        {
+          "id": "14.3",
+          "title": "Sources of Air Pollution"
+        },
+        {
+          "id": "14.4",
+          "title": "Sources of Air Pollutants"
+        },
+        {
+          "id": "14.5",
+          "title": "Impact of Human Activities On Atmosphere"
+        },
+        {
+          "id": "14.6",
+          "title": "Effects of Air Pollutants"
+        },
+        {
+          "id": "14.7",
+          "title": "Greenhouse Effect and Global Warming"
+        },
+        {
+          "id": "14.8",
+          "title": "Air Quality"
+        },
+        {
+          "id": "14.9",
+          "title": "Air Quality and Human Health"
+        },
+        {
+          "id": "14.10",
+          "title": "Air Pollution and Health Risk"
+        },
+        {
+          "id": "14.11",
+          "title": "Methods & Techniques to Measure & Monitor Air Quality"
+        },
+        {
+          "id": "14.12",
+          "title": "Experiments and Data Collection to Test Hypothesis About Air Quality"
+        },
+        {
+          "id": "14.13",
+          "title": "Analyze Data and Interpret Air Quality"
+        },
+        {
+          "id": "14.14",
+          "title": "Strategies Used to Reduce Air Pollution"
+        },
+        {
+          "id": "14.15",
+          "title": "Laws and Regulations Related to Atmosphere"
+        },
+        {
+          "id": "14.16",
+          "title": "Economic, Social & Political Issues"
+        }
+      ]
+    }
+  ]
+}

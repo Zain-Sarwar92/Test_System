@@ -1,0 +1,37 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "9",
+  "subject": "پنجابی",
+  "slug": "punjabi",
+  "type": "long",
+  "field": "SUMMARY",
+  "exportName": "long-summary",
+  "subTypeId": 28,
+  "total": 1,
+  "exportedAt": "2026-08-10T12:05:02.226Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 442809,
+      "SubjectID": 55,
+      "TopicID": 1484,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 آسرا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایس افسانے دا خلاصہ اپنے لفظاں وِچ لکھو۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "field": "SUMMARY",
+        "exportName": "long-summary"
+      }
+    }
+  ]
+}

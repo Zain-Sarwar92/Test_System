@@ -1,0 +1,6973 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "معاشیات",
+  "slug": "economics",
+  "type": "mcq",
+  "exportName": "mcq",
+  "subTypeId": 1,
+  "total": 142,
+  "exportedAt": "2026-08-10T11:37:14.127Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 168175,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>قومی آمدنی بنیادی طور پر کس کا مجموعہ ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112049,
+          "QuestionID": 168175,
+          "UmOption": "<p>اشیاوخدمات کی زری مالیت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112050,
+          "QuestionID": 168175,
+          "UmOption": "<p>ملک میں دستیاب قدرتی وسائل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112051,
+          "QuestionID": 168175,
+          "UmOption": "<p>حکومتی ٹیکسوں سے حاصل شدہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112052,
+          "QuestionID": 168175,
+          "UmOption": "<p>زرعی اور صنعتی پیداوار کی مالیت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168176,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے کون سی فی کس آمدنی کہلاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112053,
+          "QuestionID": 168176,
+          "UmOption": "<p>فی فرد سالانہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112054,
+          "QuestionID": 168176,
+          "UmOption": "<p>فی گھرانہ سالانہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112055,
+          "QuestionID": 168176,
+          "UmOption": "<p>فی گھرانہ ماہانہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112056,
+          "QuestionID": 168176,
+          "UmOption": "<p>فی فرد ماہانہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168177,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>خالص قومی پیداوار حاصل کرنے کے لیے خام قومی پیداوار سے کیا منہا کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112057,
+          "QuestionID": 168177,
+          "UmOption": "<p>بالواسطہ ٹیکس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112058,
+          "QuestionID": 168177,
+          "UmOption": "<p>حکومتی اعانتیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112059,
+          "QuestionID": 168177,
+          "UmOption": "<p>فرسودگی الاؤنس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112060,
+          "QuestionID": 168177,
+          "UmOption": "<p>انتقالی ادائیگیاں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168178,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے کس کا تعلق شخصی آمدنی سے ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112061,
+          "QuestionID": 168178,
+          "UmOption": "<p>تعلیمی وظائف سے حاصل شدہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112062,
+          "QuestionID": 168178,
+          "UmOption": "<p>زکوٰۃ میں دی جانے والی رقوم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112063,
+          "QuestionID": 168178,
+          "UmOption": "<p>تحائف سے حاصل شدہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112064,
+          "QuestionID": 168178,
+          "UmOption": "<p>کلرک کی حاصل کردہ آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168179,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کسی ملک میں سرمایہ کاری کا انحصار کس بات پر ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112065,
+          "QuestionID": 168179,
+          "UmOption": "<p>موسمی اتار چڑھاؤ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112066,
+          "QuestionID": 168179,
+          "UmOption": "<p>کاروباری حالات پر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112067,
+          "QuestionID": 168179,
+          "UmOption": "<p>ملکی بچتوں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112068,
+          "QuestionID": 168179,
+          "UmOption": "<p>صرفِ دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168210,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے کسے زر کے فرائض میں شامل نہیں کیا جاتا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112129,
+          "QuestionID": 168210,
+          "UmOption": "<p>آلۂ تبادلہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112130,
+          "QuestionID": 168210,
+          "UmOption": "<p>معیارِ قدر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112131,
+          "QuestionID": 168210,
+          "UmOption": "<p>ذخیرۂ قدر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112132,
+          "QuestionID": 168210,
+          "UmOption": "<p>عدم تقسیم پذیری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168211,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل میں کون سی معیشت ایسی ہے جس میں مقبول عام آلہ مبادلہ زر استعمال نہ ہوتا ہو؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112133,
+          "QuestionID": 168211,
+          "UmOption": "<p>کھُلی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112134,
+          "QuestionID": 168211,
+          "UmOption": "<p>بارٹر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112135,
+          "QuestionID": 168211,
+          "UmOption": "<p>اسلامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112136,
+          "QuestionID": 168211,
+          "UmOption": "<p>بند</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168212,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پاکستان میں کرنسی نوٹ جاری کرنے کا اختیار کس کے پاس ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112137,
+          "QuestionID": 168212,
+          "UmOption": "<p>تجارتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112138,
+          "QuestionID": 168212,
+          "UmOption": "<p>مرکزی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112139,
+          "QuestionID": 168212,
+          "UmOption": "<p>زرعی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112140,
+          "QuestionID": 168212,
+          "UmOption": "<p>صنعتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168213,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>جب زر کی مقدار میں اضافہ ہو جائے تو قیمتیں بڑھ جاتی ہیں ایسے میں زر کی قیمت پر کیا اثر پڑتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112141,
+          "QuestionID": 168213,
+          "UmOption": "<p>کم ہو جاتی ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112142,
+          "QuestionID": 168213,
+          "UmOption": "<p>بڑھ جاتی ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112143,
+          "QuestionID": 168213,
+          "UmOption": "<p>ساکن رہتی ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112144,
+          "QuestionID": 168213,
+          "UmOption": "<p>نارمل رہتی ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168214,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کس قسم کے زر کو عام لین دین اور قرضوں کی ادائیگی میں قانوناً قبول کرنا پڑتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112145,
+          "QuestionID": 168214,
+          "UmOption": "<p>کاغذی زر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112146,
+          "QuestionID": 168214,
+          "UmOption": "<p>اعتباری زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112147,
+          "QuestionID": 168214,
+          "UmOption": "<p>زری اشیا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112148,
+          "QuestionID": 168214,
+          "UmOption": "<p>قریبی زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168257,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ایسا ادارہ جو لوگوں کی امانتیں وصول کر کے انھیں قرض پر دے کہلاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112209,
+          "QuestionID": 168257,
+          "UmOption": "<p>مرکزی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112210,
+          "QuestionID": 168257,
+          "UmOption": "<p>تجارتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112211,
+          "QuestionID": 168257,
+          "UmOption": "<p>صنعتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112212,
+          "QuestionID": 168257,
+          "UmOption": "<p>زرعی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168258,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل میں کون سا کام مرکزی بنک سرانجام نہیں دیتا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112213,
+          "QuestionID": 168258,
+          "UmOption": "<p>نوٹ جاری کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112214,
+          "QuestionID": 168258,
+          "UmOption": "<p>زرِ مبادلہ کی حفاظت کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112215,
+          "QuestionID": 168258,
+          "UmOption": "<p>زرِ اعتبار کو کنٹرول کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112216,
+          "QuestionID": 168258,
+          "UmOption": "<p>لوگوں کی امانتوں پر منافع کمانا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168259,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مرکزی بنک تجارتی بنکوں کو قرضے جاری کرتے وقت بنکوں کے کن کھاتوں کو استعمال کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112217,
+          "QuestionID": 168259,
+          "UmOption": "<p>معیادی کھاتوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112218,
+          "QuestionID": 168259,
+          "UmOption": "<p>ہنڈیوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112219,
+          "QuestionID": 168259,
+          "UmOption": "<p>طلبی امانتوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112220,
+          "QuestionID": 168259,
+          "UmOption": "<p>بچتوں کی امانتوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168286,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مختلف ممالک کے درمیان تجارت کے رونما ہونے کی وجہ کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112293,
+          "QuestionID": 168286,
+          "UmOption": "<p>صنعتیں قائم کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112294,
+          "QuestionID": 168286,
+          "UmOption": "<p>وسائل کی غیر مساوی تقسیم</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112295,
+          "QuestionID": 168286,
+          "UmOption": "<p>معاشی ترقی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112296,
+          "QuestionID": 168286,
+          "UmOption": "<p>پیداوار بڑھانا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168287,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کسی ملک کے عوام اور بیرونی ممالک کے عوام کے مابین معاشی لین دین کا باضابطہ ریکارڈ کہلاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112297,
+          "QuestionID": 168287,
+          "UmOption": "<p>بین الاقوامی تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112298,
+          "QuestionID": 168287,
+          "UmOption": "<p>توازنِ ادائیگی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112299,
+          "QuestionID": 168287,
+          "UmOption": "<p>توازنِ تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112300,
+          "QuestionID": 168287,
+          "UmOption": "<p>ملکی تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168288,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل برآمدی اشیاء میں سے&nbsp; جس برآمدی شے کا حصہ زرِ مبادلہ میں زیادہ سے زیادہ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112301,
+          "QuestionID": 168288,
+          "UmOption": "<p>قالین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112302,
+          "QuestionID": 168288,
+          "UmOption": "<p>چمڑا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112303,
+          "QuestionID": 168288,
+          "UmOption": "<p>کپاس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112304,
+          "QuestionID": 168288,
+          "UmOption": "<p>ہوزری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168289,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پاکستان میں توازنِ تجارت اکثر رہتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112305,
+          "QuestionID": 168289,
+          "UmOption": "<p>خسارے میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112306,
+          "QuestionID": 168289,
+          "UmOption": "<p>توازن میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112307,
+          "QuestionID": 168289,
+          "UmOption": "<p>تامین میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112308,
+          "QuestionID": 168289,
+          "UmOption": "<p>منافع میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168290,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے جس چیز پر زیادہ زرِ مبادلہ خرچ ہوتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112309,
+          "QuestionID": 168290,
+          "UmOption": "<p>کاغذ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112310,
+          "QuestionID": 168290,
+          "UmOption": "<p>رنگ و روغن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112311,
+          "QuestionID": 168290,
+          "UmOption": "<p>پیٹرول</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112312,
+          "QuestionID": 168290,
+          "UmOption": "<p>ریشم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168313,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سرکاری مالیات میں حکومت اپنی آمدنی اور اخراجات کا تخمینہ لگاتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112373,
+          "QuestionID": 168313,
+          "UmOption": "<p>سال بھر کے لیے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112374,
+          "QuestionID": 168313,
+          "UmOption": "<p>ایک ماہ کےلیے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112375,
+          "QuestionID": 168313,
+          "UmOption": "<p>مہینہ کے لیے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112376,
+          "QuestionID": 168313,
+          "UmOption": "<p>چھ ماہ کے لیے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168314,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سرکاری مالیات کے تحت حکومت بجٹ کے خسارے کو دُور کرنے کیلئے کیا کر سکتی&nbsp;ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112377,
+          "QuestionID": 168314,
+          "UmOption": "<p>پیداوار میں اضافہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112378,
+          "QuestionID": 168314,
+          "UmOption": "<p>آمدنی میں اضافہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112379,
+          "QuestionID": 168314,
+          "UmOption": "<p>نوٹ چھاپنا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112380,
+          "QuestionID": 168314,
+          "UmOption": "<p>زر کی رسد میں کمی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168349,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>معاشی ترقی ایک ایسا عمل ہےجس کے ذریعے کسی ملک کی حقیقی قومی آمدنی میں اضافہ ہوتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112457,
+          "QuestionID": 168349,
+          "UmOption": "<p>عرصہ قلیل کے لئے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112458,
+          "QuestionID": 168349,
+          "UmOption": "<p>عرصہ طویل کے لئے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112459,
+          "QuestionID": 168349,
+          "UmOption": "<p>معین عرصے کے لئے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112460,
+          "QuestionID": 168349,
+          "UmOption": "<p>تھوڑے عرصے کے لئے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168350,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پاکستان کی معیشت کا سب سے اہم شعبہ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112461,
+          "QuestionID": 168350,
+          "UmOption": "<p>صنعت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112462,
+          "QuestionID": 168350,
+          "UmOption": "<p>تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112463,
+          "QuestionID": 168350,
+          "UmOption": "<p>مواصلات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112464,
+          "QuestionID": 168350,
+          "UmOption": "<p>زراعت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168351,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پاکستان کی خام ملکی پیداوار میں صنعت کا حصہ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112465,
+          "QuestionID": 168351,
+          "UmOption": "<p dir=\"rtl\">20 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112466,
+          "QuestionID": 168351,
+          "UmOption": "<p dir=\"rtl\">25 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112467,
+          "QuestionID": 168351,
+          "UmOption": "<p dir=\"rtl\">21 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112468,
+          "QuestionID": 168351,
+          "UmOption": "<p dir=\"rtl\">30 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168352,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے کونسے عوامل کا معاشی ترقی کے لئے موجود ہونا ضروری نہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112469,
+          "QuestionID": 168352,
+          "UmOption": "<p>معاشی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112470,
+          "QuestionID": 168352,
+          "UmOption": "<p>سیاسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112471,
+          "QuestionID": 168352,
+          "UmOption": "<p>ثقافتی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112472,
+          "QuestionID": 168352,
+          "UmOption": "<p>نجی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168353,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>معاشی ترقی کی سب سے بہتر تعریف کس نے پیش کی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112473,
+          "QuestionID": 168353,
+          "UmOption": "<p>رابنز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112474,
+          "QuestionID": 168353,
+          "UmOption": "<p>آرتھر لیوس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112475,
+          "QuestionID": 168353,
+          "UmOption": "<p>کینز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112476,
+          "QuestionID": 168353,
+          "UmOption": "<p>مائیراوربالڈون</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168380,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نجی ملکیت کے حقوق کس نظام معیشت میں انسان کو بحیثیت امین دئیے گئے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112537,
+          "QuestionID": 168380,
+          "UmOption": "<p>سرمایہ دارانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112538,
+          "QuestionID": 168380,
+          "UmOption": "<p>اسلامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112539,
+          "QuestionID": 168380,
+          "UmOption": "<p>اشتراکی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112540,
+          "QuestionID": 168380,
+          "UmOption": "<p>مخلوط</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168384,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کونسا معاشی نظام اعتدال پسندی کے اصول پر قائم ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112541,
+          "QuestionID": 168384,
+          "UmOption": "<p>اشتراکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112542,
+          "QuestionID": 168384,
+          "UmOption": "<p>مخلوط</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112543,
+          "QuestionID": 168384,
+          "UmOption": "<p>سرمایہ دارانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112544,
+          "QuestionID": 168384,
+          "UmOption": "<p>اسلامی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168189,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پال اے سیموئیل سن کے مطابق قومی آمدنی کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112069,
+          "QuestionID": 168189,
+          "UmOption": "<p>قدروقیمت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112070,
+          "QuestionID": 168189,
+          "UmOption": "<p>زرعی تعلیم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112071,
+          "QuestionID": 168189,
+          "UmOption": "<p>معاشیات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112072,
+          "QuestionID": 168189,
+          "UmOption": "<p>صرفِ دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168190,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قومی آمدنی کے کتنے تصورات بتائے گئے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112073,
+          "QuestionID": 168190,
+          "UmOption": "<p>تین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112074,
+          "QuestionID": 168190,
+          "UmOption": "<p>چار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112075,
+          "QuestionID": 168190,
+          "UmOption": "<p>پانچ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112076,
+          "QuestionID": 168190,
+          "UmOption": "<p>چھ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168191,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>خام ملکی پیداوار کتنے سال میں ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112077,
+          "QuestionID": 168191,
+          "UmOption": "<p>دو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112078,
+          "QuestionID": 168191,
+          "UmOption": "<p>تین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112079,
+          "QuestionID": 168191,
+          "UmOption": "<p>ایک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112080,
+          "QuestionID": 168191,
+          "UmOption": "<p>چار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168192,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>گاڑیوں وغیرہ کی مرمت کے لیے جو رقم خرچ کرنی پڑتی ہے وہ کہلاتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112081,
+          "QuestionID": 168192,
+          "UmOption": "<p>خام ملکی پیداوار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112082,
+          "QuestionID": 168192,
+          "UmOption": "<p>قومی آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112083,
+          "QuestionID": 168192,
+          "UmOption": "<p>شخصی آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112084,
+          "QuestionID": 168192,
+          "UmOption": "<p>خالص قومی پیداوار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168193,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بچتوں کا رجحان کسی ملک کی معاشی ترقی کےلیے بڑا ۔۔۔۔۔۔ کردار ادا کرتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112085,
+          "QuestionID": 168193,
+          "UmOption": "<p>بُرا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112086,
+          "QuestionID": 168193,
+          "UmOption": "<p>اچھا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112087,
+          "QuestionID": 168193,
+          "UmOption": "<p>بڑا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112088,
+          "QuestionID": 168193,
+          "UmOption": "<p>اہم</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168194,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بچت کا انحصار عام طور پر کس عامل پر ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112089,
+          "QuestionID": 168194,
+          "UmOption": "<p>فضول خرچ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112090,
+          "QuestionID": 168194,
+          "UmOption": "<p>بچت کرنے کی قوت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112091,
+          "QuestionID": 168194,
+          "UmOption": "<p>دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112092,
+          "QuestionID": 168194,
+          "UmOption": "<p>صرفِ دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168195,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>فی کس آمدن کس کے برابر ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112093,
+          "QuestionID": 168195,
+          "UmOption": "<p>کل قومی آمدنی/کل آبادی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112094,
+          "QuestionID": 168195,
+          "UmOption": "<p>کل آبادی/کل قومی آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112095,
+          "QuestionID": 168195,
+          "UmOption": "<p>کل آمدنی/فی کس آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112096,
+          "QuestionID": 168195,
+          "UmOption": "<p>خود اختیار صرف/صرفِ دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168197,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قومی آمدنی کس چیز سے حاصل ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112097,
+          "QuestionID": 168197,
+          "UmOption": "<p>محنت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112098,
+          "QuestionID": 168197,
+          "UmOption": "<p>وقت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112099,
+          "QuestionID": 168197,
+          "UmOption": "<p>کام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112100,
+          "QuestionID": 168197,
+          "UmOption": "<p>پیدائش</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168198,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>خام قومی پیداوار کس کے تصورات ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112101,
+          "QuestionID": 168198,
+          "UmOption": "<p>آمدنی کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112102,
+          "QuestionID": 168198,
+          "UmOption": "<p>قومی آمدنی کے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112103,
+          "QuestionID": 168198,
+          "UmOption": "<p>خام ملکی پیداوار کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112104,
+          "QuestionID": 168198,
+          "UmOption": "<p>قوم کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168199,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>صرفی اخراجات کون سے ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112105,
+          "QuestionID": 168199,
+          "UmOption": "<p>صرفِ دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112106,
+          "QuestionID": 168199,
+          "UmOption": "<p>سرمایہ کاری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112107,
+          "QuestionID": 168199,
+          "UmOption": "<p>فی کس آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112108,
+          "QuestionID": 168199,
+          "UmOption": "<p>خود اختیار صرف</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168200,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شخصی آمدنی فرد کتنے عرصے میں کماتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112109,
+          "QuestionID": 168200,
+          "UmOption": "<p>ڈیڑھ سال میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112110,
+          "QuestionID": 168200,
+          "UmOption": "<p>دو سال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112111,
+          "QuestionID": 168200,
+          "UmOption": "<p>ایک سال</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112112,
+          "QuestionID": 168200,
+          "UmOption": "<p>تین سال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168201,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قابلِ تصرف شخصی آمدنی کس کے برابر ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112113,
+          "QuestionID": 168201,
+          "UmOption": "<p>شخصی آمدنی&nbsp;- قومی آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112114,
+          "QuestionID": 168201,
+          "UmOption": "<p>شخصی آمدنی - براہ راست ٹیکس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112115,
+          "QuestionID": 168201,
+          "UmOption": "<p>شخصی آمدنی - آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112116,
+          "QuestionID": 168201,
+          "UmOption": "<p>ملکی آمدنی - شخصی آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168202,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>خود مختار سرمایہ کاری کس کی قسم ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112117,
+          "QuestionID": 168202,
+          "UmOption": "<p>بچتوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112118,
+          "QuestionID": 168202,
+          "UmOption": "<p>&nbsp;سرمایہ کاری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112119,
+          "QuestionID": 168202,
+          "UmOption": "<p>صرفِ دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112120,
+          "QuestionID": 168202,
+          "UmOption": "<p>فی کس آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168203,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قومی آمدنی میں کیا چیز جمع ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112121,
+          "QuestionID": 168203,
+          "UmOption": "<p>خالص قومی پیداوار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112122,
+          "QuestionID": 168203,
+          "UmOption": "<p>اعانتیں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112123,
+          "QuestionID": 168203,
+          "UmOption": "<p>شخصی آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112124,
+          "QuestionID": 168203,
+          "UmOption": "<p>قومی آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168204,
+      "SubjectID": 258,
+      "TopicID": 5221,
+      "TopicRef": "8",
+      "TopicName": "8 قومی آمدنی کے بنیادی تصورات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جب آمدنی میں تبدیلی آتی ہے تو بچتوں میں بھی ۔۔۔۔۔۔۔ آتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112125,
+          "QuestionID": 168204,
+          "UmOption": "<p>کمی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112126,
+          "QuestionID": 168204,
+          "UmOption": "<p>بچت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112127,
+          "QuestionID": 168204,
+          "UmOption": "<p>نرمی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112128,
+          "QuestionID": 168204,
+          "UmOption": "<p>تیزی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168224,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کیا معاشی ارتقاء کے ابتدائی دور میں زر موجود تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112149,
+          "QuestionID": 168224,
+          "UmOption": "<p>نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112150,
+          "QuestionID": 168224,
+          "UmOption": "<p>ہاں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112151,
+          "QuestionID": 168224,
+          "UmOption": "<p>بالکل نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112152,
+          "QuestionID": 168224,
+          "UmOption": "<p>وجود تھا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168225,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زرکی ایجاد سے پہلے انسانی تہذیب سادہ مگر کس کا شکار تھی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112153,
+          "QuestionID": 168225,
+          "UmOption": "<p>دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112154,
+          "QuestionID": 168225,
+          "UmOption": "<p>پسمانگی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112155,
+          "QuestionID": 168225,
+          "UmOption": "<p>زندگی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112156,
+          "QuestionID": 168225,
+          "UmOption": "<p>کام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168226,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بارٹر سسٹم سے ۔۔۔۔۔۔۔ کا ایک جگہ سے دوسری جگہ تبادلہ ہوتاہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112157,
+          "QuestionID": 168226,
+          "UmOption": "<p>کپڑوں کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112158,
+          "QuestionID": 168226,
+          "UmOption": "<p>ملک کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112159,
+          "QuestionID": 168226,
+          "UmOption": "<p>شہر کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112160,
+          "QuestionID": 168226,
+          "UmOption": "<p>شے کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168227,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زر کے ذریعے کن معاہدوں کی ادائیگیاں چکائی جاتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112161,
+          "QuestionID": 168227,
+          "UmOption": "<p>اُدھار اور قیمت کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112162,
+          "QuestionID": 168227,
+          "UmOption": "<p>پیسوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112163,
+          "QuestionID": 168227,
+          "UmOption": "<p>کپڑوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112164,
+          "QuestionID": 168227,
+          "UmOption": "<p>چیزوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168228,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زر کا اہم فرض ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112165,
+          "QuestionID": 168228,
+          "UmOption": "<p>ا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112166,
+          "QuestionID": 168228,
+          "UmOption": "<p>ب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112167,
+          "QuestionID": 168228,
+          "UmOption": "<p>چ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112168,
+          "QuestionID": 168228,
+          "UmOption": "<p>د</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168229,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زر کی کتنی اقسام ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112169,
+          "QuestionID": 168229,
+          "UmOption": "<p>پانچ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112170,
+          "QuestionID": 168229,
+          "UmOption": "<p>چھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112171,
+          "QuestionID": 168229,
+          "UmOption": "<p>سات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112172,
+          "QuestionID": 168229,
+          "UmOption": "<p>آٹھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168230,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زر کی ایسی اکائی جوملکی زری نظام میں معیار کا کام دے کہلاتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112173,
+          "QuestionID": 168230,
+          "UmOption": "<p>محدود قانونی زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112174,
+          "QuestionID": 168230,
+          "UmOption": "<p>قانونی زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112175,
+          "QuestionID": 168230,
+          "UmOption": "<p>معیاری زر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112176,
+          "QuestionID": 168230,
+          "UmOption": "<p>اعتباری زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168232,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زر کی ۔۔۔۔۔۔۔ اور قیمتوں کے درمیان براہِ راست رشتہ پایا جاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112177,
+          "QuestionID": 168232,
+          "UmOption": "<p>آمد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112178,
+          "QuestionID": 168232,
+          "UmOption": "<p>عمدگی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112179,
+          "QuestionID": 168232,
+          "UmOption": "<p>رسد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112180,
+          "QuestionID": 168232,
+          "UmOption": "<p>قسم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168233,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان میں ناموافق حالات کس سن میں معاشی عدم استحکام کا باعث بنے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112181,
+          "QuestionID": 168233,
+          "UmOption": "<p dir=\"rtl\">1906ء اور 1917 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112182,
+          "QuestionID": 168233,
+          "UmOption": "<p dir=\"rtl\">1801 ء اور 1902 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112183,
+          "QuestionID": 168233,
+          "UmOption": "<p dir=\"rtl\">1965 ء اور 1971 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112184,
+          "QuestionID": 168233,
+          "UmOption": "<p dir=\"rtl\">2017 ء اور 2018 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168234,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ٹیکسوں کا بوجھ اشیاء صارفین پر کس ٹیکس کی قسم میں منتقل ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112185,
+          "QuestionID": 168234,
+          "UmOption": "<p>بیرونی تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112186,
+          "QuestionID": 168234,
+          "UmOption": "<p>زر کی رسد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112187,
+          "QuestionID": 168234,
+          "UmOption": "<p>ٹیکس کی شرح</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112188,
+          "QuestionID": 168234,
+          "UmOption": "<p>زر کی گردش</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168235,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>۔۔۔۔۔ سسٹم میں اشیاء کا تبادلہ اشیاء سے کیا جاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112189,
+          "QuestionID": 168235,
+          "UmOption": "<p>کمیون</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112190,
+          "QuestionID": 168235,
+          "UmOption": "<p>زرعی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112191,
+          "QuestionID": 168235,
+          "UmOption": "<p>بارٹر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112192,
+          "QuestionID": 168235,
+          "UmOption": "<p>پالیسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168236,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>وہ زر جس کی ظاہری مالیت اس کی حقیقی قدرومالیت سے زیادہ ہو ۔۔۔۔۔ کہلاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112193,
+          "QuestionID": 168236,
+          "UmOption": "<p>نارمل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112194,
+          "QuestionID": 168236,
+          "UmOption": "<p>زندہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112195,
+          "QuestionID": 168236,
+          "UmOption": "<p>بہت زیادہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112196,
+          "QuestionID": 168236,
+          "UmOption": "<p>کم</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168237,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اشیاء کے تبادلے کے نظام میں حکومتی واجبات کی ۔۔۔۔۔ میں دقت پیش آتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112197,
+          "QuestionID": 168237,
+          "UmOption": "<p>ادائیگی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112198,
+          "QuestionID": 168237,
+          "UmOption": "<p>وصولی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112199,
+          "QuestionID": 168237,
+          "UmOption": "<p>زری تبادلہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112200,
+          "QuestionID": 168237,
+          "UmOption": "<p>رسد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168238,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اشیاء کے تبادلے کےنظام میں افراد کا تمام تر سرمایہ کس کی صورت میں ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112201,
+          "QuestionID": 168238,
+          "UmOption": "<p>تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112202,
+          "QuestionID": 168238,
+          "UmOption": "<p>پیسوں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112203,
+          "QuestionID": 168238,
+          "UmOption": "<p>اشیاء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112204,
+          "QuestionID": 168238,
+          "UmOption": "<p>زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168239,
+      "SubjectID": 258,
+      "TopicID": 5222,
+      "TopicRef": "9",
+      "TopicName": "9 زر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>&quot;زر وہ شے ہے جو عام طور پر قرض کی ادائیگی میں استعمال کی جاتی ہے۔&quot; کس کے الفاظ ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112205,
+          "QuestionID": 168239,
+          "UmOption": "<p>پروفیسر جی کراوتھر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112206,
+          "QuestionID": 168239,
+          "UmOption": "<p>مورگن</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112207,
+          "QuestionID": 168239,
+          "UmOption": "<p>پروفیسر واکر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112208,
+          "QuestionID": 168239,
+          "UmOption": "<p>جے ایم کینز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168268,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>لوگوں کی بچائی ہوئی رقوم کی حفاظت کون کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112221,
+          "QuestionID": 168268,
+          "UmOption": "<p>بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112222,
+          "QuestionID": 168268,
+          "UmOption": "<p>گھر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112223,
+          "QuestionID": 168268,
+          "UmOption": "<p>کارخانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112224,
+          "QuestionID": 168268,
+          "UmOption": "<p>ہسپتال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168269,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بنک کی کتنی اقسام ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112225,
+          "QuestionID": 168269,
+          "UmOption": "<p>سات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112226,
+          "QuestionID": 168269,
+          "UmOption": "<p>آٹھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112227,
+          "QuestionID": 168269,
+          "UmOption": "<p>پانچ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112228,
+          "QuestionID": 168269,
+          "UmOption": "<p>ایک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168270,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کس کا بنک زرِ مبادلہ اور بین الاقوامی ادائیگیوں کو کنٹرول کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112229,
+          "QuestionID": 168270,
+          "UmOption": "<p>حکومت کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112230,
+          "QuestionID": 168270,
+          "UmOption": "<p>سرکاری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112231,
+          "QuestionID": 168270,
+          "UmOption": "<p>نجی کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112232,
+          "QuestionID": 168270,
+          "UmOption": "<p>عوام کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168271,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بازارِ زر کا ناظم کس بنک کے فرائض میں سے ایک ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112233,
+          "QuestionID": 168271,
+          "UmOption": "<p>نجی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112234,
+          "QuestionID": 168271,
+          "UmOption": "<p>سرکاری بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112235,
+          "QuestionID": 168271,
+          "UmOption": "<p>زرعی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112236,
+          "QuestionID": 168271,
+          "UmOption": "<p>مرکزی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168272,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>&quot;صنعتی ترقیاتی بنک آف پاکستان&quot; کس ملک میں مشہور ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112237,
+          "QuestionID": 168272,
+          "UmOption": "<p>بھارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112238,
+          "QuestionID": 168272,
+          "UmOption": "<p>پاکستان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112239,
+          "QuestionID": 168272,
+          "UmOption": "<p>بنگلہ دیش</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112240,
+          "QuestionID": 168272,
+          "UmOption": "<p>یونان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168273,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تجارتی بنکوں کی مشکل وقت میں مالی مدد کون کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112241,
+          "QuestionID": 168273,
+          "UmOption": "<p>زرعی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112242,
+          "QuestionID": 168273,
+          "UmOption": "<p>تجارتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112243,
+          "QuestionID": 168273,
+          "UmOption": "<p>حکومتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112244,
+          "QuestionID": 168273,
+          "UmOption": "<p>بنکوں کا بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168274,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام دوسروں کی مجبوری سے فائدہ اٹھانے والے کیاسمجھتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112245,
+          "QuestionID": 168274,
+          "UmOption": "<p>اچھا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112246,
+          "QuestionID": 168274,
+          "UmOption": "<p>بُرا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112247,
+          "QuestionID": 168274,
+          "UmOption": "<p>سمجھدار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112248,
+          "QuestionID": 168274,
+          "UmOption": "<p>عقل مند</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168275,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کون سے قرض میں لوگوں کو جو ضرورت مند ہوتے ہیں بلاسود یا منافع کے قرض دئیے جاتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112249,
+          "QuestionID": 168275,
+          "UmOption": "<p>قرضِ حسنہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112250,
+          "QuestionID": 168275,
+          "UmOption": "<p>قرضِ ادائیگی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112251,
+          "QuestionID": 168275,
+          "UmOption": "<p>قرضِ معاف</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112252,
+          "QuestionID": 168275,
+          "UmOption": "<p>قرضِ معاوضہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168276,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مرکزی بنک تجارتی بنکوں کو قرضے جاری کرتے ہوئے بنکوں کے کن کھاتوں کو استعمال کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112253,
+          "QuestionID": 168276,
+          "UmOption": "<p>معیاری کھاتوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112254,
+          "QuestionID": 168276,
+          "UmOption": "<p>ہنڈیوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112255,
+          "QuestionID": 168276,
+          "UmOption": "<p>طلبی امانتوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112256,
+          "QuestionID": 168276,
+          "UmOption": "<p>بچتوں کی امانتوں کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168277,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایسا ادارہ جو لوگوں کی امانتیں وصول کر کے انھیں قرضے پر دےدے کہلاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112257,
+          "QuestionID": 168277,
+          "UmOption": "<p>مرکزی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112258,
+          "QuestionID": 168277,
+          "UmOption": "<p>تجارتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112259,
+          "QuestionID": 168277,
+          "UmOption": "<p>صنعتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112260,
+          "QuestionID": 168277,
+          "UmOption": "<p>زرعی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168278,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مرکزی بنک تجارتی بنکوں کو جس شرح پر قرضے دیتا ہے اس کو ۔۔۔۔۔۔ کہتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112261,
+          "QuestionID": 168278,
+          "UmOption": "<p>حفاظتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112262,
+          "QuestionID": 168278,
+          "UmOption": "<p>سرکاری بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112263,
+          "QuestionID": 168278,
+          "UmOption": "<p>نجی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112264,
+          "QuestionID": 168278,
+          "UmOption": "<p>شرح بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168279,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نفع یا نقصان کی شراکت کی بنیاد پر قرضوں کا اجراء سن ۔۔۔۔۔۔۔ میں ہوا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112265,
+          "QuestionID": 168279,
+          "UmOption": "<p dir=\"rtl\">1918 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112266,
+          "QuestionID": 168279,
+          "UmOption": "<p dir=\"rtl\">1818 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112267,
+          "QuestionID": 168279,
+          "UmOption": "<p dir=\"rtl\">1906 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112268,
+          "QuestionID": 168279,
+          "UmOption": "<p dir=\"rtl\">1981 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168280,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نوٹوں کا اجراء کس بنک کو ملتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112269,
+          "QuestionID": 168280,
+          "UmOption": "<p>سرکاری بنک کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112270,
+          "QuestionID": 168280,
+          "UmOption": "<p>ترقیاتی بنک کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112271,
+          "QuestionID": 168280,
+          "UmOption": "<p>نجی بنک کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112272,
+          "QuestionID": 168280,
+          "UmOption": "<p>مرکزی بنک کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168281,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>یکم جولائی ۔۔۔۔۔۔ سے تمام بنکوں کے کاروبار کو سودی نظام سے بالکل پاک کر دیا گیا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112273,
+          "QuestionID": 168281,
+          "UmOption": "<p dir=\"rtl\">1908 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112274,
+          "QuestionID": 168281,
+          "UmOption": "<p dir=\"rtl\">1906 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112275,
+          "QuestionID": 168281,
+          "UmOption": "<p dir=\"rtl\">1895 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112276,
+          "QuestionID": 168281,
+          "UmOption": "<p dir=\"rtl\">1985 ء</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168282,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>۔۔۔۔۔ بنک سرمایہ فراہم کرتا ہےاور سرمایہ لینے والا اپنی محنت کے بل بوتے پر کاروبار چلاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112277,
+          "QuestionID": 168282,
+          "UmOption": "<p>مشارکہ میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112278,
+          "QuestionID": 168282,
+          "UmOption": "<p>قرضِ حسنہ میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112279,
+          "QuestionID": 168282,
+          "UmOption": "<p>حقیقی شراکت میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112280,
+          "QuestionID": 168282,
+          "UmOption": "<p>مضاربہ میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168283,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بنک کس چیز کی حفاظت کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112281,
+          "QuestionID": 168283,
+          "UmOption": "<p>رقوم کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112282,
+          "QuestionID": 168283,
+          "UmOption": "<p>انسانوں کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112283,
+          "QuestionID": 168283,
+          "UmOption": "<p>مال کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112284,
+          "QuestionID": 168283,
+          "UmOption": "<p>بچی ہوئی رقم کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168284,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تجارتی بنک کس کی قسم ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112285,
+          "QuestionID": 168284,
+          "UmOption": "<p>بنک کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112286,
+          "QuestionID": 168284,
+          "UmOption": "<p>ملک کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112287,
+          "QuestionID": 168284,
+          "UmOption": "<p>تجارت کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112288,
+          "QuestionID": 168284,
+          "UmOption": "<p>نقصان کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168285,
+      "SubjectID": 258,
+      "TopicID": 5223,
+      "TopicRef": "10",
+      "TopicName": "10 بنک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>درج ذیل میں کون سی قسم بنک کی قسم نہیں ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112289,
+          "QuestionID": 168285,
+          "UmOption": "<p>مرکزی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112290,
+          "QuestionID": 168285,
+          "UmOption": "<p>سرکاری بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112291,
+          "QuestionID": 168285,
+          "UmOption": "<p>تجارتی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112292,
+          "QuestionID": 168285,
+          "UmOption": "<p>زرعی بنک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168298,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے&nbsp;بیرونی تجارت کے فوائد میں سے نہیں ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112313,
+          "QuestionID": 168298,
+          "UmOption": "<p>عمارت کا حصول</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112314,
+          "QuestionID": 168298,
+          "UmOption": "<p>سستی اشیاء کا حصول</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112315,
+          "QuestionID": 168298,
+          "UmOption": "<p>زائد پیداوار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112316,
+          "QuestionID": 168298,
+          "UmOption": "<p>ضروری اشیاء کا حصول</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168299,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>وسائل کا غلط استعمال کس کا نقصان ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112317,
+          "QuestionID": 168299,
+          "UmOption": "<p>عالمی امن کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112318,
+          "QuestionID": 168299,
+          "UmOption": "<p>آزادی کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112319,
+          "QuestionID": 168299,
+          "UmOption": "<p>بیرونی تجارت کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112320,
+          "QuestionID": 168299,
+          "UmOption": "<p>ملک کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168300,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>صرف مرئی اشیاء کی درآمدوبرآمد کا تعلق کس تجارت سے ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112321,
+          "QuestionID": 168300,
+          "UmOption": "<p>غیر ملکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112322,
+          "QuestionID": 168300,
+          "UmOption": "<p>ملکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112323,
+          "QuestionID": 168300,
+          "UmOption": "<p>مناسب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112324,
+          "QuestionID": 168300,
+          "UmOption": "<p>توازن</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168301,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>معاشی لین دین کا باقاعدہ ریکارڈ کس کے پاس ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112325,
+          "QuestionID": 168301,
+          "UmOption": "<p>توازنِ ادائیگی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112326,
+          "QuestionID": 168301,
+          "UmOption": "<p>توازنِ تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112327,
+          "QuestionID": 168301,
+          "UmOption": "<p>حکومت کے پاس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112328,
+          "QuestionID": 168301,
+          "UmOption": "<p>سرکاری تجارت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168302,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>توازنِ ادائیگی کے خسارے میں جانے کی وجہ کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112329,
+          "QuestionID": 168302,
+          "UmOption": "<p>اخراجات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112330,
+          "QuestionID": 168302,
+          "UmOption": "<p>ضروریاتِ زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112331,
+          "QuestionID": 168302,
+          "UmOption": "<p>برآمدات میں کمی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112332,
+          "QuestionID": 168302,
+          "UmOption": "<p>اشیاء کی کمی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168303,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان کی اہم برآمدات میں سے ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112333,
+          "QuestionID": 168303,
+          "UmOption": "<p>آٹا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112334,
+          "QuestionID": 168303,
+          "UmOption": "<p>دال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112335,
+          "QuestionID": 168303,
+          "UmOption": "<p>ٹی۔وی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112336,
+          "QuestionID": 168303,
+          "UmOption": "<p>چاول</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168304,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سستی اشیاء کا حصول بیرونی تجارت کا ۔۔۔۔۔۔ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112337,
+          "QuestionID": 168304,
+          "UmOption": "<p>فائدہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112338,
+          "QuestionID": 168304,
+          "UmOption": "<p>نقصان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112339,
+          "QuestionID": 168304,
+          "UmOption": "<p>درآمد ہونا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112340,
+          "QuestionID": 168304,
+          "UmOption": "<p>فضول خرچ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168305,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کن اشیاء سے ممالک میں لوگوں کی محنتیں اور روپیہ پیسہ برباد ہو رہا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112341,
+          "QuestionID": 168305,
+          "UmOption": "<p>بیرون ممالک کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112342,
+          "QuestionID": 168305,
+          "UmOption": "<p>پاکستان کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112343,
+          "QuestionID": 168305,
+          "UmOption": "<p>مضر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112344,
+          "QuestionID": 168305,
+          "UmOption": "<p>دُکان کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168306,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مضر اشیاء کی دستیابی سے ہمیں ۔۔۔۔۔ پہنچتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112345,
+          "QuestionID": 168306,
+          "UmOption": "<p>فائدہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112346,
+          "QuestionID": 168306,
+          "UmOption": "<p>نقصان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112347,
+          "QuestionID": 168306,
+          "UmOption": "<p>خوشی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112348,
+          "QuestionID": 168306,
+          "UmOption": "<p>غم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168307,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>معیشت میں ریڑھ کی ہڈی کی مانند کسے کہا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112349,
+          "QuestionID": 168307,
+          "UmOption": "<p>کپاس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112350,
+          "QuestionID": 168307,
+          "UmOption": "<p>چاول</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112351,
+          "QuestionID": 168307,
+          "UmOption": "<p>سوتی دھاگہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112352,
+          "QuestionID": 168307,
+          "UmOption": "<p>سوتی کپڑا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168308,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>چمڑے سے بنی ہوئی مصنوعات کہاں تیار کی جا رہی&nbsp;ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112353,
+          "QuestionID": 168308,
+          "UmOption": "<p>بھارت میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112354,
+          "QuestionID": 168308,
+          "UmOption": "<p>جاپان میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112355,
+          "QuestionID": 168308,
+          "UmOption": "<p>روس میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112356,
+          "QuestionID": 168308,
+          "UmOption": "<p>پاکستان میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168309,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان کون سا ملک ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112357,
+          "QuestionID": 168309,
+          "UmOption": "<p>اسلامی اور زرعی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112358,
+          "QuestionID": 168309,
+          "UmOption": "<p>روسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112359,
+          "QuestionID": 168309,
+          "UmOption": "<p>ابتدائی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112360,
+          "QuestionID": 168309,
+          "UmOption": "<p>زرخیز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168310,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مشینری اور خام مال پاکستان کو ۔۔۔۔۔۔۔ کرنا پڑتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112361,
+          "QuestionID": 168310,
+          "UmOption": "<p>برآمد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112362,
+          "QuestionID": 168310,
+          "UmOption": "<p>لینا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112363,
+          "QuestionID": 168310,
+          "UmOption": "<p>ڈھونڈنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112364,
+          "QuestionID": 168310,
+          "UmOption": "<p>درآمد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168311,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پیٹرول کہاں سے&nbsp; آتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112365,
+          "QuestionID": 168311,
+          "UmOption": "<p>گھروں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112366,
+          "QuestionID": 168311,
+          "UmOption": "<p>نالوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112367,
+          "QuestionID": 168311,
+          "UmOption": "<p>زمین سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112368,
+          "QuestionID": 168311,
+          "UmOption": "<p>پہاڑوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168312,
+      "SubjectID": 258,
+      "TopicID": 5224,
+      "TopicRef": "11",
+      "TopicName": "11 تجارت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مندرجہ ذیل میں سے پاکستان کی درآمدات میں سے کیا نہیں ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112369,
+          "QuestionID": 168312,
+          "UmOption": "<p>اشیائے خوردنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112370,
+          "QuestionID": 168312,
+          "UmOption": "<p>قالین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112371,
+          "QuestionID": 168312,
+          "UmOption": "<p>متفرق درآمدات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112372,
+          "QuestionID": 168312,
+          "UmOption": "<p>کیمیائی کھادیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168325,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سرکاری اخراجات اور سرکاری آمدنی کو عام طور پر کیا کہا جاتا&nbsp;ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112381,
+          "QuestionID": 168325,
+          "UmOption": "<p>سرکاری ترقی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112382,
+          "QuestionID": 168325,
+          "UmOption": "<p>سرکاری اخراجات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112383,
+          "QuestionID": 168325,
+          "UmOption": "<p>سرکاری مالیات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112384,
+          "QuestionID": 168325,
+          "UmOption": "<p>سرکاری کام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168326,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اندرونی قرضہ سے مراد کس سے قرضہ لینا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112385,
+          "QuestionID": 168326,
+          "UmOption": "<p>کسی دوست سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112386,
+          "QuestionID": 168326,
+          "UmOption": "<p>خود سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112387,
+          "QuestionID": 168326,
+          "UmOption": "<p>مالک سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112388,
+          "QuestionID": 168326,
+          "UmOption": "<p>والدین سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168327,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بجٹ کی مدت کب ہوتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112389,
+          "QuestionID": 168327,
+          "UmOption": "<p>دن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112390,
+          "QuestionID": 168327,
+          "UmOption": "<p>رات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112391,
+          "QuestionID": 168327,
+          "UmOption": "<p>صبح، شام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112392,
+          "QuestionID": 168327,
+          "UmOption": "<p>یومیہ، ہفتہ، ماہانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168328,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>لوگ خرچ کرتے وقت کس چیز کو مدنظر رکھتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112393,
+          "QuestionID": 168328,
+          "UmOption": "<p>آمدنی کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112394,
+          "QuestionID": 168328,
+          "UmOption": "<p>زندگی کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112395,
+          "QuestionID": 168328,
+          "UmOption": "<p>کام کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112396,
+          "QuestionID": 168328,
+          "UmOption": "<p>خود کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168329,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سرکاری وصولیات کے اہم ذرائع کون سے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112397,
+          "QuestionID": 168329,
+          "UmOption": "<p>بجٹ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112398,
+          "QuestionID": 168329,
+          "UmOption": "<p>خسارے کی پالیسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112399,
+          "QuestionID": 168329,
+          "UmOption": "<p>محصولات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112400,
+          "QuestionID": 168329,
+          "UmOption": "<p>دفاع</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168330,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دفاعی سرکاری ۔۔۔۔۔۔ میں سے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112401,
+          "QuestionID": 168330,
+          "UmOption": "<p>آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112402,
+          "QuestionID": 168330,
+          "UmOption": "<p>اخراجات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112403,
+          "QuestionID": 168330,
+          "UmOption": "<p>محصولات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112404,
+          "QuestionID": 168330,
+          "UmOption": "<p>حصول</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168331,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کیا قرضوں پر سود لینا جائز ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112405,
+          "QuestionID": 168331,
+          "UmOption": "<p>جی نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112406,
+          "QuestionID": 168331,
+          "UmOption": "<p>جی ہاں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112407,
+          "QuestionID": 168331,
+          "UmOption": "<p>کچھ بھی نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112408,
+          "QuestionID": 168331,
+          "UmOption": "<p>بالکل ہاں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168332,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کیا دفاع کےلیے اسلحہ ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112409,
+          "QuestionID": 168332,
+          "UmOption": "<p>ہاں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112410,
+          "QuestionID": 168332,
+          "UmOption": "<p>نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112411,
+          "QuestionID": 168332,
+          "UmOption": "<p>ہو مگر کم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112412,
+          "QuestionID": 168332,
+          "UmOption": "<p>زیادہ مقدارمیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168333,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بجٹ کو عام طور پر ۔۔۔۔۔۔۔ بھی کہتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112413,
+          "QuestionID": 168333,
+          "UmOption": "<p>آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112414,
+          "QuestionID": 168333,
+          "UmOption": "<p>بجٹ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112415,
+          "QuestionID": 168333,
+          "UmOption": "<p>میزانیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112416,
+          "QuestionID": 168333,
+          "UmOption": "<p>خرچ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168334,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جرمانے کن پر عائد کیے جاتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112417,
+          "QuestionID": 168334,
+          "UmOption": "<p>قانون کی خلاف ورزی کرے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112418,
+          "QuestionID": 168334,
+          "UmOption": "<p>کام نہ کرے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112419,
+          "QuestionID": 168334,
+          "UmOption": "<p>زر خرچ کرے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112420,
+          "QuestionID": 168334,
+          "UmOption": "<p>قانون پر عمل کرے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168335,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سرکار ترقیاتی منصوبوں کی تکمیل کیلئےکیا وصول کرتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112421,
+          "QuestionID": 168335,
+          "UmOption": "<p>قرضہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112422,
+          "QuestionID": 168335,
+          "UmOption": "<p>زر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112423,
+          "QuestionID": 168335,
+          "UmOption": "<p>کام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112424,
+          "QuestionID": 168335,
+          "UmOption": "<p>دولت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168336,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>۔۔۔۔۔۔ مالیات میں افراد اپنی چادر کے مطابق پاؤں پھیلاتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112425,
+          "QuestionID": 168336,
+          "UmOption": "<p>سرکاری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112426,
+          "QuestionID": 168336,
+          "UmOption": "<p>نظامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112427,
+          "QuestionID": 168336,
+          "UmOption": "<p>دفتری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112428,
+          "QuestionID": 168336,
+          "UmOption": "<p>نجی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168337,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>۔۔۔۔۔۔ ایک لازمی ادائیگی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112429,
+          "QuestionID": 168337,
+          "UmOption": "<p>ٹیکس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112430,
+          "QuestionID": 168337,
+          "UmOption": "<p>بجٹ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112431,
+          "QuestionID": 168337,
+          "UmOption": "<p>قرضہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112432,
+          "QuestionID": 168337,
+          "UmOption": "<p>محصول</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168338,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سرکاری اخراجات میں کیا چیز شامل نہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112433,
+          "QuestionID": 168338,
+          "UmOption": "<p>دفاع</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112434,
+          "QuestionID": 168338,
+          "UmOption": "<p>&nbsp;عدالتیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112435,
+          "QuestionID": 168338,
+          "UmOption": "<p>قرضہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112436,
+          "QuestionID": 168338,
+          "UmOption": "<p>نظم و نسق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168339,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نجی اور سرکاری مالیات اپنی آمدنی کے ذرائع کو فروغ دینے کے لیے ۔۔۔۔۔۔۔۔ کرتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112437,
+          "QuestionID": 168339,
+          "UmOption": "<p>قرضے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112438,
+          "QuestionID": 168339,
+          "UmOption": "<p>بجٹ کا حصول</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112439,
+          "QuestionID": 168339,
+          "UmOption": "<p>سرمایہ کاری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112440,
+          "QuestionID": 168339,
+          "UmOption": "<p>ملاقات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168340,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان کے مالی بجٹ کا دورانیہ یکم جولائی سے ۔۔۔۔۔ تک ہوتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112441,
+          "QuestionID": 168340,
+          "UmOption": "<p dir=\"rtl\">19 جون</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112442,
+          "QuestionID": 168340,
+          "UmOption": "<p dir=\"rtl\">20 جون</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112443,
+          "QuestionID": 168340,
+          "UmOption": "<p dir=\"rtl\">25 جون</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112444,
+          "QuestionID": 168340,
+          "UmOption": "<p dir=\"rtl\">30 جون</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168341,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>لوگ اپنے مستقبل کے لیے جو سرمایہ بچاتے ہیں وہ ایسا کیوں کرتےہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112445,
+          "QuestionID": 168341,
+          "UmOption": "<p>بہتر مستقبل کے لیے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112446,
+          "QuestionID": 168341,
+          "UmOption": "<p>کاروبار کے لیے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112447,
+          "QuestionID": 168341,
+          "UmOption": "<p>خود کے لیے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112448,
+          "QuestionID": 168341,
+          "UmOption": "<p>کام کے لیے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168342,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>میزانیہ کسے کہتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112449,
+          "QuestionID": 168342,
+          "UmOption": "<p>کام کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112450,
+          "QuestionID": 168342,
+          "UmOption": "<p>سرمایہ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112451,
+          "QuestionID": 168342,
+          "UmOption": "<p>بجٹ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112452,
+          "QuestionID": 168342,
+          "UmOption": "<p>دورانیہ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168343,
+      "SubjectID": 258,
+      "TopicID": 5225,
+      "TopicRef": "12",
+      "TopicName": "12 سرکاری مالیات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سرکاری مالیات کے تحت حکومت بجٹ کے خسارے کو دُور کرنے کے لیے کیا کر سکتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112453,
+          "QuestionID": 168343,
+          "UmOption": "<p>پیداوار میں اضافہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112454,
+          "QuestionID": 168343,
+          "UmOption": "<p>آمدنی میں اضافہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112455,
+          "QuestionID": 168343,
+          "UmOption": "<p>نوٹ چھاپنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112456,
+          "QuestionID": 168343,
+          "UmOption": "<p>زر کی رسد میں کمی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168365,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>معاشی ترقی کن ممالک کے لئے نہایت ضروری ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112477,
+          "QuestionID": 168365,
+          "UmOption": "<p>ترقی یافتہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112478,
+          "QuestionID": 168365,
+          "UmOption": "<p>ترقی پذیر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112479,
+          "QuestionID": 168365,
+          "UmOption": "<p>پسماندہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112480,
+          "QuestionID": 168365,
+          "UmOption": "<p>بیرون</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168366,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>معاشی ترقی کس پر انحصار کرتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112481,
+          "QuestionID": 168366,
+          "UmOption": "<p>ذریعہ معاش</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112482,
+          "QuestionID": 168366,
+          "UmOption": "<p>ٹیکنالوجی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112483,
+          "QuestionID": 168366,
+          "UmOption": "<p>دریافت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112484,
+          "QuestionID": 168366,
+          "UmOption": "<p>آمدنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168367,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان بنیادی طور پر کونسا ملک ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112485,
+          "QuestionID": 168367,
+          "UmOption": "<p>ترقیاتی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112486,
+          "QuestionID": 168367,
+          "UmOption": "<p>مالیاتی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112487,
+          "QuestionID": 168367,
+          "UmOption": "<p>زرعی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112488,
+          "QuestionID": 168367,
+          "UmOption": "<p>روشن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168368,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستانی معیشت کا انحصار ۔۔۔۔۔ شعبے پر ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112489,
+          "QuestionID": 168368,
+          "UmOption": "<p>قدرتی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112490,
+          "QuestionID": 168368,
+          "UmOption": "<p>ترقیاتی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112491,
+          "QuestionID": 168368,
+          "UmOption": "<p>کاروباری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112492,
+          "QuestionID": 168368,
+          "UmOption": "<p>زرعی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168369,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان میں کس کا شعبہ زرِ مبادلہ کمانے کا سب سے بڑا ذریعہ ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112493,
+          "QuestionID": 168369,
+          "UmOption": "<p>حکومت کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112494,
+          "QuestionID": 168369,
+          "UmOption": "<p>ملک کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112495,
+          "QuestionID": 168369,
+          "UmOption": "<p>شہر کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112496,
+          "QuestionID": 168369,
+          "UmOption": "<p>زراعت کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168370,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جدید ٹیکنالوجی سے گمراہی معاشی ترقی کو ۔۔۔۔۔۔۔ کر دیتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112497,
+          "QuestionID": 168370,
+          "UmOption": "<p>چست</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112498,
+          "QuestionID": 168370,
+          "UmOption": "<p>بہادر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112499,
+          "QuestionID": 168370,
+          "UmOption": "<p>سست</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112500,
+          "QuestionID": 168370,
+          "UmOption": "<p>مالامال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168371,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پاکستان کی خام مال کی ملکی پیداوار کا ۔۔۔۔۔۔ فیصد حصہ زراعت کا شعبہ فراہم کر رہا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112501,
+          "QuestionID": 168371,
+          "UmOption": "<p>20.9</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112502,
+          "QuestionID": 168371,
+          "UmOption": "<p>30.9</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112503,
+          "QuestionID": 168371,
+          "UmOption": "<p>14.6</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112504,
+          "QuestionID": 168371,
+          "UmOption": "<p>0.9</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168372,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>خام مال کس شعبے سے حاصل ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112505,
+          "QuestionID": 168372,
+          "UmOption": "<p>ملکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112506,
+          "QuestionID": 168372,
+          "UmOption": "<p>سرکاری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112507,
+          "QuestionID": 168372,
+          "UmOption": "<p>نجی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112508,
+          "QuestionID": 168372,
+          "UmOption": "<p>زراعت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168373,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کونسا شعبہ پاکستانی معیشت کا دوسرا اہم شعبہ ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112509,
+          "QuestionID": 168373,
+          "UmOption": "<p>زرعی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112510,
+          "QuestionID": 168373,
+          "UmOption": "<p>ڈاکٹری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112511,
+          "QuestionID": 168373,
+          "UmOption": "<p>ماہی گیری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112512,
+          "QuestionID": 168373,
+          "UmOption": "<p>صنعتی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168374,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زراعت کا شعبہ کس شعبہ کے ساتھ منسلک ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112513,
+          "QuestionID": 168374,
+          "UmOption": "<p>ڈاکٹری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112514,
+          "QuestionID": 168374,
+          "UmOption": "<p>ماہی گیری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112515,
+          "QuestionID": 168374,
+          "UmOption": "<p>زرعی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112516,
+          "QuestionID": 168374,
+          "UmOption": "<p>صنعتی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168375,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ٹیکنالوجی سے جدید دور میں معاشی ترقی کی جا سکتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112517,
+          "QuestionID": 168375,
+          "UmOption": "<p>بہتر طریقے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112518,
+          "QuestionID": 168375,
+          "UmOption": "<p>برے طریقے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112519,
+          "QuestionID": 168375,
+          "UmOption": "<p>فلسفی طریقے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112520,
+          "QuestionID": 168375,
+          "UmOption": "<p>فوراً سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168376,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>۔۔۔۔۔۔ کی بدولت اشیاء کی منڈی وسیع ہو جاتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112521,
+          "QuestionID": 168376,
+          "UmOption": "<p>کام کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112522,
+          "QuestionID": 168376,
+          "UmOption": "<p>مشین کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112523,
+          "QuestionID": 168376,
+          "UmOption": "<p>زراعت کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112524,
+          "QuestionID": 168376,
+          "UmOption": "<p>آمدنی میں اضافے کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168377,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>معاشی ترقی کس طرح کی جا سکتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112525,
+          "QuestionID": 168377,
+          "UmOption": "<p>بچت کر کے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112526,
+          "QuestionID": 168377,
+          "UmOption": "<p>محنت کر کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112527,
+          "QuestionID": 168377,
+          "UmOption": "<p>وقت ضائع کرکے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112528,
+          "QuestionID": 168377,
+          "UmOption": "<p>پالیسیاں بنا کر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168378,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کیا پسماندہ ممالک ترقی کر سکتے ہیں؟ اگر کر سکتے ہیں تو کس طریقے سے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112529,
+          "QuestionID": 168378,
+          "UmOption": "<p>ٹیکنالوجی کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112530,
+          "QuestionID": 168378,
+          "UmOption": "<p>مشینوں کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112531,
+          "QuestionID": 168378,
+          "UmOption": "<p>بچت کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112532,
+          "QuestionID": 168378,
+          "UmOption": "<p>زراعت کے ذریعے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168379,
+      "SubjectID": 258,
+      "TopicID": 5226,
+      "TopicRef": "13",
+      "TopicName": "13 معاشی ترقی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بچتوں کی ترغیب شعبہ ۔۔۔۔۔۔ کا معاشی کردار ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112533,
+          "QuestionID": 168379,
+          "UmOption": "<p>زراعت کا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112534,
+          "QuestionID": 168379,
+          "UmOption": "<p>بنکاری کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112535,
+          "QuestionID": 168379,
+          "UmOption": "<p>کمپیوٹر کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112536,
+          "QuestionID": 168379,
+          "UmOption": "<p>تجارت کا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168393,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام میں غریب لوگوں کی ۔۔۔۔۔ کرنا اچھا سمجھا جاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112545,
+          "QuestionID": 168393,
+          "UmOption": "<p>بُرائی کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112546,
+          "QuestionID": 168393,
+          "UmOption": "<p>اچھائی کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112547,
+          "QuestionID": 168393,
+          "UmOption": "<p>مدد کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112548,
+          "QuestionID": 168393,
+          "UmOption": "<p>عیادت کرنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168394,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اللہ نے انسانوں کے کچھ ۔۔۔۔۔ دئیے ہیں جن پر وہ ملکیت کو ظاہر کر سکتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112549,
+          "QuestionID": 168394,
+          "UmOption": "<p>کام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112550,
+          "QuestionID": 168394,
+          "UmOption": "<p>احکام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112551,
+          "QuestionID": 168394,
+          "UmOption": "<p>حقوق</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112552,
+          "QuestionID": 168394,
+          "UmOption": "<p>ملازمتیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168395,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام میں زکٰوۃ کا حصہ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112553,
+          "QuestionID": 168395,
+          "UmOption": "<p dir=\"rtl\">2.5 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112554,
+          "QuestionID": 168395,
+          "UmOption": "<p dir=\"rtl\">9.3 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112555,
+          "QuestionID": 168395,
+          "UmOption": "<p dir=\"rtl\">2.8 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112556,
+          "QuestionID": 168395,
+          "UmOption": "<p dir=\"rtl\">3.5 فیصد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168396,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام میں ۔۔۔۔۔۔ لینے اور دینےکی سخت ممانعت ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112557,
+          "QuestionID": 168396,
+          "UmOption": "<p>کام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112558,
+          "QuestionID": 168396,
+          "UmOption": "<p>گھر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112559,
+          "QuestionID": 168396,
+          "UmOption": "<p>اشیاء</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112560,
+          "QuestionID": 168396,
+          "UmOption": "<p>&nbsp;سود</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168397,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلامی معاشی نظام کا اصل نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112561,
+          "QuestionID": 168397,
+          "UmOption": "<p>قید معیشت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112562,
+          "QuestionID": 168397,
+          "UmOption": "<p>آزاد معیشت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112563,
+          "QuestionID": 168397,
+          "UmOption": "<p>ترقی یافتہ معیشت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112564,
+          "QuestionID": 168397,
+          "UmOption": "<p>ترقی پذیر معیشت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168398,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زکٰوۃ کے لغوی معنیٰ ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112565,
+          "QuestionID": 168398,
+          "UmOption": "<p>پاکیزگی کے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112566,
+          "QuestionID": 168398,
+          "UmOption": "<p>گندگی کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112567,
+          "QuestionID": 168398,
+          "UmOption": "<p>خریداری کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112568,
+          "QuestionID": 168398,
+          "UmOption": "<p>انکار کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168399,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>صاحبِ نصاب لوگوں پر زکٰوۃ دینا ۔۔۔۔۔۔۔۔ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112569,
+          "QuestionID": 168399,
+          "UmOption": "<p>اچھا عمل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112570,
+          "QuestionID": 168399,
+          "UmOption": "<p>بُرا عمل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112571,
+          "QuestionID": 168399,
+          "UmOption": "<p>فرض</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112572,
+          "QuestionID": 168399,
+          "UmOption": "<p>لازم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168400,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>عام اصطلاح میں عشر سے مراد ۔۔۔۔۔۔ پیداوار ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112573,
+          "QuestionID": 168400,
+          "UmOption": "<p>صنعتی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112574,
+          "QuestionID": 168400,
+          "UmOption": "<p>ملکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112575,
+          "QuestionID": 168400,
+          "UmOption": "<p>معاشی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112576,
+          "QuestionID": 168400,
+          "UmOption": "<p>زرعی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168401,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام ہمیں ۔۔۔۔۔۔پڑھنے کا درس دیتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112577,
+          "QuestionID": 168401,
+          "UmOption": "<p>کتاب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112578,
+          "QuestionID": 168401,
+          "UmOption": "<p>کہانیاں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112579,
+          "QuestionID": 168401,
+          "UmOption": "<p>قرآنِ مجید</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112580,
+          "QuestionID": 168401,
+          "UmOption": "<p>نماز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168402,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مسلمانوں پر ۔۔۔۔۔ نمازیں فرض ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112581,
+          "QuestionID": 168402,
+          "UmOption": "<p>ایک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112582,
+          "QuestionID": 168402,
+          "UmOption": "<p>دو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112583,
+          "QuestionID": 168402,
+          "UmOption": "<p>پچاس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112584,
+          "QuestionID": 168402,
+          "UmOption": "<p>پانچ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168403,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زکٰوۃ اسلام کا کون سا رکن ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112585,
+          "QuestionID": 168403,
+          "UmOption": "<p>دسواں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112586,
+          "QuestionID": 168403,
+          "UmOption": "<p>گیارھواں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112587,
+          "QuestionID": 168403,
+          "UmOption": "<p>تیسرا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112588,
+          "QuestionID": 168403,
+          "UmOption": "<p>چوتھا</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168404,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غربت کا خاتمہ ممکن ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112589,
+          "QuestionID": 168404,
+          "UmOption": "<p>مدد کرنےسے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112590,
+          "QuestionID": 168404,
+          "UmOption": "<p>بدلہ لینے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112591,
+          "QuestionID": 168404,
+          "UmOption": "<p>بدتمیزی کرنے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112592,
+          "QuestionID": 168404,
+          "UmOption": "<p>غرور کرنے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168405,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>معیشت کے پھیلاؤ سے غربت کا کیا جا سکتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112593,
+          "QuestionID": 168405,
+          "UmOption": "<p>پھیلاؤ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112594,
+          "QuestionID": 168405,
+          "UmOption": "<p>خاتمہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112595,
+          "QuestionID": 168405,
+          "UmOption": "<p>جزیرہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112596,
+          "QuestionID": 168405,
+          "UmOption": "<p>علاج</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168406,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دولت کی غیر منصفانہ تقسیم کی وجہ سے لوگوں میں پیدا ہونے لگتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112597,
+          "QuestionID": 168406,
+          "UmOption": "<p>کینہ و حسد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112598,
+          "QuestionID": 168406,
+          "UmOption": "<p>جذبہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112599,
+          "QuestionID": 168406,
+          "UmOption": "<p>محبت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112600,
+          "QuestionID": 168406,
+          "UmOption": "<p>نفرت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168407,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام نے ہر مسلمان کو دوسرے مسلمان کا ۔۔۔۔۔۔۔ کہا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112601,
+          "QuestionID": 168407,
+          "UmOption": "<p>دشمن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112602,
+          "QuestionID": 168407,
+          "UmOption": "<p>دوست</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112603,
+          "QuestionID": 168407,
+          "UmOption": "<p>بھائی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112604,
+          "QuestionID": 168407,
+          "UmOption": "<p>چچا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168408,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلام ہمیں گناہ کرنے سے کیا کرنے کو کہتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112605,
+          "QuestionID": 168408,
+          "UmOption": "<p>دوستی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112606,
+          "QuestionID": 168408,
+          "UmOption": "<p>اجتناب</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112607,
+          "QuestionID": 168408,
+          "UmOption": "<p>دشمنی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112608,
+          "QuestionID": 168408,
+          "UmOption": "<p>حکمرانی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168409,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>زکٰوۃ دینےسے انسان ۔۔۔۔۔۔ ہو جاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112609,
+          "QuestionID": 168409,
+          "UmOption": "<p>گندا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112610,
+          "QuestionID": 168409,
+          "UmOption": "<p>پیارا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112611,
+          "QuestionID": 168409,
+          "UmOption": "<p>پاک صاف</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112612,
+          "QuestionID": 168409,
+          "UmOption": "<p>بُرا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 168410,
+      "SubjectID": 258,
+      "TopicID": 5227,
+      "TopicRef": "14",
+      "TopicName": "14 اسلام کا معاشی نظام",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سود لینا اور دینا اسلام میں ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 112613,
+          "QuestionID": 168410,
+          "UmOption": "<p>ناجائز</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 112614,
+          "QuestionID": 168410,
+          "UmOption": "<p>پاک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112615,
+          "QuestionID": 168410,
+          "UmOption": "<p>جائز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 112616,
+          "QuestionID": 168410,
+          "UmOption": "<p>لازم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "exportName": "mcq"
+      }
+    }
+  ]
+}

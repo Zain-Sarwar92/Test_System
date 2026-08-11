@@ -1,0 +1,453 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "Chemistry",
+  "chapters": [
+    {
+      "number": 14,
+      "title": "States of Matter and Internal Energy",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Internal Energy"
+        },
+        {
+          "id": "14.2",
+          "title": "Interconversion of Physical States"
+        },
+        {
+          "id": "14.3",
+          "title": "Heating and Cooling Curves"
+        },
+        {
+          "id": "14.4",
+          "title": "Evaporation and Boiling"
+        },
+        {
+          "id": "14.5",
+          "title": "Sublimation"
+        },
+        {
+          "id": "14.6",
+          "title": "Applications of Sublimation"
+        },
+        {
+          "id": "14.7",
+          "title": "Kinetic Theory and the Gas Laws"
+        },
+        {
+          "id": "14.8",
+          "title": "Diffusion"
+        },
+        {
+          "id": "14.9",
+          "title": "Importance of Rates of Diffusion of Medicines in Human Body"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Quantitative Chemistry",
+      "topics": [
+        {
+          "id": "15.1",
+          "title": "Molar Volume"
+        },
+        {
+          "id": "15.2",
+          "title": "Concentration of a Solution"
+        },
+        {
+          "id": "15.3",
+          "title": "Calculate the Concentration of a Solution in Titration Using Empirical Data"
+        },
+        {
+          "id": "15.4",
+          "title": "Percentage Composition by Mass, Empirical Formula and Molecular Formula"
+        },
+        {
+          "id": "15.5",
+          "title": "Empirical Formula"
+        },
+        {
+          "id": "15.6",
+          "title": "Limiting Reactant"
+        },
+        {
+          "id": "15.7",
+          "title": "Yield"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Electrochemistry",
+      "topics": [
+        {
+          "id": "16.1",
+          "title": "Oxidation Number of Atoms in Compounds and Ions"
+        },
+        {
+          "id": "16.2",
+          "title": "Writing Chemical Formulas of Ionic Compounds by Applying Oxidation Numbers"
+        },
+        {
+          "id": "16.3",
+          "title": "Writing Chemical Formulas of Ionic Compounds Using Ionic Charges"
+        },
+        {
+          "id": "16.4",
+          "title": "Oxidation and Reduction"
+        },
+        {
+          "id": "16.5",
+          "title": "Oxidation-Reduction Reactions"
+        },
+        {
+          "id": "16.6",
+          "title": "Electrolysis"
+        },
+        {
+          "id": "16.7",
+          "title": "Electrolysis of a Concentrated Aqueous Solution of Sodium Chloride (Brine) Using Inert Electrodes (Graphite / Pt)"
+        },
+        {
+          "id": "16.8",
+          "title": "Electrolysis of Dilute and Concentrated Aqueous Solutions of Metal Halides"
+        },
+        {
+          "id": "16.9",
+          "title": "Electrolysis of Concentrated Aqueous Solutions of Metal Halides"
+        },
+        {
+          "id": "16.10",
+          "title": "Electrolysis of Molten Lead (II) Chloride"
+        },
+        {
+          "id": "16.11",
+          "title": "Electrolysis of Dilute Solution of Sulphuric Acid Using Inert Electrodes (Carbon or Pt)"
+        },
+        {
+          "id": "16.12",
+          "title": "Electrolysis of Dilute Aqueous Solution of Copper Sulphate Using Inert Electrodes or Copper Electrodes"
+        },
+        {
+          "id": "16.13",
+          "title": "Fuel Cells"
+        },
+        {
+          "id": "16.14",
+          "title": "Corrosion"
+        },
+        {
+          "id": "16.15",
+          "title": "Electroplating"
+        },
+        {
+          "id": "16.16",
+          "title": "Galvanic Cells"
+        },
+        {
+          "id": "16.17",
+          "title": "Order of Reactivity of Metals Using Voltage Data"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Chemical Kinetics",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Collision Theory of Reaction Rate"
+        },
+        {
+          "id": "17.2",
+          "title": "Change in Mass During a Chemical Reaction"
+        },
+        {
+          "id": "17.3",
+          "title": "Change in Temperature During a Chemical Reaction"
+        },
+        {
+          "id": "17.4",
+          "title": "Factors Affecting the Rates of Reactions"
+        },
+        {
+          "id": "17.5",
+          "title": "Importance of Chemical Kinetics in Food Industry"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Salts",
+      "topics": [
+        {
+          "id": "18.1",
+          "title": "Arrangement of Ions in Salts"
+        },
+        {
+          "id": "18.2",
+          "title": "Melting Points of Ionic Compounds"
+        },
+        {
+          "id": "18.3",
+          "title": "Conduction of Electricity by Ionic Compounds"
+        },
+        {
+          "id": "18.4",
+          "title": "Soluble and Insoluble Salts"
+        },
+        {
+          "id": "18.5",
+          "title": "Preparation of Soluble Salts"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Industrial Chemistry",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Ammonia"
+        },
+        {
+          "id": "19.2",
+          "title": "Sulphuric Acid"
+        },
+        {
+          "id": "19.3",
+          "title": "Oxides"
+        },
+        {
+          "id": "19.4",
+          "title": "Metals"
+        },
+        {
+          "id": "19.5",
+          "title": "Reactivity Series of Metals"
+        },
+        {
+          "id": "19.6",
+          "title": "Role of Oxides of Nitrogen in Spreading Air Pollution"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Water",
+      "topics": [
+        {
+          "id": "20.1",
+          "title": "Water"
+        },
+        {
+          "id": "20.2",
+          "title": "Purity of Water"
+        },
+        {
+          "id": "20.3",
+          "title": "Difference Between Distilled Water and Tap Water"
+        },
+        {
+          "id": "20.4",
+          "title": "Substances Present in Water Obtained from Natural Sources"
+        },
+        {
+          "id": "20.5",
+          "title": "Treatment of Domestic Water Supply"
+        },
+        {
+          "id": "20.6",
+          "title": "Effects of Pollutants Present in Water"
+        },
+        {
+          "id": "20.7",
+          "title": "Water Scarcity in Pakistan"
+        },
+        {
+          "id": "20.8",
+          "title": "Elements Essential for Plant Growth"
+        },
+        {
+          "id": "20.9",
+          "title": "Fertilizers"
+        },
+        {
+          "id": "20.10",
+          "title": "Classification of Fertilizers"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Organic Compounds",
+      "topics": [
+        {
+          "id": "21.1",
+          "title": "Classifications of Organic Compounds"
+        },
+        {
+          "id": "21.2",
+          "title": "Structural Formula"
+        },
+        {
+          "id": "21.3",
+          "title": "Homologous Series"
+        },
+        {
+          "id": "21.4",
+          "title": "Isomerism"
+        },
+        {
+          "id": "21.5",
+          "title": "Functional Group"
+        },
+        {
+          "id": "21.6",
+          "title": "Naming Organic Compounds"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Hydrocarbons and Petroleum",
+      "topics": [
+        {
+          "id": "22.1",
+          "title": "Alkenes"
+        },
+        {
+          "id": "22.2",
+          "title": "Important Reactions of Alkenes"
+        },
+        {
+          "id": "22.3",
+          "title": "Alkynes"
+        },
+        {
+          "id": "22.4",
+          "title": "Sources of Organic Compounds"
+        },
+        {
+          "id": "22.5",
+          "title": "Refining of Petroleum"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Alcohols",
+      "topics": [
+        {
+          "id": "23.1",
+          "title": "Manufacture of Ethyl Alcohol"
+        },
+        {
+          "id": "23.2",
+          "title": "Combustion of Alcohols"
+        },
+        {
+          "id": "23.3",
+          "title": "Applications of Alcohols as Fuels"
+        },
+        {
+          "id": "23.4",
+          "title": "Role of Ethanol in Industries"
+        },
+        {
+          "id": "23.5",
+          "title": "Impact of Alcohols on Daily Life"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Carboxylic Acids and Esters",
+      "topics": [
+        {
+          "id": "24.1",
+          "title": "Preparation of Acetic Acid or Ethanoic Acid"
+        },
+        {
+          "id": "24.2",
+          "title": "Reactions of Carboxylic Acids as Acids"
+        },
+        {
+          "id": "24.3",
+          "title": "Reaction of Carboxylic Acids with Alcohols (Esterification)"
+        },
+        {
+          "id": "24.4",
+          "title": "Industrial Applications of Carboxylic Acids and Esters"
+        },
+        {
+          "id": "24.5",
+          "title": "Carboxylic Acids and Esters in Daily Life"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Biochemistry",
+      "topics": [
+        {
+          "id": "25.1",
+          "title": "The Importance of Nutrition"
+        },
+        {
+          "id": "25.2",
+          "title": "Carbohydrates"
+        },
+        {
+          "id": "25.3",
+          "title": "Proteins"
+        },
+        {
+          "id": "25.4",
+          "title": "Lipids"
+        },
+        {
+          "id": "25.5",
+          "title": "Vitamins"
+        },
+        {
+          "id": "25.6",
+          "title": "Nucleic Acids"
+        },
+        {
+          "id": "25.7",
+          "title": "Applications of Biochemistry"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Polymers and Plastics",
+      "topics": [
+        {
+          "id": "26.1",
+          "title": "Types of Polymers"
+        },
+        {
+          "id": "26.2",
+          "title": "Structure of Monomer from Polymer"
+        },
+        {
+          "id": "26.3",
+          "title": "Plastics"
+        },
+        {
+          "id": "26.4",
+          "title": "Importance of Polymers in Textile Industry"
+        },
+        {
+          "id": "26.5",
+          "title": "Adverse Effects of Plastics"
+        }
+      ]
+    }
+  ]
+}

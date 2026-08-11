@@ -1,0 +1,6864 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "English",
+  "type": "mcq",
+  "field": "VERB",
+  "subTypeId": 5,
+  "total": 137,
+  "exportedAt": "2026-08-10T10:44:28.194Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 508814,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... my meals at night.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 493977,
+          "QuestionID": 508814,
+          "UmOption": null,
+          "EmOption": "<p>Take</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 493978,
+          "QuestionID": 508814,
+          "UmOption": null,
+          "EmOption": "<p>Taken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493979,
+          "QuestionID": 508814,
+          "UmOption": null,
+          "EmOption": "<p>Took</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493980,
+          "QuestionID": 508814,
+          "UmOption": null,
+          "EmOption": "<p>Taking</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508815,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>This pen ......... by Hina.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 493981,
+          "QuestionID": 508815,
+          "UmOption": null,
+          "EmOption": "<p>Is breaking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493982,
+          "QuestionID": 508815,
+          "UmOption": null,
+          "EmOption": "<p>Has broken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493983,
+          "QuestionID": 508815,
+          "UmOption": null,
+          "EmOption": "<p>Broken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493984,
+          "QuestionID": 508815,
+          "UmOption": null,
+          "EmOption": "<p>Is broken</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508816,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... English quite well.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 493985,
+          "QuestionID": 508816,
+          "UmOption": null,
+          "EmOption": "<p>Speaks</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 493986,
+          "QuestionID": 508816,
+          "UmOption": null,
+          "EmOption": "<p>Speak</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493987,
+          "QuestionID": 508816,
+          "UmOption": null,
+          "EmOption": "<p>We&rsquo;re speaking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493988,
+          "QuestionID": 508816,
+          "UmOption": null,
+          "EmOption": "<p>Are speaking</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508817,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why do you ......... a noise?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 493989,
+          "QuestionID": 508817,
+          "UmOption": null,
+          "EmOption": "<p>Making</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493990,
+          "QuestionID": 508817,
+          "UmOption": null,
+          "EmOption": "<p>Make</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 493991,
+          "QuestionID": 508817,
+          "UmOption": null,
+          "EmOption": "<p>Makes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493992,
+          "QuestionID": 508817,
+          "UmOption": null,
+          "EmOption": "<p>Made</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508818,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Good students always ......... hard.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 493993,
+          "QuestionID": 508818,
+          "UmOption": null,
+          "EmOption": "<p>Work</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 493994,
+          "QuestionID": 508818,
+          "UmOption": null,
+          "EmOption": "<p>Works</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493995,
+          "QuestionID": 508818,
+          "UmOption": null,
+          "EmOption": "<p>Worked</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493996,
+          "QuestionID": 508818,
+          "UmOption": null,
+          "EmOption": "<p>Are working</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508819,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The ......... to sleep at ten.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 493997,
+          "QuestionID": 508819,
+          "UmOption": null,
+          "EmOption": "<p>Had go</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493998,
+          "QuestionID": 508819,
+          "UmOption": null,
+          "EmOption": "<p>Shall go</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 493999,
+          "QuestionID": 508819,
+          "UmOption": null,
+          "EmOption": "<p>Are go</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494000,
+          "QuestionID": 508819,
+          "UmOption": null,
+          "EmOption": "<p>Go</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508820,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Naushaba ......... by Khurshid.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494001,
+          "QuestionID": 508820,
+          "UmOption": null,
+          "EmOption": "<p>Help</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494002,
+          "QuestionID": 508820,
+          "UmOption": null,
+          "EmOption": "<p>Will help</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494003,
+          "QuestionID": 508820,
+          "UmOption": null,
+          "EmOption": "<p>Is helped</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494004,
+          "QuestionID": 508820,
+          "UmOption": null,
+          "EmOption": "<p>Helps</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508821,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... at ten.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494005,
+          "QuestionID": 508821,
+          "UmOption": null,
+          "EmOption": "<p>Shell get up</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494006,
+          "QuestionID": 508821,
+          "UmOption": null,
+          "EmOption": "<p>Had get up</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494007,
+          "QuestionID": 508821,
+          "UmOption": null,
+          "EmOption": "<p>Has got up</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494008,
+          "QuestionID": 508821,
+          "UmOption": null,
+          "EmOption": "<p>Get up</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508822,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... her examination by the next fall.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494009,
+          "QuestionID": 508822,
+          "UmOption": null,
+          "EmOption": "<p>Takes</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494010,
+          "QuestionID": 508822,
+          "UmOption": null,
+          "EmOption": "<p>has taken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494011,
+          "QuestionID": 508822,
+          "UmOption": null,
+          "EmOption": "<p>Took</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494012,
+          "QuestionID": 508822,
+          "UmOption": null,
+          "EmOption": "<p>Will have taken</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508823,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They do not ......... rice every day.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494013,
+          "QuestionID": 508823,
+          "UmOption": null,
+          "EmOption": "<p>Ate</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494014,
+          "QuestionID": 508823,
+          "UmOption": null,
+          "EmOption": "<p>Eat</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494015,
+          "QuestionID": 508823,
+          "UmOption": null,
+          "EmOption": "<p>Eating</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494016,
+          "QuestionID": 508823,
+          "UmOption": null,
+          "EmOption": "<p>Eaten</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508824,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A person who reports for a newspaper is called ..........</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494017,
+          "QuestionID": 508824,
+          "UmOption": null,
+          "EmOption": "<p>Doctor</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494018,
+          "QuestionID": 508824,
+          "UmOption": null,
+          "EmOption": "<p>New reporter</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494019,
+          "QuestionID": 508824,
+          "UmOption": null,
+          "EmOption": "<p>Singer</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494020,
+          "QuestionID": 508824,
+          "UmOption": null,
+          "EmOption": "<p>Teacher</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508825,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>You ......... drive fast, there is a speed limit here.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494021,
+          "QuestionID": 508825,
+          "UmOption": null,
+          "EmOption": "<p>Mustn&rsquo;t</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494022,
+          "QuestionID": 508825,
+          "UmOption": null,
+          "EmOption": "<p>Shouldn&rsquo;t</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494023,
+          "QuestionID": 508825,
+          "UmOption": null,
+          "EmOption": "<p>Wouldn&rsquo;t</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494024,
+          "QuestionID": 508825,
+          "UmOption": null,
+          "EmOption": "<p>Haven&rsquo;t</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508826,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I hope it ......... to rain an hour ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494025,
+          "QuestionID": 508826,
+          "UmOption": null,
+          "EmOption": "<p>Will have stopped</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494026,
+          "QuestionID": 508826,
+          "UmOption": null,
+          "EmOption": "<p>Will stop</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494027,
+          "QuestionID": 508826,
+          "UmOption": null,
+          "EmOption": "<p>Stopped</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494028,
+          "QuestionID": 508826,
+          "UmOption": null,
+          "EmOption": "<p>Have stopped</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508827,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The earth ......... around the sun.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494029,
+          "QuestionID": 508827,
+          "UmOption": null,
+          "EmOption": "<p>Revolves</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494030,
+          "QuestionID": 508827,
+          "UmOption": null,
+          "EmOption": "<p>Revolve</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494031,
+          "QuestionID": 508827,
+          "UmOption": null,
+          "EmOption": "<p>Has revolved</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494032,
+          "QuestionID": 508827,
+          "UmOption": null,
+          "EmOption": "<p>Had revolved</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508828,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... tea every morning.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494033,
+          "QuestionID": 508828,
+          "UmOption": null,
+          "EmOption": "<p>Drunk</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494034,
+          "QuestionID": 508828,
+          "UmOption": null,
+          "EmOption": "<p>Have been drinking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494035,
+          "QuestionID": 508828,
+          "UmOption": null,
+          "EmOption": "<p>Drink</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494036,
+          "QuestionID": 508828,
+          "UmOption": null,
+          "EmOption": "<p>Drank</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508829,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... a cup of tea in the morning.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494037,
+          "QuestionID": 508829,
+          "UmOption": null,
+          "EmOption": "<p>Have</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494038,
+          "QuestionID": 508829,
+          "UmOption": null,
+          "EmOption": "<p>Had</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494039,
+          "QuestionID": 508829,
+          "UmOption": null,
+          "EmOption": "<p>Will have</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494040,
+          "QuestionID": 508829,
+          "UmOption": null,
+          "EmOption": "<p>Am having</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508830,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... the tree daily.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494041,
+          "QuestionID": 508830,
+          "UmOption": null,
+          "EmOption": "<p>Cut</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494042,
+          "QuestionID": 508830,
+          "UmOption": null,
+          "EmOption": "<p>Wil cut</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494043,
+          "QuestionID": 508830,
+          "UmOption": null,
+          "EmOption": "<p>Cuts</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494044,
+          "QuestionID": 508830,
+          "UmOption": null,
+          "EmOption": "<p>Has cuts</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508831,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The sun ......... in the west.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494045,
+          "QuestionID": 508831,
+          "UmOption": null,
+          "EmOption": "<p>Set</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494046,
+          "QuestionID": 508831,
+          "UmOption": null,
+          "EmOption": "<p>Sets</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494047,
+          "QuestionID": 508831,
+          "UmOption": null,
+          "EmOption": "<p>Setting</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494048,
+          "QuestionID": 508831,
+          "UmOption": null,
+          "EmOption": "<p>Will be set</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508832,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... her work before the guests arrive.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494049,
+          "QuestionID": 508832,
+          "UmOption": null,
+          "EmOption": "<p>Finish</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494050,
+          "QuestionID": 508832,
+          "UmOption": null,
+          "EmOption": "<p>Finishes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494051,
+          "QuestionID": 508832,
+          "UmOption": null,
+          "EmOption": "<p>Finished</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494052,
+          "QuestionID": 508832,
+          "UmOption": null,
+          "EmOption": "<p>Will have finished</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508833,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... her cat very much.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494053,
+          "QuestionID": 508833,
+          "UmOption": null,
+          "EmOption": "<p>Loves</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494054,
+          "QuestionID": 508833,
+          "UmOption": null,
+          "EmOption": "<p>Loved</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494055,
+          "QuestionID": 508833,
+          "UmOption": null,
+          "EmOption": "<p>Will love</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494056,
+          "QuestionID": 508833,
+          "UmOption": null,
+          "EmOption": "<p>Love</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508834,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Nasima always ......... the truth.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494057,
+          "QuestionID": 508834,
+          "UmOption": null,
+          "EmOption": "<p>Speak</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494058,
+          "QuestionID": 508834,
+          "UmOption": null,
+          "EmOption": "<p>Speaks</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494059,
+          "QuestionID": 508834,
+          "UmOption": null,
+          "EmOption": "<p>Speaking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494060,
+          "QuestionID": 508834,
+          "UmOption": null,
+          "EmOption": "<p>Spoken</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508835,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She does not ......... at the moment.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494061,
+          "QuestionID": 508835,
+          "UmOption": null,
+          "EmOption": "<p>Studied</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494062,
+          "QuestionID": 508835,
+          "UmOption": null,
+          "EmOption": "<p>Studying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494063,
+          "QuestionID": 508835,
+          "UmOption": null,
+          "EmOption": "<p>Studies</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494064,
+          "QuestionID": 508835,
+          "UmOption": null,
+          "EmOption": "<p>Study</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508836,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I am ......... by the principal.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494065,
+          "QuestionID": 508836,
+          "UmOption": null,
+          "EmOption": "<p>Calling</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494066,
+          "QuestionID": 508836,
+          "UmOption": null,
+          "EmOption": "<p>Called</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494067,
+          "QuestionID": 508836,
+          "UmOption": null,
+          "EmOption": "<p>Calls</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494068,
+          "QuestionID": 508836,
+          "UmOption": null,
+          "EmOption": "<p>Call</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508837,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She always ......... her pen.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494069,
+          "QuestionID": 508837,
+          "UmOption": null,
+          "EmOption": "<p>Lose</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494070,
+          "QuestionID": 508837,
+          "UmOption": null,
+          "EmOption": "<p>Loses</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494071,
+          "QuestionID": 508837,
+          "UmOption": null,
+          "EmOption": "<p>Lost</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494072,
+          "QuestionID": 508837,
+          "UmOption": null,
+          "EmOption": "<p>Losing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508838,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... to school every day.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494073,
+          "QuestionID": 508838,
+          "UmOption": null,
+          "EmOption": "<p>Go</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494074,
+          "QuestionID": 508838,
+          "UmOption": null,
+          "EmOption": "<p>Goes</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494075,
+          "QuestionID": 508838,
+          "UmOption": null,
+          "EmOption": "<p>Is go</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494076,
+          "QuestionID": 508838,
+          "UmOption": null,
+          "EmOption": "<p>Going</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508839,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The picture ......... by the boy.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494077,
+          "QuestionID": 508839,
+          "UmOption": null,
+          "EmOption": "<p>Is making</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494078,
+          "QuestionID": 508839,
+          "UmOption": null,
+          "EmOption": "<p>Is made</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494079,
+          "QuestionID": 508839,
+          "UmOption": null,
+          "EmOption": "<p>Has made</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494080,
+          "QuestionID": 508839,
+          "UmOption": null,
+          "EmOption": "<p>Made</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508840,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They always ......... back home late.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494081,
+          "QuestionID": 508840,
+          "UmOption": null,
+          "EmOption": "<p>Is coming</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494082,
+          "QuestionID": 508840,
+          "UmOption": null,
+          "EmOption": "<p>Has come</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494083,
+          "QuestionID": 508840,
+          "UmOption": null,
+          "EmOption": "<p>Had come</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494084,
+          "QuestionID": 508840,
+          "UmOption": null,
+          "EmOption": "<p>Come</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508841,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The sun ......... in the East.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494085,
+          "QuestionID": 508841,
+          "UmOption": null,
+          "EmOption": "<p>Rise</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494086,
+          "QuestionID": 508841,
+          "UmOption": null,
+          "EmOption": "<p>Have rose</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494087,
+          "QuestionID": 508841,
+          "UmOption": null,
+          "EmOption": "<p>Rising</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494088,
+          "QuestionID": 508841,
+          "UmOption": null,
+          "EmOption": "<p>Rises</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508842,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The Quaid-e-Azam ......... very hard.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494089,
+          "QuestionID": 508842,
+          "UmOption": null,
+          "EmOption": "<p>Work</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494090,
+          "QuestionID": 508842,
+          "UmOption": null,
+          "EmOption": "<p>Works</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494091,
+          "QuestionID": 508842,
+          "UmOption": null,
+          "EmOption": "<p>Will work</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494092,
+          "QuestionID": 508842,
+          "UmOption": null,
+          "EmOption": "<p>Worked</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508843,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>One who ......... finds.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494093,
+          "QuestionID": 508843,
+          "UmOption": null,
+          "EmOption": "<p>Seeks</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494094,
+          "QuestionID": 508843,
+          "UmOption": null,
+          "EmOption": "<p>Seek</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494095,
+          "QuestionID": 508843,
+          "UmOption": null,
+          "EmOption": "<p>Seeking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494096,
+          "QuestionID": 508843,
+          "UmOption": null,
+          "EmOption": "<p>Sought</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508844,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The baby ......... for milk now.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494097,
+          "QuestionID": 508844,
+          "UmOption": null,
+          "EmOption": "<p>Cries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494098,
+          "QuestionID": 508844,
+          "UmOption": null,
+          "EmOption": "<p>Cry</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494099,
+          "QuestionID": 508844,
+          "UmOption": null,
+          "EmOption": "<p>Cried</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494100,
+          "QuestionID": 508844,
+          "UmOption": null,
+          "EmOption": "<p>Is crying</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508845,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I am not ..........</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494101,
+          "QuestionID": 508845,
+          "UmOption": null,
+          "EmOption": "<p>Fines</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494102,
+          "QuestionID": 508845,
+          "UmOption": null,
+          "EmOption": "<p>Find</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494103,
+          "QuestionID": 508845,
+          "UmOption": null,
+          "EmOption": "<p>&nbsp;Is fined</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494104,
+          "QuestionID": 508845,
+          "UmOption": null,
+          "EmOption": "<p>Fined</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508846,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>It ......... in winter every year.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494105,
+          "QuestionID": 508846,
+          "UmOption": null,
+          "EmOption": "<p>Rains</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494106,
+          "QuestionID": 508846,
+          "UmOption": null,
+          "EmOption": "<p>Rained</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494107,
+          "QuestionID": 508846,
+          "UmOption": null,
+          "EmOption": "<p>Will rain</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494108,
+          "QuestionID": 508846,
+          "UmOption": null,
+          "EmOption": "<p>Is raining</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508847,
+      "SubjectID": 64,
+      "TopicID": 15213,
+      "TopicRef": "1",
+      "TopicName": "1 Present Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>It ......... in winter.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494109,
+          "QuestionID": 508847,
+          "UmOption": null,
+          "EmOption": "<p>Rains</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494110,
+          "QuestionID": 508847,
+          "UmOption": null,
+          "EmOption": "<p>Rain</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494111,
+          "QuestionID": 508847,
+          "UmOption": null,
+          "EmOption": "<p>Have rained</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494112,
+          "QuestionID": 508847,
+          "UmOption": null,
+          "EmOption": "<p>Raining</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508848,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... French at present.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494113,
+          "QuestionID": 508848,
+          "UmOption": null,
+          "EmOption": "<p>Is learning</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494114,
+          "QuestionID": 508848,
+          "UmOption": null,
+          "EmOption": "<p>Terms</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494115,
+          "QuestionID": 508848,
+          "UmOption": null,
+          "EmOption": "<p>Has been learning</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494116,
+          "QuestionID": 508848,
+          "UmOption": null,
+          "EmOption": "<p>Had learnt</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508849,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The baby ......... now.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494117,
+          "QuestionID": 508849,
+          "UmOption": null,
+          "EmOption": "<p>Sleep</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494118,
+          "QuestionID": 508849,
+          "UmOption": null,
+          "EmOption": "<p>Sleeping</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494119,
+          "QuestionID": 508849,
+          "UmOption": null,
+          "EmOption": "<p>Slept</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494120,
+          "QuestionID": 508849,
+          "UmOption": null,
+          "EmOption": "<p>Is sleeping</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508850,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... learning English a present.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494121,
+          "QuestionID": 508850,
+          "UmOption": null,
+          "EmOption": "<p>Learnt</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494122,
+          "QuestionID": 508850,
+          "UmOption": null,
+          "EmOption": "<p>Learns</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494123,
+          "QuestionID": 508850,
+          "UmOption": null,
+          "EmOption": "<p>Is learning</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494124,
+          "QuestionID": 508850,
+          "UmOption": null,
+          "EmOption": "<p>Will be learning</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508851,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The baby ......... for milk now.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494125,
+          "QuestionID": 508851,
+          "UmOption": null,
+          "EmOption": "<p>Cries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494126,
+          "QuestionID": 508851,
+          "UmOption": null,
+          "EmOption": "<p>Cry</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494127,
+          "QuestionID": 508851,
+          "UmOption": null,
+          "EmOption": "<p>Is crying</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494128,
+          "QuestionID": 508851,
+          "UmOption": null,
+          "EmOption": "<p>Are crying</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508852,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He is ......... back next week.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494129,
+          "QuestionID": 508852,
+          "UmOption": null,
+          "EmOption": "<p>Coming</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494130,
+          "QuestionID": 508852,
+          "UmOption": null,
+          "EmOption": "<p>Came</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494131,
+          "QuestionID": 508852,
+          "UmOption": null,
+          "EmOption": "<p>Will come</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494132,
+          "QuestionID": 508852,
+          "UmOption": null,
+          "EmOption": "<p>Has come</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508853,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The boys ......... their home work now.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494133,
+          "QuestionID": 508853,
+          "UmOption": null,
+          "EmOption": "<p>Is doing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494134,
+          "QuestionID": 508853,
+          "UmOption": null,
+          "EmOption": "<p>Was doing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494135,
+          "QuestionID": 508853,
+          "UmOption": null,
+          "EmOption": "<p>Are doing</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494136,
+          "QuestionID": 508853,
+          "UmOption": null,
+          "EmOption": "<p>Does</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508854,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The book ......... on the table for weeks.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494137,
+          "QuestionID": 508854,
+          "UmOption": null,
+          "EmOption": "<p>Is lying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494138,
+          "QuestionID": 508854,
+          "UmOption": null,
+          "EmOption": "<p>Will be lying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494139,
+          "QuestionID": 508854,
+          "UmOption": null,
+          "EmOption": "<p>Has been lying</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494140,
+          "QuestionID": 508854,
+          "UmOption": null,
+          "EmOption": "<p>Lay</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508855,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The girls ......... net ball at present.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494141,
+          "QuestionID": 508855,
+          "UmOption": null,
+          "EmOption": "<p>Played</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494142,
+          "QuestionID": 508855,
+          "UmOption": null,
+          "EmOption": "<p>Are playing</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494143,
+          "QuestionID": 508855,
+          "UmOption": null,
+          "EmOption": "<p>Has played</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494144,
+          "QuestionID": 508855,
+          "UmOption": null,
+          "EmOption": "<p>Has been paying</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508856,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Are they ......... idle?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494145,
+          "QuestionID": 508856,
+          "UmOption": null,
+          "EmOption": "<p>Sitting</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494146,
+          "QuestionID": 508856,
+          "UmOption": null,
+          "EmOption": "<p>Sit</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494147,
+          "QuestionID": 508856,
+          "UmOption": null,
+          "EmOption": "<p>Sits</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494148,
+          "QuestionID": 508856,
+          "UmOption": null,
+          "EmOption": "<p>Sat</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508857,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... English at present.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494149,
+          "QuestionID": 508857,
+          "UmOption": null,
+          "EmOption": "<p>Learn</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494150,
+          "QuestionID": 508857,
+          "UmOption": null,
+          "EmOption": "<p>Learns</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494151,
+          "QuestionID": 508857,
+          "UmOption": null,
+          "EmOption": "<p>Learnt</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494152,
+          "QuestionID": 508857,
+          "UmOption": null,
+          "EmOption": "<p>Is learning</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508858,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>It ......... at present.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494153,
+          "QuestionID": 508858,
+          "UmOption": null,
+          "EmOption": "<p>Is raining</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494154,
+          "QuestionID": 508858,
+          "UmOption": null,
+          "EmOption": "<p>Rained</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494155,
+          "QuestionID": 508858,
+          "UmOption": null,
+          "EmOption": "<p>Rains</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494156,
+          "QuestionID": 508858,
+          "UmOption": null,
+          "EmOption": "<p>Has rained</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508859,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I am not ......... my time.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494157,
+          "QuestionID": 508859,
+          "UmOption": null,
+          "EmOption": "<p>Wastes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494158,
+          "QuestionID": 508859,
+          "UmOption": null,
+          "EmOption": "<p>Wasted</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494159,
+          "QuestionID": 508859,
+          "UmOption": null,
+          "EmOption": "<p>Wasting</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494160,
+          "QuestionID": 508859,
+          "UmOption": null,
+          "EmOption": "<p>Have wasted</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508860,
+      "SubjectID": 64,
+      "TopicID": 15214,
+      "TopicRef": "2",
+      "TopicName": "2 Present Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The hen is ......... eggs.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494161,
+          "QuestionID": 508860,
+          "UmOption": null,
+          "EmOption": "<p>Laid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494162,
+          "QuestionID": 508860,
+          "UmOption": null,
+          "EmOption": "<p>Lays</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494163,
+          "QuestionID": 508860,
+          "UmOption": null,
+          "EmOption": "<p>Laying</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494164,
+          "QuestionID": 508860,
+          "UmOption": null,
+          "EmOption": "<p>Laying&rsquo;s</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508861,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... you since Monday.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494165,
+          "QuestionID": 508861,
+          "UmOption": null,
+          "EmOption": "<p>Shall see</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494166,
+          "QuestionID": 508861,
+          "UmOption": null,
+          "EmOption": "<p>Saw</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494167,
+          "QuestionID": 508861,
+          "UmOption": null,
+          "EmOption": "<p>See</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494168,
+          "QuestionID": 508861,
+          "UmOption": null,
+          "EmOption": "<p>Have not been seeing</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508862,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>My father has ......... for Karachi.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494169,
+          "QuestionID": 508862,
+          "UmOption": null,
+          "EmOption": "<p>Leave</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494170,
+          "QuestionID": 508862,
+          "UmOption": null,
+          "EmOption": "<p>Leaving</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494171,
+          "QuestionID": 508862,
+          "UmOption": null,
+          "EmOption": "<p>Left</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494172,
+          "QuestionID": 508862,
+          "UmOption": null,
+          "EmOption": "<p>Leaves</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508863,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Have you ......... your work?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494173,
+          "QuestionID": 508863,
+          "UmOption": null,
+          "EmOption": "<p>Finish</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494174,
+          "QuestionID": 508863,
+          "UmOption": null,
+          "EmOption": "<p>Finishes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494175,
+          "QuestionID": 508863,
+          "UmOption": null,
+          "EmOption": "<p>Finished</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494176,
+          "QuestionID": 508863,
+          "UmOption": null,
+          "EmOption": "<p>Finishing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508864,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... him back.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494177,
+          "QuestionID": 508864,
+          "UmOption": null,
+          "EmOption": "<p>Send</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494178,
+          "QuestionID": 508864,
+          "UmOption": null,
+          "EmOption": "<p>Has sent</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494179,
+          "QuestionID": 508864,
+          "UmOption": null,
+          "EmOption": "<p>Have sent</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494180,
+          "QuestionID": 508864,
+          "UmOption": null,
+          "EmOption": "<p>Is send</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508865,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He has ......... his breakfast.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494181,
+          "QuestionID": 508865,
+          "UmOption": null,
+          "EmOption": "<p>Took</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494182,
+          "QuestionID": 508865,
+          "UmOption": null,
+          "EmOption": "<p>Take</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494183,
+          "QuestionID": 508865,
+          "UmOption": null,
+          "EmOption": "<p>Taking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494184,
+          "QuestionID": 508865,
+          "UmOption": null,
+          "EmOption": "<p>Taken</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508866,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The candidates have ......... the paper.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494185,
+          "QuestionID": 508866,
+          "UmOption": null,
+          "EmOption": "<p>Solve</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494186,
+          "QuestionID": 508866,
+          "UmOption": null,
+          "EmOption": "<p>Solved</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494187,
+          "QuestionID": 508866,
+          "UmOption": null,
+          "EmOption": "<p>Solving</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494188,
+          "QuestionID": 508866,
+          "UmOption": null,
+          "EmOption": "<p>Solves</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508867,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The packet ......... there since morning.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494189,
+          "QuestionID": 508867,
+          "UmOption": null,
+          "EmOption": "<p>Is lying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494190,
+          "QuestionID": 508867,
+          "UmOption": null,
+          "EmOption": "<p>Was lying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494191,
+          "QuestionID": 508867,
+          "UmOption": null,
+          "EmOption": "<p>Has been lying</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494192,
+          "QuestionID": 508867,
+          "UmOption": null,
+          "EmOption": "<p>Will by lying</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508868,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Have you ......... this book.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494193,
+          "QuestionID": 508868,
+          "UmOption": null,
+          "EmOption": "<p>Reading</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494194,
+          "QuestionID": 508868,
+          "UmOption": null,
+          "EmOption": "<p>Red</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494195,
+          "QuestionID": 508868,
+          "UmOption": null,
+          "EmOption": "<p>Reads</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494196,
+          "QuestionID": 508868,
+          "UmOption": null,
+          "EmOption": "<p>Read</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508869,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... this book one month ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494197,
+          "QuestionID": 508869,
+          "UmOption": null,
+          "EmOption": "<p>Writes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494198,
+          "QuestionID": 508869,
+          "UmOption": null,
+          "EmOption": "<p>Writing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494199,
+          "QuestionID": 508869,
+          "UmOption": null,
+          "EmOption": "<p>Write</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494200,
+          "QuestionID": 508869,
+          "UmOption": null,
+          "EmOption": "<p>Wrote</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508870,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... the poem.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494201,
+          "QuestionID": 508870,
+          "UmOption": null,
+          "EmOption": "<p>Teaches</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494202,
+          "QuestionID": 508870,
+          "UmOption": null,
+          "EmOption": "<p>Has taught</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494203,
+          "QuestionID": 508870,
+          "UmOption": null,
+          "EmOption": "<p>Have taught</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494204,
+          "QuestionID": 508870,
+          "UmOption": null,
+          "EmOption": "<p>Am taught</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508871,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Have you ......... a car?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494205,
+          "QuestionID": 508871,
+          "UmOption": null,
+          "EmOption": "<p>Kept</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494206,
+          "QuestionID": 508871,
+          "UmOption": null,
+          "EmOption": "<p>Keep</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494207,
+          "QuestionID": 508871,
+          "UmOption": null,
+          "EmOption": "<p>Being kept</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494208,
+          "QuestionID": 508871,
+          "UmOption": null,
+          "EmOption": "<p>Keeps</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508872,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... already ......... three cups of coffee.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494209,
+          "QuestionID": 508872,
+          "UmOption": null,
+          "EmOption": "<p>Had, taken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494210,
+          "QuestionID": 508872,
+          "UmOption": null,
+          "EmOption": "<p>Will have, taken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494211,
+          "QuestionID": 508872,
+          "UmOption": null,
+          "EmOption": "<p>Had, taken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494212,
+          "QuestionID": 508872,
+          "UmOption": null,
+          "EmOption": "<p>Have taken</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508873,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They already ......... their home task.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494213,
+          "QuestionID": 508873,
+          "UmOption": null,
+          "EmOption": "<p>Do</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494214,
+          "QuestionID": 508873,
+          "UmOption": null,
+          "EmOption": "<p>Did</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494215,
+          "QuestionID": 508873,
+          "UmOption": null,
+          "EmOption": "<p>Have done</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494216,
+          "QuestionID": 508873,
+          "UmOption": null,
+          "EmOption": "<p>Has done</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508874,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The rainy season ......... in.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494217,
+          "QuestionID": 508874,
+          "UmOption": null,
+          "EmOption": "<p>Se</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494218,
+          "QuestionID": 508874,
+          "UmOption": null,
+          "EmOption": "<p>Sets</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494219,
+          "QuestionID": 508874,
+          "UmOption": null,
+          "EmOption": "<p>Setting</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494220,
+          "QuestionID": 508874,
+          "UmOption": null,
+          "EmOption": "<p>Has set</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508875,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Where have you ......... money?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494221,
+          "QuestionID": 508875,
+          "UmOption": null,
+          "EmOption": "<p>Keep</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494222,
+          "QuestionID": 508875,
+          "UmOption": null,
+          "EmOption": "<p>Kept</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494223,
+          "QuestionID": 508875,
+          "UmOption": null,
+          "EmOption": "<p>Keeps</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494224,
+          "QuestionID": 508875,
+          "UmOption": null,
+          "EmOption": "<p>Keeping</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508876,
+      "SubjectID": 64,
+      "TopicID": 15215,
+      "TopicRef": "3",
+      "TopicName": "3 Present Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I have ......... Chinese for twenty years.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494225,
+          "QuestionID": 508876,
+          "UmOption": null,
+          "EmOption": "<p>Spoke</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494226,
+          "QuestionID": 508876,
+          "UmOption": null,
+          "EmOption": "<p>Speak</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494227,
+          "QuestionID": 508876,
+          "UmOption": null,
+          "EmOption": "<p>Spoken</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494228,
+          "QuestionID": 508876,
+          "UmOption": null,
+          "EmOption": "<p>Speaks</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508877,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How long ......... you been working I the garden?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494229,
+          "QuestionID": 508877,
+          "UmOption": null,
+          "EmOption": "<p>Will</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494230,
+          "QuestionID": 508877,
+          "UmOption": null,
+          "EmOption": "<p>Has</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494231,
+          "QuestionID": 508877,
+          "UmOption": null,
+          "EmOption": "<p>Had</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494232,
+          "QuestionID": 508877,
+          "UmOption": null,
+          "EmOption": "<p>Have</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508878,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How long have you been ......... here?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494233,
+          "QuestionID": 508878,
+          "UmOption": null,
+          "EmOption": "<p>Wait</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494234,
+          "QuestionID": 508878,
+          "UmOption": null,
+          "EmOption": "<p>Waited</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494235,
+          "QuestionID": 508878,
+          "UmOption": null,
+          "EmOption": "<p>Waits</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494236,
+          "QuestionID": 508878,
+          "UmOption": null,
+          "EmOption": "<p>Waiting</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508879,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... you since Monday.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494237,
+          "QuestionID": 508879,
+          "UmOption": null,
+          "EmOption": "<p>Did not see</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494238,
+          "QuestionID": 508879,
+          "UmOption": null,
+          "EmOption": "<p>Has not seen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494239,
+          "QuestionID": 508879,
+          "UmOption": null,
+          "EmOption": "<p>Do not see</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494240,
+          "QuestionID": 508879,
+          "UmOption": null,
+          "EmOption": "<p>Have not seen</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508880,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Aslam ......... kite since noon.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494241,
+          "QuestionID": 508880,
+          "UmOption": null,
+          "EmOption": "<p>Fly</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494242,
+          "QuestionID": 508880,
+          "UmOption": null,
+          "EmOption": "<p>Is flying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494243,
+          "QuestionID": 508880,
+          "UmOption": null,
+          "EmOption": "<p>Has flying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494244,
+          "QuestionID": 508880,
+          "UmOption": null,
+          "EmOption": "<p>Has been flying</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508881,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>You ......... since morning.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494245,
+          "QuestionID": 508881,
+          "UmOption": null,
+          "EmOption": "<p>Have been resting</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494246,
+          "QuestionID": 508881,
+          "UmOption": null,
+          "EmOption": "<p>Had rested</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494247,
+          "QuestionID": 508881,
+          "UmOption": null,
+          "EmOption": "<p>Was resting</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494248,
+          "QuestionID": 508881,
+          "UmOption": null,
+          "EmOption": "<p>Have tested</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508882,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... to me since March.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494249,
+          "QuestionID": 508882,
+          "UmOption": null,
+          "EmOption": "<p>Has not spoken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494250,
+          "QuestionID": 508882,
+          "UmOption": null,
+          "EmOption": "<p>Has been spoken</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494251,
+          "QuestionID": 508882,
+          "UmOption": null,
+          "EmOption": "<p>Has not been spoken</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494252,
+          "QuestionID": 508882,
+          "UmOption": null,
+          "EmOption": "<p>Had spoken</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508883,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... in the sun for one hour.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494253,
+          "QuestionID": 508883,
+          "UmOption": null,
+          "EmOption": "<p>Stands</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494254,
+          "QuestionID": 508883,
+          "UmOption": null,
+          "EmOption": "<p>Stood</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494255,
+          "QuestionID": 508883,
+          "UmOption": null,
+          "EmOption": "<p>Has been standing</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494256,
+          "QuestionID": 508883,
+          "UmOption": null,
+          "EmOption": "<p>Is standing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508884,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... here since 1970.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494257,
+          "QuestionID": 508884,
+          "UmOption": null,
+          "EmOption": "<p>Had been coming</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494258,
+          "QuestionID": 508884,
+          "UmOption": null,
+          "EmOption": "<p>Comes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494259,
+          "QuestionID": 508884,
+          "UmOption": null,
+          "EmOption": "<p>Came</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494260,
+          "QuestionID": 508884,
+          "UmOption": null,
+          "EmOption": "<p>Come</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508885,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... the piano since 2 O&rsquo; clock.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494261,
+          "QuestionID": 508885,
+          "UmOption": null,
+          "EmOption": "<p>Play</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494262,
+          "QuestionID": 508885,
+          "UmOption": null,
+          "EmOption": "<p>Plays</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494263,
+          "QuestionID": 508885,
+          "UmOption": null,
+          "EmOption": "<p>Playing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494264,
+          "QuestionID": 508885,
+          "UmOption": null,
+          "EmOption": "<p>Has been playing</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508886,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The book ......... on the table for many weeks.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494265,
+          "QuestionID": 508886,
+          "UmOption": null,
+          "EmOption": "<p>Lie</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494266,
+          "QuestionID": 508886,
+          "UmOption": null,
+          "EmOption": "<p>Has been lying</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494267,
+          "QuestionID": 508886,
+          "UmOption": null,
+          "EmOption": "<p>Is lying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494268,
+          "QuestionID": 508886,
+          "UmOption": null,
+          "EmOption": "<p>Lying</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508887,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How long has he ......... in Karachi?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494269,
+          "QuestionID": 508887,
+          "UmOption": null,
+          "EmOption": "<p>Lived</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494270,
+          "QuestionID": 508887,
+          "UmOption": null,
+          "EmOption": "<p>Been living</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494271,
+          "QuestionID": 508887,
+          "UmOption": null,
+          "EmOption": "<p>Lives</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494272,
+          "QuestionID": 508887,
+          "UmOption": null,
+          "EmOption": "<p>Being lived</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508888,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... since morning.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494273,
+          "QuestionID": 508888,
+          "UmOption": null,
+          "EmOption": "<p>Sleep</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494274,
+          "QuestionID": 508888,
+          "UmOption": null,
+          "EmOption": "<p>Sleeps</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494275,
+          "QuestionID": 508888,
+          "UmOption": null,
+          "EmOption": "<p>Slept</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494276,
+          "QuestionID": 508888,
+          "UmOption": null,
+          "EmOption": "<p>Has been sleeping</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508889,
+      "SubjectID": 64,
+      "TopicID": 15216,
+      "TopicRef": "4",
+      "TopicName": "4 Present Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... in this office for seven years.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494277,
+          "QuestionID": 508889,
+          "UmOption": null,
+          "EmOption": "<p>Work</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494278,
+          "QuestionID": 508889,
+          "UmOption": null,
+          "EmOption": "<p>Working</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494279,
+          "QuestionID": 508889,
+          "UmOption": null,
+          "EmOption": "<p>Has been working</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494280,
+          "QuestionID": 508889,
+          "UmOption": null,
+          "EmOption": "<p>Have worked</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508890,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... to see me yesterday.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494281,
+          "QuestionID": 508890,
+          "UmOption": null,
+          "EmOption": "<p>Come</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494282,
+          "QuestionID": 508890,
+          "UmOption": null,
+          "EmOption": "<p>Comes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494283,
+          "QuestionID": 508890,
+          "UmOption": null,
+          "EmOption": "<p>Came</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494284,
+          "QuestionID": 508890,
+          "UmOption": null,
+          "EmOption": "<p>Will come</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508891,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The Quaid-e-Azam ......... very hard.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494285,
+          "QuestionID": 508891,
+          "UmOption": null,
+          "EmOption": "<p>Work</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494286,
+          "QuestionID": 508891,
+          "UmOption": null,
+          "EmOption": "<p>Works</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494287,
+          "QuestionID": 508891,
+          "UmOption": null,
+          "EmOption": "<p>Worked</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494288,
+          "QuestionID": 508891,
+          "UmOption": null,
+          "EmOption": "<p>Working</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508892,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... a story the last day.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494289,
+          "QuestionID": 508892,
+          "UmOption": null,
+          "EmOption": "<p>Tells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494290,
+          "QuestionID": 508892,
+          "UmOption": null,
+          "EmOption": "<p>Told</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494291,
+          "QuestionID": 508892,
+          "UmOption": null,
+          "EmOption": "<p>Telling</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494292,
+          "QuestionID": 508892,
+          "UmOption": null,
+          "EmOption": "<p>Tell</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508893,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Quaid-e-Azam ......... very hard.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494293,
+          "QuestionID": 508893,
+          "UmOption": null,
+          "EmOption": "<p>Have worked</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494294,
+          "QuestionID": 508893,
+          "UmOption": null,
+          "EmOption": "<p>Works</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494295,
+          "QuestionID": 508893,
+          "UmOption": null,
+          "EmOption": "<p>Working</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494296,
+          "QuestionID": 508893,
+          "UmOption": null,
+          "EmOption": "<p>Worked</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508894,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... us to their home yesterday.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494297,
+          "QuestionID": 508894,
+          "UmOption": null,
+          "EmOption": "<p>Will invite</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494298,
+          "QuestionID": 508894,
+          "UmOption": null,
+          "EmOption": "<p>Invited</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494299,
+          "QuestionID": 508894,
+          "UmOption": null,
+          "EmOption": "<p>Invite</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494300,
+          "QuestionID": 508894,
+          "UmOption": null,
+          "EmOption": "<p>Inviting</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508895,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Last summer, we ......... many places.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494301,
+          "QuestionID": 508895,
+          "UmOption": null,
+          "EmOption": "<p>Have visited</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494302,
+          "QuestionID": 508895,
+          "UmOption": null,
+          "EmOption": "<p>Will visit</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494303,
+          "QuestionID": 508895,
+          "UmOption": null,
+          "EmOption": "<p>Visited</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494304,
+          "QuestionID": 508895,
+          "UmOption": null,
+          "EmOption": "<p>Visit</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508896,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She did not say anything before he .........</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494305,
+          "QuestionID": 508896,
+          "UmOption": null,
+          "EmOption": "<p>Leave</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494306,
+          "QuestionID": 508896,
+          "UmOption": null,
+          "EmOption": "<p>Leaves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494307,
+          "QuestionID": 508896,
+          "UmOption": null,
+          "EmOption": "<p>Left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494308,
+          "QuestionID": 508896,
+          "UmOption": null,
+          "EmOption": "<p>Had left</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508897,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... him back yesterday.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494309,
+          "QuestionID": 508897,
+          "UmOption": null,
+          "EmOption": "<p>Sent</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494310,
+          "QuestionID": 508897,
+          "UmOption": null,
+          "EmOption": "<p>Sends</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494311,
+          "QuestionID": 508897,
+          "UmOption": null,
+          "EmOption": "<p>Will send</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494312,
+          "QuestionID": 508897,
+          "UmOption": null,
+          "EmOption": "<p>Sending</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508898,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She started ......... delving into this part.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494313,
+          "QuestionID": 508898,
+          "UmOption": null,
+          "EmOption": "<p>Remembering</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494314,
+          "QuestionID": 508898,
+          "UmOption": null,
+          "EmOption": "<p>Imaging</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494315,
+          "QuestionID": 508898,
+          "UmOption": null,
+          "EmOption": "<p>Discovering</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494316,
+          "QuestionID": 508898,
+          "UmOption": null,
+          "EmOption": "<p>Probing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508899,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The baby ......... for milk last night.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494317,
+          "QuestionID": 508899,
+          "UmOption": null,
+          "EmOption": "<p>Cried</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494318,
+          "QuestionID": 508899,
+          "UmOption": null,
+          "EmOption": "<p>Cries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494319,
+          "QuestionID": 508899,
+          "UmOption": null,
+          "EmOption": "<p>Crying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494320,
+          "QuestionID": 508899,
+          "UmOption": null,
+          "EmOption": "<p>Had cried</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508900,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... to my letter.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494321,
+          "QuestionID": 508900,
+          "UmOption": null,
+          "EmOption": "<p>Don&rsquo;t reply</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494322,
+          "QuestionID": 508900,
+          "UmOption": null,
+          "EmOption": "<p>Did not reply</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494323,
+          "QuestionID": 508900,
+          "UmOption": null,
+          "EmOption": "<p>Have not replied</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494324,
+          "QuestionID": 508900,
+          "UmOption": null,
+          "EmOption": "<p>Are not replying</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508901,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... her in the plane yesterday.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494325,
+          "QuestionID": 508901,
+          "UmOption": null,
+          "EmOption": "<p>Met</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494326,
+          "QuestionID": 508901,
+          "UmOption": null,
+          "EmOption": "<p>Meet</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494327,
+          "QuestionID": 508901,
+          "UmOption": null,
+          "EmOption": "<p>Meets</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494328,
+          "QuestionID": 508901,
+          "UmOption": null,
+          "EmOption": "<p>Have met</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508902,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Sehrish ......... a speech today.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494329,
+          "QuestionID": 508902,
+          "UmOption": null,
+          "EmOption": "<p>Made</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494330,
+          "QuestionID": 508902,
+          "UmOption": null,
+          "EmOption": "<p>Makes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494331,
+          "QuestionID": 508902,
+          "UmOption": null,
+          "EmOption": "<p>Is making</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494332,
+          "QuestionID": 508902,
+          "UmOption": null,
+          "EmOption": "<p>Make</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508903,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... to school an hour ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494333,
+          "QuestionID": 508903,
+          "UmOption": null,
+          "EmOption": "<p>Goes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494334,
+          "QuestionID": 508903,
+          "UmOption": null,
+          "EmOption": "<p>Went</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494335,
+          "QuestionID": 508903,
+          "UmOption": null,
+          "EmOption": "<p>Gone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494336,
+          "QuestionID": 508903,
+          "UmOption": null,
+          "EmOption": "<p>Has gone</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508904,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>It ......... to rain an hour ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494337,
+          "QuestionID": 508904,
+          "UmOption": null,
+          "EmOption": "<p>Begins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494338,
+          "QuestionID": 508904,
+          "UmOption": null,
+          "EmOption": "<p>Began</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494339,
+          "QuestionID": 508904,
+          "UmOption": null,
+          "EmOption": "<p>Begun</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494340,
+          "QuestionID": 508904,
+          "UmOption": null,
+          "EmOption": "<p>Had begun</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508905,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... to school an hour ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494341,
+          "QuestionID": 508905,
+          "UmOption": null,
+          "EmOption": "<p>Goes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494342,
+          "QuestionID": 508905,
+          "UmOption": null,
+          "EmOption": "<p>Going</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494343,
+          "QuestionID": 508905,
+          "UmOption": null,
+          "EmOption": "<p>Go</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494344,
+          "QuestionID": 508905,
+          "UmOption": null,
+          "EmOption": "<p>Went</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508906,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... a speech five months ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494345,
+          "QuestionID": 508906,
+          "UmOption": null,
+          "EmOption": "<p>Delivered</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494346,
+          "QuestionID": 508906,
+          "UmOption": null,
+          "EmOption": "<p>Has delivered</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494347,
+          "QuestionID": 508906,
+          "UmOption": null,
+          "EmOption": "<p>Is delivering</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494348,
+          "QuestionID": 508906,
+          "UmOption": null,
+          "EmOption": "<p>Had delivered</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508907,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... this motor bike only a month ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494349,
+          "QuestionID": 508907,
+          "UmOption": null,
+          "EmOption": "<p>Will buy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494350,
+          "QuestionID": 508907,
+          "UmOption": null,
+          "EmOption": "<p>Bought</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494351,
+          "QuestionID": 508907,
+          "UmOption": null,
+          "EmOption": "<p>Have bought</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494352,
+          "QuestionID": 508907,
+          "UmOption": null,
+          "EmOption": "<p>Buys</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508908,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I have already ......... the letter.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494353,
+          "QuestionID": 508908,
+          "UmOption": null,
+          "EmOption": "<p>Posted</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494354,
+          "QuestionID": 508908,
+          "UmOption": null,
+          "EmOption": "<p>Will post</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494355,
+          "QuestionID": 508908,
+          "UmOption": null,
+          "EmOption": "<p>Has been posting</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494356,
+          "QuestionID": 508908,
+          "UmOption": null,
+          "EmOption": "<p>Post</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508909,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Waheed ......... his parents in the past.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494357,
+          "QuestionID": 508909,
+          "UmOption": null,
+          "EmOption": "<p>Obeyed</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494358,
+          "QuestionID": 508909,
+          "UmOption": null,
+          "EmOption": "<p>Will obey</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494359,
+          "QuestionID": 508909,
+          "UmOption": null,
+          "EmOption": "<p>Does not obey</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494360,
+          "QuestionID": 508909,
+          "UmOption": null,
+          "EmOption": "<p>Obey</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508910,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I was so far from the stage that I ......... see very well.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494361,
+          "QuestionID": 508910,
+          "UmOption": null,
+          "EmOption": "<p>Could</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494362,
+          "QuestionID": 508910,
+          "UmOption": null,
+          "EmOption": "<p>Should</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494363,
+          "QuestionID": 508910,
+          "UmOption": null,
+          "EmOption": "<p>Would</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494364,
+          "QuestionID": 508910,
+          "UmOption": null,
+          "EmOption": "<p>Can</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508911,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... him last year.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494365,
+          "QuestionID": 508911,
+          "UmOption": null,
+          "EmOption": "<p>Meet</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494366,
+          "QuestionID": 508911,
+          "UmOption": null,
+          "EmOption": "<p>Meets</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494367,
+          "QuestionID": 508911,
+          "UmOption": null,
+          "EmOption": "<p>Met</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494368,
+          "QuestionID": 508911,
+          "UmOption": null,
+          "EmOption": "<p>Have met</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508912,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How long ago did you ......... here?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494369,
+          "QuestionID": 508912,
+          "UmOption": null,
+          "EmOption": "<p>Come</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494370,
+          "QuestionID": 508912,
+          "UmOption": null,
+          "EmOption": "<p>Came</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494371,
+          "QuestionID": 508912,
+          "UmOption": null,
+          "EmOption": "<p>Have come</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494372,
+          "QuestionID": 508912,
+          "UmOption": null,
+          "EmOption": "<p>Comes</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508913,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How long ago ......... you comes here?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494373,
+          "QuestionID": 508913,
+          "UmOption": null,
+          "EmOption": "<p>Do</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494374,
+          "QuestionID": 508913,
+          "UmOption": null,
+          "EmOption": "<p>Did</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494375,
+          "QuestionID": 508913,
+          "UmOption": null,
+          "EmOption": "<p>Does</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494376,
+          "QuestionID": 508913,
+          "UmOption": null,
+          "EmOption": "<p>Is doing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508914,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How long ago you ......... here.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494377,
+          "QuestionID": 508914,
+          "UmOption": null,
+          "EmOption": "<p>Come</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494378,
+          "QuestionID": 508914,
+          "UmOption": null,
+          "EmOption": "<p>Came</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494379,
+          "QuestionID": 508914,
+          "UmOption": null,
+          "EmOption": "<p>Have come</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494380,
+          "QuestionID": 508914,
+          "UmOption": null,
+          "EmOption": "<p>Comes</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508915,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>It ......... to rain an hour ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494381,
+          "QuestionID": 508915,
+          "UmOption": null,
+          "EmOption": "<p>Begin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494382,
+          "QuestionID": 508915,
+          "UmOption": null,
+          "EmOption": "<p>Begins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494383,
+          "QuestionID": 508915,
+          "UmOption": null,
+          "EmOption": "<p>Began</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494384,
+          "QuestionID": 508915,
+          "UmOption": null,
+          "EmOption": "<p>Begun</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508916,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>He ......... twenty minutes ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494385,
+          "QuestionID": 508916,
+          "UmOption": null,
+          "EmOption": "<p>Leave</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494386,
+          "QuestionID": 508916,
+          "UmOption": null,
+          "EmOption": "<p>Will leave</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494387,
+          "QuestionID": 508916,
+          "UmOption": null,
+          "EmOption": "<p>Left</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494388,
+          "QuestionID": 508916,
+          "UmOption": null,
+          "EmOption": "<p>Has left</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508917,
+      "SubjectID": 64,
+      "TopicID": 15217,
+      "TopicRef": "5",
+      "TopicName": "5 Past Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>We did not ......... a sound.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494389,
+          "QuestionID": 508917,
+          "UmOption": null,
+          "EmOption": "<p>Hear</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494390,
+          "QuestionID": 508917,
+          "UmOption": null,
+          "EmOption": "<p>Hears</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494391,
+          "QuestionID": 508917,
+          "UmOption": null,
+          "EmOption": "<p>Heard</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494392,
+          "QuestionID": 508917,
+          "UmOption": null,
+          "EmOption": "<p>Hearing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508918,
+      "SubjectID": 64,
+      "TopicID": 15218,
+      "TopicRef": "6",
+      "TopicName": "6 Past Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... my work when the bell rang.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494393,
+          "QuestionID": 508918,
+          "UmOption": null,
+          "EmOption": "<p>Do</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494394,
+          "QuestionID": 508918,
+          "UmOption": null,
+          "EmOption": "<p>Did</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494395,
+          "QuestionID": 508918,
+          "UmOption": null,
+          "EmOption": "<p>Done</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494396,
+          "QuestionID": 508918,
+          "UmOption": null,
+          "EmOption": "<p>Have done</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508919,
+      "SubjectID": 64,
+      "TopicID": 15218,
+      "TopicRef": "6",
+      "TopicName": "6 Past Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I was going to airport when I ......... her.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494397,
+          "QuestionID": 508919,
+          "UmOption": null,
+          "EmOption": "<p>See</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494398,
+          "QuestionID": 508919,
+          "UmOption": null,
+          "EmOption": "<p>Has seen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494399,
+          "QuestionID": 508919,
+          "UmOption": null,
+          "EmOption": "<p>Have seen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494400,
+          "QuestionID": 508919,
+          "UmOption": null,
+          "EmOption": "<p>Saw</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508920,
+      "SubjectID": 64,
+      "TopicID": 15218,
+      "TopicRef": "6",
+      "TopicName": "6 Past Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... to airport when I saw her.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494401,
+          "QuestionID": 508920,
+          "UmOption": null,
+          "EmOption": "<p>Gone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494402,
+          "QuestionID": 508920,
+          "UmOption": null,
+          "EmOption": "<p>Go</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494403,
+          "QuestionID": 508920,
+          "UmOption": null,
+          "EmOption": "<p>Have gone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494404,
+          "QuestionID": 508920,
+          "UmOption": null,
+          "EmOption": "<p>Was going</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508921,
+      "SubjectID": 64,
+      "TopicID": 15218,
+      "TopicRef": "6",
+      "TopicName": "6 Past Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The city was ......... during the storm.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494405,
+          "QuestionID": 508921,
+          "UmOption": null,
+          "EmOption": "<p>Is damaging</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494406,
+          "QuestionID": 508921,
+          "UmOption": null,
+          "EmOption": "<p>Damaging</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494407,
+          "QuestionID": 508921,
+          "UmOption": null,
+          "EmOption": "<p>Will damage</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494408,
+          "QuestionID": 508921,
+          "UmOption": null,
+          "EmOption": "<p>Has damaged</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508922,
+      "SubjectID": 64,
+      "TopicID": 15218,
+      "TopicRef": "6",
+      "TopicName": "6 Past Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The man ......... you were talking to at the meeting is my cousin.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494409,
+          "QuestionID": 508922,
+          "UmOption": null,
+          "EmOption": "<p>That</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494410,
+          "QuestionID": 508922,
+          "UmOption": null,
+          "EmOption": "<p>What</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494411,
+          "QuestionID": 508922,
+          "UmOption": null,
+          "EmOption": "<p>Whom</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494412,
+          "QuestionID": 508922,
+          "UmOption": null,
+          "EmOption": "<p>Which</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508923,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They took their breakfast after they ......... their hands.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494413,
+          "QuestionID": 508923,
+          "UmOption": null,
+          "EmOption": "<p>Wash</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494414,
+          "QuestionID": 508923,
+          "UmOption": null,
+          "EmOption": "<p>Had washed</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494415,
+          "QuestionID": 508923,
+          "UmOption": null,
+          "EmOption": "<p>Washed</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494416,
+          "QuestionID": 508923,
+          "UmOption": null,
+          "EmOption": "<p>Washing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508924,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>After you ......... I want to sleep.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494417,
+          "QuestionID": 508924,
+          "UmOption": null,
+          "EmOption": "<p>Left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494418,
+          "QuestionID": 508924,
+          "UmOption": null,
+          "EmOption": "<p>Had left</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494419,
+          "QuestionID": 508924,
+          "UmOption": null,
+          "EmOption": "<p>Will have left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494420,
+          "QuestionID": 508924,
+          "UmOption": null,
+          "EmOption": "<p>Leave</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508925,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The match started after I ......... the paly.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494421,
+          "QuestionID": 508925,
+          "UmOption": null,
+          "EmOption": "<p>Had left</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494422,
+          "QuestionID": 508925,
+          "UmOption": null,
+          "EmOption": "<p>Leaved</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494423,
+          "QuestionID": 508925,
+          "UmOption": null,
+          "EmOption": "<p>Has left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494424,
+          "QuestionID": 508925,
+          "UmOption": null,
+          "EmOption": "<p>Leaving</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508926,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>People ......... such a strange animal before.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494425,
+          "QuestionID": 508926,
+          "UmOption": null,
+          "EmOption": "<p>Saw</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494426,
+          "QuestionID": 508926,
+          "UmOption": null,
+          "EmOption": "<p>Are seeing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494427,
+          "QuestionID": 508926,
+          "UmOption": null,
+          "EmOption": "<p>Had seen</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494428,
+          "QuestionID": 508926,
+          "UmOption": null,
+          "EmOption": "<p>Had been seen</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508927,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... before the party began.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494429,
+          "QuestionID": 508927,
+          "UmOption": null,
+          "EmOption": "<p>Reaches</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494430,
+          "QuestionID": 508927,
+          "UmOption": null,
+          "EmOption": "<p>Reached</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494431,
+          "QuestionID": 508927,
+          "UmOption": null,
+          "EmOption": "<p>Reach</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494432,
+          "QuestionID": 508927,
+          "UmOption": null,
+          "EmOption": "<p>Had reached</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508928,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The bus ......... before we stepped out.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494433,
+          "QuestionID": 508928,
+          "UmOption": null,
+          "EmOption": "<p>Had stopped</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494434,
+          "QuestionID": 508928,
+          "UmOption": null,
+          "EmOption": "<p>Stops</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494435,
+          "QuestionID": 508928,
+          "UmOption": null,
+          "EmOption": "<p>Stop</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494436,
+          "QuestionID": 508928,
+          "UmOption": null,
+          "EmOption": "<p>Will stop</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508929,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... the house before it started raining.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494437,
+          "QuestionID": 508929,
+          "UmOption": null,
+          "EmOption": "<p>Left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494438,
+          "QuestionID": 508929,
+          "UmOption": null,
+          "EmOption": "<p>Had left</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494439,
+          "QuestionID": 508929,
+          "UmOption": null,
+          "EmOption": "<p>Was leaving</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494440,
+          "QuestionID": 508929,
+          "UmOption": null,
+          "EmOption": "<p>Leaving</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508930,
+      "SubjectID": 64,
+      "TopicID": 15219,
+      "TopicRef": "7",
+      "TopicName": "7 Past Perfect Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She had left before the party .........</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494441,
+          "QuestionID": 508930,
+          "UmOption": null,
+          "EmOption": "<p>Begin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494442,
+          "QuestionID": 508930,
+          "UmOption": null,
+          "EmOption": "<p>Begun</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494443,
+          "QuestionID": 508930,
+          "UmOption": null,
+          "EmOption": "<p>Will begin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494444,
+          "QuestionID": 508930,
+          "UmOption": null,
+          "EmOption": "<p>Began</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508931,
+      "SubjectID": 64,
+      "TopicID": 15220,
+      "TopicRef": "8",
+      "TopicName": "8 Past Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>It ......... since last night.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494445,
+          "QuestionID": 508931,
+          "UmOption": null,
+          "EmOption": "<p>Rained</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494446,
+          "QuestionID": 508931,
+          "UmOption": null,
+          "EmOption": "<p>Rains</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494447,
+          "QuestionID": 508931,
+          "UmOption": null,
+          "EmOption": "<p>Has been raining</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494448,
+          "QuestionID": 508931,
+          "UmOption": null,
+          "EmOption": "<p>Raining</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508932,
+      "SubjectID": 64,
+      "TopicID": 15220,
+      "TopicRef": "8",
+      "TopicName": "8 Past Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The dogs had been ......... since evening.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494449,
+          "QuestionID": 508932,
+          "UmOption": null,
+          "EmOption": "<p>Barked</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494450,
+          "QuestionID": 508932,
+          "UmOption": null,
+          "EmOption": "<p>Bark</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494451,
+          "QuestionID": 508932,
+          "UmOption": null,
+          "EmOption": "<p>Barks</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494452,
+          "QuestionID": 508932,
+          "UmOption": null,
+          "EmOption": "<p>Barking</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508933,
+      "SubjectID": 64,
+      "TopicID": 15220,
+      "TopicRef": "8",
+      "TopicName": "8 Past Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I had been ......... for you since noon.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494453,
+          "QuestionID": 508933,
+          "UmOption": null,
+          "EmOption": "<p>Wait</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494454,
+          "QuestionID": 508933,
+          "UmOption": null,
+          "EmOption": "<p>Waited</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494455,
+          "QuestionID": 508933,
+          "UmOption": null,
+          "EmOption": "<p>Waiting</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494456,
+          "QuestionID": 508933,
+          "UmOption": null,
+          "EmOption": "<p>Waits</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508934,
+      "SubjectID": 64,
+      "TopicID": 15220,
+      "TopicRef": "8",
+      "TopicName": "8 Past Perfect Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The girls had been reading this book ......... ten days.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494457,
+          "QuestionID": 508934,
+          "UmOption": null,
+          "EmOption": "<p>Since</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494458,
+          "QuestionID": 508934,
+          "UmOption": null,
+          "EmOption": "<p>Before</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494459,
+          "QuestionID": 508934,
+          "UmOption": null,
+          "EmOption": "<p>For</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494460,
+          "QuestionID": 508934,
+          "UmOption": null,
+          "EmOption": "<p>After</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508935,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... hard for the competition.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494461,
+          "QuestionID": 508935,
+          "UmOption": null,
+          "EmOption": "<p>Will work</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494462,
+          "QuestionID": 508935,
+          "UmOption": null,
+          "EmOption": "<p>Work</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494463,
+          "QuestionID": 508935,
+          "UmOption": null,
+          "EmOption": "<p>Worked</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494464,
+          "QuestionID": 508935,
+          "UmOption": null,
+          "EmOption": "<p>Are working</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508936,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... Pakistan before the end of the year.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494465,
+          "QuestionID": 508936,
+          "UmOption": null,
+          "EmOption": "<p>Will have left</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494466,
+          "QuestionID": 508936,
+          "UmOption": null,
+          "EmOption": "<p>Will leave</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494467,
+          "QuestionID": 508936,
+          "UmOption": null,
+          "EmOption": "<p>Had left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494468,
+          "QuestionID": 508936,
+          "UmOption": null,
+          "EmOption": "<p>Have left</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508937,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Will you not ......... it?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494469,
+          "QuestionID": 508937,
+          "UmOption": null,
+          "EmOption": "<p>Did</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494470,
+          "QuestionID": 508937,
+          "UmOption": null,
+          "EmOption": "<p>Do</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494471,
+          "QuestionID": 508937,
+          "UmOption": null,
+          "EmOption": "<p>Have done</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494472,
+          "QuestionID": 508937,
+          "UmOption": null,
+          "EmOption": "<p>Are doing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508938,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The order will not be .........</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494473,
+          "QuestionID": 508938,
+          "UmOption": null,
+          "EmOption": "<p>Obey</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494474,
+          "QuestionID": 508938,
+          "UmOption": null,
+          "EmOption": "<p>Obeyed</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494475,
+          "QuestionID": 508938,
+          "UmOption": null,
+          "EmOption": "<p>Obeying</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494476,
+          "QuestionID": 508938,
+          "UmOption": null,
+          "EmOption": "<p>Obeys</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508939,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... for Lahore tomorrow.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494477,
+          "QuestionID": 508939,
+          "UmOption": null,
+          "EmOption": "<p>Will go</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494478,
+          "QuestionID": 508939,
+          "UmOption": null,
+          "EmOption": "<p>Went</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494479,
+          "QuestionID": 508939,
+          "UmOption": null,
+          "EmOption": "<p>Have gone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494480,
+          "QuestionID": 508939,
+          "UmOption": null,
+          "EmOption": "<p>Go</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508940,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She is ......... for London tomorrow.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494481,
+          "QuestionID": 508940,
+          "UmOption": null,
+          "EmOption": "<p>Leaving</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494482,
+          "QuestionID": 508940,
+          "UmOption": null,
+          "EmOption": "<p>Leave</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494483,
+          "QuestionID": 508940,
+          "UmOption": null,
+          "EmOption": "<p>Leaves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494484,
+          "QuestionID": 508940,
+          "UmOption": null,
+          "EmOption": "<p>Left</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508941,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The court ......... its verdict on Monday next.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494485,
+          "QuestionID": 508941,
+          "UmOption": null,
+          "EmOption": "<p>Give</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494486,
+          "QuestionID": 508941,
+          "UmOption": null,
+          "EmOption": "<p>Gives</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494487,
+          "QuestionID": 508941,
+          "UmOption": null,
+          "EmOption": "<p>Will give</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494488,
+          "QuestionID": 508941,
+          "UmOption": null,
+          "EmOption": "<p>Is giving</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508942,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... him next Monday.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494489,
+          "QuestionID": 508942,
+          "UmOption": null,
+          "EmOption": "<p>Saw</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494490,
+          "QuestionID": 508942,
+          "UmOption": null,
+          "EmOption": "<p>See</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494491,
+          "QuestionID": 508942,
+          "UmOption": null,
+          "EmOption": "<p>Sees</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494492,
+          "QuestionID": 508942,
+          "UmOption": null,
+          "EmOption": "<p>Shall see</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508943,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... for you at the usual time.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494493,
+          "QuestionID": 508943,
+          "UmOption": null,
+          "EmOption": "<p>Wait</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494494,
+          "QuestionID": 508943,
+          "UmOption": null,
+          "EmOption": "<p>Waited</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494495,
+          "QuestionID": 508943,
+          "UmOption": null,
+          "EmOption": "<p>Shall wait</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494496,
+          "QuestionID": 508943,
+          "UmOption": null,
+          "EmOption": "<p>Waiting</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508944,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>You ......... it.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494497,
+          "QuestionID": 508944,
+          "UmOption": null,
+          "EmOption": "<p>Understands</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494498,
+          "QuestionID": 508944,
+          "UmOption": null,
+          "EmOption": "<p>Will understand</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494499,
+          "QuestionID": 508944,
+          "UmOption": null,
+          "EmOption": "<p>Understanding</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494500,
+          "QuestionID": 508944,
+          "UmOption": null,
+          "EmOption": "<p>Were understood</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508945,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The match will be ......... at Karachi.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494501,
+          "QuestionID": 508945,
+          "UmOption": null,
+          "EmOption": "<p>Played</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494502,
+          "QuestionID": 508945,
+          "UmOption": null,
+          "EmOption": "<p>Play</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494503,
+          "QuestionID": 508945,
+          "UmOption": null,
+          "EmOption": "<p>Playing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494504,
+          "QuestionID": 508945,
+          "UmOption": null,
+          "EmOption": "<p>Plays</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508946,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... their work tomorrow.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494505,
+          "QuestionID": 508946,
+          "UmOption": null,
+          "EmOption": "<p>Completed</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494506,
+          "QuestionID": 508946,
+          "UmOption": null,
+          "EmOption": "<p>Compete</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494507,
+          "QuestionID": 508946,
+          "UmOption": null,
+          "EmOption": "<p>Will complete</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494508,
+          "QuestionID": 508946,
+          "UmOption": null,
+          "EmOption": "<p>Have completed</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508947,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>I ......... this exercise in an hour&rsquo;s ago.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494509,
+          "QuestionID": 508947,
+          "UmOption": null,
+          "EmOption": "<p>Was finished</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494510,
+          "QuestionID": 508947,
+          "UmOption": null,
+          "EmOption": "<p>Shall finish</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494511,
+          "QuestionID": 508947,
+          "UmOption": null,
+          "EmOption": "<p>Finishing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494512,
+          "QuestionID": 508947,
+          "UmOption": null,
+          "EmOption": "<p>Am finished</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508948,
+      "SubjectID": 64,
+      "TopicID": 15221,
+      "TopicRef": "9",
+      "TopicName": "9 Future Indefinite Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>She ......... the paper then.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494513,
+          "QuestionID": 508948,
+          "UmOption": null,
+          "EmOption": "<p>Will be reading</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494514,
+          "QuestionID": 508948,
+          "UmOption": null,
+          "EmOption": "<p>Reads</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494515,
+          "QuestionID": 508948,
+          "UmOption": null,
+          "EmOption": "<p>Have read</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494516,
+          "QuestionID": 508948,
+          "UmOption": null,
+          "EmOption": "<p>We&rsquo;re reading</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508949,
+      "SubjectID": 64,
+      "TopicID": 15222,
+      "TopicRef": "10",
+      "TopicName": "10 Future Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Will he have been ..........</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494517,
+          "QuestionID": 508949,
+          "UmOption": null,
+          "EmOption": "<p>Forgiven</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494518,
+          "QuestionID": 508949,
+          "UmOption": null,
+          "EmOption": "<p>Forgiving</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494519,
+          "QuestionID": 508949,
+          "UmOption": null,
+          "EmOption": "<p>Forgave</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494520,
+          "QuestionID": 508949,
+          "UmOption": null,
+          "EmOption": "<p>Forgive</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    },
+    {
+      "QuestionID": 508950,
+      "SubjectID": 64,
+      "TopicID": 15222,
+      "TopicRef": "10",
+      "TopicName": "10 Future Continuous Tense",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>They ......... their work by tomorrow.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 494521,
+          "QuestionID": 508950,
+          "UmOption": null,
+          "EmOption": "<p>Will have completed</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 494522,
+          "QuestionID": 508950,
+          "UmOption": null,
+          "EmOption": "<p>Complete</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494523,
+          "QuestionID": 508950,
+          "UmOption": null,
+          "EmOption": "<p>Completes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 494524,
+          "QuestionID": 508950,
+          "UmOption": null,
+          "EmOption": "<p>Completed</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 5,
+        "bankType": "mcq",
+        "field": "VERB",
+        "exportName": "mcq-verb"
+      }
+    }
+  ]
+}

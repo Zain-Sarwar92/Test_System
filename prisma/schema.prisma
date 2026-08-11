@@ -1,0 +1,546 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  SUPER_ADMIN
+  ORG_ADMIN
+  TEACHER
+}
+
+// Paper section type (options / short / long). PTS-specific kinds live in Question.subType.
+enum QuestionType {
+  MCQ
+  SHORT
+  LONG
+}
+
+enum SuggestionStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum TestStatus {
+  FINAL
+}
+
+enum DistributionMode {
+  BALANCED
+  RANDOM
+}
+
+enum TestScheduleStatus {
+  ACTIVE
+  CANCELLED
+}
+
+enum TeacherLevel {
+  PRIMARY
+  MATRIC
+  INTERMEDIATE
+}
+
+model User {
+  id             String    @id @default(cuid())
+  name           String
+  email          String    @unique
+  emailVerified  Boolean   @default(false)
+  image          String?
+  role           Role      @default(TEACHER)
+  teacherLevel   TeacherLevel?
+  phone          String?
+  qualification  String?
+  experience     String?
+  isActive       Boolean   @default(true)
+  organizationId String?
+  organization   Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  sessions             Session[]
+  accounts             Account[]
+  suggestions          QuestionSuggestion[]
+  tests                Test[]
+  teacherAssignments   TeacherAssignment[]
+  teachingSubjects     TeacherSubject[]
+  orgMemberships       OrgMembership[]
+  reviewedSuggestions  QuestionSuggestion[] @relation("SuggestionReviewer")
+  createdSchedules     TestSchedule[]       @relation("ScheduleCreator")
+  scheduleAssignments  TestScheduleAssignment[]
+
+  @@index([organizationId])
+  @@index([role])
+  @@map("user")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id @default(cuid())
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@index([userId])
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id @default(cuid())
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("verification")
+}
+
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  logoUrl   String?
+  isActive  Boolean  @default(true)
+  address   String?
+  phone     String?
+  planId    String?
+  plan      SubscriptionPlan? @relation(fields: [planId], references: [id], onDelete: SetNull)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  users       User[]
+  tests       Test[]
+  memberships OrgMembership[]
+  schedules   TestSchedule[]
+  sections    Section[]
+
+  @@index([planId])
+  @@map("organization")
+}
+
+model OrgMembership {
+  id             String   @id @default(cuid())
+  userId         String
+  organizationId String
+  role           Role     @default(TEACHER)
+  isActive       Boolean  @default(true)
+  createdAt      DateTime @default(now())
+
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, organizationId])
+  @@index([userId])
+  @@index([organizationId])
+  @@map("org_membership")
+}
+
+model SubscriptionPlan {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  maxTeachers Int?
+  maxTests    Int?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  organizations Organization[]
+
+  @@map("subscription_plan")
+}
+
+model SystemSetting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+
+  @@map("system_setting")
+}
+
+model Board {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  classes Class[]
+
+  @@map("board")
+}
+
+model Class {
+  id        String   @id @default(cuid())
+  name      String
+  boardId   String
+  board     Board    @relation(fields: [boardId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subjects Subject[]
+  sections Section[]
+  teacherAssignments TeacherAssignment[]
+  scheduleSubjectClasses TestScheduleSubjectClass[]
+
+  @@unique([boardId, name])
+  @@index([boardId])
+  @@map("class")
+}
+
+model Subject {
+  id        String   @id @default(cuid())
+  name      String
+  classId   String
+  class     Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  chapters  Chapter[]
+  tests     Test[]
+  teacherAssignments TeacherAssignment[]
+  teachers  TeacherSubject[]
+  scheduleSubjectClasses TestScheduleSubjectClass[]
+
+  @@unique([classId, name])
+  @@index([classId])
+  @@map("subject")
+}
+
+/// Deprecated: kept only until TeacherAssignment cutover clears legacy rows.
+model TeacherSubject {
+  id        String   @id @default(cuid())
+  teacherId String
+  subjectId String
+  createdAt DateTime @default(now())
+
+  teacher User    @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  subject Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([teacherId, subjectId])
+  @@index([teacherId])
+  @@index([subjectId])
+  @@map("teacher_subject")
+}
+
+/// Org-scoped section within a global curriculum class (e.g. Class 9 → Red).
+model Section {
+  id             String   @id @default(cuid())
+  name           String
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  classId        String
+  class          Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  teacherAssignments  TeacherAssignment[]
+  scheduleAssignments TestScheduleAssignment[]
+
+  @@unique([organizationId, classId, name])
+  @@index([organizationId])
+  @@index([classId])
+  @@map("section")
+}
+
+/// Teacher → Class + Section + Subject teaching assignment.
+model TeacherAssignment {
+  id        String   @id @default(cuid())
+  teacherId String
+  teacher   User     @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  classId   String
+  class     Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
+  sectionId String
+  section   Section  @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  subjectId String
+  subject   Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([teacherId, classId, sectionId, subjectId])
+  @@index([teacherId])
+  @@index([classId])
+  @@index([sectionId])
+  @@index([subjectId])
+  @@map("teacher_assignment")
+}
+
+model Chapter {
+  id        String   @id @default(cuid())
+  name      String
+  order     Int      @default(0)
+  subjectId String
+  subject   Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  topics Topic[]
+
+  @@unique([subjectId, name])
+  @@index([subjectId])
+  @@map("chapter")
+}
+
+model Topic {
+  id        String   @id @default(cuid())
+  name      String
+  order     Int      @default(0)
+  chapterId String
+  chapter   Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  questions   Question[]
+  suggestions QuestionSuggestion[]
+
+  @@unique([chapterId, name])
+  @@index([chapterId])
+  @@map("topic")
+}
+
+model Question {
+  id             String       @id @default(cuid())
+  type           QuestionType
+  /// PTS subtype / field e.g. SPELLING, MEANING, AYAT, POEM_STANZA, QA
+  subType        String?
+  text           String
+  textUrdu       String?
+  optionA        String?
+  optionB        String?
+  optionC        String?
+  optionD        String?
+  correctAnswer  String?
+  marks          Int          @default(1)
+  source         String?
+  externalKey    String?
+  topicId        String
+  topic          Topic        @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  isActive       Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  testQuestions TestQuestion[]
+  suggestion    QuestionSuggestion?
+
+  @@index([topicId])
+  @@index([type])
+  @@index([subType])
+  @@index([externalKey])
+  @@map("question")
+}
+
+model QuestionSuggestion {
+  id            String           @id @default(cuid())
+  type          QuestionType
+  text          String
+  optionA       String?
+  optionB       String?
+  optionC       String?
+  optionD       String?
+  correctAnswer String?
+  marks         Int              @default(1)
+  topicId       String
+  topic         Topic            @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  teacherId     String
+  teacher       User             @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  status        SuggestionStatus @default(PENDING)
+  reviewNote    String?
+  reviewedById  String?
+  reviewedBy    User?            @relation("SuggestionReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+  reviewedAt    DateTime?
+  questionId    String?          @unique
+  question      Question?        @relation(fields: [questionId], references: [id], onDelete: SetNull)
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+
+  @@index([status])
+  @@index([teacherId])
+  @@index([topicId])
+  @@map("question_suggestion")
+}
+
+model Test {
+  id               String           @id @default(cuid())
+  title            String
+  instructions     String?
+  totalMarks       Int              @default(0)
+  durationMinutes  Int              @default(60)
+  classSection     String?
+  examDate         DateTime?
+  preparedBy       String?
+  paperCode        String?
+  examLabel        String?
+  syllabusNote     String?
+  testType         String?
+  distributionMode DistributionMode @default(BALANCED)
+  status           TestStatus       @default(FINAL)
+  organizationId   String
+  organization     Organization     @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  teacherId        String
+  teacher          User             @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  subjectId        String?
+  subject          Subject?         @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  scheduleAssignmentId String?      @unique
+  scheduleAssignment   TestScheduleAssignment? @relation("AssignmentPrimaryTest", fields: [scheduleAssignmentId], references: [id], onDelete: SetNull)
+  coveredAssignments   TestScheduleAssignment[] @relation("AssignmentCoveredByTest")
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+
+  questions TestQuestion[]
+
+  @@index([organizationId])
+  @@index([teacherId])
+  @@index([status])
+  @@map("test")
+}
+
+model TestSchedule {
+  id             String             @id @default(cuid())
+  name           String
+  organizationId String
+  organization   Organization       @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  createdById    String
+  createdBy      User               @relation("ScheduleCreator", fields: [createdById], references: [id], onDelete: Cascade)
+  status         TestScheduleStatus @default(ACTIVE)
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+
+  rounds TestScheduleRound[]
+
+  @@index([organizationId])
+  @@index([status])
+  @@index([createdById])
+  @@map("test_schedule")
+}
+
+model TestScheduleRound {
+  id         String       @id @default(cuid())
+  scheduleId String
+  schedule   TestSchedule @relation(fields: [scheduleId], references: [id], onDelete: Cascade)
+  name       String
+  order      Int          @default(0)
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  subjects TestScheduleSubject[]
+
+  @@index([scheduleId])
+  @@map("test_schedule_round")
+}
+
+model TestScheduleSubject {
+  id          String             @id @default(cuid())
+  roundId     String
+  round       TestScheduleRound  @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  subjectName String
+  testDate    DateTime
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  classes TestScheduleSubjectClass[]
+
+  @@unique([roundId, subjectName, testDate])
+  @@index([roundId])
+  @@index([testDate])
+  @@map("test_schedule_subject")
+}
+
+model TestScheduleSubjectClass {
+  id                String              @id @default(cuid())
+  scheduleSubjectId String
+  scheduleSubject   TestScheduleSubject @relation(fields: [scheduleSubjectId], references: [id], onDelete: Cascade)
+  classId           String
+  class             Class               @relation(fields: [classId], references: [id], onDelete: Cascade)
+  subjectId         String
+  subject           Subject             @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  createdAt         DateTime            @default(now())
+
+  assignments TestScheduleAssignment[]
+
+  @@unique([scheduleSubjectId, classId])
+  @@unique([scheduleSubjectId, subjectId])
+  @@index([scheduleSubjectId])
+  @@index([classId])
+  @@index([subjectId])
+  @@map("test_schedule_subject_class")
+}
+
+model TestScheduleAssignment {
+  id                     String                   @id @default(cuid())
+  scheduleSubjectClassId String
+  scheduleSubjectClass   TestScheduleSubjectClass @relation(fields: [scheduleSubjectClassId], references: [id], onDelete: Cascade)
+  teacherId              String
+  teacher                User                     @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  /// Org section FK when assigned from Section master data.
+  sectionId              String?
+  section                Section?                 @relation(fields: [sectionId], references: [id], onDelete: SetNull)
+  /// Denormalized section label for display/print (mirrors Section.name when sectionId set).
+  sectionName            String?
+  /// Exam syllabus filled by the teacher; empty until they enter it. Visible to Org Admin.
+  syllabusText           String?
+  reminderSentAt         DateTime?
+  completedAt            DateTime?
+  /// When another section's paper also covers this assignment (same teacher, shared sections in classSection).
+  coveredByTestId        String?
+  coveredByTest          Test?                    @relation("AssignmentCoveredByTest", fields: [coveredByTestId], references: [id], onDelete: SetNull)
+  createdAt              DateTime                 @default(now())
+
+  test Test? @relation("AssignmentPrimaryTest")
+
+  @@unique([scheduleSubjectClassId, teacherId, sectionName])
+  @@index([scheduleSubjectClassId])
+  @@index([teacherId])
+  @@index([sectionId])
+  @@index([sectionName])
+  @@index([reminderSentAt])
+  @@index([coveredByTestId])
+  @@map("test_schedule_assignment")
+}
+
+model TestQuestion {
+  id               String   @id @default(cuid())
+  testId           String
+  test             Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+  questionId       String
+  question         Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  order            Int      @default(0)
+  marks            Int      @default(1)
+  textOverride     String?
+  textUrduOverride String?
+  optionAOverride  String?
+  optionBOverride  String?
+  optionCOverride  String?
+  optionDOverride  String?
+
+  @@unique([testId, questionId])
+  @@index([testId])
+  @@map("test_question")
+}

@@ -1,0 +1,266 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Statistics",
+  "slug": "statistics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction to Statistics",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "1.2",
+          "title": "Importance of Statistics in Various Disciplines"
+        },
+        {
+          "id": "1.3",
+          "title": "Variables"
+        },
+        {
+          "id": "1.4",
+          "title": "Description and Inferential Statistics"
+        },
+        {
+          "id": "1.5",
+          "title": "Sources of Data"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Representation of Data",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "2.2",
+          "title": "Classification"
+        },
+        {
+          "id": "2.3",
+          "title": "Tabulation"
+        },
+        {
+          "id": "2.4",
+          "title": "Frequency Distribution"
+        },
+        {
+          "id": "2.5",
+          "title": "Cumulative Frequency Distribution"
+        },
+        {
+          "id": "2.6",
+          "title": "Graphic Representation of Data"
+        },
+        {
+          "id": "2.7",
+          "title": "Bivariate Frequency Distribution"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Measure of Location",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "3.2",
+          "title": "Arithmetic Mean and Weighted Mean"
+        },
+        {
+          "id": "3.3",
+          "title": "Geometric Mean"
+        },
+        {
+          "id": "3.4",
+          "title": "Harmonic Mean"
+        },
+        {
+          "id": "3.5",
+          "title": "Median"
+        },
+        {
+          "id": "3.6",
+          "title": "Quantiles"
+        },
+        {
+          "id": "3.7",
+          "title": "Mode"
+        },
+        {
+          "id": "3.8",
+          "title": "Selecting a Suitable Measure of Central Tendency"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Measure of Dispersion",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "4.2",
+          "title": "Co-Efficient of Variation and Other Relative Measures"
+        },
+        {
+          "id": "4.3",
+          "title": "Moments"
+        },
+        {
+          "id": "4.4",
+          "title": "Sheppad'S Correction for Grouping Error"
+        },
+        {
+          "id": "4.5",
+          "title": "Skewness"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Index Numbers",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "5.2",
+          "title": "Construction of Price Index Numbers"
+        },
+        {
+          "id": "5.3",
+          "title": "Unweighted Index Numbers"
+        },
+        {
+          "id": "5.4",
+          "title": "Weighted Index Number"
+        },
+        {
+          "id": "5.5",
+          "title": "Consumer Price Index (Cpi) and Wholesale Price Index (Wpi)"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Probability",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "6.2",
+          "title": "Permutations"
+        },
+        {
+          "id": "6.3",
+          "title": "Combinations"
+        },
+        {
+          "id": "6.4",
+          "title": "Probability"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Random Variables",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "7.2",
+          "title": "Random Numbers and Their Generation"
+        },
+        {
+          "id": "7.3",
+          "title": "Application of Random Numbers"
+        },
+        {
+          "id": "7.4",
+          "title": "Concept of Random Variables and Their Construction From Different Fields"
+        },
+        {
+          "id": "7.5",
+          "title": "Discrete and Continuous Random Variables"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Probability Distributions",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "8.2",
+          "title": "Probability Mass Function"
+        },
+        {
+          "id": "8.3",
+          "title": "Probability Density Function"
+        },
+        {
+          "id": "8.4",
+          "title": "Simple Univariate Discrete and Continuous Distributions"
+        },
+        {
+          "id": "8.5",
+          "title": "Drawing of Probability Mass Function and Probability Density Function"
+        },
+        {
+          "id": "8.6",
+          "title": "Expectation and Variance of the Simple Discrete Random Variable"
+        },
+        {
+          "id": "8.7",
+          "title": "a"
+        },
+        {
+          "id": "8.8",
+          "title": "a"
+        },
+        {
+          "id": "8.9",
+          "title": "Distribution Function"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Binomial and Hyper Geometric Probability Distribution",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "9.2",
+          "title": "Binomial Probability Distribution"
+        },
+        {
+          "id": "9.3",
+          "title": "Hypergeometric Distribution and Hypergeometric Experiment"
+        }
+      ]
+    }
+  ]
+}

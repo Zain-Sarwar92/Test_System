@@ -1,0 +1,715 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "ترجمۃ القرآن المجید",
+  "slug": "tarjuma-quran",
+  "type": "long",
+  "exportName": "long-ayat",
+  "subTypeId": 17,
+  "total": 35,
+  "exportedAt": "2026-08-10T11:37:32.610Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 221203,
+      "SubjectID": 312,
+      "TopicID": 7581,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ الاَ نعَامِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">قُل تَعَالُو اَتلُ مَا حَرَّمَ رَبُّکُم عَلَیکُم اَلَّا تُشرِکُوا بَہٖ شَیًٔا وَّ بِالوَ الِدَینِ اِحسَانًا<sup>ج</sup> وَلَا تَقتُلُو اَولَادَکُم مِّن اِملَاقِِؕ نَحنُ نَر زُقُکُم وُاِیَّاھُم <sup>ج</sup>  وَلَا تَقرَبُوا الفَوَاحِشَ مَا ظَھَرَمِنھَا وَمَا بَطَنَ <sup>ج</sup> وَلَا تَقتُلُو النَّفسَ الَّتِی حَرَّمَ اللہُ اَلَّا بِالحَقِّ <sup>ط</sup> ذٰلِکُم وَصّٰکُم بِہٖ لَعَلَّکُم تَعقِلُونَ O</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221204,
+      "SubjectID": 312,
+      "TopicID": 7581,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ الاَ نعَامِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">وَلَا تَقرَبُو مَالَ الیَتِیمِ اِلَّا بِالَّتِی ھِیَ اَحسَنُ حَتّٰی یَبلُغَ اَشُدَّۃٗ <sup>ج</sup> وَاَوفُو الکَیلَ وَالمِیزَانَ بِالقِسطِ <sup>ج</sup> لَا نُکَلِّفُ نَفسًا اِلَّا وُسعَھَا <sup>ج</sup> وَ اِذَا قُلتُم فَا عدِلُو ا وَلَو کَانَ ذَا قُربٰی <sup>ج </sup>وَبِعَهْدِ اللَّهِ أَوْفُوا ۚ ذٰلِکُم وَصّٰکُم بِہٖ لَعَلَّکُم تَذَکَّرُونَO</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221205,
+      "SubjectID": 312,
+      "TopicID": 7581,
+      "TopicRef": "4",
+      "TopicName": "4 سُورَۃُ الاَ نعَامِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">وَاَنَّ  ھٰذَا صِرَاطِی مُستَقِیمًا فَاتَّبَعُوہُ <sup>ج</sup> وِلَا تَتَّبِعُو االسُّبُلَ فَتَفَرَّقَ بِکُم عَن سَبِیلِہٖ <sup>ط</sup> ذٰلِکُم وَصَّکُم بِہٖ لَعَلَّکُم تَتَّقُونَ O</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221225,
+      "SubjectID": 312,
+      "TopicID": 7582,
+      "TopicRef": "5",
+      "TopicName": "5 سُورَۃُ الاَعرَافِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">اِلَّذِینَ یَتَّبِعُونَ الرَّسُولَ النَّبِیَّ الاُمِّیَّ الَّذِی یّجِدُونَہٗ مَکتُوبًا عِندَھُم فِی التَّورٰ ۃِ وَالاِ نجِیلِ <sup>ز</sup> یَا مُرُھُم بِالمَعرُفِ وَ یَنھٰھُم عَنِ المُنکَرِ وَیُّحِلُّ لّھُمُ الطَّیِّبٰتِ وَیُحَرِّمُ عَلَیھِمُ الخَبِٰٔثُ وَیَضَعُ عَنھُم اَصرَ ھُم وَالاَ غللٰلَ الَّتِی کَانَت عَلَیھِم <sup>ط</sup> فَالَّذِینَ اٰمَنُوا بِہٖ وَعَزَّرُوہُ وَنَصَرُوہُ وَاتَّبَعُوا النُّورَ الَّذی اآنزَلَ مَعَہٗ <sup>لا</sup> اُولِٰٔکَ ھُمُ المُفلِحُونَO</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221226,
+      "SubjectID": 312,
+      "TopicID": 7582,
+      "TopicRef": "5",
+      "TopicName": "5 سُورَۃُ الاَعرَافِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">قُل یٰاَیُّھَا النَّاسُ اِنِّی رَسُولُ اللہِ اِلَیکُم جَمِیعَاالَّذِی لَہُ مُلکُ السَّمٰوٰتِ وَالاَرضِ <sup>ج</sup> لَا اِلٰہَ اِلَّا ھُوَ یُحیِ وَ یُمَیتُ <sup>ص</sup> فَاٰمِنُو بِاللہِ وَرَسُولِہِ النَّبِّیِ الاُمِّیِّ الَّذی یُومِنُ بِاللہِ وَکَلِمٰتِہٖ وَاتَّبِعُوہُ لَعَلَّکُم تَھتَدُونَ O</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221300,
+      "SubjectID": 312,
+      "TopicID": 7588,
+      "TopicRef": "11",
+      "TopicName": "11 سُورَۃُ النَّحلِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">وِیَومَ نَبعَثُ فِی کُلِّ اُمَّۃِِ شَھِیدًاعَلَیھِم مِّن اَنفُسِھِم وَجِٔنَابِکَ شَھِیدًا عَلیٰ ھٰوءُلَاءِ <sup>ط</sup> وَنَزَّلنَا عَلَیکَ الکِتٰبَ تِبیَانًا لِّکُلِّ شَی ءِِوَھُدًی وَّرَحمَتہً وَّبُشرٰی لِلمُسلِمِینَO</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221301,
+      "SubjectID": 312,
+      "TopicID": 7588,
+      "TopicRef": "11",
+      "TopicName": "11 سُورَۃُ النَّحلِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">اِنَّ اللہَ یَامُرُ بِالعَدلِ وَالاِحسَانِ وَاِیتَاۤیِ ذِی القُربٰی وَیَنھٰی عَنِ الفَحشَاۤءِ وَالمُنکَرِ وَالبَغیِ <sup>ج</sup> یَعِظُکُم لَعَلَّکُم تَذَکَّرُونَO</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221335,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">وَقَضٰی رَبُّکَ اَلَّا تَعبُدُو اَلَّاۤ اَیَّاہُ وَبِالوَالِدَینِ اِحسَانًا <sup>ط</sup> اِمَّا یَبلُغَنَّ عِندَکَ الکِبَرَ اَحَدُھُمَا اَو کِلٰھُمَا فَلَا تَقُل لَّھُمَاۤ اُفِِّ وَّلَا تَنھَر ھُمَا وَقُل لَّھُمَا قَولًا کَرِیمًاo </p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221336,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَاخفِض لَھُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحمَۃِ وَقُل رَّبِّ ارحَمھُمَا کَمَا رَبَّیٰنِی صَغِیرًاo رَبُّکُم اَعلَمُ بِمَا فِی نُفُوسِکُم <sup>ط</sup> اِن تَکَونُو صٰلِحِینَ فَاِنَّہُ کَانَ لَلاَوَّ ابِینَ غَفُورًاo</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221337,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَاٰتِ ذَاالقُربٰی حَقَّہُ وَالمِسکِینَ وَابنَ السَّبِیلِ وَلَا تُبَذِّر تَبذِیرًاo اِنَّ المُبَذِّرِینَ  کَانُو اِخوَانَ الشَّیٰطِینِ <sup>ط</sup> وَکَانَ الشَّیطٰنُ لِرِبِّہٖ کَفُورًاo</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221338,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">وَاِمّا تُعرِضَنَّ عَنھُمُ ابتِغَاۤءَ رَحمَتہٍ مِّن رَّبِّکَ تَرجُوھَا فَقُل لَّھُم قَولًا مَّیسُورًاo وَلَا تَجعَل یَدَکَ مَغلُولَۃً اِلیٰ عُنُقِکَ وَلَا تَبسُطھَا کُلَّ البَسطِ فَتَقعُدَ مَلُومًا مَّحسُورًاo</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221339,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">اِنَّ رَبَّکَ یَبسُطُ الرِّزقَ لِمَن یَّشَاۤءُ وَیَقدِدُ <sup>ط</sup> اِنَّہُ کَانَ بِعِبَادِہٖ خَبَیرًا<sup>م</sup> بَصِیرًا0 وَلَا تَقتُلُو اَولَادَکُم خَشیَۃَ اِملَاقِِ <sup>ط</sup> نَحنُ نَرزُقُھُم وَاِیَّاکُم <sup>ط</sup> اِنَّ قَتلَھُم کَانَ خِطاً کِبِیرًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221340,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَلَاتَقرَبُو الزِّنٰۤی اِنَّہٗ کَانَ فَاحِشَۃً <sup>ط</sup> وَسَاۤءَ سِبِیلًا0 وَلَا تَقتُلُو النَّفسَ الَّتِی حَرَّمَ اللہُ اَلَّا بِالحَقِّ <sup>ط</sup> وَمَن قُتِلَ مَظلُومًا فَقَد جَعَلنَا لِوَ لِیِّہٖ سُلطٰنًا فَلَا یُسرِف فِّی القَتلِ <sup>ط</sup> اِنَّہُ کَانَ  مَنصُورًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221341,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَلَا تَقرَ بُوا مَالَ الیَتِیمِ اِلَّا بِالَّتِی ھِیَ اَحسَنُ حَتّٰی یَبلُغَ اَشُدَّہٗ <sup>ص</sup> وَاَوفُو بَالعَھدِ<sup>ج</sup> اِنَّ العَھدَ کَانَ مَسولًا0 وَاَوفُو االکَیلَ اِذَا کِلتُم وَزِنُو بِالقِسطَاسِ المُستَقِیمَ <sup>ط</sup> ذٰلِکَ خِیرٌ وَّ اَحسَنُ تَاوِیلًا0 </p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221342,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَلَا تَقفُ مَا لَیسَ لَکَ بَہٖ عِلمٌ <sup>ط</sup> اِنَّ السَّمعَ وَالبَصَرَا وَالفُوادَ کُلُّ اُولٰۤکَ  کَانَ عَنہُ مَسُٔولًا0 وَلَا تَمشِ فِی الاَرضِ مَرَحًا <sup>ج</sup>  اَنَّکَ لَن تَخرِقَ الاَرضَ وَلَن تَبلُغَ الجِبَالَ طُولًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221343,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">کُلُّ ذٰلِکَ کَانَ سَیَُِّٔہٗ عِندَ رَبِّکَ مِکرُوھًا0 ذٰلِکَ مَمَّاۤ اَوحٰۤی اِلَیکَ  رَبُّکَ مِنَ الحِکمَۃِ <sup>ط</sup> وَلَا تَجعَل مَعَ اللہِ اَلٰھًا اٰخَرَ فَتُلقٰی فَی جَھَنَّمَ مَلُومًا مَّدحُورًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221344,
+      "SubjectID": 312,
+      "TopicID": 7589,
+      "TopicRef": "12",
+      "TopicName": "12 سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">اَفَاَ صفٰکُم رَبُّکُم  بِالبَنِینَ وَاتَخَّذَا مِنَ المَلٰٔ٘کَۃِ اِنَا ثًا <sup>ط</sup> اِنَّکُم لَتَقُولُونَ قَولًا عَظِیمًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221366,
+      "SubjectID": 312,
+      "TopicID": 7590,
+      "TopicRef": "13",
+      "TopicName": "13 سُورَۃُ الکَھفِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">اَلحَمدُ لِلہِ الَّذِیۤ اَنزَلَ عَلٰی عَبدِہِ الکِتٰبَ وَلَم یَجعَل لَّہٗ عِوَجًا0 قَیِّمًا لِّیُنذِرَ بَاسًا شَدِیدًا مِّن لَّدُ نہُ وَیُبَشِّرَ المُومِنِینَ الَّذِینَ یَعمَلُونَ الصَّلِحٰتِ اَنَّ لَھُم اَجرًا حَسَنًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221367,
+      "SubjectID": 312,
+      "TopicID": 7590,
+      "TopicRef": "13",
+      "TopicName": "13 سُورَۃُ الکَھفِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">وَّ یُنذِرَالَّذِینَ  قَالُوااتَّخَذَااللہُ وَلَدًا0 مَا لَھُم بِہٖ مِن عَلمِِ وَّ لَا لِاٰ بَآ ھِم <sup>ط</sup> کَبُرَت کَلِمَۃً تَخرُجُ مِن اَفوَاھِھِم <sup>ط</sup> اِن یَّقُولُونَ  اِلَّا کَذِبًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221368,
+      "SubjectID": 312,
+      "TopicID": 7590,
+      "TopicRef": "13",
+      "TopicName": "13 سُورَۃُ الکَھفِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">فَلَعَلَّکَ بَاخِعٌ نَّفسَکَ عَلٰی اٰثَارِھِم اِن لَّم یُومِنُو بِھٰذَا الحَدِیثِ اَسَفًا0 اِنَّا جَعَلنَا مَا عَلَی الاَرضِ زِینَۃً لَّھَا لِنَبلُوَ ھُم اَیَّھُم اَحسَنُ عَمَلًا0وَاِنَّا لَجٰعِلُونَ مَا عَلَیھَا صَعِیدًا جُرُزًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221369,
+      "SubjectID": 312,
+      "TopicID": 7590,
+      "TopicRef": "13",
+      "TopicName": "13 سُورَۃُ الکَھفِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">اَم حَسِبتَ اَنَّ اَصَحٰبَ الکَھفِ وَالَّرقِیمِ <sup>لا</sup> کَانُو مِن اٰیٰتِنَا عَجَبًا0 اِذ اَوَی الفِتیَۃُ اِلَی الکَھفِ فَقَالُو رَبَّنَا اٰتِنَا  مِن لَّدُنکَ رَحمَۃً وَّ ھَیِّی لَنَا مِن اَمرِنًا رَشَدًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221370,
+      "SubjectID": 312,
+      "TopicID": 7590,
+      "TopicRef": "13",
+      "TopicName": "13 سُورَۃُ الکَھفِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">فَضَرَبنَا عَلٰی  اٰذَنِھِم فِی الکَھفِ سِنِینَ عَدَدًا0 ثُمَّ بَعَثنٰھُم لِنَعلَمَ اَیُّ الحِزبَینِ  اَحصٰی لِمَا لَبِثُوۤ اَمَدًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221405,
+      "SubjectID": 312,
+      "TopicID": 7590,
+      "TopicRef": "13",
+      "TopicName": "13 سُورَۃُ الکَھفِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">قُل اِنَّمَا اَنَا بَشَرٌ مِثلُکُم یُوحٰۤی اِلَیَّ اَنَّمَا اِلٰھُکُم اِلٰہٌ وَّاحِدٌ <sup>ج</sup> فَمَن کَانَ یَرجُو لِقَآءَ رَبِّہٖ فَلیَعمَل عَمَلًا صَالِحًا وَّلَا یُشرِکَ بِعِبَادَ ۃِ رَبِّہٖ اَحَدًا0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221402,
+      "SubjectID": 312,
+      "TopicID": 7591,
+      "TopicRef": "14",
+      "TopicName": "14 سُورَۃُ المُومِنُونَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">قَد اَفَلَحَ المُومِنُونَ0 الَّذِینَ ھُم فِی صَلَاتِھِم خٰشِعُونَ 0 وَالَّذِینَ ھُم عَنِ اللَّغوِ مُعرِضُونَ0 وَالَّذِینَ ھُم لِلزَّکٰوۃِ فَعِلُونَ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221403,
+      "SubjectID": 312,
+      "TopicID": 7591,
+      "TopicRef": "14",
+      "TopicName": "14 سُورَۃُ المُومِنُونَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَالَّذِینَ ھُم لِفُرُوجِھِم حٰفِظُونَ0 اِلَّا عَلٰی اَزوَجِھِم اَومَا مَلَکَت اَیمَانُھُم فَاِنَّھُم غَیرُ مَلُومِینَ0 فَمَنِ ابتَغٰی وَرَآ ءَ ذٰلِکَ فَاآولِٰٔکَ ھُمُ العٰدُونَ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221404,
+      "SubjectID": 312,
+      "TopicID": 7591,
+      "TopicRef": "14",
+      "TopicName": "14 سُورَۃُ المُومِنُونَ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَالَّذِینَ ھُم لِاٰمٰنٰتِھِم وَعَھدِھِم رٰعُونَ 0 وَالَّذِینَ ھُم عَلیٰ صَلَوٰتِھِم یُحَافِظُونَ0اُولِٰٔکَ ھُمُ الوٰوِثُونَ0 اَلَّذِینَ یَرِثُونَ الفِردَوسَ <sup>ط</sup> ھُم فَیھَا خٰلِدُونَ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221425,
+      "SubjectID": 312,
+      "TopicID": 7592,
+      "TopicRef": "15",
+      "TopicName": "15 سُورَۃُ الزَّمَرِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">اِن تَکفُرُوا فَاِنَّ اللہَ غَنِّیٌ عَنکُم <sup>قف</sup> وَلَا یَِرضٰی لِعِبَادِہِ الکُفرَ <sup>ج</sup> وَاِن تَشکُرُوا یَرضَہُ لَکُم <sup>ط</sup> وَلَا تَزِرُ وَازِرَۃٌ وِّ زرَ اُخَرٰی <sup>ط</sup> ثُمَّ اِلیٰ رَبِّکُم مَّرجِعُکُم فَیُنَبٌُِّکُم بِمَا کُنتُم تَعمَلُونَ <sup>ط</sup> اِنََّہٗ عَلِیمٌ بِذَاتِ الصُّدُورِ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221426,
+      "SubjectID": 312,
+      "TopicID": 7592,
+      "TopicRef": "15",
+      "TopicName": "15 سُورَۃُ الزَّمَرِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَاِذَا مَسَّ الاِنسَانَ ضُرٌّ دَعَا رَبَّہٗ مُنِیبًا اَلَیہِ ثُمَّ اَذَا خَوَّا لَہٗ نِعمَۃً مِّنہُ نَسِیَ مَا کَانَ یَدعُو ااِلَیہِ مِن قَنلُ وَجَعَلَ لِلہِ اَندَادًا الَّیُضِلَّ عَن سَبِیلِہٖ <sup>ط</sup> قُل تَمَتَّع بِکُفرِکَ قَلِیلًا <sup>صلے</sup> اَنَّکَ مِن اَصحٰبِ النَّارِ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221427,
+      "SubjectID": 312,
+      "TopicID": 7592,
+      "TopicRef": "15",
+      "TopicName": "15 سُورَۃُ الزَّمَرِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">اَمَّن ھُوَ قَانِتٌ اٰنَآءَ الَّیلِ سَاجِدًا وَّقَاۤ ئِمًا یَّحذَورُالاٰخِرَۃَ وَیَرجُو ارَحمَۃَ رَبَّہٖ <sup>ط</sup> قُل ھَل یَستَوِی الَّذِینَ یَعلَمُونَ وَالَّذِینَ لَا یَعلَمُونَ <sup>ط</sup> اِنَّمَا یَتذَکَّرُ اُولُو الاَلبَابِ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221428,
+      "SubjectID": 312,
+      "TopicID": 7592,
+      "TopicRef": "15",
+      "TopicName": "15 سُورَۃُ الزَّمَرِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p dir=\"rtl\" style=\"font-family:'Al Qalam Quran Majeed Web'\">قُل یٰعِبَادِ الَّذِینَ اٰمَنُو ااتَّقُو ارَبَّکُم <sup>ط</sup> لِلَّذِینَ اَحسَنُو فِی ھٰذِہِ الدُّنیَا حَسَنَۃٌ <sup>ط</sup> وَ اَرضُ اللہِ وَاسِعَۃٌ <sup>ط</sup> اِنَّمَا یُوَفَّی الصّٰبِرُونَ اَجرَھُم بِغَیرِ حِسَابِِ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221429,
+      "SubjectID": 312,
+      "TopicID": 7592,
+      "TopicRef": "15",
+      "TopicName": "15 سُورَۃُ الزَّمَرِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">قُل اِنِّی اُمِرتُ اَن اَعبُدَ اللہَ مُخلِصًا لَّہُ الدِّینِ 0 وَاُمِرتُ لِاَن اَکُونَ اَوَّلَ المُسلِمِینَ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221430,
+      "SubjectID": 312,
+      "TopicID": 7592,
+      "TopicRef": "15",
+      "TopicName": "15 سُورَۃُ الزَّمَرِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">قُل اِنِّی اَخاَفُ اِن عَصَیتُ رَبِّی عَذَابَ یَِومِِ عَظِیمِِ 0 قُلِ اللہَ اَعبُدُ مُخلِصًا لَّہٗ دِینِی0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221431,
+      "SubjectID": 312,
+      "TopicID": 7592,
+      "TopicRef": "15",
+      "TopicName": "15 سُورَۃُ الزَّمَرِ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">قُل یٰعِبَادِیَ الَّذِینَ اَسرَفُو عَلیٰۤ اَنفُسِھِم لَا تَقنَطُوا مِن رَّحمَۃِ اللہِ <sup>ط</sup> اِنَّ اللہَ یَغفِرُو الذُّنُوبَ جَمِیعًا <sup>ط</sup> اِنَّہٗ ھُوَ الغَفُورُ الرَّحِیمُ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221471,
+      "SubjectID": 312,
+      "TopicID": 7595,
+      "TopicRef": "18",
+      "TopicName": "18 سُورَۃُ الشُّورٰی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">ذٰلِکَ الَّذِی یُبَشِّرُاللہُ عِبِادَہُ الَّذِینَ اٰمَنُو وَعَمِلُو الصّٰلِحٰتِ <sup>ط</sup> قُل لَّا اَسئَلُکُم عَلَیہِ اَجرًا اَلَّا المَوَدَّۃَ فِی القُربٰی <sup>ط</sup> وَمَن یَّقتَرِ ف حَسَنَۃً نَّزِد لَہٗ فِیھَا حُسنًا <sup>ط</sup> اِنَّ اللہَ غَفُورٌ شَکُورٌ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    },
+    {
+      "QuestionID": 221472,
+      "SubjectID": 312,
+      "TopicID": 7595,
+      "TopicRef": "18",
+      "TopicName": "18 سُورَۃُ الشُّورٰی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">وَالَّذِینَ یَجتَنِبُونَ کَبٰۤئِرَالاِثمِ وَالفَوَاحِشَ وَاِذَا مَا غَضِبُو ھُم یَغفِرُونَ0 وَالَّذِینَ استَجابُو الِرَبِّھِم وَاَقَا مُوالصَّلٰوۃَ <sup>ص</sup> وَاَمرَھُم شُورٰی بَینَھُم <sup>ص</sup> وَمَمَّا رَزَقنٰھُم یُنفِقُونَ0</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 17,
+        "bankType": "long",
+        "exportName": "long-ayat"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1921 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Computer",
+  "slug": "computer",
+  "source": "PTS PTB INTER-II (Class 12) Computer (read-only export)",
+  "total_questions": 478,
+  "counts": {
+    "mcq": 198,
+    "short": 190,
+    "long": 90
+  },
+  "fieldCounts": {
+    "MCQ": 198,
+    "QA": 190,
+    "LONG": 90
+  },
+  "questions": [
+    {
+      "id": 530113,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a computer network?"
+    },
+    {
+      "id": 530114,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write two uses of computer networks."
+    },
+    {
+      "id": 530115,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is network architecture?"
+    },
+    {
+      "id": 530116,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name any two components of a computer network."
+    },
+    {
+      "id": 530119,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a Local Area Network (LAN)?"
+    },
+    {
+      "id": 530120,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the function of a router?"
+    },
+    {
+      "id": 530118,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the name of any two network topologies."
+    },
+    {
+      "id": 530117,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the OSI model?"
+    },
+    {
+      "id": 530121,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a network protocol?"
+    },
+    {
+      "id": 530122,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the purpose of DNS?"
+    },
+    {
+      "id": 530153,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by computational thinking?"
+    },
+    {
+      "id": 530154,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is computational thinking important in problem solving?"
+    },
+    {
+      "id": 530155,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is decomposition in problem solving?"
+    },
+    {
+      "id": 530156,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is an algorithm?"
+    },
+    {
+      "id": 530157,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is logic in computer science?"
+    },
+    {
+      "id": 530159,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a proposition?"
+    },
+    {
+      "id": 530160,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are truth values?"
+    },
+    {
+      "id": 530161,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a truth table?"
+    },
+    {
+      "id": 530162,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is propositional satisfiability?"
+    },
+    {
+      "id": 530163,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a predicate in predicate logic?"
+    },
+    {
+      "id": 530271,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is Object-Oriented Programming (OOP)?"
+    },
+    {
+      "id": 530272,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the purpose of a class in Python?"
+    },
+    {
+      "id": 530273,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the difference between a class and an object?"
+    },
+    {
+      "id": 530274,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is purpose of __init__...?"
+    },
+    {
+      "id": 530275,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is encapsulation in OOP, and why is it important?"
+    },
+    {
+      "id": 530276,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does encapsulation help in keeping data secure and private?"
+    },
+    {
+      "id": 530277,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is inheritance in OOP, and how does it help in reusing functionality?"
+    },
+    {
+      "id": 530278,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does inheritance enable the extension of functionality in Python?"
+    },
+    {
+      "id": 530279,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is polymorphism in OOP, and how does it make code more flexible?"
+    },
+    {
+      "id": 530280,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does polymorphism help in creating adaptable and reusable code?"
+    },
+    {
+      "id": 530451,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is data science?"
+    },
+    {
+      "id": 530452,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the two main types of data?"
+    },
+    {
+      "id": 530453,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the difference between structured and unstructured data?"
+    },
+    {
+      "id": 530454,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name two common data collection methods."
+    },
+    {
+      "id": 530455,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is machine learning?"
+    },
+    {
+      "id": 530456,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is supervised learning?"
+    },
+    {
+      "id": 530457,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the purpose of feature selection in machine learning?"
+    },
+    {
+      "id": 530458,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What does accuracy measure in a model?"
+    },
+    {
+      "id": 530459,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the difference between prediction and causality?"
+    },
+    {
+      "id": 530460,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name any one tool used for machine learning."
+    },
+    {
+      "id": 530347,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a GUI and why is it important in application development?"
+    },
+    {
+      "id": 530348,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is Tkinter and why is it Python's built-in GUI toolkit?"
+    },
+    {
+      "id": 530350,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you create a window and add frames in Tkinter?"
+    },
+    {
+      "id": 530351,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name two common widgets used in Tkinter."
+    },
+    {
+      "id": 530352,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the purpose of layout management in Tkinter?"
+    },
+    {
+      "id": 530353,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the pack() method organize elements in Tkinter?"
+    },
+    {
+      "id": 530354,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is event-driven programming and how is it used in Tkinter?"
+    },
+    {
+      "id": 530355,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you handle user input in Tkinter?"
+    },
+    {
+      "id": 530356,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the CRUD operation in database management?"
+    },
+    {
+      "id": 530358,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you connect Python to a database like SQLite?"
+    },
+    {
+      "id": 530399,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is testing essential for ensuring reliable applications?"
+    },
+    {
+      "id": 530400,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are some common types of programming errors and bugs?"
+    },
+    {
+      "id": 530401,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is unit testing, and why is it important in programming?"
+    },
+    {
+      "id": 530402,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do Python's unittest and pytest modules help in unit testing?"
+    },
+    {
+      "id": 530403,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the purpose of writing and executing test cases?"
+    },
+    {
+      "id": 530404,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you set breakpoints in IDEs like PyCharm or VS Code?"
+    },
+    {
+      "id": 530405,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of monitoring variable values with watch expressions during debugging?"
+    },
+    {
+      "id": 530406,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the step-by-step debugging process in IDEs?"
+    },
+    {
+      "id": 530407,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does exception handling help in managing multiple exception types effectively?"
+    },
+    {
+      "id": 530408,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What tools can be used for profiling and measuring performance in Python?"
+    },
+    {
+      "id": 530518,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a hypothesis?"
+    },
+    {
+      "id": 530519,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a research question?"
+    },
+    {
+      "id": 530520,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define null hypothesis (H0)."
+    },
+    {
+      "id": 530521,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a test statistic?"
+    },
+    {
+      "id": 530522,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by p-value?"
+    },
+    {
+      "id": 530524,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a critical region?"
+    },
+    {
+      "id": 530525,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the basic steps in hypothesis testing?"
+    },
+    {
+      "id": 530527,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is data visualization important?"
+    },
+    {
+      "id": 530528,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is bias in data collection?"
+    },
+    {
+      "id": 530529,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is ethical use of data important?"
+    },
+    {
+      "id": 530585,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is Artificial Intelligence (AI) and how is it used in daily life?"
+    },
+    {
+      "id": 530588,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the Internet of Things (IoT) connect smart devices together?"
+    },
+    {
+      "id": 530589,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the main advantages of using Cloud Computing?"
+    },
+    {
+      "id": 530592,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does Blockchain ensure security and transparency in transactions?"
+    },
+    {
+      "id": 530594,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it important to consider ethics while developing AI systems?"
+    },
+    {
+      "id": 530595,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What role do stakeholders play in the design and regulation of AI technologies?"
+    },
+    {
+      "id": 530598,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can emerging technologies help solve national challenges in Pakistan?"
+    },
+    {
+      "id": 530600,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the importance of cultural awareness when designing technological solutions?"
+    },
+    {
+      "id": 530603,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can AI, IoT, and Cloud work together to improve agriculture?"
+    },
+    {
+      "id": 530604,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why are laws and policies necessary for the responsible and safe use of technology?"
+    },
+    {
+      "id": 530639,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of strong passwords in protecting data?"
+    },
+    {
+      "id": 530640,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can downloading suspicious software affect a computer?"
+    },
+    {
+      "id": 530641,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it important to install software updates and security patches?"
+    },
+    {
+      "id": 530642,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are common types of cyber threats, such as phishing or ransomware?"
+    },
+    {
+      "id": 530643,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does Two-Factor Authentication (2FA) improve online security?"
+    },
+    {
+      "id": 530644,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Who is responsible for managing privacy and security settings on online platforms?"
+    },
+    {
+      "id": 530645,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is intellectual property, and why should it be respected in digital use?"
+    },
+    {
+      "id": 530646,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does e-waste impact the environment, and what is sustainable computing?"
+    },
+    {
+      "id": 530647,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Where do international data protection laws like GDPR apply?"
+    },
+    {
+      "id": 530648,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is entrepreneurship?"
+    },
+    {
+      "id": 531419,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary purpose of a computer network?"
+    },
+    {
+      "id": 531420,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do computer networks save time and effort during communication?"
+    },
+    {
+      "id": 531422,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which types of devices can be connected together using a computer network?"
+    },
+    {
+      "id": 531423,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do schools and learning systems benefit from computer networks?"
+    },
+    {
+      "id": 531424,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do computer networks play in modern business operations and daily life?"
+    },
+    {
+      "id": 531480,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is network architecture?"
+    },
+    {
+      "id": 531481,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which three main elements make up network architecture?"
+    },
+    {
+      "id": 531482,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a well-designed network architecture important for an organization?"
+    },
+    {
+      "id": 531483,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is data broken down into small packets before transmission?"
+    },
+    {
+      "id": 531484,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do networking devices play in packet transmission?"
+    },
+    {
+      "id": 531485,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to data packets when they reach the receiving device?"
+    },
+    {
+      "id": 531505,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "On what basis are computer networks classified?"
+    },
+    {
+      "id": 531506,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a Local Area Network (LAN)?"
+    },
+    {
+      "id": 531507,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which two transmission technologies are commonly used in a LAN?"
+    },
+    {
+      "id": 531508,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Who typically owns and manages a LAN?"
+    },
+    {
+      "id": 531509,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a Wide Area Network (WAN)?"
+    },
+    {
+      "id": 531510,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do WAN connections transmit data across large geographical areas?"
+    },
+    {
+      "id": 531511,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are LANs generally faster in data transfer speed than WANs?"
+    },
+    {
+      "id": 531512,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the largest example of a WAN?"
+    },
+    {
+      "id": 531516,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the Internet?"
+    },
+    {
+      "id": 531542,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main function of networking devices in a computer network?"
+    },
+    {
+      "id": 531543,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a MAC address, and where is it located?"
+    },
+    {
+      "id": 531544,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a Network Interface Card (NIC) necessary for network communication?"
+    },
+    {
+      "id": 531545,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a switch improve network speed and efficiency?"
+    },
+    {
+      "id": 531546,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between how a router and a switch direct data?"
+    },
+    {
+      "id": 531547,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a modem convert signals for internet transmission?"
+    },
+    {
+      "id": 531549,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role does a Wireless Access Point (WAP) play in expanding network access?"
+    },
+    {
+      "id": 531550,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Switch."
+    },
+    {
+      "id": 531552,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List names of any three networking devices."
+    },
+    {
+      "id": 531553,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define router."
+    },
+    {
+      "id": 531554,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Modem."
+    },
+    {
+      "id": 531557,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Wireless Access Point?"
+    },
+    {
+      "id": 531559,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the roles and functions of a Network Interface Card (NIC), Switch, and Router in managing data flow within and between computer networks."
+    },
+    {
+      "id": 531560,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how Modems and Wireless Access Points (WAPs) facilitate network access, focusing on signal conversion, ISP connection, and wireless coverage expansion."
+    },
+    {
+      "id": 531606,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is network topology?"
+    },
+    {
+      "id": 531607,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does physical topology differ from logical topology?"
+    },
+    {
+      "id": 531608,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is bus topology unsuitable for large networks?"
+    },
+    {
+      "id": 531609,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to a star topology network if an individual node device fails?"
+    },
+    {
+      "id": 531610,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Bus topology?"
+    },
+    {
+      "id": 531611,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define backbone."
+    },
+    {
+      "id": 531612,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is ring topology rarely used in modern networking?"
+    },
+    {
+      "id": 531613,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does mesh topology maintain data flow when a single connection link breaks?"
+    },
+    {
+      "id": 531614,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write advantages of bus topology."
+    },
+    {
+      "id": 531616,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write disadvantages of bus topology."
+    },
+    {
+      "id": 531617,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write advantages of star topology."
+    },
+    {
+      "id": 531618,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write disadvantages of star topology."
+    },
+    {
+      "id": 531619,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write disadvantages of ring topology."
+    },
+    {
+      "id": 531620,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write advantages of ring topology."
+    },
+    {
+      "id": 531621,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write disadvantages of mesh topology."
+    },
+    {
+      "id": 531622,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write advantages of mesh topology."
+    },
+    {
+      "id": 531623,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Hybrid Topology."
+    },
+    {
+      "id": 531624,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write disadvantages of hybrid topology."
+    },
+    {
+      "id": 531625,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write advantages of hybrid topology."
+    },
+    {
+      "id": 531626,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is tree topology suitable for hierarchical management in large organizations?"
+    },
+    {
+      "id": 531627,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which topology guarantees equal channel access for all connected devices?"
+    },
+    {
+      "id": 531628,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does mesh topology require a significantly higher number of cables compared to other layouts?"
+    },
+    {
+      "id": 531629,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What component stops signal reflection at the ends of a bus topology cable?"
+    },
+    {
+      "id": 531651,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary function of the Physical Layer in the OSI model?"
+    },
+    {
+      "id": 531652,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the Data Link Layer ensure error-free data transfer between directly connected nodes?"
+    },
+    {
+      "id": 531653,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which OSI layer handles IP addressing and path determination?"
+    },
+    {
+      "id": 531654,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What functions does the Transport Layer perform to ensure reliable delivery of data?"
+    },
+    {
+      "id": 531655,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of Session Layer?"
+    },
+    {
+      "id": 531656,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which OSI layer is responsible for data encryption and compression?"
+    },
+    {
+      "id": 531657,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three protocols or services supported at the Application Layer."
+    },
+    {
+      "id": 531659,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Categorize the primary focus of the lower, middle, and upper layers of the OSI model."
+    },
+    {
+      "id": 531676,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a network protocol, and why is it necessary in a network?"
+    },
+    {
+      "id": 531677,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the individual roles of TCP and IP within the TCP/IP protocol suite?"
+    },
+    {
+      "id": 531678,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does HTTP function between a web browser and a web server?"
+    },
+    {
+      "id": 531679,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between HTTP and HTTPS regarding data security?"
+    },
+    {
+      "id": 531680,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is File Transfer Protocol (FTP), and what is its primary use case?"
+    },
+    {
+      "id": 531681,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What primary service does the Domain Name System (DNS) provide to Internet users?"
+    },
+    {
+      "id": 531682,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define HTTP. Protocol. What is its secure version?"
+    },
+    {
+      "id": 531760,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an IP address?"
+    },
+    {
+      "id": 531761,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the categories of IP addressing?"
+    },
+    {
+      "id": 531762,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main differences between IPv4 and IPv6 regarding bit length and address capacity?"
+    },
+    {
+      "id": 531763,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is an IPv4 address formatted and broken down into its core components?"
+    },
+    {
+      "id": 531765,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three structural parts of an IPv6 address breakdown?"
+    },
+    {
+      "id": 531772,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is subnetting?"
+    },
+    {
+      "id": 531776,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Network Address Translation (NAT)?"
+    },
+    {
+      "id": 531781,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of Network Address Translation (NAT)?"
+    },
+    {
+      "id": 531820,
+      "chapter": 1,
+      "topic_id": "1.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary purpose of a home network setup?"
+    },
+    {
+      "id": 531821,
+      "chapter": 1,
+      "topic_id": "1.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the distinct functions of a router and a modem in a home network?"
+    },
+    {
+      "id": 531822,
+      "chapter": 1,
+      "topic_id": "1.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are wired network connections considered more secure than wireless connections?"
+    },
+    {
+      "id": 531823,
+      "chapter": 1,
+      "topic_id": "1.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What main advantages do wireless networks offer over wired networks?"
+    },
+    {
+      "id": 531824,
+      "chapter": 1,
+      "topic_id": "1.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What main advantages do wireless networks offer over wired networks?"
+    },
+    {
+      "id": 531826,
+      "chapter": 1,
+      "topic_id": "1.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write any three difference between wired and wireless networks."
+    },
+    {
+      "id": 531913,
+      "chapter": 1,
+      "topic_id": "1.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by router configuration?"
+    },
+    {
+      "id": 531915,
+      "chapter": 1,
+      "topic_id": "1.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Wi-Fi encryption, and which protocols should be used or avoided?"
+    },
+    {
+      "id": 531919,
+      "chapter": 1,
+      "topic_id": "1.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a default gateway, and what is its role in sending data to outside networks?"
+    },
+    {
+      "id": 531920,
+      "chapter": 1,
+      "topic_id": "1.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a guest network, and how does it protect main network devices?"
+    },
+    {
+      "id": 531922,
+      "chapter": 1,
+      "topic_id": "1.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two modern security protocols in Wifi Encryption?"
+    },
+    {
+      "id": 531933,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are network diagnostic tools?"
+    },
+    {
+      "id": 531934,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where are network troubleshooting commands entered, and what do they help identify?"
+    },
+    {
+      "id": 531935,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What key aspects are checked during network troubleshooting?"
+    },
+    {
+      "id": 531936,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the ping command determine whether a remote device is reachable on a network?"
+    },
+    {
+      "id": 531937,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How to use ping command in terminal?"
+    },
+    {
+      "id": 531945,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between ifconfig and ipconfig?"
+    },
+    {
+      "id": 531946,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Telnet?"
+    },
+    {
+      "id": 531947,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is PuTTY?"
+    },
+    {
+      "id": 531948,
+      "chapter": 1,
+      "topic_id": "1.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of Secure Shell (SSH)?"
+    }
+  ],
+  "type": "short"
+}

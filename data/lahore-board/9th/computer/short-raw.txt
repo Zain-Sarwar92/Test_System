@@ -1,0 +1,10135 @@
+Lahore Board Class 9 Subject Computer  CHAP 1: INTRODUCTION TO COMPUTATIONAL SYSTEMS  CHAP 2: SYSTEM DESIGN AND TROUBLESHOOTING  CHAP 3: COMPUTER NETWORKS  CHAP 4: COMPUTATIONAL THINKING  CHAP 5: WEB DEVELOPMENT WITH HTML, CSS AND JAVASCRIPT  CHAP 6: DATA SCIENCE AND DATA GATHERING  CHAP 7: EMERGING TECHNOLOGIES IN COMPUTER SCIENCE  CHAP 8: ETHICAL, SOCIAL, AND LEGAL CONCERNS IN COMPUTER USAGE  CHAP 9: ENTREPRENEURSHIP IN DIGITAL AGE  Short questions are provided 1.1 THEORY OF SYSTEMS
+1.1
+Exercise
+
+1
+
+Define a system.
+
+ایک نظام کی تعریف کریں۔
+
+1
+
+1.1
+Additional
+
+2
+
+Write a short note on systems theory.
+
+سسٹمز تھیوری پر مختصر نوٹ تحریر کریں۔
+
+2
+
+1.1
+Additional
+
+3
+
+What types of things can be considered systems?
+
+کس قسم کی چیزوں کو سسٹم سمجھا جا سکتا ہے؟
+
+3
+
+1.1
+Additional
+
+4
+
+What is the objective of a system?
+
+سسٹم کی مقاصد کیا ہوتے ہیں؟
+
+4
+
+1.1
+Additional
+
+5
+
+Give an example of a system supporting another system.
+
+ایسے سسٹم کی مثال دیں جو کسی دوسرے سسٹم کی حمایت کرتا ہو۔
+
+5
+
+1.1
+Additional
+
+6
+
+Why is it important to understand system components?
+
+سسٹم کے اجزا کو سمجھنا کیوں اہم ہے؟
+
+6
+
+1.1
+Additional
+
+7
+
+How do systems interact with the environment?
+
+سسٹم ماحول کے ساتھ کیسے تعامل کرتے ہیں؟
+
+7
+
+1.1
+Additional
+
+8
+
+Why is communication important in a system?
+
+سسٹم میں کمیونیکیشن ضروری کیوں ہوتی ہے؟
+
+8
+
+1.1
+Additional
+
+9
+
+What is an Information System?
+
+انفارمیشن سسٹم کیا ہے؟
+
+9
+
+1.1
+Additional
+
+10
+
+How do components of a system relate to each other?
+
+ایک نظام کے اجزاء ایک دوسرے سے کیسے مربوط ہوتے ہیں؟
+
+10
+
+1.2 SOFTWARE
+1.2
+Exercise
+
+11
+
+Define system software and provide two examples.
+
+سسٹم سافٹ ویئر کی تعریف کریں اور دو مثالیں دیں۔
+
+11
+
+1.2
+Exercise
+
+12
+
+Differentiate between system software and application software.
+
+سسٹم سافٹ ویئر اور ایپلیکیشن سافٹ ویئر کے درمیان فرق کریں۔
+
+12
+
+1.2
+Additional
+
+13
+
+What is Software?
+
+سافٹ وئیر کیا ہوتا ہے؟
+
+13
+
+1.2
+Additional
+
+14
+
+What are two type of software?
+
+سافٹ وئیر کی دو اقسام کون سی ہیں؟
+
+14
+
+1.2
+Additional
+
+15
+
+Give three examples of system software.
+
+سسٹم سافٹ وئیر کی تین مثالیں دیں۔
+
+15
+
+1.2
+Additional
+
+16
+
+What was "Creeper" and why is it significant in computer history?
+
+"کریپر" کیا تھا اور کمپیوٹر کی تاریخ میں یہ کیوں اہم ہے؟
+
+16
+
+1.2
+Additional
+
+17
+
+How does System Software act as a bridge?
+
+سسٹم سافٹ ویئر ایک پل کے طور پر کیسے کام کرتا ہے؟
+
+17
+
+1.2
+Additional
+
+18
+
+List three examples of Operating Systems.
+
+آپریٹنگ سسٹمز کی تین مثالیں درج کریں۔
+
+18
+
+1.2
+Additional
+
+19
+
+What is the purpose of Device Drivers?
+
+ڈیوائس ڈرائیورز کا مقصد کیا ہے؟
+
+19
+
+1.2
+Additional
+
+20
+
+Define Utility Programs and give two examples.
+
+یوٹیلیٹی پروگرامز کی تعریف کریں اور دو مثالیں دیں۔
+
+20
+
+1.2
+Additional
+
+21
+
+Briefly explain System Software.
+
+سسٹم سافٹ ویئر کی مختصر وضاحت کریں۔
+
+21
+
+1.2
+Additional
+
+22
+
+Briefly explain Application Software.
+
+ایپلیکیشن سافٹ ویئر کی مختصر وضاحت کریں۔
+
+22
+
+1.2
+Additional
+
+23
+
+Why is it important to keep System Software updated?
+
+سسٹم سافٹ ویئر کو اپ ڈیٹ رکھنا کیوں ضروری ہے؟
+
+23
+
+1.2
+Additional
+
+24
+
+Identify one major difference between how System Software and Application Software are installed.
+
+سسٹم سافٹ ویئر اور ایپلیکیشن سافٹ ویئر کے انسٹال ہونے کے درمیان ایک اہم فرق کی نشاندہی کریں۔
+
+24
+
+1.3 THE ARCHITECTURE OF VON NEUMANN COMPUTERS
+1.3
+Exercise
+
+25
+
+Enlist the main components of the Von Neumann architecture?
+
+وون نیومن آرکیٹیکچر کے بنیادی اجزاء کی فہرست بنائیں؟
+
+25
+
+1.3
+Exercise
+
+26
+
+Enlist the four main steps in the Von Neumann architecture's instruction cycle?
+
+وان نیومن آرکیٹیکچر کے ہدایت کے چکر کے چار اہم مراحل درج کریں؟
+
+26
+
+1.3
+Exercise
+
+27
+
+What is a key advantage of the Von Neumann architecture?
+
+وون نیومن آرکیٹیکچر کا ایک اہم فائدہ کیا ہے؟
+
+27
+
+1.3
+Additional
+
+28
+
+What is the Von Neumann computer architecture? List its key components.
+
+وان نیومن کمپیوٹر آرکیٹیکچر کیا ہے؟ اس کے کلیدی اجزاء کی فہرست بنائیں۔
+
+28
+
+1.3
+Additional
+
+29
+
+Name three types of system buses and describe their purpose.
+
+سسٹم بس کی تین اقسام کے نام بتائیں اور ان کے مقاصد بیان کریں۔
+
+29
+
+1.3
+Additional
+
+30
+
+How do different components of a computer interact when a file is opened?
+
+جب کوئی فائل کھولی جاتی ہے تو کمپیوٹر کے مختلف اجزاء آپس میں کیسے تعامل کرتے ہیں؟
+
+30
+
+1.3
+Additional
+
+31
+
+What are the two main parts of CPU?
+
+سی پی یو کے دو بڑی اقسام کون سی ہیں؟
+
+31
+
+1.3
+Additional
+
+32
+
+What is the first stage of instruction processing in Von Neumann architecture?
+
+وان نیومن آرکیٹیکچر میں ہدایات کی پروسیسنگ کا پہلا مرحلہ کیا ہے؟
+
+32
+
+1.3
+Additional
+
+33
+
+What happens in decoding stage of Von Neumann architecture?
+
+وان نیومن آرکیٹیکچر کے ڈیکوڈنگ مرحلے میں کیا ہوتا ہے؟
+
+33
+
+1.3
+Additional
+
+34
+
+What happens during the execution phase?
+
+عملدرآمد کے مرحلے کے دوران کیا ہوتا ہے؟
+
+34
+
+1.3
+Additional
+
+35
+
+What is the role of the Instruction Register(IR) in instruction processing?
+
+ہدایت کی پروسیسنگ میں انسٹرکشن رجسٹر (IR) کا کردار کیا ہے؟
+
+35
+
+1.3
+Additional
+
+36
+
+In the context of the CPU, what is the specific role of the Arithmetic Logic Unit (ALU)?
+
+CPU کے تناظر میں، ریاضی منطقی یونٹ (ALU) کا مخصوص کردار کیا ہے؟
+
+36
+
+1.3
+Additional
+
+37
+
+How does the Control Unit (CU) act as a "supervisor" during a calculation?
+
+کنٹرول یونٹ (CU) حساب کے دوران "سپروائزر" کے طور پر کیسے کام کرتا ہے؟
+
+37
+
+1.3
+Additional
+
+38
+
+Define the function of the System Bus and list its three main types.
+
+سسٹم بس کے فنکشن کی وضاحت کریں اور اس کی تین اہم اقسام کی فہرست بنائیں۔
+
+38
+
+1.3
+Additional
+
+39
+
+What is the difference between the Data Bus and the Address Bus?
+
+ڈیٹا بس اور ایڈریس بس میں کیا فرق ہے؟
+
+39
+
+1.3
+Additional
+
+40
+
+What happens during the Fetching stage of the von Neumann cycle?
+
+وون نیومن سائیکل کے بازیافت مرحلے کے دوران کیا ہوتا ہے؟
+
+40
+
+1.3
+Additional
+
+41
+
+Which two specific registers are involved in the Fetching stage?
+
+بازیافت کے مرحلے میں کون سے دو مخصوص رجسٹر شامل ہیں؟
+
+41
+
+1.3
+Additional
+
+42
+
+What is the primary purpose of the Decoding stage?
+
+ڈی کوڈنگ مرحلے کا بنیادی مقصد کیا ہے؟
+
+42
+
+1.3
+Additional
+
+43
+
+Why is data loaded into the RAM instead of running directly from the hard disk?
+
+ڈیٹا کو ہارڈ ڈسک سے براہ راست چلانے کے بجائے رام میں کیوں لوڈ کیا جاتا ہے؟
+
+43
+
+1.3
+Additional
+
+44
+
+How do Input Devices and Output Devices interact with the CPU in this model?
+
+اس ماڈل میں ان پٹ ڈیوائسز اور آؤٹ پٹ ڈیوائسز CPU کے ساتھ کیسے تعامل کرتے ہیں؟
+
+44
+
+1.4 NUMBER SYSTEMS
+1.4
+Additional
+
+45
+
+What is number system?
+
+نمبر سسٹم کیا ہے؟
+
+45
+
+1.4
+Additional
+
+46
+
+Why number systems are essential in computer?
+
+کمپیوٹر میں نمبر سسٹم کیوں ضروری ہیں؟
+
+46
+
+1.4
+Additional
+
+47
+
+What do you mean by the base or radix of a number system?
+
+نمبر سسٹم میں بنیاد اور ریڈکس سے آپ کی کیا مراد ہے؟
+
+47
+
+1.4
+Additional
+
+48
+
+List three types of number systems? 
+
+نمبر سسٹم کی تین اقسام لکھیں۔
+
+48
+
+1.4
+Additional
+
+49
+
+What is the most common number system?
+
+سب سے زیادہ عام نمبر سسٹم کون سا ہے؟
+
+49
+
+1.4
+Additional
+
+50
+
+What is binary number system?
+
+بائنری سسٹم کیا ہے؟
+
+50
+
+1.4
+Additional
+
+51
+
+Why does a computer work In binary system?
+
+کمپیوٹر بائنری سسٹم میں کام کیوں کرتا ہے؟
+
+51
+
+1.4
+Additional
+
+52
+
+What is hexadecimal number system?
+
+ہیکساڈیسیمل سسٹم کیا ہوتا ہے؟
+
+52
+
+1.4
+Additional
+
+53
+
+How hexadecimal system is converted into decimal system?
+
+ہیکسا ڈیسیمل سٹم بائنری سسٹم میں کیسے تبدیل ہوتا ہے؟
+
+53
+
+1.4
+Additional
+
+54
+
+Give two examples where hexadecimal number can be used? 
+
+دو مثالیں دیں جہاں ہیکساڈیسیمل سسٹم کو استعمال کی جاسکتا ہے؟
+
+54
+
+1.4
+Additional
+
+55
+
+What is the difference between decimal and binary number system?
+
+اعشاری اور بائنری نمبر سسٹم میں کیا فرق ہے؟
+
+55
+
+1.4
+Additional
+
+56
+
+Write down the method to convert decimal number into binary number. 
+
+اعشاری نمبر کو ڈیسیمل نمبر میں تبدیل کرنے کا طریقہ لکھیں۔
+
+56
+
+1.4
+Additional
+
+57
+
+How can we convert hexadecimal number to binary number?
+
+ہیکسا ڈیسیمل نمبر کو ہم بائنری نمبر میں کیسے تبدیل کرسکتے ہیں؟
+
+57
+
+1.4
+Additional
+
+58
+
+Convert 6510 into binary number.
+
+6510 کو بائنری نمبر میں تبدیل کریں۔
+
+58
+
+1.4
+Additional
+
+59
+
+Convert 78610 to hexadecimal. 
+
+78610 کو ہیکساڈیسیمل میں تبدیل کریں۔
+
+59
+
+1.4
+Additional
+
+60
+
+Convert 5910 to hexadecimal. 
+
+5910 کو ہیکسا ڈیسیمل میں تبدیل کریں۔
+
+60
+
+1.4
+Additional
+
+61
+
+Convert AB16 into binary number system. 
+
+AB16 کو بائنری نمبر سسٹم میں تبدیل کریں۔
+
+61
+
+1.4
+Additional
+
+62
+
+Convert Into decimal number system. 
+
+ کو اعشاری نمبر سسٹم میں تبدیل کریں۔
+
+62
+
+1.4
+Additional
+
+63
+
+Convert  into decimal number system. 
+
+کو ڈیسیمل نمبر سسٹم میں تبدیل کریں۔
+
+63
+
+1.4
+Additional
+
+64
+
+Convert  into decimal system. 
+
+ کو ڈیسیمل سسٹم میں تبدیل کریں۔
+
+64
+
+1.4
+Additional
+
+65
+
+Convert  into a hexadecimal number.
+
+کو ہیکسا ڈیسیمل نمبر میں تبدیل کریں۔
+
+65
+
+1.4
+Additional
+
+66
+
+Convert  into the hexadecimal number system. 
+
+ کو ہیکسا ڈیسیمل سسٹم میں تبدیل کریں۔
+
+66
+
+1.4
+Additional
+
+67
+
+Convert  a hexadecimal number into the decimal number system. 
+
+ ہیکسا ڈیسیمل  نمبر کو ڈیسیمل نمبر سسٹم میں تبدیل کریں۔
+
+67
+
+1.4
+Additional
+
+68
+
+Explain the concept of "Base" in a number system with an example.
+
+نمبر سسٹم میں "بیس" کے تصور کی مثال کے ساتھ وضاحت کریں۔
+
+68
+
+1.4
+Additional
+
+69
+
+Why is the Binary system considered the "lowest level" of data representation in a computer?
+
+بائنری سسٹم کو کمپیوٹر میں ڈیٹا کی نمائندگی کی "کم ترین سطح" کیوں سمجھا جاتا ہے؟
+
+69
+
+1.4
+Additional
+
+70
+
+Differentiate between the place value of '5' in the decimal number 52 and the decimal number 523.
+
+اعشاریہ نمبر 52 اور اعشاریہ 523 میں '5' کی جگہ کی قیمت کے درمیان فرق کریں۔
+
+70
+
+1.4
+Additional
+
+71
+
+What is the role of the remainder in the "Division by 2" algorithm for decimal to binary conversion?
+
+اعشاریہ سے بائنری کنورژن کے لیے "تقسیم از 2" الگورتھم میں بقیہ کا کیا کردار ہے؟
+
+71
+
+1.4
+Additional
+
+72
+
+How does a computer handle non-numeric data like images or text using number systems?
+
+کمپیوٹر نمبر سسٹم کا استعمال کرتے ہوئے تصاویر یا ٹیکسٹ جیسے غیر عددی ڈیٹا کو کیسے ہینڈل کرتا ہے؟
+
+72
+
+1.5 DATA REPRESENTATION IN COMPUTING SYSTEMS
+1.5
+Exercise
+
+73
+
+How does the number of bits affect the range of integer values?
+
+بٹس کی تعداد انٹیچر کی قیمتوں کی حد کو کس طرح متاثر کرتی ہے؟
+
+73
+
+1.5
+Additional
+
+74
+
+What is the range of values for an unsigned 2-byte integer?
+
+ایک ان سائنڈ انٹچر کےلیے قیمتوں کی رینج کیا ہے؟
+
+74
+
+1.5
+Additional
+
+75
+
+Explain how negative integer is represented in binary.
+
+وضاحت کریں کے بائنری میں منفی عدد کی نمائندی کس طرح کی جاتی ہے؟
+
+75
+
+1.5
+Additional
+
+76
+
+What is benefit of using unsigned integers?
+
+ان سائیڈ انٹیچر کو استعمال کرنے کا کیا فائدہ ہے؟
+
+76
+
+1.5
+Additional
+
+77
+
+Why are whole numbers commonly used in computing for quantities that cannot by negative?
+
+کمپیوٹنگ میں عام طور پر ان مقداروں کے مکمل اعداد کیوں استعمال کیے جاتے ہیں جو منفی نہیں ہوسکتے ہیں؟
+
+77
+
+1.5
+Additional
+
+78
+
+What are whole numbers?
+
+مکمل اعداد کیا ہوتے ہیں؟
+
+78
+
+1.5
+Additional
+
+79
+
+What are integers?
+
+انٹیچر کیا ہوتا ہے؟
+
+79
+
+1.5
+Additional
+
+80
+
+What Is the purpose of sign bit in real number?
+
+حقیقی اعداد میں سائن بٹ کا کیا مقصد ہوتا ہے؟
+
+80
+
+1.5
+Additional
+
+81
+
+How does a computer distinguish between a positive and a negative integer in a signed system?
+
+کمپیوٹر دستخط شدہ نظام میں مثبت اور منفی عدد کے درمیان فرق کیسے کرتا ہے؟
+
+81
+
+1.5
+Additional
+
+82
+
+Differentiate between LSB and MSB.
+
+LSB اور MSB کے درمیان فرق کریں۔
+
+82
+
+1.5
+Additional
+
+83
+
+Why is the maximum value of a 1-byte whole number 255, but for a 1-byte signed integer, it is only 127?
+
+1-بائٹ پورے نمبر کی زیادہ سے زیادہ قیمت 255 کیوں ہے، لیکن 1-بائٹ کے دستخط شدہ عدد کے لیے، یہ صرف 127 ہے؟
+
+83
+
+1.5
+Additional
+
+84
+
+Explain why 2’s complement is preferred over 1’s complement for storing negative values in modern digital systems.
+
+وضاحت کریں کہ جدید ڈیجیٹل سسٹمز میں منفی قدروں کو ذخیرہ کرنے کے لیے 1 کے اضافی کو کیوں ترجیح دی جاتی ہے۔
+
+84
+
+1.5
+Additional
+
+85
+
+How does "Inversion" transform a positive binary number into its 1's complement?
+
+"الٹا" مثبت بائنری نمبر کو اس کے 1 کی تکمیل میں کیسے تبدیل کرتا ہے؟
+
+85
+
+1.5
+Additional
+
+86
+
+If the sign bit is 1(ON), what does it indicate about the nature of the stored value?
+
+اگر سائن بٹ 1(ON) ہے، تو یہ ذخیرہ شدہ قدر کی نوعیت کے بارے میں کیا ظاہر کرتا ہے؟
+
+86
+
+1.5
+Additional
+
+87
+
+Define a "Sign Bit" and explain how it changes the range of numbers a byte can store.
+
+ایک "سائن بٹ" کی وضاحت کریں اور وضاحت کریں کہ یہ ان نمبروں کی رینج کو کیسے تبدیل کرتا ہے جو بائٹ کو محفوظ کر سکتا ہے۔
+
+87
+
+1.5
+Additional
+
+88
+
+What is the difference between a 1-byte whole number and a 1-byte signed integer in terms of their maximum values?
+
+ان کی زیادہ سے زیادہ اقدار کے لحاظ سے 1 بائٹ کے پورے نمبر اور 1 بائٹ کے دستخط شدہ عدد میں کیا فرق ہے؟
+
+88
+
+1.5
+Additional
+
+89
+
+Explain the process of finding the 1’s Complement of a binary number like 101011002
+
+101011002 جیسے بائنری نمبر کے 1 کی تکمیل کو تلاش کرنے کے عمل کی وضاحت کریں۔
+
+89
+
+1.5
+Additional
+
+90
+
+Why are whole numbers (W) used for quantities like age or student counts instead of signed integers (Z)?
+
+دستخط شدہ عدد (Z) کے بجائے پورے نمبر (W) کو عمر یا طالب علم کی گنتی جیسی مقداروں کے لیے کیوں استعمال کیا جاتا ہے؟
+
+90
+
+1.5
+Additional
+
+91
+
+Calculate the maximum value for a 2-byte whole number using the formula.
+
+فارمولے کا استعمال کرتے ہوئے 2 بائٹ پورے نمبر کی زیادہ سے زیادہ قیمت کا حساب لگائیں۔
+
+91
+
+1.6 BINARY ARITHMETIC OPERATIONS
+1.6
+Exercise
+
+92
+
+Add 11002 and 10112.
+
+11002 اور 101122 کو جمع کریں۔
+
+92
+
+1.6
+Exercise
+
+93
+
+Subtract 00112 from 10102.
+
+10102 میں سے 00112 کو منفی کریں۔
+
+93
+
+1.6
+Additional
+
+94
+
+State the four basic rules of Binary Addition.
+
+بائنری اضافے کے چار بنیادی اصول بیان کریں۔
+
+94
+
+1.6
+Additional
+
+95
+
+What is the method for subtracting numbers in Binary?
+
+بائنری میں نمبروں کو گھٹانے کا طریقہ کیا ہے؟
+
+95
+
+1.6
+Additional
+
+96
+
+How do you find the Two’s Complement of a binary number?
+
+آپ بائنری نمبر کے دو کی تکمیل کو کیسے تلاش کرتے ہیں؟
+
+96
+
+1.6
+Additional
+
+97
+
+Briefly describe the steps of Binary Multiplication.
+
+بائنری ضرب کے مراحل کو مختصراً بیان کریں۔
+
+97
+
+1.6
+Additional
+
+98
+
+What is the role of the CPU in binary operations?
+
+بائنری آپریشنز میں سی پی یو کا کیا کردار ہے؟
+
+98
+
+1.6
+Additional
+
+99
+
+What are "Base-2" numbers?
+
+"بیس -2" نمبر کیا ہیں؟
+
+99
+
+1.6
+Additional
+
+100
+
+In Binary Addition, what happens when you add 1 + 1 + 1 (with a carry)?
+
+ثنائی کے اضافے میں، جب آپ 1 + 1 + 1 (کیری کے ساتھ) شامل کرتے ہیں تو کیا ہوتا ہے؟
+
+100
+
+1.6
+Additional
+
+101
+
+What is a "Subtrahend" in binary subtraction?
+
+بائنری تفریق میں 'سبٹریہینڈ' کیا ہے؟
+
+101
+
+1.6
+Additional
+
+102
+
+Define "Inversion" in the context of 2's Complement.
+
+2 کی تکمیل کے تناظر میں "الٹا" کی تعریف کریں۔
+
+102
+
+1.6
+Additional
+
+103
+
+Why are partial results shifted to the left during binary multiplication?
+
+بائنری ضرب کے دوران جزوی نتائج کو بائیں طرف کیوں منتقل کیا جاتا ہے؟
+
+103
+
+1.6
+Additional
+
+104
+
+What is the main similarity between Binary and Decimal Division?
+
+بائنری اور ڈیسیمل ڈویژن کے درمیان بنیادی مماثلت کیا ہے؟
+
+104
+
+1.6
+Additional
+
+105
+
+Explain the "carry" concept in binary addition.
+
+بائنری اضافے میں "کیری" کے تصور کی وضاحت کریں۔
+
+105
+
+1.6
+Additional
+
+106
+
+What happens to the bits during the "Inversion" process?
+
+"الٹا" عمل کے دوران بٹس کا کیا ہوتا ہے؟
+
+106
+
+1.6
+Additional
+
+107
+
+Define Minuend and Subtrahend in binary subtraction.
+
+بائنری تفریق میں مینینڈ اور سبٹریکینڈ کی تعریف کریں۔
+
+107
+
+1.6
+Additional
+
+108
+
+Why is 2's complement used for subtraction instead of direct subtraction?
+
+2 کے تکمیل کا استعمال براہِ راست تفریق کے بجائے تفریق کے لیے کیوں کیا جاتا ہے؟
+
+108
+
+1.6
+Additional
+
+109
+
+What is the core rule for binary addition when both digits are 1?
+
+جب دونوں ہندسے 1 ہوں تو بائنری اضافے کا بنیادی اصول کیا ہے؟
+
+109
+
+1.6
+Additional
+
+110
+
+Write down the steps for multiplying binary numbers.
+
+بائنری نمبروں کو ضرب دینے کے مراحل لکھیں۔
+
+110
+
+1.6
+Additional
+
+111
+
+Write down the steps for dividing binary numbers.
+
+بائنری نمبروں کو تقسیم کرنے کے مراحل لکھیں۔
+
+111
+
+2.1 BASIC CONCEPT OF DIGITAL SYSTEMS
+2.1
+Exercise
+
+112
+
+Write the purpose of ADC and DAC.
+
+ADC اور DAC کے مقصد کو لکھیں۔
+
+112
+
+2.1
+Additional
+
+113
+
+Differentiate between analog signals and digital signals with one example each.
+
+ینالاگ سگنلز اور ڈیجیٹل سگنلز کے درمیان ایک ایک مثال کے ساتھ فرق کریں۔
+
+113
+
+2.1
+Additional
+
+114
+
+Define digital systems and state where they are used.
+
+ڈیجیٹل سسٹم کی وضاحت کریں اور بتائیں کہ وہ کہاں استعمال ہوتے ہیں۔
+
+114
+
+2.1
+Additional
+
+115
+
+Describe analog signal with examples.
+
+اینا لوگ سگنل کو مثال کے ساتھ بیان کریں۔
+
+115
+
+2.1
+Additional
+
+116
+
+Describe digital signal with examples.
+
+ڈیجیٹل سگنل کو مثال کے ساتھ بیان کریں۔
+
+116
+
+2.1
+Additional
+
+117
+
+What is meant by ADC? Also, write its function.
+
+ADC سے کیا مراد ہے؟ اس کے علاوہ اس کا فنکشن بھی لکھیں۔
+
+117
+
+2.1
+Additional
+
+118
+
+What is meant by DAC? Also, write its function.
+
+DAC سے کیا مراد ہے؟ اس کے علاوہ اس کا فنکشن بھی لکھیں۔
+
+118
+
+2.1
+Additional
+
+119
+
+Why are ADC and DAC needed?
+
+ADC اور DAC کیوں ضروری ہیں؟
+
+119
+
+2.1
+Additional
+
+120
+
+What is digital logic?
+
+ڈیجیٹل لوجک کیا ہے؟
+
+120
+
+2.1
+Additional
+
+121
+
+How are the binary states represented in digital circuits?
+
+بائنری سٹیٹس کو ڈیجیٹل سرکٹ میں کیسے ظاہر کیا جاتا ہے؟
+
+121
+
+2.1
+Additional
+
+122
+
+Why is ADC and DAC conversion necessary in modern communication systems?
+
+جدید مواصلاتی نظام میں ADC اور DAC کی تبدیلی کیوں ضروری ہے؟
+
+122
+
+2.1
+Additional
+
+123
+
+Why can’t computers directly process analog signals?
+
+کمپیوٹرز براہ راست اینالاگ سگنلز پر کارروائی کیوں نہیں کر سکتے؟
+
+123
+
+2.1
+Additional
+
+124
+
+What happens if a digital signal is degraded by noise compared to an analog signal?
+
+اگر ینالاگ سگنل کے مقابلے میں ایک ڈیجیٹل سگنل شور سے کم ہو جائے تو کیا ہوتا ہے؟
+
+124
+
+2.1
+Additional
+
+125
+
+What is the main disadvantage of analog signals for long-distance communication?
+
+لمبی دوری کے مواصلات کے لیے ینالاگ سگنلز کا بنیادی نقصان کیا ہے؟
+
+125
+
+2.1
+Additional
+
+126
+
+Name one electronic device that relies on ADC and one that relies on DAC.
+
+ایک الیکٹرانک ڈیوائس کا نام بتائیں جو ADC پر انحصار کرتا ہے اور ایک جو DAC پر انحصار کرتا ہے۔
+
+126
+
+2.2 BOOLEAN ALGEBRA AND LOGIC GATES
+2.2
+Exercise
+
+127
+
+Define a Boolean function.
+
+بولین فنکشن کی تعریف کریں۔
+
+127
+
+2.2
+Exercise
+
+128
+
+What is the significance of the truth table in digital logic?
+
+ڈیجیٹل لاجک میں ٹروتھ ٹیبل کی کیا اہمیت ہے؟
+
+128
+
+2.2
+Exercise
+
+129
+
+Describe the function of a NOT gate with its truth table.
+
+NOT گیٹ کے کام کو اس کے ٹروتھ ٹیبل کے ساتھ بیان کریں۔
+
+129
+
+2.2
+Exercise
+
+130
+
+Make the truth of two variable A,B for AND operation.
+
+دو متغیرات A اور B کی AND آپریشن کے لیے سچائی بنائیں۔
+
+130
+
+2.2
+Additional
+
+131
+
+What is Boolean algebra?
+
+بولین الجبرا کیا ہوتا ہے؟
+
+131
+
+2.2
+Additional
+
+132
+
+Define Boolean expression and give and example.
+
+بولین ایکسپریشن کو بیان کریں اور مثال دیں۔
+
+132
+
+2.2
+Additional
+
+133
+
+How does AND operation work?
+
+AND آپریشن کیسے کام کرتا ہے؟
+
+133
+
+2.2
+Additional
+
+134
+
+How does OR operation work?
+
+OR آپریشن کیسے کام کرتا ہے؟
+
+134
+
+2.2
+Additional
+
+135
+
+How does NOT operation work?
+
+NOT آپریشن کیسے کام کرتا ہے؟
+
+135
+
+2.2
+Additional
+
+136
+
+What is an truth table?
+
+ٹروتھ ٹیبل کیا ہوتا ہے؟
+
+136
+
+2.2
+Additional
+
+137
+
+How are the number of combination of inputs determined for a truth table?
+
+ٹروتھ ٹیبل کے لیے ان پٹ کے مجموعہ کی تعداد کا تعین کیسے کیا جاتا ہے؟
+
+137
+
+2.2
+Additional
+
+138
+
+What are the applications of Boolean function in computer?
+
+کمپیوٹر میں بولین فنکشن کی ایپلی کیشنز کیا ہیں؟
+
+138
+
+2.2
+Additional
+
+139
+
+What is logic gate?
+
+لاجک گیٹ کیا ہوتا ہے؟
+
+139
+
+2.2
+Additional
+
+140
+
+What is AND gate? How does it work?
+
+AND گیٹ کیا ہے؟ اور یہ کیسے کام کرتا ہے؟
+
+140
+
+2.2
+Additional
+
+141
+
+What is OR gate? How does it work?
+
+OR گیٹ کیا ہے اور یہ کیسے کام کرتا ہے؟
+
+141
+
+2.2
+Additional
+
+142
+
+What is NOT gate? How does it work?
+
+NOT گیٹ کیا ہے اور یہ کیسے کام کرتا ہے؟
+
+142
+
+2.2
+Additional
+
+143
+
+What is NAND gate? How does it work?
+
+NAND گیٹ کیا ہے اور یہ کیسے کام کرتا ہے؟
+
+143
+
+2.2
+Additional
+
+144
+
+What is XOR gate? How does it work?
+
+XOR گیٹ کیا ہے اور یہ کیسے کام کرتا ہے؟
+
+144
+
+2.3 SIMPLIFICATION OF BOOLEAN FUNCTIONS
+2.3
+Additional
+
+145
+
+Why is it important to simplify Boolean functions?
+
+بولین فنکشنز کو سادہ کرنا کیوں اہم ہے؟
+
+145
+
+2.3
+Additional
+
+146
+
+What is identity law?
+
+ایڈنٹی لاء کیا ہے؟
+
+146
+
+2.3
+Additional
+
+147
+
+What is Null law?
+
+نل لاء کیا ہے؟
+
+147
+
+2.3
+Additional
+
+148
+
+What is indempotent law?
+
+بے اختیار قانون کیا ہے؟
+
+148
+
+2.3
+Additional
+
+149
+
+What is complement law?
+
+کمپلیمنٹ لاء کیا ہے؟
+
+149
+
+2.3
+Additional
+
+150
+
+What is commutative law?
+
+کموٹیٹیو لاء کیا ہے؟
+
+150
+
+2.3
+Additional
+
+151
+
+What is associative law?
+
+ایسوسی ایٹو لاء کیا ہے؟
+
+151
+
+2.3
+Additional
+
+152
+
+What is distributive law?
+
+ڈسٹری بیٹو لاء کیا ہے؟
+
+152
+
+2.3
+Additional
+
+153
+
+What is absoption laws?
+
+ابزورپشن لاء کیا ہے؟
+
+153
+
+2.3
+Additional
+
+154
+
+What is double negation law?
+
+ڈبل نیگیشن لاء کیا ہے؟
+
+154
+
+2.4 CREATING LOGIC DIAGRAMS
+2.4
+Additional
+
+155
+
+What is the use of logic diagram?
+
+لاجک ڈایا گرام کا استعمال کیا ہے؟
+
+155
+
+2.4
+Additional
+
+156
+
+What is the purpose of a logic diagram?
+
+لاجک ڈایاگرام کا مقصد کیا ہے؟
+
+156
+
+2.4
+Additional
+
+157
+
+What are the two main steps before connecting gates in a logic diagram?
+
+لاجک ڈایاگرام میں گیٹس کو جوڑنے سے پہلے دو اہم مراحل کیا ہیں؟
+
+157
+
+2.4
+Additional
+
+158
+
+Why is knowledge of Boolean algebra important in digital circuits?
+
+ڈیجیٹل سرکٹس میں بولین الجبرا کا علم کیوں اہم ہے؟
+
+158
+
+2.4
+Additional
+
+159
+
+What does ‘AB’ mean in Boolean algebra?
+
+بولین الجبرا میں 'AB' کا کیا مطلب ہے؟
+
+159
+
+2.4
+Additional
+
+160
+
+What does ‘AB + AC’ represent in terms of gates?
+
+'AB + AC' گیٹس کے لحاظ سے کیا ظاہر کرتا ہے؟
+
+160
+
+2.4
+Additional
+
+161
+
+State two advantages of using logic diagrams.
+
+منطقی خاکے استعمال کرنے کے دو فوائد بیان کریں۔
+
+161
+
+2.4
+Additional
+
+162
+
+How many input combinations are there for a 3-input logic circuit?
+
+3-ان پٹ لاجک سرکٹ کے لیے کتنے ان پٹ امتزاج ہوتے ہیں؟
+
+162
+
+2.4
+Additional
+
+163
+
+What is the output when A=1, B=1, C=0 for the function AB+AC?
+
+جب A=1, B=1, C=0 فنکشن AB+AC کے لیے آؤٹ پٹ کیا ہے؟
+
+163
+
+2.5 SYSTEM TROUBLESHOOTING
+2.5
+Exercise
+
+164
+
+What is the first step in the systematic process of troubleshooting?
+
+ٹربل شوٹنگ کے منظم عمل میں پہلا قدم کیا ہے؟
+
+164
+
+2.5
+Exercise
+
+165
+
+After identifying a problem, what is the next step in troubleshooting?
+
+کسی مسئلے کی نشاندہی کرنے کے بعد، ٹربل شوٹنگ میں اگلا مرحلہ کیا ہے؟
+
+165
+
+2.5
+Exercise
+
+166
+
+Describe the importance of testing a theory during the troubleshooting process.
+
+ٹربل شوٹنگ کے عمل کے دوران کسی نظریے کی جانچ کی اہمیت بیان کریں۔
+
+166
+
+2.5
+Exercise
+
+167
+
+Explain what the "Implement the Solution" step entails in a troubleshooting.
+
+وضاحت کریں کہ " حل کو نافذ کریں "  مرحلے میں مسائل کے حل میں کیا شامل ہے؟
+
+167
+
+2.5
+Exercise
+
+168
+
+Why is it necessary to verify full system functionality after implementing a solution?
+
+کسی حل کو نافذ کرنے کے بعد مکمل سسٹم کی فعالیت کی تصدیق کرنا کیوں ضروری ہے؟
+
+168
+
+2.5
+Additional
+
+169
+
+What is the system troubleshooting?
+
+سسٹم ٹربل شوٹنگ کیا ہے؟
+
+169
+
+2.5
+Additional
+
+170
+
+How can downtime be costly for business?
+
+کاروبار کے لیے ڈاؤن ٹائم مہنگا کیسے ہو سکتا ہے؟
+
+170
+
+2.5
+Additional
+
+171
+
+How does troubleshooting help in ensuring data integrity?
+
+ٹڑبل شوٹنگ لگانا ڈیٹا کی سالمیت کو یقینی بنانے میں کس طرح مدد کرتا ہے؟
+
+171
+
+2.5
+Additional
+
+172
+
+How can troubleshooting enhance computer performance?
+
+ٹربل شوٹنگ کمپیوٹر کی کارکردگی کو کیسے بڑھا سکتا ہے؟
+
+172
+
+2.5
+Additional
+
+173
+
+What is included in the documentation?
+
+دستاویزات میں کیا شامل ہے؟
+
+173
+
+2.5
+Additional
+
+174
+
+How hardware diagnosis and maintenance critical?
+
+ہارڈ ویئر کی تشخیص اور دیکھ بھال کس طرح اہم ہے؟
+
+174
+
+2.5
+Additional
+
+175
+
+What are the common signs of hard drive issues?
+
+ہارڈرائیو کے مسائل کی عام علامات کیا ہیں؟
+
+175
+
+2.5
+Additional
+
+176
+
+Why is learning troubleshooting skills beneficial for a computer user?
+
+ٹربل شوٹنگ کی مہارتیں سیکھنا کمپیوٹر صارف کے لیے کیوں فائدہ مند ہے؟
+
+176
+
+2.5
+Additional
+
+177
+
+What is the main purpose of a systematic approach to troubleshooting?
+
+ٹربل شوٹنگ کے باقاعدہ طریقے کا بنیادی مقصد کیا ہے؟
+
+177
+
+2.5
+Additional
+
+178
+
+List the steps involved in the systematic process of troubleshooting.
+
+ٹربل شوٹنگ کے منظم عمل میں شامل مراحل کی فہرست بنائیں۔
+
+178
+
+2.5
+Additional
+
+179
+
+What does "Identify Problem" mean in troubleshooting?
+
+ٹربل شوٹنگ میں "مسئلے کی نشاندہی" سے کیا مراد ہے؟
+
+179
+
+2.5
+Additional
+
+180
+
+Explain the step "Establish a Theory of Probable Cause".
+
+مرحلہ "ممکنہ وجہ کا نظریہ قائم کرنا" کی وضاحت کریں۔
+
+180
+
+2.5
+Additional
+
+181
+
+Give some possible reasons if the laptop is not turning on.
+
+اگر لیپ ٹاپ آن نہ ہو رہا ہو تو اس کی ممکنہ وجوہات کی مثالیں دیں۔
+
+181
+
+2.5
+Additional
+
+182
+
+Explain the step "Establish a Plan of Action to Resolve the Problem".
+
+مرحلہ "مسئلے کو حل کرنے کے لیے لائحہ عمل تیار کرنا" کی وضاحت کریں۔
+
+182
+
+2.5
+Additional
+
+183
+
+What is the final step of the troubleshooting process?
+
+ٹربل شوٹنگ کے عمل کا آخری مرحلہ کیا ہے؟
+
+183
+
+2.5
+Additional
+
+184
+
+Why is documenting troubleshooting findings important?
+
+ٹربل شوٹنگ کے نتائج کو دستاویزی شکل دینا کیوں ضروری ہے؟
+
+184
+
+2.5
+Additional
+
+185
+
+What is an "Instant Fix" for a computer problem?
+
+ کمپیوٹر کے مسئلے کا "فوری حل" کیا ہے؟
+
+185
+
+2.5
+Additional
+
+186
+
+Why is troubleshooting very important in computing systems?
+
+ کمپیوٹنگ سسٹمز میں ٹربل شوٹنگ کیوں بہت اہم ہے؟
+
+186
+
+2.5
+Additional
+
+187
+
+What negative consequences can occur if a computer system goes wrong?
+
+اگر کمپیوٹر سسٹم میں کوئی خرابی آ جائے تو اس کے کیا منفی نتائج ہو سکتے ہیں؟
+
+187
+
+2.5
+Additional
+
+188
+
+What is the ultimate benefit of systematic troubleshooting steps?
+
+منظم ٹربل شوٹنگ کے مراحل پر عمل کرنے کا حتمی فائدہ کیا ہے؟
+
+188
+
+2.5
+Additional
+
+189
+
+What is meant by system downtime?
+
+سسٹم ڈاؤن ٹائم سے کیا مراد ہے؟
+
+189
+
+2.5
+Additional
+
+190
+
+How does troubleshooting help in preventing system downtime?
+
+ٹربل شوٹنگ سسٹم ڈاؤن ٹائم کو روکنے میں کیسے مدد کرتی ہے؟
+
+190
+
+2.5
+Additional
+
+191
+
+Define data integrity in computing systems.
+
+کمپیوٹنگ سسٹمز میں ڈیٹا کی سالمیت کی تعریف کریں۔
+
+191
+
+2.5
+Additional
+
+192
+
+How does troubleshooting improve the security of a computer system?
+
+ٹربل شوٹنگ کمپیوٹر سسٹم کی سیکیورٹی کو کیسے بہتر بناتی ہے؟
+
+192
+
+2.5
+Additional
+
+193
+
+Why is improving system security important for data?
+
+ڈیٹا کے لیے سسٹم کی سیکیورٹی کو بہتر بنانا کیوں ضروری ہے؟
+
+193
+
+2.5
+Additional
+
+194
+
+Write three common reasons behind the slow performance of a computer.
+
+کمپیوٹر کی سست کارکردگی کے پیچھے تین عام وجوہات بیان کریں۔
+
+194
+
+2.5
+Additional
+
+195
+
+How can a user enhance the performance of a lagging computer system?
+
+ایک صارف سست چلنے والے کمپیوٹر سسٹم کی کارکردگی کو کیسے بڑھا سکتا ہے؟
+
+195
+
+2.5
+Additional
+
+196
+
+How does regular troubleshooting and maintenance extend equipment life?
+
+باقاعدہ ٹربل شوٹنگ اور دیکھ بھال ہارڈ ویئر کی عمر کو کیسے بڑھاتی ہے؟
+
+196
+
+2.5
+Additional
+
+197
+
+What is the real-world financial impact of effective troubleshooting in businesses?
+
+کاروبار میں مؤثر ٹربل شوٹنگ کا حقیقی دنیا میں مالیاتی اثر کیا ہے؟
+
+197
+
+2.5
+Additional
+
+198
+
+What is the impact of cable disconnection on computer devices, and how can it be resolved?
+
+کمپیوٹر ڈیوائسز پر کیبل منقطع ہونے کا کیا اثر ہوتا ہے، اور اسے کیسے حل کیا جا سکتا ہے؟
+
+198
+
+2.5
+Additional
+
+199
+
+Write the issues caused by computer overheating and state its primary solution.
+
+کمپیوٹر کے زیادہ گرم ہونے سے پیدا ہونے والے مسائل اور اس کا بنیادی حل لکھیں۔
+
+199
+
+2.5
+Additional
+
+200
+
+What problems can occur with peripheral devices, and how can they be fixed?
+
+پیریفیرل ڈیوائسز کے ساتھ کیا مسائل پیدا ہو سکتے ہیں، اور انہیں کیسے ٹھیک کیا جا سکتا ہے؟
+
+200
+
+2.5
+Additional
+
+201
+
+What are modern diagnostic tools compared to, and why?
+
+جدید ڈائیگنوسٹک ٹولز کو کس چیز سے تشبیہ دی گئی ہے اور کیوں؟
+
+201
+
+2.5
+Additional
+
+202
+
+State three common symptoms of RAM failures in a computer.
+
+کمپیوٹر میں ریم کی خرابی کی تین عام علامات بیان کریں۔
+
+202
+
+2.5
+Additional
+
+203
+
+Name the diagnostic tools used to check for RAM errors.
+
+ریم کی خرابیوں کو چیک کرنے کے لیے استعمال ہونے والے ڈائیگنوسٹک ٹولز کے نام لکھیں۔
+
+203
+
+2.5
+Additional
+
+204
+
+What serious issues can faulty RAM cause, and what is its crash statistic?
+
+خراب ریم کن سنگین مسائل کا باعث بن سکتی ہے، اور اس کے کریش ہونے کے اعداد و شمار کیا ہیں؟
+
+204
+
+2.5
+Additional
+
+205
+
+Name two tools used for hard drive diagnosis.
+
+ہارڈ ڈرائیو کے تشخیصی ٹیسٹ کے لیے استعمال ہونے والے دو ٹولز کے نام لکھیں۔
+
+205
+
+2.5
+Additional
+
+206
+
+What are the dual benefits of upgrading or replacing hardware components?
+
+ہارڈ ویئر کے اجزاء کو اپ گریڈ یا تبدیل کرنے کے دوہرے فوائد کیا ہیں؟
+
+206
+
+2.5
+Additional
+
+207
+
+What initial steps should be considered before physically transforming RAM?
+
+ریم کو جسمانی طور پر تبدیل کرنے سے پہلے کن ابتدائی مراحل پر غور کرنا ضروری ہے؟
+
+207
+
+2.5
+Additional
+
+208
+
+What essential software steps must be taken after installing a new hard drive?
+
+نئی ہارڈ ڈرائیو انسٹال کرنے کے بعد کون سے ضروری سافٹ ویئر مراحل پر عمل کرنا چاہیے؟
+
+208
+
+2.5
+Additional
+
+209
+
+Why are regular maintenance and security measures essential for a computing system?
+
+کمپیوٹنگ سسٹم کے لیے باقاعدہ دیکھ بھال اور سیکیورٹی کے اقدامات کیوں ضروری ہیں؟
+
+209
+
+2.5
+Additional
+
+210
+
+Why is keeping software up to date and resolving conflicts essential?
+
+سافٹ ویئر کو اپ ٹو ڈیٹ رکھنا اور ان کے آپسی تصادم کو حل کرنا کیوں ضروری ہے؟
+
+210
+
+2.5
+Additional
+
+211
+
+What is the benefit of regularly installing updates and software patches?
+
+باقاعدگی سے اپ ڈیٹس اور سافٹ ویئر پیچز انسٹال کرنے کا کیا فائدہ ہے؟
+
+211
+
+2.5
+Additional
+
+212
+
+How do you resolve software conflicts when two applications cause system instability?
+
+جب دو ایپلیکیشنز سسٹم میں عدم استحکام کا باعث بنیں تو آپ سافٹ ویئر کے تصادم کو کیسے حل کرتے ہیں؟
+
+212
+
+2.5
+Additional
+
+213
+
+Why are operating system or antivirus updates so important?
+
+آپریٹنگ سسٹم یا اینٹی وائرس کی اپ ڈیٹس کیوں انتہائی اہم ہیں؟
+
+213
+
+2.5
+Additional
+
+214
+
+Which ransomware attack in 2017 exploited unpatched vulnerabilities in older windows systems?
+
+۲۰۱۷ء میں کس رینسم ویئر  حملے نے پرانے ونڈوز سسٹمز میں پیچ نہ کی گئی کمزوریوں کا فائدہ اٹھایا تھا؟
+
+214
+
+3.1 NETWORK AS A SYSTEM
+3.1
+Additional
+
+215
+
+What is computer network?
+
+کمپیوٹر نیٹ ورک کیا ہوتا ہے؟
+
+215
+
+3.1
+Additional
+
+216
+
+Give an example of computer network.
+
+کمپیوٹر نیٹ ورک کی مثال دیں۔
+
+216
+
+3.1
+Additional
+
+217
+
+Why do we use computer network?
+
+ہم کمپیوٹر نیٹ ورک کیوں استعمال کرتے ہیں؟
+
+217
+
+3.1
+Additional
+
+218
+
+What are the primary components of computer network?
+
+کمپیوٹر نیٹ ورک  کے بنیادی اجزا کون سے ہیں؟
+
+218
+
+3.1
+Additional
+
+219
+
+List the main objectives of computer network.
+
+کمپیوٹر نیٹ ورکس کے بنیادی اجزا کی فہرست بنائیں۔
+
+219
+
+3.1
+Additional
+
+220
+
+How do computer network share resources? Give an example.
+
+کمپیوٹر نیٹ ورک وسائل کو کیسے شیئر کرتے ہیں؟ مثال بھی لکھیں۔
+
+220
+
+3.1
+Additional
+
+221
+
+How do computer network help in communication?
+
+کمپیوٹر نیٹ ورک کمیونیکیشن میں کس طرح مدد کرتے ہیں؟
+
+221
+
+3.1
+Additional
+
+222
+
+What is video conferencing?
+
+ویڈیو کانفرنسنگ کیا ہوتی ہے؟
+
+222
+
+3.1
+Additional
+
+223
+
+How can computer network enable connectivity and collaboration?
+
+کمپیوٹر نیٹ ورک کنیکٹیویٹی اور تعاون کو کیسے فعال کر سکتا ہے؟
+
+223
+
+3.1
+Additional
+
+224
+
+What is google drive?
+
+گوگل ڈرائیو کیا ہوتے ہے؟
+
+224
+
+3.1
+Additional
+
+225
+
+Differentiate between a router and a switch.
+
+روٹر اور سوئچ میں فرق بیان کریں۔
+
+225
+
+3.1
+Additional
+
+226
+
+What is the role of a modem in a network?
+
+نیٹ ورک میں موڈم کا کیا کردار ہے؟
+
+226
+
+3.1
+Additional
+
+227
+
+State two advantages of resource sharing in networks.
+
+نیٹ ورکس میں ریسورس شیئرنگ کے دو فائدے بتائیں۔
+
+227
+
+3.1
+Additional
+
+228
+
+What does WWW stand for and who invented it?
+
+WWW کا پورا نام کیا ہے اور اسے کس نے ایجاد کیا؟
+
+228
+
+3.1
+Additional
+
+229
+
+Why is data communication an important objective of computer networks?
+
+کمپیوٹر نیٹ ورکس میں ڈیٹا کمیونیکیشن کیوں اہم ہے؟
+
+229
+
+3.2 FUNDAMENTAL CONCEPTS IN DATA COMMUNICATION
+3.2
+Exercise
+
+230
+
+Define data communication.
+
+ڈیٹا کمیونیکیشن کی تعریف کریں۔
+
+230
+
+3.2
+Exercise
+
+231
+
+Enlist its key components of data communications.
+
+ڈیٹا کمیونیکیشن کے اس کے اہم اجزاء کی فہرست بنائیں۔
+
+231
+
+3.2
+Additional
+
+232
+
+What is the role of a sender in data communication? Give an example.
+
+ڈیٹا کمیونیکیشن میں بھیجنے والے کا کیا کردار ہے؟ ایک مثال دیں۔
+
+232
+
+3.2
+Additional
+
+233
+
+What is the role of a receiver in data communication? Give an example.
+
+ڈیٹا کمیونیکیشن میں وصول کنندہ کا کیا کردار ہے؟ ایک مثال دیں۔
+
+233
+
+3.2
+Additional
+
+234
+
+Define protocol and give one example.
+
+پروٹوکول کی تعریف کریں اور ایک مثال دیں۔
+
+234
+
+3.2
+Additional
+
+235
+
+Differentiate between message and medium in data communication.
+
+ڈیٹا کمیونیکیشن میں میسج اور میڈیم میں فرق کریں۔
+
+235
+
+3.2
+Additional
+
+236
+
+Why are protocols necessary in data communication?
+
+ڈیٹا کمیونیکیشن میں پروٹوکول کیوں ضروری ہیں؟
+
+236
+
+3.2
+Additional
+
+237
+
+What happens if the receiver does not understand the protocol used by the sender?
+
+اگر وصول کنندہ بھیجنے والے کے استعمال کردہ پروٹوکول کو نہیں سمجھتا ہے تو کیا ہوگا؟
+
+237
+
+3.2
+Additional
+
+238
+
+State one difference between a wired and a wireless medium.
+
+وائرڈ اور وائرلیس میڈیم کے درمیان ایک فرق بتائیں۔
+
+238
+
+3.2
+Additional
+
+239
+
+What is the main function of a protocol in data communication?
+
+ڈیٹا کمیونیکیشن میں پروٹوکول کا بنیادی کام کیا ہے؟
+
+239
+
+3.2
+Additional
+
+240
+
+Can data communication take place without a medium? Explain briefly.
+
+کیا ڈیٹا مواصلات میڈیم کے بغیر ہو سکتا ہے؟ مختصراً بیان کریں۔
+
+240
+
+3.2
+Additional
+
+241
+
+Why is it important for the message to be in a format understandable by the receiver?
+
+پیغام کے لیے یہ کیوں ضروری ہے کہ وہ اس فارمیٹ میں ہو جو وصول کنندہ کے لیے قابل فہم ہو؟
+
+241
+
+3.2
+Additional
+
+242
+
+What role does Wi-Fi play in the data communication process?
+
+ڈیٹا کمیونیکیشن کے عمل میں وائی فائی کیا کردار ادا کرتا ہے؟
+
+242
+
+3.3 NETWORKING DEVICES
+3.3
+Exercise
+
+243
+
+Write the role of routers in a computer network.
+
+کمپیوٹر نیٹ ورک میں روٹرز کا کردار لکھیں۔
+
+243
+
+3.3
+Additional
+
+244
+
+What are networking devices.
+
+نیٹ ورکنگ ڈیوائسز کیا ہوتی ہیں؟
+
+244
+
+3.3
+Additional
+
+245
+
+Name four networking devices.
+
+چار نیٹ ورکنگ ڈیوائسوں کے نام لکھیں۔
+
+245
+
+3.3
+Additional
+
+246
+
+What is the role of switch in a network?
+
+نیٹ ورک میں سوئچ کا کیا کردار ہوتا ہے؟
+
+246
+
+3.3
+Additional
+
+247
+
+Define a switch and state its main function.
+
+ایک سوئچ کی تعریف کریں اور اس کا بنیادی کام بیان کریں۔
+
+247
+
+3.3
+Additional
+
+248
+
+What is a MAC Address and why is it important?
+
+میک ایڈریس کیا ہے اور یہ کیوں ضروری ہے؟
+
+248
+
+3.3
+Additional
+
+249
+
+What is the difference between hub and switch?
+
+ہب اور سوئچ میں کیا فرق ہے؟
+
+249
+
+3.3
+Additional
+
+250
+
+Define a router and state its main function.
+
+ایک راؤٹر کی تعریف کریں اور اس کا بنیادی کام بیان کریں۔
+
+250
+
+3.3
+Additional
+
+251
+
+What is SIM card?
+
+SIM کارڈ کیا ہوتا ہے؟
+
+251
+
+3.3
+Additional
+
+252
+
+Define an access point and state its main functions.
+
+ایک ایکسیس پوائنٹ کی تعریف کریں اور اس کے بنیادی کام بیان کریں۔
+
+252
+
+3.3
+Additional
+
+253
+
+How is data transferred in packet switching?
+
+پاکٹ سوئچنگ میں ڈیٹا کیسے ٹرانسفر کیا جاتا ہے؟
+
+253
+
+3.3
+Additional
+
+254
+
+Why is circuit switching not efficient?
+
+سرکٹ سوئچنگ موثر کیوں نہیں ہے؟
+
+254
+
+3.3
+Additional
+
+255
+
+Why is a switch called a “smart traffic conductor”?
+
+ایک سوئچ کو "سمارٹ ٹریفک کنڈکٹر" کیوں کہا جاتا ہے؟
+
+255
+
+3.3
+Additional
+
+256
+
+Differentiate between broadcasting and forwarding in a switch.
+
+سوئچ میں براڈکاسٹنگ اور فارورڈنگ کے درمیان فرق کریں۔
+
+256
+
+3.3
+Additional
+
+257
+
+How does a switch improve network efficiency?
+
+ایک سوئچ نیٹ ورک کی کارکردگی کو کیسے بہتر بناتا ہے؟
+
+257
+
+3.3
+Additional
+
+258
+
+What does a switch do when it receives data for the first time?
+
+جب پہلی بار ڈیٹا موصول ہوتا ہے تو سوئچ کیا کرتا ہے؟
+
+258
+
+3.3
+Additional
+
+259
+
+At which OSI layer does a switch work?
+
+سوئچ کس OSI پرت پر کام کرتا ہے؟
+
+259
+
+3.3
+Additional
+
+260
+
+What are data packets and why are they used?
+
+ڈیٹا پیکٹس کیا ہیں اور انہیں کیوں استعمال کیا جاتا ہے؟
+
+260
+
+3.3
+Additional
+
+261
+
+What is a routing table and how does it help a router?
+
+روٹنگ ٹیبل کیا ہے اور یہ روٹر کی کس طرح مدد کرتا ہے؟
+
+261
+
+3.3
+Additional
+
+262
+
+Explain the air travel analogy used to understand packet switching.
+
+پیکٹ سوئچنگ کو سمجھنے کے لیے استعمال ہونے والے ہوائی سفر کے موازنہ کی وضاحت کریں۔
+
+262
+
+3.3
+Additional
+
+263
+
+What is the difference between a router and an access point?
+
+روٹر اور ایکسیس پوائنٹ میں کیا فرق ہے؟
+
+263
+
+3.3
+Additional
+
+264
+
+Define an Access Point and state its purpose.
+
+ایک ایکسیس پوائنٹ کی تعریف کریں اور اس کا مقصد بیان کریں۔
+
+264
+
+3.3
+Additional
+
+265
+
+Give one example of a mobile Wi-Fi router use case.
+
+موبائل وائی فائی روٹر کے استعمال کا ایک مثال دیں۔
+
+265
+
+3.3
+Additional
+
+266
+
+Why is it important to place a switch in a cool, ventilated area?
+
+سوئچ کو ٹھنڈی اور ہوادار جگہ پر رکھنے کی اہمیت کیوں ہے؟
+
+266
+
+3.3
+Additional
+
+267
+
+Why is the placement of an access point important?
+
+ایکسس پوائنٹ کی جگہ کا تعین کیوں اہم ہے؟
+
+267
+
+3.3
+Additional
+
+268
+
+What type of network connection does an access point use to connect to the wired network?
+
+ایکسس پوائنٹ وائرڈ نیٹ ورک سے جڑنے کے لیے کس قسم کے نیٹ ورک کنکشن کا استعمال کرتا ہے؟
+
+268
+
+3.3
+Additional
+
+269
+
+How does an access point handle data coming from wireless devices?
+
+ایک ایکسیس پوائنٹ وائرلیس ڈیوائسز سے آنے والے ڈیٹا کو کیسے ہینڈل کرتا ہے؟
+
+269
+
+3.3
+Additional
+
+270
+
+What is the main advantage of using an access point in a home or office?
+
+گھر یا دفتر میں ایک ایکسیس پوائنٹ استعمال کرنے کا بنیادی فائدہ کیا ہے؟
+
+270
+
+3.4 NETWORK TOPOLOGIES
+3.4
+Exercise
+
+271
+
+Define star topology?
+
+ستارہ ٹوپولوجی کی تعریف کریں؟
+
+271
+
+3.4
+Additional
+
+272
+
+Define network topology and list common network typologies.
+
+نیٹ ورک ٹپالوجی کی تعریف کریں اور عام نیٹ ورک ٹپالوجی کی فہرست بنائیں۔
+
+272
+
+3.4
+Additional
+
+273
+
+What it bus topology?
+
+بس ٹپالوجی کیا ہے؟
+
+273
+
+3.4
+Additional
+
+274
+
+What is star topology?
+
+اسٹار ٹپالوجی کیا ہے؟
+
+274
+
+3.4
+Additional
+
+275
+
+What is major disadvantage of star topology?
+
+سٹار ٹپالوجی کے بڑے نقصانات کیا ہیں؟
+
+275
+
+3.4
+Additional
+
+276
+
+What is ring topology?
+
+رنگ ٹپالوجی کیا ہے؟
+
+276
+
+3.4
+Additional
+
+277
+
+What is mesh topology?
+
+میش ٹپالوجی کیا ہے؟
+
+277
+
+3.4
+Additional
+
+278
+
+Define network topology and state why it matters.
+
+نیٹ ورک ٹاپولوجی کی تعریف کریں اور بیان کریں کہ یہ کیوں اہم ہے۔
+
+278
+
+3.4
+Additional
+
+279
+
+What is a node in a network?
+
+نیٹ ورک میں نوڈ کیا ہوتا ہے؟
+
+279
+
+3.4
+Additional
+
+280
+
+What is a node in a network?
+
+نیٹ ورک میں نوڈ کیا ہوتا ہے؟
+
+280
+
+3.4
+Additional
+
+281
+
+Describe how devices are connected in a Bus topology.
+
+بس ٹاپولوجی میں آلات کس طرح جڑے ہوتے ہیں اس کی وضاحت کریں۔
+
+281
+
+3.4
+Additional
+
+282
+
+State the advantages and disadvantages of a bus topology.
+
+بس ٹوپولوجی کے فوائد اور نقصانات بیان کریں۔
+
+282
+
+3.4
+Additional
+
+283
+
+Describe how devices communicate in a Star topology.
+
+وضاحت کریں کہ ڈیوائسز اسٹار ٹاپولوجی میں کس طرح بات چیت کرتی ہیں۔
+
+283
+
+3.4
+Additional
+
+284
+
+What role does the central hub/switch play in a Star topology?
+
+اسٹار ٹاپولوجی میں مرکزی ہب/سوئچ کیا کردار ادا کرتا ہے؟
+
+284
+
+3.4
+Additional
+
+285
+
+Give the school principal analogy for Star topology in your own words.
+
+اپنے الفاظ میں اسٹار ٹوپولوجی کے لیے اسکول کے پرنسپل کی مثال دیں۔
+
+285
+
+3.4
+Additional
+
+286
+
+What happens if the central device fails in a Star topology?
+
+اگر مرکزی ڈیوائس اسٹار ٹاپولوجی میں ناکام ہو جائے تو کیا ہوتا ہے؟
+
+286
+
+3.4
+Additional
+
+287
+
+Describe how data flows in a Ring topology.
+
+وضاحت کریں کہ ڈیٹا رنگ ٹاپالوجی میں کس طرح بہتا ہے۔
+
+287
+
+3.4
+Additional
+
+288
+
+What is the main drawback of a single-direction ring topology?
+
+سنگل ڈائریکشن رنگ ٹاپولوجی کا سب سے اہم نقصان کیا ہے؟
+
+288
+
+3.4
+Additional
+
+289
+
+How does a 2-way ring improve a ring topology?
+
+دو طرفہ رنگ ایک رنگ ٹوپولوجی کو کیسے بہتر بناتا ہے؟
+
+289
+
+3.4
+Additional
+
+290
+
+Define Mesh topology and explain its connection structure.
+
+میش ٹوپولوجی کو تعریف کریں اور اس کی کنکشن ساخت کی وضاحت کریں۔
+
+290
+
+3.4
+Additional
+
+291
+
+Why is mesh topology considered highly reliable?
+
+میش ٹاپولوجی کو انتہائی قابل اعتماد کیوں سمجھا جاتا ہے؟
+
+291
+
+3.4
+Additional
+
+292
+
+Give one real-life analogy for mesh topology.
+
+میش ٹوپولوجی کے لیے ایک حقیقی زندگی کی مثال دیں۔
+
+292
+
+3.4
+Additional
+
+293
+
+State the advantages and disadvantages of ring topology.
+
+رِنگ ٹاپولوجی کے فوائد اور نقصانات بیان کریں۔
+
+293
+
+3.4
+Additional
+
+294
+
+State the advantages and disadvantages of mesh topology.
+
+میش ٹوپولوجی کے فوائد اور نقصانات بیان کریں۔
+
+294
+
+3.5 TRANSMISSION MODES
+3.5
+Exercise
+
+295
+
+What is difference between Half Duplex and Full Duplex communication?
+
+ہاف ڈوپلیکس اور فل ڈوپلیکس مواصلات میں کیا فرق ہے؟
+
+295
+
+3.5
+Additional
+
+296
+
+Define data transmission mode and list its types.
+
+ڈیٹا ٹرانسمیشن کے نظام کی تعریف کریں اور اس کی اقسام لکھیں۔
+
+296
+
+3.5
+Additional
+
+297
+
+What is Simplex communication? Give one example.
+
+سمپلکس کمیونیکیشن کیا ہے؟ ایک مثال دیں۔
+
+297
+
+3.5
+Additional
+
+298
+
+Explain Half-Duplex communication with an example.
+
+ہاف ڈوپلیکس کمیونیکیشن کی ایک مثال کے ساتھ وضاحت کریں۔
+
+298
+
+3.5
+Additional
+
+299
+
+What is full-duplex mode?
+
+فل ڈوپلیکس موڈ کیا ہے؟
+
+299
+
+3.5
+Additional
+
+300
+
+Differentiate between half-duplex and full-duplex transmission modes.
+
+ہاف اور فل ڈوپلیکس ٹرانسمیشن موڈ میں فرق بیان کریں۔
+
+300
+
+3.5
+Additional
+
+301
+
+Why is Simplex communication useful?
+
+سمپلیکس کمیونیکیشن کیوں مفید ہے؟
+
+301
+
+3.5
+Additional
+
+302
+
+How did early telephones differ from modern phones in terms of transmission mode?
+
+ابتدائی فونز ترسیلی طریقہ کار کے لحاظ سے جدید فونز سے کیسے مختلف تھے؟
+
+302
+
+3.5
+Additional
+
+303
+
+What activity is suggested to demonstrate Half-Duplex communication?
+
+نصف ڈوپلیکس مواصلات کو دکھانے کے لیے کون سی سرگرمی تجویز کی گئی ہے؟
+
+303
+
+3.5
+Additional
+
+304
+
+Can a device send and receive data at the same time in Half-Duplex? Explain briefly.
+
+کیا ایک ڈیوائس ہاف ڈوپلیکس میں ایک ہی وقت میں ڈیٹا بھیج اور وصول کر سکتی ہے؟ مختصراً وضاحت کریں۔
+
+304
+
+3.5
+Additional
+
+305
+
+Why can’t Simplex mode be used for two-way conversations?
+
+سادہ موڈ کو دو طرفہ گفتگو کے لیے کیوں استعمال نہیں کیا جا سکتا؟
+
+305
+
+3.5
+Additional
+
+306
+
+What is the main limitation of Half-Duplex communication?
+
+ہاف ڈوپلیکس مواصلات کی بنیادی حد کیا ہے؟
+
+306
+
+3.5
+Additional
+
+307
+
+Give one real-life example each for Simplex, Half-Duplex, and Full-Duplex.
+
+سمپلیکس، ہاف ڈوپلیکس اور فل ڈوپلیکس کے لیے ایک ایک حقیقی زندگی کی مثال دیں۔
+
+307
+
+3.5
+Additional
+
+308
+
+How does Full-Duplex improve user experience in communication?
+
+فل ڈوپلیکس مواصلات میں صارف کے تجربے کو کیسے بہتر بناتا ہے؟
+
+308
+
+3.5
+Additional
+
+309
+
+What role does waiting time play in Half-Duplex mode?
+
+ہاف ڈوپلیکس موڈ میں انتظار کا وقت کیا کردار ادا کرتا ہے؟
+
+309
+
+3.5
+Additional
+
+310
+
+Why were early phones Half-Duplex instead of Full-Duplex?
+
+ابتدائی فون فل ڈوپلیکس کے بجائے ہاف ڈوپلیکس کیوں تھے؟
+
+310
+
+4.1 COMPUTATIONAL THINKING
+4.1
+Exercise
+
+311
+
+Define computational thinking.
+
+کمپیوٹیشنل تھنکنگ کی تعریف کریں۔
+
+311
+
+4.1
+Exercise
+
+312
+
+What is decomposition in computational thinking?
+
+کمپیوٹیشنل تھنکنگ میں ڈی کمپوزیشن کیا ہے؟
+
+312
+
+4.1
+Exercise
+
+313
+
+Describe abstraction in problem-solving.
+
+مسئلہ حل کرنے میں تجرید کی وضاحت کریں۔
+
+313
+
+4.1
+Exercise
+
+314
+
+What is an algorithm?
+
+الگورتھم کیا ہے؟
+
+314
+
+4.1
+Additional
+
+315
+
+List key components of computational thinking. 
+
+کمپیوٹیشنل تھنکنگ کے اہم اجزا کے نام لکھیں۔
+
+315
+
+4.1
+Additional
+
+316
+
+How does computational thinking helps in problem solving? 
+
+مسئلے کو حل کرنے میں کمپیوٹیشنل تھنکنگ کس طرح مدد کرتی ہے؟
+
+316
+
+4.1
+Additional
+
+317
+
+Describe the Importance of decomposition. 
+
+تقسیم یا تجزیہ کی اہمیت بیان کریں۔
+
+317
+
+4.1
+Additional
+
+318
+
+What is the role of algorithm in computational thinking? 
+
+کمپیوٹیشنل تھنکنگ میں الگورتھم کا کردار کیا ہوتا ہے؟
+
+318
+
+4.1
+Additional
+
+319
+
+Explain pattern recognition with a simple example.
+
+ایک سادہ مثال کے ساتھ پیٹرن کی پہچان کی وضاحت کریں۔
+
+319
+
+4.1
+Additional
+
+320
+
+Why is computational thinking important beyond computer science?
+
+کمپیوٹر سائنس کے علاوہ کمپیوٹیشنل تھنکنگ کیوں اہم ہے؟
+
+320
+
+4.1
+Additional
+
+321
+
+How does the “building a house” example show decomposition?
+
+‘گھر بنانے’ کی مثال تجزیہ کاری کو کیسے ظاہر کرتی ہے؟
+
+321
+
+4.2 PRINCIPLES OF COMPUTATIONAL THINKING
+4.2
+Exercise
+
+322
+
+How does problem understanding help in computational thinking?
+
+مسئلہ کی تفہیم کمپیوٹیشنل تھنکنگ میں کس طرح مدد کرتی ہے؟
+
+322
+
+4.2
+Additional
+
+323
+
+What is meant by Problem Understanding in computational thinking?
+
+کمپیوٹیشنل تھنکنگ میں مسئلے کو سمجھنے سے کیا مراد ہے؟
+
+323
+
+4.2
+Additional
+
+324
+
+Why did Einstein say to spend more time understanding the problem than solving it?
+
+آئن اسٹائن نے مسئلہ حل کرنے کی بجائے اسے سمجھنے میں زیادہ وقت کیوں گزارنے کو کہا؟
+
+324
+
+4.2
+Additional
+
+325
+
+Define Problem Simplification with an example.
+
+مسئلے کو آسان کرنے کی وضاحت ایک مثال کے ساتھ کریں۔
+
+325
+
+4.2
+Additional
+
+326
+
+What does Solution Selection and Design involve?
+
+حل کے انتخاب اور ڈیزائن میں کیا شامل ہے؟
+
+326
+
+4.2
+Additional
+
+327
+
+What should you do before starting to solve a problem?
+
+مسئلہ حل کرنے سے پہلے آپ کو کیا کرنا چاہیے؟
+
+327
+
+4.2
+Additional
+
+328
+
+Name the three principles of computational thinking.
+
+کمپیوٹیشنل تھنکنگ کے تین اصولوں کے نام بتائیں۔
+
+328
+
+4.3 ALGORITHM DESIGN METHODS
+4.3
+Exercise
+
+329
+
+Explain the purpose of pseudocode.
+
+سوڈوکوڈ کے مقصد کی وضاحت کریں۔
+
+329
+
+4.3
+Exercise
+
+330
+
+How do you differentiate between flowcharts and pseudocode?
+
+آپ فلو چارٹ اور سوڈوکوڈ کے درمیان فرق کیسے کرتے ہیں؟
+
+330
+
+4.3
+Exercise
+
+331
+
+Why we use flow charts?
+
+ہم فلو چارٹس کیوں استعمال کرتے ہیں؟
+
+331
+
+4.3
+Additional
+
+332
+
+What is pseudocode? Why is it used?
+
+سودو کوڈ کیا ہے؟ اسے کیوں استعمال کیا جاتا ہے؟
+
+332
+
+4.3
+Additional
+
+333
+
+What are different flowchart symbols? 
+
+فلوچارٹ کی مختلف علامتیں کیا ہیں؟
+
+333
+
+4.3
+Additional
+
+334
+
+Which symbol of flowchart will be used to represent the condition "n<=5"?
+
+شرط "n<=5" کو ظاہر کرنے کےلیے فلوچارٹ کی کون سی علامت استعمال کی جائے گی؟
+
+334
+
+4.3
+Additional
+
+335
+
+Write any four flowchart symbols. 
+
+کوئی سی چار فلو چارٹ کی علامتیں لکھیں۔
+
+335
+
+4.3
+Additional
+
+336
+
+Which symbol is used to show processing in flowchart? 
+
+فلوچارٹ میں کسی عمل کے آغاز کےلیے کون سی علامت استعمال کی جاتی ہے؟
+
+336
+
+4.3
+Additional
+
+337
+
+What is the purpose of parallelogram and rectangle symbol in flowchart? 
+
+فلو چارٹ میں متوازی گرام اور مستطیل کی علامتوں کا کیا مقصد ہوتا ہے؟
+
+337
+
+4.3
+Additional
+
+338
+
+Which symbol is used to start and end the flowchart? 
+
+فلو چارٹ کو شروع اور ختم کرنے کےلیے کون سی علامت استعمال ہوتی ہے؟
+
+338
+
+4.3
+Additional
+
+339
+
+Draw and label the symbols for Start/End, Process, and Decision in a flowchart.
+
+فلو چارٹ میں آغاز/اختتام، عمل، اور فیصلے کے لیے علامتوں کو ڈرا اور لیبل کریں۔
+
+339
+
+4.3
+Additional
+
+340
+
+What are algorithm design methods?
+
+الگورتھم ڈیزائن کے طریقے کیا ہیں؟
+
+340
+
+4.3
+Additional
+
+341
+
+Define a flowchart and state its purpose.
+
+فلوچارٹ کی تعریف کریں اور اس کا مقصد بیان کریں۔
+
+341
+
+4.3
+Additional
+
+342
+
+How do flowcharts help in problem-solving?
+
+فلوچارٹ مسئلہ حل کرنے میں کس طرح مدد کرتے ہیں؟
+
+342
+
+4.3
+Additional
+
+343
+
+State one advantage of using pseudocode over a flowchart.
+
+فلو چارٹ کے مقابلے میں سیوڈو کوڈ کے استعمال کا ایک فائدہ بیان کریں۔
+
+343
+
+4.3
+Additional
+
+344
+
+Give one real-life example where an algorithm is used.
+
+حقیقی زندگی کی ایک مثال دیں جہاں الگورتھم استعمال ہوتا ہے۔
+
+344
+
+4.4 EVALUATION TECHNIQUES FOR AN ALGORITHM
+4.4
+Additional
+
+345
+
+Define time complexity with an example.
+
+ایک مثال کے ساتھ ٹائم کمپلیسٹی کی تعریف کریں۔
+
+345
+
+4.4
+Additional
+
+346
+
+How is the complexity of algorithm expression?
+
+الگورتھم مساوات کی کمپلیسٹی کیسی ہوتی ہے؟
+
+346
+
+4.4
+Additional
+
+347
+
+What is space complexity? Why is it important?
+
+اسپیس کمپلیکسی کیا ہے؟ یہ اہم کیوں ہے؟
+
+347
+
+4.4
+Additional
+
+348
+
+What is Big O notation used for?
+
+بگ O نوٹیشن کس چیز کے لیے استعمال ہوتی ہے؟
+
+348
+
+4.4
+Additional
+
+349
+
+How does increasing input size affect time complexity?
+
+ان پٹ سائز بڑھانے سے وقت کی پیچیدگی پر کیا اثر پڑتا ہے؟
+
+349
+
+4.4
+Additional
+
+350
+
+Name two techniques used to evaluate algorithms.
+
+الگورتھم کا جائزہ لینے کے لیے استعمال ہونے والی دو تکنیکوں کے نام بتائیں۔
+
+350
+
+4.4
+Additional
+
+351
+
+Why do we need to evaluate algorithms?
+
+ہمیں الگورتھم کا جائزہ لینے کی ضرورت کیوں ہے؟
+
+351
+
+4.5 DRY RUN
+4.5
+Additional
+
+352
+
+Define simulation in the context of computer science. Write its two uses. 
+
+کمپیوٹر سائنس کے تناظر میں سیمولیشن کی تعریف کریں۔ اس کے دو استعمال لکھیں۔
+
+352
+
+4.5
+Additional
+
+353
+
+Give an example of simulation.
+
+سیمولیشن کی ایک مثال لکھیں۔
+
+353
+
+4.5
+Additional
+
+354
+
+What is a dry run? State its purpose.
+
+ڈرائی رن کیا ہے؟ اس کا مقصد بیان کریں۔
+
+354
+
+4.5
+Additional
+
+355
+
+Explain how to perform a dry run on a flowchart.
+
+فلو چارٹ پر ڈرائی رن کیسے کیا جاتا ہے؟ وضاحت کریں۔
+
+355
+
+4.5
+Additional
+
+356
+
+Give two benefits of using simulation.
+
+سمولیشن کے دو فوائد بیان کریں۔
+
+356
+
+4.5
+Additional
+
+357
+
+How does simulation help in weather forecasting and traffic planning?
+
+سمولیشن موسم کی پیشن گوئی اور ٹریفک پلاننگ میں کیسے مدد کرتی ہے؟
+
+357
+
+4.5
+Additional
+
+358
+
+What is the difference between a dry run and a simulation?
+
+ڈرائی رن اور سمولیشن میں کیا فرق ہے؟
+
+358
+
+4.5
+Additional
+
+359
+
+Why do professional programmers use dry running as a debugging technique?
+
+پیشہ ور پروگرامرز ڈرائی رننگ کو ڈیبگنگ تکنیک کے طور پر کیوں استعمال کرتے ہیں؟
+
+359
+
+4.6 INTRODUCTION OF LARP (LOGIC OF ALGORITHMS FOR RESOLUTION OF PROBLEMS)
+4.6
+Additional
+
+360
+
+What is LARP and why is it used?
+
+لارپ کیا ہے اور یہ کیوں استعمال ہوتی ہے؟
+
+360
+
+4.6
+Additional
+
+361
+
+Name two commands used in LARP and their functions.
+
+لارپ میں استعمال ہونے والی دو کمانڈز اور ان کے کام بتائیں۔
+
+361
+
+4.6
+Additional
+
+362
+
+How does LARP help in understanding algorithms?
+
+لارپ الگورتھمز کو سمجھنے میں کیسے مدد کرتی ہے؟
+
+362
+
+4.6
+Additional
+
+363
+
+What is the purpose of using IF…THEN…ELSE in LARP?
+
+لارپ میں IF…THEN…ELSE استعمال کرنے کا مقصد کیا ہے؟
+
+363
+
+4.6
+Additional
+
+364
+
+What symbols are used for processes and decisions in LARP flowcharts?
+
+لارپ کے فلو چارٹس میں عمل اور فیصلے کے لیے کون سے نشان استعمال ہوتے ہیں؟
+
+364
+
+4.6
+Additional
+
+365
+
+Give one example of an algorithm that can be written in LARP.
+
+لارپ میں لکھے جانے والے ایک الگورتھم کی مثال دیں۔
+
+365
+
+4.6
+Additional
+
+366
+
+What does LARP stand for and what is its main purpose?
+
+لارپ کا مکمل نام کیا ہے اور اس کا بنیادی مقصد کیا ہے؟
+
+366
+
+4.6
+Additional
+
+367
+
+List any two commands used in LARP and state their function.
+
+لارپ میں استعمال ہونے والی کوئی دو کمانڈز کے نام لکھیں اور ان کا کام بتائیں۔
+
+367
+
+4.6
+Additional
+
+368
+
+How does LARP help students understand how algorithms work?
+
+لارپ طلبہ کو یہ سمجھنے میں کیسے مدد کرتی ہے کہ الگورتھم کیسے کام کرتے ہیں؟
+
+368
+
+4.6
+Additional
+
+369
+
+What symbols are used for processes and decisions in LARP flowcharts?
+
+لارپ کے فلو چارٹس میں عمل اور فیصلے کے لیے کون سے علامتیں استعمال ہوتی ہیں؟
+
+369
+
+4.6
+Additional
+
+370
+
+Why is the hands-on approach of running and testing algorithms in LARP important?
+
+لارپ میں الگورتھم کو چلا کر اور ٹیسٹ کر کے سیکھنے کا عملی طریقہ کیوں اہم ہے؟
+
+370
+
+5.1 WEB DEVELOPMENT
+5.1
+Additional
+
+371
+
+What is web development?
+
+ویب ڈویلپمنٹ کیا ہوتی ہے؟
+
+371
+
+5.1
+Additional
+
+372
+
+Why should you learn web development?
+
+ہمیں ویب ڈویلپمنٹ کیوں سیکھنی چاہیے؟
+
+372
+
+5.1
+Additional
+
+373
+
+State the role of HTML, CSS, and JavaScript in web development.
+
+ویب ڈیویلپمنٹ میں HTML، CSS، اور جاوا اسکرپٹ کے کردار کو بیان کریں۔
+
+373
+
+5.1
+Additional
+
+374
+
+How does learning web development improve digital literacy?
+
+ویب ڈویلپمنٹ سیکھنے سے ڈیجیٹل خواندگی کیسے بہتر ہوتی ہے؟
+
+374
+
+5.1
+Additional
+
+375
+
+Mention two career opportunities in web development.
+
+ویب ڈویلپمنٹ میں کیریئر کے دو مواقع کا ذکر کریں۔
+
+375
+
+5.1
+Additional
+
+376
+
+How does web development help in problem-solving and creativity?
+
+ویب ڈویلپمنٹ مسائل کے حل اور تخلیقی صلاحیتوں میں کس طرح مدد کرتی ہے؟
+
+376
+
+5.1
+Additional
+
+377
+
+What is meant by entrepreneurship in the context of web development?
+
+ویب ڈویلپمنٹ کے تناظر میں انٹرپرینیورشپ سے کیا مراد ہے؟
+
+377
+
+5.2 BASIC COMPONENTS OF WEB DEVELOPMENT
+5.2
+Additional
+
+378
+
+Name three technologies used for front-end development?.
+
+فرنٹ اینڈ ڈویلپمنٹ کے لیے استعمال ہونے والی تین ٹیکنالوجیوں کے نام لکھیں۔
+
+378
+
+5.2
+Additional
+
+379
+
+Name three components of back-end development.
+
+بیک اینڈ ڈویلپمنٹ کے تین اجزا کے نام لکھیں۔
+
+379
+
+5.2
+Additional
+
+380
+
+What do you mean by full-stack development?
+
+فل اسٹیک ڈویلپمنٹ سے آپ کی کیا مراد ہے؟
+
+380
+
+5.2
+Additional
+
+381
+
+What are the three main components of web development?
+
+ویب ڈیویلپمنٹ کے تین بنیادی اجزاء کون سے ہیں؟
+
+381
+
+5.2
+Additional
+
+382
+
+Differentiate between Front-end and Back-end Development.
+
+فرنٹ اینڈ اور بیک اینڈ ڈویلپمنٹ میں فرق کریں۔
+
+382
+
+5.2
+Additional
+
+383
+
+State the role of HTML, CSS, and JavaScript in front-end development.
+
+فرنٹ اینڈ ڈیولپمنٹ میں HTML، CSS اور JavaScript کے کردار کا بیان کریں۔
+
+383
+
+5.2
+Additional
+
+384
+
+What are the functions of Web Servers and Databases in back-end development?
+
+بیک اینڈ ڈویلپمنٹ میں ویب سرورز اور ڈیٹا بیس کے کیا افعال ہیں؟
+
+384
+
+5.2
+Additional
+
+385
+
+What is Full-stack Development and why is it important?
+
+فل اسٹیک ڈویلپمنٹ کیا ہے اور یہ کیوں اہم ہے؟
+
+385
+
+5.2
+Additional
+
+386
+
+Give an example of a common feature that uses both front-end and back-end development.
+
+ایسی عام خصوصیت کی مثال دیں جو فرنٹ اینڈ اور بیک اینڈ ڈویلپمنٹ دونوں استعمال کرتی ہو۔
+
+386
+
+5.2
+Additional
+
+387
+
+What is the main focus of front-end development?
+
+فرنٹ اینڈ ڈویلپمنٹ کا مرکزی مقصد کیا ہے؟
+
+387
+
+5.2
+Additional
+
+388
+
+Name two fundamentals used in front-end development for creating interactive interfaces.
+
+انٹرایکٹو انٹرفیس بنانے کے لیے فرنٹ اینڈ ڈویلپمنٹ میں استعمال ہونے والے دو بنیادی اصولوں کے نام بتائیں۔
+
+388
+
+5.2
+Additional
+
+389
+
+What does HTML do in a web page?
+
+HTML ویب صفحہ میں کیا کرتا ہے؟
+
+389
+
+5.2
+Additional
+
+390
+
+How does CSS affect a website?
+
+CSS ویب سائٹ پر کیسے اثر ڈالتا ہے؟
+
+390
+
+5.2
+Additional
+
+391
+
+What type of features does JavaScript add to a web page?
+
+جاوا اسکرپٹ ویب صفحے میں کس قسم کی خصوصیات شامل کرتا ہے؟
+
+391
+
+5.2
+Additional
+
+392
+
+What is handled by back-end development?
+
+باك اینڈ ڈیویلپمنٹ کے تحت کیا سنبھالا جاتا ہے؟
+
+392
+
+5.2
+Additional
+
+393
+
+What is the role of a database in a website?
+
+ویب سائٹ میں ڈیٹا بیس کا کردار کیا ہے؟
+
+393
+
+5.2
+Additional
+
+394
+
+Why are full-stack developers considered versatile in the tech industry?
+
+ٹیکنالوجی کی صنعت میں فل اسٹیک ڈویلپرز کو کیوں کثیر الجہتی سمجھا جاتا ہے؟
+
+394
+
+5.3 GETTING STARTED WITH HTML
+5.3
+Additional
+
+395
+
+Describe the web page.
+
+ویب پیج کو بیان کریں۔
+
+395
+
+5.3
+Additional
+
+396
+
+What is HTML and what is its purpose?
+
+HTML کیا ہے اور اس کا مقصد کیا ہے؟
+
+396
+
+5.3
+Additional
+
+397
+
+How can HTML pages be viewed?
+
+HTML صفحات کو کیسے دیکھا جاسکتا ہے؟
+
+397
+
+5.3
+Additional
+
+398
+
+What do you know about markup language?
+
+آپ مارک اپ لینگویج کے بارے میں کیا جانتے ہیں؟
+
+398
+
+5.3
+Additional
+
+399
+
+Which tools are required to set up the development environment for creating a website?
+
+ویب سائٹ بنانے کے لیے ترقیاتی ماحول کو ترتیب دینے کے لیے کن ٹولز کی ضرورت ہے؟
+
+399
+
+5.3
+Additional
+
+400
+
+Name two basic tools needed to start web development.
+
+ویب ڈیویلپمنٹ شروع کرنے کے لیے دو بنیادی آلات کے نام بتائیں۔
+
+400
+
+5.3
+Additional
+
+401
+
+Why should HTML files be saved with a .html extension?
+
+ایچ ٹی ایم ایل فائلوں کو .html توسیع کے ساتھ کیوں محفوظ کیا جانا چاہیے؟
+
+401
+
+5.3
+Additional
+
+402
+
+What is the role of a text editor in HTML development?
+
+ایچ ٹی ایم ایل ڈیولپمنٹ میں ٹیکسٹ ایڈیٹر کا کیا کردار ہے؟
+
+402
+
+5.3
+Additional
+
+403
+
+What happens when you refresh a web page after editing the HTML file?
+
+HTML فائل میں ترمیم کرنے کے بعد جب آپ ویب صفحہ کو ریفریش کرتے ہیں تو کیا ہوتا ہے؟
+
+403
+
+5.3
+Additional
+
+404
+
+Mention two popular text editors and two web browsers used for HTML development.
+
+HTML ڈیولپمنٹ کے لیے استعمال ہونے والے دو مشہور ٹیکسٹ ایڈیٹرز اور دو ویب براؤزرز کا ذکر کریں۔
+
+404
+
+5.3
+Additional
+
+405
+
+Name two text editors used to write HTML code.
+
+ایچ ٹی ایم ایل کوڈ لکھنے کے لیے دو ٹیکسٹ ایڈیٹرز کے نام بتائیں۔
+
+405
+
+5.3
+Additional
+
+406
+
+What extension must be used when saving an HTML file?
+
+HTML فائل محفوظ کرتے وقت کون سی توسیع استعمال کرنی چاہیے؟
+
+406
+
+5.3
+Additional
+
+407
+
+Which tag is used as the root element in an HTML document?
+
+HTML دستاویز میں جڑ عنصر کے طور پر کون سا ٹیگ استعمال کیا جاتا ہے؟
+
+407
+
+5.3
+Additional
+
+408
+
+What is the function of a web browser in HTML development?
+
+ایچ ٹی ایم ایل ڈیولپمنٹ میں ویب براؤزر کا کیا کردار ہے؟
+
+408
+
+5.3
+Additional
+
+409
+
+What should you do in the browser to see the updated changes after editing HTML?
+
+ایچ ٹی ایم ایل میں ترمیم کرنے کے بعد اپ ڈیٹ شدہ تبدیلیاں دیکھنے کے لیے آپ کو براؤزر میں کیا کرنا چاہیے؟
+
+409
+
+5.4 HTML BASIC STRUCTURE
+5.4
+Exercise
+
+410
+
+What is the purpose of the  tag in HTML?
+
+HTML میں  ٹیگ کا مقصد کیا ہے؟
+
+410
+
+5.4
+Additional
+
+411
+
+Define HTML tag and elements?
+
+HTML ٹیگ اور عناصر کی وضاحت کریں؟
+
+411
+
+5.4
+Additional
+
+412
+
+What are two types of HTML tags?
+
+ایچ ٹی ایم ایل ٹیگز کی دو قسمیں کیا ہیں؟
+
+412
+
+5.4
+Additional
+
+413
+
+Define a singular tag with an example.
+
+ایک مثال کے ساتھ واحد ٹیگ کی وضاحت کریں۔
+
+413
+
+5.4
+Additional
+
+414
+
+Define a paired tag with an example.
+
+مثال کے ساتھ ایک جوڑا ٹیگ کی وضاحت کریں۔
+
+414
+
+5.4
+Additional
+
+415
+
+Write the difference between a paired tag and a singular tag.
+
+جوڑا ٹیگ اور واحد ٹیگ کے درمیان فرق لکھیں۔
+
+415
+
+5.4
+Additional
+
+416
+
+Write down the general structure of a paired tag.
+
+جوڑے ہوئے ٹیگ کی عمومی ساخت لکھیں۔
+
+416
+
+5.4
+Additional
+
+417
+
+Define the body section of an HTML page.
+
+HTML صفحہ کے باڈی سیکشن کی وضاحت کریں۔
+
+417
+
+5.4
+Additional
+
+418
+
+Describe the head section in the webpage.
+
+ویب پیج میں ہیڈ سیکشن کی وضاحت کریں۔
+
+418
+
+5.4
+Additional
+
+419
+
+What is the use of the tag?
+
+ٹیگ کا استعمال کیا ہے؟
+
+419
+
+5.4
+Additional
+
+420
+
+Define the tag.
+
+ٹیگ کی وضاحت کریں۔
+
+420
+
+5.4
+Additional
+
+421
+
+Why is a structured HTML document important?
+
+ایک منظم HTML ڈاکومنٹ کیوں ضروری ہے؟
+
+421
+
+5.4
+Additional
+
+422
+
+Why should HTML documents be properly nested and well-organized?
+
+ایچ ٹی ایم ایل دستاویزات کو صحیح طریقے سے نیسٹ اور منظم کیوں ہونا چاہیے؟
+
+422
+
+5.4
+Additional
+
+423
+
+Why is proper nesting important in an HTML document?
+
+ایچ ٹی ایم ایل دستاویز میں مناسب نیسٹنگ کیوں اہم ہے؟
+
+423
+
+5.4
+Additional
+
+424
+
+What is the purpose of having a root element in HTML?
+
+HTML میں رُوٹ ایلیمنٹ رکھنے کا مقصد کیا ہے؟
+
+424
+
+5.4
+Additional
+
+425
+
+How does the structure of an HTML document help a browser render a webpage correctly?
+
+HTML دستاویز کی ساخت کس طرح براؤزر کو ویب صفحہ درست طریقے سے دکھانے میں مدد دیتی ہے؟
+
+425
+
+5.5 CREATING CONTENT WITH HTML
+5.5
+Exercise
+
+426
+
+Explain the difference between an ordered list and an unordered list in HTML.
+
+HTML میں آرڈو شدہ فہرست اور غیر آرڈر شدہ فہرست کے درمیان فرق کی وضاحت کریں۔
+
+426
+
+5.5
+Exercise
+
+427
+
+How do you add a comment in HTML?
+
+آپ HTML میں کمنٹس کیسے شامل کرتے ہیں؟
+
+427
+
+5.5
+Exercise
+
+428
+
+Describe the syntax for creating a hyperlink in HTML.
+
+HTML میں ہائپرلنگ بنانے کےلیے نحو کی وضاحت کریں۔
+
+428
+
+5.5
+Exercise
+
+429
+
+What is the use of the  tag in HTML?
+
+HTML میں  ٹیگ کا کیا استعمال ہے؟
+
+429
+
+5.5
+Additional
+
+430
+
+What is HTML content?
+
+HTML مواد کیا ہوتا ہے؟
+
+430
+
+5.5
+Additional
+
+431
+
+What is meant by heading and subheading in HTML?
+
+HTML میں سرخی اور ذیلی سرخی سے کیا مراد ہے؟
+
+431
+
+5.5
+Additional
+
+432
+
+How do we add headings and subheadings in HTML?
+
+ہم HTML میں عنوانات اور ذیلی عنوانات کیسے شامل کرتے ہیں؟
+
+432
+
+5.5
+Additional
+
+433
+
+How many types of headings does HTML provide?
+
+HTML کتنی قسم کے عنوانات فراہم کرتا ہے؟
+
+433
+
+5.5
+Additional
+
+434
+
+Write HTML code to display an image of a flower with a width of 200 and a height of 150.
+
+200 کی چوڑائی اور 150 کی اونچائی والے پھول کی تصویر دکھانے کے لیے HTML کوڈ لکھیں۔
+
+434
+
+5.5
+Additional
+
+435
+
+Which type of list can be created in HTML?
+
+HTML میں کس قسم کی فہرست بنائی جا سکتی ہے؟
+
+435
+
+5.5
+Additional
+
+436
+
+What is an order list?
+
+آرڈر لسٹ کیا ہے؟
+
+436
+
+5.5
+Additional
+
+437
+
+Write the start and end tags of an ordered list.
+
+ترتیب دی گئی فہرست کے آغاز اور اختتامی ٹیگز لکھیں۔
+
+437
+
+5.5
+Additional
+
+438
+
+What is the use of the ol tag? Describe it with HTML code.
+
+ol ٹیگ کا استعمال کیا ہے؟ اسے HTML کوڈ کے ساتھ بیان کریں۔
+
+438
+
+5.5
+Additional
+
+439
+
+What is an unordered list?
+
+غیر ترتیب شدہ فہرست کیا ہے؟
+
+439
+
+5.5
+Additional
+
+440
+
+What is the use of the ul tag?
+
+یو ایل ٹیگ کا استعمال کیا ہے؟
+
+440
+
+5.5
+Additional
+
+441
+
+Write down the code to insert an image in HTML.
+
+HTML میں تصویر داخل کرنے کے لیے کوڈ لکھیں۔
+
+441
+
+5.5
+Additional
+
+442
+
+Define an anchor in HTML.
+
+HTML میں اینکر کی وضاحت کریں۔
+
+442
+
+5.5
+Additional
+
+443
+
+Which tag is used to create a hyperlink in HTML?
+
+HTML میں ہائپر لنک بنانے کے لیے کون سا ٹیگ استعمال ہوتا ہے؟
+
+443
+
+5.5
+Additional
+
+444
+
+How do you use a hyperlink in a webpage?
+
+آپ ویب پیج میں ہائپر لنک کیسے استعمال کرتے ہیں؟
+
+444
+
+5.5
+Additional
+
+445
+
+Write HTML code to create a hyperlink to open the website www.google.com.
+
+ویب سائٹ www.google.com کو کھولنے کے لیے ایک ہائپر لنک بنانے کے لیے HTML کوڈ لکھیں۔
+
+445
+
+5.5
+Additional
+
+446
+
+What is the purpose of using comments in HTML?
+
+HTML میں تبصرے استعمال کرنے کا مقصد کیا ہے؟
+
+446
+
+5.5
+Additional
+
+447
+
+Why are headings important for organizing content?
+
+مواد کو منظم کرنے کے لیے ہیڈنگز کیوں اہم ہیں؟
+
+447
+
+5.5
+Additional
+
+448
+
+How do headings contribute to SEO?
+
+ہیڈنگز SEO میں کیسے مدد کرتی ہیں؟
+
+448
+
+5.5
+Additional
+
+449
+
+What is the role of the href attribute in links?
+
+لنکس میں href ایٹریبیوٹ کا کیا کردار ہے؟
+
+449
+
+5.5
+Additional
+
+450
+
+How do mailto links improve user interaction?
+
+mailto لنکس صارف کے تعامل کو کیسے بہتر بناتے ہیں؟
+
+450
+
+5.5
+Additional
+
+451
+
+Why is the alt attribute important in images?
+
+تصاویر میں alt ایٹریبیوٹ کیوں ضروری ہے؟
+
+451
+
+5.5
+Additional
+
+452
+
+Why are comments not visible on the webpage?
+
+کمنٹس ویب پیج پر نظر کیوں نہیں آتے؟
+
+452
+
+5.5
+Additional
+
+453
+
+Explain the concept of content hierarchy in HTML.
+
+HTML میں مواد کی ترتیب کا تصور سمجھائیں۔
+
+453
+
+5.6 STYLING WITH CSS
+5.6
+Exercise
+
+454
+
+What are the different ways of apply CSS to an HTML document?
+
+HTML دستاویز پر CSS لوگو کرنے کے مختلف طریقے کیا ہیں؟
+
+454
+
+5.6
+Exercise
+
+455
+
+What is the function of the  tag in HTML?
+
+HTML میں  ٹیگ کا کام کیا ہے؟
+
+455
+
+5.6
+Exercise
+
+456
+
+Explain the box model in CSS.
+
+CSS میں باکس ماڈل کی وضاحت کریں۔
+
+456
+
+5.6
+Additional
+
+457
+
+How do you link an external CSS file to an HTML document?
+
+آپ ایکسٹرنل CSS فائل کو HTML دستاویز سے کیسے جوڑتے ہیں؟
+
+457
+
+5.6
+Additional
+
+458
+
+What are Cascading Style Sheets?
+
+کاسکیڈنگ اسٹائل شیٹس کیا ہیں؟
+
+458
+
+5.6
+Additional
+
+459
+
+Explain the basic structure of CSS.
+
+سی ایس ایس کی بنیادی ساخت کی وضاحت کریں۔
+
+459
+
+5.6
+Additional
+
+460
+
+How are inline styles used in CSS?
+
+سی ایس ایس میں ان لائن اسٹائل کیسے استعمال ہوتے ہیں؟
+
+460
+
+5.6
+Additional
+
+461
+
+List any three types of font styling in CSS.
+
+CSS میں کسی بھی تین قسم کے فونٹ اسٹائل کی فہرست بنائیں۔
+
+461
+
+5.6
+Additional
+
+462
+
+What is a CSS grid?
+
+سی ایس ایس گرڈ کیا ہے؟
+
+462
+
+5.6
+Additional
+
+463
+
+What is CSS flexbox?
+
+سی ایس ایس فلیکس باکس کیا ہے؟
+
+463
+
+5.6
+Additional
+
+464
+
+What is a responsive web page?
+
+ایک ذمہ دار ویب صفحہ کیا ہے؟
+
+464
+
+5.6
+Additional
+
+465
+
+Why is CSS important for web development?
+
+ویب ڈیولپمنٹ کے لیے CSS کیوں ضروری ہے؟
+
+465
+
+5.6
+Additional
+
+466
+
+What does "Cascading" mean in CSS?
+
+CSS میں"کاسکیڈنگ" کا کیا مطلب ہے؟
+
+466
+
+5.6
+Additional
+
+467
+
+Differentiate between selector and declaration in CSS.
+
+CSS میں سلیکٹر اور ڈیکلریشن کے درمیان فرق کریں۔
+
+467
+
+5.6
+Additional
+
+468
+
+Why is it better to keep CSS in a separate file?
+
+CSS کو الگ فائل میں رکھنا بہتر کیوں ہے؟
+
+468
+
+5.6
+Additional
+
+469
+
+What happens if you don’t use CSS in a webpage?
+
+اگر ویب پیج میں CSS استعمال نہ کریں تو کیا ہوگا؟
+
+469
+
+5.6
+Additional
+
+470
+
+What is the purpose of using CSS in HTML documents?
+
+HTML دستاویزات میں CSS استعمال کرنے کا مقصد کیا ہے؟
+
+470
+
+5.6
+Additional
+
+471
+
+What are the three ways to integrate CSS with HTML?
+
+HTML کے ساتھ CSS جوڑنے کے تین طریقے کون سے ہیں؟
+
+471
+
+5.6
+Additional
+
+472
+
+What is the role of properties and values in a CSS rule?
+
+سی ایس ایس اصول میں خصوصیات اور اقدار کا کیا کردار ہے؟
+
+472
+
+5.6
+Additional
+
+473
+
+Can CSS change the structure of an HTML document? Explain.
+
+کیا CSS HTML دستاویز کا ڈھانچہ بدل سکتی ہے؟ وضاحت کریں۔
+
+473
+
+5.6
+Additional
+
+474
+
+When should you use inline CSS?
+
+آپ کو ان لائن سی ایس ایس کب استعمال کرنا چاہیے؟
+
+474
+
+5.6
+Additional
+
+475
+
+What is the advantage of using internal CSS?
+
+انٹرنل سی ایس ایس استعمال کرنے کا کیا فائدہ ہے؟
+
+475
+
+5.6
+Additional
+
+476
+
+Why is organizing content with div and section important in web design?
+
+ویب ڈیزائن میں مواد کو div اور section کے ساتھ منظم کرنا کیوں اہم ہے؟
+
+476
+
+5.6
+Additional
+
+477
+
+What property must a parent element have to become a flex container?
+
+پیرنٹ ایلیمنٹ کو فلیکس کنٹینر بنانے کے لیے کون سی پراپرٹی لازمی ہے؟
+
+477
+
+5.6
+Additional
+
+478
+
+What is the main purpose of CSS Flexbox?
+
+سی ایس ایس فلیکس باکس کا بنیادی مقصد کیا ہے؟
+
+478
+
+5.6
+Additional
+
+479
+
+How do flexible items behave inside a flex container?
+
+فلیکس کنٹینر کے اندر فلیکسبل آئٹمز کیسے برتاؤ کرتے ہیں؟
+
+479
+
+5.6
+Additional
+
+480
+
+What is the key difference between CSS Flexbox and CSS Grid?
+
+سی ایس ایس فلیکس باکس اور سی ایس ایس گرڈ میں کیا فرق ہے؟
+
+480
+
+5.6
+Additional
+
+481
+
+Why is CSS Grid called a 2-dimensional layout system?
+
+سی ایس ایس گرڈ کو دو جہتی ترتیب کا نظام کیوں کہا جاتا ہے؟
+
+481
+
+5.6
+Additional
+
+482
+
+What does grid-template-columns control in Grid layout?
+
+گرڈ لے آؤٹ میں گرڈ ٹیمپلیٹ کالم کیا کنٹرول کرتا ہے؟
+
+482
+
+5.6
+Additional
+
+483
+
+How does grid-gap improve layout design?
+
+گرڈ گیپ لے آؤٹ ڈیزائن کو کیسے بہتر بناتا ہے؟
+
+483
+
+5.6
+Additional
+
+484
+
+Explain one benefit of using Flexbox for responsive design.
+
+ریسپانسیو ڈیزائن کے لیے فلیکس باکس کے استعمال کا ایک فائدہ بیان کریں۔
+
+484
+
+5.6
+Additional
+
+485
+
+How do containers, headers, and footers help structure a webpage?
+
+کنٹینرز، ہیڈر، اور فوٹر ویب صفحہ کی ساخت میں کیسے مدد کرتے ہیں؟
+
+485
+
+5.7 INTRODUCTION TO JAVASCRIPT
+5.7
+Exercise
+
+486
+
+How can you include JavaScript in an HTML file?
+
+آپ HTML فائل میں جاوا اسکرپٹ کو کیسے شامل کرسکتے ہیں؟
+
+486
+
+5.7
+Additional
+
+487
+
+Define JavaScript and state its main purpose.
+
+جاوا سکرپٹ کی تعریف کریں اور اس کا بنیادی مقصد بتائیں۔
+
+487
+
+5.7
+Additional
+
+488
+
+What is a variable in JavaScript?
+
+جاوا اسکرپٹ میں متغیر کیا ہے؟
+
+488
+
+5.7
+Additional
+
+489
+
+How are variables declared in JavaScript? Write syntax.
+
+جاوا اسکرپٹ میں متغیرات کا اعلان کیسے کیا جاتا ہے؟ نحو لکھیں۔
+
+489
+
+5.7
+Additional
+
+490
+
+What are the different data types in JavaScript?
+
+جاوا اسکرپٹ میں ڈیٹا کی مختلف اقسام کیا ہیں؟
+
+490
+
+5.7
+Additional
+
+491
+
+What is a function in JavaScript? Write the syntax to declare a function.
+
+جاوا اسکرپٹ میں فنکشن کیا ہے؟ فنکشن کا اعلان کرنے کے لیے نحو لکھیں۔
+
+491
+
+5.7
+Additional
+
+492
+
+What are parameters?
+
+پیرامیٹرز کیا ہیں؟
+
+492
+
+5.7
+Additional
+
+493
+
+Why is JavaScript important for modern websites?
+
+جدید ویب سائٹس کے لیے جاوا اسکرپٹ کیوں اہم ہے؟
+
+493
+
+5.7
+Additional
+
+494
+
+Name the three original names of JavaScript in order.
+
+جاوا اسکرپٹ کے تین اصل نام ترتیب سے رکھیں۔
+
+494
+
+5.7
+Additional
+
+495
+
+Differentiate between var, let, and const.
+
+var، let اور const کے درمیان فرق کریں۔
+
+495
+
+5.7
+Additional
+
+496
+
+What does the alert() function do?
+
+الرٹ() فنکشن کیا کرتا ہے؟
+
+496
+
+5.7
+Additional
+
+497
+
+Why are functions useful in JavaScript?
+
+جاوا اسکرپٹ میں فنکشنز کیوں کارآمد ہیں؟
+
+497
+
+5.7
+Additional
+
+498
+
+Give one real-life example where JavaScript is used on a webpage.
+
+ایک حقیقی زندگی کی مثال دیں جہاں جاوا اسکرپٹ ویب پیج پر استعمال ہوتا ہے۔
+
+498
+
+5.7
+Additional
+
+499
+
+What is the role of the  tag in HTML?
+
+HTML میں  ٹیگ کا کیا کردار ہے؟
+
+499
+
+5.7
+Additional
+
+500
+
+How does JavaScript make web pages interactive?
+
+جاوا اسکرپٹ کس طرح ویب صفحات کو انٹرایکٹو بناتا ہے؟
+
+500
+
+5.7
+Additional
+
+501
+
+What is the difference between parameters and arguments?
+
+پیرا میٹرز اور آرگیومنٹس میں کیا فرق ہے؟
+
+501
+
+5.7
+Additional
+
+502
+
+Why do we use parameters in functions?
+
+ہم فنکشنز میں پیرامیٹرز کیوں استعمال کرتے ہیں؟
+
+502
+
+5.7
+Additional
+
+503
+
+Explain what addNumbers(a, b) declares.
+
+وضاحت کریں کہ addNumbers (a, b) کیا اعلان کرتا ہے۔
+
+503
+
+5.7
+Additional
+
+504
+
+What will happen if you call a function without passing required arguments?
+
+اگر آپ کسی فنکشن کو بلا رہے ہیں بغیر ضروری دلائل دیے تو کیا ہوگا؟
+
+504
+
+5.7
+Additional
+
+505
+
+How does var sum = a + b; work inside a function?
+
+کس طرح var sum = a + b; ایک فنکشن کے اندر کام کرتے ہیں؟
+
+505
+
+5.7
+Additional
+
+506
+
+Can a function work without parameters? Explain.
+
+کیا کوئی فنکشن پیرامیٹرز کے بغیر کام کر سکتا ہے؟ وضاحت کریں۔
+
+506
+
+5.7
+Additional
+
+507
+
+What does "placeholders for values" mean in context of parameters?
+
+پیرامیٹرز کے تناظر میں "قدر کے پلیس ہولڈرز" کا کیا مطلب ہے؟
+
+507
+
+5.7
+Additional
+
+508
+
+How do parameters make a function flexible?
+
+پیرامیٹرز کس طرح ایک فنکشن کو لچکدار بناتے ہیں؟
+
+508
+
+5.7
+Additional
+
+509
+
+Write the output if we call addNumbers(7, 4).
+
+اگر ہم addNumbers(7, 4) کال کریں تو آؤٹ پٹ کیا ہوگا؟
+
+509
+
+6.1 DATA
+6.1
+Additional
+
+510
+
+What is data?
+
+ڈیٹا کیا ہوتا ہے؟
+
+510
+
+6.1
+Additional
+
+511
+
+Give three examples of data that originates from different sources.
+
+ڈیٹا کی تین مثالیں دیں جن کو مختلف ذرائع سے حاصل کیا جاتا ہے؟
+
+511
+
+6.1
+Additional
+
+512
+
+How is data different from information?
+
+ڈیٹا معلومات سے کیسے مختلف ہے؟
+
+512
+
+6.1
+Additional
+
+513
+
+Name any four forms in which data can exist.
+
+ڈیٹا کی کوئی چار شکلیں نام بتائیں۔
+
+513
+
+6.1
+Additional
+
+514
+
+Why is processing of data necessary?
+
+ڈیٹا پروسیس کرنا کیوں ضروری ہے؟
+
+514
+
+6.1
+Additional
+
+515
+
+Give two examples of data from daily life.
+
+روزمرہ زندگی سے ڈیٹا کی دو مثالیں دیں۔
+
+515
+
+6.2 DATA TYPES
+6.2
+Exercise
+
+516
+
+Write two differences between qualitative and quantitative data?
+
+معیاری اور مقداری ڈیٹا کے درمیان دو فرق لکھیں؟
+
+516
+
+6.2
+Exercise
+
+517
+
+What type of data is the number of students in your class?
+
+آپ کی کلاس میں طلبہ کی تعداد کس قسم کا ڈیٹا ہے؟ وضاحت کریں۔
+
+517
+
+6.2
+Additional
+
+518
+
+Which type of data describes the qualities of something?
+
+کسی قسم کا ڈیٹا کسی بھی چیز کی خصوصیات کو بیان کرتا ہے؟
+
+518
+
+6.2
+Additional
+
+519
+
+What are the key characteristics of qualitative data?
+
+معیاری ڈیٹا کی اہم خصوصیات کیا ہیں؟
+
+519
+
+6.2
+Additional
+
+520
+
+Define qualitative data with one example.
+
+معیاری ڈیٹا کی ایک مثال کے ساتھ تعریف کریں۔
+
+520
+
+6.2
+Additional
+
+521
+
+Write the key characteristics of quantitative data.
+
+مقداری ڈیٹا کی اہم خصوصیات لکھیں۔
+
+521
+
+6.2
+Additional
+
+522
+
+Define data types.
+
+ڈیٹا ٹائپس کی تعریف کریں۔
+
+522
+
+6.2
+Additional
+
+523
+
+What are the two main categories of data?
+
+ڈیٹا کی دو بڑی اقسام کون سی ہیں؟
+
+523
+
+6.2
+Additional
+
+524
+
+Define quantitative data with one example.
+
+مقداری ڈیٹا کی ایک مثال کے ساتھ تعریف کریں۔
+
+524
+
+6.2
+Additional
+
+525
+
+What does "non-numeric" mean in qualitative data?
+
+معیاری ڈیٹا میں 'غیر عددي' کا کیا مطلب ہوتا ہے؟
+
+525
+
+6.2
+Additional
+
+526
+
+What is meant by "categorical" data?
+
+"کیٹیگوریکل ڈیٹا" ڈیٹا سے کیا مراد ہے؟
+
+526
+
+6.2
+Additional
+
+527
+
+Why is quantitative data called "numerical"?
+
+مقداری ڈیٹا کو "عددی" کیوں کہا جاتا ہے؟
+
+527
+
+6.2
+Additional
+
+528
+
+How is measurable data collected?
+
+قابل پیمائش ڈیٹا کیسے جمع کیا جاتا ہے؟
+
+528
+
+6.2
+Additional
+
+529
+
+What is the difference between countable and measurable data?
+
+قابل شمار اور قابل پیمائش ڈیٹا میں کیا فرق ہے؟
+
+529
+
+6.2
+Additional
+
+530
+
+Define arithmetical quantitative data with an example.
+
+ایک مثال کے ساتھ حسابی مقداری ڈیٹا کی تعریف کریں۔
+
+530
+
+6.2
+Additional
+
+531
+
+Can qualitative data be used for calculations? Why/Why not?
+
+کیا کوالٹیٹو ڈیٹا کو حساب کے لیے استعمال کیا جا سکتا ہے؟ کیوں/کیوں نہیں؟
+
+531
+
+6.2
+Additional
+
+532
+
+Why is qualitative data called "descriptive"?
+
+کوالیٹیٹو ڈیٹا کو "وضاحتی" کیوں کہا جاتا ہے؟
+
+532
+
+6.2
+Additional
+
+533
+
+Name two instruments used to measure quantitative data.
+
+مقداری ڈیٹا کی پیمائش کے لیے استعمال ہونے والے دو آلات کے نام بتائیں۔
+
+533
+
+6.2
+Additional
+
+534
+
+Is "gender: male/female" qualitative or quantitative? Why?
+
+کیا "جنس: مرد/عورت" کوالٹیٹیو یا مقداری ہے؟ کیوں؟
+
+534
+
+6.2
+Additional
+
+535
+
+Is "marks in exam" qualitative or quantitative? Why?
+
+کیا "امتحان میں نمبر" معیار کے ہیں یا مقداری؟ کیوں؟
+
+535
+
+6.2
+Additional
+
+536
+
+What question does qualitative data answer?
+
+کوالٹیٹیو ڈیٹا کس سوال کا جواب دیتا ہے؟
+
+536
+
+6.2
+Additional
+
+537
+
+What question does quantitative data answer?
+
+مقداری ڈیٹا کس سوال کا جواب دیتا ہے؟
+
+537
+
+6.2
+Additional
+
+538
+
+Give two real-life uses of qualitative data and quantitative data.
+
+کوالٹیٹیو ڈیٹا اور مقداری ڈیٹا کے حقیقی زندگی کے دو استعمال بتائیں۔
+
+538
+
+6.3 ORGANISING AND ANALYSING DATA
+6.3
+Exercise
+
+539
+
+Which method would you use to collect opinions from a large group of people about a new school policy?
+
+اسکول کی نئی پالیسی کے بارے میں لوگوں کے ایک بڑے گروپ سے رائے لینے کےلیے آپ کون سا طریقہ استعمال کریں گے؟
+
+539
+
+6.3
+Exercise
+
+540
+
+Why is it important to organize data into tables or charts before analyzing it?
+
+تجربہ کرنے سے پہلے ڈیٹا کو ٹیبل یا چارٹ میں ترتیب دینا کیوں ضروری ہے؟
+
+540
+
+6.3
+Exercise
+
+541
+
+For which purpose do we use line graph?
+
+ہم لائن گراف کس مقصد کے لیے استعمال کرتے ہیں؟
+
+541
+
+6.3
+Additional
+
+542
+
+What is one advantage of using online tools like Google Forms for collecting survey data?
+
+سروے کا ڈیٹا اکٹھا کرنے کے لیے گوگل فارم جیسے آن لائن ٹولز استعمال کرنے کا ایک فائدہ  کیا ہے؟
+
+542
+
+6.3
+Additional
+
+543
+
+Why might you need to integrate data from different sources when working on a project?
+
+کسی منصوبے پر آپ کو مختلف ذرائع سے ڈیٹا کو ضم کرنے کی ضرورت کیوں پڑسکتی ہے؟
+
+543
+
+6.3
+Additional
+
+544
+
+Describe what a line graph is used for and provide an example of data that could be displayed using a line graph.
+
+بیان کریں کہ لائن گراف کسی مقصد کے لیے استعمال ہوتا ہے؟ ڈیٹا کی ایک مثال فراہم کریں جو لائن گراف کا استعمال کرنے ہوئے دکھایا جاسکتا ہے۔
+
+544
+
+6.3
+Additional
+
+545
+
+Explain the use of scatter plots in visualizing continuous data. Provide an example of a situation where a scatter plot would be useful.
+
+مسلسل ڈیٹا کو دیکھنے میں سکیٹر پلاٹ کے استعمال کی وضاحت کریں۔ ایسی صورت حال کی ایک مثال فراہم کریں جہاں سکیٹر پلاٹ کارآمد ہوگا۔
+
+545
+
+6.3
+Additional
+
+546
+
+What is meant by data collection?
+
+ڈیٹا اکٹھا کرنے سے کیا مراد ہے؟
+
+546
+
+6.3
+Additional
+
+547
+
+Describe a direct method of data collection.
+
+ڈیٹا اکٹھا کرنے کے ڈائریکٹ طریقے کو بیان کریں۔
+
+547
+
+6.3
+Additional
+
+548
+
+What is observation in data collection?
+
+ڈیٹا اکٹھا کرنے میں مشاہدہ کیا ہے؟
+
+548
+
+6.3
+Additional
+
+549
+
+List some online data gathering platforms.
+
+ڈیٹا اکٹھا کرنے کے چند آن لائن پلیٹ فارمز کے نام لکھیں۔
+
+549
+
+6.3
+Additional
+
+550
+
+Why is organizing data important?
+
+ڈیٹا منظم کرنا کیوں اہم ہے؟
+
+550
+
+6.3
+Additional
+
+551
+
+Name three ways to organize data.
+
+ڈیٹا منظم کرنے کے تین طریقے نام بتائیں۔
+
+551
+
+6.3
+Additional
+
+552
+
+How do tables help in data analysis?
+
+ٹیبلز ڈیٹا تجزیہ میں کیسے مدد کرتے ہیں؟
+
+552
+
+6.3
+Additional
+
+553
+
+What is the purpose of charts and graphs?
+
+چارٹس اور گرافس کا مقصد کیا ہے؟
+
+553
+
+6.3
+Additional
+
+554
+
+Differentiate between bar chart and pie chart.
+
+بار چارٹ اور پائی چارٹ کے درمیان فرق کریں۔
+
+554
+
+6.3
+Additional
+
+555
+
+What are scatter plots used for?
+
+سکیٹر پلاٹ کس لیے استعمال ہوتے ہیں؟
+
+555
+
+6.3
+Additional
+
+556
+
+Name four methods of data collection.
+
+ڈیٹا کلیکشن کے چار طریقے نام بتائیں۔
+
+556
+
+6.3
+Additional
+
+557
+
+What is a survey?
+
+سروے کیا ہوتا ہے؟
+
+557
+
+6.3
+Additional
+
+558
+
+How are questionnaires different from interviews?
+
+سوالنامے انٹرویوز سے کیسے مختلف ہیں؟
+
+558
+
+6.3
+Additional
+
+559
+
+Write the names of two online tools for creating surveys.
+
+سروے بنانے کے لیے دو آن لائن ٹولز کے نام لکھیں۔
+
+559
+
+6.3
+Additional
+
+560
+
+What is a best practice when designing a survey?
+
+سروے کو ڈیزائن کرتے وقت بہترین عمل کیا ہے؟
+
+560
+
+6.3
+Additional
+
+561
+
+How does organized data save time?
+
+منظم ڈیٹا وقت کیسے بچاتا ہے؟
+
+561
+
+6.3
+Additional
+
+562
+
+Why should survey questions be short and simple?
+
+سروے کے سوالات مختصر اور سادہ کیوں ہونے چاہییں؟
+
+562
+
+6.3
+Additional
+
+563
+
+How do graphs help identify trends and outliers?
+
+گرافس رجحانات اور غیر معمولی اقدار کی شناخت میں کیسے مدد کرتے ہیں؟
+
+563
+
+6.3
+Additional
+
+564
+
+What happens if data is not organized properly?
+
+اگر ڈیٹا صحیح طریقے سے منظم نہ ہو تو کیا ہوتا ہے؟
+
+564
+
+6.4 DATA TYPES.
+6.4
+Additional
+
+565
+
+How structured data differs from unstructured data?
+
+سٹرکچر ڈیٹا ان سٹرکچر ڈیٹا سے کیسے مختلف ہوتا ہے؟
+
+565
+
+6.4
+Additional
+
+566
+
+Define structured data with one example.
+
+سٹرکچرڈ ڈیٹا کی ایک مثال کے ساتھ تعریف کریں۔
+
+566
+
+6.4
+Additional
+
+567
+
+Define unstructured data with one example.
+
+ایک مثال کے ساتھ انسٹرکچرڈ ڈیٹا کی تعریف کریں۔
+
+567
+
+6.4
+Additional
+
+568
+
+What is the main feature of structured data?
+
+سٹرکچرڈ ڈیٹا کی اہم خصوصیت کیا ہے؟
+
+568
+
+6.4
+Additional
+
+569
+
+Why is unstructured data called "free-form"?
+
+غیر ساختہ ڈیٹا کو "فری فارم" کیوں کہا جاتا ہے؟
+
+569
+
+6.4
+Additional
+
+570
+
+Name two examples of structured and unstructured data.
+
+سٹرکچرڈ اور انسٹرکچرڈ ڈیٹا کی دو مثالیں دیں۔
+
+570
+
+6.4
+Additional
+
+571
+
+How is structured data stored?
+
+سٹرکچرڈ ڈیٹا کیسے محفوظ کیا جاتا ہے؟
+
+571
+
+6.4
+Additional
+
+572
+
+Why is structured data easy to search and analyze?
+
+سٹرکچرڈ ڈیٹا کو تلاش اور تجزیہ کرنا آسان کیوں ہے؟
+
+572
+
+6.4
+Additional
+
+573
+
+Differentiate between structured and unstructured data.
+
+سٹرکچرڈ اور انسٹرکچرڈ ڈیٹا کے درمیان فرق کریں۔
+
+573
+
+6.5 DATA VISUALIZATION
+6.5
+Exercise
+
+574
+
+Explain why data visualization is important.
+
+وضاحت کریں کہ ڈیٹا ویژولائزیشن کیوں ضروری ہے؟
+
+574
+
+6.5
+Exercise
+
+575
+
+How does Microsoft Power BI help in data visualization?
+
+مائیکروسافٹ پاور بی آئی ڈیٹا ویزوئلائزیشن میں کس طرح مدد کرتا ہے؟
+
+575
+
+6.5
+Additional
+
+576
+
+What is data visualization?
+
+ڈیٹا ویژولائزیشن کیا ہے؟
+
+576
+
+6.5
+Additional
+
+577
+
+Give three benefits of data visualization.
+
+ڈیٹا ویژولائزیشن کے تین فوائد لکھیں۔
+
+577
+
+6.5
+Additional
+
+578
+
+How does data visualization help in understanding data?
+
+ڈیٹا ویژولائزیشن ڈیٹا سمجھنے میں کیسے مدد دیتی ہے؟
+
+578
+
+6.5
+Additional
+
+579
+
+Name four popular data visualization tools.
+
+چار مشہور ڈیٹا ویژولائزیشن ٹولز کے نام بتائیں۔
+
+579
+
+6.5
+Additional
+
+580
+
+What is the main advantage of using charts and graphs?
+
+چارٹس اور گرافس استعمال کرنے کا فائدہ کیا ہے؟
+
+580
+
+6.5
+Additional
+
+581
+
+How is Google Sheets similar to Microsoft Excel?
+
+گوگل شیٹس مائیکروسافٹ ایکسل سے کیسے ملتی ہے؟
+
+581
+
+6.5
+Additional
+
+582
+
+What makes Tableau different from Excel?
+
+ٹیبلو کو ایکسل سے مختلف کیا بناتا ہے؟
+
+582
+
+6.5
+Additional
+
+583
+
+What type of visualizations can Power BI create?
+
+پاور BI کس قسم کے تصورات بنا سکتا ہے؟
+
+583
+
+6.5
+Additional
+
+584
+
+Why is it easier to see trends in graphs than in raw numbers?
+
+خام نمبروں کے مقابلے گرافس میں رجحانات دیکھنا آسان کیوں ہے؟
+
+584
+
+6.5
+Additional
+
+585
+
+Give one real-life example where data visualization is used.
+
+ایک حقیقی زندگی کی مثال دیں جہاں ڈیٹا ویژولائزیشن استعمال ہوتی ہے۔
+
+585
+
+6.5
+Additional
+
+586
+
+What does "intuitive and understandable format" mean in Power BI?
+
+پاور BI میں "بدیہی اور قابل فہم فارمیٹ" کا کیا مطلب ہے؟
+
+586
+
+6.6 DATA PRE-PROCESSING AND ANALYSIS
+6.6
+Additional
+
+587
+
+What is data preprocessing?
+
+ڈیٹا پری پروسیسنگ کیا ہے؟
+
+587
+
+6.6
+Additional
+
+588
+
+What is the difference between quantitative and qualitative analysis?
+
+مقداری اور معیاری تجزیہ میں کیا فرق ہوتا ہے؟
+
+588
+
+6.6
+Additional
+
+589
+
+Why is data pre-processing compared to preparing ingredients before cooking?
+
+ڈیٹا پری پروسیسنگ کو کھانا پکانے سے پہلے اجزاء تیار کرنے سے کیوں تشبیہ دی جاتی ہے؟
+
+589
+
+6.6
+Additional
+
+590
+
+Name two important steps in data pre-processing.
+
+ڈیٹا پری پروسیسنگ کے دو اہم مراحل نام بتائیں۔
+
+590
+
+6.6
+Additional
+
+591
+
+What do we check while evaluating data quality?
+
+ڈیٹا کوالٹی کا جائزہ لیتے وقت ہم کیا چیک کرتے ہیں؟
+
+591
+
+6.6
+Additional
+
+592
+
+Define error with an example.
+
+ایرر کی تعریف ایک مثال کے ساتھ کریں۔
+
+592
+
+6.6
+Additional
+
+593
+
+Define outlier with an example.
+
+ایک مثال کے ساتھ آؤٹ لائر کی تعریف کریں۔
+
+593
+
+6.6
+Additional
+
+594
+
+Define bias with an example.
+
+تعصب کی تعریف ایک مثال کے ساتھ کریں۔
+
+594
+
+6.6
+Additional
+
+595
+
+What is data validation?
+
+ڈیٹا کی توثیق کیا ہے؟
+
+595
+
+6.6
+Additional
+
+596
+
+Differentiate between validating completeness and validating accuracy.
+
+مکملتا کی تصدیق اور درستگی کی تصدیق میں فرق کریں۔
+
+596
+
+6.6
+Additional
+
+597
+
+What is data cleaning?
+
+ڈیٹا کی صفائی کیا ہے؟
+
+597
+
+6.6
+Additional
+
+598
+
+How do you handle missing data?
+
+گم شدہ ڈیٹا سے کیسے نمٹا جاتا ہے؟
+
+598
+
+6.6
+Additional
+
+599
+
+How do you deal with outliers?
+
+آپ آؤٹ لائرز سے کیسے نمٹتے ہیں؟
+
+599
+
+6.6
+Additional
+
+600
+
+What is the purpose of data analysis?
+
+ڈیٹا تجزیہ کا مقصد کیا ہے؟
+
+600
+
+6.6
+Additional
+
+601
+
+Define quantitative analysis with example.
+
+مثال کے ساتھ مقداری تجزیہ کی تعریف کریں۔
+
+601
+
+6.6
+Additional
+
+602
+
+Define qualitative analysis with example.
+
+مثال کے ساتھ معیاری تجزیہ کی تعریف کریں۔
+
+602
+
+6.6
+Additional
+
+603
+
+Why must data be accurate and complete before analysis?
+
+تجزیہ سے پہلے ڈیٹا کا درست اور مکمل ہونا کیوں ضروری ہے؟
+
+603
+
+6.6
+Additional
+
+604
+
+Give one example of error in test scores.
+
+ٹیسٹ اسکورز میں ایرر کی ایک مثال دیں۔
+
+604
+
+6.6
+Additional
+
+605
+
+Give one example of bias in a survey.
+
+سروے میں بائیس کی ایک مثال دیں۔
+
+605
+
+6.6
+Additional
+
+606
+
+What happens if we analyze dirty data?
+
+اگر ہم گندے ڈیٹا کا تجزیہ کریں تو کیا ہوگا؟
+
+606
+
+6.6
+Additional
+
+607
+
+Name one technique used in data cleaning.
+
+ڈیٹا کلیننگ میں استعمال ہونے والی ایک تکنیک کا نام بتائیں۔
+
+607
+
+6.7 CLOUD STORAGE AND DATA BACKUPS
+6.7
+Additional
+
+608
+
+Define cloud storage.
+
+کلاؤڈ اسٹوریج کی تعریف کریں۔
+
+608
+
+6.7
+Additional
+
+609
+
+What is remote access?
+
+ریموٹ ایکسیس کیا ہے؟
+
+609
+
+6.7
+Additional
+
+610
+
+How is cloud storage compared to an "infinite bookshelf"?
+
+کلاؤڈ اسٹوریج کو "لامحدود بک شیلف" سے کیسے تشبیہ دی گئی ہے؟
+
+610
+
+6.7
+Additional
+
+611
+
+Why is cloud storage useful for managing data?
+
+ڈیٹا منظم کرنے کے لیے کلاؤڈ اسٹوریج کیوں مفید ہے؟
+
+611
+
+6.7
+Additional
+
+612
+
+Define data backup.
+
+ڈیٹا بیک اپ کی تعریف کریں۔
+
+612
+
+6.7
+Additional
+
+613
+
+Why are backups essential?
+
+بیک اپس کیوں ضروری ہیں؟
+
+613
+
+6.7
+Additional
+
+614
+
+Name three problems that backups can protect against.
+
+تین مسائل کے نام بتائیں جن سے بیک اپس حفاظت کر سکتے ہیں۔
+
+614
+
+6.7
+Additional
+
+615
+
+What is global collaboration? Give example.
+
+عالمی تعاون کیا ہے؟ مثال دیں۔
+
+615
+
+6.7
+Additional
+
+616
+
+Name two features of data backups.
+
+ڈیٹا بیک اپس کی دو خصوصیات نام بتائیں۔
+
+616
+
+6.7
+Additional
+
+617
+
+How does automatic backup help?
+
+خودکار بیک اپ کس طرح مدد کرتا ہے؟
+
+617
+
+6.7
+Additional
+
+618
+
+What is version control in Google Docs?
+
+گوگل ڈاکس میں ورژن کنٹرول کیا ہے؟
+
+618
+
+6.7
+Additional
+
+619
+
+How do collaborative tools enhance productivity?
+
+تعاونی اوزار پیداواری صلاحیت کو کس طرح بڑھاتے ہیں؟
+
+619
+
+6.7
+Additional
+
+620
+
+Why can cloud files be accessed from any device?
+
+کلاؤڈ فائلوں تک کسی بھی ڈیوائس سے رسائی کیوں ممکن ہے؟
+
+620
+
+6.7
+Additional
+
+621
+
+What can you do with restored files?
+
+آپ بحال شدہ فائلوں کے ساتھ کیا کر سکتے ہیں؟
+
+621
+
+6.7
+Additional
+
+622
+
+How does version control prevent loss of work?
+
+ورژن کنٹرول کام کے ضیاع کو کیسے روکتا ہے؟
+
+622
+
+6.7
+Additional
+
+623
+
+Give one example of saving backup using Google Drive.
+
+گوگل ڈرائیو استعمال کرتے ہوئے بیک اپ محفوظ کرنے کی ایک مثال دیں۔
+
+623
+
+6.7
+Additional
+
+624
+
+How does cloud storage free up physical space?
+
+کلاؤڈ اسٹوریج جسمانی جگہ کو کیسے خالی کرتا ہے؟
+
+624
+
+6.7
+Additional
+
+625
+
+What is the role of internet in cloud storage?
+
+کلاؤڈ اسٹوریج میں انٹرنیٹ کا کیا کردار ہے؟
+
+625
+
+6.7
+Additional
+
+626
+
+Why is working together online easier with cloud tools?
+
+آن لائن ساتھ کام کرنا کلاؤڈ ٹولز کے ساتھ کیوں آسان ہے؟
+
+626
+
+6.7
+Additional
+
+627
+
+What happens if you don’t create backup of important school project?
+
+اگر آپ اہم اسکول کے پروجیکٹ کا بیک اپ نہیں بناتے تو کیا ہوتا ہے؟
+
+627
+
+6.8 INTRODUCTION TO DATA SCIENCE
+6.8
+Exercise
+
+628
+
+How can we use Python in Data Science?
+
+ہم ڈیٹا سائنس میں پائتھون کیسے استعمال کر سکتے ہیں؟
+
+628
+
+6.8
+Exercise
+
+629
+
+What is SQL?
+
+ایس کیو ایل کیا ہے؟
+
+629
+
+6.8
+Additional
+
+630
+
+Define data science.
+
+ڈیٹا سائنس کی تعریف کریں۔
+
+630
+
+6.8
+Additional
+
+631
+
+Why is data science compared to being a detective?
+
+ڈیٹا سائنس کو جاسوس ہونے سے کیوں تشبیہ دی جاتی ہے؟
+
+631
+
+6.8
+Additional
+
+632
+
+How does data science help students?
+
+ڈیٹا سائنس طلبہ کیسے مدد کرتی ہے؟
+
+632
+
+6.8
+Additional
+
+633
+
+Name three fields that data science combines.
+
+ڈیٹا سائنس جن تین شعبوں کو ملاتی ہے ان کے نام بتائیں۔
+
+633
+
+6.8
+Additional
+
+634
+
+What is the role of Computer Science in data science?
+
+ڈیٹا سائنس میں کمپیوٹر سائنس کا کیا کردار ہے؟
+
+634
+
+6.8
+Additional
+
+635
+
+What is the role of Mathematics and Statistics?
+
+ریاضی اور شماریات کا کیا کردار ہے؟
+
+635
+
+6.8
+Additional
+
+636
+
+How do businesses use data science?
+
+بزنسز ڈیٹا سائنس کیسے استعمال کرتی ہیں؟
+
+636
+
+6.8
+Additional
+
+637
+
+Give one use of data science in sports.
+
+کھیلوں میں ڈیٹا سائنس کا ایک استعمال بتائیں۔
+
+637
+
+6.8
+Additional
+
+638
+
+How do doctors use data science?
+
+ڈاکٹرز ڈیٹا سائنس کیسے استعمال کرتے ہیں؟
+
+638
+
+6.8
+Additional
+
+639
+
+Name four tools used in data science.
+
+ڈیٹا سائنس میں استعمال ہونے والے چار ٹولز کے نام بتائیں۔
+
+639
+
+6.8
+Additional
+
+640
+
+What is Microsoft Excel used for in data science?
+
+ڈیٹا سائنس میں مائیکروسافٹ ایکسل کس لیے استعمال ہوتا ہے؟
+
+640
+
+6.8
+Additional
+
+641
+
+What is Python used for?
+
+پائتھن کس لیے استعمال ہوتا ہے؟
+
+641
+
+6.8
+Additional
+
+642
+
+Name two Python libraries for data manipulation.
+
+ڈیٹا مینیپولیشن کے لیے پائتھن کی دو لائبریریز کے نام بتائیں۔
+
+642
+
+6.8
+Additional
+
+643
+
+What is R language good at?
+
+R زبان کس چیز میں اچھی ہے؟
+
+643
+
+6.8
+Additional
+
+644
+
+What does SQL stand for?
+
+SQL کا مطلب کیا ہے؟
+
+644
+
+6.8
+Additional
+
+645
+
+What is SQL used for?
+
+SQL کس لیے استعمال ہوتا ہے؟
+
+645
+
+6.8
+Additional
+
+646
+
+Why is data science important in daily life?
+
+روزمرہ زندگی میں ڈیٹا سائنس کیوں اہم ہے؟
+
+646
+
+6.8
+Additional
+
+647
+
+How does data science turn raw data into insights?
+
+ڈیٹا سائنس خام ڈیٹا کو بصیرت میں کیسے بدلتی ہے؟
+
+647
+
+6.8
+Additional
+
+648
+
+Give one example of pattern found by data science.
+
+ڈیٹا سائنس سے ملنے والے پیٹرن کی ایک مثال دیں۔
+
+648
+
+6.8
+Additional
+
+649
+
+Why are tools like Excel, Python, R, SQL important for data scientists?
+
+ایکسل، Python، R، SQL جیسے ٹولز ڈیٹا سائنسدانوں کے لیے کیوں اہم ہیں؟
+
+649
+
+7.1 INTRODUCTION TO ARTIFICIAL INTELLIGENCE
+7.1
+Exercise
+
+650
+
+Define Artificial Intelligence (AI).
+
+مصنوعی ذہانت کی تعریف کریں۔
+
+650
+
+7.1
+Exercise
+
+651
+
+Provide two examples of AI applications in healthcare.
+
+صحت کی دیکھ بھال میں AI ایپلی کیشنز کی دو مثالیں فراہم کریں۔
+
+651
+
+7.1
+Exercise
+
+652
+
+Explain the role of AI techniques in advancing machine learning models.
+
+مشین لرننگ ماڈلز کو آگے بڑھانے میں AI تکنیک کے کردار کی وضاحت کریں۔
+
+652
+
+7.1
+Additional
+
+653
+
+What is the historical context and evolution of AI?
+
+AI  کا تاریخی تناظر اور ارتقا سے کیا مراد ہے؟
+
+653
+
+7.1
+Additional
+
+654
+
+Elaborate the important of AI in daily life?
+
+روزمرہ کی زندگی میں AI کی اہمیت کو واضح کریں؟
+
+654
+
+7.1
+Additional
+
+655
+
+How AI can be helpful in finance?
+
+AI فنانس میں کس طرح مددگار ہو سکتا ہے؟
+
+655
+
+7.1
+Additional
+
+656
+
+What is the use of AI in e-commerce?
+
+ای کامرس میں AI کا کیا استعمال ہے؟
+
+656
+
+7.1
+Additional
+
+657
+
+How does deep learning work?
+
+ڈیپ لرننگ کیسے کام کرتی ہے؟
+
+657
+
+7.1
+Additional
+
+658
+
+Give three uses of deep learning in real-world.
+
+حقیقی زندگی میں ڈیپ لرننگ کے تین استعمال لکھیں۔
+
+658
+
+7.1
+Additional
+
+659
+
+How does neural network work?
+
+نیول نیٹ ورک کیسے کام کرتا ہے؟
+
+659
+
+7.1
+Additional
+
+660
+
+What do you know about NLP?
+
+نیچرل لینگوئج پروسسنگ کے بارے میں آپ کیا جاتے ہیں؟
+
+660
+
+7.1
+Additional
+
+661
+
+What is robotics? Give examples of the use of robots.
+
+ربوٹکس کیا ہے؟ ربوٹکس کے استعمال کی مثالیں لکھیں۔
+
+661
+
+7.1
+Additional
+
+662
+
+What was the primary goal of the "Logic Theorist" program created in 1955?
+
+1955 میں تخلیق شدہ 'لاجک تھیورسٹ' پروگرام کا بنیادی مقصد کیا تھا؟
+
+662
+
+7.1
+Additional
+
+663
+
+How does AI enhance the experience of players in the gaming industry?
+
+AI گیمنگ انڈسٹری میں کھلاڑیوں کے تجربے کو کیسے بڑھاتا ہے؟
+
+663
+
+7.1
+Additional
+
+664
+
+Mention two ways AI is transforming the automobile industry.
+
+دو طریقوں کا ذکر کریں جن سے AI آٹوموبائل انڈسٹری کو تبدیل کر رہا ہے۔
+
+664
+
+7.1
+Additional
+
+665
+
+What is meant by the "simulation of human thinking ability"?
+
+"انسانی سوچنے کی صلاحیت کی تخروپن" سے کیا مراد ہے؟
+
+665
+
+7.1
+Additional
+
+666
+
+Why is AI considered a rapidly growing field?
+
+AI کو تیزی سے بڑھتا ہوا فیلڈ کیوں سمجھا جاتا ہے؟
+
+666
+
+7.1
+Additional
+
+667
+
+What are self-driving cars?
+
+خود سے چلنے والی کاریں کیا ہیں؟
+
+667
+
+7.1
+Additional
+
+668
+
+Why is AI useful in solving complex problems?
+
+پیچیدہ مسائل کو حل کرنے میں AI کیوں مفید ہے؟
+
+668
+
+7.1
+Additional
+
+669
+
+What are some major fields where AI is applied?
+
+کچھ بڑے فیلڈز کیا ہیں جہاں AI کا اطلاق ہوتا ہے؟
+
+669
+
+7.1
+Additional
+
+670
+
+How does AI personalize learning experiences?
+
+AI سیکھنے کے تجربات کو کس طرح ذاتی بناتا ہے؟
+
+670
+
+7.1
+Additional
+
+671
+
+What are advanced driver assistance systems?
+
+جدید ڈرائیور امدادی نظام کیا ہیں؟
+
+671
+
+7.1
+Additional
+
+672
+
+What are the future prospects of AI?
+
+AI کے مستقبل کے امکانات کیا ہیں؟
+
+672
+
+7.2 AI ALGORITHMS AND TECHNIQUES
+7.2
+Additional
+
+673
+
+What do you know about explainable algorithms?
+
+قابل بیان الگورتھم کے بارے میں آپ کیا جانتے ہیں؟
+
+673
+
+7.2
+Additional
+
+674
+
+Give three examples of explainable algorithms.
+
+قابل بیان الگورتھم کی تین مثالیں لکھیں۔
+
+674
+
+7.2
+Additional
+
+675
+
+What is unexplainable algorithms?
+
+ناقابل وضاحت الگورتھم کیا ہوتے ہیں؟
+
+675
+
+7.2
+Additional
+
+676
+
+Give two examples of unexplainable algorithms.
+
+ناقابل وضاحت الگورتھم کی دو مثالیں لکھیں۔
+
+676
+
+7.2
+Additional
+
+677
+
+Differentiate between whitebox and blackbox models.
+
+وائٹ باکس اور بلیک باکس ماڈلز میں فرق بیان کریں۔
+
+677
+
+7.2
+Additional
+
+678
+
+Define Interpretability in the context of AI algorithms.
+
+AI الگورتھم کے تناظر میں تشریح کی وضاحت کریں۔
+
+678
+
+7.2
+Additional
+
+679
+
+What are Whitebox algorithms, and why are they called "explainable"?
+
+وائٹ باکس الگورتھم کیا ہیں، اور انہیں "قابل وضاحت" کیوں کہا جاتا ہے؟
+
+679
+
+7.2
+Additional
+
+680
+
+Why is it difficult for humans to understand the decision-making process of Blackbox algorithms?
+
+بلیک باکس الگورتھم کے فیصلہ سازی کے عمل کو سمجھنا انسانوں کے لیے کیوں مشکل ہے؟
+
+680
+
+7.2
+Additional
+
+681
+
+What role do Hidden Layers play in a neural network?
+
+عصبی نیٹ ورک میں پوشیدہ پرتیں کیا کردار ادا کرتی ہیں؟
+
+681
+
+7.2
+Additional
+
+682
+
+Give two examples of models that are typically categorized as Blackbox algorithms.
+
+ان ماڈلز کی دو مثالیں دیں جنہیں عام طور پر بلیک باکس الگورتھم کے طور پر درجہ بندی کیا جاتا ہے۔
+
+682
+
+7.3 INTRODUCTION TO INTERNET OF THINGS (IOT)
+7.3
+Exercise
+
+683
+
+Define the internet of things (IoT).
+
+IOT کی تعریف کریں۔
+
+683
+
+7.3
+Exercise
+
+684
+
+Describe the significance of IoT in connecting devices and systems.
+
+آئی او ٹی کے آلات اور نظام کو مربوط کرنے میں اہمیت کی وضاحت کریں۔
+
+684
+
+7.3
+Exercise
+
+685
+
+Describe applications of IoT in the Transportation Domain.
+
+ٹرانسپورٹیشن کے شعبے میں آئی او ٹی کے استعمالات کی وضاحت کریں۔
+
+685
+
+7.3
+Additional
+
+686
+
+What is the purpose of sensors in an IoT system?
+
+IoT سسٹم میں سنسر کا مقصد کیا ہوتا ہے؟
+
+686
+
+7.3
+Additional
+
+687
+
+How do smart home devices help save energy?
+
+سمارٹ ہوم ڈیوائسز توانائی بچانے میں کس طرح مدد کرتی ہیں؟
+
+687
+
+7.3
+Additional
+
+688
+
+Give two applications of IoT transportation.
+
+IoT ٹرانسپورٹیشن کی دو ایپلی کیشنز دیں۔
+
+688
+
+7.3
+Additional
+
+689
+
+How IoT devices can be protected from cyberattacks?
+
+IoT آلات سائبر حملوں سے کیسے محفوظ رہ سکتے ہیں؟
+
+689
+
+7.3
+Additional
+
+690
+
+What is the relationship between "data collection" and "decision making" in IoT?
+
+IoT میں "ڈیٹا اکٹھا کرنے" اور "فیصلہ سازی" کے درمیان کیا تعلق ہے؟
+
+690
+
+7.3
+Additional
+
+691
+
+How does IoT create "new opportunities" in agriculture?
+
+IoT زراعت میں "نئے مواقع" کیسے پیدا کرتا ہے؟
+
+691
+
+7.3
+Additional
+
+692
+
+What does it mean for a device to be "equipped with sensors"?
+
+کسی ڈیوائس کے "سینسر سے لیس" ہونے کا کیا مطلب ہے؟
+
+692
+
+7.3
+Additional
+
+693
+
+Where is data analysis typically performed in a large-scale IoT system?
+
+ڈیٹا کا تجزیہ عام طور پر بڑے پیمانے پر IoT سسٹم میں کہاں کیا جاتا ہے؟
+
+693
+
+7.3
+Additional
+
+694
+
+Define "motion" in the context of an actuator.
+
+ایکچیویٹر کے تناظر میں "حرکت" کی وضاحت کریں۔
+
+694
+
+7.3
+Additional
+
+695
+
+Can an IoT system function without a network? Why or why not?
+
+کیا IoT سسٹم نیٹ ورک کے بغیر کام کر سکتا ہے؟ کیوں یا کیوں نہیں؟
+
+695
+
+7.3
+Additional
+
+696
+
+Explain the importance of Kevin Ashton in the history of IoT.
+
+انٹرنیٹ آف تھنگز کی تاریخ میں کیون ایشٹن کی اہمیت کی وضاحت کریں۔
+
+696
+
+7.3
+Additional
+
+697
+
+Give two examples of everyday "devices" that can become part of an IoT network.
+
+روزمرہ کے "آلات" کی دو مثالیں دیں جو IoT نیٹ ورک کا حصہ بن سکتے ہیں۔
+
+697
+
+7.3
+Additional
+
+698
+
+What are the two main types of communication pathways in IoT?
+
+IoT میں مواصلاتی راستے کی دو اہم اقسام کیا ہیں؟
+
+698
+
+8.2 RESPONSIBLE COMPUTER USAGE
+8.2
+Exercise
+
+699
+
+What is the importance of using computers safely and responsibly?
+
+کمپیوٹر کو محفوظ طریقے سے اور ذمہ داری سے استعمال کرنے کی کیا اہمیت ہے؟
+
+699
+
+8.2
+Exercise
+
+700
+
+Why should you create strong, unique passwords for your accounts?
+
+آپ کو اپنے اکاؤنٹس کے لیے مضبوط منفرد پاس ورڈ کیوں بنانا چاہیے؟
+
+700
+
+8.2
+Exercise
+
+701
+
+What is Two-Factor Authentication (2FA), and why is it useful?
+
+دو عوامل کی توثیق (2FA) کیا ہے، اور یہ کیوں مفید ہے؟
+
+701
+
+8.2
+Exercise
+
+702
+
+Why is it a good idea to avoid using public Wi-Fi for sensitive transactions?
+
+حساس لین دین کے لیے پبلک وائی فائی کے استعمال سے گریز کرنا اچھا خیال کیوں ہے؟
+
+702
+
+8.2
+Additional
+
+703
+
+How does choosing the right hardware and software affect your computer usage?
+
+صحیح ہارڈ ویئر اور سافٹ ویئر کا انتخاب آپ کے کمپیوٹر کے استعمال کو کیسے متاثر کرتا ہے؟
+
+703
+
+8.2
+Additional
+
+704
+
+Why is important to use antivirus software on your computer?
+
+اپنے کمپیوٹر پر اینٹی وائرس سافٹ ویئرز استعمال کرنا کیوں ضروری ہے؟
+
+704
+
+8.2
+Additional
+
+705
+
+What are some examples of good practices when selecting hardware and software?
+
+ہارڈ ویئر اور سافٹ ویئر کا انتخاب کرتے وقت اچھے طریقوں کی کچھ مثالیں کیا ہیں؟
+
+705
+
+8.2
+Additional
+
+706
+
+How can choosing compatible hardware and software enhance your computer experience?
+
+ہم آہنگ ہارڈ ویئر اور سافٹ ویئر کا انتخاب آپ کے کمپیوٹر کے تجربے کو کیسے بڑھا سکتا ہے؟
+
+706
+
+8.2
+Additional
+
+707
+
+Can you give an example of strong password and explain why it is better than a simple one like "password123"?
+
+کیا آپ مضبوط پاس ورڈ کی مثال دے سکتے ہیں اور بتا سکتے ہیں کہ یہ "password123" جیسے سادہ سے بہتر کیوں ہے؟
+
+707
+
+8.2
+Additional
+
+708
+
+What is meant by password?
+
+پاس ورڈ سے کیا مراد ہے؟
+
+708
+
+8.2
+Additional
+
+709
+
+What are the characteristics of a strong password?
+
+مضبوط پاس ورڈ کی خصوصیات کیا ہیں؟
+
+709
+
+8.2
+Additional
+
+710
+
+How does outdated hardware or software specifically impact a user's safety?
+
+فرسودہ ہارڈویئر یا سافٹ ویئر خاص طور پر صارف کی حفاظت کو کس طرح متاثر کرتا ہے؟
+
+710
+
+8.2
+Additional
+
+711
+
+Why is it necessary to check "system requirements" before installing new software?
+
+نیا سافٹ ویئر انسٹال کرنے سے پہلے "سسٹم کی ضروریات" کو چیک کرنا کیوں ضروری ہے؟
+
+711
+
+8.2
+Additional
+
+712
+
+What is the main danger of "phishing" in the context of online scams?
+
+آن لائن گھوٹالوں کے تناظر میں "فشنگ" کا بنیادی خطرہ کیا ہے؟
+
+712
+
+8.2
+Additional
+
+713
+
+Explain why a private home network is preferred over a cafe’s Wi-Fi for sensitive tasks.
+
+وضاحت کریں کہ حساس کاموں کے لیے کیفے کے Wi-Fi پر نجی ہوم نیٹ ورک کو ترجیح کیوں دی جاتی ہے۔
+
+713
+
+8.3 BEST PRACTICES IN ONLINE BEHAVIOR
+8.3
+Exercise
+
+714
+
+How can you protect yourself from harmful links and downloads?
+
+آپ اپنے آپ کو نقصان دہ لنکس اور ڈاؤن لوڈز سے کیسے بچا سکتے ہیں؟
+
+714
+
+8.3
+Exercise
+
+715
+
+Why is it important to be careful about what you share on social media?
+
+سوشل میڈیا پر آپ جو شئیر کرتے ہیں اس کے بارے میں محتاط کیوں رہنا چاہیے؟
+
+715
+
+8.3
+Additional
+
+716
+
+Why is it important to be careful when sharing personal information on the internet?
+
+انٹرنیٹ پر ذاتی معلومات شیئر کرتے وقت محتاط رہنا کیوں ضروری ہے؟
+
+716
+
+8.3
+Additional
+
+717
+
+Why is it dangerous to share your home address publicly on social media?
+
+سوشل میڈیا پر اپنے گھر کا پتہ عوامی طور پر شیئر کرنا کیوں خطرناک ہے؟
+
+717
+
+8.3
+Additional
+
+718
+
+What specific danger do "harmful attachments" in emails pose to a user?
+
+ای میلز میں "نقصان دہ منسلکات" صارف کے لیے کون سا خاص خطرہ لاحق ہیں؟
+
+718
+
+8.3
+Additional
+
+719
+
+Name two popular cloud services and their primary use.
+
+دو مقبول کلاؤڈ سروسز اور ان کے بنیادی استعمال کے نام بتائیں۔
+
+719
+
+8.3
+Additional
+
+720
+
+Why are the Google Play Store and Apple App Store considered "trusted sources"?
+
+گوگل پلے اسٹور اور ایپل ایپ اسٹور کو "قابل اعتماد ذرائع" کیوں سمجھا جاتا ہے؟
+
+720
+
+8.3
+Additional
+
+721
+
+What does the phrase "think before you post" mean in the context of digital safety?
+
+ڈیجیٹل حفاظت کے تناظر میں "پوسٹ کرنے سے پہلے سوچیں" کے فقرے کا کیا مطلب ہے؟
+
+721
+
+8.3
+Additional
+
+722
+
+What is meant by online behavior?
+
+آن لائن رویے سے کیا مراد ہے؟
+
+722
+
+8.3
+Additional
+
+723
+
+Why is responsible internet usage important?
+
+انٹرنیٹ کا ذمہ دارانہ استعمال کیوں ضروری ہے؟
+
+723
+
+8.3
+Additional
+
+724
+
+What are social media platforms used for?
+
+سوشل میڈیا پلیٹ فارم کس لیے استعمال ہوتے ہیں؟
+
+724
+
+8.3
+Additional
+
+725
+
+What are cloud services?
+
+کلاؤڈ سروسز کیا ہیں؟
+
+725
+
+8.3
+Additional
+
+726
+
+What are online applications?
+
+آن لائن درخواستیں کیا ہیں؟
+
+726
+
+8.3
+Additional
+
+727
+
+What is sensitive information?
+
+حساس معلومات کیا ہے؟
+
+727
+
+8.4 INTELLECTUAL PROPERTY RIGHTS
+8.4
+Exercise
+
+728
+
+What is software piracy, and why is it harmful?
+
+سافٹ ویئر پائریسی کیا ہے، اور یہ نقصان دہ کیوں ہے؟
+
+728
+
+8.4
+Exercise
+
+729
+
+What is the purpose of privacy laws regarding your personal information?
+
+آپ کی ذاتی معلومات کے حوالے سے پرائیویسی قوانین کا مقصد کیا ہے؟
+
+729
+
+8.4
+Additional
+
+730
+
+What is the difference between copyright, trademarks, and patents?
+
+کاپی رائٹ ٹریڈ مارکس اور پیٹینٹ میں کیا فرق ہے؟
+
+730
+
+8.4
+Additional
+
+731
+
+Why is online etiquette important, and how does the "Golden Rule" apply to online interactions?
+
+آن لائن آداب کیوں اہم ہیں، اور آن لائن تعاملات پر "سنہری اصول" کا اطلاق کیسے ہوتا ہے؟
+
+731
+
+8.4
+Additional
+
+732
+
+What is a patent, and how does it protect new inventions?
+
+پیٹنٹ کیا ہے، اور یہ نئی ایجادات کی حفاظت کیسے کرتا ہے؟
+
+732
+
+8.4
+Additional
+
+733
+
+What is cyberbullying, and why is it important to recognize and respond to it?
+
+سائبر بلی انگ کیا ہے، اور اسے پہچاننا اور اس کا جواب دینا کیوں ضروری ہے؟
+
+733
+
+8.4
+Additional
+
+734
+
+How does Copyright protect an author who has just written a new book?
+
+کاپی رائٹ ایسے مصنف کی حفاظت کیسے کرتا ہے جس نے ابھی ایک نئی کتاب لکھی ہے؟
+
+734
+
+8.4
+Additional
+
+735
+
+Explain why downloading a movie for free from an unofficial website is a violation of the law.
+
+وضاحت کریں کہ غیر سرکاری ویب سائٹ سے فلم مفت میں ڈاؤن لوڈ کرنا قانون کی خلاف ورزی کیوں ہے۔
+
+735
+
+8.4
+Additional
+
+736
+
+Why is "Online Etiquette" important when interacting with others on social media?
+
+سوشل میڈیا پر دوسروں کے ساتھ بات چیت کرتے وقت "آن لائن آداب" کیوں ضروری ہے؟
+
+736
+
+8.4
+Additional
+
+737
+
+What are ethical responsibilities regarding intellectual property rights?
+
+دانشورانہ املاک کے حقوق کے حوالے سے اخلاقی ذمہ داریاں کیا ہیں؟
+
+737
+
+8.4
+Additional
+
+738
+
+What are Intellectual Property Rights and why are they important?
+
+انٹلیکچوئل پراپرٹی رائٹس کیا ہیں اور وہ کیوں اہم ہیں؟
+
+738
+
+8.4
+Additional
+
+739
+
+Why is it important to purchase software legally?
+
+قانونی طور پر سافٹ ویئر خریدنا کیوں ضروری ہے؟
+
+739
+
+8.4
+Additional
+
+740
+
+What is meant by legal compliance in computing?
+
+کمپیوٹنگ میں قانونی تعمیل سے کیا مراد ہے؟
+
+740
+
+9.1 ENTREPRENEURSHIP
+9.1
+Exercise
+
+741
+
+What is the meaning of the word entrepreneur?
+
+کاروباری شخص کے لفظ کا کیا مطلب ہے؟
+
+741
+
+9.1
+Additional
+
+742
+
+What is entrepreneurship? 
+
+انٹرپرینیورشپ کیا ہے؟
+
+ 
+
+742
+
+9.1
+Additional
+
+743
+
+Who is an entrepreneur?
+
+ایک انٹر پرینیور کون ہے؟
+
+743
+
+9.1
+Additional
+
+744
+
+What are the key characteristics of entrepreneurs?
+
+انٹر پرینیور کی اہم خصوصیات کون سی ہیں؟
+
+744
+
+9.1
+Additional
+
+745
+
+Give an example of entrepreneurship?
+
+انٹرپرینیوز شپ کی مثال لکھیں۔
+
+745
+
+9.1
+Additional
+
+746
+
+How does entrepreneurship contribute to economic growth?
+
+انٹرپرینیورشپ کس طرح اقتصادی ترقی میں حصہ ڈالتی ہے؟
+
+746
+
+9.1
+Additional
+
+747
+
+Explain how "risk-taking" differentiates an entrepreneur from a traditional employee.
+
+وضاحت کریں کہ کس طرح "خطرہ اٹھانا" ایک کاروباری کو روایتی ملازم سے مختلف کرتا ہے۔
+
+747
+
+9.1
+Additional
+
+748
+
+In your own words, describe the relationship between innovation and entrepreneurship.
+
+آپ کے اپنے الفاظ میں، جدت طرازی اور انٹرپرینیورشپ کے درمیان تعلق کو بیان کریں۔
+
+748
+
+9.1
+Additional
+
+749
+
+How can digital technologies act as a tool for a modern entrepreneur?
+
+ڈیجیٹل ٹیکنالوجیز ایک جدید کاروباری کے لیے ایک آلے کے طور پر کیسے کام کر سکتی ہیں؟
+
+749
+
+9.1
+Additional
+
+750
+
+Why is the "process" of designing and launching a business just as important as the product itself?
+
+کاروبار کو ڈیزائن کرنے اور شروع کرنے کا "عمل" اتنا ہی اہم کیوں ہے جتنا کہ خود پروڈکٹ؟
+
+750
+
+9.1
+Additional
+
+751
+
+Identify three characteristics of an entrepreneur.
+
+ایک کاروباری شخص کی تین خصوصیات کی نشاندہی کریں۔
+
+751
+
+9.2 ENTREPRENEURSHIP IN THE DIGITAL LANDSCAPE
+9.2
+Exercise
+
+752
+
+How do digital technologies help entrepreneurs reach a global audience?
+
+ڈیجیٹل ٹیکنالوجیز کاروباری افراد کو عالمی سامعین تک پہنچنے میں کس طرح مدد دیتی ہیں؟
+
+752
+
+9.2
+Exercise
+
+753
+
+What is an e-commerce platform?
+
+ای کامرس پلیٹ فارم کیا ہے؟
+
+753
+
+9.2
+Additional
+
+754
+
+How does social media support entrepreneurship?
+
+سوشل میڈیا کس طرح انٹرپرینیورشپ کو سپورٹ کرتا ہے؟
+
+754
+
+9.2
+Additional
+
+755
+
+How do mobile apps help businesses connect with customers?
+
+موبائل ایپس کس طرح کاروباروں کو صارفین کے ساتھ جڑنے میں مدد کرتی ہیں؟
+
+755
+
+9.2
+Additional
+
+756
+
+What is big data analytics, and why is it useful?
+
+بگ ڈیٹا اینا لیٹک کیا ہوتا ہے؟ اور یہ کیوں مفید ہوتے ہیں؟
+
+756
+
+9.2
+Additional
+
+757
+
+What is digital marketing and e-commerce?
+
+ڈیجیٹل مارکیٹنگ اور ای کامرس کیا ہوتے ہیں؟
+
+757
+
+9.2
+Additional
+
+758
+
+What is Search Engine Optimization (SEO)?
+
+سرچ انجن آپٹیما ئزیشن کیا ہوتا ہے؟
+
+758
+
+9.2
+Additional
+
+759
+
+What is the use of e-commerce platforms for entrepreneurs?
+
+انٹر پرینیور کے لیے ای کامرس پلیٹ فارم کا استعمال کیا ہے؟
+
+759
+
+9.2
+Additional
+
+760
+
+Name some popular e-commerce platforms?
+
+کچھ مشہور ای کامرس پلیٹ فارمز کے نام بتائیں؟
+
+760
+
+9.2
+Additional
+
+761
+
+Define "Digital Landscape" in the context of modern business.
+
+جدید کاروبار کے تناظر میں "ڈیجیٹل لینڈ سکیپ" کی تعریف کریں۔
+
+761
+
+9.2
+Additional
+
+762
+
+How does "Big Data Analytics" help an entrepreneur improve business efficiency?
+
+"بگ ڈیٹا اینالیٹکس" کس طرح ایک کاروباری شخص کی کاروباری کارکردگی کو بہتر بنانے میں مدد کرتا ہے؟
+
+762
+
+9.2
+Additional
+
+763
+
+Distinguish between a traditional entrepreneur and a digital entrepreneur.
+
+روایتی کاروباری اور ڈیجیٹل کاروباری کے درمیان فرق کریں۔
+
+763
+
+9.2
+Additional
+
+764
+
+Why is a "Global Audience" more accessible today than it was twenty years ago?
+
+آج ایک "عالمی سامعین" بیس سال پہلے کے مقابلے میں زیادہ قابل رسائی کیوں ہے؟
+
+764
+
+9.2
+Additional
+
+765
+
+List three ways social media platforms help in marketing a new product.
+
+تین طریقوں کی فہرست بنائیں جو سوشل میڈیا پلیٹ فارم نئی مصنوعات کی مارکیٹنگ میں مدد کرتے ہیں۔
+
+765
+
+9.3 BUSINESS IDEA GENERATION
+9.3
+Exercise
+
+766
+
+Why is it important to identify market needs when generating a business idea?
+
+بزنس آئیڈیاز پیدا کرتے وقت مارکیٹ کی ضروریات کی نشاندہی کرنا کیوں ضروری ہے؟
+
+766
+
+9.3
+Exercise
+
+767
+
+What is the main purpose of using design thinking in creative problem-solving?
+
+تخلیقی مسائل کے حل میں ڈیزائن تھنکنگ کو استعمال کرنے کا بنیادی مقصد کیا ہے؟
+
+767
+
+9.3
+Additional
+
+768
+
+Define "Creative Problem Solving" in your own words.
+
+"تخلیقی مسئلہ حل کرنے" کی تعریف اپنے الفاظ میں کریں۔
+
+768
+
+9.3
+Additional
+
+769
+
+How does a questionnaire differ from observation as a technique for identifying market needs?
+
+مارکیٹ کی ضروریات کی نشاندہی کرنے کی تکنیک کے طور پر ایک سوالنامہ مشاہدے سے کیسے مختلف ہے؟
+
+769
+
+9.3
+Additional
+
+770
+
+Explain the importance of the "Defining" stage in the Design Thinking process.
+
+ڈیزائن سوچ کے عمل میں "تعریف" مرحلے کی اہمیت کی وضاحت کریں۔
+
+770
+
+9.3
+Additional
+
+771
+
+Why is "Prototyping" useful before launching a final product?
+
+حتمی پروڈکٹ لانچ کرنے سے پہلے "پروٹو ٹائپنگ" کیوں مفید ہے؟
+
+771
+
+9.3
+Additional
+
+772
+
+Give an example of a "market need" you have observed in your local community.
+
+ایک "مارکیٹ کی ضرورت" کی مثال دیں جو آپ نے اپنی مقامی کمیونٹی میں دیکھی ہے۔
+
+772
+
+9.4 DEVELOPING BUSINESS PLANS
+9.4
+Exercise
+
+773
+
+Write the importance of market analysis in a business plan.
+
+کاروباری منصوبے میں مارکیٹ کے تجزیے کی اہمیت لکھیں۔
+
+773
+
+9.4
+Additional
+
+774
+
+What are revenue models, and why are they essential components of a business plan?
+
+ریونیو ماڈل کیا ہیں، اور وہ کاروباری منصوبے کے لازمی اجزاء کیوں ہیں؟
+
+774
+
+9.4
+Additional
+
+775
+
+What is prototyping and iteration, and how have successful companies used them?
+
+پروٹو ٹائپنگ اور تکرار کیا ہے، اور کامیاب کمپنیوں نے انہیں کیسے استعمال کیا ہے؟
+
+775
+
+9.4
+Additional
+
+776
+
+How does a business plan serve as a "blueprint" for an entrepreneur?
+
+کاروباری منصوبہ کس طرح ایک کاروباری شخص کے لیے "بلیو پرنٹ" کے طور پر کام کرتا ہے؟
+
+776
+
+9.4
+Additional
+
+777
+
+Identify the three main activities involved in conducting a "Market Analysis."
+
+"مارکیٹ تجزیہ" کے انعقاد میں شامل تین اہم سرگرمیوں کی نشاندہی کریں۔
+
+777
+
+9.4
+Additional
+
+778
+
+Explain the difference between a "Prototyping" and "Iteration."
+
+ایک "پروٹوٹائپنگ" اور "ایتریشن" کے درمیان فرق کی وضاحت کریں۔
+
+778
+
+9.4
+Additional
+
+779
+
+What are the four key questions a "Revenue Model" aims to answer?
+
+"ریونیو ماڈل" کا مقصد کون سے چار اہم سوالات ہیں جن کا جواب دینا ہے؟
+
+779
+
+9.4
+Additional
+
+780
+
+Why is "Financial Planning" a crucial component of a comprehensive business plan?
+
+"مالیاتی منصوبہ بندی" ایک جامع کاروباری منصوبہ کا ایک اہم جزو کیوں ہے؟
+
+780
+
+9.5 ETHICAL AND SUSTAINABLE ENTREPRENEURSHIP
+9.5
+Exercise
+
+781
+
+How can business contribute to environmental sustainability according to the sustainable development goals?
+
+سٹین ایبل ڈویلپمنٹ کے اہداف کے مطابق کاروبار ماحولیاتی پائیداری میں کیسے حصہ ڈال سکتے ہیں؟
+
+781
+
+9.5
+Exercise
+
+782
+
+How can businesses contribute to environmental sustainability according to the Sustainable Development Goals?
+
+کاروبار ماحولیاتی پائیداری میں پائیدار ترقی کے اہداف کے مطابق کس طرح حصہ ڈال سکتے ہیں؟
+
+782
+
+9.5
+Additional
+
+783
+
+What is ethical entrepreneurship, and what are its key principles?
+
+ایتھیکل انٹر پرینیورشپ کیا ہے، اور اس کے اہم اصول کیا ہیں؟
+
+783
+
+9.5
+Additional
+
+784
+
+What is the difference between "Honesty" and "Integrity" in a business context?
+
+کاروباری تناظر میں "دیانت" اور "دیانتداری" میں کیا فرق ہے؟
+
+784
+
+9.5
+Additional
+
+785
+
+How does "Sustainable Growth" differ from traditional business growth?
+
+"پائیدار ترقی" روایتی کاروباری ترقی سے کیسے مختلف ہے؟
+
+785
+
+9.5
+Additional
+
+786
+
+Identify three ways a business can contribute to "Social Sustainability."
+
+تین طریقوں کی نشاندہی کریں جن سے کاروبار "سماجی پائیداری" میں حصہ ڈال سکتا ہے۔
+
+786
+
+9.5
+Additional
+
+787
+
+Why are the Sustainable Development Goals (SDGs) important for modern businesses?
+
+پائیدار ترقی کے اہداف (SDGs) جدید کاروباروں کے لیے کیوں اہم ہیں؟
+
+787
+
+1.7 COMMON TEXT ENCODING SCHEMES
+1.7
+Exercise
+
+788
+
+What is the primary purpose of the ASCII encoding scheme?
+
+آسکی (ASCII) انکوڈنگ اسکیم کا بنیادی مقصد کیا ہے؟
+
+788
+
+1.7
+Exercise
+
+789
+
+Define Unicode.
+
+یونیکوڈ کی تعریف کریں۔
+
+789
+
+1.7
+Additional
+
+790
+
+Explain the difference between ASCII and Unicode.
+
+آسکی ASCII اور یونیکوڈ کے درمیان فرق کی وضاحت کریں۔
+
+790
+
+1.7
+Additional
+
+791
+
+How does Unicode handle characters from different languages?
+
+یونیکوڈ مختلف زبانوں کے حروف کو کس طرح سنبھالتا ہے؟
+
+791
+
+1.7
+Additional
+
+792
+
+What are text encoding schemes?
+
+ٹیکسٹ انکوڈنگ اسکیمیں کیا ہیں؟
+
+792
+
+1.7
+Additional
+
+793
+
+What is ASCII?
+
+آسکی کیا ہے؟
+
+793
+
+1.7
+Additional
+
+794
+
+Write ASCII codes for any three characters.
+
+کسی تین کریکٹرز کےلیے آسکی کوڈز لکھیں۔
+
+794
+
+1.7
+Additional
+
+795
+
+What is extend ASCII?
+
+توسیع شدہ آسکی کیا ہے؟
+
+795
+
+1.7
+Additional
+
+796
+
+What is Unicode?
+
+یونیکوڈ کیا ہے؟
+
+796
+
+1.7
+Additional
+
+797
+
+What is UTF-8?
+
+UTF-8 کیا ہے؟
+
+797
+
+1.7
+Additional
+
+798
+
+What is UTF-16?
+
+UTF-16 کیا ہے؟
+
+798
+
+1.7
+Additional
+
+799
+
+What is UTF-32?
+
+UTF-32 کیا ہے؟
+
+799
+
+1.7
+Additional
+
+800
+
+Write any three data size units used in computer.
+
+کمپیوٹر میں استعمال ہونے والے تین ڈیٹا سائز کے یونٹ لکھیں۔
+
+800
+
+1.7
+Additional
+
+801
+
+How many bits are there in a byte?
+
+ایک بائٹ میں کتنے بٹس ہوتے ہیں؟
+
+801
+
+1.7
+Additional
+
+802
+
+How many Kilobytes are in one Megabyte?
+
+ایک میگا بائٹ میں کتنے کلو بائٹس ہوتے ہیں؟
+
+802
+
+1.7
+Additional
+
+803
+
+What is meant by Binary Data?
+
+بائنری ڈیٹا سے کیا مراد ہے؟
+
+803
+
+1.7
+Additional
+
+804
+
+Differentiate between HDD and SSD.
+
+HDD اور SSD کے درمیان فرق کریں۔
+
+804
+
+1.7
+Additional
+
+805
+
+What are the benefits of Cloud Storage?
+
+کلاؤڈ اسٹوریج کے کیا فوائد ہیں؟
+
+805
+
+1.7
+Additional
+
+806
+
+Define ASCII and its role in data communication between different computers.
+
+مختلف کمپیوٹرز کے درمیان ڈیٹا کمیونیکیشن میں ASCII اور اس کے کردار کی وضاحت کریں۔
+
+806
+
+1.7
+Additional
+
+807
+
+Why do computers need a code number for letters like 'a' or 'k' instead of just storing the letter itself?
+
+کمپیوٹر کو صرف حرف کو ذخیرہ کرنے کے بجائے 'a' یا 'k' جیسے حروف کے لیے کوڈ نمبر کی ضرورت کیوں ہے؟
+
+807
+
+1.7
+Additional
+
+808
+
+Identify the ASCII code for the lowercase letter 'a' and the lowercase letter 'n'.
+
+چھوٹے حرف 'a' اور چھوٹے حرف 'n' کے لیے ASCII کوڈ کی شناخت کریں۔
+
+808
+
+1.7
+Additional
+
+809
+
+What is the ASCII code for a full stop(.)?
+
+فل اسٹاپ (.) کے لیے ASCII کوڈ کیا ہے؟
+
+809
+
+1.7
+Additional
+
+810
+
+Explain how the word "Pakistan" is represented internally by a computer using ASCII.
+
+وضاحت کریں کہ ASCII کا استعمال کرتے ہوئے کمپیوٹر کے ذریعے لفظ "پاکستان" کو اندرونی طور پر کیسے ظاہر کیا جاتا ہے۔
+
+810
+
+1.7
+Additional
+
+811
+
+What would happen if different computer manufacturers used different codes for the same letter?
+
+اگر مختلف کمپیوٹر بنانے والے ایک ہی خط کے لیے مختلف کوڈ استعمال کریں تو کیا ہوگا؟
+
+811
+
+1.7
+Additional
+
+812
+
+How do computers store files?
+
+کمپیوٹر فائلوں کو کیسے اسٹور کرتے ہیں؟
+
+812
+
+3.6 THE OSI NETWORKING MODEL
+3.6
+Exercise
+
+813
+
+What are the main functions of the Network Layer in the OSI model?
+
+OSI ماڈل میں نیٹ ورک لیئر کے اہم کام کیا ہیں؟
+
+813
+
+3.6
+Additional
+
+814
+
+Name seven layers of OSI model.
+
+OSI ماڈل کی سات لئیرز کے نام لکھیں۔
+
+814
+
+3.6
+Additional
+
+815
+
+What is the role of physical layer in OSI model?
+
+OSI ماڈل میں فزیکل لئیر کا کیا کردار ہوتا ہے؟
+
+815
+
+3.6
+Additional
+
+816
+
+What is the role of data link layer in OSI model?
+
+OSI ماڈل میں ڈیٹا لنک لئیر کا کیا کردار ہوتا ہے؟
+
+816
+
+3.6
+Additional
+
+817
+
+What is the role of transport layer in OSI model?
+
+OSI ماڈل میں ٹرانسپورٹ لئیر کا کیا کردار ہوتا ہے؟
+
+817
+
+3.6
+Additional
+
+818
+
+What is the role of session link layer in OSI model?
+
+OSI ماڈل سیشن لنک لئیر کا کیا کردار ہوتا ہے؟
+
+818
+
+3.6
+Additional
+
+819
+
+What is the role of presentation layer in OSI model?
+
+OSI ماڈل میں پریزنٹیشن لئیر کا کیا کردار ہوتا ہے؟
+
+819
+
+3.6
+Additional
+
+820
+
+What is the role of application layer in OSI model?
+
+OSI ماڈل میں ایپلی کیشن لئیر کا کیا کردار ہوتا ہے؟
+
+820
+
+3.6
+Additional
+
+821
+
+What is the purpose of the OSI Model?
+
+OSI ماڈل کا مقصد کیا ہے؟
+
+821
+
+3.6
+Additional
+
+822
+
+State the function of the Physical Layer with one example.
+
+ایک مثال کے ساتھ فزیکل لیئر کا فنکشن بیان کریں۔
+
+822
+
+3.6
+Additional
+
+823
+
+Why is the Data Link Layer compared to traffic lights?
+
+ٹریفک لائٹس کے مقابلے ڈیٹا لنک لیئر کیوں ہے؟
+
+823
+
+3.6
+Additional
+
+824
+
+What does the Network Layer do? Name one protocol/address it uses.
+
+نیٹ ورک پرت کیا کرتی ہے؟ کسی ایک پروٹوکول/ایڈریس کا نام بتائیں جو یہ استعمال کرتا ہے۔
+
+824
+
+3.6
+Additional
+
+825
+
+What is the role of the Transport Layer? Name one protocol it uses.
+
+ٹرانسپورٹ پرت کا کیا کردار ہے؟ ایک پروٹوکول کا نام بتائیں جو یہ استعمال کرتا ہے۔
+
+825
+
+3.6
+Additional
+
+826
+
+What is the function of the Session Layer? Give the phone call analogy.
+
+سیشن لیئر کا کام کیا ہے؟ فون کال کی تشبیہ دیں۔
+
+826
+
+3.6
+Additional
+
+827
+
+What does the Presentation Layer do? Why is it called a translator?
+
+پریزنٹیشن پرت کیا کرتی ہے؟ اسے مترجم کیوں کہا جاتا ہے؟
+
+827
+
+3.6
+Additional
+
+828
+
+List two services provided by the Application Layer.
+
+ایپلیکیشن لیئر کے ذریعہ فراہم کردہ دو خدمات کی فہرست بنائیں۔
+
+828
+
+3.6
+Additional
+
+829
+
+Why is the OSI Model divided into 7 layers instead of 1?
+
+OSI ماڈل کو 1 کی بجائے 7 تہوں میں کیوں تقسیم کیا گیا ہے؟
+
+829
+
+3.6
+Additional
+
+830
+
+What happens at Layer 1 during data transmission?
+
+ڈیٹا ٹرانسمیشن کے دوران لیئر 1 پر کیا ہوتا ہے؟
+
+830
+
+3.7 IPV4 AND IPV6
+3.7
+Additional
+
+831
+
+What is the use of IP?
+
+آئی پی کا کیا استعمال ہے؟
+
+831
+
+3.7
+Additional
+
+832
+
+What is IPv4?
+
+IPv4 کیا ہوتا ہے؟
+
+832
+
+3.7
+Additional
+
+833
+
+What is IPv6?
+
+IPv6 کیا ہے؟
+
+833
+
+3.7
+Additional
+
+834
+
+Why was IPv6 needed?
+
+IPv6 کی کیوں ضرورت تھی؟
+
+834
+
+3.7
+Additional
+
+835
+
+Differentiate between IPv4 and IPv6.
+
+IPv4 اور  IPv6 میں فرق بیان کریں۔
+
+835
+
+3.7
+Additional
+
+836
+
+Give an example of IPv4 address.
+
+IPv4 ایڈریس کی ایک مثال دیں۔
+
+836
+
+3.7
+Additional
+
+837
+
+Indicate if the IPv4 address 299.53.2.2 is valid or invalid.
+
+نشاندہی کریں کہ IPv4 ایڈریس 299.53.2.2 درست ہے یا نہیں؟
+
+837
+
+3.7
+Additional
+
+838
+
+Give an example of IPv6 address.
+
+IPv6 کی ایک مثال لکھیں۔
+
+838
+
+3.7
+Additional
+
+839
+
+Define an IP address.
+
+آئی پی ایڈریس کی تعریف کریں۔
+
+839
+
+3.7
+Additional
+
+840
+
+What is the main difference between IPv4 and IPv6 in terms of bit length?
+
+بٹ کی لمبائی کے لحاظ سے IPv4 اور IPv6 کے درمیان بنیادی فرق کیا ہے؟
+
+840
+
+3.7
+Additional
+
+841
+
+How many unique addresses can IPv4 support? Show the calculation.
+
+IPv4 کتنے منفرد ایڈریس سپورٹ کر سکتے ہیں؟ حساب دکھائیں۔
+
+841
+
+3.7
+Additional
+
+842
+
+Why is IPv6 considered to have an "almost limitless" number of addresses?
+
+IPv6 کو ایڈریس کی "تقریبا لامحدود" تعداد کیوں سمجھا جاتا ہے؟
+
+842
+
+3.7
+Additional
+
+843
+
+What range of decimal numbers is used in each octet of an IPv4 address?
+
+IPv4 ایڈریس کے ہر آکٹیٹ میں اعشاریہ نمبروں کی کون سی حد استعمال ہوتی ہے؟
+
+843
+
+3.7
+Additional
+
+844
+
+State one reason why IPv6 was developed.
+
+ایک وجہ بتائیں کہ IPv6 کیوں تیار کیا گیا تھا۔
+
+844
+
+3.7
+Additional
+
+845
+
+Give one example each of an IPv4 and an IPv6 address.
+
+IPv4 اور IPv6 ایڈریس میں سے ہر ایک کی ایک ایک مثال دیں۔
+
+845
+
+3.7
+Additional
+
+846
+
+Why is the address scheme important for the growth of the internet?
+
+انٹرنیٹ کی ترقی کے لیے ایڈریس سکیم کیوں اہم ہے؟
+
+846
+
+3.8 NETWORK PROTOCOLS
+3.8
+Exercise
+
+847
+
+What is the purpose of the Dynamic Host Configuration Protocol (DHCP)?
+
+(DHCP) کا مقصد کیا ہے؟
+
+847
+
+3.8
+Exercise
+
+848
+
+Differentiate between TCP and UDP.
+
+TCP اور UDP کے درمیان فرق کریں۔
+
+848
+
+3.8
+Additional
+
+849
+
+What are protocols?
+
+پروٹوکول کیا ہیں؟
+
+849
+
+3.8
+Additional
+
+850
+
+Name four protocols used in networks.
+
+نیٹ ورکس میں استعمال ہونے والے چار پروٹوکولز کے نام لکھیں۔
+
+850
+
+3.8
+Additional
+
+851
+
+Why are protocols important?
+
+پروٹوکول کیوں ضروری ہیں؟
+
+851
+
+3.8
+Additional
+
+852
+
+What do you know about TCP/IP?
+
+TCP/IP کے بارے میں آپ کیا جانتے ہیں؟
+
+852
+
+3.8
+Additional
+
+853
+
+How does TCP/IP transmit data over the internet?
+
+TCP/IP کس طرح انٹر نیٹ سے ڈیٹا منتقل کرتے ہیں؟
+
+853
+
+3.8
+Additional
+
+854
+
+What is HTTP?
+
+ایچ ٹی ٹی پی کیا ہے؟
+
+854
+
+3.8
+Additional
+
+855
+
+What is the use of DNS?
+
+ڈی این ایس کا استعمال کیا ہے؟
+
+855
+
+3.8
+Additional
+
+856
+
+Give an example of DNS and IP address.
+
+آئی پی ایڈریس اور ڈی این ایس کی ایک مثال دیں۔
+
+856
+
+3.8
+Additional
+
+857
+
+Define a network protocol.
+
+ایک نیٹ ورک پروٹوکول کی تعریف کریں۔
+
+857
+
+3.8
+Additional
+
+858
+
+Name any four common network protocols.
+
+کسی بھی چار مشترکہ نیٹ ورک پروٹوکول کا نام دیں۔
+
+858
+
+3.8
+Additional
+
+859
+
+What is the role of HTTP in internet communication?
+
+انٹرنیٹ مواصلات میں HTTP کا کیا کردار ہے؟
+
+859
+
+3.8
+Additional
+
+860
+
+Explain the function of DNS with an example.
+
+مثال کے ساتھ DNS کے فنکشن کی وضاحت کریں۔
+
+860
+
+3.8
+Additional
+
+861
+
+What does DHCP do when a device connects to Wi-Fi?
+
+جب کوئی آلہ Wi-Fi سے منسلک ہوتا ہے تو DHCP کیا کرتا ہے؟
+
+861
+
+3.8
+Additional
+
+862
+
+What is TCP/IP? Why is it called a suite of protocols?
+
+TCP/IP کیا ہے؟ اسے پروٹوکولز کے سوٹ کیوں کہا جاتا ہے؟
+
+862
+
+3.8
+Additional
+
+863
+
+Why is DNS important for users?
+
+DNS صارفین کے لیے کیوں اہم ہے؟
+
+863
+
+3.8
+Additional
+
+864
+
+How does DHCP help in simplifying network management?
+
+DHCP نیٹ ورک مینجمنٹ کو آسان بنانے میں کس طرح مدد کرتا ہے؟
+
+864
+
+3.9 NETWORK SECURITY
+3.9
+Additional
+
+865
+
+What is network security and why it is important?
+
+نیٹ ورک سیکیورٹی کیا ہے اور یہ کیوں ضروری ہوتی ہے؟
+
+865
+
+3.9
+Additional
+
+866
+
+Define network security.
+
+نیٹ ورک سیکیورٹی کی تعریف کریں۔
+
+866
+
+3.9
+Additional
+
+867
+
+Why is data protection important in network security?
+
+نیٹ ورک سیکیورٹی میں ڈیٹا کی حفاظت کیوں اہم ہے؟
+
+867
+
+3.9
+Additional
+
+868
+
+What do you mean by “Preventing Attacks” in network security?
+
+نیٹ ورک سیکیورٹی میں "حملوں کی روک تھام" سے آپ کا کیا مطلب ہے؟
+
+868
+
+3.9
+Additional
+
+869
+
+Explain “Maintaining Privacy” with an example.
+
+ایک مثال کے ساتھ "پرائیویسی کو برقرار رکھنا" کی وضاحت کریں۔
+
+869
+
+3.9
+Additional
+
+870
+
+What is meant by “Ensuring Availability” in a network?
+
+نیٹ ورک میں "دستیابیت کو یقینی بنانا" سے کیا مراد ہے؟
+
+870
+
+3.9
+Additional
+
+871
+
+Give two reasons why network security is essential.
+
+دو وجوہات بتائیں کہ نیٹ ورک سیکیورٹی کیوں ضروری ہے۔
+
+871
+
+3.10 NETWORK SECURITY METHODS
+3.10
+Exercise
+
+872
+
+Explain the importance of encryption in network security.
+
+نیٹ ورک سیکیورٹی میں انکرپشن کی اہمیت کی وضاحت کریں۔
+
+872
+
+3.10
+Exercise
+
+873
+
+How does firewall contribute to network security?
+
+فائر وال نیٹ ورک سیکیورٹی میں کیسے مدد دیتا ہے؟
+
+873
+
+3.10
+Additional
+
+874
+
+Define a firewall and state its function.
+
+فائر وال کی تعریف کریں اور اس کے کام کو بیان کریں۔
+
+874
+
+3.10
+Additional
+
+875
+
+What is encryption? Why is it used?
+
+خفیہ کاری کیا ہے؟ یہ کیوں استعمال کیا جاتا ہے؟
+
+875
+
+3.10
+Additional
+
+876
+
+What is the role of antivirus software in network security?
+
+نیٹ ورک سیکیورٹی میں اینٹی وائرس سافٹ ویئر کا کیا کردار ہے؟
+
+876
+
+3.10
+Additional
+
+877
+
+How does a firewall protect a network?
+
+فائر وال نیٹ ورک کی حفاظت کیسے کرتا ہے؟
+
+877
+
+3.10
+Additional
+
+878
+
+What happens to data during encryption?
+
+خفیہ کاری کے دوران ڈیٹا کا کیا ہوتا ہے؟
+
+878
+
+3.10
+Additional
+
+879
+
+Name two types of malicious software that antivirus software can remove.
+
+دو قسم کے نقصان دہ سافٹ ویئر کے نام بتائیں جنہیں اینٹی وائرس سافٹ ویئر ہٹا سکتا ہے۔
+
+879
+
+3.10
+Additional
+
+880
+
+Why is using only one security method not enough?
+
+صرف ایک حفاظتی طریقہ استعمال کیوں کافی نہیں ہے؟
+
+880
+
+3.10
+Additional
+
+881
+
+Give one example of how these methods work together for robust security.
+
+ایک مثال دیں کہ یہ طریقے مضبوط سیکیورٹی کے لیے کیسے مل کر کام کرتے ہیں۔
+
+881
+
+3.11 TYPES OF NETWORKS
+3.11
+Additional
+
+882
+
+List common types of networks.
+
+نیٹ ورکس کی عام اقسام کے نام لکھیں۔
+
+882
+
+3.11
+Additional
+
+883
+
+Describe PAN with an example.
+
+PAN کو مثالوں کے ساتھ بیان کریں۔
+
+883
+
+3.11
+Additional
+
+884
+
+Describe LAN with an example.
+
+LAN کو مثالوں کے ساتھ بیان کریں۔
+
+884
+
+3.11
+Additional
+
+885
+
+Describe WAN with an example.
+
+WAN کو مثالوں کے ساتھ بیان کریں۔
+
+885
+
+3.11
+Additional
+
+886
+
+Describe CAN with an example.
+
+CAN کو مثالوں کے ساتھ بیان کریں۔
+
+886
+
+3.11
+Additional
+
+887
+
+Briefly differentiate between LAN and WAN.
+
+LAN اور WAN میں فرق کو مختصر بیان کریں۔
+
+887
+
+3.11
+Additional
+
+888
+
+What is the virtual private networks (VPN)?
+
+ورچوئل پرائیویٹ نیٹ ورک کیا ہوتا ہے؟
+
+888
+
+3.11
+Additional
+
+889
+
+What does MAN stand for? What is its typical range?
+
+MAN کا مطلب کیا ہے؟ اس کی مخصوص حد کیا ہے؟
+
+889
+
+3.11
+Additional
+
+890
+
+Give an example of a CAN and explain where it is used.
+
+CAN کی مثال دیں اور وضاحت کریں کہ یہ کہاں استعمال ہوتا ہے۔
+
+890
+
+3.11
+Additional
+
+891
+
+Why is VPN important when connecting to a WAN?
+
+WAN سے جڑتے وقت VPN کیوں ضروری ہے؟
+
+891
+
+3.11
+Additional
+
+892
+
+Which network type is the internet an example of?
+
+انٹرنیٹ کس نیٹ ورک کی مثال ہے؟
+
+892
+
+3.11
+Additional
+
+893
+
+What is the purpose of classifying networks?
+
+نیٹ ورکس کی درجہ بندی کا مقصد کیا ہے؟
+
+893
+
+3.12 REAL-WORLD APPLICATIONS OF COMPUTER NETWORKS
+3.12
+Additional
+
+894
+
+Write some real world applications of computer networks.
+
+کمپیوٹر نیٹ ورک سسٹم کی چند حقیقی دنیا کی ایپلی کیشنز لکھیں۔
+
+894
+
+3.12
+Additional
+
+895
+
+How are networks used in healthcare?
+
+صحت کی دیکھ بھال میں نیٹ ورکس کس طرح استعمال ہوتا ہے؟
+
+895
+
+3.12
+Additional
+
+896
+
+What is an intranet? How is it different from the internet?
+
+انٹرانیٹ کیا ہے؟ یہ انٹرنیٹ سے کیسے مختلف ہے؟
+
+896
+
+3.12
+Additional
+
+897
+
+Give one example of how businesses use computer networks.
+
+ایک مثال دیں کہ کاروبار کس طرح کمپیوٹر نیٹ ورک استعمال کرتے ہیں۔
+
+897
+
+3.12
+Additional
+
+898
+
+Name two Learning Management Systems used in education.
+
+تعلیم میں استعمال ہونے والے دو لرننگ مینجمنٹ سسٹمز کے نام بتائیں۔
+
+898
+
+3.12
+Additional
+
+899
+
+How do healthcare networks help in patient care?
+
+صحت کی دیکھ بھال کے نیٹ ورک مریضوں کی دیکھ بھال میں کس طرح مدد کرتے ہیں؟
+
+899
+
+3.12
+Additional
+
+900
+
+What is the purpose of Electronic Health Records (EHR)?
+
+الیکٹرانک ہیلتھ ریکارڈز (EHR) کا مقصد کیا ہے؟
+
+900
+
+3.12
+Additional
+
+901
+
+State one use of computer networks in the education sector.
+
+تعلیم کے شعبے میں کمپیوٹر نیٹ ورکس کا ایک استعمال بیان کریں۔
+
+901
+
+3.12
+Additional
+
+902
+
+Why do companies prefer using intranets for internal communication?
+
+کمپنیاں اندرونی مواصلات کے لیے انٹرانیٹ استعمال کرنے کو کیوں ترجیح دیتی ہیں؟
+
+902
+
+8.1 SECURE COMPUTER USAGE
+8.1
+Additional
+
+903
+
+What does "safe and responsible computer usage" mean in your own words?
+
+آپ کے اپنے الفاظ میں "محفوظ اور ذمہ دار کمپیوٹر استعمال" کا کیا مطلب ہے؟
+
+903
+
+8.1
+Additional
+
+904
+
+How does the "Golden Rule" apply to digital platforms?
+
+ڈیجیٹل پلیٹ فارمز پر "گولڈن رول" کا اطلاق کیسے ہوتا ہے؟
+
+904
+
+8.1
+Additional
+
+905
+
+List two reasons why keeping personal information safe is important.
+
+دو وجوہات کی فہرست بنائیں کیوں کہ ذاتی معلومات کو محفوظ رکھنا ضروری ہے۔
+
+905
+
+8.1
+Additional
+
+906
+
+What are the three main activities mentioned that people use computers for today?
+
+وہ تین اہم سرگرمیاں کیا ہیں جن کا ذکر کیا گیا ہے کہ لوگ آج کل کے لیے کمپیوٹر استعمال کرتے ہیں؟
+
+906
+
+8.1
+Additional
+
+907
+
+Why should we be careful about the hardware and software choices we make?
+
+ہمیں اپنے ہارڈ ویئر اور سافٹ ویئر کے انتخاب کے بارے میں کیوں محتاط رہنا چاہئے؟
+
+907
+
+4.7 ERROR IDENTIFICATION AND DEBUGGING
+4.7
+Additional
+
+908
+
+What are errors or bugs in programming and their types?
+
+پروگرامنگ میں غلطیاں یا بگز کیا ہیں اور ان کی اقسام کیا ہیں؟
+
+908
+
+4.7
+Additional
+
+909
+
+Describe syntax errors.
+
+سنٹکس کی غلطیاں کیا ہوتی ہیں؟
+
+909
+
+4.7
+Additional
+
+910
+
+Describe runtime errors.
+
+رن ٹائم کی غلطیوں کو بیان کریں۔
+
+910
+
+4.7
+Additional
+
+911
+
+Describe logical errors.
+
+منطقی غلطیاں بیان کریں۔
+
+911
+
+4.7
+Additional
+
+912
+
+Define debugging and state its purpose.
+
+ڈی بگنگ کی تعریف کریں اور اس کے مقصد کا بیان کریں۔
+
+912
+
+4.7
+Additional
+
+913
+
+Differentiate between Syntax Error and Runtime Error with one example each.
+
+سینٹیکس ایرر اور رن ٹائم ایرر کے درمیان فرق بیان کریں اور ہر ایک کی ایک مثال دیں۔
+
+913
+
+4.7
+Additional
+
+914
+
+Why are Logical Errors considered the hardest to find?
+
+منطقی غلطیوں کو تلاش کرنا سب سے مشکل کیوں سمجھا جاتا ہے؟
+
+914
+
+4.7
+Additional
+
+915
+
+Explain the meaning of "Undefined Variable" and "Invalid Operation" error messages in LARP.
+
+لارپ میں "غیر معین متغیر" اور "غلط عمل" ایرر میسیجز کے معنی بیان کریں۔
+
+915
+
+4.7
+Additional
+
+916
+
+What does the term "debugging" refer to and where did it originate?
+
+اصطلاح 'ڈی بگنگ' کس چیز کی طرف اشارہ کرتی ہے اور یہ کہاں سے آئی؟
+
+916

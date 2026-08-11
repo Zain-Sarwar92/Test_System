@@ -1,0 +1,6017 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "12",
+  "className": "INTER-II",
+  "subject": "فارسی",
+  "slug": "persian",
+  "type": "mcq",
+  "field": "MCQ",
+  "exportName": "mcq",
+  "subTypeId": 1,
+  "total": 120,
+  "exportedAt": "2026-08-10T13:11:23.860Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 247625,
+      "SubjectID": 338,
+      "TopicID": 8055,
+      "TopicRef": "3",
+      "TopicName": "3 عین القضات ھمدانی برگزیدہ نامہ ھا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نثر نگار عبداللہ بن محمد کا لقب کیا تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174333,
+          "QuestionID": 247625,
+          "UmOption": "<p>ملک الشعرا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174334,
+          "QuestionID": 247625,
+          "UmOption": "<p>سلطان الشعر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174335,
+          "QuestionID": 247625,
+          "UmOption": "<p>امام الشعرا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174336,
+          "QuestionID": 247625,
+          "UmOption": "<p>عین القضات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247626,
+      "SubjectID": 338,
+      "TopicID": 8055,
+      "TopicRef": "3",
+      "TopicName": "3 عین القضات ھمدانی برگزیدہ نامہ ھا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ احمد غزالی سے ملاقات کے وقت عین القضات کی عمر تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174337,
+          "QuestionID": 247626,
+          "UmOption": "<p>اٹھارہ برس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174338,
+          "QuestionID": 247626,
+          "UmOption": "<p>بیس برس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174339,
+          "QuestionID": 247626,
+          "UmOption": "<p>اکیس برس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174340,
+          "QuestionID": 247626,
+          "UmOption": "<p>بائیس برس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247627,
+      "SubjectID": 338,
+      "TopicID": 8055,
+      "TopicRef": "3",
+      "TopicName": "3 عین القضات ھمدانی برگزیدہ نامہ ھا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>فارسی کے علاوہ عین القضات کی تصانیف&nbsp;کس زبان میں ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174341,
+          "QuestionID": 247627,
+          "UmOption": "<p>ھندی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174342,
+          "QuestionID": 247627,
+          "UmOption": "<p>عربی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174343,
+          "QuestionID": 247627,
+          "UmOption": "<p>اردو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174344,
+          "QuestionID": 247627,
+          "UmOption": "<p>سرائیکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247628,
+      "SubjectID": 338,
+      "TopicID": 8055,
+      "TopicRef": "3",
+      "TopicName": "3 عین القضات ھمدانی برگزیدہ نامہ ھا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>عین القضات نثر نگار ہونے کے ساتھ ساتھ تھے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174345,
+          "QuestionID": 247628,
+          "UmOption": "<p>شاعر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174346,
+          "QuestionID": 247628,
+          "UmOption": "<p>نجومی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174347,
+          "QuestionID": 247628,
+          "UmOption": "<p>طبیب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174348,
+          "QuestionID": 247628,
+          "UmOption": "<p>عطار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247629,
+      "SubjectID": 338,
+      "TopicID": 8055,
+      "TopicRef": "3",
+      "TopicName": "3 عین القضات ھمدانی برگزیدہ نامہ ھا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>عین القضات کا شہر ہمدان کس ملک میں واقع ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174349,
+          "QuestionID": 247629,
+          "UmOption": "<p>ایران</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174350,
+          "QuestionID": 247629,
+          "UmOption": "<p>افغانستان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174351,
+          "QuestionID": 247629,
+          "UmOption": "<p>عراق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174352,
+          "QuestionID": 247629,
+          "UmOption": "<p>ترکی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247659,
+      "SubjectID": 338,
+      "TopicID": 8056,
+      "TopicRef": "4",
+      "TopicName": "4 رباعیات ابو سیعد ابو الخیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>رباعی کا لفظ کس عربی لفظ سے نکلا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174353,
+          "QuestionID": 247659,
+          "UmOption": "<p>رباع</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174354,
+          "QuestionID": 247659,
+          "UmOption": "<p>ربع</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174355,
+          "QuestionID": 247659,
+          "UmOption": "<p>ربعا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174356,
+          "QuestionID": 247659,
+          "UmOption": "<p>ربعی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247660,
+      "SubjectID": 338,
+      "TopicID": 8056,
+      "TopicRef": "4",
+      "TopicName": "4 رباعیات ابو سیعد ابو الخیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ ابو سعید ابو الخیر نے اپنے کون سے افکار بیان کرنے کےلیے شاعری کو وسیلہ بنایا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174357,
+          "QuestionID": 247660,
+          "UmOption": "<p>عارفانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174358,
+          "QuestionID": 247660,
+          "UmOption": "<p>عاشقانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174359,
+          "QuestionID": 247660,
+          "UmOption": "<p>اخلاقی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174360,
+          "QuestionID": 247660,
+          "UmOption": "<p>دینی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247661,
+      "SubjectID": 338,
+      "TopicID": 8056,
+      "TopicRef": "4",
+      "TopicName": "4 رباعیات ابو سیعد ابو الخیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ابو سعید ابو الخیر کا مزار عشق آباد سے کتنے کلو میٹر کے فاصلے پر آباد ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174361,
+          "QuestionID": 247661,
+          "UmOption": "<p>چھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174362,
+          "QuestionID": 247661,
+          "UmOption": "<p>سات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174363,
+          "QuestionID": 247661,
+          "UmOption": "<p>آٹھ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174364,
+          "QuestionID": 247661,
+          "UmOption": "<p>نو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247662,
+      "SubjectID": 338,
+      "TopicID": 8056,
+      "TopicRef": "4",
+      "TopicName": "4 رباعیات ابو سیعد ابو الخیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ابو سعید الخیر مختلف علاقوں میں جا کرملے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174365,
+          "QuestionID": 247662,
+          "UmOption": "<p>شعرا سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174366,
+          "QuestionID": 247662,
+          "UmOption": "<p>مشائخ سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174367,
+          "QuestionID": 247662,
+          "UmOption": "<p>نثر نگاروں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174368,
+          "QuestionID": 247662,
+          "UmOption": "<p>پادشاہوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247663,
+      "SubjectID": 338,
+      "TopicID": 8056,
+      "TopicRef": "4",
+      "TopicName": "4 رباعیات ابو سیعد ابو الخیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>967 عیسوی کس شاعر کا سال پیدائش ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174369,
+          "QuestionID": 247663,
+          "UmOption": "<p>جامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174370,
+          "QuestionID": 247663,
+          "UmOption": "<p>سنایی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174371,
+          "QuestionID": 247663,
+          "UmOption": "<p>عطار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174372,
+          "QuestionID": 247663,
+          "UmOption": "<p>ابو سعید ابوالخیر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247692,
+      "SubjectID": 338,
+      "TopicID": 8057,
+      "TopicRef": "5",
+      "TopicName": "5 دمی با شیخ ابو سعید ابو الخیرؒ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ ابو سعید ابو الخیر نے کس شہر میں لوگوں سے علم و نجوم کی باتیں کیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174373,
+          "QuestionID": 247692,
+          "UmOption": "<p>مرد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174374,
+          "QuestionID": 247692,
+          "UmOption": "<p>مشہد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174375,
+          "QuestionID": 247692,
+          "UmOption": "<p>نیشاپور</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174376,
+          "QuestionID": 247692,
+          "UmOption": "<p>بخارا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247693,
+      "SubjectID": 338,
+      "TopicID": 8057,
+      "TopicRef": "5",
+      "TopicName": "5 دمی با شیخ ابو سعید ابو الخیرؒ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>خواجہ عبدالکریم، شیخ ابو سعید ابو الخیر کے تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174377,
+          "QuestionID": 247693,
+          "UmOption": "<p>بھائی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174378,
+          "QuestionID": 247693,
+          "UmOption": "<p>دوست</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174379,
+          "QuestionID": 247693,
+          "UmOption": "<p>شاگرد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174380,
+          "QuestionID": 247693,
+          "UmOption": "<p>خادم</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247694,
+      "SubjectID": 338,
+      "TopicID": 8057,
+      "TopicRef": "5",
+      "TopicName": "5 دمی با شیخ ابو سعید ابو الخیرؒ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جب عورت نے شیخ ابو سعید ابو الخیر کے کپڑوں پر راکھ ڈالی تو آپ کے ہمراہ کتنے لوگ تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174381,
+          "QuestionID": 247694,
+          "UmOption": "<p>پچاس سے زیادہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174382,
+          "QuestionID": 247694,
+          "UmOption": "<p>سو سے زیادہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174383,
+          "QuestionID": 247694,
+          "UmOption": "<p>ایک سو پچاس سے زیادہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174384,
+          "QuestionID": 247694,
+          "UmOption": "<p>دوسو سے زیادہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247695,
+      "SubjectID": 338,
+      "TopicID": 8057,
+      "TopicRef": "5",
+      "TopicName": "5 دمی با شیخ ابو سعید ابو الخیرؒ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دمی با شیخ ابو الخیر کا متن کس کتاب سے لیا گیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174385,
+          "QuestionID": 247695,
+          "UmOption": "<p>اسرار التوحید</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174386,
+          "QuestionID": 247695,
+          "UmOption": "<p>کشف المحجوب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174387,
+          "QuestionID": 247695,
+          "UmOption": "<p>فی مافیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174388,
+          "QuestionID": 247695,
+          "UmOption": "<p>گلستان سعدی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247696,
+      "SubjectID": 338,
+      "TopicID": 8057,
+      "TopicRef": "5",
+      "TopicName": "5 دمی با شیخ ابو سعید ابو الخیرؒ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ ابو سعید ابو الخیر کے کپڑوں پر راکھ کس نے ڈالی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174389,
+          "QuestionID": 247696,
+          "UmOption": "<p>ایک آدمی نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174390,
+          "QuestionID": 247696,
+          "UmOption": "<p>ایک عورت نے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174391,
+          "QuestionID": 247696,
+          "UmOption": "<p>ایک بچے نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174392,
+          "QuestionID": 247696,
+          "UmOption": "<p>ایک لڑکی&nbsp;نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247737,
+      "SubjectID": 338,
+      "TopicID": 8058,
+      "TopicRef": "6",
+      "TopicName": "6 ای بخارا شادباش",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>رودکی سمر قندی کس قصبے میں پیدا ہوئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174393,
+          "QuestionID": 247737,
+          "UmOption": "<p>نیشاپور</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174394,
+          "QuestionID": 247737,
+          "UmOption": "<p>کنجاہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174395,
+          "QuestionID": 247737,
+          "UmOption": "<p>رودک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174396,
+          "QuestionID": 247737,
+          "UmOption": "<p>کدکن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247738,
+      "SubjectID": 338,
+      "TopicID": 8058,
+      "TopicRef": "6",
+      "TopicName": "6 ای بخارا شادباش",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>فارسی کو وہ پہلا خوش نصیب شاعر کون ہے جس کا دیوان محفوظ رہ گیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174397,
+          "QuestionID": 247738,
+          "UmOption": "<p>فرخی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174398,
+          "QuestionID": 247738,
+          "UmOption": "<p>عنصری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174399,
+          "QuestionID": 247738,
+          "UmOption": "<p>منوچہری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174400,
+          "QuestionID": 247738,
+          "UmOption": "<p>رودکی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247739,
+      "SubjectID": 338,
+      "TopicID": 8058,
+      "TopicRef": "6",
+      "TopicName": "6 ای بخارا شادباش",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>رودکی ایک عالم اور فاضل شخص کے علاوہ تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174401,
+          "QuestionID": 247739,
+          "UmOption": "<p>تجربہ کار طبیب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174402,
+          "QuestionID": 247739,
+          "UmOption": "<p>ماہر موسیقار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174403,
+          "QuestionID": 247739,
+          "UmOption": "<p>معروف نجومی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174404,
+          "QuestionID": 247739,
+          "UmOption": "<p>فاضل دبیر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247740,
+      "SubjectID": 338,
+      "TopicID": 8058,
+      "TopicRef": "6",
+      "TopicName": "6 ای بخارا شادباش",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>رودکی سمر قندی محروم تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174405,
+          "QuestionID": 247740,
+          "UmOption": "<p>بینائی سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174406,
+          "QuestionID": 247740,
+          "UmOption": "<p>سماعت سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174407,
+          "QuestionID": 247740,
+          "UmOption": "<p>ایک آنکھ سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174408,
+          "QuestionID": 247740,
+          "UmOption": "<p>زبان سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247741,
+      "SubjectID": 338,
+      "TopicID": 8058,
+      "TopicRef": "6",
+      "TopicName": "6 ای بخارا شادباش",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>940 عیسوی کس شاعر کا سال وفات ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174409,
+          "QuestionID": 247741,
+          "UmOption": "<p>رومی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174410,
+          "QuestionID": 247741,
+          "UmOption": "<p>سعدی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174411,
+          "QuestionID": 247741,
+          "UmOption": "<p>رودکی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174412,
+          "QuestionID": 247741,
+          "UmOption": "<p>حافظ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247770,
+      "SubjectID": 338,
+      "TopicID": 8059,
+      "TopicRef": "7",
+      "TopicName": "7 امیر عادل سبکتگین و آھوی مادہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ابوا لفضل طیہفی نے کہاں سے علوم و فنون کی تعلیم حاصل کی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174413,
+          "QuestionID": 247770,
+          "UmOption": "<p>بغداد سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174414,
+          "QuestionID": 247770,
+          "UmOption": "<p>نیشاپور سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174415,
+          "QuestionID": 247770,
+          "UmOption": "<p>اچ سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174416,
+          "QuestionID": 247770,
+          "UmOption": "<p>شوش سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247771,
+      "SubjectID": 338,
+      "TopicID": 8059,
+      "TopicRef": "7",
+      "TopicName": "7 امیر عادل سبکتگین و آھوی مادہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تاریخ آل سبکتگین کس کی تصنیف ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174417,
+          "QuestionID": 247771,
+          "UmOption": "<p>وصاف کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174418,
+          "QuestionID": 247771,
+          "UmOption": "<p>سدید الدین عوفی کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174419,
+          "QuestionID": 247771,
+          "UmOption": "<p>رودکی سمر قندی کی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174420,
+          "QuestionID": 247771,
+          "UmOption": "<p>ابوالفضل بیہفی کی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247772,
+      "SubjectID": 338,
+      "TopicID": 8059,
+      "TopicRef": "7",
+      "TopicName": "7 امیر عادل سبکتگین و آھوی مادہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تاریخ بیہقی کا دوسرا نام کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174421,
+          "QuestionID": 247772,
+          "UmOption": "<p>تاریخ طبری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174422,
+          "QuestionID": 247772,
+          "UmOption": "<p>تاریخ مسعودی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174423,
+          "QuestionID": 247772,
+          "UmOption": "<p>تاریخ وصاف</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174424,
+          "QuestionID": 247772,
+          "UmOption": "<p>تاریخ مغل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247773,
+      "SubjectID": 338,
+      "TopicID": 8059,
+      "TopicRef": "7",
+      "TopicName": "7 امیر عادل سبکتگین و آھوی مادہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>امیر عادل شبکتگین و آھوی مادہ کا متن لیا گیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174425,
+          "QuestionID": 247773,
+          "UmOption": "<p>تاریخ بیہقی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174426,
+          "QuestionID": 247773,
+          "UmOption": "<p>جامع التواریخ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174427,
+          "QuestionID": 247773,
+          "UmOption": "<p>تاریخ گزیدہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174428,
+          "QuestionID": 247773,
+          "UmOption": "<p>تاریخ جہانگشاہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247774,
+      "SubjectID": 338,
+      "TopicID": 8059,
+      "TopicRef": "7",
+      "TopicName": "7 امیر عادل سبکتگین و آھوی مادہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>تاریخ مسعودی کے مصنف کا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174429,
+          "QuestionID": 247774,
+          "UmOption": "<p>شرف الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174430,
+          "QuestionID": 247774,
+          "UmOption": "<p>عطا ملک جوینی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174431,
+          "QuestionID": 247774,
+          "UmOption": "<p>ابوالفضل بیہقی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174432,
+          "QuestionID": 247774,
+          "UmOption": "<p>حمد اللہ مستوفی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247810,
+      "SubjectID": 338,
+      "TopicID": 8060,
+      "TopicRef": "8",
+      "TopicName": "8 دانا و نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ابوالقاسم فردوسی کا نام کس مثنوی کے باعث زندہ جاوید ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174433,
+          "QuestionID": 247810,
+          "UmOption": "<p>معنوی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174434,
+          "QuestionID": 247810,
+          "UmOption": "<p>شاھنامہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174435,
+          "QuestionID": 247810,
+          "UmOption": "<p>پنج گنج</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174436,
+          "QuestionID": 247810,
+          "UmOption": "<p>خسرو شیرین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247811,
+      "SubjectID": 338,
+      "TopicID": 8060,
+      "TopicRef": "8",
+      "TopicName": "8 دانا و نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مثنوی شادنامہ کس بادشاہ کے عہد میں مکمل ہوئی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174437,
+          "QuestionID": 247811,
+          "UmOption": "<p>مسعود</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174438,
+          "QuestionID": 247811,
+          "UmOption": "<p>اسماعیل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174439,
+          "QuestionID": 247811,
+          "UmOption": "<p>ابراھیم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174440,
+          "QuestionID": 247811,
+          "UmOption": "<p>محمود</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247812,
+      "SubjectID": 338,
+      "TopicID": 8060,
+      "TopicRef": "8",
+      "TopicName": "8 دانا و نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>1025 عیسوی کس شاعر کا سن وفات ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174441,
+          "QuestionID": 247812,
+          "UmOption": "<p>سعدی شیرازی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174442,
+          "QuestionID": 247812,
+          "UmOption": "<p>رودکی سمر قندی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174443,
+          "QuestionID": 247812,
+          "UmOption": "<p>فردوسی طوسی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174444,
+          "QuestionID": 247812,
+          "UmOption": "<p>فرخی سیستانی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247813,
+      "SubjectID": 338,
+      "TopicID": 8060,
+      "TopicRef": "8",
+      "TopicName": "8 دانا و نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>فردوسی کا مزار کہاں واقع ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174445,
+          "QuestionID": 247813,
+          "UmOption": "<p>طوس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174446,
+          "QuestionID": 247813,
+          "UmOption": "<p>بغداد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174447,
+          "QuestionID": 247813,
+          "UmOption": "<p>قونیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174448,
+          "QuestionID": 247813,
+          "UmOption": "<p>تبریز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247814,
+      "SubjectID": 338,
+      "TopicID": 8060,
+      "TopicRef": "8",
+      "TopicName": "8 دانا و نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دانا و نادان کے اشعار کس مثنوی سے لیے گئے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174449,
+          "QuestionID": 247814,
+          "UmOption": "<p>پنج گنج</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174450,
+          "QuestionID": 247814,
+          "UmOption": "<p>خودی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174451,
+          "QuestionID": 247814,
+          "UmOption": "<p>معنوی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174452,
+          "QuestionID": 247814,
+          "UmOption": "<p>شاھنامہ فردوسی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247862,
+      "SubjectID": 338,
+      "TopicID": 8062,
+      "TopicRef": "10",
+      "TopicName": "10 فرودگاہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حمید صاحب کے بھائی نے کس دن فون کیا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174453,
+          "QuestionID": 247862,
+          "UmOption": "<p>ہفتہ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174454,
+          "QuestionID": 247862,
+          "UmOption": "<p>سوموار کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174455,
+          "QuestionID": 247862,
+          "UmOption": "<p>منگل کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174456,
+          "QuestionID": 247862,
+          "UmOption": "<p>جمعہ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247863,
+      "SubjectID": 338,
+      "TopicID": 8062,
+      "TopicRef": "10",
+      "TopicName": "10 فرودگاہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جب حمید صاضب کے بھائی کا فون آیا حمید صاحب کہاں بیٹھے تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174457,
+          "QuestionID": 247863,
+          "UmOption": "<p>لان میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174458,
+          "QuestionID": 247863,
+          "UmOption": "<p>بیڈروم میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174459,
+          "QuestionID": 247863,
+          "UmOption": "<p>باروچی خانہ میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174460,
+          "QuestionID": 247863,
+          "UmOption": "<p>ڈرائنگ روم میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247864,
+      "SubjectID": 338,
+      "TopicID": 8062,
+      "TopicRef": "10",
+      "TopicName": "10 فرودگاہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حمید صاحب کے گھر میں سب سے پہلے کس نے ریسیور اٹھایا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174461,
+          "QuestionID": 247864,
+          "UmOption": "<p>حمید صاحب نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174462,
+          "QuestionID": 247864,
+          "UmOption": "<p>سعید نے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174463,
+          "QuestionID": 247864,
+          "UmOption": "<p>نوید نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174464,
+          "QuestionID": 247864,
+          "UmOption": "<p>بیگم حمید نے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247865,
+      "SubjectID": 338,
+      "TopicID": 8062,
+      "TopicRef": "10",
+      "TopicName": "10 فرودگاہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حمید صاحب کے بھائی کب سے کراچی میں تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174465,
+          "QuestionID": 247865,
+          "UmOption": "<p>پچھلے ہفتے سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174466,
+          "QuestionID": 247865,
+          "UmOption": "<p>پچھلے اتوار سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174467,
+          "QuestionID": 247865,
+          "UmOption": "<p>پچھلے منگل سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174468,
+          "QuestionID": 247865,
+          "UmOption": "<p>پچھلے جمعہ سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247866,
+      "SubjectID": 338,
+      "TopicID": 8062,
+      "TopicRef": "10",
+      "TopicName": "10 فرودگاہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پی آئی اے کا جہاز کتنے بجے رن وے پر نمودار ہوا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174469,
+          "QuestionID": 247866,
+          "UmOption": "<p>تین بجے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174470,
+          "QuestionID": 247866,
+          "UmOption": "<p>چار بجے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174471,
+          "QuestionID": 247866,
+          "UmOption": "<p>پانچ بجے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174472,
+          "QuestionID": 247866,
+          "UmOption": "<p>چھ بجے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247900,
+      "SubjectID": 338,
+      "TopicID": 8063,
+      "TopicRef": "11",
+      "TopicName": "11 ازماست کہ برماست",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ناصر خسرو کا اصل نام کیا تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174473,
+          "QuestionID": 247900,
+          "UmOption": "<p>شیخ فرید الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174474,
+          "QuestionID": 247900,
+          "UmOption": "<p>حکیم ابوالقاسم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174475,
+          "QuestionID": 247900,
+          "UmOption": "<p>شیخ ابو سعید</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174476,
+          "QuestionID": 247900,
+          "UmOption": "<p>حکیم ابو معین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247901,
+      "SubjectID": 338,
+      "TopicID": 8063,
+      "TopicRef": "11",
+      "TopicName": "11 ازماست کہ برماست",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>1003 کس ایرانی شاعر کا سن پیدائش ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174477,
+          "QuestionID": 247901,
+          "UmOption": "<p>مسعود سعد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174478,
+          "QuestionID": 247901,
+          "UmOption": "<p>ناصر خسرو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174479,
+          "QuestionID": 247901,
+          "UmOption": "<p>جلال الدین رومی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174480,
+          "QuestionID": 247901,
+          "UmOption": "<p>شیخ سعد شیزازی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247902,
+      "SubjectID": 338,
+      "TopicID": 8063,
+      "TopicRef": "11",
+      "TopicName": "11 ازماست کہ برماست",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ناصر خسرو نے جب سرکاری ملازمت چھوڑی اس کی عمر کیا تھی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174481,
+          "QuestionID": 247902,
+          "UmOption": "<p>چالیس برس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174482,
+          "QuestionID": 247902,
+          "UmOption": "<p>پنتالیس برس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174483,
+          "QuestionID": 247902,
+          "UmOption": "<p>پچاس برس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174484,
+          "QuestionID": 247902,
+          "UmOption": "<p>پچپن برس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247903,
+      "SubjectID": 338,
+      "TopicID": 8063,
+      "TopicRef": "11",
+      "TopicName": "11 ازماست کہ برماست",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ناصر خسرو نے کتنی بار حج کیا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174485,
+          "QuestionID": 247903,
+          "UmOption": "<p>تین مرتبہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174486,
+          "QuestionID": 247903,
+          "UmOption": "<p>چار مرتبہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174487,
+          "QuestionID": 247903,
+          "UmOption": "<p>پانچ مرتبہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174488,
+          "QuestionID": 247903,
+          "UmOption": "<p>چھ مرتبہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247904,
+      "SubjectID": 338,
+      "TopicID": 8063,
+      "TopicRef": "11",
+      "TopicName": "11 ازماست کہ برماست",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سعادت نامہ کس ایرانی شاعر کی مثنوی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174489,
+          "QuestionID": 247904,
+          "UmOption": "<p>نظامی گنجوی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174490,
+          "QuestionID": 247904,
+          "UmOption": "<p>امیر خسرو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174491,
+          "QuestionID": 247904,
+          "UmOption": "<p>ناصر خسرو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174492,
+          "QuestionID": 247904,
+          "UmOption": "<p>ابو القاسم فردوسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247938,
+      "SubjectID": 338,
+      "TopicID": 8064,
+      "TopicRef": "12",
+      "TopicName": "12 رابعہ عددیہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ فرید الدین کا سال پیدائش کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174493,
+          "QuestionID": 247938,
+          "UmOption": "<p>1109</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174494,
+          "QuestionID": 247938,
+          "UmOption": "<p>1112</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174495,
+          "QuestionID": 247938,
+          "UmOption": "<p>1114</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174496,
+          "QuestionID": 247938,
+          "UmOption": "<p>1116</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247939,
+      "SubjectID": 338,
+      "TopicID": 8064,
+      "TopicRef": "12",
+      "TopicName": "12 رابعہ عددیہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>گاؤں کدکن کس ایرانی شاعر کی جائے پیدائش ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174497,
+          "QuestionID": 247939,
+          "UmOption": "<p>ناصر خسرو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174498,
+          "QuestionID": 247939,
+          "UmOption": "<p>شیخ فرید الدین عطار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174499,
+          "QuestionID": 247939,
+          "UmOption": "<p>شیخ سعدی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174500,
+          "QuestionID": 247939,
+          "UmOption": "<p>سعد سلمان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247940,
+      "SubjectID": 338,
+      "TopicID": 8064,
+      "TopicRef": "12",
+      "TopicName": "12 رابعہ عددیہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ فرید الدین کا پیشہ کیا تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174501,
+          "QuestionID": 247940,
+          "UmOption": "<p>دبیری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174502,
+          "QuestionID": 247940,
+          "UmOption": "<p>مصوری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174503,
+          "QuestionID": 247940,
+          "UmOption": "<p>طبابت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174504,
+          "QuestionID": 247940,
+          "UmOption": "<p>زرگری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247941,
+      "SubjectID": 338,
+      "TopicID": 8064,
+      "TopicRef": "12",
+      "TopicName": "12 رابعہ عددیہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ فرید الدین کی عارفانہ مثنوی کا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174505,
+          "QuestionID": 247941,
+          "UmOption": "<p>منطق الطیر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174506,
+          "QuestionID": 247941,
+          "UmOption": "<p>خمسہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174507,
+          "QuestionID": 247941,
+          "UmOption": "<p>سعادت نامہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174508,
+          "QuestionID": 247941,
+          "UmOption": "<p>روشنایی نامہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247942,
+      "SubjectID": 338,
+      "TopicID": 8064,
+      "TopicRef": "12",
+      "TopicName": "12 رابعہ عددیہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مختار نامہ کس شاعر کی رباعیوں کے مجموعے کا نام ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174509,
+          "QuestionID": 247942,
+          "UmOption": "<p>نظامی گنجوی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174510,
+          "QuestionID": 247942,
+          "UmOption": "<p>ناصر خسرو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174511,
+          "QuestionID": 247942,
+          "UmOption": "<p>حکیم خیام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174512,
+          "QuestionID": 247942,
+          "UmOption": "<p>شیخ فرید الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247965,
+      "SubjectID": 338,
+      "TopicID": 8065,
+      "TopicRef": "13",
+      "TopicName": "13 سلطان قطب الدین ایبک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سلطان قطب الدین ایبک کب فوت ہوئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174513,
+          "QuestionID": 247965,
+          "UmOption": "<p>600 ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174514,
+          "QuestionID": 247965,
+          "UmOption": "<p>603 ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174515,
+          "QuestionID": 247965,
+          "UmOption": "<p>607 ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174516,
+          "QuestionID": 247965,
+          "UmOption": "<p>613 ہجری میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247966,
+      "SubjectID": 338,
+      "TopicID": 8065,
+      "TopicRef": "13",
+      "TopicName": "13 سلطان قطب الدین ایبک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قطب الدین ایبک کہاں فوت ہوئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174517,
+          "QuestionID": 247966,
+          "UmOption": "<p>اچ میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174518,
+          "QuestionID": 247966,
+          "UmOption": "<p>لاھور میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174519,
+          "QuestionID": 247966,
+          "UmOption": "<p>کراچی میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174520,
+          "QuestionID": 247966,
+          "UmOption": "<p>پشاور میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247967,
+      "SubjectID": 338,
+      "TopicID": 8065,
+      "TopicRef": "13",
+      "TopicName": "13 سلطان قطب الدین ایبک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قطب الدین ایبک کا مزار لاہور کےکس بازار کے قریب ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174521,
+          "QuestionID": 247967,
+          "UmOption": "<p>شاہ عالمی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174522,
+          "QuestionID": 247967,
+          "UmOption": "<p>رنگ محل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174523,
+          "QuestionID": 247967,
+          "UmOption": "<p>اچھرہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174524,
+          "QuestionID": 247967,
+          "UmOption": "<p>انار کلی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247968,
+      "SubjectID": 338,
+      "TopicID": 8065,
+      "TopicRef": "13",
+      "TopicName": "13 سلطان قطب الدین ایبک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>امام فخر الدین ابو حنیفہ ثانی کے غلام کون تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174525,
+          "QuestionID": 247968,
+          "UmOption": "<p>قطب الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174526,
+          "QuestionID": 247968,
+          "UmOption": "<p>ایاز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174527,
+          "QuestionID": 247968,
+          "UmOption": "<p>لقمان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174528,
+          "QuestionID": 247968,
+          "UmOption": "<p>بلال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247969,
+      "SubjectID": 338,
+      "TopicID": 8065,
+      "TopicRef": "13",
+      "TopicName": "13 سلطان قطب الدین ایبک",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>قطب الدین ایبک نے دہلی میں کیا بنوایا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174529,
+          "QuestionID": 247969,
+          "UmOption": "<p>مینار پاکستان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174530,
+          "QuestionID": 247969,
+          "UmOption": "<p>قطب مینار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174531,
+          "QuestionID": 247969,
+          "UmOption": "<p>ہرن&nbsp; مینار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174532,
+          "QuestionID": 247969,
+          "UmOption": "<p>مینار جنبان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247980,
+      "SubjectID": 338,
+      "TopicID": 8066,
+      "TopicRef": "14",
+      "TopicName": "14 مولانا جلال الدین رومی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مولانا رومی سب سے زیادہ پسند کرتے تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174533,
+          "QuestionID": 247980,
+          "UmOption": "<p>امیروں کی رفاقت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174534,
+          "QuestionID": 247980,
+          "UmOption": "<p>غریبوں کی صحبت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174535,
+          "QuestionID": 247980,
+          "UmOption": "<p>بادشاہوں کی دوستی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174536,
+          "QuestionID": 247980,
+          "UmOption": "<p>عہدےداروں کا ساتھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247981,
+      "SubjectID": 338,
+      "TopicID": 8066,
+      "TopicRef": "14",
+      "TopicName": "14 مولانا جلال الدین رومی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مولانا رومی کتنے سال زندہ رہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174537,
+          "QuestionID": 247981,
+          "UmOption": "<p>68 سال</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174538,
+          "QuestionID": 247981,
+          "UmOption": "<p>72 سال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174539,
+          "QuestionID": 247981,
+          "UmOption": "<p>75 سال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174540,
+          "QuestionID": 247981,
+          "UmOption": "<p>80 سال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247982,
+      "SubjectID": 338,
+      "TopicID": 8066,
+      "TopicRef": "14",
+      "TopicName": "14 مولانا جلال الدین رومی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سبق مولانا جلال الدین رومی کس مصنف کی تصنیف ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174541,
+          "QuestionID": 247982,
+          "UmOption": "<p>مولانا رومی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174542,
+          "QuestionID": 247982,
+          "UmOption": "<p>ڈاکٹر عبدالحسنین زرین کوب</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174543,
+          "QuestionID": 247982,
+          "UmOption": "<p>ڈاکٹر عبدالشکور احسن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174544,
+          "QuestionID": 247982,
+          "UmOption": "<p>شیخ شیرازی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247983,
+      "SubjectID": 338,
+      "TopicID": 8066,
+      "TopicRef": "14",
+      "TopicName": "14 مولانا جلال الدین رومی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ڈاکٹر عبدل الحسین زرین کوب کے بقول مولانا رومی کی زندگی تھی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174545,
+          "QuestionID": 247983,
+          "UmOption": "<p>ایک&nbsp;نغمہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174546,
+          "QuestionID": 247983,
+          "UmOption": "<p>ایک غزل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174547,
+          "QuestionID": 247983,
+          "UmOption": "<p>ایک شعر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174548,
+          "QuestionID": 247983,
+          "UmOption": "<p>ایک رباعی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 247984,
+      "SubjectID": 338,
+      "TopicID": 8066,
+      "TopicRef": "14",
+      "TopicName": "14 مولانا جلال الدین رومی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مولانا جلال الدین رومی کن کے ساتھ ہمدل دوستوں کی طرح زندگی گزارتے تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174549,
+          "QuestionID": 247984,
+          "UmOption": "<p>غلاموں کی ساتھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174550,
+          "QuestionID": 247984,
+          "UmOption": "<p>مسلمانوں کے ساتھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174551,
+          "QuestionID": 247984,
+          "UmOption": "<p>عیسائیوں کے ساتھ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174552,
+          "QuestionID": 247984,
+          "UmOption": "<p>مریدوں کے ساتھ&nbsp;</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248019,
+      "SubjectID": 338,
+      "TopicID": 8067,
+      "TopicRef": "15",
+      "TopicName": "15 دوستی نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اثدھا جکڑ رہا تھا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174553,
+          "QuestionID": 248019,
+          "UmOption": "<p>ہرن کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174554,
+          "QuestionID": 248019,
+          "UmOption": "<p>شیر کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174555,
+          "QuestionID": 248019,
+          "UmOption": "<p>ریچھ کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174556,
+          "QuestionID": 248019,
+          "UmOption": "<p>چیتے کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248020,
+      "SubjectID": 338,
+      "TopicID": 8067,
+      "TopicRef": "15",
+      "TopicName": "15 دوستی نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ریچھ محبت کی وجہ سے بہادر آدمی کا کیا بن بیٹھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174557,
+          "QuestionID": 248020,
+          "UmOption": "<p>عاشق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174558,
+          "QuestionID": 248020,
+          "UmOption": "<p>چوکیدار</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174559,
+          "QuestionID": 248020,
+          "UmOption": "<p>شاگرد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174560,
+          "QuestionID": 248020,
+          "UmOption": "<p>دوست</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248021,
+      "SubjectID": 338,
+      "TopicID": 8067,
+      "TopicRef": "15",
+      "TopicName": "15 دوستی نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>منظم داستان دوستی نادان کس مثنوی سے لی گئی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174561,
+          "QuestionID": 248021,
+          "UmOption": "<p>شاھنامہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174562,
+          "QuestionID": 248021,
+          "UmOption": "<p>خمسہ نظامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174563,
+          "QuestionID": 248021,
+          "UmOption": "<p>خسروو شیرین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174564,
+          "QuestionID": 248021,
+          "UmOption": "<p>معنوی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248022,
+      "SubjectID": 338,
+      "TopicID": 8067,
+      "TopicRef": "15",
+      "TopicName": "15 دوستی نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دوستی نادان کا شاعر ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174565,
+          "QuestionID": 248022,
+          "UmOption": "<p>مالانا&nbsp; رومی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174566,
+          "QuestionID": 248022,
+          "UmOption": "<p>فردوسی طوسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174567,
+          "QuestionID": 248022,
+          "UmOption": "<p>علامہ محمد اقبال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174568,
+          "QuestionID": 248022,
+          "UmOption": "<p>مولانا جامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248023,
+      "SubjectID": 338,
+      "TopicID": 8067,
+      "TopicRef": "15",
+      "TopicName": "15 دوستی نادان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ریچھ نے بہادر شخص کے چہرے پر کیا دے مارا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174569,
+          "QuestionID": 248023,
+          "UmOption": "<p>ڈنڈا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174570,
+          "QuestionID": 248023,
+          "UmOption": "<p>پتھر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174571,
+          "QuestionID": 248023,
+          "UmOption": "<p>ہتھوڑا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174572,
+          "QuestionID": 248023,
+          "UmOption": "<p>گرد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248052,
+      "SubjectID": 338,
+      "TopicID": 8068,
+      "TopicRef": "16",
+      "TopicName": "16 گلھاری گلستان سعدی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ سعدی کا سال پیدائش کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174573,
+          "QuestionID": 248052,
+          "UmOption": "<p>600 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174574,
+          "QuestionID": 248052,
+          "UmOption": "<p>602 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174575,
+          "QuestionID": 248052,
+          "UmOption": "<p>604 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174576,
+          "QuestionID": 248052,
+          "UmOption": "<p>606 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248053,
+      "SubjectID": 338,
+      "TopicID": 8068,
+      "TopicRef": "16",
+      "TopicName": "16 گلھاری گلستان سعدی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سعدی شیرازی کا اصل نام کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174577,
+          "QuestionID": 248053,
+          "UmOption": "<p>شیخ مشرف الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174578,
+          "QuestionID": 248053,
+          "UmOption": "<p>ابو القاسم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174579,
+          "QuestionID": 248053,
+          "UmOption": "<p>ابو منصور محمد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174580,
+          "QuestionID": 248053,
+          "UmOption": "<p>شیخ شرف الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248054,
+      "SubjectID": 338,
+      "TopicID": 8068,
+      "TopicRef": "16",
+      "TopicName": "16 گلھاری گلستان سعدی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کتاب گلستان کے مصنف کا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174581,
+          "QuestionID": 248054,
+          "UmOption": "<p>جامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174582,
+          "QuestionID": 248054,
+          "UmOption": "<p>سعدی شیزازی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174583,
+          "QuestionID": 248054,
+          "UmOption": "<p>ابوالفضل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174584,
+          "QuestionID": 248054,
+          "UmOption": "<p>سیدید الدین عونی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248055,
+      "SubjectID": 338,
+      "TopicID": 8068,
+      "TopicRef": "16",
+      "TopicName": "16 گلھاری گلستان سعدی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شیخ سعدی شیرازی کا مزار کہاں واقع ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174585,
+          "QuestionID": 248055,
+          "UmOption": "<p>اصفہان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174586,
+          "QuestionID": 248055,
+          "UmOption": "<p>نیشاپور</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174587,
+          "QuestionID": 248055,
+          "UmOption": "<p>تہران</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174588,
+          "QuestionID": 248055,
+          "UmOption": "<p>شیراز</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248056,
+      "SubjectID": 338,
+      "TopicID": 8068,
+      "TopicRef": "16",
+      "TopicName": "16 گلھاری گلستان سعدی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>691 ہجری کس مشہور ایرانی شاعر اور نثر نگار کا سال وفات ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174589,
+          "QuestionID": 248056,
+          "UmOption": "<p>حافظ شیرازی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174590,
+          "QuestionID": 248056,
+          "UmOption": "<p>سعدی شیرازی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174591,
+          "QuestionID": 248056,
+          "UmOption": "<p>فرخی سیستانی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174592,
+          "QuestionID": 248056,
+          "UmOption": "<p>رودکی سمر قندی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248087,
+      "SubjectID": 338,
+      "TopicID": 8069,
+      "TopicRef": "17",
+      "TopicName": "17 نقش بانوان پیشرفت فرھنگی جامعہ اسلامی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضرت عائشہؓ اپنے زمانے کی سب سے بڑی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174593,
+          "QuestionID": 248087,
+          "UmOption": "<p>سالار تھیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174594,
+          "QuestionID": 248087,
+          "UmOption": "<p>مفسر تھیں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174595,
+          "QuestionID": 248087,
+          "UmOption": "<p>تاجر تھیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174596,
+          "QuestionID": 248087,
+          "UmOption": "<p>طبیب تھیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248088,
+      "SubjectID": 338,
+      "TopicID": 8069,
+      "TopicRef": "17",
+      "TopicName": "17 نقش بانوان پیشرفت فرھنگی جامعہ اسلامی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضرت زینبؓ نے کس ردبار میں سب پر لرزہ طاری کردیا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174597,
+          "QuestionID": 248088,
+          "UmOption": "<p>دمشق کے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174598,
+          "QuestionID": 248088,
+          "UmOption": "<p>شام کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174599,
+          "QuestionID": 248088,
+          "UmOption": "<p>بصرہ کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174600,
+          "QuestionID": 248088,
+          "UmOption": "<p>بغداد کے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248089,
+      "SubjectID": 338,
+      "TopicID": 8069,
+      "TopicRef": "17",
+      "TopicName": "17 نقش بانوان پیشرفت فرھنگی جامعہ اسلامی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حضرت رابعہ بصریہ کس حوالے سے معروف ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174601,
+          "QuestionID": 248089,
+          "UmOption": "<p>نثر نگاری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174602,
+          "QuestionID": 248089,
+          "UmOption": "<p>شعر و شاعری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174603,
+          "QuestionID": 248089,
+          "UmOption": "<p>مصوری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174604,
+          "QuestionID": 248089,
+          "UmOption": "<p>تصوف</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248090,
+      "SubjectID": 338,
+      "TopicID": 8069,
+      "TopicRef": "17",
+      "TopicName": "17 نقش بانوان پیشرفت فرھنگی جامعہ اسلامی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مسلمانوں کی پہلی ملکہ کون تھیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174605,
+          "QuestionID": 248090,
+          "UmOption": "<p>چاند بی بی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174606,
+          "QuestionID": 248090,
+          "UmOption": "<p>گلبدن بیگم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174607,
+          "QuestionID": 248090,
+          "UmOption": "<p>سلطانہ&nbsp;رضیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174608,
+          "QuestionID": 248090,
+          "UmOption": "<p>رابعہ&nbsp;قزداری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248091,
+      "SubjectID": 338,
+      "TopicID": 8069,
+      "TopicRef": "17",
+      "TopicName": "17 نقش بانوان پیشرفت فرھنگی جامعہ اسلامی",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ہمایوں نامہ کس کی تالیف ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174609,
+          "QuestionID": 248091,
+          "UmOption": "<p>ارجمند بانو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174610,
+          "QuestionID": 248091,
+          "UmOption": "<p>گلبدن بیگم</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174611,
+          "QuestionID": 248091,
+          "UmOption": "<p>نورجہاں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174612,
+          "QuestionID": 248091,
+          "UmOption": "<p>زیب النسا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248109,
+      "SubjectID": 338,
+      "TopicID": 8070,
+      "TopicRef": "18",
+      "TopicName": "18 غزل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نظیری&nbsp; نیشاپوری کا اصل نام تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174613,
+          "QuestionID": 248109,
+          "UmOption": "<p>محمد حسین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174614,
+          "QuestionID": 248109,
+          "UmOption": "<p>محمد حسن</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174615,
+          "QuestionID": 248109,
+          "UmOption": "<p>محمد علی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174616,
+          "QuestionID": 248109,
+          "UmOption": "<p>ابوالقاسم</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248110,
+      "SubjectID": 338,
+      "TopicID": 8070,
+      "TopicRef": "18",
+      "TopicName": "18 غزل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نظیر نیشا پوری نے کن کی مدح میں قصیدے کہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174617,
+          "QuestionID": 248110,
+          "UmOption": "<p>بابر اور اکبر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174618,
+          "QuestionID": 248110,
+          "UmOption": "<p>جہانگیر اور شاہجہان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174619,
+          "QuestionID": 248110,
+          "UmOption": "<p>جہانگیر اور اورنگ زیب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174620,
+          "QuestionID": 248110,
+          "UmOption": "<p>اکبر اور جہانگیر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248111,
+      "SubjectID": 338,
+      "TopicID": 8070,
+      "TopicRef": "18",
+      "TopicName": "18 غزل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>1021 ہجری کس شاعر کا سن قفات ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174621,
+          "QuestionID": 248111,
+          "UmOption": "<p>عرفی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174622,
+          "QuestionID": 248111,
+          "UmOption": "<p>نظیر نیشاپوری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174623,
+          "QuestionID": 248111,
+          "UmOption": "<p>مرزا غالب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174624,
+          "QuestionID": 248111,
+          "UmOption": "<p>کوئی نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248112,
+      "SubjectID": 338,
+      "TopicID": 8070,
+      "TopicRef": "18",
+      "TopicName": "18 غزل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نظیری نیشا پوری کہاں سے برصغیر آٗے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174625,
+          "QuestionID": 248112,
+          "UmOption": "<p>افغانستان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174626,
+          "QuestionID": 248112,
+          "UmOption": "<p>عراق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174627,
+          "QuestionID": 248112,
+          "UmOption": "<p>ایران</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174628,
+          "QuestionID": 248112,
+          "UmOption": "<p>شام</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248113,
+      "SubjectID": 338,
+      "TopicID": 8070,
+      "TopicRef": "18",
+      "TopicName": "18 غزل",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نظیری نیشاپوری کس صدی میں برصغیر آئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174629,
+          "QuestionID": 248113,
+          "UmOption": "<p>آٹھویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174630,
+          "QuestionID": 248113,
+          "UmOption": "<p>نویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174631,
+          "QuestionID": 248113,
+          "UmOption": "<p>دسویں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174632,
+          "QuestionID": 248113,
+          "UmOption": "<p>گیارہویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248134,
+      "SubjectID": 338,
+      "TopicID": 8071,
+      "TopicRef": "19",
+      "TopicName": "19 لطائف الطوائف",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حسین ابو لواعظ&nbsp;کا اصل نام کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174633,
+          "QuestionID": 248134,
+          "UmOption": "<p>نظام الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174634,
+          "QuestionID": 248134,
+          "UmOption": "<p>فقر الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174635,
+          "QuestionID": 248134,
+          "UmOption": "<p>نظام الملک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174636,
+          "QuestionID": 248134,
+          "UmOption": "<p>فخر الدین</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248135,
+      "SubjectID": 338,
+      "TopicID": 8071,
+      "TopicRef": "19",
+      "TopicName": "19 لطائف الطوائف",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>واعظ کاشفی کے والد کا انتقال کس سال ہوا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174637,
+          "QuestionID": 248135,
+          "UmOption": "<p>900 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174638,
+          "QuestionID": 248135,
+          "UmOption": "<p>910 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174639,
+          "QuestionID": 248135,
+          "UmOption": "<p>920 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174640,
+          "QuestionID": 248135,
+          "UmOption": "<p>930 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248136,
+      "SubjectID": 338,
+      "TopicID": 8071,
+      "TopicRef": "19",
+      "TopicName": "19 لطائف الطوائف",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>علی بن&nbsp;حسین ابو لواعظ&nbsp; کا شفی کو کہاں واعظ مقرر کیا گیا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174641,
+          "QuestionID": 248136,
+          "UmOption": "<p>ھرات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174642,
+          "QuestionID": 248136,
+          "UmOption": "<p>خراسان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174643,
+          "QuestionID": 248136,
+          "UmOption": "<p>بابل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174644,
+          "QuestionID": 248136,
+          "UmOption": "<p>بغداد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248137,
+      "SubjectID": 338,
+      "TopicID": 8071,
+      "TopicRef": "19",
+      "TopicName": "19 لطائف الطوائف",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>واعظ کاشفی کب اپنے عہدے سے معزول ہو کر قید ہوئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174645,
+          "QuestionID": 248137,
+          "UmOption": "<p>908 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174646,
+          "QuestionID": 248137,
+          "UmOption": "<p>912 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174647,
+          "QuestionID": 248137,
+          "UmOption": "<p>918 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174648,
+          "QuestionID": 248137,
+          "UmOption": "<p>929 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248138,
+      "SubjectID": 338,
+      "TopicID": 8071,
+      "TopicRef": "19",
+      "TopicName": "19 لطائف الطوائف",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حسین ابو لواعظ&nbsp; کاشفی رہائی کے بعد کہاں گئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174649,
+          "QuestionID": 248138,
+          "UmOption": "<p>ھرات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174650,
+          "QuestionID": 248138,
+          "UmOption": "<p>گرجستان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174651,
+          "QuestionID": 248138,
+          "UmOption": "<p>نیشاپور</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174652,
+          "QuestionID": 248138,
+          "UmOption": "<p>شوشتر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248178,
+      "SubjectID": 338,
+      "TopicID": 8072,
+      "TopicRef": "20",
+      "TopicName": "20 آلودگی ھوا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسلامی تعلیمات کے مطابق صفائی ہمارے ایمان کا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174653,
+          "QuestionID": 248178,
+          "UmOption": "<p>مکمل حصہ ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174654,
+          "QuestionID": 248178,
+          "UmOption": "<p>چوتھائی حصہ ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174655,
+          "QuestionID": 248178,
+          "UmOption": "<p>آدھا حصہ ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174656,
+          "QuestionID": 248178,
+          "UmOption": "<p>دوتہائی حصہ ہے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248179,
+      "SubjectID": 338,
+      "TopicID": 8072,
+      "TopicRef": "20",
+      "TopicName": "20 آلودگی ھوا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بیماری کی سب سے بڑی وجہ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174657,
+          "QuestionID": 248179,
+          "UmOption": "<p>پیٹ بھر کر کھانا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174658,
+          "QuestionID": 248179,
+          "UmOption": "<p>ماحول کی آلودگی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174659,
+          "QuestionID": 248179,
+          "UmOption": "<p>دیر سے سونا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174660,
+          "QuestionID": 248179,
+          "UmOption": "<p>دیر تک جاگنا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248180,
+      "SubjectID": 338,
+      "TopicID": 8072,
+      "TopicRef": "20",
+      "TopicName": "20 آلودگی ھوا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سبق آلودگی کے مصنف ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174661,
+          "QuestionID": 248180,
+          "UmOption": "<p>متین نظامی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174662,
+          "QuestionID": 248180,
+          "UmOption": "<p>ڈاکٹر یمین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174663,
+          "QuestionID": 248180,
+          "UmOption": "<p>ڈاکٹر سلمان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174664,
+          "QuestionID": 248180,
+          "UmOption": "<p>معین نظامی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248181,
+      "SubjectID": 338,
+      "TopicID": 8072,
+      "TopicRef": "20",
+      "TopicName": "20 آلودگی ھوا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دودکش کا مطلب ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174665,
+          "QuestionID": 248181,
+          "UmOption": "<p>چمنی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174666,
+          "QuestionID": 248181,
+          "UmOption": "<p>سگریٹ کا دھواں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174667,
+          "QuestionID": 248181,
+          "UmOption": "<p>کوئلے کا دھواں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174668,
+          "QuestionID": 248181,
+          "UmOption": "<p>کوئی نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248182,
+      "SubjectID": 338,
+      "TopicID": 8072,
+      "TopicRef": "20",
+      "TopicName": "20 آلودگی ھوا",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دولتی کا معنی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174669,
+          "QuestionID": 248182,
+          "UmOption": "<p>مالدار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174670,
+          "QuestionID": 248182,
+          "UmOption": "<p>سرکاری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174671,
+          "QuestionID": 248182,
+          "UmOption": "<p>دولت دینے والا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174672,
+          "QuestionID": 248182,
+          "UmOption": "<p>دولت لینے والا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248203,
+      "SubjectID": 338,
+      "TopicID": 8073,
+      "TopicRef": "21",
+      "TopicName": "21 خسی درمیقات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جلال آل احمد کا اصل نام کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174673,
+          "QuestionID": 248203,
+          "UmOption": "<p>ن</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174674,
+          "QuestionID": 248203,
+          "UmOption": "<p>حسین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174675,
+          "QuestionID": 248203,
+          "UmOption": "<p>علی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174676,
+          "QuestionID": 248203,
+          "UmOption": "<p>حیدر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248204,
+      "SubjectID": 338,
+      "TopicID": 8073,
+      "TopicRef": "21",
+      "TopicName": "21 خسی درمیقات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جلال آل احمد کس شہر میں پیدا ہوئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174677,
+          "QuestionID": 248204,
+          "UmOption": "<p>تبریز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174678,
+          "QuestionID": 248204,
+          "UmOption": "<p>شیراز</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174679,
+          "QuestionID": 248204,
+          "UmOption": "<p>اصفہان</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174680,
+          "QuestionID": 248204,
+          "UmOption": "<p>تہران</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248205,
+      "SubjectID": 338,
+      "TopicID": 8073,
+      "TopicRef": "21",
+      "TopicName": "21 خسی درمیقات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حسی درمیقات کے مصنف ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174681,
+          "QuestionID": 248205,
+          "UmOption": "<p>جمالزداہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174682,
+          "QuestionID": 248205,
+          "UmOption": "<p>صادق ھدایت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174683,
+          "QuestionID": 248205,
+          "UmOption": "<p>جلال آل احمد</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174684,
+          "QuestionID": 248205,
+          "UmOption": "<p>حجازی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248206,
+      "SubjectID": 338,
+      "TopicID": 8073,
+      "TopicRef": "21",
+      "TopicName": "21 خسی درمیقات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حسی درمیقات کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174685,
+          "QuestionID": 248206,
+          "UmOption": "<p>سفرنامہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174686,
+          "QuestionID": 248206,
+          "UmOption": "<p>افسانہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174687,
+          "QuestionID": 248206,
+          "UmOption": "<p>ناول</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174688,
+          "QuestionID": 248206,
+          "UmOption": "<p>ملفوظات</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248207,
+      "SubjectID": 338,
+      "TopicID": 8073,
+      "TopicRef": "21",
+      "TopicName": "21 خسی درمیقات",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جلال آل احمد نے کتنی کتابیں یادگار چھوڑیں ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174689,
+          "QuestionID": 248207,
+          "UmOption": "<p>بیس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174690,
+          "QuestionID": 248207,
+          "UmOption": "<p>تیس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174691,
+          "QuestionID": 248207,
+          "UmOption": "<p>چالیس</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174692,
+          "QuestionID": 248207,
+          "UmOption": "<p>پچاس</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248236,
+      "SubjectID": 338,
+      "TopicID": 8074,
+      "TopicRef": "22",
+      "TopicName": "22 در تعریف پنجاب",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>برصغیر کے کس شاعر کا اصل نام محمد اکرم تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174693,
+          "QuestionID": 248236,
+          "UmOption": "<p>غالب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174694,
+          "QuestionID": 248236,
+          "UmOption": "<p>علامہ محمد اقبال</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174695,
+          "QuestionID": 248236,
+          "UmOption": "<p>غنیمت کنجاھی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174696,
+          "QuestionID": 248236,
+          "UmOption": "<p>میر تقی میر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248237,
+      "SubjectID": 338,
+      "TopicID": 8074,
+      "TopicRef": "22",
+      "TopicName": "22 در تعریف پنجاب",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غنیمت کنجاھی نے کب وفات پائی:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174697,
+          "QuestionID": 248237,
+          "UmOption": "<p>1148 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174698,
+          "QuestionID": 248237,
+          "UmOption": "<p>1158 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174699,
+          "QuestionID": 248237,
+          "UmOption": "<p>1168 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174700,
+          "QuestionID": 248237,
+          "UmOption": "<p>1178 ہجری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248238,
+      "SubjectID": 338,
+      "TopicID": 8074,
+      "TopicRef": "22",
+      "TopicName": "22 در تعریف پنجاب",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غنیمت کنجاہی کس سلسلے سے ارادت و عقیدت رکھتے تھے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174701,
+          "QuestionID": 248238,
+          "UmOption": "<p>فادریہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174702,
+          "QuestionID": 248238,
+          "UmOption": "<p>چشتیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174703,
+          "QuestionID": 248238,
+          "UmOption": "<p>نقشبندیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174704,
+          "QuestionID": 248238,
+          "UmOption": "<p>کوئی نہیں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248239,
+      "SubjectID": 338,
+      "TopicID": 8074,
+      "TopicRef": "22",
+      "TopicName": "22 در تعریف پنجاب",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>غنیمت کنجاہی کو غزل کے علاوہ کس صنت شعر میں مہارت حاصل تھی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174705,
+          "QuestionID": 248239,
+          "UmOption": "<p>قصیدہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174706,
+          "QuestionID": 248239,
+          "UmOption": "<p>رباعی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174707,
+          "QuestionID": 248239,
+          "UmOption": "<p>مرثیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174708,
+          "QuestionID": 248239,
+          "UmOption": "<p>مثنوی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248240,
+      "SubjectID": 338,
+      "TopicID": 8074,
+      "TopicRef": "22",
+      "TopicName": "22 در تعریف پنجاب",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>عشقیہ مژنوی نیرنگ عشق کے شاعر کون ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174709,
+          "QuestionID": 248240,
+          "UmOption": "<p>نظامی گنجوی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174710,
+          "QuestionID": 248240,
+          "UmOption": "<p>امیر خسرو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174711,
+          "QuestionID": 248240,
+          "UmOption": "<p>غنیمت کنجاہی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174712,
+          "QuestionID": 248240,
+          "UmOption": "<p>فردوی چوسی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248270,
+      "SubjectID": 338,
+      "TopicID": 8075,
+      "TopicRef": "23",
+      "TopicName": "23 مارگیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نثر نگار حجازی کا اصل نام تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174713,
+          "QuestionID": 248270,
+          "UmOption": "<p>نصر اللہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174714,
+          "QuestionID": 248270,
+          "UmOption": "<p>مطیع الدولہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174715,
+          "QuestionID": 248270,
+          "UmOption": "<p>سراج الدولہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174716,
+          "QuestionID": 248270,
+          "UmOption": "<p>سیف اللہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248271,
+      "SubjectID": 338,
+      "TopicID": 8075,
+      "TopicRef": "23",
+      "TopicName": "23 مارگیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>محمدحجازی کب نائب وزیراعظم مقرر ہوئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174717,
+          "QuestionID": 248271,
+          "UmOption": "<p>1935</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174718,
+          "QuestionID": 248271,
+          "UmOption": "<p>1940</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174719,
+          "QuestionID": 248271,
+          "UmOption": "<p>1945</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174720,
+          "QuestionID": 248271,
+          "UmOption": "<p>1950</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248272,
+      "SubjectID": 338,
+      "TopicID": 8075,
+      "TopicRef": "23",
+      "TopicName": "23 مارگیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>1971 کس ایرانی نثر نگار کا سن وفات ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174721,
+          "QuestionID": 248272,
+          "UmOption": "<p>جمالزادہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174722,
+          "QuestionID": 248272,
+          "UmOption": "<p>صادق ھدایث</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174723,
+          "QuestionID": 248272,
+          "UmOption": "<p>محمد حجازی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174724,
+          "QuestionID": 248272,
+          "UmOption": "<p>جلال آل احمد</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248273,
+      "SubjectID": 338,
+      "TopicID": 8075,
+      "TopicRef": "23",
+      "TopicName": "23 مارگیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>محمد حجازی کب پیدا ہوئے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174725,
+          "QuestionID": 248273,
+          "UmOption": "<p>1890</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174726,
+          "QuestionID": 248273,
+          "UmOption": "<p>1895</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174727,
+          "QuestionID": 248273,
+          "UmOption": "<p>1900</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174728,
+          "QuestionID": 248273,
+          "UmOption": "<p>1905</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248274,
+      "SubjectID": 338,
+      "TopicID": 8075,
+      "TopicRef": "23",
+      "TopicName": "23 مارگیر",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>محمد حجازی نے بارہ سال کے عمر تک کس مدرسہ میں تعلیم حاصل کی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174729,
+          "QuestionID": 248274,
+          "UmOption": "<p>مدرسہ ہدایت</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174730,
+          "QuestionID": 248274,
+          "UmOption": "<p>مدرسہ نظامیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174731,
+          "QuestionID": 248274,
+          "UmOption": "<p>مدرسہ فاضلیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174732,
+          "QuestionID": 248274,
+          "UmOption": "<p>مدرسہ نعیمیہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248314,
+      "SubjectID": 338,
+      "TopicID": 8076,
+      "TopicRef": "24",
+      "TopicName": "24 علامہ محمد اقبال",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>محمد اقبال نے اپنی مایوس اور مردہ دل قوم کو جگانے کےلیے کس راستے کا انتخاب کیا:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174733,
+          "QuestionID": 248314,
+          "UmOption": "<p>وکالت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174734,
+          "QuestionID": 248314,
+          "UmOption": "<p>سیاست</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174735,
+          "QuestionID": 248314,
+          "UmOption": "<p>شاعری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174736,
+          "QuestionID": 248314,
+          "UmOption": "<p>مصوری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248315,
+      "SubjectID": 338,
+      "TopicID": 8076,
+      "TopicRef": "24",
+      "TopicName": "24 علامہ محمد اقبال",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سبق&nbsp;علامہ محمد اقبال کے مصنف ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174737,
+          "QuestionID": 248315,
+          "UmOption": "<p>ڈاکٹر خرم دل</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174738,
+          "QuestionID": 248315,
+          "UmOption": "<p>ڈاکٹر غلام حسین یوسفی</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174739,
+          "QuestionID": 248315,
+          "UmOption": "<p>عین القضات ھمدانی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174740,
+          "QuestionID": 248315,
+          "UmOption": "<p>علی بن حسین الواعظ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248316,
+      "SubjectID": 338,
+      "TopicID": 8076,
+      "TopicRef": "24",
+      "TopicName": "24 علامہ محمد اقبال",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اقبال کی آرزو تھی کہ قوم کی تقدیر کا تعین:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174741,
+          "QuestionID": 248316,
+          "UmOption": "<p>سامراجی طاقتیں کریں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174742,
+          "QuestionID": 248316,
+          "UmOption": "<p>قوم خود کرے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174743,
+          "QuestionID": 248316,
+          "UmOption": "<p>انگریز کریں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174744,
+          "QuestionID": 248316,
+          "UmOption": "<p>مغربی قومیں کریں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248317,
+      "SubjectID": 338,
+      "TopicID": 8076,
+      "TopicRef": "24",
+      "TopicName": "24 علامہ محمد اقبال",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>علامہ اقبال کی دعوت مبنی ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174745,
+          "QuestionID": 248317,
+          "UmOption": "<p>پیار و محبت</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174746,
+          "QuestionID": 248317,
+          "UmOption": "<p>جہاد پر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174747,
+          "QuestionID": 248317,
+          "UmOption": "<p>مساوات پر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174748,
+          "QuestionID": 248317,
+          "UmOption": "<p>اسلام کی شناخت پر</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248318,
+      "SubjectID": 338,
+      "TopicID": 8076,
+      "TopicRef": "24",
+      "TopicName": "24 علامہ محمد اقبال",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>علامہ اقبال کس صدی کے شاعر ہیں:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174749,
+          "QuestionID": 248318,
+          "UmOption": "<p>اٹھارویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174750,
+          "QuestionID": 248318,
+          "UmOption": "<p>انیسویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174751,
+          "QuestionID": 248318,
+          "UmOption": "<p>بیسویں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174752,
+          "QuestionID": 248318,
+          "UmOption": "<p>اکیسویں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248349,
+      "SubjectID": 338,
+      "TopicID": 8078,
+      "TopicRef": "26",
+      "TopicName": "26 کشمیر و پاکستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایران صغیرہ یا سولیس آسیا کسے کہتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174753,
+          "QuestionID": 248349,
+          "UmOption": "<p>مری کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174754,
+          "QuestionID": 248349,
+          "UmOption": "<p>کشمیر کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174755,
+          "QuestionID": 248349,
+          "UmOption": "<p>سوات کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174756,
+          "QuestionID": 248349,
+          "UmOption": "<p>گلگت کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248350,
+      "SubjectID": 338,
+      "TopicID": 8078,
+      "TopicRef": "26",
+      "TopicName": "26 کشمیر و پاکستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کشمیر کی سب سے لمبی سرحد کس ملک سے ملتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174757,
+          "QuestionID": 248350,
+          "UmOption": "<p>انڈیا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174758,
+          "QuestionID": 248350,
+          "UmOption": "<p>چین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174759,
+          "QuestionID": 248350,
+          "UmOption": "<p>پاکستان</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174760,
+          "QuestionID": 248350,
+          "UmOption": "<p>ایران</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248351,
+      "SubjectID": 338,
+      "TopicID": 8078,
+      "TopicRef": "26",
+      "TopicName": "26 کشمیر و پاکستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کشمیر کو جانے والے کتنے راستے پاکستان کے قبضے میں ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174761,
+          "QuestionID": 248351,
+          "UmOption": "<p>تین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174762,
+          "QuestionID": 248351,
+          "UmOption": "<p>پانچ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174763,
+          "QuestionID": 248351,
+          "UmOption": "<p>سات</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174764,
+          "QuestionID": 248351,
+          "UmOption": "<p>نو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248352,
+      "SubjectID": 338,
+      "TopicID": 8078,
+      "TopicRef": "26",
+      "TopicName": "26 کشمیر و پاکستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ہندوستان کے پاس کشمیر میں داخل ہونے کےلیے کتنے زمینی راستے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174765,
+          "QuestionID": 248352,
+          "UmOption": "<p>ایک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174766,
+          "QuestionID": 248352,
+          "UmOption": "<p>دو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174767,
+          "QuestionID": 248352,
+          "UmOption": "<p>تین</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174768,
+          "QuestionID": 248352,
+          "UmOption": "<p>چار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248353,
+      "SubjectID": 338,
+      "TopicID": 8078,
+      "TopicRef": "26",
+      "TopicName": "26 کشمیر و پاکستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کشمیر کتنی صدیوں سے پاکستان کا اٹوٹ انگ ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174769,
+          "QuestionID": 248353,
+          "UmOption": "<p>دو صدیوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174770,
+          "QuestionID": 248353,
+          "UmOption": "<p>تین صدیوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174771,
+          "QuestionID": 248353,
+          "UmOption": "<p>چا صدیوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174772,
+          "QuestionID": 248353,
+          "UmOption": "<p>پانچ صدیوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248422,
+      "SubjectID": 338,
+      "TopicID": 8080,
+      "TopicRef": "28",
+      "TopicName": "28 دربیمارستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سعید صبح کتنے بجے تک بیدار نہیں ہوا تھا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174773,
+          "QuestionID": 248422,
+          "UmOption": "<p>سات بجے تک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174774,
+          "QuestionID": 248422,
+          "UmOption": "<p>آٹھ بجے تک</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174775,
+          "QuestionID": 248422,
+          "UmOption": "<p>نو بجے تک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174776,
+          "QuestionID": 248422,
+          "UmOption": "<p>دس بجے تک</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248423,
+      "SubjectID": 338,
+      "TopicID": 8080,
+      "TopicRef": "28",
+      "TopicName": "28 دربیمارستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سعید کی ماں نے سعید کو جگانے کےلیے کسے بھیجا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174777,
+          "QuestionID": 248423,
+          "UmOption": "<p>نوید کو</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174778,
+          "QuestionID": 248423,
+          "UmOption": "<p>حمید کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174779,
+          "QuestionID": 248423,
+          "UmOption": "<p>رشید کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174780,
+          "QuestionID": 248423,
+          "UmOption": "<p>مجید کو</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248424,
+      "SubjectID": 338,
+      "TopicID": 8080,
+      "TopicRef": "28",
+      "TopicName": "28 دربیمارستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بیدار ہونے کے بعد سعید کہاں آیا؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174781,
+          "QuestionID": 248424,
+          "UmOption": "<p>لان میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174782,
+          "QuestionID": 248424,
+          "UmOption": "<p>بیڈ روم میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174783,
+          "QuestionID": 248424,
+          "UmOption": "<p>ڈرائنگ روم میں</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174784,
+          "QuestionID": 248424,
+          "UmOption": "<p>کچن میں</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248425,
+      "SubjectID": 338,
+      "TopicID": 8080,
+      "TopicRef": "28",
+      "TopicName": "28 دربیمارستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ڈاکٹر نے سعید کی کس بیماری کی تشخیص کی؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174785,
+          "QuestionID": 248425,
+          "UmOption": "<p>بلڈ پریشر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174786,
+          "QuestionID": 248425,
+          "UmOption": "<p>نمونیا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174787,
+          "QuestionID": 248425,
+          "UmOption": "<p>ملیریا</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174788,
+          "QuestionID": 248425,
+          "UmOption": "<p>نزلہ&nbsp;زکام</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248426,
+      "SubjectID": 338,
+      "TopicID": 8080,
+      "TopicRef": "28",
+      "TopicName": "28 دربیمارستان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سبق در بیمارستان میں سعید کے والد کا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174789,
+          "QuestionID": 248426,
+          "UmOption": "<p>حمید</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174790,
+          "QuestionID": 248426,
+          "UmOption": "<p>نوید</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174791,
+          "QuestionID": 248426,
+          "UmOption": "<p>مجید</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174792,
+          "QuestionID": 248426,
+          "UmOption": "<p>فہمید</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248465,
+      "SubjectID": 338,
+      "TopicID": 8081,
+      "TopicRef": "29",
+      "TopicName": "29 در گذر گاہ جہان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>درگذرہ گا جہان کے شاعر کا نام ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174793,
+          "QuestionID": 248465,
+          "UmOption": "<p>نیما پوشیج</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174794,
+          "QuestionID": 248465,
+          "UmOption": "<p>سھراب سپھری</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174795,
+          "QuestionID": 248465,
+          "UmOption": "<p>فریدون توللی</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174796,
+          "QuestionID": 248465,
+          "UmOption": "<p>فریدون مشیری</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248466,
+      "SubjectID": 338,
+      "TopicID": 8081,
+      "TopicRef": "29",
+      "TopicName": "29 در گذر گاہ جہان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شاعر فریدوون مشیری کے بقول دنیا کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174797,
+          "QuestionID": 248466,
+          "UmOption": "<p>دکھوں کا گھر</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174798,
+          "QuestionID": 248466,
+          "UmOption": "<p>گزرگاہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174799,
+          "QuestionID": 248466,
+          "UmOption": "<p>پھولوں کی سیج</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174800,
+          "QuestionID": 248466,
+          "UmOption": "<p>اقامت گاہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248467,
+      "SubjectID": 338,
+      "TopicID": 8081,
+      "TopicRef": "29",
+      "TopicName": "29 در گذر گاہ جہان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اردو گاہ کا مطلب ہے:</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174801,
+          "QuestionID": 248467,
+          "UmOption": "<p>اردو کی کتاب</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174802,
+          "QuestionID": 248467,
+          "UmOption": "<p>اردو کا سبق</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174803,
+          "QuestionID": 248467,
+          "UmOption": "<p>لشکر گاہ</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174804,
+          "QuestionID": 248467,
+          "UmOption": "<p>شکارگاہ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248468,
+      "SubjectID": 338,
+      "TopicID": 8081,
+      "TopicRef": "29",
+      "TopicName": "29 در گذر گاہ جہان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>دنیا کا آغاز اور انجام کیسا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174805,
+          "QuestionID": 248468,
+          "UmOption": "<p>غیر واضح</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        },
+        {
+          "OptionID": 174806,
+          "QuestionID": 248468,
+          "UmOption": "<p>دلچسپ</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174807,
+          "QuestionID": 248468,
+          "UmOption": "<p>شاندار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174808,
+          "QuestionID": 248468,
+          "UmOption": "<p>آشکار</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 248469,
+      "SubjectID": 338,
+      "TopicID": 8081,
+      "TopicRef": "29",
+      "TopicName": "29 در گذر گاہ جہان",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شاعر فریدون کے بقول دنیا میں تمہارا کام کس سے جنگ کرنا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 174809,
+          "QuestionID": 248469,
+          "UmOption": "<p>دشمنوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174810,
+          "QuestionID": 248469,
+          "UmOption": "<p>غیر مسلوں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174811,
+          "QuestionID": 248469,
+          "UmOption": "<p>سرمایہ داروں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": false
+        },
+        {
+          "OptionID": 174812,
+          "QuestionID": 248469,
+          "UmOption": "<p>اندھیروں سے</p>\r\n",
+          "EmOption": null,
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    }
+  ]
+}

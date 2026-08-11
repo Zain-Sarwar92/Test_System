@@ -1,0 +1,2923 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "General Science",
+  "slug": "general-science",
+  "source": "PTS PTB Class 10 General Science (read-only export)",
+  "total_questions": 815,
+  "counts": {
+    "mcq": 400,
+    "short": 323,
+    "long": 92
+  },
+  "questions": [
+    {
+      "id": 14881,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the Law of Conservation of Energy?",
+      "ur": "کنزرویشن آف انرجی کا قانون کیا ہے؟"
+    },
+    {
+      "id": 14884,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define of unit of electrical energy.",
+      "ur": "الیکٹریکل انرجی کے یونٹ کی تعریف کیجیے۔"
+    },
+    {
+      "id": 14885,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write down the names of three conventional methods and five non-conventional methods of producing electricity.",
+      "ur": "الیکٹریسٹی پیدا کرنے کے تین روایتی طریقوں کے نام اور پانچ غیر روایتی طریقوں کے نام لکھیے۔"
+    },
+    {
+      "id": 14911,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define environment.",
+      "ur": "ماحول کی تعریف کیجیے۔"
+    },
+    {
+      "id": 14919,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is meant by degradation of environment?",
+      "ur": "ماحول کی ابتری سے کیا مرادہے؟"
+    },
+    {
+      "id": 14921,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Point out two suggestions for the safe disposal of nuclear waste.",
+      "ur": "نیو کلیئر ویسٹ کو حفاظت سے ٹھکانے لگانے کے لیے دو تجاویز تحریر کیجیے۔"
+    },
+    {
+      "id": 14927,
+      "chapter": 7,
+      "topic_id": "7.10",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give any three suggestions for the conservation of energy.",
+      "ur": "انرجی کی بچت کے لیے کوئی سی تین تجاویز لکھیے۔"
+    },
+    {
+      "id": 16771,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is electric current?",
+      "ur": "الیکٹرک کرنٹ کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16776,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define potential difference.",
+      "ur": "پوٹینشل ڈفرینس کی تعریف کریں۔"
+    },
+    {
+      "id": 16779,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which quantities does Ohm's law relate?",
+      "ur": "اوہم کا قانون کون کون سی مقداروں کے مابین تعلق ظاہر کرتا ہے؟"
+    },
+    {
+      "id": 16780,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define resistance.",
+      "ur": "رزسٹنس کی تعریف کریں۔"
+    },
+    {
+      "id": 16782,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are resistors?",
+      "ur": "رزسٹرز کیا ہوتے ہیں؟"
+    },
+    {
+      "id": 16783,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is meant by capacitor charging?",
+      "ur": "کپیسٹر کی چارجنگ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 16784,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Where are gang capacitors used?",
+      "ur": "گینگ کپیسٹرز کہاں استعمال ہوتے ہیں؟"
+    },
+    {
+      "id": 16785,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What does a step-up transformer do?",
+      "ur": "سٹیپ اپ ٹراسفارمر کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 16786,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What does a step-down transformer do?",
+      "ur": "سٹیپ ڈاؤن ٹرانسفارمر کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 16834,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Where is a shunt resistance connected to convert a galvanometer into ammeter?",
+      "ur": "گیلوانو میٹر کو ایمیٹر بنانے کے لیے شنٹ رزسٹنس کہاں لگائی جاتی ہے؟"
+    },
+    {
+      "id": 17667,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What materials are used to make lasers?",
+      "ur": "لیزر بنانے کے لیے کون سی اشیاء استعمال کی جاتی ہیں؟"
+    },
+    {
+      "id": 17694,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Where does electrical power for satellites come from?",
+      "ur": "سیٹلائٹس کے لیے الیکٹریکل پاور کہاں سے حاصل کی جاتی ہے؟"
+    },
+    {
+      "id": 17704,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which elements produce radioactivity?",
+      "ur": "کون سے ایلیمنٹس سے ریڈیو ایکٹیوریڈی ایشنز حاصل ہوتی ہیں؟"
+    },
+    {
+      "id": 17723,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the difference between E.C.G and E.E.G?",
+      "ur": "E.C.GاورE.E.G میں کیا فرق ہے؟"
+    },
+    {
+      "id": 17735,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How is hardness produced in steel?",
+      "ur": "سٹیل میں سختی کس طرح پیدا کی جاتی ہے؟"
+    },
+    {
+      "id": 17826,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is meant by Hubble Telescope?",
+      "ur": "ہبل ٹیلی سکوپ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17828,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write some advantages of artificial satellites.",
+      "ur": "مصنوعی سیٹلائٹس کے چند فوائد تحریر کریں۔"
+    },
+    {
+      "id": 92620,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which space probes collected samples of soil and rocks from the surface of Mars?",
+      "ur": "کون سی سپیس پروبز نے مارس کی سطح سے مٹی اور راکس کے نمونے اکھٹے کیے؟"
+    },
+    {
+      "id": 17847,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are the main objectives of Sparco?",
+      "ur": "سپارکو کے بنیادی مقاصد کیا ہیں؟"
+    },
+    {
+      "id": 17857,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Where are Pakistan's nuclear power plants located and what is their total generating capacity?",
+      "ur": "پاکستان کے نیو کلیئر پاور پلانٹس کہاں پر واقع ہیں اور ان کی کل پیداواری صلاحیت کیا ہے؟"
+    },
+    {
+      "id": 14865,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define energy and what is its SI unit?",
+      "ur": "انرجی کی تعریف کریں نیز اس کا ایس آئی یونٹ کیا ہے؟"
+    },
+    {
+      "id": 14866,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by work?",
+      "ur": "ورک سے کیا مراد ہے؟"
+    },
+    {
+      "id": 14867,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define Joule.",
+      "ur": "جول کی تعریف کریں۔"
+    },
+    {
+      "id": 14868,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define kinetic energy and give two examples.",
+      "ur": "کائی نیٹک انرجی کی تعریف کریں اور دو مثالیں دیں۔"
+    },
+    {
+      "id": 14869,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the definition of potential energy and give an example.",
+      "ur": "پوٹینشل انرجی کی تعریف لکھیں اور ایک مثال دیں۔"
+    },
+    {
+      "id": 14870,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is elastic potential energy?",
+      "ur": "ایلاسٹک پوٹینشل انرجی سے کیا مرا دہے؟"
+    },
+    {
+      "id": 14871,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by chemical energy?",
+      "ur": "کیمیکل انرجی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 14872,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the definition of thermal energy. And give examples.",
+      "ur": "حرارتی توانائی کی تعریف لکھیں۔ اور مثالیں دیجیے۔"
+    },
+    {
+      "id": 14873,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by electrical energy? Explain what it means.",
+      "ur": "الیکٹریکل انرجی سےکیا مرا دہے؟ اس کیا ہمیت بیان کریں۔"
+    },
+    {
+      "id": 14874,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is called nuclear fission?",
+      "ur": "نیو کلیئر فشن کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14875,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is nuclear fusion?",
+      "ur": "نیو کلیئر فیوژن کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14876,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Differentiate between elastic potential energy and gravitational potential energy.",
+      "ur": "ایلاسٹک پوٹینشل انرجی اور گریوی ٹیشنل پوٹینشل انرجی میں فرق کریں۔"
+    },
+    {
+      "id": 14877,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define nuclear energy.",
+      "ur": "نیو کلیئر انرجی کی تعریف کریں۔"
+    },
+    {
+      "id": 14878,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain the difference between electrical energy and nuclear energy.",
+      "ur": "الیکٹریکل انرجی اور نیو کلیئر انرجی میں فرق بیان کریں۔"
+    },
+    {
+      "id": 14879,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of the types of energy.",
+      "ur": "انرجی کی اقسام کے نام لکھیں۔"
+    },
+    {
+      "id": 14880,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the difference between nuclear fission and nuclear fusion.",
+      "ur": "نیو کلیئر فشن اور نیو کلیئر فیوژن میں فرق لکھیں۔"
+    },
+    {
+      "id": 14882,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by mutual exchange of energy?",
+      "ur": "انرجی کے باہمی تبادلے سے کیا مرا دہے؟"
+    },
+    {
+      "id": 14886,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is called hydroelectric power?",
+      "ur": "ہائڈروالیکٹرک پاور کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14887,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Where and how is nuclear power obtained?",
+      "ur": "نیو کلیئر پاور کہاں سے اور کیسے حاصل ہوتی ہے؟"
+    },
+    {
+      "id": 14888,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is used as fuel in nuclear fission?",
+      "ur": "نیو کلیئر فشن میں بطور ایندھن کیا استعمال کیا جاتا ہے؟"
+    },
+    {
+      "id": 14889,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is called solar power?",
+      "ur": "سولر پاور کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14890,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by solar panels?",
+      "ur": "سولر پینلز سے کیا مراد ہے؟"
+    },
+    {
+      "id": 14891,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is Tidal Power?",
+      "ur": "ٹائڈل پاور کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14892,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by geothermal power? How is geothermal energy produced?",
+      "ur": "جیوتھرمل پاور سے کیا مراد ہے؟ جیو تھرمل انرجی کیسے پیدا کی جاتی ہے؟"
+    },
+    {
+      "id": 14893,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is biogas called?",
+      "ur": "بائیو گیس کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14894,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the definition of power.",
+      "ur": "پاور کی تعریف لکھیں۔"
+    },
+    {
+      "id": 14895,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the SI unit of power?",
+      "ur": "پاور کا ایس آئی یونٹ کیا ہے؟"
+    },
+    {
+      "id": 14896,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does Btu mean?",
+      "ur": "Btuسے کیا مرا دہے؟"
+    },
+    {
+      "id": 14897,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between solar power and wind power?",
+      "ur": "سولر پاور اور ونڈ پاور میں کیا فرق ہے؟"
+    },
+    {
+      "id": 14898,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is called wind power?",
+      "ur": "ونڈ پاور کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14899,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between thermal power and geothermal power?",
+      "ur": "تھرمل پاور اور جیو تھرمل پاور میں کیا فر ق ہے؟"
+    },
+    {
+      "id": 14900,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define biomass.",
+      "ur": "بائیو ماس کی تعریف کریں۔"
+    },
+    {
+      "id": 14901,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between solar energy and solar power?",
+      "ur": "سولر انرجی اور سولر پاور میں کیا فرق ہے؟"
+    },
+    {
+      "id": 14902,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How is biogas obtained from biomass?",
+      "ur": "بائیو ماس سے بائیو گیس کیسے حاصل کی جاتی ہے؟"
+    },
+    {
+      "id": 14903,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "On what principle is tidal power generated?",
+      "ur": "ٹائڈل پاور کس اصول پر پیدا کی جاتی ہے؟"
+    },
+    {
+      "id": 14904,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is light energy?",
+      "ur": "روشنی کی انرجی کیا ہے؟"
+    },
+    {
+      "id": 14905,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Can tidal energy be used to generate electricity?",
+      "ur": "کیا ٹائڈل انرجی کو الیکٹریسٹی پیدا کرنے کے لیے استعمال کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 14906,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is thermal power?",
+      "ur": "تھرمل پاور کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14907,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by solid waste?",
+      "ur": "سالڈ ویسٹ سے کیا مرا دہے؟"
+    },
+    {
+      "id": 14909,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the uses of traditional and modern windmills.",
+      "ur": "روایتی اور جدید ونڈ مِل کا استعمال لکھیں۔"
+    },
+    {
+      "id": 14910,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How can energy be generated from solid waste?",
+      "ur": "سالڈ ویسٹ سے کس طرح انرجی پیدا کی جاسکتی ہے؟"
+    },
+    {
+      "id": 14912,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by the sphere of air?",
+      "ur": "کرہ ہوائی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 14913,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is called pollution?",
+      "ur": "پولیوشن کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14914,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define thermal pollution.",
+      "ur": "تھرمل پولیوشن کی تعریف کیجیے۔"
+    },
+    {
+      "id": 14915,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write three causes of thermal pollution.",
+      "ur": "تھرمل پولیوشن کی تین وجوہات لکھیں۔"
+    },
+    {
+      "id": 14916,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How is the use of fossil fuels increasing thermal pollution?",
+      "ur": "فوسل فیولز کے استعمالات سے تھرمل پولیوشن میں کیسے اضافہ ہو رہا ہے؟"
+    },
+    {
+      "id": 14917,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How does nuclear energy production cause thermal pollution?",
+      "ur": "نیوکلیئر انرجی کی پیداوار کیسے تھرمل پولیوشن کا باعث بنتی ہے؟"
+    },
+    {
+      "id": 14918,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by greenhouse effect?",
+      "ur": "گرین ہاؤس ایفیکٹ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 14920,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Give two suggestions for reducing environmental degradation.",
+      "ur": "ماحول کی ابتری کو کم کرنے کے لیے دو تجاویز پیش کیجیے۔"
+    },
+    {
+      "id": 14922,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the effects of the failure of the cooling system of the Chernobyl (Russia) reactor in 1986.",
+      "ur": "1986 میں چرنوبل (روس) ری ایکٹر کے کولنگ سسٹم کے فیل ہونے کے اثرات تحریر کریں۔"
+    },
+    {
+      "id": 14923,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What proposals are being considered for disposal of nuclear waste?",
+      "ur": "نیو کلیئر ویسٹ کو ٹھکانے لگانے کے لیے کون کون سی تجاویز زیرِ غور ہیں؟"
+    },
+    {
+      "id": 14924,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is Nucleir West?",
+      "ur": "نیو کلیئر ویسٹ کسے کہتے ہیں؟"
+    },
+    {
+      "id": 14925,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by radiation?",
+      "ur": "ریڈی ایشن سے کیا مراد ہے؟"
+    },
+    {
+      "id": 14926,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When and where did the Chernobyl reactor incident occur?",
+      "ur": "چرنوبل ری ایکٹر کا واقعہ کب اور کہاں پیش آیا؟"
+    },
+    {
+      "id": 16772,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the SI unit of electric current? Also define it.",
+      "ur": "الیکٹرک کرنٹ کا ایس آئی یونٹ کیا ہے؟ نیز اس کی تعریف کریں۔"
+    },
+    {
+      "id": 16774,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is conventional current?",
+      "ur": "کنوینشنل کرنٹ کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16775,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the random motion of electrons?",
+      "ur": "الیکٹرونز کی رینڈم موشن سے کیامرا دہے؟"
+    },
+    {
+      "id": 16777,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the SI unit of potential difference?",
+      "ur": "پوٹینشل ڈفرینس کا ایس آئی یونٹ کیا ہے؟"
+    },
+    {
+      "id": 16781,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What causes resistance?",
+      "ur": "رزسٹنس کی وجہ کیا ہوتی ہے؟"
+    },
+    {
+      "id": 16787,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the cause of capacitor discharge?",
+      "ur": "کپیسٹر کی ڈسچارجنگ سے کیامرا دہے؟"
+    },
+    {
+      "id": 16789,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of the main components of a circuit.",
+      "ur": "کسی سرکٹ کے اہم اجزا کے نام تحریر کریں۔"
+    },
+    {
+      "id": 16790,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a switch in a circuit?",
+      "ur": "سرکٹ میں سوئچ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 16791,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a capacitor called?",
+      "ur": "کپیسٹر کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16793,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by dielectric?",
+      "ur": "ڈائی الیکٹرک سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16794,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by capacitance? Also write its SI unit.",
+      "ur": "کپیسیٹینس سے کیامراد ہے؟ اس کا SIیونٹ بھی لکھیں۔"
+    },
+    {
+      "id": 16795,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How many microfarads are in a farad?",
+      "ur": "ایک فیراڈ میں کتنے مائیکروفیراڈ ہوتے ہیں؟"
+    },
+    {
+      "id": 16796,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "State some uses of fixed capacitors.",
+      "ur": "فکسڈ کپیسٹرز کے چند استعمالات بیان کریں۔"
+    },
+    {
+      "id": 16797,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the use of variable capacitor or gang capacitor?",
+      "ur": "ویری ایبل کپیسٹر یا گینگ کپیسٹر کس کام آتے ہیں؟"
+    },
+    {
+      "id": 16806,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a transformer?",
+      "ur": "ٹرانسفارمر کیا ہوتا ہے؟"
+    },
+    {
+      "id": 16807,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by A.C voltage?",
+      "ur": "A.Cوولٹیج سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16810,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is step down transformer called?",
+      "ur": "سٹیپ ڈاؤن ٹراسفارمر کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16811,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How many types of capacitors are there? Write the names of three of them.",
+      "ur": "کپیسٹر کی اقسام کتنی ہیں؟ ان میں سے تین کے نام لکھیں۔"
+    },
+    {
+      "id": 16812,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain the difference between step-up and step-down transformers.",
+      "ur": "سٹیپ اپ اور سٹیپ ڈاؤن ٹراسفارمر میں فرق بیان کیجیے۔"
+    },
+    {
+      "id": 16813,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define two types of capacitors.",
+      "ur": "کپیسٹرز کی دو اقسام کی تعریف کریں۔"
+    },
+    {
+      "id": 16814,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two uses of capacitor.",
+      "ur": "کپیسٹر کے دو استعمالات لکھیے۔"
+    },
+    {
+      "id": 16816,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How do you build fixed capacitors?",
+      "ur": "آپ فکسڈکپیسٹرز کیسے بنائیں گے؟"
+    },
+    {
+      "id": 16817,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by direct current?",
+      "ur": "ڈائریکٹ کرنٹ سے کیامراد ہے؟"
+    },
+    {
+      "id": 16818,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by alternating current?",
+      "ur": "آلٹرنیٹ کرنٹ سے کیامراد ہے؟"
+    },
+    {
+      "id": 16819,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain the difference between direct current and alternating current.",
+      "ur": "ڈائریکٹ کرنٹ او رآلٹرنیٹنگ کرنٹ میں فرق واضح کیجیے۔"
+    },
+    {
+      "id": 16821,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name three objects that use D.C.",
+      "ur": "ایسی تین اشیاء کے نام لکھیں جن میں D.Cاستعمال ہوتا ہے۔"
+    },
+    {
+      "id": 16822,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name three objects that are powered by A.C.",
+      "ur": "ایسی تین اشیاء کے نام لکھیں جو A.Cسے چلتی ہیں۔"
+    },
+    {
+      "id": 16823,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the role of main switch in household circuits?",
+      "ur": "گھریلو سرکٹس میں مین سوئچ کا کیا کردار ہے؟"
+    },
+    {
+      "id": 16824,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the role of a fuse in a circuit?",
+      "ur": "ایک سرکٹ میں فیوز کا کیا کردار ہے؟"
+    },
+    {
+      "id": 16825,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by main switch in domestic supply?",
+      "ur": "گھریلو سپلائی میں مین سوئچ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 16826,
+      "chapter": 8,
+      "topic_id": "8.10",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How can you find out how much electricity you have used during a certain period of time?",
+      "ur": "آپ کیسے معلوم کر سکتے ہیں کہ آپ نے مخصوص دورانیہ کے دوران کتنی الیکٹریسٹی استعمال کی ہے؟"
+    },
+    {
+      "id": 16827,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write three measures to prevent the dangers of electricity.",
+      "ur": "الیکٹریسٹی کے خطرات سے بچاؤ کے متعلق تین تدابیر تحریر کریں۔"
+    },
+    {
+      "id": 16828,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is electric shock?",
+      "ur": "الیکٹرک شاک کیا ہوتا ہے؟"
+    },
+    {
+      "id": 16829,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by short circuit?",
+      "ur": "شارٹ سرکٹ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 16831,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name three dangers of electricity.",
+      "ur": "الیکٹریسٹی کے تین خطرات کے نام تحریر کریں۔"
+    },
+    {
+      "id": 16832,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is First Aid?",
+      "ur": "فرسٹ ایڈ کا اہتمام کیا ہے؟"
+    },
+    {
+      "id": 16835,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the use of a galvanometer?",
+      "ur": "گیلوانو میٹر کس کام آتا ہے؟"
+    },
+    {
+      "id": 16836,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How can a galvanometer be converted into an ammeter?",
+      "ur": "گیلوانو میٹر کو ایمیٹر میں کیسے تبدیل کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 16838,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the function of a voltmeter, how is it used in a circuit?",
+      "ur": "وولٹ میٹر کا کیا کام ہے یہ سرکٹ میں کس طرح لگایا جاتا ہے؟"
+    },
+    {
+      "id": 16839,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define the word aerometer.",
+      "ur": "لفظ ایوومیٹر کی وضاحت کریں۔"
+    },
+    {
+      "id": 16840,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a multimeter used for?",
+      "ur": "ملٹی میٹر کس کام آتا ہے؟"
+    },
+    {
+      "id": 16841,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two uses of ammeter.",
+      "ur": "ایمیٹر کے دو استعمالات لکھیں۔"
+    },
+    {
+      "id": 16842,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between ammeter and volt?",
+      "ur": "ایمیٹر او روولٹ میں کیا فرق ہے؟"
+    },
+    {
+      "id": 16843,
+      "chapter": 8,
+      "topic_id": "8.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are analog meters?",
+      "ur": "اینالوگ میٹرز کیا ہیں؟"
+    },
+    {
+      "id": 16954,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the definition of electronics.",
+      "ur": "الیکٹرونکس کی تعریف لکھیں۔"
+    },
+    {
+      "id": 16955,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by semiconductor?",
+      "ur": "سیمی کنڈکٹر سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16956,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is doping?",
+      "ur": "ڈوپنگ کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16957,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How are n-type semiconductors formed?",
+      "ur": "این ٹائپ سیمی کنڈکٹرز کس طرح بنتا ہے؟"
+    },
+    {
+      "id": 16958,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Why does current flow in n-type semiconductors?",
+      "ur": "این ٹائپ سیمی کنڈکٹرز میں کرنٹ کیوں چلتا ہے؟"
+    },
+    {
+      "id": 16959,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are p-type semiconductors?",
+      "ur": "پی ٹائپ سیمی کنڈکٹرز کیا ہوتے ہیں؟"
+    },
+    {
+      "id": 16960,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is p-type junction or semiconductor diode?",
+      "ur": "پی ٹائپ جنکشن یا سیمی کنڈکٹر ڈائیوڈ کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16961,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a forward biased diode? Draw a circuit diagram.",
+      "ur": "فارورڈ بائسڈ ڈائیوڈ کیا ہے؟ سرکٹ ڈایا گرام بنائیے۔"
+    },
+    {
+      "id": 16962,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How do forward biased diodes work?",
+      "ur": "فارورڈ بائسڈ ڈائیوڈ کیسے کام کرتی ہیں؟"
+    },
+    {
+      "id": 16963,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does a reverse biased diode do?",
+      "ur": "ریورس بائسڈ ڈائیوڈ سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16964,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by hole?",
+      "ur": "ہول سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16965,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two uses of electronics.",
+      "ur": "الیکٹرونکس کے دو استعمالات لکھیں۔"
+    },
+    {
+      "id": 16966,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does Rectifire do?",
+      "ur": "ریکٹی فائر کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 16967,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does a rocket fire do?",
+      "ur": "ریکٹی فائر کیافعل سر انجام دیتا ہے؟"
+    },
+    {
+      "id": 16968,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by rectification?",
+      "ur": "ریکٹی فکیشن سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16969,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the main use of diode?",
+      "ur": "ڈائیوڈ کا اہم استعمال کیا ہے؟"
+    },
+    {
+      "id": 16970,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How does LED emit light?",
+      "ur": "ایل ای ڈی (LED)سے روشنی کیسے خارج ہوتی ہے؟"
+    },
+    {
+      "id": 16971,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is photo diode? How do these come in handy?",
+      "ur": "فوٹو ڈائیوڈ کسے کہتے ہیں؟ یہ کس طرح کام آتے ہیں؟"
+    },
+    {
+      "id": 16972,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the uses of LEDs.",
+      "ur": "ایل ای ڈیز کے استعمالات لکھیے۔"
+    },
+    {
+      "id": 16973,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of two electromagnetic waves.",
+      "ur": "دو الیکٹرومیگنیٹک ویوز کے نام لکھیں۔"
+    },
+    {
+      "id": 16974,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Why are radio waves called carrier waves?",
+      "ur": "ریڈیو ویوز کو کیریئر ویوز کیوں کہا جاتا ہے؟"
+    },
+    {
+      "id": 16975,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are hovering satellites? Also what is meant by geostationary orbit?",
+      "ur": "ہوورنگ سیٹلائٹس کسے کہتے ہیں؟ نیز جیو سٹیشنری مدار سے کیا مراد ہے؟"
+    },
+    {
+      "id": 16976,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How does a radio set work as a receiver?",
+      "ur": "ریڈیو سیٹ کس طرح ریسیور کے طور پر کام کرتا ہے؟"
+    },
+    {
+      "id": 16977,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the function of picture tube?",
+      "ur": "پکچر ٹیوب کا کیا کام ہے؟"
+    },
+    {
+      "id": 16978,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by cable TV?",
+      "ur": "کیبل ٹی۔وی سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16979,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How are sound waves transmitted in the air at a radio station?",
+      "ur": "ریڈیو اسٹیشن پر آواز کی لہروں کو کس طرح فضا میں نشر کیا جاتا ہے؟"
+    },
+    {
+      "id": 16980,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain the working of electron guns in color TV.",
+      "ur": "کلر ٹی۔وی میں الیکٹرون گنز کا کام بیان کیجیے۔"
+    },
+    {
+      "id": 16981,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are electromagnetic waves? Give examples.",
+      "ur": "الیکٹرومیگنیٹک ویوز کیا ہوتی ہیں؟ مثالیں دیں۔"
+    },
+    {
+      "id": 16982,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by computer?",
+      "ur": "کمپیوٹر سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16983,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is hardware?",
+      "ur": "ہارڈ ویئر کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16984,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is software? Give examples.",
+      "ur": "سوفٹ ویئر کسے کہتے ہیں؟ مثالیں دیجیے۔"
+    },
+    {
+      "id": 16985,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of important parts of computer.",
+      "ur": "کمپیوٹر کے اہم حصوں کے نام لکھیے۔"
+    },
+    {
+      "id": 16986,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by input devices? Also write the names of some input devices.",
+      "ur": "ان پٹ آلات سے کیا مراد ہے؟ چند ان پٹ آلات کے نام بھی لکھیں۔"
+    },
+    {
+      "id": 16987,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by output devices? Give examples.",
+      "ur": "آؤٹ پٹ آلات سے کیا مراد ہے؟ مثالیں دیجیے۔"
+    },
+    {
+      "id": 16988,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the brain of a computer?",
+      "ur": "کمپیوٹر کا دماغ کسے کہتے ہیں؟"
+    },
+    {
+      "id": 16989,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "State the main functions of the control unit of a computer.",
+      "ur": "کمپیوٹر کے کنٹرول یونٹ کے اہم کام بیان کریں۔"
+    },
+    {
+      "id": 16990,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are the temporary memory units of a computer?",
+      "ur": "کمپیوٹر کے عارضی میموری یونٹس کون سے ہیں؟"
+    },
+    {
+      "id": 16991,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is Arithmetic and Logic Unit?",
+      "ur": "ارتھمیٹک اینڈ لاجک یونٹ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 16992,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by program?",
+      "ur": "پروگرام سے کیا مرا دہے؟"
+    },
+    {
+      "id": 16993,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a Microprocessor?",
+      "ur": "مائیکرو پروسیسر کیا ہوتا ہے؟"
+    },
+    {
+      "id": 16994,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by information storage devices?",
+      "ur": "انفارمیشن سٹوریج ڈیوائسز سے کیا مراد ہے؟"
+    },
+    {
+      "id": 16995,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of four information storage devices.",
+      "ur": "چار انفارمیشن سٹوریج ڈیوائسز کے نام تحریر کریں۔"
+    },
+    {
+      "id": 16996,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a floppy disk?",
+      "ur": "فلاپی ڈسک کیا ہوتی ہے؟"
+    },
+    {
+      "id": 16997,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by programming or software engineering?",
+      "ur": "پروگرامنگ یا سوفٹ ویئر انجینئرنگ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 16998,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by word processing?",
+      "ur": "ورڈ پروسیسنگ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 16999,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by graphics?",
+      "ur": "گرافکس سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17000,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by data management?",
+      "ur": "ڈیٹا مینجمنٹ سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17001,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a mouse in relation to a computer?",
+      "ur": "کمپیوٹر کے حوالے سے ماؤس کیا ہے؟"
+    },
+    {
+      "id": 17002,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two uses of computer.",
+      "ur": "کمپیوٹر کے دو استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 17003,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Computer is basically divided into how many parts? Write the names of these parts.",
+      "ur": "کمپیوٹر کو بنیادی طور پر کتنےحصوں میں تقسیم کیا گیاہے؟ ان حصوں کے نام لکھیں۔"
+    },
+    {
+      "id": 17004,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of different types of printers.",
+      "ur": "پرنٹر کی مختلف اقسام کے نام تحریر کریں۔"
+    },
+    {
+      "id": 17005,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between hardware and software?",
+      "ur": "ہارڈویئر اور سافٹ ویئر میں کیا فرق ہے؟"
+    },
+    {
+      "id": 17006,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the function of input devices?",
+      "ur": "ان پٹ آلات کا کیا کام ہوتا ہے؟"
+    },
+    {
+      "id": 17007,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What to do with the CPU?",
+      "ur": "CPUسے کیا مرا دہے؟"
+    },
+    {
+      "id": 17008,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a compact disc?",
+      "ur": "کمپیکٹ ڈسک کیا ہوتی ہے؟"
+    },
+    {
+      "id": 17009,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between a compact disk and a floppy disk?",
+      "ur": "کمپیکٹ ڈسک اور فلاپی ڈسک میں کیا فرق ہے؟"
+    },
+    {
+      "id": 17010,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain the difference between hard disk and floppy disk.",
+      "ur": "ہارڈ ڈسک اور فلاپی ڈسک میں فرق واضح کیجیے۔"
+    },
+    {
+      "id": 17011,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name any two computer programs.",
+      "ur": "کوئی سے دو کمپیوٹر پروگرامز کے نام لکھیے۔"
+    },
+    {
+      "id": 17012,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain the function of video cassette.",
+      "ur": "ویڈیو کیسٹ کا کام بیان کریں۔"
+    },
+    {
+      "id": 17013,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by digital quantities?",
+      "ur": "ڈیجیٹل مقداروں سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17014,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does a modem do?",
+      "ur": "موڈیم کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 17015,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does binary number system mean?",
+      "ur": "بائنری نمبر سسٹم سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17016,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by analog quantities?",
+      "ur": "اینالوگ مقداروں سے کیا مرا د ہے؟"
+    },
+    {
+      "id": 17017,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are analog signals?",
+      "ur": "اینالوگ سگنلز کیا ہوتے ہیں؟"
+    },
+    {
+      "id": 17018,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between analog and digital converters?",
+      "ur": "اینالوگ اور ڈیجیٹل کنورٹرز سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17019,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by information technology?",
+      "ur": "انفارمیشن ٹیکنالوجی سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17020,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by telecommunication?",
+      "ur": "ٹیلی کمیونیکیشن سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17021,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the function of a telex machine?",
+      "ur": "ٹیلکس مشین کا کیا کام ہے؟"
+    },
+    {
+      "id": 17022,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the use of a fax machine?",
+      "ur": "فیکس مشین کس کام آتی ہے؟"
+    },
+    {
+      "id": 17023,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is communication and communication system?",
+      "ur": "کمیونیکیشن اور کمیونیکیشن سسٹم کیا ہے؟"
+    },
+    {
+      "id": 17024,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name the three basic components of communication.",
+      "ur": "کمیونیکیشن کے تین بنیادی اجزا کے نام تحریر کریں۔"
+    },
+    {
+      "id": 17025,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the Internet?",
+      "ur": "انٹرنیٹ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 17026,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by protocol?",
+      "ur": "پروٹوکول سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17027,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is email?",
+      "ur": "ای میل کیا ہے؟"
+    },
+    {
+      "id": 17028,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by voicemail?",
+      "ur": "وائس میل سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17029,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by telegraphy?",
+      "ur": "ٹیلی گرافی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17030,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Why are mobile phones called cellular phones?",
+      "ur": "موبائل فون کو سیلولر فون کیوں کہتے ہیں؟"
+    },
+    {
+      "id": 17031,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "State two advantages of the Internet.",
+      "ur": "انٹرنیٹ کے دو فوائد بیان کریں۔"
+    },
+    {
+      "id": 17032,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What do you know about telegraphy? Briefly explain.",
+      "ur": "آپ ٹیلی گرافی کے بارے میں کیا جانتے ہیں؟ مختصراً بیان کریں۔"
+    },
+    {
+      "id": 17033,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How does a fax machine work?",
+      "ur": "فیکس مشین کیسے کام کرتی ہے؟"
+    },
+    {
+      "id": 17034,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define email and voicemail?",
+      "ur": "ای میل اوروائس میل کی تعریف کریں؟"
+    },
+    {
+      "id": 17668,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What word is laser an abbreviation for?",
+      "ur": "لیزر کن الفاظ کا مخفف ہے؟"
+    },
+    {
+      "id": 17669,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a laser?",
+      "ur": "لیزر کیا ہے؟"
+    },
+    {
+      "id": 17670,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What materials are commonly used to make lasers?",
+      "ur": "عام طور پر لیزر بنانے کے لیے کن اشیاء کو استعمال کیا جاتا ہے؟"
+    },
+    {
+      "id": 17671,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "In which fields is the use of lasers common?",
+      "ur": "لیزر کا استعمال کن کن شعبوں میں عام ہے؟"
+    },
+    {
+      "id": 17672,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Describe the use of lasers in ophthalmology.",
+      "ur": "آفتھل مولوجی میں لیزر کا ستعمال بیان کریں۔"
+    },
+    {
+      "id": 17674,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by laser surgery?",
+      "ur": "لیزر سرجری سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17675,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the use of lasers in the field of dermatology?",
+      "ur": "ڈرماٹولوجی کے شعبے میں لیزر سے کیا کام لیا جاتا ہے؟"
+    },
+    {
+      "id": 17676,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the role of lasers in the field of dentistry?",
+      "ur": "ڈینٹسٹری کے شعبے میں لیزر کا کیا کردار ہے؟"
+    },
+    {
+      "id": 17677,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is Holography?",
+      "ur": "ہولو گرافی کسے کہتے ہیں؟"
+    },
+    {
+      "id": 17678,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is lithotropia?",
+      "ur": "لیتھوٹروپسی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17679,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Why is a laser called a light beam?",
+      "ur": "لیزر کو روشنی کا نشتر کیوں کہتے ہیں؟"
+    },
+    {
+      "id": 17680,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name any three diseases that are treated with laser surgery.",
+      "ur": "کوئی سی تین بیماریوں کے نام لکھیں جن کا علاج لیزر سرجری سے کیا جاتا ہے۔"
+    },
+    {
+      "id": 17681,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by monochromatic light?",
+      "ur": "یک رنگی روشنی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17682,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the name of the laser used earlier.",
+      "ur": "پہلے استعمال ہونے والے لیزر کا نام لکھیں۔"
+    },
+    {
+      "id": 17683,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two points on the role of science and technology.",
+      "ur": "سائنس اور ٹیکنالوجی کے کردار پر دو نکات لکھیں۔"
+    },
+    {
+      "id": 17685,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two properties of laser.",
+      "ur": "لیزر کی دو خصوصیات لکھیں۔"
+    },
+    {
+      "id": 17686,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are the uses of lasers in military purposes?",
+      "ur": "فوجی مقاصد میں لیزر سے کیا کام لئے جاتے ہیں؟"
+    },
+    {
+      "id": 17687,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two uses of laser.",
+      "ur": "لیزر کے دو استعمالات لکھیں۔"
+    },
+    {
+      "id": 17688,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by derma-to-logy?",
+      "ur": "ڈرما ٹو لوجی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17689,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are optical fibers?",
+      "ur": "آپٹیکل فائبرز کیا ہوتے ہیں؟"
+    },
+    {
+      "id": 17690,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the principle of fiber optics?",
+      "ur": "فائبر آپٹکس کا اصول کیا ہے؟"
+    },
+    {
+      "id": 17691,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write three advantages of optical fibers.",
+      "ur": "آپٹیکل فائبرز کے تین فوائد تحریر کریں۔"
+    },
+    {
+      "id": 17693,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Are optical fibers used in telephones?",
+      "ur": "کیا ٹیلی فون میں آپٹیکل فائبرز کا استعمال کیا جاتا ہے؟"
+    },
+    {
+      "id": 17695,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by communication satellites?",
+      "ur": "کمیونیکیشن سیٹلائٹس سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17696,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is geostationary orbit?",
+      "ur": "جیوسٹیشنری مدار کسے کہتے ہیں؟"
+    },
+    {
+      "id": 17697,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write any three advantages of communication satellite.",
+      "ur": "کمیونیکیشن سیٹلائٹ کے کوئی سے تین فوائد تحریر کریں۔"
+    },
+    {
+      "id": 17698,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is radar?",
+      "ur": "راڈار کسے کہتے ہیں؟"
+    },
+    {
+      "id": 17700,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How does radar work?",
+      "ur": "راڈار کس طرح کام کرتا ہے؟"
+    },
+    {
+      "id": 17701,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "State two advantages of radar.",
+      "ur": "راڈار کے دو فوائد بیان کریں۔"
+    },
+    {
+      "id": 17702,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two types of satellites.",
+      "ur": "سیٹلائٹس کی دو اقسام لکھیں۔"
+    },
+    {
+      "id": 17703,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the main function of radar?",
+      "ur": "راڈار کا مین فنکشن کیا ہے؟"
+    },
+    {
+      "id": 17705,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the definition of radioactivity.",
+      "ur": "ریڈیو ایکٹیویٹی کی تعریف لکھیں۔"
+    },
+    {
+      "id": 17706,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two/three characteristics of alpha radiations.",
+      "ur": "الفاریڈی ایشنز کی دو/تین خصوصیات تحریر کریں۔"
+    },
+    {
+      "id": 17707,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two/three properties of beta radiations.",
+      "ur": "بیٹا ریڈی ایشنز کی دو/تین خصوصیات تحریر کریں۔"
+    },
+    {
+      "id": 17708,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two/three properties of gamma radiations.",
+      "ur": "گیما ریڈی ایشنز کی دو/تین خصوصیات تحریر کریں۔"
+    },
+    {
+      "id": 17709,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by isotopes? Give examples.",
+      "ur": "آئسوٹوپس سے کیا مراد ہے؟ مثالیں دیجئے۔"
+    },
+    {
+      "id": 17710,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are radioisotopes?",
+      "ur": "ریڈیو آئسوٹوپس کیا ہوتے ہیں؟"
+    },
+    {
+      "id": 17711,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two/three advantages of radio isotopes.",
+      "ur": "ریڈیو آئسوٹوپس کے دو /تین فوائد تحریر کریں۔"
+    },
+    {
+      "id": 17713,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write three measures to protect against radiations.",
+      "ur": "ریڈی ایشنز سے بچاؤ کے لیے تین تدابیر تحریر کریں۔"
+    },
+    {
+      "id": 17714,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the mass and charge of beta radiation?",
+      "ur": "بیٹا ریڈی ایشن کا ماس اور چارج کیا ہے؟"
+    },
+    {
+      "id": 17715,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of two radioisotopes.",
+      "ur": "دو ریڈیو آئسوٹوپس کے نام لکھیں۔"
+    },
+    {
+      "id": 17716,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by x-rays?",
+      "ur": "ایکس ریز سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17717,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write three characteristics of X-rays.",
+      "ur": "ایکس ریز کی تین خصوصیات تحریر کریں۔"
+    },
+    {
+      "id": 17718,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two/three advantages of X-rays.",
+      "ur": "ایکس ریز کے دو/تین فوائد تحریر کریں۔"
+    },
+    {
+      "id": 17719,
+      "chapter": 10,
+      "topic_id": "10.7",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is ultrasound?",
+      "ur": "الٹراساؤنڈ کسے کہتے ہیں؟"
+    },
+    {
+      "id": 17720,
+      "chapter": 10,
+      "topic_id": "10.7",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two/three advantages of ultrasound.",
+      "ur": "الٹراساؤنڈ کے دو/تین فوائد تحریر کریں۔"
+    },
+    {
+      "id": 17722,
+      "chapter": 10,
+      "topic_id": "10.8",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by ECG?",
+      "ur": "ای سی جی سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17724,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by EEG?",
+      "ur": "ای ای جی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17725,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write three advantages of EEG.",
+      "ur": "ای ای جی کے تین فوائد تحریر کریں۔"
+    },
+    {
+      "id": 17726,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by MRI?",
+      "ur": "ایم آر آئی سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17727,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two advantages or uses of MRI technique.",
+      "ur": "ایم آر آئی ٹیکنیک کے دو فوائد یا استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 17728,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What words does MRI stand for?",
+      "ur": "ایم آر آئی کن الفاظ کا مخفف ہے؟"
+    },
+    {
+      "id": 17729,
+      "chapter": 10,
+      "topic_id": "10.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a CT scan?",
+      "ur": "سی ٹی سکین کیا ہے؟"
+    },
+    {
+      "id": 17730,
+      "chapter": 10,
+      "topic_id": "10.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Who invented the CT scan?",
+      "ur": "سی ٹی سکین کس نے دریافت کی تھی؟"
+    },
+    {
+      "id": 17731,
+      "chapter": 10,
+      "topic_id": "10.11",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two/three advantages of CT scan.",
+      "ur": "سی ٹی سکین کے دو/تین فوائد تحریر کریں۔"
+    },
+    {
+      "id": 17732,
+      "chapter": 10,
+      "topic_id": "10.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the definition of angiography.",
+      "ur": "انجیو گرافی کی تعریف لکھیے۔"
+    },
+    {
+      "id": 17734,
+      "chapter": 10,
+      "topic_id": "10.12",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain angiography and MRI.",
+      "ur": "انجیو گرافی اور ایم آر آئی کی وضاحت کیجیے۔"
+    },
+    {
+      "id": 17736,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by pharmaceutical products?",
+      "ur": "فارماسیوٹیکل پروڈکٹس سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17737,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a pharmacy?",
+      "ur": "فارمیسی کسے کہتے ہیں؟"
+    },
+    {
+      "id": 17738,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How many types of fibers are there in general?",
+      "ur": "ریشے عام طور پر کتنی اقسام کےہوتے ہیں؟"
+    },
+    {
+      "id": 17739,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of some synthetic fibers.",
+      "ur": "چند مصنوعی ریشوں کے نام تحریر کریں۔"
+    },
+    {
+      "id": 17740,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by centrifugation?",
+      "ur": "سینٹری فیوگیشن سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17741,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by spinning?",
+      "ur": "سپننگ سےکیا مراد ہے؟"
+    },
+    {
+      "id": 17742,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the difference between weaving and knitting?",
+      "ur": "ویونگ اور نٹنگ میں کیا فرق ہے؟"
+    },
+    {
+      "id": 17743,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name four important industries of Pakistan.",
+      "ur": "پاکستان کی چار اہم انڈسٹریز کے نام بتائیں۔"
+    },
+    {
+      "id": 17744,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the use of sugar cane?",
+      "ur": "گنے کا پھوک کس کام آتا ہے؟"
+    },
+    {
+      "id": 17745,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "How is steel obtained from iron?",
+      "ur": "آئرن سے سٹیل کیسے حاصل ہوتا ہے؟"
+    },
+    {
+      "id": 17746,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the function of the sugar industry?",
+      "ur": "شوگر انڈسٹری کا کیا کام ہے؟"
+    },
+    {
+      "id": 17747,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the uses of foams and molasses.",
+      "ur": "پھوک اور مویلیسز کا استعمال لکھیے۔"
+    },
+    {
+      "id": 17748,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are the two sources of sugar?",
+      "ur": "شوگر کے حصول کے دو ذرائع کون سے ہیں؟"
+    },
+    {
+      "id": 17750,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by natural fiber?",
+      "ur": "قدرتی ریشہ سے کیا مرا دہے؟"
+    },
+    {
+      "id": 17751,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is synthetic fiber?",
+      "ur": "مصنوعی ریشہ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 17752,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the constituents found in sugarcane.",
+      "ur": "گنے میں پائے جانے والے اجزا لکھیں۔"
+    },
+    {
+      "id": 17753,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name the three sections of cotton industry.",
+      "ur": "کاٹن انڈسٹری کے تین سیکشنز کے نام لکھیے۔"
+    },
+    {
+      "id": 17829,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Which country was the first to send an artificial satellite into space?",
+      "ur": "سب سے پہلے کس ملک نے مصنوعی سیٹلائٹ خلا میں بھیجا؟"
+    },
+    {
+      "id": 17830,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When did America send its first space station into space?",
+      "ur": "امریکہ نے اپنا پہلا سپیس سٹیشن کب خلا میں بھیجا؟"
+    },
+    {
+      "id": 17832,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the names of the two American astronauts who were the first to land on the moon.",
+      "ur": "ان دو امریکی خلابازوں کے نام لکھیں جو سب سے پہلے چاند پر اُترے۔"
+    },
+    {
+      "id": 17833,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Name the astronauts who stepped on the surface of the moon on 20 July 1969.",
+      "ur": "20جولائی 1969کو چاند کی سطح پر قدم رکھنے والے خلابازوں کے نام بتائیں۔"
+    },
+    {
+      "id": 17834,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are the benefits of artificial satellites?",
+      "ur": "مصنوعی سیٹلائٹس سے کیا فوائد حاصل کیے جاتے ہیں؟"
+    },
+    {
+      "id": 17836,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by metrology?",
+      "ur": "میٹرولوجی سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17837,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Define climatology.",
+      "ur": "کلائیماٹولوجی کی تعریف کیجیے۔"
+    },
+    {
+      "id": 17838,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the function of an artificial satellite metostat?",
+      "ur": "مصنوعی سیٹلائٹ میٹوسٹیٹ سے کیا کام لیا جاتا ہے؟"
+    },
+    {
+      "id": 17839,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are the purposes of space probes?",
+      "ur": "سپیس پروبز کے کیا مقاصد ہیں؟"
+    },
+    {
+      "id": 17840,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When did Russia launch the Mir space station?",
+      "ur": "روس نے سپیس سٹیشن میر کب خلا میں چھوڑا؟"
+    },
+    {
+      "id": 17841,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is Hubble and how was it sent into space?",
+      "ur": "ہبل کیا ہے اور اسے کیسے خلا میں بھیجا گیا؟"
+    },
+    {
+      "id": 17842,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Who first went into space?",
+      "ur": "سپیس میں پہلی دفعہ کون گیا؟"
+    },
+    {
+      "id": 17843,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is a space suit?",
+      "ur": "سپیس سوٹ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 17844,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Why do astronauts wear space suits?",
+      "ur": "خلانورد سپیس سوٹ کیوں پہنتے ہیں؟"
+    },
+    {
+      "id": 17845,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Explain the importance of space probes.",
+      "ur": "سپیس پروبز کی اہمیت بیان کیجیے۔"
+    },
+    {
+      "id": 17848,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Sparco was established with whom and when?",
+      "ur": "سپارکو کس کے تعاون سے اور کب قائم ہوا؟"
+    },
+    {
+      "id": 17849,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Where is Sparco's headquarters located?",
+      "ur": "سپارکو کا ہیڈ کوارٹر کہاں واقع ہے؟"
+    },
+    {
+      "id": 17850,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When did Pakistan launch its first rocket in Fuja and what was its name?",
+      "ur": "پاکستان نے اپنا پہلا راکٹ کب فجا میں چھوڑا اور اس کا نام کیا تھا؟"
+    },
+    {
+      "id": 17851,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the advantage of a rocket named Squaw?",
+      "ur": "سکوا نامی راکٹ کا کیا فائدہ ہے؟"
+    },
+    {
+      "id": 17852,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When did Pakistan launch its domestically developed artificial satellite into space and what was its name?",
+      "ur": "پاکستان نے ملکی سطح پر تیارکردہ مصنوعی سیٹلائٹ کب خلا میں چھوڑا اور اس کا نام کیا تھا؟"
+    },
+    {
+      "id": 17853,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What do you know about NASA?",
+      "ur": "ناسا کے متعلق آپ کیا جانتے ہیں؟"
+    },
+    {
+      "id": 17854,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Where did Pakistan set up the first ground station to explore for mineral deposits?",
+      "ur": "پاکستان نے معدنی ذخائر کی تلاش کے لیے پہلا زمینی سٹیشن کہاں قائم کیا؟"
+    },
+    {
+      "id": 17855,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is meant by NASA?",
+      "ur": "ناسا سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17856,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is Badar Series?",
+      "ur": "بدر سیریز کیا ہے؟"
+    },
+    {
+      "id": 17858,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Where is the canopy located and what is its total production capacity?",
+      "ur": "کینپ کہاں واقع ہے اورا سکی کل پیداواری صلاحیت کیا ہے؟"
+    },
+    {
+      "id": 17859,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What is the total production capacity of Chashma Nuclear Power Plant and what is used as fuel?",
+      "ur": "چشمہ نیو کلیئر پاور پلانٹ کی کل پیداواری صلاحیت کیا ہے اور اس میں کس چیز کو بطور ایندھن استعمال کیا جاتاہے؟"
+    },
+    {
+      "id": 17860,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Pakistan Atomic Energy Commission has established institutions in which areas to achieve peaceful objectives?",
+      "ur": "پاکستان اٹامک انرجی کمیشن نے پر امن مقاصد کے حصول کے کن شعبوں میں ادارے قائم کر رکھے ہیں؟"
+    },
+    {
+      "id": 17861,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Pakistan Atomic Energy Commission has established which institutions to achieve peaceful objectives?",
+      "ur": "پاکستان اٹامک انرجی کمیشن نے پر امن مقاصد کے حصول کے لیے کون سے ادارے قائم کیے ہیں؟"
+    },
+    {
+      "id": 17862,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "State two advantages of using nuclear technology in the field of agriculture.",
+      "ur": "ایگری کلچر کے شعبے میں نیو کلیئر ٹیکنالوجی کے استعمال کے دو فوائد بیان کریں۔"
+    },
+    {
+      "id": 17863,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write two services of nuclear technology in the field of medicine.",
+      "ur": "میڈیسن کے شعبے میں نیوکلیئر ٹیکنالوجی کی دو خدمات تحریر کریں۔"
+    },
+    {
+      "id": 17864,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When and where did Pakistan make the first nuclear explosions?",
+      "ur": "پاکستان نے پہلے ایٹمی دھماکے کب اور کہاں کیے؟"
+    },
+    {
+      "id": 17865,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does PINSTECH stand for and when was this institute formed?",
+      "ur": "PINSTECHکس کا مخفف ہے اور یہ ادارہ کب بنایا گیا؟"
+    },
+    {
+      "id": 17866,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When and with whose support was the Chashma Power Plant installed?",
+      "ur": "چشمہ پاور پلانٹ کب اور کس کے تعاون سے لگایا گیا؟"
+    },
+    {
+      "id": 17867,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "When did Pakistan become a nuclear power?",
+      "ur": "پاکستان نیو کلیئر پاور کب بنا؟"
+    },
+    {
+      "id": 17868,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are the objectives of Nuclear Institute of Food and Agriculture?",
+      "ur": "نیو کلیئر انسٹی ٹیوٹ آف فوڈ اینڈ ایگری کلچر کے کیا مقاصد ہیں؟"
+    },
+    {
+      "id": 17869,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are Penstick's services?",
+      "ur": "پینسٹک کی کیاخدمات ہیں؟"
+    },
+    {
+      "id": 17870,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What does knap mean?",
+      "ur": "کنیپ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 17871,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "Write the name of the second nuclear power plant of Pakistan and its total production capacity.",
+      "ur": "پاکستان کے دوسرے نیو کلیئر پاور پلانٹ کا نام اور اس کی کل پیداواری صلاحیت لکھیے۔"
+    },
+    {
+      "id": 17872,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Past Papers",
+      "type": "short",
+      "en": "What are the duties of Pakistan Welding Institute?",
+      "ur": "پاکستان ویلڈنگ انسٹی ٹیوٹ کے کیا فرائض ہیں؟"
+    },
+    {
+      "id": 14883,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What do you know about of energy in agriculture?",
+      "ur": "زراعت میں انرجی کے استعمال کے بارے میں آپ کیا جانتے ہیں؟"
+    },
+    {
+      "id": 16792,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the structure of a simple capacitor.",
+      "ur": "ایک سادہ کپیسٹر کی ساخت بیان کریں۔"
+    },
+    {
+      "id": 17665,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What do you know about Pakistan's development in agriculture sector?",
+      "ur": "زراعت کے شعبہ میں پاکستان کی ترقی کے بارے میں آپ کیا جانتے ہیں؟"
+    },
+    {
+      "id": 17666,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Briefly describe the development of Pakistan in the field of medicine.",
+      "ur": "میڈیکل کے شعبہ میں پاکستان کی ترقی کو مختصراً بیان کریں۔"
+    }
+  ],
+  "type": "short"
+}

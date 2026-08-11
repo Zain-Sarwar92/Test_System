@@ -1,0 +1,206 @@
+{
+  "course": {
+    "CourseID": 1,
+    "name": "PTB"
+  },
+  "class": {
+    "ClassID": 11,
+    "name": "INTER-I"
+  },
+  "subject": {
+    "SubjectID": 115,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 11,
+    "SubjectName": "ترجمۃ القرآن مجید",
+    "Category": "SNC-2022",
+    "ImageUrl": null,
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2023-12-01T00:00:00",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "slug": "tarjuma-quran",
+  "exportTypes": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    },
+    {
+      "id": 17,
+      "name": "long-ayat",
+      "bankType": "long",
+      "field": "AYAT"
+    },
+    {
+      "id": 37,
+      "name": "short-meaning",
+      "bankType": "short",
+      "field": "MEANING"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 4720,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterName": "سورۃ نمبر 4: سُورۃُ اَلبَقرَۃِ",
+      "Syllabus": "SURAH-4",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-12-05T15:26:36.883",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 4721,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterName": "سورۃ نمبر 8: سُورۃُ آلِ عِمرٰان",
+      "Syllabus": "SURAH-8",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-02-21T11:00:03.363",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 4722,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterName": "سورۃ نمبر 12: سُورۃُ آلِ الانفال",
+      "Syllabus": "SURAH-12",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-02-21T11:00:24.537",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 4723,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterName": "سورۃ نمبر 16: سُورۃُ التوبہ",
+      "Syllabus": "SURAH-16",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-02-21T11:00:51.227",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 6865,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterID": 4720,
+      "TopicName": "سُورَۃُ البَقَرَۃِ",
+      "TopicRef": "4",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-21T13:52:24.733",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 6866,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterID": 4721,
+      "TopicName": "سُورَۃُ الِ عِمرٰنَ",
+      "TopicRef": "8",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-02-21T11:01:13.003",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 6867,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterID": 4722,
+      "TopicName": "سُورَۃُ الاَنَفَالِ",
+      "TopicRef": "12",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-02-21T11:01:18.267",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 6868,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 115,
+      "ChapterID": 4723,
+      "TopicName": "سُورَۃُ  التَّوبَۃِ",
+      "TopicRef": "16",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-02-21T11:01:24.747",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

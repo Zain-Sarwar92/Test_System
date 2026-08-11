@@ -1,0 +1,4981 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Mathematics",
+  "slug": "mathematics",
+  "source": "PTS PTB INTER-I (Class 11) Mathematics (read-only export)",
+  "total_questions": 1923,
+  "counts": {
+    "mcq": 586,
+    "short": 841,
+    "long": 496
+  },
+  "fieldCounts": {
+    "MCQ": 586,
+    "QA": 841,
+    "LONG": 496
+  },
+  "questions": [
+    {
+      "id": 403884,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the square root of <img src=\"/pts-media/equations/11th/mthnew-ex1.2-18.svg\" /> and represent it on an Argand diagram."
+    },
+    {
+      "id": 403889,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the real values of u and v if <img src=\"/pts-media/equations/11th/mthnew-ex1.2-21.svg\" />"
+    },
+    {
+      "id": 403893,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex1.2-22.svg\" /> find the real values of a such that Re(z1z2)=20."
+    },
+    {
+      "id": 404080,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the roots of z4+7z2-144=0 and hence express it as a product if linear factors."
+    },
+    {
+      "id": 404115,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find a polynomial P(z) of degree 3 with zeros 3, -2<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" />, 2<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" /> and satisfying P(1) =20."
+    },
+    {
+      "id": 404121,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find a polynomial P(z) of degree 4 with zeros 2<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" />, -2<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" />, 1, -1 and satisfying P(2) =240."
+    },
+    {
+      "id": 404125,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find a polynomial P(z) of degree 4 with zeros 4, -4, 1+<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" />, 1-<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" /> and satisfying P(2) = 72."
+    },
+    {
+      "id": 404153,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate: <img src=\"/pts-media/equations/11th/mthnew-ex1.4-4.svg\" />"
+    },
+    {
+      "id": 404154,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate: <img src=\"/pts-media/equations/11th/mthnew-ex1.4-5.svg\" />"
+    },
+    {
+      "id": 404155,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex1.4-6.svg\" />"
+    },
+    {
+      "id": 404156,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex1.4-7.svg\" />"
+    },
+    {
+      "id": 404157,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate <img src=\"/pts-media/equations/11th/mthnew-ex1.4-8.svg\" />, where <img src=\"/pts-media/equations/11th/mthnew-ex1.4-9.svg\" /> is an imaginary cube root of unity."
+    },
+    {
+      "id": 404158,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex1.4-9.svg\" /> is an imaginary cube root of unity, prove that <img src=\"/pts-media/equations/11th/mthnew-ex1.4-10.svg\" />"
+    },
+    {
+      "id": 404159,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex1.4-11.svg\" /> is a cube root of unity, prove that <img src=\"/pts-media/equations/11th/mthnew-ex1.4-12.svg\" />"
+    },
+    {
+      "id": 404239,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If z1 and z2 are different complex numbers with <img src=\"/pts-media/equations/11th/mthnew-ex1.5-66.svg\" />."
+    },
+    {
+      "id": 404241,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An AC source supplies a voltage of <img src=\"/pts-media/equations/11th/mthnew-ex1.5-31.svg\" /> volts to a circuit with impedance <img src=\"/pts-media/equations/11th/mthnew-ex1.5-32.svg\" /> ohms. Calculate the current in polar form."
+    },
+    {
+      "id": 404244,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An AC circuit has an impedance of z=3-6<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" /> ohms and is connected to a voltage source of V=90+30<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" /> volts. Find the current in both rectangular and polar form."
+    },
+    {
+      "id": 404252,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider the complex encryption k=3-3<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" />. Encrypt the word \"QUIZ\", and then recover the original word using the inverse of the key."
+    },
+    {
+      "id": 404256,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Encrypt the word \"Class\" by adding the complex number encryption key k=-3+4<img src=\"/pts-media/equations/11th/mthnew-ex1.4-1.svg\" />. Then decrypt it back to the original word."
+    },
+    {
+      "id": 404683,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A stone falls from a height of 60m on the ground, the height h after x seconds is approximately given by h(x)=40-10x2. what is the height of stone when: (a) x= 1 sec? (b) 1.5 sec (c) x = 1.7 sec."
+    },
+    {
+      "id": 404684,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A stone falls from a height of 60m on the ground, the height h after x seconds is approximately given by h(x)=40-10x2. when does the stone strike the ground?"
+    },
+    {
+      "id": 404713,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider the function <img src=\"/pts-media/equations/11th/mthnew-ex2.1-19.svg\" /> defined by f(x)= e-x. Show that f(x) is a bijective."
+    },
+    {
+      "id": 404715,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Let <img src=\"/pts-media/equations/11th/mthnew-ex2.1-21.svg\" /> by given by g(x)=x3-3x. Determine if g(x) is injective and/or surjective."
+    },
+    {
+      "id": 404803,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A building's height over time is modeled by H(t)=100+20t which is in metres and t is the time in months. The height of a growing tree nearby is given by T(t)=50+10t+t2. (i) At what time will the building and tree have the same height? (ii) What will be the height be?. Sketch the graph of both functions and determine the time when the tree will overtake the height of the building."
+    },
+    {
+      "id": 404815,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A radioactive substance has a half-life (h) of 2 years. If the initial quantity Qo is 200 grams and the exponential decay function is <img src=\"/pts-media/equations/11th/mthnew-ex2.2-11.svg\" />, then find the remaining quantity after 6 years graphically."
+    },
+    {
+      "id": 404973,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum value of the following quadratic function by completing squares: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-1.svg\" />"
+    },
+    {
+      "id": 404974,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum value of the following quadratic function by completing squares: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-2.svg\" />"
+    },
+    {
+      "id": 404975,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum value of the following quadratic function by completing squares: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-3.svg\" />"
+    },
+    {
+      "id": 404976,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum value of the following quadratic function by completing squares: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-4.svg\" />"
+    },
+    {
+      "id": 404978,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum value of the following quadratic function by completing squares: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-5.svg\" />"
+    },
+    {
+      "id": 404979,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum value of the following quadratic function by completing squares: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-6.svg\" />"
+    },
+    {
+      "id": 404981,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum point by sketching the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-7.svg\" />"
+    },
+    {
+      "id": 404983,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum point by sketching the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-8.svg\" />"
+    },
+    {
+      "id": 404985,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum point by sketching the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-9.svg\" />"
+    },
+    {
+      "id": 404986,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum point by sketching the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-10.svg\" />"
+    },
+    {
+      "id": 404987,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum point by sketching the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-11.svg\" />"
+    },
+    {
+      "id": 404988,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the maximum and minimum point by sketching the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-12.svg\" />"
+    },
+    {
+      "id": 404990,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-13.svg\" />"
+    },
+    {
+      "id": 404992,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-14.svg\" />"
+    },
+    {
+      "id": 404993,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-15.svg\" />"
+    },
+    {
+      "id": 404994,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-16.svg\" />"
+    },
+    {
+      "id": 404995,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-17.svg\" />"
+    },
+    {
+      "id": 404997,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following quadratic function. Also find their domain and range: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-18.svg\" />"
+    },
+    {
+      "id": 405008,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-19.svg\" />"
+    },
+    {
+      "id": 405009,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-20.svg\" />"
+    },
+    {
+      "id": 405010,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities:<img src=\"/pts-media/equations/11th/mthnew-ex3.1-21.svg\" />"
+    },
+    {
+      "id": 405011,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-22.svg\" />"
+    },
+    {
+      "id": 405012,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-23.svg\" />"
+    },
+    {
+      "id": 405013,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-24.svg\" />"
+    },
+    {
+      "id": 405014,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-25.svg\" />"
+    },
+    {
+      "id": 405015,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following absolute value quadratic equation and inequalities: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-26.svg\" />"
+    },
+    {
+      "id": 405142,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A farmer bought some sheep fro Rs. 9000. If he had paid Rs. 100 less for each, he would have got 3 sheep more for the same money. How many sheep did he buy, When the rate in each case is uniform?"
+    },
+    {
+      "id": 405150,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A man sold his stock of eggs for Rs, 2400. If he had 2 dozen more, he would have got the same money by selling the whole for Rs. 0.50 per dozen cheaper. How many dozen eggs did he sell?"
+    },
+    {
+      "id": 405156,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A cyclist travelled 48 km at a uniform speed. If he had travelled 5km/hour slower, hw would have taken 2 hours more to perform the journey. How long did he take to cover 48 km?"
+    },
+    {
+      "id": 405159,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "To do a piece of work. Adbaullah takes 10 days more than Abdul Hadi. Together they finish the work in 12 days. How long would Abdul Hadi take to finish it alone?"
+    },
+    {
+      "id": 405163,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The braking distance (in metres) of a car is modeled by: d(s)=0.02s2 + 0.1s, where s is the speed of car in km/h. If the maximum safe braking distance is 50 metres, find the range of the speed where braking is safe."
+    },
+    {
+      "id": 405169,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A rocket follows the height function h(t)=5t2+20t+30, where h(t) is the height in metres and t is the time in seconds. Find the time interval during which the rocket is at least 40 metres above the ground."
+    },
+    {
+      "id": 405554,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-10.svg\" />"
+    },
+    {
+      "id": 405555,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-11.svg\" />"
+    },
+    {
+      "id": 405556,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-12.svg\" />"
+    },
+    {
+      "id": 405557,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-13.svg\" />"
+    },
+    {
+      "id": 405558,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-14.svg\" />=(a-b)(b-c)(c-a)"
+    },
+    {
+      "id": 405560,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-15.svg\" />"
+    },
+    {
+      "id": 405561,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-16.svg\" />"
+    },
+    {
+      "id": 405562,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-17.svg\" />"
+    },
+    {
+      "id": 405563,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-18.svg\" />"
+    },
+    {
+      "id": 405564,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-19.svg\" />"
+    },
+    {
+      "id": 405565,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-20.svg\" />"
+    },
+    {
+      "id": 405566,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-21.svg\" />"
+    },
+    {
+      "id": 405568,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-22.svg\" />"
+    },
+    {
+      "id": 405569,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-23.svg\" />"
+    },
+    {
+      "id": 405570,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using properties of determinants, show that: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-24.svg\" />imaginary cube root of unity."
+    },
+    {
+      "id": 405586,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the values of <img src=\"/pts-media/equations/11th/mthnew-ex4.2-35.svg\" /> and B are singular: <img src=\"/pts-media/equations/11th/mthnew-ex4.2-36.svg\" />, <img src=\"/pts-media/equations/11th/mthnew-ex4.2-37.svg\" />"
+    },
+    {
+      "id": 405587,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of <img src=\"/pts-media/equations/11th/mthnew-ex4.2-38.svg\" /> and show that A-1A=I3"
+    },
+    {
+      "id": 405805,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following matrices by using row operations: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-1.svg\" />"
+    },
+    {
+      "id": 405806,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following matrices by using row operations: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-2.svg\" />"
+    },
+    {
+      "id": 405808,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the inverse of the following matrices by using row operations: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-40.svg\" />"
+    },
+    {
+      "id": 405812,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the rank of the following matrices: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-4.svg\" />"
+    },
+    {
+      "id": 405813,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the rank of the following matrices: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-5.svg\" />"
+    },
+    {
+      "id": 405814,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the rank of the following matrices: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-6.svg\" />"
+    },
+    {
+      "id": 405821,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following systems of linear equation by Cramer's rule: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-7.svg\" />"
+    },
+    {
+      "id": 405826,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following systems of linear equation by Cramer's rule: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-8.svg\" />"
+    },
+    {
+      "id": 405828,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following systems of linear equation by Cramer's rule: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-9.svg\" />"
+    },
+    {
+      "id": 405831,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system of linear equation by matrix inversion method: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-10.svg\" />"
+    },
+    {
+      "id": 405832,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system of linear equation by matrix inversion method: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-11.svg\" />"
+    },
+    {
+      "id": 405833,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system of linear equation by matrix inversion method: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-12.svg\" />"
+    },
+    {
+      "id": 405835,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system by reducing their augmented matrices to the echelon form and the reduced echelon forms: <img src=\"/pts-media/equations/11th/mthnew-ex6.3-1.svg\" />"
+    },
+    {
+      "id": 405836,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system by reducing their augmented matrices to the echelon form and the reduced echelon forms: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-14.svg\" />"
+    },
+    {
+      "id": 405838,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system by reducing their augmented matrices to the echelon form and the reduced echelon forms: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-15.svg\" />"
+    },
+    {
+      "id": 405840,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system by homogeneous linear equation by using Gaussian elimination method: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-16.svg\" />"
+    },
+    {
+      "id": 405841,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system by homogeneous linear equation by using Gaussian elimination method: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-17.svg\" />"
+    },
+    {
+      "id": 405842,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following system by homogeneous linear equation by using Gaussian elimination method: <img src=\"/pts-media/equations/11th/mthnew-ex4.3-18.svg\" />"
+    },
+    {
+      "id": 405845,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A triangle has vertices at A(4,1), B(-2,5) and C(0,-3). Find the vertices of the reflected triangle over the y-axis using a transformation matrix."
+    },
+    {
+      "id": 405847,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The point A is mapped to (30,20,-5) by the scaling matrix <img src=\"/pts-media/equations/11th/mthnew-ex4.3-19.svg\" />. Find the coordinates of A."
+    },
+    {
+      "id": 405852,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the equation of the image of the curve with equation y=x2 under the transformation with associated matrix <img src=\"/pts-media/equations/11th/mthnew-ex4.3-20.svg\" />."
+    },
+    {
+      "id": 405855,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Use the matrix <img src=\"/pts-media/equations/11th/mthnew-ex4.3-21.svg\" /> to encode the message: KEEP IT UP, where letters A to Z are corresponding to the numbers 1 to 26."
+    },
+    {
+      "id": 405860,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Decode the message <img src=\"/pts-media/equations/11th/mthnew-ex4.3-22.svg\" />) that was encoded using matrix <img src=\"/pts-media/equations/11th/mthnew-ex4.3-23.svg\" />, where the numbers 1 to 26 are corresponding to the letters A to Z, and 27 is representing space or \"-\"."
+    },
+    {
+      "id": 406013,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-1.svg\" />"
+    },
+    {
+      "id": 406014,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-2.svg\" />"
+    },
+    {
+      "id": 406016,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-3.svg\" />"
+    },
+    {
+      "id": 406017,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-4.svg\" />"
+    },
+    {
+      "id": 406019,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-5.svg\" />"
+    },
+    {
+      "id": 406022,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-6.svg\" />"
+    },
+    {
+      "id": 406024,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-7.svg\" />"
+    },
+    {
+      "id": 406025,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-8.svg\" />"
+    },
+    {
+      "id": 406026,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-9.svg\" />"
+    },
+    {
+      "id": 406028,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-10.svg\" />"
+    },
+    {
+      "id": 406030,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-11.svg\" />"
+    },
+    {
+      "id": 406032,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-12.svg\" />"
+    },
+    {
+      "id": 406033,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-13.svg\" />"
+    },
+    {
+      "id": 406034,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-14.svg\" />"
+    },
+    {
+      "id": 406035,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve the following into partial fraction: <img src=\"/pts-media/equations/11th/mthnew-ex5.1-15.svg\" />"
+    },
+    {
+      "id": 406046,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve into partial fractions: <img src=\"/pts-media/equations/11th/mthnew-ex5.2-1.svg\" />"
+    },
+    {
+      "id": 406047,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve into partial fractions: <img src=\"/pts-media/equations/11th/mthnew-ex5.2-2.svg\" />"
+    },
+    {
+      "id": 406048,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve into partial fractions: <img src=\"/pts-media/equations/11th/mthnew-ex5.2-3.svg\" />"
+    },
+    {
+      "id": 406049,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve into partial fractions: <img src=\"/pts-media/equations/11th/mthnew-ex5.2-4.svg\" />"
+    },
+    {
+      "id": 406051,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve into partial fractions: <img src=\"/pts-media/equations/11th/mthnew-ex5.2-5.svg\" />"
+    },
+    {
+      "id": 406052,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resolve into partial fractions: <img src=\"/pts-media/equations/11th/mthnew-ex5.2-6.svg\" />"
+    },
+    {
+      "id": 406311,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex6.2-2.svg\" /> are in A.P, the show that <img src=\"/pts-media/equations/11th/mthnew-ex6.2-3.svg\" />."
+    },
+    {
+      "id": 406321,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the pth term of an A.P. is q and qth term is p, prove that its nth term is (p+q-n)."
+    },
+    {
+      "id": 406322,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex6.2-5.svg\" /> are in A.P, show that <img src=\"/pts-media/equations/11th/mthnew-ex6.2-6.svg\" />."
+    },
+    {
+      "id": 406323,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex6.2-5.svg\" /> are A.P., show that the common difference is (equation)."
+    },
+    {
+      "id": 406324,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If ak and am, denotes two different terms of an A.P., show that its nth term is <img src=\"/pts-media/equations/11th/mthnew-ex6.2-7.svg\" />."
+    },
+    {
+      "id": 406325,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a1,a2,a3,...,an are positive and in A.P., prove that: <img src=\"/pts-media/equations/11th/mthnew-ex6.3-2.svg\" />"
+    },
+    {
+      "id": 406326,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the roots of the equation (b-c)x2+(c-a)x+(a-b)=0 are equal. show that a,b,c are in A.P."
+    },
+    {
+      "id": 406327,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the sides of right angled triangle are in A.P., Find the ratio of its sides."
+    },
+    {
+      "id": 406328,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the nth term of a progression is a linear expression in n, then prove that this progression is an A.P."
+    },
+    {
+      "id": 406630,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Insert five A.Ms. between <img src=\"/pts-media/equations/11th/mthnew-ex6.3-4.svg\" />."
+    },
+    {
+      "id": 406636,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If n arithmetic means are inserted between a and b, prove that <img src=\"/pts-media/equations/11th/mthnew-ex6.3-5.svg\" />, where d is the common difference."
+    },
+    {
+      "id": 406638,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If A is the A.M between a and b, prove that <img src=\"/pts-media/equations/11th/mthnew-ex6.3-6.svg\" />."
+    },
+    {
+      "id": 406640,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Fo what value of <img src=\"/pts-media/equations/11th/mthnew-ex6.3-7.svg\" /> is the A.M between a and b, where <img src=\"/pts-media/equations/11th/mthnew-ex6.3-8.svg\" />."
+    },
+    {
+      "id": 407490,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex6.4-2.svg\" /> are in A.P then show that a2,b2,c2are in A.P"
+    },
+    {
+      "id": 407491,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The sum of the first four terms of an A.P is 56. The sum of the last four terms is 112. If its first term is 11, then find number of terms."
+    },
+    {
+      "id": 407494,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The first, second and last terms of an A.P. are a,b and c respectively. Show that the sum of A.P is <img src=\"/pts-media/equations/11th/mthnew-ex6.4-3.svg\" />."
+    },
+    {
+      "id": 407497,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that the sum of n A.Ms. between a and b is n times the single A.M. between them."
+    },
+    {
+      "id": 407587,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex6.5-5.svg\" /> are in G.P. Show that the common ration is <img src=\"/pts-media/equations/11th/mthnew-ex6.5-6.svg\" />."
+    },
+    {
+      "id": 407603,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If pth,qth term of a G.P are q and p respectively. show that (p+q)th term is <img src=\"/pts-media/equations/11th/mthnew-ex6.5-7.svg\" />."
+    },
+    {
+      "id": 407607,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a,2a+2, 3z+3, .... are in G.P then find the fifth term."
+    },
+    {
+      "id": 407631,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Insert four real geometric means between 3 and 96."
+    },
+    {
+      "id": 407633,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If both x and y are positive distinct real numbers, show that the geometric mean between x and y is less than their arithmetic mean."
+    },
+    {
+      "id": 407634,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For what value of <img src=\"/pts-media/equations/11th/mthnew-ex6.6-2.svg\" /> is the positive geometric mean between a and b?"
+    },
+    {
+      "id": 407636,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The A.M of two positive integral numbers exceeds their (positive) G.M. by 2 and their sum is 20, find the numbers."
+    },
+    {
+      "id": 407639,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The arithmetic mean between two positive numbers a and b is double their geometric mean. Prove that <img src=\"/pts-media/equations/11th/mthnew-ex6.6-3.svg\" />."
+    },
+    {
+      "id": 407641,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If one geometric mean G and two arithmetic means p and q are inserted between two positive numbers, show that G2=(2p-q)(2q-p)."
+    },
+    {
+      "id": 407706,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that the ratio of the sum of first n terms of a G.P to find the sum of term from (n+1)th to (2n)th term is (equation), where r is the common ration of the G.P."
+    },
+    {
+      "id": 407749,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex6.8-7.svg\" />."
+    },
+    {
+      "id": 407750,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex6.8-8.svg\" />."
+    },
+    {
+      "id": 407752,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum of n terms the series 2+4x+6x2+8x3+... <img src=\"/pts-media/equations/11th/mthnew-ex6.8-9.svg\" />"
+    },
+    {
+      "id": 407754,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the sum of n terms of the series <img src=\"/pts-media/equations/11th/mthnew-ex6.8-10.svg\" />."
+    },
+    {
+      "id": 407755,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that <img src=\"/pts-media/equations/11th/mthnew-ex6.8-11.svg\" />."
+    },
+    {
+      "id": 407757,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the series to n terms 2+5x+8x2+11x3+ ... and deduce the sum to infinity if <img src=\"/pts-media/equations/11th/mthnew-ex6.8-12.svg\" />."
+    },
+    {
+      "id": 407817,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the numbers <img src=\"/pts-media/equations/11th/mthnew-ex6.9-7.svg\" /> are in harmonic sequence, find k."
+    },
+    {
+      "id": 407819,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find n so that <img src=\"/pts-media/equations/11th/mthnew-ex6.9-8.svg\" /> may be H.M between a and b."
+    },
+    {
+      "id": 407826,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex6.9-11.svg\" /> are in A.P., show that a,b,c are in H.P."
+    },
+    {
+      "id": 407828,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a,b,c,d are in H.P., show that 3(a-b)(c-d)=(b-c)(a-d)."
+    },
+    {
+      "id": 407833,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If between any two numbers there are inserted two A.Ms A1,A2, two G.Ms. G1, G2 and two H.Ms. H1,H2: show that <img src=\"/pts-media/equations/11th/mthnew-ex6.9-12.svg\" />."
+    },
+    {
+      "id": 407835,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The H.M of two numbers is 4. The A.M., A and the G.M., G satisfy the relation 2A+G2=27. Find the numbers."
+    },
+    {
+      "id": 407837,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "First three of four numbers a,b,c are in A.P., and the next three are in H.P., show that ad=bc."
+    },
+    {
+      "id": 407839,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a,b,c are in G.P., show that logax, logbx, logcx are in H.P."
+    },
+    {
+      "id": 407842,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a,b,c are in H.P., show that <img src=\"/pts-media/equations/11th/mthnew-ex6.9-13.svg\" />."
+    },
+    {
+      "id": 407844,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a,b,c are in H.P., show that (a.c)2=(a+c)(a-2b+c)."
+    },
+    {
+      "id": 407845,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If 2+x,5+x and 9+x are in H.P., find the value of x."
+    },
+    {
+      "id": 407849,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the roots of the equation a(b-c)x2+b(c-a)x+c(a-b)=0 are equal, prove that a,b,c are in H.P."
+    },
+    {
+      "id": 407946,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 1 x 3+2 x 5 +3 x 7 + ..."
+    },
+    {
+      "id": 407947,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 1 x 5+2 x 8+3 x 11 + ..."
+    },
+    {
+      "id": 407950,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 1 x 2 + 2 x 5 + 3 x 8 + ..."
+    },
+    {
+      "id": 407953,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 1 x 3 x 5 + 2 x 4 x 6 +3 x 5 x 7 + ..."
+    },
+    {
+      "id": 407955,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 1 x 2 x 4 + 2 x 3 x 7 + 3 x 4 x 10 + ..."
+    },
+    {
+      "id": 407960,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 22 + 42 + 62 + ...."
+    },
+    {
+      "id": 407967,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 32+62+92+ ..."
+    },
+    {
+      "id": 407970,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 4 x 12+7 x 22+10 x 32+ ..."
+    },
+    {
+      "id": 407972,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 3+(3+7)+(3+7+11)+..."
+    },
+    {
+      "id": 407979,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the following series upto n terms: 12+(12+22)+(12+22+32)+..."
+    },
+    {
+      "id": 407981,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the series: 12-22+32-42+...+(2n-1)2-(2n)2."
+    },
+    {
+      "id": 407982,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sum the series: <img src=\"/pts-media/equations/11th/mthnew-ex6.10-1.svg\" />"
+    },
+    {
+      "id": 407986,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the sum to n term of the series whose nth term are given: 5n2+2n+3"
+    },
+    {
+      "id": 407987,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the sum to n term of the series whose nth term are given: n2+2n-3"
+    },
+    {
+      "id": 407989,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given nth terms of the series, find the sum to 2n terms: 3n2+5n+2"
+    },
+    {
+      "id": 407990,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given nth terms of the series, find the sum to 2n terms: n2+n-2"
+    },
+    {
+      "id": 408017,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A water tank has a leakage. Each week. the tank loses 5 gallons of water due to the leakage. Initially, the tank is full and contain 2000 gallons. (i) How many gallons are in the tank 20 weeks later? (ii) How many weeks until the tank is half-full? (iii) How many weeks until the tank is empty?"
+    },
+    {
+      "id": 408031,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A drug company has manufactured 7 million doses of a vaccine to date. They promise additional production at a rate of 1.4 million doses/month over the next year. (i) How many doses of the vaccine, in total, will have been produced after a year? (ii) The general term an, describe the total number of doses of the vaccine produced. Described the meaning of the variable n in the context of the this problem. Find the general term an. (iii) Find the value of a10 and interpret its meaning in words."
+    },
+    {
+      "id": 408094,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "At a toll b booth, the number of vehicles passing through during the first minute is 100. Due to road congestion, each minute only 80% of the vehicles from the previous minute manage to pass. (i) Represent the number of vehicles passing each minute as a sequence. (ii) Find the total number of vehicles that pass through in 15 minutes. (iii) What is the maximum number of vehicles that can pass in the long run (as <img src=\"/pts-media/equations/11th/mthnew-ex6.11-1.svg\" />)."
+    },
+    {
+      "id": 408096,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A sum of Rs. 5000 is inverted at 8% simple interest per year. Calculate the interest at the end of each year. Do those interests from an A.P.? if so find the interest at the end of 20 years making use of this fact."
+    },
+    {
+      "id": 408099,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A machine is purchased for Rs. 20,000. Depreciates at 6% per annum for the first four years and after that 8% per annum for the next six years. Depreciation being calculated on diminishing value. Find the value of the machine after a period of 10 years."
+    },
+    {
+      "id": 408101,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two cars start together in the same direction from the same place. The first goes with uniform speed of 20km/h. The second goes at a speed of 12km/h in the first hours and increase the speed by 1 km/h each succeeding hour. After how many hours will the second car overtake the first car if both cars go non-stop?"
+    },
+    {
+      "id": 408104,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "150 workers were engaged to finish a piece of work in a certain number of days. Five workers dropped the second day, five more workers dropped the third day and so on. It takes 10 more days to finish the work now. Find the number of days in which the work was completed."
+    },
+    {
+      "id": 408105,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A radioactive product has a half life of 5 years. If the radioactivity level is 68 microcuries after 20 years. determine the original level of radioactivity."
+    },
+    {
+      "id": 408108,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An object moving in a line is given an initial velocity of 4.5 m/s and a constant acceleration of 2.5 m/s2. How long will it take the object to reach a velocity of 20m/s?"
+    },
+    {
+      "id": 408114,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In an integrated circuit with an initial current of 1080mA. the temperature in the components decreases from 20% to 17%. Assuming that each temperature decreases is caused by a decrease in the initial current, what is the value of the current at fourth measurement?"
+    },
+    {
+      "id": 408119,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that the maximum amount of a certain sum of money at compound interest of r% per year for n year from a G.P."
+    },
+    {
+      "id": 408177,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express as a single fraction: <img src=\"/pts-media/equations/11th/mthnew-ex7.1-7.svg\" />"
+    },
+    {
+      "id": 408179,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "There are four distinct colored balls and four boxes of same colors as those of the balls. Determine the number of possible ways the balls, one each in a box, can be placed such that a ball does not go to a box of its own colour?"
+    },
+    {
+      "id": 408204,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove from the first principle that: npr=n. n-1pr-1"
+    },
+    {
+      "id": 408205,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove from the first principle that: npr= n-1pr+r. n-1pr-1"
+    },
+    {
+      "id": 408287,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The D.C.Os of 11 districts meet to discuss the law-and-order situation in their districts. In how many ways can they be seated at a round table, when two particular D.C.Os insist on sitting together?"
+    },
+    {
+      "id": 408292,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The Governor of the Punjab calls a meeting of 14 officers. In how many ways can they be seated at a round table?"
+    },
+    {
+      "id": 408294,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Fatima invites 14 people for a dinner. There are 9 males and 5 females who are seated at two different tables. Guests of one sex sit at one round table and the guest of the other sex sit at the second table. Find the number of ways in which all guests can be seated."
+    },
+    {
+      "id": 408296,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the number of ways in which 5 men and 5 women can be seated at a round table in such a ways that no two persons of the same sex sit together."
+    },
+    {
+      "id": 408320,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: nCr+ nCr-1=n+1Cr"
+    },
+    {
+      "id": 408321,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: r. nCr= (n-r+1) nCr-1"
+    },
+    {
+      "id": 408326,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "From a standard deck of 52 playing cards, there are 26 black cards and 26 red cards. How many different ways can eight cards be selected if 3 are black and the remaining 5 are red?"
+    },
+    {
+      "id": 408339,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider a cryptographic system that generates an 8-character password. Each character in the password can be either a lowercase letter (a-f) or digit (9-5). How many password can be generated if each password must contain exactly 5 lowercase letters and 3 digits. (a) with repetition allowed (b) without repetition."
+    },
+    {
+      "id": 408344,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "On Defense day . Teacher 1 compiles a list of 10 distinct national songs, while Teacher II prepares a separate list of 10 different national songs ( with no overlap between the two lists). The principal needs to select 3 songs from Teacher I's list, and 3 songs from Teacher II's list. Determine the number of possible selection methods when: (i) the order/sequence of the selected songs is important. (ii) the order/sequence of the selected songs is not important."
+    },
+    {
+      "id": 408398,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove by mathematical induction that for all positive integral values of n: n2+n is divisible by 2"
+    },
+    {
+      "id": 408399,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove by mathematical induction that for all positive integral values of n: 5n - 2n is divisible by 3"
+    },
+    {
+      "id": 408401,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove by mathematical induction that for all positive integral values of n: 8 x 10n - 2 is divisible by 6"
+    },
+    {
+      "id": 408402,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that <img src=\"/pts-media/equations/11th/mthnew-ex8.1-8.svg\" />, whenever n is a positive integer."
+    },
+    {
+      "id": 408405,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "x-y is a factor of xn - yn for all positive integral values(equation) ."
+    },
+    {
+      "id": 408407,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "n!> 2n - 1 for integral values of n> 4."
+    },
+    {
+      "id": 408410,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "4n>3n+2n-1 for integral values of n>2."
+    },
+    {
+      "id": 408412,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "1+nx (1+x)n for n>2 and x>-1."
+    },
+    {
+      "id": 408519,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the middle term in the following expansion: <img src=\"/pts-media/equations/11th/mthnew-ex8.2-16.svg\" />"
+    },
+    {
+      "id": 408520,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the middle term in the following expansion: <img src=\"/pts-media/equations/11th/mthnew-ex8.2-17.svg\" />"
+    },
+    {
+      "id": 408521,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the middle term in the following expansion: <img src=\"/pts-media/equations/11th/mthnew-ex8.2-18.svg\" />"
+    },
+    {
+      "id": 408522,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex8.2-19.svg\" />"
+    },
+    {
+      "id": 408592,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If x is so small that is its square and higher powers can be neglected, then show that: <img src=\"/pts-media/equations/11th/mthnew-ex8.3-5.svg\" />"
+    },
+    {
+      "id": 408593,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If x is so small that is its square and higher powers can be neglected, then show that: <img src=\"/pts-media/equations/11th/mthnew-ex8.3-6.svg\" />"
+    },
+    {
+      "id": 408594,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If x is so small that is its square and higher powers can be neglected, then show that: <img src=\"/pts-media/equations/11th/mthnew-ex8.3-7.svg\" />"
+    },
+    {
+      "id": 408595,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If x is so small that is its square and higher powers can be neglected, then show that: <img src=\"/pts-media/equations/11th/mthnew-ex8.3-8.svg\" />"
+    },
+    {
+      "id": 408596,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If x is so small that is its cube and higher powers can be neglected, then show that: <img src=\"/pts-media/equations/11th/mthnew-ex8.3-9.svg\" />"
+    },
+    {
+      "id": 408598,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If x is so small that is its cube and higher powers can be neglected, then show that: <img src=\"/pts-media/equations/11th/mthnew-ex8.3-10.svg\" />"
+    },
+    {
+      "id": 408600,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If x is very nearly equal 1, then prove that <img src=\"/pts-media/equations/11th/mthnew-ex8.3-11.svg\" />."
+    },
+    {
+      "id": 408601,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify the following series as binomial expansion and find the sum. <img src=\"/pts-media/equations/11th/mthnew-ex8.3-12.svg\" />"
+    },
+    {
+      "id": 408602,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Use binomial theorem to show that <img src=\"/pts-media/equations/11th/mthnew-ex8.3-13.svg\" />."
+    },
+    {
+      "id": 408605,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex8.3-14.svg\" /> prove that y2+2y-2=0"
+    },
+    {
+      "id": 408606,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex8.3-15.svg\" /> prove that 4y2+4y-1=0"
+    },
+    {
+      "id": 408607,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that the coefficient of x in <img src=\"/pts-media/equations/11th/mthnew-ex8.3-16.svg\" />."
+    },
+    {
+      "id": 408690,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using the binomial theorem, show that: 57+75 is divisible by 36."
+    },
+    {
+      "id": 408705,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using the binomial theorem, show that: (17)15+(13)7 is divisible by 6"
+    },
+    {
+      "id": 408709,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using the binomial theorem, show that: (21)9+(19)11 is divisible by 20."
+    },
+    {
+      "id": 408710,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using the binomial theorem, show that: (31)4+(29)6 is divisible by 30"
+    },
+    {
+      "id": 408712,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using the binomial theorem, show that: (101)5+(99)7 is divisible by 100."
+    },
+    {
+      "id": 408761,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that a2+(a+2)2+(a+4)2+1 is divisible by 12, whenever \"a\" is an odd integer."
+    },
+    {
+      "id": 408765,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A company expects its annual revenue to grow at a fixed rate of 6% per year. The revenue in year 1 is Rs=Rs. 10,000,000. Estimate the company's revenue after 4 years using the binomial theorem for small growth rates."
+    },
+    {
+      "id": 408767,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bank offer a compound interest rate of 10% per year.Zafar invests Rs. 2,000,000 for 4 years. How much will his investment be worth at the end of 4 years?"
+    },
+    {
+      "id": 408774,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Zaid is organizing a sports competition with 8 teams. Every team plays against every other team exactly once. How many matches will be played in total? Use Pascal's triangle to solve this."
+    },
+    {
+      "id": 409112,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A retailer company has developed a polynomial regression model to predict weekly product demand: D(w)=w3-2w2+5w-4, where D(w) represent predicted demand (in units) and w is the week number. Use the demand is 22 units, calculated the prediction error."
+    },
+    {
+      "id": 409114,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A signal process system has a transfer function <img src=\"/pts-media/equations/11th/mthnew-ex9.2-1.svg\" />. Find the zero(s) of the transfer function by using factor theorem."
+    },
+    {
+      "id": 409116,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A signal process system has a transfer function <img src=\"/pts-media/equations/11th/mthnew-ex9.2-2.svg\" />. Find the zero(s) of the transfer function by using factor theorem."
+    },
+    {
+      "id": 409117,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A signal processing system has a transfer function with a denominator A(z)= z2-0.3z-0.4. Use factor theorem to find the poles of the system and determine if the system is stable."
+    },
+    {
+      "id": 409119,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The denominator of signal processing system's transfer function equal to A(z)=z2+1.2z+0.35. Use factor theorem to determine the location of the corresponding poles and assess the stability of the system."
+    },
+    {
+      "id": 409148,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.1-3.svg\" />."
+    },
+    {
+      "id": 409149,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that:<img src=\"/pts-media/equations/11th/mthnew-ex10.1-4.svg\" />."
+    },
+    {
+      "id": 409150,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.1-5.svg\" />."
+    },
+    {
+      "id": 409151,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.1-6.svg\" />."
+    },
+    {
+      "id": 409184,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-3.svg\" />"
+    },
+    {
+      "id": 409185,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-4.svg\" />"
+    },
+    {
+      "id": 409186,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-5.svg\" />"
+    },
+    {
+      "id": 409187,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-6.svg\" />"
+    },
+    {
+      "id": 409188,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-7.svg\" />"
+    },
+    {
+      "id": 409189,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-8.svg\" />."
+    },
+    {
+      "id": 409190,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-9.svg\" />"
+    },
+    {
+      "id": 409192,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-10.svg\" />"
+    },
+    {
+      "id": 409193,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-11.svg\" />"
+    },
+    {
+      "id": 409194,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-12.svg\" />"
+    },
+    {
+      "id": 409195,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-13.svg\" />"
+    },
+    {
+      "id": 409196,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-14.svg\" />"
+    },
+    {
+      "id": 409197,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-15.svg\" />"
+    },
+    {
+      "id": 409198,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-16.svg\" />"
+    },
+    {
+      "id": 409199,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-17.svg\" />"
+    },
+    {
+      "id": 409200,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-18.svg\" /> . show that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-19.svg\" />."
+    },
+    {
+      "id": 409202,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-20.svg\" />. Find sin<img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> in which quadrants do the terminal sides of the the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> and <img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> lie?"
+    },
+    {
+      "id": 409203,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-20.svg\" />. Find cos<img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> in which quadrants do the terminal sides of the the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> and <img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> lie?"
+    },
+    {
+      "id": 409204,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-20.svg\" />. Find tan <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> in which quadrants do the terminal sides of the the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> and <img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> lie?"
+    },
+    {
+      "id": 409205,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-20.svg\" />. Find sin<img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> in which quadrants do the terminal sides of the the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> and <img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> lie?"
+    },
+    {
+      "id": 409206,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-20.svg\" />. Find cos<img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> in which quadrants do the terminal sides of the the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> and <img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> lie?"
+    },
+    {
+      "id": 409207,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-20.svg\" />. Find tan <img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> in which quadrants do the terminal sides of the the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> and <img src=\"/pts-media/equations/11th/mthnew-ex10.2-22.svg\" /> lie?"
+    },
+    {
+      "id": 409210,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find sin<img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" />and cos<img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" />, given that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-23.svg\" /> and neither the terminal side of the angle of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-24.svg\" /> nor that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-25.svg\" /> is in the quadrant I."
+    },
+    {
+      "id": 409211,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find sin <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> and cos <img src=\"/pts-media/equations/11th/mthnew-ex10.2-21.svg\" /> , given that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-26.svg\" /> and neither the terminal side of the angle of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-24.svg\" /> nor that of <img src=\"/pts-media/equations/11th/mthnew-ex10.2-25.svg\" /> is in the quadrant IV."
+    },
+    {
+      "id": 409213,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-27.svg\" />."
+    },
+    {
+      "id": 409214,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that : <img src=\"/pts-media/equations/11th/mthnew-ex10.2-28.svg\" />."
+    },
+    {
+      "id": 409215,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-30.svg\" /> are the angles of a triangle ABC, show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-31.svg\" />."
+    },
+    {
+      "id": 409217,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-32.svg\" />, show that <img src=\"/pts-media/equations/11th/mthnew-ex10.2-33.svg\" />."
+    },
+    {
+      "id": 409219,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following in the form <img src=\"/pts-media/equations/11th/mthnew-ex10.2-34.svg\" />, where terminal sides of the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-35.svg\" /> are in the first quadrant: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-36.svg\" />."
+    },
+    {
+      "id": 409220,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following in the form <img src=\"/pts-media/equations/11th/mthnew-ex10.2-34.svg\" />, where terminal sides of the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-35.svg\" /> are in the first quadrant: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-37.svg\" />"
+    },
+    {
+      "id": 409221,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following in the form <img src=\"/pts-media/equations/11th/mthnew-ex10.2-34.svg\" />, where terminal sides of the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-35.svg\" /> are in the first quadrant: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-38.svg\" />."
+    },
+    {
+      "id": 409222,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following in the form <img src=\"/pts-media/equations/11th/mthnew-ex10.2-34.svg\" />, where terminal sides of the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-35.svg\" /> are in the first quadrant: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-39.svg\" />."
+    },
+    {
+      "id": 409223,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following in the form <img src=\"/pts-media/equations/11th/mthnew-ex10.2-34.svg\" />, where terminal sides of the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-35.svg\" /> are in the first quadrant: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-40.svg\" />."
+    },
+    {
+      "id": 409224,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following in the form <img src=\"/pts-media/equations/11th/mthnew-ex10.2-34.svg\" />, where terminal sides of the angles of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-35.svg\" /> are in the first quadrant: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-41.svg\" />."
+    },
+    {
+      "id": 409316,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-3.svg\" />."
+    },
+    {
+      "id": 409317,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-4.svg\" />"
+    },
+    {
+      "id": 409318,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-5.svg\" />"
+    },
+    {
+      "id": 409319,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-6.svg\" />"
+    },
+    {
+      "id": 409320,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-7.svg\" />"
+    },
+    {
+      "id": 409321,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-8.svg\" />"
+    },
+    {
+      "id": 409322,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-9.svg\" />"
+    },
+    {
+      "id": 409323,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-10.svg\" />"
+    },
+    {
+      "id": 409324,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-11.svg\" />"
+    },
+    {
+      "id": 409325,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-12.svg\" />"
+    },
+    {
+      "id": 409326,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-13.svg\" />"
+    },
+    {
+      "id": 409327,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-14.svg\" />"
+    },
+    {
+      "id": 409328,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-15.svg\" />"
+    },
+    {
+      "id": 409329,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-16.svg\" />"
+    },
+    {
+      "id": 409330,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-17.svg\" />"
+    },
+    {
+      "id": 409331,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: <img src=\"/pts-media/equations/11th/mthnew-ex10.3-18.svg\" />."
+    },
+    {
+      "id": 409333,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Reduce sin4 <img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" />to an expression involving only function of multiples of <img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" />, raised to the first power."
+    },
+    {
+      "id": 409334,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the values of sin<img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> and cos <img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> without using table or calculator, when <img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> is: 18o."
+    },
+    {
+      "id": 409335,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the values of sin<img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> and cos<img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> without using table or calculator, when <img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> is: 36o"
+    },
+    {
+      "id": 409336,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the values of sin<img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> and cos<img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> without using table or calculator, when <img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> is: 54o"
+    },
+    {
+      "id": 409337,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the values of sin<img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> and cos<img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> without using table or calculator, when <img src=\"/pts-media/equations/11th/mthnew-ex10.3-19.svg\" /> is: 72o"
+    },
+    {
+      "id": 409377,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following identity: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-1.svg\" />"
+    },
+    {
+      "id": 409378,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following identity: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-2.svg\" />"
+    },
+    {
+      "id": 409379,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following identity: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-3.svg\" />"
+    },
+    {
+      "id": 409380,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove the following identity: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-4.svg\" />"
+    },
+    {
+      "id": 409381,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: cos 15o+cos 105o+cos 195o + cos160o + cos 285o = 0"
+    },
+    {
+      "id": 409383,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-5.svg\" />"
+    },
+    {
+      "id": 409384,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-6.svg\" />"
+    },
+    {
+      "id": 409385,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-7.svg\" />"
+    },
+    {
+      "id": 409386,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-8.svg\" />"
+    },
+    {
+      "id": 409387,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-9.svg\" />"
+    },
+    {
+      "id": 409388,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex11.1-2.svg\" />"
+    },
+    {
+      "id": 409389,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-11.svg\" />"
+    },
+    {
+      "id": 409390,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that:<img src=\"/pts-media/equations/11th/mthnew-ex10.4-12.svg\" />: deduce the value of sin 15o."
+    },
+    {
+      "id": 409391,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that <img src=\"/pts-media/equations/11th/mthnew-ex10.4-13.svg\" />."
+    },
+    {
+      "id": 409392,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-14.svg\" />"
+    },
+    {
+      "id": 409393,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-15.svg\" />"
+    },
+    {
+      "id": 409394,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.4-16.svg\" />"
+    },
+    {
+      "id": 409508,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-20.svg\" />"
+    },
+    {
+      "id": 409509,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-21.svg\" />"
+    },
+    {
+      "id": 409510,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-22.svg\" />"
+    },
+    {
+      "id": 409511,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-23.svg\" />"
+    },
+    {
+      "id": 409512,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-24.svg\" />"
+    },
+    {
+      "id": 409514,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-25.svg\" />"
+    },
+    {
+      "id": 409515,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-26.svg\" />"
+    },
+    {
+      "id": 409516,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-27.svg\" />"
+    },
+    {
+      "id": 409517,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-28.svg\" />"
+    },
+    {
+      "id": 409519,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-29.svg\" />"
+    },
+    {
+      "id": 409520,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following limit: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-30.svg\" />"
+    },
+    {
+      "id": 409521,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-31.svg\" />"
+    },
+    {
+      "id": 409522,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-32.svg\" />"
+    },
+    {
+      "id": 409523,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-33.svg\" />"
+    },
+    {
+      "id": 409524,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-34.svg\" />"
+    },
+    {
+      "id": 409525,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-35.svg\" />"
+    },
+    {
+      "id": 409526,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-36.svg\" />"
+    },
+    {
+      "id": 409529,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-37.svg\" />"
+    },
+    {
+      "id": 409534,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-38.svg\" />"
+    },
+    {
+      "id": 409535,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-39.svg\" />"
+    },
+    {
+      "id": 409536,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-40.svg\" />"
+    },
+    {
+      "id": 409537,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-41.svg\" />"
+    },
+    {
+      "id": 409539,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Express the following limit in term of e: <img src=\"/pts-media/equations/11th/mthnew-ex12.1-42.svg\" />"
+    },
+    {
+      "id": 409616,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex12.2-7.svg\" /> discuss continuity at x=2 and x=-2."
+    },
+    {
+      "id": 409617,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex12.2-8.svg\" /> find \"c\" so that <img src=\"/pts-media/equations/11th/mthnew-ex12.2-9.svg\" /> f(x) exists."
+    },
+    {
+      "id": 409618,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the values of m and n, so that given function f is continuous at x=3. <img src=\"/pts-media/equations/11th/mthnew-ex12.2-10.svg\" />"
+    },
+    {
+      "id": 409619,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the values of m and n, so that given function f is continuous at x=3. <img src=\"/pts-media/equations/11th/mthnew-ex12.2-11.svg\" />"
+    },
+    {
+      "id": 409620,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "f(x)=<img src=\"/pts-media/equations/11th/mthnew-ex12.2-12.svg\" /> find value of k so that f is continuous x=2."
+    },
+    {
+      "id": 409621,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given the function <img src=\"/pts-media/equations/11th/mthnew-ex12.2-13.svg\" /> Discuss the limit and continuity at x=1."
+    },
+    {
+      "id": 409701,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The factory's cost function is given as: <img src=\"/pts-media/equations/11th/mthnew-ex12.3-9.svg\" /> is the cost function continuous at x=100?"
+    },
+    {
+      "id": 409703,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Inflation is modeled by I(t)=Ioe0.03t, where Io is the initial price index and t is the number of years: Find the inflation rate after 5 years if Io=100."
+    },
+    {
+      "id": 409704,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Inflation is modeled by I(t)=Ioe0.03t, where Io is the initial price index and t is the number of years: What is the expected price index after 10 years?"
+    },
+    {
+      "id": 409706,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The cost of produce x units is: <img src=\"/pts-media/equations/11th/mthnew-ex12.3-10.svg\" /> Is the cost function continuous at x=10?"
+    },
+    {
+      "id": 409776,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': x4+2x3+x2"
+    },
+    {
+      "id": 409777,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-1.svg\" />"
+    },
+    {
+      "id": 409778,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-2.svg\" />"
+    },
+    {
+      "id": 409779,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-3.svg\" />"
+    },
+    {
+      "id": 409780,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-4.svg\" />"
+    },
+    {
+      "id": 409781,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': (x-5)(3-x)"
+    },
+    {
+      "id": 409782,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-5.svg\" />"
+    },
+    {
+      "id": 409783,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-6.svg\" />"
+    },
+    {
+      "id": 409784,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-7.svg\" />"
+    },
+    {
+      "id": 409785,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-8.svg\" />"
+    },
+    {
+      "id": 409786,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate w.r.t 'x': <img src=\"/pts-media/equations/11th/mthnew-ex13.2-9.svg\" />"
+    },
+    {
+      "id": 409787,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find <img src=\"/pts-media/equations/11th/mthnew-ex13.2-10.svg\" />."
+    },
+    {
+      "id": 409788,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate <img src=\"/pts-media/equations/11th/mthnew-ex13.2-11.svg\" /> with respect to x."
+    },
+    {
+      "id": 409789,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex13.2-12.svg\" />."
+    },
+    {
+      "id": 409790,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex13.2-13.svg\" />."
+    },
+    {
+      "id": 409823,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An investment grows according to the function A(t)=1000(1+0.5t)3, where A(t) is the value of the investment and t is the time in years. Find the rate of change of the investment after 8 years."
+    },
+    {
+      "id": 409824,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An investment grows according to the function A(t)=1000(1+0.5t)3, where A(t) is the value of the investment and t is the time in years. What is the investment value after 8 years?"
+    },
+    {
+      "id": 409825,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The position of a particle moving along a line is given by s(t)=5t3-12t2+8t, where s(t) is the position in meters and t is the time in seconds. Determine the velocity of the particle at t=4seconds."
+    },
+    {
+      "id": 409826,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The position of a particle moving along a line is given by s(t)=5t3-12t2+8t, where s(t) is the position in meters and t is the time in seconds. Find the acceleration at t=4 seconds."
+    },
+    {
+      "id": 409827,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The position of a particle moving along a line is given by s(t)=5t3-12t2+8t, where s(t) is the position in meters and t is the time in seconds. When is the particle at rest?"
+    },
+    {
+      "id": 409828,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The position of a car traveling along a straight highway is given by x(t)=30t2-4t3, where x(t) is the distance traveled in kilometers and t is the time in hours. Find the car's velocity at t=3 hours."
+    },
+    {
+      "id": 409829,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The position of a car traveling along a straight highway is given by x(t)=30t2-4t3, where x(t) is the distance traveled in kilometres and t is the time in hours. Determine the car's acceleration at t=3 hours."
+    },
+    {
+      "id": 409830,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The stress an a beam under a varying load is given by S(x)=400x-x2, where S(x) is the stress in pascals (pa) and x is the distance from the fixed end in metres. Calculate the rate of change of stress at 6 meters."
+    },
+    {
+      "id": 409831,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The cost C(r) to construct a cylindrical tank depend on the radius of the base, and is given by <img src=\"/pts-media/equations/11th/mthnew-ex13.3-1.svg\" />, where the first term represent the cost of the base and the second term represent the cost of the walls. Determine the rate of change the cost at r= 4 metres."
+    },
+    {
+      "id": 409886,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "We say that two vectors v and w in space are parallel if there is a scalar c such that v=cw. The vectors point in the same direction of c>0 and the vectors point in the opposite direction if cv=2i-4j+4k."
+    },
+    {
+      "id": 409888,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "We say that two vectors v and w in space are parallel if there is a scalar c such that v=cw. The vectors point in the same direction of c>0 and the vectors point in the opposite direction if cv=i-3j+4k and w=ai+9j-12k are parallel."
+    },
+    {
+      "id": 409890,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "We say that two vectors v and w in space are parallel if there is a scalar c such that v=cw. The vectors point in the same direction of c>0 and the vectors point in the opposite direction if cv=i-2j+3k."
+    },
+    {
+      "id": 409892,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "We say that two vectors v and w in space are parallel if there is a scalar c such that v=cw. The vectors point in the same direction of c>0 and the vectors point in the opposite direction if ci-j+4k and ai+bj-2k are parallel."
+    },
+    {
+      "id": 409900,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the direction cosines for the given vector: u=6i+3j+2k"
+    },
+    {
+      "id": 409901,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the direction cosines for the given vector: v=4i+2j-5k"
+    },
+    {
+      "id": 409903,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the direction cosines for the given vector: <img src=\"/pts-media/equations/11th/mthnew-ex14.1-4.svg\" /> where P(9,3,13) and Q(11,6,19)."
+    },
+    {
+      "id": 409954,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that the <img src=\"/pts-media/equations/11th/mthnew-ex14.2-5.svg\" />."
+    },
+    {
+      "id": 409956,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that in any triangle ABC. b=c cos A + a cos C"
+    },
+    {
+      "id": 409958,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that in any triangle ABC: c=a cos B + b cos A"
+    },
+    {
+      "id": 409960,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that in any triangle ABC: b2=a2+b2 - 2ab cos C"
+    },
+    {
+      "id": 409963,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that for any vector a and b <img src=\"/pts-media/equations/11th/mthnew-ex14.2-6.svg\" />"
+    },
+    {
+      "id": 409967,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the work done, if the point at which the constant force F=2i+5j+3k is applied to an object, moves it from P1(2,-3) to P2(7,5,3)."
+    },
+    {
+      "id": 409971,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A particle, acted by constant forces F1=3i+4j-3k and F2=i+4j-k, is displaced from A(2,1,3) to B(5,4,4). Find the work done."
+    },
+    {
+      "id": 409973,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A particle is displaced from the point A(5,-5,-7) to the point B(6,2,-2) under the action of constant forces defined by 10i-j+11k, 4i+5j+9k and -2i+j-9k. Show that the total work done by the force is 102 units."
+    },
+    {
+      "id": 409974,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A force of magnitude 6 units acting parallel to 4i+3j-k displace the point of application from A(2,-1,3) to B(7,3,2). Find the work done."
+    },
+    {
+      "id": 410004,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: a x(b+c)+bx(c+a)+c x(a+b)=0"
+    },
+    {
+      "id": 410005,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a+b+c=0, then prove that axb=bxc=cxa"
+    },
+    {
+      "id": 410006,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex14.3-2.svg\" />."
+    },
+    {
+      "id": 410007,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that: IaxbI2=IaI2IbI2-(a.b)2."
+    },
+    {
+      "id": 410008,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Use the definition of cross product, prove that for any vectors u and v. (u+v)x(u-v)=-2(uxv)"
+    },
+    {
+      "id": 410009,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the moment about the point M(1,-3,3) of the force represented by <img src=\"/pts-media/equations/11th/mthnew-ex14.3-3.svg\" />. where the coordinates of points A(4,3,-1) and B(-1,3,7) are given."
+    },
+    {
+      "id": 410010,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A force <img src=\"/pts-media/equations/11th/mthnew-ex14.3-4.svg\" /> is applied at the point A(1,-1,2). Find the moment of the force about the point B(3,-2,3)."
+    },
+    {
+      "id": 410011,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give a force F=2i+j-3k acting at a point A(1,-2,1). Find the moment of <img src=\"/pts-media/equations/11th/mthnew-ex14.3-5.svg\" /> about the point B(2,0,2)."
+    },
+    {
+      "id": 410012,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A force F=-2i+k-3k is applied at P(-1,-3,2). Find its moment abut the point Q(4,2,2)."
+    },
+    {
+      "id": 410023,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the volume of parallelepiped which the given vectors are three edges: u-3i+2k; v=i+2j+k ; w=j+4k"
+    },
+    {
+      "id": 410024,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the volume of parallelepiped which the given vectors are three edges: u=i-4j-k ; v=i-j-2k ; w=2i-3j+k"
+    },
+    {
+      "id": 410025,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the volume of parallelepiped which the given vectors are three edges: u=i-2j+3k; v=2i-j-k; w=j+k"
+    },
+    {
+      "id": 410026,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Verify that a.bxc=b.cxa=c.axb if a=3i-j+5k; b=4i+3j-2k and c=2i+5j+k"
+    },
+    {
+      "id": 410031,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the value of: 2i x 2j.k"
+    },
+    {
+      "id": 410032,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the value of: 3j.k x i"
+    },
+    {
+      "id": 410033,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the value of: [k i j]"
+    },
+    {
+      "id": 410034,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the value of: [i i k]"
+    },
+    {
+      "id": 410035,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that u.(vxw)+v.(wxu)+w.(uxv)=3u.(vxw)"
+    },
+    {
+      "id": 410036,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find volume of the tetrahedron with the vertices: (0,1,2), (3,2,1), (1,2,1) and (5,5,6)"
+    },
+    {
+      "id": 410037,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find volume of the tetrahedron with the vertices: (2,1,8), (3,2,9), (2,1,4) and (3,3,10)"
+    },
+    {
+      "id": 410038,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that point whose position vectors are A(3i+2j-k), B(i-2j+k), C(6i+4j-2k), D(9i+6j-3k) are coplanar."
+    },
+    {
+      "id": 410039,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Prove that for any three non-zero vector u.v and w. (u+v).[(v+w)x(w+u)]=2[u v w]"
+    },
+    {
+      "id": 410040,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider a parellelepiped determined by the vector u=2i+4j-3k, v=5i-3j+6k and w=4i-7j-2k , if the base of the parallelepiped is define by the vectors u and v then find the height of the parallelepiped."
+    },
+    {
+      "id": 410041,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A machine applies a force of 50 pounds along the positive x-axis on a wrench connected to a bolt. The pivot point of the wrench is at the origin (0,0,0) and the force is applied at the point (0 ft, 2 ft, 3 ft). Determine the torque produced by this force about the pivot point."
+    },
+    {
+      "id": 410042,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A drone flies from point (1,2,5) to point (4,6,9) with each unit representing a meter. What is the magnitude of the displacement the drone experienced during this flight?"
+    },
+    {
+      "id": 410043,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The vector u=50i+75j+65k shows how many belts, pants and shirts were sold at a store. The vector w=1500i+3500j+3000k shows the price (in rupees) of each item. Find u.w and explain what the result tells us in real life."
+    },
+    {
+      "id": 410044,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A force F=(20,-10,30)N is applied at a point P(2,-1,4) in 3D space. The pivot point is at M(1,2,-3). Calculate the torque produced by this force about the pivot point M."
+    },
+    {
+      "id": 410045,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An electric shop sells three types of appliances. Fans, Heaters and Ovens. The monthly sales quantities are 500 units of Fans, 300 unit of Heaters and 200 units of Ovens. The profit per unit for each appliance is Rs 500 for Fans, Rs. 400 for Heater and Rs 2,000 for ovens. Represent the monthly sales quantities and the profit per unit as vectors."
+    },
+    {
+      "id": 410046,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An electric shop sells three types of appliances. Fans, Heaters and Ovens. The monthly sales quantities are 500 units of Fans, 300 unit of Heaters and 200 units of Ovens. The profit per unit for each appliance is Rs 500 for Fans, Rs. 400 for Heater and Rs 2,000 for ovens.Calculate the total monthly profit using vector operations."
+    },
+    {
+      "id": 404144,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Factorize the polynomial P(z) = z3-3z3+z+5"
+    },
+    {
+      "id": 404825,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Solve the linear function y=-x+3 and quadratic function y=x2-6x+3 graphically."
+    },
+    {
+      "id": 404826,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Graph the square root function <img src=\"/pts-media/equations/11th/mthnew-ex2.2-12.svg\" />"
+    },
+    {
+      "id": 404827,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Graph the cube root function <img src=\"/pts-media/equations/11th/mthnew-ex2.2-13.svg\" />"
+    },
+    {
+      "id": 404831,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "The value of a stock follows the exponential growth model P(t)=P 0ert. Where Po is the initial stock price, r is the growth rate per year and t is the time in years. Suppose a stock is currently valued at Rs,. 5,000 and it is expected to grow at a rate of 5% per year. (i) Find the value of the stock after 10 years. (ii) After many years will the stock double in value?"
+    },
+    {
+      "id": 405062,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Solve: <img src=\"/pts-media/equations/11th/mthnew-ex3.1-29.svg\" />"
+    },
+    {
+      "id": 405592,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Without expansion, show that <img src=\"/pts-media/equations/11th/mthnew-ex4.2-43.svg\" />."
+    },
+    {
+      "id": 405593,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find A-1 if <img src=\"/pts-media/equations/11th/mthnew-ex4.2-44.svg\" />."
+    },
+    {
+      "id": 405876,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Solve the following and explain a consistent and inconsistent system. 2x+5y-z=5, 3x+4y+2z=11, x+2y-2z=-3"
+    },
+    {
+      "id": 405879,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Solve the following and explain a consistent and inconsistent system. x+y+2z=1, 2x-y+7z=1, 3x+5y+4z=-3"
+    },
+    {
+      "id": 405883,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Solve the following and explain a consistent and inconsistent system. x-y+2z=1, 2x-6y+5z=1, 3x+5y+4z=-3"
+    },
+    {
+      "id": 405890,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Use matrix inversion method to solve the system: x1-2x2+x3=-4, 2x1-3x2+2x3=-6, 2x1+2x2+x3=5"
+    },
+    {
+      "id": 405893,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Use Cramer's rule to solve the system <img src=\"/pts-media/equations/11th/mthnew-ex4.3-27.svg\" />."
+    },
+    {
+      "id": 405897,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Solve the following system of equation by Guassian Elimination method: x+2y+z=0, 2x+3y+4z=0, 4x+3y+2z=0"
+    },
+    {
+      "id": 405901,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Solve the following system of equations using Gaussian Elimination method: x1+x2+x3=0, x1-x2+3x3=0, x1+3x2-x3=0"
+    },
+    {
+      "id": 405910,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Use matrix <img src=\"/pts-media/equations/11th/mthnew-ex4.3-28.svg\" /> to encode the message : ATTACK, where letters A to Z are corresponding to the numbers 1 to 26."
+    },
+    {
+      "id": 406039,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Resolve <img src=\"/pts-media/equations/11th/mthnew-ex5.1-17.svg\" />into partial fractions."
+    },
+    {
+      "id": 406041,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Resolve <img src=\"/pts-media/equations/11th/mthnew-ex5.1-18.svg\" /> into partial fractions."
+    },
+    {
+      "id": 406044,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Resolve <img src=\"/pts-media/equations/11th/mthnew-ex5.1-20.svg\" /> into partial fraction."
+    },
+    {
+      "id": 406054,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Resolve <img src=\"/pts-media/equations/11th/mthnew-ex5.2-7.svg\" /> into partial fractions."
+    },
+    {
+      "id": 406055,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Resolve <img src=\"/pts-media/equations/11th/mthnew-ex5.2-8.svg\" /> into partial fraction."
+    },
+    {
+      "id": 406057,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Resolve<img src=\"/pts-media/equations/11th/mthnew-ex5.2-9.svg\" /> into partial fraction."
+    },
+    {
+      "id": 407759,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Sum the series upto n terms: 2.1+3.2+4.4+5.8+..."
+    },
+    {
+      "id": 407761,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Sum the series upto n terms: <img src=\"/pts-media/equations/11th/mthnew-ex6.8-13.svg\" />."
+    },
+    {
+      "id": 407762,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the sum of n terms of the series: 1+2x+3x2+4x3+... where <img src=\"/pts-media/equations/11th/mthnew-ex6.8-14.svg\" />, sum the series to infinity."
+    },
+    {
+      "id": 407861,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If the 4th and 7th term of the H.P are <img src=\"/pts-media/equations/11th/mthnew-ex6.9-15.svg\" /> respectively, find the sequence."
+    },
+    {
+      "id": 407993,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the sum of the series 13+33+53+... to n terms."
+    },
+    {
+      "id": 407994,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the sum of n terms of series whose nth terms is <img src=\"/pts-media/equations/11th/mthnew-ex6.10-2.svg\" />"
+    },
+    {
+      "id": 408145,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "A company leases a motor vehicle with the following terms: (i) The first monthly payment is Rs. 15,000 (ii) Each subsequent payment increases by Rs 500 due to inflation adjustments. (iii) The lease term is 24 months. find (i) what is the payment on the 24th month. (ii) What is the total amount paid over 24 months? (iii) If the company can only afford to pay a total of Rs. 400,000, can they complete the 24-months lease? (iv) Find the maximum months n such that total, payment. Sn 400,000."
+    },
+    {
+      "id": 408256,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "In how many ways 5 people are to be seated in a bench if: (a) there are no restrictions (b) two people can sit next to each other (c) two people cannot sit next to each other."
+    },
+    {
+      "id": 408350,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the number of the diagonals of a 6-sided figure."
+    },
+    {
+      "id": 408351,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Zain wants to generate a password for his laptop to secure the data. He can take only 6 characters to generates a password. Each character can either be upper case letter (A-Z) or digits from (0-9). Can you tell how many password can be generated by using the above letters and digits: (i) If repetition of characters is not allowed (ii) if repetition of characters is allowed."
+    },
+    {
+      "id": 408352,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "A box contain 15 cards from (1-15). Danish is to select 5 cards. If all the selected cards are the first five multiples of 2 then Danish will win the game. Find Danish's chance of winning the game, when (i) order is important (ii) order is not important."
+    },
+    {
+      "id": 408353,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "On independence Day, DJ has a list of ten different national songs. He wants to select any five national songs for the day. Find how many ways he can select and play the song: (i) if the order of playing the songs matters (ii) If the order of playing the song does not matter."
+    },
+    {
+      "id": 408438,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Use mathematical induction to prove that for any positive integer n, <img src=\"/pts-media/equations/11th/mthnew-ex8.1-10.svg\" />."
+    },
+    {
+      "id": 408440,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex8.1-11.svg\" /> represents an integer <img src=\"/pts-media/equations/11th/mthnew-ex8.1-12.svg\" />."
+    },
+    {
+      "id": 408442,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Use mathematical induction to prove that <img src=\"/pts-media/equations/11th/mthnew-ex8.1-13.svg\" /> whenever n is non-negative integer."
+    },
+    {
+      "id": 408443,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Prove that 4n+6n-1 is divisible by 9 for all <img src=\"/pts-media/equations/11th/mthnew-ex8.1-14.svg\" />"
+    },
+    {
+      "id": 408446,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Use mathematical induction to prove that <img src=\"/pts-media/equations/11th/mthnew-ex8.1-15.svg\" /> whenever n is a positive integer."
+    },
+    {
+      "id": 408448,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Show that 1+3+5+...+(2n+5)=(n+3)2 for integral values of n>-2."
+    },
+    {
+      "id": 408450,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Show that the inequality 4n>4n+4 is true, for integral values of n>2."
+    },
+    {
+      "id": 408453,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If an=22 then n>1, show that last digit of an is 7."
+    },
+    {
+      "id": 408524,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Expand <img src=\"/pts-media/equations/11th/mthnew-ex8.2-20.svg\" /> and also find its general term."
+    },
+    {
+      "id": 408528,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the specified term in the expansion of <img src=\"/pts-media/equations/11th/mthnew-ex8.2-21.svg\" />."
+    },
+    {
+      "id": 408530,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the following in the expansion of <img src=\"/pts-media/equations/11th/mthnew-ex8.2-22.svg\" />."
+    },
+    {
+      "id": 408616,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "For <img src=\"/pts-media/equations/11th/mthnew-ex8.3-19.svg\" /> show that 5y2+10y-4=0"
+    },
+    {
+      "id": 408783,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Expand (1-2x)1/3 to four term and apply it to evaluate (0.8)1/3 correct to three places of decimal."
+    },
+    {
+      "id": 408788,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Evaluate <img src=\"/pts-media/equations/11th/mthnew-ex8.4-7.svg\" /> correct to three places of decimal."
+    },
+    {
+      "id": 408800,
+      "chapter": 0,
+      "topic_id": ".",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "A bank offers a compound interest rate of 5% per year. Sumaira invests Rs. 100,000 for 3 years. How much will her investment be worth at the end of 3 years?"
+    },
+    {
+      "id": 409163,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Simplify: <img src=\"/pts-media/equations/11th/mthnew-ex10.1-13.svg\" />"
+    },
+    {
+      "id": 409232,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-44.svg\" /> the terminal side of the angle of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-24.svg\" /> is in the II quadrant and that of <img src=\"/pts-media/equations/11th/mthnew-ex10.2-25.svg\" /> is in the III quadrant, find the values of: sin<img src=\"/pts-media/equations/11th/mthnew-ex10.2-45.svg\" /> in which quadrant does the terminal side of the angle of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-45.svg\" /> lie?"
+    },
+    {
+      "id": 409233,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-44.svg\" /> the terminal side of the angle of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-24.svg\" /> is in the II quadrant and that of <img src=\"/pts-media/equations/11th/mthnew-ex10.2-25.svg\" /> is in the III quadrant, find the values of: cos<img src=\"/pts-media/equations/11th/mthnew-ex10.2-45.svg\" /> in which quadrant does the terminal side of the angle of measure <img src=\"/pts-media/equations/11th/mthnew-ex10.2-45.svg\" /> lie?"
+    },
+    {
+      "id": 409234,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-46.svg\" /> are the angles of <img src=\"/pts-media/equations/11th/mthnew-ex10.2-47.svg\" />, Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-48.svg\" />."
+    },
+    {
+      "id": 409236,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex10.2-46.svg\" /> are the angles of <img src=\"/pts-media/equations/11th/mthnew-ex10.2-47.svg\" />, Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex10.2-49.svg\" />."
+    },
+    {
+      "id": 409238,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Express <img src=\"/pts-media/equations/11th/mthnew-ex10.2-50.svg\" /> in the form <img src=\"/pts-media/equations/11th/mthnew-ex10.2-51.svg\" /> where the terminal side of the angle of measure <img src=\"/pts-media/equations/11th/mthnew-ex11.1-1.svg\" /> is in quadrant I."
+    },
+    {
+      "id": 409353,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Reduce cos4 <img src=\"/pts-media/equations/11th/mthnew-ex10.3-23.svg\" />to an expression involving only function of multiples of <img src=\"/pts-media/equations/11th/mthnew-ex10.3-23.svg\" />, raised to the first power."
+    },
+    {
+      "id": 409400,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Show that <img src=\"/pts-media/equations/11th/mthnew-ex10.4-17.svg\" />."
+    },
+    {
+      "id": 409622,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Determine whether <img src=\"/pts-media/equations/11th/mthnew-ex12.2-14.svg\" /> exist, when <img src=\"/pts-media/equations/11th/mthnew-ex12.2-15.svg\" />."
+    },
+    {
+      "id": 409625,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Discuss the continuity of the function f(x) and g(x) at x=3. <img src=\"/pts-media/equations/11th/mthnew-ex12.2-17.svg\" />"
+    },
+    {
+      "id": 409626,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Discuss the continuity of the function f(x) and g(x) at x=3. <img src=\"/pts-media/equations/11th/mthnew-ex12.2-18.svg\" />"
+    },
+    {
+      "id": 409764,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "A particle moves along a line such that its position after t hours is given by s(t)=4t2+2t+1 (in miles). Find the average velocity over the interval [2,5]"
+    },
+    {
+      "id": 409766,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "A particle moves along a line such that its position after t hours is given by s(t)=4t2+2t+1 (in miles). Find the instantaneous velocity at t=3."
+    },
+    {
+      "id": 409770,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the derivative of <img src=\"/pts-media/equations/11th/mthnew-ex13.1-7.svg\" /> at x=a from first principle."
+    },
+    {
+      "id": 409772,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If <img src=\"/pts-media/equations/11th/mthnew-ex13.1-8.svg\" /> at x=-1 by ab-initio method."
+    },
+    {
+      "id": 409976,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Prove that in any triangle ABC: a2=b2+c2-2bc cos A"
+    },
+    {
+      "id": 409977,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Prove that in any triangle ABC: a=b cos C + c cos B."
+    },
+    {
+      "id": 409978,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Prove that: <img src=\"/pts-media/equations/11th/mthnew-ex14.2-7.svg\" />."
+    },
+    {
+      "id": 409983,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Show that the vectors <img src=\"/pts-media/equations/11th/mthnew-ex14.2-8.svg\" /> are the sides of a right triangle."
+    },
+    {
+      "id": 410014,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "If a=4i+3j+k and b=2i-j+2k. Find a unit vector perpendicular to both a and b. Also find the sine of the angle between the vectors a and b."
+    },
+    {
+      "id": 410016,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "In any triangle ABC, prove that <img src=\"/pts-media/equations/11th/mthnew-ex14.3-7.svg\" />."
+    },
+    {
+      "id": 410047,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Prove that dot and cross product are interchangeable in scalar triple product."
+    },
+    {
+      "id": 410048,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Assuming i, j and k are unit vectors in a cartesian coordinate system. Prove that i. jxk= j.kxi= k.ixj."
+    },
+    {
+      "id": 410049,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the volume of the parallelepiped determined by: u=i+2j-k, v=i-2j+3k, w=i-7j-4k"
+    },
+    {
+      "id": 410051,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Prove that four points: A(-3,5,-4), B(-1,1,1), C(-1,2,2) and D(-3,4,-5) are coplanar."
+    },
+    {
+      "id": 410052,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "Find the value of a so that ai+j, i+j+3k and 2i+j-2k are coplanar."
+    },
+    {
+      "id": 410057,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "During a building construction, a crane exerts a force to pull a concrete block, represented by F= [4500,3300,2140] Newton. Each component corresponds to the force exerted along the x,y and z axes respectively. What is the magnitude of this force?"
+    },
+    {
+      "id": 410058,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Examples",
+      "priority": "Examples",
+      "en": "The components of u=300i+250j+180k represent the respective number of jackets, shoes and handbags sold at a a store. The components of v=3500 i + 4200 j + 6840 k represent the respective prices (in rupees) per unit for each product, find u.v and explain what the result tells us in real life."
+    }
+  ],
+  "type": "long"
+}

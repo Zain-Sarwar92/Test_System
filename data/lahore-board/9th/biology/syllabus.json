@@ -1,0 +1,302 @@
+{
+  "board": "Lahore",
+  "class": "9",
+  "subject": "Biology",
+  "slug": "biology",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "the Science of Biology",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Biology and Its Branches"
+        },
+        {
+          "id": "1.2",
+          "title": "Relation of Biology with Other Sciences"
+        },
+        {
+          "id": "1.3",
+          "title": "Careers in Biology"
+        },
+        {
+          "id": "1.4",
+          "title": "Quranic Instructions to Reveal the Study of Life"
+        },
+        {
+          "id": "1.5",
+          "title": "Science As a Collaborative Field"
+        },
+        {
+          "id": "1.6",
+          "title": "Scientific Method"
+        },
+        {
+          "id": "1.7",
+          "title": "Theory and Law/Principle"
+        },
+        {
+          "id": "1.8",
+          "title": "Malaria-An Example of Biological Method"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Biodiversity",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Biodiversity"
+        },
+        {
+          "id": "2.2",
+          "title": "Classification"
+        },
+        {
+          "id": "2.3",
+          "title": "Taxonomic Ranks"
+        },
+        {
+          "id": "2.4",
+          "title": "History of Classification"
+        },
+        {
+          "id": "2.5",
+          "title": "Domains of Living Organisms"
+        },
+        {
+          "id": "2.6",
+          "title": "Classification of Domain Eukarya"
+        },
+        {
+          "id": "2.7",
+          "title": "Status of Virus in Classification"
+        },
+        {
+          "id": "2.8",
+          "title": "Binomial Nomenclature"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "the Cell",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Cell"
+        },
+        {
+          "id": "3.2",
+          "title": "Structure of Cell"
+        },
+        {
+          "id": "3.3",
+          "title": "Structural Advantages of Plant and Animal Cells"
+        },
+        {
+          "id": "3.4",
+          "title": "Cell Specialization"
+        },
+        {
+          "id": "3.5",
+          "title": "Stem Cells"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cell Cycle",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Cell Cycle"
+        },
+        {
+          "id": "4.2",
+          "title": "Mitosis"
+        },
+        {
+          "id": "4.3",
+          "title": "Meiosis"
+        },
+        {
+          "id": "4.4",
+          "title": "Comparison Between Meiosis and Mitosis"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Tissues, Organs, and Organ System",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Levels of Organization"
+        },
+        {
+          "id": "5.2",
+          "title": "Organs and Organ System in Plants"
+        },
+        {
+          "id": "5.3",
+          "title": "Organs and Organ System in Humans"
+        },
+        {
+          "id": "5.4",
+          "title": "Homeostasis"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Biomolecules",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Biomolecules"
+        },
+        {
+          "id": "6.2",
+          "title": "Carbohydrates"
+        },
+        {
+          "id": "6.3",
+          "title": "Proteins"
+        },
+        {
+          "id": "6.4",
+          "title": "Lipids"
+        },
+        {
+          "id": "6.5",
+          "title": "Nucleic Acids"
+        },
+        {
+          "id": "6.6",
+          "title": "the Working of Dna and Rna"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Enzymes",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Metabolism"
+        },
+        {
+          "id": "7.2",
+          "title": "Enzymes"
+        },
+        {
+          "id": "7.3",
+          "title": "Mechanism of Enzyme Action"
+        },
+        {
+          "id": "7.4",
+          "title": "Factors That Affect the Activity of Enzymes"
+        },
+        {
+          "id": "7.5",
+          "title": "Enzyme Inhibition"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Bioenergetics",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Atp: the Cell'S Energy Currency"
+        },
+        {
+          "id": "8.2",
+          "title": "Photosynthesis"
+        },
+        {
+          "id": "8.3",
+          "title": "Cellular Respiration"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Plant Physiology",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Nutrition in Plants"
+        },
+        {
+          "id": "9.2",
+          "title": "Transport in Plants"
+        },
+        {
+          "id": "9.3",
+          "title": "Transpiration"
+        },
+        {
+          "id": "9.4",
+          "title": "Transport of Water and Salts in Plants"
+        },
+        {
+          "id": "9.5",
+          "title": "Translocation of Food in Plants"
+        },
+        {
+          "id": "9.6",
+          "title": "Gaseous Exchange in Plants"
+        },
+        {
+          "id": "9.7",
+          "title": "Mechanisms for Excretion in Plants"
+        },
+        {
+          "id": "9.8",
+          "title": "Osmotic Adjustments in Plants"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Reproduction in Plants",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Types of Asexual Reproduction"
+        },
+        {
+          "id": "10.2",
+          "title": "Artificial Propagation"
+        },
+        {
+          "id": "10.3",
+          "title": "Sexual Reproduction in Plants"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Biostatistics",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Introduction of Biostatistics"
+        },
+        {
+          "id": "11.2",
+          "title": "Mean, Median, and Mode"
+        },
+        {
+          "id": "11.3",
+          "title": "Bar Chart"
+        }
+      ]
+    }
+  ]
+}

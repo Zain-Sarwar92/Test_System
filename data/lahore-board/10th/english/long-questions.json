@@ -1,0 +1,1726 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "English",
+  "source": "PTS PTB Class 10 English (read-only export)",
+  "total_questions": 2551,
+  "counts": {
+    "mcq": 1766,
+    "short": 601,
+    "long": 184,
+    "byField": {
+      "COMPREHENSION": 61,
+      "SPELLING": 654,
+      "MEANING": 658,
+      "VERB": 137,
+      "GRAMMAR": 256,
+      "QA": 322,
+      "DI": 200,
+      "PAIR": 79,
+      "ESSAYS": 32,
+      "SUMMARY": 3,
+      "TRANSLATE_UR": 98,
+      "TRANSLATE_EN": 40,
+      "POEM_STANZA": 11
+    }
+  },
+  "questions": [
+    {
+      "id": 509149,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My last day at School"
+    },
+    {
+      "id": 509150,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Sports and games"
+    },
+    {
+      "id": 509151,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My house"
+    },
+    {
+      "id": 509152,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Courtesy"
+    },
+    {
+      "id": 509153,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Libraries"
+    },
+    {
+      "id": 509154,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Health"
+    },
+    {
+      "id": 509155,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "The Monsoon / A Rainy Day"
+    },
+    {
+      "id": 509156,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "A Scene at Railway Station"
+    },
+    {
+      "id": 509157,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "A Hockey Match"
+    },
+    {
+      "id": 509158,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "A Cricket Match"
+    },
+    {
+      "id": 509159,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "A True Muslim"
+    },
+    {
+      "id": 509160,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Life in a Big City"
+    },
+    {
+      "id": 509161,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Village Life"
+    },
+    {
+      "id": 509162,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Television"
+    },
+    {
+      "id": 509163,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "A Visit to a Hill Station"
+    },
+    {
+      "id": 509164,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Quaid-e-Azam"
+    },
+    {
+      "id": 509165,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Boy Scouts"
+    },
+    {
+      "id": 509166,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My Favourite Book"
+    },
+    {
+      "id": 509167,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My Ambition"
+    },
+    {
+      "id": 509168,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My Hobby"
+    },
+    {
+      "id": 509169,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Our School Centeen"
+    },
+    {
+      "id": 509170,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My Best Friend"
+    },
+    {
+      "id": 509171,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My Best Teacher"
+    },
+    {
+      "id": 509172,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "An Accident"
+    },
+    {
+      "id": 509173,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Picnic Party"
+    },
+    {
+      "id": 509174,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My School"
+    },
+    {
+      "id": 509175,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Girls Guide"
+    },
+    {
+      "id": 509176,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Street Quarrel"
+    },
+    {
+      "id": 509177,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "A House on Fire"
+    },
+    {
+      "id": 509178,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Fashion"
+    },
+    {
+      "id": 509179,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "My Neighbour"
+    },
+    {
+      "id": 509180,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Exercise",
+      "type": "long",
+      "field": "ESSAYS",
+      "en": "Meena Bazar"
+    },
+    {
+      "id": 497110,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Summary",
+      "type": "long",
+      "field": "SUMMARY",
+      "en": "My Beloved Pakistan"
+    },
+    {
+      "id": 498256,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Summary",
+      "type": "long",
+      "field": "SUMMARY",
+      "en": "Time"
+    },
+    {
+      "id": 498710,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Summary",
+      "type": "long",
+      "field": "SUMMARY",
+      "en": "The Road Not Taken"
+    },
+    {
+      "id": 497034,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Hazrat Muhammad (S.A.W) is the Last Rasool of Allah. In the 7th-century Arabia, he (S.A.W) transformed a deeply tribal and unjust society into one, based on values of justice, compassion, and equality. Among his (S.A.W) most groundbreaking reforms were those aimed at uplifting the most marginalized and oppressed groups of his (S.A.W) time: women, orphans, and slaves."
+    },
+    {
+      "id": 497035,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "His (S.A.W) teachings to reform the society are embedded in the Qur'an and his (S.A.W) practices (Sunnah), which continue to influence millions across the globe. Before the advent of Islam, Arabian society was marked by a strong tribal structure, patriarchal norms, and social inequality. Women were deprived of their basic human rights and even in some cases, newborn girls were buried alive."
+    },
+    {
+      "id": 497038,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Orphans were a subject to exploitation and often left without care or protection. Slavery was widespread, and slaves were considered subhuman, with no rights or legal recognition. In this environment, Hazrat Muhammad (S.A.W) introduced sweeping reforms based on the principles of human dignity, justice, and mercy."
+    },
+    {
+      "id": 497042,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Hazrat Muhammad's (S.A.W) teachings fundamentally altered the status of women in Arabian society. He (S.A.W) emphasized the spiritual and moral equality of men and women, as stated in the Qur'an: \"O humankind! Surely, We have created you from a single (pair of) male and female, and made you into tribes and families so that you may know one another (and so build mutuality and co-operative relationships, not so that you may take pride in your differences of race or social rank, and breed enmities). Surely the noblest, most honourable of you in God's [Allah] sight is the one best in piety, righteousness, and reverence for God [Allah]. Surely God [Allah] is All-Knowing, All-Aware.\"(Qur'an 49:13)"
+    },
+    {
+      "id": 497048,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "He (S.A.W) granted women legal rights which were unheard of in many societies at that time. Under Islamic law, women were given the basic human rights to: Own and inherit property: The Qur'an mandated rights of inheritance for women as, \"For the male heirs is a share out of what parents and near kindred leave behind, and for the female heirs is a share of what parents and near kindred leave behind, whether it (the inheritance) be little or much — a share ordained by God [Allah].\" (Surah An-Nisa 4:7), ensuring they could inherit from their fathers, husbands, and children."
+    },
+    {
+      "id": 497049,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Consent to marriage: Women could no longer be forced into marriage. The Rasoolullah (S.A.W) emphasized that a woman's consent was a necessary condition for a valid marriage. Divorce and maintenance: Islam introduced rules regarding the fair treatment of women in divorce, including financial support. The Qur'an tells: \"Likewise, there should be a provision for the divorced women according to customary good and religiously approvable practice, as a duty upon the God-revering, pious.\" (Qur'an 2:241)"
+    },
+    {
+      "id": 497054,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Education and knowledge: The Rasoolullah (S.A.W) encouraged the pursuit of knowledge for both men and women. He (S.A.W) said: \"Seeking knowledge is obligatory upon every Muslim.\" Hazrat Muhammad (S.A.W) also redefined the role of women in family and society. His (S.A.W) matrimonial life served as an example of mutual respect and partnership. He (S.A.W) involved women in public matters, allowing them to voice their opinions, participate in treaties, and even serve in combat when necessary."
+    },
+    {
+      "id": 497056,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Orphans were very helpless in the time before Islam. Hazrat Muhammad (S.A.W) said that those who care for orphans will be close to him in Paradise. Through his (S.A.W) teachings and actions, he (S.A.W) encouraged people to treat orphans with love, respect, and kindness. The Qur'an tells people again and again to be kind and fair to orphans:\"They give food, however great be their need for it, with pleasure to the destitute, and to the orphan, and to the captive.\" (Qur'an 76:8)"
+    },
+    {
+      "id": 497059,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Hazrat Muhammad (S.A.W) established strong ethical and legal frameworks for the protection of orphans:a. Guardianship with accountability: Those who took charge of orphaned children were held accountable for their treatment and the use of their wealth. The Qur'an says: \"(Care for and) test the orphans well until they reach the age of marriage. Then, if you find them to be mature of mind, hand over to them their property; and do not consume it by wasteful spending, nor do so in haste fearing that they will come of age (and so take it over). If the guardian is rich (enough to support himself and his family), let him abstain (from his ward's property); but if he is poor, let him consume thereof in a just and reasonable manner. When you hand (their property) over to them, let there be witnesses on their behalf. God [Allah] suffices as One Who reckons and settles the accounts (of His servants).\" (Qur'an 4:6)"
+    },
+    {
+      "id": 497060,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Prohibition of exploitation: Misusing or grabbing an orphan's property was declared a major sin. The Qur'an warns: \"Surely those who consume the property of orphans wrongfully, certainly they consume a fire in their bellies; and soon they will be roasting in a Blaze (the like of which you have never seen and the degree of whose intensity none knows except God [Allah].\" (Qur'an 4:10)"
+    },
+    {
+      "id": 497062,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Encouragement of care: He (S.A.W) stated, \"I and the one who looks after an orphan will be together in Paradise like this,\" and held up two fingers to illustrate closeness (Sahih al-Bukhari). Through his (S.A.W) reforms, Hazrat Muhammad (S.A.W) not only protected orphans legally but also elevated their status within the community. Now, taking care of them is recognized as a noble and rewarding act."
+    },
+    {
+      "id": 497064,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "One of Hazrat Muhammad's (S.A.W) most transformative contributions to society was his (S.A.W) approach to slavery. While slavery was a deeply entrenched institution in Arabia and across the world, the Rasoolullah (S.A.W) initiated reforms that gradually undermined its foundation.Rather than an abrupt abolition, which could have caused severe economic and social upheaval, Islam introduced measures that promoted emancipation, human dignity, and equality."
+    },
+    {
+      "id": 497065,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Encouragement of freeing slaves: Freeing slaves was regarded as a highly virtuous act and an expiation for various sins. The Qur'an explains: \"It is the freeing of a bondsman (a slave or a captive); or feeding, on a day of privation, an orphan near of kin, or a poor wretch in misery; And being, besides, of those who believe and exhort one another to patience and exhort one another to pity and compassion. Those are they who are the people of happiness and prosperity (who will be given their Records in their right hands on Judgment Day).\" (Qur'an 90:13-18) The Rasoolullah (S.A.W) freed many of his (S.A.W) own slaves and encouraged others to do the same."
+    },
+    {
+      "id": 497071,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Equality and humane treatment: He (S.A.W) instructed Muslims to treat their slaves like brothers: \"Your slaves are your brothers. Feed them with what you eat and clothe them as you clothe yourselves...\" (Sahih Muslim). Legal rights and protections: Slaves were granted legal protections. Their mistreatment was prohibited, and they had the right to earn their freedom through a contract (mukataba)."
+    },
+    {
+      "id": 497073,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Integration and leadership: One of the most powerful examples is Hazrat Bilal ibn Rabah (R.A), a former slave who became the Rasoolullah's (S.A.W) muazzin and a prominent sahabi. His (R.A) life symbolizes Islam's commitment to racial and social equality."
+    },
+    {
+      "id": 497074,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Hazrat Muhammad's (S.A.W) reforms were not mere policies; they were part of a broader vision for a just and compassionate society. His (S.A.W) emphasis on Tauheed [belief in the Oneness of Allah was inseparable from a belief in the human brotherhood. By raising the status of women, protecting orphans, and granting dignity to slaves, he (S.A.W) laid the foundation for a civilization that valued human rights and moral responsibility."
+    },
+    {
+      "id": 497075,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "His (S.A.W) Last Sermon during the Farewell Pilgrimage is a timeless charter of equality and justice. He (S.A.W) proclaimed: \"All mankind is from Adam and Eve. An Arab has no superiority over a non-Arab, nor does a non-Arab have superiority over an Arab; a white has no superiority over a black, nor does a black have superiority over a white—except by piety and good action.\""
+    },
+    {
+      "id": 497077,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Hazrat Muhammad (S.A.W) reformed the whole society. In an age where fairness was lacking, he (S.A.W) brought forward a vision rooted in justice, mercy, and equality. His (S.A.W) reforms in favour of women, orphans, and slaves were not only progressive for his (S.A.W) time but also remain relevant even today. Through his (S.A.W) teachings and actions, he (S.A.W) improved the lives of women, orphans and slaves. His (S.A.W) message encouraged people to live with honesty, care for others, and follow the path of righteousness. Today, his (S.A.W) reforms continue to guide and inspire millions around the world to build a just and peaceful society."
+    },
+    {
+      "id": 497243,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "In the 21st century, the world has witnessed a rapid expansion of digital technologies and global connectivity. This phenomenon, often referred to as digital globalisation, has not only transformed economies and cultures but also left a significant mark on languages, most notably, English. Once the language of a few nations, English has become the dominant medium of digital communication, education, entertainment, and commerce. However, as English spreads across borders through digital platforms, it evolves in fascinating and sometimes controversial ways. Here, we will try to explore how digital globalisation has impacted the English language by altering its vocabulary, grammar, communication style, and cultural identity."
+    },
+    {
+      "id": 497245,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "One of the most obvious effects of digital globalisation on English is the explosion of new vocabulary. The internet has given rise to hundreds of neologisms, newly coined words, that are now commonly used in everyday communication. Words like \"hashtag,\" \"selfie,\" \"unfriend,\" and \"meme\" were either invented or popularized through social media platforms. Additionally, abbreviations such as \"LOL\" (laugh out loud), \"BTW\" (by the way), and \"DM\" (direct message) have become an integral part of digital language. These terms, born out of the need for speed and efficiency, reflect how the English language is constantly adapting to fit modern communication needs. Another major shift involves the blending of English with other languages and local expressions."
+    },
+    {
+      "id": 497246,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Since English is often used as a global lingua franca, a bridge language between speakers of different native tongues, it absorbs words and phrases from a wide range of cultures. For example, terms like \"hijab,\" \"sushi,\" and \"aesthetic\" are used freely across English-language social media and blogs, even if they come from Arabic, Japanese or Greek. In online spaces, it is common to see people mix English with their native languages; a practice called code-switching. This has resulted in hybrid dialects like \"Taglish\" (Tagalog + English) and \"Singlish\"."
+    },
+    {
+      "id": 497247,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "(Singaporean English), showcasing the linguistic flexibility digital globalisation has encouraged. Grammar, too, has not been left untouched. While traditional grammar rules still apply in formal writing, the rise of texting, tweeting, and chatting has created a more relaxed approach to sentence structure and punctuation. On platforms like Twitter, where characters are limited, users often omit articles, punctuation, and even capitalization to save space. For instance, a sentence like “I am going to the store” might be shortened to “goin 2 store.” While some see this as a decline in language standards, others argue that it reflects a creative adaptation to new communication tools."
+    },
+    {
+      "id": 497249,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Furthermore, emoji use has added a visual element to language, sometimes replacing words entirely. A heart emoji or a fire symbol can now carry complex emotional meanings, acting like modern-day hieroglyphs. Digital globalisation has also influenced how English is spoken. Pronunciation and intonation are being shaped by global media, especially YouTube. Accents are slowly blending, and new speech patterns are emerging, especially among younger generations. For example, many non-native speakers of English adopt American or British slang, pronunciation, and idioms through exposure to online content. The result is a more standardised, international form of English but it may also lead to the loss of regional accents and traditional forms."
+    },
+    {
+      "id": 497250,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "However, the globalisation of English raises important questions about cultural dominance and inequality. Because English is the default language on most digital platforms, non-native speakers often feel pressured to adopt it in order to access information, participate in conversations, or gain job opportunities. While this opens doors for many, it also marginalizes local languages and contributes to their decline. In a digital world where English reigns supreme and smaller languages risk extinction if they are not preserved through conscious effort."
+    },
+    {
+      "id": 497251,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Despite these concerns, the influence of digital globalisation on English is not entirely negative. In fact, it has created a more inclusive and diverse linguistic landscape. New forms of English reflect the voices of people from different cultural and linguistic backgrounds. Whether it’s a Ghanaian YouTuber mixing local proverbs with English or a Filipino blogger writing in Taglish or a Pakistani YouTuber giving the blend of Urdu to English, digital spaces have allowed English to become a truly global language; shaped by its users rather than confined by rigid rules."
+    },
+    {
+      "id": 497252,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The digital globalisation has had a profound impact on the English language. It has expanded vocabulary, loosened grammar rules, and introduced hybrid forms of communication that reflect global diversity. While there are concerns about the loss of linguistic purity and the dominance of English over other languages, the overall effect is one of growth, change, and adaptation. As digital technology continues to evolve, so too will the English language and adapting to meet the needs of its global speakers in creative and unexpected ways."
+    },
+    {
+      "id": 497530,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Earth is the planet where human life exists. It is endanger due to abrupt climate changes. Saving earth is our utmost duty to save future generations. Therefore, it is high time to take climate action to protect the planet. Climate change is one of the most pressing challenges facing our world today. Rising global temperatures, melting ice caps, frequent natural disasters, and shifting weather patterns are all signs that the planet is in trouble. Climate action refers to the efforts taken by individuals, governments, and organizations to reduce greenhouse gas emissions, adapt to changing climates, and protect our environment. It is not just an environmental issue, but also a social, economic, and moral responsibility that demands urgent and collective action."
+    },
+    {
+      "id": 497531,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "To understand the importance of climate action, it is essential to first know the causes of climate changes. The Earth's climate is naturally regulated by a balance of gases in the atmosphere. However, human activities, especially since the Industrial Revolution, have disrupted this balance. The burning of fossil fuels such as coal, oil, and gas for energy releases carbon dioxide (CO2) into the air. Other harmful gases, like methane and nitrous oxide are produced through agriculture, deforestation, and industrial processes. These greenhouse gases trap heat in the atmosphere, causing the Earth's average temperature to rise; a phenomenon known as global warming."
+    },
+    {
+      "id": 497532,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The effects of climate change are already visible. Glaciers are melting at alarming rates, leading to rising sea levels that threaten coastal communities. Extreme weather events such as hurricanes, floods, heatwaves, and wildfires, are becoming more frequent and intense, endangering lives and destroying ecosystems. Farmers struggle with unpredictable rainfall and droughts, which impact food production and increase hunger in vulnerable regions."
+    },
+    {
+      "id": 497533,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Furthermore, climate change disproportionately affects poor and developing countries, even though they contribute the least to the problem. These communities often lack the resources to recover from disasters or adapt to environmental changes. This makes climate action not only a scientific necessity but also a matter of justice and fairness."
+    },
+    {
+      "id": 497534,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Recognizing the seriousness of the issue, countries around the world have come together to tackle climate change through international agreements. The most notable of these is the Paris Agreement, signed in 2015. Under this agreement, almost every country committed to limiting global warming to well below 2°C, with efforts to keep it below 1.5°C. To achieve this goal, nations have pledged to reduce carbon emissions, invest in renewable energy, and improve energy efficiency."
+    },
+    {
+      "id": 497535,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "In addition to governments, many businesses and non-profit organizations are also taking climate action seriously. Companies are shifting to sustainable practices, investing in clean technologies, and reducing their carbon footprints. The different movements have mobilized millions of persons from different walks of life worldwide to demand urgent action from leaders."
+    },
+    {
+      "id": 497536,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "While large-scale policy changes are crucial, individuals also play an important role in the fight against climate change. Everyday choices like reducing energy use, recycling, avoiding single-use plastics, and using public transport, can collectively make a significant difference. Choosing to eat less meat, supporting eco-friendly brands, and planting trees are also impactful steps."
+    },
+    {
+      "id": 497537,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Education and awareness are the keys. By learning more about environmental issues and spreading the message, individuals can influence their communities and encourage others to act accordingly. Supporting climate policies and holding companies accountable for their environmental impact are the ways to make the environment excellent for living beings."
+    },
+    {
+      "id": 497538,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Despite growing awareness and some positive steps, the world is still far from solving the climate crisis. Emissions continue to rise, and many countries have not met their targets. Powerful industries sometimes resist change due to profit interests."
+    },
+    {
+      "id": 497540,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "However, there is also a reason for hope. Technological innovations such as solar power, wind energy, electric vehicles, and carbon capture, are becoming more affordable and accessible. More and more young people are getting involved, and climate action is becoming a global conversation rather than a fringe concern. With determination, cooperation, and innovation, it is still possible to change the course of our future."
+    },
+    {
+      "id": 497541,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Climate action is no longer optional, it is essential for the survival of our planet, \"The Earth\" and our future generations. Everyone has a role to play, from world leaders to laymen. By reducing emissions, protecting nature, and adapting to changes, we can build a more sustainable and just world. Time is running out, but the opportunity to act is still in our hands. The choices we make today will shape the world of tomorrow."
+    },
+    {
+      "id": 497713,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "High above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt. He was very much admired indeed. \"He is as beautiful as a weathercock,\" remarked one of the Town Councillors who wished to gain a reputation for having artistic tastes; \"only not quite so useful,\" he added, fearing lest people should think him unpractical, which he really was not. \"Why can't you be like the Happy Prince?\" asked a sensible mother of her little boy, who was crying for the moon. \"The Happy Prince never dreams of crying for anything.\" \"I am glad there is someone in the world who is quite happy,\" muttered a disappointed man as he gazed at the wonderful statue."
+    },
+    {
+      "id": 497714,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "One night there flew over the city a little Swallow. His friends had gone away to Egypt six weeks before, but he had stayed behind. After they had gone, he felt lonely. Then, one day he started to fly. All day long he flew, and at night-time he arrived at the city. \"Where shall I put up?\" he said; \"I hope the town has made preparations.\" Then he saw the statue on the tall column. \"I will put up there,\" he cried; \"It is a fine position, with plenty of fresh air.\" So, he alighted just between the feet of the Happy Prince. \"I have a golden bedroom,\" he said softly to himself as he looked round, and he prepared to go to sleep; but just as he was putting his head under his wing a large drop of water fell on him. \"What a curious thing!\" he cried; \"There is not a single cloud in the sky, the stars are quite clear and bright, and yet it is raining. The climate in the north of Europe is really dreadful."
+    },
+    {
+      "id": 497715,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Then another drop fell. \"What is the use of a statue if it cannot keep the rain off?\" he said; \"I must look for a good chimney-pot,\" and he determined to fly away. But before he had opened his wings, a third drop fell, and he looked up, and saw—Ah! what did he see? The eyes of the Happy Prince were filled with tears, and tears were running down his golden cheeks. His face was so beautiful in the moonlight that the little Swallow was filled with pity. \"Who are you?\" he said. \"I am the Happy Prince.\" \"Why are you weeping then?\" asked the Swallow; \"You have quite drenched me.\""
+    },
+    {
+      "id": 497716,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"When I was alive and had a human heart,\" answered the statue, \"I did not know what tears were, for I lived in the Palace of Sans-Souci, where sorrow is not allowed to enter. In the daytime I played with my companions in the garden, and in the evening, I led the dance in the Great Hall. Round the garden ran a very lofty wall, but I never cared to ask what lay beyond it, everything about me was so beautiful. My courtiers called me the Happy Prince, and happy indeed I was, if pleasure be happiness. So, I lived, and so I died. And now that I am dead, they have set me up here so high that I can see all the ugliness and all the misery of my city, and though my heart is made of lead I cannot choose but weep.\""
+    },
+    {
+      "id": 497717,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"What! is he not solid gold?\" said the Swallow to himself. He was too polite to make any personal remarks out loud. \"Far away,\" continued the statue in a low musical voice, \"far away in a little street there is a poor house. One of the windows is open, and through it I can see a woman seated at a table. Her face is thin and worn, and she has coarse, red hands, all pricked by the needle, for she is a seamstress. She is embroidering passion-flowers on a satin gown for the Queen."
+    },
+    {
+      "id": 497718,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "In a bed in the corner of the room her little boy is lying ill. He has a fever, and is asking for oranges. His mother has nothing to give him but river water, so he is crying. Swallow, Swallow, little Swallow, will you not bring her the ruby out of my sword-hilt? My feet are fastened to this pedestal and I cannot move.\" \"I am waited for in Egypt,\" said the Swallow. \"Swallow, Swallow, little Swallow,\" said the Prince, \"will you not stay with me for one night, and be my messenger? The boy is so thirsty, and the mother so sad.\" \"I don't think I like boys,\" answered the Swallow."
+    },
+    {
+      "id": 497719,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"Last summer, when I was staying on the river, there were two rude boys, the miller's sons, who were always throwing stones at me. They never hit me, of course; we swallows fly far too well for that, and besides, I come of a family famous for its agility; but still, it was a mark of disrespect.\" But the Happy Prince looked so sad that the little Swallow was sorry. \"It is very cold here,\" he said; \"but I will stay with you for one night, and be your messenger.\" \"Thank you, little Swallow,\" said the Prince. So, the Swallow picked out the great ruby from the Prince's sword, and flew away with it in his beak over the roofs of the town."
+    },
+    {
+      "id": 497720,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "He passed by the cathedral tower. He passed over the river. At last he came to the poor house and looked in. The boy was tossing feverishly on his bed, and the mother had fallen asleep, she was so tired. In he hopped, and laid the great ruby on the table beside the woman's thimble. Then he flew gently round the bed, fanning the boy's forehead with his wings. \"How cool I feel,\" said the boy, \"I must be getting better\"; and he sank into a delicious slumber. Then the Swallow flew back to the Happy Prince, and told him what he had done. \"It is curious,\" he remarked, \"but I feel quite warm now, although it is so cold.\""
+    },
+    {
+      "id": 497721,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"That is because you have done a good action,\" said the Prince. And the little Swallow began to think, and then he fell asleep. Thinking always made him sleepy. When day broke, he flew down to the river and had a bath. \"What a remarkable phenomenon,\" said the Professor of Ornithology as he was passing over the bridge. \"A swallow in winter!\" And he wrote a long letter about it to the local newspaper. Every one quoted it. It was full of so many words that they could not understand. \"Tonight I go to Egypt,\" said the Swallow, and he was in high spirits at the prospect. He visited all the public monuments, and sat a long time on top of the church steeple. Wherever he went the Sparrows chirruped, and said to each other, \"What a distinguished stranger!\" so he enjoyed himself very much."
+    },
+    {
+      "id": 497722,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "When the moon rose, he flew back to the Happy Prince. \"Have you any commissions for Egypt?\" he cried; \"I am just starting.\" \"Swallow, Swallow, little Swallow,\" said the Prince, \"will you not stay with me one night longer?\" \"I am waited for in Egypt,\" answered the Swallow. \"Swallow, Swallow, little Swallow,\" said the Prince, \"far away across the city I see a young man in a garret. He is leaning over a desk covered with papers, and in a tumbler by his side there is a bunch of withered violets. His hair is brown and crisp, and his lips are red as a pomegranate, and he has large and dreamy eyes. He is trying to finish a play for the Director of the Theatre, but he is too cold to write any more. There is no fire in the grate, and hunger has made him faint."
+    },
+    {
+      "id": 497723,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"I will wait with you one night longer,\" said the Swallow, who really had a good heart. \"Shall I take him another ruby?\" \"Alas! I have no ruby now,\" said the Prince; \"My eyes are all that I have left. They are made of rare sapphires. Pluck out one of them and take it to him. He will sell it to the jeweller, and buy food and firewood, and finish his play.\" \"Dear Prince,\" said the Swallow, \"I cannot do that\"; and he began to weep. \"Swallow, Swallow, little Swallow,\" said the Prince, \"do as I command you.\""
+    },
+    {
+      "id": 497724,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "So, the Swallow plucked out the Prince's eye, and flew away to the student's garret. It was easy enough to get in, as there was a hole in the roof. Through this he darted, and came into the room. The young man had his head buried in his hands, so he did not hear the flutter of the bird's wings, and when he looked up, he found the beautiful sapphire lying on the withered violets. \"I am beginning to be appreciated,\" he cried; \"This is from some great admirer. Now I can finish my play,\" and he looked quite happy."
+    },
+    {
+      "id": 497725,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The next day the Swallow flew down to the harbour. He sat on the mast of a large vessel and watched the sailors hauling big chests out of the hold with ropes. \"Heave a-hoy!\" they shouted as each chest came up. \"I am going to Egypt!\" cried the Swallow, but nobody minded, and when the moon rose, he flew back to the Happy Prince. \"I am come to bid you goodbye,\" he cried. \"Swallow, Swallow, little Swallow,\" said the Prince, \"will you not stay with me one night longer?\""
+    },
+    {
+      "id": 497726,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"It is winter,\" answered the Swallow, \"and the chill snow will soon be here. In Egypt the sun is warm on the green palm-trees. My companions are building a nest in the Temple of Baalbec, and the pink and white doves are watching them, and cooing to each other. Dear Prince, I must leave you, but I will never forget you, and next spring I will bring you back two beautiful jewels in place of those you have given away. The ruby shall be redder than a red rose, and the sapphire shall be as blue as the great sea.\""
+    },
+    {
+      "id": 497728,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"In the square below,\" said the Happy Prince, \"there stands a little match-girl. She has let her matches fall in the gutter, and they are all spoiled. Her father will beat her if she does not bring home some money, and she is crying. She has no shoes or stockings, and her little head is bare. Pluck out my other eye, and give it to her, and her father will not beat her.\" \"I will stay with you one night longer,\" said the Swallow, \"but I cannot pluck out your eye. You would be quite blind then.\" \"Swallow, Swallow, little Swallow,\" said the Prince, \"do as I command you.\""
+    },
+    {
+      "id": 497729,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "So, he plucked out the Prince's other eye, and darted down with it. He swooped past the match-girl, and slipped the jewel into the palm of her hand. \"What a lovely bit of glass,\" cried the little girl; and she ran home, laughing. Then the Swallow came back to the Prince. \"You are blind now,\" he said, \"so I will stay with you always.\" \"No, little Swallow,\" said the poor Prince, \"you must go away to Egypt.\" \"I will stay with you always,\" said the Swallow, and he slept at the Prince's feet. All the next day he sat on the Prince's shoulder, and told him stories of what he had seen in strange lands."
+    },
+    {
+      "id": 497730,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"Dear little Swallow,\" said the Prince, \"you tell me of marvellous things, but more marvellous than anything else is the sufferings of men and of women. There is no Mystery so great as Misery. Fly over my city, little Swallow, and tell me what you see there.\" So, the Swallow flew over the great city, and saw the rich making merry in their beautiful houses, while the beggars were sitting at the gates. He flew into dark lanes, and saw the white faces of starving children looking out listlessly at the black streets. Then he flew back and told the Prince what he had seen."
+    },
+    {
+      "id": 497731,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"I am covered with fine gold,\" said the Prince, \"You must take it off, leaf by leaf, and give it to my poor; the living always think that gold can make them happy.\" Leaf after leaf of the fine gold the Swallow picked off, till the Happy Prince looked quite dull and grey. Leaf after leaf of the fine gold he brought to the poor, and the children's faces grew rosier, and they laughed and played games in the street. \"We have bread now!\" they cried."
+    },
+    {
+      "id": 497732,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Then the snow came, and after the snow came the frost. The streets looked as if they were made of silver. They were so bright and glistening; long icicles like crystal daggers hung down from the eaves of the houses. Everybody went about in furs, and the little boys wore scarlet caps and skated on the ice. The poor little Swallow grew colder and colder, but he would not leave the Prince, he loved him too well. He picked up crumbs outside the baker's door when the baker was not looking and tried to keep himself warm by flapping his wings."
+    },
+    {
+      "id": 497733,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "But at last he knew that he was going to die. He had just strength to fly up to the Prince's shoulder once more. \"Goodbye, dear Prince!\" \"I am glad that you are going to Egypt at last, little Swallow,\" said the Prince, \"You have stayed too long here.\" \"It is not to Egypt that I am going,\" said the Swallow. \"I am going to the House of Death. Death is the brother of Sleep, is he not?\" And he kissed the Happy Prince, and fell down dead at his feet. At that moment a curious crack sounded inside the statue, as if something had broken. The fact is that the leaden heart had snapped right in two. It certainly was a dreadfully hard frost."
+    },
+    {
+      "id": 497734,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Early the next morning the Mayor was walking in the square below in company with the Town Councillors. As they passed the column he looked up at the statue: \"Dear me! how shabby the Happy Prince looks!\" he said. \"How shabby indeed!\" cried the Town Councillors, who always agreed with the Mayor; and they went up to look at it. \"The ruby has fallen out of his sword, his eyes are gone, and he is golden no longer,\" said the Mayor in fact, \"He is little better than a beggar!\" \"Little better than a beggar,\" said the Town Councillors."
+    },
+    {
+      "id": 497735,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"And here is actually a dead bird at his feet!\" continued the Mayor. \"We must really issue a proclamation that birds are not to be allowed to die here.\" And the Town Clerk made a note of the suggestion. So, they pulled down the statue of the Happy Prince. \"As he is no longer beautiful, he is no longer useful,\" said the Art Professor at the University. Then they melted the statue in a furnace, and the Mayor held a meeting of the Corporation to decide what was to be done with the metal. \"We must have another statue, of course,\" he said, \"and it shall be a statue of myself.\""
+    },
+    {
+      "id": 497737,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"Of myself,\" said each of the Town Councillors, and they quarrelled. When I last heard of them, they were quarrelling still. \"What a strange thing!\" said the overseer of the workmen at the foundry. \"This broken lead heart will not melt in the furnace. We must throw it away.\" So, they threw it on a dust-heap where the dead Swallow was also lying. They both died and reunited within heaven and lived happily together."
+    },
+    {
+      "id": 498105,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Drug abuse is a growing problem in many countries, including Pakistan. It affects not only individuals but also families, schools, and societies as a whole. Drug abuse means the harmful or wrong use of drugs that can damage a person's health, behaviour, and life. The number of people affected by drugs is increasing every year. This is a serious issue that needs attention from all parts of society."
+    },
+    {
+      "id": 498106,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Drug abuse happens when a person uses illegal drugs. These drugs can include heroin, hashish, opium, ice, and even sleeping pills or painkillers taken without a doctor's advice. People who become addicted to these substances may find it hard to stop using them. Their bodies and minds become dependent on the drugs, which causes damage to their health and their relationships."
+    },
+    {
+      "id": 498107,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "There are many reasons why people start using drugs. One of the biggest reasons is lack of awareness. Many young people do not fully understand how dangerous drugs can be. They may try drugs out of curiosity or due to peer pressure from friends."
+    },
+    {
+      "id": 498108,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Unemployment and stress are other common causes. When people feel hopeless about their future, they may turn to drugs to escape from their problems. Some people also start using drugs because of family problems, pressure at school, or emotional pain. Easy access to drugs also plays a role."
+    },
+    {
+      "id": 498110,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Drug abuse has many harmful effects. First, it affects the health of the person taking drugs. It can damage the brain, heart, lungs, liver, and other parts of the body. Drug users often suffer from serious diseases and may even die from overdoses."
+    },
+    {
+      "id": 498111,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Second, drug abuse affects a person's behaviour. It can cause mood swings, depression, anger, and confusion. Many people who use drugs have trouble at school or work. They may lose interest in studying or earning a living."
+    },
+    {
+      "id": 498114,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Third, it affects both families and communities. When someone in a family becomes addicted to drugs, it causes stress and sadness for everyone else. Drug abuse also leads to crimes, accidents, and violence in the society. People may involve in the act of theft and robbery, or hurt others to get money for drugs. This creates fear and insecurity in communities."
+    },
+    {
+      "id": 498117,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "One of the most worrying things is that many drug users are young people. Teenagers and university students are especially at risk. Some students start using drugs at parties or with friends, thinking it is fun. But later, they become addicted and cannot stop."
+    },
+    {
+      "id": 498118,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "This damages their education, health, and future. Schools and colleges are now becoming more aware of this issue. They are also starting awareness programs to protect students."
+    },
+    {
+      "id": 498119,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The government is taking steps to fight drug abuse. The Anti-Narcotics Force (ANF) works to stop the smuggling and sale of illegal drugs. The government also runs awareness campaigns in schools, colleges, and on TV to educate the people about the dangers of drugs."
+    },
+    {
+      "id": 498121,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "There are also rehabilitation centers where the people can go to get help against drug addiction. These centers provide medical care and counseling to help the people recover."
+    },
+    {
+      "id": 498122,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The fight against drug abuse cannot be won by the government alone. Families, teachers, and communities all have an important role to play. Parents should talk openly with their children about the dangers of drugs. They should create a safe and loving environment at home where children feel heard and supported. Teachers should keep an eye on signs of drug use in students and guide them with care and kindness. Religious leaders, social workers, and the youth groups should also play their role in spreading awareness and support those who are recovering from addiction."
+    },
+    {
+      "id": 498124,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "There are many things we can do to reduce drug abuse: a. Awareness programs should be held in schools, colleges, and communities to teach the young people about the risks of drug abuse. b. More treatment and rehabilitation centers should be opened across the country so that people struggling with addiction can get rid off these social evils. c. Those who use drugs should be treated with care, not hate. They need support, counseling, and understanding to recover. d. The government should continue to take strong action against drug traffickers and sellers. e. Sports, arts, and hobbies should be promoted among the youth to keep them busy and away from these harmful habits."
+    },
+    {
+      "id": 498126,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Drug abuse is a serious challenge in Pakistan, especially for the youth. It destroys health, education, families, and society. But this problem can be solved if we work together. The government, schools, families, and media must unite to raise awareness and offer support to those who are affected. Everyone deserves a chance to live a healthy and happy life. By helping the people stay away from drugs and supporting those who are trying to recover, we can build a better and safer Pakistan for the future."
+    },
+    {
+      "id": 498372,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "A clean, green, and pollution-free Pakistan is not just a dream; rather, it is a necessity for the survival and well-being of the people and the environment. In recent years, pollution has become one of the most serious challenges facing our country. However, if we take the right steps, raise awareness, and act collectively, we can move towards a Pakistan that is full of greenery and free from pollution. Let us try to explore the causes of pollution, the importance of greenery, and the steps we can take to build a healthy and sustainable environment."
+    },
+    {
+      "id": 498373,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "To begin with, it is important to understand what pollution actually is. Pollution refers to the presence of harmful substances in our environment, which damage the air, water, and land. For instance, the smoke from vehicles and factories pollutes the air and makes it dangerous to breathe. Moreover, plastic waste and chemicals dumped in rivers pollute the water. In addition, the cutting of trees and deforestation increase land pollution and reduce greenery. As a result, many people, especially children and the elders, suffer from diseases such as asthma, skin infections, and even heart problems."
+    },
+    {
+      "id": 498375,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Furthermore, it must be noted that Pakistan's rapid urbanization and industrial growth have also contributed to the rise in pollution. While development is necessary, it must go hand in hand with environmental protection. Unfortunately, many factories do not follow proper waste management rules. Not only does this pollute the surroundings, but it also causes long-term damage to soil and water bodies. At the same time, the increasing number of vehicles on the roads adds more harmful gases to the atmosphere. In view of these facts, it becomes clear that immediate action is required."
+    },
+    {
+      "id": 498377,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "On the other hand, greenery plays a vital role in reducing pollution and improving the quality of life. Trees absorb carbon dioxide and release oxygen, which is essential for human survival. Besides, they also trap dust, reduce heat, and support biodiversity. For example, parks and green belts in cities not only beautify the surroundings but also serve as peaceful places for people to relax and exercise. Therefore, planting more trees and protecting forests is one of the most effective ways to fight pollution."
+    },
+    {
+      "id": 498379,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Moreover, creating awareness among the public is equally important. People need to understand that their daily choices can either harm or help the environment. For instance, burning garbage or using plastic bags might seem easy, but these actions pollute the air and water. Instead, people should be encouraged to recycle, reuse, and reduce waste. Additionally, schools and colleges can play a strong role by teaching students about environmental protection and involving them in tree plantation and clean-up campaigns. Through these efforts, students become more responsible citizens who care for their surroundings."
+    },
+    {
+      "id": 498380,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "In addition, strong environmental policies and effective planning are crucial in this regard. It is important to strictly enforce environmental laws and hold polluters accountable. At the same time, promoting the use of renewable energy sources such as solar and wind power can help reduce environmental damage. Likewise, improving public transport systems can encourage people to rely less on private vehicles, which release harmful gases into the air. By implementing these measures, national efforts can move forward toward building a cleaner and healthier Pakistan."
+    },
+    {
+      "id": 498384,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Another important feature is the role of communities and families. Every household can contribute by keeping their surroundings clean, using eco-friendly products, and planting trees. Community-level activities such as \"Green Day\" or \"Clean Street Campaigns\" can unite people for a good cause. Furthermore, local organizations can use their platforms to promote green living and discourage harmful habits. When communities work together, great results can be achieved."
+    },
+    {
+      "id": 498386,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Along with this, technology can also help us reduce pollution. Modern methods of farming, for instance, use less water and reduce chemical use. Mobile apps can be used to report illegal dumping or tree cutting. Likewise, smart waste management systems can help cities handle garbage in a clean and efficient way. These advancements, if used wisely, can make a big difference."
+    },
+    {
+      "id": 498387,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Equally important is the role of media in spreading positive messages. Television, newspapers, and social media can highlight success stories and educate people about the importance of a pollution-free environment. For example, documentaries showing the effects of pollution on health and climate can motivate people to act. In contrast, if the media only focuses on problems and ignores solutions, the public may feel helpless. Therefore, media must be used as a tool for awareness and change."
+    },
+    {
+      "id": 498389,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "As we look around, we can observe some examples of progress. In the capital city, Islamabad, tree plantation drives have increased green areas. Some schools have started rooftop gardens, while youth groups have organized clean-up drives in parks and riversides. These examples prove that change is possible if we all work together."
+    },
+    {
+      "id": 498391,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "In conclusion, a pollution-free Pakistan with greenery all around is not beyond our reach. Although the challenges are great, the solutions are within our hands. By planting trees, reducing waste, following environmental rules, and educating others, we can make our environment healthier and safer. Above all, we must remember that every small action does count. Whether it is turning off extra lights, picking up litter, or planting a sapling, each step brings us closer to our goal. Let's take this responsibility seriously and work together for a better, greener, and cleaner Pakistan, not just for ourselves, but for future generations as well."
+    },
+    {
+      "id": 498872,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "It once occurred to a certain king, that if he always knew the right time to begin everything, if he knew who were the right people to listen to, and who to avoid, and, above all, if he always knew what was the most important thing to do, he would never fail in anything he might undertake. And this thought having occurred to him, he had it proclaimed throughout his kingdom that he would give a great reward to anyone who would teach him what was the right time for every action, and who were the most necessary people, and how he might know what was the most important thing to do."
+    },
+    {
+      "id": 498873,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "And learned men came to the King, but they all answered his questions differently. In reply to the first question, some said that to know the right time for every action, one must draw up in advance a table of days, months, and years, and must live strictly according to it. They said in way everything could be done at its proper time. Others declared that it was impossible to decide beforehand the right time for every action, but that, not letting oneself be absorbed in idle pastimes. One should always attend to all that was going on, and then do what was most needful."
+    },
+    {
+      "id": 498874,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Others, again, said that however attentive the King might be to what was going on, it was impossible for one man to decide correctly the right time for every action. He should have a Council of wise men, who would help him to fix the proper time for everything. But then again others said there were some things which could not wait to be laid before a Council, but about which one had at once to decide whether to undertake them or not. But in order to decide that, one must know beforehand what was going on to happen. It is only magicians who know that; and therefore, in order to know the right time for every action, one must consult magicians."
+    },
+    {
+      "id": 498875,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Equally various were the answers to the second question. Some said, the people, the King most needed were his councillors; others, the priests; others, the doctors; while some said the warriors were the most necessary. To the third question, as to what was the most important occupation, some replied that the most important thing in the world was science. Others said it was skill in warfare; and others, religious worship. All the answers being different, the King agreed with none of them, and gave the reward to none. But still wishing to find the right answers to his questions, he decided to consult a hermit, widely renowned for his wisdom."
+    },
+    {
+      "id": 498876,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The hermit lived in a wood which he never quitted, and he received none but common folk. So, the King put on simple clothes, and before reaching the hermit's cell dismounted from his horse, and, leaving his bodyguard behind, went on alone. When the King approached, the hermit was digging the ground in front of his hut. Seeing the King, he greeted him and went on digging. The hermit was frail and weak, and each time he stuck his spade into the ground and turned a little earth, he breathed heavily."
+    },
+    {
+      "id": 498877,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The King went up to him and said: \"I have come to you, wise hermit, to ask you to answer three questions: — How can I learn to do the right thing at the right time? — Who are the people I most need, and to whom should I, therefore, pay more attention than to the rest? — And, what affairs are the most important, and need my first attention?\" The hermit listened to the King, but answered nothing. He just spat on his hand and recommenced digging."
+    },
+    {
+      "id": 498878,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"You are tired,\" said the King, \"let me take the spade and work awhile for you.\" \"Thanks!\" said the hermit, and, giving the spade to the King, he sat down on the ground. When he had dug two beds, the King stopped and repeated his questions. The hermit again gave no answer, but rose, stretched out his hand for the spade, and said: \"Now rest awhile — and let me work a bit.\" But the King did not give him the spade, and continued to dig. One hour passed, and another. The sun began to sink behind the trees, and the King at last stuck the spade into the ground, and said: \"I came to you, wise man, for an answer to my questions. If you can give me none, tell me so, and I will return home.\""
+    },
+    {
+      "id": 498879,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"Here comes someone running,\" said the hermit, \"let us see who it is.\" The King turned round and saw a bearded man come running out of the wood. The man held his hands pressed against his stomach, and blood was flowing from under them. When he reached the King, he fell fainting on the ground, moaning feebly. The King and the hermit unfastened the man's clothing. There was a large wound in his stomach. The King washed it as best he could, and bandaged it with his handkerchief and with a towel the hermit had. But the blood would not stop flowing. The King again and again removed the bandage soaked with warm blood, and washed and rebandaged the wound."
+    },
+    {
+      "id": 498880,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "When at last the blood ceased flowing, the man revived and asked for something to drink. The King brought fresh water and gave it to him. Meanwhile the sun had set, and it became cool. So, the King, with the hermit's help, carried the wounded man into the hut and laid him on the bed. The man closed his eyes and lay quiet; but the King was so tired with his walk and with the work he had done that he crouched down on the threshold, and also fell asleep — so soundly that he slept all through the short summer night. When he awoke in the morning, it was long before he could remember where he was, or who was the strange bearded man lying on the bed and gazing intently at him with shining eyes."
+    },
+    {
+      "id": 498881,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"Forgive me!\" said the bearded man in a weak voice, when he saw that the King was awake and was looking at him. \"I do not know you, and have nothing to forgive you for,\" said the King. \"You do not know me, but I know you. I am that enemy of yours who swore to revenge himself on you, because you executed his brother and seized his property. I knew you had gone alone to see the hermit, and I resolved to kill you on your way back. But the day passed and you did not return. So, I came out from my ambush to find you, and I came upon your bodyguard, and they recognized me, and wounded me. I escaped from them, but should have bled to death had you not dressed my wound. I wished to kill you, and you have saved my life. Now, if I live, and if you wish it, I will serve you as your most faithful slave, and will bid my sons do the same. Forgive me!\""
+    },
+    {
+      "id": 498882,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "The King was very glad to have made peace with his enemy so easily, and to have gained him for a friend. He not only forgave him, but said he would send his servants and his own physician to attend him, and promised to restore his property. Having taken leave of the wounded man, the King went out into the porch and looked around for the hermit. Before going away he wished once more to beg an answer to the questions he had put. The hermit was outside, on his knees, sowing seeds in the beds that had been dug the day before. The King approached him, and said: \"For the last time, I pray you to answer my questions, wise man.\""
+    },
+    {
+      "id": 498883,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "\"You have already been answered!\" said the hermit, still crouching on his thin legs, and looking up at the King, who stood before him. \"How answered? What do you mean?\" asked the King. \"Do you not see,\" replied the hermit. \"If you had not pitied my weakness yesterday, and had not dug these beds for me, but had gone your way, that man would have attacked you, and you would have repented of not having stayed with me. Therefore, the most important time was when you were digging the beds; and I was the most important man; and to do me good was your most important business. Afterwards, when that man ran to us, the most important time was when you were attending to him; for if you had not bound up his wounds, he would have died without having made peace with you. So, he was the most important man, and what you did for him was your most important business."
+    },
+    {
+      "id": 498884,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Translate into Urdu",
+      "type": "long",
+      "field": "TRANSLATE_UR",
+      "en": "Remember then: there is only one time that is important — Now! It is the most important time because it is the only time when we have any power. The most necessary person is the one with whom you are, for no man knows whether he will ever have dealings with anyone else. And the most important affair is to do him good, because for that purpose alone was the man sent into this life.\""
+    },
+    {
+      "id": 509181,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "میرے گھر کے سامنے ایک باغ ہے۔ اس میں بہت سے پودے اور درخت ہیں۔ بہار کے موسم میں کئی رنگ کے پھول کھلتے ہیں۔ ان کی خوشبو ارد گرد پھیل جاتی ہے۔ شام کو باغ آدمیوں، عورتوں اور بچوں سے بھر جاتا ہے۔ لوگ ادھر اُدھر پھرتے اور لطف اُٹھاتے ہیں۔ بچے باغ میں دوڑتے ہیں۔ اب وہ یہاں ہیں اور دوسرے لمحے وہ باغ کے دوسرے کونے میں ہیں۔ ہر شام میں بھی باغ میں سیر کے لئے جاتا ہوں۔ بہت سے مالی باغ کی دیکھ بھال کرتے ہیں۔",
+      "ur": "میرے گھر کے سامنے ایک باغ ہے۔ اس میں بہت سے پودے اور درخت ہیں۔ بہار کے موسم میں کئی رنگ کے پھول کھلتے ہیں۔ ان کی خوشبو ارد گرد پھیل جاتی ہے۔ شام کو باغ آدمیوں، عورتوں اور بچوں سے بھر جاتا ہے۔ لوگ ادھر اُدھر پھرتے اور لطف اُٹھاتے ہیں۔ بچے باغ میں دوڑتے ہیں۔ اب وہ یہاں ہیں اور دوسرے لمحے وہ باغ کے دوسرے کونے میں ہیں۔ ہر شام میں بھی باغ میں سیر کے لئے جاتا ہوں۔ بہت سے مالی باغ کی دیکھ بھال کرتے ہیں۔"
+    },
+    {
+      "id": 509182,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "زندگی کے نشیب و فراز میں ایسے لمحات بھی آتے ہیں جب انسان بالکل نا اُمید ہو جاتا ہے۔ اسے ہر طرف اندھیرا ہی اندھیرا نظر آتا ہے اور اس کے مقابلے کی سکت ختم ہو جاتی ہے۔ یہ بات انسان کی عظمت کے خلاف ہے ۔دنیا میں جتنی بھی ترقی ہوئی ہے وہ اس عزم و ہمت کا نتیجہ ہے جو کہ اللہ نے انسان کو عطا فرمائی ہے۔ انسان کو چاہیے کہ کبھی ہمت نہ ہارے بلکہ مردانہ وار ناکامیوں کا مقابلہ کرے۔ اللہ تعالیٰ ایک دن ضرور کامیابی عطا کرے گا۔",
+      "ur": "زندگی کے نشیب و فراز میں ایسے لمحات بھی آتے ہیں جب انسان بالکل نا اُمید ہو جاتا ہے۔ اسے ہر طرف اندھیرا ہی اندھیرا نظر آتا ہے اور اس کے مقابلے کی سکت ختم ہو جاتی ہے۔ یہ بات انسان کی عظمت کے خلاف ہے ۔دنیا میں جتنی بھی ترقی ہوئی ہے وہ اس عزم و ہمت کا نتیجہ ہے جو کہ اللہ نے انسان کو عطا فرمائی ہے۔ انسان کو چاہیے کہ کبھی ہمت نہ ہارے بلکہ مردانہ وار ناکامیوں کا مقابلہ کرے۔ اللہ تعالیٰ ایک دن ضرور کامیابی عطا کرے گا۔"
+    },
+    {
+      "id": 509183,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "ایک دفعہ کا ذکر ہے کہ ایک گیدڑ ایک دریا کے کنارے رہتا تھا۔ دریا کے دوسرے کنارے پر خربوزے کے بہت سے کھیت تھے۔ دریا گہرا اور چوڑاتھا۔ گیدڑ جی بھر کر خربوزے کھانا چاہتا تھا۔ وہ دریا عبور نہیں کر سکتا تھا۔ ایک دن اس نے اپنے دوست اونٹ سے کہا &quot;اگر تم مجھے دریا کے دوسرے کنارے لے چلو تو میں بہت شکر گزار رہو گا&quot;۔ اونٹ رضا مند ہو گیا۔ گیدڑ اونٹ کی پیٹھ پر چھلانگ لگا کر چڑھ گیا۔ اونٹ دریا میں سے چلتا ہوا دوسرے کنارے پہنچ گیا۔ گیدڑ خربوزوں کے کھیت میں گھس گیا اورمزے سے خربوزے کھانے لگا۔",
+      "ur": "ایک دفعہ کا ذکر ہے کہ ایک گیدڑ ایک دریا کے کنارے رہتا تھا۔ دریا کے دوسرے کنارے پر خربوزے کے بہت سے کھیت تھے۔ دریا گہرا اور چوڑاتھا۔ گیدڑ جی بھر کر خربوزے کھانا چاہتا تھا۔ وہ دریا عبور نہیں کر سکتا تھا۔ ایک دن اس نے اپنے دوست اونٹ سے کہا &quot;اگر تم مجھے دریا کے دوسرے کنارے لے چلو تو میں بہت شکر گزار رہو گا&quot;۔ اونٹ رضا مند ہو گیا۔ گیدڑ اونٹ کی پیٹھ پر چھلانگ لگا کر چڑھ گیا۔ اونٹ دریا میں سے چلتا ہوا دوسرے کنارے پہنچ گیا۔ گیدڑ خربوزوں کے کھیت میں گھس گیا اورمزے سے خربوزے کھانے لگا۔"
+    },
+    {
+      "id": 509184,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "ڈر ہے کہ چند سال بعد دنیا کا تیل ختم ہو جائے گا۔ ہر ملک یہ کوشش کر رہا ہے کہ تیل کے مزید ذخیرے دریافت کرے۔ معلوم نہیں کہ یہ کوشش کس حد تک کامیاب ہو گی۔ ضرورت اس بات کی ہے کہ ہم اپنی تیل کی ضروریات کو کم کریں۔ صنعت و تجارت میں تیل کی کھپت کو کم نہیں کیا جاسکتا۔ البتہ نجی ضرورتوں کو کم کیا جا سکتا ہے۔ ہمیں چاہیے کہ باہر سے کاروں کی جگہ بسیں درآمد کریں تا کہ طالب علموں کے لیے بسوں کی سہولت کو بہتر بنایا جا سکے۔",
+      "ur": "ڈر ہے کہ چند سال بعد دنیا کا تیل ختم ہو جائے گا۔ ہر ملک یہ کوشش کر رہا ہے کہ تیل کے مزید ذخیرے دریافت کرے۔ معلوم نہیں کہ یہ کوشش کس حد تک کامیاب ہو گی۔ ضرورت اس بات کی ہے کہ ہم اپنی تیل کی ضروریات کو کم کریں۔ صنعت و تجارت میں تیل کی کھپت کو کم نہیں کیا جاسکتا۔ البتہ نجی ضرورتوں کو کم کیا جا سکتا ہے۔ ہمیں چاہیے کہ باہر سے کاروں کی جگہ بسیں درآمد کریں تا کہ طالب علموں کے لیے بسوں کی سہولت کو بہتر بنایا جا سکے۔"
+    },
+    {
+      "id": 509185,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "میں دسویں جماعت میں پڑھتا ہوں۔ جس سکول میں پڑھتا ہوں وہ شہر کا ایک مشہور سکول ہے۔ میری جماعت کو چار اُستاد پڑھاتے ہیں۔ وہ سب کے سب قابل ہیں۔ لیکن مجھے سب سے زیادہ مسٹر زید پسند ہیں۔ وہ ہمیں انگریزی اور حساب پڑھاتے ہیں۔ ان کے پڑھانے کا طریقہ اتنا اچھا ہے کہ جو کچھ پڑھاتے ہیں وہ ہمیں فوراً یاد ہو جاتا ہے۔ اسی لئے ان کی جماعت کا نتیجہ سو فیصد ہوتا ہے۔",
+      "ur": "میں دسویں جماعت میں پڑھتا ہوں۔ جس سکول میں پڑھتا ہوں وہ شہر کا ایک مشہور سکول ہے۔ میری جماعت کو چار اُستاد پڑھاتے ہیں۔ وہ سب کے سب قابل ہیں۔ لیکن مجھے سب سے زیادہ مسٹر زید پسند ہیں۔ وہ ہمیں انگریزی اور حساب پڑھاتے ہیں۔ ان کے پڑھانے کا طریقہ اتنا اچھا ہے کہ جو کچھ پڑھاتے ہیں وہ ہمیں فوراً یاد ہو جاتا ہے۔ اسی لئے ان کی جماعت کا نتیجہ سو فیصد ہوتا ہے۔"
+    },
+    {
+      "id": 509186,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "ایک کنجوس تھا۔ ایک دفعہ اس کا بٹوا گم ہو گیا۔ بٹوے میں ایک سو روپے تھے ۔ اس نے اعلان کیا ،&quot;جو میرا بٹوا ڈھونڈ کر لائے گا میں اسے دس روپے دوں گا&quot;۔ ایک دن ایک کسان اس کا بٹوا لے کر آیا۔ کنجوس نے بٹوا دیکھا۔ اس میں پورے سو روپے تھے۔ جب کسان نے اپنا انعام مانگا تو کنجوس نے کہا &quot;میرے بٹوے میں ایک سو روپے تھے۔ اب صرف ایک سو ہیں تم پہلے ہی دس روپے لے چکے ہو&quot;۔",
+      "ur": "ایک کنجوس تھا۔ ایک دفعہ اس کا بٹوا گم ہو گیا۔ بٹوے میں ایک سو روپے تھے ۔ اس نے اعلان کیا ،&quot;جو میرا بٹوا ڈھونڈ کر لائے گا میں اسے دس روپے دوں گا&quot;۔ ایک دن ایک کسان اس کا بٹوا لے کر آیا۔ کنجوس نے بٹوا دیکھا۔ اس میں پورے سو روپے تھے۔ جب کسان نے اپنا انعام مانگا تو کنجوس نے کہا &quot;میرے بٹوے میں ایک سو روپے تھے۔ اب صرف ایک سو ہیں تم پہلے ہی دس روپے لے چکے ہو&quot;۔"
+    },
+    {
+      "id": 509187,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "انار کلی لاہور کا مصروف ترین بازار ہے۔ یہ ہمیشہ لوگوں سے بھرا رہتا ہے۔ دکانیں رات گئے تک کھلی رہتی ہیں۔ آپ یہاں سے تقریباً ہر قسم کی چیزیں خرید سکتے ہیں۔ کچھ لوگ یہاں سے اشیاء خریدنے آتے ہیں لیکن بہت سے لوگ سیرو تفریح کے لیے آتے ہیں۔ انار کلی میں بہت سے پھیری والے بھی ہوتے ہیں۔ وہ بٹن، فیتے ، سوئیاں، کلپ اور اس قسم کی دوسری اشیاء بیچتے ہیں۔ کچھ جیب تراش بھی انار کلی میں آتے ہیں۔ اگر آپ انار کلی جائیں تو ان جیب تراشوں سے ہوشیار رہیں۔",
+      "ur": "انار کلی لاہور کا مصروف ترین بازار ہے۔ یہ ہمیشہ لوگوں سے بھرا رہتا ہے۔ دکانیں رات گئے تک کھلی رہتی ہیں۔ آپ یہاں سے تقریباً ہر قسم کی چیزیں خرید سکتے ہیں۔ کچھ لوگ یہاں سے اشیاء خریدنے آتے ہیں لیکن بہت سے لوگ سیرو تفریح کے لیے آتے ہیں۔ انار کلی میں بہت سے پھیری والے بھی ہوتے ہیں۔ وہ بٹن، فیتے ، سوئیاں، کلپ اور اس قسم کی دوسری اشیاء بیچتے ہیں۔ کچھ جیب تراش بھی انار کلی میں آتے ہیں۔ اگر آپ انار کلی جائیں تو ان جیب تراشوں سے ہوشیار رہیں۔"
+    },
+    {
+      "id": 509188,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "والدین کی عزت کرنا ہمارا اخلاقی فرض ہے۔ وہ ہمارا بہت خیال رکھتے ہیں۔ وہ ہمیں خوراک دیتے ہیں۔ وہ ہمیں لباس دیتے ہیں۔ وہ ہمیں تمام چیزیں مہیا کرتے ہیں جن کی ہمیں ضرورت ہوتی ہے۔ وہ ہمیں سکول بھیجتے ہیں تا کہ ہم تعلیم حاصل کرنے کے بعد ان کی خدمت کریں۔ اس سے ہمیں راحت ملے گی۔",
+      "ur": "والدین کی عزت کرنا ہمارا اخلاقی فرض ہے۔ وہ ہمارا بہت خیال رکھتے ہیں۔ وہ ہمیں خوراک دیتے ہیں۔ وہ ہمیں لباس دیتے ہیں۔ وہ ہمیں تمام چیزیں مہیا کرتے ہیں جن کی ہمیں ضرورت ہوتی ہے۔ وہ ہمیں سکول بھیجتے ہیں تا کہ ہم تعلیم حاصل کرنے کے بعد ان کی خدمت کریں۔ اس سے ہمیں راحت ملے گی۔"
+    },
+    {
+      "id": 509189,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "ایک دفعہ دو دوست سفر پر روانہ ہوئے۔ انہوں نے ایک دوسرے سے وعدہ کیا کہ وہ ایک دوسرے کی مصیبت میں مدد کریں گے۔ وہ ایک جنگل میں پہنچے۔ انہوں نے ایک ریچھ کو اپنی طرف آتے دیکھا۔ ان میں سے ایک بھاگا اور درخت پر چڑھ گیا۔ اس کا دوست درخت پر نہ چڑھ سکا۔ وہ لیٹ گیا اور دم سادھ لیا۔",
+      "ur": "ایک دفعہ دو دوست سفر پر روانہ ہوئے۔ انہوں نے ایک دوسرے سے وعدہ کیا کہ وہ ایک دوسرے کی مصیبت میں مدد کریں گے۔ وہ ایک جنگل میں پہنچے۔ انہوں نے ایک ریچھ کو اپنی طرف آتے دیکھا۔ ان میں سے ایک بھاگا اور درخت پر چڑھ گیا۔ اس کا دوست درخت پر نہ چڑھ سکا۔ وہ لیٹ گیا اور دم سادھ لیا۔"
+    },
+    {
+      "id": 509190,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "شہر آنے سے پہلے ہم گاؤں میں رہتے تھے۔ گاؤں میں ہم لوگ بہت خوش تھے۔ ہم صبح سویرے اُٹھتے تھے۔ منہ ہاتھ دھو کر نماز پڑھتے ۔پھر سر سبز کھیتوں میں سیر کے لئے نکل جاتے۔ دوپہر کو درختوں کی چھاؤں میں سوتے تھے۔گاؤں کے پاس ایک ندی بہتی تھی۔ اس کا پانی صاف اور ٹھنڈا تھا۔",
+      "ur": "شہر آنے سے پہلے ہم گاؤں میں رہتے تھے۔ گاؤں میں ہم لوگ بہت خوش تھے۔ ہم صبح سویرے اُٹھتے تھے۔ منہ ہاتھ دھو کر نماز پڑھتے ۔پھر سر سبز کھیتوں میں سیر کے لئے نکل جاتے۔ دوپہر کو درختوں کی چھاؤں میں سوتے تھے۔گاؤں کے پاس ایک ندی بہتی تھی۔ اس کا پانی صاف اور ٹھنڈا تھا۔"
+    },
+    {
+      "id": 509191,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "ایک دفعہ ایک کوا پیاسا تھا۔ وہ ایک جگہ سے دوسری جگہ اُڑا لیکن اس کو کہیں پانی نہ ملا۔ بالا آخر وہ ایک باغ میں پہنچا۔ وہاں اس نے پانی کا ایک گھڑا دیکھا ۔وہ بہت خوش ہوا۔ اس نے گھڑے میں دیکھا۔ پانی اتنا نیچا تھا کہ اس کی چونچ پانی تک نہ پہنچ سکی۔ کوا سیانا تھا۔ اسے ایک ترکیب سوجھی۔",
+      "ur": "ایک دفعہ ایک کوا پیاسا تھا۔ وہ ایک جگہ سے دوسری جگہ اُڑا لیکن اس کو کہیں پانی نہ ملا۔ بالا آخر وہ ایک باغ میں پہنچا۔ وہاں اس نے پانی کا ایک گھڑا دیکھا ۔وہ بہت خوش ہوا۔ اس نے گھڑے میں دیکھا۔ پانی اتنا نیچا تھا کہ اس کی چونچ پانی تک نہ پہنچ سکی۔ کوا سیانا تھا۔ اسے ایک ترکیب سوجھی۔"
+    },
+    {
+      "id": 509192,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "اڑھائی سو سال سے زیادہ کا عرصہ گزرا ہے۔ جرمنی کے ایک چھوٹے سے قصبے میں ایک لڑکا رہتا تھا۔ اس کا نام جارج فریڈرک ہینڈل تھا۔ اس کا والد مشہور ڈاکٹر تھا۔ بوڑھے ڈاکٹر نے ایک دن اپنے بیٹے سے کہا &quot;جارج تم بھی ایک دن شہرت پاؤ گے۔شاید تم بھی بڑے ڈاکٹر بنو گے یا جج&quot;۔ جارج نے جواب دیا &quot;میں نہ ڈاکٹر بننا چاہتا ہوں نہ جج۔ میں اپنی زندگی موسیقی کے لیے وقف کرنا چاہتا ہوں&quot;۔ اور وہ واقعی ایک دن بہت بڑا موسیقار بن گیا۔",
+      "ur": "اڑھائی سو سال سے زیادہ کا عرصہ گزرا ہے۔ جرمنی کے ایک چھوٹے سے قصبے میں ایک لڑکا رہتا تھا۔ اس کا نام جارج فریڈرک ہینڈل تھا۔ اس کا والد مشہور ڈاکٹر تھا۔ بوڑھے ڈاکٹر نے ایک دن اپنے بیٹے سے کہا &quot;جارج تم بھی ایک دن شہرت پاؤ گے۔شاید تم بھی بڑے ڈاکٹر بنو گے یا جج&quot;۔ جارج نے جواب دیا &quot;میں نہ ڈاکٹر بننا چاہتا ہوں نہ جج۔ میں اپنی زندگی موسیقی کے لیے وقف کرنا چاہتا ہوں&quot;۔ اور وہ واقعی ایک دن بہت بڑا موسیقار بن گیا۔"
+    },
+    {
+      "id": 509193,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "کراچی ایک خوبصورت اور اہم شہر ہے۔ کراچی پاکستان کا سب سے بڑا شہر ہے ۔ یہ بحیرہ عرب کے ساحل پر واقع ہے۔ یہاں کی آب و ہوا متعدل ہے۔ یہاں نسیم بری اور نسیم بحری چلتی رہتی ہے۔ ایک وقت کراچی پاکستان کا دارالحکومت تھا۔ یہ ایک بندرگاہ ہے۔ دوسرے ملکوں سے ہماری تجارت اسی بندرگاہ کے ذریعے ہوتی ہے ۔ہمارے محبوب رہنما قائد اعظم کراچی میں پیدا ہوئے تھے۔ ان کا مزار بھی اسی شہر میں ہے۔ جو لوگ بھی کراچی جاتے ہیں قائداعظم کے مزار پر فاتحہ پڑھتے ہیں۔",
+      "ur": "کراچی ایک خوبصورت اور اہم شہر ہے۔ کراچی پاکستان کا سب سے بڑا شہر ہے ۔ یہ بحیرہ عرب کے ساحل پر واقع ہے۔ یہاں کی آب و ہوا متعدل ہے۔ یہاں نسیم بری اور نسیم بحری چلتی رہتی ہے۔ ایک وقت کراچی پاکستان کا دارالحکومت تھا۔ یہ ایک بندرگاہ ہے۔ دوسرے ملکوں سے ہماری تجارت اسی بندرگاہ کے ذریعے ہوتی ہے ۔ہمارے محبوب رہنما قائد اعظم کراچی میں پیدا ہوئے تھے۔ ان کا مزار بھی اسی شہر میں ہے۔ جو لوگ بھی کراچی جاتے ہیں قائداعظم کے مزار پر فاتحہ پڑھتے ہیں۔"
+    },
+    {
+      "id": 509194,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "جوہری توانائی کو انسان کے فائدے کے لیے استعمال کیا جا سکتا ہے ۔اسے دنیا کو تباہ کرنے کے لیے بھی استعمال کیا جا سکتا ہے۔ جوہری توانائی ہمارے لیے بجلی پیدا کر سکتی ہے۔ کراچی میں ایک بجلی گھر ہے۔ آج کل جوہری توانائی سے پیدا کی جانے والی بجلی سستی ہونے کے امکان موجود ہیں۔ ہمیں چاہیے کہ جوہری توانائی کو صرف پرامن مقاصد کے لیے استعمال کریں۔",
+      "ur": "جوہری توانائی کو انسان کے فائدے کے لیے استعمال کیا جا سکتا ہے ۔اسے دنیا کو تباہ کرنے کے لیے بھی استعمال کیا جا سکتا ہے۔ جوہری توانائی ہمارے لیے بجلی پیدا کر سکتی ہے۔ کراچی میں ایک بجلی گھر ہے۔ آج کل جوہری توانائی سے پیدا کی جانے والی بجلی سستی ہونے کے امکان موجود ہیں۔ ہمیں چاہیے کہ جوہری توانائی کو صرف پرامن مقاصد کے لیے استعمال کریں۔"
+    },
+    {
+      "id": 509195,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "انور میرا سب سے بہترین دوست ہے۔ اس کے والد ایک استاد ہیں۔ وہ بہت نیک اور ایماندار آدمی ہیں۔ انور ہمارے گھر کے قریب ہی رہتا ہے۔ اس کا مکان بہت اچھا اور خوبصورت ہے۔ ہم اکٹھے سکول جاتے ہیں۔ شام کو میں اس کے گھر جاتا ہوں۔ ہم اکٹھے پڑھتے ہیں۔ وہ امتحان میں ہمیشہ اوّل آتا ہے۔ وہ صاف ستھرے کپڑے پہنتا ہے۔",
+      "ur": "انور میرا سب سے بہترین دوست ہے۔ اس کے والد ایک استاد ہیں۔ وہ بہت نیک اور ایماندار آدمی ہیں۔ انور ہمارے گھر کے قریب ہی رہتا ہے۔ اس کا مکان بہت اچھا اور خوبصورت ہے۔ ہم اکٹھے سکول جاتے ہیں۔ شام کو میں اس کے گھر جاتا ہوں۔ ہم اکٹھے پڑھتے ہیں۔ وہ امتحان میں ہمیشہ اوّل آتا ہے۔ وہ صاف ستھرے کپڑے پہنتا ہے۔"
+    },
+    {
+      "id": 509196,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "دودھ ایک مکمل غذا ہے۔ یہ میٹھا اور لذیذ ہوتا ہے۔ اس کا رنگ سفید ہوتا ہے۔ ہم زیادہ تر دودھ گائے اور بھینس سے حاصل کرتے ہیں۔ دودھ ہمیں صحت مند اور طاقتور بناتا ہے۔ ہم اس سے دہی، مکھن اور پنیر بھی بناتے ہیں۔ بچوں اور مریضوں کے لیے دودھ بیش قیمت غذا ہے۔ دودھ کو ہمیشہ ابال کر استعمال کرنا چاہیے۔",
+      "ur": "دودھ ایک مکمل غذا ہے۔ یہ میٹھا اور لذیذ ہوتا ہے۔ اس کا رنگ سفید ہوتا ہے۔ ہم زیادہ تر دودھ گائے اور بھینس سے حاصل کرتے ہیں۔ دودھ ہمیں صحت مند اور طاقتور بناتا ہے۔ ہم اس سے دہی، مکھن اور پنیر بھی بناتے ہیں۔ بچوں اور مریضوں کے لیے دودھ بیش قیمت غذا ہے۔ دودھ کو ہمیشہ ابال کر استعمال کرنا چاہیے۔"
+    },
+    {
+      "id": 509197,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "شیر ایک طاقتور جانور ہے۔ یہ دیکھنے میں بہت خوفناک نظر آتا ہے۔ اس کی گردن پر لمبے لمبے بال ہوتے ہیں۔ یہ افریقہ اور ایشیا کے جنگلوں میں پایا جاتا ہے۔ یہ غاروں میں رہتا ہے۔ اسے جنگل کا بادشاہ کہتے ہیں۔ یہ انسان کا بڑا دشمن ہے۔ لیکن شکاری اس کے بچوں کو چرا لیتے ہیں۔ وہ ان کو سدھاتے اور سرکس میں ان سے کام لیتے ہیں۔",
+      "ur": "شیر ایک طاقتور جانور ہے۔ یہ دیکھنے میں بہت خوفناک نظر آتا ہے۔ اس کی گردن پر لمبے لمبے بال ہوتے ہیں۔ یہ افریقہ اور ایشیا کے جنگلوں میں پایا جاتا ہے۔ یہ غاروں میں رہتا ہے۔ اسے جنگل کا بادشاہ کہتے ہیں۔ یہ انسان کا بڑا دشمن ہے۔ لیکن شکاری اس کے بچوں کو چرا لیتے ہیں۔ وہ ان کو سدھاتے اور سرکس میں ان سے کام لیتے ہیں۔"
+    },
+    {
+      "id": 509198,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "ایک نوجوان باغ میں بیٹھا تھا۔ وہ کچھ فکر مند تھا۔ کچھ دیر بعد ایک بوڑھا آدمی باغ میں داخل ہوا۔ اس نے نوجوان کو ایک خط دیا۔ نوجوان نے خط کھولا اور اسے پڑھا۔ وہ خط پڑھ کر بہت خوش ہوا۔ اس کی فکر مندی کے آثار غائب ہو گئے۔ اس نے بوڑھے آدمی کا شکریہ ادا کیا۔",
+      "ur": "ایک نوجوان باغ میں بیٹھا تھا۔ وہ کچھ فکر مند تھا۔ کچھ دیر بعد ایک بوڑھا آدمی باغ میں داخل ہوا۔ اس نے نوجوان کو ایک خط دیا۔ نوجوان نے خط کھولا اور اسے پڑھا۔ وہ خط پڑھ کر بہت خوش ہوا۔ اس کی فکر مندی کے آثار غائب ہو گئے۔ اس نے بوڑھے آدمی کا شکریہ ادا کیا۔"
+    },
+    {
+      "id": 509199,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "لاہور ایک پرانا اور تاریخی شہر ہے۔ یہ دریائے راوی کے کنارے پر واقع ہے۔ یہ صوبہ پنجاب کا دارالحکومت ہے۔ اس شہر میں بہت سی تاریخی عمارتیں ہیں۔ بادشاہی مسجد دنیا کی سب سے بڑی مسجدوں میں سے ایک ہے۔ شاہی مسجد کے پاس ہی علامہ اقبال کا مزار ہے۔ اقبال نے ہم کو پاکستان کا تصور دیا تھا۔ قرار داد پاکستان لاہور ہی میں منظور کی گئی تھی۔ مینار پاکستان اسی قرار داد کی یاد میں تعمیر کیا گیا۔ یہ اقبال پارک میں تعمیر کیا گیا۔",
+      "ur": "لاہور ایک پرانا اور تاریخی شہر ہے۔ یہ دریائے راوی کے کنارے پر واقع ہے۔ یہ صوبہ پنجاب کا دارالحکومت ہے۔ اس شہر میں بہت سی تاریخی عمارتیں ہیں۔ بادشاہی مسجد دنیا کی سب سے بڑی مسجدوں میں سے ایک ہے۔ شاہی مسجد کے پاس ہی علامہ اقبال کا مزار ہے۔ اقبال نے ہم کو پاکستان کا تصور دیا تھا۔ قرار داد پاکستان لاہور ہی میں منظور کی گئی تھی۔ مینار پاکستان اسی قرار داد کی یاد میں تعمیر کیا گیا۔ یہ اقبال پارک میں تعمیر کیا گیا۔"
+    },
+    {
+      "id": 509200,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "الہ دین چین کے شہر بیجنگ میں رہتا تھا۔ اس کا والد درزی کا کام کرتا تھا۔ وہ بہت محنتی شخص تھا۔ الہ دین ابھی چھوٹا ہی تھا کہ اس کے والد کا انتقال ہو گیا۔ الہ دین اور اس کی والدہ نے بہت افلاس کی زندگی گزاری۔ الہ دین بہت کاہل تھا۔ وہ تمام دن گلیوں میں کھیلتا اور کوئی کام نہیں کرتا تھا۔ البتہ وہ جسمانی طور پر مضبوط اور طاقتور تھا۔",
+      "ur": "الہ دین چین کے شہر بیجنگ میں رہتا تھا۔ اس کا والد درزی کا کام کرتا تھا۔ وہ بہت محنتی شخص تھا۔ الہ دین ابھی چھوٹا ہی تھا کہ اس کے والد کا انتقال ہو گیا۔ الہ دین اور اس کی والدہ نے بہت افلاس کی زندگی گزاری۔ الہ دین بہت کاہل تھا۔ وہ تمام دن گلیوں میں کھیلتا اور کوئی کام نہیں کرتا تھا۔ البتہ وہ جسمانی طور پر مضبوط اور طاقتور تھا۔"
+    },
+    {
+      "id": 509201,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "چڑیا گھر میں ہم نے بہت سے جانور دیکھے۔ یہ جانور ہم نے پہلے کبھی نہیں دیکھے تھے۔ ہم سب بہت خوش ہوئے۔ میرا چھوٹا بھائی خاص طور پر خوش ہوا۔ جب اس نے مور کو دیکھا تو خوشی سے اُچھلنے لگا۔ اس نے ابا جان سے کہا &quot; ابا جان! کیا آپ مجھے ایک مور خرید کر دے سکتے ہیں؟ یہ بہت خوبصور جانور ہے&quot;۔ ابا جان نے بتایا کہ یہ مور بیچنے کے لیے نہیں ہیں۔",
+      "ur": "چڑیا گھر میں ہم نے بہت سے جانور دیکھے۔ یہ جانور ہم نے پہلے کبھی نہیں دیکھے تھے۔ ہم سب بہت خوش ہوئے۔ میرا چھوٹا بھائی خاص طور پر خوش ہوا۔ جب اس نے مور کو دیکھا تو خوشی سے اُچھلنے لگا۔ اس نے ابا جان سے کہا &quot; ابا جان! کیا آپ مجھے ایک مور خرید کر دے سکتے ہیں؟ یہ بہت خوبصور جانور ہے&quot;۔ ابا جان نے بتایا کہ یہ مور بیچنے کے لیے نہیں ہیں۔"
+    },
+    {
+      "id": 509202,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "میری والدہ مجھ سے بہت محبت کرتی ہیں۔ وہ میری صحت کا ہمیشہ خیال رکھتی ہیں۔ ایسی خوراک پکاتی ہیں جو میں پسند کرتا ہوں۔ لیکن مجھے زیادہ کھانے سے روکتی ہیں۔ مجھے اچھے اچھے کپڑے دیتی ہیں۔ زیادہ قیمتی کپڑوں کے خلاف ہیں۔ مجھے باقاعدہ کتابیں پڑھاتی ہیں۔ میں انگریزی میں ذرا کمزور ہوں۔ لہٰذا انہوں نے میرے لیے ایک استاد رکھا ہے۔ مجھے روزانہ پڑھنے کی تاکید کرتی ہیں۔",
+      "ur": "میری والدہ مجھ سے بہت محبت کرتی ہیں۔ وہ میری صحت کا ہمیشہ خیال رکھتی ہیں۔ ایسی خوراک پکاتی ہیں جو میں پسند کرتا ہوں۔ لیکن مجھے زیادہ کھانے سے روکتی ہیں۔ مجھے اچھے اچھے کپڑے دیتی ہیں۔ زیادہ قیمتی کپڑوں کے خلاف ہیں۔ مجھے باقاعدہ کتابیں پڑھاتی ہیں۔ میں انگریزی میں ذرا کمزور ہوں۔ لہٰذا انہوں نے میرے لیے ایک استاد رکھا ہے۔ مجھے روزانہ پڑھنے کی تاکید کرتی ہیں۔"
+    },
+    {
+      "id": 509203,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "اورنگ زیب بڑا نیک دل اور خدا ترس بادشاہ تھا۔ وہ بہت سویرے جاگ اُٹھتا اور خدا کی عبادت کیا کرتا تھا۔ اس نے اپنے عہد حکومت میں یہ حکم جاری کر رکھا تھا کہ صبح بستر سے اُٹھ کر خدا کی عبادت کرو اور نیک کام کرو تا کہ سارا دن خوشی خوشی گزر جائے۔ وہ خود سورج نکلتے ہی دربار لگاتا۔ غریبوں، محتاجوں اور مظلوموں کی فریاد سنتا۔ وہ ان سے محبت سے پیش آتا۔ نہایت توجہ سے ان کا حال پوچھتا اور ان کی مرادیں پوری کرتا۔",
+      "ur": "اورنگ زیب بڑا نیک دل اور خدا ترس بادشاہ تھا۔ وہ بہت سویرے جاگ اُٹھتا اور خدا کی عبادت کیا کرتا تھا۔ اس نے اپنے عہد حکومت میں یہ حکم جاری کر رکھا تھا کہ صبح بستر سے اُٹھ کر خدا کی عبادت کرو اور نیک کام کرو تا کہ سارا دن خوشی خوشی گزر جائے۔ وہ خود سورج نکلتے ہی دربار لگاتا۔ غریبوں، محتاجوں اور مظلوموں کی فریاد سنتا۔ وہ ان سے محبت سے پیش آتا۔ نہایت توجہ سے ان کا حال پوچھتا اور ان کی مرادیں پوری کرتا۔"
+    },
+    {
+      "id": 509204,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "یہ نوجوان قائد اعظم کو قتل کرنے کے ارادے سے آیاتھا۔ جب اس نے دیکھا کہ کوئی آس پاس نہیں ہے اس نے تیزی سے چاقو نکالا۔ وہ قائد اعظم کی طرف لپکا۔ اللہ تعالیٰ نے قائد اعظم کو بہت عقل اور حوصلہ عطا کیا تھا۔ انہوں نے اپنا لمبا بازو بڑھا کر قاتل کا ہاتھ مضبوطی سے پکڑ لیا۔ انہوں نے اپنے پرائیویٹ سیکرٹری کو آواز دی۔ مجرم کو گرفتار کر لیا گیا ۔ تمام لوگوں نے دیکھ لیا کہ قائد اعظم بہادر انسان تھے۔",
+      "ur": "یہ نوجوان قائد اعظم کو قتل کرنے کے ارادے سے آیاتھا۔ جب اس نے دیکھا کہ کوئی آس پاس نہیں ہے اس نے تیزی سے چاقو نکالا۔ وہ قائد اعظم کی طرف لپکا۔ اللہ تعالیٰ نے قائد اعظم کو بہت عقل اور حوصلہ عطا کیا تھا۔ انہوں نے اپنا لمبا بازو بڑھا کر قاتل کا ہاتھ مضبوطی سے پکڑ لیا۔ انہوں نے اپنے پرائیویٹ سیکرٹری کو آواز دی۔ مجرم کو گرفتار کر لیا گیا ۔ تمام لوگوں نے دیکھ لیا کہ قائد اعظم بہادر انسان تھے۔"
+    },
+    {
+      "id": 509205,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "حضرت محمدﷺ مکے میں پیدا ہوئے۔ آپﷺ کے والد کا نام عبد اللہ تھا۔ آپﷺ کے دادا نے آپﷺ کی پرورش کی۔ جب آپﷺ پچیس برس کے ہوگئے تو آپﷺ نے حضرت خدیجہ ؓ سے شادی کر لی۔ جب آپﷺ چالیس برس کے ہوئے تو آپﷺ نے کہا کہ میں پیغمبر ہوں ۔میری بات غور سے سنو۔ خدا ایک ہے اس کی عبادت کرو۔",
+      "ur": "حضرت محمدﷺ مکے میں پیدا ہوئے۔ آپﷺ کے والد کا نام عبد اللہ تھا۔ آپﷺ کے دادا نے آپﷺ کی پرورش کی۔ جب آپﷺ پچیس برس کے ہوگئے تو آپﷺ نے حضرت خدیجہ ؓ سے شادی کر لی۔ جب آپﷺ چالیس برس کے ہوئے تو آپﷺ نے کہا کہ میں پیغمبر ہوں ۔میری بات غور سے سنو۔ خدا ایک ہے اس کی عبادت کرو۔"
+    },
+    {
+      "id": 509206,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "پرانے زمانے میں کابل میں ایک سوداگر رہتا تھا۔ اس کا ایک بیٹا تھا۔ سوداگر کے بیٹے کو بچپن ہی سے پڑھنے لکھنے کا شوق تھا۔ باپ نے اس کو پوری توجہ سے پڑھایا۔ اسے اچھے اچھے اُستادوں کے پاس بھیجا ۔اچھے اچھے مدرسوں میں تعلیم دلوائی اور اچھی سے اچھی کتابیں مہیا کیں۔ نتیجہ یہ ہوا کہ وہ جوان ہوتے ہوتے اس زمانے کے اکثر علوم میں ماہر ہو گیا۔ اس کے علم کی شہرت بادشاہ تک پہنچی تو وہ بہت خوش ہوا۔ بادشاہ نے سوداگر کے بیتے کو وزیر بنا لیا اور اپنا ہر کام اس کے مشورے سے کرنے لگا۔",
+      "ur": "پرانے زمانے میں کابل میں ایک سوداگر رہتا تھا۔ اس کا ایک بیٹا تھا۔ سوداگر کے بیٹے کو بچپن ہی سے پڑھنے لکھنے کا شوق تھا۔ باپ نے اس کو پوری توجہ سے پڑھایا۔ اسے اچھے اچھے اُستادوں کے پاس بھیجا ۔اچھے اچھے مدرسوں میں تعلیم دلوائی اور اچھی سے اچھی کتابیں مہیا کیں۔ نتیجہ یہ ہوا کہ وہ جوان ہوتے ہوتے اس زمانے کے اکثر علوم میں ماہر ہو گیا۔ اس کے علم کی شہرت بادشاہ تک پہنچی تو وہ بہت خوش ہوا۔ بادشاہ نے سوداگر کے بیتے کو وزیر بنا لیا اور اپنا ہر کام اس کے مشورے سے کرنے لگا۔"
+    },
+    {
+      "id": 509207,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "یہ ہمارا مکان ہے۔ جب ابا جان نے یہ مکان خریدا ،میری عمر صرف پانچ سال تھی۔ دس برس سے میں اس مکان میں رہ رہا ہوں۔ ہمارا کنبہ بہت بڑا ہے۔ لیکن یہ مکان بہت چھوٹا ہے۔ ابا جان کہتے ہیں کہ وہ اس مکان کو بیچ دیں گے اور ایک بڑا مکان گلبرگ میں خریدیں گے۔ مگر میں اس مکان کو چھوڑنا نہیں چاہتا۔ مجھے اس مکان سے محبت ہو گئی ہے۔",
+      "ur": "یہ ہمارا مکان ہے۔ جب ابا جان نے یہ مکان خریدا ،میری عمر صرف پانچ سال تھی۔ دس برس سے میں اس مکان میں رہ رہا ہوں۔ ہمارا کنبہ بہت بڑا ہے۔ لیکن یہ مکان بہت چھوٹا ہے۔ ابا جان کہتے ہیں کہ وہ اس مکان کو بیچ دیں گے اور ایک بڑا مکان گلبرگ میں خریدیں گے۔ مگر میں اس مکان کو چھوڑنا نہیں چاہتا۔ مجھے اس مکان سے محبت ہو گئی ہے۔"
+    },
+    {
+      "id": 509208,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "امجد کے والد بچپن میں ہی فوت ہو گئے تھے۔ وہ یتیم ہو گیا۔ اس کا چچا اسے اپنے گھر لے آیا۔ چچا کا کوئی بیٹا نہیں تھا۔ اس نے اپنے بیٹے کی طرح اس کی پرورش کی۔ امجد نے ایم۔اے کا امتحان پاس کر لیا اور اسے ایک اچھی سی ملازمت مل گئی۔ اب اس کا چچا بوڑھا ہو چکا تھا۔ امجد نے اپنے باپ کی طرح اپنے چچا کی خدمت کی۔چچا نے امجد کو اپنا داماد بنا لیا۔ امجد اب اپنے چچا کے کنبے کا ممبر بن گیا۔",
+      "ur": "امجد کے والد بچپن میں ہی فوت ہو گئے تھے۔ وہ یتیم ہو گیا۔ اس کا چچا اسے اپنے گھر لے آیا۔ چچا کا کوئی بیٹا نہیں تھا۔ اس نے اپنے بیٹے کی طرح اس کی پرورش کی۔ امجد نے ایم۔اے کا امتحان پاس کر لیا اور اسے ایک اچھی سی ملازمت مل گئی۔ اب اس کا چچا بوڑھا ہو چکا تھا۔ امجد نے اپنے باپ کی طرح اپنے چچا کی خدمت کی۔چچا نے امجد کو اپنا داماد بنا لیا۔ امجد اب اپنے چچا کے کنبے کا ممبر بن گیا۔"
+    },
+    {
+      "id": 509209,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "حضرت عائشہ ؓ ،حضرت ابو بکر صدیق ؓ کی بیٹی تھیں جو کہ رسول اللہﷺ کے گہرے دوستے تھے۔ آپؓ رسول اللہ ﷺ کی بیوی تھیں۔ آپؓ ایک چھوٹے سے کمرے میں رہتی تھیں۔ یہ ایک سادہ سا کمرہ تھا جس کی چھت نیچی تھی۔ حضرت عائشہؓ گھر کا کام خود کرتی تھیں ۔ آپ ؓ کی زندگی سادہ تھی۔ آپؓ کو رسول اللہﷺ سے بڑی محبت تھی۔ آپؓ بہت ذہین تھیں اور اسلام کے بارے میں بہت کچھ جانتی تھیں۔",
+      "ur": "حضرت عائشہ ؓ ،حضرت ابو بکر صدیق ؓ کی بیٹی تھیں جو کہ رسول اللہﷺ کے گہرے دوستے تھے۔ آپؓ رسول اللہ ﷺ کی بیوی تھیں۔ آپؓ ایک چھوٹے سے کمرے میں رہتی تھیں۔ یہ ایک سادہ سا کمرہ تھا جس کی چھت نیچی تھی۔ حضرت عائشہؓ گھر کا کام خود کرتی تھیں ۔ آپ ؓ کی زندگی سادہ تھی۔ آپؓ کو رسول اللہﷺ سے بڑی محبت تھی۔ آپؓ بہت ذہین تھیں اور اسلام کے بارے میں بہت کچھ جانتی تھیں۔"
+    },
+    {
+      "id": 509210,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "ایک دفعہ کا ذکر ہے کہ ایک کوے کو گوشت کا ٹکڑا ملا۔ وہ درخت کی شاخ پر بیٹھ گیا۔ اتنے میں ایک لومڑی ادھر آ پہنچی۔ لومڑے نے دل میں کہا &quot;یہ ٹکڑا مجھے اس کوے سے حاصل کرنا چاہیے&quot;۔ اس نے قریب جا کر کوے سے کہا &quot;میں نے سنا ہے کہ تم اچھا گا سکتے ہو۔ تمہاری آواز بڑی میٹھی ہے۔ میں چاہتی ہوں کہ تمہارے گیت کا مزہ اُٹھاؤں۔ کیا تم مہربانی کر کے گانا سناؤ گے؟&quot; اس پر کوا خوش ہو گیا۔",
+      "ur": "ایک دفعہ کا ذکر ہے کہ ایک کوے کو گوشت کا ٹکڑا ملا۔ وہ درخت کی شاخ پر بیٹھ گیا۔ اتنے میں ایک لومڑی ادھر آ پہنچی۔ لومڑے نے دل میں کہا &quot;یہ ٹکڑا مجھے اس کوے سے حاصل کرنا چاہیے&quot;۔ اس نے قریب جا کر کوے سے کہا &quot;میں نے سنا ہے کہ تم اچھا گا سکتے ہو۔ تمہاری آواز بڑی میٹھی ہے۔ میں چاہتی ہوں کہ تمہارے گیت کا مزہ اُٹھاؤں۔ کیا تم مہربانی کر کے گانا سناؤ گے؟&quot; اس پر کوا خوش ہو گیا۔"
+    },
+    {
+      "id": 509211,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "یہ تصویر ہمارے گاؤں کی ہے۔ گاؤں کے باہر ہرے بھرے کھیت ہیں۔ اب گرمی کا موسم ہے۔ سورج خوب چمک رہا ہے۔ وہ سامنے گندم کے کھیت ہیں۔ گندم کے کھیتوں میں بڑی چہل پہل ہے۔ جوان، بوڑھے ، مرد اور عورتیں مل کر کام کررہے ہیں۔ فصل پکی ہوئی ہے۔ دیہاتی اب کٹائی کریں گے اور اپنی فصل کو شہر میں لے جائیں گے۔ ہمارے گاؤں میں بہت سی قابل دید چیزیں بھی ہیں۔ ہم گاؤں میں خوش ہیں۔ ہم اپنے گاؤں کو خوبصورت بنائیں گے۔",
+      "ur": "یہ تصویر ہمارے گاؤں کی ہے۔ گاؤں کے باہر ہرے بھرے کھیت ہیں۔ اب گرمی کا موسم ہے۔ سورج خوب چمک رہا ہے۔ وہ سامنے گندم کے کھیت ہیں۔ گندم کے کھیتوں میں بڑی چہل پہل ہے۔ جوان، بوڑھے ، مرد اور عورتیں مل کر کام کررہے ہیں۔ فصل پکی ہوئی ہے۔ دیہاتی اب کٹائی کریں گے اور اپنی فصل کو شہر میں لے جائیں گے۔ ہمارے گاؤں میں بہت سی قابل دید چیزیں بھی ہیں۔ ہم گاؤں میں خوش ہیں۔ ہم اپنے گاؤں کو خوبصورت بنائیں گے۔"
+    },
+    {
+      "id": 509212,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "حضرت علیؓ رسول اکرمﷺ کے چچا کے بیٹے تھے۔آپﷺ کے چچا کا نام ابو طالب تھا۔ ابو طالب امیر نہیں تھے۔ حضرت علیؓ رسول اکرمﷺ کے پاس رہتے تھے۔ وہ نو سال کی عمر میں مسلمان ہوئے۔ آپؓ نے کئی جنگوں میں حصہ لیا اور کئی کافروں کو قتل کیا۔ آپؓ حضرت عثمانؓ کی وفات کے بعد خلیفہ بنے۔ آپؓ چوتھے خلیفہ تھے۔ رسول اکرمﷺ نے اپنی بیٹی کی شادی آپؓ سے کر دی۔ حضرت علیؓ بہادر اور عالم تھے۔ آپؓ کو رسول مقبول ﷺ سے بے حد پیار تھا۔",
+      "ur": "حضرت علیؓ رسول اکرمﷺ کے چچا کے بیٹے تھے۔آپﷺ کے چچا کا نام ابو طالب تھا۔ ابو طالب امیر نہیں تھے۔ حضرت علیؓ رسول اکرمﷺ کے پاس رہتے تھے۔ وہ نو سال کی عمر میں مسلمان ہوئے۔ آپؓ نے کئی جنگوں میں حصہ لیا اور کئی کافروں کو قتل کیا۔ آپؓ حضرت عثمانؓ کی وفات کے بعد خلیفہ بنے۔ آپؓ چوتھے خلیفہ تھے۔ رسول اکرمﷺ نے اپنی بیٹی کی شادی آپؓ سے کر دی۔ حضرت علیؓ بہادر اور عالم تھے۔ آپؓ کو رسول مقبول ﷺ سے بے حد پیار تھا۔"
+    },
+    {
+      "id": 509213,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "آدمی اپنی قسمت خود بناتا ہے۔ اس کو چاہیے کہ محنت کرے اور لگن سے کام کرے تا کہ وہ اپنی زندگی میں کامیاب ہو سکے۔ محنت اس دنیا کی سب سے بڑی حقیقت ہے جس کو جھٹلایا نہیں جا سکتا ۔ اگر ہم ماضی میں نظر دوڑائیں تو معلوم ہو گا کہ جتنے بھی عظیم آدمی گزرے ہیں سب نے محنت اور ہمت سے کام لیا اور اپنی قسمت سنواری۔ ابراہم لنکن امریکہ کا صدر گزرا ہے۔ اگر ہم اس کی زندگی کا مطالعہ کریں تو معلوم ہو گا کہ وہ لکڑہارے کا بیٹا تھا لیکن اس کو پڑھنے کا شوق تھا۔",
+      "ur": "آدمی اپنی قسمت خود بناتا ہے۔ اس کو چاہیے کہ محنت کرے اور لگن سے کام کرے تا کہ وہ اپنی زندگی میں کامیاب ہو سکے۔ محنت اس دنیا کی سب سے بڑی حقیقت ہے جس کو جھٹلایا نہیں جا سکتا ۔ اگر ہم ماضی میں نظر دوڑائیں تو معلوم ہو گا کہ جتنے بھی عظیم آدمی گزرے ہیں سب نے محنت اور ہمت سے کام لیا اور اپنی قسمت سنواری۔ ابراہم لنکن امریکہ کا صدر گزرا ہے۔ اگر ہم اس کی زندگی کا مطالعہ کریں تو معلوم ہو گا کہ وہ لکڑہارے کا بیٹا تھا لیکن اس کو پڑھنے کا شوق تھا۔"
+    },
+    {
+      "id": 509214,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "مدینہ عرب کا ایک مقدس شہر ہے۔یہ مکہ سے تقریباً تین سو میل کے فاصلہ پر ہے۔ کاریں یہ فاصلہ چھے سات گھنٹے میں طے کر لیتی ہیں۔ مدینہ پیغمبر اسلام ﷺ کا شہر ہے۔ یہاں کئی مساجد ہیں لیکن سب سے زیادہ مشہور مسجد نبوی ہے۔ اس مسجد میں رسول پاکﷺ کاروضہ مبارک ہے۔ یہاں ایک لاکھ مسلمان نماز پڑھ سکتے ہیں۔ مدینہ میں کئی ہوٹل ہیں۔ یہاں پرانی عمارتیں بھی ہیں۔",
+      "ur": "مدینہ عرب کا ایک مقدس شہر ہے۔یہ مکہ سے تقریباً تین سو میل کے فاصلہ پر ہے۔ کاریں یہ فاصلہ چھے سات گھنٹے میں طے کر لیتی ہیں۔ مدینہ پیغمبر اسلام ﷺ کا شہر ہے۔ یہاں کئی مساجد ہیں لیکن سب سے زیادہ مشہور مسجد نبوی ہے۔ اس مسجد میں رسول پاکﷺ کاروضہ مبارک ہے۔ یہاں ایک لاکھ مسلمان نماز پڑھ سکتے ہیں۔ مدینہ میں کئی ہوٹل ہیں۔ یہاں پرانی عمارتیں بھی ہیں۔"
+    },
+    {
+      "id": 509215,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "میں نے شیر کو دور سے دیکھا۔ وہ جھاڑیوں میں بیٹھا تھا۔ شیر نے ہمیں نہیں دیکھا۔ میں نے اپنے ساتھی سے کہا &quot; تم یہیں خاموش بیٹھے رہو ۔ میں شیر کے قریب جاتا ہوں &quot; اس کے بعد میں نے آہستہ آہستہ شیر کی طرف بڑھنا شروع کر دیا۔ اگر میں ذرا سا شور کرتا تو وہ بھاگ جاتا۔ آخر میں اس کے قریب پہنچ گیا۔ ہ مجھے پتوں میں صاف دکھائی دے رہا تھا ۔ اس نے ابھی تک مجھے نہیں دیکھا تھا۔میں نے بڑی احتیاط سے بندوق اُٹھائی۔",
+      "ur": "میں نے شیر کو دور سے دیکھا۔ وہ جھاڑیوں میں بیٹھا تھا۔ شیر نے ہمیں نہیں دیکھا۔ میں نے اپنے ساتھی سے کہا &quot; تم یہیں خاموش بیٹھے رہو ۔ میں شیر کے قریب جاتا ہوں &quot; اس کے بعد میں نے آہستہ آہستہ شیر کی طرف بڑھنا شروع کر دیا۔ اگر میں ذرا سا شور کرتا تو وہ بھاگ جاتا۔ آخر میں اس کے قریب پہنچ گیا۔ ہ مجھے پتوں میں صاف دکھائی دے رہا تھا ۔ اس نے ابھی تک مجھے نہیں دیکھا تھا۔میں نے بڑی احتیاط سے بندوق اُٹھائی۔"
+    },
+    {
+      "id": 509216,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "چودھری اسلم کا دوست بڑی مدت کے بعد ملنے کے لیے آیا۔ اس نے محسوس کیا کہ چودھری غمگین معلوم ہوتا ہے ۔اس نے پوچھا &quot;چودھری صاحب کیا بات ہے؟ اداس کیوں رہتے ہو؟&quot; چودھری: &quot;کوئی خاص بات نہیں&quot;۔ ایوب: خاص نہیں تو عام سہی آپ بے چین کیوں ہیں؟ چودھری: دنیا میں چین کسے ہے؟ نہ دن کو چین نہ ہی رات کو آرام۔ ایوب: دنیا آپ سے متفق نہیں ہے۔ یہ انسان کی کم ہمتی ہے جو اس کو مایوس کر دیتی ہے۔",
+      "ur": "چودھری اسلم کا دوست بڑی مدت کے بعد ملنے کے لیے آیا۔ اس نے محسوس کیا کہ چودھری غمگین معلوم ہوتا ہے ۔اس نے پوچھا &quot;چودھری صاحب کیا بات ہے؟ اداس کیوں رہتے ہو؟&quot; چودھری: &quot;کوئی خاص بات نہیں&quot;۔ ایوب: خاص نہیں تو عام سہی آپ بے چین کیوں ہیں؟ چودھری: دنیا میں چین کسے ہے؟ نہ دن کو چین نہ ہی رات کو آرام۔ ایوب: دنیا آپ سے متفق نہیں ہے۔ یہ انسان کی کم ہمتی ہے جو اس کو مایوس کر دیتی ہے۔"
+    },
+    {
+      "id": 509217,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "یہ سردیوں کی ایک رات تھی۔ ہم سورہے تھے۔یکایک کسی نے دروازہ کھٹکھٹایا۔ میں اور میرے والد اُٹھ بیٹھے۔ ہم نے سوچا یہ کوئی چور ہوگا۔ اس لیے ہم نے بندوق لے لی اور دروازے پر آ گئے۔ میرے والد نے پوچھا&quot; دروازے پر کون ہے؟ جواب ملا&quot;میں ایک غریب آدمی ہوں اور بھوکا ہوں&quot;۔ ہم نے دروازہ کھولا،اس کو اندر لے آئے اور کچھ کھانے کو دیا۔ اس نے ہمارا شکریہ ادا کیا اور چلا گیا۔",
+      "ur": "یہ سردیوں کی ایک رات تھی۔ ہم سورہے تھے۔یکایک کسی نے دروازہ کھٹکھٹایا۔ میں اور میرے والد اُٹھ بیٹھے۔ ہم نے سوچا یہ کوئی چور ہوگا۔ اس لیے ہم نے بندوق لے لی اور دروازے پر آ گئے۔ میرے والد نے پوچھا&quot; دروازے پر کون ہے؟ جواب ملا&quot;میں ایک غریب آدمی ہوں اور بھوکا ہوں&quot;۔ ہم نے دروازہ کھولا،اس کو اندر لے آئے اور کچھ کھانے کو دیا۔ اس نے ہمارا شکریہ ادا کیا اور چلا گیا۔"
+    },
+    {
+      "id": 509218,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "اب مڈل تک تعلیم مفت ہو گئی ہے۔ اب غریبوں کے بچے بھی تعلیم حاصل کر سکیں گے۔ حکومت پاکستان نے کالج اور سکول اپنے کنٹرول میں لے لیے ہیں۔ ملک میں ہر شخص کو برابر کے حقوق ہوں گے۔ حکومت ذہین بچوں کو وظائف دے گی۔ وہ اعلیٰ تعلیمی اداروں میں تعلیم حاصل کر سکیں گے۔ ہم نیا اور مضبوط پاکستان بنائیں گے۔ ہمیں ملک کی ترقی کے لیے کوشش کرنی چاہیے۔",
+      "ur": "اب مڈل تک تعلیم مفت ہو گئی ہے۔ اب غریبوں کے بچے بھی تعلیم حاصل کر سکیں گے۔ حکومت پاکستان نے کالج اور سکول اپنے کنٹرول میں لے لیے ہیں۔ ملک میں ہر شخص کو برابر کے حقوق ہوں گے۔ حکومت ذہین بچوں کو وظائف دے گی۔ وہ اعلیٰ تعلیمی اداروں میں تعلیم حاصل کر سکیں گے۔ ہم نیا اور مضبوط پاکستان بنائیں گے۔ ہمیں ملک کی ترقی کے لیے کوشش کرنی چاہیے۔"
+    },
+    {
+      "id": 509219,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "عابی میرے بچپن کی دوست تھی۔ اکٹھے کھیلا پڑھا۔ پھر میری ایف۔اے کے بعد شادی ہو گئی اور میں اپنے میاں کے ساتھ لندن چلی گئی۔ عابی نے آگے پڑھا یا اس کی شادی ہو گئی مجھے کچھ خبر نہ ملی۔ جب میں پانچ برس کے بعد وطن لوٹی تو ایک روز بازار میں اچانک عابی کی بڑی بہن سے میری ملاقات ہو گئی۔ میں نے بے تابی سے عابی کے متعلق پوچھا تو اس کی آنکھوں میں آنسو تیرنے لگے۔ میرا گھر نزدیک ہی تھا۔ میں اس کو اپنے ساتھ لے آئی تا کہ وہ اطمینان سے مجھے عابی کے بارے میں کچھ بتا سکے۔",
+      "ur": "عابی میرے بچپن کی دوست تھی۔ اکٹھے کھیلا پڑھا۔ پھر میری ایف۔اے کے بعد شادی ہو گئی اور میں اپنے میاں کے ساتھ لندن چلی گئی۔ عابی نے آگے پڑھا یا اس کی شادی ہو گئی مجھے کچھ خبر نہ ملی۔ جب میں پانچ برس کے بعد وطن لوٹی تو ایک روز بازار میں اچانک عابی کی بڑی بہن سے میری ملاقات ہو گئی۔ میں نے بے تابی سے عابی کے متعلق پوچھا تو اس کی آنکھوں میں آنسو تیرنے لگے۔ میرا گھر نزدیک ہی تھا۔ میں اس کو اپنے ساتھ لے آئی تا کہ وہ اطمینان سے مجھے عابی کے بارے میں کچھ بتا سکے۔"
+    },
+    {
+      "id": 509220,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Translate into English",
+      "type": "long",
+      "field": "TRANSLATE_EN",
+      "en": "صدر مملکت نے ادیبوں ،شاعروں ،دانشوروں ،مفکروں اور عالموں پر زور دیا ہے کہ اپنی ادبی تخلیقات کے ذریعے ملک کو اسلامی اور فلاحی مملکت بنانے میں حکومت کی مدد کریں۔ صدر گزشتہ روز ایک کتاب کی تعارفی تقریب میں شاعروں اور ادیبوں کے بہت بڑے اجتماع سے خطاب کر رہے تھے۔",
+      "ur": "صدر مملکت نے ادیبوں ،شاعروں ،دانشوروں ،مفکروں اور عالموں پر زور دیا ہے کہ اپنی ادبی تخلیقات کے ذریعے ملک کو اسلامی اور فلاحی مملکت بنانے میں حکومت کی مدد کریں۔ صدر گزشتہ روز ایک کتاب کی تعارفی تقریب میں شاعروں اور ادیبوں کے بہت بڑے اجتماع سے خطاب کر رہے تھے۔"
+    },
+    {
+      "id": 497019,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "O land of green, so rich and true,\nWith skies so wide and rivers blue.\nYour mountains stand with pride so high,\nYour spirit soars beyond the sky."
+    },
+    {
+      "id": 497020,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "From snowy peaks of mighty North,\nTo deserts glowing in the South—\nEach grain of soil, each blooming tree,\nWhispers of love and liberty."
+    },
+    {
+      "id": 497021,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "Your flag of green and star so white,\nShines like a beacon in the night.\nWe hold it high, both proud and strong,\nIn every heart, your name belongs."
+    },
+    {
+      "id": 497022,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "For all who serve and strive with grace,\nYou are our pride, our sacred place.\nWe'll work, we'll learn, we'll stand as one,\nUntil the brightest dream is won."
+    },
+    {
+      "id": 497023,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "O Pakistan, my home, my land,\nForever will I make my stand.\nWith peace and love, I'll do my part—\nFor you will always own my heart."
+    },
+    {
+      "id": 498257,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "Unfathomable Sea! whose waves are years,\nOcean of Time, whose waters of deep woe\nAre brackish with the salt of human tears!\nThou shoreless flood, which in thy ebb and flow\nClaspest the limits of mortality!"
+    },
+    {
+      "id": 498259,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "And sick of prey, yet howling on for more,\nVomitest thy wrecks on its inhospitable shore;\nTreacherous in calm, and terrible in storm,\nWho shall put forth on thee,\nUnfathomable Sea?"
+    },
+    {
+      "id": 498712,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "Two roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;"
+    },
+    {
+      "id": 498719,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "Then took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,"
+    },
+    {
+      "id": 498727,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "And both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back."
+    },
+    {
+      "id": 498732,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Poem Stanzas",
+      "type": "long",
+      "field": "POEM_STANZA",
+      "en": "I shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference."
+    }
+  ],
+  "type": "long"
+}

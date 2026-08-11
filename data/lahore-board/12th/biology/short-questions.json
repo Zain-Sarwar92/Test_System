@@ -1,0 +1,1586 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Biology",
+  "slug": "biology",
+  "source": "PTS PTB INTER-II (Class 12) Biology (read-only export)",
+  "total_questions": 377,
+  "counts": {
+    "mcq": 122,
+    "short": 156,
+    "long": 99
+  },
+  "fieldCounts": {
+    "MCQ": 122,
+    "QA": 156,
+    "LONG": 99
+  },
+  "questions": [
+    {
+      "id": 530089,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define osmoregulators and osmoconformers."
+    },
+    {
+      "id": 530091,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define thermoregulation and explain its needs."
+    },
+    {
+      "id": 530092,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the two types of animals on the basis of the ability to thermoregulate?"
+    },
+    {
+      "id": 530093,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Osmoregulators and osmoconformers."
+    },
+    {
+      "id": 530094,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Ectotherms and endotherms"
+    },
+    {
+      "id": 530095,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Vasodilatation and vasoconstriction"
+    },
+    {
+      "id": 530096,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Homeotherms and poikilotherms"
+    },
+    {
+      "id": 530097,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Ammoniotelic and ureotelic"
+    },
+    {
+      "id": 530098,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Ureotelic and uricotelic"
+    },
+    {
+      "id": 530541,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify the functioning of kidneys as both excretion and osmoregulation."
+    },
+    {
+      "id": 530542,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "List the organs of the urinary system."
+    },
+    {
+      "id": 530543,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define glomerular filtration."
+    },
+    {
+      "id": 530544,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the function of glomerular capillaries and peritubular capillaries."
+    },
+    {
+      "id": 530545,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the three main processes involved with urine formation?"
+    },
+    {
+      "id": 530546,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the causes of kidney failure?"
+    },
+    {
+      "id": 530547,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why do blood and dialysate flow in opposite direction?"
+    },
+    {
+      "id": 530549,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Afferent and efferent arterioles"
+    },
+    {
+      "id": 530550,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Chronic and acute renal failure"
+    },
+    {
+      "id": 530551,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Haemodialysis and peritoneal dialysis"
+    },
+    {
+      "id": 530552,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Renal cortex and renal medulla"
+    },
+    {
+      "id": 530792,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Enlist the basic elements of nervous coordination."
+    },
+    {
+      "id": 530793,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define receptors and effectors with examples."
+    },
+    {
+      "id": 530794,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the path of a message transmitted through the nervous system."
+    },
+    {
+      "id": 530795,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define nerve impulse."
+    },
+    {
+      "id": 530796,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name the factors responsible for the resting membrane potential of neuron."
+    },
+    {
+      "id": 530797,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the main components of the nervous system?"
+    },
+    {
+      "id": 530798,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define narcotic drugs and give examples."
+    },
+    {
+      "id": 530799,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Briefly describe the effects of drug addiction and tolerance on the functioning of nervous system"
+    },
+    {
+      "id": 530800,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the causes, symptoms and treatment of stroke and meningitis."
+    },
+    {
+      "id": 530801,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the causes, symptoms and treatment of brain tumor."
+    },
+    {
+      "id": 530802,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the causes, symptoms and treatment of Alzheimer disease."
+    },
+    {
+      "id": 530803,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Axon and dendrite"
+    },
+    {
+      "id": 530804,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Sensory neuron, inter-neuron, and motor neurons"
+    },
+    {
+      "id": 530805,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Myelinated and nonmyelinated neurons"
+    },
+    {
+      "id": 530806,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; White matter and grey matter"
+    },
+    {
+      "id": 530807,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Cranial and spinal nerves"
+    },
+    {
+      "id": 530808,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Resting membrane potential and active membrane potential"
+    },
+    {
+      "id": 530809,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Polarization and depolarization"
+    },
+    {
+      "id": 530810,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Repolarization and hyperpolarization"
+    },
+    {
+      "id": 530811,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Presynaptic and postsynaptic neuron"
+    },
+    {
+      "id": 530812,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Synaptic knob and synaptic vesicles"
+    },
+    {
+      "id": 530813,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Somatic and autonomic nerves system"
+    },
+    {
+      "id": 530814,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Drug addiction and drug tolerance"
+    },
+    {
+      "id": 530908,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the role of hormones as chemical messengers."
+    },
+    {
+      "id": 530909,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Where are receptors located in amino acid-based hormones and steroid hormones?"
+    },
+    {
+      "id": 530910,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are neurosecretory cells?"
+    },
+    {
+      "id": 530911,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name the hormones of anterior pituitary gland."
+    },
+    {
+      "id": 530913,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why the pituitary gland is called master gland?"
+    },
+    {
+      "id": 530914,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is the secretion of ADH controlled?"
+    },
+    {
+      "id": 530915,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a note on parathyroid glands."
+    },
+    {
+      "id": 530916,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the names and functions of hormones secreted by ovaries and testes"
+    },
+    {
+      "id": 530922,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Exocrine and endocrine glands"
+    },
+    {
+      "id": 530923,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Hypothyroidism and hyperthyroidism"
+    },
+    {
+      "id": 530925,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Parathormone and calcitonin"
+    },
+    {
+      "id": 530926,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Beta and alpha cells of pancreas"
+    },
+    {
+      "id": 530927,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Insulin and glucagon"
+    },
+    {
+      "id": 530929,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Diabetes insipidus and diabetes mellitus"
+    },
+    {
+      "id": 530930,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Estrogen and progesterone"
+    },
+    {
+      "id": 530931,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Positive and negative feedback"
+    },
+    {
+      "id": 530962,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Briefly describe the function of seminal vesicles, prostate gland, and bulbourethral glands."
+    },
+    {
+      "id": 530963,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When do the ova in a females begin meiosis? When do they complete the first meiotic division?"
+    },
+    {
+      "id": 530964,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a brief note on the role of FSH, LH and testosterone in man."
+    },
+    {
+      "id": 530965,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "List the structures of female reproductive system."
+    },
+    {
+      "id": 530967,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What changes occur in ovulation and menstruation during gestation period."
+    },
+    {
+      "id": 530968,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of the corpus luteum in a menstrual cycle?"
+    },
+    {
+      "id": 530970,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Primary and secondary spermatocytes"
+    },
+    {
+      "id": 530971,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Spermatogenesis and oogenesis"
+    },
+    {
+      "id": 530972,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Sertoli cell and Leydig cell"
+    },
+    {
+      "id": 530973,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Spermatids and spermatozoa"
+    },
+    {
+      "id": 530974,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Primary oocyte and secondary oocyte"
+    },
+    {
+      "id": 531089,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name the main exceptions to the Mendel’s laws of inheritance."
+    },
+    {
+      "id": 531090,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is probability? How does probability relate to genetics?"
+    },
+    {
+      "id": 531092,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify that multiple alleles provide many different phenotypes."
+    },
+    {
+      "id": 531093,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name various human blood group systems."
+    },
+    {
+      "id": 531095,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you mean by multiple alleles? Name the alleles responsible for ABO blood group system."
+    },
+    {
+      "id": 531096,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is co-dominance. Give an example."
+    },
+    {
+      "id": 531097,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What antigens and antibodies are found in ABO blood group system?"
+    },
+    {
+      "id": 531099,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify why O-negative individuals are called universal donors and AB-positive individuals are called universal recipients."
+    },
+    {
+      "id": 531100,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is human male referred as heterogametic?"
+    },
+    {
+      "id": 531101,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is gene linkage?"
+    },
+    {
+      "id": 531102,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can the linked gene assort independently?"
+    },
+    {
+      "id": 531103,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "List at least five polygenic traits in humans."
+    },
+    {
+      "id": 531105,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write brief note on Y-linked inheritance in humans."
+    },
+    {
+      "id": 531106,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define sex linkage and give an example."
+    },
+    {
+      "id": 531107,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following genetic problem: A plant of genotype AABbCC is self-pollinated. Calculate the phenotypic ratio of F2 generation."
+    },
+    {
+      "id": 531108,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following genetic problem: In four-o’clock plant, the red and white flower colours show incomplete dominance. Calculate the ratios in crosses between (i) two red-flowered plants; (ii) a red-flowered and a pink-flowered plant; (iii) a pink-flowered and a white-flowered."
+    },
+    {
+      "id": 531110,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following genetic problem: A man with blood group A marries a woman who has blood group AB. What blood groups are expected among their children?"
+    },
+    {
+      "id": 531111,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following genetic problems: Two white sheep produce a black offspring. What are the parents’ genotypes for the colour? What is the probability that their next offspring will be black?"
+    },
+    {
+      "id": 531112,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Solve the following genetic problems: Albinism (lack of pigment) in man is caused by a recessive gene. If normal parents have an albino child, what is the probability that their next child will be normal for colour?"
+    },
+    {
+      "id": 531113,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Gene and allele."
+    },
+    {
+      "id": 531114,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Genotype and phenotype"
+    },
+    {
+      "id": 531115,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Homozygous and heterozygous"
+    },
+    {
+      "id": 531116,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Monohybrid and dihybrid cross"
+    },
+    {
+      "id": 531117,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Incomplete dominance and co-dominance"
+    },
+    {
+      "id": 531119,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Epistasis and polygenic inheritance"
+    },
+    {
+      "id": 531120,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: XX-XY and ZZ-ZW sex determination"
+    },
+    {
+      "id": 531121,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: XX-XY and XX-ZO sex determination"
+    },
+    {
+      "id": 531122,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Sex-linked and sex-limited traits"
+    },
+    {
+      "id": 531124,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Sex-limited and sex-influenced traits"
+    },
+    {
+      "id": 531237,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the four types of chromosomes on the basis of position of centromere?"
+    },
+    {
+      "id": 531239,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is chromatin fibre? How is it formed during condensation of chromatin?"
+    },
+    {
+      "id": 531240,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Briefly describe the concept of gene and gene locus."
+    },
+    {
+      "id": 531241,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the functions of DNA polymerase I, II and III."
+    },
+    {
+      "id": 531242,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the central dogma of gene expression."
+    },
+    {
+      "id": 531243,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you mean by “degeneracy of genetic code”?"
+    },
+    {
+      "id": 531244,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Enlist some commonly occurring minor mutations in human."
+    },
+    {
+      "id": 531245,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Histone and nucleosome"
+    },
+    {
+      "id": 531246,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Heterochromatin and euchromatin"
+    },
+    {
+      "id": 531247,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Conservative and semi-conservative model of DNA replication"
+    },
+    {
+      "id": 531248,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: DNA helicase and DNA gyrase"
+    },
+    {
+      "id": 531249,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: DNA polymerase I and II"
+    },
+    {
+      "id": 531250,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Leading strand and lagging strand of DNA"
+    },
+    {
+      "id": 531252,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Translation and transcription"
+    },
+    {
+      "id": 531253,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Genetic code and codon"
+    },
+    {
+      "id": 531254,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Codon and anticodon"
+    },
+    {
+      "id": 531256,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Gene and allele"
+    },
+    {
+      "id": 531257,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Intron and exon"
+    },
+    {
+      "id": 531259,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Start codon and stop codon"
+    },
+    {
+      "id": 531262,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Non-sense codon and sense codon"
+    },
+    {
+      "id": 531265,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Repressor and activator proteins"
+    },
+    {
+      "id": 531267,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Point mutation and chromosomal mutation"
+    },
+    {
+      "id": 531269,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Down syndrome and Klinefelter syndrome"
+    },
+    {
+      "id": 531270,
+      "chapter": 19,
+      "topic_id": "19.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Klinefelter syndrome and Tuners syndrome"
+    },
+    {
+      "id": 531359,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of restriction endonucleases and DNA ligases in gene cloning?"
+    },
+    {
+      "id": 531360,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of vectors in recombinant DNA technology?"
+    },
+    {
+      "id": 531361,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how the gene of interest is selected and isolated during recombinant DNA technology."
+    },
+    {
+      "id": 531362,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the steps for the integration of gene of interest into the vector."
+    },
+    {
+      "id": 531363,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the role of GMO in making biotechnology products."
+    },
+    {
+      "id": 531365,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Endonuclease and ligase"
+    },
+    {
+      "id": 531366,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: PCR and Recombinant DNA Technology"
+    },
+    {
+      "id": 531563,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the roles of the different types of T cells."
+    },
+    {
+      "id": 531565,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Skin is an important component of our defence system. Comment."
+    },
+    {
+      "id": 531566,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State how the digestive and respiratory tracts play a role in body’s defence."
+    },
+    {
+      "id": 531567,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How the natural killer cells play role in body’s defence?"
+    },
+    {
+      "id": 531568,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define pyrogens and state their effect of hypothalamus."
+    },
+    {
+      "id": 531569,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you mean by autoimmune diseases?"
+    },
+    {
+      "id": 531570,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Antigen and antibody"
+    },
+    {
+      "id": 531571,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; B cells and T cells"
+    },
+    {
+      "id": 531572,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Macrophages and neutrophils"
+    },
+    {
+      "id": 531573,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Complement system proteins and interferons."
+    },
+    {
+      "id": 531575,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Innate and acquired immunity"
+    },
+    {
+      "id": 531578,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Active and passive immunity"
+    },
+    {
+      "id": 531579,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Natural active immunity and artificial active immunity"
+    },
+    {
+      "id": 531580,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Cell-mediated and Antibody-mediated immunity"
+    },
+    {
+      "id": 531741,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why biostatistics is important in medical research?"
+    },
+    {
+      "id": 531742,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the difference between descriptive and inferential statistics?"
+    },
+    {
+      "id": 531744,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the relationship between percentiles and quartiles?"
+    },
+    {
+      "id": 531751,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How are independent and dependent variables related in experimental design?"
+    },
+    {
+      "id": 531752,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The height of six children are 110, 115, 118, 120, 122, and 125. What is the median height of the children?"
+    },
+    {
+      "id": 531753,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What does a legend in a chart present?"
+    },
+    {
+      "id": 531754,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are error bars?"
+    },
+    {
+      "id": 531903,
+      "chapter": 23,
+      "topic_id": "23.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Briefly describe Stages of Drug Developmental Process?",
+      "ur": "Briefly describe Stages of Drug Developmental Process?"
+    },
+    {
+      "id": 531904,
+      "chapter": 23,
+      "topic_id": "23.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write side effects of Penicillin?",
+      "ur": "Write side effects of Penicillin?"
+    },
+    {
+      "id": 531906,
+      "chapter": 23,
+      "topic_id": "23.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a mode of Tetracycline action?",
+      "ur": "Write a mode of Tetracycline action?"
+    },
+    {
+      "id": 531907,
+      "chapter": 23,
+      "topic_id": "23.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between antiviral and antiretroviral drugs?",
+      "ur": "Differentiate between antiviral and antiretroviral drugs?"
+    },
+    {
+      "id": 531909,
+      "chapter": 23,
+      "topic_id": "23.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the advantages of monoclonal antibodies?",
+      "ur": "What are the advantages of monoclonal antibodies?"
+    }
+  ],
+  "type": "short"
+}

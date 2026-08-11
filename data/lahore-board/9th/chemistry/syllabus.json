@@ -1,0 +1,362 @@
+{
+  "board": "Lahore",
+  "class": "9",
+  "subject": "Chemistry",
+  "slug": "chemistry",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "States of Matter and Phase Changes",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "What Is Chemistry?"
+        },
+        {
+          "id": "1.2",
+          "title": "States of Matter"
+        },
+        {
+          "id": "1.3",
+          "title": "Element, Compound and Mixture"
+        },
+        {
+          "id": "1.4",
+          "title": "Allotropic Forms of Substances"
+        },
+        {
+          "id": "1.5",
+          "title": "Differences Between Elements, Compounds and Mixtures"
+        },
+        {
+          "id": "1.6",
+          "title": "Solution, Colloidal Solution and Suspension"
+        },
+        {
+          "id": "1.7",
+          "title": "Formation of Unsaturated and Saturated Solutions"
+        },
+        {
+          "id": "1.8",
+          "title": "Effect of Temperature On the Solubility of Solutes"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Atomic Structure",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Structure of Atom"
+        },
+        {
+          "id": "2.2",
+          "title": "Atomic Number and Mass Number"
+        },
+        {
+          "id": "2.3",
+          "title": "Isotopes and Their Masses"
+        },
+        {
+          "id": "2.4",
+          "title": "Relative Atomic Mass"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Chemical Bonding",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Why Do Atoms Form Chemical Bonds?"
+        },
+        {
+          "id": "3.2",
+          "title": "Chemical Bond"
+        },
+        {
+          "id": "3.3",
+          "title": "Metallic Bond"
+        },
+        {
+          "id": "3.4",
+          "title": "Electropositive Character of Metals"
+        },
+        {
+          "id": "3.5",
+          "title": "Electronegative Character of Non-Metals"
+        },
+        {
+          "id": "3.6",
+          "title": "Compare the Properties of Ionic and Covalent Compounds."
+        },
+        {
+          "id": "3.7",
+          "title": "Intermolecular Forces of Attraction"
+        },
+        {
+          "id": "3.8",
+          "title": "Nature of Bonding and Properties"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Stoichometry",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Chemical Formula"
+        },
+        {
+          "id": "4.2",
+          "title": "Empirical Formula"
+        },
+        {
+          "id": "4.3",
+          "title": "Chemical Formulas of Binary Ionic Compounds"
+        },
+        {
+          "id": "4.4",
+          "title": "Chemical Formulas of Compounds"
+        },
+        {
+          "id": "4.5",
+          "title": "Deduce the Molecular Formula From the Structural Formula"
+        },
+        {
+          "id": "4.6",
+          "title": "Avogadro'S Number (Na)"
+        },
+        {
+          "id": "4.7",
+          "title": "the Mole and Molar Mass"
+        },
+        {
+          "id": "4.8",
+          "title": "Chemical Equations and Chemical Reactions"
+        },
+        {
+          "id": "4.9",
+          "title": "Calculations Based On Chemical Equation"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Energetics",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "System and Surrounding"
+        },
+        {
+          "id": "5.2",
+          "title": "Enthalpy"
+        },
+        {
+          "id": "5.3",
+          "title": "Exothermic and Endothermic Reactions"
+        },
+        {
+          "id": "5.4",
+          "title": "How Does a Reaction Take Place?"
+        },
+        {
+          "id": "5.5",
+          "title": "Aerobic and Anaerobic Respiration"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Equilibria",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Reversible and Irreversible Changes"
+        },
+        {
+          "id": "6.2",
+          "title": "Dynamic Equilibrium"
+        },
+        {
+          "id": "6.3",
+          "title": "Changing the Physical Conditions of a Chemical Reaction"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Acid Base Chemistry",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Acids and Bases"
+        },
+        {
+          "id": "7.2",
+          "title": "Different Concepts of Acids and Bases"
+        },
+        {
+          "id": "7.3",
+          "title": "Bronsted - Lowry Concepts of Acids and Bases"
+        },
+        {
+          "id": "7.4",
+          "title": "Properties of Acids and Bases"
+        },
+        {
+          "id": "7.5",
+          "title": "Acid Rain and Its Effects"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Periodic Table and Periodicity",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Modern Periodic Table"
+        },
+        {
+          "id": "8.2",
+          "title": "Salient Features of Modern Periodic Table"
+        },
+        {
+          "id": "8.3",
+          "title": "Similarities in the Chemical Properties of Elements in the Same Group (Smart)"
+        },
+        {
+          "id": "8.4",
+          "title": "Variation of Periodic Properties in Periods and Groups"
+        },
+        {
+          "id": "8.5",
+          "title": "Metallic Character and Reactivity"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Group Properties and Elements",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Properties of Group 1 Elements"
+        },
+        {
+          "id": "9.2",
+          "title": "Properties of Group 17 Elements"
+        },
+        {
+          "id": "9.3",
+          "title": "Group Properties of Transition Elements"
+        },
+        {
+          "id": "9.4",
+          "title": "Properties of Noble Gases"
+        },
+        {
+          "id": "9.5",
+          "title": "Physical Properties of Metals and Non-Metals"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Environmental Chemistry",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Composition of Atmosphere"
+        },
+        {
+          "id": "10.2",
+          "title": "Air Pollutants"
+        },
+        {
+          "id": "10.3",
+          "title": "Acid Rain"
+        },
+        {
+          "id": "10.4",
+          "title": "Global Warning (Greenhouse Effect)"
+        },
+        {
+          "id": "10.5",
+          "title": "Strategies to Reduce Environmental Issues"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Hydrocarbons",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Hydrocarbons"
+        },
+        {
+          "id": "11.2",
+          "title": "Alkanes"
+        },
+        {
+          "id": "11.3",
+          "title": "Preparation of Alkanes"
+        },
+        {
+          "id": "11.4",
+          "title": "Important Reactions"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Empirical Data Collection and Analysis",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Si Units in Chemistry"
+        },
+        {
+          "id": "12.2",
+          "title": "Tools and Techniques to Manage Accuracy and Precision"
+        },
+        {
+          "id": "12.3",
+          "title": "Accuracy and Precision"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Laboratory and Practical Skills",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Chemical Hazards in the Laboratory"
+        },
+        {
+          "id": "13.2",
+          "title": "Hazard Signs"
+        },
+        {
+          "id": "13.3",
+          "title": "Personal Protective Equipment (Ppe) in the Laboratory"
+        },
+        {
+          "id": "13.4",
+          "title": "Location of Fire Extinguisher"
+        },
+        {
+          "id": "13.5",
+          "title": "Emergency Situation in the Lab."
+        }
+      ]
+    }
+  ]
+}

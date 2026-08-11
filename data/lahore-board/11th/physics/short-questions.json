@@ -1,0 +1,6271 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Physics",
+  "slug": "physics",
+  "source": "PTS PTB INTER-I (Class 11) Physics (read-only export)",
+  "total_questions": 2013,
+  "counts": {
+    "mcq": 1199,
+    "short": 625,
+    "long": 189
+  },
+  "fieldCounts": {
+    "MCQ": 1199,
+    "QA": 625,
+    "LONG": 189
+  },
+  "questions": [
+    {
+      "id": 410177,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three students measured the length of a rod with a scale which minimum division is 1 mm and recorded as (i) 0.4235 m (ii) 0.42 m (iii) 0.424 m. Which record is correct and why?"
+    },
+    {
+      "id": 410163,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How many significant figures should be retained in the following?"
+    },
+    {
+      "id": 410171,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How many significant figures are there in the following measurements? (i) 37 km (ii) 0.002953 m (iii) 7.50034 cm (iv) 200.0 m."
+    },
+    {
+      "id": 410170,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Kinetic energy of a body of mass m moving with speed v is given by 1/2 mv2. What are the dimensions of the kinetic energy?"
+    },
+    {
+      "id": 410173,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the dimensions of: (i) Planck's constant (ii) Angular velocity."
+    },
+    {
+      "id": 410460,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State right hand rule for two vectors with reference to vector products?"
+    },
+    {
+      "id": 410473,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does a hunter aiming a bird in a tree miss the target exactly at the bird?"
+    },
+    {
+      "id": 410474,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A person falling on a heap of sand does not hurt more as compared to a person falling on a concrete floor. why?"
+    },
+    {
+      "id": 410469,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that range of projectile is maximum at an angle of 45o."
+    },
+    {
+      "id": 410471,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The maximum horizontal range of a projectile is 800 m. Find the value of height attained by the projectile at <img src=\"/pts-media/equations/11th/phynew-chap2-2.svg\" />."
+    },
+    {
+      "id": 410478,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe briefly effects of air resistance on the range and maximum height of a projectile."
+    },
+    {
+      "id": 410461,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define impulse and show how it is related to momentum."
+    },
+    {
+      "id": 410466,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that rate of change in momentum is equal to force applied. Also state Newton's second law of motion in terms of momentum."
+    },
+    {
+      "id": 410467,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State law of conservation of linear momentum. Also state condition under which it holds."
+    },
+    {
+      "id": 410464,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between and elastic and inelastic collision."
+    },
+    {
+      "id": 410522,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State second law of motion in case of rotation."
+    },
+    {
+      "id": 410531,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If angular velocity of different particles of a rigid body is constant, will the linear velocity of these particles be also constant?"
+    },
+    {
+      "id": 410526,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it harder for a car to take turn at higher speed than at lower speed?"
+    },
+    {
+      "id": 410534,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why do wo tumble when we take the sharp turn with large speed?"
+    },
+    {
+      "id": 410542,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A ball is just supported by a string without breaking. If it is whirled in a vertical circle, it breaks. Explain why."
+    },
+    {
+      "id": 410544,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is the centripetal force supplied in the following cases: (a) a satellite orbiting around the Earth? (b) a car is taking turn on a level road?"
+    },
+    {
+      "id": 410530,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does an astronaut feel weightlessness while orbiting from the Earth in a spaceship?"
+    },
+    {
+      "id": 410535,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What will be time period of a simple pendulum is an artificial satellites at a certain height?"
+    },
+    {
+      "id": 410525,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Mass is a measure of inertia in linear motion. What is its analogue in rotational motion? Describe briefly."
+    },
+    {
+      "id": 410528,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When a moving car turn around a corner to the left, in what direction do the occupants tend to fall? Explain briefly."
+    },
+    {
+      "id": 410539,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In uniform circular motion, what are the average velocity and average acceleration for one revolution? Explain."
+    },
+    {
+      "id": 410523,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the effect of the changing the position of a diver while diving in the pool?"
+    },
+    {
+      "id": 410597,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A body dropped from a height H reaches the ground with a speed of <img src=\"/pts-media/equations/11th/phynew-chap4-3.svg\" />. Calculate work done by air friction."
+    },
+    {
+      "id": 410589,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is electrical power required at all when the elevator is descending? why should be there a limit on the number of passenger in this case?"
+    },
+    {
+      "id": 410607,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A force acts on a ball moving with 14 ms-1 speed and brings its speed to 6 ms-1. Has the force done positive or negative work? Explain your answer."
+    },
+    {
+      "id": 410602,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When will you say that a force is conservative? Give two conditions."
+    },
+    {
+      "id": 410610,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why work done against friction is non-conservative in nature? Explain briefly."
+    },
+    {
+      "id": 410594,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate power of a crane in kilowatt which lifts a mass of 1000 kg to a height of 100 m in 20 second."
+    },
+    {
+      "id": 410596,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give absolute and gravitational units of works in M.K.S and C.G.S systems."
+    },
+    {
+      "id": 410601,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Does the international space system have gravitational P.E or kinetic energy or both? Explain."
+    },
+    {
+      "id": 410592,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A body falls towards the Earth in air. Will its total mechanical energy be conserved during fall? Justify."
+    },
+    {
+      "id": 410657,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by (i) cohesive force (ii) Viscosity?"
+    },
+    {
+      "id": 410672,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The ratio stress/ strain remains constant for small deformation. What will be effect on this ratio when the deformation made is very large?"
+    },
+    {
+      "id": 410660,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does pressure changes with depth in fluids?"
+    },
+    {
+      "id": 410665,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does an object float or sink according to Archimedes principle?"
+    },
+    {
+      "id": 410667,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does Archimedes reportedly discover the principle that bears his name?"
+    },
+    {
+      "id": 410658,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between streamline and turbulent flow of a fluid."
+    },
+    {
+      "id": 410661,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is variation in pressure related to speed of a fluid?"
+    },
+    {
+      "id": 410668,
+      "chapter": 5,
+      "topic_id": "5.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why standing near fast moving train is dangerous? Explain briefly."
+    },
+    {
+      "id": 410669,
+      "chapter": 5,
+      "topic_id": "5.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are some potential applications of superfluid?"
+    },
+    {
+      "id": 410733,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by internal energy? How is it related to temperature of an ideal gas?"
+    },
+    {
+      "id": 410738,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why adiabat is steeper than isotherm? Explain."
+    },
+    {
+      "id": 410752,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A gas is expanding adiabatically. Explain what happens to temperature and pressure of the gas."
+    },
+    {
+      "id": 410748,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is work done (i) by a gas (ii) on a gas?"
+    },
+    {
+      "id": 410749,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how thermodynamics relates to the concept of energy conservation."
+    },
+    {
+      "id": 410750,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how thermodynamics applies to biological systems, such as human body."
+    },
+    {
+      "id": 410737,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between reversible and irreversible processes."
+    },
+    {
+      "id": 410735,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is it possible to construct a heat engine of 100% efficiency? Explain."
+    },
+    {
+      "id": 410740,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A refrigerator transform heat from cold to hot body. Does this violate the second law of thermodynamics? Justify your answer?"
+    },
+    {
+      "id": 410742,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain briefly heat death of universe in terms of entropy."
+    },
+    {
+      "id": 410945,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are coherent waves and coherent sources? Give examples."
+    },
+    {
+      "id": 410934,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the conditions for interference to occur?"
+    },
+    {
+      "id": 410935,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between constructive and destructive interference of waves."
+    },
+    {
+      "id": 410950,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by diffraction of waves? For what purpose, the ripple tank is used?"
+    },
+    {
+      "id": 410962,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it difficult to recognize beats when the frequency difference is greater than 10 Hz?Exemplify"
+    },
+    {
+      "id": 410960,
+      "chapter": 7,
+      "topic_id": "7.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How should a source of sound move with respect to an observer so that the frequency of its sound does not change? Write two examples."
+    },
+    {
+      "id": 410949,
+      "chapter": 7,
+      "topic_id": "7.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How would you apply Doppler effect in studying cardiac problems in humans?"
+    },
+    {
+      "id": 410957,
+      "chapter": 7,
+      "topic_id": "7.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Can you apply Doppler effect to light waves? Describe briefly."
+    },
+    {
+      "id": 411024,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is light from the sky partially polarized? How is it so?"
+    },
+    {
+      "id": 411030,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down some applications of plane polarized."
+    },
+    {
+      "id": 411023,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why are the Polaroid sunglasses better than the ordinary sunglasses?"
+    },
+    {
+      "id": 411026,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is Malus's law used in everyday life?"
+    },
+    {
+      "id": 411034,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Would it be possible to use a polarizer as an analyzer? If yes, give at least two examples."
+    },
+    {
+      "id": 411036,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how Malus's law is used in the design of polarized sunglasses. How do these surfaces reduce glare from reflective surface? Provide an example to illustrate your answer."
+    },
+    {
+      "id": 411038,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the significance of detecting gravitational waves?"
+    },
+    {
+      "id": 411094,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does a moving conductor like an aeroplane acquire charge as it flies through the air? Describe briefly."
+    },
+    {
+      "id": 411096,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define electric intensity and electric potential."
+    },
+    {
+      "id": 411112,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A potential difference is applied across the ends of a copper wire.What is the effect on the drift velocity of free election by (i) increasing the potential difference? (ii) decreasing the length and the temperature of the wire?"
+    },
+    {
+      "id": 411098,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is electron-volt a unit of potential difference or energy? Explain."
+    },
+    {
+      "id": 411099,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does the resistance of a conductor rise with increase in temperature?"
+    },
+    {
+      "id": 411100,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is the filament resistance lower or higher in a 500W-220V light bulb than in a 100 W-220V bulb?"
+    },
+    {
+      "id": 411102,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A copper wire of length L has resistance R. It is stretched to double of its length. What will be the resistance of the new length of wire?"
+    },
+    {
+      "id": 411109,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why the terminal potential difference of a battery decreases when the current drawn from it is increased?"
+    },
+    {
+      "id": 411196,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Does the application of uniform magnetic field to a moving charged particle result in a change in kinetic energy of the particle? Explain."
+    },
+    {
+      "id": 411199,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A uniform electric field and a magnetic field act in the same direction. A proton is projected, into the space, with a uniform velocity in opposite direction. What will happen to the proton?"
+    },
+    {
+      "id": 411184,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Can a single moving proton produce magnetic field?"
+    },
+    {
+      "id": 411187,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A magnetic field is necessary if there is to be a magnetic flux passing through a coil of wire. Yet, just because there is a magnetic field does not mean that a magnetic flux will pass through a coil. Account for this situation."
+    },
+    {
+      "id": 411190,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A charge is lying stationary between the opposite poles of two magnets. Is a magnetic force exerted on it? Why?"
+    },
+    {
+      "id": 411202,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A conductor moves in a magnetic field when a current is passed through the conductor. Would you expect the reverse effect to occur? That is, would a current be produced if a conductor is moved across the magnetic field?"
+    },
+    {
+      "id": 411206,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What will you do if you want to save a sensitive instrument from stray magnetic fields?"
+    },
+    {
+      "id": 411171,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A square loop of wire is moving through a uniform magnetic field. The normal to the loop is oriented parallel to the magnetic field. Is an emf induced in the loop? Give a reason for your answer."
+    },
+    {
+      "id": 411173,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Does the induced emf always act to decrease the magnetic flux through a circuit?"
+    },
+    {
+      "id": 411195,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is it possible to change both the area of the loop and the magnetic field passing through the loop and still not have an induced emf in the loop? Give reason."
+    },
+    {
+      "id": 411280,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe why it is impossible for a material particle to move with speed of light."
+    },
+    {
+      "id": 411285,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why mass of a moving object increases?"
+    },
+    {
+      "id": 411291,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the speed of light is just 50 m s-¹, how would every day events appear to?"
+    },
+    {
+      "id": 411293,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the speed of light were infinite, what would the equations of special theory of relativity reduce to?"
+    },
+    {
+      "id": 411279,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the two postulates of special theory of relativity?"
+    },
+    {
+      "id": 411283,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by relativistic mass, length and time?"
+    },
+    {
+      "id": 411287,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain that speed of light is an ultimate limit for any object."
+    },
+    {
+      "id": 411299,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give example where the results of special theory of relativity have been verified."
+    },
+    {
+      "id": 411282,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by proper time, and proper length?"
+    },
+    {
+      "id": 411294,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "According to Einstein's equation; E = mc2, is it possible to create a single electron from energy? Explain."
+    },
+    {
+      "id": 411348,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do different isotopes of a given element have in common? How are they different?"
+    },
+    {
+      "id": 411353,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why neutrino must be released in the positron emission?"
+    },
+    {
+      "id": 411357,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do a proton and a neutron convert to each other?"
+    },
+    {
+      "id": 411356,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the difference between beta particle and electron?"
+    },
+    {
+      "id": 411365,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which is more energetic alpha decay or beta decay? Justify your answer."
+    },
+    {
+      "id": 411367,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does the a-particles not make physical contact with the nucleus when headed directly towards it?"
+    },
+    {
+      "id": 411352,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Fill in the missing particle or nucleus:(a) <img src=\"/pts-media/equations/11th/phynew-chap12-9.svg\" /> (b) <img src=\"/pts-media/equations/11th/phynew-chap12-10.svg\" />"
+    },
+    {
+      "id": 411362,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are Mesons? Give examples."
+    },
+    {
+      "id": 411360,
+      "chapter": 12,
+      "topic_id": "12.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between hadron and leptons with examples."
+    },
+    {
+      "id": 411354,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between fermions and bosons."
+    },
+    {
+      "id": 411363,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is meson, a boson or fermion? Give reason."
+    },
+    {
+      "id": 411154,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between base and derived quantities."
+    },
+    {
+      "id": 411155,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many micro seconds are there in one year?"
+    },
+    {
+      "id": 411156,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are derived quantities?"
+    },
+    {
+      "id": 411157,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are derived quantities formed?"
+    },
+    {
+      "id": 411158,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is SI unit?"
+    },
+    {
+      "id": 411228,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do we find it useful to have two units for the amount of substance, the kilogram and mole?"
+    },
+    {
+      "id": 411245,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many nano seconds in 1 year?"
+    },
+    {
+      "id": 411159,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are significant figures?"
+    },
+    {
+      "id": 411160,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are significant figures important in measurements?"
+    },
+    {
+      "id": 411161,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the rule of multiplication and division of measurement?"
+    },
+    {
+      "id": 411162,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the rule for addition and subtraction with significant figures?"
+    },
+    {
+      "id": 411254,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Using rule of significant figures, compute <img src=\"/pts-media/equations/11th/phynew-chap1-4.svg\" /> up to appropriate significant figures."
+    },
+    {
+      "id": 411163,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the accuracy and precision?"
+    },
+    {
+      "id": 411165,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can a measurement be precise but not accurate?"
+    },
+    {
+      "id": 411168,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can a measurement be accurate but not precise?"
+    },
+    {
+      "id": 411172,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can precision be improved?"
+    },
+    {
+      "id": 411174,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Isa precise measurement is also an accurate measurement? Explain your answer."
+    },
+    {
+      "id": 411178,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is uncertainty in measurement?"
+    },
+    {
+      "id": 411181,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What cause uncertainty in measurement?"
+    },
+    {
+      "id": 411182,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is absolute uncertainty?"
+    },
+    {
+      "id": 411185,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is relative uncertainty?"
+    },
+    {
+      "id": 411186,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to report uncertainty in measurements?"
+    },
+    {
+      "id": 411188,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How uncertainty can be reduced in a timing experiment?"
+    },
+    {
+      "id": 411191,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Find the percentage uncertainty in the volume of a cylinder. If the percentage uncertainties in length and diameter of the cylinder are 0.3% and 0.6% respectively."
+    },
+    {
+      "id": 411198,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "The volume of a sphere is V=47.689 cm3 with 12% uncertainty. What is the correct range of volume measurement?"
+    },
+    {
+      "id": 411223,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Find percentage uncertainty in the volume of a cylinder if percentage uncertainties in length and diameter of cylinder are 0.2 and 0.8 respectively."
+    },
+    {
+      "id": 411234,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Three students measured the length of a needle with a scale with on which minimum division is 1 mm and recorded as (i) 0.2145 m (ii) 0.21 m (iii) 0.214 m. Which recorded is correct and why?"
+    },
+    {
+      "id": 411249,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "The wavelength of a wave depends on the speed v of the ave and its frequency f. knowing that <img src=\"/pts-media/equations/11th/phynew-chap1-8.svg\" />. Decide which of the following is correct, <img src=\"/pts-media/equations/11th/phynew-chap1-9.svg\" />."
+    },
+    {
+      "id": 411251,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give that <img src=\"/pts-media/equations/11th/phynew-chap1-5.svg\" /> volt. Find its percentage uncertainty."
+    },
+    {
+      "id": 411200,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the dimensions of a physical quantity?"
+    },
+    {
+      "id": 411201,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are dimensions are important in physics?"
+    },
+    {
+      "id": 411203,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is dimensional analysis?"
+    },
+    {
+      "id": 411204,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can dimensions help in deriving formulae?"
+    },
+    {
+      "id": 411210,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Calculate the dimension of physical quantities, if possible <img src=\"/pts-media/equations/11th/phynew-chap1-6.svg\" /> and rupees hundred."
+    },
+    {
+      "id": 411214,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the dimensions of: (i) Force (ii) Energy (iii) Angular momentum."
+    },
+    {
+      "id": 411216,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the dimensions of: (i) Angular velocity (ii) Work (iii) Torque."
+    },
+    {
+      "id": 411218,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between dimensional and non-dimensional variables."
+    },
+    {
+      "id": 411220,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between dimensional and non-dimensional constant."
+    },
+    {
+      "id": 411225,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Check correctness of E=hf dimensionally."
+    },
+    {
+      "id": 411238,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does a dimensional analysis give and information on constant of proportionality that may appear in an algebraic expression? Explain."
+    },
+    {
+      "id": 411240,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the dimensions of: (i) Pressure (ii) Density."
+    },
+    {
+      "id": 411242,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Dimension of coefficient of viscosity."
+    },
+    {
+      "id": 411635,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can a scalar quantity be negative?"
+    },
+    {
+      "id": 411638,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the resultant of two vectors acting in the same direction?"
+    },
+    {
+      "id": 411639,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the resultant of two vectors acting in the opposite directions?"
+    },
+    {
+      "id": 411640,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the result of two equal vectors at 90o to each other?"
+    },
+    {
+      "id": 411643,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can a vector has a negative magnitude?"
+    },
+    {
+      "id": 411646,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the components of a vector be negative?"
+    },
+    {
+      "id": 411647,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of resolving a vector into components?"
+    },
+    {
+      "id": 411648,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the component if the vector lies along x-axis?"
+    },
+    {
+      "id": 411675,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If a vector lies in xy-plane. is it possible, one of its rectangular components is zero?"
+    },
+    {
+      "id": 411651,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the scalar product of two perpendicular and two parallel vectors?"
+    },
+    {
+      "id": 411653,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the scalar product be zero?"
+    },
+    {
+      "id": 411654,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a positive scalar product indicate about the angle between two vectors?"
+    },
+    {
+      "id": 411657,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the direction of the vector product?"
+    },
+    {
+      "id": 411658,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of vectors product?"
+    },
+    {
+      "id": 411677,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the magnitude of vector ever be zero?"
+    },
+    {
+      "id": 411681,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "The vector sum of three vectors gives a zero resultant. What can be the orientation of the vectors?"
+    },
+    {
+      "id": 411685,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Vector <img src=\"/pts-media/equations/11th/phynew-chap2-4.svg\" /> lies in the xy-plane. For what orientation will both of its rectangular components be negative? For what orientation will its components have opposite signs?"
+    },
+    {
+      "id": 411702,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If one of the rectangular components of a vector is not zero, can its magnitude be zero?"
+    },
+    {
+      "id": 411703,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can a vector have a component greater than the vector's magnitude?"
+    },
+    {
+      "id": 411704,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the magnitude of a vector have a negative value?"
+    },
+    {
+      "id": 411706,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Under what cicumstances would a vector have compentns that are equal in magnitude?"
+    },
+    {
+      "id": 411707,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can you zero to a null vector?"
+    },
+    {
+      "id": 411708,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Two vectors have unequal magnitudes. Can their sum be zero? Explain."
+    },
+    {
+      "id": 411709,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the different conditions that could make <img src=\"/pts-media/equations/11th/phynew-chap2-4.svg\" />1 x <img src=\"/pts-media/equations/11th/phynew-chap2-4.svg\" />2=0."
+    },
+    {
+      "id": 411710,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the circumstances in which the velocity C and acceleration a are constant."
+    },
+    {
+      "id": 411711,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "An object is thrown upward with initial velocity. How much height does it gain in turns of velocity?"
+    },
+    {
+      "id": 411719,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is projectile motion?"
+    },
+    {
+      "id": 411720,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two components of projectile motion?"
+    },
+    {
+      "id": 411722,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the horizontal acceleration of a projectile?"
+    },
+    {
+      "id": 411723,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does projectile fall back to the ground?"
+    },
+    {
+      "id": 411726,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In the absence of friction, how the vertical and horizontal components of velocity change?"
+    },
+    {
+      "id": 411727,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Derive the formula for the vertical distance covered by the projectile when it is thrown from a certain height h."
+    },
+    {
+      "id": 411729,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which quantity remains same at all points on the trajectory of a projectile either velocity or acceleration? Explain."
+    },
+    {
+      "id": 411730,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "The horizontal range of projectile is four times of its maximum height. what is anglw of projection?"
+    },
+    {
+      "id": 411731,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If the angle of the projectile is zero. What is its maximum height?"
+    },
+    {
+      "id": 411732,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "For what value of the angle of prjection the range of projectile is half of its maximum possible values?"
+    },
+    {
+      "id": 411804,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain, what is meant by projectile motion? Derive expression for: (a) The time of flight (b)The range of projectile."
+    },
+    {
+      "id": 411664,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the relation between impulse and momentum?"
+    },
+    {
+      "id": 411665,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the SI unit of impulse?"
+    },
+    {
+      "id": 411666,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a small force produce a large momentum?"
+    },
+    {
+      "id": 411670,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are airbags used in cars?"
+    },
+    {
+      "id": 411672,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If a force acts on a body for zero time, what is the impulse?"
+    },
+    {
+      "id": 411712,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why a motorcycle's safety halmet is passed?"
+    },
+    {
+      "id": 411714,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between open and close system?"
+    },
+    {
+      "id": 411718,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How the hairs act like a crumple zone on your skull?"
+    },
+    {
+      "id": 411743,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How would you elaborate the importance of head rest of car seat?"
+    },
+    {
+      "id": 411745,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When two objects moves in opposite direction one will have positive momentum and other negative. why?"
+    },
+    {
+      "id": 411747,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Find the change in momentum for an object to a given force for a given time and state law of motion in terms of momentum."
+    },
+    {
+      "id": 411748,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define impulse and show that how it is related to linear momentum?"
+    },
+    {
+      "id": 411749,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the law of conservation of linear momentum, pointing out the importance of of isolated system. Explain, why under certain condition, the law is useful even through the system is not completely isolated?"
+    },
+    {
+      "id": 411733,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one example of elastic collision."
+    },
+    {
+      "id": 411734,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one example of inelastic collision."
+    },
+    {
+      "id": 411736,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is momentum conserved in both elastic and inelastic collision?"
+    },
+    {
+      "id": 411737,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is K.E conserved in an inelastic collision?"
+    },
+    {
+      "id": 411738,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the total energy in an inelastic collision?"
+    },
+    {
+      "id": 411739,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is perfectly inelastic collision?"
+    },
+    {
+      "id": 411740,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can K.E increase after a collision?"
+    },
+    {
+      "id": 411750,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between elastic and inelastic collision. Explain, how would a bouncing ball before in each case? Give possible reasons for the fact that kinetic energy is not conserved in most cases."
+    },
+    {
+      "id": 411805,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is rocket propulsion?"
+    },
+    {
+      "id": 411807,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the source of thrust in a rocket?"
+    },
+    {
+      "id": 411808,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why can a rocket work in space where there is no air?"
+    },
+    {
+      "id": 411809,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is thrust?"
+    },
+    {
+      "id": 411810,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of fuel in rocket propulsion?"
+    },
+    {
+      "id": 411812,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a rocket accelerate as it rises?"
+    },
+    {
+      "id": 411813,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the term\"recoil velocity\" in rockets?"
+    },
+    {
+      "id": 411815,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the momentum conservation principle in rocket propulsion?"
+    },
+    {
+      "id": 411816,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect on the speed of a fighter plane chasing another when it opens the fire?"
+    },
+    {
+      "id": 411818,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the rocket propulsion take place?"
+    },
+    {
+      "id": 412034,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the direction of angular displacement?"
+    },
+    {
+      "id": 412035,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can angular displacement be negative?"
+    },
+    {
+      "id": 412037,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes angular acceleration in a rotating object?"
+    },
+    {
+      "id": 412038,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many radians are there in 2 degree?"
+    },
+    {
+      "id": 412053,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between tangential velocity and the angular velocity. If one of there is given for a wheel of known radius, how will you find the other?"
+    },
+    {
+      "id": 412040,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Banked tracks are needed for turns on higway. why?"
+    },
+    {
+      "id": 412054,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is centripetal force a real force?"
+    },
+    {
+      "id": 412055,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen if centripetal force is removed?"
+    },
+    {
+      "id": 412056,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What provides centripetal force in case of a car turning in a circle?"
+    },
+    {
+      "id": 412057,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can gravity acts as a centripetal force?"
+    },
+    {
+      "id": 412059,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what is meant by centripetal force and why is must be furnished to an object if the object is to follow a circular path?"
+    },
+    {
+      "id": 412120,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When mud flies off the tyre of a moving bicycle? In what direction does it fly? explain."
+    },
+    {
+      "id": 412081,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an artificial satellite?"
+    },
+    {
+      "id": 412082,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What keeps an artificial satellite in orbit?"
+    },
+    {
+      "id": 412083,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is angular velocity of a satellite?"
+    },
+    {
+      "id": 412084,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the direction of angular velocity in satellite motion?"
+    },
+    {
+      "id": 412086,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do not artificial satellites fall back to the Earth?"
+    },
+    {
+      "id": 412087,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors affect the angular velocity of a satellite?"
+    },
+    {
+      "id": 412088,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is orbital velocity."
+    },
+    {
+      "id": 412090,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does orbital velocity depend on the mass of the orbiting object?"
+    },
+    {
+      "id": 412091,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen if an object moves faster than orbital velocity?"
+    },
+    {
+      "id": 412093,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does altitude affect orbital velocity?"
+    },
+    {
+      "id": 412094,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between orbital velocity and escape velocity."
+    },
+    {
+      "id": 412096,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe what should be the minimum velocity, for a satellite, to orbit close the Earth around it?"
+    },
+    {
+      "id": 412099,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is weightlessness?"
+    },
+    {
+      "id": 412101,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Do astronauts in satellites experience zero gravity."
+    },
+    {
+      "id": 412103,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do astronauts feel weightless in a satellite?"
+    },
+    {
+      "id": 412104,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is the force of gravity zero inside a satellite?"
+    },
+    {
+      "id": 412106,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the actual cause of weightlessness in orbiting satellites?"
+    },
+    {
+      "id": 412108,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can weightlessness be experienced on the Earth?"
+    },
+    {
+      "id": 412109,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of weightlessness on the human body?"
+    },
+    {
+      "id": 412111,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is artificial gravity be created in a spacecraft?"
+    },
+    {
+      "id": 412115,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain, why an object orbiting the Earth is said to be freely falling? Use explanation to point out why objects appear weightless under certain circumstances?"
+    },
+    {
+      "id": 412042,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Calculate moment of inertia of sphere of radius 0.5 m and 10kg."
+    },
+    {
+      "id": 412060,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is moment of inertia?"
+    },
+    {
+      "id": 412061,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "On what factors does the moment of inertia depend?"
+    },
+    {
+      "id": 412063,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which has greater moment of inertia, a ring or a disc of same mass and radius?"
+    },
+    {
+      "id": 412065,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significant of moment of inertia?"
+    },
+    {
+      "id": 412066,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by moment of inertia? Explain its significance."
+    },
+    {
+      "id": 412067,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is angular momentum?"
+    },
+    {
+      "id": 412068,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of conservation of angular momentum."
+    },
+    {
+      "id": 412069,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes a change in angular momentum?"
+    },
+    {
+      "id": 412076,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by angular momentum? Explain the law of conservation of angular momentum."
+    },
+    {
+      "id": 412079,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Show that orbital angular momentum Lo=mvr."
+    },
+    {
+      "id": 412097,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the directions of the following vectors in simple situation; angular momentum and angular velocity."
+    },
+    {
+      "id": 412052,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe what should be maximum velocity for a satellite to orbit close to the earth around it?"
+    },
+    {
+      "id": 412072,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a diver spin faster when they curl their body mid-air?"
+    },
+    {
+      "id": 412074,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does convervation of angular momentum apply to planetary motion?"
+    },
+    {
+      "id": 412126,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a diver change his body positions before and after diving in the pool?"
+    },
+    {
+      "id": 413796,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A car is moving along a circle of radius r. it completes four revolution and terminates its journey at starting point. How much work is done by the car? Explain"
+    },
+    {
+      "id": 413614,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the work done by gravity when an object falls vertically downward?"
+    },
+    {
+      "id": 413641,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by variable force?"
+    },
+    {
+      "id": 413644,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the formula W=F.d be used for variable force?"
+    },
+    {
+      "id": 413645,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can we find work done by a variable force graphically?"
+    },
+    {
+      "id": 413646,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is work done by a variable force always positive?"
+    },
+    {
+      "id": 413805,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does work done in raising a box on platform depend upon how fast it is raised up? If not why?"
+    },
+    {
+      "id": 413649,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a conservative force? Give two example."
+    },
+    {
+      "id": 413650,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is non-conservative force? Give two examples."
+    },
+    {
+      "id": 413652,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is non-conservative force? Give two examples."
+    },
+    {
+      "id": 413653,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can work done by a conservative force around a closed path be non-zero?"
+    },
+    {
+      "id": 413656,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can work done by a non-conservation force around a closed path be zero?"
+    },
+    {
+      "id": 413660,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is work done by a gravitational force?"
+    },
+    {
+      "id": 413662,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does the path taken affect the work done by gravity?"
+    },
+    {
+      "id": 413664,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen to the work done by gravity if height increases?"
+    },
+    {
+      "id": 413817,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A force F acts through a distance L. The force is then increased to 3 F. and acts through a further distance of 2 L. Draw the work diagram to scale."
+    },
+    {
+      "id": 413821,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In which case is more work done? When a 50 kg bag of books is lifted through 50 cm, or when a 50 kg crate is pushed through? m across the floor with a force of 50 N?"
+    },
+    {
+      "id": 413669,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is average power and instantaneous power?"
+    },
+    {
+      "id": 413772,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "On what factors does G.P.E depend?"
+    },
+    {
+      "id": 413773,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is absolute P.E?"
+    },
+    {
+      "id": 413776,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the most common reference point for absolute P.E?"
+    },
+    {
+      "id": 413777,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is absolute P.E always positive?"
+    },
+    {
+      "id": 413778,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is absolute P.E different from relative P.E?"
+    },
+    {
+      "id": 413779,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can absolute P.E negative?"
+    },
+    {
+      "id": 413803,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Convert 1.4kW into joule per second."
+    },
+    {
+      "id": 413807,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Point out positions where gravitational potential energy is takes as zero."
+    },
+    {
+      "id": 413809,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A person hold a bag of groceries while standing still, talking to a friend. A car is stationary with its engine running. From the stand point of work, how are these two situations similar?"
+    },
+    {
+      "id": 413813,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Calculate the work done in kilo joules in lifiting a mass of 10 kg (at a steady velocity) through a vertical height of 10 m."
+    },
+    {
+      "id": 413822,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "An object has 1 J of potential energy. Explain, what does it mean?"
+    },
+    {
+      "id": 413780,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does escape velocity depend on the mass of the object?"
+    },
+    {
+      "id": 413781,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the escape velocity?"
+    },
+    {
+      "id": 413782,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is escape velocity related to orbital velocity?"
+    },
+    {
+      "id": 413801,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What will be the velocity of the particle if its momentum and kinetic energy are equal in magnitude?"
+    },
+    {
+      "id": 413783,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is the work-energy theorm valid for variable forces?"
+    },
+    {
+      "id": 413784,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the work done be negative in the work-energy theorem?"
+    },
+    {
+      "id": 413785,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of work-energy theorem?"
+    },
+    {
+      "id": 413786,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the work-energy theorom be applied to a falling object?"
+    },
+    {
+      "id": 413787,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can K.E be converted back into P.E?"
+    },
+    {
+      "id": 413788,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does friction affect the interconversion of energy?"
+    },
+    {
+      "id": 413789,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can energy be lost during interconversion?"
+    },
+    {
+      "id": 413826,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A ball of mass m is held at a height h1 above a table. The table top is at a height h2 above the floor. One student says that the ball has potential energy mgh 1 but another says that it is mg (h1+h2). Whi is correct?"
+    },
+    {
+      "id": 413829,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When a recket re-enters the atmosphere, its nose cone becomes very hot. Where does this heat energy come from?"
+    },
+    {
+      "id": 413832,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What short of energy is in the following? (a) Compressed spring (b) water in a high dam (c) A moving car."
+    },
+    {
+      "id": 413835,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A girl drop a cup from a certain height, which breaks into pieces. what energy changes are involved?"
+    },
+    {
+      "id": 413839,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A boy uses a catapult to throw a stone which accidentally smashes a greenhouse window. List the possible energy changes?"
+    },
+    {
+      "id": 414180,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the crystalline solid? Give examples."
+    },
+    {
+      "id": 414181,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the key property of crystalline solids?"
+    },
+    {
+      "id": 414183,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are amorphous or glassy solid? Give two examples."
+    },
+    {
+      "id": 414184,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Are amorphous solids true solids? Have they sharp melting point?"
+    },
+    {
+      "id": 414185,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are polymeric solids? Give two examples."
+    },
+    {
+      "id": 414187,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Are polymeric solids crystalline or amorphous?"
+    },
+    {
+      "id": 414221,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between crystalline, amorphous and polymeric solids?"
+    },
+    {
+      "id": 414233,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define stress and strain. What are their Si units? Differentiate between tensile, compressive and shear modes of stress and strain."
+    },
+    {
+      "id": 414238,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define modulus of elasticity. Show that the units of modulus of elasticity and stress are the same. Also descuss its three kinds."
+    },
+    {
+      "id": 414223,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between elastic deformation and plastic deformation."
+    },
+    {
+      "id": 414227,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen if stess remainswithin the elastic limit and if stress exceeds the elastic limit?"
+    },
+    {
+      "id": 414229,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the elastic limit important in engineering?"
+    },
+    {
+      "id": 414242,
+      "chapter": 5,
+      "topic_id": "5.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Draw a stress strain curve for a ductile material, and then define the terms: Elastic limit, Yield point and ultimate tensile stress?"
+    },
+    {
+      "id": 414231,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is strain energy? What happens to it in plastic deformation?"
+    },
+    {
+      "id": 414244,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by strain energy? How can it be determined from the force-extension graph?"
+    },
+    {
+      "id": 414247,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do ships mase of iron float on water?"
+    },
+    {
+      "id": 414248,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the condition for natural floatation?"
+    },
+    {
+      "id": 414214,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by ideal fluid? State conditions to be satisfied by ideal fluid."
+    },
+    {
+      "id": 414216,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can lamier flow be changed into turbulent flow?"
+    },
+    {
+      "id": 414251,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does velocity remain constant along a streamline in steady flow?"
+    },
+    {
+      "id": 414262,
+      "chapter": 5,
+      "topic_id": "5.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Whatis the equation of continuity? What does it imply?"
+    },
+    {
+      "id": 414268,
+      "chapter": 5,
+      "topic_id": "5.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give a real life example where the equation of continuity is observed."
+    },
+    {
+      "id": 414198,
+      "chapter": 5,
+      "topic_id": "5.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State Bernoulli's equation for a liquid in motion and describe some of its applications."
+    },
+    {
+      "id": 414200,
+      "chapter": 5,
+      "topic_id": "5.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A person is standing near a fast moving train, is there any danger that he will fall towards it?"
+    },
+    {
+      "id": 414203,
+      "chapter": 5,
+      "topic_id": "5.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Two row boats moving parallel in the same direction are pulled towards each other. Explain."
+    },
+    {
+      "id": 414272,
+      "chapter": 5,
+      "topic_id": "5.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Bernoulli's equation? What does it represent?"
+    },
+    {
+      "id": 414204,
+      "chapter": 5,
+      "topic_id": "5.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the swing is produced in a fast moving cricket ball?"
+    },
+    {
+      "id": 414206,
+      "chapter": 5,
+      "topic_id": "5.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the working of a carburetor of a motor car using by Bernoulli's principle."
+    },
+    {
+      "id": 414220,
+      "chapter": 5,
+      "topic_id": "5.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When water fall from a top, its cross sectional area decreases as it comes down. Explain."
+    },
+    {
+      "id": 414276,
+      "chapter": 5,
+      "topic_id": "5.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of Bernoulli's equation due to pressure difference?"
+    },
+    {
+      "id": 414292,
+      "chapter": 5,
+      "topic_id": "5.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name one application for Stokes law to apply."
+    },
+    {
+      "id": 414293,
+      "chapter": 5,
+      "topic_id": "5.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is terminal velocity?"
+    },
+    {
+      "id": 414295,
+      "chapter": 5,
+      "topic_id": "5.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does an object reach terminal velocity?"
+    },
+    {
+      "id": 414193,
+      "chapter": 5,
+      "topic_id": "5.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by farg force? what are the factors upon which drag force acting upon a small sphere of radius r, moving down through a liquid, depend?"
+    },
+    {
+      "id": 414195,
+      "chapter": 5,
+      "topic_id": "5.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why fog droplets appear to be suspended in air?"
+    },
+    {
+      "id": 414191,
+      "chapter": 5,
+      "topic_id": "5.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain, what do you understand by the term viscosity?"
+    },
+    {
+      "id": 414297,
+      "chapter": 5,
+      "topic_id": "5.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are superfluids?"
+    },
+    {
+      "id": 414301,
+      "chapter": 5,
+      "topic_id": "5.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the most notable property of superfluids?"
+    },
+    {
+      "id": 414303,
+      "chapter": 5,
+      "topic_id": "5.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Are superfluids a state of matter?"
+    },
+    {
+      "id": 414615,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main assumptions of kinetic theory of gases?"
+    },
+    {
+      "id": 414621,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does kinetic theory apply to real gases at all conditions?"
+    },
+    {
+      "id": 414622,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do real gases deviate from idea behaviour?"
+    },
+    {
+      "id": 414667,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain that the average velocity of the molecule in a gas zero but the average of the square of velocities in not zero?"
+    },
+    {
+      "id": 414669,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does the pressure of a gas in a car tyre increase when it is driven through some distance?"
+    },
+    {
+      "id": 414624,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main components of internal energy."
+    },
+    {
+      "id": 414625,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is internal energy a state function?"
+    },
+    {
+      "id": 414626,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does internal energy change in an adiabatic process?"
+    },
+    {
+      "id": 414675,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it possible to convert internal energy into mechanical energy? Explain with an example."
+    },
+    {
+      "id": 414692,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the mechincal enewrgy be converted completely into heat energy? If so, give an example."
+    },
+    {
+      "id": 414671,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A system undergoes from state P1V1. What will be the change in internal energy?"
+    },
+    {
+      "id": 414673,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a process in which no heat is transferred to or from the system but the temperature of the system change."
+    },
+    {
+      "id": 414629,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen to head and work in an adiabatic process?"
+    },
+    {
+      "id": 414630,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two examples of adiabatic process."
+    },
+    {
+      "id": 414676,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it possible to construct a heat engine that will not expel heat into the atmosphere?"
+    },
+    {
+      "id": 414701,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the physical significance of first law of thermodynamics?"
+    },
+    {
+      "id": 414632,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the similarity between internal energy and gravitational P.E?"
+    },
+    {
+      "id": 414634,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What should be the heat lost if internal energy decreases by 10 j and 20 j of work is done on the system simultaneously?"
+    },
+    {
+      "id": 414639,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "An engine absorbs heat of 10 j and rejects 5j heat. What is the heat being used by the engine?"
+    },
+    {
+      "id": 414710,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of second law of thermodynamics?"
+    },
+    {
+      "id": 414641,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A heat engine works between 327oC and 27oC. Find its efficiency."
+    },
+    {
+      "id": 414651,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Under what circumstances the efficency of a Carnot engine will be 100%? is it possible?"
+    },
+    {
+      "id": 414652,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect on efficiency of Carnot engine, If the temperature of the sink only be decreased?"
+    },
+    {
+      "id": 414655,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Carnot cycle provides the basis to define a temperature a scale that is independent of material properties."
+    },
+    {
+      "id": 414720,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does the Carnot's theorem depend on the working substances?"
+    },
+    {
+      "id": 414722,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the implication of Carnot's theorem for real engines?"
+    },
+    {
+      "id": 414717,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the second law of thermodynamics apply to refrigerators?"
+    },
+    {
+      "id": 414725,
+      "chapter": 6,
+      "topic_id": "6.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors affect the coefficient of performace of a refrigerator?"
+    },
+    {
+      "id": 414664,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A system absorb 200 j heat at an absolute temperature 200k. Calculate the change in entropy."
+    },
+    {
+      "id": 414679,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A thermos flask containing milk is shaken rapidly. Does the temperature of milk rise?"
+    },
+    {
+      "id": 414683,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the temperature of the room, when an air-conditioner is left running on a table in the middle of the room?"
+    },
+    {
+      "id": 414694,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does entropy of a system increases or decreases due to friction?"
+    },
+    {
+      "id": 414700,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a natural process that involves an increase in entropy?"
+    },
+    {
+      "id": 414704,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is entropy chznge zero in a reversible process?"
+    },
+    {
+      "id": 414708,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is entropy change positive in an irreversible proces?"
+    },
+    {
+      "id": 414726,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can entropy ever be negative?"
+    },
+    {
+      "id": 414727,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does entropy increase or decrease in an irreversible process?"
+    },
+    {
+      "id": 414731,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the total entropy change of the universe in a reversible process?"
+    },
+    {
+      "id": 415104,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is period of 250 cycles per second of sound waves?"
+    },
+    {
+      "id": 415109,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Find the temperature of air, if the velocity of sound is 340 ms-1 at the temperature?"
+    },
+    {
+      "id": 415117,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the factors which speed of sound in air depends?"
+    },
+    {
+      "id": 415153,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why ultrasonic waves are preferred on radio waves for the use of undersea communication?"
+    },
+    {
+      "id": 415186,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain, why sound travels faster in warm air then in cold air?"
+    },
+    {
+      "id": 415120,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes interference?"
+    },
+    {
+      "id": 415125,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of interference in daily life."
+    },
+    {
+      "id": 415129,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between interference and diffraction?"
+    },
+    {
+      "id": 415124,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is coherent light?"
+    },
+    {
+      "id": 415159,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Do stationary waves transer energy?"
+    },
+    {
+      "id": 415160,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of stationary waves in real life."
+    },
+    {
+      "id": 415162,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the phase difference between particles in a stationary wave?"
+    },
+    {
+      "id": 415163,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the quantities which affect the frequency of standing wave along a string?"
+    },
+    {
+      "id": 415161,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can stationary waves be formed in air columns?"
+    },
+    {
+      "id": 415156,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which is richer harmonics, and why?"
+    },
+    {
+      "id": 415164,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How the K.E and P.E alternates in stationary waves?"
+    },
+    {
+      "id": 415165,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect on frequency of sound waves, when source ans observer are moving towards each other?"
+    },
+    {
+      "id": 415173,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it possible for two identical waves travelling in the same direction along a strin to give rise to a stationary wave?"
+    },
+    {
+      "id": 415175,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A wave is produced along a stretched string but some of its particles permanently show zero displacement. What type of wave is it?"
+    },
+    {
+      "id": 415176,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the terms crest, trough, node and anti-node."
+    },
+    {
+      "id": 415132,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can diffraction occur in water waves?"
+    },
+    {
+      "id": 415134,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happenes to diffraction pattern if the slit width is decreased?"
+    },
+    {
+      "id": 415136,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you demonstrate diffraction using a ripple tank?"
+    },
+    {
+      "id": 415138,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a white screen placed beneath the ripple tank?"
+    },
+    {
+      "id": 415178,
+      "chapter": 7,
+      "topic_id": "7.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does sound travels fatser in solids than in gases?"
+    },
+    {
+      "id": 415139,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between interference and beats?"
+    },
+    {
+      "id": 415167,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can be used to tune musical instruments?"
+    },
+    {
+      "id": 415168,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What types of waves produce waves?"
+    },
+    {
+      "id": 415169,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is intensity important in wave phenomena?"
+    },
+    {
+      "id": 415170,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does intensity of a wave depend on frquency?"
+    },
+    {
+      "id": 415171,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between loudness and intensity of a wave?"
+    },
+    {
+      "id": 415179,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are beats useful in tuning musical instruments?"
+    },
+    {
+      "id": 415181,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When two notes of frequencies f and f2 are sounded together, beat are formed. If f1>f2. what will be the frequency of beats?"
+    },
+    {
+      "id": 415192,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a sound move with respect to an observer such that its frequency does not change."
+    },
+    {
+      "id": 415184,
+      "chapter": 7,
+      "topic_id": "7.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "As a result of a distant explosion, an observer senses a ground tremor and then hears the explosion. Explain the time difference."
+    },
+    {
+      "id": 415166,
+      "chapter": 7,
+      "topic_id": "7.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How the doppler shift can be used in Radar speed trap?"
+    },
+    {
+      "id": 415188,
+      "chapter": 7,
+      "topic_id": "7.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can the Dopper effect be observed in light waves?"
+    },
+    {
+      "id": 415189,
+      "chapter": 7,
+      "topic_id": "7.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the use of Doppler effect in real life?"
+    },
+    {
+      "id": 415190,
+      "chapter": 7,
+      "topic_id": "7.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does Doppler effect occur in all types of waves?"
+    },
+    {
+      "id": 415325,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of waves can be polarized?"
+    },
+    {
+      "id": 415326,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give one practical application of polarization."
+    },
+    {
+      "id": 415330,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is detection of plane polarized light important?"
+    },
+    {
+      "id": 415332,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three methods to produce plane polarized light."
+    },
+    {
+      "id": 415333,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is plane polarized light?"
+    },
+    {
+      "id": 415355,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name one practical use of Brewster's law."
+    },
+    {
+      "id": 415356,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can Brewster's law be applied to all type of waves?"
+    },
+    {
+      "id": 415357,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is Malus' law applicable to unpolarized light?"
+    },
+    {
+      "id": 415358,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Malus's law help in optics?"
+    },
+    {
+      "id": 415359,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do gravitational waves travel?"
+    },
+    {
+      "id": 415360,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes gravitation waves?"
+    },
+    {
+      "id": 415361,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of gravitational waves on matter?"
+    },
+    {
+      "id": 415362,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are gravitational waves detected?"
+    },
+    {
+      "id": 415363,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are gravitational waves important in astronomy?"
+    },
+    {
+      "id": 415364,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is LIGO?"
+    },
+    {
+      "id": 415365,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can gravitational waves be felt by humans?"
+    },
+    {
+      "id": 415366,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do gravitational waves propagate?"
+    },
+    {
+      "id": 415367,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of LIGO?"
+    },
+    {
+      "id": 415368,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does LIGO detect gravitational waves?"
+    },
+    {
+      "id": 415369,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the basic principle behind LIGO?"
+    },
+    {
+      "id": 415370,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What kind of astronomical information can Virgo provide?"
+    },
+    {
+      "id": 415371,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are tidal forces related to space-time distortion?"
+    },
+    {
+      "id": 415855,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the nature of force given by Coulomb's law?"
+    },
+    {
+      "id": 415856,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can Coulomb's law be applied to large bodies?"
+    },
+    {
+      "id": 415858,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of medium bertween the charge upon Coulomb's force? Explain."
+    },
+    {
+      "id": 415896,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Suppose you follow an electric field line due to a positive point charge. Do electric field and the potential increases or decrease?"
+    },
+    {
+      "id": 415903,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you identify that which plate os positively charged?"
+    },
+    {
+      "id": 415860,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguished between electric field and electric field intensity?"
+    },
+    {
+      "id": 415862,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen to electric field strength as distance increases?"
+    },
+    {
+      "id": 415863,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is electric field strength related to p.d?"
+    },
+    {
+      "id": 415865,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do electric field lines appear bewteen two opposite charges?"
+    },
+    {
+      "id": 415866,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do electric field lines behave between two like charges?"
+    },
+    {
+      "id": 415868,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are electric field lines useful?"
+    },
+    {
+      "id": 415890,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "The potential is constant throughout a given region of space. Is the electric field zero or non-zero in this region? Explain."
+    },
+    {
+      "id": 415917,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Electric lines of forces never cross. why?"
+    },
+    {
+      "id": 415925,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If a point charge q of mass m is released in a non-unifrom electric field with lines pointing in the same direction, will it make a rectiliinear motion?"
+    },
+    {
+      "id": 415927,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does electric flux depend on the shape of the surface?"
+    },
+    {
+      "id": 415928,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Gauss's law help us to calculate?"
+    },
+    {
+      "id": 415933,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the electric field inside a uniform charged spherical shell?"
+    },
+    {
+      "id": 415940,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it true that Gauss's law states that the total numer of lines of force crossing any closed surface in the outward direction is proportional to the net positive charge enclosed within the surface?"
+    },
+    {
+      "id": 415941,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is electric potential?"
+    },
+    {
+      "id": 415942,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the relationship between electric field and electric potential?"
+    },
+    {
+      "id": 415943,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is potential difference?"
+    },
+    {
+      "id": 415944,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is equipotential surface?"
+    },
+    {
+      "id": 415945,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by zero electric potential?"
+    },
+    {
+      "id": 415946,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the potentail due to a system of charges?"
+    },
+    {
+      "id": 415947,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does higher electric potential mean strong electric field?"
+    },
+    {
+      "id": 415948,
+      "chapter": 9,
+      "topic_id": "9.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by electric potential gradient?"
+    },
+    {
+      "id": 415869,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differertiate between volt and electron volt."
+    },
+    {
+      "id": 415875,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A particle having a charge of 20 electrons on it falls through potential difference of 100 V. Claculate the energy acquired by it in electron volt."
+    },
+    {
+      "id": 415876,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an electron volt?"
+    },
+    {
+      "id": 415878,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is electron volt is related to charge of an electron?"
+    },
+    {
+      "id": 415881,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many joules are there in MeV (mega electron volt)?"
+    },
+    {
+      "id": 415914,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the force of forces on a positive oint charge when placed between parallel plates: (a) with similar and equal charges (b) with opposite and equal charges."
+    },
+    {
+      "id": 415951,
+      "chapter": 9,
+      "topic_id": "9.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A potential differences is applied across the ends of a copper wire. What is the effect on the drift velocity of electrons by: (i) increasing the potential difference (ii) Decreasing the length and the temperature of the wire."
+    },
+    {
+      "id": 415949,
+      "chapter": 9,
+      "topic_id": "9.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Faraday;s cage?"
+    },
+    {
+      "id": 415950,
+      "chapter": 9,
+      "topic_id": "9.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where is electrostatic shielding used in real life?"
+    },
+    {
+      "id": 415957,
+      "chapter": 9,
+      "topic_id": "9.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is conventional current?"
+    },
+    {
+      "id": 415958,
+      "chapter": 9,
+      "topic_id": "9.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is conventional current differ from electric current?"
+    },
+    {
+      "id": 415954,
+      "chapter": 9,
+      "topic_id": "9.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the difficulties in testing whether the filament of a lighted bulb obeys Ohm's law?"
+    },
+    {
+      "id": 415959,
+      "chapter": 9,
+      "topic_id": "9.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State one limitation of Ohm's law."
+    },
+    {
+      "id": 415952,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Do bends in a wire affect its electrical resistance? Explain."
+    },
+    {
+      "id": 415953,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the resistance of a conductor rise with temperature?"
+    },
+    {
+      "id": 415955,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is the filament resistance lower or higher in a 500W, 220V light bulb then in a 100 w, 220 V bulb?"
+    },
+    {
+      "id": 415960,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is resistivity?"
+    },
+    {
+      "id": 415961,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors affect the resistivity of a meterial?"
+    },
+    {
+      "id": 415962,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What kind of material have low resistivity?"
+    },
+    {
+      "id": 415963,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is resistivity different from resistance?"
+    },
+    {
+      "id": 415965,
+      "chapter": 9,
+      "topic_id": "9.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is electric power?"
+    },
+    {
+      "id": 415966,
+      "chapter": 9,
+      "topic_id": "9.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is electromotive force?"
+    },
+    {
+      "id": 415967,
+      "chapter": 9,
+      "topic_id": "9.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are emf and p.d different?"
+    },
+    {
+      "id": 415968,
+      "chapter": 9,
+      "topic_id": "9.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can emf do work?"
+    },
+    {
+      "id": 415969,
+      "chapter": 9,
+      "topic_id": "9.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the terminal p.d when current increases?"
+    },
+    {
+      "id": 415970,
+      "chapter": 9,
+      "topic_id": "9.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of Kirchhoff's rules?"
+    },
+    {
+      "id": 415956,
+      "chapter": 9,
+      "topic_id": "9.17",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Wheatstone bridge? How can it be used to determine an unknow resistance?"
+    },
+    {
+      "id": 415971,
+      "chapter": 9,
+      "topic_id": "9.17",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Wheatstone bridge?"
+    },
+    {
+      "id": 415972,
+      "chapter": 9,
+      "topic_id": "9.17",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the condition for balance in Wheatstone bridge?"
+    },
+    {
+      "id": 415973,
+      "chapter": 9,
+      "topic_id": "9.17",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen when Wheatstone bridge is balanced?"
+    },
+    {
+      "id": 415974,
+      "chapter": 9,
+      "topic_id": "9.17",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where is the Wheatstone bridge commonly used?"
+    },
+    {
+      "id": 415975,
+      "chapter": 9,
+      "topic_id": "9.18",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "On what principle does a potentiometer work?"
+    },
+    {
+      "id": 415976,
+      "chapter": 9,
+      "topic_id": "9.18",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a potentiometer more accurate than a voltmeter?"
+    },
+    {
+      "id": 415977,
+      "chapter": 9,
+      "topic_id": "9.18",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a balancing length?"
+    },
+    {
+      "id": 415979,
+      "chapter": 9,
+      "topic_id": "9.18",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of wire is used in a potentiometer?"
+    },
+    {
+      "id": 415978,
+      "chapter": 9,
+      "topic_id": "9.19",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens at the null point in a galvanometer?"
+    },
+    {
+      "id": 415980,
+      "chapter": 9,
+      "topic_id": "9.19",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the basic priciple of a galvanometer?"
+    },
+    {
+      "id": 415981,
+      "chapter": 9,
+      "topic_id": "9.19",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How a galvanometer is converted into: (i) an ammeter (ii) a Voltmeter"
+    },
+    {
+      "id": 415982,
+      "chapter": 9,
+      "topic_id": "9.20",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a thermistor?"
+    },
+    {
+      "id": 415983,
+      "chapter": 9,
+      "topic_id": "9.20",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary use of thermistor?"
+    },
+    {
+      "id": 415984,
+      "chapter": 9,
+      "topic_id": "9.20",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are thermistors commonly used?"
+    },
+    {
+      "id": 415985,
+      "chapter": 9,
+      "topic_id": "9.21",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a light dependent resistor (LDR)?"
+    },
+    {
+      "id": 415986,
+      "chapter": 9,
+      "topic_id": "9.21",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are some commone applications of LDR?"
+    },
+    {
+      "id": 415987,
+      "chapter": 9,
+      "topic_id": "9.21",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the principle of an LDR?"
+    },
+    {
+      "id": 416155,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between magnetic flux and megnetic flux density?"
+    },
+    {
+      "id": 416184,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A plane conducting loop is located in a uniform magnetic field that is directed along x-axis. For what orientation of the loop is the flux a maximum? For orientation is the flux a minimum?"
+    },
+    {
+      "id": 416165,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Electric force does work. while no work done by the magnetic force. why?"
+    },
+    {
+      "id": 416174,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A sensitive galvanometer cannot be table. Explain?"
+    },
+    {
+      "id": 416176,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it possible to obtain an isolated noth pole? Give reason."
+    },
+    {
+      "id": 416190,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when a current carrying conductor is palced in a magentic field?"
+    },
+    {
+      "id": 416194,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "On what factors does the magnetic force depend?"
+    },
+    {
+      "id": 416196,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In which application, the magnetic on a current carrying conductor is used?"
+    },
+    {
+      "id": 416199,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen when a charged particle enters a magnetic field?"
+    },
+    {
+      "id": 416202,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the formula for magnetic force on a moving charges? When is this force maximum and zero?"
+    },
+    {
+      "id": 416205,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the radius of circular path?"
+    },
+    {
+      "id": 416212,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "At a given instant, a proton moves in the position x-direction in a region where there is magnetic field in the negative z-irection. What is the direction of the magnetiv force? Wil the proton continue to move in the positive z-direction? Explain."
+    },
+    {
+      "id": 416244,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If a charge particles moves in a straight line through some region of space, can you say that the magnetic field in the region is zero?"
+    },
+    {
+      "id": 416248,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the picture on a TV screen becomes disturbed when a magnetic is brought near the screen?"
+    },
+    {
+      "id": 416251,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it possible to orient a current loop in a uniform magnetic field such that the loop will not tend to rotate? Explain."
+    },
+    {
+      "id": 416255,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a current loop be used to determine the presence of magnetic field in a given rregion of space?"
+    },
+    {
+      "id": 416257,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you use a magnetic field to separate isotopes of a chemical element?"
+    },
+    {
+      "id": 416259,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What should be the orientation of a current-carrying coil in a magnetic field so that torque action upon the coil is (a) maximum (b) minimum."
+    },
+    {
+      "id": 416263,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "A loop of wire is suspended between the poles of a magnet with its plane parallel to the pole faces. What happen is a direct current is put through the coil? What happens of an alternating current is used instead?"
+    },
+    {
+      "id": 416219,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Two charged particles are projected in a region where there is a magnetic field perpendicular to their velocities. If the charges are deflected in opposite direction, what you can say about them?"
+    },
+    {
+      "id": 416224,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Suppose that a charge q is moving in a uniform field with a velocity v. Why is there no work done by the magnetic force that acts on the charge q?"
+    },
+    {
+      "id": 416245,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is velocity selector?"
+    },
+    {
+      "id": 416246,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the condition for a particle to pass through a velocity selectro undeflected?"
+    },
+    {
+      "id": 416270,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is induced emf?"
+    },
+    {
+      "id": 416271,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes an emf to be induced in a coil?"
+    },
+    {
+      "id": 416274,
+      "chapter": 10,
+      "topic_id": "10.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of electromagnetic induction."
+    },
+    {
+      "id": 416275,
+      "chapter": 10,
+      "topic_id": "10.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Lenz' law obey the law of conservation of energy?"
+    },
+    {
+      "id": 416277,
+      "chapter": 10,
+      "topic_id": "10.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of Lenz's law in everyday life?"
+    },
+    {
+      "id": 416278,
+      "chapter": 10,
+      "topic_id": "10.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can Len's law be applied to all cases of electromagnetic induction?"
+    },
+    {
+      "id": 416180,
+      "chapter": 10,
+      "topic_id": "10.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why ohmmeter give full deflection m zero resistance?"
+    },
+    {
+      "id": 416272,
+      "chapter": 10,
+      "topic_id": "10.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors affect the magnitude of induced emf?"
+    },
+    {
+      "id": 416281,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a ferrofluid?"
+    },
+    {
+      "id": 416282,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are ferrofluids made of?"
+    },
+    {
+      "id": 416284,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What keeps tha particles in a ferrofluid suspended?"
+    },
+    {
+      "id": 416286,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do ferrofluids respond to magnetic field?"
+    },
+    {
+      "id": 416287,
+      "chapter": 10,
+      "topic_id": "10.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the one common use of ferrofluids?"
+    },
+    {
+      "id": 416289,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a seismometer measure?"
+    },
+    {
+      "id": 416291,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a basic seismometer work?"
+    },
+    {
+      "id": 416292,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of waves does a seismometer detect?"
+    },
+    {
+      "id": 416294,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are seismometers usually placed?"
+    },
+    {
+      "id": 416296,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can seismometers help to predict earthquakes?"
+    },
+    {
+      "id": 416297,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can a seismometer detect small tremors?"
+    },
+    {
+      "id": 416427,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a relative motion?"
+    },
+    {
+      "id": 416430,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can an object be at rest in one frame and in motion in another?"
+    },
+    {
+      "id": 416431,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is relative motion important in physics?"
+    },
+    {
+      "id": 416509,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the relative velocity of an object w.r.t itself?"
+    },
+    {
+      "id": 416519,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the measurements on which two observers in relative motion will always aggress upon?"
+    },
+    {
+      "id": 416510,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can two objects moving with constant speeds have zero relative velocity?"
+    },
+    {
+      "id": 416511,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is frame of reference?"
+    },
+    {
+      "id": 416512,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is the earth an inertial frame of reference?"
+    },
+    {
+      "id": 416513,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of non-inertial frame of reference."
+    },
+    {
+      "id": 416514,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of inertial frame of reference."
+    },
+    {
+      "id": 416520,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does the dilation means that time really passes more slowly in moving system or that its only seems to pass more slowly?"
+    },
+    {
+      "id": 416515,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is time dilation?"
+    },
+    {
+      "id": 416516,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the length contraction?"
+    },
+    {
+      "id": 416517,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can an object with mass travel at the speed of light?"
+    },
+    {
+      "id": 416518,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it possible for an object to move with speed of light? Justify your answer."
+    },
+    {
+      "id": 416522,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If the speed of light were infinite, what would be equation of special theory of relativity reduce to?"
+    },
+    {
+      "id": 416523,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Since mass is a form energy, cam we conclude that a compressed spring has more mass than the same spring when it is not compressed?"
+    },
+    {
+      "id": 416524,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does mass energy equilance imply about mass?"
+    },
+    {
+      "id": 416525,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of mass being converted to energy."
+    },
+    {
+      "id": 416526,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can energy be converted to mass?"
+    },
+    {
+      "id": 416527,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is the mass of a system always conserved?"
+    },
+    {
+      "id": 416521,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If you are moving in a spaceship at a very high speed relative to the earth, would you notice a difference (a) in your pulse rate (b) in the pulse rate of people on earth?"
+    },
+    {
+      "id": 416528,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does gravity affect time in general relativity?"
+    },
+    {
+      "id": 416529,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of space-time curvature in general relativity?"
+    },
+    {
+      "id": 416530,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is space-time?"
+    },
+    {
+      "id": 416531,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by mass variation?"
+    },
+    {
+      "id": 416608,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the weakest and strongest fundamental force?"
+    },
+    {
+      "id": 416609,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which force is responsible for radioactive beta decay and for holding the nucleus of an atom together?"
+    },
+    {
+      "id": 416610,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is anti-matter?"
+    },
+    {
+      "id": 416611,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when matter and anti-matter meet?"
+    },
+    {
+      "id": 416612,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is annihilation?"
+    },
+    {
+      "id": 416613,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where is anti-matter found?"
+    },
+    {
+      "id": 416614,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is pair production?"
+    },
+    {
+      "id": 416615,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is required for pair production to occur?"
+    },
+    {
+      "id": 416616,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the minimum energy required for pair production?"
+    },
+    {
+      "id": 416617,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is energy conserved in pair production?"
+    },
+    {
+      "id": 416618,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happen to the positron after pair production?"
+    },
+    {
+      "id": 416619,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can pair production occur in space?"
+    },
+    {
+      "id": 416620,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is radioactivity affected by temperature or pressure?"
+    },
+    {
+      "id": 416621,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name one use of radioactivity in medicine."
+    },
+    {
+      "id": 416622,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is alpha decay?"
+    },
+    {
+      "id": 416623,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of alpha decay on the nucleus?"
+    },
+    {
+      "id": 416624,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is beta decay?"
+    },
+    {
+      "id": 416625,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of beta minus decay on the nucleus?"
+    },
+    {
+      "id": 416626,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of beta plus decay on the nucleus?"
+    },
+    {
+      "id": 416627,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is gamma decay?"
+    },
+    {
+      "id": 416628,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Arrange alpha, beta and gamma radiation in order of increasing penetrating power?"
+    },
+    {
+      "id": 416629,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are fundamental particles?"
+    },
+    {
+      "id": 416630,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three main categories of fundamental particles?"
+    },
+    {
+      "id": 416631,
+      "chapter": 12,
+      "topic_id": "12.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the six types of quarks."
+    },
+    {
+      "id": 416632,
+      "chapter": 12,
+      "topic_id": "12.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the six types of leptons."
+    },
+    {
+      "id": 416633,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are bosons?"
+    },
+    {
+      "id": 416634,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the four fundamental force carrier basons."
+    },
+    {
+      "id": 416635,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the Higgs boson?"
+    },
+    {
+      "id": 416636,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are fermions?"
+    },
+    {
+      "id": 416637,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the bosons in the Standard Model."
+    },
+    {
+      "id": 416638,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of the Higgs boson in the Standard Model?"
+    },
+    {
+      "id": 416639,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the fundamental forces included in the Standard Model?"
+    },
+    {
+      "id": 416640,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is matter and anti-matter asymmetry?"
+    },
+    {
+      "id": 416641,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is anti-matter rare in the universe today?"
+    },
+    {
+      "id": 416642,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can pair production take place in vacuum? Explain."
+    },
+    {
+      "id": 416643,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is it possible to create a single electron from energy? Explain."
+    }
+  ],
+  "type": "short"
+}

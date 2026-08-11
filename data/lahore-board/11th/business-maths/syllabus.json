@@ -1,0 +1,120 @@
+{
+  "board": "Lahore",
+  "class": "11",
+  "subject": "Business Maths",
+  "slug": "business-maths",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Business Arithmetic",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "1.1"
+        },
+        {
+          "id": "1.2",
+          "title": "1.2"
+        },
+        {
+          "id": "1.3",
+          "title": "1.3"
+        },
+        {
+          "id": "1.4",
+          "title": "1.4"
+        },
+        {
+          "id": "1.5",
+          "title": "1.5"
+        },
+        {
+          "id": "1.6",
+          "title": "1.6"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mathematics of Finance",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "2.1"
+        },
+        {
+          "id": "2.2",
+          "title": "2.2"
+        },
+        {
+          "id": "2.3",
+          "title": "2.3"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Linear, Quadratic & Simultaneous Equations",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "3.1"
+        },
+        {
+          "id": "3.2",
+          "title": "3.2"
+        },
+        {
+          "id": "3.3",
+          "title": "3.3"
+        },
+        {
+          "id": "3.4",
+          "title": "3.4"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Functions & Their Graphs",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "4.1"
+        },
+        {
+          "id": "4.2",
+          "title": "4.2"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Elements of Matrix Algebra",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "5.1"
+        },
+        {
+          "id": "5.2",
+          "title": "5.2"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Binary Number System and Its Operations",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "6.1"
+        },
+        {
+          "id": "6.2",
+          "title": "6.2"
+        }
+      ]
+    }
+  ]
+}

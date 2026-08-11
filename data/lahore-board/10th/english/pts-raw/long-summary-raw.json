@@ -1,0 +1,77 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "English",
+  "type": "long",
+  "field": "SUMMARY",
+  "subTypeId": 28,
+  "total": 3,
+  "exportedAt": "2026-08-10T10:44:28.223Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 497110,
+      "SubjectID": 64,
+      "TopicID": 14863,
+      "TopicRef": ".",
+      "TopicName": ". MY BELOVED PAKISTAN (POEM)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>My Beloved Pakistan</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "field": "SUMMARY",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 498256,
+      "SubjectID": 64,
+      "TopicID": 14869,
+      "TopicRef": ".",
+      "TopicName": ". TIME (POEM)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Time</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "field": "SUMMARY",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 498710,
+      "SubjectID": 64,
+      "TopicID": 14871,
+      "TopicRef": ".",
+      "TopicName": ". THE ROAD NOT TAKEN (POEM)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The Road Not Taken</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "field": "SUMMARY",
+        "exportName": "long-summary"
+      }
+    }
+  ]
+}
