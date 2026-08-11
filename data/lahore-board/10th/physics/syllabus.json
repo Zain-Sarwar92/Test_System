@@ -2,10 +2,11 @@
   "board": "Lahore",
   "class": "10",
   "subject": "Physics",
+  "slug": "physics",
   "chapters": [
     {
       "number": 10,
-      "title": "Thermal Properties of Matter",
+      "title": "Thermal Physics",
       "topics": [
         {
           "id": "10.1",
@@ -17,7 +18,7 @@
         },
         {
           "id": "10.3",
-          "title": "Change In State"
+          "title": "Change in State"
         },
         {
           "id": "10.4",
@@ -35,7 +36,7 @@
     },
     {
       "number": 11,
-      "title": "Transfer of Heat",
+      "title": "Transfer of Thermal Energy",
       "topics": [
         {
           "id": "11.1",
@@ -43,7 +44,7 @@
         },
         {
           "id": "11.2",
-          "title": "Convection In Liquids And Gases"
+          "title": "Convection in Liquids and Gases"
         },
         {
           "id": "11.3",
@@ -61,23 +62,23 @@
       "topics": [
         {
           "id": "12.1",
-          "title": "Waves And Nature Of Waves"
+          "title": "Waves and Nature of Waves"
         },
         {
           "id": "12.2",
-          "title": "Types Of Waves"
+          "title": "Types of Waves"
         },
         {
           "id": "12.3",
-          "title": "Terms And Parameters Of Waves"
+          "title": "Terms and Parameters of Waves"
         },
         {
           "id": "12.4",
-          "title": "Properties Of Waves"
+          "title": "Properties of Waves"
         },
         {
           "id": "12.5",
-          "title": "Seismic And Tsunami Waves"
+          "title": "Seismic and Tsunami Waves"
         }
       ]
     },
@@ -87,23 +88,23 @@
       "topics": [
         {
           "id": "13.1",
-          "title": "Production And Propagation Of Sound"
+          "title": "Production and Propagation of Sound"
         },
         {
           "id": "13.2",
-          "title": "Speed Of Sound"
+          "title": "Speed of Sound"
         },
         {
           "id": "13.3",
-          "title": "Characteristics Of Sound"
+          "title": "Characteristics of Sound"
         },
         {
           "id": "13.4",
-          "title": "Reflection Of Sound (Echo)"
+          "title": "Reflection of Sound (Echo)"
         },
         {
           "id": "13.5",
-          "title": "Refraction And Diffraction Of Sound"
+          "title": "Refraction and Diffraction of Sound"
         },
         {
           "id": "13.6",
@@ -111,21 +112,21 @@
         },
         {
           "id": "13.7",
-          "title": "Acoustic Protection Of Buildings"
+          "title": "Acoustic Protection of Buildings"
         }
       ]
     },
     {
       "number": 14,
-      "title": "Geometrical Optics",
+      "title": "Light",
       "topics": [
         {
           "id": "14.1",
-          "title": "Reflection Of Light"
+          "title": "Reflection of Light"
         },
         {
           "id": "14.2",
-          "title": "Refraction Of Light"
+          "title": "Refraction of Light"
         },
         {
           "id": "14.3",
@@ -141,15 +142,15 @@
         },
         {
           "id": "14.6",
-          "title": "Image Formation In A Normal Eye"
+          "title": "Image Formation in a Normal Eye"
         },
         {
           "id": "14.7",
-          "title": "Gravitational Lens And Acoustic Lens"
+          "title": "Gravitational Lens and Acoustic Lens"
         },
         {
           "id": "14.8",
-          "title": "Dispersion Of Light By Prism"
+          "title": "Dispersion of Light By Prism"
         }
       ]
     },
@@ -167,11 +168,11 @@
         },
         {
           "id": "15.3",
-          "title": "Applications Of Electrostatics"
+          "title": "Applications of Electrostatics"
         },
         {
           "id": "15.4",
-          "title": "Coulomb's Law"
+          "title": "Coulomb'S Law"
         },
         {
           "id": "15.5",
@@ -179,17 +180,17 @@
         },
         {
           "id": "15.6",
-          "title": "Conduction Of Electric Charges"
+          "title": "Conduction of Electric Charges"
         },
         {
           "id": "15.7",
-          "title": "Accumulation Of Charges"
+          "title": "Accumulation of Charges"
         }
       ]
     },
     {
       "number": 16,
-      "title": "Current Electricity",
+      "title": "Electricity",
       "topics": [
         {
           "id": "16.1",
@@ -197,15 +198,15 @@
         },
         {
           "id": "16.2",
-          "title": "Electromotive Force And Potential Difference"
+          "title": "Electromotive Force and Potential Difference"
         },
         {
           "id": "16.3",
-          "title": "Ohm's Law"
+          "title": "Ohm'S Law"
         },
         {
           "id": "16.4",
-          "title": "Combination Of Resistances"
+          "title": "Combination of Resistances"
         },
         {
           "id": "16.5",
@@ -221,7 +222,7 @@
         },
         {
           "id": "16.8",
-          "title": "Common Use Of Electricity"
+          "title": "Common Use of Electricity"
         },
         {
           "id": "16.9",
@@ -229,7 +230,7 @@
         },
         {
           "id": "16.10",
-          "title": "Household Circuits And Safety Measures"
+          "title": "Household Circuits and Safety Measures"
         }
       ]
     },
@@ -239,15 +240,15 @@
       "topics": [
         {
           "id": "17.1",
-          "title": "Magnetic Effect Of Steady Current"
+          "title": "Magnetic Effect of Steady Current"
         },
         {
           "id": "17.2",
-          "title": "Force On A Current-Carrying Conductor In A Magnetic Field"
+          "title": "Force On a Current-Carrying Conductor in a Magnetic Field"
         },
         {
           "id": "17.3",
-          "title": "Turning Effect On A Current-Carrying Coil In Magnetic Field"
+          "title": "Turning Effect On a Current-Carrying Coil in Magnetic Field"
         },
         {
           "id": "17.4",
@@ -255,17 +256,17 @@
         },
         {
           "id": "17.5",
-          "title": "Use Of Magnetic Effects Of Current"
+          "title": "Use of Magnetic Effects of Current"
         },
         {
           "id": "17.6",
-          "title": "Earth's Magnetic Field"
+          "title": "Earth'S Magnetic Field"
         }
       ]
     },
     {
       "number": 18,
-      "title": "Electromagnetic Induction and Alternating Current",
+      "title": "Electromagnetic Induction and Electromagnetic Waves",
       "topics": [
         {
           "id": "18.1",
@@ -273,7 +274,7 @@
         },
         {
           "id": "18.2",
-          "title": "A.C. Generator"
+          "title": "a.C. Generator"
         },
         {
           "id": "18.3",
@@ -281,7 +282,7 @@
         },
         {
           "id": "18.4",
-          "title": "Deflection Of Electron Beam In Electric And Magnetic Fields"
+          "title": "Deflection of Electron Beam in Electric and Magnetic Fields"
         },
         {
           "id": "18.5",
@@ -289,11 +290,11 @@
         },
         {
           "id": "18.6",
-          "title": "Scattering Of Light In The Atmosphere"
+          "title": "Scattering of Light in the Atmosphere"
         },
         {
           "id": "18.7",
-          "title": "Particle Nature Of Light"
+          "title": "Particle Nature of Light"
         }
       ]
     },
@@ -307,7 +308,7 @@
         },
         {
           "id": "19.2",
-          "title": "Analog And Digital Electronics"
+          "title": "Analog and Digital Electronics"
         },
         {
           "id": "19.3",
@@ -319,7 +320,7 @@
         },
         {
           "id": "19.5",
-          "title": "Applications Of Logic Gates"
+          "title": "Applications of Logic Gates"
         }
       ]
     },
@@ -353,7 +354,7 @@
         },
         {
           "id": "20.7",
-          "title": "Interconversion Of Matter And Energy"
+          "title": "Interconversion of Matter and Energy"
         },
         {
           "id": "20.8",
@@ -361,21 +362,21 @@
         },
         {
           "id": "20.9",
-          "title": "Effect And Uses Of Nuclear Radiation"
+          "title": "Effect and Uses of Nuclear Radiation"
         }
       ]
     },
     {
       "number": 21,
-      "title": "Earth and Space Physics",
+      "title": "Space and Environment",
       "topics": [
         {
           "id": "21.1",
-          "title": "Sun And Planetary Data"
+          "title": "Sun and Planetary Data"
         },
         {
           "id": "21.2",
-          "title": "Global Warming And Geothermal Activity"
+          "title": "Global Warming and Geothermal Activity"
         },
         {
           "id": "21.3",

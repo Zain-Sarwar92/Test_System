@@ -2,1789 +2,1617 @@
   "board": "Lahore",
   "class": "10",
   "subject": "Computer",
-  "type": "long",
-  "series": "smart-syllabus",
-  "total_questions": 178,
+  "slug": "computer",
+  "source": "PTS PTB Class 10 Computer (read-only export)",
+  "total_questions": 1467,
+  "counts": {
+    "mcq": 643,
+    "short": 646,
+    "long": 178
+  },
   "questions": [
     {
-      "id": 1,
-      "chapter": 1,
-      "topic_id": "1.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What do you know about core concepts of operating system?",
-      "ur": "آپ آپریٹنگ سسٹم کے بنیادی تصورات کی وضاحت کیسے کریں گے؟"
-    },
-    {
-      "id": 2,
-      "chapter": 1,
-      "topic_id": "1.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is an operating system? What are the main purposes of an operating system? Also, give some examples of popular operating systems.",
-      "ur": "آپریٹنگ سسٹم کیا ہے؟ آپریٹنگ سسٹم کے بنیادی مقاصد کیا ہیں؟ نیز مقبول آپریٹنگ سسٹمز کی کچھ مثالیں دیں۔"
-    },
-    {
-      "id": 3,
-      "chapter": 1,
-      "topic_id": "1.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why operating system is called central system controller. Also discuss the role of OS in user hardware interaction.",
-      "ur": "آپریٹنگ سسٹم کو مرکزی نظام کا کنٹرولر کیوں کہا جاتا ہے؟ نیز صارف اور ہارڈ ویئر کے درمیان تعامل میں OS کا کردار بیان کریں۔"
-    },
-    {
-      "id": 4,
-      "chapter": 1,
-      "topic_id": "1.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the responsibilities of operating system in multi-user environment. How user accounts are create and managed?",
-      "ur": "ملٹی یوزر ماحول میں آپریٹنگ سسٹم کی ذمہ داریاں بیان کریں۔ صارف اکاؤنٹس کیسے تخلیق اور ان کا نظم کیا جاتا ہے؟"
-    },
-    {
-      "id": 5,
+      "id": 499201,
       "chapter": 1,
       "topic_id": "1.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the architecture of an operating system, explaining kernel, shell, and layered design with examples.",
       "ur": "آپریٹنگ سسٹم کے آرکیٹیکچر کو بیان کریں، جس میں کرنل، شیل، اور لیئر ڈیزائن کی مثال کے ساتھ وضاحت کی جائے۔"
     },
     {
-      "id": 6,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the architecture of an operating system. Also describe the kernel and shell core concepts of an operating system.",
-      "ur": "آپریٹنگ سسٹم کے ڈھانچے کی وضاحت کریں نیز آپریٹنگ سسٹم کے بنیادی تصورات کرنل اور شیل کو بھی بیان کریں۔"
-    },
-    {
-      "id": 7,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain operating system layers and modules.",
-      "ur": "آپریٹنگ سسٹم کی لیئرز اور ماڈیولز کی وضاحت کریں۔"
-    },
-    {
-      "id": 8,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What are System Libraries? Also give an example. Define Device Drivers.",
-      "ur": "سسٹم لائبریریز کیا ہیں؟ نیز ایک مثال دیں۔ ڈیوائس ڈرائیورز کی تعریف کریں۔"
-    },
-    {
-      "id": 9,
+      "id": 499203,
       "chapter": 1,
       "topic_id": "1.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the process lifecycle in detail with examples.",
       "ur": "پروسیس لائف سائیکل کی مثال کے ساتھ تفصیل سے وضاحت کریں۔"
     },
     {
-      "id": 10,
+      "id": 499217,
       "chapter": 1,
       "topic_id": "1.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A computer system uses the First-Come, First-Served (FCFS) scheduling method to manage processes. The following table shows the arrival time and the CPU burst time (time needed for execution) of three processes: Process Arrival Time (seconds) Burst Time (seconds) P1 0 4 P2 1 3 P3 2 1 Requirements: I. Arrange the processes in the order they will be executed according to the FCFS scheduling method. II. Show the execution sequence of all processes. III. Calculate the start time and completion time for each process. IV. Find the waiting time for each process. V. Calculate the average waiting time for all processes. P1 0 4 P2 1 3 P3 2 1",
-      "ur": "ایک کمپیوٹر سسٹم پروسیسز کو منظم کرنے کے لیے فرسٹ-کم، فرسٹ-سروڈ (FCFS) شیڈولنگ طریقہ کار استعمال کرتا ہے۔ درج ذیل ٹیبل میں تین پانچ پروسیسز کی آمد کا وقت اور CPU کے کام کرنے (Burst) کا وقت (عملدرآمد کے لیے درکار وقت) دکھایا گیا ہے: پروسیس (Process) آمد کا وقت (Arrival Time - seconds) برسٹ کا وقت (Burst Time - seconds) ضروریات:FCFS شیڈولنگ طریقہ کار کے مطابق پروسیسز کو اس ترتیب میں لکھیں جس میں وہ چلائے جائیں گے۔تمام پروسیسز کی عملدرآمد کی ترتیب دکھائیں۔ہر پروسیس کے لیے شروع ہونے کا وقت اور تکمیل کے وقت کا حساب لگائیں۔ہر پروسیس کے لیے انتظار کا وقت معلوم کریں۔تمام پروسیسز کے لیے اوسط انتظار کا وقت کا حساب لگائیں۔"
+      "en": "A computer system uses the First-Come, First-Served (FCFS) scheduling method to manage processes. The following table shows the arrival time and the CPU burst time (time needed for execution) of three processes: Process Arrival Time (seconds) Burst Time (seconds) P1 0 4 P2 1 3 P3 2 1 Requirements: I. Arrange the processes in the order they will be executed according to the FCFS scheduling method. II. Show the execution sequence of all processes. III. Calculate the start time and completion time for each process. IV. Find the waiting time for each process. V. Calculate the average waiting time for all processes.",
+      "ur": "ایک کمپیوٹر سسٹم پروسیسز کو منظم کرنے کے لیے فرسٹ-کم، فرسٹ-سروڈ (FCFS) شیڈولنگ طریقہ کار استعمال کرتا ہے۔ درج ذیل ٹیبل میں تین پانچ پروسیسز کی آمد کا وقت اور CPU کے کام کرنے (Burst) کا وقت (عملدرآمد کے لیے درکار وقت) دکھایا گیا ہے: پروسیس (Process) آمد کا وقت (Arrival Time - seconds) برسٹ کا وقت (Burst Time - seconds) P1 0 4 P2 1 3 P3 2 1 ضروریات:FCFS شیڈولنگ طریقہ کار کے مطابق پروسیسز کو اس ترتیب میں لکھیں جس میں وہ چلائے جائیں گے۔تمام پروسیسز کی عملدرآمد کی ترتیب دکھائیں۔ہر پروسیس کے لیے شروع ہونے کا وقت اور تکمیل کے وقت کا حساب لگائیں۔ہر پروسیس کے لیے انتظار کا وقت معلوم کریں۔تمام پروسیسز کے لیے اوسط انتظار کا وقت کا حساب لگائیں۔"
     },
     {
-      "id": 11,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is process management in operating system? Also define process and resources.",
-      "ur": "آپریٹنگ سسٹم میں پروسیس مینجمنٹ کیا ہے؟ نیز پروسیس اور وسائل کی تعریف کریں۔"
-    },
-    {
-      "id": 12,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by multitasking and concurrency? Also write the difference between them.",
-      "ur": "ملٹی ٹاسکنگ اور ہم آہنگی سے کیا مراد ہے؟ نیز ان کے درمیان فرق لکھیں۔"
-    },
-    {
-      "id": 13,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is process scheduling? Also explain First Come First Served Concept.",
-      "ur": "پروسیس شیڈولنگ کیا ہے؟ نیز فرسٹ کم فرسٹ سروڈ تصور کی وضاحت کریں۔"
-    },
-    {
-      "id": 14,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain FCFS method with the help of an example.",
-      "ur": "FCFS طریقے کی ایک مثال کے ذریعے وضاحت کریں۔"
-    },
-    {
-      "id": 15,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the advantages and disadvantages of FCFS.",
-      "ur": "FCFS کے فوائد اور نقصانات بیان کریں۔"
-    },
-    {
-      "id": 16,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "A computer system uses the First-Come, First-Served (FCFS) scheduling method to manage processes. The following table shows the arrival time and the CPU burst time (time needed for execution) of three processes: Process ID Arrival Time Time Needed P1 0 seconds 5 seconds P2 1 seconds 3 seconds P3 2 seconds 2 seconds Requirements: (I) Arrange the processes in the order they will be executed according to the FCFS scheduling method. (II) Show the execution sequence of all processes. (III) Calculate the start time and completion time for each process. (IV) Find the waiting time for each process. (V) Calculate the average waiting time for all processes.",
-      "ur": "ایک کمپیوٹر سسٹم پروسیسز کو منظم کرنے کے لیے فرسٹ-کم، فرسٹ-سروڈ (FCFS) شیڈولنگ طریقہ کار استعمال کرتا ہے۔ درج ذیل ٹیبل میں تین پانچ پروسیسز کی آمد کا وقت اور CPU کے کام کرنے (Burst) کا وقت (عملدرآمد کے لیے درکار وقت) دکھایا گیا ہے: پروسیس کی آئی-ڈی آمد کا وقت درکار وقت P1 0 سیکنڈ 5 سیکنڈ P2 1 سیکنڈ 3 سیکنڈ P3 2 سیکنڈ 2 سیکنڈ ضروریات:FCFS شیڈولنگ طریقہ کار کے مطابق پروسیسز کو اس ترتیب میں لکھیں جس میں وہ چلائے جائیں گے۔تمام پروسیسز کی عملدرآمد کی ترتیب دکھائیں۔ہر پروسیس کے لیے شروع ہونے کا وقت اور تکمیل کے وقت کا حساب لگائیں۔ہر پروسیس کے لیے انتظار کا وقت معلوم کریں۔تمام پروسیسز کے لیے اوسط انتظار کا وقت کا حساب لگائیں۔"
-    },
-    {
-      "id": 17,
+      "id": 499204,
       "chapter": 1,
       "topic_id": "1.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Differentiate between RAM and virtual memory, and explain how multithreading improves performance.",
       "ur": "RAM اور ورچوئل میموری کے درمیان فرق واضح کریں، اور وضاحت کریں کہ ملٹی تھریڈنگ کارکردگی کو کیسے بہتر بناتی ہے۔"
     },
     {
-      "id": 18,
-      "chapter": 1,
-      "topic_id": "1.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is memory? Also explain primary and virtual memory.",
-      "ur": "میموری کیا ہے؟ نیز پرائمری اور ورچوئل میموری کی وضاحت کریں۔"
-    },
-    {
-      "id": 19,
-      "chapter": 1,
-      "topic_id": "1.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the concept of process and threads. Also write down the difference between them.",
-      "ur": "پروسیس اور تھریڈ کے تصورات کی وضاحت کریں۔ نیز ان کے درمیان فرق تحریر کریں۔"
-    },
-    {
-      "id": 20,
-      "chapter": 1,
-      "topic_id": "1.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is multithreading? Also explain the benefits of multithreading.",
-      "ur": "ملٹی تھریڈنگ کیا ہے؟ نیز ملٹی تھریڈنگ کے فوائد بھی تحریر کریں۔"
-    },
-    {
-      "id": 21,
+      "id": 499206,
       "chapter": 1,
       "topic_id": "1.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe system calls, their purpose, and give examples of at least three types.",
       "ur": "سسٹم کالز کیا ہیں؟ ان کے مقصد کو بیان کریں، اور کم از کم تین اقسام کی مثالیں دیں۔"
     },
     {
-      "id": 22,
-      "chapter": 1,
-      "topic_id": "1.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define a system call with an example. Also, explain all the types of system calls.",
-      "ur": "سسٹم کال کی تعریف ایک مثال کے ساتھ کریں نیز سسٹم کالز کی تمام اقساموں کی وضاحت کریں۔"
-    },
-    {
-      "id": 23,
-      "chapter": 1,
-      "topic_id": "1.7",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is file system? Also explain file, folder, metadata and files systems with example.",
-      "ur": "فائل سسٹم کیا ہے؟ نیز فائل، فولڈر، میٹا ڈیٹا اور فائل سسٹم کی مثالوں کے ساتھ وضاحت کریں۔"
-    },
-    {
-      "id": 24,
-      "chapter": 1,
-      "topic_id": "1.8",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain types of operating systems with their key features and applications in daily life.",
-      "ur": "آپریٹنگ سسٹم کی اقسام کی ان کی اہم خصوصیات اور روزمرہ زندگی میں استعمال کے ساتھ وضاحت کریں۔"
-    },
-    {
-      "id": 25,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What do you know about troubleshooting?",
-      "ur": "آپ ٹربل شوٹنگ کے تصور کی وضاحت کیسے کریں گے؟"
-    },
-    {
-      "id": 26,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define troubleshooting and post-troubleshooting? Also describe the importance of continuous maintenance.",
-      "ur": "ٹربل شوٹنگ اور پوسٹ ٹربل شوٹنگ کی تعریف کریں۔ نیز مسلسل مینٹیننس کی اہمیت بیان کریں۔"
-    },
-    {
-      "id": 27,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the impact of poor maintenance? Also explain some common problem occur due to lack of regular maintenance.",
-      "ur": "خراب مینٹیننس کے اثرات بیان کریں۔ نیز باقاعدہ مینٹیننس کی کمی کی وجہ سے پیش آنے والے کچھ عام مسائل کی وضاحت کریں۔"
-    },
-    {
-      "id": 28,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is system health monitoring? Describe activities follow by different tools for health check? Also describe advantage of system health monitoring?",
-      "ur": "سسٹم ہیلتھ مانیٹرنگ کیا ہے؟ ہیلتھ چیک کے لیے مختلف ٹولز کے ذریعے کی جانے والی سرگرمیوں کی وضاحت کریں۔ نیز سسٹم ہیلتھ مانیٹرنگ کے فوائد بیان کریں۔"
-    },
-    {
-      "id": 29,
+      "id": 499253,
       "chapter": 2,
       "topic_id": "2.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the roles of Task Manager and Event Viewer in system maintenance. Give one example for each tool where it can help solve a problem.",
       "ur": "سسٹم مینٹیننس میں ٹاسک مینیجر اور ایونٹ ویور کے کردار کی وضاحت کریں۔ ہر ٹول کے لیے ایک مثال دیں جہاں یہ کسی مسئلے کو حل کرنے میں مدد کر سکتا ہے۔"
     },
     {
-      "id": 30,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define build-in diagnostic tools? Also describe the purpose to set these tools in troubleshooting",
-      "ur": "بلٹ ان تشخیصی ٹولز کی تعریف کریں۔ نیز ٹربل شوٹنگ میں ان ٹولز کو سیٹ کرنے کا مقصد بیان کریں۔"
-    },
-    {
-      "id": 31,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is a Task manager? Describe its responsibilities? What do you know about processing tab and performance tab?",
-      "ur": "ٹاسک مینیجر کیا ہے؟ اس کی ذمہ داریوں کی وضاحت کریں۔ پروسیس ٹیب اور پرفارمنس ٹیب کے بارے میں آپ کیا جانتے ہیں؟"
-    },
-    {
-      "id": 32,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What can you do with task manager?",
-      "ur": "آپ ٹاسک مینیجر کے ساتھ کیا کر سکتے ہیں؟"
-    },
-    {
-      "id": 33,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is a resource monitor? Describe its responsibilities? Describe its advantages over task manager.",
-      "ur": "ریسورس مانیٹر کیا ہے؟ اس کی ذمہ داریوں کی وضاحت کریں۔ ٹاسک مینیجر کے مقابلے میں اس کے فوائد بیان کریں۔"
-    },
-    {
-      "id": 34,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write down the steps to open resource monitor. Also describe key features of resource monitor?",
-      "ur": "ریسورس مانیٹر کو کھولنے کے اقدامات تحریر کریں۔ نیز ریسورس مانیٹر کی اہم خصوصیات تحریر کریں؟"
-    },
-    {
-      "id": 35,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is event viewer? Describe its responsibilities? Write down the steps to open event viewer in MS Windows.",
-      "ur": "ایونٹ ویوور کیا ہے؟ اس کی ذمہ داریوں کی وضاحت کریں۔ ایم ایس ونڈوز میں ایونٹ ویوور کھولنے کے اقدامات تحریر کریں۔"
-    },
-    {
-      "id": 36,
+      "id": 499254,
       "chapter": 2,
       "topic_id": "2.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Your computer is not starting properly due to a system issue. Describe how System Restore or a bootable recovery USB can be used to fix the problem without deleting personal files.",
       "ur": "آپ کا کمپیوٹر سسٹم کسی مسئلے کی وجہ سے صحیح طریقے سے سٹارٹ نہیں ہو رہا ہے۔ بیان کریں کہ ذاتی فائلوں کو ڈیلیٹ کیے بغیر مسئلے کو ٹھیک کرنے کے لیے سسٹم ری سٹور یا ایک بوٹ ایبل ریکوری USB کو کیسے استعمال کیا جا سکتا ہے۔"
     },
     {
-      "id": 37,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "When a system recovery option is helpful for a user and they are compulsory now a days?",
-      "ur": "سسٹم ریکوری آپشن صارف کے لیے کب مفید ہوتا ہے اور آج کل یہ لازمی کیوں ہیں؟"
-    },
-    {
-      "id": 38,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is window's safe mode? when to use it? Write down the procedure to open safe mode?",
-      "ur": "ونڈوز کا سیف موڈ کیا ہے؟ اسے کب استعمال کیا جاتا ہے؟ سیف موڈ کھولنے کا طریقہ کار تحریر کریں؟"
-    },
-    {
-      "id": 39,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by system restore? What is restore point? Write down the steps to create and use restore point?",
-      "ur": "سسٹم ریسٹور سے کیا مراد ہے؟ ریسٹور پوائنٹ کیا ہے؟ ریسٹور پوائنٹ بنانے اور استعمال کرنے کے اقدامات تحریر کریں؟"
-    },
-    {
-      "id": 40,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is bootable recover media? How and why, we use it in safe and restore point?",
-      "ur": "بوٹ ایبل ریکوری میڈیا کیا ہے؟ ہم اسے سیف موڈ اور ریسٹور پوائنٹ میں کیسے اور کیوں استعمال کرتے ہیں؟"
-    },
-    {
-      "id": 41,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write down the steps to create an bootable USB drive? Also write down the procedure to check the partitioned styles?",
-      "ur": "بوٹ ایبل USB ڈرائیو بنانے کے اقدامات تحریر کریں؟ نیز پارٹیشن اسٹائل چیک کرنے کا طریقہ کار بھی تحریر کریں؟"
-    },
-    {
-      "id": 42,
-      "chapter": 2,
-      "topic_id": "2.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the role of BIOS/UEFI in computer startup.",
-      "ur": "کمپیوٹر کے اسٹارٹ اپ میں BIOS/UEFI کا کردار بیان کریں۔"
-    },
-    {
-      "id": 43,
-      "chapter": 2,
-      "topic_id": "2.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define POST. Explain its role in the computer startup process, and describe how a user can access and reset BIOS/UEFI settings.",
-      "ur": "پوسٹ کی تعریف کریں۔ کمپیوٹر اسٹارٹ اپ کے عمل میں اس کے کردار کی وضاحت کریں، اور یہ بھی بتائیں کہ ایک صارف بائیوس/یو ای ایف آئی سیٹنگز تک کیسے رسائی حاصل کر سکتا ہے اور انہیں کیسے ری سیٹ کر سکتا ہے۔"
-    },
-    {
-      "id": 44,
-      "chapter": 2,
-      "topic_id": "2.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is boot order and boot repair? Describe the steps to change boot order?",
-      "ur": "بوٹ آرڈر اور بوٹ ریپیئر کیا ہے؟ بوٹ آرڈر تبدیل کرنے کے اقدامات بیان کریں۔"
-    },
-    {
-      "id": 45,
+      "id": 499256,
       "chapter": 2,
       "topic_id": "2.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how deleted files can be recovered using a third-party software. Also, discuss why recovery may not always be successful.",
       "ur": "وضاحت کریں کہ ڈیلیٹ شدہ فائلوں کو تھرڈ پارٹی سافٹ ویئر کا استعمال کرتے ہوئے کیسے بحال کیا جا سکتا ہے۔ نیز، بحث کریں کہ ریکوری ہمیشہ کیوں کامیاب نہیں ہوتی۔"
     },
     {
-      "id": 46,
-      "chapter": 2,
-      "topic_id": "2.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe data recovery tools and techniques used in MS Windows?",
-      "ur": "ایم ایس ونڈوز میں استعمال ہونے والے ڈیٹا ریکوری ٹولز اور تکنیکوں کی وضاحت کریں۔"
-    },
-    {
-      "id": 47,
-      "chapter": 2,
-      "topic_id": "2.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the procedure to use Tenor Share? Also describe limitations of recovery?",
-      "ur": "ٹینور شیئر استعمال کرنے کا طریقہ کار بیان کریں۔ نیز ریکوری کی حدود بیان کریں؟"
-    },
-    {
-      "id": 48,
+      "id": 499255,
       "chapter": 2,
       "topic_id": "2.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Briefly explain any two preventive maintenance techniques that help to keep a computer running smoothly.",
       "ur": "کوئی سی دو حفاظتی مینٹیننس تکنیکوں کی مختصر وضاحت کریں جو کمپیوٹر کو آسانی سے چلانے میں مدد کرتی ہیں۔"
     },
     {
-      "id": 49,
+      "id": 499257,
       "chapter": 2,
       "topic_id": "2.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A classmate wants to clean up disk space after a large Windows update. Explain how to use Disk Cleanup, including the option to remove system files safely.",
       "ur": "ایک ہم جماعت ونڈوز کی ایک بڑی اپ ڈیٹ کے بعد ڈسک کلین کرنا چاہتا ہے۔ وضاحت کریں کہ ڈسک کلین اپ کا استعمال کیسے کیا جائے، بشمول سسٹم فائلوں کو محفوظ طریقے سے ریموو کرنے کے۔"
     },
     {
-      "id": 50,
-      "chapter": 2,
-      "topic_id": "2.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define disk cleanup. Also, write the steps for performing disk cleanup.",
-      "ur": "ڈسک کلین اپ کی تعریف کریں۔ اس کے علاوہ، ڈسک کلین اپ کرنے کے مراحل بھی لکھیں۔"
-    },
-    {
-      "id": 51,
-      "chapter": 2,
-      "topic_id": "2.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is a system update? Describe the types of system updates. Also, write down the method for checking Windows updates.",
-      "ur": "سسٹم اپ ڈیٹ کیا ہے؟ سسٹم اپ ڈیٹ کی اقسام بیان کریں؟ نیز ونڈوز اپ ڈیٹ چیک کرنے کا طریقہ لکھیں؟"
-    },
-    {
-      "id": 52,
-      "chapter": 2,
-      "topic_id": "2.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is Windows Defender? Describe the types of scans done by defender.",
-      "ur": "ونڈوز ڈیفنڈر کیا ہے؟ ڈیفنڈر کے ذریعے کیے جانے والے اسکین کی اقسام بیان کریں؟"
-    },
-    {
-      "id": 53,
-      "chapter": 2,
-      "topic_id": "2.7",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the importance of keeping a maintenance calendar, proper records, and logging info?",
-      "ur": "مینٹیننس کیلنڈر، مناسب ریکارڈز اور لاگ انفو کو رکھنے کی اہمیت بیان کریں؟"
-    },
-    {
-      "id": 54,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain briefly the concept of python?",
-      "ur": "مختصراً پائتھن کے تصور کی وضاحت کریں؟"
-    },
-    {
-      "id": 55,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is the Python language? Describe various fields of Python applications. Also, describe the advantages of Python over different languages.",
-      "ur": "پائتھن لینگویج کیا ہے؟ پائتھن کے اطلاق کے مختلف شعبوں کو بیان کریں۔ نیز مختلف لینگویجز کے مقابلے میں پائتھن کے فوائد بیان کریں۔"
-    },
-    {
-      "id": 56,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by setting up a Python development environment? Also, explain the procedure for setting up a Python IDE.",
-      "ur": "پائتھن ڈیولپمنٹ انوائرمنٹ ترتیب دینے سے کیا مراد ہے؟ نیز پائتھن آئی ڈی ای (IDE) ترتیب دینے کا طریقہ کار بھی بیان کریں۔"
-    },
-    {
-      "id": 57,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is Google Colab? Also, write the method for using Google Colab.",
-      "ur": "گوگل کولیب کیا ہے؟ نیز گوگل کولیب استعمال کرنے کا طریقہ بھی لکھیں۔"
-    },
-    {
-      "id": 58,
+      "id": 499326,
       "chapter": 3,
       "topic_id": "3.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are the basic data types in Python? Explain integers, floats, strings, and Booleans with examples.",
       "ur": "پائتھون میں بنیادی ڈیٹا کی اقسام کیا ہیں؟ مثالوں کے ساتھ integers، floats، strings، اور Booleans کی وضاحت کریں۔"
     },
     {
-      "id": 59,
+      "id": 499328,
       "chapter": 3,
       "topic_id": "3.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the input() and print() functions with examples.",
       "ur": "مثالوں کے ساتھ ()input اور ()print فنکشنز کی وضاحت کریں۔"
     },
     {
-      "id": 60,
+      "id": 499330,
       "chapter": 3,
       "topic_id": "3.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a program in Python that will take a name from user and display greeting message to the given name.",
       "ur": "پائتھون میں ایک ایسا پروگرام لکھیں جو صارف سے ایک نام لے اور دیے گئے نام کو خوش آمدید (greeting) کا پیغام دکھائے۔"
     },
     {
-      "id": 61,
+      "id": 503412,
       "chapter": 3,
       "topic_id": "3.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are conditional statements in Python? Explain if, else, and else-if statements with proper syntax and practical examples.",
       "ur": "پائتھون میں مشروط سٹیٹمنٹس کیا ہیں؟ مناسب سینٹکس اور عملی مثالوں کے ساتھ if، else، اور else-if سٹیٹمنٹس کی وضاحت کریں۔"
     },
     {
-      "id": 62,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe basic Python syntax and structure.",
-      "ur": "بنیادی پائتھن سینٹیکس اور سٹرکچر بیان کریں۔"
-    },
-    {
-      "id": 63,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe Python comments? Also, give an example of each type.",
-      "ur": "پائتھن کمنٹس بیان کریں؟ نیز اس کی ہر قسم کی مثال دیں۔"
-    },
-    {
-      "id": 64,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define variable in Python? Also, write the rules for naming a variable.",
-      "ur": "پائتھن میں ویری ایبل کی تعریف کریں؟ نیز ویری ایبل کا نام رکھنے کے قواعد بھی لکھیں۔"
-    },
-    {
-      "id": 65,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the types of variables used in Python.",
-      "ur": "پائتھن میں استعمال ہونے والی ویری ایبلز کی اقسام بیان کریں۔"
-    },
-    {
-      "id": 66,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the integer and float input in Python.",
-      "ur": "پائتھن میں انٹیجر اور فلوٹ ان پٹ کو بیان کریں۔"
-    },
-    {
-      "id": 67,
+      "id": 499327,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are arithmetic operators in Python. Provide examples of each operator and explain when you would use them.",
       "ur": "پائتھون میں حسابی آپریٹرز کیا ہیں۔ ہر آپریٹر کی مثالیں فراہم کریں اور وضاحت کریں کہ آپ انہیں کب استعمال کریں گے۔"
     },
     {
-      "id": 68,
+      "id": 499329,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how comparison and logical operators work together in conditional statements. Provide a practical example.",
       "ur": "وضاحت کریں کہ تقابلی اور منطقی آپریٹرز مشروط سٹیٹمنٹس (conditional statements) میں مل کر کیسے کام کرتے ہیں۔ ایک عملی مثال فراہم کریں۔"
     },
     {
-      "id": 69,
+      "id": 499331,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a program in python that takes two numbers from user and display their sum.",
       "ur": "پائتھون میں ایک ایسا پروگرام لکھیں جو صارف سے دو نمبر لے اور ان کا حاصل جمع دکھائے۔"
     },
     {
-      "id": 70,
+      "id": 499332,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a program in python that five numbers from user and display their average.",
       "ur": "پائتھون میں ایک ایسا پروگرام لکھیں جو صارف سے پانچ نمبر لے اور ان کا اوسط دکھائے۔"
     },
     {
-      "id": 71,
+      "id": 499333,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Solve the following expression:",
-      "ur": "درج ذیل ایکسپریشن کو حل کریں:"
+      "en": "Solve the following expression: <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap5-17.svg\" />",
+      "ur": "درج ذیل ایکسپریشن کو حل کریں: <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap5-17.svg\" />"
     },
     {
-      "id": 72,
+      "id": 499334,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Solve the following expression:",
-      "ur": "درج ذیل ایکسپریشن کو حل کریں:"
+      "en": "Solve the following expression: <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap5-18.svg\" />",
+      "ur": "درج ذیل ایکسپریشن کو حل کریں: <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap5-18.svg\" />"
     },
     {
-      "id": 73,
+      "id": 499335,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Solve the following expression:",
-      "ur": "درج ذیل ایکسپریشن کو حل کریں:"
+      "en": "Solve the following expression: <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap5-19.svg\" />",
+      "ur": "درج ذیل ایکسپریشن کو حل کریں: <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap5-19.svg\" />"
     },
     {
-      "id": 74,
-      "chapter": 3,
-      "topic_id": "3.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define operator and expression. Also explain the types of operators in detail.",
-      "ur": "آپریٹر اور ایکسپریشن کی تعریف کریں۔ نیز آپریٹرز کی اقسام تفصیل سے بیان کریں۔"
-    },
-    {
-      "id": 75,
-      "chapter": 3,
-      "topic_id": "3.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define operator precedence in Python. Describe the order of operator precedence in Python. Also give examples.",
-      "ur": "پائتھن میں آپریٹر کی ترجیح کی تعریف کریں۔ پائتھن میں آپریٹر کی ترجیح کی ترتیب بیان کریں۔ نیز مثالیں بھی دیں۔"
-    },
-    {
-      "id": 76,
+      "id": 499375,
       "chapter": 4,
       "topic_id": "4.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the different types of decision-making statements in Python with examples for each.",
       "ur": "پائیتھن میں فیصلہ سازی (Decision Making) سٹیٹمنٹس کی مختلف اقسام کی مثالوں کے ساتھ وضاحت کریں۔"
     },
     {
-      "id": 77,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is control structure? Explain its importance.",
-      "ur": "کنٹرول سٹرکچر کیا ہے؟ اس کی اہمیت بیان کریں۔"
-    },
-    {
-      "id": 78,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define if statement with its syntax. Describe the limitations of if statement.",
-      "ur": "if statement کی اس کے سنٹیکس کے ساتھ تعریف کریں۔ if statement کی حد بیان کریں۔"
-    },
-    {
-      "id": 79,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define if-else statement with its syntax. Write an example.",
-      "ur": "if-else statement کی اس کے سنٹیکس کے ساتھ تعریف کریں۔ ایک مثال لکھیں۔"
-    },
-    {
-      "id": 80,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define nested condition with its syntax. Write an example.",
-      "ur": "نیسٹڈ کنڈیشن کی اس کے سنٹیکس کے ساتھ تعریف کریں۔ ایک مثال لکھیں۔"
-    },
-    {
-      "id": 81,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that displays the output \"It's a hot day\" on screen using an if statement.",
-      "ur": "if سٹیٹمنٹ استعمال کرتے ہوئے پایتھن میں ایک پروگرام لکھیں جو اسکرین پر \"یہ ایک گرم دن ہے\" دکھائے۔"
-    },
-    {
-      "id": 82,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that displays the output \"It's not a hot day\" on screen using an if-else statement.",
-      "ur": "if-else سٹیٹمنٹ استعمال کرتے ہوئے پایتھن میں ایک پروگرام لکھیں جو اسکرین پر \"یہ ایک گرم دن نہیں ہے\" دکھائے۔"
-    },
-    {
-      "id": 83,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that takes two inputs from the user and displays the output on screen If the weather is rainy and the temperature is below 15 degrees, print \"Wear a raincoat\".If the weather is rainy but the temperature is 15 or above, print \"Take an umbrella\".If the weather is not rainy, print \"Just enjoy the day\".",
-      "ur": "پایتھن میں ایک پروگرام لکھیں جو صارف سے دو ان پٹ لے اور اسکرین پر نتیجہ ظاہر کرے۔ اگر موسم بارش والا ہے اور درجہ حرارت 15 ڈگری سے کم ہے تو پرنٹ کریں \"بارش کا کوٹ پہنیں\"۔ اگر موسم بارش والا ہے لیکن درجہ حرارت 15 یا اس سے زیادہ ہے تو پرنٹ کریں \"چھتری لے جائیں\"۔ اگر موسم بارش والا نہیں ہے تو پرنٹ کریں \"بس دن کا مزہ لیں\"۔"
-    },
-    {
-      "id": 84,
+      "id": 499376,
       "chapter": 4,
       "topic_id": "4.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Compare while loops and for loops.",
       "ur": "while لوپ اور for لوپ کا موازنہ اور تضاد کریں۔"
     },
     {
-      "id": 85,
+      "id": 499380,
       "chapter": 4,
       "topic_id": "4.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a Python program using a loop that prints all the odd numbers between 1 and 20.",
       "ur": "ایک پائیتھن پروگرام لکھیں جو ایک لوپ کا استعمال کرتے ہوئے 1 اور 20 کے درمیان تمام طاق اعداد (odd numbers) کو پرنٹ کرے۔"
     },
     {
-      "id": 86,
+      "id": 499383,
       "chapter": 4,
       "topic_id": "4.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a code to print stars (asterisk) in rectangular pattern using nested loops with three rows and five columns.",
       "ur": "نیسٹڈ لوپس کا استعمال کرتے ہوئے تین قطاروں (rows) اور پانچ کالموں (columns) میں ستاروں (*) کو مستطیل پیٹرن میں پرنٹ کرنے کے لیے کوڈ لکھیں۔"
     },
     {
-      "id": 87,
+      "id": 499384,
       "chapter": 4,
       "topic_id": "4.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write the output of the following code: print(\"=== Multiplication Table (1-5) ===\") for i in range(2, 4): # Outer: 1 to 5 for j in range(1, 11): # Inner: 1 to 10 print(f\"{i} x {j} = {i*j:2d}\", end=\" \") print() # New line after each table print(\"=== Multiplication Table (1-5) ===\") for i in range(2, 4): # Outer: 1 to 5 for j in range(1, 11): # Inner: 1 to 10 print(f\"{i} x {j} = {i*j:2d}\", end=\" \") print() # New line after each table",
-      "ur": "مندرجہ ذیل کوڈ کا نتیجہ لکھیں:"
+      "en": "Write the output of the following code: print(\"=== Multiplication Table (1-5) ===\") for i in range(2, 4): # Outer: 1 to 5 for j in range(1, 11): # Inner: 1 to 10 print(f\"{i} x {j} = {i*j:2d}\", end=\" \") print() # New line after each table",
+      "ur": "مندرجہ ذیل کوڈ کا نتیجہ لکھیں: print(\"=== Multiplication Table (1-5) ===\") for i in range(2, 4): # Outer: 1 to 5 for j in range(1, 11): # Inner: 1 to 10 print(f\"{i} x {j} = {i*j:2d}\", end=\" \") print() # New line after each table"
     },
     {
-      "id": 88,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define a loop. Explain the while loop with syntax and an example.",
-      "ur": "لوپ کی تعریف کریں۔سنٹیکس اور مثال کے ساتھ while لوپ کی وضاحت کریں۔"
-    },
-    {
-      "id": 89,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define and explain for loop with syntax and example.",
-      "ur": "for لوپ کی سنٹیکس اور مثال کے ساتھ تعریف اور وضاحت کریں۔"
-    },
-    {
-      "id": 90,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define the range function and end statement. Also write examples",
-      "ur": "Range فنکشن اور end اسٹیٹمنٹ کی تعریف کریں۔ نیز مثالیں لکھیں۔"
-    },
-    {
-      "id": 91,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define a nested loop with its syntax. Also, write examples.",
-      "ur": "نیسٹڈ لوپ کی اس کے سنٹیکس کے ساتھ تعریف کریں۔نیز مثالیں لکھیں۔"
-    },
-    {
-      "id": 92,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that displays the output of the first ten natural numbers on screen using a while loop.",
-      "ur": "پائتھن میں ایک پروگرام لکھیں جو while لوپ استعمال کرتے ہوئے پہلے دس قدرتی اعداد کا آؤٹ پٹ اسکرین پر دکھائے۔"
-    },
-    {
-      "id": 93,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that creates a list named friends containing three names. Use a for loop to iterate through the list and print a greeting message, \"As-Salaam-Alaikum\" followed by each friend's name on the screen.",
-      "ur": "پائتھن میں ایک پروگرام لکھیں جو دوستوں کے نام سے ایک لسٹ بنائے جس میں تین نام شامل ہوں۔ لسٹ کے تمام عناصر کو باری باری چلانے کے لیے for لوپ کا استعمال کریں اور ہر دوست کے نام کے ساتھ خوش آمدیدی پیغام \"As-Salaam-Alaikum\" اسکرین پر پرنٹ کریں۔"
-    },
-    {
-      "id": 94,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that displays the output of first 5 whole numbers on screen using range function.",
-      "ur": "پائتھن میں ایک پروگرام لکھیں جو رینج فنکشن استعمال کرتے ہوئے پہلے 5 مکمل اعداد کا نتیجہ سکرین پر دکھائے۔"
-    },
-    {
-      "id": 95,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that displays the output of two strings on the same line using end statement.",
-      "ur": "پائتھن میں ایک پروگرام لکھیں جو end اسٹیٹمنٹ کا استعمال کرتے ہوئے دو سٹرنگز کا آؤٹ پٹ ایک ہی لائن پر دکھائے۔"
-    },
-    {
-      "id": 96,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a program in Python that displays the output from 1 to 5 on the same line using end statement.",
-      "ur": "پائتھن میں ایک پروگرام لکھیں جو end سٹیٹمنٹ استعمال کرتے ہوئے 1 سے 5 تک کا آؤٹ پٹ ایک ہی لائن پر دکھائے۔"
-    },
-    {
-      "id": 97,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a Python program that uses nested for loops to display a basic number pattern of two variables.",
-      "ur": "پائتھن میں ایک ایسا پروگرام لکھیں جو نیسٹڈ for لوپ کا استعمال کرتے ہوئے دو ویری ایبلز کا ایک بنیادی نمبر پیٹرن دکھائے۔"
-    },
-    {
-      "id": 98,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a Python program that uses nested for loops to display a right-angled triangular pattern of stars (*) consisting of 5 rows.",
-      "ur": "پائتھن میں ایک ایسا پروگرام لکھیں جو نیسٹڈ for لوپ کا استعمال کرتے ہوئے ستاروں (*) کا ایک قائمۃ الزاویہ مثلث کا پیٹرن دکھائے جو 5 قطاروں پر مشتمل ہو۔"
-    },
-    {
-      "id": 99,
+      "id": 499379,
       "chapter": 4,
       "topic_id": "4.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How do Python libraries enhance programming efficiency? Provide an example.",
       "ur": "پائیتھن لائبریریز پروگرامنگ کی کارکردگی (efficiency) کو کیسے بڑھاتی ہیں؟ ایک مثال فراہم کریں۔"
     },
     {
-      "id": 100,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is a data structure and a library in Python? Apply different libraries used in Python.",
-      "ur": "پائتھن میں ڈیٹا سٹرکچر اور لائبریری سے کیا مراد ہے؟ پائتھن میں استعمال ہونے والی مختلف لائبریریوں کا اطلاق کریں۔"
-    },
-    {
-      "id": 101,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write down the syntax to import the random library and generate a random number between 1 and 10.",
-      "ur": "پائتھن میں رینڈم لائبریری امپورٹ کرنے اور 1 سے 10 کے درمیان رینڈم نمبر تیار کرنے کا سنٹیکس لکھیں۔"
-    },
-    {
-      "id": 102,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "source": "Examples",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write down the syntax to import the statistics library and perform statistical calculations to calculate the mean of 23, 45, 67,89, 12, 44, 56.",
-      "ur": "اعدادوشمار کی لائبریری امپورٹ کرنے اور 23، 45، 67، 89، 12، 44، 56 کا اوسط نکالنے کے لیے سنٹیکس لکھیں۔"
-    },
-    {
-      "id": 103,
+      "id": 499377,
       "chapter": 4,
       "topic_id": "4.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe how to work with Python lists, including creation and modification. Provide code examples for adding items, removing items and accessing elements.",
       "ur": "پائیتھن لسٹوں کے ساتھ کام کرنے کے طریقے کو بیان کریں، بشمول ان کو بنانے اور ان میں ترمیم کرنے کا طریقہ۔ آئٹمز شامل کرنے، ہٹانے اور عناصر تک رسائی حاصل کرنے کے لیے مثالیں فراہم کریں۔"
     },
     {
-      "id": 104,
+      "id": 499381,
       "chapter": 4,
       "topic_id": "4.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a Python program that performs the following tasks: (a) Generates a list of 5 random numbers between 1 and 20. (b) Uses the statistics library to calculate and print the mean of the generated numbers.",
       "ur": "ایک پائیتھن پروگرام لکھیں جو درج ذیل کام انجام دے: (a) 1 اور 20 کے درمیان 5 رینڈم اعداد کی ایک لسٹ بنائے۔ (b) پیدا کردہ اعداد کا اوسط (mean) نکالنے اور پرنٹ کرنے کے لیے statistics لائبریری کا استعمال کرے۔"
     },
     {
-      "id": 105,
+      "id": 499382,
       "chapter": 4,
       "topic_id": "4.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a Python program that performs the following operations: (a) Create a list of popular Pakistani dishes: [\"Biryani\", \"Nihari\", \"Karahi\", \"Seekh Kebabs\"]. (b) Add a new dish \"Quorma\" to the list. (c) Change \"Karahi\" to \"Chicken Karahi\". (d) Remove \"Nihari\" from the list.",
       "ur": "ایک پائیتھن پروگرام لکھیں جو درج ذیل آپریشنز انجام دے: (a) مشہور پاکستانی کھانوں کی ایک لسٹ بنائیں: [\"Biryani\", \"Nihari\", \"Karahi\", \"Seekh Kebabs\"]۔(b) لسٹ میں ایک نیا کھانا \"Quorma\" شامل کریں۔(c) \"Karahi\" کو \"Chicken Karahi\" میں تبدیل کریں۔ (d) لسٹ میں سے \"Nihari\" کو ہٹا دیں۔"
     },
     {
-      "id": 106,
-      "chapter": 4,
-      "topic_id": "4.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define list. Describe creating, accessing, and modifying list with an example.",
-      "ur": "لسٹ کی تعریف کریں۔ مثال کے ساتھ لسٹ بنانے، اس تک رسائی حاصل کرنے اور اس میں ترمیم کرنے کو بیان کریں۔"
-    },
-    {
-      "id": 107,
-      "chapter": 4,
-      "topic_id": "4.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the append( ), remove( ), sort( ), and reverse( ) operations applied to a list using Python code.",
-      "ur": "پائتھن کوڈ کا استعمال کرتے ہوئے لسٹ پر لاگو ہونے والے ( )append( ) ،remove( ) ،sort اور ( )reverse آپریشنز کی وضاحت کریں۔"
-    },
-    {
-      "id": 108,
+      "id": 499378,
       "chapter": 4,
       "topic_id": "4.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the importance of testing and debugging in programming. Discuss different debugging techniques.",
       "ur": "پروگرامنگ میں ٹیسٹنگ اور ڈی بگنگ کی اہمیت کی وضاحت کریں۔ مختلف ڈی بگنگ تکنیکس پر بحث کریں۔"
     },
     {
-      "id": 109,
-      "chapter": 4,
-      "topic_id": "4.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain testing and its types.",
-      "ur": "ٹیسٹنگ اور اس کی اقسام کی وضاحت کریں۔"
-    },
-    {
-      "id": 110,
-      "chapter": 4,
-      "topic_id": "4.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain Debugging and its techniques.",
-      "ur": "ڈیبگنگ اور اس کی تکنیکوں کی وضاحت کریں۔"
-    },
-    {
-      "id": 111,
-      "chapter": 5,
-      "topic_id": "5.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is data science? How important is it to us in our daily lives?",
-      "ur": "ڈیٹا سائنس کیا ہے؟ یہ روزمرہ کی زندگی میں ہمارے لیے کس قدر ضروری ہے؟"
-    },
-    {
-      "id": 112,
-      "chapter": 5,
-      "topic_id": "5.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define Data Science. Also, describe its importance.",
-      "ur": "ڈیٹا سائنس کی تعریف کریں۔ اس کی اہمیت بھی بیان کریں۔"
-    },
-    {
-      "id": 113,
-      "chapter": 5,
-      "topic_id": "5.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the real-life applications of data science.",
-      "ur": "ڈیٹا سائنس کی حقیقی زندگی میں موجود ایپلی کیشنز کی وضاحت کریں۔"
-    },
-    {
-      "id": 114,
+      "id": 499407,
       "chapter": 5,
       "topic_id": "5.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the six steps of the Data Science Life Cycle (DSLC) with one line each.",
       "ur": "ڈیٹا سائنس لائف سائیکل (DSLC) کے چھ مراحل کو ہر ایک کے لیے ایک سطر میں بیان کریں۔"
     },
     {
-      "id": 115,
+      "id": 499408,
       "chapter": 5,
       "topic_id": "5.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Give a detailed comparison between Bar Chart, Pie Chart, and Line Chart with examples.",
       "ur": "بار چارٹ، پائی چارٹ، اور لائن چارٹ کا مثالوں کے ساتھ تفصیلی موازنہ کریں۔"
     },
     {
-      "id": 116,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define DSLC and write its steps.",
-      "ur": "DSLC کی تعریف کریں اور اس کے مراحل تحریر کریں۔"
-    },
-    {
-      "id": 117,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain understanding the problem in DSLC.",
-      "ur": "DSLC میں مسئلہ کو سمجھنا کی وضاحت کریں۔"
-    },
-    {
-      "id": 118,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define data collection and also explain the methods of data collection.",
-      "ur": "ڈیٹا اکٹھا کرنے کی تعریف کریں اور ڈیٹا اکٹھا کرنے کے طریقوں کی بھی وضاحت کریں۔"
-    },
-    {
-      "id": 119,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain choosing the right data source and assessing data quality and bias.",
-      "ur": "درست ڈیٹا سورس کا انتخاب اور ڈیٹا کے معیار اور تعصب کا جائزہ لینے کی وضاحت کریں۔"
-    },
-    {
-      "id": 120,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain Cleaning and Validating Data.",
-      "ur": "ڈیٹا کلیننگ اور تصدیق کی وضاحت کریں۔"
-    },
-    {
-      "id": 121,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain analyzing data. Describe simple tools for analysis.",
-      "ur": "ڈیٹا کا تجزیہ کرنا کی وضاحت کریں۔ تجزیہ کے لیے آسان اوزار بیان کریں۔"
-    },
-    {
-      "id": 122,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain data interpreting. Also, explain data visualization and communication of results.",
-      "ur": "ڈیٹا کی انٹرپریٹنگ کی وضاحت کریں۔ نیز ڈیٹا ویژولائزیشن اور نتائج کی مواصلت کی وضاحت کریں۔"
-    },
-    {
-      "id": 123,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe tools for visualization. Write down the procedure for drawing a chart.",
-      "ur": "ویژولائزیشن کے لیے ٹولز بیان کریں۔ چارٹ بنانے کا طریقہ کار تحریر کریں۔"
-    },
-    {
-      "id": 124,
+      "id": 499409,
       "chapter": 5,
       "topic_id": "5.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Differentiate between DBMS and SQL",
       "ur": "DBMS اور SQL کے درمیان فرق واضح کریں۔"
     },
     {
-      "id": 125,
+      "id": 499410,
       "chapter": 5,
       "topic_id": "5.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a Query in SQL to get all data of a student who’s roll_number is 15 from student table.",
       "ur": "SQL میں ایک کیوری (Query) لکھیں جس کے ذریعے ایک طالب علم کا تمام ڈیٹا حاصل کیا جائے جس کا رول نمبر 15 ہے۔"
     },
     {
-      "id": 126,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define Database. Why we need structured data? Differentiate between spreadsheet and database.",
-      "ur": "ڈیٹا بیس کی تعریف کریں.ہمیں سٹرکچرڈ ڈیٹا کی ضرورت کیوں ہے؟ اسپریڈ شیٹ اور ڈیٹا بیس کے درمیان فرق بتائیں۔"
-    },
-    {
-      "id": 127,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define DBMS. Also, explain some queries written in SQL.",
-      "ur": "DBMS کی تعریف کریں۔ نیز SQL میں لکھے گئے چند استفسارات کی وضاحت کریں۔"
-    },
-    {
-      "id": 128,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How can you define AI and ML? Give brief definitions.",
-      "ur": "آپ AI اور ML کی وضاحت کیسے کر سکتے ہیں؟ مختصر تعریفیں بتائیں۔"
-    },
-    {
-      "id": 129,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why AI is used now a days? Also, define artificial intelligence (AI) and machine learning (ML).",
-      "ur": "آج کل AI کیوں استعمال ہوتا ہے؟ نیز، مصنوعی ذہانت (AI) اور مشین لرننگ (ML) کی وضاحت کریں۔"
-    },
-    {
-      "id": 130,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Differentiate between artificial intelligence (AI) and Machine Learning (ML).",
-      "ur": "مصنوعی ذہانت (AI) اور مشین لرننگ (ML) کے درمیان فرق بیان کریں۔"
-    },
-    {
-      "id": 131,
+      "id": 499428,
       "chapter": 6,
       "topic_id": "6.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain supervised and unsupervised learning with suitable examples.",
       "ur": "مناسب مثالوں کے ساتھ سپروائزڈ اور ان سپروائزڈ لرننگ کی وضاحت کریں۔"
     },
     {
-      "id": 132,
-      "chapter": 6,
-      "topic_id": "6.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the types of machine learning. Also give examples of each.",
-      "ur": "مشین لرننگ کی اقسام کی وضاحت کریں۔ ہر ایک کی مثالیں بھی دیں۔"
-    },
-    {
-      "id": 133,
-      "chapter": 6,
-      "topic_id": "6.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Differentiate between supervised and unsupervised learning.",
-      "ur": "سپروائزڈ اور ان سپروائزڈ لرننگ میں فرق کریں۔"
-    },
-    {
-      "id": 134,
-      "chapter": 6,
-      "topic_id": "6.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the practical applications of AI and ML smart assistants and recommendation systems.",
-      "ur": "AI اور ML کے عملی اطلاقات سمارٹ اسسٹنٹس اور ریکمنڈیشن سسٹم کی وضاحت کریں۔"
-    },
-    {
-      "id": 135,
-      "chapter": 6,
-      "topic_id": "6.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the practical uses of AI and ML in business applications, including customer suggestions and chatbots.",
-      "ur": "AI اور ML کے عملی استعمالات کاروباری استعمالات بشمول کسٹمر تجاویز اور چیٹ بوٹس کی وضاحت کریں۔"
-    },
-    {
-      "id": 136,
-      "chapter": 6,
-      "topic_id": "6.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the practical uses of AI and ML in terms of bias, privacy, and responsibility.",
-      "ur": "AI اور ML کے عملی استعمالات طرفداری ، پرائیویسی، اور ذمہ داری کی وضاحت کریں۔"
-    },
-    {
-      "id": 137,
-      "chapter": 6,
-      "topic_id": "6.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define and explain supervised and unsupervised algorithms.",
-      "ur": "سپروائزڈ اور ان سپروائزڈ الگورتھمز کی تعریف اور وضاحت کریں۔"
-    },
-    {
-      "id": 138,
-      "chapter": 6,
-      "topic_id": "6.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is Linear regression? Explain with the help of example.",
-      "ur": "لینیئر ریگریشن کیا ہے؟ مثال کے ساتھ وضاحت کریں۔"
-    },
-    {
-      "id": 139,
+      "id": 499429,
       "chapter": 6,
       "topic_id": "6.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how model performance is evaluated in machine learning using the following metrics: (a) Confusion Matrix (b) Accuracy (c) Precision",
       "ur": "مندرجہ ذیل پیمائشوں کا استعمال کرتے ہوئے مشین لرننگ میں ماڈل کی کارکردگی کا جائزہ کیسے لیا جاتا ہے وضاحت کریں؟ (a) کنفیوژن میٹرکس (b) درستگی (c) پری سیشن"
     },
     {
-      "id": 140,
+      "id": 499430,
       "chapter": 6,
       "topic_id": "6.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A model predicts if students will pass (1) or fail (0). Out of 20 students: True Positives (TP) = 8 True Negatives (TN) = 6 False Positives (FP) = 4 False Negatives (FN) = 2 You are required to (a) fill the confusion matrix, and (b) calculate accuracy. True Positives (TP) = 8 True Negatives (TN) = 6 False Positives (FP) = 4 False Negatives (FN) = 2",
-      "ur": "ایک ماڈل پیش گوئی کرتا ہے کہ آیا طلباء پاس (1) ہوں گے یا فیل (0)۔ 20 طلباء میں سے: آپ سے مطلوب ہے کہ (a) کنفیوژن میٹرکس پُر کریں، اور (b) درستگی کا حساب لگائیں۔"
+      "en": "A model predicts if students will pass (1) or fail (0). Out of 20 students: True Positives (TP) = 8 True Negatives (TN) = 6 False Positives (FP) = 4 False Negatives (FN) = 2 You are required to (a) fill the confusion matrix, and (b) calculate accuracy.",
+      "ur": "ایک ماڈل پیش گوئی کرتا ہے کہ آیا طلباء پاس (1) ہوں گے یا فیل (0)۔ 20 طلباء میں سے: True Positives (TP) = 8 True Negatives (TN) = 6 False Positives (FP) = 4 False Negatives (FN) = 2 آپ سے مطلوب ہے کہ (a) کنفیوژن میٹرکس پُر کریں، اور (b) درستگی کا حساب لگائیں۔"
     },
     {
-      "id": 141,
-      "chapter": 6,
-      "topic_id": "6.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is Evaluating Model Performance? Also explain the confusion matrix and accuracy.",
-      "ur": "ماڈل کی کارکردگی کی تشخیص کیا ہے؟ نیز کنفیوژن میٹرکس اور درستگی کی وضاحت کریں۔"
-    },
-    {
-      "id": 142,
-      "chapter": 7,
-      "topic_id": "7.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How do AI, NLP, and speech technology help us?",
-      "ur": "AI، NLP، اور اسپیچ ٹیکنالوجی ہماری مدد کیسے کرتی ہیں؟"
-    },
-    {
-      "id": 143,
-      "chapter": 7,
-      "topic_id": "7.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How would you define artificial intelligence? Also describe natural language processing.",
-      "ur": "مصنوعی ذہانت کی وضاحت کیسے کریں گے؟نیز نیچرل لینگویج پروسیسنگ بیان کریں۔"
-    },
-    {
-      "id": 144,
-      "chapter": 7,
-      "topic_id": "7.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is Artificial intelligence (AI)? Describe the impact of AI on jobs and work.",
-      "ur": "مصنوعی ذہانت (AI) کیا ہے؟ ملازمتوں اور کام پر AI کے اثرات کو بیان کریں۔"
-    },
-    {
-      "id": 145,
+      "id": 499455,
       "chapter": 7,
       "topic_id": "7.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is the importance of data in AI? Explain why good and large data is needed.",
       "ur": "AI میں ڈیٹا کی اہمیت کیا ہے؟ وضاحت کریں کہ اچھے اور بڑے ڈیٹا کی ضرورت کیوں ہوتی ہے۔"
     },
     {
-      "id": 146,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is data important in AI? Describe automated data collection. Also, describe types of data.",
-      "ur": "AI میں ڈیٹا کیوں اہم ہے؟ خودکار ڈیٹا اکٹھا کرنے کی وضاحت کریں۔ نیز، ڈیٹا کی اقسام کی وضاحت کریں۔"
-    },
-    {
-      "id": 147,
+      "id": 499456,
       "chapter": 7,
       "topic_id": "7.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write in detail about any three real-world applications of AI (such as NLP, robotics, or speech technology).",
       "ur": "AI کی کسی بھی تین حقیقی دنیا کی ایپلی کیشنز (جیسے NLP، روبوٹکس، یا اسپیچ ٹیکنالوجی) کے بارے میں تفصیل سے لکھیں۔"
     },
     {
-      "id": 148,
-      "chapter": 7,
-      "topic_id": "7.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the advantages of AI in real-life applications. Also, define NLP.",
-      "ur": "حقیقی زندگی کی ایپلی کیشنز میں AI کے فوائد بیان کریں۔ اس کے علاوہ، NLP کی تعریف کریں۔"
-    },
-    {
-      "id": 149,
-      "chapter": 7,
-      "topic_id": "7.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the use of Robotics in everyday life. Also, explain speech technology and voice control.",
-      "ur": "روزمرہ کی زندگی میں روبوٹکس کے استعمال کی وضاحت کریں۔ اس کے علاوہ، تقریر کی ٹیکنالوجی اور آواز سے کنٹرول کی وضاحت کریں۔"
-    },
-    {
-      "id": 150,
-      "chapter": 7,
-      "topic_id": "7.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define and explain recommendation systems with examples.",
-      "ur": "تجاویز کے نظام کی تعریف اور وضاحت مثالیں دے کر کریں۔"
-    },
-    {
-      "id": 151,
-      "chapter": 7,
-      "topic_id": "7.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define and explain autonomous vehicles with their advantages and challenges.",
-      "ur": "خودکار گاڑیوں کی تعریف اور اس کے فائدے اور چیلنجز کے ساتھ وضاحت کریں۔"
-    },
-    {
-      "id": 152,
-      "chapter": 7,
-      "topic_id": "7.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the benefits and challenges faced by AI in today's era.",
-      "ur": "آج کے دور میں AI کو درپیش فوائد اور چیلنجوں کی وضاحت کریں۔"
-    },
-    {
-      "id": 153,
+      "id": 499457,
       "chapter": 7,
       "topic_id": "7.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the ethical issues in AI. Why are fairness, privacy, and transparency important?",
       "ur": "AI میں اخلاقی مسائل کی وضاحت کریں۔ انصاف ، پرائیویسی ، اور شفافیت کیوں اہم ہیں؟"
     },
     {
-      "id": 154,
-      "chapter": 7,
-      "topic_id": "7.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define ethics in AI and explain bias in AI and algorithms.",
-      "ur": "AI میں اخلاقیات کی وضاحت کریں اور AI اور الگورتھم میں تعصب کی وضاحت کریں۔"
-    },
-    {
-      "id": 155,
-      "chapter": 7,
-      "topic_id": "7.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is fairness and transparency in AI?",
-      "ur": "AI میں انصاف اور شفافیت کیا ہے؟"
-    },
-    {
-      "id": 156,
-      "chapter": 7,
-      "topic_id": "7.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain privacy, security, surveillance, and social equity in AI.",
-      "ur": "AI میں رازداری، سیکورٹی، نگرانی، اور سماجی مساوات کی وضاحت کریں۔"
-    },
-    {
-      "id": 157,
-      "chapter": 7,
-      "topic_id": "7.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the responsibilities of designers when designing AI systems.",
-      "ur": "اے آئی (AI) سسٹمز کو ڈیزائن کرتے وقت ڈیزائنرز کی ذمہ داریوں کی وضاحت کریں۔"
-    },
-    {
-      "id": 158,
-      "chapter": 8,
-      "topic_id": "8.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the core concept of digital entrepreneurship.",
-      "ur": "ڈیجیٹل انٹرپرینیورشپ کے بنیادی تصور کی وضاحت کریں۔"
-    },
-    {
-      "id": 159,
-      "chapter": 8,
-      "topic_id": "8.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define entrepreneurship and write down its basic concepts.",
-      "ur": "انٹرپرینیورشپ کی تعریف کریں اور اس کے بنیادی تصورات لکھیں۔"
-    },
-    {
-      "id": 160,
-      "chapter": 8,
-      "topic_id": "8.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define and explain advanced entrepreneurship concepts.",
-      "ur": "انٹرپرینیورشپ کے جدید تصورات کی تعریف اور وضاحت کریں۔"
-    },
-    {
-      "id": 161,
+      "id": 499480,
       "chapter": 8,
       "topic_id": "8.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the process of problem solving and adaptability.",
       "ur": "مسئلہ حل کرنے اور لچک پذیری کے عمل کی وضاحت کریں۔"
     },
     {
-      "id": 162,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What challenges does today's entrepreneurship face? Explain.",
-      "ur": "آج کی انٹرپرینیورشپ کو کن چیلنجوں کا سامنا ہے؟ وضاحت کریں۔"
-    },
-    {
-      "id": 163,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is structured problem-solving? Explain root cause analysis and swot analysis.",
-      "ur": "مسئلہ کا منظم حل کرنا کیا ہے؟ بنیادی وجہ کا تجزیہ اور سوٹ کا تجزیہ کی وضاحت کریں۔"
-    },
-    {
-      "id": 164,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define adaptability and resilience. Explain how to respond when market technology changes.",
-      "ur": "موافقت اور لچک کی وضاحت کریں۔ وضاحت کریں کہ جب مارکیٹ ٹیکنالوجی تبدیل ہوتی ہے تو کیسے ردعمل دیا جائے۔"
-    },
-    {
-      "id": 165,
+      "id": 499481,
       "chapter": 8,
       "topic_id": "8.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a note on ethical business practices and digital ethics.",
       "ur": "اخلاقی کاروباری طریقوں اور ڈیجیٹل اخلاقیات پر ایک نوٹ لکھیں۔"
     },
     {
-      "id": 166,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is ethical business? Also, explain ethical decision-making. What happens when a conflict of interest exists?",
-      "ur": "اخلاقی کاروبار کیا ہے؟ نیز، اخلاقی فیصلہ سازی کی وضاحت کریں۔ جب مفادات کا ٹکراؤ ہوتا ہے تو کیا ہوتا ہے؟"
-    },
-    {
-      "id": 167,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the concept of balancing profit and digital ethics. Also, describe responsible marketing.",
-      "ur": "منافع اور ڈیجیٹل اخلاقیات میں توازن کے تصور کی وضاحت کریں۔ اس کے علاوہ، ذمہ دار مارکیٹنگ کی وضاحت کریں۔"
-    },
-    {
-      "id": 168,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define data privacy laws. Explain the key points of the Personal Data Protection Bill.",
-      "ur": "ڈیٹا پرائیویسی کے قوانین کی تعریف کریں۔ ذاتی ڈیٹا کے تحفظ کے بل کے اہم نکات کی وضاحت کریں۔"
-    },
-    {
-      "id": 169,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is regulatory awareness? Explain with an example.",
-      "ur": "ضابطوں سے آگاہی کیا ہے؟ ایک مثال سے وضاحت کریں۔"
-    },
-    {
-      "id": 170,
-      "chapter": 8,
-      "topic_id": "8.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is the legal framework and compliance? Explain the process for registering your business in Pakistan.",
-      "ur": "قانونی فریم ورک اور تعمیل کیا ہے؟ پاکستان میں اپنے کاروبار کی رجسٹریشن کے طریقہ کار کی وضاحت کریں۔"
-    },
-    {
-      "id": 171,
-      "chapter": 8,
-      "topic_id": "8.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain processes of obtaining NTN, tax filling, record keeping, and industry specification regulation.",
-      "ur": "NTN حاصل کرنے، ٹیکس بھرنے، ریکارڈ رکھنے، اور صنعت کی تفصیلات کے ضابطے کے عمل کی وضاحت کریں۔"
-    },
-    {
-      "id": 172,
-      "chapter": 8,
-      "topic_id": "8.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain all the steps of business registration with examples.",
-      "ur": "کاروباری رجسٹریشن کے تمام مراحل کی مثال کے ساتھ وضاحت کریں۔"
-    },
-    {
-      "id": 173,
-      "chapter": 8,
-      "topic_id": "8.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain contracts in digital business, basic elements of validation, and their importance.",
-      "ur": "ڈیجیٹل کاروبار میں معاہدوں، توثیق کے بنیادی عناصر اور ان کی اہمیت کی وضاحت کریں۔"
-    },
-    {
-      "id": 174,
-      "chapter": 8,
-      "topic_id": "8.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain intellectual property rights? Explain the originations who are responsible for registering all IPR in Pakistan.",
-      "ur": "دانشورانہ املاک کے حقوق کی وضاحت کریں؟ پاکستان میں تمام آئی پی آر کے اندراج کے ذمہ دار کون ہیں ان کی ابتداء کی وضاحت کریں۔"
-    },
-    {
-      "id": 175,
+      "id": 499482,
       "chapter": 8,
       "topic_id": "8.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Discuss how CRM looks and loyalty programme help in retaining customers.",
       "ur": "بحث کریں کہ سی آر ایم (CRM) اور لائلٹی پروگرام کس طرح صارفین کو برقرار رکھنے میں مدد کرتے ہیں۔"
     },
     {
-      "id": 176,
+      "id": 499483,
       "chapter": 8,
       "topic_id": "8.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain Marketing automation and describe their benefit for small businesses.",
       "ur": "مارکیٹنگ آٹومیشن کی وضاحت کریں اور چھوٹے کاروباروں کے لیے اس کے فوائد بیان کریں۔"
     },
     {
-      "id": 177,
+      "id": 508211,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What do you know about core concepts of operating system?",
+      "ur": "آپ آپریٹنگ سسٹم کے بنیادی تصورات کی وضاحت کیسے کریں گے؟"
+    },
+    {
+      "id": 508212,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is an operating system? What are the main purposes of an operating system? Also, give some examples of popular operating systems.",
+      "ur": "آپریٹنگ سسٹم کیا ہے؟ آپریٹنگ سسٹم کے بنیادی مقاصد کیا ہیں؟ نیز مقبول آپریٹنگ سسٹمز کی کچھ مثالیں دیں۔"
+    },
+    {
+      "id": 508213,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Why operating system is called central system controller. Also discuss the role of OS in user hardware interaction.",
+      "ur": "آپریٹنگ سسٹم کو مرکزی نظام کا کنٹرولر کیوں کہا جاتا ہے؟ نیز صارف اور ہارڈ ویئر کے درمیان تعامل میں OS کا کردار بیان کریں۔"
+    },
+    {
+      "id": 508214,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the responsibilities of operating system in multi-user environment. How user accounts are create and managed?",
+      "ur": "ملٹی یوزر ماحول میں آپریٹنگ سسٹم کی ذمہ داریاں بیان کریں۔ صارف اکاؤنٹس کیسے تخلیق اور ان کا نظم کیا جاتا ہے؟"
+    },
+    {
+      "id": 508215,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the architecture of an operating system. Also describe the kernel and shell core concepts of an operating system.",
+      "ur": "آپریٹنگ سسٹم کے ڈھانچے کی وضاحت کریں نیز آپریٹنگ سسٹم کے بنیادی تصورات کرنل اور شیل کو بھی بیان کریں۔"
+    },
+    {
+      "id": 508216,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain operating system layers and modules.",
+      "ur": "آپریٹنگ سسٹم کی لیئرز اور ماڈیولز کی وضاحت کریں۔"
+    },
+    {
+      "id": 508217,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What are System Libraries? Also give an example. Define Device Drivers.",
+      "ur": "سسٹم لائبریریز کیا ہیں؟ نیز ایک مثال دیں۔ ڈیوائس ڈرائیورز کی تعریف کریں۔"
+    },
+    {
+      "id": 508218,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is process management in operating system? Also define process and resources.",
+      "ur": "آپریٹنگ سسٹم میں پروسیس مینجمنٹ کیا ہے؟ نیز پروسیس اور وسائل کی تعریف کریں۔"
+    },
+    {
+      "id": 508221,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by multitasking and concurrency? Also write the difference between them.",
+      "ur": "ملٹی ٹاسکنگ اور ہم آہنگی سے کیا مراد ہے؟ نیز ان کے درمیان فرق لکھیں۔"
+    },
+    {
+      "id": 508222,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is process scheduling? Also explain First Come First Served Concept.",
+      "ur": "پروسیس شیڈولنگ کیا ہے؟ نیز فرسٹ کم فرسٹ سروڈ تصور کی وضاحت کریں۔"
+    },
+    {
+      "id": 508223,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain FCFS method with the help of an example.",
+      "ur": "FCFS طریقے کی ایک مثال کے ذریعے وضاحت کریں۔"
+    },
+    {
+      "id": 508224,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the advantages and disadvantages of FCFS.",
+      "ur": "FCFS کے فوائد اور نقصانات بیان کریں۔"
+    },
+    {
+      "id": 508225,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is memory? Also explain primary and virtual memory.",
+      "ur": "میموری کیا ہے؟ نیز پرائمری اور ورچوئل میموری کی وضاحت کریں۔"
+    },
+    {
+      "id": 508227,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the concept of process and threads. Also write down the difference between them.",
+      "ur": "پروسیس اور تھریڈ کے تصورات کی وضاحت کریں۔ نیز ان کے درمیان فرق تحریر کریں۔"
+    },
+    {
+      "id": 508228,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is multithreading? Also explain the benefits of multithreading.",
+      "ur": "ملٹی تھریڈنگ کیا ہے؟ نیز ملٹی تھریڈنگ کے فوائد بھی تحریر کریں۔"
+    },
+    {
+      "id": 508230,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define a system call with an example. Also, explain all the types of system calls.",
+      "ur": "سسٹم کال کی تعریف ایک مثال کے ساتھ کریں نیز سسٹم کالز کی تمام اقساموں کی وضاحت کریں۔"
+    },
+    {
+      "id": 508231,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is file system? Also explain file, folder, metadata and files systems with example.",
+      "ur": "فائل سسٹم کیا ہے؟ نیز فائل، فولڈر، میٹا ڈیٹا اور فائل سسٹم کی مثالوں کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 508233,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain types of operating systems with their key features and applications in daily life.",
+      "ur": "آپریٹنگ سسٹم کی اقسام کی ان کی اہم خصوصیات اور روزمرہ زندگی میں استعمال کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 508402,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What do you know about troubleshooting?",
+      "ur": "آپ ٹربل شوٹنگ کے تصور کی وضاحت کیسے کریں گے؟"
+    },
+    {
+      "id": 508404,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define troubleshooting and post-troubleshooting? Also describe the importance of continuous maintenance.",
+      "ur": "ٹربل شوٹنگ اور پوسٹ ٹربل شوٹنگ کی تعریف کریں۔ نیز مسلسل مینٹیننس کی اہمیت بیان کریں۔"
+    },
+    {
+      "id": 508405,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the impact of poor maintenance? Also explain some common problem occur due to lack of regular maintenance.",
+      "ur": "خراب مینٹیننس کے اثرات بیان کریں۔ نیز باقاعدہ مینٹیننس کی کمی کی وجہ سے پیش آنے والے کچھ عام مسائل کی وضاحت کریں۔"
+    },
+    {
+      "id": 508409,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is system health monitoring? Describe activities follow by different tools for health check? Also describe advantage of system health monitoring?",
+      "ur": "سسٹم ہیلتھ مانیٹرنگ کیا ہے؟ ہیلتھ چیک کے لیے مختلف ٹولز کے ذریعے کی جانے والی سرگرمیوں کی وضاحت کریں۔ نیز سسٹم ہیلتھ مانیٹرنگ کے فوائد بیان کریں۔"
+    },
+    {
+      "id": 508410,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define build-in diagnostic tools? Also describe the purpose to set these tools in troubleshooting",
+      "ur": "بلٹ ان تشخیصی ٹولز کی تعریف کریں۔ نیز ٹربل شوٹنگ میں ان ٹولز کو سیٹ کرنے کا مقصد بیان کریں۔"
+    },
+    {
+      "id": 508412,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is a Task manager? Describe its responsibilities? What do you know about processing tab and performance tab?",
+      "ur": "ٹاسک مینیجر کیا ہے؟ اس کی ذمہ داریوں کی وضاحت کریں۔ پروسیس ٹیب اور پرفارمنس ٹیب کے بارے میں آپ کیا جانتے ہیں؟"
+    },
+    {
+      "id": 508413,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What can you do with task manager?",
+      "ur": "آپ ٹاسک مینیجر کے ساتھ کیا کر سکتے ہیں؟"
+    },
+    {
+      "id": 508415,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is a resource monitor? Describe its responsibilities? Describe its advantages over task manager.",
+      "ur": "ریسورس مانیٹر کیا ہے؟ اس کی ذمہ داریوں کی وضاحت کریں۔ ٹاسک مینیجر کے مقابلے میں اس کے فوائد بیان کریں۔"
+    },
+    {
+      "id": 508418,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write down the steps to open resource monitor. Also describe key features of resource monitor?",
+      "ur": "ریسورس مانیٹر کو کھولنے کے اقدامات تحریر کریں۔ نیز ریسورس مانیٹر کی اہم خصوصیات تحریر کریں؟"
+    },
+    {
+      "id": 508420,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is event viewer? Describe its responsibilities? Write down the steps to open event viewer in MS Windows.",
+      "ur": "ایونٹ ویوور کیا ہے؟ اس کی ذمہ داریوں کی وضاحت کریں۔ ایم ایس ونڈوز میں ایونٹ ویوور کھولنے کے اقدامات تحریر کریں۔"
+    },
+    {
+      "id": 508423,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "When a system recovery option is helpful for a user and they are compulsory now a days?",
+      "ur": "سسٹم ریکوری آپشن صارف کے لیے کب مفید ہوتا ہے اور آج کل یہ لازمی کیوں ہیں؟"
+    },
+    {
+      "id": 508424,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is window's safe mode? when to use it? Write down the procedure to open safe mode?",
+      "ur": "ونڈوز کا سیف موڈ کیا ہے؟ اسے کب استعمال کیا جاتا ہے؟ سیف موڈ کھولنے کا طریقہ کار تحریر کریں؟"
+    },
+    {
+      "id": 508428,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by system restore? What is restore point? Write down the steps to create and use restore point?",
+      "ur": "سسٹم ریسٹور سے کیا مراد ہے؟ ریسٹور پوائنٹ کیا ہے؟ ریسٹور پوائنٹ بنانے اور استعمال کرنے کے اقدامات تحریر کریں؟"
+    },
+    {
+      "id": 508429,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is bootable recover media? How and why, we use it in safe and restore point?",
+      "ur": "بوٹ ایبل ریکوری میڈیا کیا ہے؟ ہم اسے سیف موڈ اور ریسٹور پوائنٹ میں کیسے اور کیوں استعمال کرتے ہیں؟"
+    },
+    {
+      "id": 508430,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write down the steps to create an bootable USB drive? Also write down the procedure to check the partitioned styles?",
+      "ur": "بوٹ ایبل USB ڈرائیو بنانے کے اقدامات تحریر کریں؟ نیز پارٹیشن اسٹائل چیک کرنے کا طریقہ کار بھی تحریر کریں؟"
+    },
+    {
+      "id": 508431,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the role of BIOS/UEFI in computer startup.",
+      "ur": "کمپیوٹر کے اسٹارٹ اپ میں BIOS/UEFI کا کردار بیان کریں۔"
+    },
+    {
+      "id": 508432,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define POST. Explain its role in the computer startup process, and describe how a user can access and reset BIOS/UEFI settings.",
+      "ur": "پوسٹ کی تعریف کریں۔ کمپیوٹر اسٹارٹ اپ کے عمل میں اس کے کردار کی وضاحت کریں، اور یہ بھی بتائیں کہ ایک صارف بائیوس/یو ای ایف آئی سیٹنگز تک کیسے رسائی حاصل کر سکتا ہے اور انہیں کیسے ری سیٹ کر سکتا ہے۔"
+    },
+    {
+      "id": 508433,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is boot order and boot repair? Describe the steps to change boot order?",
+      "ur": "بوٹ آرڈر اور بوٹ ریپیئر کیا ہے؟ بوٹ آرڈر تبدیل کرنے کے اقدامات بیان کریں۔"
+    },
+    {
+      "id": 508434,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe data recovery tools and techniques used in MS Windows?",
+      "ur": "ایم ایس ونڈوز میں استعمال ہونے والے ڈیٹا ریکوری ٹولز اور تکنیکوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 508435,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the procedure to use Tenor Share? Also describe limitations of recovery?",
+      "ur": "ٹینور شیئر استعمال کرنے کا طریقہ کار بیان کریں۔ نیز ریکوری کی حدود بیان کریں؟"
+    },
+    {
+      "id": 508436,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define disk cleanup. Also, write the steps for performing disk cleanup.",
+      "ur": "ڈسک کلین اپ کی تعریف کریں۔ اس کے علاوہ، ڈسک کلین اپ کرنے کے مراحل بھی لکھیں۔"
+    },
+    {
+      "id": 508437,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is a system update? Describe the types of system updates. Also, write down the method for checking Windows updates.",
+      "ur": "سسٹم اپ ڈیٹ کیا ہے؟ سسٹم اپ ڈیٹ کی اقسام بیان کریں؟ نیز ونڈوز اپ ڈیٹ چیک کرنے کا طریقہ لکھیں؟"
+    },
+    {
+      "id": 508438,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is Windows Defender? Describe the types of scans done by defender.",
+      "ur": "ونڈوز ڈیفنڈر کیا ہے؟ ڈیفنڈر کے ذریعے کیے جانے والے اسکین کی اقسام بیان کریں؟"
+    },
+    {
+      "id": 508439,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the importance of keeping a maintenance calendar, proper records, and logging info?",
+      "ur": "مینٹیننس کیلنڈر، مناسب ریکارڈز اور لاگ انفو کو رکھنے کی اہمیت بیان کریں؟"
+    },
+    {
+      "id": 515418,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain briefly the concept of python?",
+      "ur": "مختصراً پائتھن کے تصور کی وضاحت کریں؟"
+    },
+    {
+      "id": 516092,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is the Python language? Describe various fields of Python applications. Also, describe the advantages of Python over different languages.",
+      "ur": "پائتھن لینگویج کیا ہے؟ پائتھن کے اطلاق کے مختلف شعبوں کو بیان کریں۔ نیز مختلف لینگویجز کے مقابلے میں پائتھن کے فوائد بیان کریں۔"
+    },
+    {
+      "id": 517749,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by setting up a Python development environment? Also, explain the procedure for setting up a Python IDE.",
+      "ur": "پائتھن ڈیولپمنٹ انوائرمنٹ ترتیب دینے سے کیا مراد ہے؟ نیز پائتھن آئی ڈی ای (IDE) ترتیب دینے کا طریقہ کار بھی بیان کریں۔"
+    },
+    {
+      "id": 518665,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is Google Colab? Also, write the method for using Google Colab.",
+      "ur": "گوگل کولیب کیا ہے؟ نیز گوگل کولیب استعمال کرنے کا طریقہ بھی لکھیں۔"
+    },
+    {
+      "id": 520206,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe basic Python syntax and structure.",
+      "ur": "بنیادی پائتھن سینٹیکس اور سٹرکچر بیان کریں۔"
+    },
+    {
+      "id": 520207,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe Python comments? Also, give an example of each type.",
+      "ur": "پائتھن کمنٹس بیان کریں؟ نیز اس کی ہر قسم کی مثال دیں۔"
+    },
+    {
+      "id": 520209,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define variable in Python? Also, write the rules for naming a variable.",
+      "ur": "پائتھن میں ویری ایبل کی تعریف کریں؟ نیز ویری ایبل کا نام رکھنے کے قواعد بھی لکھیں۔"
+    },
+    {
+      "id": 520211,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the types of variables used in Python.",
+      "ur": "پائتھن میں استعمال ہونے والی ویری ایبلز کی اقسام بیان کریں۔"
+    },
+    {
+      "id": 520214,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the integer and float input in Python.",
+      "ur": "پائتھن میں انٹیجر اور فلوٹ ان پٹ کو بیان کریں۔"
+    },
+    {
+      "id": 520216,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define operator and expression. Also explain the types of operators in detail.",
+      "ur": "آپریٹر اور ایکسپریشن کی تعریف کریں۔ نیز آپریٹرز کی اقسام تفصیل سے بیان کریں۔"
+    },
+    {
+      "id": 520217,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define operator precedence in Python. Describe the order of operator precedence in Python. Also give examples.",
+      "ur": "پائتھن میں آپریٹر کی ترجیح کی تعریف کریں۔ پائتھن میں آپریٹر کی ترجیح کی ترتیب بیان کریں۔ نیز مثالیں بھی دیں۔"
+    },
+    {
+      "id": 520328,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is control structure? Explain its importance.",
+      "ur": "کنٹرول سٹرکچر کیا ہے؟ اس کی اہمیت بیان کریں۔"
+    },
+    {
+      "id": 520333,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define if statement with its syntax. Describe the limitations of if statement.",
+      "ur": "if statement کی اس کے سنٹیکس کے ساتھ تعریف کریں۔ if statement کی حد بیان کریں۔"
+    },
+    {
+      "id": 520334,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define if-else statement with its syntax. Write an example.",
+      "ur": "if-else statement کی اس کے سنٹیکس کے ساتھ تعریف کریں۔ ایک مثال لکھیں۔"
+    },
+    {
+      "id": 520338,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define nested condition with its syntax. Write an example.",
+      "ur": "نیسٹڈ کنڈیشن کی اس کے سنٹیکس کے ساتھ تعریف کریں۔ ایک مثال لکھیں۔"
+    },
+    {
+      "id": 520340,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define a loop. Explain the while loop with syntax and an example.",
+      "ur": "لوپ کی تعریف کریں۔سنٹیکس اور مثال کے ساتھ while لوپ کی وضاحت کریں۔"
+    },
+    {
+      "id": 520341,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define and explain for loop with syntax and example.",
+      "ur": "for لوپ کی سنٹیکس اور مثال کے ساتھ تعریف اور وضاحت کریں۔"
+    },
+    {
+      "id": 520342,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define the range function and end statement. Also write examples",
+      "ur": "Range فنکشن اور end اسٹیٹمنٹ کی تعریف کریں۔ نیز مثالیں لکھیں۔"
+    },
+    {
+      "id": 520343,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define a nested loop with its syntax. Also, write examples.",
+      "ur": "نیسٹڈ لوپ کی اس کے سنٹیکس کے ساتھ تعریف کریں۔نیز مثالیں لکھیں۔"
+    },
+    {
+      "id": 520344,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is a data structure and a library in Python? Apply different libraries used in Python.",
+      "ur": "پائتھن میں ڈیٹا سٹرکچر اور لائبریری سے کیا مراد ہے؟ پائتھن میں استعمال ہونے والی مختلف لائبریریوں کا اطلاق کریں۔"
+    },
+    {
+      "id": 520346,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define list. Describe creating, accessing, and modifying list with an example.",
+      "ur": "لسٹ کی تعریف کریں۔ مثال کے ساتھ لسٹ بنانے، اس تک رسائی حاصل کرنے اور اس میں ترمیم کرنے کو بیان کریں۔"
+    },
+    {
+      "id": 520351,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the append( ), remove( ), sort( ), and reverse( ) operations applied to a list using Python code.",
+      "ur": "پائتھن کوڈ کا استعمال کرتے ہوئے لسٹ پر لاگو ہونے والے ( )append( ) ،remove( ) ،sort اور ( )reverse آپریشنز کی وضاحت کریں۔"
+    },
+    {
+      "id": 520355,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain testing and its types.",
+      "ur": "ٹیسٹنگ اور اس کی اقسام کی وضاحت کریں۔"
+    },
+    {
+      "id": 520356,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain Debugging and its techniques.",
+      "ur": "ڈیبگنگ اور اس کی تکنیکوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 520546,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is data science? How important is it to us in our daily lives?",
+      "ur": "ڈیٹا سائنس کیا ہے؟ یہ روزمرہ کی زندگی میں ہمارے لیے کس قدر ضروری ہے؟"
+    },
+    {
+      "id": 520547,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define Data Science. Also, describe its importance.",
+      "ur": "ڈیٹا سائنس کی تعریف کریں۔ اس کی اہمیت بھی بیان کریں۔"
+    },
+    {
+      "id": 520548,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the real-life applications of data science.",
+      "ur": "ڈیٹا سائنس کی حقیقی زندگی میں موجود ایپلی کیشنز کی وضاحت کریں۔"
+    },
+    {
+      "id": 520549,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define DSLC and write its steps.",
+      "ur": "DSLC کی تعریف کریں اور اس کے مراحل تحریر کریں۔"
+    },
+    {
+      "id": 520550,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain understanding the problem in DSLC.",
+      "ur": "DSLC میں مسئلہ کو سمجھنا کی وضاحت کریں۔"
+    },
+    {
+      "id": 520552,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define data collection and also explain the methods of data collection.",
+      "ur": "ڈیٹا اکٹھا کرنے کی تعریف کریں اور ڈیٹا اکٹھا کرنے کے طریقوں کی بھی وضاحت کریں۔"
+    },
+    {
+      "id": 520555,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain choosing the right data source and assessing data quality and bias.",
+      "ur": "درست ڈیٹا سورس کا انتخاب اور ڈیٹا کے معیار اور تعصب کا جائزہ لینے کی وضاحت کریں۔"
+    },
+    {
+      "id": 520556,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain Cleaning and Validating Data.",
+      "ur": "ڈیٹا کلیننگ اور تصدیق کی وضاحت کریں۔"
+    },
+    {
+      "id": 520557,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain analyzing data. Describe simple tools for analysis.",
+      "ur": "ڈیٹا کا تجزیہ کرنا کی وضاحت کریں۔ تجزیہ کے لیے آسان اوزار بیان کریں۔"
+    },
+    {
+      "id": 520559,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain data interpreting. Also, explain data visualization and communication of results.",
+      "ur": "ڈیٹا کی انٹرپریٹنگ کی وضاحت کریں۔ نیز ڈیٹا ویژولائزیشن اور نتائج کی مواصلت کی وضاحت کریں۔"
+    },
+    {
+      "id": 520562,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe tools for visualization. Write down the procedure for drawing a chart.",
+      "ur": "ویژولائزیشن کے لیے ٹولز بیان کریں۔ چارٹ بنانے کا طریقہ کار تحریر کریں۔"
+    },
+    {
+      "id": 520563,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define Database. Why we need structured data? Differentiate between spreadsheet and database.",
+      "ur": "ڈیٹا بیس کی تعریف کریں.ہمیں سٹرکچرڈ ڈیٹا کی ضرورت کیوں ہے؟ اسپریڈ شیٹ اور ڈیٹا بیس کے درمیان فرق بتائیں۔"
+    },
+    {
+      "id": 520564,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define DBMS. Also, explain some queries written in SQL.",
+      "ur": "DBMS کی تعریف کریں۔ نیز SQL میں لکھے گئے چند استفسارات کی وضاحت کریں۔"
+    },
+    {
+      "id": 521401,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "How can you define AI and ML? Give brief definitions.",
+      "ur": "آپ AI اور ML کی وضاحت کیسے کر سکتے ہیں؟ مختصر تعریفیں بتائیں۔"
+    },
+    {
+      "id": 521402,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Why AI is used now a days? Also, define artificial intelligence (AI) and machine learning (ML).",
+      "ur": "آج کل AI کیوں استعمال ہوتا ہے؟ نیز، مصنوعی ذہانت (AI) اور مشین لرننگ (ML) کی وضاحت کریں۔"
+    },
+    {
+      "id": 521404,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Differentiate between artificial intelligence (AI) and Machine Learning (ML).",
+      "ur": "مصنوعی ذہانت (AI) اور مشین لرننگ (ML) کے درمیان فرق بیان کریں۔"
+    },
+    {
+      "id": 521406,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the types of machine learning. Also give examples of each.",
+      "ur": "مشین لرننگ کی اقسام کی وضاحت کریں۔ ہر ایک کی مثالیں بھی دیں۔"
+    },
+    {
+      "id": 521408,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Differentiate between supervised and unsupervised learning.",
+      "ur": "سپروائزڈ اور ان سپروائزڈ لرننگ میں فرق کریں۔"
+    },
+    {
+      "id": 521410,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the practical applications of AI and ML smart assistants and recommendation systems.",
+      "ur": "AI اور ML کے عملی اطلاقات سمارٹ اسسٹنٹس اور ریکمنڈیشن سسٹم کی وضاحت کریں۔"
+    },
+    {
+      "id": 521412,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the practical uses of AI and ML in business applications, including customer suggestions and chatbots.",
+      "ur": "AI اور ML کے عملی استعمالات کاروباری استعمالات بشمول کسٹمر تجاویز اور چیٹ بوٹس کی وضاحت کریں۔"
+    },
+    {
+      "id": 521414,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the practical uses of AI and ML in terms of bias, privacy, and responsibility.",
+      "ur": "AI اور ML کے عملی استعمالات طرفداری ، پرائیویسی، اور ذمہ داری کی وضاحت کریں۔"
+    },
+    {
+      "id": 521415,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define and explain supervised and unsupervised algorithms.",
+      "ur": "سپروائزڈ اور ان سپروائزڈ الگورتھمز کی تعریف اور وضاحت کریں۔"
+    },
+    {
+      "id": 521416,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is Linear regression? Explain with the help of example.",
+      "ur": "لینیئر ریگریشن کیا ہے؟ مثال کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 521417,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is Evaluating Model Performance? Also explain the confusion matrix and accuracy.",
+      "ur": "ماڈل کی کارکردگی کی تشخیص کیا ہے؟ نیز کنفیوژن میٹرکس اور درستگی کی وضاحت کریں۔"
+    },
+    {
+      "id": 521533,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "How do AI, NLP, and speech technology help us?",
+      "ur": "AI، NLP، اور اسپیچ ٹیکنالوجی ہماری مدد کیسے کرتی ہیں؟"
+    },
+    {
+      "id": 521535,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "How would you define artificial intelligence? Also describe natural language processing.",
+      "ur": "مصنوعی ذہانت کی وضاحت کیسے کریں گے؟نیز نیچرل لینگویج پروسیسنگ بیان کریں۔"
+    },
+    {
+      "id": 521536,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is Artificial intelligence (AI)? Describe the impact of AI on jobs and work.",
+      "ur": "مصنوعی ذہانت (AI) کیا ہے؟ ملازمتوں اور کام پر AI کے اثرات کو بیان کریں۔"
+    },
+    {
+      "id": 521539,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Why is data important in AI? Describe automated data collection. Also, describe types of data.",
+      "ur": "AI میں ڈیٹا کیوں اہم ہے؟ خودکار ڈیٹا اکٹھا کرنے کی وضاحت کریں۔ نیز، ڈیٹا کی اقسام کی وضاحت کریں۔"
+    },
+    {
+      "id": 521540,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the advantages of AI in real-life applications. Also, define NLP.",
+      "ur": "حقیقی زندگی کی ایپلی کیشنز میں AI کے فوائد بیان کریں۔ اس کے علاوہ، NLP کی تعریف کریں۔"
+    },
+    {
+      "id": 521542,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the use of Robotics in everyday life. Also, explain speech technology and voice control.",
+      "ur": "روزمرہ کی زندگی میں روبوٹکس کے استعمال کی وضاحت کریں۔ اس کے علاوہ، تقریر کی ٹیکنالوجی اور آواز سے کنٹرول کی وضاحت کریں۔"
+    },
+    {
+      "id": 521543,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define and explain recommendation systems with examples.",
+      "ur": "تجاویز کے نظام کی تعریف اور وضاحت مثالیں دے کر کریں۔"
+    },
+    {
+      "id": 521544,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define and explain autonomous vehicles with their advantages and challenges.",
+      "ur": "خودکار گاڑیوں کی تعریف اور اس کے فائدے اور چیلنجز کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 521545,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the benefits and challenges faced by AI in today's era.",
+      "ur": "آج کے دور میں AI کو درپیش فوائد اور چیلنجوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 521546,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define ethics in AI and explain bias in AI and algorithms.",
+      "ur": "AI میں اخلاقیات کی وضاحت کریں اور AI اور الگورتھم میں تعصب کی وضاحت کریں۔"
+    },
+    {
+      "id": 521547,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is fairness and transparency in AI?",
+      "ur": "AI میں انصاف اور شفافیت کیا ہے؟"
+    },
+    {
+      "id": 521548,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain privacy, security, surveillance, and social equity in AI.",
+      "ur": "AI میں رازداری، سیکورٹی، نگرانی، اور سماجی مساوات کی وضاحت کریں۔"
+    },
+    {
+      "id": 521549,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the responsibilities of designers when designing AI systems.",
+      "ur": "اے آئی (AI) سسٹمز کو ڈیزائن کرتے وقت ڈیزائنرز کی ذمہ داریوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 521659,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the core concept of digital entrepreneurship.",
+      "ur": "ڈیجیٹل انٹرپرینیورشپ کے بنیادی تصور کی وضاحت کریں۔"
+    },
+    {
+      "id": 521660,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define entrepreneurship and write down its basic concepts.",
+      "ur": "انٹرپرینیورشپ کی تعریف کریں اور اس کے بنیادی تصورات لکھیں۔"
+    },
+    {
+      "id": 521661,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define and explain advanced entrepreneurship concepts.",
+      "ur": "انٹرپرینیورشپ کے جدید تصورات کی تعریف اور وضاحت کریں۔"
+    },
+    {
+      "id": 521663,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What challenges does today's entrepreneurship face? Explain.",
+      "ur": "آج کی انٹرپرینیورشپ کو کن چیلنجوں کا سامنا ہے؟ وضاحت کریں۔"
+    },
+    {
+      "id": 521666,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is structured problem-solving? Explain root cause analysis and swot analysis.",
+      "ur": "مسئلہ کا منظم حل کرنا کیا ہے؟ بنیادی وجہ کا تجزیہ اور سوٹ کا تجزیہ کی وضاحت کریں۔"
+    },
+    {
+      "id": 521669,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define adaptability and resilience. Explain how to respond when market technology changes.",
+      "ur": "موافقت اور لچک کی وضاحت کریں۔ وضاحت کریں کہ جب مارکیٹ ٹیکنالوجی تبدیل ہوتی ہے تو کیسے ردعمل دیا جائے۔"
+    },
+    {
+      "id": 521670,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is ethical business? Also, explain ethical decision-making. What happens when a conflict of interest exists?",
+      "ur": "اخلاقی کاروبار کیا ہے؟ نیز، اخلاقی فیصلہ سازی کی وضاحت کریں۔ جب مفادات کا ٹکراؤ ہوتا ہے تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 521672,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the concept of balancing profit and digital ethics. Also, describe responsible marketing.",
+      "ur": "منافع اور ڈیجیٹل اخلاقیات میں توازن کے تصور کی وضاحت کریں۔ اس کے علاوہ، ذمہ دار مارکیٹنگ کی وضاحت کریں۔"
+    },
+    {
+      "id": 521673,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define data privacy laws. Explain the key points of the Personal Data Protection Bill.",
+      "ur": "ڈیٹا پرائیویسی کے قوانین کی تعریف کریں۔ ذاتی ڈیٹا کے تحفظ کے بل کے اہم نکات کی وضاحت کریں۔"
+    },
+    {
+      "id": 521674,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is regulatory awareness? Explain with an example.",
+      "ur": "ضابطوں سے آگاہی کیا ہے؟ ایک مثال سے وضاحت کریں۔"
+    },
+    {
+      "id": 521675,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is the legal framework and compliance? Explain the process for registering your business in Pakistan.",
+      "ur": "قانونی فریم ورک اور تعمیل کیا ہے؟ پاکستان میں اپنے کاروبار کی رجسٹریشن کے طریقہ کار کی وضاحت کریں۔"
+    },
+    {
+      "id": 521676,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain processes of obtaining NTN, tax filling, record keeping, and industry specification regulation.",
+      "ur": "NTN حاصل کرنے، ٹیکس بھرنے، ریکارڈ رکھنے، اور صنعت کی تفصیلات کے ضابطے کے عمل کی وضاحت کریں۔"
+    },
+    {
+      "id": 521677,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain all the steps of business registration with examples.",
+      "ur": "کاروباری رجسٹریشن کے تمام مراحل کی مثال کے ساتھ وضاحت کریں۔"
+    },
+    {
+      "id": 521678,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain contracts in digital business, basic elements of validation, and their importance.",
+      "ur": "ڈیجیٹل کاروبار میں معاہدوں، توثیق کے بنیادی عناصر اور ان کی اہمیت کی وضاحت کریں۔"
+    },
+    {
+      "id": 521679,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain intellectual property rights? Explain the originations who are responsible for registering all IPR in Pakistan.",
+      "ur": "دانشورانہ املاک کے حقوق کی وضاحت کریں؟ پاکستان میں تمام آئی پی آر کے اندراج کے ذمہ دار کون ہیں ان کی ابتداء کی وضاحت کریں۔"
+    },
+    {
+      "id": 521680,
       "chapter": 8,
       "topic_id": "8.5",
       "source": "Additional",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain strategic marketing and branding. Also, explain data driven marketing.",
       "ur": "اسٹریٹجک مارکیٹنگ اور برانڈنگ کی وضاحت کریں۔ اس کے علاوہ، ڈیٹا پر مبنی مارکیٹنگ کی وضاحت کریں۔"
     },
     {
-      "id": 178,
+      "id": 521681,
       "chapter": 8,
       "topic_id": "8.5",
       "source": "Additional",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain customer relationship management. Explain how CRM tools work.",
       "ur": "کسٹمر ریلیشن شپ مینجمنٹ کی وضاحت کریں۔ وضاحت کریں کہ CRM ٹولز کیسے کام کرتے ہیں۔"
+    },
+    {
+      "id": 527260,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Examples",
+      "type": "long",
+      "en": "A computer system uses the First-Come, First-Served (FCFS) scheduling method to manage processes. The following table shows the arrival time and the CPU burst time (time needed for execution) of three processes: Process ID Arrival Time Time Needed P1 0 seconds 5 seconds P2 1 seconds 3 seconds P3 2 seconds 2 seconds Requirements: (I) Arrange the processes in the order they will be executed according to the FCFS scheduling method. (II) Show the execution sequence of all processes. (III) Calculate the start time and completion time for each process. (IV) Find the waiting time for each process. (V) Calculate the average waiting time for all processes.",
+      "ur": "ایک کمپیوٹر سسٹم پروسیسز کو منظم کرنے کے لیے فرسٹ-کم، فرسٹ-سروڈ (FCFS) شیڈولنگ طریقہ کار استعمال کرتا ہے۔ درج ذیل ٹیبل میں تین پانچ پروسیسز کی آمد کا وقت اور CPU کے کام کرنے (Burst) کا وقت (عملدرآمد کے لیے درکار وقت) دکھایا گیا ہے: پروسیس کی آئی-ڈی آمد کا وقت درکار وقت P1 0 سیکنڈ 5 سیکنڈ P2 1 سیکنڈ 3 سیکنڈ P3 2 سیکنڈ 2 سیکنڈ ضروریات:FCFS شیڈولنگ طریقہ کار کے مطابق پروسیسز کو اس ترتیب میں لکھیں جس میں وہ چلائے جائیں گے۔تمام پروسیسز کی عملدرآمد کی ترتیب دکھائیں۔ہر پروسیس کے لیے شروع ہونے کا وقت اور تکمیل کے وقت کا حساب لگائیں۔ہر پروسیس کے لیے انتظار کا وقت معلوم کریں۔تمام پروسیسز کے لیے اوسط انتظار کا وقت کا حساب لگائیں۔"
+    },
+    {
+      "id": 528500,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that displays the output \"It's a hot day\" on screen using an if statement.",
+      "ur": "if سٹیٹمنٹ استعمال کرتے ہوئے پایتھن میں ایک پروگرام لکھیں جو اسکرین پر \"یہ ایک گرم دن ہے\" دکھائے۔"
+    },
+    {
+      "id": 528501,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that displays the output \"It's not a hot day\" on screen using an if-else statement.",
+      "ur": "if-else سٹیٹمنٹ استعمال کرتے ہوئے پایتھن میں ایک پروگرام لکھیں جو اسکرین پر \"یہ ایک گرم دن نہیں ہے\" دکھائے۔"
+    },
+    {
+      "id": 528506,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that takes two inputs from the user and displays the output on screen If the weather is rainy and the temperature is below 15 degrees, print \"Wear a raincoat\".If the weather is rainy but the temperature is 15 or above, print \"Take an umbrella\".If the weather is not rainy, print \"Just enjoy the day\".",
+      "ur": "پایتھن میں ایک پروگرام لکھیں جو صارف سے دو ان پٹ لے اور اسکرین پر نتیجہ ظاہر کرے۔ اگر موسم بارش والا ہے اور درجہ حرارت 15 ڈگری سے کم ہے تو پرنٹ کریں \"بارش کا کوٹ پہنیں\"۔ اگر موسم بارش والا ہے لیکن درجہ حرارت 15 یا اس سے زیادہ ہے تو پرنٹ کریں \"چھتری لے جائیں\"۔ اگر موسم بارش والا نہیں ہے تو پرنٹ کریں \"بس دن کا مزہ لیں\"۔"
+    },
+    {
+      "id": 528522,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that displays the output of the first ten natural numbers on screen using a while loop.",
+      "ur": "پائتھن میں ایک پروگرام لکھیں جو while لوپ استعمال کرتے ہوئے پہلے دس قدرتی اعداد کا آؤٹ پٹ اسکرین پر دکھائے۔"
+    },
+    {
+      "id": 528526,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that creates a list named friends containing three names. Use a for loop to iterate through the list and print a greeting message, \"As-Salaam-Alaikum\" followed by each friend's name on the screen.",
+      "ur": "پائتھن میں ایک پروگرام لکھیں جو دوستوں کے نام سے ایک لسٹ بنائے جس میں تین نام شامل ہوں۔ لسٹ کے تمام عناصر کو باری باری چلانے کے لیے for لوپ کا استعمال کریں اور ہر دوست کے نام کے ساتھ خوش آمدیدی پیغام \"As-Salaam-Alaikum\" اسکرین پر پرنٹ کریں۔"
+    },
+    {
+      "id": 528529,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that displays the output of first 5 whole numbers on screen using range function.",
+      "ur": "پائتھن میں ایک پروگرام لکھیں جو رینج فنکشن استعمال کرتے ہوئے پہلے 5 مکمل اعداد کا نتیجہ سکرین پر دکھائے۔"
+    },
+    {
+      "id": 528532,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that displays the output of two strings on the same line using end statement.",
+      "ur": "پائتھن میں ایک پروگرام لکھیں جو end اسٹیٹمنٹ کا استعمال کرتے ہوئے دو سٹرنگز کا آؤٹ پٹ ایک ہی لائن پر دکھائے۔"
+    },
+    {
+      "id": 528538,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a program in Python that displays the output from 1 to 5 on the same line using end statement.",
+      "ur": "پائتھن میں ایک پروگرام لکھیں جو end سٹیٹمنٹ استعمال کرتے ہوئے 1 سے 5 تک کا آؤٹ پٹ ایک ہی لائن پر دکھائے۔"
+    },
+    {
+      "id": 528540,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a Python program that uses nested for loops to display a basic number pattern of two variables.",
+      "ur": "پائتھن میں ایک ایسا پروگرام لکھیں جو نیسٹڈ for لوپ کا استعمال کرتے ہوئے دو ویری ایبلز کا ایک بنیادی نمبر پیٹرن دکھائے۔"
+    },
+    {
+      "id": 528541,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write a Python program that uses nested for loops to display a right-angled triangular pattern of stars (*) consisting of 5 rows.",
+      "ur": "پائتھن میں ایک ایسا پروگرام لکھیں جو نیسٹڈ for لوپ کا استعمال کرتے ہوئے ستاروں (*) کا ایک قائمۃ الزاویہ مثلث کا پیٹرن دکھائے جو 5 قطاروں پر مشتمل ہو۔"
+    },
+    {
+      "id": 528557,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write down the syntax to import the random library and generate a random number between 1 and 10.",
+      "ur": "پائتھن میں رینڈم لائبریری امپورٹ کرنے اور 1 سے 10 کے درمیان رینڈم نمبر تیار کرنے کا سنٹیکس لکھیں۔"
+    },
+    {
+      "id": 528559,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Examples",
+      "type": "long",
+      "en": "Write down the syntax to import the statistics library and perform statistical calculations to calculate the mean of 23, 45, 67,89, 12, 44, 56.",
+      "ur": "اعدادوشمار کی لائبریری امپورٹ کرنے اور 23، 45، 67، 89، 12، 44، 56 کا اوسط نکالنے کے لیے سنٹیکس لکھیں۔"
     }
-  ]
+  ],
+  "type": "long"
 }

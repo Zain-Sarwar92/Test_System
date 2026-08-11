@@ -4,16 +4,16 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB INTER-II (Class 12) Biology (read-only export)",
-  "total_questions": 377,
+  "total_questions": 708,
   "counts": {
-    "mcq": 122,
-    "short": 156,
-    "long": 99
+    "mcq": 295,
+    "short": 298,
+    "long": 115
   },
   "fieldCounts": {
-    "MCQ": 122,
-    "QA": 156,
-    "LONG": 99
+    "MCQ": 295,
+    "QA": 298,
+    "LONG": 115
   },
   "questions": [
     {
@@ -968,6 +968,166 @@
       "priority": "Exercise",
       "en": "Describe the Monoclonal Antibodies and their advantages?",
       "ur": "Describe the Monoclonal Antibodies and their advantages?"
+    },
+    {
+      "id": 532018,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain that evolution takes place due to variations in organisms and natural selection."
+    },
+    {
+      "id": 532019,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the theory of natural selection as proposed by Darwin."
+    },
+    {
+      "id": 532020,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain how biogeography provides evidence for evolution."
+    },
+    {
+      "id": 532022,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the evidences of evolution that come from comparative anatomy."
+    },
+    {
+      "id": 532023,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between convergent and divergent evolution on the basis of inheritance of the homologous and analogous structures."
+    },
+    {
+      "id": 532024,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the evidences of evolution that come from molecular biology."
+    },
+    {
+      "id": 532025,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Outline the steps of the evolution of the giraffe, as illustrated in Lamarckism."
+    },
+    {
+      "id": 532027,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the endosymbiont theory about the evolution of eukaryotes from prokaryotes."
+    },
+    {
+      "id": 532028,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the theory of inheritance of acquired characters, as proposed by Lamarck."
+    },
+    {
+      "id": 532093,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a biogeochemical cycle? Describe water cycle in detail."
+    },
+    {
+      "id": 532096,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe nitrogen cycle in detail."
+    },
+    {
+      "id": 532097,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the flow of energy in successive trophic levels."
+    },
+    {
+      "id": 532099,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the problems related to the rapid growth of human populations and the effects of that growth on ecosystem."
+    },
+    {
+      "id": 532100,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the causes and impacts of the increasing concentration of greenhouse gases in the atmosphere."
+    },
+    {
+      "id": 532102,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Provide a comprehensive account of the Tropical Thorn Forest of Pakistan. Give its location, key flora and fauna, and its current ecological state."
+    },
+    {
+      "id": 532103,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a detailed note on the Temperate Deciduous Forest in Pakistan."
     },
     {
       "id": 530833,

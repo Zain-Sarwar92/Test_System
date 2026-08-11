@@ -1,29 +1,55 @@
 /**
- * Build seed JSON for all remaining Class 10 subjects exported from PTS.
+ * Build seed JSON for Class 10 subjects exported from PTS (remaining + forced slug).
  * Usage: node scripts/pts-build-remaining-10-seed.mjs [slug]
  */
 import fs from "node:fs";
 import path from "node:path";
 
+const BASE = "https://www.paktestsolution.com";
 const ROOT = path.join(process.cwd(), "data", "lahore-board", "10th");
+const ASSET_DIR = path.join(process.cwd(), "public", "pts-media");
 const ONLY = process.argv[2] || null;
+const mediaPaths = new Set();
+
+function collectMedia(html) {
+  if (!html) return;
+  const s = String(html);
+  for (const m of s.matchAll(/\/Equations\/([^"'>\s]+)/gi)) {
+    mediaPaths.add(`equations/${m[1]}`);
+  }
+  for (const m of s.matchAll(
+    /\/((?:Diagrams|Images|Content|UploadImages)\/[^"'>\s]+)/gi,
+  )) {
+    mediaPaths.add(m[1].replace(/\\/g, "/"));
+  }
+}
 
 function stripHtml(html) {
   if (!html) return "";
   let s = String(html);
-  // keep equation imgs as local public paths when present
+  collectMedia(s);
+  // keep equation/diagram imgs under /pts-media/
   s = s.replace(
-    /src=["'](\/Equations\/[^"']+)["']/gi,
-    (_m, p1) => `src="/pts-equations${p1.replace(/^\/Equations/, "")}"`,
+    /src=["'](\/Equations\/([^"']+))["']/gi,
+    (_m, _p1, rest) => `src="/pts-media/equations/${rest}"`,
   );
   s = s.replace(
     /src=["'](https?:\/\/[^"']*\/Equations\/([^"']+))["']/gi,
-    (_m, _full, rest) => `src="/pts-equations/${rest}"`,
+    (_m, _full, rest) => `src="/pts-media/equations/${rest}"`,
   );
+  s = s.replace(
+    /src=["'](\/(?:Diagrams|Images|Content|UploadImages)\/([^"']+))["']/gi,
+    (_m, p1) => `src="/pts-media/${p1.replace(/^\//, "")}"`,
+  );
+  s = s.replace(
+    /src=["'](https?:\/\/[^"']*\/((?:Diagrams|Images|Content|UploadImages)\/[^"']+))["']/gi,
+    (_m, _full, rest) => `src="/pts-media/${rest}"`,
+  );
+  s = s.replace(/\/pts-equations\//gi, "/pts-media/equations/");
   s = s.replace(/<\/?p[^>]*>/gi, "");
   s = s.replace(/<br\s*\/?>/gi, " ");
   // strip remaining tags except img
-  s = s.replace(/<(?!img\b)[^>]+>/gi, "");
+  s = s.replace(/<(?!\/?img\b)[^>]+>/gi, "");
   s = s.replace(/&nbsp;/g, " ");
   s = s.replace(/\r\n/g, " ").replace(/\s+/g, " ").trim();
   s = s
@@ -39,6 +65,41 @@ function stripHtml(html) {
     )
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)));
   return s.trim();
+}
+
+async function downloadMedia() {
+  fs.mkdirSync(ASSET_DIR, { recursive: true });
+  let downloaded = 0;
+  let skipped = 0;
+  let failed = 0;
+  for (const rel of mediaPaths) {
+    const dest = path.join(ASSET_DIR, rel);
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    if (fs.existsSync(dest) && fs.statSync(dest).size > 0) {
+      skipped++;
+      continue;
+    }
+    try {
+      const urlPath = rel.startsWith("equations/")
+        ? `/Equations/${rel.slice("equations/".length)}`
+        : `/${rel}`;
+      const res = await fetch(`${BASE}${urlPath}`);
+      if (!res.ok) {
+        failed++;
+        continue;
+      }
+      fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
+      downloaded++;
+    } catch {
+      failed++;
+    }
+  }
+  console.log({
+    mediaTotal: mediaPaths.size,
+    downloaded,
+    skipped,
+    failed,
+  });
 }
 
 function optionText(opt) {
@@ -274,3 +335,5 @@ fs.writeFileSync(
   JSON.stringify(summary, null, 2),
 );
 console.log("\nBuild summary:", summary.length, "subjects");
+console.log("Downloading media assets...");
+await downloadMedia();

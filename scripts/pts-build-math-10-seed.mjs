@@ -1,6 +1,6 @@
 /**
  * Build Class 10 Mathematics seed JSON from PTS raw export.
- * Downloads equation SVGs into public/pts-equations/ (read-only asset copy).
+ * Downloads equation/diagram assets into public/pts-media/equations/.
  * Does NOT call PTS SavePaper.
  */
 import fs from "node:fs";
@@ -17,7 +17,7 @@ const RAW = path.join(
   "pts-raw",
 );
 const OUT = path.join(process.cwd(), "data", "lahore-board", "10th", "mathematics");
-const ASSET_DIR = path.join(process.cwd(), "public", "pts-equations");
+const ASSET_DIR = path.join(process.cwd(), "public", "pts-media", "equations");
 
 const hierarchy = JSON.parse(
   fs.readFileSync(path.join(RAW, "hierarchy.json"), "utf8"),
@@ -28,13 +28,14 @@ function stripHtmlKeepImgs(html) {
   let s = String(html);
   // normalize img src to local public path if /Equations/
   s = s.replace(
-    /src=["'](\/Equations\/[^"']+)["']/gi,
-    (_m, p1) => `src="/pts-equations${p1.replace(/^\/Equations/, "")}"`,
+    /src=["'](\/Equations\/([^"']+))["']/gi,
+    (_m, _p1, rest) => `src="/pts-media/equations/${rest}"`,
   );
   s = s.replace(
     /src=["'](https?:\/\/[^"']*\/Equations\/([^"']+))["']/gi,
-    (_m, _full, rest) => `src="/pts-equations/${rest}"`,
+    (_m, _full, rest) => `src="/pts-media/equations/${rest}"`,
   );
+  s = s.replace(/\/pts-equations\//gi, "/pts-media/equations/");
   // remove outer <p>
   s = s.replace(/<\/?p[^>]*>/gi, "");
   s = s.replace(/&nbsp;/g, " ");

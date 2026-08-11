@@ -2,7 +2,9 @@ import "dotenv/config";
 import fs from "node:fs";
 import path from "node:path";
 import { prisma } from "../src/lib/prisma";
-import type { QuestionType } from "../src/generated/prisma/client";
+import type { Prisma, QuestionType } from "../src/generated/prisma/client";
+
+const CHUNK = 200;
 
 type SyllabusTopic = { id: string; title: string };
 type SyllabusChapter = {
@@ -157,9 +159,23 @@ export async function importLahoreChemistryQuestionBank(
     }
   }
 
+  const keyPrefix = `${keyRoot}:${classKey}:chemistry:`;
+  const existing = await prisma.question.findMany({
+    where: { externalKey: { startsWith: keyPrefix } },
+    select: { id: true, externalKey: true },
+  });
+  const existingByKey = new Map(
+    existing
+      .filter((row): row is { id: string; externalKey: string } =>
+        Boolean(row.externalKey),
+      )
+      .map((row) => [row.externalKey, row.id]),
+  );
+
   let created = 0;
   let updated = 0;
   let skipped = 0;
+  const toCreate: Prisma.QuestionCreateManyInput[] = [];
 
   for (const q of questionsFile.questions) {
     const topicId = topicIdByCode.get(q.topic_id);
@@ -192,20 +208,18 @@ export async function importLahoreChemistryQuestionBank(
       externalKey,
     };
 
-    const existing = await prisma.question.findFirst({
-      where: { externalKey },
-    });
-
-    if (existing) {
-      await prisma.question.update({
-        where: { id: existing.id },
-        data: payload,
-      });
+    const existingId = existingByKey.get(externalKey);
+    if (existingId) {
+      await prisma.question.update({ where: { id: existingId }, data: payload });
       updated += 1;
     } else {
-      await prisma.question.create({ data: payload });
+      toCreate.push(payload);
       created += 1;
     }
+  }
+
+  for (let i = 0; i < toCreate.length; i += CHUNK) {
+    await prisma.question.createMany({ data: toCreate.slice(i, i + CHUNK) });
   }
 
   return {

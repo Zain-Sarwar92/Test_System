@@ -2,1739 +2,1266 @@
   "board": "Lahore",
   "class": "10",
   "subject": "Biology",
-  "type": "long",
-  "series": "smart-syllabus",
-  "total_questions": 173,
+  "slug": "biology",
+  "source": "PTS PTB Class 10 Biology (read-only export)",
+  "total_questions": 1486,
+  "counts": {
+    "mcq": 723,
+    "short": 624,
+    "long": 139
+  },
   "questions": [
     {
-      "id": 1,
-      "chapter": 1,
-      "topic_id": "1.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define nutrition. Describe the main steps of nutrition.",
-      "ur": "نیوٹریشن کی تعریف کریں۔ نیوٹریشن کے اہم مراحل بیان کریں۔"
-    },
-    {
-      "id": 2,
-      "chapter": 1,
-      "topic_id": "1.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by digestion? Explain briefly.",
-      "ur": "ڈائی جیشن سے کیا مراد ہے؟ مختصراًوضاحت کریں۔"
-    },
-    {
-      "id": 3,
+      "id": 503286,
       "chapter": 1,
       "topic_id": "1.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the absorption of food in small intestine.",
       "ur": "چھوٹی آنت میں خوراک کا انجذاب بیان کریں۔"
     },
     {
-      "id": 4,
+      "id": 503287,
       "chapter": 1,
       "topic_id": "1.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the role of oral cavity in the digestive system.",
       "ur": "ڈائی جیسٹوسسٹم میں اورل کیویٹی کے کردار کی وضاحت کریں۔"
     },
     {
-      "id": 5,
+      "id": 503288,
       "chapter": 1,
       "topic_id": "1.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the structure and functions of stomach.",
       "ur": "معدہ کی ساخت اور افعال کی وضاحت کریں۔"
     },
     {
-      "id": 6,
+      "id": 503289,
       "chapter": 1,
       "topic_id": "1.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Justify the importance of liver and pancreas in digestion.",
       "ur": "ڈائی جیشن میں جگراور پنکر یاز کی اہمیت کا جواز پیش کریں۔"
     },
     {
-      "id": 7,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is the oral cavity? Explain the role of the oral cavity in the digestive system.",
-      "ur": "اورل کیویٹی کیا ہے؟ ڈائی جیسٹوسسٹم میں اورل کیویٹی کے کردار کی وضاحت کریں۔"
-    },
-    {
-      "id": 8,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by the alimentary canal? Describe the structure and function of the pharynx.",
-      "ur": "ایلیمنٹری کینال سے کیا مراد ہے؟فیرنکس کی ساخت اور فنکشن بیان کریں۔"
-    },
-    {
-      "id": 9,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How food moves from esophagus to stomach?",
-      "ur": "خوراک ایسوفیگس سے معدہ کی طرف کیسے جاتی ہے؟"
-    },
-    {
-      "id": 10,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the structure of the small intestine.",
-      "ur": "سمال انٹسٹائن (چھوٹی آنت) کی ساخت بیان کریں۔"
-    },
-    {
-      "id": 11,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the structure and functions of the large intestine.",
-      "ur": "لارج انٹسٹائن کی ساخت اور افعال بیان کریں۔"
-    },
-    {
-      "id": 12,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write the importance and functions of the liver in digestion.",
-      "ur": "ڈائی جیشن میں جگرکی اہمیت اورافعال لکھیں۔"
-    },
-    {
-      "id": 13,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the functions of enzymes in different parts of the alimentary canal.",
-      "ur": "ایلمینٹری کینال کے مختلف حصوں میں اینزائمنر کے افعال بیان کریں۔"
-    },
-    {
-      "id": 14,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why does someone with liver disease have difficulty in digesting fats?",
-      "ur": "کسی ایسے شخص کو جسے جگر کی بیماری ہو، اسے فیٹس کو ہضم کرنے میں دشواری کیوں پیش آتی ہے؟"
-    },
-    {
-      "id": 15,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is it important to maintain a healthy balance of gut bacteria?",
-      "ur": "ایلیمنٹری کینال ( گٹ) کے بیکٹیریا کا صحت مند توازن برقرار رکھنا کیوں اہم ہے؟"
-    },
-    {
-      "id": 16,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How can a malfunction in the cardiac sphincter lead to acid reflux.",
-      "ur": "کارڈ یک سفنکٹر میں خرابی تیزابی مواد کے معدے سے واپسی بہاؤ کا سبب کیسے بن سکتی ہے؟"
-    },
-    {
-      "id": 17,
-      "chapter": 1,
-      "topic_id": "1.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is it necessary to store bile in the gallbladder before it is released?",
-      "ur": "بائل کو خارج ہونے سے پہلے گال بلیڈر میں ذخیرہ کرنا کیوں ضروری ہے؟"
-    },
-    {
-      "id": 18,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is diarrhea? Describe the symptoms, causes, and treatment of diarrhea.",
-      "ur": "ڈائریاکیاہے؟ ڈائریاکی علامات، اسباب اور علاج بیان کریں۔"
-    },
-    {
-      "id": 19,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is constipation? Write about its symptoms, causes, and treatment.",
-      "ur": "قبض کسے کہتے ہیں؟ اس کی علامات، اسباب اور علاج کے متعلق لکھیں۔"
-    },
-    {
-      "id": 20,
-      "chapter": 1,
-      "topic_id": "1.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the types, symptoms, and causes of ulcers.",
-      "ur": "السر کی اقسام، علامات اور اسباب بیان کریں۔"
-    },
-    {
-      "id": 21,
+      "id": 503324,
       "chapter": 2,
       "topic_id": "2.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a short note on the major parts of the human air passageway.",
       "ur": "انسان میں ہوا کے راستے کے مختلف حصوں پر مختصر نوٹ لکھیں۔"
     },
     {
-      "id": 22,
+      "id": 503327,
       "chapter": 2,
       "topic_id": "2.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are the possible causes of lung cancer? Explain the harmful effects of smoking apart from lung cancer.",
       "ur": "پھیپھڑوں کے کینسر کی ممکنہ وجوہات کیا ہیں؟ تمباکو نوشی کے پھیپھڑوں کے کینسر کے علاوہ دیگر نقصان دہ اثرات کی وضاحت کریں۔"
     },
     {
-      "id": 23,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Differentiate between cellular respiration, gas exchange, and respiration.",
-      "ur": "سیلولرریسپریشن، گیسوں کے تبادلے اورتنفس میں فرق کریں۔"
-    },
-    {
-      "id": 24,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the structure of the lungs.",
-      "ur": "پھیپھڑوں کی ساخت بیان کریں۔"
-    },
-    {
-      "id": 25,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain blood circulation in the lungs.",
-      "ur": "پھیپھڑوں میں خون کی گردش کی وضاحت کریں۔"
-    },
-    {
-      "id": 26,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is it dangerous when smoke particles settle inside lungs?",
-      "ur": "دھوئیں کے ذرات کا پھیپھڑوں کے اندر جمع ہو جانا کیوں خطر ناک ہے؟"
-    },
-    {
-      "id": 27,
-      "chapter": 2,
-      "topic_id": "2.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why does the trachea has C-shaped cartilage rings while bronchioles do not have them?",
-      "ur": "ٹریکیا میں C شکل کے کار خلیج کیوں ہوتے ہیں جبکہ برونکیولز میں یہ نہیں ہوتے؟"
-    },
-    {
-      "id": 28,
+      "id": 503323,
       "chapter": 2,
       "topic_id": "2.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the process of inhalation and exhalation step by step.",
       "ur": "انہیلیشن اور ایگز ہیلیشن کے مراحل بیان کریں۔"
     },
     {
-      "id": 29,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the rate of respiration in humans under normal conditions and during strenuous work.",
-      "ur": "انسان میں نارمل حالات اور سخت کام کے دوران تنفس کی رفتار بیان کریں۔"
-    },
-    {
-      "id": 30,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Compare the air that is inhaled and exhaled during respiration.",
-      "ur": "عمل تنفس کے دوران اندرداخل ہونے والی اور باہر خارج ہونے والی ہوا کا موازنہ کریں۔"
-    },
-    {
-      "id": 31,
-      "chapter": 2,
-      "topic_id": "2.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What can happen to breathing if diaphragm stops working properly?",
-      "ur": "اگر ڈایافرام ٹھیک طرح سے کام کرنا چھوڑ دے تو سانس لینے کے عمل کو کیا ہو سکتا ہے؟"
-    },
-    {
-      "id": 32,
+      "id": 503326,
       "chapter": 2,
       "topic_id": "2.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the functions and locations of the bronchus, trachea, and alveoli.",
       "ur": "برونکس، ٹریکیا، اور ایلو ولائی کے افعال اور مقامات کو بیان کریں۔"
     },
     {
-      "id": 33,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on the Amphysema.",
-      "ur": "ایمفی سیما پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 34,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is bronchitis? Describe its types, causes, symptoms, and treatment.",
-      "ur": "برونکائٹس کیا ہے؟ اس کی اقسام، وجوہات علامات اور علاج بیان کریں۔"
-    },
-    {
-      "id": 35,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain in detail that pneumonia is a respiratory disease.",
-      "ur": "نمونیا ریسپریٹری کی بیماری ہے تفصیل سے بیان کریں۔"
-    },
-    {
-      "id": 36,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write the symptoms, causes, and treatments of asthma.",
-      "ur": "دمہ کی علامات، وجوہات اور علاج لکھیں۔"
-    },
-    {
-      "id": 37,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write in detail the effects of smoking.",
-      "ur": "سموکنگ کے اثرات تفصیل سے لکھیں۔"
-    },
-    {
-      "id": 38,
-      "chapter": 2,
-      "topic_id": "2.3",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "During asthma attacks, patients feel harder to exhale than to inhale. Why is it so?",
-      "ur": "دمہ کے دوروں کے دوران مریضوں کو سانس اندر لینے کی نسبت سانس باہر نکالنے میں زیادہ مشکل محسوس ہوتی ہے۔ ایسا کیوں ہے؟"
-    },
-    {
-      "id": 39,
+      "id": 503378,
       "chapter": 3,
       "topic_id": "3.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the functions of the components of blood.",
       "ur": "خون کے اجزاء کے افعال کو بیان کریں۔"
     },
     {
-      "id": 40,
+      "id": 503379,
       "chapter": 3,
       "topic_id": "3.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how blood transports materials throughout the human body.",
       "ur": "وضاحت کریں کہ خون انسانی جسم میں موادکی نقل وحمل ( ٹرانسپورٹ ) کیسے کرتا ہے۔"
     },
     {
-      "id": 41,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by blood? Write the composition and functions of blood.",
-      "ur": "بلڈ سے کیا مراد ہے؟ بلڈ کی کمپوزیشن اوراس کے افعال لکھیں۔"
-    },
-    {
-      "id": 42,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on blood plasma.",
-      "ur": "خون کے پلازما پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 43,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write the structure, formation, and functions of red blood cells.",
-      "ur": "ریڈ بلڈسیلز کی ساخت، فارمیشن اور فنکشنز لکھیں۔"
-    },
-    {
-      "id": 44,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by white blood cells? Explain its types.",
-      "ur": "وائٹ بلڈ سیلز سے کیا مراد ہے؟ اس کی اقسام کی وضاحت کریں۔"
-    },
-    {
-      "id": 45,
-      "chapter": 3,
-      "topic_id": "3.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by platelets? Describe their functions.",
-      "ur": "پلیٹ لیٹس سے کیا مراد ہے؟ اس کے افعال بیان کریں۔"
-    },
-    {
-      "id": 46,
+      "id": 503380,
       "chapter": 3,
       "topic_id": "3.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the structure of the heart with a diagram.",
       "ur": "دل کی ساخت کو ایک ڈایا گرام کے ساتھ بیان کریں۔"
     },
     {
-      "id": 47,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the circulation of blood in the heart and its importance.",
-      "ur": "دل میں خون کی گردش اور اس کی اہمیت بیان کریں۔"
-    },
-    {
-      "id": 48,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write notes on the heartbeat.",
-      "ur": "دل کی دھڑکن (ہارٹ بیٹ) پرنوٹ لکھیں۔"
-    },
-    {
-      "id": 49,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is oxygenated blood separated from deoxygenated blood in heart?",
-      "ur": "دل میں آکسچنیٹڈخون کوڈی آکسچنیٹڈخون سے کیوں الگ رکھا جاتا ہے؟"
-    },
-    {
-      "id": 50,
+      "id": 503382,
       "chapter": 3,
       "topic_id": "3.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Compare the structure and function of an artery, a vein and a capillary.",
       "ur": "آرٹری، دین اور کپلری کی ساخت اور افعال کا موازنہ کریں۔"
     },
     {
-      "id": 51,
-      "chapter": 3,
-      "topic_id": "3.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Differentiate between the arterial and venous systems.",
-      "ur": "آرٹیریل اور وینس سسٹم میں فرق کریں۔"
-    },
-    {
-      "id": 52,
+      "id": 503381,
       "chapter": 3,
       "topic_id": "3.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the harmful effects of smoking related to heart diseases.",
       "ur": "سموکنگ کے دل کی بیماریوں سے متعلق نقصان دہ اثرات کی وضاحت کریں۔"
     },
     {
-      "id": 53,
-      "chapter": 3,
-      "topic_id": "3.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on angina pectoris.",
-      "ur": "انجائنا پیکٹوریس پر ایک نوٹ لکھیں۔"
-    },
-    {
-      "id": 54,
-      "chapter": 3,
-      "topic_id": "3.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the harmful effects of smoking on heart disease.",
-      "ur": "دل کی بیماریوں سے متعلق تمباکونوشی کے نقصان دہ اثرات بیان کریں۔"
-    },
-    {
-      "id": 55,
-      "chapter": 3,
-      "topic_id": "3.5",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How does regular exercise strengthen the circulatory system?",
-      "ur": "باقاعدہ ورزش بلڈ سرکولیٹری سسٹم کو کس طرح مضبوط کرتی ہے؟"
-    },
-    {
-      "id": 56,
-      "chapter": 3,
-      "topic_id": "3.5",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How can lifestyle choices prevent cardiovascular diseases?",
-      "ur": "طرز زندگی کے انتخاب کارڈیو ویسکولر بیماریوں سے کسی طرح بچاؤ کر سکتے ہیں؟"
-    },
-    {
-      "id": 57,
-      "chapter": 3,
-      "topic_id": "3.5",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "If cholesterol levels in the blood are never regulated, how can it impact the heart and blood vessels over time?",
-      "ur": "اگر خون میں کولیسٹرول کی سطح کبھی قابو میں نہ لائی جائے تو یہ وقت گزرنے کے ساتھ دل اور بلڈ ویسلز پر کیسے اثر ڈال سکتی ہے؟"
-    },
-    {
-      "id": 58,
+      "id": 503400,
       "chapter": 4,
       "topic_id": "4.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a note on the structure of kidney.",
       "ur": "گردے کی ساخت پر نوٹ لکھیں۔"
     },
     {
-      "id": 59,
+      "id": 503401,
       "chapter": 4,
       "topic_id": "4.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the structure of a nephron and draw a labelled diagram.",
       "ur": "نیفرون کی ساخت بیان کریں اور ڈایا گرام بنا کر لیبل کریں۔"
     },
     {
-      "id": 60,
+      "id": 503402,
       "chapter": 4,
       "topic_id": "4.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the process of pressure filtration and re-absorption in kidneys.",
       "ur": "گردوں میں پریشر فلٹریشن اور ری۔ایزاریشن کےعمل کو بیان کریں۔"
     },
     {
-      "id": 61,
+      "id": 503405,
       "chapter": 4,
       "topic_id": "4.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write down the symptoms and causes of kidney failure.",
       "ur": "گردے نا کام ہو جانے کی علامات اور وجوہات لکھیں۔"
     },
     {
-      "id": 62,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write the components of the Eurazi system and its functions.",
-      "ur": "یوریزی سسٹم کے کمپونینٹس اور اس کے فنکشنز لکھیں۔"
-    },
-    {
-      "id": 63,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the appearance, shape, and structure of the kidney.",
-      "ur": "گردے کی ظاہری شکل وصورت اور ساخت بیان کریں۔"
-    },
-    {
-      "id": 64,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How does the nephron ensure that essential nutrients are not lost in urine?",
-      "ur": "نیفرون کسی طرح یقینی بناتا ہے کہ ضروری نیوٹرینٹس پیشاب میں ضائع نہ ہوں؟"
-    },
-    {
-      "id": 65,
-      "chapter": 4,
-      "topic_id": "4.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is long loop of Henle important in the balance of water and salts in body?",
-      "ur": "جسم میں پانی اور نمکیات کا توازن برقرار رکھنے میں لوپ آف پینلے کا لمبا ہونا کیوں اہم ہے؟"
-    },
-    {
-      "id": 66,
+      "id": 503403,
       "chapter": 4,
       "topic_id": "4.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is tubular secretion? How it helps in removing wastes from blood?",
       "ur": "ٹیوبیولر سیکریشن سے کیا مراد ہے؟ یہ عمل خون سے بیکار مادوں کے اخراج میں کیسے مدد کرتا ہے؟"
     },
     {
-      "id": 67,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the process of pressure filtration and reabsorption in the kidneys.",
-      "ur": "گردوں میں پریشرفلٹریشن اورری ایبزارپشن کے عمل کو بیان کریں۔"
-    },
-    {
-      "id": 68,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the role of the kidney in osmoregulation.",
-      "ur": "اوسموریگولیشن میں گردے کا کردار بیان کریں۔"
-    },
-    {
-      "id": 69,
-      "chapter": 4,
-      "topic_id": "4.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "\"Along with excretion, kidneys also play role in osmoregulation.\" Comment on this statement.",
-      "ur": "ایکسکریشن کے ساتھ ساتھ، گردے او سمور ریگولیشن میں بھی کردار ادا کرتے ہیں۔ اس بیان پر تبصرہ کریں۔"
-    },
-    {
-      "id": 70,
+      "id": 503404,
       "chapter": 4,
       "topic_id": "4.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a comprehensive note on kidney stones describing the causes, symptoms and treatments.",
       "ur": "گردوں میں پتھری کی وجوہات، علامات اور علاج بتاتے ہوئے اس پر نوٹ لکھیں۔"
     },
     {
-      "id": 71,
+      "id": 503406,
       "chapter": 4,
       "topic_id": "4.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Define dialysis and describe the processes of peritoneal dialysis and haemodialysis.",
       "ur": "ڈایالسز کی تعریف لکھیں اور پیری ٹوٹیل اور ہیموڈا یا لسز کے اعمال بیان کریں۔"
     },
     {
-      "id": 72,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define dialysis. Explain the methods of dialysis.",
-      "ur": "ڈایالسز کی تعریف کریں ڈایالسز کے طریقوں کی وضاحت کریں۔"
-    },
-    {
-      "id": 73,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on kidney transplant.",
-      "ur": "کڈنی ٹرانسپلانٹ پر ایک نوٹ لکھیں۔"
-    },
-    {
-      "id": 74,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How can chronic diseases like diabetes lead to kidney failure?",
-      "ur": "ڈایا بٹیر جیسی دائمی بیماریاں گردے ناکام ہونے کا سبب کیسے بن سکتی ہیں؟"
-    },
-    {
-      "id": 75,
+      "id": 503431,
       "chapter": 5,
       "topic_id": "5.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the structure of a neuron and support your answer with a labelled diagram.",
       "ur": "نیوران کی ساخت بیان کریں اور ایک لیبل شدہ ڈایا گرام سے اپنے جواب کو مکمل کریں۔"
     },
     {
-      "id": 76,
+      "id": 503432,
       "chapter": 5,
       "topic_id": "5.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are the differences and similarities among the three types of neurons?",
       "ur": "نیوران کی تین اقسام میں کیا فرق اور مشابہتیں ہیں؟"
     },
     {
-      "id": 77,
-      "chapter": 5,
-      "topic_id": "5.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain neurotransmitters and neurotransmitters.",
-      "ur": "سائی نیپس اور نیوروٹرانسمیٹرز کی وضاحت کریں۔"
-    },
-    {
-      "id": 78,
-      "chapter": 5,
-      "topic_id": "5.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define nerve. Describe the types of nerve.",
-      "ur": "نرو کی تعریف کریں۔ نرو کی اقسام بیان کریں۔"
-    },
-    {
-      "id": 79,
+      "id": 503433,
       "chapter": 5,
       "topic_id": "5.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write the major functions of the forebrain, midbrain, and hindbrain.",
       "ur": "فوربرین، مڈ برین اور ہائینڈ برین کے اہم کام لکھیں۔"
     },
     {
-      "id": 80,
+      "id": 503434,
       "chapter": 5,
       "topic_id": "5.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is meant by reflex action? Describe an example of reflex action and identify the reflex arc in this example.",
       "ur": "ریفلیکس ایکشن سے کیا مراد ہے؟ ریفلیکس ایکشن کی ایک مثال بیان کریں اور اس مثال میں ریفلیکس آرک کی نشاندہی کریں۔"
     },
     {
-      "id": 81,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the division of the nervous system.",
-      "ur": "نروس سسٹم کی ڈویژن کی وضاحت کریں۔"
-    },
-    {
-      "id": 82,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe in detail the structure and functions of the brain and its parts.",
-      "ur": "دماغ اور اس کے حصوں کی ساخت اور افعال تفصیل سے بیان کریں۔"
-    },
-    {
-      "id": 83,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Illustrate the structure of a spoiler card with a label diagram.",
-      "ur": "سپائیل کارڈ کی ساخت لیبل ڈایاگرام کے ساتھ واضح کریں۔"
-    },
-    {
-      "id": 84,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on the peripheral nervous system.",
-      "ur": "پیریفرل نروس سسٹم پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 85,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Make a sheet of divisions of the nervous system.",
-      "ur": "نروس سسٹم کی ڈویژنز کی شیٹ بنائیں۔"
-    },
-    {
-      "id": 86,
-      "chapter": 5,
-      "topic_id": "5.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is the spinal cord important in reflex actions?",
-      "ur": "ریفلیکس ایکشن کے لیے سپائنل کارڈاہم کیوں ہے؟"
-    },
-    {
-      "id": 87,
+      "id": 503435,
       "chapter": 5,
       "topic_id": "5.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "State the hormones of the pituitary gland and write their functions.",
       "ur": "پچوٹری گلینڈ کے ہارمونز بتائیں اور ان کے افعال لکھیں۔"
     },
     {
-      "id": 88,
+      "id": 503436,
       "chapter": 5,
       "topic_id": "5.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write notes on adrenal glands, pancreas, ovaries and testes.",
       "ur": "ایڈرینل گلینڈز، پینکریاز ، اووریز اور ٹیسٹیز پر نوٹ لکھیں۔"
     },
     {
-      "id": 89,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by the endocrine system? Explain.",
-      "ur": "اینڈوکرائن سسٹم سے کیا مراد ہے؟ وضاحت کریں"
-    },
-    {
-      "id": 90,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write the functions of the hormones of the posterior lobe of the pituitary gland.",
-      "ur": "پچوٹری گلینڈ کےپوسٹیریئرلوب کےہارمون کے افعال لکھیں۔"
-    },
-    {
-      "id": 91,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is the adrenal gland called? Describe its functions.",
-      "ur": "اینڈرینل گلینڈ کسے کہتے ہیں؟ اس کے فنکشنزلکھیں۔"
-    },
-    {
-      "id": 92,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the functions of pancreatic hormones.",
-      "ur": "پینکریاز کے ہارمون کے افعال بیان کریں۔"
-    },
-    {
-      "id": 93,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note about the gonads.",
-      "ur": "گونیڈزپرنوٹ لکھیں۔"
-    },
-    {
-      "id": 94,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write the hormones and functions of the major endocrine glands.",
-      "ur": "اہم اینڈوکرائن گلینڈزان کے ہارمون اورافعال لکھیں۔"
-    },
-    {
-      "id": 95,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is adrenaline called an \"emergency hormone\"?",
-      "ur": "ایڈرینالین کو \"ایمرجنسی ہارمون\" کیوں کہتے ہیں؟"
-    },
-    {
-      "id": 96,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "If pancreas releases too much insulin, what happens to blood sugar?",
-      "ur": "اگر پینکر یاز سے زیادہ انسولین نکلے تو خون میں گلوکوز (شوگر) کے ساتھ کیا ہوگا؟"
-    },
-    {
-      "id": 97,
-      "chapter": 5,
-      "topic_id": "5.3",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "If the medulla of a patient is injured, which function is most at risk?",
-      "ur": "اگر کسی مریض کا میڈولا زخمی ہو تو کون سافعل خطرے میں ہو سکتا ہے؟"
-    },
-    {
-      "id": 98,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define sexual reproduction. Write about gonads.",
-      "ur": "سیکسوئل ریپروڈکشن کی تعریف کریں۔ گونیڈز کے متعلق لکھیں۔"
-    },
-    {
-      "id": 99,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by gametogenesis? How are gametes formed?",
-      "ur": "گییمٹوجینیسس سے کیا مراد ہے؟ گیمیٹس کیسے بنتے ہیں؟"
-    },
-    {
-      "id": 100,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define fertilization. Describe the main stages of fertilization.",
-      "ur": "فرٹیلائزیشن کی تعریف کریں۔ فرٹیلائزیشن کے اہم مراحل بیان کریں۔"
-    },
-    {
-      "id": 101,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why only one egg is usually produced from one primary oocyte?",
-      "ur": "ایک پرائمری ادو سائٹ سے صرف ایک ایک سیل ہی کیوں بنتا ہے؟"
-    },
-    {
-      "id": 102,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How does the structure of a sperm cell relate to its function?",
-      "ur": "سپرم کی ساخت کا اس کے فعل سے کیا تعلق ہے؟"
-    },
-    {
-      "id": 103,
-      "chapter": 6,
-      "topic_id": "6.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What steps can individuals take to prevent HIV transmission?",
-      "ur": "HIV کی منتقلی سے بچنے کے لیے ایک شخص کیا اقدامات لے سکتا ہے؟"
-    },
-    {
-      "id": 104,
+      "id": 503550,
       "chapter": 6,
       "topic_id": "6.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the role of hormones in male sexual development.",
       "ur": "مردانہ سیکسوئل ڈویلپمنٹ (male sexual development) میں ہارمونز کا کردار بیان کریں۔"
     },
     {
-      "id": 105,
+      "id": 503551,
       "chapter": 6,
       "topic_id": "6.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the role of hormones in female sexual development.",
       "ur": "زنانہ سیکسوئل ڈویلپمنٹ (female sexual development) میں ہارمونز کا کردار بیان کریں۔"
     },
     {
-      "id": 106,
+      "id": 503552,
       "chapter": 6,
       "topic_id": "6.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the process of spermatogenesis.",
       "ur": "سپرمیٹو جینیسس (spermatogenesis) کے عمل کو بیان کریں۔"
     },
     {
-      "id": 107,
+      "id": 503553,
       "chapter": 6,
       "topic_id": "6.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the functions of the major parts of male reproductive system.",
       "ur": "نرری پروڈکٹو سسٹم (male reproductive system) کے بڑے حصوں کے افعال بیان کریں۔"
     },
     {
-      "id": 108,
+      "id": 503554,
       "chapter": 6,
       "topic_id": "6.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the functions the parts of female reproductive system.",
       "ur": "مادہ ری پروڈکٹو سسٹم (female reproductive system) کے حصوں کے افعال بیان کریں۔"
     },
     {
-      "id": 109,
+      "id": 503555,
       "chapter": 6,
       "topic_id": "6.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain AIDS as an example of sexually transmitted diseases.",
       "ur": "ایڈز (AIDS) کی وضاحت سیکسوئلی ٹرانسمیٹڈ ڈزیزز (Sexually transmitted diseases) کی ایک مثال کے طور پر کریں۔"
     },
     {
-      "id": 110,
-      "chapter": 6,
-      "topic_id": "6.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by sexually transmitted diseases? Explain.",
-      "ur": "سیکسوئلی ٹرانسمیٹڈڈزیزز سے کیا مرادہے؟ وضاحت کریں۔"
-    },
-    {
-      "id": 111,
+      "id": 503614,
       "chapter": 7,
       "topic_id": "7.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a note on the structure and composition of chromosome.",
       "ur": "کروموسوم کی ساخت اور کیمیائی ترکیب پر نوٹ لکھیں۔"
     },
     {
-      "id": 112,
-      "chapter": 7,
-      "topic_id": "7.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is inheritance? How are instructions for setting properties stored in a cell?",
-      "ur": "وراثت کیا ہے؟ سیل میں خصوصیات متعین کرنے کی ہدایات کیسے سٹور ہوتی ہے؟"
-    },
-    {
-      "id": 113,
+      "id": 503618,
       "chapter": 7,
       "topic_id": "7.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe how DNA and RNA take part in the synthesis of a protein.",
       "ur": "بیان کریں کہ DNA اور RNA کس طرح پروٹین کی تیاری میں حصہ لیتے ہیں۔"
     },
     {
-      "id": 114,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Compare DNA and RNA.",
-      "ur": "دی این اے اور آر این اے میں موازنہ کریں۔"
-    },
-    {
-      "id": 115,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the relationship between gene and allele.",
-      "ur": "جین اور الیل میں تعلق بیان کریں۔"
-    },
-    {
-      "id": 116,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the relationship between gene and allele.",
-      "ur": "جین اور الیل میں تعلق بیان کریں۔"
-    },
-    {
-      "id": 117,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is genotype? Describe its types.",
-      "ur": "جینوٹائپ کیا ہے؟ اس کی اقسام بیان کریں۔"
-    },
-    {
-      "id": 118,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define phenotype. Distinguish between dominant and recessive.",
-      "ur": "فینوٹائپ کی تعریف کریں۔ ڈومینٹ اور ریسیوایس میں فرق کریں۔"
-    },
-    {
-      "id": 119,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How do genes control the traits and characteristics of an organism?",
-      "ur": "جین کسی طرح جاندار کے خواص اور خصوصیات کو کنٹرول کرتے ہیں؟"
-    },
-    {
-      "id": 120,
-      "chapter": 7,
-      "topic_id": "7.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why can different alleles of the same gene lead to different physical traits?",
-      "ur": "ایک ہی جین کے مختلف الیل کیوں مختلف جسمانی خواص بنا سکتے ہیں؟"
-    },
-    {
-      "id": 121,
+      "id": 503615,
       "chapter": 7,
       "topic_id": "7.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Why did Mendel choose pea plants for his genetic experiments?",
       "ur": "مینڈل نے اپنے وراثت کے تجربات کے لیے مٹر کے پودے کا انتخاب کیوں کیا؟"
     },
     {
-      "id": 122,
+      "id": 503616,
       "chapter": 7,
       "topic_id": "7.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe Mendel's experiment on two-character inheritance and state the law he proposed.",
       "ur": "مینڈل کا وہ تجربہ بیان کریں جس میں اس نے دو خصوصیات کی وراثت کا مطالعہ کیا تھا۔ وہ قانون بھی بیان کریں جو اس نے تجویز کیا۔"
     },
     {
-      "id": 123,
+      "id": 503617,
       "chapter": 7,
       "topic_id": "7.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe Mendel's Law of Segregation? Give an example.",
       "ur": "مینڈل کا سیگریگیشن کا قانون بیان کریں ۔ ایک مثال بھی دیں۔"
     },
     {
-      "id": 124,
-      "chapter": 7,
-      "topic_id": "7.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why Mendal choose pea plants for his genetic experiment?",
-      "ur": "مینڈل نے اپنے وراثت کے تجربات کے لیے مٹر کے پودے کا انتخاب کیوں کیا؟"
-    },
-    {
-      "id": 125,
-      "chapter": 7,
-      "topic_id": "7.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is monohybrid cross? Experimentally verify monohybrid cross.",
-      "ur": "مونوہائبریڈکراس کیا ہے؟ مونوہائبریڈکراس کی تجرباتی تصدیق کریں۔"
-    },
-    {
-      "id": 126,
+      "id": 503657,
       "chapter": 8,
       "topic_id": "8.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the role of yeast in the production of bread and ethanol.",
       "ur": "بریڈ اور ایتھانوں کی تیاری میں ییسٹ کے کردار کی وضاحت کریں۔"
     },
     {
-      "id": 127,
-      "chapter": 8,
-      "topic_id": "8.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define biotechnology and write a short introduction.",
-      "ur": "بائیوٹیکنالوجی کی تعریف کریں مختصر تعارف لکھیں۔"
-    },
-    {
-      "id": 128,
-      "chapter": 8,
-      "topic_id": "8.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the role of bacteria in biotechnology and genetic modification.",
-      "ur": "بائیوٹیکنالوجی اور جینیاتی تبدیلی میں بیکٹیریا کا کردار بیان کریں۔"
-    },
-    {
-      "id": 129,
+      "id": 503658,
       "chapter": 8,
       "topic_id": "8.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Enlist the steps for transferring a human gene into a bacterial cell.",
       "ur": "ایک انسانی جین کو بیکٹیریا کے ایک سیل میں منتقل کرنے کے مراحل کی فہرست بنائیں۔"
     },
     {
-      "id": 130,
+      "id": 503659,
       "chapter": 8,
       "topic_id": "8.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the advantages of gene editing.",
       "ur": "جین ایڈیٹنگ کے فوائد بیان کریں۔"
     },
     {
-      "id": 131,
+      "id": 503660,
       "chapter": 8,
       "topic_id": "8.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Discuss the potential risks of genetic modification.",
       "ur": "جینیاتی موڈیفیکیشن کے ممکنہ خطرات پر بحث کریں۔"
     },
     {
-      "id": 132,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain genetic engineering and gene editing.",
-      "ur": "جینیٹک انجینئرنگ اور جین میں ترمیم کرنے کی وضاحت کریں۔"
-    },
-    {
-      "id": 133,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the benefits of gene editing.",
-      "ur": "جین ایڈیٹنگ کے فوائد بیان کریں۔"
-    },
-    {
-      "id": 134,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How is gene transfer used to create useful products? Give examples.",
-      "ur": "جین کی منتقلی کیسے مفید پروڈکٹس بنانے میں استعمال ہوتی ہے؟ مثالیں دیں۔"
-    },
-    {
-      "id": 135,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How can biotechnology help in developing vaccines quickly, like for COVID-19?",
-      "ur": "بائیوٹیکنالوجی کس طرح تیزی سے ویکسینز تیار کرنے میں مدد کر سکتی ہے ، جیسا کہ کوڈ-19 (19-COVID) کے لیے کیا گیا ؟"
-    },
-    {
-      "id": 136,
-      "chapter": 8,
-      "topic_id": "8.2",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is it important to carefully study the effects of genetically modified foods on health?",
-      "ur": "جینیاتی طور پر تبدیل شدہ غذاؤں کے صحت پر پڑنے والے اثرات کا احتیاط سے مطالعہ کرنا کیوں ضروری ہے؟"
-    },
-    {
-      "id": 137,
+      "id": 503655,
       "chapter": 8,
       "topic_id": "8.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain with examples that food biotechnology has advanced agriculture.",
       "ur": "مثالوں کے ساتھ وضاحت کریں کہ فوڈ بائیوٹیکنالوجی نے زراعت کو ترقی دی ہے۔"
     },
     {
-      "id": 138,
+      "id": 503656,
       "chapter": 8,
       "topic_id": "8.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain with examples that medical biotechnology has advanced healthcare in diabetes and cancer.",
       "ur": "مثالوں کے ساتھ وضاحت کریں کہ میڈیکل بائیوٹیکنا لوجی نے ذیا بیطس (diabetic) اور کینسر کے معاملہ میں حفظانِ صحت کو ترقی کی ہے۔"
     },
     {
-      "id": 139,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the uses of biotechnology in the medical field.",
-      "ur": "میڈیکل کے شعبےمیں بائیوٹیکنالوجی کے استعمال بیان کریں۔"
-    },
-    {
-      "id": 140,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on environmental biotechnology.",
-      "ur": "ماحولیاتی بائیوٹیکنالوجی پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 141,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on marine biotechnology.",
-      "ur": "سمندری بائیوٹیکنالوجی پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 142,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write some important applications of industrial biotechnology.",
-      "ur": "صنعتی بائیوٹیکنالوجی کے چند اہم استعمالات لکھیں۔"
-    },
-    {
-      "id": 143,
-      "chapter": 8,
-      "topic_id": "8.3",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How can inserting a gene into a plant make it pest-resistant?",
-      "ur": "کسی پودے میں جین داخل کرنے سے اسے کیڑوں کے خلاف مزاحم (pest-resistant) کیسے بنایا جا سکتا ہے؟"
-    },
-    {
-      "id": 144,
+      "id": 503738,
       "chapter": 9,
       "topic_id": "9.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe infectious and non-infectious diseases and their types with examples.",
       "ur": "متعدی اور غیر متعدی بیماریاں اور ان کی اقسام کو مثالوں کے ساتھ بیان کریں۔"
     },
     {
-      "id": 145,
+      "id": 503739,
       "chapter": 9,
       "topic_id": "9.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe vector borne diseases with examples.",
       "ur": "ویکٹر سے ہونے والی بیماریوں کو مثالوں کے ساتھ بیان کریں۔"
     },
     {
-      "id": 146,
-      "chapter": 9,
-      "topic_id": "9.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define disease. Explain infectious diseases.",
-      "ur": "بیماری کی تعریف کریں متعدی بیماریوں کی وضاحت کریں۔"
-    },
-    {
-      "id": 147,
-      "chapter": 9,
-      "topic_id": "9.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on zoonotic diseases.",
-      "ur": "زونوٹک بیماریوں پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 148,
-      "chapter": 9,
-      "topic_id": "9.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by allergies? Write the names of the different types of allergies.",
-      "ur": "الرجیز سے کیا مراد ہے؟ الرجیز کی مختلف اقسام کے نام لکھیں۔"
-    },
-    {
-      "id": 149,
-      "chapter": 9,
-      "topic_id": "9.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write notes on the following types of allergies.",
-      "ur": "الرجیز کی درج ذیل اقسام پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 150,
-      "chapter": 9,
-      "topic_id": "9.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why do infectious diseases spread faster in crowded places?",
-      "ur": "متعدی بیماریاں ہجوم والے مقامات میں تیزی سے کیوں پھیلتی ہیں؟"
-    },
-    {
-      "id": 151,
-      "chapter": 9,
-      "topic_id": "9.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How can genetics increase a person's risk of developing non-infectious diseases?",
-      "ur": "وراثت کسی شخص کےغیرمتعدی بیماریوں میں مبتلا ہونے کےخطرہ کو کس طرح بڑھا سکتی ہے؟"
-    },
-    {
-      "id": 152,
-      "chapter": 9,
-      "topic_id": "9.1",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why do some people develop allergies while others do not?",
-      "ur": "کچھ لوگوں میں الرجیز کیوں پیدا ہوتی ہیں جبکہ دوسروں میں نہیں ہوتی ہیں؟"
-    },
-    {
-      "id": 153,
-      "chapter": 9,
-      "topic_id": "9.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define pathogens. Name how pathogens are transmitted to humans.",
-      "ur": "پیتھوجنز کی تعریف کریں پیتھوجنز انسانوں میں کیسے منتقل ہوتے ہیں نام لکھیں۔"
-    },
-    {
-      "id": 154,
-      "chapter": 9,
-      "topic_id": "9.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the types of pathogens, their transmission, and the diseases they spread.",
-      "ur": "پیتھوجنز کی اقسام ان کی منتقلی اور ان سے پھیلنے والی بیماریاں بیان کریں۔"
-    },
-    {
-      "id": 155,
+      "id": 503740,
       "chapter": 9,
       "topic_id": "9.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the roles of T-cells and B-cells in immunity.",
       "ur": "امیونٹی میں ٹی -سیلز اور بی -سیلز کا کردار بیان کریں۔"
     },
     {
-      "id": 156,
+      "id": 503741,
       "chapter": 9,
       "topic_id": "9.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a note on blood clotting.",
       "ur": "بلڈ کلاٹنگ پرایک نوٹ لکھیں۔"
     },
     {
-      "id": 157,
-      "chapter": 9,
-      "topic_id": "9.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is meant by immunity? Describe its types.",
-      "ur": "قوت مدافعت سے کیا مراد ہے؟ اس کی اقسام بیان کریں۔"
-    },
-    {
-      "id": 158,
-      "chapter": 9,
-      "topic_id": "9.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on the second line of defense.",
-      "ur": "سیکنڈلائن آف ڈیفنس پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 159,
+      "id": 503750,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a note on the observations Darwin made during his voyage.",
       "ur": "ڈارون نے اپنے سفر کے دوران جو مشاہدات کیے، ان پرایک نوٹ لکھیں۔"
     },
     {
-      "id": 160,
+      "id": 503754,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are vestigial structures? Explain how they provide evidence of evolution.",
       "ur": "ویسٹی جیئل ساختیں (vestigial structures) کیا ہیں؟ وضاحت کریں کہ وہ کسی طرح ارتقا کا ثبوت فراہم کرتی ہیں۔"
     },
     {
-      "id": 161,
+      "id": 503749,
       "chapter": 10,
       "topic_id": "10.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the theory of evolution by natural selection.",
       "ur": "نیچرل سیلیکشن (natural selection) کے ذریعے ارتقا کے نظریہ کی وضاحت کریں۔"
     },
     {
-      "id": 162,
-      "chapter": 10,
-      "topic_id": "10.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the process of natural selection using the example of the evolution of peppered moths.",
-      "ur": "پیپرڈ موتھ(پتنگوں) کے ارتقا کی مثال بیان کرتے ہوئے نیچرل سیلیکشن کے عمل کی وضاحت کریں۔"
-    },
-    {
-      "id": 163,
-      "chapter": 10,
-      "topic_id": "10.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain species and speciation.",
-      "ur": "سپی شیزاور سپیسی ایشن کی وضاحت کریں۔"
-    },
-    {
-      "id": 164,
-      "chapter": 10,
-      "topic_id": "10.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the types of speciation processes.",
-      "ur": "سپیسی ایشن کے عمل کی اقسام بیان کریں۔"
-    },
-    {
-      "id": 165,
-      "chapter": 10,
-      "topic_id": "10.3",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why can isolation lead to the formation of new species?",
-      "ur": "علیحدگی (isolation) نئی سپی شیز کے بنے کا سبب کیوں بن سکتی ہے؟"
-    },
-    {
-      "id": 166,
+      "id": 503751,
       "chapter": 10,
       "topic_id": "10.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the sources of variation.",
       "ur": "تغیرات (variation) کے ذرائع بیان کریں۔"
     },
     {
-      "id": 167,
+      "id": 503752,
       "chapter": 10,
       "topic_id": "10.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Justify how fossil record provides an evidence of evolution.",
       "ur": "جواز پیش کریں کہ فوسل ریکارڈ کس طرح ارتقا کا ثبوت فراہم کرتا ہے۔"
     },
     {
-      "id": 168,
+      "id": 503753,
       "chapter": 10,
       "topic_id": "10.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a note on homologous structures as an evidence of evolution.",
       "ur": "ہومولوگس ساختوں (homologous structures) پر ارتقا کےثبوت کےطور پرایک نوٹ لکھیں۔"
     },
     {
-      "id": 169,
+      "id": 503893,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define nutrition. Describe the main steps of nutrition.",
+      "ur": "نیوٹریشن کی تعریف کریں۔ نیوٹریشن کے اہم مراحل بیان کریں۔"
+    },
+    {
+      "id": 503895,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by digestion? Explain briefly.",
+      "ur": "ڈائی جیشن سے کیا مراد ہے؟ مختصراًوضاحت کریں۔"
+    },
+    {
+      "id": 503899,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is the oral cavity? Explain the role of the oral cavity in the digestive system.",
+      "ur": "اورل کیویٹی کیا ہے؟ ڈائی جیسٹوسسٹم میں اورل کیویٹی کے کردار کی وضاحت کریں۔"
+    },
+    {
+      "id": 503901,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by the alimentary canal? Describe the structure and function of the pharynx.",
+      "ur": "ایلیمنٹری کینال سے کیا مراد ہے؟فیرنکس کی ساخت اور فنکشن بیان کریں۔"
+    },
+    {
+      "id": 503904,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "How food moves from esophagus to stomach?",
+      "ur": "خوراک ایسوفیگس سے معدہ کی طرف کیسے جاتی ہے؟"
+    },
+    {
+      "id": 503911,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the structure of the small intestine.",
+      "ur": "سمال انٹسٹائن (چھوٹی آنت) کی ساخت بیان کریں۔"
+    },
+    {
+      "id": 503918,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the structure and functions of the large intestine.",
+      "ur": "لارج انٹسٹائن کی ساخت اور افعال بیان کریں۔"
+    },
+    {
+      "id": 503922,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write the importance and functions of the liver in digestion.",
+      "ur": "ڈائی جیشن میں جگرکی اہمیت اورافعال لکھیں۔"
+    },
+    {
+      "id": 503923,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the functions of enzymes in different parts of the alimentary canal.",
+      "ur": "ایلمینٹری کینال کے مختلف حصوں میں اینزائمنر کے افعال بیان کریں۔"
+    },
+    {
+      "id": 503924,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is diarrhea? Describe the symptoms, causes, and treatment of diarrhea.",
+      "ur": "ڈائریاکیاہے؟ ڈائریاکی علامات، اسباب اور علاج بیان کریں۔"
+    },
+    {
+      "id": 503925,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is constipation? Write about its symptoms, causes, and treatment.",
+      "ur": "قبض کسے کہتے ہیں؟ اس کی علامات، اسباب اور علاج کے متعلق لکھیں۔"
+    },
+    {
+      "id": 503951,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the types, symptoms, and causes of ulcers.",
+      "ur": "السر کی اقسام، علامات اور اسباب بیان کریں۔"
+    },
+    {
+      "id": 504369,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Differentiate between cellular respiration, gas exchange, and respiration.",
+      "ur": "سیلولرریسپریشن، گیسوں کے تبادلے اورتنفس میں فرق کریں۔"
+    },
+    {
+      "id": 504370,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the structure of the lungs.",
+      "ur": "پھیپھڑوں کی ساخت بیان کریں۔"
+    },
+    {
+      "id": 504371,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain blood circulation in the lungs.",
+      "ur": "پھیپھڑوں میں خون کی گردش کی وضاحت کریں۔"
+    },
+    {
+      "id": 504373,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the rate of respiration in humans under normal conditions and during strenuous work.",
+      "ur": "انسان میں نارمل حالات اور سخت کام کے دوران تنفس کی رفتار بیان کریں۔"
+    },
+    {
+      "id": 504374,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Compare the air that is inhaled and exhaled during respiration.",
+      "ur": "عمل تنفس کے دوران اندرداخل ہونے والی اور باہر خارج ہونے والی ہوا کا موازنہ کریں۔"
+    },
+    {
+      "id": 504376,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on the Amphysema.",
+      "ur": "ایمفی سیما پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 504384,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is bronchitis? Describe its types, causes, symptoms, and treatment.",
+      "ur": "برونکائٹس کیا ہے؟ اس کی اقسام، وجوہات علامات اور علاج بیان کریں۔"
+    },
+    {
+      "id": 504385,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain in detail that pneumonia is a respiratory disease.",
+      "ur": "نمونیا ریسپریٹری کی بیماری ہے تفصیل سے بیان کریں۔"
+    },
+    {
+      "id": 504386,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write the symptoms, causes, and treatments of asthma.",
+      "ur": "دمہ کی علامات، وجوہات اور علاج لکھیں۔"
+    },
+    {
+      "id": 504387,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write in detail the effects of smoking.",
+      "ur": "سموکنگ کے اثرات تفصیل سے لکھیں۔"
+    },
+    {
+      "id": 505640,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by blood? Write the composition and functions of blood.",
+      "ur": "بلڈ سے کیا مراد ہے؟ بلڈ کی کمپوزیشن اوراس کے افعال لکھیں۔"
+    },
+    {
+      "id": 505642,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on blood plasma.",
+      "ur": "خون کے پلازما پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 505644,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write the structure, formation, and functions of red blood cells.",
+      "ur": "ریڈ بلڈسیلز کی ساخت، فارمیشن اور فنکشنز لکھیں۔"
+    },
+    {
+      "id": 505646,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by white blood cells? Explain its types.",
+      "ur": "وائٹ بلڈ سیلز سے کیا مراد ہے؟ اس کی اقسام کی وضاحت کریں۔"
+    },
+    {
+      "id": 505647,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by platelets? Describe their functions.",
+      "ur": "پلیٹ لیٹس سے کیا مراد ہے؟ اس کے افعال بیان کریں۔"
+    },
+    {
+      "id": 505648,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the circulation of blood in the heart and its importance.",
+      "ur": "دل میں خون کی گردش اور اس کی اہمیت بیان کریں۔"
+    },
+    {
+      "id": 505649,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write notes on the heartbeat.",
+      "ur": "دل کی دھڑکن (ہارٹ بیٹ) پرنوٹ لکھیں۔"
+    },
+    {
+      "id": 505650,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Differentiate between the arterial and venous systems.",
+      "ur": "آرٹیریل اور وینس سسٹم میں فرق کریں۔"
+    },
+    {
+      "id": 505652,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on angina pectoris.",
+      "ur": "انجائنا پیکٹوریس پر ایک نوٹ لکھیں۔"
+    },
+    {
+      "id": 505654,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the harmful effects of smoking on heart disease.",
+      "ur": "دل کی بیماریوں سے متعلق تمباکونوشی کے نقصان دہ اثرات بیان کریں۔"
+    },
+    {
+      "id": 505830,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write the components of the Eurazi system and its functions.",
+      "ur": "یوریزی سسٹم کے کمپونینٹس اور اس کے فنکشنز لکھیں۔"
+    },
+    {
+      "id": 505832,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the appearance, shape, and structure of the kidney.",
+      "ur": "گردے کی ظاہری شکل وصورت اور ساخت بیان کریں۔"
+    },
+    {
+      "id": 505834,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the process of pressure filtration and reabsorption in the kidneys.",
+      "ur": "گردوں میں پریشرفلٹریشن اورری ایبزارپشن کے عمل کو بیان کریں۔"
+    },
+    {
+      "id": 505836,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the role of the kidney in osmoregulation.",
+      "ur": "اوسموریگولیشن میں گردے کا کردار بیان کریں۔"
+    },
+    {
+      "id": 505837,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define dialysis. Explain the methods of dialysis.",
+      "ur": "ڈایالسز کی تعریف کریں ڈایالسز کے طریقوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 505838,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on kidney transplant.",
+      "ur": "کڈنی ٹرانسپلانٹ پر ایک نوٹ لکھیں۔"
+    },
+    {
+      "id": 505839,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain neurotransmitters and neurotransmitters.",
+      "ur": "سائی نیپس اور نیوروٹرانسمیٹرز کی وضاحت کریں۔"
+    },
+    {
+      "id": 505840,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define nerve. Describe the types of nerve.",
+      "ur": "نرو کی تعریف کریں۔ نرو کی اقسام بیان کریں۔"
+    },
+    {
+      "id": 505841,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the division of the nervous system.",
+      "ur": "نروس سسٹم کی ڈویژن کی وضاحت کریں۔"
+    },
+    {
+      "id": 505843,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe in detail the structure and functions of the brain and its parts.",
+      "ur": "دماغ اور اس کے حصوں کی ساخت اور افعال تفصیل سے بیان کریں۔"
+    },
+    {
+      "id": 505844,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Illustrate the structure of a spoiler card with a label diagram.",
+      "ur": "سپائیل کارڈ کی ساخت لیبل ڈایاگرام کے ساتھ واضح کریں۔"
+    },
+    {
+      "id": 505846,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on the peripheral nervous system.",
+      "ur": "پیریفرل نروس سسٹم پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 505847,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Make a sheet of divisions of the nervous system.",
+      "ur": "نروس سسٹم کی ڈویژنز کی شیٹ بنائیں۔"
+    },
+    {
+      "id": 505848,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by the endocrine system? Explain.",
+      "ur": "اینڈوکرائن سسٹم سے کیا مراد ہے؟ وضاحت کریں"
+    },
+    {
+      "id": 505850,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write the functions of the hormones of the posterior lobe of the pituitary gland.",
+      "ur": "پچوٹری گلینڈ کےپوسٹیریئرلوب کےہارمون کے افعال لکھیں۔"
+    },
+    {
+      "id": 505852,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is the adrenal gland called? Describe its functions.",
+      "ur": "اینڈرینل گلینڈ کسے کہتے ہیں؟ اس کے فنکشنزلکھیں۔"
+    },
+    {
+      "id": 505853,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the functions of pancreatic hormones.",
+      "ur": "پینکریاز کے ہارمون کے افعال بیان کریں۔"
+    },
+    {
+      "id": 505854,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note about the gonads.",
+      "ur": "گونیڈزپرنوٹ لکھیں۔"
+    },
+    {
+      "id": 505856,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write the hormones and functions of the major endocrine glands.",
+      "ur": "اہم اینڈوکرائن گلینڈزان کے ہارمون اورافعال لکھیں۔"
+    },
+    {
+      "id": 506074,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define sexual reproduction. Write about gonads.",
+      "ur": "سیکسوئل ریپروڈکشن کی تعریف کریں۔ گونیڈز کے متعلق لکھیں۔"
+    },
+    {
+      "id": 506078,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by gametogenesis? How are gametes formed?",
+      "ur": "گییمٹوجینیسس سے کیا مراد ہے؟ گیمیٹس کیسے بنتے ہیں؟"
+    },
+    {
+      "id": 506080,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define fertilization. Describe the main stages of fertilization.",
+      "ur": "فرٹیلائزیشن کی تعریف کریں۔ فرٹیلائزیشن کے اہم مراحل بیان کریں۔"
+    },
+    {
+      "id": 506082,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by sexually transmitted diseases? Explain.",
+      "ur": "سیکسوئلی ٹرانسمیٹڈڈزیزز سے کیا مرادہے؟ وضاحت کریں۔"
+    },
+    {
+      "id": 506220,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is inheritance? How are instructions for setting properties stored in a cell?",
+      "ur": "وراثت کیا ہے؟ سیل میں خصوصیات متعین کرنے کی ہدایات کیسے سٹور ہوتی ہے؟"
+    },
+    {
+      "id": 506221,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Compare DNA and RNA.",
+      "ur": "دی این اے اور آر این اے میں موازنہ کریں۔"
+    },
+    {
+      "id": 506222,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the relationship between gene and allele.",
+      "ur": "جین اور الیل میں تعلق بیان کریں۔"
+    },
+    {
+      "id": 506223,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the relationship between gene and allele.",
+      "ur": "جین اور الیل میں تعلق بیان کریں۔"
+    },
+    {
+      "id": 506227,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is genotype? Describe its types.",
+      "ur": "جینوٹائپ کیا ہے؟ اس کی اقسام بیان کریں۔"
+    },
+    {
+      "id": 506253,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define phenotype. Distinguish between dominant and recessive.",
+      "ur": "فینوٹائپ کی تعریف کریں۔ ڈومینٹ اور ریسیوایس میں فرق کریں۔"
+    },
+    {
+      "id": 506256,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Why Mendal choose pea plants for his genetic experiment?",
+      "ur": "مینڈل نے اپنے وراثت کے تجربات کے لیے مٹر کے پودے کا انتخاب کیوں کیا؟"
+    },
+    {
+      "id": 506260,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is monohybrid cross? Experimentally verify monohybrid cross.",
+      "ur": "مونوہائبریڈکراس کیا ہے؟ مونوہائبریڈکراس کی تجرباتی تصدیق کریں۔"
+    },
+    {
+      "id": 506514,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define biotechnology and write a short introduction.",
+      "ur": "بائیوٹیکنالوجی کی تعریف کریں مختصر تعارف لکھیں۔"
+    },
+    {
+      "id": 506515,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the role of bacteria in biotechnology and genetic modification.",
+      "ur": "بائیوٹیکنالوجی اور جینیاتی تبدیلی میں بیکٹیریا کا کردار بیان کریں۔"
+    },
+    {
+      "id": 506516,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain genetic engineering and gene editing.",
+      "ur": "جینیٹک انجینئرنگ اور جین میں ترمیم کرنے کی وضاحت کریں۔"
+    },
+    {
+      "id": 506517,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the benefits of gene editing.",
+      "ur": "جین ایڈیٹنگ کے فوائد بیان کریں۔"
+    },
+    {
+      "id": 506518,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "How is gene transfer used to create useful products? Give examples.",
+      "ur": "جین کی منتقلی کیسے مفید پروڈکٹس بنانے میں استعمال ہوتی ہے؟ مثالیں دیں۔"
+    },
+    {
+      "id": 506519,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the uses of biotechnology in the medical field.",
+      "ur": "میڈیکل کے شعبےمیں بائیوٹیکنالوجی کے استعمال بیان کریں۔"
+    },
+    {
+      "id": 506520,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on environmental biotechnology.",
+      "ur": "ماحولیاتی بائیوٹیکنالوجی پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 506521,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on marine biotechnology.",
+      "ur": "سمندری بائیوٹیکنالوجی پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 506522,
+      "chapter": 8,
+      "topic_id": "8.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write some important applications of industrial biotechnology.",
+      "ur": "صنعتی بائیوٹیکنالوجی کے چند اہم استعمالات لکھیں۔"
+    },
+    {
+      "id": 506420,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define disease. Explain infectious diseases.",
+      "ur": "بیماری کی تعریف کریں متعدی بیماریوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 506425,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on zoonotic diseases.",
+      "ur": "زونوٹک بیماریوں پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 506436,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by allergies? Write the names of the different types of allergies.",
+      "ur": "الرجیز سے کیا مراد ہے؟ الرجیز کی مختلف اقسام کے نام لکھیں۔"
+    },
+    {
+      "id": 506438,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write notes on the following types of allergies.",
+      "ur": "الرجیز کی درج ذیل اقسام پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 506461,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define pathogens. Name how pathogens are transmitted to humans.",
+      "ur": "پیتھوجنز کی تعریف کریں پیتھوجنز انسانوں میں کیسے منتقل ہوتے ہیں نام لکھیں۔"
+    },
+    {
+      "id": 506462,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the types of pathogens, their transmission, and the diseases they spread.",
+      "ur": "پیتھوجنز کی اقسام ان کی منتقلی اور ان سے پھیلنے والی بیماریاں بیان کریں۔"
+    },
+    {
+      "id": 506463,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is meant by immunity? Describe its types.",
+      "ur": "قوت مدافعت سے کیا مراد ہے؟ اس کی اقسام بیان کریں۔"
+    },
+    {
+      "id": 506464,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on the second line of defense.",
+      "ur": "سیکنڈلائن آف ڈیفنس پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 506466,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the process of natural selection using the example of the evolution of peppered moths.",
+      "ur": "پیپرڈ موتھ(پتنگوں) کے ارتقا کی مثال بیان کرتے ہوئے نیچرل سیلیکشن کے عمل کی وضاحت کریں۔"
+    },
+    {
+      "id": 506467,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain species and speciation.",
+      "ur": "سپی شیزاور سپیسی ایشن کی وضاحت کریں۔"
+    },
+    {
+      "id": 506468,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the types of speciation processes.",
+      "ur": "سپیسی ایشن کے عمل کی اقسام بیان کریں۔"
+    },
+    {
+      "id": 506465,
       "chapter": 10,
       "topic_id": "10.5",
       "source": "Additional",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Define evolution. Who founded the theory of evolution through natural selection?",
       "ur": "ارتقا کی تعریف کریں۔ نیچرل سیلیکشن کے ذریعے ارتقا کے نظریے کی بنیاد کس نے رکھی؟"
     },
     {
-      "id": 170,
+      "id": 506469,
       "chapter": 10,
       "topic_id": "10.5",
       "source": "Additional",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Write a note on homologous structures as evidence of evolution.",
       "ur": "ہومولوگس ساختوں پر ارتقا کے ثبوت کے طور پر ایک نوٹ لکھیں۔"
     },
     {
-      "id": 171,
+      "id": 506474,
       "chapter": 10,
       "topic_id": "10.5",
       "source": "Additional",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is meant by selective breeding? How do humans use selective breeding in plants and animals?",
       "ur": "سیلیکٹوبریڈنگ سے کیا مراد ہے؟ انسان پودوں اور جانوروں میں سیلیکٹوبریڈنگ کا استعمال کیسے کرتے ہیں۔"
-    },
-    {
-      "id": 172,
-      "chapter": 10,
-      "topic_id": "10.5",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Why is variation among individuals important for evolution?",
-      "ur": "ارتقا کے لیے جانداروں کے درمیان تغیرات ہونا کیوں ضروری ہے؟"
-    },
-    {
-      "id": 173,
-      "chapter": 10,
-      "topic_id": "10.5",
-      "source": "Conceptuals",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How do fossils help scientists understand the history of life on Earth?",
-      "ur": "فوسلز سائنس دانوں کو زمین پرزندگی کی تاریخ کو سمجھنے میں کس طرح مدد کرتے ہیں؟"
     }
-  ]
+  ],
+  "type": "long"
 }

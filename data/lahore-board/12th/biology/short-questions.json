@@ -4,16 +4,16 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB INTER-II (Class 12) Biology (read-only export)",
-  "total_questions": 377,
+  "total_questions": 708,
   "counts": {
-    "mcq": 122,
-    "short": 156,
-    "long": 99
+    "mcq": 295,
+    "short": 298,
+    "long": 115
   },
   "fieldCounts": {
-    "MCQ": 122,
-    "QA": 156,
-    "LONG": 99
+    "MCQ": 295,
+    "QA": 298,
+    "LONG": 115
   },
   "questions": [
     {
@@ -1580,6 +1580,1426 @@
       "priority": "Exercise",
       "en": "What are the advantages of monoclonal antibodies?",
       "ur": "What are the advantages of monoclonal antibodies?"
+    },
+    {
+      "id": 532005,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the concept of evolution?"
+    },
+    {
+      "id": 532006,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does homology provide an evidence of divergent evolution?"
+    },
+    {
+      "id": 532007,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How analogous organs represent convergent evolution?"
+    },
+    {
+      "id": 532008,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is Hardy-Weinberg theorem?"
+    },
+    {
+      "id": 532009,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the factors that change allele frequencies?"
+    },
+    {
+      "id": 532012,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify Lamarck as an early proponent of evolution."
+    },
+    {
+      "id": 532013,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the drawbacks of Lamarckism."
+    },
+    {
+      "id": 532015,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Lamarckism and Darwinism"
+    },
+    {
+      "id": 532016,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Homologous and analogous"
+    },
+    {
+      "id": 532017,
+      "chapter": 24,
+      "topic_id": "24.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between; Natural selection and neutral selection"
+    },
+    {
+      "id": 532069,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the primary reservoirs of the chemicals of biogeochemical cycles?"
+    },
+    {
+      "id": 532071,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write notes on de-nitrification and ammonification."
+    },
+    {
+      "id": 532072,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Briefly describe the role of bacteria in the nitrogen cycle. Enlist their names and roles."
+    },
+    {
+      "id": 532073,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write a brief note on the flow of energy in trophic levels."
+    },
+    {
+      "id": 532074,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write brief notes on population density and population growth."
+    },
+    {
+      "id": 532075,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Investigate the effects of human population growth on the environment."
+    },
+    {
+      "id": 532077,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the increased greenhouses gases in atmosphere result in global warming?"
+    },
+    {
+      "id": 532078,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the long-term effects of global warming?"
+    },
+    {
+      "id": 532079,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the unique adaptations of flora in the Mangrove ecosystem."
+    },
+    {
+      "id": 532081,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between the Abiotic profiles of a Temperate Deciduous Forest and a Tropical Thorn Forest."
+    },
+    {
+      "id": 532082,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Enlist the key fauna and flora of temperate deciduous forests, tropical rain forest, and mangrove forest."
+    },
+    {
+      "id": 532084,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Biome and biosphere"
+    },
+    {
+      "id": 532087,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Biogeochemcial cycle and energy flow"
+    },
+    {
+      "id": 532088,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Population growth and population density"
+    },
+    {
+      "id": 532090,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Convex population and concave population"
+    },
+    {
+      "id": 532091,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Nitrification and nitrogen-fixation"
+    },
+    {
+      "id": 532092,
+      "chapter": 25,
+      "topic_id": "25.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Nitrification and denitrification"
+    },
+    {
+      "id": 532234,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Homeostasis."
+    },
+    {
+      "id": 532235,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three essential components through which homeostasis is maintained."
+    },
+    {
+      "id": 532236,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of receptors? Give an example."
+    },
+    {
+      "id": 532237,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role does the control centre play in homeostasis?"
+    },
+    {
+      "id": 532238,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do muscles and glands respond as effectors?"
+    },
+    {
+      "id": 532260,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define feedback mechanisms."
+    },
+    {
+      "id": 532261,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between negative and positive feedback."
+    },
+    {
+      "id": 532262,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the body responds via negative feedback when temperature exceeds 37°C."
+    },
+    {
+      "id": 532263,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is positive feedback less common in homeostasis? Give two physiological examples where it occurs."
+    },
+    {
+      "id": 532264,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What can happen if a positive feedback system becomes unregulated? Give an example."
+    },
+    {
+      "id": 532291,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Osmoregulation and state its physiological importance."
+    },
+    {
+      "id": 532292,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between Osmoconformers and Osmoregulators?"
+    },
+    {
+      "id": 532293,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Osmosis and Osmotic Pressure."
+    },
+    {
+      "id": 532294,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "ame two mechanisms used by osmoregulators to maintain internal balance."
+    },
+    {
+      "id": 532295,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What osmotic challenges do freshwater animals face due to being hypertonic to their environment?"
+    },
+    {
+      "id": 532312,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do freshwater animals adapt to compensate for the loss of essential salts?"
+    },
+    {
+      "id": 532313,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What osmotic challenges do marine animals face?"
+    },
+    {
+      "id": 532314,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State three methods used by marine fishes to cope with excess salt accumulation."
+    },
+    {
+      "id": 532315,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do terrestrial animals lose water to their environment?"
+    },
+    {
+      "id": 532316,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two examples of anatomical adaptations that protect terrestrial animals from evaporative water loss."
+    },
+    {
+      "id": 532335,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is metabolic water, and which animal relies entirely on it?"
+    },
+    {
+      "id": 532336,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Anhydrobiosis."
+    },
+    {
+      "id": 532337,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why can only freshwater animals afford to excrete ammonia directly?"
+    },
+    {
+      "id": 532338,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between ammonotelic and ureotelic animals."
+    },
+    {
+      "id": 532339,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is uric acid formed in humans, and what medical condition arises if its level becomes too high?"
+    },
+    {
+      "id": 532366,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Thermoregulation."
+    },
+    {
+      "id": 532367,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is temperature regulation critical for enzyme functionality?"
+    },
+    {
+      "id": 532368,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does temperature affect the cell membrane?"
+    },
+    {
+      "id": 532369,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Ectotherms and Endotherms based on their heat source."
+    },
+    {
+      "id": 532370,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe two behavioral strategies used by ectotherms to manage their temperature."
+    },
+    {
+      "id": 532377,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Poikilotherms and Homeotherms."
+    },
+    {
+      "id": 532379,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the human body detect changes in temperature?"
+    },
+    {
+      "id": 532380,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Vasodilation and its significance during overheating."
+    },
+    {
+      "id": 532381,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three physiological responses that occur in the human body during hypothermia (cooling)."
+    },
+    {
+      "id": 532384,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the thyroid gland assist during hyperthermia?"
+    },
+    {
+      "id": 532414,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define excretion in biological terms."
+    },
+    {
+      "id": 532416,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the main components that make up the human urinary system."
+    },
+    {
+      "id": 532417,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the location and protective features of the human kidneys."
+    },
+    {
+      "id": 532419,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the functions of the ureter and the urethra."
+    },
+    {
+      "id": 532421,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the renal capsule, and what structure sits on top of each kidney?"
+    },
+    {
+      "id": 532444,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two main portions of a nephron?"
+    },
+    {
+      "id": 532445,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Glomerulus and Bowman’s capsule."
+    },
+    {
+      "id": 532446,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the three connected regions of the renal tubule in order."
+    },
+    {
+      "id": 532447,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do collecting ducts eventually discharge urine into the renal pelvis?"
+    },
+    {
+      "id": 532448,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Cortical and Juxtamedullary nephrons."
+    },
+    {
+      "id": 532459,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are kidneys described as \"highly vascularized organs\"?"
+    },
+    {
+      "id": 532460,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Trace the pathway of blood from its entry into the kidney up to the glomerulus."
+    },
+    {
+      "id": 532461,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What makes the drainage of the glomerulus capillary bed unique compared to other capillary beds in the body?"
+    },
+    {
+      "id": 532462,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between peritubular capillaries and vasa recta."
+    },
+    {
+      "id": 532464,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does filtered blood return to the heart from the kidney?"
+    },
+    {
+      "id": 532510,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the three major steps involved in the process of urine formation."
+    },
+    {
+      "id": 532511,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is glomerular filtrate and how is it formed?"
+    },
+    {
+      "id": 532513,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe what happens to water and solutes in the proximal convoluted tubule (PCT)."
+    },
+    {
+      "id": 532514,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do the descending and ascending limbs of the Loop of Henle differ in permeability?"
+    },
+    {
+      "id": 532515,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define tubular secretion and name three substances secreted during this step."
+    },
+    {
+      "id": 532542,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary purpose of the counter-current mechanism in the kidneys?"
+    },
+    {
+      "id": 532543,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do the descending and ascending limbs of the loop of Henle function differently during the counter-current mechanism?"
+    },
+    {
+      "id": 532544,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how urine concentration changes depending on the body's water availability."
+    },
+    {
+      "id": 532545,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where is Antidiuretic Hormone (ADH) synthesized and from where is it released?"
+    },
+    {
+      "id": 532546,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the body detect dehydration or high salt intake?"
+    },
+    {
+      "id": 532555,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Antidiuretic Hormone (ADH) function to produce concentrated urine?"
+    },
+    {
+      "id": 532556,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Diabetes Insipidus, and what are its main risks?"
+    },
+    {
+      "id": 532558,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where is aldosterone produced and under what conditions is it secreted?"
+    },
+    {
+      "id": 532559,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does aldosterone help prevent hyperkalaemia?"
+    },
+    {
+      "id": 532560,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the two distinct capillary beds found in the kidney based on their functions and pressure levels."
+    },
+    {
+      "id": 532575,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four common symptoms associated with a Urinary Tract Infection (UTI)."
+    },
+    {
+      "id": 532576,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Hypercalciuria and Hyperuricemia as causes of kidney stones."
+    },
+    {
+      "id": 532577,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do doctors diagnose the specific chemical nature of a kidney stone using a urine test?"
+    },
+    {
+      "id": 532578,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does continuous dehydration increase the risk of developing kidney stones?"
+    },
+    {
+      "id": 532579,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain how Extracorporeal Shockwave Lithotripsy (ECSWL) works to clear kidney stones."
+    },
+    {
+      "id": 532603,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain the procedure of Percutaneous Nephrolitbotripsy (PNL)."
+    },
+    {
+      "id": 532604,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Chronic and Acute Kidney Failure."
+    },
+    {
+      "id": 532605,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three common causes of acute kidney failure."
+    },
+    {
+      "id": 532606,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the basic principle of Haemodialysis?"
+    },
+    {
+      "id": 532607,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is blood drawn from and returned to a patient's body during haemodialysis?"
+    },
+    {
+      "id": 532621,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain how Peritoneal Dialysis works."
+    },
+    {
+      "id": 532622,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four physiological or emotional problems associated with undergoing dialysis."
+    },
+    {
+      "id": 532623,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a kidney transplant, and who needs it?"
+    },
+    {
+      "id": 532624,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between an Unrelated donor and a Deceased donor."
+    },
+    {
+      "id": 532625,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors must be carefully checked and matched before a kidney transplant can take place?"
+    },
+    {
+      "id": 532671,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define coordination in living organisms."
+    },
+    {
+      "id": 532672,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the two types of coordination found in complex animals."
+    },
+    {
+      "id": 532673,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are biological receptors called transducers? Give an example."
+    },
+    {
+      "id": 532674,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the composition and function of the Central Nervous System (CNS)?"
+    },
+    {
+      "id": 532675,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do the two main types of effectors differ in their responses?"
+    },
+    {
+      "id": 532698,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Nissl's granules and where are they located?"
+    },
+    {
+      "id": 532699,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the functions of dendrites and axons."
+    },
+    {
+      "id": 532700,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are neuroglia (glial cells) and what functions do they perform?"
+    },
+    {
+      "id": 532701,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between white matter and grey matter in the Central Nervous System (CNS)."
+    },
+    {
+      "id": 532702,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Nodes of Ranvier and state their size."
+    },
+    {
+      "id": 532713,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define ganglia."
+    },
+    {
+      "id": 532714,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between sensory and motor neurons based on their directional function."
+    },
+    {
+      "id": 532715,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main role of inter-neurons in the CNS?"
+    },
+    {
+      "id": 532716,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define reflex action and reflex arc."
+    },
+    {
+      "id": 532717,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the stimulus and receptor involved in the knee-jerk reflex."
+    },
+    {
+      "id": 532857,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a nerve impulse."
+    },
+    {
+      "id": 532858,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Membrane Potential and what causes it?"
+    },
+    {
+      "id": 532859,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a resting neuron said to be polarized?"
+    },
+    {
+      "id": 532860,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three main factors responsible for establishing the Resting Membrane Potential (RMP)."
+    },
+    {
+      "id": 532861,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain the function of the Sodium-Potassium pump."
+    },
+    {
+      "id": 532895,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Active Membrane Potential (Action Potential)."
+    },
+    {
+      "id": 532897,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is depolarization and how long does it last on a short region of a neuron?"
+    },
+    {
+      "id": 532899,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the term repolarization."
+    },
+    {
+      "id": 532900,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the refractory period and why is it significant?"
+    },
+    {
+      "id": 532901,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a neuron return to its original Resting Membrane Potential (RMP) after an action potential?"
+    },
+    {
+      "id": 533034,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a synapse."
+    },
+    {
+      "id": 533035,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a presynaptic neuron and a postsynaptic cell."
+    },
+    {
+      "id": 533036,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are synaptic vesicles and where are they located?"
+    },
+    {
+      "id": 533037,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the role of calcium ions in synaptic transmission."
+    },
+    {
+      "id": 533038,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the frequency of action potentials affect neurotransmitter release?"
+    },
+    {
+      "id": 533053,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do excitatory neurotransmitters stimulate a postsynaptic neuron? Give two examples."
+    },
+    {
+      "id": 533054,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly describe the physiological roles of Norepinephrine and Epinephrine."
+    },
+    {
+      "id": 533056,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What medical conditions or symptoms are linked to imbalances in Dopamine and Serotonin?"
+    },
+    {
+      "id": 533057,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the mechanism by which inhibitory neurotransmitters prevent a nerve impulse."
+    },
+    {
+      "id": 533058,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are endorphins and what is their primary function?"
     }
   ],
   "type": "short"

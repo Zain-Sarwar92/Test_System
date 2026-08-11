@@ -2,1868 +2,1689 @@
   "board": "Lahore",
   "class": "10",
   "subject": "Physics",
-  "type": "long",
-  "total_questions": 186,
+  "slug": "physics",
+  "source": "PTS PTB Class 10 Physics (read-only export)",
+  "total_questions": 1600,
+  "counts": {
+    "mcq": 753,
+    "short": 661,
+    "long": 186
+  },
   "questions": [
     {
-      "id": 1,
+      "id": 499156,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does thermal expansion differ between solids, liquids, and gases? provide examples to illustrate these difference?",
       "ur": "ٹھوس، مائع اور گیسوں میں حرارتی پھیلاؤ کس طرح مختلف ہوتا ہے؟ ان کے درمیان فرق کو مثالوں کے ساتھ واضح کریں۔"
     },
     {
-      "id": 2,
+      "id": 499159,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are some practical consequences of thermal expansion in everyday life, such as in construction materials or household appliances?",
       "ur": "روزمرہ زندگی میں حرارتی پھیلاؤ کے کون سے عملی اثرات دیکھنے کو ملتے ہیں؟ مثلا تعمیراتی مٹیریل یا گھریلو آلات میں؟"
     },
     {
-      "id": 3,
+      "id": 499166,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Why do solids, liquids, and gases expand when heated? Explain with examples.",
       "ur": "ٹھوس، مائع اور گیس گرم ہونے پر کیوں پھیلتے ہیں؟ مثالوں کے ساتھ وجہ بیان کریں۔"
     },
     {
-      "id": 4,
+      "id": 499176,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A metal rod of length 1 m expands by 0.02 m when heated from to . Calculate its coefficient of linear expansion.",
-      "ur": "ایک میٹل کی سلاخ کی جس لمبائی 1 میٹر ہے، سے تک گرم کرنے پر یہ 0.02 بڑھ جاتی ہے۔ اس کے طولی پھیلاؤ کا کوایفی شینٹ معلوم کریں۔"
+      "en": "A metal rod of length 1 m expands by 0.02 m when heated from <img src=\"/pts-media/equations/10th/phynew-chap1-2.svg\" /> to <img src=\"/pts-media/equations/10th/phynew-chap1-3.svg\" />. Calculate its coefficient of linear expansion.",
+      "ur": "ایک میٹل کی سلاخ کی جس لمبائی 1 میٹر ہے، <img src=\"/pts-media/equations/10th/phynew-chap1-2.svg\" /> سے <img src=\"/pts-media/equations/10th/phynew-chap1-3.svg\" /> تک گرم کرنے پر یہ 0.02 بڑھ جاتی ہے۔ اس کے طولی پھیلاؤ کا کوایفی شینٹ معلوم کریں۔"
     },
     {
-      "id": 5,
+      "id": 499178,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A container holds 1 litre of water at . What will be its volume at assuming water's coefficient of volume expansion is per ?",
-      "ur": "ایک برتن میں پر 1 لیٹر پانی موجود ہے۔ اگر پانی کے والیوم کے پھیلاؤ کا کو ایفی شینٹ فی 1 ہوتو پر پانی کا والیوم کیا ہوگا؟"
+      "en": "A container holds 1 litre of water at <img src=\"/pts-media/equations/10th/phynew-chap1-4.svg\" />. What will be its volume at <img src=\"/pts-media/equations/10th/phynew-chap1-5.svg\" /> assuming water's coefficient of volume expansion is <img src=\"/pts-media/equations/10th/phynew-chap1-6.svg\" /> per <img src=\"/pts-media/equations/10th/phynew-chap1-7.svg\" />?",
+      "ur": "ایک برتن میں <img src=\"/pts-media/equations/10th/phynew-chap1-4.svg\" /> پر 1 لیٹر پانی موجود ہے۔ اگر پانی کے والیوم کے پھیلاؤ کا کو ایفی شینٹ <img src=\"/pts-media/equations/10th/phynew-chap1-6.svg\" /> فی <img src=\"/pts-media/equations/10th/phynew-chap1-7.svg\" />1 ہوتو <img src=\"/pts-media/equations/10th/phynew-chap1-5.svg\" />پر پانی کا والیوم کیا ہوگا؟"
     },
     {
-      "id": 6,
+      "id": 499181,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A steel rod initially measures 2 m at . If its coefficient of linear expansion is , What will be its length at ?",
-      "ur": "سٹیل کی ایک سلاخ جس کی ابتدائی لمبائی 2 میٹر ہے جو پر ماپی گئی ہے۔ اگر سٹیل کے کو ایفی شینٹ کا طولی پھیلاؤ ہوتو پر اس کی لمبائی کیا ہوگی؟"
+      "en": "A steel rod initially measures 2 m at <img src=\"/pts-media/equations/10th/phynew-chap1-8.svg\" />. If its coefficient of linear expansion is <img src=\"/pts-media/equations/10th/phynew-chap1-9.svg\" />, What will be its length at <img src=\"/pts-media/equations/10th/phynew-chap1-10.svg\" />?",
+      "ur": "سٹیل کی ایک سلاخ جس کی ابتدائی لمبائی 2 میٹر ہے جو <img src=\"/pts-media/equations/10th/phynew-chap1-8.svg\" /> پر ماپی گئی ہے۔ اگر سٹیل کے کو ایفی شینٹ کا طولی پھیلاؤ <img src=\"/pts-media/equations/10th/phynew-chap1-9.svg\" /> ہوتو <img src=\"/pts-media/equations/10th/phynew-chap1-10.svg\" /> پر اس کی لمبائی کیا ہوگی؟"
     },
     {
-      "id": 7,
+      "id": 499183,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A steel bridge expands by 5 cm on a hot summer day. If the bridge originally spanned 100 m, what is the temperature change?",
       "ur": "سٹیل کا ایک پل گرم دن میں 5 سینٹی میٹر پھیل جاتا ہے۔ اگر اس کی لمبائی 100 میٹر ہوتو ٹمپریچر میں کتنا اضافہ ہوگا؟"
     },
     {
-      "id": 8,
+      "id": 499185,
       "chapter": 10,
       "topic_id": "10.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "How much heat is required to raise the temperature of a 2 kg iron bar from to , given that the specific heat capacity of iron is ?",
-      "ur": "2 کلو گرام لوہے کی سلاخ ہو سے تک گرم کرنے کےلیے کتنی حرارت درکار ہوگی۔ جبکہ لوہے کی حرارت مخصوصہ ہے۔"
+      "en": "How much heat is required to raise the temperature of a 2 kg iron bar from <img src=\"/pts-media/equations/10th/phynew-chap1-11.svg\" /> to <img src=\"/pts-media/equations/10th/phynew-chap1-12.svg\" />, given that the specific heat capacity of iron is <img src=\"/pts-media/equations/10th/phynew-chap1-13.svg\" />?",
+      "ur": "2 کلو گرام لوہے کی سلاخ ہو <img src=\"/pts-media/equations/10th/phynew-chap1-11.svg\" /> سے <img src=\"/pts-media/equations/10th/phynew-chap1-12.svg\" /> تک گرم کرنے کےلیے کتنی حرارت درکار ہوگی۔ جبکہ لوہے کی حرارت مخصوصہ <img src=\"/pts-media/equations/10th/phynew-chap1-13.svg\" /> ہے۔"
     },
     {
-      "id": 9,
-      "chapter": 10,
-      "topic_id": "10.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the phenomenon of the thermal expansion in solids in detail.",
-      "ur": "ٹھوس اجسام میں حرارتی پھیلاؤ کو تفصیل سے بیان کریں۔"
-    },
-    {
-      "id": 10,
-      "chapter": 10,
-      "topic_id": "10.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain thermal expansion in liquids and explain why liquids expand when heated?",
-      "ur": "مائعات میں حرارتی پھیلاؤ کو بیان کریں اور وضاحت کریں مائع گرم کرنے پر کیوں پھیلتے ہیں؟"
-    },
-    {
-      "id": 11,
-      "chapter": 10,
-      "topic_id": "10.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain thermal expansion in gases in detail.",
-      "ur": "گیسیز میں حرارتی پھیلاؤ تفصیل سے بیان کریں۔"
-    },
-    {
-      "id": 12,
-      "chapter": 10,
-      "topic_id": "10.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the consequences of thermal expansion in real life?",
-      "ur": "حقیقی زندگی میں حرارتی پھیلاؤ کے اثرات لکھیں۔"
-    },
-    {
-      "id": 13,
+      "id": 499186,
       "chapter": 10,
       "topic_id": "10.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "How much heat is is required to melt 500 g of ice at into water at ? (Latent heat of fusion of ice = ).",
-      "ur": "500 گرام برف کو پر پانی میں تبدیل کرنے کےلیے کتنی حرارت درکار ہوگی؟ (برف کے پگھلاؤ کی مخفر حرارت=)"
+      "en": "How much heat is is required to melt 500 g of ice at <img src=\"/pts-media/equations/10th/phynew-chap1-14.svg\" /> into water at <img src=\"/pts-media/equations/10th/phynew-chap1-14.svg\" />? (Latent heat of fusion of ice = <img src=\"/pts-media/equations/10th/phynew-chap1-15.svg\" />).",
+      "ur": "500 گرام برف کو <img src=\"/pts-media/equations/10th/phynew-chap1-14.svg\" /> پر پانی میں تبدیل کرنے کےلیے کتنی حرارت درکار ہوگی؟ (برف کے پگھلاؤ کی مخفر حرارت=<img src=\"/pts-media/equations/10th/phynew-chap1-15.svg\" />)"
     },
     {
-      "id": 14,
-      "chapter": 10,
-      "topic_id": "10.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain specific heat capacity of solids.",
-      "ur": "ٹھوس اجسام کی مخصوص حرارتی گنجائش بیان کریں۔"
-    },
-    {
-      "id": 15,
-      "chapter": 10,
-      "topic_id": "10.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Discuss in details the process of change in state of a substance using the kinetic molecular model.",
-      "ur": "کائی نیٹک مالیکیول ماڈل کا استعمال کرتے ہوئے کسی مادہ کی حالت میں تبدیلی کے عمل پر تفصیل سے بحث کریں۔"
-    },
-    {
-      "id": 16,
+      "id": 499170,
       "chapter": 10,
       "topic_id": "10.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "If we have an equal amount of water in a wide, shallow dish and a tall, narrow container kept at the same temperature, in which container will evaporation occur faster? Explain the reason scientifically.",
       "ur": "اگر برابر مقدار کا پانی ایک چوڑے کم گہرے برتن اور ایک لمبے برتن میں رکھا جائے اور دونوں کا ٹمپریچر ایک جیسا ہوتو کس برتن میں اویپوریشن زیادہ تیزی سے ہوگی؟ وضاحت کریں۔"
     },
     {
-      "id": 17,
-      "chapter": 10,
-      "topic_id": "10.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define evaporation in detail. Discuss factors which influence evaporation rate.",
-      "ur": "اویپوریشن کی تفصیل سے وضاحت کریں۔ وہ عوامل لکھیں جو بخارات کی شرح کو متاثر کرتے ہیں۔"
-    },
-    {
-      "id": 18,
+      "id": 499164,
       "chapter": 10,
       "topic_id": "10.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is latent heat, and why is it important in phase transitions like melting and vaporization?",
       "ur": "مخفی حرارت کیا ہے اور یہ میلٹنگ اور ویپوریشن جیسی حالتوں میں کیوں اہم ہوتی ہے؟"
     },
     {
-      "id": 19,
+      "id": 499187,
       "chapter": 10,
       "topic_id": "10.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Calculate the heat required to completely vaporize 1 kg of water at . (Latent heat of vaporization of water ).",
-      "ur": "1 کلو گرام پانی کو پر مکمل طور پر بھاپ میں تبدیل کرنے کےلیے کتنی حرارت درکار ہوگی؟ (پانی کی ویپوریشن کی مخفی حرارت ہے)"
+      "en": "Calculate the heat required to completely vaporize 1 kg of water at <img src=\"/pts-media/equations/10th/phynew-chap1-16.svg\" />. (Latent heat of vaporization of water <img src=\"/pts-media/equations/10th/phynew-chap1-17.svg\" />).",
+      "ur": "1 کلو گرام پانی کو <img src=\"/pts-media/equations/10th/phynew-chap1-16.svg\" /> پر مکمل طور پر بھاپ میں تبدیل کرنے کےلیے کتنی حرارت درکار ہوگی؟ (پانی کی ویپوریشن کی مخفی حرارت <img src=\"/pts-media/equations/10th/phynew-chap1-17.svg\" /> ہے)"
     },
     {
-      "id": 20,
-      "chapter": 10,
-      "topic_id": "10.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a detail note on latent heat of evapourization.",
-      "ur": "ویپورائزیشن کی مخفی حرارت پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 21,
-      "chapter": 10,
-      "topic_id": "10.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Discuss the phenomenon of superconductivity, its key properties, and its impact on modern technology?",
-      "ur": "سپر کنڈکٹیویٹی کے مظہر، اس کی بنیادی خصوصیات اور جدید ٹیکنالوجی پر اس کے اثرات پر بحث کریں۔"
-    },
-    {
-      "id": 22,
-      "chapter": 11,
-      "topic_id": "11.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain thermal conduction in solids in detail.",
-      "ur": "ٹھوس اجسام میں تھرمل کنڈکشن کی وضاحت کریں۔"
-    },
-    {
-      "id": 23,
+      "id": 499349,
       "chapter": 11,
       "topic_id": "11.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe how convection occurs in fluids. How do convection currents contribute to natural phenomena such as sea breeze and wind patterns?",
       "ur": "مائع میں کنویکشن کیسے ہوتی ہے؟ کنویکشن کرنٹس قدرتی مظاہر جیسے سمندری ہوائیں اور ہوا کے بہاؤ کی ترتیب میں کیسے کردار ادا کرتے ہیں؟"
     },
     {
-      "id": 24,
+      "id": 499353,
       "chapter": 11,
       "topic_id": "11.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Analyze how uneven heating of Earth's surface leads to the formation of convection currents and influence with patterns.",
       "ur": "زمین کی سطح کے غیر یکساں گرم ہونے سے کنویکشن کرنٹس کیسے بنتے ہیں اور یہ ہوا کے سسٹم پر کیسے اثر انداز ہوتے ہیں؟"
     },
     {
-      "id": 25,
-      "chapter": 11,
-      "topic_id": "11.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Discuss the various natural and practical applications of convection currents.",
-      "ur": "کنویکشن کرنٹس کے استعمالات تحریر کریں۔"
-    },
-    {
-      "id": 26,
+      "id": 499350,
       "chapter": 11,
       "topic_id": "11.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does radiation differ from conduction and convection in terms of heat transfer? Give examples of radiation in everyday life and explain how different surface affect radiation absorption and emission.",
       "ur": "ریڈی ایکشن، کنڈکشن اور کنویکشن انتقال تھرمل انرجی کے لحاظ سے کس طرح مختلف ہیں؟ روزمرہ مثالیں دیں اور بتائیں کہ مختلف سطحیں ریڈی ایشن کے انجذاب اور انرجی پر کیسے اثر انداز ہوتی ہیں؟"
     },
     {
-      "id": 27,
+      "id": 499352,
       "chapter": 11,
       "topic_id": "11.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Compare the absorption and emission of heat by different surface. How does the colour and texture of a surface affect its ability to absorb and emit heat?",
       "ur": "مختلف سطحیں حرارت کو جذب اور خارج کرنے میں کیسے مختلف ہوتی ہیں؟ سطح کے رنگ اور ساخت کا حرارت کے جذب اور اخراج پر کیا اثر ہوتا ہے؟"
     },
     {
-      "id": 28,
-      "chapter": 11,
-      "topic_id": "11.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Discuss the applications of heat transfer in daily life.",
-      "ur": "روزمرہ کی زندگی میں حرارت کی منتقلی کے استعمالات تحریر کریں۔"
-    },
-    {
-      "id": 29,
+      "id": 499351,
       "chapter": 11,
       "topic_id": "11.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Discuss the role of greenhouse effect in regulating Earth's temperature. What are the potential consequences of an enhanced greenhouse effect due to human activities?",
       "ur": "زمین کے ٹمپریچر کو برقرار رکھنے میں گرین ہاؤس ایفیکٹ کا کیا کردار ہے؟ انسانی سرگرمیوں سے بڑھتے ہوئے گرین ہاؤس ایفیکٹ کے ممکنہ نتائج بیان کریں۔"
     },
     {
-      "id": 30,
-      "chapter": 11,
-      "topic_id": "11.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the greenhouse effect in detail. how does it occur in the Earth's atmosphere, and what role do greenhouse gases play in trapping heat?",
-      "ur": "گرین ہاؤس ایفیکٹ کیا ہے؟ یہ زمین کے ایٹماسفئیر میں کس طرح وقوع پذیر ہوتا ہے؟ نیز گرین ہاؤس گیسیں حرارت کو جذب کرنے میں کیا کردار ادا کرتی ہیں؟"
-    },
-    {
-      "id": 31,
+      "id": 499528,
       "chapter": 12,
       "topic_id": "12.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how waves tranfer energy without transferring matter. Give examples from daily life.",
       "ur": "ویوز مائع کو منتقل کیے بغیر انرجی کو کیسے ٹرانسفر کرتی ہیں؟ روزمرہ زندگی سے مثالیں دیں۔"
     },
     {
-      "id": 32,
+      "id": 499536,
       "chapter": 12,
       "topic_id": "12.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A sound wave has a frequency of 250 Hz and a speed of . Find its wavelength.",
-      "ur": "ایک ساؤنڈ ویو کی فریکوینسی 250 Hz اور سپیڈ ہے۔ اس کی ویو لینگتھ کیا ہوگی؟"
+      "en": "A sound wave has a frequency of 250 Hz and a speed of <img src=\"/pts-media/equations/10th/phynew-chap2-2.svg\" />. Find its wavelength.",
+      "ur": "ایک ساؤنڈ ویو کی فریکوینسی 250 Hz اور سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap2-2.svg\" /> ہے۔ اس کی ویو لینگتھ کیا ہوگی؟"
     },
     {
-      "id": 33,
-      "chapter": 12,
-      "topic_id": "12.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define waves. Explain the nature of waves. How do waves transfer energy without the transfer of matter?",
-      "ur": "ویوز کی تعریف کریں۔ ویوز کی ماہیت کی وضاحت کریں۔ ویوز کس طرح مٹیریل میڈیم کو منتقل کیے بغیر انرجی منتقل کرتی ہے؟"
-    },
-    {
-      "id": 34,
+      "id": 499529,
       "chapter": 12,
       "topic_id": "12.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the difference between mechanical and electromagnetic waves with suitable examples.",
       "ur": "مکینیکل اور الیکٹرومیگنیٹک ویوز میں مناسب مثالوں کے ساتھ فرق بیان کریں۔"
     },
     {
-      "id": 35,
+      "id": 499530,
       "chapter": 12,
       "topic_id": "12.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are transverse and longitudinal waves? Explain each with the help of diagrams and examples.",
       "ur": "ٹرانسورس اور لانگیٹیوڈنل ویو کیا ہوتی ہیں؟ ہرایک کو ڈایا گرام اور مثالوں سے بیان کریں۔"
     },
     {
-      "id": 36,
-      "chapter": 12,
-      "topic_id": "12.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain types of mechanical waves.",
-      "ur": "مکینیکل ویوز کی اقسام کی وضاحت کریں۔"
-    },
-    {
-      "id": 37,
+      "id": 499535,
       "chapter": 12,
       "topic_id": "12.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A wave travel at a speed of and has a wavelength of 3 metres. Calculate its frequency.",
-      "ur": "ایک ویو کی سپیڈ ہے اور ویولینگتھ 3 میٹر ہے۔ اس کی فریکوینسی معلوم کریں۔"
+      "en": "A wave travel at a speed of <img src=\"/pts-media/equations/10th/phynew-chap2-1.svg\" /> and has a wavelength of 3 metres. Calculate its frequency.",
+      "ur": "ایک ویو کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap2-1.svg\" /> ہے اور ویولینگتھ 3 میٹر ہے۔ اس کی فریکوینسی معلوم کریں۔"
     },
     {
-      "id": 38,
+      "id": 499542,
       "chapter": 12,
       "topic_id": "12.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "The time period of a wave is 0.02 seconds. Calculate the frequency of the wave.",
       "ur": "ایک ویو کا ٹائم پیریڈ 0.02s ہے۔ ویو کی فریکوینسی معلوم کریں۔"
     },
     {
-      "id": 39,
-      "chapter": 12,
-      "topic_id": "12.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define following term and parameters: Crest, Trough, Compressions, Rarefactions, Amplitude, Wavelength, Frequency, Wave period, Wave front.",
-      "ur": "درج ذیل اصطلاحات اور پیرا میٹرز کی تعریف کیجیے: کرسٹ، ٹرف، کمپریشن، ریرفیکشن، ایپلی ٹیوڈ، وہو لینگتھ، فریکونسی، ٹائم پیریڈ، ویو یونٹ۔"
-    },
-    {
-      "id": 40,
+      "id": 499531,
       "chapter": 12,
       "topic_id": "12.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Discuss the properties of waves; such as reflection, refraction, and diffraction. Support your answer with examples.",
       "ur": "ویوز کی خصوصیات بیان کریں۔ جیسا کہ رفلیکشن، ری فریکشن اور ڈفریکشن۔ اپنے جواب کے سپورٹ مثالوں سے کریں۔"
     },
     {
-      "id": 41,
+      "id": 499532,
       "chapter": 12,
       "topic_id": "12.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is diffraction? How do wavelength and slit size affect the diffraction of waves?",
       "ur": "ڈفریکشن کیا ہوتی ہے؟ ویو لینگتھ اور سلٹ کا سائز کیسے ویوز کی ڈفریکشن کو متاثر کرتے ہیں؟"
     },
     {
-      "id": 42,
-      "chapter": 12,
-      "topic_id": "12.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is diffraction? describe the factors that influence the amount of diffraction and provide real-wold example to explain how this phenomenin occurs in different media?",
-      "ur": "ویوز کی ڈفریکشن کیا ہے؟ ان عوامل کی وضاحت کریں جو ڈفریکشن کے عمل کو متاثر کرتے ہیں۔ روزمرہ زندگی کی مثالوں سے اس عمل کی وضاحت مختلف میڈیم میں کریں۔"
-    },
-    {
-      "id": 43,
+      "id": 499533,
       "chapter": 12,
       "topic_id": "12.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "The wavelength of a wave is 2 metres and its frequency is 5 Hz. What is the speed of the wave?",
       "ur": "ایک ویو کی ویو لینگتھ 2 میٹر ہے اور اس کی فریکوینسی 5 Hz ہے۔ ویو کی سپیڈ معلوم کریں۔"
     },
     {
-      "id": 44,
+      "id": 499540,
       "chapter": 12,
       "topic_id": "12.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A wave has a frequency of 50 Hz. How much time does it take to complete one wave?",
       "ur": "ایک ویو کی فریکوینسی 50 Hz ہے۔ وہ ایک ویو مکمل کرنے کا کتنا وقت لیتی ہے؟"
     },
     {
-      "id": 45,
+      "id": 499541,
       "chapter": 12,
       "topic_id": "12.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A wave has a wavelength of 0.5 m and frequency of 200 Hz. Calculate the speed of the wave.",
       "ur": "ایک ویو لینگتھ 0.5 میٹر اور فریکوینسی 200 Hz ہے۔ ویو کی رفتار معلوم کریں۔"
     },
     {
-      "id": 46,
-      "chapter": 12,
-      "topic_id": "12.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Compare seismic waves and tsunami waves in details.",
-      "ur": "سیسمک ویوز اور سونامی ویوز کا تفصیلی موازنہ کریں۔"
-    },
-    {
-      "id": 47,
+      "id": 499590,
       "chapter": 13,
       "topic_id": "13.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A clock chims 48 times in 1 minute. Calculate the frequency and period of the chimes.",
       "ur": "ایک گھڑی ایک منٹ میں 48 بار بجتی ہے۔ اس کی فریکونسی اور پیریڈ معلوم کریں۔"
     },
     {
-      "id": 48,
+      "id": 499592,
       "chapter": 13,
       "topic_id": "13.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A wave travel with a speed of and has a wavelength of 2 metres. Calculate the time period of the wave.",
-      "ur": "ایک ویو کی سپیڈ ہے اور اس کی ویو لینگتھ 2 میٹر ہے۔ ویو کا ٹائم پیریڈ کیا ہوگا؟"
+      "en": "A wave travel with a speed of <img src=\"/pts-media/equations/10th/phynew-chap4-7.svg\" /> and has a wavelength of 2 metres. Calculate the time period of the wave.",
+      "ur": "ایک ویو کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap4-7.svg\" /> ہے اور اس کی ویو لینگتھ 2 میٹر ہے۔ ویو کا ٹائم پیریڈ کیا ہوگا؟"
     },
     {
-      "id": 49,
-      "chapter": 13,
-      "topic_id": "13.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe how sound propagates through a medium as a wave?",
-      "ur": "وضاحت کریں کہ کس طرح کسی میڈٰم میں ساؤنڈ کی اشاعت ویو کی شکل میں ہوتی ہے؟"
-    },
-    {
-      "id": 50,
+      "id": 499581,
       "chapter": 13,
       "topic_id": "13.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is the approximate speed of sound in air, and what factors affect it?",
       "ur": "ہوا میں ساؤنڈ کی سپیڈ قریبا کتنی ہے اور کون سے عوامل اس پر اثر انداز ہوتے ہیں؟"
     },
     {
-      "id": 51,
+      "id": 499582,
       "chapter": 13,
       "topic_id": "13.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Why does sound travel faster in solids than in liquids and gases? Explain.",
       "ur": "ساؤنڈ ٹھوس میں مائع اور گیسوں کے مقابلے میں تیز سفر کیوں کرتی ہے؟ وضاحت کریں۔"
     },
     {
-      "id": 52,
+      "id": 499588,
       "chapter": 13,
       "topic_id": "13.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Ar a particular temperature, the speed of sound in air is . If the wavelength of a sound is 3 cm, calculate the frequency of the sound wave. Is the frequency in the audible range of the human ear?",
-      "ur": "کسی مخصوص ٹمپریچر پر ہوا میں ساؤنڈ کی سپیڈ ہے۔ اگر ساؤنڈ کی ویولینگتھ 3 سینٹی میٹر ہوتو اس کی فریکونسی کیا ہوگی؟ کیا یہ فریکونسی انسانی کان کی سنی جانے والی رینج میں ہے؟"
+      "en": "Ar a particular temperature, the speed of sound in air is <img src=\"/pts-media/equations/10th/phynew-chap4-5.svg\" />. If the wavelength of a sound is 3 cm, calculate the frequency of the sound wave. Is the frequency in the audible range of the human ear?",
+      "ur": "کسی مخصوص ٹمپریچر پر ہوا میں ساؤنڈ کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap4-5.svg\" /> ہے۔ اگر ساؤنڈ کی ویولینگتھ 3 سینٹی میٹر ہوتو اس کی فریکونسی کیا ہوگی؟ کیا یہ فریکونسی انسانی کان کی سنی جانے والی رینج میں ہے؟"
     },
     {
-      "id": 53,
-      "chapter": 13,
-      "topic_id": "13.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define the speed of sound and explain how it is calculated? Discuss the factors that affect the speed of sound in different mediums such as solid, liquids and gases?",
-      "ur": "ساؤنڈ کی سپیڈ کی تعریف کریں اور وضاحت کریں کہ کس طرح اسے کیلکولیٹ کرتے ہیں؟ ان عوامل کی وضاحت کریں جو مختلف میڈیمز جیسے ٹھوس، مائع اور گیس میں ساؤنڈ کی سپیڈ کو متاثر کرتے ہیں۔"
-    },
-    {
-      "id": 54,
-      "chapter": 13,
-      "topic_id": "13.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What are the three primary characteristics of sound that allow us to distinguish between different sound?",
-      "ur": "ساؤنڈ کی بنیادی خصوصیات کون سی ہیں؟ مختلف ساؤنڈز میں کیسے فرق کیا جاتا ہے؟"
-    },
-    {
-      "id": 55,
+      "id": 499584,
       "chapter": 13,
       "topic_id": "13.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does echo occur? Explain.",
       "ur": "ایکو کیسے پیدا ہوتی ہے؟ وضاحت کریں۔"
     },
     {
-      "id": 56,
+      "id": 499593,
       "chapter": 13,
       "topic_id": "13.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A research boat sends a sound wave straight to the seabed and receives the echo 2 seconds later. The speed of sound in seawater is . Find the depth of the sea at this position.",
-      "ur": "ایک ریسرچ بوٹ سمندر کی تہ میں ساؤنڈ ویوز بھجتی ہے اور 2 سیکنڈ بعد ایکو وصول کرتی ہے۔ اگر سمندر کے پانی میں ساؤنڈ کی سپیڈ ہوتو سمندر کی گہرائی کتنی ہوگی؟"
+      "en": "A research boat sends a sound wave straight to the seabed and receives the echo 2 seconds later. The speed of sound in seawater is <img src=\"/pts-media/equations/10th/phynew-chap4-8.svg\" />. Find the depth of the sea at this position.",
+      "ur": "ایک ریسرچ بوٹ سمندر کی تہ میں ساؤنڈ ویوز بھجتی ہے اور 2 سیکنڈ بعد ایکو وصول کرتی ہے۔ اگر سمندر کے پانی میں ساؤنڈ کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap4-8.svg\" /> ہوتو سمندر کی گہرائی کتنی ہوگی؟"
     },
     {
-      "id": 57,
+      "id": 499594,
       "chapter": 13,
       "topic_id": "13.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A person claps his hands near a mountain and hears the echo after 6 seconds. If the speed of sound , what is the distance of the mountain from the person?",
-      "ur": "ایک شخص پہاڑ کے قریب تالی بجاتا ہے اور 6 سیکنڈ بعد ایکو سنتا ہے۔ اگر ساؤنڈ کی سپیڈ ہوتو پہاڑ کا فاصلہ اس شخص سے کتنا ہے؟"
+      "en": "A person claps his hands near a mountain and hears the echo after 6 seconds. If the speed of sound <img src=\"/pts-media/equations/10th/phynew-chap4-9.svg\" />, what is the distance of the mountain from the person?",
+      "ur": "ایک شخص پہاڑ کے قریب تالی بجاتا ہے اور 6 سیکنڈ بعد ایکو سنتا ہے۔ اگر ساؤنڈ کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap4-9.svg\" /> ہوتو پہاڑ کا فاصلہ اس شخص سے کتنا ہے؟"
     },
     {
-      "id": 58,
-      "chapter": 13,
-      "topic_id": "13.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define the reflection of sound and explain the phenomenon of echo with the help of an example.",
-      "ur": "ساؤنڈ کی رفلیکشن سے کیا مراد ہے؟ ایک مثال کی مدد سے ایکو کے عمل کی وضاحت کریں۔"
-    },
-    {
-      "id": 59,
+      "id": 499585,
       "chapter": 13,
       "topic_id": "13.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How do reflection, refraction and diffraction affect the behaviour of sound waves?",
       "ur": "رفلیکشن، رفریکشن اور ڈفریکشن ساؤنڈ ویوز کے طرز عمل پر کیسے اثرانداز ہوتے ہیں؟"
     },
     {
-      "id": 60,
+      "id": 499583,
       "chapter": 13,
       "topic_id": "13.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How do amplitude and frequency , affect the quality of sound? Explain.",
       "ur": "ایمپلی ٹیوڈ اور فریکونسی ساؤنڈ کی کوالٹی کو کیسے متاثر کرتے ہیں؟ وضاحت کریں۔"
     },
     {
-      "id": 61,
+      "id": 499586,
       "chapter": 13,
       "topic_id": "13.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are infrasound and ultrsound, and how are they used in different applications?",
       "ur": "انفراساؤنڈ اور الٹرا ساؤنڈ کیا ہیں اور ان کے مختلف استعمالات کیا ہیں؟"
     },
     {
-      "id": 62,
+      "id": 499591,
       "chapter": 13,
       "topic_id": "13.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A car horn emits a sound with a wavelength of 0.5 m. If the speed of sound in air is , calculate the frequency of the sound produced by the car's horn.",
-      "ur": "ایک کار کا ہارن 0.5 میٹر کی ویو لینگتھ کے ساتھ ساؤنڈ پیدا کرتا ہے۔ اگر ہوا میں ساؤنڈ کی سپیڈ ہوتو کار کے ہارن کی فریکوینسی کیا ہوگی؟"
+      "en": "A car horn emits a sound with a wavelength of 0.5 m. If the speed of sound in air is <img src=\"/pts-media/equations/10th/phynew-chap4-6.svg\" />, calculate the frequency of the sound produced by the car's horn.",
+      "ur": "ایک کار کا ہارن 0.5 میٹر کی ویو لینگتھ کے ساتھ ساؤنڈ پیدا کرتا ہے۔ اگر ہوا میں ساؤنڈ کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap4-6.svg\" /> ہوتو کار کے ہارن کی فریکوینسی کیا ہوگی؟"
     },
     {
-      "id": 63,
-      "chapter": 13,
-      "topic_id": "13.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define ultrasound and explain its various applications?",
-      "ur": "الٹراساؤنڈ کیا ہے؟ الٹراساؤنڈ کے استعمالات بیان کریں؟"
-    },
-    {
-      "id": 64,
-      "chapter": 13,
-      "topic_id": "13.7",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is acoustic protection of buildings and how does building design affect the quality and clarity of sound inside a hall or auditorium?",
-      "ur": "عمارتوں کا صوتی تحفظ کیا ہوتا ہے؟ ساؤنڈ کی کوالٹی اور بہتری کےلیے بڑے ہال اور کانفرنس ہال کی چھتیں کیسے ڈئزائن کی جاتی ہیں؟"
-    },
-    {
-      "id": 65,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Find the image position of an object in a plane mirror with the help of an activity.",
-      "ur": "ایک سرگرمی کی مدد سے پلین مرر میں امیج کی پوزیشن معلوم کریں۔"
-    },
-    {
-      "id": 66,
+      "id": 499636,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the terms, normal, angle of incidence and angle of reflection in the context of light reflection. Provide a diagram to illustrate these terms.",
       "ur": "روشنی کی رفلیکشن کے حوالے سے نارمل، اینگل آف انسیڈنس اور اینگل آف رفلیکشن کی وضاحت کریں۔ وضاحت کرلیے ایک خاکہ بھی بنائیں۔"
     },
     {
-      "id": 67,
+      "id": 499637,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Define the term critical angle and total internal reflection. Explain the conditions required for total internal reflection to occur.",
       "ur": "کریٹیکل اینگل اور ٹوٹل انٹرنل رفلیکشن کی تعریف کریں۔ وہ شرائط بیان کریں جن میں ٹوٹل انٹرنل رفلیکشن ہوتا ہے۔"
     },
     {
-      "id": 68,
+      "id": 499638,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Derive the equation ( n=1 / sin C ) for the refractive index in terms of the critical angle C. Include all steps and assumptions.",
       "ur": "رفریکٹیو انڈکس کےلیے کریٹیکل اینگل کی صورت میں مساوات ( n=1 / sin C ) اخذ کریں۔ تمام مراحل اور مفروضات شامل کریں۔"
     },
     {
-      "id": 69,
+      "id": 499657,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "The speed of light is in water is . calculate the refractive index of water.",
-      "ur": "پانی میں روشنی کی سپیڈ ہے۔ پانی کا رفریکٹیو انڈیکس معلوم کریں۔"
+      "en": "The speed of light is in water is <img src=\"/pts-media/equations/10th/phynew-chap5-2.svg\" />. calculate the refractive index of water.",
+      "ur": "پانی میں روشنی کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap5-2.svg\" /> ہے۔ پانی کا رفریکٹیو انڈیکس معلوم کریں۔"
     },
     {
-      "id": 70,
+      "id": 499662,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A light ray in air strikes a glass surface at an angle of incidence . Find the angle of refraction inside the glass.",
-      "ur": "ہوا میں روشنی کی رے شیشے کی سطح پر کے اینگل آگ انسیڈینس کے ساتھ ٹکراتی ہے۔ گلاس کے اندر اینگل آف ریفریکشن معلوم کریں۔"
+      "en": "A light ray in air <img src=\"/pts-media/equations/10th/phynew-chap5-3.svg\" /> strikes a glass surface <img src=\"/pts-media/equations/10th/phynew-chap5-4.svg\" /> at an angle of incidence <img src=\"/pts-media/equations/10th/phynew-chap5-5.svg\" />. Find the angle of refraction inside the glass.",
+      "ur": "ہوا میں روشنی کی رے <img src=\"/pts-media/equations/10th/phynew-chap5-3.svg\" /> شیشے کی سطح <img src=\"/pts-media/equations/10th/phynew-chap5-4.svg\" /> پر <img src=\"/pts-media/equations/10th/phynew-chap5-5.svg\" /> کے اینگل آگ انسیڈینس کے ساتھ ٹکراتی ہے۔ گلاس کے اندر اینگل آف ریفریکشن معلوم کریں۔"
     },
     {
-      "id": 71,
+      "id": 499663,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A beam of light in air hits hits a glass slab at an incidence angle of . Find the angle of refraction inside the glass.",
-      "ur": "ہوا میں روشنی کی ایک رے کے زاویے پر گلاس کی سلیب پر گرتی ہے۔ سلیب کے اندر اینگل آف رفریکشن معلوم کریں۔"
+      "en": "A beam of light in air hits hits a glass slab at an incidence angle of <img src=\"/pts-media/equations/10th/phynew-chap5-6.svg\" />. Find the angle of refraction inside the glass.",
+      "ur": "ہوا میں روشنی کی ایک رے <img src=\"/pts-media/equations/10th/phynew-chap5-6.svg\" /> کے زاویے پر گلاس کی سلیب پر گرتی ہے۔ سلیب کے اندر اینگل آف رفریکشن معلوم کریں۔"
     },
     {
-      "id": 72,
+      "id": 499666,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A ray of light travels from air into an unknown liquid. The angle of incidence in air is and the angle of refraction in the liquid is . calculate the refraction index of the liquid.",
-      "ur": "روشنی کی ایک رے ہوا سے ایک نامعلوم مائع میں داخل ہوتی ہے۔ ہوا میں اینگل آف انسیڈنس ہے اور مائع میں اینگل آف رفریکشن ہے۔ مائع کا رفریکٹیو انڈیکس معلوم کریں۔"
+      "en": "A ray of light travels from air into an unknown liquid. The angle of incidence in air is <img src=\"/pts-media/equations/10th/phynew-chap5-7.svg\" /> and the angle of refraction in the liquid is <img src=\"/pts-media/equations/10th/phynew-chap5-8.svg\" />. calculate the refraction index of the liquid.",
+      "ur": "روشنی کی ایک رے ہوا سے ایک نامعلوم مائع میں داخل ہوتی ہے۔ ہوا میں اینگل آف انسیڈنس <img src=\"/pts-media/equations/10th/phynew-chap5-7.svg\" /> ہے اور مائع میں اینگل آف رفریکشن <img src=\"/pts-media/equations/10th/phynew-chap5-8.svg\" /> ہے۔ مائع کا رفریکٹیو انڈیکس معلوم کریں۔"
     },
     {
-      "id": 73,
+      "id": 499686,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A ray of light passes from air into a liquid. The angle of incidence in air is and the angle of refraction inside the liquid is . The speed of sound in air is and in the same liquid is . Calculate (a) the refraction index of the liquid (b) the speed of light in the liquid.",
-      "ur": "روشنی کی رے ہوا سے مائع میں جاتی ہے۔ ہوا میں اینگل آف انسڈنس اور مائع میں اینگل آف رفریکشن پے۔ ہوا میں ساؤنڈ کی سپیڈ اور مائع میں ہے۔ مائع کا رفریکٹیو انڈکس اور مائع میں روشنی کی سپیڈ معلوم کریں۔"
+      "en": "A ray of light passes from air into a liquid. The angle of incidence in air is <img src=\"/pts-media/equations/10th/phynew-chap5-9.svg\" /> and the angle of refraction inside the liquid is <img src=\"/pts-media/equations/10th/phynew-chap5-10.svg\" />. The speed of sound in air is <img src=\"/pts-media/equations/10th/phynew-chap5-11.svg\" /> and in the same liquid is <img src=\"/pts-media/equations/10th/phynew-chap5-12.svg\" />. Calculate (a) the refraction index of the liquid (b) the speed of light in the liquid.",
+      "ur": "روشنی کی رے ہوا سے مائع میں جاتی ہے۔ ہوا میں اینگل آف انسڈنس <img src=\"/pts-media/equations/10th/phynew-chap5-9.svg\" /> اور مائع میں اینگل آف رفریکشن <img src=\"/pts-media/equations/10th/phynew-chap5-10.svg\" /> پے۔ ہوا میں ساؤنڈ کی سپیڈ <img src=\"/pts-media/equations/10th/phynew-chap5-11.svg\" /> اور مائع میں <img src=\"/pts-media/equations/10th/phynew-chap5-12.svg\" /> ہے۔ مائع کا رفریکٹیو انڈکس اور مائع میں روشنی کی سپیڈ معلوم کریں۔"
     },
     {
-      "id": 74,
+      "id": 499688,
       "chapter": 14,
       "topic_id": "14.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Light travel inside a glass block of refractive index n = 1.6. It strikes the glass-air boundary. Calculate the critical angle for total internal reflection.",
       "ur": "گلاس میں بلاک میں روشنی سفر کرتی ہے جس کا رفریکٹیو انڈیکس n = 1.6 ہے۔ یہ روشنی گلاس اور ہوا کی باؤنڈری سے ٹکراتی ہے۔ ٹوٹل انٹرنل رفلیکشن کےلیے کریٹیکل اینگل معلوم کریں"
     },
     {
-      "id": 75,
-      "chapter": 14,
-      "topic_id": "14.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define critical angle. Write a briefly note on total internal reflection.",
-      "ur": "کریٹیکل اینگل کی تعریف کریں۔ ٹوٹل انٹڑنل رفلیکشن پر تفصیلی نوٹ لکھیں۔"
-    },
-    {
-      "id": 76,
+      "id": 499640,
       "chapter": 14,
       "topic_id": "14.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the structure of an optical fiber. Write its any two advantages.",
       "ur": "آپٹیکل فائبر کی ساخت بیان کریں۔ اس کے کوئی دو فوائد لکھیں۔"
     },
     {
-      "id": 77,
-      "chapter": 14,
-      "topic_id": "14.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on optical fiber and also write its advantages.",
-      "ur": "آپٹیکل فائبر پر نوٹ لکھیں اور اس کی فائدے بیان کریں۔"
-    },
-    {
-      "id": 78,
+      "id": 499690,
       "chapter": 14,
       "topic_id": "14.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "An object is placed 15.0 cm in front of a convex mirror, forming a virtual image 7.5 cm behind the mirrior. What is the focal length of the mirror?",
       "ur": "ایک جسم کو کنویکس مرر کے سامنے 15.0 سینٹی میٹڑ رکھا گیا ہے۔ امیج ورچوئل اور مرر کے پیچھے 7.5 سینٹی میٹر پر بنتی ہے۔ مرر کی فوکل لینگتھ معلوم کریں۔"
     },
     {
-      "id": 79,
+      "id": 499692,
       "chapter": 14,
       "topic_id": "14.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "An object 30 cm tall is located 10.5 cm from a concave mirror with focal length 16 cm. (a) Where is the image located? (b) How high is it?",
       "ur": "30 سینٹی میٹر لمبا جسم 10.5 سینٹی میٹر کے فاصلے پر کنکیو مرر کے سامنے رکھا گیا ہ، اس کی فوکل لینگتھ 16 سینٹی میٹر ہے۔ (الف) امیج کی پوزیشن کہا واقع ہے؟ (ب) امیج کی اونچائی"
     },
     {
-      "id": 80,
+      "id": 499695,
       "chapter": 14,
       "topic_id": "14.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "An object is placed at 30 cm to the left of the concave lens with focal length -15 cm. Find the image distance and describe the image.",
       "ur": "ایک جسم کو کنکیو لینز کے بائیں جانب 30 سینٹی میٹر پر رکھا گیا ہے جس کی فوکل لینگتھ 15- سینٹی میٹر ہے۔ امیج کا فاصلہ اور اس کی نوعیت معلوم کریں۔"
     },
     {
-      "id": 81,
-      "chapter": 14,
-      "topic_id": "14.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the action of parallel rays on lenses?",
-      "ur": "پیرالل ریز پر لینز کا عمل بیان کریں۔"
-    },
-    {
-      "id": 82,
-      "chapter": 14,
-      "topic_id": "14.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How real image is formed by converging lenses? Explain by diagram.",
-      "ur": "کنورجنگ لینز میں رئیل امیج کیسے بنتا ہے۔ ڈایا گرام سے وضاحت کریں۔"
-    },
-    {
-      "id": 83,
-      "chapter": 14,
-      "topic_id": "14.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define optical devices. write type of glass/lenses are used in optical device. Describe with example.",
-      "ur": "آپٹیکل ڈیوائسیز کی وضاحت کریں۔ آپٹیکل ڈیوائیسز میں استعمال ہونے والے گلاس کی قسم لکھیں۔ مثالوں سے وضاحت کریں۔"
-    },
-    {
-      "id": 84,
+      "id": 499641,
       "chapter": 14,
       "topic_id": "14.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is long-sightedness? Discuss its causes.",
       "ur": "بعید نظری کیا ہے؟ اس کی وجوہات بیان کریں۔"
     },
     {
-      "id": 85,
-      "chapter": 14,
-      "topic_id": "14.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How myopia and hypermetropia occurs? Write their treatment.",
-      "ur": "قریب اور بعیدی نظری کیسے ہوتی ہیں؟ ان کا علاج لکھیں۔"
-    },
-    {
-      "id": 86,
-      "chapter": 14,
-      "topic_id": "14.7",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the concept of gravitational lensing and Acoustic lens.",
-      "ur": "گریوی ٹیشنل لینزنگ اور آکو سٹک لینز کے تصورات کی وضاحت کریں۔"
-    },
-    {
-      "id": 87,
-      "chapter": 14,
-      "topic_id": "14.8",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain dispersion of light by prism?",
-      "ur": "پرزم کے ذریعے روشنی کی ڈسپرشن کی وضاحت کریں۔"
-    },
-    {
-      "id": 88,
+      "id": 499893,
       "chapter": 15,
       "topic_id": "15.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Two identical charges repel each other with a force of 0.2 N when they are 9 cm apart. Find the force between them when they are 3 cm apart.",
       "ur": "دو پوائنٹ چارجز جو 9 سینٹی میٹر فاصلے پر ہیں وہ 0.2 N کی فورس سے ایک دوسرے کو دفع کرتے ہیں۔ ان چارجز کے درمیان فورس معلوم کریں جب وہ 3 سینٹی میٹر کے فاصلے پر ہوں۔"
     },
     {
-      "id": 89,
+      "id": 499906,
       "chapter": 15,
       "topic_id": "15.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A force of 85 N acts between two charges placed 3.2 cm apart. If one charge is detemine the other charge.",
-      "ur": "3.2 سینٹی میٹر فاصلے پر رکھے گئے دو چارجز پر 85 N فورس لگ رہے ہے۔ اگر ایک چارج ہوتو دوسرے چارج کی مقدار معلوم کریں۔"
+      "en": "A force of 85 N acts between two charges placed 3.2 cm apart. If one charge is <img src=\"/pts-media/equations/10th/phynew-chap6-6.svg\" /> detemine the other charge.",
+      "ur": "3.2 سینٹی میٹر فاصلے پر رکھے گئے دو چارجز پر 85 N فورس لگ رہے ہے۔ اگر ایک چارج <img src=\"/pts-media/equations/10th/phynew-chap6-6.svg\" /> ہوتو دوسرے چارج کی مقدار معلوم کریں۔"
     },
     {
-      "id": 90,
-      "chapter": 15,
-      "topic_id": "15.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How charge produced on a body by rubbing?",
-      "ur": "رگڑنے سے جسم پر چارج کیسے پیدا ہوتا ہے؟"
-    },
-    {
-      "id": 91,
+      "id": 499751,
       "chapter": 15,
       "topic_id": "15.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Discuss the working of a gold leaf electroscope. How can it be used to determine the nature and magnitude of charge on a body?",
       "ur": "گولڈ لیف الیکٹروسکوپ کا اصول بیان کریں۔ یہ کس طرح جسم کے چارج کی نوعیت اور مقدار معلوم کرنے کےلیے استعمال کیا جاتا ہے؟"
     },
     {
-      "id": 92,
+      "id": 499896,
       "chapter": 15,
       "topic_id": "15.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Two small equally charged metal spheres having charge are brought close together such that the distance between them is 2.0 cm. Calculate the magnitude of repulsive force that each sphere exerts on the other.",
-      "ur": "دو چھوٹے میٹل سفئیرز ایک جتنے چارج کیے گئے ہیں جب پر چارج موجود ہے، ایک دوسرے سے 2 سینٹی میٹر دور رکھے گئے ہیں۔ وہ ایک دوسرے پر کتنی دفع کی فورس لگاتے ہیں؟"
+      "en": "Two small equally charged metal spheres having charge <img src=\"/pts-media/equations/10th/phynew-chap6-5.svg\" /> are brought close together such that the distance between them is 2.0 cm. Calculate the magnitude of repulsive force that each sphere exerts on the other.",
+      "ur": "دو چھوٹے میٹل سفئیرز ایک جتنے چارج کیے گئے ہیں جب پر <img src=\"/pts-media/equations/10th/phynew-chap6-5.svg\" /> چارج موجود ہے، ایک دوسرے سے 2 سینٹی میٹر دور رکھے گئے ہیں۔ وہ ایک دوسرے پر کتنی دفع کی فورس لگاتے ہیں؟"
     },
     {
-      "id": 93,
+      "id": 499902,
       "chapter": 15,
       "topic_id": "15.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Two small equally charged metal spheres repel each other with a force of 0.5 N when placed 3 cm apart in the air. Calculate the charge on each sphere.",
       "ur": "ایک دو چھوٹے ایک جتنے چارج کیے گئے میٹل سفئیرز 3 سینٹی میٹر فاصلے پر ہوا میں موجود ہوں تو ایک دوسرے کو 5N فور سے دور دھکیلتے ہیں۔ ہر سفئیر پر چارج معلوم کریں۔"
     },
     {
-      "id": 94,
-      "chapter": 15,
-      "topic_id": "15.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain phenomenon of electrostatic induction by some experiments.",
-      "ur": "کچھ تجربات کی مدد سے الیکٹروسٹیٹک کے مظہر کی وضاحت کریں۔"
-    },
-    {
-      "id": 95,
-      "chapter": 15,
-      "topic_id": "15.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe the method charging bodies by induction and earthing.",
-      "ur": "انڈکشن اور ارتھنگ کے ذریعے اجسام کو چارج کرنے کا طریقہ بیان کریں۔"
-    },
-    {
-      "id": 96,
+      "id": 499755,
       "chapter": 15,
       "topic_id": "15.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Discuss how electrostatics plays a role in real-life hazards, such as dust explosions in factories and static shocks from synthetic clothing. How can these hazards be minimized?",
       "ur": "فیکٹریوں میں دُھول کے دھماکے، مصنوعی کپڑوں کے جامد جھٹکے وغیرہ جیسے حقیقی خطرات میں الیکٹروسٹیٹکس کا کیا کردار ہے؟ ان خطرات کو کیسے کم کیا جاسکتا ہے؟"
     },
     {
-      "id": 97,
-      "chapter": 15,
-      "topic_id": "15.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on photocopier. Write about its working principal.",
-      "ur": "فوٹو کاپی مشین پر نوٹ لکھیں اور اس کے کام کرنے کا اصول لکھیں۔"
-    },
-    {
-      "id": 98,
+      "id": 499752,
       "chapter": 15,
       "topic_id": "15.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does Coulomb's law help in understanding the interaction between charged particles? What factors affect the force between them?",
       "ur": "کولمب کا قانون چارجڈ پارٹیکلز کے درمیان باہمی عمل کو سمجھنے میں کیسے مدد دیتا ہے؟ فورس کا انحصار کن عوامل پرہوتا ہے؟"
     },
     {
-      "id": 99,
+      "id": 499892,
       "chapter": 15,
       "topic_id": "15.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Two point charge and are placed at a ditance of 120 cm. What will be the Coulomb's force between them? Also, Find the nature of the force.",
-      "ur": "دو پوائنٹ چارجز اور کو 120 سینٹی میٹر کے فاصلے پر رکھا گیا ہے۔ ان کے درمیان کولمب کی فورس معلوم کریں اور فورس کی نوعیت بھی بتائیں۔"
+      "en": "Two point charge <img src=\"/pts-media/equations/10th/phynew-chap6-2.svg\" /> and <img src=\"/pts-media/equations/10th/phynew-chap6-3.svg\" /> are placed at a ditance of 120 cm. What will be the Coulomb's force between them? Also, Find the nature of the force.",
+      "ur": "دو پوائنٹ چارجز <img src=\"/pts-media/equations/10th/phynew-chap6-2.svg\" /> اور <img src=\"/pts-media/equations/10th/phynew-chap6-3.svg\" /> کو 120 سینٹی میٹر کے فاصلے پر رکھا گیا ہے۔ ان کے درمیان کولمب کی فورس معلوم کریں اور فورس کی نوعیت بھی بتائیں۔"
     },
     {
-      "id": 100,
+      "id": 499753,
       "chapter": 15,
       "topic_id": "15.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the concept of electric field intensity. How can the electric field of a point charge and a parallel plate capacitor be represented using field lines?",
       "ur": "الیکٹرک فیلڈ ایٹنسٹی کے تصور کی وضاحت کریں۔ کسی پوائنٹ چارج اور متوازی پلیٹوں والے کپیسٹرز کا الیکٹرک فیلڈ، ریلڈ لائنز کی مدد سے کیسے ظاہر کیا جاسکتا ہے؟"
     },
     {
-      "id": 101,
+      "id": 499756,
       "chapter": 15,
       "topic_id": "15.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A positive test charge of is placed in an electric field. The force on it is 0.500 N. What is the magnitude of the electric field at location of the test charge.",
-      "ur": "ایک پوزیٹیو ٹیسٹ چارج کو ایک الیکٹرک فیلڈ میں رکھا گیا ہے۔ اس پر 0.500 N کی فورس لگتی ہے۔ ٹیسٹ چارج کے مقام پر الیکٹرک کی فورس لگتی ہے۔ ٹیسٹ چارج کے مقام پر الیکٹرک فیلڈ کی مقدار معلوم کریں۔"
+      "en": "A positive test charge of <img src=\"/pts-media/equations/10th/phynew-chap6-1.svg\" style=\"width: 27px; height: 22px;\" /> is placed in an electric field. The force on it is 0.500 N. What is the magnitude of the electric field at location of the test charge.",
+      "ur": "ایک <img src=\"/pts-media/equations/10th/phynew-chap6-1.svg\" style=\"width: 27px; height: 22px;\" /> پوزیٹیو ٹیسٹ چارج کو ایک الیکٹرک فیلڈ میں رکھا گیا ہے۔ اس پر 0.500 N کی فورس لگتی ہے۔ ٹیسٹ چارج کے مقام پر الیکٹرک کی فورس لگتی ہے۔ ٹیسٹ چارج کے مقام پر الیکٹرک فیلڈ کی مقدار معلوم کریں۔"
     },
     {
-      "id": 102,
+      "id": 499894,
       "chapter": 15,
       "topic_id": "15.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A point charge is placed in air. Calculate the electrin field strength at a distance of 0.5 metres from the charge.",
-      "ur": "ایک پوائنٹ ہوا میں رکھا گیا ہے۔ چارج سے 0.5 میٹر کے فاصلے پر الیکٹرک فیلڈ کی طاقت معلوم کریں۔"
+      "en": "A point charge <img src=\"/pts-media/equations/10th/phynew-chap6-4.svg\" /> is placed in air. Calculate the electrin field strength at a distance of 0.5 metres from the charge.",
+      "ur": "ایک پوائنٹ <img src=\"/pts-media/equations/10th/phynew-chap6-4.svg\" /> ہوا میں رکھا گیا ہے۔ چارج سے 0.5 میٹر کے فاصلے پر الیکٹرک فیلڈ کی طاقت معلوم کریں۔"
     },
     {
-      "id": 103,
-      "chapter": 15,
-      "topic_id": "15.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What are electric field lines or electric line of forces? Briefly explain for different situations.",
-      "ur": "الیکٹرک فیلڈ لائنز یا الیکٹرک لائن آف فورسز کیا ہیں؟ مختلف علامات میں وضاحت کریں۔"
-    },
-    {
-      "id": 104,
+      "id": 499754,
       "chapter": 15,
       "topic_id": "15.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how and why electrical conductors and insulators behave differently in terms of charge transfer and movement of electrons.",
       "ur": "وضاحت کریں کہ الیکٹریکل کنڈکٹرز اور انسولیٹرز کا طرز عمل چارج کے انتقال اور الیکٹرانز کی حرکت کے لحاظ سے کیسے مختلف ہوتا ہے؟"
     },
     {
-      "id": 105,
-      "chapter": 15,
-      "topic_id": "15.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain how and why electrical conductors and insulators behave differently in terms of charge tranfer and movement of electrons.",
-      "ur": "وضاحت کریں کہ الیکٹریکل کنڈکٹرز اور انسولیٹر چارج کی منتقلی اور الیکٹرون کی حرکت کے معاملے میں کیسے اور کیوں مختلف طریقے سے برتاؤ کرتے ہیں؟"
-    },
-    {
-      "id": 106,
-      "chapter": 15,
-      "topic_id": "15.7",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "When electrical breakdown occurs? Explain in details.",
-      "ur": "الیکٹریکل بریک ڈاؤں کب ہوتا ہے؟ تفصیل سے وضاحت کریں۔"
-    },
-    {
-      "id": 107,
+      "id": 499935,
       "chapter": 16,
       "topic_id": "16.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the concept of electric current. How is it related to the movement of charges, and how is it measured in a circuit?",
       "ur": "الیکٹرک کرنٹ کے تصور کو بیان کریں۔ اس کا چارجز کی حرکت سے کیا تعلق ہے اور سرکٹ میں اس کی پیمائش کیسے کی جاتی ہے؟"
     },
     {
-      "id": 108,
+      "id": 499949,
       "chapter": 16,
       "topic_id": "16.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A charge of 25 coulombs passes through a circuit in 10 seconds. Calculate the current flowing through the circuit.",
       "ur": "25 C چارج 10 s میں سرکٹ سے گزرتا ہے۔ سرکٹ میں بہنے والا کرنٹ معلوم کریں۔"
     },
     {
-      "id": 109,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is electric current? How electric current is different from conventional current?",
-      "ur": "الیکٹرک کرنٹ کیا ہے؟ الیکٹرک کرنٹ کنوینشل کرنٹ سے کس طرح مختلف ہے؟"
-    },
-    {
-      "id": 110,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How Ammeter is helpul measuring the elctric current? Also write its types.",
-      "ur": "ایمیٹر کس طرح الیکٹرک کرنٹ کی پیمائش میں مدرگار ہے؟ اس کی اقسام لکھیں۔"
-    },
-    {
-      "id": 111,
+      "id": 499936,
       "chapter": 16,
       "topic_id": "16.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Define electromotive force (e.m.f) and potential difference. How does a battery create a potential difference, and what is the role of e.m.f in maintaining the flow of current?",
       "ur": "الیکٹرو موٹیو فورس اور پوٹینشل ڈفرینس کی تعریف کریں۔ بیٹری پوٹینشل ڈیفرینس کیسے پیدا کرتی ہے اور کرنٹ کے بہاؤ کو برقرار رکھنے میں ای۔ ایم۔ایف کا کیا کردار ہے؟"
     },
     {
-      "id": 112,
+      "id": 499938,
       "chapter": 16,
       "topic_id": "16.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Differentiate between series and parallel combinations of resistors. Provide mathematical expressions for calculating the total resistance in both types of circuits.",
       "ur": "رزسٹرز کی سیریز اور پیرالل جوڑ میں فرق واضح کریں ۔ دونوں صورتوں میں کل رزسٹنس معلوم کرنے کی مساواتیں لکھیں۔"
     },
     {
-      "id": 113,
+      "id": 500020,
       "chapter": 16,
       "topic_id": "16.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Four 1.5 V batteries are connected in series in a flashlight. Determine the total electromotive force (e.m.f) supplied to the circuit.",
       "ur": "ایک ٹارچ میں 1.5 V کی بیٹریاں سیریز میں جوڑی گئی ہیں۔ سرکٹ کو ملنے والی کل الیکٹروموٹیو فورس معلوم کریں۔"
     },
     {
-      "id": 114,
-      "chapter": 16,
-      "topic_id": "16.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How (EMF) electromotive force and potential difference (P.D) are interrelated?",
-      "ur": "الیکٹروموٹیو فورس اور پوٹینشل ڈفرینس دونوں ایک دوسرے سے کس طرح ملتے جلتے ہیں؟"
-    },
-    {
-      "id": 115,
+      "id": 499937,
       "chapter": 16,
       "topic_id": "16.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "State and explain Ohm's law. How does the resistance of a conductor affect the flow of current, and how can Ohm's law be applied in practical electrical circuits?",
       "ur": "اوہم کا قانون بیان کریں اور وضاحت کریں کہ کسی کنڈکٹر کی رزسٹنس کرنٹ کے بہاؤ کو کیسے متاثر کرتی ہے اور عملی الیکٹرک سرکٹس میں اوہم کے قانون کو کیسے استعمال کیا جاتا ہے؟"
     },
     {
-      "id": 116,
+      "id": 499999,
       "chapter": 16,
       "topic_id": "16.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Three resistors and are connected in series to a 24 V battery. Find the total resistance and the current flowing through the circuit.",
-      "ur": "اور کے تین رزسٹرز 24 V کی بیٹری کے ساتھ سیریز میں جوڑے گئے ہیں۔ کل رزسٹنس اور سرکٹ میں بہنے والا کرنٹ معلوم کریں۔"
+      "en": "Three resistors <img src=\"/pts-media/equations/10th/phynew-chap7-2.svg\" /> and <img src=\"/pts-media/equations/10th/phynew-chap7-3.svg\" /> are connected in series to a 24 V battery. Find the total resistance and the current flowing through the circuit.",
+      "ur": "<img src=\"/pts-media/equations/10th/phynew-chap7-2.svg\" /> اور<img src=\"/pts-media/equations/10th/phynew-chap7-3.svg\" /> کے تین رزسٹرز 24 V کی بیٹری کے ساتھ سیریز میں جوڑے گئے ہیں۔ کل رزسٹنس اور سرکٹ میں بہنے والا کرنٹ معلوم کریں۔"
     },
     {
-      "id": 117,
+      "id": 500000,
       "chapter": 16,
       "topic_id": "16.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Two resistors of and are connected in parallel across a 20 V power supply. Calculate the total resistance and the current drawn from the power supply.",
-      "ur": "اور کے دو رزسٹرز 20 V پاور سپلائی کے ساتھ پیرالل میں جوڑے گئے ہیں۔ کل رزسٹنس اور پاور سپلائی سے لیا جانے والا کرنٹ معلوم کریں۔"
+      "en": "Two resistors of <img src=\"/pts-media/equations/10th/phynew-chap7-4.svg\" /> and <img src=\"/pts-media/equations/10th/phynew-chap7-5.svg\" /> are connected in parallel across a 20 V power supply. Calculate the total resistance and the current drawn from the power supply.",
+      "ur": "<img src=\"/pts-media/equations/10th/phynew-chap7-4.svg\" /> اور <img src=\"/pts-media/equations/10th/phynew-chap7-5.svg\" /> کے دو رزسٹرز 20 V پاور سپلائی کے ساتھ پیرالل میں جوڑے گئے ہیں۔ کل رزسٹنس اور پاور سپلائی سے لیا جانے والا کرنٹ معلوم کریں۔"
     },
     {
-      "id": 118,
+      "id": 500021,
       "chapter": 16,
       "topic_id": "16.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A circuit has a 5 A current passing thorough a resistor. Calculate the power dissipated in the resistor and the energy consumed in 10 minutes.",
+      "en": "A circuit has a 5 A current passing thorough a <img src=\"/pts-media/equations/10th/phynew-chap7-6.svg\" /> resistor. Calculate the power dissipated in the resistor and the energy consumed in 10 minutes.",
       "ur": "ایک سرکٹ میں 5 A کرنٹ 7 رزسٹر سے گزررہا ہے۔ اس رزسٹر میں ضائع ہونے والی پاور اور 10 منٹ میں خرچ ہونے والی انرجی معلوم کریں۔"
     },
     {
-      "id": 119,
-      "chapter": 16,
-      "topic_id": "16.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Determine the equivalent resistance of series combination.",
-      "ur": "سیریز طریقے سے جوڑے گئے رزسٹرز کی مساوی رزسٹنس معلوم کریں۔"
-    },
-    {
-      "id": 120,
+      "id": 499940,
       "chapter": 16,
       "topic_id": "16.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is meant by resistivity of a meterial? How does it depend on the material, and what role does temperature play in changing the resistivity of conductors and semiconductors?",
       "ur": "کسی میٹریلی کی رزسٹیویٹی سے کیا مراد ہے؟ یہ میٹریلز کی نوعیت پر کیسے منحصر ہوتی ہے اور ٹمپریچر کنڈکٹرز اور سیمی کنڈکٹرز کی رزسٹیویٹی کو کیسے متاثر کرتا ہے؟"
     },
     {
-      "id": 121,
-      "chapter": 16,
-      "topic_id": "16.9",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "State Joule's Law and derive its formula.",
-      "ur": "جول کا قانون بیان کریں اور اس کا فارمولا اخذ کریں۔"
-    },
-    {
-      "id": 122,
+      "id": 500070,
       "chapter": 17,
       "topic_id": "17.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain the concept of the right-hand grip rule and how it helps determin the dirction of the magnetic field around a current-carrying conductor.",
       "ur": "دائیں ہاتھ کا گرپ رول بیان کریں اور بتائیں کہ یہ کرنٹ بردار کنڈکٹر کے گرد میگنیٹک فیلڈ کی سمت معلوم کرنے میں کیسے مدد کرتا ہے؟"
     },
     {
-      "id": 123,
+      "id": 500071,
       "chapter": 17,
       "topic_id": "17.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe and experiment that demonstrates the magnetic field produced by a current-carrying conductor using a compass or iron filings.",
       "ur": "ایک ایسا تجربہ بیان کریں جو یہ ظاہر کرتا ہے کہ کمپاس یا آئرن فلنگ استعمال کرکے کرنٹ بردار کا میگنیٹک فیلڈ دکھایا جاسکتا ہے۔"
     },
     {
-      "id": 124,
+      "id": 500072,
       "chapter": 17,
       "topic_id": "17.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Discuss the theory behind the Earth's magnetic field and the role of the Earth's molten core in generating it.",
       "ur": "زمین کے میگنیٹک فیلڈ کے پس پردہ نظریے اور زمین کے پگھلے ہوئے مرکزی حصے کے کردار پر بحث کریں۔"
     },
     {
-      "id": 125,
-      "chapter": 17,
-      "topic_id": "17.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What are the magnetic effect of steady current? Also explain right hand rule.",
-      "ur": "مستقل کرنٹ کے میگنیٹک اثرات کیا ہیں؟ نیز دائیں ہاتھ کا اصول بیان کریں۔"
-    },
-    {
-      "id": 126,
-      "chapter": 17,
-      "topic_id": "17.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Describe an experiment to show that when a straight current carrying conductor is placed in magnetic field, it experience a force. Also state rule by which this force can be determine.",
-      "ur": "ایک تجربے کی مدد سے ثابت کریں میگنیٹک فیلڈ میں کرنٹ بردار کنڈکٹر پر فورس لگتی ہے۔ وہ اصول بیان کریں۔ جس سے یہ فورس معلوم کی جاسکتی ہے؟"
-    },
-    {
-      "id": 127,
+      "id": 500069,
       "chapter": 17,
       "topic_id": "17.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How is the magnetic field created around a current-carrying wire, and what factors affect its strength?",
       "ur": "کرنٹ بردار تار کے گرد میگنیٹک فیلڈ کیسے بنتا ہے اور اس کی طاقت کن عوامل پر منحصر ہوتی ہے؟"
     },
     {
-      "id": 128,
-      "chapter": 17,
-      "topic_id": "17.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How current carrying coil rotate in a magnetic field?",
-      "ur": "کرنٹ پردار کوائل کیسے میگنیٹک فیلڈ میں گھومتی ہے؟"
-    },
-    {
-      "id": 129,
-      "chapter": 17,
-      "topic_id": "17.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is a 'couple' in a current-carrying coil and what does it cause?",
-      "ur": "کرنٹ گزارنے والی کوائل میں 'کپل' (Couple) سے کیا مراد ہے اور یہ کس چیز کا سبب بنتا ہے؟"
-    },
-    {
-      "id": 130,
-      "chapter": 17,
-      "topic_id": "17.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "List three ways by which the turning effect on a coil can be made stronger and more efficient.",
-      "ur": "ان تین طریقوں کی فہرست بنائیں جن کی مدد سے کوائل پر ٹرننگ ایفیکٹ کو زیادہ طاقتور اور کارآمد بنایا جا سکتا ہے۔"
-    },
-    {
-      "id": 131,
-      "chapter": 17,
-      "topic_id": "17.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write a note on D.C motor.",
-      "ur": "ڈی سی پر نوٹ تحریر کریں۔"
-    },
-    {
-      "id": 132,
-      "chapter": 17,
-      "topic_id": "17.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write about use of magnetic effects of current.",
-      "ur": "کرنٹ کے میگنیٹک کے اثرات کا استعمال لکھیں۔"
-    },
-    {
-      "id": 133,
-      "chapter": 17,
-      "topic_id": "17.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write about Earth's magnetic field?",
-      "ur": "زمین کے میگنیٹک فیلڈ پر نوٹ لکھیں۔"
-    },
-    {
-      "id": 134,
+      "id": 500131,
       "chapter": 18,
       "topic_id": "18.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe how Lenz's law supports the law of conservation of energy. Give one real-life example to support your explanation.",
       "ur": "وضاحت کریں کہ لینز کا قانون انرجی کنزرویشن کے قانون کس طرح ثابت کرتا ہے۔ اپنی وضاحت کےلیے ایک عملی مثال دیں۔"
     },
     {
-      "id": 135,
+      "id": 500149,
       "chapter": 18,
       "topic_id": "18.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A coil consisting of 50 tightly wound turns experience a change in magnetic flux from 0.3 Wb to 0.8 Wb over a time interval of 0.4 s. Determine the average induced electromotive force (e.m.f) generated in the coil during this time.",
       "ur": "ایک کوائل جس میں 50 مضبوطی سے لپٹی ہوئی ٹرنز ہیں، اس میں میگنیٹک فلکس 0.3 wb. سے بڑھ کر 0.8 wb ہوجاتی ہے، جبکہ وقت 0.4 s ہے۔ کوائل میں پیدا ہونے والی اوسط انڈیوسڈ ای ایم ایف معلوم کریں۔"
     },
     {
-      "id": 136,
+      "id": 500176,
       "chapter": 18,
       "topic_id": "18.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "A circular loop of radius 0.2 m and resistance is placed perpendicular to a magnetic field of 0.5 T. If the field drops to zero in 0.1 s: calculate (a) The induced emf (b) The induced current and its direction (assuming the field points into the page?",
-      "ur": "0.2 ریڈیس اور رزسٹنس والا ایک گول لوپ 0.5 T کے میگنیٹک فیلڈ کے عمودا رکھا گیا ہے۔ اگر فیلڈ 0.1 s میں صفر ہوجائے تو معلوم کریں۔ (الف) انڈیوسڈ ای ایم ایف (ب) انڈیوسڈ کرنٹ اور اس کی سمت (فرض کریں فیلڈ پیپر کے اندر کی طرف ہے)"
+      "en": "A circular loop of radius 0.2 m and resistance <img src=\"/pts-media/equations/10th/phynew-chap9-1.svg\" /> is placed perpendicular to a magnetic field of 0.5 T. If the field drops to zero in 0.1 s: calculate (a) The induced emf (b) The induced current and its direction (assuming the field points into the page?",
+      "ur": "0.2 ریڈیس اور<img src=\"/pts-media/equations/10th/phynew-chap9-1.svg\" /> رزسٹنس والا ایک گول لوپ 0.5 T کے میگنیٹک فیلڈ کے عمودا رکھا گیا ہے۔ اگر فیلڈ 0.1 s میں صفر ہوجائے تو معلوم کریں۔ (الف) انڈیوسڈ ای ایم ایف (ب) انڈیوسڈ کرنٹ اور اس کی سمت (فرض کریں فیلڈ پیپر کے اندر کی طرف ہے)"
     },
     {
-      "id": 137,
-      "chapter": 18,
-      "topic_id": "18.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain different ways to produce induced e.m.f.",
-      "ur": "ای ایم ایف پیدا کرنے کے مختلف طریقوں کی وضاحت کریں۔"
-    },
-    {
-      "id": 138,
-      "chapter": 18,
-      "topic_id": "18.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is A.C generator? Explain how it is works?",
-      "ur": "اے سی جنریٹر کیا ہے/ وضاحت کریں یہ کیسے کام کرتا ہے؟"
-    },
-    {
-      "id": 139,
+      "id": 500133,
       "chapter": 18,
       "topic_id": "18.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Compare step-up and step-down transformers. Include the difference in number of turns, voltage output, and where is each used.",
       "ur": "سٹیپ اپ اور سٹیپ ڈاؤن ٹرانسفارمر کا موازنہ کریں۔ ٹرنز کی تعداد، وولٹج اور یہ فرق بھی شامل کریں کہ ہر ایک کہاں استعمال ہوتا ہے؟"
     },
     {
-      "id": 140,
+      "id": 500183,
       "chapter": 18,
       "topic_id": "18.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A transformer has 500 primary turns and 100 secondary turns. If the primary voltage is 220 V, find (a) secondary voltage (b) is this a step-up or step-down transformer?",
       "ur": "ایک ٹرانسفارمر میں پرائمری ٹرنز کی تعداد 500 اور سکینڈری ٹرنز کی تعداد 100 ہے۔ اگر پرائمری وولٹیج 220 V ہوتو معلوم کریں۔ (الف) سکینڈری وولٹج (ب) یہ ٹرانسفارمر سٹیپ ہے یا سٹیپ ڈاؤن؟"
     },
     {
-      "id": 141,
+      "id": 500190,
       "chapter": 18,
       "topic_id": "18.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A step-up transformer has a turns ratio of 2:100. If an alternating voltage of 25 V is applied to the primary coil, what will be the secondary voltage?",
       "ur": "ایک سٹیپ اپ ٹرانسفارمر میں ٹرنز کا تناسب 2:100 ہے۔ اگر پرائمری کوائل پر 25 V لگائی جائے تو سکینڈری وولٹج کیا ہوگی؟"
     },
     {
-      "id": 142,
+      "id": 500196,
       "chapter": 18,
       "topic_id": "18.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A step-down transformer has a turns of 100:5. If an A.C votage of 190 V is applied to the primary coil, What is the voltage across the secondary coil?",
       "ur": "ایک سٹیپ ڈاؤن ٹرانسفارمر میں ترنز کا تناسب 100:5 ہے۔ اگر پرائمری کوائل پر اے سی 190 V وولٹج لگائی جائے تو سکینڈری کوائل میں سے گزرنے والی وولٹج معلوم کریں۔"
     },
     {
-      "id": 143,
-      "chapter": 18,
-      "topic_id": "18.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the types of transformers.",
-      "ur": "ٹرانسفارمر کی اقسام کی وضاحت کریں۔"
-    },
-    {
-      "id": 144,
+      "id": 500140,
       "chapter": 18,
       "topic_id": "18.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is the shape of the path followed by an electron when it moves at right angles to a uniform magnetic field? Explain why.",
       "ur": "جب کوئی الیکٹرون یونیفارم میگنیٹک فیلڈ کے عمودا حرکت کرے تو اس کا راستہ کس شکل کا ہوتا ہے؟ وجہ بیان کریں۔"
     },
     {
-      "id": 145,
+      "id": 500136,
       "chapter": 18,
       "topic_id": "18.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is an oscilloscope and how does it help in analyzing electric signals? Describes its main components.",
       "ur": "اوسیلو سکوپ کیا ہے؟ یہ الیکٹریکل سگنلز کے تجربے میں کیسے مدد دیتا ہے؟ اس کے بنیادی حصوں کی وضاحت کریں۔"
     },
     {
-      "id": 146,
-      "chapter": 18,
-      "topic_id": "18.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is Cathode Ray Oscilloscope CRO? Explain its construction and how it work?",
-      "ur": "کیتھوڈ دے اوسیلو سکوپ کیا ہے؟ اس کی ساخت بیان کریں اور یہ کیسے کام کرتی ہے؟"
-    },
-    {
-      "id": 147,
+      "id": 500134,
       "chapter": 18,
       "topic_id": "18.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does the scattering of sunlight cause the sky to appear blue during the day and red at sunset? Explain.",
       "ur": "وضاحت کریں کہ سورج کی روشنی کی ڈسپریشن کی وجہ سے دن میں آسمان بیلا اور شامل کے وقت سرخ کیوں دکھائی دیتا ہے؟"
     },
     {
-      "id": 148,
+      "id": 500281,
       "chapter": 19,
       "topic_id": "19.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how the depletion region of a diode changes in forward and reverse bias. What effect does this have on current flow?",
       "ur": "فاروڈ اور ریورس بائس میں ڈائیوڈ کے ڈیپلیشن ریجن میں کیا تبدیلی آتی ہے؟ اس کا کرنٹ کے بہاؤ پر کیا اثر ہوتا ہے؟"
     },
     {
-      "id": 149,
+      "id": 500282,
       "chapter": 19,
       "topic_id": "19.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe how an LED produces light. Also explain how the type of semiconductor material affects the colour of the light.",
       "ur": "LED روشنی کیسے پیدا کرتی ہے؟ نیز یہ بھی بیان کریں کہ سیمی کنڈکٹر مٹیریلز کی قسم روشنی کے رنگ کوکیسے متاثر کرتی ہے؟"
     },
     {
-      "id": 150,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain the working of semiconductor Diode.",
-      "ur": "سیمی کنڈکٹر ڈائیوڈ کا طریقہ کی وضاحت کریں۔"
-    },
-    {
-      "id": 151,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is light-emitting diode? Also explain about the semi-conductor device.",
-      "ur": "لائٹ ایمٹنگ ڈائیوڈ کیا ہے؟ نیز سیمی کنڈکٹر ڈایوئس کی وضاحت کریں۔"
-    },
-    {
-      "id": 152,
-      "chapter": 19,
-      "topic_id": "19.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is analog and digital electronics? How it works together?",
-      "ur": "اینا لاگ اور ڈیجیٹل الیکٹرونکس کیا ہیں؟ اینا لاگ اور ڈیجیٹل الیکٹرونکس میں فرق بیان کریں یہ اکٹھے کیسے کام کرتے ہیں؟"
-    },
-    {
-      "id": 153,
+      "id": 500286,
       "chapter": 19,
       "topic_id": "19.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What is Boolean logic? Discuss its importance in solving complex digital problems with examples.",
       "ur": "بولیئن لاجک کیا ہے؟ مثالوں سے پچیدہ اور ڈیجیٹل مسائل کے حل کرنے میں اس کی اہمیت بیان کریں۔"
     },
     {
-      "id": 154,
-      "chapter": 19,
-      "topic_id": "19.3",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is boolean logic? Also explain about Boolean algebra and its uses.",
-      "ur": "بولیئن لاجھ کیا ہے؟ نیز بولیئن الجبرا کی وضاحت کریں اور اس کے استعمالات تحریر کریں۔"
-    },
-    {
-      "id": 155,
+      "id": 500291,
       "chapter": 19,
       "topic_id": "19.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are logic gates? Describe thw working of NAND and OR gate with the help of truth tables and circuit symbols.",
       "ur": "لاجک گیٹس کیا ہیں؟ نینڈ اور آرگیٹس کے کام کو ٹروتھ ٹیبلز اور سرکٹ سمبلز کی مدد سے بیان کریں۔"
     },
     {
-      "id": 156,
+      "id": 500292,
       "chapter": 19,
       "topic_id": "19.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does a NOR gate work, and how can it be used to build other basic logic gates?",
       "ur": "نار گیٹ کیسے کام کرتا ہے؟ اور اسے دیگر بنیادی لاجک گیٹس بنانے کےلیے کیا استعمال کیا جاسکتا ہے؟"
     },
     {
-      "id": 157,
+      "id": 500293,
       "chapter": 19,
       "topic_id": "19.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How can a burglar alarm be designed using a NAND gate and an LDR? Explain.",
       "ur": "نینڈ گیٹ اور LED کی مدد سے برگلر الارم کیسے ڈیزائن کیا جاسکتا ہے؟ وضاحت کریں۔"
     },
     {
-      "id": 158,
-      "chapter": 19,
-      "topic_id": "19.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain about logic gates.",
-      "ur": "لاجک گیٹس کی وضاحت کریں۔"
-    },
-    {
-      "id": 159,
-      "chapter": 19,
-      "topic_id": "19.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write about application of logic gates in daily life?",
-      "ur": "روزمرہ زندگی میں لاجک گیٹس کے استعمالات تحریر کریں۔"
-    },
-    {
-      "id": 160,
+      "id": 500370,
       "chapter": 20,
       "topic_id": "20.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does the structure of an atom determine its chemical properties? Explain with reference to the arrangement of protons, neutron and electrons?",
       "ur": "ایٹم کی ساکٹ اس کی کیمیکل خصوصیات کو کیسے متعین کرتی ہے؟ پرو ٹونز، نیوٹرونز اور الیکٹرونز کی ترتیب کے حوالے سے وضاحت کریں۔"
     },
     {
-      "id": 161,
+      "id": 500377,
       "chapter": 20,
       "topic_id": "20.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A fossile is found to have 25% of the carbon-14 compared to a living sample. How old is the fossil?",
       "ur": "ایک فوسل میں زندہ سیمپل کے مقابلے میں کاربن 14 کی مقدار 25 فیصد پائی گئی۔ فوسل کی عمر کتنی ہے؟"
     },
     {
-      "id": 162,
-      "chapter": 20,
-      "topic_id": "20.1",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is atom? Explain Rutherford's Alpha particle scattering. Experiment and write. Conclusions.",
-      "ur": "ایٹم کیا ہے؟ ردرفورڈ کا الفا پارٹیکلز کے بکھراؤ کا تجربہ بیان کریں اور اس کا نتیجہ لکھیں۔"
-    },
-    {
-      "id": 163,
+      "id": 500376,
       "chapter": 20,
       "topic_id": "20.2",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Find the number of protons and neutrons in the nuclide defined by .",
-      "ur": "میں پروٹونز اور نیوٹرونز کی تعداد معلوم کریں۔"
+      "en": "Find the number of protons and neutrons in the nuclide defined by <img src=\"/pts-media/equations/10th/phynew-cahp11-4.svg\" />.",
+      "ur": "<img src=\"/pts-media/equations/10th/phynew-cahp11-4.svg\" /> میں پروٹونز اور نیوٹرونز کی تعداد معلوم کریں۔"
     },
     {
-      "id": 164,
-      "chapter": 20,
-      "topic_id": "20.2",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write note on following: (a) Atomic nucleus (b) Charge number (c) Mass number.",
-      "ur": "مندرجہ ذیل پر نوٹ لکھیں: (لف) اٹامک نیو کلئیس (ب) چارج نمبر (ج) ماس نمبر"
-    },
-    {
-      "id": 165,
+      "id": 500373,
       "chapter": 20,
       "topic_id": "20.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Why do different isotopes of the same element have similar chemical properties but different physical properties? Explain.",
       "ur": "ایک ہی ایلیمنٹ کے مختلف آئسوٹوپس کی کیمیکل خصوصیات ایک جیسی لیکن فزیکل خصوصیات مختلف کیوں کرتی ہیں؟ وضاحت کریں۔"
     },
     {
-      "id": 166,
+      "id": 500378,
       "chapter": 20,
       "topic_id": "20.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A sample initially contains 400 g of a radioactive iostope with a half-life of 10 years. How much remains after 30 years?",
       "ur": "ایک سیمپل میں ابتدا میں 400 گرام ریڈیوایکٹیوآئسوٹوپ موجود ہے جس کی ہاف لائف 10 سال ہے۔ 30 سال بعد کتنی مقدار باقی رہے گی؟"
     },
     {
-      "id": 167,
+      "id": 500382,
       "chapter": 20,
       "topic_id": "20.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Three-fourth of the initial mass of a certain radioactive isotope decay after one hour. Find half-life of isotope in minutes?",
       "ur": "ایک مخصوص ریڈیو ایکٹیو آئسوٹوپ کا تین چوتھائی ابتدائی ماس ایک گھنٹے بعد ڈی کے ہوجاتا ہے۔ آئسوٹوپ کی ہاف لائف منٹوں میں معلوم کریں۔"
     },
     {
-      "id": 168,
+      "id": 500379,
       "chapter": 20,
       "topic_id": "20.4",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "A radioactive substance has a half-life of 64 months. In how much time, one-eight of the substance will be left?",
       "ur": "ایک ریڈیو ایکٹیو مٹیریل کی ہاف لائف 64 مارہ ہے۔ کتنے وقت میں مادے کا آٹھواں حصہ باقی رہے گا؟"
     },
     {
-      "id": 169,
-      "chapter": 20,
-      "topic_id": "20.4",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain radioactivity. How radioactivity decay loads to emission of Alpha, Beta and Gamma radiations?",
-      "ur": "ریڈیو ایکٹیویٹی کی وضاحت کریں اور ریڈیو ایکٹیویٹی الفا، بیٹا اور گیما ریڈی ایشنز کے اخراج کا باعث کیسے بنتی ہے؟"
-    },
-    {
-      "id": 170,
+      "id": 500372,
       "chapter": 20,
       "topic_id": "20.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Decribe the process of radioactive decay and how it leads to the emission of alpha, beta and gamma radiation?",
       "ur": "ریڈیو ایکٹیو ڈی کے عمل کی وضاحت کریں اور یہ کیسے، الفا، بیٹا اور گیما ریڈی ایشنز کے اخراج کا باعث بنتا ہے؟"
     },
     {
-      "id": 171,
+      "id": 500381,
       "chapter": 20,
       "topic_id": "20.5",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "In 420 days, one-eighth of polonium (Po) remains un-decayed. Calculate the half-life of polonium?",
       "ur": "420 دن میں پولونیم کا آٹھواں حصہ بغیر ڈی کے باقی رہتا ہے۔ پولونیم کی ہاف لائف معلوم کریں۔"
     },
     {
-      "id": 172,
-      "chapter": 20,
-      "topic_id": "20.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define radioactive decay? Explain how radioactive decay help an unstable atom to change in stable one?",
-      "ur": "ریڈیو ایکٹیو ڈی کے کی تعریف کریں اور ریڈیو ایکٹیو ڈی کے کیسے ایک غیر مستحکم حالت میں بدلنے میں مدد کرتا ہے؟"
-    },
-    {
-      "id": 173,
-      "chapter": 20,
-      "topic_id": "20.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain what happens to the nucleus during Alpha Decay and write its general equation.",
-      "ur": "الفا ڈی کے کے دوران نیوکلیئس میں کیا تبدیلی آتی ہے؟ اس کی عام مساوات لکھیں۔"
-    },
-    {
-      "id": 174,
-      "chapter": 20,
-      "topic_id": "20.5",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Define Gamma Decay and explain its effect on the atomic and mass numbers.",
-      "ur": "گیما ڈی کے کی تعریف کریں اور اٹامک اور ماس نمبر پر اس کا اثر بتائیں۔"
-    },
-    {
-      "id": 175,
+      "id": 500380,
       "chapter": 20,
       "topic_id": "20.6",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "In a nuclear reaction, of mass is converted into energy. Find the energy.",
-      "ur": "ایک نیو کلئیر ری ایکشن میں ماس انرجی میں تبدیل ہوجاتا ہے۔ انرجی معلوم کریں۔"
+      "en": "In a nuclear reaction, <img src=\"/pts-media/equations/10th/phynew-cahp11-5.svg\" /> of mass is converted into energy. Find the energy.",
+      "ur": "ایک نیو کلئیر ری ایکشن میں <img src=\"/pts-media/equations/10th/phynew-cahp11-5.svg\" /> ماس انرجی میں تبدیل ہوجاتا ہے۔ انرجی معلوم کریں۔"
     },
     {
-      "id": 176,
-      "chapter": 20,
-      "topic_id": "20.6",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "What is nuclear reactions. Write its types.",
-      "ur": "نیو کلئیر ری ایکشنز یا ہیں ان کی اقسام لکھیں۔"
-    },
-    {
-      "id": 177,
+      "id": 500371,
       "chapter": 20,
       "topic_id": "20.7",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
-      "en": "Explain Einstein's equation and its significance. How does this equation relete to nuclear reactions?",
-      "ur": "آئن سٹائن کی مساوات کی وضاحت کریں اور اس کی اہمیت بیان کریں- یہ مساوات نیو کلئیر ری ایکشنز سے کس طرح متعلق ہے؟"
+      "en": "Explain Einstein's equation <img src=\"/pts-media/equations/10th/phynew-cahp11-3.svg\" /> and its significance. How does this equation relete to nuclear reactions?",
+      "ur": "آئن سٹائن کی مساوات <img src=\"/pts-media/equations/10th/phynew-cahp11-3.svg\" /> کی وضاحت کریں اور اس کی اہمیت بیان کریں- یہ مساوات نیو کلئیر ری ایکشنز سے کس طرح متعلق ہے؟"
     },
     {
-      "id": 178,
-      "chapter": 20,
-      "topic_id": "20.7",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How Einstein explain the concept of interconversion matter and energy? Explain in detail.",
-      "ur": "آئن سٹائن نے کیسے مادے اور انرجی کے باہمی تبادلے کی وضاحت کی؟ تفصیل سے وضاحت کریں۔"
-    },
-    {
-      "id": 179,
+      "id": 500374,
       "chapter": 20,
       "topic_id": "20.8",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how carbon dating uses carbon-14 to estimate the age of artifacts. Discuss its reliability, considering the influence of carbon-14's half-life?",
       "ur": "کاربن ڈائٹنگ کاربن 14 کا استعمال کرکے نوادرات کی عمر کیسے معلوم کرتی ہے؟ کاربن 14 کی ہاف لائف کے اثر کو مد نظر رکھتے ہوئے اس کی اہلیت پر بحث کریں۔"
     },
     {
-      "id": 180,
-      "chapter": 20,
-      "topic_id": "20.8",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "How scientists predict how long a radioactive substance remains active and why it is so essential? Explain.",
-      "ur": "سائنس دان کیسے پیشن گوئی کرتے ہیں کہ ایک ریڈیو ایکٹیو مادہ کب تک متحرک رہتا ہے اور یہ اتنا ضروری کیوں ہے؟"
-    },
-    {
-      "id": 181,
-      "chapter": 20,
-      "topic_id": "20.9",
-      "source": "Additional",
-      "type": "long",
-      "series": "smart-syllabus",
-      "en": "Write ethics and uses of Nuclear radiation. Also write about some radiation sources.",
-      "ur": "نیو کلئیر ریڈی ایشنز کے اثرات اور استعمال لکھیں۔ ریڈی ایشن سورسز کے بارے میں بھی لکھیں۔"
-    },
-    {
-      "id": 182,
+      "id": 500403,
       "chapter": 21,
       "topic_id": "21.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Describe the process of nuclear fusion in the Sun and explain how it generates energy.",
       "ur": "سورج میں نیو کلئیر فیوژن کے عمل کی وضاحت کریں اور بیان کریں کہ یہ انرجی کس طرح پیدا کرتا ہے؟"
     },
     {
-      "id": 183,
+      "id": 500404,
       "chapter": 21,
       "topic_id": "21.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "How does a planet's orbital distance affects its surface temperature and the amount of solar energy it receives?",
       "ur": "کسی سیارے کا آربٹل ڈس ٹینس اس کے سطحی ٹمپریچر اور حاصل ہونے والی سولر انرجی کو کس طرح متاثر کرتا ہے؟"
     },
     {
-      "id": 184,
+      "id": 500405,
       "chapter": 21,
       "topic_id": "21.1",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Esxplain the role of convection in the formation and strengthening of cyclones.",
       "ur": "سائیکلونز کی تشکیل اور اسے تقویت دینے میں کنویکشن کے کردار کی وضاحت کریں۔"
     },
     {
-      "id": 185,
+      "id": 500406,
       "chapter": 21,
       "topic_id": "21.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "What are the major sources of background radiation, and how does human activities contribute to it?",
       "ur": "بیک گراؤنڈ ریڈی ایشن کے بڑے ذرائع کون سے ہیں اور انسانی سرگرمیاں اس میں کس طرح حصہ ڈالتی ہے؟"
     },
     {
-      "id": 186,
+      "id": 500407,
       "chapter": 21,
       "topic_id": "21.3",
       "source": "Exercise",
       "type": "long",
-      "series": "smart-syllabus",
       "en": "Explain how radiation exposure can be harmful and describe three key safety measures used to minimize its risks.",
       "ur": "وضاحت کریں کہ ریڈی ایشن کا سامنا کس طرح نقصان دہ ہوسکتا ہے اور ان کے خطرات کم کرنے کےلیے استعمال ہونے والے تین ایم حفاظتی اقدامات بیان کریں۔"
+    },
+    {
+      "id": 504508,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the phenomenon of the thermal expansion in solids in detail.",
+      "ur": "ٹھوس اجسام میں حرارتی پھیلاؤ کو تفصیل سے بیان کریں۔"
+    },
+    {
+      "id": 504510,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain thermal expansion in liquids and explain why liquids expand when heated?",
+      "ur": "مائعات میں حرارتی پھیلاؤ کو بیان کریں اور وضاحت کریں مائع گرم کرنے پر کیوں پھیلتے ہیں؟"
+    },
+    {
+      "id": 504514,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain thermal expansion in gases in detail.",
+      "ur": "گیسیز میں حرارتی پھیلاؤ تفصیل سے بیان کریں۔"
+    },
+    {
+      "id": 504517,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the consequences of thermal expansion in real life?",
+      "ur": "حقیقی زندگی میں حرارتی پھیلاؤ کے اثرات لکھیں۔"
+    },
+    {
+      "id": 504520,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain specific heat capacity of solids.",
+      "ur": "ٹھوس اجسام کی مخصوص حرارتی گنجائش بیان کریں۔"
+    },
+    {
+      "id": 504521,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Discuss in details the process of change in state of a substance using the kinetic molecular model.",
+      "ur": "کائی نیٹک مالیکیول ماڈل کا استعمال کرتے ہوئے کسی مادہ کی حالت میں تبدیلی کے عمل پر تفصیل سے بحث کریں۔"
+    },
+    {
+      "id": 504524,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define evaporation in detail. Discuss factors which influence evaporation rate.",
+      "ur": "اویپوریشن کی تفصیل سے وضاحت کریں۔ وہ عوامل لکھیں جو بخارات کی شرح کو متاثر کرتے ہیں۔"
+    },
+    {
+      "id": 504527,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a detail note on latent heat of evapourization.",
+      "ur": "ویپورائزیشن کی مخفی حرارت پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 504531,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "Discuss the phenomenon of superconductivity, its key properties, and its impact on modern technology?",
+      "ur": "سپر کنڈکٹیویٹی کے مظہر، اس کی بنیادی خصوصیات اور جدید ٹیکنالوجی پر اس کے اثرات پر بحث کریں۔"
+    },
+    {
+      "id": 505805,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain thermal conduction in solids in detail.",
+      "ur": "ٹھوس اجسام میں تھرمل کنڈکشن کی وضاحت کریں۔"
+    },
+    {
+      "id": 505806,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Discuss the various natural and practical applications of convection currents.",
+      "ur": "کنویکشن کرنٹس کے استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 505812,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Discuss the applications of heat transfer in daily life.",
+      "ur": "روزمرہ کی زندگی میں حرارت کی منتقلی کے استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 505815,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the greenhouse effect in detail. how does it occur in the Earth's atmosphere, and what role do greenhouse gases play in trapping heat?",
+      "ur": "گرین ہاؤس ایفیکٹ کیا ہے؟ یہ زمین کے ایٹماسفئیر میں کس طرح وقوع پذیر ہوتا ہے؟ نیز گرین ہاؤس گیسیں حرارت کو جذب کرنے میں کیا کردار ادا کرتی ہیں؟"
+    },
+    {
+      "id": 506799,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define waves. Explain the nature of waves. How do waves transfer energy without the transfer of matter?",
+      "ur": "ویوز کی تعریف کریں۔ ویوز کی ماہیت کی وضاحت کریں۔ ویوز کس طرح مٹیریل میڈیم کو منتقل کیے بغیر انرجی منتقل کرتی ہے؟"
+    },
+    {
+      "id": 506800,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain types of mechanical waves.",
+      "ur": "مکینیکل ویوز کی اقسام کی وضاحت کریں۔"
+    },
+    {
+      "id": 506801,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define following term and parameters: Crest, Trough, Compressions, Rarefactions, Amplitude, Wavelength, Frequency, Wave period, Wave front.",
+      "ur": "درج ذیل اصطلاحات اور پیرا میٹرز کی تعریف کیجیے: کرسٹ، ٹرف، کمپریشن، ریرفیکشن، ایپلی ٹیوڈ، وہو لینگتھ، فریکونسی، ٹائم پیریڈ، ویو یونٹ۔"
+    },
+    {
+      "id": 507800,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is diffraction? describe the factors that influence the amount of diffraction and provide real-wold example to explain how this phenomenin occurs in different media?",
+      "ur": "ویوز کی ڈفریکشن کیا ہے؟ ان عوامل کی وضاحت کریں جو ڈفریکشن کے عمل کو متاثر کرتے ہیں۔ روزمرہ زندگی کی مثالوں سے اس عمل کی وضاحت مختلف میڈیم میں کریں۔"
+    },
+    {
+      "id": 507801,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Compare seismic waves and tsunami waves in details.",
+      "ur": "سیسمک ویوز اور سونامی ویوز کا تفصیلی موازنہ کریں۔"
+    },
+    {
+      "id": 507931,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe how sound propagates through a medium as a wave?",
+      "ur": "وضاحت کریں کہ کس طرح کسی میڈٰم میں ساؤنڈ کی اشاعت ویو کی شکل میں ہوتی ہے؟"
+    },
+    {
+      "id": 507932,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define the speed of sound and explain how it is calculated? Discuss the factors that affect the speed of sound in different mediums such as solid, liquids and gases?",
+      "ur": "ساؤنڈ کی سپیڈ کی تعریف کریں اور وضاحت کریں کہ کس طرح اسے کیلکولیٹ کرتے ہیں؟ ان عوامل کی وضاحت کریں جو مختلف میڈیمز جیسے ٹھوس، مائع اور گیس میں ساؤنڈ کی سپیڈ کو متاثر کرتے ہیں۔"
+    },
+    {
+      "id": 507934,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What are the three primary characteristics of sound that allow us to distinguish between different sound?",
+      "ur": "ساؤنڈ کی بنیادی خصوصیات کون سی ہیں؟ مختلف ساؤنڈز میں کیسے فرق کیا جاتا ہے؟"
+    },
+    {
+      "id": 507937,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define the reflection of sound and explain the phenomenon of echo with the help of an example.",
+      "ur": "ساؤنڈ کی رفلیکشن سے کیا مراد ہے؟ ایک مثال کی مدد سے ایکو کے عمل کی وضاحت کریں۔"
+    },
+    {
+      "id": 507940,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define ultrasound and explain its various applications?",
+      "ur": "الٹراساؤنڈ کیا ہے؟ الٹراساؤنڈ کے استعمالات بیان کریں؟"
+    },
+    {
+      "id": 507941,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is acoustic protection of buildings and how does building design affect the quality and clarity of sound inside a hall or auditorium?",
+      "ur": "عمارتوں کا صوتی تحفظ کیا ہوتا ہے؟ ساؤنڈ کی کوالٹی اور بہتری کےلیے بڑے ہال اور کانفرنس ہال کی چھتیں کیسے ڈئزائن کی جاتی ہیں؟"
+    },
+    {
+      "id": 508116,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Find the image position of an object in a plane mirror with the help of an activity.",
+      "ur": "ایک سرگرمی کی مدد سے پلین مرر میں امیج کی پوزیشن معلوم کریں۔"
+    },
+    {
+      "id": 508117,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define critical angle. Write a briefly note on total internal reflection.",
+      "ur": "کریٹیکل اینگل کی تعریف کریں۔ ٹوٹل انٹڑنل رفلیکشن پر تفصیلی نوٹ لکھیں۔"
+    },
+    {
+      "id": 508118,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on optical fiber and also write its advantages.",
+      "ur": "آپٹیکل فائبر پر نوٹ لکھیں اور اس کی فائدے بیان کریں۔"
+    },
+    {
+      "id": 508119,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the action of parallel rays on lenses?",
+      "ur": "پیرالل ریز پر لینز کا عمل بیان کریں۔"
+    },
+    {
+      "id": 508120,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "How real image is formed by converging lenses? Explain by diagram.",
+      "ur": "کنورجنگ لینز میں رئیل امیج کیسے بنتا ہے۔ ڈایا گرام سے وضاحت کریں۔"
+    },
+    {
+      "id": 508121,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define optical devices. write type of glass/lenses are used in optical device. Describe with example.",
+      "ur": "آپٹیکل ڈیوائسیز کی وضاحت کریں۔ آپٹیکل ڈیوائیسز میں استعمال ہونے والے گلاس کی قسم لکھیں۔ مثالوں سے وضاحت کریں۔"
+    },
+    {
+      "id": 508124,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "How myopia and hypermetropia occurs? Write their treatment.",
+      "ur": "قریب اور بعیدی نظری کیسے ہوتی ہیں؟ ان کا علاج لکھیں۔"
+    },
+    {
+      "id": 508125,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the concept of gravitational lensing and Acoustic lens.",
+      "ur": "گریوی ٹیشنل لینزنگ اور آکو سٹک لینز کے تصورات کی وضاحت کریں۔"
+    },
+    {
+      "id": 508126,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain dispersion of light by prism?",
+      "ur": "پرزم کے ذریعے روشنی کی ڈسپرشن کی وضاحت کریں۔"
+    },
+    {
+      "id": 508311,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "How charge produced on a body by rubbing?",
+      "ur": "رگڑنے سے جسم پر چارج کیسے پیدا ہوتا ہے؟"
+    },
+    {
+      "id": 508312,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain phenomenon of electrostatic induction by some experiments.",
+      "ur": "کچھ تجربات کی مدد سے الیکٹروسٹیٹک کے مظہر کی وضاحت کریں۔"
+    },
+    {
+      "id": 508313,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe the method charging bodies by induction and earthing.",
+      "ur": "انڈکشن اور ارتھنگ کے ذریعے اجسام کو چارج کرنے کا طریقہ بیان کریں۔"
+    },
+    {
+      "id": 508314,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on photocopier. Write about its working principal.",
+      "ur": "فوٹو کاپی مشین پر نوٹ لکھیں اور اس کے کام کرنے کا اصول لکھیں۔"
+    },
+    {
+      "id": 508315,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "What are electric field lines or electric line of forces? Briefly explain for different situations.",
+      "ur": "الیکٹرک فیلڈ لائنز یا الیکٹرک لائن آف فورسز کیا ہیں؟ مختلف علامات میں وضاحت کریں۔"
+    },
+    {
+      "id": 508316,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain how and why electrical conductors and insulators behave differently in terms of charge tranfer and movement of electrons.",
+      "ur": "وضاحت کریں کہ الیکٹریکل کنڈکٹرز اور انسولیٹر چارج کی منتقلی اور الیکٹرون کی حرکت کے معاملے میں کیسے اور کیوں مختلف طریقے سے برتاؤ کرتے ہیں؟"
+    },
+    {
+      "id": 508318,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "long",
+      "en": "When electrical breakdown occurs? Explain in details.",
+      "ur": "الیکٹریکل بریک ڈاؤں کب ہوتا ہے؟ تفصیل سے وضاحت کریں۔"
+    },
+    {
+      "id": 508501,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is electric current? How electric current is different from conventional current?",
+      "ur": "الیکٹرک کرنٹ کیا ہے؟ الیکٹرک کرنٹ کنوینشل کرنٹ سے کس طرح مختلف ہے؟"
+    },
+    {
+      "id": 508502,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "How Ammeter is helpul measuring the elctric current? Also write its types.",
+      "ur": "ایمیٹر کس طرح الیکٹرک کرنٹ کی پیمائش میں مدرگار ہے؟ اس کی اقسام لکھیں۔"
+    },
+    {
+      "id": 508503,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "How (EMF) electromotive force and potential difference (P.D) are interrelated?",
+      "ur": "الیکٹروموٹیو فورس اور پوٹینشل ڈفرینس دونوں ایک دوسرے سے کس طرح ملتے جلتے ہیں؟"
+    },
+    {
+      "id": 508505,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Determine the equivalent resistance of series combination.",
+      "ur": "سیریز طریقے سے جوڑے گئے رزسٹرز کی مساوی رزسٹنس معلوم کریں۔"
+    },
+    {
+      "id": 508506,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "source": "Additional",
+      "type": "long",
+      "en": "State Joule's Law and derive its formula.",
+      "ur": "جول کا قانون بیان کریں اور اس کا فارمولا اخذ کریں۔"
+    },
+    {
+      "id": 520244,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What are the magnetic effect of steady current? Also explain right hand rule.",
+      "ur": "مستقل کرنٹ کے میگنیٹک اثرات کیا ہیں؟ نیز دائیں ہاتھ کا اصول بیان کریں۔"
+    },
+    {
+      "id": 520245,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Describe an experiment to show that when a straight current carrying conductor is placed in magnetic field, it experience a force. Also state rule by which this force can be determine.",
+      "ur": "ایک تجربے کی مدد سے ثابت کریں میگنیٹک فیلڈ میں کرنٹ بردار کنڈکٹر پر فورس لگتی ہے۔ وہ اصول بیان کریں۔ جس سے یہ فورس معلوم کی جاسکتی ہے؟"
+    },
+    {
+      "id": 520246,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "How current carrying coil rotate in a magnetic field?",
+      "ur": "کرنٹ پردار کوائل کیسے میگنیٹک فیلڈ میں گھومتی ہے؟"
+    },
+    {
+      "id": 527855,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is a 'couple' in a current-carrying coil and what does it cause?",
+      "ur": "کرنٹ گزارنے والی کوائل میں 'کپل' (Couple) سے کیا مراد ہے اور یہ کس چیز کا سبب بنتا ہے؟"
+    },
+    {
+      "id": 527856,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "List three ways by which the turning effect on a coil can be made stronger and more efficient.",
+      "ur": "ان تین طریقوں کی فہرست بنائیں جن کی مدد سے کوائل پر ٹرننگ ایفیکٹ کو زیادہ طاقتور اور کارآمد بنایا جا سکتا ہے۔"
+    },
+    {
+      "id": 520247,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write a note on D.C motor.",
+      "ur": "ڈی سی پر نوٹ تحریر کریں۔"
+    },
+    {
+      "id": 520249,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write about use of magnetic effects of current.",
+      "ur": "کرنٹ کے میگنیٹک کے اثرات کا استعمال لکھیں۔"
+    },
+    {
+      "id": 520250,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write about Earth's magnetic field?",
+      "ur": "زمین کے میگنیٹک فیلڈ پر نوٹ لکھیں۔"
+    },
+    {
+      "id": 520358,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain different ways to produce induced e.m.f.",
+      "ur": "ای ایم ایف پیدا کرنے کے مختلف طریقوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 520360,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is A.C generator? Explain how it is works?",
+      "ur": "اے سی جنریٹر کیا ہے/ وضاحت کریں یہ کیسے کام کرتا ہے؟"
+    },
+    {
+      "id": 520361,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the types of transformers.",
+      "ur": "ٹرانسفارمر کی اقسام کی وضاحت کریں۔"
+    },
+    {
+      "id": 520364,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is Cathode Ray Oscilloscope CRO? Explain its construction and how it work?",
+      "ur": "کیتھوڈ دے اوسیلو سکوپ کیا ہے؟ اس کی ساخت بیان کریں اور یہ کیسے کام کرتی ہے؟"
+    },
+    {
+      "id": 520495,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain the working of semiconductor Diode.",
+      "ur": "سیمی کنڈکٹر ڈائیوڈ کا طریقہ کی وضاحت کریں۔"
+    },
+    {
+      "id": 520498,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is light-emitting diode? Also explain about the semi-conductor device.",
+      "ur": "لائٹ ایمٹنگ ڈائیوڈ کیا ہے؟ نیز سیمی کنڈکٹر ڈایوئس کی وضاحت کریں۔"
+    },
+    {
+      "id": 520502,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is analog and digital electronics? How it works together?",
+      "ur": "اینا لاگ اور ڈیجیٹل الیکٹرونکس کیا ہیں؟ اینا لاگ اور ڈیجیٹل الیکٹرونکس میں فرق بیان کریں یہ اکٹھے کیسے کام کرتے ہیں؟"
+    },
+    {
+      "id": 520505,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is boolean logic? Also explain about Boolean algebra and its uses.",
+      "ur": "بولیئن لاجھ کیا ہے؟ نیز بولیئن الجبرا کی وضاحت کریں اور اس کے استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 520506,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain about logic gates.",
+      "ur": "لاجک گیٹس کی وضاحت کریں۔"
+    },
+    {
+      "id": 520508,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write about application of logic gates in daily life?",
+      "ur": "روزمرہ زندگی میں لاجک گیٹس کے استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 520626,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is atom? Explain Rutherford's Alpha particle scattering. Experiment and write. Conclusions.",
+      "ur": "ایٹم کیا ہے؟ ردرفورڈ کا الفا پارٹیکلز کے بکھراؤ کا تجربہ بیان کریں اور اس کا نتیجہ لکھیں۔"
+    },
+    {
+      "id": 520627,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write note on following: (a) Atomic nucleus (b) Charge number (c) Mass number.",
+      "ur": "مندرجہ ذیل پر نوٹ لکھیں: (لف) اٹامک نیو کلئیس (ب) چارج نمبر (ج) ماس نمبر"
+    },
+    {
+      "id": 520628,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain radioactivity. How radioactivity decay loads to emission of Alpha, Beta and Gamma radiations?",
+      "ur": "ریڈیو ایکٹیویٹی کی وضاحت کریں اور ریڈیو ایکٹیویٹی الفا، بیٹا اور گیما ریڈی ایشنز کے اخراج کا باعث کیسے بنتی ہے؟"
+    },
+    {
+      "id": 520629,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define radioactive decay? Explain how radioactive decay help an unstable atom to change in stable one?",
+      "ur": "ریڈیو ایکٹیو ڈی کے کی تعریف کریں اور ریڈیو ایکٹیو ڈی کے کیسے ایک غیر مستحکم حالت میں بدلنے میں مدد کرتا ہے؟"
+    },
+    {
+      "id": 528606,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Explain what happens to the nucleus during Alpha Decay and write its general equation.",
+      "ur": "الفا ڈی کے کے دوران نیوکلیئس میں کیا تبدیلی آتی ہے؟ اس کی عام مساوات لکھیں۔"
+    },
+    {
+      "id": 528607,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "source": "Additional",
+      "type": "long",
+      "en": "Define Gamma Decay and explain its effect on the atomic and mass numbers.",
+      "ur": "گیما ڈی کے کی تعریف کریں اور اٹامک اور ماس نمبر پر اس کا اثر بتائیں۔"
+    },
+    {
+      "id": 520630,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "long",
+      "en": "What is nuclear reactions. Write its types.",
+      "ur": "نیو کلئیر ری ایکشنز یا ہیں ان کی اقسام لکھیں۔"
+    },
+    {
+      "id": 520631,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Additional",
+      "type": "long",
+      "en": "How Einstein explain the concept of interconversion matter and energy? Explain in detail.",
+      "ur": "آئن سٹائن نے کیسے مادے اور انرجی کے باہمی تبادلے کی وضاحت کی؟ تفصیل سے وضاحت کریں۔"
+    },
+    {
+      "id": 520632,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "long",
+      "en": "How scientists predict how long a radioactive substance remains active and why it is so essential? Explain.",
+      "ur": "سائنس دان کیسے پیشن گوئی کرتے ہیں کہ ایک ریڈیو ایکٹیو مادہ کب تک متحرک رہتا ہے اور یہ اتنا ضروری کیوں ہے؟"
+    },
+    {
+      "id": 520633,
+      "chapter": 20,
+      "topic_id": "20.9",
+      "source": "Additional",
+      "type": "long",
+      "en": "Write ethics and uses of Nuclear radiation. Also write about some radiation sources.",
+      "ur": "نیو کلئیر ریڈی ایشنز کے اثرات اور استعمال لکھیں۔ ریڈی ایشن سورسز کے بارے میں بھی لکھیں۔"
     }
-  ]
+  ],
+  "type": "long"
 }

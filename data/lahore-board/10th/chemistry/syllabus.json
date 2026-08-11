@@ -2,10 +2,11 @@
   "board": "Lahore",
   "class": "10",
   "subject": "Chemistry",
+  "slug": "chemistry",
   "chapters": [
     {
       "number": 14,
-      "title": "States of Matter and Internal Energy",
+      "title": "States of Matter and Phase Changes",
       "topics": [
         {
           "id": "14.1",
@@ -47,7 +48,7 @@
     },
     {
       "number": 15,
-      "title": "Quantitative Chemistry",
+      "title": "Stoichiometry",
       "topics": [
         {
           "id": "15.1",
@@ -63,7 +64,7 @@
         },
         {
           "id": "15.4",
-          "title": "Percentage Composition by Mass, Empirical Formula and Molecular Formula"
+          "title": "Percentage Composition By Mass, Empirical Formula and Molecular Formula"
         },
         {
           "id": "15.5",
@@ -89,7 +90,7 @@
         },
         {
           "id": "16.2",
-          "title": "Writing Chemical Formulas of Ionic Compounds by Applying Oxidation Numbers"
+          "title": "Writing Chemical Formulas of Ionic Compounds By Applying Oxidation Numbers"
         },
         {
           "id": "16.3",
@@ -109,7 +110,7 @@
         },
         {
           "id": "16.7",
-          "title": "Electrolysis of a Concentrated Aqueous Solution of Sodium Chloride (Brine) Using Inert Electrodes (Graphite / Pt)"
+          "title": "Electrolysis of a Concentrated Aqueous Solution of Sodium Chloride (Brine) Using Inert Electrodes (Graphite /Pt)"
         },
         {
           "id": "16.8",
@@ -121,15 +122,15 @@
         },
         {
           "id": "16.10",
-          "title": "Electrolysis of Molten Lead (II) Chloride"
+          "title": "Electrolysis of Molten Lead (Ii) Chloride"
         },
         {
           "id": "16.11",
-          "title": "Electrolysis of Dilute Solution of Sulphuric Acid Using Inert Electrodes (Carbon or Pt)"
+          "title": "Electrolysis of Dilute Solution of Sulphuric Acid Using Inert Electrodes (Carbon Or Pt)"
         },
         {
           "id": "16.12",
-          "title": "Electrolysis of Dilute Aqueous Solution of Copper Sulphate Using Inert Electrodes or Copper Electrodes"
+          "title": "Electrolysis of Dilute Aqueous Solution of Copper Sulphate Using Inert Electrodes Or Copper Electrodes"
         },
         {
           "id": "16.13",
@@ -155,7 +156,7 @@
     },
     {
       "number": 17,
-      "title": "Chemical Kinetics",
+      "title": "Reaction Kinetics",
       "topics": [
         {
           "id": "17.1",
@@ -193,7 +194,7 @@
         },
         {
           "id": "18.3",
-          "title": "Conduction of Electricity by Ionic Compounds"
+          "title": "Conduction of Electricity By Ionic Compounds"
         },
         {
           "id": "18.4",
@@ -207,7 +208,7 @@
     },
     {
       "number": 19,
-      "title": "Industrial Chemistry",
+      "title": "Nitrogen and Sulphur",
       "topics": [
         {
           "id": "19.1",
@@ -253,7 +254,7 @@
         },
         {
           "id": "20.4",
-          "title": "Substances Present in Water Obtained from Natural Sources"
+          "title": "Substances Present in Water Obtained From Natural Sources"
         },
         {
           "id": "20.5",
@@ -283,7 +284,7 @@
     },
     {
       "number": 21,
-      "title": "Organic Compounds",
+      "title": "Organic Chemistry",
       "topics": [
         {
           "id": "21.1",
@@ -313,7 +314,7 @@
     },
     {
       "number": 22,
-      "title": "Hydrocarbons and Petroleum",
+      "title": "Hydrocarbons",
       "topics": [
         {
           "id": "22.1",
@@ -339,7 +340,7 @@
     },
     {
       "number": 23,
-      "title": "Alcohols",
+      "title": "Monohydroxy Alkanes Or Alcohols",
       "topics": [
         {
           "id": "23.1",
@@ -351,7 +352,7 @@
         },
         {
           "id": "23.3",
-          "title": "Applications of Alcohols as Fuels"
+          "title": "Applications of Alcohols As Fuels"
         },
         {
           "id": "23.4",
@@ -359,21 +360,21 @@
         },
         {
           "id": "23.5",
-          "title": "Impact of Alcohols on Daily Life"
+          "title": "Impact of Alcohols On Daily Life"
         }
       ]
     },
     {
       "number": 24,
-      "title": "Carboxylic Acids and Esters",
+      "title": "Carboxylic Acids",
       "topics": [
         {
           "id": "24.1",
-          "title": "Preparation of Acetic Acid or Ethanoic Acid"
+          "title": "Preparation of Acetic Acid Or Ethanoic Acid"
         },
         {
           "id": "24.2",
-          "title": "Reactions of Carboxylic Acids as Acids"
+          "title": "Reactions of Carboxylic Acids As Acids"
         },
         {
           "id": "24.3",
@@ -395,7 +396,7 @@
       "topics": [
         {
           "id": "25.1",
-          "title": "The Importance of Nutrition"
+          "title": "the Importance of Nutrition"
         },
         {
           "id": "25.2",
@@ -425,7 +426,7 @@
     },
     {
       "number": 26,
-      "title": "Polymers and Plastics",
+      "title": "Polymers",
       "topics": [
         {
           "id": "26.1",
@@ -433,7 +434,7 @@
         },
         {
           "id": "26.2",
-          "title": "Structure of Monomer from Polymer"
+          "title": "Structure of Monomer From Polymer"
         },
         {
           "id": "26.3",
