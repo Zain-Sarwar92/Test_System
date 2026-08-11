@@ -4,16 +4,22 @@ import { nextCookies } from "better-auth/next-js";
 import { customSession } from "better-auth/plugins";
 import { prisma } from "@/lib/prisma";
 
-const authBaseUrl =
+function normalizeAppUrl(url?: string) {
+  return url?.replace(/\/+$/, "");
+}
+
+const authBaseUrl = normalizeAppUrl(
   process.env.BETTER_AUTH_URL ??
-  process.env.NEXT_PUBLIC_APP_URL ??
-  process.env.APP_URL;
+    process.env.NEXT_PUBLIC_APP_URL ??
+    process.env.APP_URL,
+);
 
 const trustedOrigins = [
   authBaseUrl,
-  process.env.NEXT_PUBLIC_APP_URL,
-  process.env.APP_URL,
+  normalizeAppUrl(process.env.NEXT_PUBLIC_APP_URL),
+  normalizeAppUrl(process.env.APP_URL),
   "http://localhost:5001",
+  "https://flow-test-ruby.vercel.app",
   "https://*.vercel.app",
 ].filter((v): v is string => Boolean(v));
 
