@@ -101,7 +101,7 @@ export function buildTestReminderDigestEmail(input: {
 }) {
   const loginHint = input.appUrl
     ? `Please log in at ${input.appUrl} and create the missing test paper(s) before the scheduled date.`
-    : "Please log in to the Test Generator and create the missing test paper(s) before the scheduled date.";
+    : "Please log in to Test Hub and create the missing test paper(s) before the scheduled date.";
 
   const count = input.items.length;
   const first = input.items[0];

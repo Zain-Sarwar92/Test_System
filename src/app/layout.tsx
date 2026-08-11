@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Test Generator SaaS",
+  title: "Test Hub",
   description:
     "Multi-tenant test paper generator for schools, academies, and universities",
 };

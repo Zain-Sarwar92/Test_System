@@ -106,7 +106,7 @@ export function AppShell({
         <aside className="sidebar-panel text-white">
           <div className="mb-7 px-1 text-left">
             <p className="text-[11px] font-semibold tracking-[0.22em] text-teal-200/90 uppercase">
-              Test Generator
+              Test Hub
             </p>
             <h1 className="font-display mt-3 text-[1.65rem] leading-tight font-semibold text-white">
               {title}
@@ -198,7 +198,7 @@ export function AppShell({
           <div className="mobile-topbar">
             <div className="min-w-0 text-left">
               <p className="text-[10px] font-semibold tracking-[0.18em] text-teal-200 uppercase">
-                Test Generator
+                Test Hub
               </p>
               <p className="truncate text-sm font-semibold text-white">
                 {title}
