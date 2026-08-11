@@ -4,7 +4,22 @@ import { nextCookies } from "better-auth/next-js";
 import { customSession } from "better-auth/plugins";
 import { prisma } from "@/lib/prisma";
 
+const authBaseUrl =
+  process.env.BETTER_AUTH_URL ??
+  process.env.NEXT_PUBLIC_APP_URL ??
+  process.env.APP_URL;
+
+const trustedOrigins = [
+  authBaseUrl,
+  process.env.NEXT_PUBLIC_APP_URL,
+  process.env.APP_URL,
+  "http://localhost:5001",
+  "https://*.vercel.app",
+].filter((v): v is string => Boolean(v));
+
 export const auth = betterAuth({
+  baseURL: authBaseUrl,
+  trustedOrigins,
   database: prismaAdapter(prisma, {
     provider: "postgresql",
   }),
