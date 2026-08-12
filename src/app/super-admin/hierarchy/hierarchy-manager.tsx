@@ -23,7 +23,7 @@ import {
 } from "./actions";
 import type { CurriculumStructureBoard } from "@/lib/curriculum-tree";
 
-export type HierarchyPayload = CurriculumStructureBoard;
+export type HierarchyPayload = CurriculumStructureBoard[];
 
 type Level = "board" | "class" | "subject" | "chapter" | "topic";
 
