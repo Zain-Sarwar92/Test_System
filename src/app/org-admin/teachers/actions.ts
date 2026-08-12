@@ -26,7 +26,6 @@ const teacherUpdateSchema = z.object({
 async function validateAssignmentsForOrg(
   organizationId: string,
   rows: AssignmentInput[],
-  excludeTeacherId?: string,
 ) {
   assertNoDuplicateAssignments(rows);
   if (rows.length === 0) return;
@@ -35,7 +34,7 @@ async function validateAssignmentsForOrg(
   const sectionIds = [...new Set(rows.map((r) => r.sectionId))];
   const subjectIds = [...new Set(rows.map((r) => r.subjectId))];
 
-  const [classes, sections, subjects, occupied] = await Promise.all([
+  const [classes, sections, subjects] = await Promise.all([
     prisma.class.findMany({
       where: { id: { in: classIds } },
       select: { id: true, name: true },
@@ -48,26 +47,11 @@ async function validateAssignmentsForOrg(
       where: { id: { in: subjectIds } },
       select: { id: true, classId: true, name: true },
     }),
-    prisma.teacherAssignment.findMany({
-      where: {
-        sectionId: { in: sectionIds },
-        section: { organizationId },
-        ...(excludeTeacherId ? { teacherId: { not: excludeTeacherId } } : {}),
-      },
-      select: {
-        sectionId: true,
-        section: { select: { name: true } },
-        teacher: { select: { name: true } },
-      },
-    }),
   ]);
 
   const classById = new Map(classes.map((c) => [c.id, c]));
   const sectionById = new Map(sections.map((s) => [s.id, s]));
   const subjectById = new Map(subjects.map((s) => [s.id, s]));
-  const occupiedBySectionId = new Map(
-    occupied.map((row) => [row.sectionId, row.teacher.name]),
-  );
 
   for (const row of rows) {
     const klass = classById.get(row.classId);
@@ -93,13 +77,6 @@ async function validateAssignmentsForOrg(
         `Subject ${subject.name} does not belong to the selected class`,
       );
     }
-
-    const takenBy = occupiedBySectionId.get(row.sectionId);
-    if (takenBy) {
-      throw new Error(
-        `Section ${section.name} is already assigned to ${takenBy}`,
-      );
-    }
   }
 }
 
@@ -108,6 +85,8 @@ function revalidateTeachers(teacherId?: string) {
   revalidatePath("/org-admin/teachers/new");
   revalidatePath("/org-admin");
   revalidatePath("/org-admin/schedules/new");
+  revalidatePath("/teacher/generate");
+  revalidatePath("/teacher");
   if (teacherId) {
     revalidatePath(`/org-admin/teachers/${teacherId}`);
     revalidatePath(`/org-admin/teachers/${teacherId}/edit`);
@@ -282,7 +261,7 @@ export async function updateTeacher(formData: FormData) {
     }
 
     const assignments = parseAssignmentsJson(parsed.assignments);
-    await validateAssignmentsForOrg(organizationId, assignments, parsed.id);
+    await validateAssignmentsForOrg(organizationId, assignments);
 
     await prisma.$transaction(async (tx) => {
       await tx.user.update({

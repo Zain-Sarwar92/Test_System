@@ -264,7 +264,14 @@ export function SavedPapersTable({
                 New paper
               </Button>
             </Link>
-          ) : null}
+          ) : (
+            <Link href="/org-admin/generate">
+              <Button className="h-10 gap-1.5">
+                <FilePlus2 className="h-4 w-4" />
+                New paper
+              </Button>
+            </Link>
+          )}
         </div>
       </div>
 
@@ -278,12 +285,16 @@ export function SavedPapersTable({
           <p className="mt-1 text-sm text-muted">
             {papers.length === 0
               ? isOrg
-                ? "When teachers generate papers, they will appear here."
+                ? "Generate a paper or wait for teachers — saved papers appear here."
                 : "Generate a paper and save it — it will show up here."
               : "Try a different search."}
           </p>
           {!isOrg && papers.length === 0 ? (
             <Link href="/teacher/generate" className="mt-5 inline-block">
+              <Button>Generate paper</Button>
+            </Link>
+          ) : isOrg && papers.length === 0 ? (
+            <Link href="/org-admin/generate" className="mt-5 inline-block">
               <Button>Generate paper</Button>
             </Link>
           ) : null}

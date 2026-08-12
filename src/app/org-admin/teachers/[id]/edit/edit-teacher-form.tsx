@@ -77,6 +77,7 @@ export function EditTeacherForm({
           subjectName: row.subjectName,
         })),
         { sections, subjects },
+        { allowEmpty: true },
       );
 
       const formData = new FormData();
@@ -120,6 +121,7 @@ export function EditTeacherForm({
         takenSections={takenSections}
         rows={assignments}
         onChange={setAssignments}
+        allowEmpty
       />
 
       {error ? (
@@ -135,7 +137,7 @@ export function EditTeacherForm({
           </Button>
         </Link>
         <Button type="button" onClick={onSubmit} disabled={pending}>
-          {pending ? "Saving…" : "Save Teacher"}
+          {pending ? "Saving…" : "Save permissions"}
         </Button>
       </div>
     </div>

@@ -106,7 +106,9 @@ export function AppShell({
 }) {
   const pathname = usePathname();
   const router = useRouter();
-  const isGenerate = pathname.startsWith("/teacher/generate");
+  const isGenerate =
+    pathname.startsWith("/teacher/generate") ||
+    pathname.startsWith("/org-admin/generate");
   const activeNavHref = getActiveNavHref(pathname, nav);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 

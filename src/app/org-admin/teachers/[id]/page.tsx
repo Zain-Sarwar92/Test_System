@@ -63,7 +63,7 @@ export default async function TeacherDetailPage({
               <Button variant="secondary">All Teachers</Button>
             </Link>
             <Link href={`/org-admin/teachers/${teacher.id}/edit`}>
-              <Button>Edit Teacher</Button>
+              <Button>Manage permissions</Button>
             </Link>
           </div>
         }
@@ -72,15 +72,17 @@ export default async function TeacherDetailPage({
       <Card className="fade-up overflow-hidden p-0">
         <div className="border-b border-[rgba(15,40,70,0.08)] px-5 py-4">
           <h3 className="font-display text-lg font-semibold text-ink">
-            Teaching Assignments
+            Teaching permissions
           </h3>
           <p className="mt-1 text-sm text-muted">
-            Class + Section + Subject combinations for this teacher.
+            Subjects this teacher can generate papers for. Edit to assign or revoke any class/subject.
           </p>
         </div>
         <div className="p-5">
           {teacher.teacherAssignments.length === 0 ? (
-            <p className="text-sm text-muted">No assignments yet.</p>
+            <p className="text-sm text-muted">
+              No permissions yet — this teacher cannot see any books until you assign subjects.
+            </p>
           ) : (
             <div className="overflow-x-auto">
               <table className="min-w-full text-left text-sm">

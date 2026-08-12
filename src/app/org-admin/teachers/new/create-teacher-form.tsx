@@ -75,6 +75,7 @@ export function CreateTeacherForm({
           subjectName: row.subjectName,
         })),
         { sections, subjects },
+        { allowEmpty: true },
       );
 
       const formData = new FormData();
@@ -192,6 +193,7 @@ export function CreateTeacherForm({
           takenSections={takenSections}
           rows={assignments}
           onChange={setAssignments}
+          allowEmpty
         />
       ) : null}
 

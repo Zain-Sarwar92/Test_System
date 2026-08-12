@@ -76,7 +76,7 @@ export default async function NewTeacherPage() {
           <p className="page-kicker">People</p>
           <h2 className="page-title mt-1">Add Teacher</h2>
           <p className="page-subtitle mx-auto mt-1 max-w-md">
-            Enter details first, then assign Board + Class + Section + Subject.
+            Enter details, then assign any class and subject. You can revoke access later from Edit Teacher.
           </p>
           <div className="mt-3 flex justify-center gap-2">
             <Link href="/org-admin/teachers">

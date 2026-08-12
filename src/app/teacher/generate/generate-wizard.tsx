@@ -337,9 +337,12 @@ function QuestionBilingualText({
 
 export function GenerateWizard({
   boards,
+  hasTeachingAssignments = true,
   teacherName,
   organization,
   scheduleContext = null,
+  testsRedirectPath = "/teacher/tests",
+  schedulesRedirectPath = "/teacher/schedules",
   systemDefaults = {
     durationMinutes: 60,
     mcqMarks: 1,
@@ -348,6 +351,7 @@ export function GenerateWizard({
   },
 }: {
   boards: HierarchyBoard[];
+  hasTeachingAssignments?: boolean;
   teacherName: string;
   organization?: {
     name: string;
@@ -365,6 +369,8 @@ export function GenerateWizard({
     testDate: string;
     syllabusText?: string | null;
   } | null;
+  testsRedirectPath?: string;
+  schedulesRedirectPath?: string;
   systemDefaults?: {
     durationMinutes: number;
     mcqMarks: number;
@@ -1426,7 +1432,7 @@ export function GenerateWizard({
           })),
         });
         // Same destination as normal generate — Saved Papers list
-        router.push("/teacher/tests");
+        router.push(testsRedirectPath);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Save failed");
       }
@@ -1442,7 +1448,7 @@ export function GenerateWizard({
       goToStep("class");
     } else if (step === "chapters") {
       if (lockedFromSchedule) {
-        router.push("/teacher/schedules");
+        router.push(schedulesRedirectPath);
         return;
       }
       setSubjectId(null);
@@ -1536,7 +1542,11 @@ export function GenerateWizard({
       <PageStack>
         <PageHeader
           title="Generate Paper"
-          description="No boards available yet. Ask Super Admin to add curriculum content."
+          description={
+            hasTeachingAssignments
+              ? "No curriculum is available for your assigned subjects yet. Ask Super Admin to add content."
+              : "No classes or subjects are assigned to you yet. Ask your Org Admin to assign your teaching subjects."
+          }
         />
       </PageStack>
     );
@@ -2459,138 +2469,145 @@ export function GenerateWizard({
             </div>
 
             <div className="pts-picker-body">
-              <div className="pts-picker-status">
-                <span className="pts-picker-status-count">
-                  Selected {draftSelected.length}
-                  {parsedRequired() > 0 ? ` / ${parsedRequired()}` : ""}
-                </span>
-                <span className="pts-picker-status-hint">
-                  {hasChapterPlan()
-                    ? "Planner limits apply per chapter"
-                    : "Pick questions then add to paper"}
-                </span>
-              </div>
+              <div className="pts-picker-controls">
+                <div className="pts-picker-status">
+                  <span className="pts-picker-status-count">
+                    Selected {draftSelected.length}
+                    {parsedRequired() > 0 ? ` / ${parsedRequired()}` : ""}
+                  </span>
+                  <span className="pts-picker-status-hint">
+                    {hasChapterPlan()
+                      ? "Planner limits apply per chapter"
+                      : "Pick questions then add to paper"}
+                  </span>
+                </div>
 
-              <div className="pts-picker-fields">
-                <label className="pts-picker-field pts-picker-field--wide pts-picker-field--type">
-                  <span className="pts-picker-label">Question type</span>
-                  {isEnglishSubject ? (
-                    <select
-                      className="pts-picker-input"
-                      value={englishTypeFieldValue}
-                      onChange={(e) => activateEnglishTypeField(e.target.value)}
-                    >
-                      {ENGLISH_QUESTION_TYPE_OPTIONS.filter(
-                        (opt) =>
-                          !hasChapterPlan() || plannedCountForType(opt.type) > 0,
-                      ).map((opt) => (
-                        <option key={opt.value} value={opt.value}>
-                          {opt.label}
-                        </option>
-                      ))}
-                    </select>
-                  ) : (
-                    <select
-                      className="pts-picker-input"
-                      value={activeType}
-                      onChange={(e) => activateType(e.target.value as QType)}
-                    >
-                      {ALL_TYPES.filter(
-                        (t) => !hasChapterPlan() || plannedCountForType(t) > 0,
-                      ).map((t) => (
-                        <option key={t} value={t}>
-                          {TYPE_META[t].label} ({TYPE_META[t].urdu})
-                        </option>
-                      ))}
-                    </select>
-                  )}
-                </label>
-
-                <label className="pts-picker-field">
-                  <span className="pts-picker-label">Medium</span>
-                  <div className="pts-medium-seg w-full">
-                    {MEDIUM_OPTIONS.map((opt) => (
-                      <button
-                        key={opt.value}
-                        type="button"
-                        aria-pressed={medium === opt.value}
-                        onClick={() => {
-                          setMedium(opt.value);
-                          setPool([]);
-                          setDraftSelected([]);
-                        }}
+                <div className="pts-picker-fields">
+                  <label className="pts-picker-field pts-picker-field--wide pts-picker-field--type">
+                    <span className="pts-picker-label">Question type</span>
+                    {isEnglishSubject ? (
+                      <select
+                        className="pts-picker-input"
+                        value={englishTypeFieldValue}
+                        onChange={(e) => activateEnglishTypeField(e.target.value)}
                       >
-                        {opt.label}
-                      </button>
-                    ))}
-                  </div>
-                </label>
-
-                {isEnglishSubject ? null : (
-                  <label className="pts-picker-field">
-                    <span className="pts-picker-label">Source</span>
-                    <select
-                      className="pts-picker-input"
-                      value={sourceFilter}
-                      onChange={(e) => {
-                        setSourceFilter(e.target.value as QuestionSourceFilter);
-                        setPool([]);
-                        setDraftSelected([]);
-                      }}
-                    >
-                      <option value="ALL">All (Smart Syllabus)</option>
-                      <option value="EXERCISE">Exercise</option>
-                      <option value="ADDITIONAL">Additional</option>
-                    </select>
+                        {ENGLISH_QUESTION_TYPE_OPTIONS.filter(
+                          (opt) =>
+                            !hasChapterPlan() || plannedCountForType(opt.type) > 0,
+                        ).map((opt) => (
+                          <option key={opt.value} value={opt.value}>
+                            {opt.label}
+                          </option>
+                        ))}
+                      </select>
+                    ) : (
+                      <select
+                        className="pts-picker-input"
+                        value={activeType}
+                        onChange={(e) => activateType(e.target.value as QType)}
+                      >
+                        {ALL_TYPES.filter(
+                          (t) => !hasChapterPlan() || plannedCountForType(t) > 0,
+                        ).map((t) => (
+                          <option key={t} value={t}>
+                            {TYPE_META[t].label} ({TYPE_META[t].urdu})
+                          </option>
+                        ))}
+                      </select>
+                    )}
                   </label>
-                )}
 
-                <label className="pts-picker-field">
-                  <span className="pts-picker-label">Required questions</span>
-                  <Input
-                    type="number"
-                    min={1}
-                    value={requiredCount}
-                    readOnly={hasChapterPlan()}
-                    onChange={(e) => {
-                      if (hasChapterPlan()) return;
-                      setRequiredCount(
-                        e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
-                      );
-                    }}
-                  />
-                  {hasChapterPlan() ? (
-                    <span className="pts-picker-hint">Prefilled from planner</span>
-                  ) : null}
-                </label>
+                  <label className="pts-picker-field">
+                    <span className="pts-picker-label">Required</span>
+                    <Input
+                      type="number"
+                      min={1}
+                      value={requiredCount}
+                      readOnly={hasChapterPlan()}
+                      onChange={(e) => {
+                        if (hasChapterPlan()) return;
+                        setRequiredCount(
+                          e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
+                        );
+                      }}
+                    />
+                    {hasChapterPlan() ? (
+                      <span className="pts-picker-hint">From planner</span>
+                    ) : null}
+                  </label>
 
-                <label className="pts-picker-field">
-                  <span className="pts-picker-label">Marks per question</span>
-                  <Input
-                    type="number"
-                    min={1}
-                    value={marksPerQuestion}
-                    onChange={(e) =>
-                      setMarksPerQuestion(
-                        e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
-                      )
-                    }
-                  />
-                </label>
+                  <label className="pts-picker-field">
+                    <span className="pts-picker-label">Marks each</span>
+                    <Input
+                      type="number"
+                      min={1}
+                      value={marksPerQuestion}
+                      onChange={(e) =>
+                        setMarksPerQuestion(
+                          e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
+                        )
+                      }
+                    />
+                  </label>
 
-                <label className="pts-picker-field pts-picker-field--wide">
-                  <span className="pts-picker-label">Attempt any (optional)</span>
-                  <Input
-                    type="number"
-                    min={0}
-                    value={attemptCount}
-                    onChange={(e) =>
-                      setAttemptCount(
-                        e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
-                      )
-                    }
-                  />
-                </label>
+                  <details className="pts-picker-more">
+                    <summary className="pts-picker-more-summary">More options</summary>
+                    <div className="pts-picker-more-fields">
+                      <label className="pts-picker-field pts-picker-field--wide">
+                        <span className="pts-picker-label">Medium</span>
+                        <div className="pts-medium-seg w-full">
+                          {MEDIUM_OPTIONS.map((opt) => (
+                            <button
+                              key={opt.value}
+                              type="button"
+                              aria-pressed={medium === opt.value}
+                              onClick={() => {
+                                setMedium(opt.value);
+                                setPool([]);
+                                setDraftSelected([]);
+                              }}
+                            >
+                              {opt.label}
+                            </button>
+                          ))}
+                        </div>
+                      </label>
+
+                      {isEnglishSubject ? null : (
+                        <label className="pts-picker-field">
+                          <span className="pts-picker-label">Source</span>
+                          <select
+                            className="pts-picker-input"
+                            value={sourceFilter}
+                            onChange={(e) => {
+                              setSourceFilter(e.target.value as QuestionSourceFilter);
+                              setPool([]);
+                              setDraftSelected([]);
+                            }}
+                          >
+                            <option value="ALL">All (Smart Syllabus)</option>
+                            <option value="EXERCISE">Exercise</option>
+                            <option value="ADDITIONAL">Additional</option>
+                          </select>
+                        </label>
+                      )}
+
+                      <label className="pts-picker-field pts-picker-field--wide">
+                        <span className="pts-picker-label">Attempt any (optional)</span>
+                        <Input
+                          type="number"
+                          min={0}
+                          value={attemptCount}
+                          onChange={(e) =>
+                            setAttemptCount(
+                              e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
+                            )
+                          }
+                        />
+                      </label>
+                    </div>
+                  </details>
+                </div>
               </div>
 
               <div className="pts-picker-actions">
@@ -2619,6 +2636,7 @@ export function GenerateWizard({
                 ) : null}
               </div>
 
+              <div className="pts-picker-results nice-scroll">
               {visiblePool.length > 0 ? (
                 <div className="pts-picker-pool">
                   <div className="pts-picker-pool-head">
@@ -2711,6 +2729,7 @@ export function GenerateWizard({
                       : "Tap Search or Random Select to load matching questions."}
                 </p>
               )}
+              </div>
             </div>
 
             <div className="pts-modal-footer pts-modal-footer--picker">
