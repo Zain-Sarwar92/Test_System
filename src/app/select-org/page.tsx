@@ -1,6 +1,5 @@
 import { redirect } from "next/navigation";
 import { Building2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import {
   requireSession,
@@ -22,7 +21,7 @@ export default async function SelectOrgPage() {
 
   if (memberships.length === 0) {
     return (
-      <div className="flex min-h-[100dvh] items-center justify-center bg-[var(--paper)] p-6">
+      <div className="flex min-h-[100dvh] items-center justify-center bg-[var(--paper)] p-4 sm:p-6">
         <Card className="max-w-md text-center">
           <CardTitle>No organizations</CardTitle>
           <CardDescription className="mt-2">
@@ -42,7 +41,7 @@ export default async function SelectOrgPage() {
   }
 
   return (
-    <div className="flex min-h-[100dvh] items-center justify-center bg-[var(--paper)] p-6">
+    <div className="flex min-h-[100dvh] items-center justify-center bg-[var(--paper)] p-4 sm:p-6">
       <div className="w-full max-w-lg space-y-5">
         <div className="text-center">
           <p className="text-xs font-semibold tracking-[0.28em] text-brand uppercase">

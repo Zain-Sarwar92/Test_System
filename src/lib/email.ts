@@ -48,7 +48,7 @@ export async function sendEmail(input: SendEmailInput): Promise<SendEmailResult>
       to: input.to,
       subject: input.subject,
       text: input.text,
-      html: input.html ?? `<pre style="font-family:sans-serif">${input.text}</pre>`,
+      html: input.html ?? `<pre style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">${input.text}</pre>`,
     });
 
     return { ok: true, mode: "smtp" };

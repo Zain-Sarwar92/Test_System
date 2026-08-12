@@ -1,5 +1,5 @@
 import { AppShell } from "@/components/app-shell";
-import { prisma } from "@/lib/prisma";
+import { getTeacherSubjectNames, getOrganizationName } from "@/lib/cached-queries";
 import { requireRole, getOrgMemberships } from "@/lib/rbac";
 
 const nav = [
@@ -16,26 +16,14 @@ export default async function TeacherLayout({
   children: React.ReactNode;
 }) {
   const session = await requireRole(["TEACHER"]);
-  const [memberships, org, teachingRows] = await Promise.all([
+  const [memberships, orgName, subjectNames] = await Promise.all([
     getOrgMemberships(session.user.id),
     session.user.organizationId
-      ? prisma.organization.findUnique({
-          where: { id: session.user.organizationId },
-          select: { name: true },
-        })
+      ? getOrganizationName(session.user.organizationId)
       : Promise.resolve(null),
-    prisma.teacherAssignment.findMany({
-      where: { teacherId: session.user.id },
-      select: { subject: { select: { name: true } } },
-      orderBy: { subject: { name: "asc" } },
-    }),
+    getTeacherSubjectNames(session.user.id),
   ]);
 
-  const subjectNames = [
-    ...new Set(
-      teachingRows.map((row) => row.subject.name.trim()).filter(Boolean),
-    ),
-  ];
   const titleMeta =
     subjectNames.length === 0
       ? null
@@ -48,7 +36,7 @@ export default async function TeacherLayout({
       title="Teacher"
       titleMeta={titleMeta}
       subtitle={session.user.name}
-      organizationName={org?.name}
+      organizationName={orgName}
       nav={nav}
       showOrgSwitcher={memberships.length > 1}
     >

@@ -1,6 +1,11 @@
+import { cache } from "react";
 import { AppShell } from "@/components/app-shell";
 import { requireRole } from "@/lib/rbac";
 import { prisma } from "@/lib/prisma";
+
+const getPendingSuggestionCount = cache(async () =>
+  prisma.questionSuggestion.count({ where: { status: "PENDING" } }),
+);
 
 export default async function SuperAdminLayout({
   children,
@@ -8,9 +13,7 @@ export default async function SuperAdminLayout({
   children: React.ReactNode;
 }) {
   const session = await requireRole(["SUPER_ADMIN"]);
-  const pendingSuggestions = await prisma.questionSuggestion.count({
-    where: { status: "PENDING" },
-  });
+  const pendingSuggestions = await getPendingSuggestionCount();
 
   const nav = [
     { href: "/super-admin", label: "Overview", icon: "overview" as const },

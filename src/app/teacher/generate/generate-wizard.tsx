@@ -2164,7 +2164,7 @@ export function GenerateWizard({
                   placeholder="e.g. Biology Mid Term"
                 />
               </label>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
                   Section
                   <Input
@@ -2193,7 +2193,7 @@ export function GenerateWizard({
                   />
                 </label>
               </div>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
                   Paper code
                   <Input
@@ -2231,7 +2231,7 @@ export function GenerateWizard({
                   placeholder="e.g. Half Book, Unit Test, Monthly Test"
                 />
               </label>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
                   Exam date <span className="text-red-500">*</span>
                   <Input

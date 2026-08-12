@@ -282,7 +282,7 @@ export default async function SuperAdminPage() {
               delayClass="stagger-2"
             />
           </div>
-          <div className="mt-6 grid grid-cols-2 gap-3">
+          <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
             <div className="rounded-[0.9rem] bg-[#e8f7f4] px-4 py-3">
               <p className="text-xs text-muted">Active rate</p>
               <p className="mt-1 text-xl font-semibold text-brand-deep">

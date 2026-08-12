@@ -8,6 +8,26 @@ function normalizeAppUrl(url?: string) {
   return url?.replace(/\/+$/, "");
 }
 
+function devLocalOrigins(): string[] {
+  if (process.env.NODE_ENV === "production") return [];
+
+  const port = process.env.PORT ?? "5001";
+  return [
+    `http://localhost:${port}`,
+    `http://127.0.0.1:${port}`,
+    `http://[::1]:${port}`,
+  ];
+}
+
+function extraTrustedOrigins(): string[] {
+  const raw = process.env.BETTER_AUTH_TRUSTED_ORIGINS;
+  if (!raw) return [];
+  return raw
+    .split(",")
+    .map((v) => normalizeAppUrl(v.trim()))
+    .filter((v): v is string => Boolean(v));
+}
+
 const authBaseUrl = normalizeAppUrl(
   process.env.BETTER_AUTH_URL ??
     process.env.NEXT_PUBLIC_APP_URL ??
@@ -15,13 +35,18 @@ const authBaseUrl = normalizeAppUrl(
 );
 
 const trustedOrigins = [
-  authBaseUrl,
-  normalizeAppUrl(process.env.NEXT_PUBLIC_APP_URL),
-  normalizeAppUrl(process.env.APP_URL),
-  "http://localhost:5001",
-  "https://flow-test-ruby.vercel.app",
-  "https://*.vercel.app",
-].filter((v): v is string => Boolean(v));
+  ...new Set(
+    [
+      authBaseUrl,
+      normalizeAppUrl(process.env.NEXT_PUBLIC_APP_URL),
+      normalizeAppUrl(process.env.APP_URL),
+      ...devLocalOrigins(),
+      ...extraTrustedOrigins(),
+      "https://flow-test-ruby.vercel.app",
+      "https://*.vercel.app",
+    ].filter((v): v is string => Boolean(v)),
+  ),
+];
 
 export const auth = betterAuth({
   baseURL: authBaseUrl,
