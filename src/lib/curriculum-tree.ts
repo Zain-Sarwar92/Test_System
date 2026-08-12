@@ -178,3 +178,166 @@ export async function loadCurriculumTreeForGenerate(): Promise<
     ),
   }));
 }
+
+export type CurriculumStructureTopic = {
+  id: string;
+  name: string;
+  order: number;
+  questionCount: number;
+};
+
+export type CurriculumStructureBoard = {
+  id: string;
+  name: string;
+  classes: Array<{
+    id: string;
+    name: string;
+    subjects: Array<{
+      id: string;
+      name: string;
+      chapters: Array<{
+        id: string;
+        name: string;
+        order: number;
+        topics: CurriculumStructureTopic[];
+      }>;
+    }>;
+  }>;
+};
+
+/**
+ * Flat parallel queries — faster than deep Prisma includes on large banks.
+ */
+export async function loadCurriculumStructure(options?: {
+  withQuestionCounts?: boolean;
+}): Promise<CurriculumStructureBoard[]> {
+  const withQuestionCounts = options?.withQuestionCounts ?? false;
+
+  const [boards, classes, subjects, chapters, topics, questionCounts] =
+    await Promise.all([
+      prisma.board.findMany({
+        orderBy: { name: "asc" },
+        select: { id: true, name: true },
+      }),
+      prisma.class.findMany({
+        orderBy: { name: "asc" },
+        select: { id: true, name: true, boardId: true },
+      }),
+      prisma.subject.findMany({
+        orderBy: { name: "asc" },
+        select: { id: true, name: true, classId: true },
+      }),
+      prisma.chapter.findMany({
+        orderBy: [{ order: "asc" }, { name: "asc" }],
+        select: { id: true, name: true, order: true, subjectId: true },
+      }),
+      prisma.topic.findMany({
+        orderBy: [{ order: "asc" }, { name: "asc" }],
+        select: { id: true, name: true, order: true, chapterId: true },
+      }),
+      withQuestionCounts
+        ? prisma.question.groupBy({
+            by: ["topicId"],
+            _count: { _all: true },
+          })
+        : Promise.resolve([]),
+    ]);
+
+  const countsByTopic = new Map<string, number>();
+  for (const row of questionCounts) {
+    countsByTopic.set(row.topicId, row._count._all);
+  }
+
+  const topicsByChapter = new Map<string, CurriculumStructureTopic[]>();
+  for (const topic of topics) {
+    const list = topicsByChapter.get(topic.chapterId) ?? [];
+    list.push({
+      id: topic.id,
+      name: topic.name,
+      order: topic.order,
+      questionCount: countsByTopic.get(topic.id) ?? 0,
+    });
+    topicsByChapter.set(topic.chapterId, list);
+  }
+
+  const chaptersBySubject = new Map<
+    string,
+    Array<{
+      id: string;
+      name: string;
+      order: number;
+      topics: CurriculumStructureTopic[];
+    }>
+  >();
+  for (const chapter of chapters) {
+    const list = chaptersBySubject.get(chapter.subjectId) ?? [];
+    list.push({
+      id: chapter.id,
+      name: chapter.name,
+      order: chapter.order,
+      topics: topicsByChapter.get(chapter.id) ?? [],
+    });
+    chaptersBySubject.set(chapter.subjectId, list);
+  }
+
+  const subjectsByClass = new Map<
+    string,
+    Array<{
+      id: string;
+      name: string;
+      chapters: Array<{
+        id: string;
+        name: string;
+        order: number;
+        topics: CurriculumStructureTopic[];
+      }>;
+    }>
+  >();
+  for (const subject of subjects) {
+    const list = subjectsByClass.get(subject.classId) ?? [];
+    list.push({
+      id: subject.id,
+      name: subject.name,
+      chapters: chaptersBySubject.get(subject.id) ?? [],
+    });
+    subjectsByClass.set(subject.classId, list);
+  }
+
+  const classesByBoard = new Map<
+    string,
+    Array<{
+      id: string;
+      name: string;
+      subjects: Array<{
+        id: string;
+        name: string;
+        chapters: Array<{
+          id: string;
+          name: string;
+          order: number;
+          topics: CurriculumStructureTopic[];
+        }>;
+      }>;
+    }>
+  >();
+  for (const klass of classes) {
+    const list = classesByBoard.get(klass.boardId) ?? [];
+    list.push({
+      id: klass.id,
+      name: klass.name,
+      subjects: subjectsByClass.get(klass.id) ?? [],
+    });
+    classesByBoard.set(klass.boardId, list);
+  }
+
+  return boards.map((board) => ({
+    id: board.id,
+    name: board.name,
+    classes: [...(classesByBoard.get(board.id) ?? [])].sort((a, b) =>
+      a.name.localeCompare(b.name, undefined, {
+        numeric: true,
+        sensitivity: "base",
+      }),
+    ),
+  }));
+}

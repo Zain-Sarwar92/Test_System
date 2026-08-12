@@ -39,7 +39,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
       <div className="relative z-10 grid w-full max-w-[1100px] items-center gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
         <div className="fade-up text-white lg:pr-4">
           <p className="text-[11px] font-semibold tracking-[0.28em] text-teal-200/90 uppercase">
-            Test Generator
+            Test Hub
           </p>
           <h1 className="font-display mt-4 max-w-[34rem] text-[2.35rem] leading-[1.12] font-semibold tracking-tight sm:text-5xl">
             Professional papers, built for real classrooms.

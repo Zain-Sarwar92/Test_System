@@ -48,7 +48,7 @@ export async function sendEmail(input: SendEmailInput): Promise<SendEmailResult>
       to: input.to,
       subject: input.subject,
       text: input.text,
-      html: input.html ?? `<pre style="font-family:sans-serif">${input.text}</pre>`,
+      html: input.html ?? `<pre style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif">${input.text}</pre>`,
     });
 
     return { ok: true, mode: "smtp" };
@@ -101,7 +101,7 @@ export function buildTestReminderDigestEmail(input: {
 }) {
   const loginHint = input.appUrl
     ? `Please log in at ${input.appUrl} and create the missing test paper(s) before the scheduled date.`
-    : "Please log in to the Test Generator and create the missing test paper(s) before the scheduled date.";
+    : "Please log in to Test Hub and create the missing test paper(s) before the scheduled date.";
 
   const count = input.items.length;
   const first = input.items[0];

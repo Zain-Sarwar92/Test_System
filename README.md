@@ -1,4 +1,4 @@
-# Test Generator SaaS
+# Test Hub
 
 Multi-tenant test paper generator for schools, academies, colleges, and universities.
 

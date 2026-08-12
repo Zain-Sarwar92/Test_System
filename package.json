@@ -1,10 +1,9 @@
 {
-  "name": "test-generator",
+  "name": "test-hub",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --port 5001",
-    "dev:webpack": "next dev --port 5001 --webpack",
     "build": "prisma generate && next build",
     "start": "next start --port 5001",
     "lint": "eslint",
@@ -14,6 +13,9 @@
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
     "db:setup": "prisma migrate deploy && tsx prisma/seed.ts",
+    "db:local:up": "docker compose up -d postgres",
+    "db:local:down": "docker compose down",
+    "db:local:setup": "powershell -ExecutionPolicy Bypass -File scripts/setup-local-db.ps1",
     "db:parse-biology-mcqs": "tsx scripts/parse-lahore-biology-mcqs.ts",
     "db:parse-biology-10-mcqs": "tsx scripts/parse-lahore-biology-10-mcqs.ts 10th",
     "db:parse-biology-10-shorts": "tsx scripts/parse-lahore-biology-10-shorts.ts",
@@ -83,7 +85,6 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",
     "@prisma/client": "^7.9.0",
-    "bcryptjs": "^3.0.3",
     "better-auth": "^1.6.25",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -98,7 +99,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/nodemailer": "^8.0.1",
     "@types/pg": "^8.21.0",

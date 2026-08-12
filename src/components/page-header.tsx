@@ -20,7 +20,7 @@ export function PageHeader({
         <h2 className="page-title">{title}</h2>
         {description ? <p className="page-subtitle">{description}</p> : null}
       </div>
-      {actions ? <div className="flex shrink-0 flex-wrap items-center gap-2">{actions}</div> : null}
+      {actions ? <div className="page-header-actions">{actions}</div> : null}
     </header>
   );
 }

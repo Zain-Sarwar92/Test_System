@@ -1,0 +1,28 @@
+# Local PostgreSQL for fast dev (no cloud latency).
+# Requires Docker Desktop: https://www.docker.com/products/docker-desktop/
+#
+# Start:  npm run db:local:up
+# Setup:  npm run db:local:setup
+# Stop:   npm run db:local:down
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: test-hub-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: testhub
+      POSTGRES_PASSWORD: testhub_local
+      POSTGRES_DB: test_hub
+    volumes:
+      - test_hub_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U testhub -d test_hub"]
+      interval: 3s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  test_hub_pg_data:

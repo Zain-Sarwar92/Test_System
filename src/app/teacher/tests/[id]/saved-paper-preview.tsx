@@ -241,7 +241,7 @@ export function SavedPaperPreview({
   return (
     <PageStack wide className="gap-4">
       <div className="pts-paper-sticky-chrome">
-        <div className="flex flex-wrap items-start justify-between gap-3">
+        <div className="responsive-toolbar">
           <div className="min-w-0">
             <p className="page-kicker">Saved paper</p>
             <h2 className="page-title">Paper Preview</h2>
@@ -263,7 +263,7 @@ export function SavedPaperPreview({
               <span className="pts-crumb-current">Paper</span>
             </div>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="responsive-toolbar-actions">
             <Link href="/teacher/tests">
               <Button variant="outline">Back</Button>
             </Link>
@@ -392,7 +392,7 @@ export function SavedPaperPreview({
                 />
               </label>
 
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
                   Section
                   <Input
@@ -424,7 +424,7 @@ export function SavedPaperPreview({
                 </label>
               </div>
 
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
                   Paper code
                   <Input
@@ -455,7 +455,7 @@ export function SavedPaperPreview({
                 />
               </label>
 
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
                   Exam date <span className="text-red-500">*</span>
                   <Input

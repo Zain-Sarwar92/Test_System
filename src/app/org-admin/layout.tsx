@@ -1,6 +1,7 @@
+import { cache } from "react";
 import { AppShell } from "@/components/app-shell";
+import { getOrganizationName } from "@/lib/cached-queries";
 import { requireRole, getOrgMemberships } from "@/lib/rbac";
-import { prisma } from "@/lib/prisma";
 
 const nav = [
   { href: "/org-admin", label: "Overview", icon: "overview" as const },
@@ -18,13 +19,10 @@ export default async function OrgAdminLayout({
   children: React.ReactNode;
 }) {
   const session = await requireRole(["ORG_ADMIN"]);
-  const [org, memberships] = await Promise.all([
+  const [orgName, memberships] = await Promise.all([
     session.user.organizationId
-      ? prisma.organization.findUnique({
-          where: { id: session.user.organizationId },
-          select: { name: true },
-        })
-      : null,
+      ? getOrganizationName(session.user.organizationId)
+      : Promise.resolve(null),
     getOrgMemberships(session.user.id),
   ]);
 
@@ -32,7 +30,7 @@ export default async function OrgAdminLayout({
     <AppShell
       title="Org Admin"
       subtitle={session.user.name}
-      organizationName={org?.name}
+      organizationName={orgName}
       nav={nav}
       showOrgSwitcher={memberships.length > 1}
     >

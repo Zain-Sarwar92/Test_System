@@ -1,30 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Plus_Jakarta_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({
-  variable: "--font-sora",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const jakarta = Plus_Jakarta_Sans({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  display: "swap",
-  preload: false,
-});
+import "./landing.css";
 
 export const metadata: Metadata = {
-  title: "Test Generator SaaS",
+  title: "Test Hub — Board-ready test papers for schools",
   description:
-    "Multi-tenant test paper generator for schools, academies, and universities",
+    "Multi-tenant test paper generator for schools, academies, and universities. Auto or manual generation, schedules, and print-ready exports.",
 };
 
 export default function RootLayout({
@@ -33,11 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${jakarta.variable} ${geistMono.variable} h-full antialiased`}
-      suppressHydrationWarning
-    >
+    <html lang="en" className="h-full antialiased" suppressHydrationWarning>
       <body className="min-h-full bg-paper text-ink" suppressHydrationWarning>
         {children}
       </body>
