@@ -249,7 +249,7 @@ export function LandingPage() {
           </div>
         </section>
 
-        <section id="features" className="landing-section theme-paper">
+        <section id="features" className="landing-section theme-white">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
               <p className="landing-kicker">Why Test Hub</p>
@@ -285,7 +285,7 @@ export function LandingPage() {
           </div>
         </section>
 
-        <section id="modes" className="landing-section theme-dark">
+        <section id="modes" className="landing-section theme-green">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
               <p className="landing-kicker">Generation modes</p>
@@ -323,13 +323,17 @@ export function LandingPage() {
           </div>
         </section>
 
-        <section id="coverage" className="landing-section theme-light">
+        <section id="coverage" className="landing-section theme-white">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
               <p className="landing-kicker">Coverage</p>
               <h2 className="landing-section-title">
-                Boards, mediums, and question types that match real exams.
+                Boards and publishers that match real exam patterns.
               </h2>
+              <p className="landing-section-lede">
+                Punjab PTB, federal track, and primary publisher pathways — each
+                with chapter and topic filters teachers already know.
+              </p>
             </Reveal>
 
             <div className="landing-coverage-grid">
@@ -345,6 +349,21 @@ export function LandingPage() {
                 </Reveal>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section id="types" className="landing-section theme-green">
+          <div className="landing-section-inner">
+            <Reveal from="up" className="landing-section-head">
+              <p className="landing-kicker">Question types</p>
+              <h2 className="landing-section-title">
+                MCQ, short, long — plus English, Urdu, or dual medium.
+              </h2>
+              <p className="landing-section-lede">
+                Every paper can mix objective and subjective sections. Switch
+                medium per test without rebuilding the bank.
+              </p>
+            </Reveal>
 
             <div className="landing-type-grid">
               {TYPE_CARDS.map((card, i) => (
@@ -372,7 +391,7 @@ export function LandingPage() {
           </div>
         </section>
 
-        <section id="how" className="landing-section theme-mint">
+        <section id="how" className="landing-section theme-white">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
               <p className="landing-kicker">How it works</p>
@@ -395,6 +414,17 @@ export function LandingPage() {
                 </Reveal>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section id="roles" className="landing-section theme-green">
+          <div className="landing-section-inner">
+            <Reveal from="up" className="landing-section-head">
+              <p className="landing-kicker">Built for every role</p>
+              <h2 className="landing-section-title">
+                Super Admin, Org Admin, and Teacher — each with the right tools.
+              </h2>
+            </Reveal>
 
             <div className="landing-role-grid">
               {ROLE_CARDS.map((card, i) => {
@@ -459,6 +489,7 @@ export function LandingPage() {
             <Link href="/login">Institute login</Link>
             <a href="#features">Features</a>
             <a href="#how">How it works</a>
+            <a href="#roles">Roles</a>
           </div>
           <p className="landing-footer-copy">
             © {new Date().getFullYear()} Test Hub. All rights reserved.

@@ -47,12 +47,14 @@ export function LandingNavBar() {
           >
             <Menu className="h-5 w-5" aria-hidden />
           </button>
-          <Link href="/login" className="landing-btn landing-btn-ghost landing-nav-login">
-            Login
-          </Link>
-          <a href="#start" className="landing-btn landing-btn-solid landing-nav-cta">
-            Get started
-          </a>
+          <div className="landing-nav-desktop-actions">
+            <Link href="/login" className="landing-btn landing-btn-ghost">
+              Login
+            </Link>
+            <a href="#start" className="landing-btn landing-btn-solid">
+              Get started
+            </a>
+          </div>
         </div>
       </div>
 
@@ -87,9 +89,23 @@ export function LandingNavBar() {
               {link.label}
             </a>
           ))}
-          <Link href="/login" onClick={() => setOpen(false)}>Login</Link>
-          <a href="#start" onClick={() => setOpen(false)}>Get started</a>
         </nav>
+        <div className="landing-mobile-drawer-footer">
+          <Link
+            href="/login"
+            className="landing-btn landing-btn-outline-light landing-btn-block"
+            onClick={() => setOpen(false)}
+          >
+            Login
+          </Link>
+          <a
+            href="#start"
+            className="landing-btn landing-btn-solid landing-btn-block"
+            onClick={() => setOpen(false)}
+          >
+            Get started
+          </a>
+        </div>
       </aside>
     </header>
   );

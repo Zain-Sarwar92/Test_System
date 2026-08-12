@@ -80,6 +80,18 @@
   gap: 0.5rem;
 }
 
+.landing-nav-desktop-actions {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (min-width: 900px) {
+  .landing-nav-desktop-actions {
+    display: flex;
+  }
+}
+
 .landing-nav-menu-btn {
   display: inline-flex;
   align-items: center;
@@ -138,6 +150,7 @@
   box-shadow: -12px 0 40px rgba(11, 31, 51, 0.35);
   transform: translateX(105%);
   transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+  overflow: hidden;
 }
 
 .landing-mobile-drawer--open {
@@ -153,8 +166,25 @@
 
 .landing-mobile-drawer-nav {
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 0.35rem;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.landing-mobile-drawer-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.landing-btn-block {
+  width: 100%;
 }
 
 .landing-mobile-drawer-nav a {
@@ -179,11 +209,6 @@
   }
 }
 
-@media (max-width: 480px) {
-  .landing-nav-cta {
-    display: none;
-  }
-}
 
 .landing-btn {
   display: inline-flex;
@@ -693,98 +718,141 @@
   transform: scale(1.1) rotate(-4deg);
 }
 
-/* theme-paper: white section like app-backdrop */
-.theme-paper {
-  background:
-    radial-gradient(700px 280px at 10% 0%, rgba(45, 212, 191, 0.14), transparent 60%),
-    radial-gradient(600px 260px at 100% 20%, rgba(11, 31, 51, 0.06), transparent 55%),
-    linear-gradient(180deg, #eef4f8 0%, #f7fafc 100%);
+/* theme-white: clean white sections */
+.theme-white {
+  background: #ffffff;
   color: var(--ink);
 }
 
-.theme-paper .landing-kicker {
+.theme-white .landing-kicker {
   color: var(--brand);
 }
 
-.theme-paper .landing-section-title {
+.theme-white .landing-section-title {
   color: var(--ink);
 }
 
-.theme-paper .landing-section-lede {
+.theme-white .landing-section-lede {
   color: var(--muted);
 }
 
-.theme-paper .landing-card {
+.theme-white .landing-card,
+.theme-white .landing-step-card {
   background: #fff;
   border-color: rgba(15, 118, 110, 0.12);
   color: var(--ink);
   box-shadow: 0 12px 28px rgba(11, 31, 51, 0.06);
 }
 
-.theme-paper .landing-card h3 {
+.theme-white .landing-card h3,
+.theme-white .landing-step-card h3 {
   color: var(--ink);
 }
 
-.theme-paper .landing-card p {
+.theme-white .landing-card p,
+.theme-white .landing-step-card p {
   color: var(--muted);
 }
 
-.theme-paper .landing-card-icon {
+.theme-white .landing-card-icon {
   background: linear-gradient(145deg, var(--brand), var(--brand-deep));
   color: #fff;
   box-shadow: 0 10px 18px rgba(15, 118, 110, 0.25);
 }
 
-/* theme-dark: green gradient section (modes) */
-.theme-dark {
+.theme-white .landing-cover-card {
+  padding: 1.35rem 1.25rem 1.45rem;
+  min-height: 9.5rem;
+  color: #fff;
+}
+
+.theme-white .landing-cover-card.tone-teal {
+  background: linear-gradient(145deg, var(--brand), var(--brand-deep));
+  border-color: rgba(45, 212, 191, 0.35);
+}
+
+.theme-white .landing-cover-card.tone-navy {
+  background: linear-gradient(145deg, #12364f, #0b1f33);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.theme-white .landing-cover-card.tone-gold {
+  background: linear-gradient(145deg, #14b8a6, var(--brand));
+  border-color: rgba(45, 212, 191, 0.4);
+}
+
+.theme-white .landing-cover-card h3 {
+  color: #fff;
+}
+
+.theme-white .landing-cover-card p {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.theme-white .landing-step-card {
+  padding: 1.35rem 1.25rem 1.45rem;
+}
+
+.theme-white .landing-step-n {
+  display: inline-flex;
+  font-family: var(--font-helvetica);
+  font-size: 1.7rem;
+  font-weight: 750;
+  letter-spacing: -0.04em;
+  color: var(--brand);
+}
+
+/* theme-green: green gradient sections */
+.theme-green {
   background:
     radial-gradient(700px 300px at 90% 10%, rgba(45, 212, 191, 0.18), transparent 55%),
+    radial-gradient(600px 280px at 0% 100%, rgba(11, 31, 51, 0.15), transparent 50%),
     linear-gradient(180deg, #0b1f33 0%, #0f766e 100%);
   color: #fff;
 }
 
-.theme-dark .landing-kicker {
+.theme-green .landing-kicker {
   color: var(--brand-glow);
 }
 
-.theme-dark .landing-section-title {
+.theme-green .landing-section-title {
   color: #fff;
 }
 
-.theme-dark .landing-section-lede {
-  color: rgba(255, 255, 255, 0.75);
+.theme-green .landing-section-lede {
+  color: rgba(255, 255, 255, 0.78);
 }
 
-.theme-dark .landing-mode-card {
+.theme-green .landing-mode-card {
   padding: 1.4rem 1.3rem 1.5rem;
   color: #fff;
 }
 
-.theme-dark .landing-mode-card:first-child {
+.theme-green .landing-mode-card:first-child {
   background:
     radial-gradient(120% 100% at 0% 0%, rgba(45, 212, 191, 0.25), transparent 50%),
     linear-gradient(160deg, var(--brand), var(--brand-deep));
   border-color: rgba(45, 212, 191, 0.35);
 }
 
-.theme-dark .landing-mode-card:last-child {
+.theme-green .landing-mode-card:last-child {
   background:
     radial-gradient(120% 100% at 100% 0%, rgba(255, 255, 255, 0.1), transparent 50%),
     linear-gradient(160deg, #12364f, #0b1f33);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
-.theme-dark .landing-mode-card h3 {
+.theme-green .landing-mode-card h3 {
   color: #fff;
 }
 
-.theme-dark .landing-card-icon {
+.theme-green .landing-card-icon {
   background: rgba(255, 255, 255, 0.16);
   color: #fff;
   box-shadow: none;
 }
 
-.theme-dark .landing-badge {
+.theme-green .landing-badge {
   display: inline-flex;
   align-items: center;
   min-height: 1.6rem;
@@ -798,7 +866,7 @@
   text-transform: uppercase;
 }
 
-.theme-dark .landing-mode-card ul {
+.theme-green .landing-mode-card ul {
   margin: 1rem 0 0;
   padding: 0;
   list-style: none;
@@ -806,7 +874,7 @@
   gap: 0.55rem;
 }
 
-.theme-dark .landing-mode-card li {
+.theme-green .landing-mode-card li {
   position: relative;
   padding-left: 1.15rem;
   font-size: 0.92rem;
@@ -814,7 +882,7 @@
   color: rgba(255, 255, 255, 0.88);
 }
 
-.theme-dark .landing-mode-card li::before {
+.theme-green .landing-mode-card li::before {
   content: "";
   position: absolute;
   left: 0;
@@ -825,73 +893,17 @@
   background: var(--brand-glow);
 }
 
-.landing-mode-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
-/* theme-light: soft white + green tint (coverage) */
-.theme-light {
-  background:
-    radial-gradient(700px 280px at 100% 0%, rgba(45, 212, 191, 0.12), transparent 55%),
-    linear-gradient(180deg, #f4f7fb 0%, #ecfdf5 100%);
-  color: var(--ink);
-}
-
-.theme-light .landing-kicker {
-  color: var(--brand);
-}
-
-.theme-light .landing-section-title {
-  color: var(--ink);
-}
-
-.theme-light .landing-section-lede {
-  color: var(--muted);
-}
-
-.theme-light .landing-cover-card {
-  padding: 1.35rem 1.25rem 1.45rem;
-  min-height: 9.5rem;
-  color: #fff;
-}
-
-.theme-light .landing-cover-card.tone-teal {
-  background: linear-gradient(145deg, var(--brand), var(--brand-deep));
-  border-color: rgba(45, 212, 191, 0.35);
-}
-
-.theme-light .landing-cover-card.tone-navy {
-  background: linear-gradient(145deg, #12364f, #0b1f33);
-  border-color: rgba(255, 255, 255, 0.12);
-}
-
-.theme-light .landing-cover-card.tone-gold {
-  background: linear-gradient(145deg, #14b8a6, var(--brand));
-  border-color: rgba(45, 212, 191, 0.4);
-}
-
-.theme-light .landing-cover-card h3 {
-  color: #fff;
-}
-
-.theme-light .landing-cover-card p {
-  color: rgba(255, 255, 255, 0.88);
-}
-
-.theme-light .landing-type-card {
+.theme-green .landing-type-card {
   padding: 1.15rem 1.1rem;
   display: grid;
   gap: 0.35rem;
-  background: #fff;
-  border-color: rgba(15, 118, 110, 0.12);
+  background: rgba(255, 255, 255, 0.97);
+  border-color: rgba(255, 255, 255, 0.25);
   color: var(--ink);
-  box-shadow: 0 10px 24px rgba(11, 31, 51, 0.06);
+  box-shadow: 0 14px 32px rgba(11, 31, 51, 0.18);
 }
 
-.theme-light .landing-type-code {
+.theme-green .landing-type-code {
   font-size: 0.7rem;
   font-weight: 750;
   letter-spacing: 0.14em;
@@ -899,7 +911,7 @@
   color: var(--brand);
 }
 
-.theme-light .landing-type-card strong {
+.theme-green .landing-type-card strong {
   font-family: var(--font-helvetica);
   font-size: 1.15rem;
   font-weight: 700;
@@ -907,66 +919,38 @@
   color: var(--ink);
 }
 
-.theme-light .landing-type-card span:last-child {
+.theme-green .landing-type-card span:last-child {
   color: var(--muted);
   font-size: 0.88rem;
 }
 
-/* theme-mint: how-it-works — white cards on soft green */
-.theme-mint {
-  background:
-    radial-gradient(700px 280px at 0% 100%, rgba(15, 118, 110, 0.1), transparent 55%),
-    linear-gradient(180deg, #f7fafc 0%, #eef4f8 100%);
-  color: var(--ink);
-}
-
-.theme-mint .landing-kicker {
-  color: var(--brand);
-}
-
-.theme-mint .landing-section-title {
-  color: var(--ink);
-}
-
-.theme-mint .landing-section-lede {
-  color: var(--muted);
-}
-
-.theme-mint .landing-step-card,
-.theme-mint .landing-role-card {
-  background: #fff;
-  border-color: rgba(15, 118, 110, 0.12);
-  color: var(--ink);
-  box-shadow: 0 12px 28px rgba(11, 31, 51, 0.06);
-}
-
-.theme-mint .landing-step-card {
-  padding: 1.35rem 1.25rem 1.45rem;
-}
-
-.theme-mint .landing-step-n {
-  display: inline-flex;
-  font-family: var(--font-helvetica);
-  font-size: 1.7rem;
-  font-weight: 750;
-  letter-spacing: -0.04em;
-  color: var(--brand);
-}
-
-.theme-mint .landing-step-card h3,
-.theme-mint .landing-role-card h3 {
-  color: var(--ink);
-}
-
-.theme-mint .landing-step-card p,
-.theme-mint .landing-role-card p {
-  color: var(--muted);
-}
-
-.theme-mint .landing-card-icon {
-  background: linear-gradient(145deg, var(--brand), var(--brand-deep));
+.theme-green .landing-role-card {
+  padding: 1.25rem 1.2rem 1.35rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.18);
   color: #fff;
-  box-shadow: 0 10px 18px rgba(15, 118, 110, 0.22);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 16px 36px rgba(11, 31, 51, 0.15);
+}
+
+.theme-green .landing-role-card h3 {
+  color: #fff;
+}
+
+.theme-green .landing-role-card p {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.theme-green .landing-role-card .landing-card-icon {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.landing-mode-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
 }
 
 /* CTA — login-style gradient */

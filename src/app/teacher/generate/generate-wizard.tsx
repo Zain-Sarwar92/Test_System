@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useMemo, useState, useTransition, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -120,6 +120,26 @@ const MEDIUM_OPTIONS: Array<{ value: QuestionMedium; label: string }> = [
   { value: "URDU", label: "Urdu" },
   { value: "BOTH", label: "Dual" },
 ];
+
+function WizardActionBar({
+  summary,
+  children,
+}: {
+  summary: ReactNode;
+  children: ReactNode;
+}) {
+  return (
+    <>
+      <div className="wizard-action-spacer" aria-hidden />
+      <div className="wizard-action-bar">
+        <div className="wizard-action-bar-inner">
+          <div className="wizard-action-bar-summary">{summary}</div>
+          <div className="wizard-action-bar-actions">{children}</div>
+        </div>
+      </div>
+    </>
+  );
+}
 
 function subjectIconFor(name: string): LucideIcon {
   const n = name.toLowerCase();
@@ -1507,7 +1527,7 @@ export function GenerateWizard({
   }
 
   return (
-    <PageStack wide className="gap-4">
+    <PageStack wide className="wizard-flow gap-4">
       {scheduleContext ? (
         <div className="rounded-[0.9rem] border border-[#f0d9a8] bg-[#fff8eb] px-4 py-3 text-sm text-[#8a5a00]">
           Creating paper for assigned schedule:{" "}
@@ -1831,8 +1851,8 @@ export function GenerateWizard({
       {/* CHAPTERS */}
       {step === "chapters" ? (
         <>
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <label className="flex items-center gap-2 text-sm font-semibold text-ink">
+          <div className="pts-syllabus-toolbar">
+            <label className="flex min-w-0 flex-1 items-center gap-2.5 text-sm font-semibold text-ink">
               <input
                 type="checkbox"
                 checked={
@@ -1843,7 +1863,7 @@ export function GenerateWizard({
                   else clearChapters();
                 }}
               />
-              SELECT ALL CHAPTERS
+              Select all chapters
             </label>
             <Button variant="outline" size="sm" onClick={clearChapters}>
               Clear
@@ -1853,43 +1873,43 @@ export function GenerateWizard({
           <div className="pts-chapter-grid">
             {chapters.map((chapter) => {
               const checked = selectedChapterIds.includes(chapter.id);
+              const selectedTopicsInChapter = chapter.topics.filter((topic) =>
+                selectedTopicIds.includes(topic.id),
+              ).length;
               return (
                 <div
                   key={chapter.id}
                   className={cn(
-                    "rounded-xl border bg-white p-3.5 shadow-sm",
-                    checked
-                      ? "border-brand/40 ring-1 ring-brand/20"
-                      : "border-[rgba(15,40,70,0.1)]",
+                    "pts-chapter-card",
+                    checked && "pts-chapter-card--selected",
                   )}
                 >
-                  <label className="flex cursor-pointer items-start gap-2.5">
+                  <label className="pts-chapter-card-head cursor-pointer">
                     <input
                       type="checkbox"
-                      className="mt-1"
                       checked={checked}
                       onChange={() => toggleChapter(chapter.id)}
                     />
                     <span className="min-w-0">
-                      <span className="block text-sm font-bold text-ink">{chapter.name}</span>
+                      <span className="pts-chapter-card-title">{chapter.name}</span>
+                      <span className="pts-chapter-card-meta">
+                        {chapter.topics.length} topics
+                        {checked
+                          ? ` · ${selectedTopicsInChapter} selected`
+                          : ""}
+                      </span>
                     </span>
                   </label>
                   {checked ? (
-                    <div className="mt-2.5 space-y-1.5 border-t border-[rgba(15,40,70,0.08)] pt-2.5 pl-6">
+                    <div className="pts-chapter-topics nice-scroll">
                       {chapter.topics.map((topic) => (
-                        <label
-                          key={topic.id}
-                          className="flex cursor-pointer items-start gap-2 text-xs text-ink-soft"
-                        >
+                        <label key={topic.id} className="pts-chapter-topic cursor-pointer">
                           <input
                             type="checkbox"
-                            className="mt-0.5"
                             checked={selectedTopicIds.includes(topic.id)}
                             onChange={() => toggleTopic(topic.id, chapter.id)}
                           />
-                          <span className="min-w-0">
-                            <span className="block">{topic.name}</span>
-                          </span>
+                          <span className="min-w-0">{topic.name}</span>
                         </label>
                       ))}
                     </div>
@@ -1899,19 +1919,33 @@ export function GenerateWizard({
             })}
           </div>
 
-          <div className="sticky-action-bar flex flex-wrap items-center justify-between gap-3">
-            <p className="text-sm text-muted">
-              {selectedChapterIds.length} chapters · {selectedTopicIds.length} topics
-              {selectedChapterIds.length > 1
-                ? " · multi-chapter planner next"
-                : " · direct question picker"}
-            </p>
-            <Button onClick={openWorkspace} disabled={selectedTopicIds.length === 0}>
+          <WizardActionBar
+            summary={
+              <>
+                <strong className="font-semibold text-ink">
+                  {selectedChapterIds.length}
+                </strong>{" "}
+                chapters ·{" "}
+                <strong className="font-semibold text-ink">
+                  {selectedTopicIds.length}
+                </strong>{" "}
+                topics
+                {selectedChapterIds.length > 1
+                  ? " · distribution planner next"
+                  : " · question picker next"}
+              </>
+            }
+          >
+            <Button
+              onClick={openWorkspace}
+              disabled={selectedTopicIds.length === 0}
+              className="min-w-[10rem]"
+            >
               {selectedChapterIds.length > 1
                 ? "Continue → Distribution"
                 : "Continue → Select Questions"}
             </Button>
-          </div>
+          </WizardActionBar>
         </>
       ) : null}
 
@@ -2068,7 +2102,7 @@ export function GenerateWizard({
                     </div>
                   </div>
 
-                  <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-4 space-y-3">
+                  <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-4 space-y-3 hidden md:block">
                     <p className="text-sm text-muted">
                       Next opens the question picker. Required counts are prefilled from the planner. Manual selection respects each chapter’s limit. Random Select also follows the planner counts.
                     </p>
@@ -2076,13 +2110,38 @@ export function GenerateWizard({
                       type="button"
                       className="w-full"
                       onClick={openPickerFromPlanner}
-                      disabled={pending}
+                      disabled={pending || plannerQuestionTotal === 0}
                     >
                       Next → Select Questions
                     </Button>
                   </div>
                 </div>
               </div>
+
+              <WizardActionBar
+                summary={
+                  <>
+                    Planner:{" "}
+                    <strong className="font-semibold text-ink">
+                      {plannerQuestionTotal}
+                    </strong>{" "}
+                    questions ·{" "}
+                    <strong className="font-semibold text-ink">
+                      {plannerEstimatedMarks}
+                    </strong>{" "}
+                    marks
+                  </>
+                }
+              >
+                <Button
+                  type="button"
+                  onClick={openPickerFromPlanner}
+                  disabled={pending || plannerQuestionTotal === 0}
+                  className="min-w-[10rem]"
+                >
+                  Next → Select Questions
+                </Button>
+              </WizardActionBar>
             </Card>
           ) : !modalOpen ? (
             <Card className="border-dashed">
@@ -2090,7 +2149,7 @@ export function GenerateWizard({
               <CardDescription className="mt-1">
                 A single chapter is selected, so the planner is not needed. Use the question picker to choose MCQ, Short, and Long questions.
               </CardDescription>
-              <div className="mt-4 flex flex-wrap gap-2">
+              <div className="mt-4 hidden flex-wrap gap-2 md:flex">
                 <Button
                   onClick={() => {
                     setModalOpen(true);
@@ -2110,6 +2169,28 @@ export function GenerateWizard({
                   {paperQuestionCount} questions ready · {paperMarks} marks
                 </p>
               ) : null}
+
+              <WizardActionBar
+                summary={
+                  paperSections.length > 0
+                    ? `${paperQuestionCount} questions ready · ${paperMarks} marks`
+                    : "Open the question picker to build your paper."
+                }
+              >
+                <Button
+                  onClick={() => {
+                    setModalOpen(true);
+                    goToStep("paper");
+                  }}
+                >
+                  Open Question Picker
+                </Button>
+                {paperSections.length > 0 ? (
+                  <Button variant="outline" onClick={goToPaperView}>
+                    View Paper
+                  </Button>
+                ) : null}
+              </WizardActionBar>
             </Card>
           ) : null}
         </div>
@@ -2601,7 +2682,7 @@ export function GenerateWizard({
               )}
             </div>
 
-            <div className="sticky bottom-0 flex flex-wrap items-center justify-between gap-2 border-t border-[rgba(15,40,70,0.1)] bg-[#f8fafc] px-3 py-3 sm:px-4">
+            <div className="pts-modal-footer">
               <p className="text-xs font-semibold text-ink">
                 Selected {draftSelected.length}
                 {parsedRequired() > 0 ? ` / ${parsedRequired()}` : ""} ·{" "}
@@ -2609,7 +2690,7 @@ export function GenerateWizard({
                   The paper preview updates after you add questions.
                 </span>
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="pts-modal-footer-actions">
                 <Button
                   variant="outline"
                   onClick={() => setModalOpen(false)}
