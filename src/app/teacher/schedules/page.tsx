@@ -31,26 +31,26 @@ export default async function TeacherSchedulesPage() {
         </Card>
       ) : (
         <>
-          <div className="grid gap-3 sm:grid-cols-3">
-            <Card className="chart-card py-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-muted">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+            <Card className="chart-card py-3.5 sm:py-4">
+              <p className="text-[10px] font-semibold uppercase tracking-wide text-muted sm:text-xs">
                 Total
               </p>
-              <p className="mt-1 text-2xl font-semibold text-ink">
+              <p className="mt-1 text-xl font-semibold text-ink sm:text-2xl">
                 {schedules.length}
               </p>
             </Card>
-            <Card className="chart-card py-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-muted">
+            <Card className="chart-card py-3.5 sm:py-4">
+              <p className="text-[10px] font-semibold uppercase tracking-wide text-muted sm:text-xs">
                 Needs action
               </p>
-              <p className="mt-1 text-2xl font-semibold text-ink">{openCount}</p>
+              <p className="mt-1 text-xl font-semibold text-ink sm:text-2xl">{openCount}</p>
             </Card>
-            <Card className="chart-card py-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-muted">
+            <Card className="chart-card py-3.5 sm:py-4">
+              <p className="text-[10px] font-semibold uppercase tracking-wide text-muted sm:text-xs">
                 Completed
               </p>
-              <p className="mt-1 text-2xl font-semibold text-ink">
+              <p className="mt-1 text-xl font-semibold text-ink sm:text-2xl">
                 {schedules.length - openCount}
               </p>
             </Card>

@@ -78,7 +78,7 @@ export function LoginForm({
   }
 
   return (
-    <Card className="w-full border-white/50 bg-white/94 shadow-[0_24px_60px_rgba(11,31,51,0.28)] backdrop-blur-md">
+    <Card className="login-card w-full border-white/50 bg-white/94 shadow-[0_24px_60px_rgba(11,31,51,0.28)] backdrop-blur-md">
       <p className="page-kicker">Welcome back</p>
       <CardTitle className="mt-2 text-[1.55rem]">Sign in to continue</CardTitle>
       <CardDescription>
