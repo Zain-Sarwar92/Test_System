@@ -26,54 +26,54 @@ const PROOF = [
 const FEATURE_CARDS = [
   {
     icon: Wand2,
-    title: "Auto balanced generation",
-    body: "One question per topic each round — fair coverage without hunting the bank by hand.",
+    title: "Auto-Balanced Generation",
+    body: "Generate balanced papers with smart topic coverage—without manually searching through the question bank.",
   },
   {
     icon: PencilLine,
-    title: "Manual pick & edit",
-    body: "Hand-select every stem, then replace, reorder, or remove before you print.",
+    title: "Manual Pick & Edit",
+    body: "Select questions yourself, then replace, reorder, edit, or remove them before generating the final paper.",
   },
   {
     icon: Layers3,
-    title: "Board → topic wizard",
-    body: "Same flow teachers expect: board, class, subject, chapters, then generate.",
+    title: "Board → Topic Wizard",
+    body: "Follow a simple teacher-friendly flow: Board → Class → Subject → Chapters → Generate.",
   },
   {
     icon: BookOpenCheck,
-    title: "Global question bank",
-    body: "MCQ, short, and long questions curated once — available to every org securely.",
+    title: "Global Question Bank",
+    body: "Manage MCQs, short, and long questions in one centralized question bank, securely organized for each institute.",
   },
   {
     icon: CalendarClock,
-    title: "Exam schedules",
-    body: "Org admins lock subjects and dates; teachers build from assigned work.",
+    title: "Exam Scheduling",
+    body: "Admins can assign subjects and exam dates, while teachers build papers from their assigned exams.",
   },
   {
     icon: FileDown,
-    title: "Branded PDF papers",
-    body: "Institute logo, header fields, marks, time, and instructions on every sheet.",
+    title: "Branded PDF Papers",
+    body: "Generate print-ready papers with your institute logo, header fields, marks, time, and instructions.",
   },
 ] as const;
 
 const MODE_CARDS = [
   {
     icon: Sparkles,
-    title: "Auto mode",
-    badge: "Default",
+    title: "Auto Mode",
+    badge: "Fast & Balanced",
     points: [
       "Balanced topic distribution",
-      "MCQ + short + long mix",
-      "Ready to tweak after generate",
+      "MCQ, short & long question mix",
+      "Generate instantly, then tweak",
     ],
   },
   {
     icon: Shuffle,
-    title: "Manual mode",
-    badge: "Full control",
+    title: "Manual Mode",
+    badge: "Full Control",
     points: [
-      "Pick each question yourself",
-      "Live paper preview",
+      "Pick every question yourself",
+      "See your paper in real time",
       "Save unlimited drafts",
     ],
   },
@@ -81,43 +81,55 @@ const MODE_CARDS = [
 
 const COVERAGE_CARDS = [
   {
-    title: "Punjab / PTB",
-    detail: "9th – 12th core subjects with chapter & topic filters.",
+    title: "Punjab Board (PTB)",
+    detail: "Grades 9–12 with chapter and topic-based paper generation.",
     tone: "teal",
   },
   {
-    title: "Federal track",
-    detail: "Pattern-ready structure — content rolling online.",
+    title: "Federal Board",
+    detail: "Board-pattern structure with expanding subject coverage.",
     tone: "navy",
   },
   {
-    title: "Primary publishers",
+    title: "Primary Publishers",
     detail: "AFAQ, Oxford, and Gohar pathways for early grades.",
     tone: "gold",
   },
 ] as const;
 
 const TYPE_CARDS = [
-  { code: "MCQ", label: "Objective", hint: "4 options + key" },
-  { code: "Short", label: "Short answer", hint: "Quick constructs" },
-  { code: "Long", label: "Essay / long", hint: "Board-style depth" },
+  {
+    code: "MCQs",
+    label: "MCQs",
+    hint: "4-option objective questions with answer keys.",
+  },
+  {
+    code: "Short",
+    label: "Short Questions",
+    hint: "Clear, board-style short-answer questions.",
+  },
+  {
+    code: "Long",
+    label: "Long Questions",
+    hint: "Essay and long-answer questions with proper marks distribution.",
+  },
 ] as const;
 
 const STEP_CARDS = [
   {
     n: "01",
-    title: "Configure the institute",
-    body: "Org admin adds teachers, sections, and named exam schedules.",
+    title: "Set Up Your Institute",
+    body: "Admins add teachers, sections, subjects, and exam schedules.",
   },
   {
     n: "02",
-    title: "Generate the paper",
-    body: "Teacher walks the syllabus wizard, then auto-builds or hand-picks.",
+    title: "Create the Paper",
+    body: "Teachers follow the syllabus wizard, then generate automatically or pick questions manually.",
   },
   {
     n: "03",
-    title: "Export & deliver",
-    body: "Print a clean branded PDF — schedules keep papers even if roles change.",
+    title: "Export & Print",
+    body: "Review the paper, make final edits, and export a clean, branded PDF—ready to print.",
   },
 ] as const;
 
@@ -125,17 +137,17 @@ const ROLE_CARDS = [
   {
     icon: ShieldCheck,
     role: "Super Admin",
-    body: "Orgs, plans, hierarchy, and the global question bank.",
+    body: "Manage institutes, plans, hierarchy, and the global question bank.",
   },
   {
     icon: Building2,
     role: "Org Admin",
-    body: "Teachers, sections, schedules, and institute branding.",
+    body: "Manage teachers, sections, exam schedules, and institute branding.",
   },
   {
     icon: Users,
     role: "Teacher",
-    body: "Generate, edit, save, and print papers from assignments.",
+    body: "Generate, edit, save, and print papers from assigned exams.",
   },
 ] as const;
 
@@ -159,12 +171,12 @@ export function LandingPage() {
                 Test Hub
               </p>
               <h1 className="landing-headline">
-                Generate board-pattern papers in minutes — not evenings.
+                Board-Pattern Papers. Ready in Minutes, Not Hours.
               </h1>
               <p className="landing-lede">
-                The institute-grade paper generator for Pakistani schools and
-                academies: wizard selection, auto or manual mode, teacher
-                portals, and print-ready branded PDFs.
+                Create professional test papers for Pakistani schools and
+                academies—with smart wizard selection, manual controls, and
+                print-ready branded PDFs.
               </p>
               <div className="landing-cta-row">
                 <Link
@@ -254,12 +266,12 @@ export function LandingPage() {
             <Reveal from="up" className="landing-section-head">
               <p className="landing-kicker">Why Test Hub</p>
               <h2 className="landing-section-title">
-                Everything a modern paper generator needs — in one workspace.
+                Everything you need to create better papers — in one workspace.
               </h2>
               <p className="landing-section-lede">
-                From board selection to branded PDF — one platform where admins
-                schedule exams, teachers generate balanced papers, and every
-                institute runs in its own secure workspace.
+                From board selection to branded PDF, Test Hub gives admins and
+                teachers everything they need to create balanced, professional
+                papers faster.
               </p>
             </Reveal>
 
@@ -288,9 +300,10 @@ export function LandingPage() {
         <section id="modes" className="landing-section theme-green">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">Generation modes</p>
+              <p className="landing-kicker">Generation Modes</p>
               <h2 className="landing-section-title">
-                Auto when you are rushed. Manual when you want control.
+                Generate automatically when you&apos;re in a hurry. Go manual
+                when you want full control.
               </h2>
             </Reveal>
 
@@ -328,12 +341,9 @@ export function LandingPage() {
             <Reveal from="up" className="landing-section-head">
               <p className="landing-kicker">Coverage</p>
               <h2 className="landing-section-title">
-                Boards and publishers that match real exam patterns.
+                Built for the boards, subjects, and question formats Pakistani
+                schools actually use.
               </h2>
-              <p className="landing-section-lede">
-                Punjab PTB, federal track, and primary publisher pathways — each
-                with chapter and topic filters teachers already know.
-              </p>
             </Reveal>
 
             <div className="landing-coverage-grid">
@@ -354,18 +364,11 @@ export function LandingPage() {
 
         <section id="types" className="landing-section theme-green">
           <div className="landing-section-inner">
-            <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">Question types</p>
-              <h2 className="landing-section-title">
-                MCQ, short, long — plus English, Urdu, or dual medium.
-              </h2>
-              <p className="landing-section-lede">
-                Every paper can mix objective and subjective sections. Switch
-                medium per test without rebuilding the bank.
-              </p>
+            <Reveal from="up" className="landing-section-head landing-section-head--compact">
+              <p className="landing-kicker">Question formats</p>
             </Reveal>
 
-            <div className="landing-type-grid">
+            <div className="landing-type-grid landing-type-grid--tight">
               {TYPE_CARDS.map((card, i) => (
                 <Reveal
                   key={card.code}
@@ -373,7 +376,9 @@ export function LandingPage() {
                   delay={i * 90}
                   className="landing-type-card"
                 >
-                  <span className="landing-type-code">{card.code}</span>
+                  {card.code !== card.label ? (
+                    <span className="landing-type-code">{card.code}</span>
+                  ) : null}
                   <strong>{card.label}</strong>
                   <span>{card.hint}</span>
                 </Reveal>
@@ -384,8 +389,10 @@ export function LandingPage() {
                 className="landing-type-card landing-type-card-wide"
               >
                 <span className="landing-type-code">Medium</span>
-                <strong>English · Urdu · Dual</strong>
-                <span>Switch medium per paper without rebuilding the bank.</span>
+                <strong>English • Urdu • Dual Medium</strong>
+                <span>
+                  Switch the paper medium without rebuilding your question bank.
+                </span>
               </Reveal>
             </div>
           </div>
@@ -394,9 +401,9 @@ export function LandingPage() {
         <section id="how" className="landing-section theme-white">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">How it works</p>
+              <p className="landing-kicker">How It Works</p>
               <h2 className="landing-section-title">
-                From schedule to printed paper in three clear steps.
+                From exam schedule to print-ready paper in three simple steps.
               </h2>
             </Reveal>
 
@@ -408,19 +415,16 @@ export function LandingPage() {
                   delay={i * 120}
                   className="landing-step-card"
                 >
-                  <span className="landing-step-n">{step.n}</span>
-                  <h3>{step.title}</h3>
+                  <h3 className="landing-step-title">
+                    {step.n} — {step.title}
+                  </h3>
                   <p>{step.body}</p>
                 </Reveal>
               ))}
             </div>
-          </div>
-        </section>
 
-        <section id="roles" className="landing-section theme-green">
-          <div className="landing-section-inner">
-            <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">Built for every role</p>
+            <Reveal from="up" className="landing-section-head landing-section-head--roles">
+              <p className="landing-kicker">Built for Every Role</p>
               <h2 className="landing-section-title">
                 Super Admin, Org Admin, and Teacher — each with the right tools.
               </h2>
@@ -489,7 +493,6 @@ export function LandingPage() {
             <Link href="/login">Institute login</Link>
             <a href="#features">Features</a>
             <a href="#how">How it works</a>
-            <a href="#roles">Roles</a>
           </div>
           <p className="landing-footer-copy">
             © {new Date().getFullYear()} Test Hub. All rights reserved.

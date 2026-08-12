@@ -648,8 +648,95 @@
 .landing-role-grid,
 .landing-type-grid {
   display: grid;
-  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
   margin-top: 2.15rem;
+}
+
+.landing-type-card-wide {
+  grid-column: span 2;
+}
+
+@media (max-width: 639px) {
+  .landing-card,
+  .landing-mode-card,
+  .landing-role-card,
+  .landing-type-card {
+    padding: 0.95rem 0.8rem 1rem;
+  }
+
+  .landing-card h3,
+  .landing-mode-card h3,
+  .landing-step-card h3,
+  .landing-role-card h3,
+  .landing-type-card strong {
+    margin-top: 0.65rem;
+    font-size: 0.92rem;
+    line-height: 1.3;
+  }
+
+  .landing-card p,
+  .landing-step-card p,
+  .landing-role-card p,
+  .landing-type-card span:last-child {
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+
+  .landing-card-icon {
+    width: 2.15rem;
+    height: 2.15rem;
+    border-radius: 0.7rem;
+  }
+
+  .landing-card-icon svg {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .theme-white .landing-cover-card {
+    min-height: 7.5rem;
+    padding: 1rem 0.85rem 1.05rem;
+  }
+
+  .theme-white .landing-cover-card h3 {
+    font-size: 0.92rem;
+  }
+
+  .theme-white .landing-cover-card p {
+    font-size: 0.76rem;
+  }
+
+  .theme-white .landing-step-card {
+    padding: 1rem 0.85rem 1.05rem;
+  }
+
+  .theme-white .landing-step-title {
+    font-size: 0.92rem;
+    line-height: 1.35;
+  }
+
+  .theme-green .landing-mode-card {
+    padding: 1rem 0.85rem 1.05rem;
+  }
+
+  .theme-green .landing-mode-card li {
+    font-size: 0.78rem;
+  }
+
+  .theme-green .landing-badge {
+    font-size: 0.62rem;
+    min-height: 1.45rem;
+    padding-inline: 0.45rem;
+  }
+
+  .landing-section {
+    padding: 3.5rem 0;
+  }
+
+  .landing-section-inner {
+    width: min(1160px, calc(100% - 1.25rem));
+  }
 }
 
 .landing-card,
@@ -793,13 +880,41 @@
   padding: 1.35rem 1.25rem 1.45rem;
 }
 
-.theme-white .landing-step-n {
-  display: inline-flex;
+.theme-white .landing-step-title {
+  margin: 0;
   font-family: var(--font-helvetica);
-  font-size: 1.7rem;
-  font-weight: 750;
-  letter-spacing: -0.04em;
-  color: var(--brand);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.theme-white .landing-role-card {
+  padding: 1.25rem 1.2rem 1.35rem;
+  background: #fff;
+  border-color: rgba(15, 118, 110, 0.12);
+  color: var(--ink);
+  box-shadow: 0 12px 28px rgba(11, 31, 51, 0.06);
+}
+
+.theme-white .landing-role-card h3 {
+  color: var(--ink);
+}
+
+.theme-white .landing-role-card p {
+  color: var(--muted);
+}
+
+.landing-section-head--roles {
+  margin-top: 3rem;
+}
+
+.landing-section-head--compact {
+  margin-bottom: -1rem;
+}
+
+.landing-type-grid--tight {
+  margin-top: 1.25rem;
 }
 
 /* theme-green: green gradient sections */
@@ -1130,18 +1245,13 @@
     padding: 1.1rem 1.2rem;
   }
 
-  .landing-card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
+  .landing-card-grid,
   .landing-mode-grid,
+  .landing-coverage-grid,
   .landing-step-grid,
-  .landing-role-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
+  .landing-role-grid,
   .landing-type-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
   }
 }
 

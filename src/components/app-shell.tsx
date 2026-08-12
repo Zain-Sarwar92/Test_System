@@ -258,7 +258,12 @@ export function AppShell({
           </div>
         </aside>
 
-        <main className={cn("glass-panel fade-up", isGenerate && "glass-panel-dense")}>
+        <main
+          className={cn(
+            "glass-panel",
+            isGenerate ? "glass-panel-dense" : "fade-up",
+          )}
+        >
           <div className="mobile-topbar">
             <div className="flex min-w-0 items-center gap-2">
               <Button

@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState, useTransition, type ReactNode } from "react";
+import { useEffect, useMemo, useState, useTransition, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -128,15 +129,31 @@ function WizardActionBar({
   summary: ReactNode;
   children: ReactNode;
 }) {
+  const [mounted, setMounted] = useState(false);
+  const [usePortal, setUsePortal] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    const media = window.matchMedia("(max-width: 767px)");
+    const sync = () => setUsePortal(media.matches);
+    sync();
+    media.addEventListener("change", sync);
+    return () => media.removeEventListener("change", sync);
+  }, []);
+
+  const bar = (
+    <div className="wizard-action-bar">
+      <div className="wizard-action-bar-inner">
+        <div className="wizard-action-bar-summary">{summary}</div>
+        <div className="wizard-action-bar-actions">{children}</div>
+      </div>
+    </div>
+  );
+
   return (
     <>
       <div className="wizard-action-spacer" aria-hidden />
-      <div className="wizard-action-bar">
-        <div className="wizard-action-bar-inner">
-          <div className="wizard-action-bar-summary">{summary}</div>
-          <div className="wizard-action-bar-actions">{children}</div>
-        </div>
-      </div>
+      {mounted && usePortal ? createPortal(bar, document.body) : bar}
     </>
   );
 }
@@ -526,7 +543,6 @@ export function GenerateWizard({
   };
 
   const visiblePool = poolView === "selected" ? draftSelected : pool;
-  const availableForType = typeCountInTopics(chapters, selectedTopicIds, activeType);
 
   function goToStep(next: Step) {
     setError(null);
@@ -1536,49 +1552,50 @@ export function GenerateWizard({
         </div>
       ) : null}
       <div className={cn(step === "paper" && "pts-paper-sticky-chrome")}>
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div className="min-w-0">
-            <p className="page-kicker">Generate paper</p>
-            <h2 className="page-title">
-              {step === "board"
-                ? "Select Board"
-                : step === "class"
-                  ? "Select Class"
-                  : step === "subject"
-                    ? "Select Subject"
-                    : step === "chapters"
-                      ? "Select Syllabus"
-                      : step === "paper"
-                        ? "Paper Preview"
-                        : isMultiChapter
-                          ? "Chapter Distribution"
-                          : "Select Questions"}
-            </h2>
-            {step === "board" ? (
-              <p className="mt-1 max-w-xl text-sm text-muted">
-                Choose the education board for this paper.
-              </p>
-            ) : null}
-            {step === "class" ? (
-              <p className="mt-1 max-w-xl text-sm text-muted">
-                Pick the class level under{" "}
-                <span className="font-semibold text-brand">
-                  {selectedBoard?.name.replace(/ Board$/i, "")}
-                </span>
-                .
-              </p>
-            ) : null}
-            {step === "subject" ? (
-              <p className="mt-1 max-w-xl text-sm text-muted">
-                Select the subject for{" "}
-                <span className="font-semibold text-brand">
-                  {selectedClass?.name}
-                </span>
-                .
-              </p>
-            ) : null}
-            {selectedBoard ? (
-              <div className="pts-crumb">
+        <div className="wizard-head">
+          <div className="wizard-head-main">
+            <div className="min-w-0 flex-1">
+              <p className="page-kicker">Generate paper</p>
+              <h2 className="page-title wizard-head-title">
+                {step === "board"
+                  ? "Select Board"
+                  : step === "class"
+                    ? "Select Class"
+                    : step === "subject"
+                      ? "Select Subject"
+                      : step === "chapters"
+                        ? "Select Syllabus"
+                        : step === "paper"
+                          ? "Paper Preview"
+                          : isMultiChapter
+                            ? "Chapter Distribution"
+                            : "Select Questions"}
+              </h2>
+              {step === "board" ? (
+                <p className="mt-1 max-w-xl text-sm text-muted">
+                  Choose the education board for this paper.
+                </p>
+              ) : null}
+              {step === "class" ? (
+                <p className="mt-1 max-w-xl text-sm text-muted">
+                  Pick the class level under{" "}
+                  <span className="font-semibold text-brand">
+                    {selectedBoard?.name.replace(/ Board$/i, "")}
+                  </span>
+                  .
+                </p>
+              ) : null}
+              {step === "subject" ? (
+                <p className="mt-1 max-w-xl text-sm text-muted">
+                  Select the subject for{" "}
+                  <span className="font-semibold text-brand">
+                    {selectedClass?.name}
+                  </span>
+                  .
+                </p>
+              ) : null}
+              {selectedBoard ? (
+                <div className="pts-crumb pts-crumb-scroll">
                 {lockedFromSchedule ? (
                   <span>{selectedBoard.name.replace(/ Board$/i, "")}</span>
                 ) : (
@@ -1632,10 +1649,11 @@ export function GenerateWizard({
                     <span className="pts-crumb-current">Paper</span>
                   </>
                 ) : null}
-              </div>
-            ) : null}
+                </div>
+              ) : null}
+            </div>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="wizard-head-actions">
             {step !== "board" ? (
               <Button variant="outline" onClick={goBack} disabled={pending}>
                 Back
@@ -1961,18 +1979,22 @@ export function GenerateWizard({
                     Set how many MCQ, Short, and Long questions you need from each chapter. Next opens the question picker — search manually or use Random Select.
                   </CardDescription>
                 </div>
-                <div className="flex flex-wrap gap-2">
-                  <Button type="button" variant="outline" onClick={autofillChapterPlan}>
+                <div className="flex w-full flex-wrap gap-2 sm:w-auto">
+                  <Button type="button" variant="outline" className="flex-1 sm:flex-none" onClick={autofillChapterPlan}>
                     Auto fill evenly
                   </Button>
-                  <Button type="button" variant="outline" onClick={clearChapterPlan}>
+                  <Button type="button" variant="outline" className="flex-1 sm:flex-none" onClick={clearChapterPlan}>
                     Clear all
                   </Button>
                 </div>
               </div>
 
               <div className="mt-5 grid gap-4 xl:grid-cols-[minmax(0,1fr)_300px]">
-                <div className="overflow-x-auto rounded-[1rem] border border-[rgba(15,40,70,0.08)]">
+                <div>
+                  <p className="pts-planner-scroll-hint">
+                    Swipe left on the table to set MCQ, Short, and Long counts per chapter.
+                  </p>
+                  <div className="overflow-x-auto rounded-[1rem] border border-[rgba(15,40,70,0.08)]">
                   <table className="w-full min-w-[760px] text-left text-sm">
                     <thead className="bg-[#f8fafc] text-xs uppercase tracking-wide text-muted">
                       <tr>
@@ -2072,6 +2094,7 @@ export function GenerateWizard({
                     </tbody>
                   </table>
                 </div>
+                </div>
 
                 <div className="space-y-3">
                   <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-[#f8fafc] p-4">
@@ -2102,7 +2125,7 @@ export function GenerateWizard({
                     </div>
                   </div>
 
-                  <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-4 space-y-3 hidden md:block">
+                  <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-4 space-y-3">
                     <p className="text-sm text-muted">
                       Next opens the question picker. Required counts are prefilled from the planner. Manual selection respects each chapter’s limit. Random Select also follows the planner counts.
                     </p>
@@ -2149,7 +2172,7 @@ export function GenerateWizard({
               <CardDescription className="mt-1">
                 A single chapter is selected, so the planner is not needed. Use the question picker to choose MCQ, Short, and Long questions.
               </CardDescription>
-              <div className="mt-4 hidden flex-wrap gap-2 md:flex">
+              <div className="mt-4 flex flex-wrap gap-2">
                 <Button
                   onClick={() => {
                     setModalOpen(true);
@@ -2220,7 +2243,7 @@ export function GenerateWizard({
       {/* SAVE MODAL */}
       {saveModalOpen ? (
         <div className="pts-modal-backdrop" role="dialog" aria-modal="true">
-          <div className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-2xl" style={{ width: "min(520px, 95vw)", maxHeight: "calc(100dvh - 2rem)" }}>
+          <div className="pts-modal pts-modal--save">
             <div className="flex items-center justify-between gap-3 bg-gradient-to-r from-[#1a3350] to-[#0f766e] px-5 py-4 text-white">
               <div>
                 <p className="text-xs font-medium text-white/70">Save Paper</p>
@@ -2353,11 +2376,11 @@ export function GenerateWizard({
               ) : null}
             </div>
 
-            <div className="flex items-center justify-between gap-3 border-t border-[rgba(15,40,70,0.1)] bg-[#f8fafc] px-5 py-3">
+            <div className="pts-modal-save-footer">
               <p className="text-sm font-semibold text-ink">
                 Total marks: {paperMarks}
               </p>
-              <div className="flex gap-2">
+              <div className="pts-modal-save-actions">
                 <Button variant="outline" onClick={() => setSaveModalOpen(false)}>
                   Cancel
                 </Button>
@@ -2378,38 +2401,38 @@ export function GenerateWizard({
       {/* QUESTION PICKER MODAL — opens over Paper Preview */}
       {step === "paper" && modalOpen ? (
         <div className="pts-modal-backdrop pts-modal-backdrop-paper" role="dialog" aria-modal="true">
-          <div className="pts-modal">
+          <div className="pts-modal pts-modal--picker">
             <div className="pts-modal-header">
-              <div>
-                <p className="text-xs font-medium text-white/80">Select Your Questions Here</p>
-                <h3 className="text-base font-bold">
+              <div className="min-w-0">
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-white/75">
+                  Select questions
+                </p>
+                <h3 className="truncate text-base font-bold sm:text-lg">
                   {selectedClass?.name} — {selectedSubject?.name}
                 </h3>
               </div>
               <button
                 type="button"
-                className="rounded-lg bg-white/15 px-3 py-1.5 text-sm font-semibold hover:bg-white/25"
+                className="shrink-0 rounded-lg bg-white/15 px-3 py-1.5 text-sm font-semibold hover:bg-white/25"
                 onClick={() => setModalOpen(false)}
               >
                 Close
               </button>
             </div>
 
-            {/* Chapters selection strip - top blue area */}
-            <div className="bg-gradient-to-r from-[#1a3350] to-[#0f766e] px-4 py-3">
-              <p className="mb-2 text-xs font-bold uppercase tracking-wider text-white/70">
+            <div className="pts-picker-chapters">
+              <p className="pts-picker-chapters-label">
                 {hasChapterPlan()
-                  ? `Chapters for ${TYPE_META[activeType].short} (planner quotas)`
+                  ? `${TYPE_META[activeType].short} chapters (planner quotas)`
                   : "Chapters for this section"}
               </p>
-              <div className="flex flex-wrap gap-1.5">
+              <div className="pts-picker-chapter-list">
                 {chapters
                   .filter((c) => selectedChapterIds.includes(c.id))
                   .map((c) => {
                     const quota = hasChapterPlan()
                       ? plannedQuotaForChapter(c.id, activeType)
                       : null;
-                    const picked = draftSelected.filter((q) => q.chapterId === c.id).length;
                     const enabled =
                       !hasChapterPlan() || (quota !== null && quota > 0);
                     return (
@@ -2422,12 +2445,11 @@ export function GenerateWizard({
                           toggleSectionChapter(c.id);
                         }}
                         className={cn(
-                          "rounded-lg px-3 py-1.5 text-xs font-semibold transition-all",
-                          sectionChapterIds.includes(c.id) && enabled
-                            ? "bg-white text-[#1a3350] shadow-sm"
-                            : "bg-white/15 text-white/80",
-                          hasChapterPlan() && !enabled && "opacity-40",
+                          "pts-picker-chapter-chip",
+                          sectionChapterIds.includes(c.id) && enabled && "is-active",
+                          hasChapterPlan() && !enabled && "is-disabled",
                         )}
+                        title={c.name}
                       >
                         {c.name.replace(/^(\d+\.\s*)/, "Ch ")}
                       </button>
@@ -2436,13 +2458,25 @@ export function GenerateWizard({
               </div>
             </div>
 
-            <div className="min-h-0 flex-1 space-y-3 overflow-y-auto p-4 sm:p-5">
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                <label className="text-xs font-semibold text-muted">
-                  Question type
+            <div className="pts-picker-body">
+              <div className="pts-picker-status">
+                <span className="pts-picker-status-count">
+                  Selected {draftSelected.length}
+                  {parsedRequired() > 0 ? ` / ${parsedRequired()}` : ""}
+                </span>
+                <span className="pts-picker-status-hint">
+                  {hasChapterPlan()
+                    ? "Planner limits apply per chapter"
+                    : "Pick questions then add to paper"}
+                </span>
+              </div>
+
+              <div className="pts-picker-fields">
+                <label className="pts-picker-field pts-picker-field--wide pts-picker-field--type">
+                  <span className="pts-picker-label">Question type</span>
                   {isEnglishSubject ? (
                     <select
-                      className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
+                      className="pts-picker-input"
                       value={englishTypeFieldValue}
                       onChange={(e) => activateEnglishTypeField(e.target.value)}
                     >
@@ -2457,7 +2491,7 @@ export function GenerateWizard({
                     </select>
                   ) : (
                     <select
-                      className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
+                      className="pts-picker-input"
                       value={activeType}
                       onChange={(e) => activateType(e.target.value as QType)}
                     >
@@ -2471,9 +2505,10 @@ export function GenerateWizard({
                     </select>
                   )}
                 </label>
-                <label className="text-xs font-semibold text-muted">
-                  Medium
-                  <div className="pts-medium-seg mt-1 w-full">
+
+                <label className="pts-picker-field">
+                  <span className="pts-picker-label">Medium</span>
+                  <div className="pts-medium-seg w-full">
                     {MEDIUM_OPTIONS.map((opt) => (
                       <button
                         key={opt.value}
@@ -2490,11 +2525,12 @@ export function GenerateWizard({
                     ))}
                   </div>
                 </label>
+
                 {isEnglishSubject ? null : (
-                  <label className="text-xs font-semibold text-muted">
-                    Source
+                  <label className="pts-picker-field">
+                    <span className="pts-picker-label">Source</span>
                     <select
-                      className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
+                      className="pts-picker-input"
                       value={sourceFilter}
                       onChange={(e) => {
                         setSourceFilter(e.target.value as QuestionSourceFilter);
@@ -2508,19 +2544,10 @@ export function GenerateWizard({
                     </select>
                   </label>
                 )}
-                <div className="flex items-end">
-                  <p className="w-full rounded-xl bg-[#ecfdf5] px-3 py-2 text-center text-sm font-bold text-brand">
-                    Selected {draftSelected.length}
-                    {parsedRequired() > 0 ? ` / ${parsedRequired()}` : ""}
-                  </p>
-                </div>
-              </div>
 
-              <div className="grid gap-2 sm:grid-cols-3">
-                <label className="text-xs font-semibold text-muted">
-                  Required questions *
+                <label className="pts-picker-field">
+                  <span className="pts-picker-label">Required questions</span>
                   <Input
-                    className="mt-1"
                     type="number"
                     min={1}
                     value={requiredCount}
@@ -2533,15 +2560,13 @@ export function GenerateWizard({
                     }}
                   />
                   {hasChapterPlan() ? (
-                    <span className="mt-1 block text-[11px] text-muted">
-                      Prefill from planner · chapter limits apply
-                    </span>
+                    <span className="pts-picker-hint">Prefilled from planner</span>
                   ) : null}
                 </label>
-                <label className="text-xs font-semibold text-muted">
-                  Each Q marks *
+
+                <label className="pts-picker-field">
+                  <span className="pts-picker-label">Marks per question</span>
                   <Input
-                    className="mt-1"
                     type="number"
                     min={1}
                     value={marksPerQuestion}
@@ -2552,10 +2577,10 @@ export function GenerateWizard({
                     }
                   />
                 </label>
-                <label className="text-xs font-semibold text-muted">
-                  Attempt any (optional)
+
+                <label className="pts-picker-field pts-picker-field--wide">
+                  <span className="pts-picker-label">Attempt any (optional)</span>
                   <Input
-                    className="mt-1"
                     type="number"
                     min={0}
                     value={attemptCount}
@@ -2568,11 +2593,16 @@ export function GenerateWizard({
                 </label>
               </div>
 
-              <div className="flex flex-wrap gap-2">
-                <Button onClick={runSearch} disabled={pending}>
-                  {pending ? "…" : "Search"}
+              <div className="pts-picker-actions">
+                <Button onClick={runSearch} disabled={pending} className="pts-picker-action-btn">
+                  {pending ? "Searching…" : "Search"}
                 </Button>
-                <Button variant="outline" onClick={runSelectRandom} disabled={pending}>
+                <Button
+                  variant="outline"
+                  onClick={runSelectRandom}
+                  disabled={pending}
+                  className="pts-picker-action-btn"
+                >
                   Random Select
                 </Button>
                 {draftSelected.length > 0 ? (
@@ -2582,27 +2612,28 @@ export function GenerateWizard({
                       setDraftSelected([]);
                       setPoolView("browse");
                     }}
+                    className="pts-picker-action-btn pts-picker-action-btn--ghost"
                   >
-                    Clear selection
+                    Clear
                   </Button>
                 ) : null}
               </div>
 
               {visiblePool.length > 0 ? (
-                <div className="overflow-hidden rounded-xl border border-[rgba(15,40,70,0.1)]">
-                  <div className="bg-[#3b0764] px-3 py-2 text-xs font-bold tracking-wide text-white uppercase">
+                <div className="pts-picker-pool">
+                  <div className="pts-picker-pool-head">
                     {TYPE_META[activeType].label}
-                    {pending ? " · loading…" : ""}
+                    {pending ? " · loading…" : ` · ${visiblePool.length} found`}
                   </div>
-                  <div className="max-h-[42vh] divide-y divide-[rgba(15,40,70,0.08)] overflow-y-auto">
+                  <div className="pts-picker-pool-list">
                     {visiblePool.map((q, idx) => {
                       const selected = draftSelected.some((d) => d.id === q.id);
                       return (
                         <div
                           key={q.id}
                           className={cn(
-                            "flex w-full gap-3 px-3 py-2.5 text-left transition-colors",
-                            selected ? "bg-[#ecfdf5]" : "bg-white hover:bg-[#f8fafc]",
+                            "pts-picker-pool-item",
+                            selected && "is-selected",
                           )}
                         >
                           <button
@@ -2672,36 +2703,30 @@ export function GenerateWizard({
                   </div>
                 </div>
               ) : (
-                <p className="rounded-xl border border-dashed border-[rgba(15,40,70,0.15)] bg-[#f8fafc] px-4 py-8 text-center text-sm text-muted">
+                <p className="pts-picker-empty">
                   {pending
-                    ? "Questions load ho rahe hain…"
+                    ? "Loading questions…"
                     : message?.includes("No ")
-                      ? "No questions match this filter. Change the type, source, or chapters and search again."
-                      : "Click Search or Random Select first — matching questions will appear here."}
+                      ? "No questions match this filter. Change type, source, or chapters and search again."
+                      : "Tap Search or Random Select to load matching questions."}
                 </p>
               )}
             </div>
 
-            <div className="pts-modal-footer">
-              <p className="text-xs font-semibold text-ink">
-                Selected {draftSelected.length}
-                {parsedRequired() > 0 ? ` / ${parsedRequired()}` : ""} ·{" "}
-                <span className="font-normal text-muted">
-                  The paper preview updates after you add questions.
-                </span>
+            <div className="pts-modal-footer pts-modal-footer--picker">
+              <p className="pts-modal-footer-summary">
+                {draftSelected.length} selected
+                {parsedRequired() > 0 ? ` of ${parsedRequired()} required` : ""}
               </p>
               <div className="pts-modal-footer-actions">
-                <Button
-                  variant="outline"
-                  onClick={() => setModalOpen(false)}
-                >
+                <Button variant="outline" onClick={() => setModalOpen(false)}>
                   View paper
                 </Button>
                 <Button
                   onClick={addSectionToPaper}
                   disabled={pending || draftSelected.length === 0}
                 >
-                  Add Question&apos;s →
+                  Add Questions →
                 </Button>
               </div>
             </div>
