@@ -4,6 +4,7 @@ import { requireRole, requireActiveOrganizationId } from "@/lib/rbac";
 import { getSystemSettings } from "@/lib/system-settings";
 import { assertCanCreateFromAssignment } from "@/lib/test-schedules";
 import { loadCurriculumTreeForGenerate } from "@/lib/curriculum-tree";
+import { loadTeacherAssignmentScope } from "@/lib/teacher-assignment-scope";
 import { GenerateWizard } from "./generate-wizard";
 
 type PageProps = {
@@ -67,11 +68,18 @@ export default async function TeacherGeneratePage({ searchParams }: PageProps) {
     }
   }
 
-  const payload = await loadCurriculumTreeForGenerate();
+  const teacherScope = await loadTeacherAssignmentScope(
+    session.user.id,
+    organizationId,
+  );
+  const payload = await loadCurriculumTreeForGenerate({
+    teacherScope: teacherScope.allowedKeys,
+  });
 
   return (
     <GenerateWizard
       boards={payload}
+      hasTeachingAssignments={teacherScope.allowedKeys.size > 0}
       teacherName={session.user.name}
       organization={organization}
       scheduleContext={scheduleContext}

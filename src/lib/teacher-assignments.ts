@@ -4,6 +4,10 @@ export type AssignmentInput = {
   subjectId: string;
 };
 
+export function teacherAssignmentScopeKey(classId: string, subjectId: string) {
+  return `${classId}:${subjectId}`;
+}
+
 export type AssignmentGroupInput = {
   classIds: string[];
   sectionIds: string[];
@@ -54,6 +58,23 @@ export function assertNoDuplicateAssignments(rows: AssignmentInput[]) {
   }
 }
 
+function isBlankAssignmentGroup(group: AssignmentGroupInput) {
+  return (
+    group.classIds.filter(Boolean).length === 0 &&
+    group.sectionIds.filter(Boolean).length === 0 &&
+    !group.subjectName.trim()
+  );
+}
+
+function isPartialAssignmentGroup(group: AssignmentGroupInput) {
+  const hasClass = group.classIds.filter(Boolean).length > 0;
+  const hasSection = group.sectionIds.filter(Boolean).length > 0;
+  const hasSubject = Boolean(group.subjectName.trim());
+  const any = hasClass || hasSection || hasSubject;
+  const all = hasClass && hasSection && hasSubject;
+  return any && !all;
+}
+
 /** Expand multi class/section + subject-name groups into concrete assignment rows. */
 export function expandAssignmentGroups(
   groups: AssignmentGroupInput[],
@@ -61,17 +82,21 @@ export function expandAssignmentGroups(
     sections: Array<{ id: string; classId: string }>;
     subjects: Array<{ id: string; name: string; classId: string }>;
   },
+  options?: { allowEmpty?: boolean },
 ): AssignmentInput[] {
+  const allowEmpty = options?.allowEmpty ?? true;
   const sectionById = new Map(catalog.sections.map((s) => [s.id, s]));
   const expanded: AssignmentInput[] = [];
+  const activeGroups = groups.filter((group) => !isBlankAssignmentGroup(group));
 
-  for (const group of groups) {
+  for (const group of activeGroups) {
+    if (isPartialAssignmentGroup(group)) {
+      throw new Error("Each assignment needs class(es), section(s), and a subject");
+    }
+
     const classIds = [...new Set(group.classIds.filter(Boolean))];
     const sectionIds = [...new Set(group.sectionIds.filter(Boolean))];
     const subjectName = group.subjectName.trim();
-    if (classIds.length === 0 || sectionIds.length === 0 || !subjectName) {
-      throw new Error("Each assignment needs class(es), section(s), and a subject");
-    }
 
     for (const classId of classIds) {
       const subject = catalog.subjects.find(
@@ -102,6 +127,9 @@ export function expandAssignmentGroups(
   }
 
   if (expanded.length === 0) {
+    if (allowEmpty && activeGroups.length === 0) {
+      return [];
+    }
     throw new Error(
       "No valid class + section combinations. Pick sections that belong to the selected classes.",
     );

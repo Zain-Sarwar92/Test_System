@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/prisma";
+import { teacherAssignmentScopeKey } from "@/lib/teacher-assignments";
 
 export type CurriculumTopicPayload = {
   id: string;
@@ -28,12 +29,36 @@ export type CurriculumBoardPayload = {
 };
 
 /**
+ * Keep only class/subject pairs the teacher is assigned to teach.
+ */
+export function filterCurriculumTreeForTeacher(
+  boards: CurriculumBoardPayload[],
+  allowedClassSubjectKeys: Set<string>,
+): CurriculumBoardPayload[] {
+  return boards
+    .map((board) => ({
+      ...board,
+      classes: board.classes
+        .map((klass) => ({
+          ...klass,
+          subjects: klass.subjects.filter((subject) =>
+            allowedClassSubjectKeys.has(
+              teacherAssignmentScopeKey(klass.id, subject.id),
+            ),
+          ),
+        }))
+        .filter((klass) => klass.subjects.length > 0),
+    }))
+    .filter((board) => board.classes.length > 0);
+}
+
+/**
  * Load board→class→subject→chapter→topic tree without nested Prisma includes.
  * Deep includes blow SQLite's variable/parameter limit once the bank is large.
  */
-export async function loadCurriculumTreeForGenerate(): Promise<
-  CurriculumBoardPayload[]
-> {
+export async function loadCurriculumTreeForGenerate(options?: {
+  teacherScope?: Set<string>;
+}): Promise<CurriculumBoardPayload[]> {
   const [boards, classes, subjects, chapters, topics, questionCounts] =
     await Promise.all([
       prisma.board.findMany({
@@ -167,7 +192,7 @@ export async function loadCurriculumTreeForGenerate(): Promise<
     classesByBoard.set(klass.boardId, list);
   }
 
-  return boards.map((board) => ({
+  const tree = boards.map((board) => ({
     id: board.id,
     name: board.name,
     classes: [...(classesByBoard.get(board.id) ?? [])].sort((a, b) =>
@@ -177,6 +202,13 @@ export async function loadCurriculumTreeForGenerate(): Promise<
       }),
     ),
   }));
+
+  if (options?.teacherScope) {
+    if (options.teacherScope.size === 0) return [];
+    return filterCurriculumTreeForTeacher(tree, options.teacherScope);
+  }
+
+  return tree;
 }
 
 export type CurriculumStructureTopic = {

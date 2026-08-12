@@ -9,6 +9,7 @@ const nav = [
   { href: "/org-admin/teachers", label: "Teachers", icon: "teachers" as const },
   { href: "/org-admin/teachers/new", label: "Add Teacher", icon: "teachers" as const },
   { href: "/org-admin/schedules", label: "Schedules", icon: "schedule" as const },
+  { href: "/org-admin/generate", label: "Generate Paper", icon: "generate" as const },
   { href: "/org-admin/tests", label: "Tests", icon: "tests" as const },
   { href: "/org-admin/profile", label: "Profile", icon: "profile" as const },
 ];

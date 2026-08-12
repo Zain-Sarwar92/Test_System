@@ -14,6 +14,7 @@ import {
   coverSiblingAssignmentsForSections,
   ScheduleAccessError,
 } from "@/lib/test-schedules";
+import { assertTeacherAssignedToSubject } from "@/lib/teacher-assignment-scope";
 import {
   ENGLISH_FIELD_VALUES,
   type EnglishFieldFilter,
@@ -40,13 +41,17 @@ export type PoolQuestionCard = {
 export type QuestionSourceFilter = "ALL" | "EXERCISE" | "ADDITIONAL";
 export type QuestionMedium = "ENGLISH" | "URDU" | "BOTH";
 
-async function requireTeacherWithOrg() {
-  const session = await requireRole(["TEACHER"]);
+async function requirePaperGeneratorWithOrg() {
+  const session = await requireRole(["TEACHER", "ORG_ADMIN"]);
   const organizationId = await requireActiveOrganizationId(session.user.id);
-  if (!session.user.isActive) {
-    throw new Error("Teacher account is inactive");
-  }
-  return { session, organizationId, teacherId: session.user.id };
+  const role = (session.user as { role?: string }).role;
+  const isOrgAdmin = role === "ORG_ADMIN";
+  return {
+    session,
+    organizationId,
+    teacherId: session.user.id,
+    isOrgAdmin,
+  };
 }
 
 function mapQuestion(q: {
@@ -193,7 +198,7 @@ export async function searchQuestionPool(input: {
   englishField?: EnglishFieldFilter;
   medium?: QuestionMedium;
 }): Promise<{ questions: PoolQuestionCard[]; total: number }> {
-  await requireTeacherWithOrg();
+  await requirePaperGeneratorWithOrg();
   const parsed = poolSchema.parse(input);
 
   const where = {
@@ -271,7 +276,7 @@ export async function pickRandomQuestions(input: {
   englishField?: EnglishFieldFilter;
   medium?: QuestionMedium;
 }): Promise<{ questions: PoolQuestionCard[] }> {
-  await requireTeacherWithOrg();
+  await requirePaperGeneratorWithOrg();
   const parsed = randomSchema.parse(input);
 
   const chapterIdsFromQuotas = (parsed.chapterQuotas ?? [])
@@ -348,7 +353,7 @@ export async function generatePaperFromChapterPlan(input: {
 }): Promise<{
   sections: Array<{ type: "MCQ" | "SHORT" | "LONG"; questions: PoolQuestionCard[] }>;
 }> {
-  await requireTeacherWithOrg();
+  await requirePaperGeneratorWithOrg();
   const parsed = chapterPlanSchema.parse(input);
 
   const chapterIds = parsed.chapterRequests.map((item) => item.chapterId);
@@ -461,7 +466,8 @@ const saveSchema = z.object({
 });
 
 export async function saveSectionBuiltTest(input: z.infer<typeof saveSchema>) {
-  const { organizationId, teacherId, session } = await requireTeacherWithOrg();
+  const { organizationId, teacherId, session, isOrgAdmin } =
+    await requirePaperGeneratorWithOrg();
   const parsed = saveSchema.parse(input);
 
   let assignmentId: string | undefined;
@@ -495,6 +501,12 @@ export async function saveSectionBuiltTest(input: z.infer<typeof saveSchema>) {
       }
       throw error;
     }
+  } else if (!isOrgAdmin) {
+    await assertTeacherAssignedToSubject({
+      teacherId,
+      organizationId,
+      subjectId: parsed.subjectId,
+    });
   }
 
   const allIds = parsed.sections.flatMap((s) => s.questionIds);
@@ -629,6 +641,10 @@ export async function saveSectionBuiltTest(input: z.infer<typeof saveSchema>) {
     revalidatePath("/teacher");
     revalidatePath("/teacher/schedules");
     revalidatePath("/org-admin/schedules");
+    if (isOrgAdmin) {
+      revalidatePath("/org-admin/tests");
+      revalidatePath("/org-admin");
+    }
     return { testId: test.id, questionCount: orderedItems.length };
   } catch (error) {
     if (
