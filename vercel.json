@@ -1,5 +1,6 @@
 {
   "buildCommand": "node scripts/vercel-build.mjs",
+  "ignoreCommand": "node scripts/vercel-ignore.mjs",
   "crons": [
     {
       "path": "/api/cron/test-reminders",
