@@ -72,6 +72,88 @@ function slugKey(slug: string) {
   return slug.replace(/[^a-z0-9-]+/gi, "-").toLowerCase();
 }
 
+function fieldFromRawFilename(name: string): string | null {
+  const n = name.replace(/\.json$/i, "").toLowerCase();
+  if (n === "hierarchy" || n.includes("probe")) return null;
+  const match = n.match(/^(mcq|short|long)(?:-([a-z0-9-]+))?-raw$/);
+  if (!match) return null;
+  const spec = match[2];
+  if (!spec) {
+    if (match[1] === "mcq") return "MCQ";
+    if (match[1] === "short") return "QA";
+    return "LONG";
+  }
+  const specMap: Record<string, string> = {
+    qa: "QA",
+    poem: "POEM",
+    "poem-stanzas": "POEM_STANZA",
+    summary: "SUMMARY",
+    passage: "PASSAGE",
+    ayat: "AYAT",
+    idiom: "IDIOM",
+    meaning: "MEANING",
+    pair: "PAIR",
+    word: "PAIR",
+    di: "DI",
+    essays: "ESSAYS",
+    spelling: "SPELLING",
+    grammar: "GRAMMAR",
+    verb: "VERB",
+    comprehension: "COMPREHENSION",
+    synonym: "SYNONYM",
+    punctuation: "PUNCTUATION",
+    "translate-urdu": "TRANSLATE_UR",
+    "translate-english": "TRANSLATE_EN",
+  };
+  return specMap[spec] ?? spec.replace(/-/g, "_").toUpperCase();
+}
+
+function buildFieldMap(dataDir: string) {
+  const rawDir = path.join(dataDir, "pts-raw");
+  const out = new Map<number, string>();
+  if (!fs.existsSync(rawDir)) return out;
+  for (const name of fs.readdirSync(rawDir)) {
+    const field = fieldFromRawFilename(name);
+    if (!field) continue;
+    const raw = JSON.parse(fs.readFileSync(path.join(rawDir, name), "utf8")) as {
+      questions?: Array<{ id?: number; QuestionID?: number }>;
+    };
+    for (const q of raw.questions || []) {
+      const id = q.id ?? q.QuestionID;
+      if (typeof id === "number") out.set(id, field);
+    }
+  }
+  return out;
+}
+
+function resolveQuestionText(q: SourceQuestion): string {
+  const text = q.en?.trim();
+  if (text && text !== ".") return text;
+  if ((q.field || "").toUpperCase() === "SPELLING") return "Tick the correct spelling.";
+  if (q.type === "mcq") return q.source?.trim() || "Select the correct option.";
+  return q.ur?.trim() || "";
+}
+
+function normalizeMcqOptions(q: SourceQuestion) {
+  if (!q.correctAnswer) return null;
+  const options = [q.optionA, q.optionB, q.optionC, q.optionD].map(
+    (value) => value?.trim() || "—",
+  );
+  return {
+    optionA: options[0],
+    optionB: options[1],
+    optionC: options[2],
+    optionD: options[3],
+    correctAnswer: q.correctAnswer.toUpperCase(),
+  };
+}
+
+function typeToField(type: SourceQuestion["type"]): string {
+  if (type === "mcq") return "MCQ";
+  if (type === "short") return "QA";
+  return "LONG";
+}
+
 export async function importLahoreInter2Subject(dataDir: string) {
   const syllabusPath = path.join(dataDir, "syllabus.json");
   const questionsPath = path.join(dataDir, "all-questions.json");
@@ -131,6 +213,7 @@ export async function importLahoreInter2Subject(dataDir: string) {
     },
   });
 
+  const fieldByQuestionId = buildFieldMap(dataDir);
   const topicIdByCode = new Map<string, string>();
 
   for (const chapterData of syllabus.chapters) {
@@ -170,7 +253,10 @@ export async function importLahoreInter2Subject(dataDir: string) {
           order: topicOrder(topicData.id),
         },
       });
-      topicIdByCode.set(topicData.id, topic.id);
+      topicIdByCode.set(`${chapterData.number}:${topicData.id}`, topic.id);
+      if (!topicIdByCode.has(topicData.id)) {
+        topicIdByCode.set(topicData.id, topic.id);
+      }
     }
   }
 
@@ -186,6 +272,14 @@ export async function importLahoreInter2Subject(dataDir: string) {
       .map((row) => [row.externalKey, row.id]),
   );
 
+  const existingBySourceId = new Map<string, string>();
+  for (const [key, id] of existingByKey) {
+    const sourceId = key.split(":").pop();
+    if (sourceId && !existingBySourceId.has(sourceId)) {
+      existingBySourceId.set(sourceId, id);
+    }
+  }
+
   let created = 0;
   let updated = 0;
   let skipped = 0;
@@ -194,16 +288,24 @@ export async function importLahoreInter2Subject(dataDir: string) {
   const toCreate: Prisma.QuestionCreateManyInput[] = [];
 
   for (const q of questionsFile.questions) {
-    const topicId = topicIdByCode.get(q.topic_id);
-    if (!topicId || !q.en?.trim()) {
+    const topicId =
+      topicIdByCode.get(`${q.chapter}:${q.topic_id}`) ?? topicIdByCode.get(q.topic_id);
+    const text = resolveQuestionText(q);
+    if (!topicId || !text) {
       skipped += 1;
       continue;
     }
 
     const type = mapType(q.type);
-    const subType = (q.field || type).toUpperCase();
+    const subType = (
+      q.field ||
+      fieldByQuestionId.get(q.id) ||
+      typeToField(q.type)
+    ).toUpperCase();
+    let mcqOptions: ReturnType<typeof normalizeMcqOptions> = null;
     if (type === "MCQ") {
-      if (!q.optionA || !q.optionB || !q.optionC || !q.optionD || !q.correctAnswer) {
+      mcqOptions = normalizeMcqOptions(q);
+      if (!mcqOptions) {
         skipped += 1;
         continue;
       }
@@ -213,13 +315,13 @@ export async function importLahoreInter2Subject(dataDir: string) {
     const payload = {
       type,
       subType,
-      text: q.en.trim(),
+      text,
       textUrdu: q.ur?.trim() || null,
-      optionA: q.optionA ?? null,
-      optionB: q.optionB ?? null,
-      optionC: q.optionC ?? null,
-      optionD: q.optionD ?? null,
-      correctAnswer: q.correctAnswer ?? null,
+      optionA: mcqOptions?.optionA ?? q.optionA ?? null,
+      optionB: mcqOptions?.optionB ?? q.optionB ?? null,
+      optionC: mcqOptions?.optionC ?? q.optionC ?? null,
+      optionD: mcqOptions?.optionD ?? q.optionD ?? null,
+      correctAnswer: mcqOptions?.correctAnswer ?? q.correctAnswer ?? null,
       marks: defaultMarks(type),
       source: q.source ?? q.priority ?? null,
       topicId,
@@ -230,7 +332,8 @@ export async function importLahoreInter2Subject(dataDir: string) {
     typeCounts[type] = (typeCounts[type] || 0) + 1;
     fieldCounts[subType] = (fieldCounts[subType] || 0) + 1;
 
-    const existingId = existingByKey.get(externalKey);
+    const existingId =
+      existingByKey.get(externalKey) ?? existingBySourceId.get(String(q.id));
     if (existingId) {
       await prisma.question.update({
         where: { id: existingId },
