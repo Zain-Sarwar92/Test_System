@@ -20,6 +20,9 @@ import {
   Settings,
   ArrowLeftRight,
   CalendarClock,
+  Users,
+  WalletCards,
+  Trophy,
   Menu,
   X,
   type LucideIcon,
@@ -42,7 +45,10 @@ export type NavIcon =
   | "questionBank"
   | "plans"
   | "settings"
-  | "schedule";
+  | "schedule"
+  | "students"
+  | "fees"
+  | "results";
 
 type NavItem = {
   href: string;
@@ -66,6 +72,9 @@ const NAV_ICONS: Record<NavIcon, LucideIcon> = {
   plans: CreditCard,
   settings: Settings,
   schedule: CalendarClock,
+  students: Users,
+  fees: WalletCards,
+  results: Trophy,
 };
 
 function isOverviewHref(href: string) {

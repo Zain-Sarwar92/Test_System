@@ -22,7 +22,7 @@ export default async function SectionsPage() {
               board: { select: { name: true } },
             },
           },
-          _count: { select: { teacherAssignments: true } },
+          _count: { select: { teacherAssignments: true, students: true } },
         },
       })
     : [];
@@ -104,10 +104,22 @@ export default async function SectionsPage() {
                       <p className="font-semibold text-ink">{section.name}</p>
                       <p className="mt-0.5 text-xs text-muted">
                         {section._count.teacherAssignments} teacher assignment
-                        {section._count.teacherAssignments === 1 ? "" : "s"}
+                        {section._count.teacherAssignments === 1 ? "" : "s"} ·{" "}
+                        {section._count.students} student
+                        {section._count.students === 1 ? "" : "s"}
                       </p>
                     </div>
                     <div className="flex flex-wrap gap-2">
+                      <Link href={`/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`}>
+                        <Button type="button" variant="secondary" size="sm">
+                          Students
+                        </Button>
+                      </Link>
+                      <Link href={`/org-admin/students/print/${section.id}`}>
+                        <Button type="button" variant="outline" size="sm">
+                          Print List
+                        </Button>
+                      </Link>
                       <Link href={`/org-admin/sections/${section.id}/edit`}>
                         <Button type="button" variant="outline" size="sm">
                           Edit

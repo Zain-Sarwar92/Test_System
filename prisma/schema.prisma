@@ -13,6 +13,11 @@ enum Role {
   TEACHER
 }
 
+enum CurriculumAccessMode {
+  ASSIGNED_ONLY
+  ALL_CURRICULUM
+}
+
 // Paper section type (options / short / long). PTS-specific kinds live in Question.subType.
 enum QuestionType {
   MCQ
@@ -46,33 +51,74 @@ enum TeacherLevel {
   INTERMEDIATE
 }
 
+enum StudentFieldType {
+  TEXT
+  NUMBER
+  DATE
+  BOOLEAN
+  SELECT
+}
+
+enum FeeFrequency {
+  MONTHLY
+  QUARTERLY
+  ANNUAL
+  ONE_TIME
+}
+
+enum FeeChargeStatus {
+  UNPAID
+  PARTIAL
+  PAID
+  WAIVED
+}
+
+enum FeePaymentMethod {
+  CASH
+  BANK_TRANSFER
+  CARD
+  OTHER
+}
+
+enum StudentStream {
+  SCIENCE
+  ARTS
+}
+
+/// COMMON = all students; SCIENCE / ARTS = stream-specific subjects.
+enum SubjectTrack {
+  COMMON
+  SCIENCE
+  ARTS
+}
+
 model User {
-  id             String    @id @default(cuid())
+  id             String        @id @default(cuid())
   name           String
-  email          String    @unique
-  emailVerified  Boolean   @default(false)
+  email          String        @unique
+  emailVerified  Boolean       @default(false)
   image          String?
-  role           Role      @default(TEACHER)
+  role           Role          @default(TEACHER)
   teacherLevel   TeacherLevel?
   phone          String?
   qualification  String?
   experience     String?
-  isActive       Boolean   @default(true)
+  isActive       Boolean       @default(true)
   organizationId String?
   organization   Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
-  createdAt      DateTime  @default(now())
-  updatedAt      DateTime  @updatedAt
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
 
-  sessions             Session[]
-  accounts             Account[]
-  suggestions          QuestionSuggestion[]
-  tests                Test[]
-  teacherAssignments   TeacherAssignment[]
-  teachingSubjects     TeacherSubject[]
-  orgMemberships       OrgMembership[]
-  reviewedSuggestions  QuestionSuggestion[] @relation("SuggestionReviewer")
-  createdSchedules     TestSchedule[]       @relation("ScheduleCreator")
-  scheduleAssignments  TestScheduleAssignment[]
+  sessions            Session[]
+  accounts            Account[]
+  suggestions         QuestionSuggestion[]
+  tests               Test[]
+  teacherAssignments  TeacherAssignment[]
+  teachingSubjects    TeacherSubject[]
+  orgMemberships      OrgMembership[]
+  reviewedSuggestions QuestionSuggestion[]     @relation("SuggestionReviewer")
+  createdSchedules    TestSchedule[]           @relation("ScheduleCreator")
+  scheduleAssignments TestScheduleAssignment[]
 
   @@index([organizationId])
   @@index([role])
@@ -126,23 +172,33 @@ model Verification {
 }
 
 model Organization {
-  id        String   @id @default(cuid())
-  name      String
-  slug      String   @unique
-  logoUrl   String?
-  isActive  Boolean  @default(true)
-  address   String?
-  phone     String?
-  planId    String?
-  plan      SubscriptionPlan? @relation(fields: [planId], references: [id], onDelete: SetNull)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id                   String               @id @default(cuid())
+  name                 String
+  slug                 String               @unique
+  logoUrl              String?
+  isActive             Boolean              @default(true)
+  address              String?
+  phone                String?
+  curriculumAccessMode CurriculumAccessMode @default(ASSIGNED_ONLY)
+  planId               String?
+  plan                 SubscriptionPlan?    @relation(fields: [planId], references: [id], onDelete: SetNull)
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
 
-  users       User[]
-  tests       Test[]
-  memberships OrgMembership[]
-  schedules   TestSchedule[]
-  sections    Section[]
+  users                   User[]
+  tests                   Test[]
+  memberships             OrgMembership[]
+  schedules               TestSchedule[]
+  sections                Section[]
+  students                Student[]
+  studentFieldDefinitions StudentFieldDefinition[]
+  feeHeads                FeeHead[]
+  feePlans                FeePlan[]
+  feeCharges              FeeCharge[]
+  feePayments             FeePayment[]
+  examTerms               ExamTerm[]
+  resultSeries            ResultSeries[]
+  subjectAssessments      SubjectAssessment[]
 
   @@index([planId])
   @@map("organization")
@@ -206,10 +262,11 @@ model Class {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  subjects Subject[]
-  sections Section[]
-  teacherAssignments TeacherAssignment[]
+  subjects               Subject[]
+  sections               Section[]
+  teacherAssignments     TeacherAssignment[]
   scheduleSubjectClasses TestScheduleSubjectClass[]
+  feePlans               FeePlan[]
 
   @@unique([boardId, name])
   @@index([boardId])
@@ -217,21 +274,29 @@ model Class {
 }
 
 model Subject {
-  id        String   @id @default(cuid())
-  name      String
-  classId   String
-  class     Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id            String       @id @default(cuid())
+  name          String
+  classId       String
+  class         Class        @relation(fields: [classId], references: [id], onDelete: Cascade)
+  /// COMMON for all; SCIENCE / ARTS for stream-specific papers.
+  track         SubjectTrack @default(COMMON)
+  /// Same group = alternatives (e.g. Biology + Computer → SCIENCE_ELECTIVE).
+  electiveGroup String?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
 
-  chapters  Chapter[]
-  tests     Test[]
-  teacherAssignments TeacherAssignment[]
-  teachers  TeacherSubject[]
+  chapters               Chapter[]
+  tests                  Test[]
+  teacherAssignments     TeacherAssignment[]
+  teachers               TeacherSubject[]
   scheduleSubjectClasses TestScheduleSubjectClass[]
+  assessments            SubjectAssessment[]
+  electiveStudents       Student[]                 @relation("StudentElective")
+  electiveChoices        StudentElectiveChoice[]
 
   @@unique([classId, name])
   @@index([classId])
+  @@index([electiveGroup])
   @@map("subject")
 }
 
@@ -253,22 +318,229 @@ model TeacherSubject {
 
 /// Org-scoped section within a global curriculum class (e.g. Class 9 → Red).
 model Section {
-  id             String   @id @default(cuid())
+  id             String       @id @default(cuid())
   name           String
   organizationId String
   organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
   classId        String
-  class          Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  class          Class        @relation(fields: [classId], references: [id], onDelete: Cascade)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
 
   teacherAssignments  TeacherAssignment[]
   scheduleAssignments TestScheduleAssignment[]
+  students            Student[]
+  feePlans            FeePlan[]
+  assessments         SubjectAssessment[]
 
   @@unique([organizationId, classId, name])
   @@index([organizationId])
   @@index([classId])
   @@map("section")
+}
+
+model Student {
+  id                String        @id @default(cuid())
+  rollNumber        String
+  name              String
+  fatherName        String
+  phone             String
+  isActive          Boolean        @default(true)
+  stream            StudentStream @default(SCIENCE)
+  /// Chosen alternative in an elective group (e.g. Biology or Computer).
+  electiveSubjectId String?
+  electiveSubject   Subject?      @relation("StudentElective", fields: [electiveSubjectId], references: [id], onDelete: SetNull)
+  organizationId    String
+  organization      Organization  @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  sectionId         String
+  section           Section       @relation(fields: [sectionId], references: [id], onDelete: Restrict)
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  customValues    StudentFieldValue[]
+  feeCharges      FeeCharge[]
+  feePayments     FeePayment[]
+  marks           StudentMark[]
+  electiveChoices StudentElectiveChoice[]
+
+  @@unique([sectionId, rollNumber])
+  @@index([organizationId])
+  @@index([sectionId])
+  @@index([name])
+  @@index([stream])
+  @@index([electiveSubjectId])
+  @@map("student")
+}
+
+/// Extra electives chosen by a student (Arts multi-select; Science Bio/Computer also synced here).
+model StudentElectiveChoice {
+  id        String   @id @default(cuid())
+  studentId String
+  subjectId String
+  createdAt DateTime @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  subject Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, subjectId])
+  @@index([studentId])
+  @@index([subjectId])
+  @@map("student_elective_choice")
+}
+
+model StudentFieldDefinition {
+  id             String           @id @default(cuid())
+  organizationId String
+  organization   Organization     @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  label          String
+  type           StudentFieldType @default(TEXT)
+  options        Json?
+  isRequired     Boolean          @default(false)
+  isActive       Boolean          @default(true)
+  order          Int              @default(0)
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  values StudentFieldValue[]
+
+  @@unique([organizationId, label])
+  @@index([organizationId, isActive, order])
+  @@map("student_field_definition")
+}
+
+model StudentFieldValue {
+  id        String                 @id @default(cuid())
+  studentId String
+  student   Student                @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  fieldId   String
+  field     StudentFieldDefinition @relation(fields: [fieldId], references: [id], onDelete: Cascade)
+  value     String
+  createdAt DateTime               @default(now())
+  updatedAt DateTime               @updatedAt
+
+  @@unique([studentId, fieldId])
+  @@index([fieldId])
+  @@map("student_field_value")
+}
+
+model FeeHead {
+  id             String       @id @default(cuid())
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  name           String
+  description    String?
+  isActive       Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  planItems FeePlanItem[]
+  charges   FeeCharge[]
+
+  @@unique([organizationId, name])
+  @@index([organizationId])
+  @@map("fee_head")
+}
+
+model FeePlan {
+  id             String       @id @default(cuid())
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  name           String
+  classId        String
+  class          Class        @relation(fields: [classId], references: [id], onDelete: Restrict)
+  sectionId      String?
+  section        Section?     @relation(fields: [sectionId], references: [id], onDelete: Restrict)
+  isActive       Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  items FeePlanItem[]
+
+  @@unique([organizationId, name])
+  @@index([organizationId, classId])
+  @@index([sectionId])
+  @@map("fee_plan")
+}
+
+model FeePlanItem {
+  id        String       @id @default(cuid())
+  planId    String
+  plan      FeePlan      @relation(fields: [planId], references: [id], onDelete: Cascade)
+  feeHeadId String
+  feeHead   FeeHead      @relation(fields: [feeHeadId], references: [id], onDelete: Restrict)
+  amount    Decimal      @db.Decimal(12, 2)
+  frequency FeeFrequency @default(MONTHLY)
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+
+  charges FeeCharge[]
+
+  @@unique([planId, feeHeadId])
+  @@index([feeHeadId])
+  @@map("fee_plan_item")
+}
+
+model FeeCharge {
+  id             String          @id @default(cuid())
+  organizationId String
+  organization   Organization    @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  studentId      String
+  student        Student         @relation(fields: [studentId], references: [id], onDelete: Restrict)
+  feeHeadId      String
+  feeHead        FeeHead         @relation(fields: [feeHeadId], references: [id], onDelete: Restrict)
+  planItemId     String?
+  planItem       FeePlanItem?    @relation(fields: [planItemId], references: [id], onDelete: SetNull)
+  periodKey      String
+  description    String?
+  amount         Decimal         @db.Decimal(12, 2)
+  status         FeeChargeStatus @default(UNPAID)
+  dueDate        DateTime?
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+
+  allocations FeePaymentAllocation[]
+
+  @@unique([studentId, feeHeadId, periodKey])
+  @@index([organizationId, periodKey, status])
+  @@index([studentId])
+  @@index([planItemId])
+  @@map("fee_charge")
+}
+
+model FeePayment {
+  id             String           @id @default(cuid())
+  organizationId String
+  organization   Organization     @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  studentId      String
+  student        Student          @relation(fields: [studentId], references: [id], onDelete: Restrict)
+  receiptNumber  String
+  amount         Decimal          @db.Decimal(12, 2)
+  method         FeePaymentMethod @default(CASH)
+  paidAt         DateTime         @default(now())
+  note           String?
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  allocations FeePaymentAllocation[]
+
+  @@unique([organizationId, receiptNumber])
+  @@index([organizationId, paidAt])
+  @@index([studentId])
+  @@map("fee_payment")
+}
+
+model FeePaymentAllocation {
+  id        String     @id @default(cuid())
+  paymentId String
+  payment   FeePayment @relation(fields: [paymentId], references: [id], onDelete: Cascade)
+  chargeId  String
+  charge    FeeCharge  @relation(fields: [chargeId], references: [id], onDelete: Restrict)
+  amount    Decimal    @db.Decimal(12, 2)
+  createdAt DateTime   @default(now())
+
+  @@unique([paymentId, chargeId])
+  @@index([chargeId])
+  @@map("fee_payment_allocation")
 }
 
 /// Teacher → Class + Section + Subject teaching assignment.
@@ -327,25 +599,25 @@ model Topic {
 }
 
 model Question {
-  id             String       @id @default(cuid())
-  type           QuestionType
+  id            String       @id @default(cuid())
+  type          QuestionType
   /// PTS subtype / field e.g. SPELLING, MEANING, AYAT, POEM_STANZA, QA
-  subType        String?
-  text           String
-  textUrdu       String?
-  optionA        String?
-  optionB        String?
-  optionC        String?
-  optionD        String?
-  correctAnswer  String?
-  marks          Int          @default(1)
-  source         String?
-  externalKey    String?
-  topicId        String
-  topic          Topic        @relation(fields: [topicId], references: [id], onDelete: Cascade)
-  isActive       Boolean      @default(true)
-  createdAt      DateTime     @default(now())
-  updatedAt      DateTime     @updatedAt
+  subType       String?
+  text          String
+  textUrdu      String?
+  optionA       String?
+  optionB       String?
+  optionC       String?
+  optionD       String?
+  correctAnswer String?
+  marks         Int          @default(1)
+  source        String?
+  externalKey   String?
+  topicId       String
+  topic         Topic        @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  isActive      Boolean      @default(true)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
 
   testQuestions TestQuestion[]
   suggestion    QuestionSuggestion?
@@ -361,6 +633,7 @@ model QuestionSuggestion {
   id            String           @id @default(cuid())
   type          QuestionType
   text          String
+  textUrdu      String?
   optionA       String?
   optionB       String?
   optionC       String?
@@ -388,31 +661,31 @@ model QuestionSuggestion {
 }
 
 model Test {
-  id               String           @id @default(cuid())
-  title            String
-  instructions     String?
-  totalMarks       Int              @default(0)
-  durationMinutes  Int              @default(60)
-  classSection     String?
-  examDate         DateTime?
-  preparedBy       String?
-  paperCode        String?
-  examLabel        String?
-  syllabusNote     String?
-  testType         String?
-  distributionMode DistributionMode @default(BALANCED)
-  status           TestStatus       @default(FINAL)
-  organizationId   String
-  organization     Organization     @relation(fields: [organizationId], references: [id], onDelete: Cascade)
-  teacherId        String
-  teacher          User             @relation(fields: [teacherId], references: [id], onDelete: Cascade)
-  subjectId        String?
-  subject          Subject?         @relation(fields: [subjectId], references: [id], onDelete: SetNull)
-  scheduleAssignmentId String?      @unique
-  scheduleAssignment   TestScheduleAssignment? @relation("AssignmentPrimaryTest", fields: [scheduleAssignmentId], references: [id], onDelete: SetNull)
+  id                   String                   @id @default(cuid())
+  title                String
+  instructions         String?
+  totalMarks           Int                      @default(0)
+  durationMinutes      Int                      @default(60)
+  classSection         String?
+  examDate             DateTime?
+  preparedBy           String?
+  paperCode            String?
+  examLabel            String?
+  syllabusNote         String?
+  testType             String?
+  distributionMode     DistributionMode         @default(BALANCED)
+  status               TestStatus               @default(FINAL)
+  organizationId       String
+  organization         Organization             @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  teacherId            String
+  teacher              User                     @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  subjectId            String?
+  subject              Subject?                 @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  scheduleAssignmentId String?                  @unique
+  scheduleAssignment   TestScheduleAssignment?  @relation("AssignmentPrimaryTest", fields: [scheduleAssignmentId], references: [id], onDelete: SetNull)
   coveredAssignments   TestScheduleAssignment[] @relation("AssignmentCoveredByTest")
-  createdAt        DateTime         @default(now())
-  updatedAt        DateTime         @updatedAt
+  createdAt            DateTime                 @default(now())
+  updatedAt            DateTime                 @updatedAt
 
   questions TestQuestion[]
 
@@ -457,13 +730,13 @@ model TestScheduleRound {
 }
 
 model TestScheduleSubject {
-  id          String             @id @default(cuid())
+  id          String            @id @default(cuid())
   roundId     String
-  round       TestScheduleRound  @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  round       TestScheduleRound @relation(fields: [roundId], references: [id], onDelete: Cascade)
   subjectName String
   testDate    DateTime
-  createdAt   DateTime           @default(now())
-  updatedAt   DateTime           @updatedAt
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
 
   classes TestScheduleSubjectClass[]
 
@@ -543,4 +816,96 @@ model TestQuestion {
   @@unique([testId, questionId])
   @@index([testId])
   @@map("test_question")
+}
+
+model ResultSeries {
+  id             String       @id @default(cuid())
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  name           String
+  session        String
+  passPercent    Int          @default(33)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  rounds ExamTerm[]
+
+  @@unique([organizationId, name, session])
+  @@index([organizationId])
+  @@map("result_series")
+}
+
+model ExamTerm {
+  id             String        @id @default(cuid())
+  organizationId String
+  organization   Organization  @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  seriesId       String?
+  series         ResultSeries? @relation(fields: [seriesId], references: [id], onDelete: Cascade)
+  name           String
+  session        String
+  examDate       DateTime?
+  passPercent    Int           @default(33)
+  roundOrder     Int?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  assessments SubjectAssessment[]
+
+  @@unique([organizationId, name, session])
+  @@unique([seriesId, roundOrder])
+  @@index([organizationId])
+  @@index([seriesId])
+  @@map("exam_term")
+}
+
+model SubjectAssessment {
+  id             String       @id @default(cuid())
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  examTermId     String
+  examTerm       ExamTerm     @relation(fields: [examTermId], references: [id], onDelete: Cascade)
+  sectionId      String
+  section        Section      @relation(fields: [sectionId], references: [id], onDelete: Restrict)
+  subjectId      String
+  subject        Subject      @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+  totalMarks     Decimal      @db.Decimal(8, 2)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  marks  StudentMark[]
+  sheets AssessmentSheet[]
+
+  @@unique([examTermId, sectionId, subjectId])
+  @@index([organizationId])
+  @@index([sectionId])
+  @@index([subjectId])
+  @@map("subject_assessment")
+}
+
+model StudentMark {
+  id             String             @id @default(cuid())
+  assessmentId   String
+  assessment     SubjectAssessment  @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  studentId      String
+  student        Student            @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  obtainedMarks  Decimal?           @db.Decimal(8, 2)
+  isAbsent       Boolean            @default(false)
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+
+  @@unique([assessmentId, studentId])
+  @@index([studentId])
+  @@map("student_mark")
+}
+
+model AssessmentSheet {
+  id           String            @id @default(cuid())
+  assessmentId String
+  assessment   SubjectAssessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  imagePath    String
+  originalName String?
+  createdAt    DateTime          @default(now())
+
+  @@index([assessmentId])
+  @@map("assessment_sheet")
 }

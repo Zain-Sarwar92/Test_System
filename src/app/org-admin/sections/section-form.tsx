@@ -5,6 +5,7 @@ import { useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { SearchSelect } from "@/components/ui/search-select";
 import { createSection, updateSection } from "./actions";
 
 type ClassOption = {
@@ -48,6 +49,11 @@ export function SectionForm({
   const [boardId, setBoardId] = useState(initial?.boardId ?? "");
   const [classId, setClassId] = useState(initial?.classId ?? "");
 
+  const boardOptions = useMemo(
+    () => boards.map((board) => ({ value: board.id, label: board.name })),
+    [boards],
+  );
+
   const boardClasses = useMemo(
     () =>
       classes
@@ -57,7 +63,8 @@ export function SectionForm({
             numeric: true,
             sensitivity: "base",
           }),
-        ),
+        )
+        .map((klass) => ({ value: klass.id, label: klass.name })),
     [classes, boardId],
   );
 
@@ -141,44 +148,37 @@ export function SectionForm({
         ) : null}
       </label>
 
-      <label className="block">
+      <div className="block">
         <span className="mb-1.5 block text-sm font-semibold text-ink">
           Board <span className="text-red-500">*</span>
         </span>
-        <select
+        <SearchSelect
           value={boardId}
-          onChange={(e) => onBoardChange(e.target.value)}
-          className="field-control h-11 w-full"
-        >
-          <option value="">Select board</option>
-          {boards.map((board) => (
-            <option key={board.id} value={board.id}>
-              {board.name}
-            </option>
-          ))}
-        </select>
-      </label>
+          options={boardOptions}
+          onChange={onBoardChange}
+          placeholder="Select board"
+          searchPlaceholder="Search board…"
+          ariaLabel="Board"
+          className="h-11 w-full"
+        />
+      </div>
 
-      <label className="block">
+      <div className="block">
         <span className="mb-1.5 block text-sm font-semibold text-ink">
           Class <span className="text-red-500">*</span>
         </span>
-        <select
+        <SearchSelect
           value={classId}
-          onChange={(e) => setClassId(e.target.value)}
+          options={boardClasses}
+          onChange={setClassId}
+          placeholder={boardId ? "Select class" : "Select board first"}
+          searchPlaceholder="Search class…"
+          emptyText={boardId ? "No classes for this board" : "Select a board first"}
           disabled={!boardId}
-          className="field-control h-11 w-full disabled:opacity-60"
-        >
-          <option value="">
-            {boardId ? "Select class" : "Select board first"}
-          </option>
-          {boardClasses.map((klass) => (
-            <option key={klass.id} value={klass.id}>
-              {klass.name}
-            </option>
-          ))}
-        </select>
-      </label>
+          ariaLabel="Class"
+          className="h-11 w-full"
+        />
+      </div>
 
       {error ? (
         <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3">

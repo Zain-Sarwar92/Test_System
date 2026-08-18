@@ -122,7 +122,11 @@ export async function updateSection(formData: FormData) {
 
     const section = await prisma.section.findFirst({
       where: { id, organizationId },
-      select: { id: true, classId: true, _count: { select: { teacherAssignments: true } } },
+      select: {
+        id: true,
+        classId: true,
+        _count: { select: { teacherAssignments: true, students: true } },
+      },
     });
     if (!section) {
       return { ok: false as const, error: "Section not found" };
@@ -130,12 +134,12 @@ export async function updateSection(formData: FormData) {
 
     if (
       parsed.classId !== section.classId &&
-      section._count.teacherAssignments > 0
+      (section._count.teacherAssignments > 0 || section._count.students > 0)
     ) {
       return {
         ok: false as const,
         error:
-          "Cannot change class while teachers are assigned to this section. Remove assignments first.",
+          "Cannot change class while teachers or students are linked to this section.",
       };
     }
 
@@ -193,10 +197,15 @@ export async function deleteSection(formData: FormData) {
 
   const section = await prisma.section.findFirst({
     where: { id, organizationId },
-    select: { id: true },
+    select: { id: true, _count: { select: { students: true } } },
   });
   if (!section) {
     throw new Error("Section not found");
+  }
+  if (section._count.students > 0) {
+    throw new Error(
+      "Cannot delete a section that has students. Move or remove the students first.",
+    );
   }
 
   await prisma.section.delete({ where: { id } });
