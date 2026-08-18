@@ -69,6 +69,33 @@ function topicOrder(topicId: string) {
   return Number.isFinite(n) ? n : 0;
 }
 
+function resolveQuestionText(q: SourceQuestion): string {
+  const text = q.en?.trim();
+  if (text && text !== ".") return text;
+  if (inferField(q) === "SPELLING") return "Tick the correct spelling.";
+  if (q.type === "mcq") return q.source?.trim() || "Select the correct option.";
+  return q.ur?.trim() || "";
+}
+
+function normalizeMcqOptions(q: SourceQuestion) {
+  const letters = ["A", "B", "C", "D"] as const;
+  const raw = [q.optionA, q.optionB, q.optionC, q.optionD];
+  const options = raw.map((value, index) => {
+    const trimmed = value?.trim();
+    if (trimmed) return trimmed;
+    if (q.correctAnswer?.toUpperCase() === letters[index]) return "—";
+    return null;
+  });
+  if (!q.correctAnswer || options.some((value) => !value)) return null;
+  return {
+    optionA: options[0]!,
+    optionB: options[1]!,
+    optionC: options[2]!,
+    optionD: options[3]!,
+    correctAnswer: q.correctAnswer.toUpperCase(),
+  };
+}
+
 function inferField(q: SourceQuestion): string {
   if (q.field) return String(q.field).toUpperCase();
   const sourceLower = (q.source ?? "").toLowerCase();
@@ -202,7 +229,10 @@ export async function importLahoreEnglishQuestionBank(
           order: topicOrder(topicData.id),
         },
       });
-      topicIdByCode.set(topicData.id, topic.id);
+      topicIdByCode.set(`${chapterData.number}:${topicData.id}`, topic.id);
+      if (!topicIdByCode.has(topicData.id)) {
+        topicIdByCode.set(topicData.id, topic.id);
+      }
     }
   }
 
@@ -229,8 +259,11 @@ export async function importLahoreEnglishQuestionBank(
   const toCreate: Prisma.QuestionCreateManyInput[] = [];
 
   for (const q of questionsFile.questions) {
-    const topicId = topicIdByCode.get(q.topic_id);
-    if (!topicId) {
+    const topicId =
+      topicIdByCode.get(`${q.chapter}:${q.topic_id}`) ??
+      topicIdByCode.get(q.topic_id);
+    const text = resolveQuestionText(q);
+    if (!topicId || !text) {
       skipped += 1;
       skippedNoTopic += 1;
       continue;
@@ -238,9 +271,10 @@ export async function importLahoreEnglishQuestionBank(
 
     const type = mapType(q.type);
     const field = inferField(q);
-
+    let mcqOptions: ReturnType<typeof normalizeMcqOptions> = null;
     if (type === "MCQ") {
-      if (!q.optionA || !q.optionB || !q.optionC || !q.optionD || !q.correctAnswer) {
+      mcqOptions = normalizeMcqOptions(q);
+      if (!mcqOptions) {
         skipped += 1;
         skippedBadMcq += 1;
         continue;
@@ -251,13 +285,14 @@ export async function importLahoreEnglishQuestionBank(
 
     const payload = {
       type,
-      text: q.en.trim(),
+      subType: field,
+      text,
       textUrdu: q.ur?.trim() || null,
-      optionA: q.optionA ?? null,
-      optionB: q.optionB ?? null,
-      optionC: q.optionC ?? null,
-      optionD: q.optionD ?? null,
-      correctAnswer: q.correctAnswer ?? null,
+      optionA: mcqOptions?.optionA ?? q.optionA ?? null,
+      optionB: mcqOptions?.optionB ?? q.optionB ?? null,
+      optionC: mcqOptions?.optionC ?? q.optionC ?? null,
+      optionD: mcqOptions?.optionD ?? q.optionD ?? null,
+      correctAnswer: mcqOptions?.correctAnswer ?? q.correctAnswer ?? null,
       marks: defaultMarks(type),
       source: q.source ?? null,
       topicId,

@@ -1,102 +1,4 @@
 {
-  "course": {
-    "CourseID": 1,
-    "name": "PTB"
-  },
-  "class": {
-    "ClassID": 12,
-    "name": "INTER-II"
-  },
-  "subject": {
-    "SubjectID": 123,
-    "AdminID": 1,
-    "CourseID": 1,
-    "ClassID": 12,
-    "SubjectName": "ENGLISH",
-    "Category": "SNC-2026",
-    "ImageUrl": "/images/subjects/637341239702640459.jpg",
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2026-08-08T09:53:56.747",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null,
-    "Class": null
-  },
-  "slug": "english",
-  "exportTypes": [
-    {
-      "id": 1,
-      "name": "mcq-comprehension",
-      "bankType": "mcq",
-      "field": "COMPREHENSION"
-    },
-    {
-      "id": 2,
-      "name": "mcq-spelling",
-      "bankType": "mcq",
-      "field": "SPELLING"
-    },
-    {
-      "id": 3,
-      "name": "mcq-meaning",
-      "bankType": "mcq",
-      "field": "MEANING"
-    },
-    {
-      "id": 6,
-      "name": "mcq-grammar",
-      "bankType": "mcq",
-      "field": "GRAMMAR"
-    },
-    {
-      "id": 14,
-      "name": "short-qa",
-      "bankType": "short",
-      "field": "QA"
-    },
-    {
-      "id": 23,
-      "name": "short-di",
-      "bankType": "short",
-      "field": "DI"
-    },
-    {
-      "id": 34,
-      "name": "short-word",
-      "bankType": "short",
-      "field": "WORD"
-    },
-    {
-      "id": 35,
-      "name": "short-pair",
-      "bankType": "short",
-      "field": "PAIR"
-    },
-    {
-      "id": 27,
-      "name": "long-essays",
-      "bankType": "long",
-      "field": "ESSAYS"
-    },
-    {
-      "id": 28,
-      "name": "long-summary",
-      "bankType": "long",
-      "field": "SUMMARY"
-    },
-    {
-      "id": 43,
-      "name": "long-translate-urdu",
-      "bankType": "long",
-      "field": "TRANSLATE_UR"
-    },
-    {
-      "id": 47,
-      "name": "long-poem-stanzas",
-      "bankType": "long",
-      "field": "POEM_STANZA"
-    }
-  ],
   "chapters": [
     {
       "ChapterID": 8378,
@@ -556,10 +458,105 @@
       "ClassID": 12,
       "SubjectID": 123,
       "ChapterID": 8390,
-      "TopicName": "THE PEARL  (NOVEL)",
-      "TopicRef": ".",
-      "CreatedDateTime": "2026-08-08T12:20:12.09",
-      "UpdatedDateTime": "2026-08-08T12:20:12.09",
+      "TopicName": "CHAPTER 1",
+      "TopicRef": "13.1",
+      "CreatedDateTime": "2026-08-08T12:20:12",
+      "UpdatedDateTime": "2026-08-13T16:08:15.18",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15720,
+      "AdminID": 24,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8390,
+      "TopicName": "CHAPTER 2",
+      "TopicRef": "13.2",
+      "CreatedDateTime": "2026-08-13T16:08:42.54",
+      "UpdatedDateTime": "2026-08-13T16:08:42.54",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15721,
+      "AdminID": 24,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8390,
+      "TopicName": "CHAPTER 3",
+      "TopicRef": "13.3",
+      "CreatedDateTime": "2026-08-13T16:08:52.223",
+      "UpdatedDateTime": "2026-08-13T16:08:52.223",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15722,
+      "AdminID": 24,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8390,
+      "TopicName": "CHAPTER 4",
+      "TopicRef": "13.4",
+      "CreatedDateTime": "2026-08-13T16:09:00.94",
+      "UpdatedDateTime": "2026-08-13T16:09:00.94",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15723,
+      "AdminID": 24,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8390,
+      "TopicName": "CHAPTER 5",
+      "TopicRef": "13.5",
+      "CreatedDateTime": "2026-08-13T16:09:25.783",
+      "UpdatedDateTime": "2026-08-13T16:09:25.783",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15724,
+      "AdminID": 24,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8390,
+      "TopicName": "CHAPTER 6",
+      "TopicRef": "13.6",
+      "CreatedDateTime": "2026-08-13T16:09:35.583",
+      "UpdatedDateTime": "2026-08-13T16:09:35.583",
       "IsTrial": false,
       "IsActive": true,
       "Admin": null,
@@ -568,5 +565,6 @@
       "Subject": null,
       "Chapter": null
     }
-  ]
+  ],
+  "subjectId": 123
 }

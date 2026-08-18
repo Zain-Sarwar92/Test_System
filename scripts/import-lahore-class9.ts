@@ -71,6 +71,34 @@ function slugKey(slug: string) {
   return slug.replace(/[^a-z0-9-]+/gi, "-").toLowerCase();
 }
 
+function resolveQuestionText(q: SourceQuestion): string {
+  const text = q.en?.trim();
+  if (text && text !== ".") return text;
+  if (q.field === "SPELLING") return "Tick the correct spelling.";
+  if (q.type === "mcq") return q.source?.trim() || "Select the correct option.";
+  return q.ur?.trim() || "";
+}
+
+function normalizeMcqOptions(q: SourceQuestion) {
+  const letters = ["A", "B", "C", "D"] as const;
+  const raw = [q.optionA, q.optionB, q.optionC, q.optionD];
+  const options = raw.map((value, index) => {
+    const trimmed = value?.trim();
+    if (trimmed) return trimmed;
+    const letter = letters[index];
+    if (q.correctAnswer?.toUpperCase() === letter) return "—";
+    return null;
+  });
+  if (!q.correctAnswer || options.some((value) => !value)) return null;
+  return {
+    optionA: options[0]!,
+    optionB: options[1]!,
+    optionC: options[2]!,
+    optionD: options[3]!,
+    correctAnswer: q.correctAnswer.toUpperCase(),
+  };
+}
+
 export async function importLahoreClass9Subject(dataDir: string) {
   const syllabusPath = path.join(dataDir, "syllabus.json");
   const questionsPath = path.join(dataDir, "all-questions.json");
@@ -169,7 +197,11 @@ export async function importLahoreClass9Subject(dataDir: string) {
           order: topicOrder(topicData.id),
         },
       });
-      topicIdByCode.set(topicData.id, topic.id);
+      topicIdByCode.set(`${chapterData.number}:${topicData.id}`, topic.id);
+      // Backward-compatible fallback for subjects where topic ids are globally unique.
+      if (!topicIdByCode.has(topicData.id)) {
+        topicIdByCode.set(topicData.id, topic.id);
+      }
     }
   }
 
@@ -193,16 +225,21 @@ export async function importLahoreClass9Subject(dataDir: string) {
   const toCreate: Prisma.QuestionCreateManyInput[] = [];
 
   for (const q of questionsFile.questions) {
-    const topicId = topicIdByCode.get(q.topic_id);
-    if (!topicId || !q.en?.trim()) {
+    const topicId =
+      topicIdByCode.get(`${q.chapter}:${q.topic_id}`) ??
+      topicIdByCode.get(q.topic_id);
+    const text = resolveQuestionText(q);
+    if (!topicId || !text) {
       skipped += 1;
       continue;
     }
 
     const type = mapType(q.type);
     const subType = (q.field || type).toUpperCase();
+    let mcqOptions: ReturnType<typeof normalizeMcqOptions> = null;
     if (type === "MCQ") {
-      if (!q.optionA || !q.optionB || !q.optionC || !q.optionD || !q.correctAnswer) {
+      mcqOptions = normalizeMcqOptions(q);
+      if (!mcqOptions) {
         skipped += 1;
         continue;
       }
@@ -212,13 +249,13 @@ export async function importLahoreClass9Subject(dataDir: string) {
     const payload = {
       type,
       subType,
-      text: q.en.trim(),
+      text,
       textUrdu: q.ur?.trim() || null,
-      optionA: q.optionA ?? null,
-      optionB: q.optionB ?? null,
-      optionC: q.optionC ?? null,
-      optionD: q.optionD ?? null,
-      correctAnswer: q.correctAnswer ?? null,
+      optionA: mcqOptions?.optionA ?? null,
+      optionB: mcqOptions?.optionB ?? null,
+      optionC: mcqOptions?.optionC ?? null,
+      optionD: mcqOptions?.optionD ?? null,
+      correctAnswer: mcqOptions?.correctAnswer ?? q.correctAnswer ?? null,
       marks: defaultMarks(type),
       source: q.source ?? q.priority ?? null,
       topicId,
