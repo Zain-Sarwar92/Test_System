@@ -62,6 +62,10 @@ export default async function OrganizationsPage() {
               <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
               Admin can refine branding later under Org Profile
             </li>
+            <li className="flex gap-2">
+              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
+              Students, results, fees, and schedules stay off until you enable them
+            </li>
           </ul>
         </Card>
       </div>

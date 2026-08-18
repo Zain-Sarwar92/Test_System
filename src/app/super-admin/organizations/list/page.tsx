@@ -6,6 +6,7 @@ import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { toggleOrganizationActive } from "../actions";
+import { flagsFromOrg, ORG_MODULE_KEYS, ORG_MODULES } from "@/lib/org-modules";
 
 export default async function OrganizationsListPage() {
   await requireRole(["SUPER_ADMIN"]);
@@ -64,6 +65,7 @@ export default async function OrganizationsListPage() {
 
         {organizations.map((org, index) => {
           const admin = org.users[0];
+          const enabledModules = ORG_MODULE_KEYS.filter((key) => flagsFromOrg(org)[key]);
           return (
             <div
               key={org.id}
@@ -92,6 +94,17 @@ export default async function OrganizationsListPage() {
                   <p className="mt-1 text-sm text-muted">
                     {org.slug} · {org._count.users} users · {org._count.tests} tests
                   </p>
+                  <div className="mt-2 flex flex-wrap gap-1.5">
+                    {enabledModules.length === 0 ? (
+                      <span className="status-chip status-chip-muted">Core only</span>
+                    ) : (
+                      enabledModules.map((key) => (
+                        <span key={key} className="status-chip status-chip-success">
+                          {ORG_MODULES[key].label}
+                        </span>
+                      ))
+                    )}
+                  </div>
                   {admin ? (
                     <p className="mt-2 text-sm text-ink-soft">
                       Admin: {admin.name} ({admin.email})

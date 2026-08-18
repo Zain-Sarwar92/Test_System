@@ -7,8 +7,10 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { deleteOrganization, toggleOrganizationActive, updateOrganization } from "../actions";
+import { deleteOrganization, toggleOrganizationActive, updateOrganization, updateOrganizationModules } from "../actions";
 import { DeleteOrgButton } from "../delete-org-button";
+import { OrgModuleCheckboxes } from "@/components/org-module-checkboxes";
+import { flagsFromOrg } from "@/lib/org-modules";
 
 export default async function OrganizationDetailPage({
   params,
@@ -53,6 +55,7 @@ export default async function OrganizationDetailPage({
       />
 
       <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_280px]">
+        <div className="space-y-4">
         <Card className="chart-card">
           <CardTitle>Edit organization</CardTitle>
           <CardDescription className="mt-1">
@@ -100,6 +103,19 @@ export default async function OrganizationDetailPage({
             <Button type="submit">Save changes</Button>
           </form>
         </Card>
+
+        <Card className="chart-card">
+          <CardTitle>Modules</CardTitle>
+          <CardDescription className="mt-1">
+            Control which add-ons this organization can use. Core paper generation stays available.
+          </CardDescription>
+          <form action={updateOrganizationModules} className="mt-4 space-y-3">
+            <input type="hidden" name="id" value={org.id} />
+            <OrgModuleCheckboxes values={flagsFromOrg(org)} />
+            <Button type="submit">Save modules</Button>
+          </form>
+        </Card>
+        </div>
 
         <div className="space-y-4">
           <Card>

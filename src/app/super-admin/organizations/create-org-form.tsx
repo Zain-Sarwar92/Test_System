@@ -7,6 +7,7 @@ import { Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { createOrganizationAction } from "./actions";
+import { OrgModuleCheckboxes } from "@/components/org-module-checkboxes";
 
 export function CreateOrgForm({
   plans = [],
@@ -102,6 +103,8 @@ export function CreateOrgForm({
           />
         </label>
       </div>
+
+      <OrgModuleCheckboxes />
 
       {error ? (
         <p className="text-sm font-medium text-red-700" role="alert">

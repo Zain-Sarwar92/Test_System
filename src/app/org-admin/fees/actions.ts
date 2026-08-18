@@ -7,6 +7,7 @@ import { z } from "zod";
 import { Prisma } from "@/generated/prisma/client";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { assertOrgModule } from "@/lib/org-modules";
 
 const idSchema = z.string().trim().min(1);
 const moneySchema = z
@@ -24,6 +25,7 @@ async function requireOrgAdmin() {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
   if (!organizationId) throw new Error("Organization not linked to this admin");
+  await assertOrgModule(organizationId, "FEES");
   return organizationId;
 }
 

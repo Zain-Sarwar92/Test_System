@@ -5,6 +5,7 @@ import { Card, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole, requireActiveOrganizationId } from "@/lib/rbac";
+import { orgHasModule } from "@/lib/org-modules";
 import { statusChipClass } from "@/lib/test-schedule-status";
 import { getMyAssignedTestSchedules } from "./schedules/actions";
 
@@ -12,7 +13,7 @@ export default async function TeacherPage() {
   const session = await requireRole(["TEACHER"]);
   const organizationId = await requireActiveOrganizationId(session.user.id);
 
-  const [finalCount, recentTests, org, assigned] = await Promise.all([
+  const [finalCount, recentTests, org, schedulesEnabled] = await Promise.all([
     prisma.test.count({
       where: { teacherId: session.user.id, organizationId, status: "FINAL" },
     }),
@@ -29,8 +30,9 @@ export default async function TeacherPage() {
       where: { id: organizationId },
       select: { name: true },
     }),
-    getMyAssignedTestSchedules(),
+    orgHasModule(organizationId, "SCHEDULES"),
   ]);
+  const assigned = schedulesEnabled ? await getMyAssignedTestSchedules() : [];
 
   const totalCount = finalCount;
   const openAssignments = assigned

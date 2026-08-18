@@ -4,11 +4,16 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { orgHasModule } from "@/lib/org-modules";
 import { deleteSection } from "./actions";
 
 export default async function SectionsPage() {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
+
+  const studentsEnabled = organizationId
+    ? await orgHasModule(organizationId, "STUDENTS")
+    : false;
 
   const sections = organizationId
     ? await prisma.section.findMany({
@@ -104,12 +109,17 @@ export default async function SectionsPage() {
                       <p className="font-semibold text-ink">{section.name}</p>
                       <p className="mt-0.5 text-xs text-muted">
                         {section._count.teacherAssignments} teacher assignment
-                        {section._count.teacherAssignments === 1 ? "" : "s"} ·{" "}
-                        {section._count.students} student
-                        {section._count.students === 1 ? "" : "s"}
+                        {section._count.teacherAssignments === 1 ? "" : "s"}
+                        {studentsEnabled
+                          ? ` · ${section._count.students} student${
+                              section._count.students === 1 ? "" : "s"
+                            }`
+                          : ""}
                       </p>
                     </div>
                     <div className="flex flex-wrap gap-2">
+                      {studentsEnabled ? (
+                        <>
                       <Link href={`/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`}>
                         <Button type="button" variant="secondary" size="sm">
                           Students
@@ -120,6 +130,8 @@ export default async function SectionsPage() {
                           Print List
                         </Button>
                       </Link>
+                        </>
+                      ) : null}
                       <Link href={`/org-admin/sections/${section.id}/edit`}>
                         <Button type="button" variant="outline" size="sm">
                           Edit
