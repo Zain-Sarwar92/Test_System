@@ -10,6 +10,7 @@ const profileSchema = z.object({
   phone: z.string().trim().max(40).optional(),
   address: z.string().trim().max(300).optional(),
   logoUrl: z.string().trim().url().optional().or(z.literal("")),
+  curriculumAccessMode: z.enum(["ASSIGNED_ONLY", "ALL_CURRICULUM"]),
 });
 
 export async function updateOrgProfile(formData: FormData) {
@@ -24,6 +25,7 @@ export async function updateOrgProfile(formData: FormData) {
     phone: formData.get("phone") || undefined,
     address: formData.get("address") || undefined,
     logoUrl: formData.get("logoUrl") || "",
+    curriculumAccessMode: formData.get("curriculumAccessMode"),
   });
 
   await prisma.organization.update({
@@ -33,9 +35,11 @@ export async function updateOrgProfile(formData: FormData) {
       phone: parsed.phone || null,
       address: parsed.address || null,
       logoUrl: parsed.logoUrl || null,
+      curriculumAccessMode: parsed.curriculumAccessMode,
     },
   });
 
   revalidatePath("/org-admin/profile");
   revalidatePath("/org-admin");
+  revalidatePath("/teacher/generate");
 }

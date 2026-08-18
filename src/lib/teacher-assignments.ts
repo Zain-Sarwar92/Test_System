@@ -81,22 +81,29 @@ export function expandAssignmentGroups(
   catalog: {
     sections: Array<{ id: string; classId: string }>;
     subjects: Array<{ id: string; name: string; classId: string }>;
+    classes?: Array<{ id: string; name: string }>;
   },
   options?: { allowEmpty?: boolean },
 ): AssignmentInput[] {
   const allowEmpty = options?.allowEmpty ?? true;
   const sectionById = new Map(catalog.sections.map((s) => [s.id, s]));
+  const classNameById = new Map(
+    (catalog.classes ?? []).map((klass) => [klass.id, klass.name]),
+  );
   const expanded: AssignmentInput[] = [];
   const activeGroups = groups.filter((group) => !isBlankAssignmentGroup(group));
 
   for (const group of activeGroups) {
     if (isPartialAssignmentGroup(group)) {
-      throw new Error("Each assignment needs class(es), section(s), and a subject");
+      throw new Error(
+        "Every assignment needs a class, a subject, and at least one section.",
+      );
     }
 
     const classIds = [...new Set(group.classIds.filter(Boolean))];
     const sectionIds = [...new Set(group.sectionIds.filter(Boolean))];
     const subjectName = group.subjectName.trim();
+    const classesWithoutSection: string[] = [];
 
     for (const classId of classIds) {
       const subject = catalog.subjects.find(
@@ -105,24 +112,41 @@ export function expandAssignmentGroups(
           s.name.trim().toLowerCase() === subjectName.toLowerCase(),
       );
       if (!subject) {
-        throw new Error(`Subject "${subjectName}" was not found for one of the selected classes`);
+        throw new Error(
+          `"${subjectName}" is not taught in one of the selected classes. Remove that class, or pick a different subject.`,
+        );
       }
 
+      let matchedSections = 0;
       for (const sectionId of sectionIds) {
         const section = sectionById.get(sectionId);
         if (!section) {
-          throw new Error("One or more selected sections were not found");
+          throw new Error(
+            "One or more selected sections no longer exist. Refresh the page and try again.",
+          );
         }
         if (section.classId !== classId) {
           // Section belongs to another selected class — skip for this class.
           continue;
         }
+        matchedSections += 1;
         expanded.push({
           classId,
           sectionId,
           subjectId: subject.id,
         });
       }
+
+      if (matchedSections === 0) {
+        classesWithoutSection.push(classNameById.get(classId) ?? "a selected class");
+      }
+    }
+
+    if (classesWithoutSection.length > 0) {
+      const labels = [...new Set(classesWithoutSection)].join(", ");
+      throw new Error(
+        `No section selected for ${labels}. Select at least one section for every chosen class, or remove that class from this assignment.`,
+      );
     }
   }
 
@@ -131,7 +155,7 @@ export function expandAssignmentGroups(
       return [];
     }
     throw new Error(
-      "No valid class + section combinations. Pick sections that belong to the selected classes.",
+      "No valid class and section combination was found. Pick sections that belong to the selected classes.",
     );
   }
 

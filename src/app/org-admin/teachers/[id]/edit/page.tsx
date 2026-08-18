@@ -70,6 +70,7 @@ export default async function EditTeacherPage({
       },
       select: {
         sectionId: true,
+        subject: { select: { name: true } },
         teacher: { select: { name: true } },
       },
       orderBy: { createdAt: "asc" },
@@ -92,10 +93,17 @@ export default async function EditTeacherPage({
   ].sort((a, b) => a.name.localeCompare(b.name));
   const takenSections = [
     ...new Map(
-      takenAssignmentRows.map((row) => [
-        row.sectionId,
-        { sectionId: row.sectionId, teacherName: row.teacher.name },
-      ]),
+      takenAssignmentRows.map((row) => {
+        const key = `${row.sectionId}::${row.subject.name.trim().toLowerCase()}`;
+        return [
+          key,
+          {
+            sectionId: row.sectionId,
+            subjectName: row.subject.name,
+            teacherName: row.teacher.name,
+          },
+        ];
+      }),
     ).values(),
   ];
 

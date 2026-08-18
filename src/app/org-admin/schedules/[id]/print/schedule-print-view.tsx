@@ -19,6 +19,7 @@ export type SchedulePrintClassCell = {
 export type SchedulePrintRow = {
   id: string;
   dateLabel: string;
+  returnLabel: string;
   subjectName: string;
   byClass: Record<string, SchedulePrintClassCell>;
 };
@@ -30,14 +31,36 @@ export type SchedulePrintSectionColumn = {
   label: string;
 };
 
-type FieldKey = "date" | "subject" | "teachers" | "status" | "syllabus";
+type FieldKey =
+  | "date"
+  | "returnDate"
+  | "subject"
+  | "teachers"
+  | "status"
+  | "syllabus";
 
 export type PreviewBlock =
   | { key: string; kind: "round"; title: string }
   | { key: string; kind: "data"; rowId: string };
 
+type RenderItem =
+  | {
+      kind: "round";
+      block: { key: string; kind: "round"; title: string };
+      index: number;
+    }
+  | {
+      kind: "group";
+      key: string;
+      dateLabel: string;
+      returnLabel: string;
+      entries: Array<{ key: string; row: SchedulePrintRow }>;
+      index: number;
+    };
+
 const FIELD_OPTIONS: Array<{ key: FieldKey; label: string }> = [
   { key: "date", label: "Date" },
+  { key: "returnDate", label: "Returning date" },
   { key: "subject", label: "Subject" },
   { key: "teachers", label: "Class teachers" },
   { key: "syllabus", label: "Section syllabus columns" },
@@ -82,6 +105,7 @@ export function SchedulePrintView({
 
   const [fields, setFields] = useState<Record<FieldKey, boolean>>({
     date: true,
+    returnDate: true,
     subject: true,
     teachers: true,
     syllabus: true,
@@ -106,6 +130,7 @@ export function SchedulePrintView({
   const colSpan = useMemo(() => {
     let n = 0;
     if (fields.date) n += 1;
+    if (fields.returnDate) n += 1;
     if (fields.subject) n += 1;
     if (fields.teachers) n += classColumns.length;
     if (fields.syllabus) n += sectionColumns.length;
@@ -160,14 +185,56 @@ export function SchedulePrintView({
     setBlocks((prev) => prev.filter((block) => block.key !== key));
   }
 
-  function renderDataCells(row: SchedulePrintRow) {
+  // Consecutive data rows that share a test date print under one merged date cell.
+  const renderItems = useMemo(() => {
+    const items: RenderItem[] = [];
+    let index = 0;
+
+    while (index < blocks.length) {
+      const block = blocks[index]!;
+
+      if (block.kind === "round") {
+        items.push({ kind: "round", block, index });
+        index += 1;
+        continue;
+      }
+
+      const row = rowById.get(block.rowId);
+      if (!row) {
+        index += 1;
+        continue;
+      }
+
+      const entries: Array<{ key: string; row: SchedulePrintRow }> = [
+        { key: block.key, row },
+      ];
+      let next = index + 1;
+      while (next < blocks.length) {
+        const candidate = blocks[next]!;
+        if (candidate.kind !== "data") break;
+        const candidateRow = rowById.get(candidate.rowId);
+        if (!candidateRow || candidateRow.dateLabel !== row.dateLabel) break;
+        entries.push({ key: candidate.key, row: candidateRow });
+        next += 1;
+      }
+
+      items.push({
+        kind: "group",
+        key: block.key,
+        dateLabel: row.dateLabel,
+        returnLabel: row.returnLabel,
+        entries,
+        index,
+      });
+      index = next;
+    }
+
+    return items;
+  }, [blocks, rowById]);
+
+  function renderRowCells(row: SchedulePrintRow) {
     return (
       <>
-        {fields.date ? (
-          <td className="whitespace-nowrap border border-[rgba(15,40,70,0.12)] px-3 py-2.5 align-top text-ink">
-            {row.dateLabel}
-          </td>
-        ) : null}
         {fields.subject ? (
           <td className="whitespace-nowrap border border-[rgba(15,40,70,0.12)] px-3 py-2.5 align-top font-semibold text-ink">
             {row.subjectName}
@@ -257,8 +324,9 @@ export function SchedulePrintView({
       <div className="no-print mb-4 rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-white p-4 shadow-[0_8px_24px_rgba(11,31,51,0.05)] sm:p-5">
         <p className="text-sm font-semibold text-ink">1. Select fields to print</p>
         <p className="mt-1 text-sm text-muted">
-          Columns: Date, Subject, class teachers (9 Teacher, 10 Teacher), then
-          separate syllabus columns (9 Red, 9 Blue, 10 Red, …).
+          Columns: Date, Returning date (4 working days after the test), Subject,
+          class teachers (9 Teacher, 10 Teacher), then separate syllabus columns
+          (9 Red, 9 Blue, 10 Red, …).
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           {FIELD_OPTIONS.map((opt) => {
@@ -329,6 +397,11 @@ export function SchedulePrintView({
                       Date
                     </th>
                   ) : null}
+                  {fields.returnDate ? (
+                    <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-[#f8fbfd] px-3 py-2.5 font-semibold text-ink">
+                      Returning date
+                    </th>
+                  ) : null}
                   {fields.subject ? (
                     <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-[#f8fbfd] px-3 py-2.5 font-semibold text-ink">
                       Subject
@@ -357,8 +430,10 @@ export function SchedulePrintView({
                 </tr>
               </thead>
               <tbody>
-                {blocks.map((block, index) => {
-                  if (block.kind === "round") {
+                {renderItems.map((item) => {
+                  if (item.kind === "round") {
+                    const block = item.block;
+                    const index = item.index;
                     return (
                       <Fragment key={block.key}>
                         <tr className="schedule-print-round-row">
@@ -405,17 +480,36 @@ export function SchedulePrintView({
                     );
                   }
 
-                  const row = rowById.get(block.rowId);
-                  if (!row) return null;
-
                   return (
-                    <Fragment key={block.key}>
-                      <tr>{renderDataCells(row)}</tr>
+                    <Fragment key={item.key}>
+                      {item.entries.map((entry, entryIndex) => (
+                        <tr key={entry.key}>
+                          {fields.date && entryIndex === 0 ? (
+                            <td
+                              rowSpan={item.entries.length}
+                              className="whitespace-nowrap border border-[rgba(15,40,70,0.12)] px-3 py-2.5 align-top text-ink"
+                            >
+                              {item.dateLabel}
+                            </td>
+                          ) : null}
+                          {fields.returnDate && entryIndex === 0 ? (
+                            <td
+                              rowSpan={item.entries.length}
+                              className="whitespace-nowrap border border-[rgba(15,40,70,0.12)] px-3 py-2.5 align-top text-ink"
+                            >
+                              {item.returnLabel}
+                            </td>
+                          ) : null}
+                          {renderRowCells(entry.row)}
+                        </tr>
+                      ))}
                       <tr className="no-print">
                         <td colSpan={colSpan} className="border-0 px-0 py-1">
                           <button
                             type="button"
-                            onClick={() => insertRoundAt(index + 1)}
+                            onClick={() =>
+                              insertRoundAt(item.index + item.entries.length)
+                            }
                             className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-[11px] font-semibold text-brand hover:bg-brand/5"
                           >
                             <Plus className="h-3 w-3" />

@@ -8,6 +8,7 @@ import { requireRole } from "@/lib/rbac";
 const schema = z.object({
   type: z.enum(["MCQ", "SHORT", "LONG"]),
   text: z.string().trim().min(3),
+  textUrdu: z.string().trim().optional(),
   topicId: z.string().min(1),
   marks: z.coerce.number().int().min(1).max(100).default(2),
   optionA: z.string().trim().optional(),
@@ -23,6 +24,7 @@ export async function submitSuggestion(formData: FormData) {
   const parsed = schema.parse({
     type: formData.get("type"),
     text: formData.get("text"),
+    textUrdu: formData.get("textUrdu") || undefined,
     topicId: formData.get("topicId"),
     marks: formData.get("marks") || 2,
     optionA: formData.get("optionA") || undefined,
@@ -45,6 +47,7 @@ export async function submitSuggestion(formData: FormData) {
     data: {
       type: parsed.type,
       text: parsed.text,
+      textUrdu: parsed.textUrdu || null,
       topicId: parsed.topicId,
       marks: parsed.marks,
       optionA: parsed.optionA || null,

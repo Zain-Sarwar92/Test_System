@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { AlertTriangle, CheckCircle2, FilePlus2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -27,10 +27,6 @@ function AssignmentSyllabusCell({
   const [value, setValue] = useState(syllabusText ?? "");
   const [error, setError] = useState<string | null>(null);
   const [savedFlash, setSavedFlash] = useState(false);
-
-  useEffect(() => {
-    setValue(syllabusText ?? "");
-  }, [syllabusText]);
 
   const dirty = value.trim() !== (syllabusText ?? "").trim();
   const missing =
@@ -151,13 +147,28 @@ export function TeacherScheduleFormView({
       scheduleName: group.scheduleName,
       rounds: [...group.rounds.values()]
         .sort((a, b) => a.roundOrder - b.roundOrder || a.roundName.localeCompare(b.roundName))
-        .map((round) => ({
-          ...round,
-          rows: [...round.rows].sort(
+        .map((round) => {
+          const rows = [...round.rows].sort(
             (a, b) =>
-              new Date(a.testDate).getTime() - new Date(b.testDate).getTime(),
-          ),
-        })),
+              new Date(a.testDate).getTime() - new Date(b.testDate).getTime() ||
+              a.subjectName.localeCompare(b.subjectName),
+          );
+          const byDate = new Map<string, TeacherAssignedSchedule[]>();
+          for (const row of rows) {
+            const dateKey = row.testDate.slice(0, 10);
+            const list = byDate.get(dateKey) ?? [];
+            list.push(row);
+            byDate.set(dateKey, list);
+          }
+          return {
+            ...round,
+            rows,
+            dateGroups: [...byDate.entries()].map(([dateKey, items]) => ({
+              dateKey,
+              items,
+            })),
+          };
+        }),
     }));
   }, [schedules]);
 
@@ -217,69 +228,124 @@ export function TeacherScheduleFormView({
                       </tr>
                     </thead>
                     <tbody>
-                      {round.rows.map((item) => (
+                      {round.dateGroups.map((dateGroup) => {
+                        const first = dateGroup.items[0]!;
+                        return (
                         <tr
-                          key={item.assignmentId}
+                          key={dateGroup.dateKey}
                           className="border-b border-[rgba(15,40,70,0.06)] last:border-b-0"
                         >
                           <td className="whitespace-nowrap px-3 py-3 align-top font-medium text-ink">
-                            {item.testDateLabel}
-                            {item.dueTomorrow && item.status !== "COMPLETED" ? (
+                            {first.testDateLabel}
+                            {dateGroup.items.some(
+                              (item) =>
+                                item.dueTomorrow && item.status !== "COMPLETED",
+                            ) ? (
                               <p className="mt-1 flex items-center gap-1 text-[11px] font-semibold text-[#8a5a00]">
                                 <AlertTriangle className="h-3 w-3" />
                                 Due tomorrow — email reminder
                               </p>
-                            ) : item.dueThisWeek && item.status !== "COMPLETED" ? (
+                            ) : dateGroup.items.some(
+                                (item) =>
+                                  item.dueThisWeek && item.status !== "COMPLETED",
+                              ) ? (
                               <p className="mt-1 text-[11px] font-semibold text-[#8a5a00]">
                                 Due within 1 week — create paper
                               </p>
                             ) : null}
                           </td>
-                          <td className="whitespace-nowrap px-3 py-3 align-top font-semibold text-ink">
-                            {item.subjectName}
-                          </td>
-                          <td className="whitespace-nowrap px-3 py-3 align-top text-ink">
-                            {shortClassLabel(item.className)}
-                          </td>
-                          <td className="whitespace-nowrap px-3 py-3 align-top text-ink">
-                            {item.sectionName?.trim() || "—"}
-                          </td>
-                          <td className="px-3 py-3 align-top">
-                            <AssignmentSyllabusCell
-                              assignmentId={item.assignmentId}
-                              syllabusText={item.syllabusText}
-                              status={item.status}
-                            />
-                          </td>
-                          <td className="px-3 py-3 align-top">
-                            <span className={statusChipClass(item.status)}>
-                              {item.status}
-                            </span>
-                          </td>
-                          <td className="px-3 py-3 align-top">
-                            {item.status === "COMPLETED" &&
-                            (item.testId || item.coveredByTestId) ? (
-                              <Link
-                                href={`/teacher/tests/${item.testId ?? item.coveredByTestId}`}
+                          <td className="p-0 align-top font-semibold text-ink">
+                            {dateGroup.items.map((item) => (
+                              <div
+                                key={item.assignmentId}
+                                className="min-h-[4.25rem] whitespace-nowrap border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
                               >
-                                <Button variant="secondary" size="sm" className="gap-1.5">
-                                  <CheckCircle2 className="h-3.5 w-3.5" />
-                                  View
-                                </Button>
-                              </Link>
-                            ) : (
-                              <Link
-                                href={`/teacher/generate?assignmentId=${item.assignmentId}`}
+                                {item.subjectName}
+                              </div>
+                            ))}
+                          </td>
+                          <td className="p-0 align-top text-ink">
+                            {dateGroup.items.map((item) => (
+                              <div
+                                key={item.assignmentId}
+                                className="min-h-[4.25rem] whitespace-nowrap border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
                               >
-                                <Button size="sm" className="gap-1.5">
-                                  <FilePlus2 className="h-3.5 w-3.5" />
-                                  Create
-                                </Button>
-                              </Link>
-                            )}
+                                {shortClassLabel(item.className)}
+                              </div>
+                            ))}
+                          </td>
+                          <td className="p-0 align-top text-ink">
+                            {dateGroup.items.map((item) => (
+                              <div
+                                key={item.assignmentId}
+                                className="min-h-[4.25rem] whitespace-nowrap border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                              >
+                                {item.sectionName?.trim() || "—"}
+                              </div>
+                            ))}
+                          </td>
+                          <td className="p-0 align-top">
+                            {dateGroup.items.map((item) => (
+                              <div
+                                key={item.assignmentId}
+                                className="min-h-[4.25rem] border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                              >
+                                <AssignmentSyllabusCell
+                                  assignmentId={item.assignmentId}
+                                  syllabusText={item.syllabusText}
+                                  status={item.status}
+                                />
+                              </div>
+                            ))}
+                          </td>
+                          <td className="p-0 align-top">
+                            {dateGroup.items.map((item) => (
+                              <div
+                                key={item.assignmentId}
+                                className="min-h-[4.25rem] border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                              >
+                                <span className={statusChipClass(item.status)}>
+                                  {item.status}
+                                </span>
+                              </div>
+                            ))}
+                          </td>
+                          <td className="p-0 align-top">
+                            {dateGroup.items.map((item) => (
+                              <div
+                                key={item.assignmentId}
+                                className="min-h-[4.25rem] border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                              >
+                                {item.status === "COMPLETED" &&
+                                (item.testId || item.coveredByTestId) ? (
+                                  <Link
+                                    href={`/teacher/tests/${item.testId ?? item.coveredByTestId}`}
+                                  >
+                                    <Button
+                                      variant="secondary"
+                                      size="sm"
+                                      className="gap-1.5"
+                                    >
+                                      <CheckCircle2 className="h-3.5 w-3.5" />
+                                      View
+                                    </Button>
+                                  </Link>
+                                ) : (
+                                  <Link
+                                    href={`/teacher/generate?assignmentId=${item.assignmentId}`}
+                                  >
+                                    <Button size="sm" className="gap-1.5">
+                                      <FilePlus2 className="h-3.5 w-3.5" />
+                                      Create
+                                    </Button>
+                                  </Link>
+                                )}
+                              </div>
+                            ))}
                           </td>
                         </tr>
-                      ))}
+                        );
+                      })}
                     </tbody>
                   </table>
                 </div>

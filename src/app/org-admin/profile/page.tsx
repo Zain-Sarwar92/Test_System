@@ -76,6 +76,51 @@ export default async function OrgProfilePage() {
             />
           </label>
 
+          <fieldset className="rounded-[1rem] border border-[rgba(15,40,70,0.1)] bg-[#f8fbfd] p-4">
+            <legend className="px-1 text-sm font-semibold text-ink">
+              Teacher curriculum access
+            </legend>
+            <p className="mb-3 text-sm text-muted">
+              Control what teachers can use when creating an unscheduled test.
+            </p>
+            <div className="grid gap-3 sm:grid-cols-2">
+              <label className="cursor-pointer">
+                <input
+                  type="radio"
+                  name="curriculumAccessMode"
+                  value="ASSIGNED_ONLY"
+                  defaultChecked={org.curriculumAccessMode === "ASSIGNED_ONLY"}
+                  className="peer sr-only"
+                />
+                <span className="block rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-white p-4 transition peer-checked:border-brand peer-checked:bg-brand/10">
+                  <span className="block text-sm font-semibold text-ink">
+                    Assigned subjects only
+                  </span>
+                  <span className="mt-1 block text-xs leading-relaxed text-muted">
+                    Teachers only see classes and subjects assigned to them.
+                  </span>
+                </span>
+              </label>
+              <label className="cursor-pointer">
+                <input
+                  type="radio"
+                  name="curriculumAccessMode"
+                  value="ALL_CURRICULUM"
+                  defaultChecked={org.curriculumAccessMode === "ALL_CURRICULUM"}
+                  className="peer sr-only"
+                />
+                <span className="block rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-white p-4 transition peer-checked:border-brand peer-checked:bg-brand/10">
+                  <span className="block text-sm font-semibold text-ink">
+                    All classes and subjects
+                  </span>
+                  <span className="mt-1 block text-xs leading-relaxed text-muted">
+                    Every teacher can create unscheduled tests from the full curriculum.
+                  </span>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+
           <div className="rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-mist/40 px-4 py-3 text-sm text-muted">
             Slug: <span className="font-medium text-ink-soft">{org.slug}</span> · Status:{" "}
             <span className="font-medium text-ink-soft">

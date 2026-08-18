@@ -26,6 +26,7 @@ const teacherUpdateSchema = z.object({
 async function validateAssignmentsForOrg(
   organizationId: string,
   rows: AssignmentInput[],
+  options?: { excludeTeacherId?: string },
 ) {
   assertNoDuplicateAssignments(rows);
   if (rows.length === 0) return;
@@ -34,7 +35,7 @@ async function validateAssignmentsForOrg(
   const sectionIds = [...new Set(rows.map((r) => r.sectionId))];
   const subjectIds = [...new Set(rows.map((r) => r.subjectId))];
 
-  const [classes, sections, subjects] = await Promise.all([
+  const [classes, sections, subjects, conflicting] = await Promise.all([
     prisma.class.findMany({
       where: { id: { in: classIds } },
       select: { id: true, name: true },
@@ -46,6 +47,25 @@ async function validateAssignmentsForOrg(
     prisma.subject.findMany({
       where: { id: { in: subjectIds } },
       select: { id: true, classId: true, name: true },
+    }),
+    prisma.teacherAssignment.findMany({
+      where: {
+        section: { organizationId },
+        OR: rows.map((row) => ({
+          sectionId: row.sectionId,
+          subjectId: row.subjectId,
+        })),
+        ...(options?.excludeTeacherId
+          ? { teacherId: { not: options.excludeTeacherId } }
+          : {}),
+      },
+      select: {
+        section: { select: { name: true } },
+        subject: { select: { name: true } },
+        class: { select: { name: true } },
+        teacher: { select: { name: true } },
+      },
+      take: 1,
     }),
   ]);
 
@@ -59,24 +79,37 @@ async function validateAssignmentsForOrg(
     const subject = subjectById.get(row.subjectId);
 
     if (!klass) {
-      throw new Error("One or more selected classes were not found");
+      throw new Error(
+        "One or more selected classes no longer exist. Refresh the page and try again.",
+      );
     }
     if (!section) {
-      throw new Error("One or more selected sections were not found in your organization");
+      throw new Error(
+        "One or more selected sections do not belong to your organization.",
+      );
     }
     if (!subject) {
-      throw new Error("One or more selected subjects were not found");
+      throw new Error(
+        "One or more selected subjects no longer exist. Refresh the page and try again.",
+      );
     }
     if (section.classId !== row.classId) {
       throw new Error(
-        `Section ${section.name} does not belong to the selected class`,
+        `Section ${section.name} does not belong to the selected class.`,
       );
     }
     if (subject.classId !== row.classId) {
       throw new Error(
-        `Subject ${subject.name} does not belong to the selected class`,
+        `${subject.name} is not taught in the selected class.`,
       );
     }
+  }
+
+  const clash = conflicting[0];
+  if (clash) {
+    throw new Error(
+      `${clash.subject.name} for ${clash.class.name} ${clash.section.name} is already assigned to ${clash.teacher.name}. Pick a different section or subject.`,
+    );
   }
 }
 
@@ -261,7 +294,9 @@ export async function updateTeacher(formData: FormData) {
     }
 
     const assignments = parseAssignmentsJson(parsed.assignments);
-    await validateAssignmentsForOrg(organizationId, assignments);
+    await validateAssignmentsForOrg(organizationId, assignments, {
+      excludeTeacherId: parsed.id,
+    });
 
     await prisma.$transaction(async (tx) => {
       await tx.user.update({

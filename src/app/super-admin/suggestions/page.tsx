@@ -147,6 +147,14 @@ export default async function SuggestionsPage({
               </div>
               <div>
                 <CardTitle className="text-base leading-relaxed">{item.text}</CardTitle>
+                {item.textUrdu ? (
+                  <p
+                    className="mt-2 text-right text-base leading-loose text-ink"
+                    dir="rtl"
+                  >
+                    {item.textUrdu}
+                  </p>
+                ) : null}
                 <CardDescription className="mt-2">{path}</CardDescription>
                 <p className="mt-2 text-sm text-ink-soft">
                   Suggested by {item.teacher.name} ({item.teacher.email})

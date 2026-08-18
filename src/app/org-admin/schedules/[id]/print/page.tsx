@@ -2,8 +2,9 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import {
-  formatScheduleDate,
+  formatScheduleDateShort,
   resolveAssignmentStatus,
+  returningDateForTest,
 } from "@/lib/test-schedule-status";
 import {
   atomicSectionNames,
@@ -142,7 +143,10 @@ export default async function OrgSchedulePrintPage({ params }: PageProps) {
 
       rows.push({
         id: subjectItem.id,
-        dateLabel: formatScheduleDate(subjectItem.testDate),
+        dateLabel: formatScheduleDateShort(subjectItem.testDate),
+        returnLabel: formatScheduleDateShort(
+          returningDateForTest(subjectItem.testDate),
+        ),
         subjectName: subjectItem.subjectName,
         byClass,
       });
