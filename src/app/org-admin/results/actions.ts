@@ -8,6 +8,7 @@ import { z } from "zod";
 import { Prisma } from "@/generated/prisma/client";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { assertOrgModule } from "@/lib/org-modules";
 import { academicSession } from "@/lib/results";
 import {
   extractMarksFromSheetImage,
@@ -31,6 +32,7 @@ async function getOrganizationId() {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
   if (!organizationId) throw new Error("Organization not linked to this admin");
+  await assertOrgModule(organizationId, "RESULTS");
   return organizationId;
 }
 

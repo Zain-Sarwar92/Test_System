@@ -3,6 +3,7 @@
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole, requireActiveOrganizationId } from "@/lib/rbac";
+import { assertOrgModule } from "@/lib/org-modules";
 import {
   formatScheduleDate,
   isDueTomorrow,
@@ -39,6 +40,7 @@ export type TeacherAssignedSchedule = {
 async function requireTeacherWithOrg() {
   const session = await requireRole(["TEACHER"]);
   const organizationId = await requireActiveOrganizationId(session.user.id);
+  await assertOrgModule(organizationId, "SCHEDULES");
   return { session, organizationId, teacherId: session.user.id };
 }
 

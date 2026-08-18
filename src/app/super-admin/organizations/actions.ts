@@ -5,6 +5,7 @@ import { z } from "zod";
 import { createCredentialUser } from "@/lib/create-credential-user";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { parseOrgModulesFromForm } from "@/lib/org-modules";
 
 const orgSchema = z.object({
   name: z.string().trim().min(2).max(120),
@@ -50,6 +51,8 @@ function revalidateOrgPaths(id?: string) {
   revalidatePath("/super-admin/organizations");
   revalidatePath("/super-admin/organizations/list");
   revalidatePath("/super-admin");
+  revalidatePath("/org-admin", "layout");
+  revalidatePath("/teacher", "layout");
   if (id) revalidatePath(`/super-admin/organizations/${id}`);
 }
 
@@ -103,6 +106,7 @@ export async function createOrganizationAction(formData: FormData): Promise<
         logoUrl: parsed.logoUrl || null,
         planId: parsed.planId || null,
         isActive: true,
+        ...parseOrgModulesFromForm(formData),
       },
     });
 
@@ -184,6 +188,17 @@ export async function updateOrganization(formData: FormData) {
   });
 
   revalidateOrgPaths(parsed.id);
+}
+
+export async function updateOrganizationModules(formData: FormData) {
+  await requireRole(["SUPER_ADMIN"]);
+  const id = z.string().min(1).parse(formData.get("id"));
+  await prisma.organization.update({
+    where: { id },
+    data: parseOrgModulesFromForm(formData),
+  });
+
+  revalidateOrgPaths(id);
 }
 
 export async function deleteOrganization(formData: FormData) {

@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { assertOrgModule } from "@/lib/org-modules";
 
 async function requireOrgAdmin() {
   const session = await requireRole(["ORG_ADMIN"]);
@@ -12,6 +13,7 @@ async function requireOrgAdmin() {
   if (!organizationId) {
     throw new Error("Organization not linked to this admin");
   }
+  await assertOrgModule(organizationId, "SCHEDULES");
   return { session, organizationId, adminId: session.user.id };
 }
 

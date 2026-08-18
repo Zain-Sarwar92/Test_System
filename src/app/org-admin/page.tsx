@@ -3,6 +3,7 @@ import { Users, FileText, CalendarClock, GraduationCap, WalletCards, Trophy } fr
 import { Card, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
+import { flagsFromOrg } from "@/lib/org-modules";
 import { requireRole } from "@/lib/rbac";
 
 export default async function OrgAdminPage() {
@@ -34,7 +35,14 @@ export default async function OrgAdminPage() {
   ] = await Promise.all([
       prisma.organization.findUniqueOrThrow({
         where: { id: organizationId },
-        select: { name: true, isActive: true },
+        select: {
+          name: true,
+          isActive: true,
+          moduleStudents: true,
+          moduleResults: true,
+          moduleFees: true,
+          moduleSchedules: true,
+        },
       }),
       prisma.orgMembership.count({ where: { organizationId, role: "TEACHER" } }),
       prisma.orgMembership.count({
@@ -63,15 +71,27 @@ export default async function OrgAdminPage() {
       }),
     ]);
 
+  const modules = flagsFromOrg(org);
+  const extras = [
+    modules.STUDENTS ? "students" : null,
+    "teachers",
+    modules.RESULTS ? "results" : null,
+    modules.FEES ? "fees" : null,
+    modules.SCHEDULES ? "schedules" : null,
+    "papers",
+  ].filter(Boolean);
+  const description = `Manage ${extras.join(", ")} for your organization.`;
+
   return (
     <PageStack wide>
       <PageHeader
         kicker={org.isActive ? "Active organization" : "Inactive organization"}
         title={org.name}
-        description="Manage students, teachers, fees, schedules, and papers for your organization."
+        description={description}
       />
 
       <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        {modules.STUDENTS ? (
         <Link href="/org-admin/students" className="block">
           <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#eef7ff] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="flex items-start justify-between">
@@ -90,6 +110,7 @@ export default async function OrgAdminPage() {
             </div>
           </Card>
         </Link>
+        ) : null}
 
         <Link href="/org-admin/teachers" className="block">
           <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#e8f7f4] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
@@ -110,6 +131,7 @@ export default async function OrgAdminPage() {
           </Card>
         </Link>
 
+        {modules.RESULTS ? (
         <Link href="/org-admin/results" className="block">
           <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#fff4e8] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="flex items-start justify-between">
@@ -126,7 +148,9 @@ export default async function OrgAdminPage() {
             </div>
           </Card>
         </Link>
+        ) : null}
 
+        {modules.FEES ? (
         <Link href="/org-admin/fees" className="block">
           <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#f3edff] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="flex items-start justify-between">
@@ -143,7 +167,9 @@ export default async function OrgAdminPage() {
             </div>
           </Card>
         </Link>
+        ) : null}
 
+        {modules.SCHEDULES ? (
         <Link href="/org-admin/schedules" className="block">
           <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#fff7eb] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="flex items-start justify-between">
@@ -160,6 +186,7 @@ export default async function OrgAdminPage() {
             </div>
           </Card>
         </Link>
+        ) : null}
 
         <Link href="/org-admin/tests" className="block">
           <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#eaf1f8] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">

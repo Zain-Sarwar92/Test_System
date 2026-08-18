@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { assertOrgModule } from "@/lib/org-modules";
 import { suggestNextRollNumber } from "@/lib/roll-number";
 import {
   ARTS_ELECTIVE_GROUP,
@@ -38,6 +39,7 @@ async function getOrganizationId() {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
   if (!organizationId) throw new Error("Organization not linked to this admin");
+  await assertOrgModule(organizationId, "STUDENTS");
   return organizationId;
 }
 
