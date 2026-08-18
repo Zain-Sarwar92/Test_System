@@ -22,8 +22,39 @@ function shuffle<T>(items: T[]): T[] {
   return arr;
 }
 
-/** Balanced: round-robin one question per topic per round */
-export function selectBalanced(pool: PoolQuestion[], count: number): PoolQuestion[] {
+/** How many questions of the current section each topic has already contributed. */
+export type TopicUsage = Record<string, number>;
+
+/** Count how many times each topic appears in an existing selection session. */
+export function buildTopicUsage(
+  questions: Array<{ topicId: string }>,
+): TopicUsage {
+  const usage: TopicUsage = {};
+  for (const q of questions) {
+    usage[q.topicId] = (usage[q.topicId] ?? 0) + 1;
+  }
+  return usage;
+}
+
+export type SelectionOptions = {
+  /**
+   * Topic usage carried over from earlier picks in the same selection session.
+   * Passing it makes a follow-up pick (e.g. replacing one question) continue the
+   * round-robin instead of restarting it, so a topic is only reused once every
+   * eligible topic has been used the same number of times.
+   */
+  topicUsage?: TopicUsage;
+};
+
+/**
+ * Balanced: round-robin one question per topic per round, always drawing from the
+ * least-used topics first. Random within each round and within a topic.
+ */
+export function selectBalanced(
+  pool: PoolQuestion[],
+  count: number,
+  topicUsage: TopicUsage = {},
+): PoolQuestion[] {
   if (count <= 0 || pool.length === 0) return [];
 
   const byTopic = new Map<string, PoolQuestion[]>();
@@ -33,25 +64,27 @@ export function selectBalanced(pool: PoolQuestion[], count: number): PoolQuestio
     byTopic.set(q.topicId, list);
   }
 
-  const topicIds = shuffle([...byTopic.keys()]);
+  const topicIds = [...byTopic.keys()];
   const pointers = new Map(topicIds.map((id) => [id, 0]));
+  const usage = new Map(topicIds.map((id) => [id, topicUsage[id] ?? 0]));
   const selected: PoolQuestion[] = [];
-  const used = new Set<string>();
 
-  let madeProgress = true;
-  while (selected.length < count && madeProgress) {
-    madeProgress = false;
-    for (const topicId of topicIds) {
+  while (selected.length < count) {
+    const available = topicIds.filter(
+      (id) => (pointers.get(id) ?? 0) < (byTopic.get(id)?.length ?? 0),
+    );
+    if (available.length === 0) break;
+
+    const minUsage = Math.min(...available.map((id) => usage.get(id) ?? 0));
+    const round = shuffle(available.filter((id) => (usage.get(id) ?? 0) === minUsage));
+
+    for (const topicId of round) {
       if (selected.length >= count) break;
-      const list = byTopic.get(topicId) ?? [];
-      let idx = pointers.get(topicId) ?? 0;
-      while (idx < list.length && used.has(list[idx].id)) idx += 1;
-      if (idx < list.length) {
-        selected.push(list[idx]);
-        used.add(list[idx].id);
-        pointers.set(topicId, idx + 1);
-        madeProgress = true;
-      }
+      const list = byTopic.get(topicId)!;
+      const idx = pointers.get(topicId) ?? 0;
+      selected.push(list[idx]!);
+      pointers.set(topicId, idx + 1);
+      usage.set(topicId, (usage.get(topicId) ?? 0) + 1);
     }
   }
 
@@ -67,10 +100,15 @@ export function selectQuestions(
   pool: PoolQuestion[],
   count: number,
   mode: DistributionMode,
+  options?: SelectionOptions,
 ): PoolQuestion[] {
   const uniquePool = [...new Map(pool.map((q) => [q.id, q])).values()];
-  if (mode === "RANDOM") return selectRandom(uniquePool, count);
-  return selectBalanced(uniquePool, count);
+  const topicUsage = options?.topicUsage;
+  // Session usage means this pick continues an existing selection, where topic
+  // spread must hold even for a RANDOM section.
+  const hasSessionUsage = Boolean(topicUsage && Object.keys(topicUsage).length > 0);
+  if (mode === "RANDOM" && !hasSessionUsage) return selectRandom(uniquePool, count);
+  return selectBalanced(uniquePool, count, topicUsage ?? {});
 }
 
 /**
@@ -117,18 +155,21 @@ export function selectByChapterQuotas(
   pool: PoolQuestion[],
   quotas: ChapterQuota[],
   mode: DistributionMode,
+  options?: SelectionOptions,
 ): PoolQuestion[] {
   const selected: PoolQuestion[] = [];
   const used = new Set<string>();
+  const topicUsage: TopicUsage = { ...(options?.topicUsage ?? {}) };
 
   for (const quota of quotas) {
     const chapterPool = pool.filter(
       (q) => q.chapterId === quota.chapterId && !used.has(q.id),
     );
-    const picks = selectQuestions(chapterPool, quota.count, mode);
+    const picks = selectQuestions(chapterPool, quota.count, mode, { topicUsage });
     for (const p of picks) {
       selected.push(p);
       used.add(p.id);
+      topicUsage[p.topicId] = (topicUsage[p.topicId] ?? 0) + 1;
     }
   }
 

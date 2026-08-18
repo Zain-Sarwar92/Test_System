@@ -5,6 +5,9 @@ import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { DateField } from "@/components/ui/date-field";
+import { SearchSelect } from "@/components/ui/search-select";
+import { toast } from "@/components/ui/toast";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import {
@@ -12,6 +15,7 @@ import {
   type ExamQuestionPatch,
 } from "@/components/exam-paper-sheet";
 import { cn } from "@/lib/utils";
+import { buildTopicUsage } from "@/lib/distribution/engine";
 import { RichText } from "@/components/rich-text";
 import {
   Atom,
@@ -38,11 +42,13 @@ import {
 } from "./actions";
 import {
   DEFAULT_ENGLISH_TYPE_FIELD,
-  ENGLISH_QUESTION_TYPE_OPTIONS,
   defaultEnglishFieldForType,
+  englishOptionsForCounts,
   englishTypeFieldSelectValue,
   isEnglishSubjectName,
+  isIntermediateEnglishClass,
   parseEnglishTypeField,
+  sumEnglishFieldCounts,
   type EnglishFieldFilter,
 } from "./english-fields";
 
@@ -65,6 +71,7 @@ export type HierarchyBoard = {
           order: number;
           questionCount: number;
           countsByType: { MCQ: number; SHORT: number; LONG: number };
+          countsByEnglishField?: Partial<Record<EnglishFieldFilter, number>>;
         }>;
       }>;
     }>;
@@ -444,8 +451,6 @@ export function GenerateWizard({
     scheduleContext?.syllabusText ?? "",
   );
   const [testType, setTestType] = useState(scheduleContext?.scheduleName ?? "");
-
-  const [error, setError] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
 
   const isMultiChapter = selectedChapterIds.length > 1;
@@ -456,6 +461,39 @@ export function GenerateWizard({
   const selectedSubject = selectedClass?.subjects.find((s) => s.id === subjectId);
   const chapters = selectedSubject?.chapters ?? [];
   const isEnglishSubject = isEnglishSubjectName(selectedSubject?.name);
+  const isIntermediateEnglish =
+    isEnglishSubject && isIntermediateEnglishClass(selectedClass?.name);
+  const selectedTopicIdSet = useMemo(
+    () => new Set(selectedTopicIds),
+    [selectedTopicIds],
+  );
+  const selectedTopicsFlat = useMemo(
+    () =>
+      chapters.flatMap((chapter) =>
+        chapter.topics.filter((topic) => selectedTopicIdSet.has(topic.id)),
+      ),
+    [chapters, selectedTopicIdSet],
+  );
+  const englishFieldCounts = useMemo(
+    () =>
+      isEnglishSubject
+        ? sumEnglishFieldCounts(selectedTopicsFlat, selectedTopicIdSet)
+        : {},
+    [isEnglishSubject, selectedTopicsFlat, selectedTopicIdSet],
+  );
+  const availableEnglishOptions = useMemo(
+    () =>
+      englishOptionsForCounts(englishFieldCounts, {
+        intermediate: isIntermediateEnglish,
+      }),
+    [englishFieldCounts, isIntermediateEnglish],
+  );
+  function firstEnglishFieldForType(type: QType): EnglishFieldFilter {
+    return (
+      availableEnglishOptions.find((opt) => opt.type === type)?.field ??
+      defaultEnglishFieldForType(type)
+    );
+  }
   const englishTypeFieldValue = englishTypeFieldSelectValue(
     activeType,
     englishField,
@@ -526,6 +564,26 @@ export function GenerateWizard({
 
   const plannerQuestionTotal =
     plannerTotals.MCQ + plannerTotals.SHORT + plannerTotals.LONG;
+
+  useEffect(() => {
+    if (!isEnglishSubject || availableEnglishOptions.length === 0) return;
+    const current = availableEnglishOptions.some(
+      (opt) => opt.type === activeType && opt.field === englishField,
+    );
+    if (current) return;
+    const fallback =
+      availableEnglishOptions.find((opt) => opt.type === activeType) ??
+      availableEnglishOptions[0];
+    if (!fallback) return;
+    setActiveType(fallback.type);
+    setEnglishField(fallback.field);
+  }, [
+    isEnglishSubject,
+    availableEnglishOptions,
+    activeType,
+    englishField,
+  ]);
+
   const plannerEstimatedMarks =
     plannerTotals.MCQ * typeMeta.MCQ.defaultMarks +
     plannerTotals.SHORT * typeMeta.SHORT.defaultMarks +
@@ -551,7 +609,6 @@ export function GenerateWizard({
   const visiblePool = poolView === "selected" ? draftSelected : pool;
 
   function goToStep(next: Step) {
-    setError(null);
     setMessage(null);
     if (next !== "paper") setManualEditMode(false);
     setStep(next);
@@ -563,7 +620,11 @@ export function GenerateWizard({
     setMarksPerQuestion("");
     setMedium("BOTH");
     setSourceFilter("ALL");
-    setEnglishField(DEFAULT_ENGLISH_TYPE_FIELD.field);
+    setEnglishField(
+      isEnglishSubject
+        ? (availableEnglishOptions[0]?.field ?? DEFAULT_ENGLISH_TYPE_FIELD.field)
+        : DEFAULT_ENGLISH_TYPE_FIELD.field,
+    );
     setPoolView("browse");
     setPool([]);
     setPoolTotal(0);
@@ -591,7 +652,6 @@ export function GenerateWizard({
       long: preset.long,
     });
     setDurationMinutes(preset.duration);
-    setError(null);
     setMessage(
       `Preset · ${preset.label} · ${preset.duration} min · MCQ ${preset.mcq} · Short ${preset.short} · Long ${preset.long}`,
     );
@@ -631,7 +691,7 @@ export function GenerateWizard({
 
   function openWorkspace() {
     if (selectedTopicIds.length === 0) {
-      setError("Select at least one chapter or topic");
+      toast.error("Select at least one chapter or topic");
       return;
     }
     setSectionChapterIds([...selectedChapterIds]);
@@ -647,7 +707,6 @@ export function GenerateWizard({
     setPreparedBy(teacherName);
     setInstructions("");
     setSyllabusNote(scheduleContext?.syllabusText ?? "");
-    setError(null);
     setMessage(null);
 
     // Single chapter: skip planner → paper preview + question picker popup
@@ -723,11 +782,10 @@ export function GenerateWizard({
 
   function goToPaperView() {
     if (paperSections.length === 0) {
-      setError("Add at least one section first (MCQ / Short / Long).");
+      toast.error("Add at least one section first (MCQ / Short / Long).");
       return;
     }
     setModalOpen(false);
-    setError(null);
     setManualEditMode(false);
     goToStep("paper");
   }
@@ -793,7 +851,7 @@ export function GenerateWizard({
     setRequiredCount(planned > 0 ? planned : "");
     setMarksPerQuestion(typeMeta[type].defaultMarks);
     setAttemptCount("");
-    setEnglishField(defaultEnglishFieldForType(type));
+    setEnglishField(firstEnglishFieldForType(type));
     setPool([]);
     setPoolTotal(0);
     setDraftSelected([]);
@@ -807,7 +865,7 @@ export function GenerateWizard({
   function openPickerFromPlanner() {
     const plannerError = validateChapterPlan();
     if (plannerError) {
-      setError(plannerError);
+      toast.error(plannerError);
       return;
     }
 
@@ -816,7 +874,6 @@ export function GenerateWizard({
 
     setSelectionMode("manual");
     setPaperSections([]);
-    setError(null);
     setMessage(
       `Planner ready · ${plannerTotals.MCQ} MCQ · ${plannerTotals.SHORT} Short · ${plannerTotals.LONG} Long`,
     );
@@ -832,7 +889,7 @@ export function GenerateWizard({
     }
     setActiveType(type);
     setAttemptCount("");
-    setEnglishField(defaultEnglishFieldForType(type));
+    setEnglishField(firstEnglishFieldForType(type));
     setPool([]);
     setPoolTotal(0);
     setDraftSelected([]);
@@ -1026,26 +1083,14 @@ export function GenerateWizard({
     setSelectedTopicIds([]);
   }
 
-  function toggleSectionChapter(chapterId: string) {
-    setSectionChapterIds((prev) =>
-      prev.includes(chapterId)
-        ? prev.filter((id) => id !== chapterId)
-        : [...prev, chapterId],
-    );
-    setPool([]);
-    setDraftSelected([]);
-    setPoolView("browse");
-  }
-
   function runSearch() {
-    setError(null);
     setMessage(null);
     if (selectedTopicIds.length === 0) {
-      setError("No topics selected");
+      toast.error("No topics selected");
       return;
     }
     if (sectionChapterIds.length === 0) {
-      setError("Select at least one chapter");
+      toast.error("Select at least one chapter");
       return;
     }
     startTransition(async () => {
@@ -1055,7 +1100,7 @@ export function GenerateWizard({
           type: activeType,
           chapterIds: sectionChapterIds,
           excludeIds: [...usedQuestionIds],
-          source: isEnglishSubject ? "ALL" : sourceFilter,
+          source: sourceFilter,
           englishField: isEnglishSubject ? englishField : "ALL",
           medium,
         });
@@ -1069,25 +1114,24 @@ export function GenerateWizard({
             : `${result.total} ${TYPE_META[activeType].short} available`,
         );
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Search failed");
+        toast.error(err instanceof Error ? err.message : "Search failed");
       }
     });
   }
 
   function runSelectRandom() {
-    setError(null);
     setMessage(null);
     const need = parsedRequired();
     if (need < 1) {
-      setError("Enter the required number of questions.");
+      toast.error("Enter the required number of questions.");
       return;
     }
     if (parsedMarks() < 1) {
-      setError("Enter marks for each question.");
+      toast.error("Enter marks for each question.");
       return;
     }
     if (sectionChapterIds.length === 0) {
-      setError("Select at least one chapter");
+      toast.error("Select at least one chapter");
       return;
     }
 
@@ -1100,12 +1144,12 @@ export function GenerateWizard({
     if (hasChapterPlan()) {
       const plannedTotal = quotas.reduce((sum, q) => sum + q.count, 0);
       if (plannedTotal !== need) {
-        setError(
+        toast.error(
           `The planner requires ${need} ${TYPE_META[activeType].short}. Random select will use that count.`,
         );
       }
       if (plannedTotal < 1) {
-        setError(`No chapter quota is set for this question type in the planner.`);
+        toast.error(`No chapter quota is set for this question type in the planner.`);
         return;
       }
     }
@@ -1122,7 +1166,7 @@ export function GenerateWizard({
           chapterQuotas: quotas.length > 0 ? quotas : undefined,
           excludeIds: [...usedQuestionIds],
           mode: "BALANCED",
-          source: isEnglishSubject ? "ALL" : sourceFilter,
+          source: sourceFilter,
           englishField: isEnglishSubject ? englishField : "ALL",
           medium,
         });
@@ -1141,7 +1185,7 @@ export function GenerateWizard({
               : `Random selected · ${result.questions.length} questions`,
         );
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Random select failed");
+        toast.error(err instanceof Error ? err.message : "Random select failed");
       }
     });
   }
@@ -1149,43 +1193,49 @@ export function GenerateWizard({
   function toggleDraftQuestion(question: PoolQuestionCard) {
     const need = parsedRequired();
     if (need < 1) {
-      setError("Enter the required number of questions first.");
+      toast.error("Enter the required number of questions first.");
       return;
     }
-    setDraftSelected((prev) => {
-      const exists = prev.some((q) => q.id === question.id);
-      if (exists) return prev.filter((q) => q.id !== question.id);
+    const alreadySelected = draftSelected.some((q) => q.id === question.id);
+    if (alreadySelected) {
+      setDraftSelected((prev) => prev.filter((q) => q.id !== question.id));
+      return;
+    }
 
-      if (prev.length >= need) {
-        setError(`Required count is ${need}. Uncheck one to replace.`);
-        return prev;
+    const typeLabel = TYPE_META[activeType].short;
+    if (draftSelected.length >= need) {
+      toast.error(
+        `You already selected ${need} ${typeLabel} — that is the required count. Uncheck one first to swap it.`,
+      );
+      return;
+    }
+
+    if (hasChapterPlan()) {
+      const quota = plannedQuotaForChapter(question.chapterId, activeType) ?? 0;
+      const fromChapter = draftSelected.filter(
+        (q) => q.chapterId === question.chapterId,
+      ).length;
+      if (fromChapter >= quota) {
+        const chapterName =
+          chapters.find((c) => c.id === question.chapterId)?.name ?? "Chapter";
+        toast.error(
+          `${chapterName}: you can select up to ${quota} ${typeLabel} (planner limit).`,
+        );
+        return;
       }
+    }
 
-      if (hasChapterPlan()) {
-        const quota = plannedQuotaForChapter(question.chapterId, activeType) ?? 0;
-        const fromChapter = prev.filter((q) => q.chapterId === question.chapterId).length;
-        if (fromChapter >= quota) {
-          const chapterName =
-            chapters.find((c) => c.id === question.chapterId)?.name ?? "Chapter";
-          setError(
-            `${chapterName}: you can select up to ${quota} ${TYPE_META[activeType].short} (planner limit).`,
-          );
-          return prev;
-        }
-      }
-
-      setError(null);
-      return [...prev, question];
-    });
+    setDraftSelected((prev) => [...prev, question]);
   }
 
   function replaceOneQuestion(question: PoolQuestionCard) {
-    setError(null);
     setMessage(null);
+    const remaining = draftSelected.filter((q) => q.id !== question.id);
     const excludeIds = [
       ...usedQuestionIds,
       ...draftSelected.map((q) => q.id),
     ];
+    const topicUsage = buildTopicUsage(remaining);
 
     startTransition(async () => {
       try {
@@ -1196,15 +1246,16 @@ export function GenerateWizard({
           chapterIds: [question.chapterId],
           chapterQuotas: [{ chapterId: question.chapterId, count: 1 }],
           excludeIds,
-          mode: "RANDOM",
-          source: isEnglishSubject ? "ALL" : sourceFilter,
+          mode: "BALANCED",
+          topicUsage,
+          source: sourceFilter,
           englishField: isEnglishSubject ? englishField : "ALL",
           medium,
         });
 
         const replacement = result.questions[0];
         if (!replacement) {
-          setError("No other question is available in this chapter to replace with.");
+          toast.error("No other question is available in this chapter to replace with.");
           return;
         }
 
@@ -1219,7 +1270,7 @@ export function GenerateWizard({
         setPoolView("selected");
         setMessage("1 question replaced.");
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Replace failed");
+        toast.error(err instanceof Error ? err.message : "Replace failed");
       }
     });
   }
@@ -1228,9 +1279,11 @@ export function GenerateWizard({
     if (manualEditMode) return;
     const section = paperSections.find((s) => s.type === sectionType);
     const current = section?.questions.find((q) => q.id === questionId);
-    if (!current) return;
+    if (!current || !section) return;
 
-    setError(null);
+    const remaining = section.questions.filter((q) => q.id !== questionId);
+    const topicUsage = buildTopicUsage(remaining);
+
     setMessage(null);
     startTransition(async () => {
       try {
@@ -1241,14 +1294,15 @@ export function GenerateWizard({
           chapterIds: [current.chapterId],
           chapterQuotas: [{ chapterId: current.chapterId, count: 1 }],
           excludeIds: [...usedQuestionIds],
-          mode: "RANDOM",
-          source: isEnglishSubject ? "ALL" : sourceFilter,
+          mode: "BALANCED",
+          topicUsage,
+          source: sourceFilter,
           englishField: isEnglishSubject ? englishField : "ALL",
           medium,
         });
         const replacement = result.questions[0];
         if (!replacement) {
-          setError("No other question is available to replace with.");
+          toast.error("No other question is available to replace with.");
           return;
         }
         setPaperSections((prev) =>
@@ -1265,30 +1319,40 @@ export function GenerateWizard({
         );
         setMessage("Question replaced.");
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Replace failed");
+        toast.error(err instanceof Error ? err.message : "Replace failed");
       }
     });
   }
 
   function addSectionToPaper() {
-    setError(null);
     const need = parsedRequired();
     const marks = parsedMarks();
     const attempt = parsedAttempt();
     if (need < 1) {
-      setError("Enter the required number of questions.");
+      toast.error("Enter the required number of questions.");
       return;
     }
     if (marks < 1) {
-      setError("Enter marks for each question.");
+      toast.error("Enter marks for each question.");
       return;
     }
+    const typeLabel = TYPE_META[activeType].short;
     if (draftSelected.length === 0) {
-      setError("Select at least one question");
+      toast.error(
+        `No question selected yet. Pick ${need} ${typeLabel} before adding this section.`,
+      );
       return;
     }
-    if (draftSelected.length !== need) {
-      setError(`Select exactly ${need} questions (currently ${draftSelected.length})`);
+    if (draftSelected.length < need) {
+      toast.error(
+        `${need} ${typeLabel} required, but only ${draftSelected.length} selected. Select ${need - draftSelected.length} more.`,
+      );
+      return;
+    }
+    if (draftSelected.length > need) {
+      toast.error(
+        `${need} ${typeLabel} required, but ${draftSelected.length} selected. Uncheck ${draftSelected.length - need}.`,
+      );
       return;
     }
 
@@ -1298,7 +1362,7 @@ export function GenerateWizard({
         if (picked !== quota.count) {
           const chapterName =
             chapters.find((c) => c.id === quota.chapterId)?.name ?? "Chapter";
-          setError(
+          toast.error(
             `${chapterName}: ${quota.count} ${TYPE_META[activeType].short} required; ${picked} currently selected.`,
           );
           return;
@@ -1330,7 +1394,6 @@ export function GenerateWizard({
       });
     });
 
-    const addedLabel = TYPE_META[activeType].label;
     const covered = new Set(
       [...paperSections.filter((s) => s.type !== activeType).map((s) => s.type), activeType],
     );
@@ -1344,11 +1407,6 @@ export function GenerateWizard({
     resetPicker();
     if (nextType) {
       activateType(nextType);
-      setMessage(
-        `${addedLabel} added to the paper. Preview updated — select ${TYPE_META[nextType].label} next.`,
-      );
-    } else {
-      setMessage(`${addedLabel} added. Paper is ready — check the preview or open View paper.`);
     }
     // Keep the picker open so the paper preview can update live behind it.
     setSelectionMode("manual");
@@ -1361,7 +1419,7 @@ export function GenerateWizard({
 
   function openSaveModal() {
     if (paperSections.length === 0) {
-      setError("Add at least one section first (MCQ / Short / Long).");
+      toast.error("Add at least one section first (MCQ / Short / Long).");
       return;
     }
     if (scheduleContext?.testDate && !examDate) {
@@ -1374,36 +1432,34 @@ export function GenerateWizard({
       setTitle(`${selectedSubject.name} Paper`);
     }
     setModalOpen(false);
-    setError(null);
     setSaveModalOpen(true);
   }
 
   function savePaper() {
-    setError(null);
     if (!subjectId) {
-      setError("Subject missing");
+      toast.error("Subject missing");
       return;
     }
     if (!title.trim()) {
-      setError("Enter a test name.");
+      toast.error("Enter a test name.");
       return;
     }
     if (!preparedBy.trim()) {
-      setError("Enter the teacher name (Prepared by).");
+      toast.error("Enter the teacher name (Prepared by).");
       return;
     }
     const effectiveExamDate = examDate || scheduleContext?.testDate || "";
     if (!effectiveExamDate) {
-      setError("Select an exam date.");
+      toast.error("Select an exam date.");
       return;
     }
     const duration = typeof durationMinutes === "number" ? durationMinutes : 0;
     if (duration < 5) {
-      setError("Duration must be at least 5 minutes.");
+      toast.error("Duration must be at least 5 minutes.");
       return;
     }
     if (paperSections.length === 0) {
-      setError("Paper is empty");
+      toast.error("Paper is empty");
       return;
     }
 
@@ -1434,7 +1490,7 @@ export function GenerateWizard({
         // Same destination as normal generate — Saved Papers list
         router.push(testsRedirectPath);
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Save failed");
+        toast.error(err instanceof Error ? err.message : "Save failed");
       }
     });
   }
@@ -1604,61 +1660,37 @@ export function GenerateWizard({
                   .
                 </p>
               ) : null}
-              {selectedBoard ? (
+              {selectedSubject ? (
                 <div className="pts-crumb pts-crumb-scroll">
-                {lockedFromSchedule ? (
-                  <span>{selectedBoard.name.replace(/ Board$/i, "")}</span>
-                ) : (
-                  <button type="button" onClick={() => jumpTo("board")}>
-                    {selectedBoard.name.replace(/ Board$/i, "")}
-                  </button>
-                )}
-                {selectedClass ? (
-                  <>
-                    <span className="pts-crumb-sep">›</span>
-                    {lockedFromSchedule ? (
-                      <span>{selectedClass.name}</span>
-                    ) : (
-                      <button type="button" onClick={() => jumpTo("class")}>
-                        {selectedClass.name}
-                      </button>
-                    )}
-                  </>
-                ) : null}
-                {selectedSubject ? (
-                  <>
-                    <span className="pts-crumb-sep">›</span>
-                    {lockedFromSchedule ? (
-                      <span>{selectedSubject.name}</span>
-                    ) : (
-                      <button type="button" onClick={() => jumpTo("subject")}>
-                        {selectedSubject.name}
-                      </button>
-                    )}
-                  </>
-                ) : null}
-                {step === "chapters" || step === "workspace" || step === "paper" ? (
-                  <>
-                    <span className="pts-crumb-sep">›</span>
-                    <button type="button" onClick={() => jumpTo("chapters")}>
-                      Syllabus
+                  {lockedFromSchedule ? (
+                    <span>{selectedSubject.name}</span>
+                  ) : (
+                    <button type="button" onClick={() => jumpTo("subject")}>
+                      {selectedSubject.name}
                     </button>
-                  </>
-                ) : null}
-                {step === "workspace" ? (
-                  <>
-                    <span className="pts-crumb-sep">›</span>
-                    <span className="pts-crumb-current">
-                      {isMultiChapter ? "Distribute" : "Build"}
-                    </span>
-                  </>
-                ) : null}
-                {step === "paper" ? (
-                  <>
-                    <span className="pts-crumb-sep">›</span>
-                    <span className="pts-crumb-current">Paper</span>
-                  </>
-                ) : null}
+                  )}
+                  {step === "chapters" || step === "workspace" || step === "paper" ? (
+                    <>
+                      <span className="pts-crumb-sep">›</span>
+                      <button type="button" onClick={() => jumpTo("chapters")}>
+                        Syllabus
+                      </button>
+                    </>
+                  ) : null}
+                  {step === "workspace" ? (
+                    <>
+                      <span className="pts-crumb-sep">›</span>
+                      <span className="pts-crumb-current">
+                        {isMultiChapter ? "Distribute" : "Build"}
+                      </span>
+                    </>
+                  ) : null}
+                  {step === "paper" ? (
+                    <>
+                      <span className="pts-crumb-sep">›</span>
+                      <span className="pts-crumb-current">Paper</span>
+                    </>
+                  ) : null}
                 </div>
               ) : null}
             </div>
@@ -1676,18 +1708,6 @@ export function GenerateWizard({
             ) : null}
             {step === "paper" ? (
               <>
-                <div className="pts-medium-seg" role="group" aria-label="Question medium">
-                  {MEDIUM_OPTIONS.map((opt) => (
-                    <button
-                      key={opt.value}
-                      type="button"
-                      aria-pressed={medium === opt.value}
-                      onClick={() => setMedium(opt.value)}
-                    >
-                      {opt.label}
-                    </button>
-                  ))}
-                </div>
                 {!questionsLocked ? (
                   <Button
                     variant="outline"
@@ -1721,43 +1741,6 @@ export function GenerateWizard({
             ) : null}
           </div>
         </div>
-
-        {step === "paper" ? (
-          <div className="mt-3 flex flex-wrap items-center justify-between gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white px-4 py-3">
-            <div className="flex flex-wrap gap-2 text-sm">
-              <span className="rounded-lg bg-brand/10 px-2.5 py-1 font-semibold text-brand">
-                {paperQuestionCount} questions
-              </span>
-              <span className="rounded-lg bg-[#eef2f6] px-2.5 py-1 font-semibold text-ink-soft">
-                {paperMarks} marks
-              </span>
-              {paperSections.map((s) => (
-                <span
-                  key={s.type}
-                  className="rounded-lg border border-[rgba(15,40,70,0.1)] bg-white px-2.5 py-1 font-medium"
-                >
-                  {TYPE_META[s.type].short}: {s.questions.length}
-                </span>
-              ))}
-              {manualEditMode ? (
-                <span className="rounded-lg bg-sky-50 px-2.5 py-1 text-xs font-semibold text-sky-800">
-                  Editing on paper · change text then Done Editing
-                </span>
-              ) : questionsLocked ? (
-                <span className="rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-800">
-                  Random paper · questions locked
-                </span>
-              ) : (
-                <span className="rounded-lg bg-[#ecfdf5] px-2.5 py-1 text-xs font-semibold text-brand">
-                  Manual paper · edit allowed
-                </span>
-              )}
-            </div>
-            <Button onClick={openSaveModal} disabled={pending || paperSections.length === 0}>
-              Save Paper
-            </Button>
-          </div>
-        ) : null}
       </div>
 
       {step !== "paper" ? (
@@ -2269,15 +2252,33 @@ export function GenerateWizard({
             </div>
 
             <div className="nice-scroll flex-1 space-y-4 overflow-y-auto p-5">
-              <label className="block text-sm font-semibold text-ink">
-                Paper name <span className="text-red-500">*</span>
-                <Input
-                  className="mt-1.5 h-11"
-                  value={title}
-                  onChange={(e) => setTitle(e.target.value)}
-                  placeholder="e.g. Biology Mid Term"
-                />
-              </label>
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                <label className="block text-sm font-semibold text-ink sm:col-span-1">
+                  Paper name <span className="text-red-500">*</span>
+                  <Input
+                    className="mt-1.5 h-11"
+                    value={title}
+                    onChange={(e) => setTitle(e.target.value)}
+                    placeholder="e.g. Biology Mid Term"
+                  />
+                </label>
+                <label className="block text-sm font-semibold text-ink">
+                  Exam date <span className="text-red-500">*</span>
+                  <div className="mt-1.5">
+                    <DateField
+                      value={examDate || scheduleContext?.testDate || ""}
+                      onChange={setExamDate}
+                      disabled={lockedFromSchedule}
+                      readOnly={lockedFromSchedule}
+                    />
+                  </div>
+                  {lockedFromSchedule ? (
+                    <span className="mt-1 block text-xs font-medium text-muted">
+                      Locked to schedule test date — cannot be changed.
+                    </span>
+                  ) : null}
+                </label>
+              </div>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
                   Section
@@ -2345,32 +2346,14 @@ export function GenerateWizard({
                   placeholder="e.g. Half Book, Unit Test, Monthly Test"
                 />
               </label>
-              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-                <label className="block text-sm font-semibold text-ink">
-                  Exam date <span className="text-red-500">*</span>
-                  <Input
-                    className="mt-1.5 h-11"
-                    type="date"
-                    value={examDate || scheduleContext?.testDate || ""}
-                    onChange={(e) => setExamDate(e.target.value)}
-                    disabled={lockedFromSchedule}
-                    readOnly={lockedFromSchedule}
-                  />
-                  {lockedFromSchedule ? (
-                    <span className="mt-1 block text-xs font-medium text-muted">
-                      Locked to schedule test date — cannot be changed.
-                    </span>
-                  ) : null}
-                </label>
-                <label className="block text-sm font-semibold text-ink">
-                  Prepared by <span className="text-red-500">*</span>
-                  <Input
-                    className="mt-1.5 h-11"
-                    value={preparedBy}
-                    onChange={(e) => setPreparedBy(e.target.value)}
-                  />
-                </label>
-              </div>
+              <label className="block text-sm font-semibold text-ink">
+                Prepared by <span className="text-red-500">*</span>
+                <Input
+                  className="mt-1.5 h-11"
+                  value={preparedBy}
+                  onChange={(e) => setPreparedBy(e.target.value)}
+                />
+              </label>
               <label className="block text-sm font-semibold text-ink">
                 Instructions (optional)
                 <textarea
@@ -2381,9 +2364,6 @@ export function GenerateWizard({
                 />
               </label>
 
-              {error ? (
-                <p className="text-sm font-medium text-red-700">{error}</p>
-              ) : null}
             </div>
 
             <div className="pts-modal-save-footer">
@@ -2401,11 +2381,6 @@ export function GenerateWizard({
             </div>
           </div>
         </div>
-      ) : null}
-
-      {error ? <p className="text-sm font-medium text-red-700">{error}</p> : null}
-      {message && !error ? (
-        <p className="text-sm font-medium text-brand">{message}</p>
       ) : null}
 
       {/* QUESTION PICKER MODAL — opens over Paper Preview */}
@@ -2430,94 +2405,45 @@ export function GenerateWizard({
               </button>
             </div>
 
-            <div className="pts-picker-chapters">
-              <p className="pts-picker-chapters-label">
-                {hasChapterPlan()
-                  ? `${TYPE_META[activeType].short} chapters (planner quotas)`
-                  : "Chapters for this section"}
-              </p>
-              <div className="pts-picker-chapter-list">
-                {chapters
-                  .filter((c) => selectedChapterIds.includes(c.id))
-                  .map((c) => {
-                    const quota = hasChapterPlan()
-                      ? plannedQuotaForChapter(c.id, activeType)
-                      : null;
-                    const enabled =
-                      !hasChapterPlan() || (quota !== null && quota > 0);
-                    return (
-                      <button
-                        key={c.id}
-                        type="button"
-                        disabled={hasChapterPlan() && !enabled}
-                        onClick={() => {
-                          if (hasChapterPlan()) return;
-                          toggleSectionChapter(c.id);
-                        }}
-                        className={cn(
-                          "pts-picker-chapter-chip",
-                          sectionChapterIds.includes(c.id) && enabled && "is-active",
-                          hasChapterPlan() && !enabled && "is-disabled",
-                        )}
-                        title={c.name}
-                      >
-                        {c.name.replace(/^(\d+\.\s*)/, "Ch ")}
-                      </button>
-                    );
-                  })}
-              </div>
-            </div>
-
             <div className="pts-picker-body">
               <div className="pts-picker-controls">
-                <div className="pts-picker-status">
-                  <span className="pts-picker-status-count">
-                    Selected {draftSelected.length}
-                    {parsedRequired() > 0 ? ` / ${parsedRequired()}` : ""}
-                  </span>
-                  <span className="pts-picker-status-hint">
-                    {hasChapterPlan()
-                      ? "Planner limits apply per chapter"
-                      : "Pick questions then add to paper"}
-                  </span>
-                </div>
-
                 <div className="pts-picker-fields">
-                  <label className="pts-picker-field pts-picker-field--wide pts-picker-field--type">
+                  <div className="pts-picker-field pts-picker-field--type">
                     <span className="pts-picker-label">Question type</span>
                     {isEnglishSubject ? (
-                      <select
-                        className="pts-picker-input"
+                      <SearchSelect
+                        ariaLabel="Question type"
                         value={englishTypeFieldValue}
-                        onChange={(e) => activateEnglishTypeField(e.target.value)}
-                      >
-                        {ENGLISH_QUESTION_TYPE_OPTIONS.filter(
-                          (opt) =>
-                            !hasChapterPlan() || plannedCountForType(opt.type) > 0,
-                        ).map((opt) => (
-                          <option key={opt.value} value={opt.value}>
-                            {opt.label}
-                          </option>
-                        ))}
-                      </select>
+                        onChange={activateEnglishTypeField}
+                        searchPlaceholder="Search question type…"
+                        options={availableEnglishOptions
+                          .filter(
+                            (opt) =>
+                              !hasChapterPlan() ||
+                              plannedCountForType(opt.type) > 0,
+                          )
+                          .map((opt) => ({
+                            value: opt.value,
+                            label: `${opt.label} (${opt.count})`,
+                          }))}
+                      />
                     ) : (
-                      <select
-                        className="pts-picker-input"
+                      <SearchSelect
+                        ariaLabel="Question type"
                         value={activeType}
-                        onChange={(e) => activateType(e.target.value as QType)}
-                      >
-                        {ALL_TYPES.filter(
+                        onChange={(next) => activateType(next as QType)}
+                        searchPlaceholder="Search question type…"
+                        options={ALL_TYPES.filter(
                           (t) => !hasChapterPlan() || plannedCountForType(t) > 0,
-                        ).map((t) => (
-                          <option key={t} value={t}>
-                            {TYPE_META[t].label} ({TYPE_META[t].urdu})
-                          </option>
-                        ))}
-                      </select>
+                        ).map((t) => ({
+                          value: t,
+                          label: `${TYPE_META[t].label} (${TYPE_META[t].urdu})`,
+                        }))}
+                      />
                     )}
-                  </label>
+                  </div>
 
-                  <label className="pts-picker-field">
+                  <label className="pts-picker-field pts-picker-field--num">
                     <span className="pts-picker-label">Required</span>
                     <Input
                       type="number"
@@ -2536,7 +2462,7 @@ export function GenerateWizard({
                     ) : null}
                   </label>
 
-                  <label className="pts-picker-field">
+                  <label className="pts-picker-field pts-picker-field--num">
                     <span className="pts-picker-label">Marks each</span>
                     <Input
                       type="number"
@@ -2550,63 +2476,57 @@ export function GenerateWizard({
                     />
                   </label>
 
-                  <details className="pts-picker-more">
-                    <summary className="pts-picker-more-summary">More options</summary>
-                    <div className="pts-picker-more-fields">
-                      <label className="pts-picker-field pts-picker-field--wide">
-                        <span className="pts-picker-label">Medium</span>
-                        <div className="pts-medium-seg w-full">
-                          {MEDIUM_OPTIONS.map((opt) => (
-                            <button
-                              key={opt.value}
-                              type="button"
-                              aria-pressed={medium === opt.value}
-                              onClick={() => {
-                                setMedium(opt.value);
-                                setPool([]);
-                                setDraftSelected([]);
-                              }}
-                            >
-                              {opt.label}
-                            </button>
-                          ))}
-                        </div>
-                      </label>
+                  <div className="pts-picker-field pts-picker-field--source">
+                    <span className="pts-picker-label">Source</span>
+                    <SearchSelect
+                      ariaLabel="Question source"
+                      value={sourceFilter}
+                      searchPlaceholder="Search source…"
+                      onChange={(next) => {
+                        setSourceFilter(next as QuestionSourceFilter);
+                        setPool([]);
+                        setDraftSelected([]);
+                      }}
+                      options={[
+                        { value: "ALL", label: "All (Smart Syllabus)" },
+                        { value: "EXERCISE", label: "Exercise" },
+                        { value: "ADDITIONAL", label: "Additional" },
+                      ]}
+                    />
+                  </div>
 
-                      {isEnglishSubject ? null : (
-                        <label className="pts-picker-field">
-                          <span className="pts-picker-label">Source</span>
-                          <select
-                            className="pts-picker-input"
-                            value={sourceFilter}
-                            onChange={(e) => {
-                              setSourceFilter(e.target.value as QuestionSourceFilter);
-                              setPool([]);
-                              setDraftSelected([]);
-                            }}
-                          >
-                            <option value="ALL">All (Smart Syllabus)</option>
-                            <option value="EXERCISE">Exercise</option>
-                            <option value="ADDITIONAL">Additional</option>
-                          </select>
-                        </label>
-                      )}
+                  <div className="pts-picker-field pts-picker-field--medium">
+                    <span className="pts-picker-label">Medium</span>
+                    <SearchSelect
+                      ariaLabel="Question medium"
+                      value={medium}
+                      searchPlaceholder="Search medium…"
+                      onChange={(next) => {
+                        setMedium(next as QuestionMedium);
+                        setPool([]);
+                        setDraftSelected([]);
+                      }}
+                      options={MEDIUM_OPTIONS.map((opt) => ({
+                        value: opt.value,
+                        label: opt.label,
+                      }))}
+                    />
+                  </div>
 
-                      <label className="pts-picker-field pts-picker-field--wide">
-                        <span className="pts-picker-label">Attempt any (optional)</span>
-                        <Input
-                          type="number"
-                          min={0}
-                          value={attemptCount}
-                          onChange={(e) =>
-                            setAttemptCount(
-                              e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
-                            )
-                          }
-                        />
-                      </label>
-                    </div>
-                  </details>
+                  <label className="pts-picker-field pts-picker-field--num">
+                    <span className="pts-picker-label">Attempt any</span>
+                    <Input
+                      type="number"
+                      min={0}
+                      placeholder="—"
+                      value={attemptCount}
+                      onChange={(e) =>
+                        setAttemptCount(
+                          e.target.value === "" ? "" : Math.max(0, Number(e.target.value)),
+                        )
+                      }
+                    />
+                  </label>
                 </div>
               </div>
 
@@ -2741,10 +2661,7 @@ export function GenerateWizard({
                 <Button variant="outline" onClick={() => setModalOpen(false)}>
                   View paper
                 </Button>
-                <Button
-                  onClick={addSectionToPaper}
-                  disabled={pending || draftSelected.length === 0}
-                >
+                <Button onClick={addSectionToPaper} disabled={pending}>
                   Add Questions →
                 </Button>
               </div>

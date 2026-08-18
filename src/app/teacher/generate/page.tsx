@@ -24,6 +24,7 @@ export default async function TeacherGeneratePage({ searchParams }: PageProps) {
       logoUrl: true,
       address: true,
       phone: true,
+      curriculumAccessMode: true,
     },
   });
 
@@ -68,18 +69,23 @@ export default async function TeacherGeneratePage({ searchParams }: PageProps) {
     }
   }
 
-  const teacherScope = await loadTeacherAssignmentScope(
-    session.user.id,
-    organizationId,
+  const hasFullCurriculum =
+    organization?.curriculumAccessMode === "ALL_CURRICULUM";
+  const teacherScope = hasFullCurriculum
+    ? null
+    : await loadTeacherAssignmentScope(session.user.id, organizationId);
+  const payload = await loadCurriculumTreeForGenerate(
+    hasFullCurriculum
+      ? undefined
+      : { teacherScope: teacherScope?.allowedKeys ?? new Set<string>() },
   );
-  const payload = await loadCurriculumTreeForGenerate({
-    teacherScope: teacherScope.allowedKeys,
-  });
 
   return (
     <GenerateWizard
       boards={payload}
-      hasTeachingAssignments={teacherScope.allowedKeys.size > 0}
+      hasTeachingAssignments={
+        hasFullCurriculum || (teacherScope?.allowedKeys.size ?? 0) > 0
+      }
       teacherName={session.user.name}
       organization={organization}
       scheduleContext={scheduleContext}
