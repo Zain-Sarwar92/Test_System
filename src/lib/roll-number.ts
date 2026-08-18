@@ -2,7 +2,7 @@
 export function incrementRollNumber(rollNumber: string) {
   const match = rollNumber.trim().match(/^(.*?)(\d+)$/);
   if (!match) return null;
-  const nextDigits = (BigInt(match[2]) + 1n).toString().padStart(match[2].length, "0");
+  const nextDigits = (BigInt(match[2]) + BigInt(1)).toString().padStart(match[2].length, "0");
   return `${match[1]}${nextDigits}`;
 }
 
