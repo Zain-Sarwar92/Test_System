@@ -21,3 +21,5 @@ if (vercelEnv === "production") {
 run("npm run build");
 
 console.log("[vercel-build] environment=" + vercelEnv);
+
+// retrigger preview after verified-commits disabled
