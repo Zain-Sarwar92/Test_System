@@ -1,5 +1,10 @@
 import { prisma } from "@/lib/prisma";
 import { teacherAssignmentScopeKey } from "@/lib/teacher-assignments";
+import type { EnglishFieldFilter } from "@/app/teacher/generate/english-fields";
+import {
+  inferEnglishFieldFromLegacy,
+  resolveEnglishField,
+} from "@/lib/english-field-utils";
 
 export type CurriculumTopicPayload = {
   id: string;
@@ -7,6 +12,7 @@ export type CurriculumTopicPayload = {
   order: number;
   questionCount: number;
   countsByType: { MCQ: number; SHORT: number; LONG: number };
+  countsByEnglishField: Partial<Record<EnglishFieldFilter, number>>;
 };
 
 export type CurriculumBoardPayload = {
@@ -59,7 +65,7 @@ export function filterCurriculumTreeForTeacher(
 export async function loadCurriculumTreeForGenerate(options?: {
   teacherScope?: Set<string>;
 }): Promise<CurriculumBoardPayload[]> {
-  const [boards, classes, subjects, chapters, topics, questionCounts] =
+  const [boards, classes, subjects, chapters, topics, questionCounts, englishCounts] =
     await Promise.all([
       prisma.board.findMany({
         orderBy: { name: "asc" },
@@ -86,6 +92,11 @@ export async function loadCurriculumTreeForGenerate(options?: {
         where: { isActive: true },
         _count: { _all: true },
       }),
+      prisma.question.groupBy({
+        by: ["topicId", "type", "subType"],
+        where: { isActive: true },
+        _count: { _all: true },
+      }),
     ]);
 
   const countsByTopic = new Map<
@@ -104,6 +115,36 @@ export async function loadCurriculumTreeForGenerate(options?: {
     countsByTopic.set(row.topicId, current);
   }
 
+  const englishByTopic = new Map<
+    string,
+    Partial<Record<EnglishFieldFilter, number>>
+  >();
+  for (const row of englishCounts) {
+    const field =
+      resolveEnglishField({
+        type: row.type,
+        subType: row.subType,
+      }) ?? null;
+    if (!field || field === "ALL") continue;
+    const current = englishByTopic.get(row.topicId) ?? {};
+    current[field] = (current[field] ?? 0) + row._count._all;
+    englishByTopic.set(row.topicId, current);
+  }
+
+  // Legacy rows without subType (Class 10 import).
+  const legacyCounts = await prisma.question.groupBy({
+    by: ["topicId", "type", "source"],
+    where: { isActive: true, subType: null },
+    _count: { _all: true },
+  });
+  for (const row of legacyCounts) {
+    const field = inferEnglishFieldFromLegacy(row.type, row.source);
+    if (!field) continue;
+    const current = englishByTopic.get(row.topicId) ?? {};
+    current[field] = (current[field] ?? 0) + row._count._all;
+    englishByTopic.set(row.topicId, current);
+  }
+
   const topicsByChapter = new Map<string, CurriculumTopicPayload[]>();
   for (const topic of topics) {
     const counts = countsByTopic.get(topic.id);
@@ -118,6 +159,7 @@ export async function loadCurriculumTreeForGenerate(options?: {
         SHORT: counts?.SHORT ?? 0,
         LONG: counts?.LONG ?? 0,
       },
+      countsByEnglishField: englishByTopic.get(topic.id) ?? {},
     });
     topicsByChapter.set(topic.chapterId, list);
   }

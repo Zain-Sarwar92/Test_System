@@ -3,6 +3,7 @@ export type EnglishFieldFilter =
   | "COMPREHENSION"
   | "SPELLING"
   | "MEANING"
+  | "SYNONYM"
   | "VERB"
   | "GRAMMAR"
   | "QA"
@@ -12,7 +13,8 @@ export type EnglishFieldFilter =
   | "SUMMARY"
   | "TRANSLATE_UR"
   | "TRANSLATE_EN"
-  | "POEM_STANZA";
+  | "POEM_STANZA"
+  | "PUNCTUATION";
 
 export type QType = "MCQ" | "SHORT" | "LONG";
 
@@ -21,6 +23,7 @@ export const ENGLISH_FIELD_VALUES = [
   "COMPREHENSION",
   "SPELLING",
   "MEANING",
+  "SYNONYM",
   "VERB",
   "GRAMMAR",
   "QA",
@@ -31,6 +34,7 @@ export const ENGLISH_FIELD_VALUES = [
   "TRANSLATE_UR",
   "TRANSLATE_EN",
   "POEM_STANZA",
+  "PUNCTUATION",
 ] as const;
 
 /** English bank fields available when generating papers. */
@@ -60,6 +64,12 @@ export const ENGLISH_QUESTION_TYPE_OPTIONS: Array<{
   },
   {
     type: "MCQ",
+    field: "SYNONYM",
+    label: "Tick cross synonyms / antonyms",
+    value: "MCQ:SYNONYM",
+  },
+  {
+    type: "MCQ",
     field: "VERB",
     label: "Tick correct form of verb",
     value: "MCQ:VERB",
@@ -85,7 +95,7 @@ export const ENGLISH_QUESTION_TYPE_OPTIONS: Array<{
   {
     type: "SHORT",
     field: "PAIR",
-    label: "Pair of Words",
+    label: "Words into sentences",
     value: "SHORT:PAIR",
   },
   {
@@ -117,6 +127,12 @@ export const ENGLISH_QUESTION_TYPE_OPTIONS: Array<{
     field: "POEM_STANZA",
     label: "Poem Stanzas",
     value: "LONG:POEM_STANZA",
+  },
+  {
+    type: "LONG",
+    field: "PUNCTUATION",
+    label: "Punctuate the paragraph",
+    value: "LONG:PUNCTUATION",
   },
 ];
 
@@ -156,4 +172,65 @@ export function parseEnglishTypeField(
 
 export function isEnglishSubjectName(name: string | null | undefined) {
   return /english/i.test((name ?? "").trim());
+}
+
+/** Class 11/12 (Intermediate) — PTS groups English by MCQ/SHORT/LONG, not granular fields. */
+export function isIntermediateEnglishClass(className: string | null | undefined) {
+  const n = (className ?? "").trim();
+  return /\bclass\s*1[12]\b/i.test(n) || /\binter(?:mediate)?\b/i.test(n);
+}
+
+export const INTERMEDIATE_ENGLISH_TYPE_META: Record<
+  QType,
+  { label: string; urdu: string }
+> = {
+  MCQ: { label: "Multiple options", urdu: "چار ممکنہ جوابات" },
+  SHORT: { label: "Short questions", urdu: "مختصر سوالات" },
+  LONG: { label: "Long questions", urdu: "تفصیلی سوالات" },
+};
+
+/** Intermediate (Class 11/12) uses PTS-style labels. */
+const INTERMEDIATE_FIELD_LABELS: Partial<Record<EnglishFieldFilter, string>> = {
+  COMPREHENSION: "Multiple options",
+  MEANING: "Tick cross synonyms",
+  SYNONYM: "Tick cross synonyms",
+  QA: "Short questions",
+  PAIR: "Pair of words",
+  DI: "Direct & Indirect",
+  VERB: "Correct form of verb",
+  TRANSLATE_UR: "Translate into Urdu (paragraph)",
+  PUNCTUATION: "Punctuate the paragraph",
+};
+
+export function englishOptionsForCounts(
+  counts: Partial<Record<EnglishFieldFilter, number>>,
+  options?: { intermediate?: boolean },
+): Array<(typeof ENGLISH_QUESTION_TYPE_OPTIONS)[number] & { count: number }> {
+  return ENGLISH_QUESTION_TYPE_OPTIONS.map((opt) => ({
+    ...opt,
+    label:
+      options?.intermediate && INTERMEDIATE_FIELD_LABELS[opt.field]
+        ? INTERMEDIATE_FIELD_LABELS[opt.field]!
+        : opt.label,
+    count: counts[opt.field] ?? 0,
+  })).filter((opt) => opt.count > 0);
+}
+
+export function sumEnglishFieldCounts(
+  topics: Array<{
+    id: string;
+    countsByEnglishField?: Partial<Record<EnglishFieldFilter, number>>;
+  }>,
+  selectedTopicIds: Set<string>,
+): Partial<Record<EnglishFieldFilter, number>> {
+  const out: Partial<Record<EnglishFieldFilter, number>> = {};
+  for (const topic of topics) {
+    if (!selectedTopicIds.has(topic.id)) continue;
+    for (const [field, n] of Object.entries(topic.countsByEnglishField ?? {})) {
+      const key = field as EnglishFieldFilter;
+      if (key === "ALL") continue;
+      out[key] = (out[key] ?? 0) + (n ?? 0);
+    }
+  }
+  return out;
 }

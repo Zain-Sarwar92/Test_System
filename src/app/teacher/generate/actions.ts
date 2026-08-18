@@ -14,11 +14,15 @@ import {
   coverSiblingAssignmentsForSections,
   ScheduleAccessError,
 } from "@/lib/test-schedules";
-import { assertTeacherAssignedToSubject } from "@/lib/teacher-assignment-scope";
+import {
+  assertTeacherAssignedToSubject,
+  organizationAllowsFullCurriculum,
+} from "@/lib/teacher-assignment-scope";
 import {
   ENGLISH_FIELD_VALUES,
   type EnglishFieldFilter,
 } from "./english-fields";
+import { englishFieldWhere } from "@/lib/english-field-utils";
 
 export type PoolQuestionCard = {
   id: string;
@@ -120,56 +124,31 @@ function sourceWhere(source: QuestionSourceFilter) {
   return {};
 }
 
-function englishFieldWhere(field: EnglishFieldFilter) {
-  switch (field) {
-    case "COMPREHENSION":
-    case "ESSAYS":
-      return { source: { contains: "Exercise" } };
-    case "SPELLING":
-      return { source: { contains: "spelling" } };
-    case "MEANING":
-      return { source: { contains: "meaning" } };
-    case "VERB":
-      return { source: { contains: "form of verb" } };
-    case "GRAMMAR":
-      return { source: { contains: "grammar" } };
-    case "QA":
-      return {
-        OR: [
-          { source: { contains: "Exercise" } },
-          { source: { contains: "Additional" } },
-        ],
-      };
-    case "DI":
-      return {
-        OR: [
-          { source: { contains: "Past Papers" } },
-          { source: { contains: "Direct & Indirect" } },
-        ],
-      };
-    case "PAIR":
-      return { source: { contains: "Pair of Words" } };
-    case "SUMMARY":
-      return { source: { contains: "Summary" } };
-    case "TRANSLATE_UR":
-      return { source: { contains: "Translate into Urdu" } };
-    case "TRANSLATE_EN":
-      return { source: { contains: "Translate into English" } };
-    case "POEM_STANZA":
-      return { source: { contains: "Poem Stanzas" } };
-    default:
-      return {};
-  }
-}
-
 function poolSourceWhere(input: {
   source: QuestionSourceFilter;
   englishField: EnglishFieldFilter;
 }) {
-  if (input.englishField !== "ALL") {
-    return englishFieldWhere(input.englishField);
+  const fieldWhere =
+    input.englishField !== "ALL" ? englishFieldWhere(input.englishField) : {};
+
+  // If a specific source is chosen, intersect it with the field filter
+  if (input.source !== "ALL" && input.englishField !== "ALL") {
+    const sw = sourceWhere(input.source);
+    // Merge: both conditions must apply
+    return { AND: [fieldWhere, sw] };
   }
+  if (input.englishField !== "ALL") return fieldWhere;
   return sourceWhere(input.source);
+}
+
+function chapterScopeWhere(input: {
+  englishField: EnglishFieldFilter;
+  chapterIds?: string[];
+}) {
+  // English field filter is precise; topic selection already scopes chapters.
+  if (input.englishField !== "ALL") return {};
+  if (!input.chapterIds?.length) return {};
+  return { topic: { chapterId: { in: input.chapterIds } } };
 }
 
 function mediumWhere(medium: QuestionMedium) {
@@ -211,9 +190,10 @@ export async function searchQuestionPool(input: {
     }),
     ...mediumWhere(parsed.medium),
     ...(parsed.excludeIds?.length ? { id: { notIn: parsed.excludeIds } } : {}),
-    ...(parsed.chapterIds?.length
-      ? { topic: { chapterId: { in: parsed.chapterIds } } }
-      : {}),
+    ...chapterScopeWhere({
+      englishField: parsed.englishField,
+      chapterIds: parsed.chapterIds,
+    }),
   };
 
   const [questions, total] = await Promise.all([
@@ -243,6 +223,7 @@ const randomSchema = poolSchema.extend({
       }),
     )
     .optional(),
+  topicUsage: z.record(z.string(), z.number().int().min(0)).optional(),
 });
 
 const chapterPlanSchema = z.object({
@@ -275,6 +256,8 @@ export async function pickRandomQuestions(input: {
   source?: QuestionSourceFilter;
   englishField?: EnglishFieldFilter;
   medium?: QuestionMedium;
+  /** Topic counts already represented in this selection session (for replace). */
+  topicUsage?: Record<string, number>;
 }): Promise<{ questions: PoolQuestionCard[] }> {
   await requirePaperGeneratorWithOrg();
   const parsed = randomSchema.parse(input);
@@ -298,9 +281,10 @@ export async function pickRandomQuestions(input: {
       }),
       ...mediumWhere(parsed.medium),
       ...(parsed.excludeIds?.length ? { id: { notIn: parsed.excludeIds } } : {}),
-      ...(chapterIds.length
-        ? { topic: { chapterId: { in: chapterIds } } }
-        : {}),
+      ...chapterScopeWhere({
+        englishField: parsed.englishField,
+        chapterIds,
+      }),
     },
     select: POOL_QUESTION_SELECT,
   });
@@ -314,10 +298,11 @@ export async function pickRandomQuestions(input: {
   }));
 
   const quotas = (parsed.chapterQuotas ?? []).filter((q) => q.count > 0);
+  const selectionOptions = { topicUsage: parsed.topicUsage };
   const picked =
     quotas.length > 0
-      ? selectByChapterQuotas(pool, quotas, parsed.mode)
-      : selectQuestions(pool, parsed.count, parsed.mode);
+      ? selectByChapterQuotas(pool, quotas, parsed.mode, selectionOptions)
+      : selectQuestions(pool, parsed.count, parsed.mode, selectionOptions);
 
   if (quotas.length > 0) {
     const requested = quotas.reduce((sum, q) => sum + q.count, 0);
@@ -387,7 +372,10 @@ export async function generatePaperFromChapterPlan(input: {
         }),
         ...mediumWhere(parsed.medium),
         ...(globalUsed.size ? { id: { notIn: [...globalUsed] } } : {}),
-        topic: { chapterId: { in: chapterIds } },
+        ...chapterScopeWhere({
+          englishField: parsed.englishField,
+          chapterIds,
+        }),
       },
       select: POOL_QUESTION_SELECT,
     });
@@ -502,11 +490,15 @@ export async function saveSectionBuiltTest(input: z.infer<typeof saveSchema>) {
       throw error;
     }
   } else if (!isOrgAdmin) {
-    await assertTeacherAssignedToSubject({
-      teacherId,
-      organizationId,
-      subjectId: parsed.subjectId,
-    });
+    const hasFullCurriculum =
+      await organizationAllowsFullCurriculum(organizationId);
+    if (!hasFullCurriculum) {
+      await assertTeacherAssignedToSubject({
+        teacherId,
+        organizationId,
+        subjectId: parsed.subjectId,
+      });
+    }
   }
 
   const allIds = parsed.sections.flatMap((s) => s.questionIds);

@@ -117,9 +117,7 @@ function formatExamDate(value?: string | null) {
 
 function formatTimeAllowed(minutes?: number | null) {
   if (!minutes && minutes !== 0) return "____";
-  const h = Math.floor(minutes / 60);
-  const m = minutes % 60;
-  return `${h}:${String(m).padStart(2, "0")}`;
+  return `${minutes} MINS`;
 }
 
 function MetaCell({
