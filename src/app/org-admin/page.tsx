@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Users, FileText, CalendarClock } from "lucide-react";
+import { Users, FileText, CalendarClock, GraduationCap, WalletCards, Trophy } from "lucide-react";
 import { Card, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
@@ -28,6 +28,9 @@ export default async function OrgAdminPage() {
     finalTests,
     recentTests,
     activeSchedules,
+    studentCount,
+    activeStudents,
+    feeCollection,
   ] = await Promise.all([
       prisma.organization.findUniqueOrThrow({
         where: { id: organizationId },
@@ -52,6 +55,12 @@ export default async function OrgAdminPage() {
       prisma.testSchedule.count({
         where: { organizationId, status: "ACTIVE" },
       }),
+      prisma.student.count({ where: { organizationId } }),
+      prisma.student.count({ where: { organizationId, isActive: true } }),
+      prisma.feePayment.aggregate({
+        where: { organizationId },
+        _sum: { amount: true },
+      }),
     ]);
 
   return (
@@ -59,10 +68,29 @@ export default async function OrgAdminPage() {
       <PageHeader
         kicker={org.isActive ? "Active organization" : "Inactive organization"}
         title={org.name}
-        description="Manage teachers and monitor every paper created inside your organization."
+        description="Manage students, teachers, fees, schedules, and papers for your organization."
       />
 
-      <div className="grid gap-5 sm:grid-cols-3">
+      <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        <Link href="/org-admin/students" className="block">
+          <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#eef7ff] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <div className="flex items-start justify-between">
+              <div>
+                <p className="text-sm font-medium text-muted">Students</p>
+                <CardTitle className="mt-2 text-[2.6rem] leading-none tracking-tight">
+                  {studentCount}
+                </CardTitle>
+                <p className="mt-3 text-sm text-muted">
+                  {activeStudents} active · {studentCount - activeStudents} inactive
+                </p>
+              </div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-700 transition-transform duration-300 group-hover:scale-110">
+                <GraduationCap className="h-6 w-6" />
+              </div>
+            </div>
+          </Card>
+        </Link>
+
         <Link href="/org-admin/teachers" className="block">
           <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#e8f7f4] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
             <div className="flex items-start justify-between">
@@ -77,6 +105,40 @@ export default async function OrgAdminPage() {
               </div>
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand/10 text-brand transition-transform duration-300 group-hover:scale-110">
                 <Users className="h-6 w-6" />
+              </div>
+            </div>
+          </Card>
+        </Link>
+
+        <Link href="/org-admin/results" className="block">
+          <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#fff4e8] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <div className="flex items-start justify-between">
+              <div>
+                <p className="text-sm font-medium text-muted">Results</p>
+                <CardTitle className="mt-2 text-[2.6rem] leading-none tracking-tight">
+                  Compile
+                </CardTitle>
+                <p className="mt-3 text-sm text-muted">Section-wise marks and gazette</p>
+              </div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500/10 text-orange-700 transition-transform duration-300 group-hover:scale-110">
+                <Trophy className="h-6 w-6" />
+              </div>
+            </div>
+          </Card>
+        </Link>
+
+        <Link href="/org-admin/fees" className="block">
+          <Card className="group relative min-h-[10rem] cursor-pointer overflow-hidden bg-gradient-to-br from-[#f3edff] to-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+            <div className="flex items-start justify-between">
+              <div>
+                <p className="text-sm font-medium text-muted">Fee Collection</p>
+                <CardTitle className="mt-2 text-2xl leading-none tracking-tight">
+                  PKR {Number(feeCollection._sum.amount ?? 0).toLocaleString()}
+                </CardTitle>
+                <p className="mt-3 text-sm text-muted">All recorded payments</p>
+              </div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-violet-500/10 text-violet-700 transition-transform duration-300 group-hover:scale-110">
+                <WalletCards className="h-6 w-6" />
               </div>
             </div>
           </Card>
