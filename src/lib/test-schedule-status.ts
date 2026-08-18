@@ -1,3 +1,5 @@
+import { addWorkingDays } from "@/lib/schedule-working-days";
+
 export type AssignmentCompletionStatus =
   | "COMPLETED"
   | "OVERDUE"
@@ -70,6 +72,22 @@ export function formatScheduleDate(date: Date): string {
     year: "numeric",
   });
   return `${weekday} ${rest}`;
+}
+
+/** Compact print format, e.g. "Wed, 19-08-26". */
+export function formatScheduleDateShort(date: Date): string {
+  const weekday = date.toLocaleDateString("en-GB", { weekday: "short" });
+  const day = String(date.getDate()).padStart(2, "0");
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const year = String(date.getFullYear()).slice(-2);
+  return `${weekday}, ${day}-${month}-${year}`;
+}
+
+/** Checked papers go back to students 4 working days after the test (Sunday off). */
+export const RETURN_WORKING_DAYS = 4;
+
+export function returningDateForTest(testDate: Date): Date {
+  return addWorkingDays(testDate, RETURN_WORKING_DAYS);
 }
 
 export function statusChipClass(status: AssignmentCompletionStatus): string {

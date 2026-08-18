@@ -33,6 +33,25 @@ function sortClassNames(a: string, b: string) {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
 }
 
+// Subjects sharing a test date show under one merged date cell.
+function groupSubjectsByTestDate<T extends { testDate: Date }>(subjects: T[]) {
+  const groups: Array<{ key: string; label: string; items: T[] }> = [];
+  for (const subject of subjects) {
+    const key = subject.testDate.toISOString();
+    const last = groups[groups.length - 1];
+    if (last && last.key === key) {
+      last.items.push(subject);
+      continue;
+    }
+    groups.push({
+      key,
+      label: formatScheduleDate(subject.testDate),
+      items: [subject],
+    });
+  }
+  return groups;
+}
+
 export default async function OrgScheduleDetailPage({ params }: PageProps) {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
@@ -228,7 +247,8 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
                         </span>
                       </td>
                     </tr>
-                    {round.subjects.map((subjectItem) => {
+                    {groupSubjectsByTestDate(round.subjects).map((group) =>
+                      group.items.map((subjectItem, subjectIndex) => {
                       const byClassName = new Map(
                         subjectItem.classes.map((classItem) => [
                           classItem.class.name,
@@ -241,9 +261,14 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
                           key={subjectItem.id}
                           className="border-b border-[rgba(15,40,70,0.06)] last:border-b-0"
                         >
-                          <td className="whitespace-nowrap px-4 py-4 align-top font-medium text-ink">
-                            {formatScheduleDate(subjectItem.testDate)}
-                          </td>
+                          {subjectIndex === 0 ? (
+                            <td
+                              rowSpan={group.items.length}
+                              className="whitespace-nowrap px-4 py-4 align-top font-medium text-ink"
+                            >
+                              {group.label}
+                            </td>
+                          ) : null}
                           <td className="whitespace-nowrap px-4 py-4 align-top font-semibold text-ink">
                             {subjectItem.subjectName}
                           </td>
@@ -330,7 +355,8 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
                           })}
                         </tr>
                       );
-                    })}
+                      }),
+                    )}
                   </Fragment>
                 );
               })}

@@ -24,6 +24,16 @@ export async function loadTeacherAssignmentScope(
   return { allowedKeys, assignments: rows };
 }
 
+export async function organizationAllowsFullCurriculum(
+  organizationId: string,
+): Promise<boolean> {
+  const organization = await prisma.organization.findUnique({
+    where: { id: organizationId },
+    select: { curriculumAccessMode: true },
+  });
+  return organization?.curriculumAccessMode === "ALL_CURRICULUM";
+}
+
 export async function assertTeacherAssignedToSubject(input: {
   teacherId: string;
   organizationId: string;

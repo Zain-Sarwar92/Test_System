@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { toast } from "@/components/ui/toast";
 import { createTeacher } from "../actions";
 import { expandAssignmentGroups } from "@/lib/teacher-assignments";
 import {
@@ -34,12 +35,15 @@ export function CreateTeacherForm({
   classes: ClassOption[];
   sections: SectionOption[];
   subjects: SubjectOption[];
-  takenSections?: Array<{ sectionId: string; teacherName: string }>;
+  takenSections?: Array<{
+    sectionId: string;
+    subjectName: string;
+    teacherName: string;
+  }>;
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
   const [step, setStep] = useState(1);
-  const [error, setError] = useState<string | null>(null);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -49,24 +53,22 @@ export function CreateTeacherForm({
   ]);
 
   function goNext() {
-    setError(null);
     if (name.trim().length < 2) {
-      setError("Enter the teacher's full name.");
+      toast.error("Enter the teacher's full name.");
       return;
     }
     if (!email.trim().includes("@")) {
-      setError("Enter a valid email.");
+      toast.error("Enter a valid email address.");
       return;
     }
     if (password.length < 8) {
-      setError("Password must be at least 8 characters.");
+      toast.error("Password must be at least 8 characters.");
       return;
     }
     setStep(2);
   }
 
   function onSubmit() {
-    setError(null);
     try {
       const expanded = expandAssignmentGroups(
         assignments.map((row) => ({
@@ -74,7 +76,7 @@ export function CreateTeacherForm({
           sectionIds: row.sectionIds,
           subjectName: row.subjectName,
         })),
-        { sections, subjects },
+        { sections, subjects, classes },
         { allowEmpty: true },
       );
 
@@ -87,14 +89,17 @@ export function CreateTeacherForm({
       startTransition(async () => {
         const result = await createTeacher(formData);
         if (!result.ok) {
-          setError(result.error);
+          toast.error(result.error);
           return;
         }
+        toast.success("Teacher created successfully.");
         router.push("/org-admin/teachers");
         router.refresh();
       });
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Invalid assignments");
+      toast.error(
+        err instanceof Error ? err.message : "These assignments are not valid.",
+      );
     }
   }
 
@@ -197,11 +202,6 @@ export function CreateTeacherForm({
         />
       ) : null}
 
-      {error ? (
-        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3">
-          <p className="text-sm font-medium text-red-700">{error}</p>
-        </div>
-      ) : null}
 
       <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:items-center sm:justify-between">
         <div>
@@ -209,10 +209,7 @@ export function CreateTeacherForm({
             <Button
               type="button"
               variant="secondary"
-              onClick={() => {
-                setError(null);
-                setStep(1);
-              }}
+              onClick={() => setStep(1)}
               className="gap-2"
             >
               <ArrowLeft className="h-4 w-4" />

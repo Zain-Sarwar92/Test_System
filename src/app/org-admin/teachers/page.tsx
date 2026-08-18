@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { deleteTeacher, toggleTeacherActive } from "./actions";
+import { TeachersFilter } from "./teachers-filter";
 
 type OrgTeachersPageProps = {
   searchParams: Promise<{ subject?: string; q?: string }>;
@@ -140,28 +140,11 @@ export default async function OrgTeachersPage({
 
       <Card className="fade-up overflow-hidden p-0">
         <div className="nice-scroll max-h-[min(68vh,720px)] p-4 md:p-5">
-          <form className="mb-4 grid gap-2 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-white/70 p-3 sm:grid-cols-[1fr_auto_auto]">
-            <Input
-              name="q"
-              defaultValue={query}
-              placeholder="Search name, email, subject, class, or section"
-            />
-            <select
-              name="subject"
-              defaultValue={subjectFilter}
-              className="h-11 rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
-            >
-              <option value="">All subjects</option>
-              {subjectNames.map((name) => (
-                <option key={name} value={name}>
-                  {name}
-                </option>
-              ))}
-            </select>
-            <Button type="submit" variant="secondary">
-              Apply
-            </Button>
-          </form>
+          <TeachersFilter
+            subjectNames={subjectNames}
+            defaultQuery={query}
+            defaultSubject={subjectFilter}
+          />
 
           <div className="list-stack">
             {teachers.length === 0 ? (

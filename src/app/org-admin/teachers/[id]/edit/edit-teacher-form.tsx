@@ -5,6 +5,7 @@ import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { toast } from "@/components/ui/toast";
 import { expandAssignmentGroups } from "@/lib/teacher-assignments";
 import { updateTeacher } from "../../actions";
 import {
@@ -42,11 +43,14 @@ export function EditTeacherForm({
   classes: ClassOption[];
   sections: SectionOption[];
   subjects: SubjectOption[];
-  takenSections?: Array<{ sectionId: string; teacherName: string }>;
+  takenSections?: Array<{
+    sectionId: string;
+    subjectName: string;
+    teacherName: string;
+  }>;
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-  const [error, setError] = useState<string | null>(null);
 
   const [name, setName] = useState(teacher.name);
   const [assignments, setAssignments] = useState<AssignmentDraft[]>(
@@ -63,9 +67,8 @@ export function EditTeacherForm({
   );
 
   function onSubmit() {
-    setError(null);
     if (name.trim().length < 2) {
-      setError("Enter the teacher's full name.");
+      toast.error("Enter the teacher's full name.");
       return;
     }
 
@@ -76,7 +79,7 @@ export function EditTeacherForm({
           sectionIds: row.sectionIds,
           subjectName: row.subjectName,
         })),
-        { sections, subjects },
+        { sections, subjects, classes },
         { allowEmpty: true },
       );
 
@@ -88,14 +91,17 @@ export function EditTeacherForm({
       startTransition(async () => {
         const result = await updateTeacher(formData);
         if (!result.ok) {
-          setError(result.error);
+          toast.error(result.error);
           return;
         }
+        toast.success("Teacher updated successfully.");
         router.push(`/org-admin/teachers/${teacher.id}`);
         router.refresh();
       });
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Invalid assignments");
+      toast.error(
+        err instanceof Error ? err.message : "These assignments are not valid.",
+      );
     }
   }
 
@@ -123,12 +129,6 @@ export function EditTeacherForm({
         onChange={setAssignments}
         allowEmpty
       />
-
-      {error ? (
-        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3">
-          <p className="text-sm font-medium text-red-700">{error}</p>
-        </div>
-      ) : null}
 
       <div className="flex flex-wrap items-center justify-between gap-3">
         <Link href={`/org-admin/teachers/${teacher.id}`}>

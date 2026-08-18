@@ -97,19 +97,35 @@ export function cumulativeGapWorkingDays(
 }
 
 /**
+ * Working days covered by Round 1, from its earliest to its latest test date.
+ * Subjects sharing a date count once, so a round is only as long as the days it
+ * actually uses (Physics 19, Bio+Computer 20, Islamiyat+Pak Studies 21 → 3).
+ */
+export function roundStrideWorkingDays(round1Ymds: string[]): number {
+  const dates = round1Ymds
+    .map((ymd) => ymd.trim())
+    .filter((ymd) => /^\d{4}-\d{2}-\d{2}$/.test(ymd))
+    .sort();
+  const first = dates[0];
+  const last = dates[dates.length - 1];
+  if (!first || !last) return 1;
+  return Math.max(1, workingDaysBetween(first, last) + 1);
+}
+
+/**
  * Round k date for a subject =
- * Round 1 date + (k-1) * subjectCount + cumulative gaps before k
+ * Round 1 date + (k-1) * roundStride + cumulative gaps before k
  * (working days; Sunday off). Same arrangement every round.
  */
 export function dateForRound(
   round1Ymd: string,
   roundIndexZeroBased: number,
-  subjectCount: number,
+  roundStride: number,
   extraWorkingDays = 0,
 ): string {
   const base = parseYmd(round1Ymd);
   const offset =
-    Math.max(0, roundIndexZeroBased) * Math.max(subjectCount, 1) +
+    Math.max(0, roundIndexZeroBased) * Math.max(roundStride, 1) +
     Math.max(0, extraWorkingDays);
   if (offset <= 0) return formatYmd(base);
   return formatYmd(addWorkingDays(base, offset));

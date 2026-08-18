@@ -29,6 +29,7 @@ export async function approveSuggestion(formData: FormData) {
       data: {
         type: suggestion.type,
         text: suggestion.text,
+        textUrdu: suggestion.textUrdu,
         optionA: suggestion.optionA,
         optionB: suggestion.optionB,
         optionC: suggestion.optionC,
