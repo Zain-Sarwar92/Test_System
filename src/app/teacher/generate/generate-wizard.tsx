@@ -24,6 +24,7 @@ import {
   Brain,
   Briefcase,
   Calculator,
+  ChevronDown,
   ChevronRight,
   FlaskConical,
   Globe2,
@@ -408,6 +409,7 @@ export function GenerateWizard({
   const [selectedTopicIds, setSelectedTopicIds] = useState<string[]>([]);
 
   const [modalOpen, setModalOpen] = useState(false);
+  const [pickerFiltersOpen, setPickerFiltersOpen] = useState(true);
   const [saveModalOpen, setSaveModalOpen] = useState(false);
   const [activeType, setActiveType] = useState<QType>("MCQ");
   const [requiredCount, setRequiredCount] = useState<number | "">("");
@@ -498,6 +500,45 @@ export function GenerateWizard({
     activeType,
     englishField,
   );
+
+  const pickerFilterSummary = useMemo(() => {
+    const typeLabel = isEnglishSubject
+      ? (availableEnglishOptions.find((opt) => opt.value === englishTypeFieldValue)
+          ?.label ?? TYPE_META[activeType].short)
+      : TYPE_META[activeType].short;
+    const sourceLabel =
+      sourceFilter === "ALL"
+        ? "All"
+        : sourceFilter === "EXERCISE"
+          ? "Exercise"
+          : "Additional";
+    const mediumLabel =
+      medium === "ENGLISH" ? "English" : medium === "URDU" ? "Urdu" : "Dual";
+    return [
+      typeLabel,
+      requiredCount !== "" ? `${requiredCount} req` : null,
+      marksPerQuestion !== "" ? `${marksPerQuestion} mk` : null,
+      sourceLabel,
+      mediumLabel,
+      attemptCount !== "" ? `any ${attemptCount}` : null,
+    ]
+      .filter(Boolean)
+      .join(" · ");
+  }, [
+    activeType,
+    attemptCount,
+    availableEnglishOptions,
+    englishTypeFieldValue,
+    isEnglishSubject,
+    marksPerQuestion,
+    medium,
+    requiredCount,
+    sourceFilter,
+  ]);
+
+  useEffect(() => {
+    if (modalOpen) setPickerFiltersOpen(pool.length === 0);
+  }, [modalOpen]);
 
   const usedQuestionIds = useMemo(
     () => new Set(paperSections.flatMap((s) => s.questions.map((q) => q.id))),
@@ -972,6 +1013,34 @@ export function GenerateWizard({
     );
   }
 
+  function chapterCountInput(
+    row: (typeof chapterPlanRows)[number],
+    type: QType,
+    className = "h-10",
+  ) {
+    const available = row.available[type];
+    return (
+      <Input
+        type="number"
+        min={0}
+        max={available}
+        inputMode="numeric"
+        value={row.requested[type]}
+        disabled={available === 0}
+        onChange={(e) =>
+          updateChapterPlan(
+            row.chapter.id,
+            type,
+            e.target.value === ""
+              ? ""
+              : Math.min(available, Math.max(0, Number(e.target.value))),
+          )
+        }
+        className={className}
+      />
+    );
+  }
+
   function autofillChapterPlan() {
     const topicSet = new Set(selectedTopicIds);
     setChapterPlan(
@@ -1085,6 +1154,10 @@ export function GenerateWizard({
 
   function runSearch() {
     setMessage(null);
+    if (parsedRequired() < 1) {
+      toast.error("Enter the required number of questions.");
+      return;
+    }
     if (selectedTopicIds.length === 0) {
       toast.error("No topics selected");
       return;
@@ -1113,6 +1186,7 @@ export function GenerateWizard({
             ? `No ${TYPE_META[activeType].short} found`
             : `${result.total} ${TYPE_META[activeType].short} available`,
         );
+        if (result.total > 0) setPickerFiltersOpen(false);
       } catch (err) {
         toast.error(err instanceof Error ? err.message : "Search failed");
       }
@@ -1184,6 +1258,7 @@ export function GenerateWizard({
               ? `Random · planner quotas applied · ${result.questions.length} questions`
               : `Random selected · ${result.questions.length} questions`,
         );
+        if (result.questions.length > 0) setPickerFiltersOpen(false);
       } catch (err) {
         toast.error(err instanceof Error ? err.message : "Random select failed");
       }
@@ -1964,29 +2039,80 @@ export function GenerateWizard({
       {step === "workspace" ? (
         <div className="space-y-4">
           {isMultiChapter && !modalOpen ? (
-            <Card className="chart-card">
+            <Card className="chart-card pts-planner-wrap">
               <div className="flex flex-wrap items-start justify-between gap-3">
-                <div>
-                  <CardTitle>Chapter-wise Distribution Planner</CardTitle>
-                 
+                <div className="min-w-0">
+                  <CardTitle>Chapter planner</CardTitle>
+                  <p className="mt-1 hidden text-sm text-muted md:block">
+                    Set how many MCQ, Short, and Long questions to take from each chapter.
+                  </p>
                 </div>
-                <div className="flex w-full flex-wrap gap-2 sm:w-auto">
+                <div className="flex w-full gap-2 sm:w-auto">
                   <Button type="button" variant="outline" className="flex-1 sm:flex-none" onClick={autofillChapterPlan}>
-                    Auto fill evenly
+                    Auto fill
                   </Button>
                   <Button type="button" variant="outline" className="flex-1 sm:flex-none" onClick={clearChapterPlan}>
-                    Clear all
+                    Clear
                   </Button>
                 </div>
               </div>
 
-              <div className="mt-5 grid gap-4 xl:grid-cols-[minmax(0,1fr)_300px]">
+              <div className="pts-planner-summary">
                 <div>
-                  <p className="pts-planner-scroll-hint">
-                    Swipe left on the table to set MCQ, Short, and Long counts per chapter.
-                  </p>
-                  <div className="overflow-x-auto rounded-[1rem] border border-[rgba(15,40,70,0.08)]">
-                  <table className="w-full min-w-[760px] text-left text-sm">
+                  <span>MCQ</span>
+                  <strong>{plannerTotals.MCQ}</strong>
+                </div>
+                <div>
+                  <span>Short</span>
+                  <strong>{plannerTotals.SHORT}</strong>
+                </div>
+                <div>
+                  <span>Long</span>
+                  <strong>{plannerTotals.LONG}</strong>
+                </div>
+                <div>
+                  <span>Total</span>
+                  <strong>{plannerQuestionTotal}</strong>
+                </div>
+                <div>
+                  <span>Marks</span>
+                  <strong>{plannerEstimatedMarks}</strong>
+                </div>
+              </div>
+
+              <div className="pts-planner-list">
+                {chapterPlanRows.map((row) => (
+                  <article key={row.chapter.id} className="pts-planner-card">
+                    <div className="pts-planner-card-head">
+                      <div className="min-w-0">
+                        <h3 className="pts-planner-card-title">{row.chapter.name}</h3>
+                        <p className="pts-planner-card-meta">
+                          {
+                            row.chapter.topics.filter((topic) =>
+                              selectedTopicIds.includes(topic.id),
+                            ).length
+                          }{" "}
+                          topics selected
+                        </p>
+                      </div>
+                      <span className="pts-planner-card-total">{row.total} q</span>
+                    </div>
+                    <div className="pts-planner-card-inputs">
+                      {ALL_TYPES.map((type) => (
+                        <label key={type} className="pts-planner-field">
+                          <span>{type === "MCQ" ? "MCQ" : TYPE_META[type].short}</span>
+                          {chapterCountInput(row, type, "h-10 text-center")}
+                          <em>{row.available[type]} avail</em>
+                        </label>
+                      ))}
+                    </div>
+                  </article>
+                ))}
+              </div>
+
+              <div className="pts-planner-table-wrap">
+                <div className="overflow-x-auto rounded-[1rem] border border-[rgba(15,40,70,0.08)]">
+                  <table className="w-full min-w-[640px] text-left text-sm">
                     <thead className="bg-[#f8fafc] text-xs uppercase tracking-wide text-muted">
                       <tr>
                         <th className="px-4 py-3 font-semibold">Chapter</th>
@@ -2011,72 +2137,11 @@ export function GenerateWizard({
                               selected topics
                             </p>
                           </td>
-                          <td className="px-4 py-3">
-                            <Input
-                              type="number"
-                              min={0}
-                              max={row.available.MCQ}
-                              value={row.requested.MCQ}
-                              disabled={row.available.MCQ === 0}
-                              onChange={(e) =>
-                                updateChapterPlan(
-                                  row.chapter.id,
-                                  "MCQ",
-                                  e.target.value === ""
-                                    ? ""
-                                    : Math.min(
-                                        row.available.MCQ,
-                                        Math.max(0, Number(e.target.value)),
-                                      ),
-                                )
-                              }
-                              className="h-10 min-w-[92px]"
-                            />
-                          </td>
-                          <td className="px-4 py-3">
-                            <Input
-                              type="number"
-                              min={0}
-                              max={row.available.SHORT}
-                              value={row.requested.SHORT}
-                              disabled={row.available.SHORT === 0}
-                              onChange={(e) =>
-                                updateChapterPlan(
-                                  row.chapter.id,
-                                  "SHORT",
-                                  e.target.value === ""
-                                    ? ""
-                                    : Math.min(
-                                        row.available.SHORT,
-                                        Math.max(0, Number(e.target.value)),
-                                      ),
-                                )
-                              }
-                              className="h-10 min-w-[92px]"
-                            />
-                          </td>
-                          <td className="px-4 py-3">
-                            <Input
-                              type="number"
-                              min={0}
-                              max={row.available.LONG}
-                              value={row.requested.LONG}
-                              disabled={row.available.LONG === 0}
-                              onChange={(e) =>
-                                updateChapterPlan(
-                                  row.chapter.id,
-                                  "LONG",
-                                  e.target.value === ""
-                                    ? ""
-                                    : Math.min(
-                                        row.available.LONG,
-                                        Math.max(0, Number(e.target.value)),
-                                      ),
-                                )
-                              }
-                              className="h-10 min-w-[92px]"
-                            />
-                          </td>
+                          {ALL_TYPES.map((type) => (
+                            <td key={type} className="px-4 py-3">
+                              {chapterCountInput(row, type, "h-10 min-w-[92px]")}
+                            </td>
+                          ))}
                           <td className="px-4 py-3">
                             <span className="font-semibold text-ink">{row.total}</span>
                           </td>
@@ -2084,39 +2149,6 @@ export function GenerateWizard({
                       ))}
                     </tbody>
                   </table>
-                </div>
-                </div>
-
-                <div className="space-y-3">
-                  <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-[#f8fafc] p-4">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-muted">
-                      Planner Summary
-                    </p>
-                    <div className="mt-3 space-y-2 text-sm">
-                      <div className="flex items-center justify-between">
-                        <span>MCQs</span>
-                        <span className="font-semibold">{plannerTotals.MCQ}</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span>Short</span>
-                        <span className="font-semibold">{plannerTotals.SHORT}</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span>Long</span>
-                        <span className="font-semibold">{plannerTotals.LONG}</span>
-                      </div>
-                      <div className="flex items-center justify-between border-t border-[rgba(15,40,70,0.08)] pt-2">
-                        <span>Total Questions</span>
-                        <span className="font-semibold">{plannerQuestionTotal}</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span>Estimated Marks</span>
-                        <span className="font-semibold">{plannerEstimatedMarks}</span>
-                      </div>
-                    </div>
-                  </div>
-
-                 
                 </div>
               </div>
 
@@ -2139,7 +2171,7 @@ export function GenerateWizard({
                   type="button"
                   onClick={openPickerFromPlanner}
                   disabled={pending || plannerQuestionTotal === 0}
-                  className="min-w-[10rem]"
+                  className="w-full sm:w-auto sm:min-w-[10rem]"
                 >
                   Next → Select Questions
                 </Button>
@@ -2393,7 +2425,34 @@ export function GenerateWizard({
 
             <div className="pts-picker-body">
               <div className="pts-picker-controls">
-                <div className="pts-picker-fields">
+                <button
+                  type="button"
+                  className="pts-picker-filters-toggle"
+                  aria-expanded={pickerFiltersOpen}
+                  onClick={() => setPickerFiltersOpen((open) => !open)}
+                >
+                  <span className="pts-picker-filters-toggle-copy">
+                    <span className="pts-picker-filters-toggle-title">
+                      {pickerFiltersOpen ? "Hide Question Menu" : "Question Menu"}
+                    </span>
+                    {/* <span className="pts-picker-filters-toggle-summary">
+                      {pickerFilterSummary}
+                    </span> */}
+                  </span>
+                  <ChevronDown
+                    className={cn(
+                      "pts-picker-filters-chevron",
+                      pickerFiltersOpen && "is-open",
+                    )}
+                    aria-hidden
+                  />
+                </button>
+                <div
+                  className={cn(
+                    "pts-picker-fields",
+                    pickerFiltersOpen && "is-open",
+                  )}
+                >
                   <div className="pts-picker-field pts-picker-field--type">
                     <span className="pts-picker-label">Question type</span>
                     {isEnglishSubject ? (
@@ -2595,6 +2654,7 @@ export function GenerateWizard({
                               text={q.text}
                               textUrdu={q.textUrdu}
                               medium={medium}
+                              className="pts-picker-q-text"
                             />
                             {activeType === "MCQ" ? (
                               <div className="mt-1 grid gap-0.5 text-[11px] text-ink-soft sm:grid-cols-2">
