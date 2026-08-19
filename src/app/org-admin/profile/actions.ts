@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { resolveLogoUrlFromForm } from "@/lib/org-logo";
 
 const profileSchema = z.object({
   name: z
@@ -16,9 +17,13 @@ const profileSchema = z.object({
   logoUrl: z
     .string()
     .trim()
-    .url("Enter a valid logo URL starting with http:// or https://.")
     .optional()
-    .or(z.literal("")),
+    .or(z.literal(""))
+    .refine(
+      (value) =>
+        !value || value.startsWith("/") || /^https?:\/\//i.test(value),
+      "Enter a valid logo URL starting with http:// or https://, or upload an image",
+    ),
   curriculumAccessMode: z.enum(["ASSIGNED_ONLY", "ALL_CURRICULUM"]),
 });
 
@@ -34,7 +39,7 @@ export async function updateOrgProfile(formData: FormData) {
       name: formData.get("name"),
       phone: formData.get("phone") || undefined,
       address: formData.get("address") || undefined,
-      logoUrl: formData.get("logoUrl") || "",
+      logoUrl: (await resolveLogoUrlFromForm(formData)) || "",
       curriculumAccessMode: formData.get("curriculumAccessMode"),
     });
 
