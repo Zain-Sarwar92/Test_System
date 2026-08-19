@@ -87,7 +87,16 @@ export default async function OrganizationDetailPage({
               </label>
               <label>
                 <span className="field-label">Logo URL</span>
-                <Input name="logoUrl" defaultValue={org.logoUrl ?? ""} className="mt-1" />
+                <Input
+                  name="logoUrl"
+                  defaultValue={
+                    org.logoUrl?.startsWith("data:") || org.logoUrl?.startsWith("/")
+                      ? ""
+                      : (org.logoUrl ?? "")
+                  }
+                  className="mt-1"
+                  placeholder="https://example.com/logo.png"
+                />
               </label>
             </div>
             <div>

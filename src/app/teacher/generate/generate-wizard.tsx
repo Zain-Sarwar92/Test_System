@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState, useTransition, type ReactNode } from "react";
 import { createPortal } from "react-dom";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -351,6 +352,7 @@ export function GenerateWizard({
   scheduleContext = null,
   testsRedirectPath = "/teacher/tests",
   schedulesRedirectPath = "/teacher/schedules",
+  emptyStateDescription,
   systemDefaults = {
     durationMinutes: 60,
     mcqMarks: 1,
@@ -379,6 +381,7 @@ export function GenerateWizard({
   } | null;
   testsRedirectPath?: string;
   schedulesRedirectPath?: string;
+  emptyStateDescription?: string;
   systemDefaults?: {
     durationMinutes: number;
     mcqMarks: number;
@@ -1563,7 +1566,7 @@ export function GenerateWizard({
             questionIds: s.questions.map((q) => q.id),
           })),
         });
-        // Same destination as normal generate — Saved papers list
+        toast.success("Test saved successfully.");
         router.push(testsRedirectPath);
       } catch (err) {
         toast.error(err instanceof Error ? err.message : "Save failed");
@@ -1675,9 +1678,15 @@ export function GenerateWizard({
         <PageHeader
           title="Generate Test"
           description={
-            hasTeachingAssignments
+            emptyStateDescription ??
+            (hasTeachingAssignments
               ? "No curriculum is available for your assigned subjects yet. Ask Super Admin to add content."
-              : "No classes or subjects are assigned to you yet. Ask your Org Admin to assign your teaching subjects."
+              : "No classes or subjects are assigned to you yet. Ask your Org Admin to assign your teaching subjects.")
+          }
+          actions={
+            <Link href={testsRedirectPath}>
+              <Button variant="secondary">Saved tests</Button>
+            </Link>
           }
         />
       </PageStack>
@@ -1772,6 +1781,9 @@ export function GenerateWizard({
             </div>
           </div>
           <div className="wizard-head-actions">
+            <Link href={testsRedirectPath}>
+              <Button variant="secondary">Saved tests</Button>
+            </Link>
             {step !== "board" ? (
               <Button variant="outline" onClick={goBack} disabled={pending}>
                 Back

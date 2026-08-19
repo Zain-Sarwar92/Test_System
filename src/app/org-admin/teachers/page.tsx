@@ -50,15 +50,15 @@ export default async function OrgTeachersPage({
                       ? [
                           {
                             OR: [
-                              { name: { contains: query } },
-                              { email: { contains: query } },
+                              { name: { contains: query, mode: "insensitive" as const } },
+                              { email: { contains: query, mode: "insensitive" as const } },
                               {
                                 teacherAssignments: {
                                   some: {
                                     OR: [
-                                      { subject: { name: { contains: query } } },
-                                      { class: { name: { contains: query } } },
-                                      { section: { name: { contains: query } } },
+                                      { subject: { name: { contains: query, mode: "insensitive" as const } } },
+                                      { class: { name: { contains: query, mode: "insensitive" as const } } },
+                                      { section: { name: { contains: query, mode: "insensitive" as const } } },
                                     ],
                                   },
                                 },

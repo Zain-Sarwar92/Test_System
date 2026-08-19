@@ -28,6 +28,7 @@ export default async function OrgAdminGeneratePage() {
       organization={organization}
       testsRedirectPath="/org-admin/tests"
       schedulesRedirectPath="/org-admin/schedules"
+      emptyStateDescription="No curriculum is available yet. Ask Super Admin to add boards, classes, and subjects."
       systemDefaults={{
         durationMinutes: Number(settings.default_duration_minutes) || 60,
         mcqMarks: Number(settings.default_mcq_marks) || 1,

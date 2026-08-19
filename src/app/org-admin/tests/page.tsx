@@ -38,7 +38,7 @@ export default async function OrgTestsPage() {
   const papers = tests.map((test) => ({
     id: test.id,
     title: test.title,
-    status: "FINAL" as const,
+    status: test.status === "FINAL" ? ("FINAL" as const) : ("DRAFT" as const),
     classSection: test.classSection,
     className: test.subject?.class?.name ?? null,
     subjectName: test.subject?.name ?? null,

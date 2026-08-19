@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { deleteStudent, toggleStudentActive } from "./actions";
+import { StudentRowActions } from "./student-row-actions";
 
 function plural(count: number, singular: string, pluralForm = `${singular}s`) {
   return `${count} ${count === 1 ? singular : pluralForm}`;
@@ -393,18 +393,12 @@ export default async function StudentsPage({
                         <Link href={`/org-admin/students/${student.id}/edit`}>
                           <Button size="sm" variant="secondary">Edit</Button>
                         </Link>
-                        <form action={toggleStudentActive}>
-                          <input type="hidden" name="id" value={student.id} />
-                          <Button type="submit" size="sm" variant="outline">
-                            {student.isActive ? "Deactivate" : "Activate"}
-                          </Button>
-                        </form>
-                        {!student.isActive && charged === 0 && paid === 0 ? (
-                          <form action={deleteStudent}>
-                            <input type="hidden" name="id" value={student.id} />
-                            <Button type="submit" size="sm" variant="danger">Delete</Button>
-                          </form>
-                        ) : null}
+                        <StudentRowActions
+                          studentId={student.id}
+                          studentName={student.name}
+                          isActive={student.isActive}
+                          canDelete={!student.isActive && charged === 0 && paid === 0}
+                        />
                       </div>
                     </div>
                   </div>

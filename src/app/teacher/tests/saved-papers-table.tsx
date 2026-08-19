@@ -15,12 +15,13 @@ import { MoreHorizontal, Pencil, Trash2, FilePlus2, Printer } from "lucide-react
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+import { toast } from "@/components/ui/toast";
 import { deleteTeacherTest } from "./actions";
 
 export type SavedPaperRow = {
   id: string;
   title: string;
-  status: "FINAL";
+  status: "FINAL" | "DRAFT";
   classSection: string | null;
   className: string | null;
   subjectName: string | null;
@@ -170,9 +171,12 @@ export function SavedPapersTable({
     startTransition(async () => {
       try {
         await deleteTeacherTest(id);
+        toast.success("Test deleted successfully.");
         router.refresh();
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Delete failed");
+        const message = err instanceof Error ? err.message : "Delete failed";
+        setError(message);
+        toast.error(message);
       }
     });
   }
@@ -352,8 +356,15 @@ export function SavedPapersTable({
                     {formatDateTime(paper.createdAt)}
                   </td>
                   <td>
-                    <span className={cn("status-chip", "status-chip-success")}>
-                      Final
+                    <span
+                      className={cn(
+                        "status-chip",
+                        paper.status === "FINAL"
+                          ? "status-chip-success"
+                          : "status-chip-warn",
+                      )}
+                    >
+                      {paper.status === "FINAL" ? "Final" : "Draft"}
                     </span>
                   </td>
                   <td className="text-right">

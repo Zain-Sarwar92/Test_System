@@ -351,6 +351,8 @@ model Student {
   phone             String
   isActive          Boolean        @default(true)
   stream            StudentStream @default(SCIENCE)
+  /// Class 11/12 group: PRE_MEDICAL | PRE_ENGINEERING | ICS | ARTS
+  studyGroup        String?       @map("study_group")
   /// Chosen alternative in an elective group (e.g. Biology or Computer).
   electiveSubjectId String?
   electiveSubject   Subject?      @relation("StudentElective", fields: [electiveSubjectId], references: [id], onDelete: SetNull)

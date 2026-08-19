@@ -1,6 +1,7 @@
 "use client";
 
 import { useTransition } from "react";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
@@ -9,7 +10,12 @@ import { updateOrgProfile } from "./actions";
 import { LogoUploadField } from "@/components/logo-upload-field";
 
 const PHONE_DIGITS = /\d/g;
-const LOGO_REF = /^(https:\/\/|\/uploads\/org-logos\/|\/brand\/|data:image\/(jpeg|jpg|png|webp|gif);base64,)/i;
+const HTTPS_LOGO_REF = /^https:\/\/.+\.(jpe?g|png|webp|gif)(\?.*)?$/i;
+const LOCAL_LOGO_REF = /^\/(uploads\/org-logos\/|brand\/)/i;
+
+function isEmbeddedLogo(url: string) {
+  return url.startsWith("data:image/") || LOCAL_LOGO_REF.test(url);
+}
 
 export function OrgProfileForm({
   org,
@@ -25,6 +31,7 @@ export function OrgProfileForm({
   };
 }) {
   const [pending, startTransition] = useTransition();
+  const router = useRouter();
 
   function submit(formData: FormData) {
     const name = String(formData.get("name") ?? "").trim();
@@ -56,9 +63,11 @@ export function OrgProfileForm({
     if (
       logoUrl &&
       !(logoFile instanceof File && logoFile.size > 0) &&
-      !LOGO_REF.test(logoUrl)
+      !HTTPS_LOGO_REF.test(logoUrl) &&
+      !logoUrl.startsWith("data:image/") &&
+      !LOCAL_LOGO_REF.test(logoUrl)
     ) {
-      toast.error("Upload a JPG, PNG, WEBP, or GIF logo, or use a https image URL.");
+      toast.error("Upload a JPG, PNG, WEBP, or GIF logo, or paste a https image URL.");
       return;
     }
     if (address.length > 300) {
@@ -80,6 +89,8 @@ export function OrgProfileForm({
         return;
       }
       toast.success("Organization profile saved successfully.");
+      router.push("/org-admin");
+      router.refresh();
     });
   }
 
@@ -111,12 +122,19 @@ export function OrgProfileForm({
             />
           </label>
           <label>
-            <span className="field-label">Logo URL (printed on tests)</span>
+            <span className="field-label">Logo URL (optional)</span>
             <Input
               name="logoUrl"
-              defaultValue={org.logoUrl ?? ""}
-              placeholder="https://... or upload below"
+              defaultValue={
+                isEmbeddedLogo(org.logoUrl ?? "") ? "" : (org.logoUrl ?? "")
+              }
+              placeholder="https://example.com/logo.png"
             />
+            <span className="mt-1 block text-xs text-muted">
+              {isEmbeddedLogo(org.logoUrl ?? "")
+                ? "Current logo is already saved. Leave this blank to keep it, or upload a new file."
+                : "Paste a https image link, or upload a file below."}
+            </span>
           </label>
         </div>
         <div>

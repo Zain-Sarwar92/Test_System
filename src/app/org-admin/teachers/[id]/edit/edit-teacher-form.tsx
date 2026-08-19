@@ -99,7 +99,7 @@ export function EditTeacherForm({
           return;
         }
         toast.success("Teacher updated successfully.");
-        router.push(`/org-admin/teachers/${teacher.id}`);
+        router.push("/org-admin/teachers");
         router.refresh();
       });
     } catch (err) {

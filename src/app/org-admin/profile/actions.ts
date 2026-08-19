@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { resolveLogoUrlFromForm, isSafeLogoUrl } from "@/lib/org-logo";
+import { resolveLogoUpdateFromForm } from "@/lib/org-logo";
 
 const profileSchema = z.object({
   name: z
@@ -14,12 +14,6 @@ const profileSchema = z.object({
     .max(120, "Organization name must be 120 characters or fewer."),
   phone: z.string().trim().max(40, "Phone number must be 40 characters or fewer.").optional(),
   address: z.string().trim().max(300, "Address must be 300 characters or fewer.").optional(),
-  logoUrl: z
-    .string()
-    .trim()
-    .optional()
-    .or(z.literal(""))
-    .refine((value) => !value || isSafeLogoUrl(value), "Upload a JPG, PNG, WEBP, or GIF logo"),
   curriculumAccessMode: z.enum(["ASSIGNED_ONLY", "ALL_CURRICULUM"]),
 });
 
@@ -31,11 +25,11 @@ export async function updateOrgProfile(formData: FormData) {
       return { ok: false as const, error: "No organization is linked to this account." };
     }
 
+    const logo = await resolveLogoUpdateFromForm(formData);
     const parsed = profileSchema.parse({
       name: formData.get("name"),
       phone: formData.get("phone") || undefined,
       address: formData.get("address") || undefined,
-      logoUrl: (await resolveLogoUrlFromForm(formData)) || "",
       curriculumAccessMode: formData.get("curriculumAccessMode"),
     });
 
@@ -55,8 +49,8 @@ export async function updateOrgProfile(formData: FormData) {
         name: parsed.name,
         phone: parsed.phone || null,
         address: parsed.address || null,
-        logoUrl: parsed.logoUrl || null,
         curriculumAccessMode: parsed.curriculumAccessMode,
+        ...("keep" in logo ? {} : { logoUrl: logo.next }),
       },
     });
 

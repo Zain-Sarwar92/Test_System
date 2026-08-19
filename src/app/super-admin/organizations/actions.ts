@@ -6,7 +6,7 @@ import { createCredentialUser } from "@/lib/create-credential-user";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { parseOrgModulesFromForm } from "@/lib/org-modules";
-import { resolveLogoUrlFromForm, isSafeLogoUrl } from "@/lib/org-logo";
+import { resolveLogoUrlFromForm, resolveLogoUpdateFromForm, isSafeLogoUrl } from "@/lib/org-logo";
 import { passwordSchema } from "@/lib/password-policy";
 
 const logoUrlSchema = z
@@ -169,14 +169,14 @@ export async function createOrganizationAction(formData: FormData): Promise<
 
 export async function updateOrganization(formData: FormData) {
   await requireRole(["SUPER_ADMIN"]);
-  const logoUrl = await resolveLogoUrlFromForm(formData);
+  const logo = await resolveLogoUpdateFromForm(formData);
   const parsed = updateOrgSchema.parse({
     id: formData.get("id"),
     name: formData.get("name"),
     slug: formData.get("slug"),
     address: formData.get("address") || undefined,
     phone: formData.get("phone") || undefined,
-    logoUrl: logoUrl || "",
+    logoUrl: "keep" in logo ? "" : logo.next || "",
     planId: formData.get("planId") || undefined,
   });
 
@@ -194,8 +194,8 @@ export async function updateOrganization(formData: FormData) {
       slug: parsed.slug,
       address: parsed.address || null,
       phone: parsed.phone || null,
-      logoUrl: parsed.logoUrl || null,
       planId: parsed.planId || null,
+      ...("keep" in logo ? {} : { logoUrl: logo.next }),
     },
   });
 
