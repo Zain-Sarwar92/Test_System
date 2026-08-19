@@ -68,7 +68,7 @@ export function CreateTeacherForm({
       toast.error("Enter a valid email address.");
       return;
     }
-    if (!passwordMeetsPolicy(password)) {
+    if (password && !passwordMeetsPolicy(password)) {
       toast.error(PASSWORD_HINT);
       return;
     }
@@ -99,7 +99,11 @@ export function CreateTeacherForm({
           toast.error(result.error);
           return;
         }
-        toast.success("Teacher created successfully.");
+        toast.success(
+          result.linked
+            ? "Teacher added to this organization. They will sign in with their existing password."
+            : "Teacher created successfully.",
+        );
         router.push("/org-admin/teachers");
         router.refresh();
       });
@@ -181,17 +185,20 @@ export function CreateTeacherForm({
 
           <label className="block">
             <span className="mb-1.5 block text-sm font-semibold text-ink">
-              Password <span className="text-red-500">*</span>
+              Password
             </span>
             <Input
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               type="password"
               placeholder={PASSWORD_HINT}
-              minLength={10}
               autoComplete="new-password"
               className="h-11"
             />
+            <p className="mt-1.5 text-xs text-muted">
+              Required for a new account. Leave blank if this teacher already
+              has a Green Book login — they will keep that password.
+            </p>
           </label>
         </div>
       ) : null}
@@ -244,7 +251,7 @@ export function CreateTeacherForm({
               disabled={pending}
               className="h-11 px-8"
             >
-              {pending ? "Creating…" : "Create Teacher"}
+              {pending ? "Saving…" : "Save teacher"}
             </Button>
           )}
         </div>
