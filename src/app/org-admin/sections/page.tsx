@@ -69,7 +69,6 @@ export default async function SectionsPage() {
       <PageHeader
         kicker="Academic Setup"
         title="Sections"
-        description="Create sections for each class (Red, Green, A, B). Classes and subjects come from the global curriculum."
         actions={
           <Link href="/org-admin/sections/new">
             <Button>Add Section</Button>

@@ -5,7 +5,6 @@ import {
   CalendarClock,
   GraduationCap,
   WalletCards,
-  Trophy,
   UserPlus,
   FilePlus2,
   Layers,
@@ -149,59 +148,6 @@ export default async function OrgAdminPage() {
   const inactiveStudents = Math.max(studentCount - activeStudents, 0);
   const firstName = session.user.name?.split(" ")[0] ?? "Admin";
 
-  const actions = [
-    modules.STUDENTS
-      ? {
-          href: "/org-admin/students/new",
-          title: "Add student",
-          hint: "Admit a student to a section",
-          icon: GraduationCap,
-        }
-      : null,
-    {
-      href: "/org-admin/teachers/new",
-      title: "Add teacher",
-      hint: "Create an account and assignments",
-      icon: UserPlus,
-    },
-    modules.SCHEDULES
-      ? {
-          href: "/org-admin/schedules/new",
-          title: "Create schedule",
-          hint: "Plan rounds and paper dates",
-          icon: CalendarClock,
-        }
-      : null,
-    {
-      href: "/org-admin/generate",
-      title: "Generate paper",
-      hint: "Build an exam paper",
-      icon: FilePlus2,
-    },
-    modules.RESULTS
-      ? {
-          href: "/org-admin/results",
-          title: "Compile results",
-          hint: "Marks entry and gazette",
-          icon: Trophy,
-        }
-      : null,
-    modules.FEES
-      ? {
-          href: "/org-admin/fees/collect",
-          title: "Collect fees",
-          hint:
-            unpaidCharges > 0 ? `${unpaidCharges} dues outstanding` : "Record a payment",
-          icon: WalletCards,
-        }
-      : null,
-  ].filter(Boolean) as Array<{
-    href: string;
-    title: string;
-    hint: string;
-    icon: typeof Users;
-  }>;
-
   const stats = [
     modules.STUDENTS
       ? {
@@ -295,23 +241,6 @@ export default async function OrgAdminPage() {
           </p>
         </div>
       ) : null}
-
-      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-        {actions.map((action) => {
-          const Icon = action.icon;
-          return (
-            <Link key={action.href} href={action.href} className="org-dash-card org-dash-action">
-              <span className="org-dash-icon">
-                <Icon className="h-4 w-4" />
-              </span>
-              <span>
-                <p className="org-dash-action-title">{action.title}</p>
-                <p className="org-dash-card-hint">{action.hint}</p>
-              </span>
-            </Link>
-          );
-        })}
-      </div>
 
       <div
         className={

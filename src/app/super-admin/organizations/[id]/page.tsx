@@ -61,7 +61,11 @@ export default async function OrganizationDetailPage({
           <CardDescription className="mt-1">
             Branding fields print on exam papers for this tenant.
           </CardDescription>
-          <form action={updateOrganization} className="mt-4 space-y-3">
+          <form
+            action={updateOrganization}
+            encType="multipart/form-data"
+            className="mt-4 space-y-3"
+          >
             <input type="hidden" name="id" value={org.id} />
             <label className="block">
               <span className="field-label">Name</span>
@@ -85,6 +89,18 @@ export default async function OrganizationDetailPage({
                 <Input name="logoUrl" defaultValue={org.logoUrl ?? ""} className="mt-1" />
               </label>
             </div>
+            <label className="block">
+              <span className="field-label">Or upload logo</span>
+              <Input
+                name="logoFile"
+                type="file"
+                accept="image/png,image/jpeg,image/webp,image/gif"
+                className="mt-1"
+              />
+              <span className="mt-1 block text-xs text-muted">
+                JPG, PNG, WEBP, or GIF up to 2 MB. Upload takes priority over the URL.
+              </span>
+            </label>
             <label className="block">
               <span className="field-label">Subscription plan</span>
               <select

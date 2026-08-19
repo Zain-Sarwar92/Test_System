@@ -133,7 +133,6 @@ export default async function OrgTeachersPage({
       <PageHeader
         kicker="People"
         title="Teachers"
-        description="Manage teacher accounts and Class + Section + Subject assignments."
         actions={
           <Link href="/org-admin/teachers/new">
             <Button>Add Teacher</Button>

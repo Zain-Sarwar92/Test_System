@@ -6,7 +6,6 @@ import {
   ClipboardList,
   Inbox,
   BookPlus,
-  Plus,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
@@ -160,50 +159,6 @@ export default async function SuperAdminPage() {
           ) : null
         }
       />
-
-      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        <Link href="/super-admin/organizations" className="action-tile chart-card stagger-1">
-          <span className="stat-icon">
-            <Plus className="h-4 w-4" />
-          </span>
-          <span>
-            <span className="block text-sm font-semibold text-ink">Create organization</span>
-            <span className="mt-1 block text-xs text-muted">Add a new school / academy</span>
-          </span>
-        </Link>
-        <Link href="/super-admin/questions" className="action-tile chart-card stagger-2">
-          <span className="stat-icon">
-            <BookPlus className="h-4 w-4" />
-          </span>
-          <span>
-            <span className="block text-sm font-semibold text-ink">Add questions</span>
-            <span className="mt-1 block text-xs text-muted">Grow the global bank</span>
-          </span>
-        </Link>
-        <Link href="/super-admin/suggestions" className="action-tile chart-card stagger-3">
-          <span className="stat-icon">
-            <Inbox className="h-4 w-4" />
-          </span>
-          <span>
-            <span className="block text-sm font-semibold text-ink">Review suggestions</span>
-            <span className="mt-1 block text-xs text-muted">
-              {pendingSuggestions} waiting in queue
-            </span>
-          </span>
-        </Link>
-        <Link
-          href="/super-admin/organizations/list"
-          className="action-tile chart-card stagger-4"
-        >
-          <span className="stat-icon">
-            <Building2 className="h-4 w-4" />
-          </span>
-          <span>
-            <span className="block text-sm font-semibold text-ink">View organizations</span>
-            <span className="mt-1 block text-xs text-muted">Manage active tenants</span>
-          </span>
-        </Link>
-      </div>
 
       <div className="stats-grid stats-grid-4">
         {stats.map((stat) => {

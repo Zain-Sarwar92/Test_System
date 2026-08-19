@@ -1968,9 +1968,7 @@ export function GenerateWizard({
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div>
                   <CardTitle>Chapter-wise Distribution Planner</CardTitle>
-                  <CardDescription className="mt-1">
-                    Set how many MCQ, Short, and Long questions you need from each chapter. Next opens the question picker — search manually or use Random Select.
-                  </CardDescription>
+                 
                 </div>
                 <div className="flex w-full flex-wrap gap-2 sm:w-auto">
                   <Button type="button" variant="outline" className="flex-1 sm:flex-none" onClick={autofillChapterPlan}>
@@ -2118,19 +2116,7 @@ export function GenerateWizard({
                     </div>
                   </div>
 
-                  <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-4 space-y-3">
-                    <p className="text-sm text-muted">
-                      Next opens the question picker. Required counts are prefilled from the planner. Manual selection respects each chapter’s limit. Random Select also follows the planner counts.
-                    </p>
-                    <Button
-                      type="button"
-                      className="w-full"
-                      onClick={openPickerFromPlanner}
-                      disabled={pending || plannerQuestionTotal === 0}
-                    >
-                      Next → Select Questions
-                    </Button>
-                  </div>
+                 
                 </div>
               </div>
 

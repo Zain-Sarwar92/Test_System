@@ -6,6 +6,18 @@ import { createCredentialUser } from "@/lib/create-credential-user";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { parseOrgModulesFromForm } from "@/lib/org-modules";
+import { resolveLogoUrlFromForm } from "@/lib/org-logo";
+
+const logoUrlSchema = z
+  .string()
+  .trim()
+  .optional()
+  .or(z.literal(""))
+  .refine(
+    (value) =>
+      !value || value.startsWith("/") || /^https?:\/\//i.test(value),
+    "Enter a valid logo URL starting with http:// or https://, or upload an image",
+  );
 
 const orgSchema = z.object({
   name: z.string().trim().min(2).max(120),
@@ -17,7 +29,7 @@ const orgSchema = z.object({
     .regex(/^[a-z0-9-]+$/, "Slug must be lowercase letters, numbers, hyphens"),
   address: z.string().trim().max(300).optional(),
   phone: z.string().trim().max(40).optional(),
-  logoUrl: z.string().trim().url().optional().or(z.literal("")),
+  logoUrl: logoUrlSchema,
   planId: z.string().trim().optional(),
   adminName: z.string().trim().min(2).max(120),
   adminEmail: z.string().email(),
@@ -35,7 +47,7 @@ const updateOrgSchema = z.object({
     .regex(/^[a-z0-9-]+$/, "Slug must be lowercase letters, numbers, hyphens"),
   address: z.string().trim().max(300).optional(),
   phone: z.string().trim().max(40).optional(),
-  logoUrl: z.string().trim().url().optional().or(z.literal("")),
+  logoUrl: logoUrlSchema,
   planId: z.string().trim().optional(),
 });
 
@@ -71,12 +83,14 @@ export async function createOrganizationAction(formData: FormData): Promise<
         ? rawSlug
         : `org-${Date.now().toString(36)}`;
 
+    const logoUrl = await resolveLogoUrlFromForm(formData);
+
     const parsed = orgSchema.parse({
       name: formData.get("name"),
       slug,
       address: formData.get("address") || undefined,
       phone: formData.get("phone") || undefined,
-      logoUrl: formData.get("logoUrl") || "",
+      logoUrl: logoUrl || "",
       planId: formData.get("planId") || undefined,
       adminName: formData.get("adminName"),
       adminEmail: formData.get("adminEmail"),
@@ -158,13 +172,14 @@ export async function createOrganizationAction(formData: FormData): Promise<
 
 export async function updateOrganization(formData: FormData) {
   await requireRole(["SUPER_ADMIN"]);
+  const logoUrl = await resolveLogoUrlFromForm(formData);
   const parsed = updateOrgSchema.parse({
     id: formData.get("id"),
     name: formData.get("name"),
     slug: formData.get("slug"),
     address: formData.get("address") || undefined,
     phone: formData.get("phone") || undefined,
-    logoUrl: formData.get("logoUrl") || "",
+    logoUrl: logoUrl || "",
     planId: formData.get("planId") || undefined,
   });
 
