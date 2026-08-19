@@ -81,7 +81,6 @@ export default async function NewTeacherPage() {
     <PageStack>
       <div className="mx-auto flex w-full max-w-4xl flex-col items-center">
         <div className="mb-5 w-full text-center">
-          <p className="page-kicker">People</p>
           <h2 className="page-title mt-1">Add Teacher</h2>
          
           <div className="mt-3 flex justify-center gap-2">
