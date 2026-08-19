@@ -1,18 +1,5 @@
 ﻿import Link from "next/link";
-import {
-  BookOpenCheck,
-  Building2,
-  CalendarClock,
-  ClipboardList,
-  FileDown,
-  Layers3,
-  PencilLine,
-  ShieldCheck,
-  Shuffle,
-  Sparkles,
-  Users,
-  Wand2,
-} from "lucide-react";
+import { ClipboardList } from "lucide-react";
 import { Reveal } from "@/components/landing-reveal";
 import { LandingNavBar } from "@/components/landing-nav-bar";
 
@@ -23,139 +10,46 @@ const PROOF = [
   { value: "PDF", label: "Print-ready export" },
 ] as const;
 
-const FEATURE_CARDS = [
+const WHY_HITS = [
   {
-    icon: Wand2,
-    title: "Auto-Balanced Generation",
-    body: "Generate balanced tests with smart topic coverage—without manually searching through the question bank.",
+    n: "01",
+    hook: "Syllabus wizard",
+    line: "Board → Class → Subject → Chapters → Topics. Teachers follow the same path they already teach.",
   },
   {
-    icon: PencilLine,
-    title: "Manual Pick & Edit",
-    body: "Select questions yourself, then replace, reorder, edit, or remove them before generating the final test.",
+    n: "02",
+    hook: "Auto or manual generation",
+    line: "Balanced mode covers topics evenly. Manual mode lets you pick, swap, reorder, and drop questions.",
   },
   {
-    icon: Layers3,
-    title: "Board → Topic Wizard",
-    body: "Follow a simple teacher-friendly flow: Board → Class → Subject → Chapters → Generate.",
+    n: "03",
+    hook: "Global question bank",
+    line: "MCQ, short, and long questions in English and Urdu — one bank for the whole institute.",
   },
   {
-    icon: BookOpenCheck,
-    title: "Global Question Bank",
-    body: "Manage MCQs, short, and long questions in one centralized question bank, securely organized for each institute.",
-  },
-  {
-    icon: CalendarClock,
-    title: "Exam Scheduling",
-    body: "Admins can assign subjects and exam dates, while teachers build tests from their assigned exams.",
-  },
-  {
-    icon: FileDown,
-    title: "Branded PDF Tests",
-    body: "Generate print-ready tests with your institute logo, header fields, marks, time, and instructions.",
-  },
-] as const;
-
-const MODE_CARDS = [
-  {
-    icon: Sparkles,
-    title: "Auto Mode",
-    badge: "Fast & Balanced",
-    points: [
-      "Balanced topic distribution",
-      "MCQ, short & long question mix",
-      "Generate instantly, then tweak",
-    ],
-  },
-  {
-    icon: Shuffle,
-    title: "Manual Mode",
-    badge: "Full Control",
-    points: [
-      "Pick every question yourself",
-      "See your test in real time",
-      "Save unlimited drafts",
-    ],
-  },
-] as const;
-
-const COVERAGE_CARDS = [
-  {
-    title: "Punjab Board (PTB)",
-    detail: "Grades 9–12 with chapter and topic-based test generation.",
-    tone: "teal",
-  },
-  {
-    title: "Federal Board",
-    detail: "Board-pattern structure with expanding subject coverage.",
-    tone: "navy",
-  },
-  {
-    title: "Primary Publishers",
-    detail: "AFAQ, Oxford, and Gohar pathways for early grades.",
-    tone: "gold",
-  },
-] as const;
-
-const TYPE_CARDS = [
-  {
-    code: "MCQs",
-    label: "MCQs",
-    hint: "4-option objective questions with answer keys.",
-  },
-  {
-    code: "Short",
-    label: "Short Questions",
-    hint: "Clear, board-style short-answer questions.",
-  },
-  {
-    code: "Long",
-    label: "Long Questions",
-    hint: "Essay and long-answer questions with proper marks distribution.",
+    n: "04",
+    hook: "Schedules and branded PDF",
+    line: "Admins assign exams and dates. Teachers export a paper with school logo, marks, time, and instructions.",
   },
 ] as const;
 
 const STEP_CARDS = [
   {
     n: "01",
-    title: "Set Up Your Institute",
-    body: "Admins add teachers, sections, subjects, and exam schedules.",
+    title: "Set up the institute",
+    body: "Admins add teachers, subjects, and exam dates.",
   },
   {
     n: "02",
-    title: "Create the Test",
-    body: "Teachers follow the syllabus wizard, then generate automatically or pick questions manually.",
+    title: "Build the test",
+    body: "Teachers use the syllabus wizard — auto or manual.",
   },
   {
     n: "03",
-    title: "Export & Print",
-    body: "Review the test, make final edits, and export a clean, branded PDF—ready to print.",
+    title: "Export and print",
+    body: "Review once, then download a clean branded PDF.",
   },
 ] as const;
-
-const ROLE_CARDS = [
-  {
-    icon: ShieldCheck,
-    role: "Super Admin",
-    body: "Manage institutes, plans, hierarchy, and the global question bank.",
-  },
-  {
-    icon: Building2,
-    role: "Org Admin",
-    body: "Manage teachers, sections, exam schedules, and institute branding.",
-  },
-  {
-    icon: Users,
-    role: "Teacher",
-    body: "Generate, edit, save, and print tests from assigned exams.",
-  },
-] as const;
-
-const FEATURE_FROM = ["left", "up", "right", "left", "up", "right"] as const;
-const COVER_FROM = ["left", "scale", "right"] as const;
-const TYPE_FROM = ["left", "up", "down", "right"] as const;
-const STEP_FROM = ["left", "up", "right"] as const;
-const ROLE_FROM = ["left", "scale", "right"] as const;
 
 export function LandingPage() {
   return (
@@ -163,33 +57,30 @@ export function LandingPage() {
       <LandingNavBar />
 
       <main id="top">
-        <section className="landing-hero" aria-labelledby="landing-brand">
+        <section className="landing-hero" aria-labelledby="landing-headline">
           <div className="landing-hero-bg" aria-hidden />
           <div className="landing-hero-grid">
             <div className="landing-hero-copy">
-              <p id="landing-brand" className="landing-brand">
-                Green Book
-              </p>
-              <h1 className="landing-headline">
-                Board-Pattern Tests. Ready in Minutes, Not Hours.
+              <p className="landing-brand">Green Book</p>
+              <h1 id="landing-headline" className="landing-headline">
+                Board-pattern tests. Ready in minutes.
               </h1>
               <p className="landing-lede">
-                Create professional tests for Pakistani schools and
-                academies—with smart wizard selection, manual controls, and
-                print-ready branded PDFs.
+                For Pakistani schools and academies — syllabus wizard, auto or
+                manual questions, and print-ready branded PDFs.
               </p>
               <div className="landing-cta-row">
                 <Link
                   href="/login"
                   className="landing-btn landing-btn-solid landing-btn-lg"
                 >
-                  Open institute login
+                  Institute login
                 </Link>
                 <a
-                  href="#features"
+                  href="#product"
                   className="landing-btn landing-btn-outline landing-btn-lg"
                 >
-                  Explore features
+                  See how it works
                 </a>
               </div>
             </div>
@@ -243,240 +134,78 @@ export function LandingPage() {
               </div>
             </div>
           </div>
-        </section>
 
-        <section className="landing-proof" aria-label="Product highlights">
-          <div className="landing-proof-inner">
-            {PROOF.map((item, i) => (
-              <Reveal
-                key={item.label}
-                from={i % 2 === 0 ? "up" : "scale"}
-                delay={60 + i * 70}
-                className="landing-proof-item"
-              >
-                <strong>{item.value}</strong>
-                <span>{item.label}</span>
-              </Reveal>
-            ))}
+          <div className="landing-proof" aria-label="Product highlights">
+            <div className="landing-proof-inner">
+              {PROOF.map((item, i) => (
+                <Reveal
+                  key={item.label}
+                  from={i % 2 === 0 ? "up" : "scale"}
+                  delay={60 + i * 70}
+                  className="landing-proof-item"
+                >
+                  <strong>{item.value}</strong>
+                  <span>{item.label}</span>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </section>
 
-        <section id="features" className="landing-section theme-white">
+        <section id="product" className="landing-section theme-white">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">Why Green Book</p>
+              <p className="landing-kicker">Product</p>
               <h2 className="landing-section-title">
-                Everything you need to create better tests — in one workspace.
+                What Green Book actually does.
               </h2>
               <p className="landing-section-lede">
-                From board selection to branded PDF, Green Book gives admins and
-                teachers everything they need to create balanced, professional
-                tests faster.
+                A workspace for Pakistani schools: generate the paper, edit it,
+                then print it — from one question bank.
               </p>
             </Reveal>
 
-            <div className="landing-card-grid">
-              {FEATURE_CARDS.map((card, i) => {
-                const Icon = card.icon;
-                return (
-                  <Reveal
-                    key={card.title}
-                    from={FEATURE_FROM[i]}
-                    delay={i * 90}
-                    className="landing-card"
-                  >
-                    <span className="landing-card-icon" aria-hidden>
-                      <Icon className="h-5 w-5" />
-                    </span>
-                    <h3>{card.title}</h3>
-                    <p>{card.body}</p>
-                  </Reveal>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-
-        <section id="modes" className="landing-section theme-green">
-          <div className="landing-section-inner">
-            <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">Generation Modes</p>
-              <h2 className="landing-section-title">
-                Generate automatically when you&apos;re in a hurry. Go manual
-                when you want full control.
-              </h2>
-            </Reveal>
-
-            <div className="landing-mode-grid">
-              {MODE_CARDS.map((mode, i) => {
-                const Icon = mode.icon;
-                return (
-                  <Reveal
-                    key={mode.title}
-                    from={i === 0 ? "left" : "right"}
-                    delay={i * 120}
-                    className="landing-mode-card"
-                  >
-                    <div className="landing-mode-top">
-                      <span className="landing-card-icon" aria-hidden>
-                        <Icon className="h-5 w-5" />
-                      </span>
-                      <span className="landing-badge">{mode.badge}</span>
-                    </div>
-                    <h3>{mode.title}</h3>
-                    <ul>
-                      {mode.points.map((point) => (
-                        <li key={point}>{point}</li>
-                      ))}
-                    </ul>
-                  </Reveal>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-
-        <section id="coverage" className="landing-section theme-white">
-          <div className="landing-section-inner">
-            <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">Coverage</p>
-              <h2 className="landing-section-title">
-                Built for the boards, subjects, and question formats Pakistani
-                schools actually use.
-              </h2>
-            </Reveal>
-
-            <div className="landing-coverage-grid">
-              {COVERAGE_CARDS.map((card, i) => (
+            <ol className="landing-hit-list">
+              {WHY_HITS.map((hit, i) => (
                 <Reveal
-                  key={card.title}
-                  from={COVER_FROM[i]}
-                  delay={i * 110}
-                  className={`landing-cover-card tone-${card.tone}`}
+                  key={hit.n}
+                  from="left"
+                  delay={70 + i * 100}
+                  className="landing-hit"
                 >
-                  <h3>{card.title}</h3>
-                  <p>{card.detail}</p>
+                  <span className="landing-hit-n" aria-hidden>
+                    {hit.n}
+                  </span>
+                  <div>
+                    <p className="landing-hit-hook">{hit.hook}</p>
+                    <p className="landing-hit-line">{hit.line}</p>
+                  </div>
                 </Reveal>
               ))}
-            </div>
-          </div>
-        </section>
+            </ol>
 
-        <section id="types" className="landing-section theme-green">
-          <div className="landing-section-inner">
-            <Reveal from="up" className="landing-section-head landing-section-head--compact">
-              <p className="landing-kicker">Question formats</p>
+            <Reveal from="up" className="landing-section-head landing-section-head--roles" id="how">
+              <p className="landing-kicker">How it works</p>
+              <h2 className="landing-section-title">Three steps to print day.</h2>
             </Reveal>
 
-            <div className="landing-type-grid landing-type-grid--tight">
-              {TYPE_CARDS.map((card, i) => (
-                <Reveal
-                  key={card.code}
-                  from={TYPE_FROM[i]}
-                  delay={i * 90}
-                  className="landing-type-card"
-                >
-                  {card.code !== card.label ? (
-                    <span className="landing-type-code">{card.code}</span>
-                  ) : null}
-                  <strong>{card.label}</strong>
-                  <span>{card.hint}</span>
-                </Reveal>
-              ))}
-              <Reveal
-                from="right"
-                delay={280}
-                className="landing-type-card landing-type-card-wide"
-              >
-                <span className="landing-type-code">Medium</span>
-                <strong>English • Urdu • Dual Medium</strong>
-                <span>
-                  Switch the test medium without rebuilding your question bank.
-                </span>
-              </Reveal>
-            </div>
-          </div>
-        </section>
-
-        <section id="how" className="landing-section theme-white">
-          <div className="landing-section-inner">
-            <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">How It Works</p>
-              <h2 className="landing-section-title">
-                From exam schedule to print-ready test in three simple steps.
-              </h2>
-            </Reveal>
-
-            <div className="landing-step-grid">
+            <div className="landing-step-grid landing-step-grid--anim">
               {STEP_CARDS.map((step, i) => (
                 <Reveal
                   key={step.n}
-                  from={STEP_FROM[i]}
-                  delay={i * 120}
+                  from="up"
+                  delay={i * 140}
                   className="landing-step-card"
                 >
-                  <h3 className="landing-step-title">
-                    {step.n} — {step.title}
-                  </h3>
+                  <span className="landing-step-num" aria-hidden>
+                    {step.n}
+                  </span>
+                  <h3 className="landing-step-title">{step.title}</h3>
                   <p>{step.body}</p>
                 </Reveal>
               ))}
             </div>
-
-            <Reveal from="up" className="landing-section-head landing-section-head--roles">
-              <p className="landing-kicker">Built for Every Role</p>
-              <h2 className="landing-section-title">
-                Super Admin, Org Admin, and Teacher — each with the right tools.
-              </h2>
-            </Reveal>
-
-            <div className="landing-role-grid">
-              {ROLE_CARDS.map((card, i) => {
-                const Icon = card.icon;
-                return (
-                  <Reveal
-                    key={card.role}
-                    from={ROLE_FROM[i]}
-                    delay={i * 110}
-                    className="landing-role-card"
-                  >
-                    <span className="landing-card-icon" aria-hidden>
-                      <Icon className="h-5 w-5" />
-                    </span>
-                    <h3>{card.role}</h3>
-                    <p>{card.body}</p>
-                  </Reveal>
-                );
-              })}
-            </div>
           </div>
-        </section>
-
-        <section id="start" className="landing-cta-band">
-          <Reveal from="up" className="landing-cta-band-inner">
-            <p className="landing-brand landing-brand-on-dark">Green Book</p>
-            <h2 className="landing-cta-title">
-              Ready for your next mid-term test?
-            </h2>
-            <p className="landing-cta-copy">
-              Sign in with your institute account. Admins manage teachers and
-              schedules; teachers generate unlimited tests from the shared bank.
-            </p>
-            <div className="landing-cta-row">
-              <Link
-                href="/login"
-                className="landing-btn landing-btn-solid landing-btn-lg"
-              >
-                Login to Green Book
-              </Link>
-              <a
-                href="#features"
-                className="landing-btn landing-btn-outline-light landing-btn-lg"
-              >
-                Review features
-              </a>
-            </div>
-          </Reveal>
         </section>
       </main>
 
@@ -485,14 +214,13 @@ export function LandingPage() {
           <div>
             <p className="landing-footer-brand">Green Book</p>
             <p className="landing-footer-tag">
-              Multi-tenant test generation for schools, academies, and colleges.
+              Test generation for schools, academies, and colleges.
             </p>
           </div>
           <div className="landing-footer-links">
-            <Link href="/login">Teacher login</Link>
-            <Link href="/login">Institute login</Link>
-            <a href="#features">Features</a>
+            <a href="#product">Product</a>
             <a href="#how">How it works</a>
+            <Link href="/login">Login</Link>
           </div>
           <p className="landing-footer-copy">
             © {new Date().getFullYear()} Green Book. All rights reserved.

@@ -73,7 +73,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
               />
               <p className="login-form-explore">
                 New to Green Book?{" "}
-                <Link href="/#features">See how it works</Link>
+                <Link href="/#product">See how it works</Link>
               </p>
             </div>
           </div>

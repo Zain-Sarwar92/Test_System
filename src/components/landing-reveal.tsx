@@ -68,7 +68,7 @@ export function Reveal({
       observer.disconnect();
       window.clearTimeout(failsafe);
     };
-  }, []);
+  }, [delay]);
 
   const style = { "--reveal-delay": `${delay}ms` } as CSSProperties;
 
