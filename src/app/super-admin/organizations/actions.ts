@@ -15,7 +15,10 @@ const logoUrlSchema = z
   .or(z.literal(""))
   .refine(
     (value) =>
-      !value || value.startsWith("/") || /^https?:\/\//i.test(value),
+      !value ||
+        value.startsWith("/") ||
+        value.startsWith("data:image/") ||
+        /^https?:\/\//i.test(value),
     "Enter a valid logo URL starting with http:// or https://, or upload an image",
   );
 

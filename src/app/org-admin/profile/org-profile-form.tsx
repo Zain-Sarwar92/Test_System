@@ -9,7 +9,7 @@ import { updateOrgProfile } from "./actions";
 import { LogoUploadField } from "@/components/logo-upload-field";
 
 const PHONE_DIGITS = /\d/g;
-const LOGO_REF = /^(https?:\/\/|\/)/i;
+const LOGO_REF = /^(https?:\/\/|\/|data:image\/)/i;
 
 export function OrgProfileForm({
   org,
