@@ -46,7 +46,7 @@ export async function createSection(formData: FormData) {
     const names = splitSectionNames(namesRaw);
 
     if (names.length === 0) {
-      return { ok: false as const, error: "Enter at least one section name" };
+      return { ok: false as const, error: "Enter at least one section name." };
     }
     for (const name of names) {
       if (name.length > 50) {
@@ -192,22 +192,38 @@ export async function updateSection(formData: FormData) {
 }
 
 export async function deleteSection(formData: FormData) {
-  const { organizationId } = await requireOrgAdmin();
-  const id = z.string().min(1).parse(formData.get("id"));
+  try {
+    const { organizationId } = await requireOrgAdmin();
+    const id = z.string().min(1, "Select a section to delete.").parse(formData.get("id"));
 
-  const section = await prisma.section.findFirst({
-    where: { id, organizationId },
-    select: { id: true, _count: { select: { students: true } } },
-  });
-  if (!section) {
-    throw new Error("Section not found");
-  }
-  if (section._count.students > 0) {
-    throw new Error(
-      "Cannot delete a section that has students. Move or remove the students first.",
-    );
-  }
+    const section = await prisma.section.findFirst({
+      where: { id, organizationId },
+      select: { id: true, _count: { select: { students: true } } },
+    });
+    if (!section) {
+      return { ok: false as const, error: "This section was not found." };
+    }
+    if (section._count.students > 0) {
+      return {
+        ok: false as const,
+        error:
+          "This section still has students. Move or remove them before deleting the section.",
+      };
+    }
 
-  await prisma.section.delete({ where: { id } });
-  revalidateSections();
+    await prisma.section.delete({ where: { id } });
+    revalidateSections();
+    return { ok: true as const };
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return {
+        ok: false as const,
+        error: error.issues[0]?.message ?? "Select a section to delete.",
+      };
+    }
+    return {
+      ok: false as const,
+      error: error instanceof Error ? error.message : "Failed to delete the section.",
+    };
+  }
 }

@@ -35,7 +35,7 @@ function messageUrl(path: string, kind: "success" | "error", message: string) {
 
 function errorMessage(error: unknown) {
   if (error instanceof z.ZodError) {
-    return error.issues[0]?.message ?? "Invalid fee data";
+    return error.issues[0]?.message ?? "Please check the fee details and try again.";
   }
   if (
     typeof error === "object" &&
@@ -45,7 +45,7 @@ function errorMessage(error: unknown) {
   ) {
     return "A record with these details already exists";
   }
-  return error instanceof Error ? error.message : "The operation failed";
+    return error instanceof Error ? error.message : "The operation could not be completed.";
 }
 
 function revalidateFees() {
@@ -71,7 +71,7 @@ export async function createFeeHead(formData: FormData) {
       });
     await prisma.feeHead.create({ data: { ...input, organizationId } });
     revalidateFees();
-    outcome = { kind: "success", message: "Fee head created" };
+    outcome = { kind: "success", message: "Fee head created successfully." };
   } catch (error) {
     outcome = { kind: "error", message: errorMessage(error) };
   }
@@ -144,7 +144,7 @@ export async function createFeePlan(formData: FormData) {
       });
     });
     revalidateFees();
-    outcome = { kind: "success", message: "Fee plan created" };
+    outcome = { kind: "success", message: "Fee plan created successfully." };
   } catch (error) {
     outcome = { kind: "error", message: errorMessage(error) };
   }
@@ -189,7 +189,7 @@ export async function addFeePlanItem(formData: FormData) {
       },
     });
     revalidateFees();
-    outcome = { kind: "success", message: "Plan item added" };
+    outcome = { kind: "success", message: "Plan item added successfully." };
   } catch (error) {
     outcome = { kind: "error", message: errorMessage(error) };
   }
@@ -235,7 +235,7 @@ export async function deleteFeeHead(formData: FormData) {
     }
     await prisma.feeHead.deleteMany({ where: { id, organizationId } });
     revalidateFees();
-    outcome = { kind: "success", message: "Fee head deleted" };
+    outcome = { kind: "success", message: "Fee head deleted successfully." };
   } catch (error) {
     outcome = { kind: "error", message: errorMessage(error) };
   }
@@ -262,11 +262,11 @@ export async function deleteFeePlan(formData: FormData) {
       });
       outcome = {
         kind: "success",
-        message: "Plan has generated charges, so it was deactivated",
+        message: "This plan already has generated charges, so it was deactivated instead of deleted.",
       };
     } else {
       await prisma.feePlan.deleteMany({ where: { id, organizationId } });
-      outcome = { kind: "success", message: "Fee plan deleted" };
+      outcome = { kind: "success", message: "Fee plan deleted successfully." };
     }
     revalidateFees();
   } catch (error) {
@@ -341,7 +341,7 @@ export async function generateFeeCharges(formData: FormData) {
     revalidateFees();
     outcome = {
       kind: "success",
-      message: `Created ${result.count} charge(s); skipped ${skipped} existing charge(s)`,
+      message: `Created ${result.count} dues. ${skipped} existing charges were skipped.`,
     };
   } catch (error) {
     outcome = { kind: "error", message: errorMessage(error) };
@@ -370,7 +370,7 @@ export async function waiveFeeCharge(formData: FormData) {
       });
     });
     revalidateFees();
-    outcome = { kind: "success", message: "Charge waived" };
+    outcome = { kind: "success", message: "Charge waived successfully." };
   } catch (error) {
     outcome = { kind: "error", message: errorMessage(error) };
   }
@@ -447,7 +447,7 @@ export async function collectFeePayment(formData: FormData) {
       { isolationLevel: Prisma.TransactionIsolationLevel.Serializable },
     );
     revalidateFees();
-    outcome = { kind: "success", message: `Payment collected. Receipt ${receiptNumber}` };
+    outcome = { kind: "success", message: `Payment collected successfully. Receipt ${receiptNumber}.` };
   } catch (error) {
     outcome = { kind: "error", message: errorMessage(error) };
   }

@@ -29,7 +29,7 @@ export function CardTitle({
   return (
     <h2
       className={cn(
-        "font-display text-[1.05rem] leading-snug font-semibold tracking-tight text-ink md:text-lg",
+        "font-display text-[1.15rem] leading-snug font-semibold tracking-tight text-ink md:text-xl",
         className,
       )}
     >
@@ -46,7 +46,7 @@ export function CardDescription({
   children: React.ReactNode;
 }) {
   return (
-    <p className={cn("mt-1.5 text-sm leading-relaxed text-muted", className)}>
+    <p className={cn("mt-1.5 text-[0.95rem] leading-relaxed text-muted", className)}>
       {children}
     </p>
   );

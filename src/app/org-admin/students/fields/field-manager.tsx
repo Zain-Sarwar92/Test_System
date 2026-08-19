@@ -11,6 +11,7 @@ import {
   saveStudentField,
   toggleStudentField,
 } from "../actions";
+import { toast } from "@/components/ui/toast";
 
 type Field = {
   id: string;
@@ -26,16 +27,35 @@ export function FieldManager({ fields }: { fields: Field[] }) {
   const [pending, startTransition] = useTransition();
   const [editing, setEditing] = useState<Field | null>(null);
   const [type, setType] = useState<Field["type"]>("TEXT");
-  const [error, setError] = useState<string | null>(null);
 
   function submit(formData: FormData) {
-    setError(null);
+    const label = String(formData.get("label") ?? "").trim();
+    const fieldType = String(formData.get("type") ?? type);
+    const options = String(formData.get("options") ?? "").trim();
+
+    if (!label) {
+      toast.error("Enter a field label.");
+      return;
+    }
+    if (label.length > 100) {
+      toast.error("Field label must be 100 characters or fewer.");
+      return;
+    }
+    if (fieldType === "SELECT") {
+      const parts = options.split(",").map((part) => part.trim()).filter(Boolean);
+      if (parts.length === 0) {
+        toast.error("Enter at least one dropdown option, separated by commas.");
+        return;
+      }
+    }
+
     startTransition(async () => {
       const result = await saveStudentField(formData);
       if (!result.ok) {
-        setError(result.error);
+        toast.error(result.error);
         return;
       }
+      toast.success(editing ? "Custom field updated successfully." : "Custom field created successfully.");
       setEditing(null);
       setType("TEXT");
       router.refresh();
@@ -106,11 +126,6 @@ export function FieldManager({ fields }: { fields: Field[] }) {
             />
             Required for student profiles
           </label>
-          {error ? (
-            <div className="rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
-              {error}
-            </div>
-          ) : null}
           <div className="flex flex-wrap gap-2">
             <Button type="submit" disabled={pending}>
               {pending ? "Saving…" : editing ? "Save Changes" : "Create Field"}
@@ -122,7 +137,6 @@ export function FieldManager({ fields }: { fields: Field[] }) {
                 onClick={() => {
                   setEditing(null);
                   setType("TEXT");
-                  setError(null);
                 }}
               >
                 Cancel
@@ -174,7 +188,6 @@ export function FieldManager({ fields }: { fields: Field[] }) {
                   variant="secondary"
                   onClick={() => {
                     setEditing(field);
-                    setError(null);
                   }}
                 >
                   Edit

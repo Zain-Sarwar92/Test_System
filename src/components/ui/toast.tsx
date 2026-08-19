@@ -98,7 +98,7 @@ export function Toaster() {
             )}
           >
             <span className="pts-toast-icon">
-              <Icon className="h-4 w-4" />
+              <Icon className="h-[1.05rem] w-[1.05rem]" />
             </span>
             <p className="pts-toast-message">{item.message}</p>
             <button

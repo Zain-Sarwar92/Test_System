@@ -9,6 +9,7 @@ import { MultiSearchSelect } from "@/components/ui/multi-search-select";
 import { SearchSelect } from "@/components/ui/search-select";
 import { createStudent, getNextRollNumber, updateStudent } from "./actions";
 import { electiveOptionsForClass, type StudentStream } from "@/lib/subject-stream";
+import { toast } from "@/components/ui/toast";
 
 type Field = {
   id: string;
@@ -65,7 +66,6 @@ export function StudentForm({
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-  const [error, setError] = useState<string | null>(null);
   const presetSection = sections.find(
     (section) => section.id === (initial?.sectionId ?? defaultSectionId),
   ) ?? sections.find((section) => section.classId === defaultClassId);
@@ -182,17 +182,42 @@ export function StudentForm({
   }, [sectionId, initial]);
 
   function submit(formData: FormData) {
-    setError(null);
+    const studentName = String(formData.get("name") ?? "").trim();
+    const fatherName = String(formData.get("fatherName") ?? "").trim();
+    const phone = String(formData.get("phone") ?? "").trim();
+    const roll = rollNumber.trim();
+
     if (!boardId) {
-      setError("Select a board.");
+      toast.error("Select a board.");
       return;
     }
     if (!classId) {
-      setError("Select a class.");
+      toast.error("Select a class.");
       return;
     }
     if (!sectionId) {
-      setError("Select a section.");
+      toast.error("Select a section.");
+      return;
+    }
+    if (!roll) {
+      toast.error("Enter the student's roll number.");
+      return;
+    }
+    if (roll.length > 50) {
+      toast.error("Roll number must be 50 characters or fewer.");
+      return;
+    }
+    if (studentName.length < 2) {
+      toast.error("Enter the student's full name.");
+      return;
+    }
+    if (fatherName.length < 2) {
+      toast.error("Enter the father's name.");
+      return;
+    }
+    const phoneDigits = phone.replace(/\D/g, "").length;
+    if (phoneDigits < 10) {
+      toast.error("Enter a valid phone number with at least 10 digits.");
       return;
     }
     if (stream === "SCIENCE" && electives.length > 0) {
@@ -200,20 +225,32 @@ export function StudentForm({
         electives.some((subject) => subject.id === id),
       );
       if (sciencePicks.length !== 1) {
-        setError(
-          `Select one elective (${electives.map((s) => s.name).join(" or ")}).`,
+        toast.error(
+          `Select one Science elective (${electives.map((s) => s.name).join(" or ")}).`,
         );
         return;
       }
     }
+    for (const field of fields) {
+      if (!field.isRequired) continue;
+      const raw = String(formData.get(`custom_${field.id}`) ?? "").trim();
+      if (!raw) {
+        toast.error(`${field.label} is required.`);
+        return;
+      }
+    }
+
     startTransition(async () => {
       const result = initial
         ? await updateStudent(formData)
         : await createStudent(formData);
       if (!result.ok) {
-        setError(result.error);
+        toast.error(result.error);
         return;
       }
+      toast.success(
+        initial ? "Student updated successfully." : "Student added successfully.",
+      );
       router.push(`/org-admin/students/${result.id}`);
       router.refresh();
     });
@@ -434,12 +471,6 @@ export function StudentForm({
               );
             })}
           </div>
-        </div>
-      ) : null}
-
-      {error ? (
-        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
-          {error}
         </div>
       ) : null}
 

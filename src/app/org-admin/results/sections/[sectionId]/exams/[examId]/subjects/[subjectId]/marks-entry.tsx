@@ -11,6 +11,7 @@ import {
   updateAssessmentTotal,
   uploadAssessmentSheet,
 } from "@/app/org-admin/results/actions";
+import { toast } from "@/components/ui/toast";
 import { normalizeRollNumber } from "@/lib/roll-match";
 
 type StudentRow = {
@@ -41,8 +42,6 @@ export function MarksEntry({
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-  const [error, setError] = useState<string | null>(null);
-  const [message, setMessage] = useState<string | null>(null);
   const [totalMarks, setTotalMarks] = useState(initialTotal);
   const [rows, setRows] = useState(initialStudents);
   const [selectedSheet, setSelectedSheet] = useState(sheets[0]?.id ?? "");
@@ -63,8 +62,28 @@ export function MarksEntry({
   }
 
   function saveMarks() {
-    setError(null);
-    setMessage(null);
+    const total = Number(totalMarks);
+    if (!Number.isFinite(total) || total < 1) {
+      toast.error("Set total marks to a number of 1 or more before saving.");
+      return;
+    }
+    for (const row of rows) {
+      if (row.absent) continue;
+      const raw = row.obtained.trim();
+      if (!raw) continue;
+      const obtained = Number(raw);
+      if (!Number.isFinite(obtained) || obtained < 0) {
+        toast.error(`${row.name}: enter a valid mark of 0 or more.`);
+        return;
+      }
+      if (obtained > total) {
+        toast.error(
+          `${row.name}: obtained marks cannot be higher than the total of ${total}.`,
+        );
+        return;
+      }
+    }
+
     const data = new FormData();
     data.set("assessmentId", assessmentId);
     data.set(
@@ -80,29 +99,40 @@ export function MarksEntry({
     startTransition(async () => {
       const result = await saveStudentMarks(data);
       if (!result.ok) {
-        setError(result.error);
+        toast.error(result.error);
         return;
       }
-      setMessage(`Saved ${entered} of ${rows.length} students.`);
+      toast.success(`Marks saved for ${entered} of ${rows.length} students.`);
       router.refresh();
     });
   }
 
   function saveTotal(formData: FormData) {
-    setError(null);
+    const total = Number(String(formData.get("totalMarks") ?? "").trim());
+    if (!Number.isInteger(total) || total < 1 || total > 1000) {
+      toast.error("Total marks must be a whole number between 1 and 1000.");
+      return;
+    }
     startTransition(async () => {
       const result = await updateAssessmentTotal(formData);
-      if (!result.ok) setError(result.error);
+      if (!result.ok) {
+        toast.error(result.error);
+        return;
+      }
+      toast.success("Total marks updated successfully.");
     });
   }
 
   function uploadSheet(formData: FormData) {
-    setError(null);
-    setMessage(null);
+    const file = formData.get("sheet");
+    if (!(file instanceof File) || file.size === 0) {
+      toast.error("Choose a photo of the filled marks sheet.");
+      return;
+    }
     startTransition(async () => {
       const result = await uploadAssessmentSheet(formData);
       if (!result.ok) {
-        setError(result.error);
+        toast.error(result.error);
         return;
       }
       setSelectedSheet(result.sheetId);
@@ -118,7 +148,7 @@ export function MarksEntry({
       rollNumbers: rows.map((row) => row.rollNumber),
     });
     if (!result.ok) {
-      setError(result.error);
+      toast.error(result.error);
       return;
     }
 
@@ -145,27 +175,30 @@ export function MarksEntry({
     );
 
     const unread = rows.length - filled - absent;
-    setMessage(
-      `Read ${filled} mark${filled === 1 ? "" : "s"}${absent ? ` and ${absent} absent` : ""} from the photo. ` +
-        `${unread > 0 ? `${unread} row${unread === 1 ? "" : "s"} could not be read — fill those by hand. ` : ""}` +
-        "Check every value, then press Save marks.",
+    toast.success(
+      `Read ${filled} mark${filled === 1 ? "" : "s"}${absent ? ` and ${absent} absent` : ""} from the photo.`,
     );
+    if (unread > 0) {
+      toast.warning(
+        `${unread} row${unread === 1 ? "" : "s"} could not be read. Fill those by hand, then save.`,
+      );
+    }
 
     if (
       result.sheetTotalMarks !== null &&
       result.sheetTotalMarks !== result.totalMarks
     ) {
-      setError(
-        `This sheet is printed out of ${result.sheetTotalMarks} marks, but this paper is set to ${result.totalMarks}. ` +
-          `Set total marks to ${result.sheetTotalMarks} and save it, otherwise percentages will be wrong.`,
+      toast.warning(
+        `This sheet is printed out of ${result.sheetTotalMarks} marks, but this paper is set to ${result.totalMarks}. Set total marks to ${result.sheetTotalMarks} and save it, otherwise percentages will be wrong.`,
       );
     }
   }
 
   function readMarks() {
-    if (!activeSheet) return;
-    setError(null);
-    setMessage(null);
+    if (!activeSheet) {
+      toast.error("Upload a marks sheet photo first.");
+      return;
+    }
     const sheetId = activeSheet.id;
     startTransition(async () => {
       await applySheetMarks(sheetId);
@@ -267,17 +300,6 @@ export function MarksEntry({
           </form>
         </div>
       </div>
-
-      {error ? (
-        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
-          {error}
-        </div>
-      ) : null}
-      {message ? (
-        <div className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-800">
-          {message}
-        </div>
-      ) : null}
 
       <div className="overflow-x-auto rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-white">
         <table className="min-w-full text-left text-sm">

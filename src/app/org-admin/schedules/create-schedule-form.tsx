@@ -15,6 +15,7 @@ import {
   workingDaysBetween,
 } from "@/lib/schedule-working-days";
 import { createTestSchedule } from "./actions";
+import { toast } from "@/components/ui/toast";
 
 type TeacherOption = {
   id: string;
@@ -92,7 +93,6 @@ export function CreateScheduleForm({
   const router = useRouter();
   const [pending, startTransition] = useTransition();
   const [step, setStep] = useState(1);
-  const [error, setError] = useState<string | null>(null);
 
   const [name, setName] = useState("");
   const [selectedBoardId, setSelectedBoardId] = useState("");
@@ -381,12 +381,11 @@ export function CreateScheduleForm({
   function toggleSubject(subjectName: string) {
     const missing = subjectTeacherGaps.get(subjectName) ?? [];
     if (missing.length > 0 && !selectedSubjectNames.includes(subjectName)) {
-      setError(
+      toast.error(
         `${subjectName} has no eligible teacher for: ${missing.join(", ")}. Assign a teacher to this subject first.`,
       );
       return;
     }
-    setError(null);
     setSelectedSubjectNames((prev) =>
       prev.includes(subjectName)
         ? prev.filter((name) => name !== subjectName)
@@ -501,10 +500,13 @@ export function CreateScheduleForm({
   }
 
   function goNext() {
-    setError(null);
     if (step === 1) {
       if (name.trim().length < 2) {
-        setError("Enter a schedule name (at least 2 characters).");
+        toast.error("Enter a schedule name (at least 2 characters).");
+        return;
+      }
+      if (name.trim().length > 120) {
+        toast.error("Schedule name must be 120 characters or fewer.");
         return;
       }
       setStep(2);
@@ -512,7 +514,7 @@ export function CreateScheduleForm({
     }
     if (step === 2) {
       if (!selectedBoardId) {
-        setError("Select a board.");
+        toast.error("Select a board.");
         return;
       }
       setStep(3);
@@ -520,17 +522,17 @@ export function CreateScheduleForm({
     }
     if (step === 3) {
       if (selectedClassIds.length === 0) {
-        setError("Select at least one class.");
+        toast.error("Select at least one class.");
         return;
       }
       const classesWithoutSections = selectedClasses.filter(
         (classItem) => classItem.sections.length === 0,
       );
       if (classesWithoutSections.length > 0) {
-        setError(
+        toast.error(
           `These classes have no sections yet: ${classesWithoutSections
             .map((c) => c.className)
-            .join(", ")}. Create sections in Academic Setup first.`,
+            .join(", ")}. Create sections first.`,
         );
         return;
       }
@@ -539,7 +541,7 @@ export function CreateScheduleForm({
     }
     if (step === 4) {
       if (selectedSectionIds.length === 0) {
-        setError("Select at least one section.");
+        toast.error("Select at least one section.");
         return;
       }
       const classesMissingSections = selectedClasses.filter(
@@ -547,7 +549,7 @@ export function CreateScheduleForm({
           !classItem.sections.some((section) => selectedSectionIdSet.has(section.id)),
       );
       if (classesMissingSections.length > 0) {
-        setError(
+        toast.error(
           `Choose at least one section for: ${classesMissingSections
             .map((c) => c.className)
             .join(", ")}.`,
@@ -559,18 +561,18 @@ export function CreateScheduleForm({
     }
     if (step === 5) {
       if (selectedSubjectNames.length === 0) {
-        setError("Select at least one subject.");
+        toast.error("Select at least one subject.");
         return;
       }
       if (detailRows.length === 0) {
-        setError("Selected subjects are not available on the chosen classes.");
+        toast.error("Selected subjects are not available on the chosen classes.");
         return;
       }
       const blocked = selectedSubjectNames.filter(
         (subjectName) => (subjectTeacherGaps.get(subjectName) ?? []).length > 0,
       );
       if (blocked.length > 0) {
-        setError(
+        toast.error(
           `These subjects have no eligible teacher for one or more selected sections: ${blocked.join(", ")}. Assign teachers first, then try again.`,
         );
         return;
@@ -608,7 +610,6 @@ export function CreateScheduleForm({
   }
 
   function goBack() {
-    setError(null);
     setStep((s) => Math.max(1, s - 1));
   }
 
@@ -671,16 +672,14 @@ export function CreateScheduleForm({
   }
 
   function onSubmit() {
-    setError(null);
-
     try {
       if (rounds.length === 0) {
-        setError("Add at least one round.");
+        toast.error("Add at least one round.");
         return;
       }
       for (const round of rounds) {
         if (!round.name.trim()) {
-          setError("Every round needs a name.");
+          toast.error("Every round needs a name.");
           return;
         }
       }
@@ -697,14 +696,15 @@ export function CreateScheduleForm({
           rounds: payloadRounds,
         });
         if (!result.ok) {
-          setError(result.error);
+          toast.error(result.error);
           return;
         }
+        toast.success("Schedule created successfully.");
         router.push(`/org-admin/schedules/${result.scheduleId}`);
         router.refresh();
       });
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to prepare schedule");
+      toast.error(err instanceof Error ? err.message : "Failed to prepare the schedule.");
     }
   }
 
@@ -1127,12 +1127,6 @@ export function CreateScheduleForm({
               </div>
             )}
           </div>
-        ) : null}
-
-        {error ? (
-          <p className="mt-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-            {error}
-          </p>
         ) : null}
 
         <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[rgba(15,40,70,0.08)] pt-5">

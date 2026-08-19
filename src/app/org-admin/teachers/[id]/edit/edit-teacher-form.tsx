@@ -71,6 +71,10 @@ export function EditTeacherForm({
       toast.error("Enter the teacher's full name.");
       return;
     }
+    if (name.trim().length > 120) {
+      toast.error("Teacher name must be 120 characters or fewer.");
+      return;
+    }
 
     try {
       const expanded = expandAssignmentGroups(
