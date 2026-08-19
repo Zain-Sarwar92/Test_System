@@ -20,11 +20,18 @@ export async function resolveLogoUrlFromForm(formData: FormData): Promise<string
     if (!ext) {
       throw new Error("Upload a JPG, PNG, WEBP, or GIF logo");
     }
+    const bytes = Buffer.from(await file.arrayBuffer());
+
+    // Vercel serverless disk is read-only except /tmp — persist the image in the URL.
+    if (process.env.VERCEL) {
+      return `data:${file.type};base64,${bytes.toString("base64")}`;
+    }
+
     const fileName = `${crypto.randomUUID()}.${ext}`;
     const relativeDir = path.posix.join("uploads", "org-logos");
     const diskDir = path.join(process.cwd(), "public", relativeDir);
     await mkdir(diskDir, { recursive: true });
-    await writeFile(path.join(diskDir, fileName), Buffer.from(await file.arrayBuffer()));
+    await writeFile(path.join(diskDir, fileName), bytes);
     return `/${relativeDir}/${fileName}`;
   }
 
