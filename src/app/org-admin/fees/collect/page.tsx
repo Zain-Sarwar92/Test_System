@@ -121,7 +121,7 @@ export default async function CollectFeePage({ searchParams }: Props) {
       </Card>
 
       {params.studentId && !selectedStudent ? (
-        <FlashMessage error="Student not found in this organization" />
+        <FlashMessage error="This student was not found in your organization." />
       ) : null}
 
       {selectedStudent ? (

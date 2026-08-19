@@ -151,7 +151,7 @@ export function AppShell({
             key={item.href}
             href={item.href}
             className={cn(
-              "flex items-center gap-3 rounded-[0.8rem] px-3.5 py-2.5 text-left text-[0.9rem] font-medium transition-all duration-300",
+              "flex items-center gap-3 rounded-[0.8rem] px-3.5 py-2.5 text-left text-[0.95rem] font-medium transition-all duration-300",
               active
                 ? "nav-active"
                 : "text-white/70 hover:translate-x-0.5 hover:bg-white/10 hover:text-white",

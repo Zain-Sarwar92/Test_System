@@ -11,15 +11,26 @@ import {  assertNoDuplicateAssignments,
 } from "@/lib/teacher-assignments";
 
 const teacherCreateSchema = z.object({
-  name: z.string().trim().min(2).max(120),
-  email: z.string().email(),
-  password: z.string().min(8).max(72),
+  name: z
+    .string()
+    .trim()
+    .min(2, "Enter the teacher's full name.")
+    .max(120, "Teacher name must be 120 characters or fewer."),
+  email: z.string().trim().email("Enter a valid email address."),
+  password: z
+    .string()
+    .min(8, "Password must be at least 8 characters.")
+    .max(72, "Password must be 72 characters or fewer."),
   assignments: z.string().optional(),
 });
 
 const teacherUpdateSchema = z.object({
   id: z.string().min(1),
-  name: z.string().trim().min(2).max(120),
+  name: z
+    .string()
+    .trim()
+    .min(2, "Enter the teacher's full name.")
+    .max(120, "Teacher name must be 120 characters or fewer."),
   assignments: z.string().optional(),
 });
 
@@ -131,7 +142,7 @@ export async function createTeacher(formData: FormData) {
     const session = await requireRole(["ORG_ADMIN"]);
     const organizationId = session.user.organizationId;
     if (!organizationId) {
-      return { ok: false as const, error: "Organization not linked to this admin" };
+      return { ok: false as const, error: "No organization is linked to this account." };
     }
 
     const parsed = teacherCreateSchema.parse({
@@ -157,7 +168,7 @@ export async function createTeacher(formData: FormData) {
       if (existing.orgMemberships.length > 0) {
         return {
           ok: false as const,
-          error: "This teacher is already a member of your organization",
+          error: "This teacher is already a member of your organization.",
         };
       }
 
@@ -256,13 +267,13 @@ export async function createTeacher(formData: FormData) {
     if (error instanceof z.ZodError) {
       return {
         ok: false as const,
-        error: error.issues[0]?.message ?? "Invalid teacher data",
+        error: error.issues[0]?.message ?? "Please check the teacher details and try again.",
       };
     }
 
     return {
       ok: false as const,
-      error: error instanceof Error ? error.message : "Failed to create teacher",
+      error: error instanceof Error ? error.message : "Failed to create the teacher.",
     };
   }
 }
@@ -272,7 +283,7 @@ export async function updateTeacher(formData: FormData) {
     const session = await requireRole(["ORG_ADMIN"]);
     const organizationId = session.user.organizationId;
     if (!organizationId) {
-      return { ok: false as const, error: "Organization not linked to this admin" };
+      return { ok: false as const, error: "No organization is linked to this account." };
     }
 
     const parsed = teacherUpdateSchema.parse({
@@ -328,139 +339,181 @@ export async function updateTeacher(formData: FormData) {
     if (error instanceof z.ZodError) {
       return {
         ok: false as const,
-        error: error.issues[0]?.message ?? "Invalid teacher data",
+        error: error.issues[0]?.message ?? "Please check the teacher details and try again.",
       };
     }
     return {
       ok: false as const,
-      error: error instanceof Error ? error.message : "Failed to update teacher",
+      error: error instanceof Error ? error.message : "Failed to update the teacher.",
     };
   }
 }
 
 export async function toggleTeacherActive(formData: FormData) {
-  const session = await requireRole(["ORG_ADMIN"]);
-  const organizationId = session.user.organizationId;
-  if (!organizationId) {
-    throw new Error("Organization not linked");
+  try {
+    const session = await requireRole(["ORG_ADMIN"]);
+    const organizationId = session.user.organizationId;
+    if (!organizationId) {
+      return { ok: false as const, error: "No organization is linked to this account." };
+    }
+
+    const id = z.string().min(1, "Select a teacher.").parse(formData.get("id"));
+    const membership = await prisma.orgMembership.findFirst({
+      where: { userId: id, organizationId, role: "TEACHER" },
+    });
+    if (!membership) {
+      return {
+        ok: false as const,
+        error: "This teacher was not found in your organization.",
+      };
+    }
+
+    const nextActive = !membership.isActive;
+    await prisma.orgMembership.update({
+      where: { id: membership.id },
+      data: { isActive: nextActive },
+    });
+
+    revalidateTeachers(id);
+    return { ok: true as const, active: nextActive };
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return {
+        ok: false as const,
+        error: error.issues[0]?.message ?? "Select a teacher.",
+      };
+    }
+    return {
+      ok: false as const,
+      error:
+        error instanceof Error ? error.message : "Failed to update the teacher status.",
+    };
   }
-
-  const id = z.string().min(1).parse(formData.get("id"));
-  const membership = await prisma.orgMembership.findFirst({
-    where: { userId: id, organizationId, role: "TEACHER" },
-  });
-  if (!membership) {
-    throw new Error("Teacher not found in this organization");
-  }
-
-  await prisma.orgMembership.update({
-    where: { id: membership.id },
-    data: { isActive: !membership.isActive },
-  });
-
-  revalidateTeachers(id);
 }
 
 export async function deleteTeacher(formData: FormData) {
-  const session = await requireRole(["ORG_ADMIN"]);
-  const organizationId = session.user.organizationId;
-  if (!organizationId) {
-    throw new Error("Organization not linked");
-  }
-
-  const id = z.string().min(1).parse(formData.get("id"));
-
-  const membership = await prisma.orgMembership.findFirst({
-    where: { userId: id, organizationId, role: "TEACHER" },
-    include: {
-      user: {
-        select: {
-          id: true,
-          role: true,
-          orgMemberships: {
-            select: { id: true, organizationId: true, role: true },
-          },
-        },
-      },
-    },
-  });
-
-  if (!membership) {
-    throw new Error("Teacher not found in this organization");
-  }
-  if (membership.isActive) {
-    throw new Error("Deactivate the teacher before deleting");
-  }
-  if (membership.user.role !== "TEACHER") {
-    throw new Error("Only teacher accounts can be deleted here");
-  }
-  if (membership.user.id === session.user.id) {
-    throw new Error("You cannot delete your own account");
-  }
-
-  const otherMemberships = membership.user.orgMemberships.filter(
-    (item) => item.organizationId !== organizationId,
-  );
-
-  const assignmentIds = (
-    await prisma.testScheduleAssignment.findMany({
-      where: {
-        teacherId: id,
-        scheduleSubjectClass: {
-          scheduleSubject: {
-            round: { schedule: { organizationId } },
-          },
-        },
-      },
-      select: { id: true },
-    })
-  ).map((row) => row.id);
-
-  await prisma.$transaction(async (tx) => {
-    if (assignmentIds.length > 0) {
-      await tx.test.updateMany({
-        where: { scheduleAssignmentId: { in: assignmentIds } },
-        data: { scheduleAssignmentId: null },
-      });
-      await tx.testScheduleAssignment.deleteMany({
-        where: { id: { in: assignmentIds } },
-      });
+  try {
+    const session = await requireRole(["ORG_ADMIN"]);
+    const organizationId = session.user.organizationId;
+    if (!organizationId) {
+      return { ok: false as const, error: "No organization is linked to this account." };
     }
 
-    await tx.orgMembership.delete({ where: { id: membership.id } });
+    const id = z.string().min(1, "Select a teacher to delete.").parse(formData.get("id"));
 
-    if (otherMemberships.length > 0) {
-      const next = otherMemberships[0];
-      const user = await tx.user.findUnique({
-        where: { id },
-        select: { organizationId: true },
-      });
-      if (user?.organizationId === organizationId) {
+    const membership = await prisma.orgMembership.findFirst({
+      where: { userId: id, organizationId, role: "TEACHER" },
+      include: {
+        user: {
+          select: {
+            id: true,
+            role: true,
+            orgMemberships: {
+              select: { id: true, organizationId: true, role: true },
+            },
+          },
+        },
+      },
+    });
+
+    if (!membership) {
+      return {
+        ok: false as const,
+        error: "This teacher was not found in your organization.",
+      };
+    }
+    if (membership.isActive) {
+      return {
+        ok: false as const,
+        error: "Deactivate the teacher before deleting.",
+      };
+    }
+    if (membership.user.role !== "TEACHER") {
+      return {
+        ok: false as const,
+        error: "Only teacher accounts can be deleted here.",
+      };
+    }
+    if (membership.user.id === session.user.id) {
+      return { ok: false as const, error: "You cannot delete your own account." };
+    }
+
+    const otherMemberships = membership.user.orgMemberships.filter(
+      (item) => item.organizationId !== organizationId,
+    );
+
+    const assignmentIds = (
+      await prisma.testScheduleAssignment.findMany({
+        where: {
+          teacherId: id,
+          scheduleSubjectClass: {
+            scheduleSubject: {
+              round: { schedule: { organizationId } },
+            },
+          },
+        },
+        select: { id: true },
+      })
+    ).map((row) => row.id);
+
+    await prisma.$transaction(async (tx) => {
+      if (assignmentIds.length > 0) {
+        await tx.test.updateMany({
+          where: { scheduleAssignmentId: { in: assignmentIds } },
+          data: { scheduleAssignmentId: null },
+        });
+        await tx.testScheduleAssignment.deleteMany({
+          where: { id: { in: assignmentIds } },
+        });
+      }
+
+      await tx.orgMembership.delete({ where: { id: membership.id } });
+
+      if (otherMemberships.length > 0) {
+        const next = otherMemberships[0];
+        const user = await tx.user.findUnique({
+          where: { id },
+          select: { organizationId: true },
+        });
+        if (user?.organizationId === organizationId) {
+          await tx.user.update({
+            where: { id },
+            data: {
+              organizationId: next.organizationId,
+              role: next.role,
+            },
+          });
+        }
+      } else {
+        await tx.session.deleteMany({ where: { userId: id } });
+        await tx.account.deleteMany({ where: { userId: id } });
+        await tx.teacherAssignment.deleteMany({ where: { teacherId: id } });
+        await tx.teacherSubject.deleteMany({ where: { teacherId: id } });
         await tx.user.update({
           where: { id },
           data: {
-            organizationId: next.organizationId,
-            role: next.role,
+            isActive: false,
+            organizationId: null,
           },
         });
       }
-    } else {
-      await tx.session.deleteMany({ where: { userId: id } });
-      await tx.account.deleteMany({ where: { userId: id } });
-      await tx.teacherAssignment.deleteMany({ where: { teacherId: id } });
-      await tx.teacherSubject.deleteMany({ where: { teacherId: id } });
-      await tx.user.update({
-        where: { id },
-        data: {
-          isActive: false,
-          organizationId: null,
-        },
-      });
-    }
-  });
+    });
 
-  revalidateTeachers(id);
-  revalidatePath("/org-admin/schedules");
-  revalidatePath("/org-admin/tests");
-  revalidatePath("/teacher/schedules");
+    revalidateTeachers(id);
+    revalidatePath("/org-admin/schedules");
+    revalidatePath("/org-admin/tests");
+    revalidatePath("/teacher/schedules");
+    return { ok: true as const };
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return {
+        ok: false as const,
+        error: error.issues[0]?.message ?? "Select a teacher to delete.",
+      };
+    }
+    return {
+      ok: false as const,
+      error: error instanceof Error ? error.message : "Failed to delete the teacher.",
+    };
+  }
 }

@@ -24,6 +24,8 @@ const STEPS = [
   { id: 2, label: "Assignments" },
 ] as const;
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 export function CreateTeacherForm({
   boards,
   classes,
@@ -57,12 +59,20 @@ export function CreateTeacherForm({
       toast.error("Enter the teacher's full name.");
       return;
     }
-    if (!email.trim().includes("@")) {
+    if (name.trim().length > 120) {
+      toast.error("Teacher name must be 120 characters or fewer.");
+      return;
+    }
+    if (!EMAIL_RE.test(email.trim())) {
       toast.error("Enter a valid email address.");
       return;
     }
     if (password.length < 8) {
       toast.error("Password must be at least 8 characters.");
+      return;
+    }
+    if (password.length > 72) {
+      toast.error("Password must be 72 characters or fewer.");
       return;
     }
     setStep(2);

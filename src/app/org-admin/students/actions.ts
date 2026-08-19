@@ -15,11 +15,19 @@ import {
 
 const studentSchema = z.object({
   id: z.string().min(1).optional(),
-  rollNumber: z.string().trim().max(50),
-  name: z.string().trim().min(2, "Student name is required").max(120),
-  fatherName: z.string().trim().min(2, "Father name is required").max(120),
-  phone: z.string().trim().min(5, "Phone number is required").max(40),
-  sectionId: z.string().min(1, "Section is required"),
+  rollNumber: z.string().trim().max(50, "Roll number must be 50 characters or fewer."),
+  name: z.string().trim().min(2, "Enter the student's full name.").max(120),
+  fatherName: z.string().trim().min(2, "Enter the father's name.").max(120),
+  phone: z
+    .string()
+    .trim()
+    .min(1, "Enter a valid phone number with at least 10 digits.")
+    .max(40, "Phone number must be 40 characters or fewer.")
+    .refine(
+      (value) => (value.match(/\d/g)?.length ?? 0) >= 10,
+      "Enter a valid phone number with at least 10 digits.",
+    ),
+  sectionId: z.string().min(1, "Select a section."),
   stream: z.enum(["SCIENCE", "ARTS"]),
   electiveSubjectId: z.string().optional(),
   electiveSubjectIds: z.array(z.string().min(1)).optional(),

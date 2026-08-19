@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { toast } from "@/components/ui/toast";
 
 type RoundOption = {
   id: string;
@@ -32,7 +33,10 @@ export function CombineRoundsForm({
   }
 
   function openCombined() {
-    if (selected.length === 0) return;
+    if (selected.length === 0) {
+      toast.error("Select at least one round that already has marks.");
+      return;
+    }
     const params = new URLSearchParams();
     params.set("rounds", selected.join(","));
     router.push(

@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { SearchSelect } from "@/components/ui/search-select";
 import { createSection, updateSection } from "./actions";
+import { toast } from "@/components/ui/toast";
 
 type ClassOption = {
   id: string;
@@ -44,7 +45,6 @@ export function SectionForm({
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-  const [error, setError] = useState<string | null>(null);
   const [name, setName] = useState(initial?.name ?? "");
   const [boardId, setBoardId] = useState(initial?.boardId ?? "");
   const [classId, setClassId] = useState(initial?.classId ?? "");
@@ -79,21 +79,28 @@ export function SectionForm({
   }
 
   function onSubmit() {
-    setError(null);
     if (!name.trim()) {
-      setError("Enter section name.");
+      toast.error("Enter a section name.");
       return;
     }
     if (!boardId) {
-      setError("Select a board.");
+      toast.error("Select a board.");
       return;
     }
     if (!classId) {
-      setError("Select a class.");
+      toast.error("Select a class.");
       return;
     }
     if (mode === "create" && previewNames.length === 0) {
-      setError("Enter at least one section name.");
+      toast.error("Enter at least one section name.");
+      return;
+    }
+    if (mode === "edit" && name.trim().length > 50) {
+      toast.error("Section name must be 50 characters or fewer.");
+      return;
+    }
+    if (mode === "create" && previewNames.some((item) => item.length > 50)) {
+      toast.error("Each section name must be 50 characters or fewer.");
       return;
     }
 
@@ -108,9 +115,16 @@ export function SectionForm({
       const result =
         mode === "edit" ? await updateSection(formData) : await createSection(formData);
       if (!result.ok) {
-        setError(result.error);
+        toast.error(result.error);
         return;
       }
+      toast.success(
+        mode === "edit"
+          ? "Section updated successfully."
+          : previewNames.length > 1
+            ? `${previewNames.length} sections created successfully.`
+            : "Section created successfully.",
+      );
       router.push("/org-admin/sections");
       router.refresh();
     });
@@ -179,12 +193,6 @@ export function SectionForm({
           className="h-11 w-full"
         />
       </div>
-
-      {error ? (
-        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3">
-          <p className="text-sm font-medium text-red-700">{error}</p>
-        </div>
-      ) : null}
 
       <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
         <Link href="/org-admin/sections">

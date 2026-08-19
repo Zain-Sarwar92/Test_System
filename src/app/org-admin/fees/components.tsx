@@ -1,5 +1,9 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 import { Card } from "@/components/ui/card";
+import { toast } from "@/components/ui/toast";
 
 export function formatPkr(value: { toFixed(decimalPlaces: number): string } | number) {
   const amount = typeof value === "number" ? value.toFixed(2) : value.toFixed(2);
@@ -39,19 +43,18 @@ export function FlashMessage({
   success?: string;
   error?: string;
 }) {
-  const message = error ?? success;
-  if (!message) return null;
-  return (
-    <div
-      className={`rounded-xl border px-4 py-3 text-sm font-medium ${
-        error
-          ? "border-red-200 bg-red-50 text-red-700"
-          : "border-emerald-200 bg-emerald-50 text-emerald-800"
-      }`}
-    >
-      {message}
-    </div>
-  );
+  const shown = useRef(false);
+
+  useEffect(() => {
+    if (shown.current) return;
+    const message = error ?? success;
+    if (!message) return;
+    shown.current = true;
+    if (error) toast.error(error);
+    else toast.success(success!);
+  }, [error, success]);
+
+  return null;
 }
 
 export function StatCard({

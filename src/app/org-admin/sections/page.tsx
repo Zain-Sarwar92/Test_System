@@ -5,7 +5,7 @@ import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { orgHasModule } from "@/lib/org-modules";
-import { deleteSection } from "./actions";
+import { DeleteSectionButton } from "./section-actions";
 
 export default async function SectionsPage() {
   const session = await requireRole(["ORG_ADMIN"]);
@@ -137,12 +137,10 @@ export default async function SectionsPage() {
                           Edit
                         </Button>
                       </Link>
-                      <form action={deleteSection}>
-                        <input type="hidden" name="id" value={section.id} />
-                        <Button type="submit" variant="danger" size="sm">
-                          Delete
-                        </Button>
-                      </form>
+                      <DeleteSectionButton
+                        sectionId={section.id}
+                        sectionName={section.name}
+                      />
                     </div>
                   </div>
                 ))}

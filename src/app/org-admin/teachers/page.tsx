@@ -4,8 +4,11 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { deleteTeacher, toggleTeacherActive } from "./actions";
 import { TeachersFilter } from "./teachers-filter";
+import {
+  DeleteTeacherButton,
+  ToggleTeacherActiveButton,
+} from "./teacher-row-actions";
 
 type OrgTeachersPageProps = {
   searchParams: Promise<{ subject?: string; q?: string }>;
@@ -223,19 +226,16 @@ export default async function OrgTeachersPage({
                       Edit
                     </Button>
                   </Link>
-                  <form action={toggleTeacherActive}>
-                    <input type="hidden" name="id" value={teacher.id} />
-                    <Button type="submit" variant="outline" size="sm">
-                      {teacher.membershipActive ? "Deactivate" : "Activate"}
-                    </Button>
-                  </form>
+                  <ToggleTeacherActiveButton
+                    teacherId={teacher.id}
+                    teacherName={teacher.name}
+                    isActive={teacher.membershipActive}
+                  />
                   {!teacher.membershipActive ? (
-                    <form action={deleteTeacher}>
-                      <input type="hidden" name="id" value={teacher.id} />
-                      <Button type="submit" variant="danger" size="sm">
-                        Delete
-                      </Button>
-                    </form>
+                    <DeleteTeacherButton
+                      teacherId={teacher.id}
+                      teacherName={teacher.name}
+                    />
                   ) : null}
                 </div>
               </div>

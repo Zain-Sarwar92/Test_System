@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { MultiSearchSelect } from "@/components/ui/multi-search-select";
 import { saveExamSectionSubjects } from "../../../../../actions";
+import { toast } from "@/components/ui/toast";
 
 type SubjectOption = {
   id: string;
@@ -35,7 +36,6 @@ export function SelectExamSubjectsForm({
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-  const [error, setError] = useState<string | null>(null);
   const [selectedIds, setSelectedIds] = useState<string[]>(initialSubjectIds);
 
   const options = useMemo(
@@ -51,9 +51,8 @@ export function SelectExamSubjectsForm({
   );
 
   function submit() {
-    setError(null);
     if (selectedIds.length === 0) {
-      setError("Select at least one subject.");
+      toast.error("Select at least one subject.");
       return;
     }
     const formData = new FormData();
@@ -65,9 +64,10 @@ export function SelectExamSubjectsForm({
     startTransition(async () => {
       const result = await saveExamSectionSubjects(formData);
       if (!result.ok) {
-        setError(result.error);
+        toast.error(result.error);
         return;
       }
+      toast.success("Exam subjects saved successfully.");
       router.push(`/org-admin/results/sections/${sectionId}/exams/${examId}`);
       router.refresh();
     });
@@ -97,8 +97,6 @@ export function SelectExamSubjectsForm({
           {selectedIds.length} subject{selectedIds.length === 1 ? "" : "s"} selected
         </span>
       </div>
-
-      {error ? <p className="text-sm font-medium text-red-700">{error}</p> : null}
 
       <div className="flex flex-wrap gap-2">
         <Button type="button" disabled={pending} onClick={submit}>
