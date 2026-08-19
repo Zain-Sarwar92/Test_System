@@ -75,7 +75,7 @@ export default async function TeacherDetailPage({
             Teaching permissions
           </h3>
           <p className="mt-1 text-sm text-muted">
-            Subjects this teacher can generate papers for. Edit to assign or revoke any class/subject.
+            Subjects this teacher can generate tests for. Edit to assign or revoke any class/subject.
           </p>
         </div>
         <div className="p-5">

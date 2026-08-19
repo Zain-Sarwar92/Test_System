@@ -4,9 +4,13 @@ import "./landing.css";
 import { Toaster } from "@/components/ui/toast";
 
 export const metadata: Metadata = {
-  title: "Test Hub — Board-ready test papers for schools",
+  title: "Green Book — Board-ready tests for schools",
   description:
-    "Multi-tenant test paper generator for schools, academies, and universities. Auto or manual generation, schedules, and print-ready exports.",
+    "Multi-tenant test generator for schools, academies, and universities. Auto or manual generation, schedules, and print-ready exports.",
+  icons: {
+    icon: "/brand/green-book-logo.png",
+    apple: "/brand/green-book-logo.png",
+  },
 };
 
 export default function RootLayout({

@@ -27,7 +27,7 @@ export default async function OrgProfilePage() {
       <PageHeader
         kicker="Branding"
         title="Organization Profile"
-        description="Update name, logo URL, and address — these details print on the exam paper header."
+        description="Update name, logo URL, and address — these details print on the exam test header."
       />
       <OrgProfileForm
         org={{

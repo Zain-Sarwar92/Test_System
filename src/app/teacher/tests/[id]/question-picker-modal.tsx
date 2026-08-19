@@ -232,7 +232,7 @@ export function QuestionPickerModal({
       setPool(section.questions);
       setPoolTotal(section.questions.length);
       setMessage(
-        `${section.questions.length} ${TYPE_META[type].short} loaded from the paper — use Replace, then Add.`,
+        `${section.questions.length} ${TYPE_META[type].short} loaded from the test — use Replace, then Add.`,
       );
     } else {
       setRequiredCount("");
@@ -240,7 +240,7 @@ export function QuestionPickerModal({
       setDraftSelected([]);
       setPool([]);
       setPoolTotal(0);
-      setMessage(`This paper has no ${TYPE_META[type].short} yet — select new ones.`);
+      setMessage(`This test has no ${TYPE_META[type].short} yet — select new ones.`);
     }
   }
 
@@ -260,7 +260,7 @@ export function QuestionPickerModal({
       setPool(section.questions);
       setPoolTotal(section.questions.length);
       setMessage(
-        `${section.questions.length} ${TYPE_META[parsed.type].short} loaded from the paper — use Replace, then Add.`,
+        `${section.questions.length} ${TYPE_META[parsed.type].short} loaded from the test — use Replace, then Add.`,
       );
     } else {
       setRequiredCount(section?.questions.length || "");
@@ -268,7 +268,7 @@ export function QuestionPickerModal({
       setDraftSelected(section && parsed.field === "ALL" ? section.questions : []);
       setMessage(
         parsed.field === "ALL"
-          ? `This paper has no ${TYPE_META[parsed.type].short} yet — select new ones.`
+          ? `This test has no ${TYPE_META[parsed.type].short} yet — select new ones.`
           : `${TYPE_META[parsed.type].short} · field filter on — try Search or Random.`,
       );
     }
@@ -524,7 +524,7 @@ export function QuestionPickerModal({
                       <option key={opt.value} value={opt.value}>
                         {opt.label}
                         {opt.field === "ALL" && onPaper > 0
-                          ? ` — paper: ${onPaper}`
+                          ? ` — test: ${onPaper}`
                           : ` — ${typeCountInChapters(chapters, opt.type)} available`}
                       </option>
                     );
@@ -544,7 +544,7 @@ export function QuestionPickerModal({
                       <option key={t} value={t}>
                         {TYPE_META[t].label} ({TYPE_META[t].urdu})
                         {onPaper > 0
-                          ? ` — paper: ${onPaper}`
+                          ? ` — test: ${onPaper}`
                           : ` — ${typeCountInChapters(chapters, t)} available`}
                       </option>
                     );
@@ -638,7 +638,7 @@ export function QuestionPickerModal({
                 variant="outline"
                 onClick={() => loadTypeFromPaper(activeType)}
               >
-                Reset to paper
+                Reset to test
               </Button>
             ) : null}
           </div>
@@ -753,7 +753,7 @@ export function QuestionPickerModal({
           </p>
           <div className="flex flex-wrap gap-2">
             <Button variant="outline" onClick={onClose}>
-              View paper
+              View test
             </Button>
             <Button
               onClick={addToPaper}

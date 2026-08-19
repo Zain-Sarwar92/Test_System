@@ -27,12 +27,12 @@ const FEATURE_CARDS = [
   {
     icon: Wand2,
     title: "Auto-Balanced Generation",
-    body: "Generate balanced papers with smart topic coverage—without manually searching through the question bank.",
+    body: "Generate balanced tests with smart topic coverage—without manually searching through the question bank.",
   },
   {
     icon: PencilLine,
     title: "Manual Pick & Edit",
-    body: "Select questions yourself, then replace, reorder, edit, or remove them before generating the final paper.",
+    body: "Select questions yourself, then replace, reorder, edit, or remove them before generating the final test.",
   },
   {
     icon: Layers3,
@@ -47,12 +47,12 @@ const FEATURE_CARDS = [
   {
     icon: CalendarClock,
     title: "Exam Scheduling",
-    body: "Admins can assign subjects and exam dates, while teachers build papers from their assigned exams.",
+    body: "Admins can assign subjects and exam dates, while teachers build tests from their assigned exams.",
   },
   {
     icon: FileDown,
-    title: "Branded PDF Papers",
-    body: "Generate print-ready papers with your institute logo, header fields, marks, time, and instructions.",
+    title: "Branded PDF Tests",
+    body: "Generate print-ready tests with your institute logo, header fields, marks, time, and instructions.",
   },
 ] as const;
 
@@ -73,7 +73,7 @@ const MODE_CARDS = [
     badge: "Full Control",
     points: [
       "Pick every question yourself",
-      "See your paper in real time",
+      "See your test in real time",
       "Save unlimited drafts",
     ],
   },
@@ -82,7 +82,7 @@ const MODE_CARDS = [
 const COVERAGE_CARDS = [
   {
     title: "Punjab Board (PTB)",
-    detail: "Grades 9–12 with chapter and topic-based paper generation.",
+    detail: "Grades 9–12 with chapter and topic-based test generation.",
     tone: "teal",
   },
   {
@@ -123,13 +123,13 @@ const STEP_CARDS = [
   },
   {
     n: "02",
-    title: "Create the Paper",
+    title: "Create the Test",
     body: "Teachers follow the syllabus wizard, then generate automatically or pick questions manually.",
   },
   {
     n: "03",
     title: "Export & Print",
-    body: "Review the paper, make final edits, and export a clean, branded PDF—ready to print.",
+    body: "Review the test, make final edits, and export a clean, branded PDF—ready to print.",
   },
 ] as const;
 
@@ -147,7 +147,7 @@ const ROLE_CARDS = [
   {
     icon: Users,
     role: "Teacher",
-    body: "Generate, edit, save, and print papers from assigned exams.",
+    body: "Generate, edit, save, and print tests from assigned exams.",
   },
 ] as const;
 
@@ -168,13 +168,13 @@ export function LandingPage() {
           <div className="landing-hero-grid">
             <div className="landing-hero-copy">
               <p id="landing-brand" className="landing-brand">
-                Test Hub
+                Green Book
               </p>
               <h1 className="landing-headline">
-                Board-Pattern Papers. Ready in Minutes, Not Hours.
+                Board-Pattern Tests. Ready in Minutes, Not Hours.
               </h1>
               <p className="landing-lede">
-                Create professional test papers for Pakistani schools and
+                Create professional tests for Pakistani schools and
                 academies—with smart wizard selection, manual controls, and
                 print-ready branded PDFs.
               </p>
@@ -199,7 +199,7 @@ export function LandingPage() {
                 <div className="landing-wizard-card">
                   <div className="landing-wizard-top">
                     <ClipboardList className="h-4 w-4" />
-                    <span>Paper wizard</span>
+                    <span>Test wizard</span>
                   </div>
                   <ol className="landing-wizard-steps">
                     <li className="is-done">Board · Punjab</li>
@@ -214,7 +214,7 @@ export function LandingPage() {
 
                 <div className="landing-paper-card">
                   <div className="landing-paper-head">
-                    <span className="landing-paper-seal">TH</span>
+                    <span className="landing-paper-seal">GB</span>
                     <div>
                       <p className="landing-paper-org">Sunrise Academy</p>
                       <p className="landing-paper-meta">
@@ -264,14 +264,14 @@ export function LandingPage() {
         <section id="features" className="landing-section theme-white">
           <div className="landing-section-inner">
             <Reveal from="up" className="landing-section-head">
-              <p className="landing-kicker">Why Test Hub</p>
+              <p className="landing-kicker">Why Green Book</p>
               <h2 className="landing-section-title">
-                Everything you need to create better papers — in one workspace.
+                Everything you need to create better tests — in one workspace.
               </h2>
               <p className="landing-section-lede">
-                From board selection to branded PDF, Test Hub gives admins and
+                From board selection to branded PDF, Green Book gives admins and
                 teachers everything they need to create balanced, professional
-                papers faster.
+                tests faster.
               </p>
             </Reveal>
 
@@ -391,7 +391,7 @@ export function LandingPage() {
                 <span className="landing-type-code">Medium</span>
                 <strong>English • Urdu • Dual Medium</strong>
                 <span>
-                  Switch the paper medium without rebuilding your question bank.
+                  Switch the test medium without rebuilding your question bank.
                 </span>
               </Reveal>
             </div>
@@ -403,7 +403,7 @@ export function LandingPage() {
             <Reveal from="up" className="landing-section-head">
               <p className="landing-kicker">How It Works</p>
               <h2 className="landing-section-title">
-                From exam schedule to print-ready paper in three simple steps.
+                From exam schedule to print-ready test in three simple steps.
               </h2>
             </Reveal>
 
@@ -454,20 +454,20 @@ export function LandingPage() {
 
         <section id="start" className="landing-cta-band">
           <Reveal from="up" className="landing-cta-band-inner">
-            <p className="landing-brand landing-brand-on-dark">Test Hub</p>
+            <p className="landing-brand landing-brand-on-dark">Green Book</p>
             <h2 className="landing-cta-title">
-              Ready for your next mid-term paper?
+              Ready for your next mid-term test?
             </h2>
             <p className="landing-cta-copy">
               Sign in with your institute account. Admins manage teachers and
-              schedules; teachers generate unlimited papers from the shared bank.
+              schedules; teachers generate unlimited tests from the shared bank.
             </p>
             <div className="landing-cta-row">
               <Link
                 href="/login"
                 className="landing-btn landing-btn-solid landing-btn-lg"
               >
-                Login to Test Hub
+                Login to Green Book
               </Link>
               <a
                 href="#features"
@@ -483,7 +483,7 @@ export function LandingPage() {
       <footer className="landing-footer">
         <div className="landing-footer-inner">
           <div>
-            <p className="landing-footer-brand">Test Hub</p>
+            <p className="landing-footer-brand">Green Book</p>
             <p className="landing-footer-tag">
               Multi-tenant test generation for schools, academies, and colleges.
             </p>
@@ -495,7 +495,7 @@ export function LandingPage() {
             <a href="#how">How it works</a>
           </div>
           <p className="landing-footer-copy">
-            © {new Date().getFullYear()} Test Hub. All rights reserved.
+            © {new Date().getFullYear()} Green Book. All rights reserved.
           </p>
         </div>
       </footer>

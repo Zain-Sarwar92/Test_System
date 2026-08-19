@@ -15,12 +15,12 @@ export function PrintToolbar({
       <div className="flex flex-wrap gap-2">
         <Link href={listHref}>
           <Button variant="outline" size="sm">
-            Saved Papers
+            Saved Tests
           </Button>
         </Link>
         <Link href={backHref}>
           <Button variant="outline" size="sm">
-            Edit paper
+            Edit test
           </Button>
         </Link>
       </div>

@@ -187,7 +187,7 @@ export function TeacherScheduleFormView({
               {group.scheduleName}
             </h2>
             <p className="mt-1 text-sm text-muted">
-              Syllabus is per round exam. Add it, then create the paper when ready.
+              Syllabus is per round exam. Add it, then create the test when ready.
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export function TeacherScheduleFormView({
                           Status
                         </th>
                         <th className="whitespace-nowrap px-3 py-3 font-semibold text-ink">
-                          Paper
+                          Test
                         </th>
                       </tr>
                     </thead>
@@ -250,7 +250,7 @@ export function TeacherScheduleFormView({
                                   item.dueThisWeek && item.status !== "COMPLETED",
                               ) ? (
                               <p className="mt-1 text-[11px] font-semibold text-[#8a5a00]">
-                                Due within 1 week — create paper
+                                Due within 1 week — create test
                               </p>
                             ) : null}
                           </td>

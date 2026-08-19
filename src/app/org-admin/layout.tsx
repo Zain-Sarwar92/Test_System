@@ -17,7 +17,7 @@ const nav: Array<{
   { href: "/org-admin/teachers", label: "Teachers", icon: "teachers" },
   { href: "/org-admin/teachers/new", label: "Add Teacher", icon: "teachers" },
   { href: "/org-admin/schedules", label: "Schedules", icon: "schedule", module: "SCHEDULES" },
-  { href: "/org-admin/generate", label: "Generate Paper", icon: "generate" },
+  { href: "/org-admin/generate", label: "Generate Test", icon: "generate" },
   { href: "/org-admin/tests", label: "Tests", icon: "tests" },
   { href: "/org-admin/profile", label: "Profile", icon: "profile" },
 ];

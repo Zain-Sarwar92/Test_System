@@ -69,7 +69,7 @@ export function DeleteTeacherButton({
   function onDelete() {
     if (
       !window.confirm(
-        `Delete ${teacherName}? Generated papers will be kept, but this teacher will be removed from your organization.`,
+        `Delete ${teacherName}? Generated tests will be kept, but this teacher will be removed from your organization.`,
       )
     ) {
       return;

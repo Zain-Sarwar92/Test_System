@@ -419,7 +419,7 @@ export function ExamPaperSheet({
     sections.reduce((sum, s) => sum + s.questions.length * s.marksEach, 0);
 
   const org = meta.organization;
-  const orgName = org?.name?.trim() || meta.boardName || "Examination Paper";
+  const orgName = org?.name?.trim() || meta.boardName || "Examination Test";
   const address = org?.address?.trim() || null;
   const logoUrl = org?.logoUrl?.trim() || null;
 
@@ -483,7 +483,7 @@ export function ExamPaperSheet({
         <MetaCell label="Roll Number" value="" />
         <MetaCell label="Class Name" value={classDisplay || "____"} />
         <MetaCell
-          label="Paper Code"
+          label="Test Code"
           value={(meta.paperCode || "____").toUpperCase()}
         />
         <MetaCell

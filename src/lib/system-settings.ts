@@ -10,7 +10,7 @@ export const SETTING_KEYS = {
 } as const;
 
 export const DEFAULT_SETTINGS: Record<string, string> = {
-  [SETTING_KEYS.platformName]: "Test Hub",
+  [SETTING_KEYS.platformName]: "Green Book",
   [SETTING_KEYS.defaultDurationMinutes]: "60",
   [SETTING_KEYS.defaultMcqMarks]: "1",
   [SETTING_KEYS.defaultShortMarks]: "2",

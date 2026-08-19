@@ -44,10 +44,10 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
           <div className="login-page-grid">
             <div className="login-hero fade-up hidden text-white lg:block lg:pr-4">
               <p className="text-[11px] font-semibold tracking-[0.28em] text-teal-200/90 uppercase">
-                Test Hub
+                Green Book
               </p>
               <h1 className="font-display mt-4 max-w-[34rem] text-[2.35rem] leading-[1.12] font-semibold tracking-tight sm:text-5xl">
-                Professional papers, built for real classrooms.
+                Professional tests, built for real classrooms.
               </h1>
               <p className="mt-4 max-w-[28rem] text-sm leading-relaxed text-white/75 sm:text-[0.95rem]">
                 A multi-tenant platform for schools and academies — generate balanced
@@ -72,7 +72,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
                 showSignOut={Boolean(session && errorParam)}
               />
               <p className="login-form-explore">
-                New to Test Hub?{" "}
+                New to Green Book?{" "}
                 <Link href="/#features">See how it works</Link>
               </p>
             </div>

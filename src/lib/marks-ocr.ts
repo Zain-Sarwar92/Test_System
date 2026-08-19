@@ -34,7 +34,7 @@ function buildPrompt(totalMarks: number, rollNumbers: string[]): string {
   return [
     "This image is a printed student award list from a school. Marks are handwritten in the",
     '"OBT. MARKS" column next to each printed roll number.',
-    `Read every data row and return the handwritten obtained marks. Total marks for this paper is ${totalMarks}, so every value must be between 0 and ${totalMarks}.`,
+    `Read every data row and return the handwritten obtained marks. Total marks for this test is ${totalMarks}, so every value must be between 0 and ${totalMarks}.`,
     known,
     "Rules:",
     "- Report the printed roll number exactly as printed, plus the handwritten mark for that row.",

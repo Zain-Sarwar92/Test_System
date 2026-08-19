@@ -177,7 +177,7 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
             <p className="mt-1 text-sm text-muted">
               {schedule.rounds.length} round
               {schedule.rounds.length === 1 ? "" : "s"} · {allSubjects.length}{" "}
-              subjects · {completed}/{total} papers ready
+              subjects · {completed}/{total} tests ready
             </p>
           </div>
           <p className="text-2xl font-semibold text-ink">{percent}%</p>
@@ -243,7 +243,7 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
                       >
                         {round.name}
                         <span className="ml-2 text-xs font-medium text-muted">
-                          {roundCompleted}/{roundTotal} papers ready
+                          {roundCompleted}/{roundTotal} tests ready
                         </span>
                       </td>
                     </tr>
@@ -332,13 +332,13 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
                                             {assignment.coveredByTest &&
                                             !assignment.test ? (
                                               <span className="text-[10px] font-medium text-muted">
-                                                Shared paper
+                                                Shared test
                                               </span>
                                             ) : null}
                                           </div>
                                           {dateMismatch ? (
                                             <p className="mt-1 text-[11px] font-medium text-[#8a5a00]">
-                                              Paper date{" "}
+                                              Test date{" "}
                                               {formatScheduleDate(
                                                 linkedPaper!.examDate!,
                                               )}{" "}
@@ -369,7 +369,7 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
         <CardTitle className="text-base">Manage schedule</CardTitle>
         <p className="mt-1 text-sm text-muted">
           Cancel keeps the record but stops it as active. Delete removes the
-          schedule completely (teacher papers stay saved).
+          schedule completely (teacher tests stay saved).
         </p>
         <div className="mt-4 flex flex-wrap gap-3">
           {schedule.status === "ACTIVE" ? (

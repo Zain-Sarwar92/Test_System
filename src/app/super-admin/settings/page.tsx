@@ -15,13 +15,13 @@ export default async function SettingsPage() {
       <PageHeader
         kicker="Platform"
         title="System settings"
-        description="Defaults used when teachers generate papers and platform-wide options."
+        description="Defaults used when teachers generate tests and platform-wide options."
       />
 
       <Card className="chart-card max-w-2xl">
         <CardTitle>Defaults &amp; maintenance</CardTitle>
         <CardDescription className="mt-1">
-          Changes apply to new papers; existing saved tests are unchanged.
+          Changes apply to new tests; existing saved tests are unchanged.
         </CardDescription>
 
         <form action={saveSystemSettings} className="mt-4 space-y-4">

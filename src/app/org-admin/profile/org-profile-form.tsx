@@ -81,7 +81,7 @@ export function OrgProfileForm({
     <Card className="fade-up max-w-3xl">
       <CardTitle>{org.name}</CardTitle>
       <CardDescription>
-        On the paper, the logo appears on the left, the school name in the center, and the
+        On the test, the logo appears on the left, the school name in the center, and the
         address below. Required fields are marked with <span className="req-mark">*</span>
       </CardDescription>
 
@@ -105,7 +105,7 @@ export function OrgProfileForm({
             />
           </label>
           <label>
-            <span className="field-label">Logo URL (printed on papers)</span>
+            <span className="field-label">Logo URL (printed on tests)</span>
             <Input
               name="logoUrl"
               defaultValue={org.logoUrl ?? ""}
@@ -115,7 +115,7 @@ export function OrgProfileForm({
         </div>
 
         <label className="block">
-          <span className="field-label">Head office / address (printed on papers)</span>
+          <span className="field-label">Head office / address (printed on tests)</span>
           <textarea
             name="address"
             className="field-area"

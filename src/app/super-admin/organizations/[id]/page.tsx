@@ -59,7 +59,7 @@ export default async function OrganizationDetailPage({
         <Card className="chart-card">
           <CardTitle>Edit organization</CardTitle>
           <CardDescription className="mt-1">
-            Branding fields print on exam papers for this tenant.
+            Branding fields print on exam tests for this tenant.
           </CardDescription>
           <form
             action={updateOrganization}

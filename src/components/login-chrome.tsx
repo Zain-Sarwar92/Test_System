@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { BrandLogo } from "@/components/brand-logo";
 
 export const LOGIN_EXPLORE_LINKS = [
   { href: "/", label: "Home" },
@@ -28,14 +29,13 @@ export function LoginNav() {
   return (
     <header className="login-nav">
       <div className="login-nav-inner">
-        <Link href="/" className="login-logo" aria-label="Test Hub home">
-          <span className="login-logo-mark" aria-hidden>
-            TH
-          </span>
-          <span className="login-logo-text">Test Hub</span>
-        </Link>
+        <BrandLogo
+          className="login-logo"
+          markClassName="login-logo-mark"
+          textClassName="login-logo-text"
+        />
 
-        <nav className="login-nav-links" aria-label="Explore Test Hub">
+        <nav className="login-nav-links" aria-label="Explore Green Book">
           {LOGIN_EXPLORE_LINKS.map((link) => (
             <Link key={link.href} href={link.href}>
               {link.label}
