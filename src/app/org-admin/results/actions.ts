@@ -1,7 +1,5 @@
 "use server";
 
-import { mkdir, readFile, writeFile } from "fs/promises";
-import path from "path";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { z } from "zod";
@@ -14,6 +12,11 @@ import {
   extractMarksFromSheetImage,
   type ExtractedMarkRow,
 } from "@/lib/marks-ocr";
+import {
+  deleteAssessmentSheetFile,
+  readAssessmentSheetBytes,
+  saveAssessmentSheetFile,
+} from "@/lib/assessment-sheet-storage";
 
 const IMAGE_TYPES: Record<string, string> = {
   "image/jpeg": "jpg",
@@ -346,6 +349,9 @@ export async function uploadAssessmentSheet(formData: FormData) {
     if (file.size > 8 * 1024 * 1024) {
       return { ok: false as const, error: "Image must be 8 MB or smaller" };
     }
+    if (process.env.VERCEL && file.size > 2 * 1024 * 1024) {
+      return { ok: false as const, error: "On hosting, sheet photos must be 2 MB or smaller" };
+    }
     const ext = IMAGE_TYPES[file.type];
     if (!ext) return { ok: false as const, error: "Upload a JPG, PNG, or WEBP image" };
 
@@ -355,21 +361,18 @@ export async function uploadAssessmentSheet(formData: FormData) {
     });
     if (!assessment) throw new Error("Assessment not found");
 
-    const fileName = `${crypto.randomUUID()}.${ext}`;
-    const relativeDir = path.posix.join(
-      "uploads",
-      "result-sheets",
+    const imagePath = await saveAssessmentSheetFile({
       organizationId,
-      assessment.id,
-    );
-    const diskDir = path.join(process.cwd(), "public", relativeDir);
-    await mkdir(diskDir, { recursive: true });
-    await writeFile(path.join(diskDir, fileName), Buffer.from(await file.arrayBuffer()));
+      assessmentId: assessment.id,
+      ext,
+      mimeType: file.type,
+      bytes: Buffer.from(await file.arrayBuffer()),
+    });
 
     const sheet = await prisma.assessmentSheet.create({
       data: {
         assessmentId: assessment.id,
-        imagePath: `/${relativeDir}/${fileName}`,
+        imagePath,
         originalName: file.name.slice(0, 180),
       },
       select: { id: true },
@@ -415,15 +418,12 @@ export async function readMarksFromSheet(input: {
     });
     if (!sheet) throw new Error("Sheet not found");
 
-    const relativePath = sheet.imagePath.replace(/^\/+/, "");
-    const diskPath = path.join(process.cwd(), "public", relativePath);
-    const ext = path.extname(diskPath).toLowerCase();
-    const mimeType =
-      ext === ".png" ? "image/png" : ext === ".webp" ? "image/webp" : "image/jpeg";
-
     let file: Buffer;
+    let mimeType: string;
     try {
-      file = await readFile(diskPath);
+      const stored = await readAssessmentSheetBytes(sheet.imagePath);
+      file = stored.bytes;
+      mimeType = stored.mimeType;
     } catch {
       throw new Error("Sheet image file is missing on the server. Upload it again.");
     }
@@ -456,10 +456,12 @@ export async function deleteAssessmentSheet(formData: FormData) {
     where: { id, assessment: { organizationId } },
     select: {
       id: true,
+      imagePath: true,
       assessment: { select: { sectionId: true, examTermId: true } },
     },
   });
   if (!sheet) throw new Error("Sheet not found");
+  await deleteAssessmentSheetFile(sheet.imagePath);
   await prisma.assessmentSheet.delete({ where: { id } });
   revalidateResults(sheet.assessment.sectionId, sheet.assessment.examTermId);
 }

@@ -41,7 +41,7 @@ export function LoginForm({
       });
 
       if (result.error) {
-        setError(result.error.message ?? "Login failed");
+        setError("Invalid email or password.");
         setLoading(false);
         return;
       }
@@ -63,8 +63,8 @@ export function LoginForm({
 
       router.replace(target);
       router.refresh();
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Login failed");
+    } catch {
+      setError("Invalid email or password.");
       setLoading(false);
     }
   }

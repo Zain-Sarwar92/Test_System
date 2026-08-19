@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { createOrganizationAction } from "./actions";
 import { OrgModuleCheckboxes } from "@/components/org-module-checkboxes";
 import { LogoUploadField } from "@/components/logo-upload-field";
+import { PASSWORD_HINT } from "@/lib/password-policy";
 
 export function CreateOrgForm({
   plans = [],
@@ -102,9 +103,9 @@ export function CreateOrgForm({
           <Input
             name="adminPassword"
             type="password"
-            placeholder="Minimum 8 characters"
+            placeholder={PASSWORD_HINT}
             required
-            minLength={8}
+            minLength={10}
           />
         </label>
       </div>

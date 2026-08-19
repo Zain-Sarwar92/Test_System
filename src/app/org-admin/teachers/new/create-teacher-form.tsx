@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { toast } from "@/components/ui/toast";
 import { createTeacher } from "../actions";
 import { expandAssignmentGroups } from "@/lib/teacher-assignments";
+import { passwordMeetsPolicy, PASSWORD_HINT } from "@/lib/password-policy";
 import {
   TeacherAssignmentsEditor,
   newAssignmentDraft,
@@ -67,12 +68,8 @@ export function CreateTeacherForm({
       toast.error("Enter a valid email address.");
       return;
     }
-    if (password.length < 8) {
-      toast.error("Password must be at least 8 characters.");
-      return;
-    }
-    if (password.length > 72) {
-      toast.error("Password must be 72 characters or fewer.");
+    if (!passwordMeetsPolicy(password)) {
+      toast.error(PASSWORD_HINT);
       return;
     }
     setStep(2);
@@ -190,8 +187,8 @@ export function CreateTeacherForm({
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               type="password"
-              placeholder="Minimum 8 characters"
-              minLength={8}
+              placeholder={PASSWORD_HINT}
+              minLength={10}
               autoComplete="new-password"
               className="h-11"
             />
