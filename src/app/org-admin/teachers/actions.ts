@@ -17,8 +17,8 @@ const teacherCreateSchema = z.object({
     .trim()
     .min(2, "Enter the teacher's full name.")
     .max(120, "Teacher name must be 120 characters or fewer."),
-  email: z.string().trim().email("Enter a valid email address."),
-  password: passwordSchema,
+  email: z.string().trim().email("Enter a valid email address.").toLowerCase(),
+  password: z.string(),
   assignments: z.string().optional(),
 });
 
@@ -146,7 +146,7 @@ export async function createTeacher(formData: FormData) {
     const parsed = teacherCreateSchema.parse({
       name: formData.get("name"),
       email: formData.get("email"),
-      password: formData.get("password"),
+      password: String(formData.get("password") ?? ""),
       assignments: String(formData.get("assignments") ?? "[]"),
     });
 
@@ -155,24 +155,101 @@ export async function createTeacher(formData: FormData) {
 
     const existing = await prisma.user.findUnique({
       where: { email: parsed.email },
-      select: { id: true },
+      select: {
+        id: true,
+        role: true,
+        isActive: true,
+        organizationId: true,
+        orgMemberships: {
+          select: { id: true, organizationId: true, role: true, isActive: true },
+        },
+      },
     });
 
     if (existing) {
-      return {
-        ok: false as const,
-        error: "This email is already registered. Use a different email.",
-      };
+      if (
+        existing.role === "SUPER_ADMIN" ||
+        existing.orgMemberships.some((item) => item.role === "SUPER_ADMIN")
+      ) {
+        return {
+          ok: false as const,
+          error: "This email cannot be added as a teacher.",
+        };
+      }
+
+      const here = existing.orgMemberships.find(
+        (item) => item.organizationId === organizationId,
+      );
+      if (here?.role && here.role !== "TEACHER") {
+        return {
+          ok: false as const,
+          error: "This account already belongs to your organization with a different role.",
+        };
+      }
+      if (here?.isActive) {
+        return {
+          ok: false as const,
+          error: "This teacher is already a member of your organization.",
+        };
+      }
+
+      await prisma.$transaction(async (tx) => {
+        if (here) {
+          await tx.orgMembership.update({
+            where: { id: here.id },
+            data: { role: "TEACHER", isActive: true },
+          });
+        } else {
+          await tx.orgMembership.create({
+            data: {
+              userId: existing.id,
+              organizationId,
+              role: "TEACHER",
+              isActive: true,
+            },
+          });
+        }
+
+        await tx.teacherAssignment.deleteMany({
+          where: { teacherId: existing.id, section: { organizationId } },
+        });
+        for (const row of assignments) {
+          await tx.teacherAssignment.create({
+            data: {
+              teacherId: existing.id,
+              classId: row.classId,
+              sectionId: row.sectionId,
+              subjectId: row.subjectId,
+            },
+          });
+        }
+
+        // Keep their current org/role. Only fill in an empty active org, or wake a disabled login.
+        await tx.user.update({
+          where: { id: existing.id },
+          data: {
+            isActive: true,
+            ...(!existing.organizationId
+              ? { organizationId, role: "TEACHER" as const }
+              : {}),
+          },
+        });
+      });
+
+      revalidateTeachers(existing.id);
+      return { ok: true as const, linked: true as const };
     }
+
+    const password = passwordSchema.parse(parsed.password);
 
     let createdUserId: string | null = null;
     try {
-      const created = await createCredentialUser({
-        email: parsed.email,
-        password: parsed.password,
-        name: parsed.name,
-      });
-      createdUserId = created.id;
+        const created = await createCredentialUser({
+          email: parsed.email,
+          password,
+          name: parsed.name,
+        });
+        createdUserId = created.id;
 
       await prisma.$transaction(async (tx) => {
         await tx.user.update({
@@ -220,7 +297,7 @@ export async function createTeacher(formData: FormData) {
     }
 
     revalidateTeachers();
-    return { ok: true as const };
+    return { ok: true as const, linked: false as const };
   } catch (error) {
     if (error instanceof z.ZodError) {
       return {
