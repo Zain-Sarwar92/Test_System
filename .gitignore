@@ -38,6 +38,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env.vercel.prod
 !.env.example
 
 # PTS scrape temp artifacts
