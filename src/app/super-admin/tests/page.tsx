@@ -37,7 +37,7 @@ export default async function SuperAdminTestsPage() {
           <Card>
             <CardTitle>No tests yet</CardTitle>
             <CardDescription className="mt-2">
-              Tests appear here when teachers save papers.
+              Tests appear here when teachers save tests.
             </CardDescription>
           </Card>
         ) : null}

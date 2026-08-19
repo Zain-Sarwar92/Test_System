@@ -189,7 +189,7 @@ export function MarksEntry({
       result.sheetTotalMarks !== result.totalMarks
     ) {
       toast.warning(
-        `This sheet is printed out of ${result.sheetTotalMarks} marks, but this paper is set to ${result.totalMarks}. Set total marks to ${result.sheetTotalMarks} and save it, otherwise percentages will be wrong.`,
+        `This sheet is printed out of ${result.sheetTotalMarks} marks, but this test is set to ${result.totalMarks}. Set total marks to ${result.sheetTotalMarks} and save it, otherwise percentages will be wrong.`,
       );
     }
   }

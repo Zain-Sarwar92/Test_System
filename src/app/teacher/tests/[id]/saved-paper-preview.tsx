@@ -169,7 +169,7 @@ export function SavedPaperPreview({
     const duration =
       typeof durationMinutes === "number" ? durationMinutes : 0;
     if (!title.trim() || title.trim().length < 2) {
-      setError("Paper name required");
+      setError("Test name required");
       return;
     }
     if (duration < 5) {
@@ -222,7 +222,7 @@ export function SavedPaperPreview({
         setManualEditMode(false);
         setQuestionsDirty(false);
         setSaveModalOpen(false);
-        setMessage("Paper saved");
+        setMessage("Test saved");
         router.push("/teacher/tests");
         router.refresh();
       } catch (err) {
@@ -243,8 +243,8 @@ export function SavedPaperPreview({
       <div className="pts-paper-sticky-chrome">
         <div className="responsive-toolbar">
           <div className="min-w-0">
-            <p className="page-kicker">Saved paper</p>
-            <h2 className="page-title">Paper Preview</h2>
+            <p className="page-kicker">Saved test</p>
+            <h2 className="page-title">Test Preview</h2>
             <div className="pts-crumb">
               {boardName ? <span>{boardName.replace(/ Board$/i, "")}</span> : null}
               {className ? (
@@ -260,7 +260,7 @@ export function SavedPaperPreview({
                 </>
               ) : null}
               <span className="pts-crumb-sep">›</span>
-              <span className="pts-crumb-current">Paper</span>
+              <span className="pts-crumb-current">Test</span>
             </div>
           </div>
           <div className="responsive-toolbar-actions">
@@ -322,7 +322,7 @@ export function SavedPaperPreview({
                 ? "Manual edit on · click Save to keep changes"
                 : questionsDirty
                   ? "Unsaved text edits · click Save"
-                  : "Saved paper · use Save to edit date/name"}
+                  : "Saved test · use Save to edit date/name"}
             </span>
           </div>
         </div>
@@ -367,9 +367,9 @@ export function SavedPaperPreview({
           <div className="pts-modal" style={{ width: "min(560px, 100%)" }}>
             <div className="pts-modal-header">
               <div>
-                <p className="text-xs font-medium text-white/80">Save paper</p>
+                <p className="text-xs font-medium text-white/80">Save test</p>
                 <h3 id="save-paper-title" className="text-base font-bold">
-                  Edit paper details
+                  Edit test details
                 </h3>
               </div>
               <button
@@ -383,7 +383,7 @@ export function SavedPaperPreview({
 
             <div className="nice-scroll flex-1 space-y-4 overflow-y-auto p-5">
               <label className="block text-sm font-semibold text-ink">
-                Paper name <span className="text-red-500">*</span>
+                Test name <span className="text-red-500">*</span>
                 <Input
                   className="mt-1.5 h-11"
                   value={title}
@@ -403,7 +403,7 @@ export function SavedPaperPreview({
                     maxLength={120}
                   />
                   <span className="mt-1 block text-[11px] font-normal text-muted">
-                    Same paper for multiple sections? Write them here, e.g. Red, A or Red + A
+                    Same test for multiple sections? Write them here, e.g. Red, A or Red + A
                   </span>
                 </label>
                 <label className="block text-sm font-semibold text-ink">
@@ -426,7 +426,7 @@ export function SavedPaperPreview({
 
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
-                  Paper code
+                  Test code
                   <Input
                     className="mt-1.5 h-11"
                     value={paperCode}
@@ -499,7 +499,7 @@ export function SavedPaperPreview({
                   Cancel
                 </Button>
                 <Button onClick={confirmSave} disabled={pending}>
-                  {pending ? "Saving…" : "Save paper"}
+                  {pending ? "Saving…" : "Save test"}
                 </Button>
               </div>
             </div>

@@ -135,12 +135,42 @@ body {
   place-items: center;
   width: 2.15rem;
   height: 2.15rem;
+  overflow: hidden;
   border-radius: 0.65rem;
-  background: linear-gradient(145deg, var(--brand), var(--brand-deep));
-  color: #fff;
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
+  background: #0f766e;
+  padding: 0;
+}
+
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-logo-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  overflow: hidden;
+  border-radius: 0.7rem;
+  background: #0f766e;
+  box-shadow: 0 8px 20px rgba(15, 118, 110, 0.32);
+}
+
+.brand-mark-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.brand-logo-text {
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
 .login-logo-text {
@@ -461,27 +491,31 @@ body {
 
 @media (max-width: 639px) {
   .pts-choice-card {
-    min-height: 3.55rem;
-    padding: 0.65rem 0.7rem;
-    gap: 0.5rem;
+    min-height: 3.35rem;
+    padding: 0.55rem 0.6rem;
+    gap: 0.4rem;
   }
 
   .pts-choice-card--board {
-    min-height: 4rem;
-    padding: 0.75rem 0.8rem;
+    min-height: 3.5rem;
+    padding: 0.6rem 0.65rem;
   }
 
   .pts-choice-icon,
   .pts-choice-badge {
-    width: 2.15rem;
-    height: 2.15rem;
-    border-radius: 0.7rem;
-    font-size: 0.78rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 0.6rem;
+    font-size: 0.72rem;
   }
 
   .pts-choice-title {
-    font-size: 0.78rem;
-    -webkit-line-clamp: 3;
+    font-size: 0.8rem;
+    display: block;
+    -webkit-line-clamp: unset;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .pts-choice-card--board .pts-choice-title {
@@ -489,8 +523,7 @@ body {
   }
 
   .pts-choice-chevron {
-    width: 0.95rem;
-    height: 0.95rem;
+    display: none;
   }
 
   .pts-chapter-card-head {
@@ -601,10 +634,11 @@ body {
   color: var(--ink);
   line-height: 1.3;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  word-break: break-word;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
 }
 
 .pts-choice-card--board .pts-choice-title {
@@ -716,12 +750,6 @@ body {
 @media (min-width: 640px) {
   .pts-chapter-grid {
     gap: 0.75rem;
-  }
-}
-
-@media (min-width: 800px) {
-  .pts-chapter-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1085,6 +1113,9 @@ body {
   font-weight: 700;
   color: var(--ink);
   line-height: 1.3;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
 }
 
 .pts-planner-card-total {
@@ -1332,6 +1363,9 @@ body {
   font-weight: 700;
   line-height: 1.35;
   color: var(--ink);
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
 }
 
 .pts-chapter-card-meta {

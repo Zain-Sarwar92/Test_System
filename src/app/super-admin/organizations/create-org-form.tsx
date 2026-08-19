@@ -51,7 +51,7 @@ export function CreateOrgForm({
           <Input name="slug" placeholder="al-hadi-group" />
         </label>
         <label className="md:col-span-2">
-          <span className="field-label">Head office / address (printed on papers)</span>
+          <span className="field-label">Head office / address (printed on tests)</span>
           <Input name="address" placeholder="e.g. MAIN LAJPAT ROAD SHAHDARA, LAHORE" />
         </label>
         <label>
@@ -59,7 +59,7 @@ export function CreateOrgForm({
           <Input name="phone" placeholder="+92 300 0000000" />
         </label>
         <label>
-          <span className="field-label">Logo URL (printed on papers)</span>
+          <span className="field-label">Logo URL (printed on tests)</span>
           <Input name="logoUrl" type="url" placeholder="https://..." />
         </label>
         <label className="md:col-span-2">

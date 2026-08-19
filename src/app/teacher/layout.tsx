@@ -6,8 +6,8 @@ import { requireRole, getOrgMemberships } from "@/lib/rbac";
 const nav = [
   { href: "/teacher", label: "Overview", icon: "overview" as const },
   { href: "/teacher/schedules", label: "Assigned Tests", icon: "schedule" as const, module: "SCHEDULES" as const },
-  { href: "/teacher/tests", label: "Saved Papers", icon: "tests" as const },
-  { href: "/teacher/generate", label: "Generate Paper", icon: "generate" as const },
+  { href: "/teacher/tests", label: "Saved Tests", icon: "tests" as const },
+  { href: "/teacher/generate", label: "Generate Test", icon: "generate" as const },
   { href: "/teacher/suggestions", label: "Suggest Question", icon: "suggest" as const },
 ];
 

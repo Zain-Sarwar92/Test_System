@@ -105,7 +105,7 @@ const WIZARD_STEPS: Array<{ id: Step; label: string }> = [
   { id: "subject", label: "Subject" },
   { id: "chapters", label: "Syllabus" },
   { id: "workspace", label: "Build" },
-  { id: "paper", label: "Paper" },
+  { id: "paper", label: "Test" },
 ];
 
 type PaperPreset = {
@@ -631,7 +631,7 @@ export function GenerateWizard({
     plannerTotals.LONG * typeMeta.LONG.defaultMarks;
 
   const paperMeta = {
-    title: title || `${selectedSubject?.name ?? "Subject"} Paper`,
+    title: title || `${selectedSubject?.name ?? "Subject"} Test`,
     boardName: selectedBoard?.name,
     className: selectedClass?.name,
     subjectName: selectedSubject?.name,
@@ -1448,7 +1448,7 @@ export function GenerateWizard({
     const existing = paperSections.find((s) => s.type === activeType);
     if (existing) {
       const ok = window.confirm(
-        `A ${TYPE_META[activeType].label} section is already on this paper (${existing.questions.length} questions). Replace it?`,
+        `A ${TYPE_META[activeType].label} section is already on this test (${existing.questions.length} questions). Replace it?`,
       );
       if (!ok) return;
     }
@@ -1505,7 +1505,7 @@ export function GenerateWizard({
       setTestType(scheduleContext.scheduleName);
     }
     if (!title.trim() && selectedSubject?.name) {
-      setTitle(`${selectedSubject.name} Paper`);
+      setTitle(`${selectedSubject.name} Test`);
     }
     setModalOpen(false);
     setSaveModalOpen(true);
@@ -1535,7 +1535,7 @@ export function GenerateWizard({
       return;
     }
     if (paperSections.length === 0) {
-      toast.error("Paper is empty");
+      toast.error("Test is empty");
       return;
     }
 
@@ -1563,7 +1563,7 @@ export function GenerateWizard({
             questionIds: s.questions.map((q) => q.id),
           })),
         });
-        // Same destination as normal generate — Saved Papers list
+        // Same destination as normal generate — Saved papers list
         router.push(testsRedirectPath);
       } catch (err) {
         toast.error(err instanceof Error ? err.message : "Save failed");
@@ -1673,7 +1673,7 @@ export function GenerateWizard({
     return (
       <PageStack>
         <PageHeader
-          title="Generate Paper"
+          title="Generate Test"
           description={
             hasTeachingAssignments
               ? "No curriculum is available for your assigned subjects yet. Ask Super Admin to add content."
@@ -1688,7 +1688,7 @@ export function GenerateWizard({
     <PageStack wide className="wizard-flow gap-4">
       {scheduleContext ? (
         <div className="rounded-[0.9rem] border border-[#f0d9a8] bg-[#fff8eb] px-4 py-3 text-sm text-[#8a5a00]">
-          Creating paper for assigned schedule:{" "}
+          Creating test for assigned schedule:{" "}
           <strong>{scheduleContext.scheduleName}</strong>. Subject is locked to the
           schedule.
         </div>
@@ -1697,7 +1697,7 @@ export function GenerateWizard({
         <div className="wizard-head">
           <div className="wizard-head-main">
             <div className="min-w-0 flex-1">
-              <p className="page-kicker">Generate paper</p>
+              <p className="page-kicker">Generate Test</p>
               <h2 className="page-title wizard-head-title">
                 {step === "board"
                   ? "Select Board"
@@ -1708,14 +1708,14 @@ export function GenerateWizard({
                       : step === "chapters"
                         ? "Select Syllabus"
                         : step === "paper"
-                          ? "Paper Preview"
+                          ? "Test Preview"
                           : isMultiChapter
                             ? "Chapter Distribution"
                             : "Select Questions"}
               </h2>
               {step === "board" ? (
                 <p className="mt-1 max-w-xl text-sm text-muted">
-                  Choose the education board for this paper.
+                  Choose the education board for this test.
                 </p>
               ) : null}
               {step === "class" ? (
@@ -1764,7 +1764,7 @@ export function GenerateWizard({
                   {step === "paper" ? (
                     <>
                       <span className="pts-crumb-sep">›</span>
-                      <span className="pts-crumb-current">Paper</span>
+                      <span className="pts-crumb-current">Test</span>
                     </>
                   ) : null}
                 </div>
@@ -1811,7 +1811,7 @@ export function GenerateWizard({
                   {manualEditMode ? "Done Editing" : "Manual Edit"}
                 </Button>
                 <Button onClick={openSaveModal} disabled={pending || paperSections.length === 0}>
-                  Save Paper
+                  Save Test
                 </Button>
               </>
             ) : null}
@@ -1820,7 +1820,7 @@ export function GenerateWizard({
       </div>
 
       {step !== "paper" ? (
-        <nav className="pts-steps" aria-label="Paper generation steps">
+        <nav className="pts-steps" aria-label="Test generation steps">
           {WIZARD_STEPS.map((item, index) => {
             const currentIndex = WIZARD_STEPS.findIndex((s) => s.id === step);
             const state =
@@ -2195,7 +2195,7 @@ export function GenerateWizard({
                 </Button>
                 {paperSections.length > 0 ? (
                   <Button variant="outline" onClick={goToPaperView}>
-                    View Paper →
+                    View Test →
                   </Button>
                 ) : null}
               </div>
@@ -2209,7 +2209,7 @@ export function GenerateWizard({
                 summary={
                   paperSections.length > 0
                     ? `${paperQuestionCount} questions ready · ${paperMarks} marks`
-                    : "Open the question picker to build your paper."
+                    : "Open the question picker to build your test."
                 }
               >
                 <Button
@@ -2222,7 +2222,7 @@ export function GenerateWizard({
                 </Button>
                 {paperSections.length > 0 ? (
                   <Button variant="outline" onClick={goToPaperView}>
-                    View Paper
+                    View Test
                   </Button>
                 ) : null}
               </WizardActionBar>
@@ -2258,8 +2258,8 @@ export function GenerateWizard({
           <div className="pts-modal pts-modal--save">
             <div className="flex items-center justify-between gap-3 bg-gradient-to-r from-[#1a3350] to-[#0f766e] px-5 py-4 text-white">
               <div>
-                <p className="text-xs font-medium text-white/70">Save Paper</p>
-                <h3 className="text-base font-bold">Fill paper details</h3>
+                <p className="text-xs font-medium text-white/70">Save Test</p>
+                <h3 className="text-base font-bold">Fill test details</h3>
               </div>
               <button
                 type="button"
@@ -2273,7 +2273,7 @@ export function GenerateWizard({
             <div className="nice-scroll flex-1 space-y-4 overflow-y-auto p-5">
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink sm:col-span-1">
-                  Paper name <span className="text-red-500">*</span>
+                  Test name <span className="text-red-500">*</span>
                   <Input
                     className="mt-1.5 h-11"
                     value={title}
@@ -2309,7 +2309,7 @@ export function GenerateWizard({
                     maxLength={120}
                   />
                   <span className="mt-1 block text-[11px] font-normal text-muted">
-                    Same paper for multiple sections? Write them here, e.g. Red, A or Red + A
+                    Same test for multiple sections? Write them here, e.g. Red, A or Red + A
                   </span>
                 </label>
                 <label className="block text-sm font-semibold text-ink">
@@ -2329,7 +2329,7 @@ export function GenerateWizard({
               </div>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink">
-                  Paper code
+                  Test code
                   <Input
                     className="mt-1.5 h-11"
                     value={paperCode}
@@ -2394,7 +2394,7 @@ export function GenerateWizard({
                   Cancel
                 </Button>
                 <Button onClick={savePaper} disabled={pending}>
-                  {pending ? "Saving…" : "Save Paper"}
+                  {pending ? "Saving…" : "Save Test"}
                 </Button>
               </div>
             </div>
@@ -2706,7 +2706,7 @@ export function GenerateWizard({
               </p>
               <div className="pts-modal-footer-actions">
                 <Button variant="outline" onClick={() => setModalOpen(false)}>
-                  View paper
+                  View Test
                 </Button>
                 <Button onClick={addSectionToPaper} disabled={pending}>
                   Add Questions →

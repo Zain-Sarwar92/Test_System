@@ -52,7 +52,7 @@ export default async function OrganizationsPage() {
           <ul className="mt-4 space-y-3 text-sm text-ink-soft">
             <li className="flex gap-2">
               <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
-              New organization with name, logo &amp; address for paper header
+              New organization with name, logo &amp; address for test header
             </li>
             <li className="flex gap-2">
               <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />

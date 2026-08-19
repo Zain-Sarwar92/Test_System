@@ -147,7 +147,7 @@ export default async function SuperAdminPage() {
       <PageHeader
         kicker="Control center"
         title="Dashboard"
-        description="Platform health — tenants, question bank, and paper activity."
+        description="Platform health — tenants, question bank, and test activity."
         actions={
           pendingSuggestions > 0 ? (
             <Link href="/super-admin/suggestions">
@@ -288,7 +288,7 @@ export default async function SuperAdminPage() {
 
         <Card className="chart-card stagger-4">
           <CardTitle>Test activity</CardTitle>
-          <CardDescription>Saved and finalized papers by teachers.</CardDescription>
+          <CardDescription>Saved and finalized tests by teachers.</CardDescription>
           <div className="mt-6 space-y-4">
             <BarRow
               label="Final"

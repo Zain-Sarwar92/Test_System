@@ -162,7 +162,7 @@ export function SavedPapersTable({
   }, [openMenuId]);
 
   function handleDelete(id: string, title: string) {
-    if (!window.confirm(`Delete paper “${title}”? This cannot be undone.`)) {
+    if (!window.confirm(`Delete test “${title}”? This cannot be undone.`)) {
       return;
     }
     setError(null);
@@ -241,7 +241,7 @@ export function SavedPapersTable({
     <div className="space-y-5">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h2 className="page-title">Saved Papers</h2>
+          <h2 className="page-title">Saved Tests</h2>
           <p className="mt-1 text-sm text-muted">
             {filtered.length} record{filtered.length === 1 ? "" : "s"} found
             {query.trim() ? ` for “${query.trim()}”` : ""}
@@ -253,7 +253,7 @@ export function SavedPapersTable({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={
-              isOrg ? "Search papers or teacher…" : "Search papers…"
+              isOrg ? "Search tests or teacher…" : "Search tests…"
             }
             className="h-10 w-full min-w-[200px] sm:w-64"
           />
@@ -261,14 +261,14 @@ export function SavedPapersTable({
             <Link href="/teacher/generate">
               <Button className="h-10 gap-1.5">
                 <FilePlus2 className="h-4 w-4" />
-                New paper
+                New test
               </Button>
             </Link>
           ) : (
             <Link href="/org-admin/generate">
               <Button className="h-10 gap-1.5">
                 <FilePlus2 className="h-4 w-4" />
-                New paper
+                New test
               </Button>
             </Link>
           )}
@@ -280,22 +280,22 @@ export function SavedPapersTable({
       {filtered.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-[rgba(15,40,70,0.14)] bg-white px-6 py-14 text-center shadow-[0_8px_24px_rgba(11,31,51,0.04)]">
           <p className="text-sm font-semibold text-ink">
-            {papers.length === 0 ? "No saved papers yet" : "No matching papers"}
+            {papers.length === 0 ? "No saved tests yet" : "No matching tests"}
           </p>
           <p className="mt-1 text-sm text-muted">
             {papers.length === 0
               ? isOrg
-                ? "Generate a paper or wait for teachers — saved papers appear here."
-                : "Generate a paper and save it — it will show up here."
+                ? "Generate a test or wait for teachers — saved tests appear here."
+                : "Generate a test and save it — it will show up here."
               : "Try a different search."}
           </p>
           {!isOrg && papers.length === 0 ? (
             <Link href="/teacher/generate" className="mt-5 inline-block">
-              <Button>Generate paper</Button>
+              <Button>Generate test</Button>
             </Link>
           ) : isOrg && papers.length === 0 ? (
             <Link href="/org-admin/generate" className="mt-5 inline-block">
-              <Button>Generate paper</Button>
+              <Button>Generate test</Button>
             </Link>
           ) : null}
         </div>
@@ -305,7 +305,7 @@ export function SavedPapersTable({
             <thead>
               <tr>
                 <th className="w-12">Sr</th>
-                <th>Paper name</th>
+                <th>Test name</th>
                 {isOrg ? <th>Teacher</th> : null}
                 <th>Class</th>
                 <th>Subject</th>

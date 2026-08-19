@@ -166,7 +166,7 @@ export default async function OrgAdminPage() {
       href: "/org-admin/teachers",
     },
     {
-      label: "Papers",
+      label: "Tests",
       value: testCount,
       hint: `${finalTests} finalized · ${draftTests} drafts`,
       icon: FileText,
@@ -213,13 +213,13 @@ export default async function OrgAdminPage() {
       <PageHeader
         kicker={org.isActive ? "Overview" : "Inactive organization"}
         title="Dashboard"
-        description={`Welcome back, ${firstName}. Manage people, papers, and operations for ${org.name}.`}
+        description={`Welcome back, ${firstName}. Manage people, tests, and operations for ${org.name}.`}
         actions={
           <div className="flex flex-wrap gap-2">
             <Link href="/org-admin/generate">
               <Button>
                 <FilePlus2 className="h-4 w-4" />
-                Generate paper
+                Generate test
               </Button>
             </Link>
             <Link href="/org-admin/teachers/new">
@@ -303,9 +303,9 @@ export default async function OrgAdminPage() {
         </div>
 
         <div className="org-dash-panel">
-          <h3 className="font-display text-lg font-semibold text-ink">Paper status</h3>
+          <h3 className="font-display text-lg font-semibold text-ink">Test status</h3>
           <p className="mt-1 text-sm text-muted">
-            Finalized papers versus drafts across the school.
+            Finalized tests versus drafts across the school.
           </p>
           <div className="mt-5 space-y-4">
             <BarRow label="Finalized" value={finalTests} total={Math.max(testCount, 1)} />
@@ -315,13 +315,13 @@ export default async function OrgAdminPage() {
             <Link href="/org-admin/generate">
               <Button size="sm">
                 <FilePlus2 className="h-4 w-4" />
-                Generate paper
+                Generate test
               </Button>
             </Link>
             <Link href="/org-admin/tests">
               <Button size="sm" variant="outline">
                 <FileText className="h-4 w-4" />
-                View papers
+                View tests
               </Button>
             </Link>
           </div>
@@ -333,7 +333,7 @@ export default async function OrgAdminPage() {
           <div className="flex flex-wrap items-start justify-between gap-3">
             <div>
               <h3 className="font-display text-lg font-semibold text-ink">Upcoming tests</h3>
-              <p className="mt-1 text-sm text-muted">Next scheduled papers for your teachers.</p>
+              <p className="mt-1 text-sm text-muted">Next scheduled tests for your teachers.</p>
             </div>
             <Link
               href="/org-admin/schedules"
@@ -369,8 +369,8 @@ export default async function OrgAdminPage() {
           <>
             <div className="flex flex-wrap items-start justify-between gap-3">
               <div>
-                <h3 className="font-display text-lg font-semibold text-ink">Recent papers</h3>
-                <p className="mt-1 text-sm text-muted">Latest papers created for {org.name}.</p>
+                <h3 className="font-display text-lg font-semibold text-ink">Recent tests</h3>
+                <p className="mt-1 text-sm text-muted">Latest tests created for {org.name}.</p>
               </div>
               <Link
                 href="/org-admin/tests"
@@ -412,13 +412,13 @@ export default async function OrgAdminPage() {
           <div className="flex flex-col items-center gap-3 py-8 text-center">
             <FileText className="h-10 w-10 text-muted/40" />
             <div>
-              <h3 className="font-display text-lg font-semibold text-ink">No papers yet</h3>
+              <h3 className="font-display text-lg font-semibold text-ink">No tests yet</h3>
               <p className="mt-1 text-sm text-muted">
-                Generate the first paper for {org.name} to see activity here.
+                Generate the first test for {org.name} to see activity here.
               </p>
             </div>
             <Link href="/org-admin/generate">
-              <Button>Generate paper</Button>
+              <Button>Generate test</Button>
             </Link>
           </div>
         )}

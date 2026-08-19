@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { BrandLogo } from "@/components/brand-logo";
 
 const NAV_LINKS = [
   { href: "#features", label: "Features" },
@@ -26,10 +27,12 @@ export function LandingNavBar() {
   return (
     <header className="landing-nav">
       <div className="landing-nav-inner">
-        <a href="#top" className="landing-logo" aria-label="Test Hub home">
-          <span className="landing-logo-mark" aria-hidden>TH</span>
-          <span className="landing-logo-text">Test Hub</span>
-        </a>
+        <BrandLogo
+          href="#top"
+          className="landing-logo"
+          markClassName="landing-logo-mark"
+          textClassName="landing-logo-text"
+        />
 
         <nav className="landing-nav-links" aria-label="Primary">
           {NAV_LINKS.map((link) => (

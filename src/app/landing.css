@@ -41,12 +41,10 @@
   place-items: center;
   width: 2.35rem;
   height: 2.35rem;
+  overflow: hidden;
   border-radius: 0.75rem;
-  background: linear-gradient(145deg, var(--brand), var(--brand-deep));
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
+  background: #0f766e;
+  padding: 0;
   box-shadow: 0 10px 24px rgba(15, 118, 110, 0.35);
 }
 

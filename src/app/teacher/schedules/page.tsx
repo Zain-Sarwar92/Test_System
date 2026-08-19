@@ -14,7 +14,7 @@ export default async function TeacherSchedulesPage() {
       <PageHeader
         kicker="Assignments"
         title="My Assigned Tests"
-        description="Papers due within 1 week show as pending here. Email reminder goes only 1 day before if the paper is still missing."
+        description="Tests due within 1 week show as pending here. Email reminder goes only 1 day before if the test is still missing."
       />
 
       {schedules.length === 0 ? (

@@ -15,7 +15,7 @@ export async function deleteTeacherTest(testId: string) {
     select: { id: true, scheduleAssignmentId: true },
   });
   if (!existing) {
-    throw new Error("Paper not found");
+    throw new Error("Test not found");
   }
 
   await prisma.$transaction(async (tx) => {

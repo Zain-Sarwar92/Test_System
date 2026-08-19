@@ -30,6 +30,7 @@ import {
 import { authClient } from "@/lib/auth-client";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { BrandMark } from "@/components/brand-logo";
 
 export type NavIcon =
   | "overview"
@@ -209,9 +210,14 @@ export function AppShell({
       <div className="shell-frame">
         <aside className="sidebar-panel text-white">
           <div className="mb-7 px-1 text-left">
-            <p className="text-[11px] font-semibold tracking-[0.22em] text-teal-200/90 uppercase">
-              Test Hub
-            </p>
+            <div className="flex items-center gap-2.5">
+              <span className="brand-logo-mark h-9 w-9 shrink-0" aria-hidden>
+                <BrandMark />
+              </span>
+              <p className="text-[11px] font-semibold tracking-[0.22em] text-teal-200/90 uppercase">
+                Green Book
+              </p>
+            </div>
             <h1 className="font-display mt-3 text-[1.65rem] leading-tight font-semibold text-white">
               {title}
               {titleMeta ? (
@@ -288,9 +294,13 @@ export function AppShell({
               >
                 <Menu className="h-4 w-4" />
               </Button>
+              <div className="flex min-w-0 items-center gap-2">
+              <span className="brand-logo-mark h-8 w-8 shrink-0" aria-hidden>
+                <BrandMark />
+              </span>
               <div className="min-w-0 text-left">
                 <p className="text-[10px] font-semibold tracking-[0.18em] text-teal-200 uppercase">
-                  Test Hub
+                  Green Book
                 </p>
                 <p className="truncate text-sm font-semibold text-white">
                   {title}
@@ -304,6 +314,7 @@ export function AppShell({
                   </p>
                 ) : null}
               </div>
+            </div>
             </div>
             <div className="flex shrink-0 items-center gap-2">
               {showOrgSwitcher ? (
@@ -342,14 +353,19 @@ export function AppShell({
             aria-hidden={!mobileNavOpen}
           >
             <div className="mobile-drawer-header">
-              <div className="min-w-0">
+              <div className="flex min-w-0 items-center gap-2.5">
+                <span className="brand-logo-mark h-9 w-9 shrink-0" aria-hidden>
+                  <BrandMark />
+                </span>
+                <div className="min-w-0">
                 <p className="text-[10px] font-semibold tracking-[0.2em] text-teal-200/90 uppercase">
-                  Test Hub
+                  Green Book
                 </p>
                 <p className="mt-1 truncate text-base font-semibold text-white">{title}</p>
                 {subtitle ? (
                   <p className="mt-0.5 truncate text-xs text-white/60">{subtitle}</p>
                 ) : null}
+                </div>
               </div>
               <Button
                 type="button"

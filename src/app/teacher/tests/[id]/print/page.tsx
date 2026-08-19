@@ -112,7 +112,7 @@ export default async function TeacherTestPrintPage({
       <p className="print-screen-hint no-print">
         Tip: In the browser print dialog, choose “Save as PDF” to export a PDF.{" "}
         <Link href={`/teacher/tests/${test.id}`} className="text-brand underline">
-          Back to paper preview
+          Back to test preview
         </Link>
       </p>
     </div>

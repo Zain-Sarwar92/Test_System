@@ -50,14 +50,14 @@ export default async function TeacherPage() {
         title={`Welcome, ${session.user.name?.split(" ")[0] ?? "Teacher"}`}
         description={
           org?.name
-            ? `Signed in to ${org.name}. Generate, manage, and export your test papers.`
-            : "Generate, manage, and export your test papers."
+            ? `Signed in to ${org.name}. Generate, manage, and export your tests.`
+            : "Generate, manage, and export your tests."
         }
         actions={
           <Link href="/teacher/generate">
             <Button className="h-11 gap-2 px-5">
               <FilePlus2 className="h-4 w-4" />
-              Generate Paper
+              Generate Test
             </Button>
           </Link>
         }
@@ -68,7 +68,7 @@ export default async function TeacherPage() {
           <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#eaf1f8] to-white p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0">
-                <p className="text-xs font-medium text-muted sm:text-sm">Total Papers</p>
+                <p className="text-xs font-medium text-muted sm:text-sm">Total Tests</p>
                 <CardTitle className="mt-1.5 text-[1.65rem] leading-none sm:mt-2 sm:text-[2.4rem]">
                   {totalCount}
                 </CardTitle>
@@ -84,7 +84,7 @@ export default async function TeacherPage() {
           <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#e8f7f4] to-white p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0">
-                <p className="text-xs font-medium text-muted sm:text-sm">Saved Papers</p>
+                <p className="text-xs font-medium text-muted sm:text-sm">Saved Tests</p>
                 <CardTitle className="mt-1.5 text-[1.65rem] leading-none sm:mt-2 sm:text-[2.4rem]">
                   {finalCount}
                 </CardTitle>
@@ -106,7 +106,7 @@ export default async function TeacherPage() {
             <div>
               <CardTitle>My Assigned Tests</CardTitle>
               <p className="mt-1 text-sm text-muted">
-                Upcoming and pending papers assigned by your organization admin.
+                Upcoming and pending tests assigned by your organization admin.
               </p>
             </div>
             <Link
@@ -155,7 +155,7 @@ export default async function TeacherPage() {
       {recentTests.length > 0 ? (
         <Card className="chart-card stagger-1">
           <div className="flex flex-wrap items-start justify-between gap-3">
-            <CardTitle>Recent Papers</CardTitle>
+            <CardTitle>Recent Tests</CardTitle>
             <Link
               href="/teacher/tests"
               className="text-sm font-semibold text-brand hover:underline"
@@ -194,13 +194,13 @@ export default async function TeacherPage() {
         <Card className="flex flex-col items-center gap-4 py-10 text-center">
           <FileText className="h-12 w-12 text-muted/40" />
           <div>
-            <CardTitle>No papers yet</CardTitle>
+            <CardTitle>No tests yet</CardTitle>
             <p className="mt-1 text-sm text-muted">
-              Generate your first paper to get started.
+              Generate your first test to get started.
             </p>
           </div>
           <Link href="/teacher/generate">
-            <Button>Generate Paper</Button>
+            <Button>Generate Test</Button>
           </Link>
         </Card>
       )}
