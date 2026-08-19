@@ -8,7 +8,14 @@ import { Input } from "@/components/ui/input";
 import { MultiSearchSelect } from "@/components/ui/multi-search-select";
 import { SearchSelect } from "@/components/ui/search-select";
 import { createStudent, getNextRollNumber, updateStudent } from "./actions";
-import { electiveOptionsForClass, type StudentStream } from "@/lib/subject-stream";
+import {
+  STUDY_GROUP_OPTIONS,
+  electiveOptionsForClass,
+  isHigherSecondaryClass,
+  streamFromStudyGroup,
+  type StudentStream,
+  type StudyGroup,
+} from "@/lib/subject-stream";
 import { toast } from "@/components/ui/toast";
 
 type Field = {
@@ -44,6 +51,7 @@ type InitialStudent = {
   phone: string;
   sectionId: string;
   stream: StudentStream;
+  studyGroup?: string | null;
   electiveSubjectId: string | null;
   electiveChoiceIds?: string[];
   values: Record<string, string>;
@@ -75,6 +83,9 @@ export function StudentForm({
   const [rollNumber, setRollNumber] = useState(initial?.rollNumber ?? "");
   const [rollHint, setRollHint] = useState("");
   const [stream, setStream] = useState<StudentStream>(initial?.stream ?? "SCIENCE");
+  const [studyGroup, setStudyGroup] = useState<StudyGroup | "">(
+    (initial?.studyGroup as StudyGroup | undefined) ?? "",
+  );
   const [electiveSubjectIds, setElectiveSubjectIds] = useState<string[]>(() => {
     if (initial?.electiveChoiceIds?.length) return initial.electiveChoiceIds;
     return initial?.electiveSubjectId ? [initial.electiveSubjectId] : [];
@@ -111,13 +122,18 @@ export function StudentForm({
         .map((section) => ({ value: section.id, label: section.name })),
     [sections, classId],
   );
+  const selectedClassName = useMemo(
+    () => classOptions.find((option) => option.value === classId)?.label ?? "",
+    [classOptions, classId],
+  );
+  const seniorClass = isHigherSecondaryClass(selectedClassName);
   const electives = useMemo(
     () =>
       electiveOptionsForClass(
         classSubjects.filter((subject) => subject.classId === classId),
-        stream,
+        seniorClass ? undefined : stream,
       ),
-    [classSubjects, classId, stream],
+    [classSubjects, classId, stream, seniorClass],
   );
   const electiveOptions = useMemo(
     () => electives.map((subject) => ({ value: subject.id, label: subject.name })),
@@ -131,12 +147,21 @@ export function StudentForm({
     [electiveSubjectIds, electives, stream],
   );
   const streamOptions = useMemo(
-    () => [
-      { value: "SCIENCE", label: "Science" },
-      { value: "ARTS", label: "Arts" },
-    ],
-    [],
+    () =>
+      seniorClass
+        ? STUDY_GROUP_OPTIONS
+        : [
+            { value: "SCIENCE", label: "Science" },
+            { value: "ARTS", label: "Arts" },
+          ],
+    [seniorClass],
   );
+
+  function resetClassDownstream() {
+    setSectionId("");
+    setElectiveSubjectIds([]);
+    setStudyGroup("");
+  }
 
   useEffect(() => {
     setElectiveSubjectIds((current) => {
@@ -165,15 +190,18 @@ export function StudentForm({
           return;
         }
         setRollNumber(result.nextRollNumber);
-        setRollHint(
-          result.nextRollNumber
-            ? "Auto-filled: last roll number in this section + 1."
-            : "Could not increment the last roll number. Enter the next one.",
-        );
+        if (result.nextRollNumber) {
+          setRollHint("Auto-filled: last roll number in this section + 1.");
+          toast.success("Roll number auto-filled from the last student in this section.");
+        } else {
+          setRollHint("Could not increment the last roll number. Enter the next one.");
+          toast.warning("Could not auto-fill the roll number. Enter it manually.");
+        }
       })
       .catch(() => {
         if (cancelled) return;
         setRollHint("Enter the roll number for this student.");
+        toast.warning("Could not load the next roll number. Enter it manually.");
       });
 
     return () => {
@@ -181,78 +209,74 @@ export function StudentForm({
     };
   }, [sectionId, initial]);
 
-  function submit(formData: FormData) {
+  function validateStudentForm(formData: FormData): string | null {
     const studentName = String(formData.get("name") ?? "").trim();
     const fatherName = String(formData.get("fatherName") ?? "").trim();
     const phone = String(formData.get("phone") ?? "").trim();
     const roll = rollNumber.trim();
 
-    if (!boardId) {
-      toast.error("Select a board.");
-      return;
+    if (!boardId) return "Select a board.";
+    if (!classId) return "Select a class.";
+    if (!sectionId) return "Select a section.";
+    if (!roll) return "Enter the student's roll number.";
+    if (roll.length > 50) return "Roll number must be 50 characters or fewer.";
+    if (studentName.length < 2) return "Enter the student's full name.";
+    if (studentName.length > 120) return "Student name must be 120 characters or fewer.";
+    if (fatherName.length < 2) return "Enter the father's name.";
+    if (fatherName.length > 120) return "Father name must be 120 characters or fewer.";
+    if ((phone.match(/\d/g)?.length ?? 0) < 10) {
+      return "Enter a valid phone number with at least 10 digits.";
     }
-    if (!classId) {
-      toast.error("Select a class.");
-      return;
+    if (phone.length > 40) return "Phone number must be 40 characters or fewer.";
+    if (seniorClass && !studyGroup) {
+      return "Select a group (Pre-medical, Pre-engineering, ICS, or Arts).";
     }
-    if (!sectionId) {
-      toast.error("Select a section.");
-      return;
-    }
-    if (!roll) {
-      toast.error("Enter the student's roll number.");
-      return;
-    }
-    if (roll.length > 50) {
-      toast.error("Roll number must be 50 characters or fewer.");
-      return;
-    }
-    if (studentName.length < 2) {
-      toast.error("Enter the student's full name.");
-      return;
-    }
-    if (fatherName.length < 2) {
-      toast.error("Enter the father's name.");
-      return;
-    }
-    const phoneDigits = phone.replace(/\D/g, "").length;
-    if (phoneDigits < 10) {
-      toast.error("Enter a valid phone number with at least 10 digits.");
-      return;
-    }
-    if (stream === "SCIENCE" && electives.length > 0) {
+    if (!seniorClass && stream === "SCIENCE" && electives.length > 0) {
       const sciencePicks = electiveSubjectIds.filter((id) =>
         electives.some((subject) => subject.id === id),
       );
       if (sciencePicks.length !== 1) {
-        toast.error(
-          `Select one Science elective (${electives.map((s) => s.name).join(" or ")}).`,
-        );
-        return;
+        return `Select one Science elective (${electives.map((s) => s.name).join(" or ")}).`;
       }
     }
     for (const field of fields) {
       if (!field.isRequired) continue;
-      const raw = String(formData.get(`custom_${field.id}`) ?? "").trim();
-      if (!raw) {
-        toast.error(`${field.label} is required.`);
-        return;
+      if (!String(formData.get(`custom_${field.id}`) ?? "").trim()) {
+        return `${field.label} is required.`;
       }
+    }
+    return null;
+  }
+
+  function submit(formData: FormData) {
+    const error = validateStudentForm(formData);
+    if (error) {
+      toast.error(error);
+      return;
     }
 
     startTransition(async () => {
-      const result = initial
-        ? await updateStudent(formData)
-        : await createStudent(formData);
-      if (!result.ok) {
-        toast.error(result.error);
-        return;
+      try {
+        const result = initial
+          ? await updateStudent(formData)
+          : await createStudent(formData);
+        if (!result.ok) {
+          toast.error(result.error);
+          return;
+        }
+        toast.success(
+          initial ? "Student updated successfully." : "Student added successfully.",
+        );
+        const sectionId = String(formData.get("sectionId") ?? "").trim();
+        router.push(
+          sectionId
+            ? `/org-admin/students?sectionId=${encodeURIComponent(sectionId)}`
+            : "/org-admin/students",
+        );
+        router.refresh();
+      } catch {
+        toast.error("Could not save the student. Try again.");
       }
-      toast.success(
-        initial ? "Student updated successfully." : "Student added successfully.",
-      );
-      router.push(`/org-admin/students/${result.id}`);
-      router.refresh();
     });
   }
 
@@ -261,6 +285,7 @@ export function StudentForm({
       {initial ? <input type="hidden" name="id" value={initial.id} /> : null}
       <input type="hidden" name="sectionId" value={sectionId} />
       <input type="hidden" name="stream" value={stream} />
+      <input type="hidden" name="studyGroup" value={seniorClass ? studyGroup : ""} />
       <input
         type="hidden"
         name="electiveSubjectId"
@@ -281,7 +306,7 @@ export function StudentForm({
             onChange={(value) => {
               setBoardId(value);
               setClassId("");
-              setSectionId("");
+              resetClassDownstream();
             }}
             placeholder="Select board"
             searchPlaceholder="Search board…"
@@ -298,8 +323,7 @@ export function StudentForm({
             options={classOptions}
             onChange={(value) => {
               setClassId(value);
-              setSectionId("");
-              setElectiveSubjectIds([]);
+              resetClassDownstream();
             }}
             placeholder={boardId ? "Select class" : "Select board first"}
             searchPlaceholder="Search class…"
@@ -333,14 +357,20 @@ export function StudentForm({
             Group / Stream <span className="text-red-500">*</span>
           </span>
           <SearchSelect
-            value={stream}
+            value={seniorClass ? studyGroup : stream}
             options={streamOptions}
             onChange={(value) => {
-              setStream(value as StudentStream);
+              if (seniorClass) {
+                const group = value as StudyGroup;
+                setStudyGroup(group);
+                setStream(streamFromStudyGroup(group));
+              } else {
+                setStream(value as StudentStream);
+              }
               setElectiveSubjectIds([]);
             }}
-            placeholder="Select stream"
-            searchPlaceholder="Search stream…"
+            placeholder={seniorClass ? "Select group" : "Select stream"}
+            searchPlaceholder={seniorClass ? "Search group…" : "Search stream…"}
             ariaLabel="Group / Stream"
             className="h-11 w-full"
           />
@@ -349,34 +379,36 @@ export function StudentForm({
           <div className="block">
             <span className="mb-1.5 block text-sm font-semibold text-ink">
               Elective
-              {stream === "SCIENCE" ? <span className="text-red-500"> *</span> : null}
+              {!seniorClass && stream === "SCIENCE" ? (
+                <span className="text-red-500"> *</span>
+              ) : null}
             </span>
             <MultiSearchSelect
               values={electiveSubjectIds}
               options={electiveOptions}
               onChange={(next) => {
-                if (stream === "SCIENCE" && next.length > 1) {
+                if (!seniorClass && stream === "SCIENCE" && next.length > 1) {
                   setElectiveSubjectIds([next[next.length - 1]!]);
                   return;
                 }
                 setElectiveSubjectIds(next);
               }}
               placeholder={
-                stream === "SCIENCE" ? "Select Biology or Computer" : "Select Arts electives"
+                seniorClass
+                  ? "Select electives"
+                  : stream === "SCIENCE"
+                    ? "Select Biology or Computer"
+                    : "Select Arts electives"
               }
               searchPlaceholder="Search elective…"
               ariaLabel="Elective subject"
               className="h-11 w-full"
             />
-            {stream === "ARTS" ? (
-              <span className="mt-1.5 block text-xs text-muted">
-                You can select multiple Arts electives.
-              </span>
-            ) : (
-              <span className="mt-1.5 block text-xs text-muted">
-                Choose only one: Biology or Computer.
-              </span>
-            )}
+            <span className="mt-1.5 block text-xs text-muted">
+              {!seniorClass && stream === "SCIENCE"
+                ? "Choose only one: Biology or Computer."
+                : "Search, then tick the electives this student is taking."}
+            </span>
           </div>
         ) : null}
       </div>
@@ -390,7 +422,6 @@ export function StudentForm({
             name="rollNumber"
             value={rollNumber}
             onChange={(event) => setRollNumber(event.target.value)}
-            required
             maxLength={50}
             placeholder={initial ? undefined : sectionId ? "Will auto-fill after the first student" : "Select a section first"}
             readOnly={!initial && !sectionId}
@@ -403,19 +434,19 @@ export function StudentForm({
           <span className="mb-1.5 block text-sm font-semibold text-ink">
             Student name <span className="text-red-500">*</span>
           </span>
-          <Input name="name" defaultValue={initial?.name} required maxLength={120} />
+          <Input name="name" defaultValue={initial?.name} maxLength={120} />
         </label>
         <label className="block">
           <span className="mb-1.5 block text-sm font-semibold text-ink">
             Father name <span className="text-red-500">*</span>
           </span>
-          <Input name="fatherName" defaultValue={initial?.fatherName} required maxLength={120} />
+          <Input name="fatherName" defaultValue={initial?.fatherName} maxLength={120} />
         </label>
         <label className="block">
           <span className="mb-1.5 block text-sm font-semibold text-ink">
             Phone <span className="text-red-500">*</span>
           </span>
-          <Input name="phone" type="tel" defaultValue={initial?.phone} required maxLength={40} />
+          <Input name="phone" type="tel" defaultValue={initial?.phone} maxLength={40} />
         </label>
       </div>
 
@@ -465,7 +496,6 @@ export function StudentForm({
                     }
                     step={field.type === "NUMBER" ? "any" : undefined}
                     defaultValue={initialValue}
-                    required={field.isRequired}
                   />
                 </label>
               );
@@ -515,7 +545,7 @@ function CustomSelectField({
       <span className="mb-1.5 block text-sm font-semibold text-ink">
         {label} {required ? <span className="text-red-500">*</span> : null}
       </span>
-      <input type="hidden" name={name} value={value} required={required} />
+      <input type="hidden" name={name} value={value} />
       <SearchSelect
         value={value}
         options={options}

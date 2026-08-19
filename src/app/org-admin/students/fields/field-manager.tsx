@@ -62,6 +62,56 @@ export function FieldManager({ fields }: { fields: Field[] }) {
     });
   }
 
+  function runMove(id: string, direction: "up" | "down") {
+    const formData = new FormData();
+    formData.set("id", id);
+    formData.set("direction", direction);
+    startTransition(async () => {
+      const result = await moveStudentField(formData);
+      if (!result.ok) {
+        toast.error(result.error);
+        return;
+      }
+      router.refresh();
+    });
+  }
+
+  function runToggle(id: string, label: string) {
+    const formData = new FormData();
+    formData.set("id", id);
+    startTransition(async () => {
+      const result = await toggleStudentField(formData);
+      if (!result.ok) {
+        toast.error(result.error);
+        return;
+      }
+      toast.success(
+        result.active
+          ? `${label} is active again.`
+          : `${label} has been deactivated.`,
+      );
+      router.refresh();
+    });
+  }
+
+  function runDelete(id: string, label: string) {
+    if (!window.confirm(`Delete "${label}" and all saved student values?`)) {
+      return;
+    }
+    const formData = new FormData();
+    formData.set("id", id);
+    formData.set("confirmation", "DELETE");
+    startTransition(async () => {
+      const result = await deleteStudentField(formData);
+      if (!result.ok) {
+        toast.error(result.error);
+        return;
+      }
+      toast.success(`${label} has been deleted.`);
+      router.refresh();
+    });
+  }
+
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
       <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-white p-5">
@@ -172,16 +222,24 @@ export function FieldManager({ fields }: { fields: Field[] }) {
                 ) : null}
               </div>
               <div className="flex flex-wrap gap-2">
-                <form action={moveStudentField}>
-                  <input type="hidden" name="id" value={field.id} />
-                  <input type="hidden" name="direction" value="up" />
-                  <Button type="submit" size="sm" variant="outline" disabled={index === 0}>↑</Button>
-                </form>
-                <form action={moveStudentField}>
-                  <input type="hidden" name="id" value={field.id} />
-                  <input type="hidden" name="direction" value="down" />
-                  <Button type="submit" size="sm" variant="outline" disabled={index === fields.length - 1}>↓</Button>
-                </form>
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  disabled={pending || index === 0}
+                  onClick={() => runMove(field.id, "up")}
+                >
+                  ↑
+                </Button>
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  disabled={pending || index === fields.length - 1}
+                  onClick={() => runMove(field.id, "down")}
+                >
+                  ↓
+                </Button>
                 <Button
                   type="button"
                   size="sm"
@@ -192,25 +250,25 @@ export function FieldManager({ fields }: { fields: Field[] }) {
                 >
                   Edit
                 </Button>
-                <form action={toggleStudentField}>
-                  <input type="hidden" name="id" value={field.id} />
-                  <Button type="submit" size="sm" variant="outline">
-                    {field.isActive ? "Deactivate" : "Activate"}
-                  </Button>
-                </form>
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  disabled={pending}
+                  onClick={() => runToggle(field.id, field.label)}
+                >
+                  {field.isActive ? "Deactivate" : "Activate"}
+                </Button>
                 {!field.isActive ? (
-                  <form
-                    action={deleteStudentField}
-                    onSubmit={(event) => {
-                      if (!window.confirm(`Delete "${field.label}" and all saved student values?`)) {
-                        event.preventDefault();
-                      }
-                    }}
+                  <Button
+                    type="button"
+                    size="sm"
+                    variant="danger"
+                    disabled={pending}
+                    onClick={() => runDelete(field.id, field.label)}
                   >
-                    <input type="hidden" name="id" value={field.id} />
-                    <input type="hidden" name="confirmation" value="DELETE" />
-                    <Button type="submit" size="sm" variant="danger">Delete</Button>
-                  </form>
+                    Delete
+                  </Button>
                 ) : null}
               </div>
             </div>

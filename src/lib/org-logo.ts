@@ -9,19 +9,25 @@ const LOGO_TYPES: Record<string, string> = {
 };
 
 const MAX_LOGO_BYTES = 2 * 1024 * 1024;
-const DATA_IMAGE_RE = /^data:image\/(jpeg|jpg|png|webp|gif);base64,[a-z0-9+/]+=*$/i;
+const DATA_IMAGE_RE =
+  /^data:image\/(jpeg|jpg|png|webp|gif)(;charset=[\w-]+)?;base64,[a-z0-9+/_-]+={0,2}$/i;
 const LOCAL_LOGO_RE = /^\/(uploads\/org-logos\/|brand\/)[a-z0-9._-]+\.(jpe?g|png|webp|gif)$/i;
 
 export function isSafeLogoUrl(value: string | null | undefined): boolean {
   const url = value?.trim() ?? "";
   if (!url) return true;
-  if (url.startsWith("//") || url.toLowerCase().includes("svg")) return false;
+  if (url.startsWith("//")) return false;
+  const lower = url.toLowerCase();
   if (LOCAL_LOGO_RE.test(url)) return true;
-  if (url.startsWith("data:image/")) return DATA_IMAGE_RE.test(url);
+  if (lower.startsWith("data:image/")) {
+    if (lower.startsWith("data:image/svg")) return false;
+    return DATA_IMAGE_RE.test(url.replace(/\s+/g, ""));
+  }
   try {
     const parsed = new URL(url);
     if (parsed.protocol !== "https:") return false;
     if (parsed.username || parsed.password) return false;
+    if (/\.svg$/i.test(parsed.pathname)) return false;
     return /\.(jpe?g|png|webp|gif)$/i.test(parsed.pathname);
   } catch {
     return false;
@@ -59,4 +65,21 @@ export async function resolveLogoUrlFromForm(formData: FormData): Promise<string
     throw new Error("Upload a JPG, PNG, WEBP, or GIF logo, or use a https image URL");
   }
   return url;
+}
+
+/** On update: empty URL + no new file means keep the logo already saved. */
+export async function resolveLogoUpdateFromForm(
+  formData: FormData,
+): Promise<{ keep: true } | { next: string | null }> {
+  const file = formData.get("logoFile");
+  if (file instanceof File && file.size > 0) {
+    const next = await resolveLogoUrlFromForm(formData);
+    return { next };
+  }
+  const url = String(formData.get("logoUrl") ?? "").trim();
+  if (!url) return { keep: true };
+  if (!isSafeLogoUrl(url)) {
+    throw new Error("Upload a JPG, PNG, WEBP, or GIF logo, or use a https image URL");
+  }
+  return { next: url };
 }

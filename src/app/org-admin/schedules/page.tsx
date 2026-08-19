@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CalendarClock, Plus, Trash2 } from "lucide-react";
+import { CalendarClock, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
@@ -10,7 +10,7 @@ import {
   resolveAssignmentStatus,
   statusChipClass,
 } from "@/lib/test-schedule-status";
-import { deleteTestSchedule } from "./actions";
+import { DeleteScheduleButton } from "./schedule-row-actions";
 
 export default async function OrgSchedulesPage() {
   const session = await requireRole(["ORG_ADMIN"]);
@@ -150,13 +150,7 @@ export default async function OrgSchedulesPage() {
                           Open
                         </Button>
                       </Link>
-                      <form action={deleteTestSchedule}>
-                        <input type="hidden" name="id" value={schedule.id} />
-                        <Button type="submit" variant="danger" size="sm" className="gap-1.5">
-                          <Trash2 className="h-3.5 w-3.5" />
-                          Delete
-                        </Button>
-                      </form>
+                      <DeleteScheduleButton scheduleId={schedule.id} />
                     </div>
                   </div>
 

@@ -15,7 +15,10 @@ import {
   collectClassSections,
   shortClassLabel,
 } from "@/lib/test-schedule-sections";
-import { cancelTestSchedule, deleteTestSchedule } from "../actions";
+import {
+  CancelScheduleButton,
+  DeleteScheduleButton,
+} from "../schedule-row-actions";
 
 type PageProps = {
   params: Promise<{ id: string }>;
@@ -149,12 +152,11 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
             <Link href="/org-admin/schedules">
               <Button variant="secondary">All schedules</Button>
             </Link>
-            <form action={deleteTestSchedule}>
-              <input type="hidden" name="id" value={schedule.id} />
-              <Button type="submit" variant="danger" className="gap-2">
-                Delete
-              </Button>
-            </form>
+            <DeleteScheduleButton
+              scheduleId={schedule.id}
+              size="default"
+              redirectToList
+            />
           </div>
         }
       />
@@ -373,19 +375,13 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
         </p>
         <div className="mt-4 flex flex-wrap gap-3">
           {schedule.status === "ACTIVE" ? (
-            <form action={cancelTestSchedule}>
-              <input type="hidden" name="id" value={schedule.id} />
-              <Button type="submit" variant="secondary">
-                Cancel schedule
-              </Button>
-            </form>
+            <CancelScheduleButton scheduleId={schedule.id} />
           ) : null}
-          <form action={deleteTestSchedule}>
-            <input type="hidden" name="id" value={schedule.id} />
-            <Button type="submit" variant="danger">
-              Delete schedule
-            </Button>
-          </form>
+          <DeleteScheduleButton
+            scheduleId={schedule.id}
+            size="default"
+            redirectToList
+          />
         </div>
       </Card>
     </PageStack>

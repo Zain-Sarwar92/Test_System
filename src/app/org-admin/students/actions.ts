@@ -9,8 +9,11 @@ import { suggestNextRollNumber } from "@/lib/roll-number";
 import {
   ARTS_ELECTIVE_GROUP,
   SCIENCE_ELECTIVE_GROUP,
+  isHigherSecondaryClass,
   resolveSubjectMeta,
+  streamFromStudyGroup,
   type StudentStream,
+  type StudyGroup,
 } from "@/lib/subject-stream";
 
 const studentSchema = z.object({
@@ -29,6 +32,7 @@ const studentSchema = z.object({
     ),
   sectionId: z.string().min(1, "Select a section."),
   stream: z.enum(["SCIENCE", "ARTS"]),
+  studyGroup: z.enum(["PRE_MEDICAL", "PRE_ENGINEERING", "ICS", "ARTS"]).optional(),
   electiveSubjectId: z.string().optional(),
   electiveSubjectIds: z.array(z.string().min(1)).optional(),
 });
@@ -122,6 +126,7 @@ async function validateSection(organizationId: string, sectionId: string) {
       classId: true,
       class: {
         select: {
+          name: true,
           subjects: {
             select: {
               id: true,
@@ -143,6 +148,7 @@ async function resolveStreamAndElective(
   stream: StudentStream,
   electiveSubjectId: string | undefined,
   electiveSubjectIds: string[] | undefined,
+  studyGroup?: StudyGroup,
 ) {
   const metas = section.class.subjects.map(resolveSubjectMeta);
   const selected = [
@@ -153,6 +159,34 @@ async function resolveStreamAndElective(
       ].filter(Boolean),
     ),
   ];
+  const senior = isHigherSecondaryClass(section.class.name);
+
+  if (senior) {
+    if (!studyGroup) {
+      throw new Error("Select a group (Pre-medical, Pre-engineering, ICS, or Arts).");
+    }
+    const nextStream = streamFromStudyGroup(studyGroup);
+    const electives = metas.filter((subject) => subject.electiveGroup);
+    const chosen = selected.filter((id) =>
+      electives.some((subject) => subject.id === id),
+    );
+    const invalid = selected.filter((id) => !chosen.includes(id));
+    if (invalid.length > 0) {
+      throw new Error("Choose electives from this class only.");
+    }
+    const sciencePick =
+      chosen.find(
+        (id) =>
+          metas.find((subject) => subject.id === id)?.electiveGroup ===
+          SCIENCE_ELECTIVE_GROUP,
+      ) ?? null;
+    return {
+      stream: nextStream,
+      studyGroup,
+      electiveSubjectId: nextStream === "SCIENCE" ? sciencePick : null,
+      electiveChoiceIds: chosen,
+    };
+  }
 
   if (stream === "SCIENCE") {
     const scienceElectives = metas.filter(
@@ -167,11 +201,17 @@ async function resolveStreamAndElective(
       }
       return {
         stream,
+        studyGroup: null as string | null,
         electiveSubjectId: chosenScience[0],
         electiveChoiceIds: chosenScience,
       };
     }
-    return { stream, electiveSubjectId: null as string | null, electiveChoiceIds: [] as string[] };
+    return {
+      stream,
+      studyGroup: null as string | null,
+      electiveSubjectId: null as string | null,
+      electiveChoiceIds: [] as string[],
+    };
   }
 
   const artsElectives = metas.filter(
@@ -186,6 +226,7 @@ async function resolveStreamAndElective(
   }
   return {
     stream,
+    studyGroup: null as string | null,
     electiveSubjectId: null as string | null,
     electiveChoiceIds: chosenArts,
   };
@@ -246,6 +287,8 @@ export async function createStudent(formData: FormData) {
       phone: formData.get("phone"),
       sectionId: formData.get("sectionId"),
       stream: formData.get("stream") || "SCIENCE",
+      studyGroup:
+        String(formData.get("studyGroup") ?? "").trim() || undefined,
       electiveSubjectId: String(formData.get("electiveSubjectId") ?? "") || undefined,
       electiveSubjectIds,
     });
@@ -255,6 +298,7 @@ export async function createStudent(formData: FormData) {
       parsed.stream,
       parsed.electiveSubjectId,
       parsed.electiveSubjectIds,
+      parsed.studyGroup,
     );
     const rollSuggestion = await nextRollForSection(organizationId, parsed.sectionId);
     const rollNumber = parsed.rollNumber || rollSuggestion.nextRollNumber;
@@ -289,6 +333,7 @@ export async function createStudent(formData: FormData) {
           phone: parsed.phone,
           sectionId: parsed.sectionId,
           stream: placement.stream,
+          studyGroup: placement.studyGroup,
           electiveSubjectId: placement.electiveSubjectId,
           organizationId,
         },
@@ -323,6 +368,8 @@ export async function updateStudent(formData: FormData) {
       phone: formData.get("phone"),
       sectionId: formData.get("sectionId"),
       stream: formData.get("stream") || "SCIENCE",
+      studyGroup:
+        String(formData.get("studyGroup") ?? "").trim() || undefined,
       electiveSubjectId: String(formData.get("electiveSubjectId") ?? "") || undefined,
       electiveSubjectIds,
     });
@@ -340,6 +387,7 @@ export async function updateStudent(formData: FormData) {
       parsed.stream,
       parsed.electiveSubjectId,
       parsed.electiveSubjectIds,
+      parsed.studyGroup,
     );
     const customValues = await validateCustomValues(organizationId, formData);
 
@@ -366,6 +414,7 @@ export async function updateStudent(formData: FormData) {
           phone: parsed.phone,
           sectionId: parsed.sectionId,
           stream: placement.stream,
+          studyGroup: placement.studyGroup,
           electiveSubjectId: placement.electiveSubjectId,
         },
       });
@@ -390,42 +439,63 @@ export async function updateStudent(formData: FormData) {
 }
 
 export async function toggleStudentActive(formData: FormData) {
-  const organizationId = await getOrganizationId();
-  const id = z.string().min(1).parse(formData.get("id"));
-  const student = await prisma.student.findFirst({
-    where: { id, organizationId },
-    select: { id: true, isActive: true },
-  });
-  if (!student) throw new Error("Student not found in your organization");
-  await prisma.student.updateMany({
-    where: { id, organizationId },
-    data: { isActive: !student.isActive },
-  });
-  revalidateStudents(id);
+  try {
+    const organizationId = await getOrganizationId();
+    const id = z.string().min(1).parse(formData.get("id"));
+    const student = await prisma.student.findFirst({
+      where: { id, organizationId },
+      select: { id: true, isActive: true, name: true },
+    });
+    if (!student) {
+      return { ok: false as const, error: "Student not found in your organization." };
+    }
+    const nextActive = !student.isActive;
+    await prisma.student.updateMany({
+      where: { id, organizationId },
+      data: { isActive: nextActive },
+    });
+    revalidateStudents(id);
+    return { ok: true as const, active: nextActive, name: student.name };
+  } catch (error) {
+    return { ok: false as const, error: actionError(error, "Failed to update student status") };
+  }
 }
 
 export async function deleteStudent(formData: FormData) {
-  const organizationId = await getOrganizationId();
-  const id = z.string().min(1).parse(formData.get("id"));
-  const student = await prisma.student.findFirst({
-    where: { id, organizationId },
-    select: {
-      id: true,
-      isActive: true,
-      _count: { select: { feeCharges: true, feePayments: true } },
-    },
-  });
-  if (!student) throw new Error("Student not found in your organization");
-  if (student.isActive) throw new Error("Deactivate the student before deleting");
-  if (student._count.feeCharges || student._count.feePayments) {
-    throw new Error("This student has fee history and cannot be deleted");
+  try {
+    const organizationId = await getOrganizationId();
+    const id = z.string().min(1).parse(formData.get("id"));
+    const student = await prisma.student.findFirst({
+      where: { id, organizationId },
+      select: {
+        id: true,
+        name: true,
+        isActive: true,
+        _count: { select: { feeCharges: true, feePayments: true } },
+      },
+    });
+    if (!student) {
+      return { ok: false as const, error: "Student not found in your organization." };
+    }
+    if (student.isActive) {
+      return { ok: false as const, error: "Deactivate the student before deleting." };
+    }
+    if (student._count.feeCharges || student._count.feePayments) {
+      return {
+        ok: false as const,
+        error: "This student has fee history and cannot be deleted.",
+      };
+    }
+    await prisma.$transaction(async (tx) => {
+      await tx.studentMark.deleteMany({ where: { studentId: id } });
+      await tx.student.deleteMany({ where: { id, organizationId } });
+    });
+    revalidateStudents(id);
+    revalidatePath("/org-admin/results");
+    return { ok: true as const, name: student.name };
+  } catch (error) {
+    return { ok: false as const, error: actionError(error, "Failed to delete student") };
   }
-  await prisma.$transaction(async (tx) => {
-    await tx.studentMark.deleteMany({ where: { studentId: id } });
-    await tx.student.deleteMany({ where: { id, organizationId } });
-  });
-  revalidateStudents(id);
-  revalidatePath("/org-admin/results");
 }
 
 export async function saveStudentField(formData: FormData) {
@@ -482,56 +552,81 @@ export async function saveStudentField(formData: FormData) {
 }
 
 export async function toggleStudentField(formData: FormData) {
-  const organizationId = await getOrganizationId();
-  const id = z.string().min(1).parse(formData.get("id"));
-  const field = await prisma.studentFieldDefinition.findFirst({
-    where: { id, organizationId },
-    select: { id: true, isActive: true },
-  });
-  if (!field) throw new Error("Custom field not found");
-  await prisma.studentFieldDefinition.updateMany({
-    where: { id, organizationId },
-    data: { isActive: !field.isActive },
-  });
-  revalidateStudents();
+  try {
+    const organizationId = await getOrganizationId();
+    const id = z.string().min(1).parse(formData.get("id"));
+    const field = await prisma.studentFieldDefinition.findFirst({
+      where: { id, organizationId },
+      select: { id: true, isActive: true },
+    });
+    if (!field) {
+      return { ok: false as const, error: "Custom field not found" };
+    }
+    await prisma.studentFieldDefinition.updateMany({
+      where: { id, organizationId },
+      data: { isActive: !field.isActive },
+    });
+    revalidateStudents();
+    return { ok: true as const, active: !field.isActive };
+  } catch (error) {
+    return { ok: false as const, error: actionError(error, "Failed to update custom field") };
+  }
 }
 
 export async function moveStudentField(formData: FormData) {
-  const organizationId = await getOrganizationId();
-  const id = z.string().min(1).parse(formData.get("id"));
-  const direction = z.enum(["up", "down"]).parse(formData.get("direction"));
-  const fields = await prisma.studentFieldDefinition.findMany({
-    where: { organizationId },
-    orderBy: [{ order: "asc" }, { createdAt: "asc" }],
-    select: { id: true, order: true },
-  });
-  const index = fields.findIndex((field) => field.id === id);
-  const swapIndex = direction === "up" ? index - 1 : index + 1;
-  if (index < 0 || swapIndex < 0 || swapIndex >= fields.length) return;
-  await prisma.$transaction([
-    prisma.studentFieldDefinition.updateMany({
-      where: { id: fields[index].id, organizationId },
-      data: { order: fields[swapIndex].order },
-    }),
-    prisma.studentFieldDefinition.updateMany({
-      where: { id: fields[swapIndex].id, organizationId },
-      data: { order: fields[index].order },
-    }),
-  ]);
-  revalidateStudents();
+  try {
+    const organizationId = await getOrganizationId();
+    const id = z.string().min(1).parse(formData.get("id"));
+    const direction = z.enum(["up", "down"]).parse(formData.get("direction"));
+    const fields = await prisma.studentFieldDefinition.findMany({
+      where: { organizationId },
+      orderBy: [{ order: "asc" }, { createdAt: "asc" }],
+      select: { id: true, order: true },
+    });
+    const index = fields.findIndex((field) => field.id === id);
+    const swapIndex = direction === "up" ? index - 1 : index + 1;
+    if (index < 0 || swapIndex < 0 || swapIndex >= fields.length) {
+      return { ok: true as const };
+    }
+    await prisma.$transaction([
+      prisma.studentFieldDefinition.updateMany({
+        where: { id: fields[index].id, organizationId },
+        data: { order: fields[swapIndex].order },
+      }),
+      prisma.studentFieldDefinition.updateMany({
+        where: { id: fields[swapIndex].id, organizationId },
+        data: { order: fields[index].order },
+      }),
+    ]);
+    revalidateStudents();
+    return { ok: true as const };
+  } catch (error) {
+    return { ok: false as const, error: actionError(error, "Failed to reorder custom field") };
+  }
 }
 
 export async function deleteStudentField(formData: FormData) {
-  const organizationId = await getOrganizationId();
-  const id = z.string().min(1).parse(formData.get("id"));
-  const confirmation = z.literal("DELETE").parse(formData.get("confirmation"));
-  if (confirmation !== "DELETE") throw new Error("Explicit confirmation is required");
-  const field = await prisma.studentFieldDefinition.findFirst({
-    where: { id, organizationId },
-    select: { id: true, isActive: true },
-  });
-  if (!field) throw new Error("Custom field not found");
-  if (field.isActive) throw new Error("Deactivate the custom field before deleting");
-  await prisma.studentFieldDefinition.deleteMany({ where: { id, organizationId } });
-  revalidateStudents();
+  try {
+    const organizationId = await getOrganizationId();
+    const id = z.string().min(1).parse(formData.get("id"));
+    const confirmation = z.literal("DELETE").parse(formData.get("confirmation"));
+    if (confirmation !== "DELETE") {
+      return { ok: false as const, error: "Explicit confirmation is required" };
+    }
+    const field = await prisma.studentFieldDefinition.findFirst({
+      where: { id, organizationId },
+      select: { id: true, isActive: true },
+    });
+    if (!field) {
+      return { ok: false as const, error: "Custom field not found" };
+    }
+    if (field.isActive) {
+      return { ok: false as const, error: "Deactivate the custom field before deleting" };
+    }
+    await prisma.studentFieldDefinition.deleteMany({ where: { id, organizationId } });
+    revalidateStudents();
+    return { ok: true as const };
+  } catch (error) {
+    return { ok: false as const, error: actionError(error, "Failed to delete custom field") };
+  }
 }

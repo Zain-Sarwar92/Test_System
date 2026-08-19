@@ -1,8 +1,27 @@
 export type StudentStream = "SCIENCE" | "ARTS";
 export type SubjectTrack = "COMMON" | "SCIENCE" | "ARTS";
+export type StudyGroup = "PRE_MEDICAL" | "PRE_ENGINEERING" | "ICS" | "ARTS";
 
 export const SCIENCE_ELECTIVE_GROUP = "SCIENCE_ELECTIVE";
 export const ARTS_ELECTIVE_GROUP = "ARTS_ELECTIVE";
+
+export const STUDY_GROUP_OPTIONS: Array<{ value: StudyGroup; label: string }> = [
+  { value: "PRE_MEDICAL", label: "Pre-medical" },
+  { value: "PRE_ENGINEERING", label: "Pre-engineering" },
+  { value: "ICS", label: "ICS" },
+  { value: "ARTS", label: "Arts" },
+];
+
+export function isHigherSecondaryClass(className: string) {
+  const n = className.trim().toLowerCase().replace(/\s+/g, " ");
+  return /\b(11th|12th|11|12|xi|xii|hssc|intermediate|1st year|2nd year|first year|second year)\b/.test(
+    n,
+  );
+}
+
+export function streamFromStudyGroup(group: StudyGroup): StudentStream {
+  return group === "ARTS" ? "ARTS" : "SCIENCE";
+}
 
 export type SubjectMeta = {
   id: string;

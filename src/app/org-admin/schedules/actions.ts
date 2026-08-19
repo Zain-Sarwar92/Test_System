@@ -1,7 +1,6 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { redirect } from "next/navigation";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
@@ -307,40 +306,50 @@ export async function createTestSchedule(input: z.infer<typeof scheduleSchema>) 
 }
 
 export async function cancelTestSchedule(formData: FormData) {
-  const { organizationId } = await requireOrgAdmin();
-  const id = z.string().min(1).parse(formData.get("id"));
-  const existing = await prisma.testSchedule.findFirst({
-    where: { id, organizationId },
-    select: { id: true },
-  });
-  if (!existing) {
-    throw new Error("Schedule not found");
+  try {
+    const { organizationId } = await requireOrgAdmin();
+    const id = z.string().min(1).parse(formData.get("id"));
+    const existing = await prisma.testSchedule.findFirst({
+      where: { id, organizationId },
+      select: { id: true },
+    });
+    if (!existing) {
+      return { ok: false as const, error: "Schedule not found" };
+    }
+
+    await prisma.testSchedule.update({
+      where: { id },
+      data: { status: "CANCELLED" },
+    });
+
+    await revalidateScheduleViews(id);
+    return { ok: true as const };
+  } catch (error) {
+    return {
+      ok: false as const,
+      error: error instanceof Error ? error.message : "Failed to cancel schedule",
+    };
   }
-
-  await prisma.testSchedule.update({
-    where: { id },
-    data: { status: "CANCELLED" },
-  });
-
-  await revalidateScheduleViews(id);
 }
 
 export async function deleteTestSchedule(formData: FormData) {
-  const { organizationId } = await requireOrgAdmin();
-  const id = z.string().min(1).parse(formData.get("id"));
+  try {
+    const { organizationId } = await requireOrgAdmin();
+    const id = z.string().min(1).parse(formData.get("id"));
 
-  const existing = await prisma.testSchedule.findFirst({
-    where: { id, organizationId },
-    select: {
-      id: true,
-      rounds: {
-        select: {
-          subjects: {
-            select: {
-              classes: {
-                select: {
-                  assignments: {
-                    select: { id: true, test: { select: { id: true } } },
+    const existing = await prisma.testSchedule.findFirst({
+      where: { id, organizationId },
+      select: {
+        id: true,
+        rounds: {
+          select: {
+            subjects: {
+              select: {
+                classes: {
+                  select: {
+                    assignments: {
+                      select: { id: true, test: { select: { id: true } } },
+                    },
                   },
                 },
               },
@@ -348,30 +357,35 @@ export async function deleteTestSchedule(formData: FormData) {
           },
         },
       },
-    },
-  });
-  if (!existing) {
-    throw new Error("Schedule not found");
-  }
-
-  const assignmentIds = existing.rounds.flatMap((round) =>
-    round.subjects.flatMap((subjectItem) =>
-      subjectItem.classes.flatMap((classItem) =>
-        classItem.assignments.map((assignment) => assignment.id),
-      ),
-    ),
-  );
-
-  await prisma.$transaction(async (tx) => {
-    if (assignmentIds.length > 0) {
-      await tx.test.updateMany({
-        where: { scheduleAssignmentId: { in: assignmentIds } },
-        data: { scheduleAssignmentId: null },
-      });
+    });
+    if (!existing) {
+      return { ok: false as const, error: "Schedule not found" };
     }
-    await tx.testSchedule.delete({ where: { id } });
-  });
 
-  await revalidateScheduleViews();
-  redirect("/org-admin/schedules");
+    const assignmentIds = existing.rounds.flatMap((round) =>
+      round.subjects.flatMap((subjectItem) =>
+        subjectItem.classes.flatMap((classItem) =>
+          classItem.assignments.map((assignment) => assignment.id),
+        ),
+      ),
+    );
+
+    await prisma.$transaction(async (tx) => {
+      if (assignmentIds.length > 0) {
+        await tx.test.updateMany({
+          where: { scheduleAssignmentId: { in: assignmentIds } },
+          data: { scheduleAssignmentId: null },
+        });
+      }
+      await tx.testSchedule.delete({ where: { id } });
+    });
+
+    await revalidateScheduleViews();
+    return { ok: true as const };
+  } catch (error) {
+    return {
+      ok: false as const,
+      error: error instanceof Error ? error.message : "Failed to delete schedule",
+    };
+  }
 }

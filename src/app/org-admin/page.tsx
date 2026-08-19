@@ -222,6 +222,14 @@ export default async function OrgAdminPage() {
                 Generate test
               </Button>
             </Link>
+            {modules.STUDENTS ? (
+              <Link href="/org-admin/students">
+                <Button variant="outline">
+                  <GraduationCap className="h-4 w-4" />
+                  Students
+                </Button>
+              </Link>
+            ) : null}
             <Link href="/org-admin/teachers/new">
               <Button variant="secondary">
                 <UserPlus className="h-4 w-4" />
@@ -239,6 +247,20 @@ export default async function OrgAdminPage() {
             This organization is inactive. Teachers cannot sign in until Super Admin
             reactivates it.
           </p>
+        </div>
+      ) : null}
+
+      {sectionCount === 0 ? (
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-[0.95rem] border border-[rgba(15,40,70,0.1)] bg-white px-4 py-3">
+          <p className="text-sm text-ink-soft">
+            Create class sections first — teachers, students, and schedules depend on them.
+          </p>
+          <Link href="/org-admin/sections">
+            <Button size="sm" variant="secondary">
+              <Layers className="h-4 w-4" />
+              Add sections
+            </Button>
+          </Link>
         </div>
       ) : null}
 

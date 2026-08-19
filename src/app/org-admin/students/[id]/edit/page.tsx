@@ -98,6 +98,7 @@ export default async function EditStudentPage({
               phone: student.phone,
               sectionId: student.sectionId,
               stream: student.stream,
+              studyGroup: student.studyGroup,
               electiveSubjectId: student.electiveSubjectId,
               electiveChoiceIds: student.electiveChoices.map((row) => row.subjectId),
               values: Object.fromEntries(
