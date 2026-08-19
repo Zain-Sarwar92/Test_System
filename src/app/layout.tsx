@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   description:
     "Multi-tenant test generator for schools, academies, and universities. Auto or manual generation, schedules, and print-ready exports.",
   icons: {
-    icon: "/brand/green-book-logo.png",
-    apple: "/brand/green-book-logo.png",
+    icon: "/brand/logo.png",
+    apple: "/brand/logo.png",
   },
 };
 

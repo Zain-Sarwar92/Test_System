@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
@@ -6,8 +5,10 @@ export const BRAND_NAME = "Green Book";
 
 export function BrandMark({ className }: { className?: string }) {
   return (
-    <Image
-      src="/brand/green-book-logo.png"
+    // Plain img avoids Next image-optimizer cache of the old 3D logo.
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src="/brand/logo.png"
       alt=""
       width={72}
       height={72}
