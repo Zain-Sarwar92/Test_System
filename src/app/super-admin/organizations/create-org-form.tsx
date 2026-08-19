@@ -62,6 +62,17 @@ export function CreateOrgForm({
           <span className="field-label">Logo URL (printed on papers)</span>
           <Input name="logoUrl" type="url" placeholder="https://..." />
         </label>
+        <label className="md:col-span-2">
+          <span className="field-label">Or upload logo</span>
+          <Input
+            name="logoFile"
+            type="file"
+            accept="image/png,image/jpeg,image/webp,image/gif"
+          />
+          <span className="mt-1 block text-xs text-muted">
+            JPG, PNG, WEBP, or GIF up to 2 MB. Upload takes priority over the URL.
+          </span>
+        </label>
         {plans.length > 0 ? (
           <label className="md:col-span-2">
             <span className="field-label">Subscription plan</span>

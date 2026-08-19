@@ -1464,7 +1464,7 @@ body {
 .pts-picker-fields {
   display: flex;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: start;
   gap: 0.5rem 0.65rem;
   margin-bottom: 0;
 }
@@ -1488,6 +1488,18 @@ body {
 .pts-picker-field--num {
   flex: 0 0 5.75rem;
   width: 5.75rem;
+  position: relative;
+  padding-bottom: 0.9rem;
+}
+
+.pts-picker-hint {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 0.68rem;
+  line-height: 1;
+  color: var(--muted);
+  white-space: nowrap;
 }
 
 .pts-picker-field--num input[type="number"] {
@@ -2139,11 +2151,6 @@ body {
   color: var(--muted);
 }
 
-.pts-picker-hint {
-  font-size: 0.68rem;
-  color: var(--muted);
-}
-
 .pts-picker-input {
   min-height: 2.75rem;
   width: 100%;
@@ -2327,7 +2334,7 @@ body {
 @media (min-width: 1024px) {
   .pts-picker-fields {
     flex-wrap: nowrap;
-    align-items: end;
+    align-items: start;
   }
 }
 
