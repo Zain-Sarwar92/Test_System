@@ -1483,6 +1483,7 @@ export function GenerateWizard({
     if (nextType) {
       activateType(nextType);
     }
+    setPickerFiltersOpen(true);
     // Keep the picker open so the paper preview can update live behind it.
     setSelectionMode("manual");
   }
