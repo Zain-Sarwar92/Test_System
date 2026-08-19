@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { resolveLogoUrlFromForm } from "@/lib/org-logo";
+import { resolveLogoUrlFromForm, isSafeLogoUrl } from "@/lib/org-logo";
 
 const profileSchema = z.object({
   name: z
@@ -19,14 +19,7 @@ const profileSchema = z.object({
     .trim()
     .optional()
     .or(z.literal(""))
-    .refine(
-      (value) =>
-        !value ||
-        value.startsWith("/") ||
-        value.startsWith("data:image/") ||
-        /^https?:\/\//i.test(value),
-      "Enter a valid logo URL starting with http:// or https://, or upload an image",
-    ),
+    .refine((value) => !value || isSafeLogoUrl(value), "Upload a JPG, PNG, WEBP, or GIF logo"),
   curriculumAccessMode: z.enum(["ASSIGNED_ONLY", "ALL_CURRICULUM"]),
 });
 

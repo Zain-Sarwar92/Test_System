@@ -6,21 +6,15 @@ import { createCredentialUser } from "@/lib/create-credential-user";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { parseOrgModulesFromForm } from "@/lib/org-modules";
-import { resolveLogoUrlFromForm } from "@/lib/org-logo";
+import { resolveLogoUrlFromForm, isSafeLogoUrl } from "@/lib/org-logo";
+import { passwordSchema } from "@/lib/password-policy";
 
 const logoUrlSchema = z
   .string()
   .trim()
   .optional()
   .or(z.literal(""))
-  .refine(
-    (value) =>
-      !value ||
-        value.startsWith("/") ||
-        value.startsWith("data:image/") ||
-        /^https?:\/\//i.test(value),
-    "Enter a valid logo URL starting with http:// or https://, or upload an image",
-  );
+  .refine((value) => !value || isSafeLogoUrl(value), "Upload a JPG, PNG, WEBP, or GIF logo");
 
 const orgSchema = z.object({
   name: z.string().trim().min(2).max(120),
@@ -36,7 +30,7 @@ const orgSchema = z.object({
   planId: z.string().trim().optional(),
   adminName: z.string().trim().min(2).max(120),
   adminEmail: z.string().email(),
-  adminPassword: z.string().min(8).max(72),
+  adminPassword: passwordSchema,
 });
 
 const updateOrgSchema = z.object({

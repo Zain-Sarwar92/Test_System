@@ -25,7 +25,6 @@ type StudentRow = {
 
 type Sheet = {
   id: string;
-  imagePath: string;
   originalName: string | null;
 };
 
@@ -246,7 +245,7 @@ export function MarksEntry({
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={activeSheet.imagePath}
+                    src={`/api/org-admin/result-sheets/${activeSheet.id}`}
                     alt="Uploaded marks sheet"
                     className="max-h-[28rem] w-full rounded-xl border border-[rgba(15,40,70,0.08)] object-contain bg-[#f7fafc]"
                   />

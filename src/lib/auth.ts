@@ -25,7 +25,7 @@ function extraTrustedOrigins(): string[] {
   return raw
     .split(",")
     .map((v) => normalizeAppUrl(v.trim()))
-    .filter((v): v is string => Boolean(v));
+    .filter((v): v is string => typeof v === "string" && v.length > 0 && !v.includes("*"));
 }
 
 const authBaseUrl = normalizeAppUrl(
@@ -42,8 +42,10 @@ const trustedOrigins = [
       normalizeAppUrl(process.env.APP_URL),
       ...devLocalOrigins(),
       ...extraTrustedOrigins(),
-      "https://flow-test-ruby.vercel.app",
-      "https://*.vercel.app",
+      process.env.VERCEL_ENV === "production" &&
+      process.env.VERCEL_PROJECT_PRODUCTION_URL
+        ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+        : undefined,
     ].filter((v): v is string => Boolean(v)),
   ),
 ];

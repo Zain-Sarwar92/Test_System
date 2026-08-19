@@ -37,9 +37,8 @@ export function sanitizeRichHtml(input: string): string {
         const src = srcMatch?.[2]?.trim() ?? "";
         if (!src) return "";
         const ok =
-          src.startsWith("/") ||
-          src.startsWith("https://") ||
-          src.startsWith("http://");
+          (src.startsWith("/") && !src.startsWith("//")) ||
+          src.startsWith("https://");
         if (!ok) return "";
         // Block javascript: etc already by ok check
         const altMatch = attrs.match(/\salt\s*=\s*(["'])([^"']*)\1/i);

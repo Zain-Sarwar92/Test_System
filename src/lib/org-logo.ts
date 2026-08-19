@@ -9,6 +9,24 @@ const LOGO_TYPES: Record<string, string> = {
 };
 
 const MAX_LOGO_BYTES = 2 * 1024 * 1024;
+const DATA_IMAGE_RE = /^data:image\/(jpeg|jpg|png|webp|gif);base64,[a-z0-9+/]+=*$/i;
+const LOCAL_LOGO_RE = /^\/(uploads\/org-logos\/|brand\/)[a-z0-9._-]+\.(jpe?g|png|webp|gif)$/i;
+
+export function isSafeLogoUrl(value: string | null | undefined): boolean {
+  const url = value?.trim() ?? "";
+  if (!url) return true;
+  if (url.startsWith("//") || url.toLowerCase().includes("svg")) return false;
+  if (LOCAL_LOGO_RE.test(url)) return true;
+  if (url.startsWith("data:image/")) return DATA_IMAGE_RE.test(url);
+  try {
+    const parsed = new URL(url);
+    if (parsed.protocol !== "https:") return false;
+    if (parsed.username || parsed.password) return false;
+    return /\.(jpe?g|png|webp|gif)$/i.test(parsed.pathname);
+  } catch {
+    return false;
+  }
+}
 
 export async function resolveLogoUrlFromForm(formData: FormData): Promise<string | null> {
   const file = formData.get("logoFile");
@@ -36,5 +54,9 @@ export async function resolveLogoUrlFromForm(formData: FormData): Promise<string
   }
 
   const url = String(formData.get("logoUrl") ?? "").trim();
-  return url || null;
+  if (!url) return null;
+  if (!isSafeLogoUrl(url)) {
+    throw new Error("Upload a JPG, PNG, WEBP, or GIF logo, or use a https image URL");
+  }
+  return url;
 }

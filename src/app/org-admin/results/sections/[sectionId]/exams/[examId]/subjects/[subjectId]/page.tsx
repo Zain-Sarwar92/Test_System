@@ -134,7 +134,6 @@ export default async function SubjectMarksPage({
           students={rows}
           sheets={assessment.sheets.map((sheet) => ({
             id: sheet.id,
-            imagePath: sheet.imagePath,
             originalName: sheet.originalName,
           }))}
         />

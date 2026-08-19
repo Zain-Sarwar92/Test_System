@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
 import { createCredentialUser } from "@/lib/create-credential-user";
+import { passwordSchema } from "@/lib/password-policy";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import {  assertNoDuplicateAssignments,
@@ -17,10 +18,7 @@ const teacherCreateSchema = z.object({
     .min(2, "Enter the teacher's full name.")
     .max(120, "Teacher name must be 120 characters or fewer."),
   email: z.string().trim().email("Enter a valid email address."),
-  password: z
-    .string()
-    .min(8, "Password must be at least 8 characters.")
-    .max(72, "Password must be 72 characters or fewer."),
+  password: passwordSchema,
   assignments: z.string().optional(),
 });
 
@@ -157,26 +155,29 @@ export async function createTeacher(formData: FormData) {
 
     const existing = await prisma.user.findUnique({
       where: { email: parsed.email },
-      include: {
-        orgMemberships: {
-          where: { organizationId },
-        },
-      },
+      select: { id: true },
     });
 
     if (existing) {
-      if (existing.orgMemberships.length > 0) {
-        return {
-          ok: false as const,
-          error: "This teacher is already a member of your organization.",
-        };
-      }
+      return {
+        ok: false as const,
+        error: "This email is already registered. Use a different email.",
+      };
+    }
+
+    let createdUserId: string | null = null;
+    try {
+      const created = await createCredentialUser({
+        email: parsed.email,
+        password: parsed.password,
+        name: parsed.name,
+      });
+      createdUserId = created.id;
 
       await prisma.$transaction(async (tx) => {
         await tx.user.update({
-          where: { id: existing.id },
+          where: { id: createdUserId! },
           data: {
-            name: parsed.name,
             role: "TEACHER",
             teacherLevel: null,
             phone: null,
@@ -188,7 +189,7 @@ export async function createTeacher(formData: FormData) {
         });
         await tx.orgMembership.create({
           data: {
-            userId: existing.id,
+            userId: createdUserId!,
             organizationId,
             role: "TEACHER",
             isActive: true,
@@ -197,7 +198,7 @@ export async function createTeacher(formData: FormData) {
         for (const row of assignments) {
           await tx.teacherAssignment.create({
             data: {
-              teacherId: existing.id,
+              teacherId: createdUserId!,
               classId: row.classId,
               sectionId: row.sectionId,
               subjectId: row.subjectId,
@@ -205,60 +206,17 @@ export async function createTeacher(formData: FormData) {
           });
         }
       });
-    } else {
-      let createdUserId: string | null = null;
-      try {
-        const created = await createCredentialUser({
-          email: parsed.email,
-          password: parsed.password,
-          name: parsed.name,
-        });
-        createdUserId = created.id;
-
-        await prisma.$transaction(async (tx) => {
-          await tx.user.update({
-            where: { id: createdUserId! },
-            data: {
-              role: "TEACHER",
-              teacherLevel: null,
-              phone: null,
-              qualification: null,
-              experience: null,
-              organizationId,
-              isActive: true,
-            },
-          });
-          await tx.orgMembership.create({
-            data: {
-              userId: createdUserId!,
-              organizationId,
-              role: "TEACHER",
-              isActive: true,
-            },
-          });
-          for (const row of assignments) {
-            await tx.teacherAssignment.create({
-              data: {
-                teacherId: createdUserId!,
-                classId: row.classId,
-                sectionId: row.sectionId,
-                subjectId: row.subjectId,
-              },
-            });
-          }
-        });
-      } catch (error) {
-        if (createdUserId) {
-          await prisma.orgMembership
-            .deleteMany({ where: { userId: createdUserId } })
-            .catch(() => {});
-          await prisma.teacherAssignment
-            .deleteMany({ where: { teacherId: createdUserId } })
-            .catch(() => {});
-          await prisma.user.delete({ where: { id: createdUserId } }).catch(() => {});
-        }
-        throw error;
+    } catch (error) {
+      if (createdUserId) {
+        await prisma.orgMembership
+          .deleteMany({ where: { userId: createdUserId } })
+          .catch(() => {});
+        await prisma.teacherAssignment
+          .deleteMany({ where: { teacherId: createdUserId } })
+          .catch(() => {});
+        await prisma.user.delete({ where: { id: createdUserId } }).catch(() => {});
       }
+      throw error;
     }
 
     revalidateTeachers();
@@ -320,7 +278,9 @@ export async function updateTeacher(formData: FormData) {
           experience: null,
         },
       });
-      await tx.teacherAssignment.deleteMany({ where: { teacherId: parsed.id } });
+      await tx.teacherAssignment.deleteMany({
+        where: { teacherId: parsed.id, section: { organizationId } },
+      });
       for (const row of assignments) {
         await tx.teacherAssignment.create({
           data: {

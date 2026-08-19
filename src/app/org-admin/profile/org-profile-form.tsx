@@ -9,7 +9,7 @@ import { updateOrgProfile } from "./actions";
 import { LogoUploadField } from "@/components/logo-upload-field";
 
 const PHONE_DIGITS = /\d/g;
-const LOGO_REF = /^(https?:\/\/|\/|data:image\/)/i;
+const LOGO_REF = /^(https:\/\/|\/uploads\/org-logos\/|\/brand\/|data:image\/(jpeg|jpg|png|webp|gif);base64,)/i;
 
 export function OrgProfileForm({
   org,
@@ -58,7 +58,7 @@ export function OrgProfileForm({
       !(logoFile instanceof File && logoFile.size > 0) &&
       !LOGO_REF.test(logoUrl)
     ) {
-      toast.error("Enter a valid logo URL starting with http:// or https://, or upload an image.");
+      toast.error("Upload a JPG, PNG, WEBP, or GIF logo, or use a https image URL.");
       return;
     }
     if (address.length > 300) {
