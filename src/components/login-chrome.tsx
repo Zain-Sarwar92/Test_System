@@ -7,11 +7,8 @@ import { BrandLogo } from "@/components/brand-logo";
 
 export const LOGIN_EXPLORE_LINKS = [
   { href: "/", label: "Home" },
-  { href: "/#features", label: "Features" },
-  { href: "/#modes", label: "Modes" },
-  { href: "/#coverage", label: "Coverage" },
+  { href: "/#product", label: "Product" },
   { href: "/#how", label: "How it works" },
-  { href: "/#start", label: "Get started" },
 ] as const;
 
 export function LoginNav() {
@@ -91,7 +88,7 @@ export function LoginNav() {
             Back to home
           </Link>
           <Link
-            href="/#start"
+            href="/login"
             className="landing-btn landing-btn-solid landing-btn-block"
             onClick={() => setOpen(false)}
           >

@@ -16,6 +16,7 @@ type RevealProps = {
   from?: RevealFrom;
   delay?: number;
   className?: string;
+  id?: string;
 };
 
 export function Reveal({
@@ -23,6 +24,7 @@ export function Reveal({
   from = "up",
   delay = 0,
   className,
+  id,
 }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [armed, setArmed] = useState(false);
@@ -68,12 +70,13 @@ export function Reveal({
       observer.disconnect();
       window.clearTimeout(failsafe);
     };
-  }, []);
+  }, [delay]);
 
   const style = { "--reveal-delay": `${delay}ms` } as CSSProperties;
 
   return (
     <div
+      id={id}
       ref={ref}
       className={cn(
         "landing-reveal",

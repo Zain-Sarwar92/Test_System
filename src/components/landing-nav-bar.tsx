@@ -6,9 +6,7 @@ import { Menu, X } from "lucide-react";
 import { BrandLogo } from "@/components/brand-logo";
 
 const NAV_LINKS = [
-  { href: "#features", label: "Features" },
-  { href: "#modes", label: "Modes" },
-  { href: "#coverage", label: "Coverage" },
+  { href: "#product", label: "Product" },
   { href: "#how", label: "How it works" },
 ] as const;
 
@@ -54,9 +52,9 @@ export function LandingNavBar() {
             <Link href="/login" className="landing-btn landing-btn-ghost">
               Login
             </Link>
-            <a href="#start" className="landing-btn landing-btn-solid">
+            <Link href="/login" className="landing-btn landing-btn-solid">
               Get started
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -101,13 +99,13 @@ export function LandingNavBar() {
           >
             Login
           </Link>
-          <a
-            href="#start"
+          <Link
+            href="/login"
             className="landing-btn landing-btn-solid landing-btn-block"
             onClick={() => setOpen(false)}
           >
             Get started
-          </a>
+          </Link>
         </div>
       </aside>
     </header>
