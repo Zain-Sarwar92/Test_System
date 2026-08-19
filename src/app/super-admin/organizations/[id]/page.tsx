@@ -10,6 +10,7 @@ import { requireRole } from "@/lib/rbac";
 import { deleteOrganization, toggleOrganizationActive, updateOrganization, updateOrganizationModules } from "../actions";
 import { DeleteOrgButton } from "../delete-org-button";
 import { OrgModuleCheckboxes } from "@/components/org-module-checkboxes";
+import { LogoUploadField } from "@/components/logo-upload-field";
 import { flagsFromOrg } from "@/lib/org-modules";
 
 export default async function OrganizationDetailPage({
@@ -89,18 +90,12 @@ export default async function OrganizationDetailPage({
                 <Input name="logoUrl" defaultValue={org.logoUrl ?? ""} className="mt-1" />
               </label>
             </div>
-            <label className="block">
+            <div>
               <span className="field-label">Or upload logo</span>
-              <Input
-                name="logoFile"
-                type="file"
-                accept="image/png,image/jpeg,image/webp,image/gif"
-                className="mt-1"
-              />
-              <span className="mt-1 block text-xs text-muted">
-                JPG, PNG, WEBP, or GIF up to 2 MB. Upload takes priority over the URL.
-              </span>
-            </label>
+              <div className="mt-1">
+                <LogoUploadField currentUrl={org.logoUrl} />
+              </div>
+            </div>
             <label className="block">
               <span className="field-label">Subscription plan</span>
               <select

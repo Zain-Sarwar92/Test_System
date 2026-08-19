@@ -6,9 +6,10 @@ import { Input } from "@/components/ui/input";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { toast } from "@/components/ui/toast";
 import { updateOrgProfile } from "./actions";
+import { LogoUploadField } from "@/components/logo-upload-field";
 
-const EMAIL_LIKE_URL = /^https?:\/\/.+\..+/i;
 const PHONE_DIGITS = /\d/g;
+const LOGO_REF = /^(https?:\/\/|\/)/i;
 
 export function OrgProfileForm({
   org,
@@ -29,6 +30,7 @@ export function OrgProfileForm({
     const name = String(formData.get("name") ?? "").trim();
     const phone = String(formData.get("phone") ?? "").trim();
     const logoUrl = String(formData.get("logoUrl") ?? "").trim();
+    const logoFile = formData.get("logoFile");
     const address = String(formData.get("address") ?? "").trim();
     const curriculumAccessMode = String(formData.get("curriculumAccessMode") ?? "");
 
@@ -51,8 +53,12 @@ export function OrgProfileForm({
         return;
       }
     }
-    if (logoUrl && !EMAIL_LIKE_URL.test(logoUrl)) {
-      toast.error("Enter a valid logo URL starting with http:// or https://.");
+    if (
+      logoUrl &&
+      !(logoFile instanceof File && logoFile.size > 0) &&
+      !LOGO_REF.test(logoUrl)
+    ) {
+      toast.error("Enter a valid logo URL starting with http:// or https://, or upload an image.");
       return;
     }
     if (address.length > 300) {
@@ -109,9 +115,13 @@ export function OrgProfileForm({
             <Input
               name="logoUrl"
               defaultValue={org.logoUrl ?? ""}
-              placeholder="https://..."
+              placeholder="https://... or upload below"
             />
           </label>
+        </div>
+        <div>
+          <span className="field-label">Or upload logo</span>
+          <LogoUploadField currentUrl={org.logoUrl} />
         </div>
 
         <label className="block">
