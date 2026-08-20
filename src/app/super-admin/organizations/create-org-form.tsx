@@ -40,7 +40,7 @@ export function CreateOrgForm({
   }
 
   return (
-    <form onSubmit={onSubmit} className="mt-6 space-y-4">
+    <form onSubmit={onSubmit} className="mt-6 space-y-4 ">
       <div className="form-grid form-grid-2">
         <label>
           <span className="field-label">
@@ -73,7 +73,7 @@ export function CreateOrgForm({
             <span className="field-label">Subscription plan</span>
             <select
               name="planId"
-              className="mt-1 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2 text-sm"
+              className="mt-1 w-full rounded-xl border border-line bg-card px-3 py-2 text-sm"
             >
               <option value="">No plan</option>
               {plans.map((p) => (

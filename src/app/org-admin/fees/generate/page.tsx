@@ -95,7 +95,7 @@ export default async function GenerateFeesPage({ searchParams }: Props) {
             {plans.map((plan) => (
               <div
                 key={plan.id}
-                className="rounded-xl border border-[rgba(15,40,70,0.08)] bg-card p-4"
+                className="rounded-xl border border-line bg-card p-4 shadow-[var(--shadow-soft)]"
               >
                 <p className="font-semibold text-ink">{plan.name}</p>
                 <p className="text-xs text-muted">

@@ -594,27 +594,60 @@ export async function deleteAssessmentSheet(formData: FormData) {
 
 /** Clears all marks/sheets for one section + exam (does not delete the exam itself). */
 export async function deleteSectionExamResult(formData: FormData) {
-  const organizationId = await getOrganizationId();
-  const sectionId = z.string().min(1).parse(formData.get("sectionId"));
-  const examTermId = z.string().min(1).parse(formData.get("examTermId"));
+  try {
+    const organizationId = await getOrganizationId();
+    const sectionId = z.string().min(1).parse(formData.get("sectionId"));
+    const examTermId = z.string().min(1).parse(formData.get("examTermId"));
 
-  const [section, exam] = await Promise.all([
-    prisma.section.findFirst({
-      where: { id: sectionId, organizationId },
-      select: { id: true },
-    }),
-    prisma.examTerm.findFirst({
-      where: { id: examTermId, organizationId },
-      select: { id: true, seriesId: true },
-    }),
-  ]);
-  if (!section || !exam) throw new Error("Exam or section not found");
+    const [section, exam] = await Promise.all([
+      prisma.section.findFirst({
+        where: { id: sectionId, organizationId },
+        select: { id: true },
+      }),
+      prisma.examTerm.findFirst({
+        where: { id: examTermId, organizationId },
+        select: { id: true, seriesId: true },
+      }),
+    ]);
+    if (!section || !exam) {
+      return { ok: false as const, error: "Exam or section not found" };
+    }
 
-  await prisma.subjectAssessment.deleteMany({
-    where: { organizationId, sectionId, examTermId },
-  });
-  revalidateResults(sectionId, examTermId, exam.seriesId ?? undefined);
-  redirect(`/org-admin/results/sections/${sectionId}`);
+    const existing = await prisma.subjectAssessment.findMany({
+      where: { organizationId, sectionId, examTermId },
+      select: { id: true, sheets: { select: { imagePath: true } } },
+    });
+
+    for (const assessment of existing) {
+      for (const sheet of assessment.sheets) {
+        await deleteAssessmentSheetFile(sheet.imagePath).catch(() => undefined);
+      }
+    }
+
+    await prisma.subjectAssessment.deleteMany({
+      where: { organizationId, sectionId, examTermId },
+    });
+    revalidateResults(sectionId, examTermId, exam.seriesId ?? undefined);
+    const returnTo = String(formData.get("returnTo") ?? "").trim();
+    if (returnTo.startsWith("/org-admin/results/")) {
+      redirect(returnTo);
+    }
+    redirect(`/org-admin/results/sections/${sectionId}`);
+  } catch (error) {
+    // redirect() throws a special Next.js error — rethrow it
+    if (
+      error &&
+      typeof error === "object" &&
+      "digest" in error &&
+      String((error as { digest?: string }).digest ?? "").startsWith("NEXT_REDIRECT")
+    ) {
+      throw error;
+    }
+    return {
+      ok: false as const,
+      error: actionError(error, "Failed to delete section result"),
+    };
+  }
 }
 
 /** Deletes one subject's marks for this section exam. */

@@ -29,7 +29,11 @@ export default async function SectionExamsPage({
   if (!section) notFound();
 
   const exams = await prisma.examTerm.findMany({
-    where: { organizationId },
+    where: {
+      organizationId,
+      // Only exams that have subject rows for THIS section (section-scoped list)
+      assessments: { some: { sectionId } },
+    },
     orderBy: [{ session: "desc" }, { createdAt: "desc" }, { name: "asc" }],
     select: {
       id: true,

@@ -49,7 +49,7 @@ export default async function PlansPage() {
         {plans.map((plan) => (
           <div
             key={plan.id}
-            className="chart-card flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+            className="chart-card flex flex-col gap-3 rounded-[1.15rem] border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)] sm:flex-row sm:items-center sm:justify-between"
           >
             <div className="flex items-start gap-3">
               <span className="stat-icon">

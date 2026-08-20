@@ -177,9 +177,9 @@ export function TeacherScheduleFormView({
       {groups.map((group) => (
         <div
           key={group.scheduleId}
-          className="overflow-hidden rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-card shadow-[0_8px_24px_rgba(11,31,51,0.05)]"
+          className="overflow-hidden rounded-[1.15rem] border border-line bg-card shadow-[var(--shadow-soft)]"
         >
-          <div className="border-b border-[rgba(15,40,70,0.08)] bg-mist px-4 py-3 sm:px-5">
+          <div className="border-b border-line bg-mist px-4 py-3 sm:px-5">
             <p className="text-[11px] font-semibold tracking-[0.14em] text-muted uppercase">
               Test Schedule
             </p>
@@ -195,15 +195,15 @@ export function TeacherScheduleFormView({
             {group.rounds.map((round) => (
               <div
                 key={round.roundId}
-                className="overflow-hidden rounded-[0.95rem] border border-[rgba(15,40,70,0.08)]"
+                className="overflow-hidden rounded-[0.95rem] border border-line"
               >
-                <div className="border-b border-[rgba(15,40,70,0.08)] bg-brand/10 px-3 py-2.5">
+                <div className="border-b border-line bg-brand/10 px-3 py-2.5">
                   <p className="text-sm font-semibold text-ink">{round.roundName}</p>
                 </div>
                 <div className="nice-scroll overflow-x-auto">
                   <table className="min-w-full border-collapse text-left text-sm">
                     <thead>
-                      <tr className="border-b border-[rgba(15,40,70,0.1)] bg-card">
+                      <tr className="border-b border-line bg-card">
                         <th className="whitespace-nowrap px-3 py-3 font-semibold text-ink">
                           Date
                         </th>
@@ -233,7 +233,7 @@ export function TeacherScheduleFormView({
                         return (
                         <tr
                           key={dateGroup.dateKey}
-                          className="border-b border-[rgba(15,40,70,0.06)] last:border-b-0"
+                          className="border-b border-line last:border-b-0"
                         >
                           <td className="whitespace-nowrap px-3 py-3 align-top font-medium text-ink">
                             {first.testDateLabel}
@@ -258,7 +258,7 @@ export function TeacherScheduleFormView({
                             {dateGroup.items.map((item) => (
                               <div
                                 key={item.assignmentId}
-                                className="min-h-[4.25rem] whitespace-nowrap border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                                className="min-h-[4.25rem] whitespace-nowrap border-b border-line px-3 py-3 last:border-b-0"
                               >
                                 {item.subjectName}
                               </div>
@@ -268,7 +268,7 @@ export function TeacherScheduleFormView({
                             {dateGroup.items.map((item) => (
                               <div
                                 key={item.assignmentId}
-                                className="min-h-[4.25rem] whitespace-nowrap border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                                className="min-h-[4.25rem] whitespace-nowrap border-b border-line px-3 py-3 last:border-b-0"
                               >
                                 {shortClassLabel(item.className)}
                               </div>
@@ -278,7 +278,7 @@ export function TeacherScheduleFormView({
                             {dateGroup.items.map((item) => (
                               <div
                                 key={item.assignmentId}
-                                className="min-h-[4.25rem] whitespace-nowrap border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                                className="min-h-[4.25rem] whitespace-nowrap border-b border-line px-3 py-3 last:border-b-0"
                               >
                                 {item.sectionName?.trim() || "—"}
                               </div>
@@ -288,7 +288,7 @@ export function TeacherScheduleFormView({
                             {dateGroup.items.map((item) => (
                               <div
                                 key={item.assignmentId}
-                                className="min-h-[4.25rem] border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                                className="min-h-[4.25rem] border-b border-line px-3 py-3 last:border-b-0"
                               >
                                 <AssignmentSyllabusCell
                                   assignmentId={item.assignmentId}
@@ -302,7 +302,7 @@ export function TeacherScheduleFormView({
                             {dateGroup.items.map((item) => (
                               <div
                                 key={item.assignmentId}
-                                className="min-h-[4.25rem] border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                                className="min-h-[4.25rem] border-b border-line px-3 py-3 last:border-b-0"
                               >
                                 <span className={statusChipClass(item.status)}>
                                   {item.status}
@@ -314,7 +314,7 @@ export function TeacherScheduleFormView({
                             {dateGroup.items.map((item) => (
                               <div
                                 key={item.assignmentId}
-                                className="min-h-[4.25rem] border-b border-[rgba(15,40,70,0.06)] px-3 py-3 last:border-b-0"
+                                className="min-h-[4.25rem] border-b border-line px-3 py-3 last:border-b-0"
                               >
                                 {item.status === "COMPLETED" &&
                                 (item.testId || item.coveredByTestId) ? (

@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 import { toast } from "@/components/ui/toast";
+import { cn } from "@/lib/utils";
 
 export function formatPkr(value: { toFixed(decimalPlaces: number): string } | number) {
   const amount = typeof value === "number" ? value.toFixed(2) : value.toFixed(2);
@@ -13,6 +15,7 @@ export function formatPkr(value: { toFixed(decimalPlaces: number): string } | nu
 }
 
 export function FeesNav() {
+  const pathname = usePathname();
   const links = [
     ["/org-admin/fees", "Overview"],
     ["/org-admin/fees/structures", "Structures"],
@@ -20,17 +23,29 @@ export function FeesNav() {
     ["/org-admin/fees/collect", "Collect payment"],
     ["/org-admin/fees/dues", "Dues & ledger"],
   ] as const;
+
   return (
     <nav className="flex flex-wrap gap-2">
-      {links.map(([href, label]) => (
-        <Link
-          key={href}
-          href={href}
-          className="rounded-[0.8rem] border border-[rgba(15,40,70,0.12)] bg-card/80 px-3 py-2 text-sm font-semibold text-ink-soft transition hover:border-brand/40 hover:text-brand"
-        >
-          {label}
-        </Link>
-      ))}
+      {links.map(([href, label]) => {
+        const active =
+          href === "/org-admin/fees"
+            ? pathname === href
+            : pathname === href || pathname.startsWith(`${href}/`);
+        return (
+          <Link
+            key={href}
+            href={href}
+            className={cn(
+              "rounded-full border px-3.5 py-2 text-sm font-semibold transition",
+              active
+                ? "border-brand/40 bg-brand/12 text-brand shadow-[var(--shadow-soft)]"
+                : "border-line bg-card/80 text-ink-soft hover:border-brand/40 hover:text-brand",
+            )}
+          >
+            {label}
+          </Link>
+        );
+      })}
     </nav>
   );
 }

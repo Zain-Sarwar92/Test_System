@@ -45,7 +45,7 @@ export default async function SuperAdminTestsPage() {
         {tests.map((test) => (
           <div
             key={test.id}
-            className="chart-card flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+            className="chart-card flex flex-col gap-3 rounded-[1.15rem] border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)] sm:flex-row sm:items-center sm:justify-between"
           >
             <div className="min-w-0">
               <div className="flex flex-wrap items-center gap-2">

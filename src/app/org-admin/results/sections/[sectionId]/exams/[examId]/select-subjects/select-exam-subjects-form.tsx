@@ -75,7 +75,12 @@ export function SelectExamSubjectsForm({
 
   return (
     <div className="space-y-5">
-     
+      <div className="rounded-[1.15rem] border border-line bg-mist/35 p-4 shadow-[var(--shadow-soft)]">
+        <p className="text-sm font-semibold text-ink">{examName}</p>
+        <p className="mt-1 text-xs text-muted">
+          Pick every subject that should appear on this exam result.
+        </p>
+      </div>
 
       <div className="block">
         <span className="mb-1.5 block text-sm font-semibold text-ink">

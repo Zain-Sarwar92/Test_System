@@ -81,24 +81,26 @@ export default async function SuggestionsPage({
       </div>
 
       <div className="stats-grid">
-        <Card className="min-h-[7.5rem] bg-gradient-to-br from-[#fff4e5] to-card">
-          <div className="flex items-start justify-between gap-3">
-            <CardDescription>Pending</CardDescription>
-            <span className="stat-icon">
+        <div className="org-dash-card org-dash-card-tone-schedules">
+          <div className="org-dash-card-head">
+            <p className="org-dash-card-label">Pending</p>
+            <span className="org-dash-icon org-dash-icon-tone-schedules">
               <Inbox className="h-4 w-4" />
             </span>
           </div>
-          <CardTitle className="mt-3 text-[2rem]">{pending.length}</CardTitle>
-        </Card>
-        <Card className="min-h-[7.5rem] bg-gradient-to-br from-[#e8f7f4] to-card">
-          <div className="flex items-start justify-between gap-3">
-            <CardDescription>Recently reviewed</CardDescription>
-            <span className="stat-icon">
+          <p className="org-dash-card-value">{pending.length}</p>
+          <p className="org-dash-card-hint">Waiting for review</p>
+        </div>
+        <div className="org-dash-card org-dash-card-tone-students">
+          <div className="org-dash-card-head">
+            <p className="org-dash-card-label">Recently reviewed</p>
+            <span className="org-dash-icon org-dash-icon-tone-students">
               <Check className="h-4 w-4" />
             </span>
           </div>
-          <CardTitle className="mt-3 text-[2rem]">{reviewed.length}</CardTitle>
-        </Card>
+          <p className="org-dash-card-value">{reviewed.length}</p>
+          <p className="org-dash-card-hint">Latest decisions</p>
+        </div>
       </div>
 
       {pending.length > 1 ? (
@@ -173,7 +175,7 @@ export default async function SuggestionsPage({
                 </ul>
               ) : null}
 
-              <div className="flex flex-col gap-3 border-t border-[rgba(15,40,70,0.08)] pt-4 sm:flex-row sm:items-end">
+              <div className="flex flex-col gap-3 border-t border-line pt-4 sm:flex-row sm:items-end">
                 <form action={approveSuggestion}>
                   <input type="hidden" name="id" value={item.id} />
                   <Button type="submit">
@@ -210,7 +212,7 @@ export default async function SuggestionsPage({
             {reviewed.map((item) => (
               <div
                 key={item.id}
-                className="flex flex-wrap items-center justify-between gap-2 rounded-[0.85rem] border border-[rgba(15,40,70,0.08)] bg-card/80 px-3 py-2.5"
+                className="flex flex-wrap items-center justify-between gap-2 rounded-xl border border-line bg-card px-3 py-2.5 shadow-[var(--shadow-soft)]"
               >
                 <div className="min-w-0">
                   <p className="truncate text-sm text-ink">{item.text}</p>

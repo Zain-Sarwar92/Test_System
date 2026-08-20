@@ -54,7 +54,7 @@ export function EditQuestionForm({ question }: { question: QuestionData }) {
       <label className="block">
         <span className="field-label">Type</span>
         <select
-          className="mt-1 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2 text-sm"
+          className="mt-1 w-full rounded-xl border border-line bg-card px-3 py-2 text-sm"
           value={type}
           onChange={(e) => setType(e.target.value as typeof type)}
         >

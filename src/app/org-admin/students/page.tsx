@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { PageHeader, PageStack } from "@/components/page-header";
+import { HubCrumb } from "@/components/hub-crumb";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { StudentRowActions } from "./student-row-actions";
@@ -176,7 +177,7 @@ export default async function StudentsPage({
       />
 
       {selectedClass ? (
-        <nav className="flex flex-wrap items-center gap-1.5 text-sm">
+        <HubCrumb>
           <Link href="/org-admin/students" className="font-medium text-brand hover:underline">
             Classes
           </Link>
@@ -195,7 +196,7 @@ export default async function StudentsPage({
           ) : (
             <span className="font-semibold text-ink">{selectedClass.name}</span>
           )}
-        </nav>
+        </HubCrumb>
       ) : null}
 
       {!selectedClass ? (
@@ -341,7 +342,7 @@ export default async function StudentsPage({
                 return (
                   <div
                     key={student.id}
-                    className="chart-card rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-card to-mist px-4 py-4"
+                    className="chart-card rounded-[1.15rem] border border-line bg-card px-4 py-4 shadow-[var(--shadow-soft)] transition hover:border-brand/30 hover:shadow-[var(--shadow-elevated)]"
                     style={{ animationDelay: `${index * 35}ms` }}
                   >
                     <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">

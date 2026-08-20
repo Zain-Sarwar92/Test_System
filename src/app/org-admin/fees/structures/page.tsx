@@ -161,7 +161,7 @@ export default async function FeeStructuresPage({ searchParams }: Props) {
           {heads.map((head) => (
             <div
               key={head.id}
-              className="rounded-xl border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3"
+              className="rounded-xl border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)]"
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
@@ -204,7 +204,7 @@ export default async function FeeStructuresPage({ searchParams }: Props) {
           {plans.map((plan) => (
             <div
               key={plan.id}
-              className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card p-4"
+              className="rounded-[1rem] border border-line bg-card p-4 shadow-[var(--shadow-soft)]"
             >
               <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                 <div>

@@ -87,7 +87,7 @@ export function QuestionBankTable() {
           onChange={(e) => setQ(e.target.value)}
         />
         <select
-          className="rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2 text-sm"
+          className="rounded-xl border border-line bg-card px-3 py-2 text-sm"
           value={type}
           onChange={(e) => setType(e.target.value)}
         >
@@ -97,7 +97,7 @@ export function QuestionBankTable() {
           <option value="LONG">Long</option>
         </select>
         <select
-          className="rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2 text-sm"
+          className="rounded-xl border border-line bg-card px-3 py-2 text-sm"
           value={active}
           onChange={(e) => setActive(e.target.value)}
         >
@@ -116,7 +116,7 @@ export function QuestionBankTable() {
         {rows.map((row) => (
           <div
             key={row.id}
-            className="chart-card flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3 sm:flex-row sm:items-start sm:justify-between"
+            className="chart-card flex flex-col gap-3 rounded-[1.15rem] border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)] sm:flex-row sm:items-start sm:justify-between"
           >
             <div className="min-w-0">
               <div className="flex flex-wrap items-center gap-2">

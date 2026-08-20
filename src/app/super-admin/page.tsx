@@ -42,9 +42,9 @@ function BarRow({
           </span>
         </span>
       </div>
-      <div className="h-2.5 overflow-hidden rounded-md bg-[rgba(15,40,70,0.08)]">
+      <div className="org-dash-bar-track">
         <div
-          className={`chart-bar h-full rounded-md ${delayClass}`}
+          className={`chart-bar org-dash-bar-fill h-full ${delayClass}`}
           style={{ width: `${width}%`, background: color }}
         />
       </div>
@@ -108,42 +108,42 @@ export default async function SuperAdminPage() {
       label: "Organizations",
       value: orgCount,
       hint: `${activeOrgCount} active`,
-      tone: "from-[#e8f7f4] to-card",
+      toneClass: "org-dash-card-tone-sections",
+      iconClass: "org-dash-icon-tone-sections",
       icon: Building2,
-      className: "stagger-1",
       href: "/super-admin/organizations/list",
     },
     {
       label: "Live questions",
       value: questionCount,
       hint: "Global bank",
-      tone: "from-[#eaf1f8] to-card",
+      toneClass: "org-dash-card-tone-tests",
+      iconClass: "org-dash-icon-tone-tests",
       icon: BookOpen,
-      className: "stagger-2",
       href: "/super-admin/questions/list",
     },
     {
       label: "Teachers",
       value: teacherCount,
       hint: "Across all orgs",
-      tone: "from-[#eef6f3] to-card",
+      toneClass: "org-dash-card-tone-teachers",
+      iconClass: "org-dash-icon-tone-teachers",
       icon: GraduationCap,
-      className: "stagger-3",
       href: "/super-admin/organizations/list",
     },
     {
       label: "Tests created",
       value: testTotal,
       hint: `${finalTests} finalized · ${testsLast7Days} last 7d`,
-      tone: "from-[#f3f0ea] to-card",
+      toneClass: "org-dash-card-tone-schedules",
+      iconClass: "org-dash-icon-tone-schedules",
       icon: ClipboardList,
-      className: "stagger-4",
       href: "/super-admin/tests",
     },
   ];
 
   return (
-    <PageStack>
+    <PageStack wide>
       <PageHeader
         kicker="Control center"
         title="Dashboard"
@@ -164,21 +164,15 @@ export default async function SuperAdminPage() {
         {stats.map((stat) => {
           const Icon = stat.icon;
           return (
-            <Link key={stat.label} href={stat.href}>
-              <Card
-                className={`chart-card ${stat.className} min-h-[8.5rem] bg-gradient-to-br ${stat.tone} transition-transform duration-300 hover:-translate-y-1`}
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <CardDescription>{stat.label}</CardDescription>
-                  <span className="stat-icon">
-                    <Icon className="h-4 w-4" />
-                  </span>
-                </div>
-                <CardTitle className="mt-3 text-[2rem] md:text-[2.2rem]">
-                  {stat.value}
-                </CardTitle>
-                <p className="mt-2 text-xs text-muted">{stat.hint}</p>
-              </Card>
+            <Link key={stat.label} href={stat.href} className={`org-dash-card ${stat.toneClass}`}>
+              <div className="org-dash-card-head">
+                <p className="org-dash-card-label">{stat.label}</p>
+                <span className={`org-dash-icon ${stat.iconClass}`}>
+                  <Icon className="h-4 w-4" />
+                </span>
+              </div>
+              <p className="org-dash-card-value">{stat.value}</p>
+              <p className="org-dash-card-hint">{stat.hint}</p>
             </Link>
           );
         })}
@@ -238,15 +232,15 @@ export default async function SuperAdminPage() {
             />
           </div>
           <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
-            <div className="rounded-[0.9rem] bg-[#e8f7f4] px-4 py-3">
-              <p className="text-xs text-muted">Active rate</p>
-              <p className="mt-1 text-xl font-semibold text-brand-deep">
+            <div className="org-dash-card tone-surface-collected p-4">
+              <p className="org-dash-card-label">Active rate</p>
+              <p className="org-dash-card-value text-xl">
                 {pct(activeOrgCount, orgCount)}%
               </p>
             </div>
-            <div className="rounded-[0.9rem] bg-[#eaf1f8] px-4 py-3">
-              <p className="text-xs text-muted">Total orgs</p>
-              <p className="mt-1 text-xl font-semibold text-ink">{orgCount}</p>
+            <div className="org-dash-card tone-surface-students p-4">
+              <p className="org-dash-card-label">Total orgs</p>
+              <p className="org-dash-card-value text-xl">{orgCount}</p>
             </div>
           </div>
         </Card>
@@ -324,20 +318,20 @@ export default async function SuperAdminPage() {
       <Card className="chart-card">
         <CardTitle>Organizations at a glance</CardTitle>
         <CardDescription>Teachers, tests, and last activity per tenant.</CardDescription>
-        <div className="mt-4 overflow-x-auto">
+        <div className="mt-4 overflow-x-auto rounded-[1.15rem] border border-line">
           <table className="w-full min-w-[520px] text-left text-sm">
             <thead>
-              <tr className="border-b border-[rgba(15,40,70,0.08)] text-xs text-muted">
-                <th className="py-2 pr-4 font-semibold">Organization</th>
-                <th className="py-2 pr-4 font-semibold">Users</th>
-                <th className="py-2 pr-4 font-semibold">Tests</th>
-                <th className="py-2 font-semibold">Last test</th>
+              <tr className="border-b border-line bg-mist/50 text-xs text-muted">
+                <th className="px-4 py-2.5 font-semibold">Organization</th>
+                <th className="px-4 py-2.5 font-semibold">Users</th>
+                <th className="px-4 py-2.5 font-semibold">Tests</th>
+                <th className="px-4 py-2.5 font-semibold">Last test</th>
               </tr>
             </thead>
             <tbody>
               {orgBreakdown.map((org) => (
-                <tr key={org.id} className="border-b border-[rgba(15,40,70,0.06)]">
-                  <td className="py-2.5 pr-4">
+                <tr key={org.id} className="border-b border-line last:border-b-0">
+                  <td className="px-4 py-2.5">
                     <Link
                       href={`/super-admin/organizations/${org.id}`}
                       className="font-medium text-brand hover:underline"
@@ -345,9 +339,9 @@ export default async function SuperAdminPage() {
                       {org.name}
                     </Link>
                   </td>
-                  <td className="py-2.5 pr-4">{org._count.users}</td>
-                  <td className="py-2.5 pr-4">{org._count.tests}</td>
-                  <td className="py-2.5 text-muted">
+                  <td className="px-4 py-2.5">{org._count.users}</td>
+                  <td className="px-4 py-2.5">{org._count.tests}</td>
+                  <td className="px-4 py-2.5 text-muted">
                     {org.tests[0]?.createdAt.toLocaleDateString() ?? "—"}
                   </td>
                 </tr>

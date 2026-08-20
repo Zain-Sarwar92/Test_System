@@ -198,21 +198,50 @@ export function electiveOptionsForClass(
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export function shortElectiveLabel(name: string) {
-  const n = name.toLowerCase();
+/** Compact subject headers for gazettes / tight tables. */
+export function shortSubjectLabel(name: string) {
+  const n = name.toLowerCase().trim();
+
   if (n.includes("biology") || n.includes("حیاتیات")) return "Bio";
   if (n.includes("computer") || n.includes("کمپیوٹر")) return "Comp";
+  if (n.includes("mathematics") || n.includes("ریاضی") || n === "maths" || n === "math") {
+    return "Math";
+  }
+  if (n.includes("physics") || n.includes("فزکس") || n.includes("طبیعیات")) return "Phy";
+  if (n.includes("chemistry") || n.includes("کیمیا")) return "Chem";
+  if (n.includes("english") || n.includes("انگریزی")) return "Eng";
+  if (n.includes("pakistan studies") || n.includes("پاکستان اسٹڈیز") || n.includes("pak study")) {
+    return "Pak St";
+  }
+  if (n.includes("general science") || n.includes("جنرل سائنس")) return "G.Sci";
+  if (n.includes("اُردو") || n.includes("اردو") || n.includes("urdu")) return "Urdu";
   if (
     n.includes("اسلامیات اختیاری") ||
-    (n.includes("islamiyat") && n.includes("ikhtiyari"))
+    (n.includes("islamiyat") && (n.includes("ikhtiyari") || n.includes("optional")))
   ) {
     return "اسلامیات";
   }
+  if (n.includes("اسلامیات") || n.includes("islamiyat") || n.includes("islamic")) {
+    return "Isl";
+  }
+  if (n.includes("ترجمۃ") || n.includes("ترجمه") || n.includes("tarjuma") || n.includes("quran")) {
+    return "Tarjuma";
+  }
+  if (n.includes("اخلاقیات") || n.includes("ethics") || n.includes("akhlaq")) return "Ethics";
   if (n.includes("education") || n.includes("ایجوکیشن")) return "Edu";
   if (n.includes("civics") || n.includes("سوکس")) return "Civ";
   if (n.includes("economics") || n.includes("معاشیات")) return "Eco";
   if (n.includes("punjabi") || n.includes("پنجابی")) return "Pun";
-  return name.slice(0, 10);
+  if (n.includes("home economics") || n.includes("ہوم اکنامکس")) return "H.Eco";
+  if (n.includes("physical education") || n.includes("فزیکل")) return "PE";
+  if (n.includes("food") || n.includes("غذا")) return "Food";
+  if (n.includes("مرغبانی") || n.includes("poultry")) return "Poultry";
+
+  return name.length > 10 ? name.slice(0, 10) : name;
+}
+
+export function shortElectiveLabel(name: string) {
+  return shortSubjectLabel(name);
 }
 
 /** Explicit DB tags for Punjab Class 9/10 default buckets. */

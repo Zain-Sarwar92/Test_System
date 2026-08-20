@@ -179,7 +179,7 @@ export default async function FeeDuesPage({ searchParams }: Props) {
       </div>
 
       <Card className="overflow-hidden p-0">
-        <div className="border-b border-[rgba(15,40,70,0.08)] px-5 py-4">
+        <div className="border-b border-line px-5 py-4">
           <CardTitle>Charge ledger</CardTitle>
           <CardDescription>Showing up to 500 matching charges.</CardDescription>
         </div>
@@ -206,7 +206,7 @@ export default async function FeeDuesPage({ searchParams }: Props) {
                 const balance =
                   charge.status === "WAIVED" ? new Prisma.Decimal(0) : charge.amount.minus(paid);
                 return (
-                  <tr key={charge.id} className="border-t border-[rgba(15,40,70,0.07)]">
+                  <tr key={charge.id} className="border-t border-line">
                     <td className="px-4 py-3">
                       <p className="font-semibold text-ink">{charge.student.name}</p>
                       <p className="text-xs text-muted">Roll {charge.student.rollNumber}</p>

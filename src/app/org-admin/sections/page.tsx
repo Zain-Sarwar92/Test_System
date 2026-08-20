@@ -1,11 +1,19 @@
 import Link from "next/link";
+import { ChevronRight, GraduationCap, Layers } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
+import { HubCrumb } from "@/components/hub-crumb";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { orgHasModule } from "@/lib/org-modules";
 import { DeleteSectionButton } from "./section-actions";
+
+function plural(count: number, singular: string, pluralForm = `${singular}s`) {
+  return `${count} ${count === 1 ? singular : pluralForm}`;
+}
+
+const HUB_TONES = ["students", "teachers", "tests", "sections"] as const;
 
 type SectionsPageProps = {
   searchParams?:
@@ -42,37 +50,41 @@ export default async function SectionsPage({ searchParams }: SectionsPageProps) 
       })
     : [];
 
-  const grouped = new Map<
-    string,
-    {
-      classId: string;
-      className: string;
-      boardName: string;
-      sections: typeof sections;
-    }
-  >();
-
-  for (const section of sections) {
-    const key = section.classId;
-    const existing = grouped.get(key);
-    if (existing) {
-      existing.sections.push(section);
-    } else {
-      grouped.set(key, {
-        classId: section.class.id,
-        className: section.class.name,
-        boardName: section.class.board.name,
-        sections: [section],
-      });
-    }
-  }
-
-  const groups = [...grouped.values()].sort((a, b) =>
-    a.className.localeCompare(b.className, undefined, {
-      numeric: true,
-      sensitivity: "base",
-    }),
-  );
+  const classes = [
+    ...new Map(
+      sections.map((section) => [
+        section.class.id,
+        {
+          id: section.class.id,
+          name: section.class.name,
+          boardName: section.class.board.name,
+          sectionCount: 0,
+          studentCount: 0,
+          teacherAssignmentCount: 0,
+        },
+      ]),
+    ).values(),
+  ]
+    .map((klass) => {
+      const classSections = sections.filter((section) => section.class.id === klass.id);
+      return {
+        ...klass,
+        sectionCount: classSections.length,
+        studentCount: classSections.reduce(
+          (sum, section) => sum + section._count.students,
+          0,
+        ),
+        teacherAssignmentCount: classSections.reduce(
+          (sum, section) => sum + section._count.teacherAssignments,
+          0,
+        ),
+      };
+    })
+    .sort(
+      (a, b) =>
+        a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: "base" }) ||
+        a.boardName.localeCompare(b.boardName),
+    );
 
   const resolvedSearchParams = searchParams
     ? await Promise.resolve(searchParams)
@@ -85,130 +97,150 @@ export default async function SectionsPage({ searchParams }: SectionsPageProps) 
         ? selectedClassIdRaw[0]
         : undefined;
 
-  const selectedGroup =
-    groups.find((group) => group.classId === selectedClassId) ?? groups[0] ?? null;
+  const selectedClass = classes.find((klass) => klass.id === selectedClassId);
+  const classSections = selectedClass
+    ? sections.filter((section) => section.class.id === selectedClass.id)
+    : [];
+
+  const addSectionHref = selectedClass
+    ? `/org-admin/sections/new?classId=${selectedClass.id}`
+    : "/org-admin/sections/new";
 
   return (
     <PageStack wide>
       <PageHeader
         kicker="Academic Setup"
-        title="Sections"
+        title={selectedClass ? selectedClass.name : "Sections"}
+        description={
+          selectedClass
+            ? `Manage sections in ${selectedClass.name}.`
+            : "Choose a class to view and manage its sections."
+        }
         actions={
-          <Link href="/org-admin/sections/new">
+          <Link href={addSectionHref}>
             <Button>Add Section</Button>
           </Link>
         }
       />
 
-      <Card className="fade-up overflow-hidden p-0">
-        <div className="nice-scroll max-h-[min(68vh,720px)] space-y-5 p-4 md:p-5">
-          {groups.length === 0 ? (
-            <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-mist/40 px-4 py-8 text-left">
-              <CardTitle>No sections yet</CardTitle>
-              <CardDescription className="mt-2">
-                Add sections before assigning teachers to class + section + subject.
-              </CardDescription>
-              <Link href="/org-admin/sections/new" className="mt-4 inline-block">
-                <Button size="sm">Add Section</Button>
-              </Link>
-            </div>
-          ) : null}
+      {selectedClass ? (
+        <HubCrumb>
+          <Link href="/org-admin/sections" className="font-medium text-brand hover:underline">
+            Classes
+          </Link>
+          <ChevronRight className="h-3.5 w-3.5 text-muted" />
+          <span className="font-semibold text-ink">{selectedClass.name}</span>
+        </HubCrumb>
+      ) : null}
 
-          {groups.length > 0 ? (
-            <div className="grid gap-5 lg:grid-cols-[minmax(260px,320px)_minmax(0,1fr)]">
-              <div className="space-y-2">
-                <p className="text-xs font-semibold uppercase tracking-[0.04em] text-muted">
-                  Classes
+      {!selectedClass ? (
+        classes.length === 0 ? (
+          <Card className="fade-up">
+            <CardTitle>No sections yet</CardTitle>
+            <CardDescription>
+              Add sections before assigning teachers to class + section + subject.
+            </CardDescription>
+            <Link href="/org-admin/sections/new" className="mt-4 inline-block">
+              <Button size="sm">Add Section</Button>
+            </Link>
+          </Card>
+        ) : (
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {classes.map((klass, index) => (
+              <Link
+                key={klass.id}
+                href={`/org-admin/sections?classId=${klass.id}`}
+                className={`org-dash-card tone-surface-${HUB_TONES[index % HUB_TONES.length]} chart-card group p-5 transition-transform duration-300 hover:-translate-y-1`}
+                style={{ animationDelay: `${index * 40}ms` }}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="org-dash-card-label">{klass.boardName}</p>
+                    <h3 className="org-dash-card-value mt-1 text-2xl">{klass.name}</h3>
+                  </div>
+                  <span
+                    className={`org-dash-icon org-dash-icon-tone-${HUB_TONES[index % HUB_TONES.length]}`}
+                  >
+                    <GraduationCap className="h-4 w-4" />
+                  </span>
+                </div>
+                <p className="org-dash-card-hint mt-4">
+                  {plural(klass.sectionCount, "section")}
+                  {studentsEnabled
+                    ? ` · ${plural(klass.studentCount, "student")}`
+                    : ` · ${plural(klass.teacherAssignmentCount, "assignment")}`}
                 </p>
-                {groups.map((group) => {
-                  const isActive = selectedGroup?.classId === group.classId;
-                  return (
-                    <Link
-                      key={group.classId}
-                      href={`/org-admin/sections?classId=${group.classId}`}
-                      className={`block rounded-[0.9rem] border px-3 py-3 transition ${
-                        isActive
-                          ? "border-brand/45 bg-brand/10"
-                          : "border-[rgba(15,40,70,0.1)] bg-card hover:border-brand/30 hover:bg-brand/5"
-                      }`}
-                    >
-                      <p className="font-semibold text-ink">{group.className}</p>
-                      <p className="mt-0.5 text-xs text-muted">
-                        {group.boardName} · {group.sections.length} section
-                        {group.sections.length === 1 ? "" : "s"}
-                      </p>
-                    </Link>
-                  );
-                })}
+                <p className="mt-3 text-sm font-medium text-brand">
+                  View sections
+                  <ChevronRight className="ml-0.5 inline h-4 w-4 align-text-bottom" />
+                </p>
+              </Link>
+            ))}
+          </div>
+        )
+      ) : classSections.length === 0 ? (
+        <Card className="fade-up">
+          <CardTitle>No sections in this class</CardTitle>
+          <CardDescription>
+            Add a section for {selectedClass.name} before assigning teachers or students.
+          </CardDescription>
+          <Link href={addSectionHref} className="mt-4 inline-block">
+            <Button size="sm">Add Section</Button>
+          </Link>
+        </Card>
+      ) : (
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+          {classSections.map((section, index) => (
+            <div
+              key={section.id}
+              className={`org-dash-card tone-surface-${HUB_TONES[index % HUB_TONES.length]} chart-card p-5`}
+              style={{ animationDelay: `${index * 40}ms` }}
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <p className="org-dash-card-label">Section</p>
+                  <h3 className="org-dash-card-value mt-1 text-2xl">{section.name}</h3>
+                </div>
+                <span
+                  className={`org-dash-icon org-dash-icon-tone-${HUB_TONES[index % HUB_TONES.length]}`}
+                >
+                  <Layers className="h-4 w-4" />
+                </span>
               </div>
-
-              <div className="space-y-3">
-                {selectedGroup ? (
+              <p className="org-dash-card-hint mt-4">
+                {plural(section._count.teacherAssignments, "teacher assignment")}
+                {studentsEnabled
+                  ? ` · ${plural(section._count.students, "student")}`
+                  : ""}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {studentsEnabled ? (
                   <>
-                    <div>
-                      <h3 className="font-display text-lg font-semibold text-ink">
-                        {selectedGroup.className}
-                      </h3>
-                      <p className="text-xs text-muted">
-                        {selectedGroup.boardName} · {selectedGroup.sections.length} section
-                        {selectedGroup.sections.length === 1 ? "" : "s"}
-                      </p>
-                    </div>
-                    <div className="list-stack">
-                      {selectedGroup.sections.map((section) => (
-                        <div
-                          key={section.id}
-                          className="flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-card to-mist px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
-                        >
-                          <div>
-                            <p className="font-semibold text-ink">{section.name}</p>
-                            <p className="mt-0.5 text-xs text-muted">
-                              {section._count.teacherAssignments} teacher assignment
-                              {section._count.teacherAssignments === 1 ? "" : "s"}
-                              {studentsEnabled
-                                ? ` · ${section._count.students} student${
-                                    section._count.students === 1 ? "" : "s"
-                                  }`
-                                : ""}
-                            </p>
-                          </div>
-                          <div className="flex flex-wrap gap-2">
-                            {studentsEnabled ? (
-                              <>
-                                <Link
-                                  href={`/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`}
-                                >
-                                  <Button type="button" variant="secondary" size="sm">
-                                    Students
-                                  </Button>
-                                </Link>
-                                <Link href={`/org-admin/students/print/${section.id}`}>
-                                  <Button type="button" variant="outline" size="sm">
-                                    Print List
-                                  </Button>
-                                </Link>
-                              </>
-                            ) : null}
-                            <Link href={`/org-admin/sections/${section.id}/edit`}>
-                              <Button type="button" variant="outline" size="sm">
-                                Edit
-                              </Button>
-                            </Link>
-                            <DeleteSectionButton
-                              sectionId={section.id}
-                              sectionName={section.name}
-                            />
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+                    <Link
+                      href={`/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`}
+                    >
+                      <Button type="button" variant="secondary" size="sm">
+                        Students
+                      </Button>
+                    </Link>
+                    <Link href={`/org-admin/students/print/${section.id}`}>
+                      <Button type="button" variant="outline" size="sm">
+                        Print List
+                      </Button>
+                    </Link>
                   </>
                 ) : null}
+                <Link href={`/org-admin/sections/${section.id}/edit`}>
+                  <Button type="button" variant="outline" size="sm">
+                    Edit
+                  </Button>
+                </Link>
+                <DeleteSectionButton sectionId={section.id} sectionName={section.name} />
               </div>
             </div>
-          ) : null}
+          ))}
         </div>
-      </Card>
+      )}
     </PageStack>
   );
 }

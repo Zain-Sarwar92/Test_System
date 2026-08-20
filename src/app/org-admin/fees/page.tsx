@@ -115,7 +115,7 @@ export default async function FeesOverviewPage() {
               <Link
                 key={href}
                 href={href}
-                className="rounded-xl border border-[rgba(15,40,70,0.09)] bg-card px-4 py-3 text-sm font-semibold text-ink transition hover:border-brand/35"
+                className="rounded-xl border border-line bg-card px-4 py-3 text-sm font-semibold text-ink shadow-[var(--shadow-soft)] transition hover:border-brand/40 hover:shadow-[var(--shadow-elevated)]"
               >
                 {label}
               </Link>
@@ -131,7 +131,7 @@ export default async function FeesOverviewPage() {
               recentPayments.map((payment) => (
                 <div
                   key={payment.id}
-                  className="flex flex-col gap-2 rounded-xl border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                  className="flex flex-col gap-2 rounded-xl border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)] transition hover:border-brand/30 sm:flex-row sm:items-center sm:justify-between"
                 >
                   <div>
                     <p className="font-semibold text-ink">{payment.student.name}</p>
