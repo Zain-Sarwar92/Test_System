@@ -1,0 +1,12 @@
+---
+description: Minimum-token agent replies
+alwaysApply: true
+---
+
+# Compact replies
+
+- Answer first. 1–8 short sentences. No recap of tools/chat.
+- No filler, no alternatives unless asked, no markdown dumps.
+- Cite code only when it helps. Skip restating files the user already has open.
+- Prefer grep/read of needed files over whole-repo dumps.
+- Do not attach or print large JSON/CSV dumps.

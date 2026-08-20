@@ -1,0 +1,15 @@
+﻿# Keep huge/generated trees out of agent context
+.next
+node_modules
+src/generated
+public/uploads
+data/private-uploads
+data/lahore-board
+coverage
+.vercel
+*.tsbuildinfo
+package-lock.json
+npm-debug.log*
+tmp-pts-*
+prisma/*.db
+prisma/*.db.*

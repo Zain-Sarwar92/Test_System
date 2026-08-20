@@ -1,5 +1,4 @@
 import {
-  SCIENCE_ELECTIVE_GROUP,
   chosenElectiveIds,
   isStudentEnrolledInSubject,
   resolveSubjectMeta,
@@ -84,27 +83,24 @@ export function buildGazetteColumns(
   subjects: SubjectMeta[],
 ): GazetteColumn[] {
   const columns: GazetteColumn[] = [];
-  const seenGroups = new Set<string>();
+  let electiveColumnAdded = false;
 
   for (const subject of subjects) {
-    // Science Bio/Computer are mutually exclusive → one gazette column.
-    if (subject.electiveGroup === SCIENCE_ELECTIVE_GROUP) {
-      if (seenGroups.has(subject.electiveGroup)) continue;
-      seenGroups.add(subject.electiveGroup);
-      const groupSubjects = subjects.filter(
-        (row) => row.electiveGroup === subject.electiveGroup,
-      );
+    // All electives (Bio/Comp, Islamiyat Ikhtiyari, Arts options…) share one column.
+    if (subject.electiveGroup) {
+      if (electiveColumnAdded) continue;
+      electiveColumnAdded = true;
+      const groupSubjects = subjects.filter((row) => Boolean(row.electiveGroup));
       columns.push({
         kind: "elective",
-        key: `group:${subject.electiveGroup}`,
+        key: "group:ELECTIVE",
         label: groupSubjects.map((row) => shortElectiveLabel(row.name)).join(" / "),
-        group: subject.electiveGroup,
+        group: "ELECTIVE",
         subjectIds: groupSubjects.map((row) => row.id),
         totalMarks: Math.max(...groupSubjects.map((row) => row.totalMarks ?? 100)),
       });
       continue;
     }
-    // Arts electives (and any other subjects) each get their own column.
     columns.push({
       kind: "subject",
       key: `subject:${subject.id}`,
@@ -177,10 +173,10 @@ export function compileSectionResult(input: {
       }
 
       const chosenIds = chosenElectiveIds(student);
-      const chosen = column.subjectIds
+      const chosenList = column.subjectIds
         .map((id) => subjectById.get(id)!)
-        .find((subject) => chosenIds.includes(subject.id));
-      if (!chosen) {
+        .filter((subject) => subject && chosenIds.includes(subject.id));
+      if (chosenList.length === 0) {
         return {
           id: column.key,
           name: column.label,
@@ -192,23 +188,43 @@ export function compileSectionResult(input: {
           display: "—",
         };
       }
-      const mark = markMap.get(`${student.id}:${chosen.id}`);
-      const isAbsent = mark?.isAbsent ?? false;
-      const obtained = isAbsent ? 0 : mark?.obtainedMarks ?? null;
-      const entered = Boolean(mark && (mark.isAbsent || mark.obtainedMarks != null));
+
+      const parts = chosenList.map((chosen) => {
+        const mark = markMap.get(`${student.id}:${chosen.id}`);
+        const isAbsent = mark?.isAbsent ?? false;
+        const obtained = isAbsent ? 0 : mark?.obtainedMarks ?? null;
+        const entered = Boolean(mark && (mark.isAbsent || mark.obtainedMarks != null));
+        return {
+          chosen,
+          mark,
+          isAbsent,
+          obtained,
+          entered,
+          totalMarks: chosen.totalMarks ?? column.totalMarks,
+        };
+      });
+
+      const applicable = true;
+      const entered = parts.every((part) => part.entered);
+      const isAbsent = parts.every((part) => part.isAbsent);
+      const obtained = parts.reduce((sum, part) => sum + (part.obtained ?? 0), 0);
+      const totalMarks = parts.reduce((sum, part) => sum + part.totalMarks, 0);
+      const display = !entered
+        ? "—"
+        : parts
+            .map((part) => (part.isAbsent ? "Abs" : String(part.obtained ?? "")))
+            .filter(Boolean)
+            .join(" · ");
+
       return {
-        id: chosen.id,
-        name: chosen.name,
-        totalMarks: chosen.totalMarks ?? column.totalMarks,
+        id: chosenList.map((row) => row.id).join("+"),
+        name: chosenList.map((row) => row.name).join(" / "),
+        totalMarks,
         obtained,
         isAbsent,
         entered,
-        applicable: true,
-        display: !entered
-          ? "—"
-          : isAbsent
-            ? `${shortElectiveLabel(chosen.name)} Abs`
-            : `${shortElectiveLabel(chosen.name)} ${obtained}`,
+        applicable,
+        display,
       };
     });
 
@@ -277,6 +293,142 @@ export function compileSectionResult(input: {
         return sortByRoll(a.rollNumber, b.rollNumber);
       }),
   };
+}
+
+export function appendManualGazetteRows(input: {
+  columns: GazetteColumn[];
+  rows: CompiledStudent[];
+  subjects: SubjectMeta[];
+  manualMarks: Array<{
+    id: string;
+    subjectId: string;
+    rollNumber: string;
+    name: string;
+    fatherName: string;
+    obtainedMarks: number | null;
+    isAbsent: boolean;
+  }>;
+}): CompiledStudent[] {
+  if (input.manualMarks.length === 0) return input.rows;
+
+  const subjectById = new Map(input.subjects.map((subject) => [subject.id, subject]));
+  const grouped = new Map<
+    string,
+    {
+      rollNumber: string;
+      name: string;
+      fatherName: string;
+      marks: Map<string, { obtainedMarks: number | null; isAbsent: boolean }>;
+    }
+  >();
+
+  for (const mark of input.manualMarks) {
+    const key = `${mark.rollNumber.trim().toLowerCase()}|${mark.name.trim().toLowerCase()}|${mark.fatherName.trim().toLowerCase()}`;
+    const bucket =
+      grouped.get(key) ??
+      (() => {
+        const next = {
+          rollNumber: mark.rollNumber.trim(),
+          name: mark.name.trim(),
+          fatherName: mark.fatherName.trim(),
+          marks: new Map<string, { obtainedMarks: number | null; isAbsent: boolean }>(),
+        };
+        grouped.set(key, next);
+        return next;
+      })();
+    bucket.marks.set(mark.subjectId, {
+      obtainedMarks: mark.obtainedMarks,
+      isAbsent: mark.isAbsent,
+    });
+  }
+
+  const manualRows: CompiledStudent[] = [...grouped.entries()].map(([key, person], index) => {
+    const cells: CompiledSubjectCell[] = input.columns.map((column) => {
+      if (column.kind === "subject") {
+        const subject = subjectById.get(column.subjectId);
+        const mark = person.marks.get(column.subjectId);
+        const applicable = Boolean(subject && mark);
+        const isAbsent = applicable && (mark?.isAbsent ?? false);
+        const obtained = !applicable
+          ? null
+          : isAbsent
+            ? 0
+            : mark?.obtainedMarks ?? null;
+        const entered = applicable;
+        return {
+          id: subject?.id ?? column.subjectId,
+          name: subject?.name ?? column.label,
+          totalMarks: subject?.totalMarks ?? column.totalMarks,
+          obtained,
+          isAbsent,
+          entered,
+          applicable,
+          display: !applicable
+            ? "—"
+            : isAbsent
+              ? "Abs"
+              : obtained == null
+                ? "—"
+                : String(obtained),
+        };
+      }
+
+      const groupMark = column.subjectIds
+        .map((subjectId) => person.marks.get(subjectId))
+        .find(Boolean);
+      const chosenSubjectId = column.subjectIds.find((subjectId) => person.marks.has(subjectId));
+      const subject = chosenSubjectId ? subjectById.get(chosenSubjectId) : undefined;
+      const applicable = Boolean(groupMark && subject);
+      const isAbsent = applicable && (groupMark?.isAbsent ?? false);
+      const obtained = !applicable
+        ? null
+        : isAbsent
+          ? 0
+          : groupMark?.obtainedMarks ?? null;
+      return {
+        id: subject?.id ?? column.key,
+        name: subject?.name ?? column.label,
+        totalMarks: subject?.totalMarks ?? column.totalMarks,
+        obtained,
+        isAbsent,
+        entered: applicable,
+        applicable,
+        display: !applicable
+          ? "—"
+          : isAbsent
+            ? "Abs"
+            : obtained == null
+              ? "—"
+              : String(obtained),
+      };
+    });
+
+    const scored = cells.filter((cell) => cell.applicable);
+    const complete = scored.length > 0 && scored.every((cell) => cell.entered);
+    const obtainedTotal = scored.reduce((sum, cell) => sum + (cell.obtained ?? 0), 0);
+    const maxTotal = scored.reduce((sum, cell) => sum + cell.totalMarks, 0);
+    const percent = complete ? percentOf(obtainedTotal, maxTotal) : null;
+
+    return {
+      id: `manual:${key}:${index}`,
+      rollNumber: person.rollNumber,
+      name: person.name,
+      fatherName: person.fatherName,
+      stream: "SCIENCE" as StudentStream,
+      electiveSubjectId: null,
+      electiveChoiceIds: [],
+      cells,
+      obtainedTotal,
+      maxTotal,
+      percent,
+      grade: gradeFromPercent(percent),
+      passed: false,
+      complete,
+      position: null,
+    };
+  });
+
+  return [...input.rows, ...manualRows.sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber))];
 }
 
 /** Sum marks across selected rounds. Missing mark in an existing assessment counts as 0. */

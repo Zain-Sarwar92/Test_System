@@ -65,7 +65,6 @@ export default async function ResultsClassesPage() {
       <PageHeader
         kicker="Academics"
         title="Result compilation"
-        description="Choose a class, then a section. Print subject lists, enter marks, and generate the section result."
       />
 
       {classes.length === 0 ? (

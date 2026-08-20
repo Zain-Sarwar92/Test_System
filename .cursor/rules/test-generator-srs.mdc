@@ -1,42 +1,14 @@
 ---
-description: Test Generator SaaS MVP requirements and product constraints
+description: Test Generator SaaS MVP constraints
 alwaysApply: true
 ---
 
-# Test Generator SaaS — MVP Context
+# MVP
 
-Cloud multi-tenant SaaS for schools/academies/colleges/universities. Teachers generate professional test papers; Super Admin manages the system. Each organization's data is fully isolated.
+Multi-tenant school SaaS. Org data isolated. Super Admin = orgs/plans/global bank/taxonomy/settings + approve suggestions. Org Admin = teachers/schedules/org tests/branding. Teacher = assigned schedules, auto/manual papers, suggest questions, edit/export own tests.
 
-## Roles
+Hierarchy: Board → Class → Subject → Chapter → Topic → Question (one topic). Global bank; teachers suggest only. Types: MCQ (4 opts), Short, Long.
 
-- **Super Admin**: orgs (CRUD, activate/deactivate), subscription plans, global question bank, approve teacher suggestions, boards/classes/subjects/chapters/topics, system settings
-- **Org Admin**: teachers (CRUD, activate/deactivate), test schedules, org tests, org profile/branding
-- **Teacher**: assigned schedules, auto/manual test generation, suggest questions, edit/export own tests
+Generate: chapters → topics (editable). Auto balanced (default, 1/topic/round) or random, or manual. Post-edit: replace/remove/add/reorder. Schedule locks subject + exam date; schedule name = test type. Delete teacher/schedule keeps papers. Visibility: teacher own, org admin org, super admin all. Export: print/PDF with org logo/header/marks/time/instructions. SMTP: day-before reminders.
 
-## Education hierarchy
-
-`Board → Class → Subject → Chapter → Topic → Question` — each question links to exactly one topic.
-
-## Question bank
-
-Single **global** bank. Only Super Admin add/update/delete/approve. Teachers **suggest** only; approved suggestions enter the bank. V1 types: MCQ (4 options + correct), Short, Long.
-
-## Test generation
-
-- Chapter select → topics auto-selected; teacher may refine
-- Modes: Auto (balanced or random) | Manual
-- Balanced (default): one question per topic per round
-- Post-generate edit: replace/remove/add/reorder
-- Schedule flow: subject + exam date locked; schedule name → Test Type
-
-## Schedules & reminders
-
-Org Admin creates named schedules (board → classes → subjects → dates → teachers). Teachers create papers from assignments. Day-before email reminders when SMTP is configured. Deleting teacher/schedule must **keep** generated papers.
-
-## Visibility & export
-
-Teacher = own papers; Org Admin = org papers; Super Admin = all. Export via Print/PDF (org logo, header fields, marks, time, instructions).
-
-## Out of MVP (V2+)
-
-Student portal, online exams, billing, advanced analytics, audit logs, Excel import/export, AI-generated questions, Word export polish.
+V2+: student portal, online exams, billing, analytics, audit, Excel, AI questions, Word polish.

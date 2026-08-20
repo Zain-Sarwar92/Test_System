@@ -4,6 +4,7 @@ import { normalizeRollNumber } from "@/lib/roll-match";
 /** One row read from a photographed award list. */
 export type ExtractedMarkRow = {
   rollNumber: string;
+  studentName?: string;
   obtainedMarks: number | null;
   absent: boolean;
 };
@@ -15,6 +16,7 @@ const responseSchema = z.object({
   rows: z.array(
     z.object({
       rollNumber: z.string().trim().min(1),
+      studentName: z.string().trim().optional(),
       obtainedMarks: z.number().nullable().optional(),
       absent: z.boolean().optional(),
     }),
@@ -27,25 +29,24 @@ export type ExtractedSheet = {
   rows: ExtractedMarkRow[];
 };
 
-function buildPrompt(totalMarks: number, rollNumbers: string[]): string {
-  const known = rollNumbers.length
-    ? `Roll numbers printed on this sheet: ${rollNumbers.join(", ")}. Only use roll numbers from this list.`
-    : "";
+function buildPrompt(totalMarks: number): string {
   return [
-    "This image is a printed student award list from a school. Marks are handwritten in the",
-    '"OBT. MARKS" column next to each printed roll number.',
-    `Read every data row and return the handwritten obtained marks. Total marks for this test is ${totalMarks}, so every value must be between 0 and ${totalMarks}.`,
-    known,
+    "This image is a printed student award list from a school.",
+    "For each student row, read these columns from the image only:",
+    "- ROLL NO (exact digits as printed)",
+    "- STUDENT NAME (as printed)",
+    '- OBT. MARKS (handwritten number in that column)',
+    `Total marks for this test is ${totalMarks}; every obtained mark must be between 0 and ${totalMarks}.`,
     "Rules:",
-    "- Report the printed roll number exactly as printed, plus the handwritten mark for that row.",
+    "- Read roll numbers ONLY from the image. Never substitute or guess roll numbers.",
+    "- Read student names ONLY from the image for each row.",
+    "- Pair each mark with the roll number and name on the same row.",
     '- If a row has no handwritten mark, set obtainedMarks to null and absent to false.',
     '- If the cell says A, AB, ABS or Absent instead of a number, set absent to true and obtainedMarks to null.',
-    "- Never invent a row, never guess a mark you cannot read clearly, and never renumber rows.",
-    "- Digits may be written in a hand style; read them carefully and do not confuse 1/7, 3/8, 5/6, or 0/6.",
-    '- Also report sheetTotalMarks: the total marks printed on the sheet itself (the "TOTAL MARKS" column or header), or null if it is not printed.',
-  ]
-    .filter(Boolean)
-    .join("\n");
+    "- Never invent rows, never copy names or rolls from memory, never renumber rows.",
+    "- Digits may be handwritten; read carefully and do not confuse 1/7, 3/8, 5/6, or 0/6.",
+    '- Also report sheetTotalMarks from the sheet (TOTAL MARKS column or header), or null if not printed.',
+  ].join("\n");
 }
 
 /**
@@ -56,12 +57,11 @@ export async function extractMarksFromSheetImage(input: {
   base64Image: string;
   mimeType: string;
   totalMarks: number;
-  rollNumbers: string[];
 }): Promise<ExtractedSheet> {
   const apiKey = process.env.GEMINI_API_KEY?.trim();
   if (!apiKey) {
     throw new Error(
-      "GEMINI_API_KEY is not set. Add it to your environment to read marks from photos.",
+      "Photo reading is not configured. Enter marks manually for now.",
     );
   }
   const model = process.env.GEMINI_MODEL?.trim() || DEFAULT_MODEL;
@@ -79,7 +79,7 @@ export async function extractMarksFromSheetImage(input: {
           {
             role: "user",
             parts: [
-              { text: buildPrompt(input.totalMarks, input.rollNumbers) },
+              { text: buildPrompt(input.totalMarks) },
               {
                 inline_data: {
                   mime_type: input.mimeType,
@@ -102,6 +102,7 @@ export async function extractMarksFromSheetImage(input: {
                   type: "OBJECT",
                   properties: {
                     rollNumber: { type: "STRING" },
+                    studentName: { type: "STRING" },
                     obtainedMarks: { type: "NUMBER", nullable: true },
                     absent: { type: "BOOLEAN" },
                   },
@@ -117,13 +118,18 @@ export async function extractMarksFromSheetImage(input: {
   );
 
   if (!response.ok) {
-    const detail = await response.text().catch(() => "");
-    const hint =
-      response.status === 404
-        ? ` Model "${model}" was rejected — set GEMINI_MODEL to a model your key can use.`
-        : "";
+    if (response.status === 404) {
+      throw new Error(
+        "Photo reading is unavailable right now. Enter marks manually, or try again later.",
+      );
+    }
+    if (response.status === 429) {
+      throw new Error(
+        "Too many photo reads at once. Wait a moment, then try Read again.",
+      );
+    }
     throw new Error(
-      `Gemini request failed (${response.status}).${hint} ${detail.slice(0, 300)}`.trim(),
+      "Could not read marks from this photo. Use a clearer, straight photo of the filled sheet.",
     );
   }
 
@@ -135,7 +141,9 @@ export async function extractMarksFromSheetImage(input: {
     .join("")
     .trim();
   if (!text) {
-    throw new Error("Gemini returned no marks for this image. Try a clearer photo.");
+    throw new Error(
+      "No marks found in this photo. Fill the OBT. MARKS column clearly, or type marks manually.",
+    );
   }
 
   let parsedJson: unknown;
@@ -166,7 +174,12 @@ export async function extractMarksFromSheetImage(input: {
         marks = Math.round(marks * 100) / 100;
       }
     }
-    rows.push({ rollNumber: row.rollNumber.trim(), obtainedMarks: marks, absent });
+    rows.push({
+      rollNumber: row.rollNumber.trim(),
+      studentName: row.studentName?.trim() || undefined,
+      obtainedMarks: marks,
+      absent,
+    });
   }
 
   const printedTotal = parsed.data.sheetTotalMarks;

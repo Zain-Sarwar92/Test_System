@@ -75,10 +75,7 @@ export function SelectExamSubjectsForm({
 
   return (
     <div className="space-y-5">
-      <p className="text-sm text-muted">
-        Choose which subjects are part of <span className="font-semibold text-ink">{examName}</span> for this section.
-        Only selected subjects will appear for marks entry and in the result.
-      </p>
+     
 
       <div className="block">
         <span className="mb-1.5 block text-sm font-semibold text-ink">
@@ -102,7 +99,7 @@ export function SelectExamSubjectsForm({
         <Button type="button" disabled={pending} onClick={submit}>
           {pending ? "Saving…" : "Save subjects"}
         </Button>
-        <Link href={`/org-admin/results/sections/${sectionId}/exams/${examId}`}>
+        <Link href={`/org-admin/results/sections/${sectionId}`}>
           <Button type="button" variant="secondary" disabled={pending}>
             Cancel
           </Button>

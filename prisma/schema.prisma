@@ -878,8 +878,9 @@ model SubjectAssessment {
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
 
-  marks  StudentMark[]
-  sheets AssessmentSheet[]
+  marks        StudentMark[]
+  manualMarks  AssessmentManualMark[]
+  sheets       AssessmentSheet[]
 
   @@unique([examTermId, sectionId, subjectId])
   @@index([organizationId])
@@ -914,4 +915,22 @@ model AssessmentSheet {
 
   @@index([assessmentId])
   @@map("assessment_sheet")
+}
+
+/** Marks for students not on the section roster (section change, late registration, etc.). */
+model AssessmentManualMark {
+  id            String            @id @default(cuid())
+  assessmentId  String
+  assessment    SubjectAssessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  rollNumber    String
+  name          String
+  fatherName    String            @default("")
+  obtainedMarks Decimal?          @db.Decimal(8, 2)
+  isAbsent      Boolean           @default(false)
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  @@unique([assessmentId, rollNumber])
+  @@index([assessmentId])
+  @@map("assessment_manual_mark")
 }

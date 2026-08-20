@@ -2,7 +2,7 @@ import { PrismaClient } from "@/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 
 /** Bump when Prisma schema fields change so Next.js doesn't keep a stale client. */
-const PRISMA_CLIENT_REVISION = 26;
+const PRISMA_CLIENT_REVISION = 27;
 
 const globalForPrisma = globalThis as unknown as {
   prisma: PrismaClient | undefined;

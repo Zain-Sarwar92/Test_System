@@ -1,9 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { CompiledStudent, GazetteColumn } from "@/lib/results";
+import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 
 type Org = {
   name: string;
@@ -19,12 +19,9 @@ export function GazetteView({
   sectionName,
   examName,
   session,
-  passPercent,
-  examDate,
   columns,
   rows,
   backHref,
-  backLabel = "Back to subjects",
   subtitle,
 }: {
   organization: Org;
@@ -33,12 +30,9 @@ export function GazetteView({
   sectionName: string;
   examName: string;
   session: string;
-  passPercent: number;
-  examDate: string | null;
   columns: GazetteColumn[];
   rows: CompiledStudent[];
   backHref: string;
-  backLabel?: string;
   subtitle?: string | null;
 }) {
   const orgName = organization.name.trim() || "Institute";
@@ -49,9 +43,7 @@ export function GazetteView({
   return (
     <div className="print-page student-list-print">
       <div className="print-toolbar no-print">
-        <Link href={backHref}>
-          <Button variant="outline" size="sm">{backLabel}</Button>
-        </Link>
+        <ResultsBackLink href={backHref} />
         <Button size="sm" onClick={() => window.print()}>
           <Printer className="h-3.5 w-3.5" />
           Print / Save PDF
@@ -120,14 +112,6 @@ export function GazetteView({
             <strong>{session}</strong>
           </div>
           <div>
-            <span>Date</span>
-            <strong>{examDate ?? "____________"}</strong>
-          </div>
-          <div>
-            <span>Pass %</span>
-            <strong>{passPercent}%</strong>
-          </div>
-          <div>
             <span>Result</span>
             <strong>
               {passed}/{complete} passed
@@ -143,7 +127,6 @@ export function GazetteView({
               <tr>
                 <th>Roll</th>
                 <th>Student</th>
-                <th>Group</th>
                 <th>Father</th>
                 {columns.map((column) => (
                   <th key={column.key}>
@@ -155,7 +138,6 @@ export function GazetteView({
                 <th>%</th>
                 <th>Pos</th>
                 <th>Grade</th>
-                <th>Status</th>
               </tr>
             </thead>
             <tbody>
@@ -163,7 +145,6 @@ export function GazetteView({
                 <tr key={row.id}>
                   <td>{row.rollNumber}</td>
                   <td className="name">{row.name}</td>
-                  <td>{row.stream === "SCIENCE" ? "Sci" : "Arts"}</td>
                   <td className="name">{row.fatherName}</td>
                   {row.cells.map((cell) => (
                     <td key={`${row.id}:${cell.id}`}>{cell.display}</td>
@@ -174,7 +155,6 @@ export function GazetteView({
                   <td>{row.percent == null ? "—" : row.percent}</td>
                   <td>{row.position ?? "—"}</td>
                   <td>{row.grade}</td>
-                  <td>{row.complete ? (row.passed ? "Pass" : "Fail") : "Pending"}</td>
                 </tr>
               ))}
             </tbody>
