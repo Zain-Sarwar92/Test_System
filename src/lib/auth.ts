@@ -34,6 +34,18 @@ const authBaseUrl = normalizeAppUrl(
     process.env.APP_URL,
 );
 
+function vercelHostOrigins(): string[] {
+  const hosts = [
+    process.env.VERCEL_URL,
+    process.env.VERCEL_BRANCH_URL,
+    process.env.VERCEL_PROJECT_PRODUCTION_URL,
+  ];
+  return hosts
+    .filter((host): host is string => Boolean(host))
+    .map((host) => (host.startsWith("http") ? normalizeAppUrl(host) : `https://${host}`))
+    .filter((v): v is string => Boolean(v));
+}
+
 const trustedOrigins = [
   ...new Set(
     [
@@ -42,10 +54,7 @@ const trustedOrigins = [
       normalizeAppUrl(process.env.APP_URL),
       ...devLocalOrigins(),
       ...extraTrustedOrigins(),
-      process.env.VERCEL_ENV === "production" &&
-      process.env.VERCEL_PROJECT_PRODUCTION_URL
-        ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-        : undefined,
+      ...vercelHostOrigins(),
     ].filter((v): v is string => Boolean(v)),
   ),
 ];
