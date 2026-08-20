@@ -75,12 +75,18 @@ export default async function FeesOverviewPage() {
       <FeesNav />
 
       <div className="grid gap-4 md:grid-cols-3">
-        <StatCard label="Charged" value={formatPkr(charged)} detail="Excludes waived charges" />
+        <StatCard
+          label="Charged"
+          value={formatPkr(charged)}
+          detail="Excludes waived charges"
+          tone="charged"
+        />
         <StatCard
           label="Collected"
           value={formatPkr(collected._sum.amount ?? new Prisma.Decimal(0))}
+          tone="collected"
         />
-        <StatCard label="Outstanding" value={formatPkr(outstanding)} />
+        <StatCard label="Outstanding" value={formatPkr(outstanding)} tone="outstanding" />
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -90,6 +96,7 @@ export default async function FeesOverviewPage() {
             label={status.replace("_", " ")}
             value={String(counts[status] ?? 0)}
             detail="charge records"
+            tone={status.toLowerCase()}
           />
         ))}
       </div>
@@ -108,7 +115,7 @@ export default async function FeesOverviewPage() {
               <Link
                 key={href}
                 href={href}
-                className="rounded-xl border border-[rgba(15,40,70,0.09)] bg-white px-4 py-3 text-sm font-semibold text-ink transition hover:border-brand/35"
+                className="rounded-xl border border-[rgba(15,40,70,0.09)] bg-card px-4 py-3 text-sm font-semibold text-ink transition hover:border-brand/35"
               >
                 {label}
               </Link>
@@ -124,7 +131,7 @@ export default async function FeesOverviewPage() {
               recentPayments.map((payment) => (
                 <div
                   key={payment.id}
-                  className="flex flex-col gap-2 rounded-xl border border-[rgba(15,40,70,0.08)] bg-white px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                  className="flex flex-col gap-2 rounded-xl border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
                 >
                   <div>
                     <p className="font-semibold text-ink">{payment.student.name}</p>

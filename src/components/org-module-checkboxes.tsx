@@ -15,7 +15,7 @@ export function OrgModuleCheckboxes({
         {ORG_MODULE_KEYS.map((key) => (
           <label
             key={key}
-            className="flex cursor-pointer items-start gap-2 rounded-lg bg-white px-3 py-2 text-sm"
+            className="flex cursor-pointer items-start gap-2 rounded-lg bg-card px-3 py-2 text-sm"
           >
             <input
               type="checkbox"

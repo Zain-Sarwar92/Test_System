@@ -39,7 +39,7 @@ export default async function TeacherSuggestionsPage() {
           {mySuggestions.map((item) => (
             <div
               key={item.id}
-              className="flex flex-wrap items-center justify-between gap-2 rounded-[0.85rem] border border-[rgba(15,40,70,0.08)] bg-white/80 px-3 py-2.5"
+              className="flex flex-wrap items-center justify-between gap-2 rounded-[0.85rem] border border-[rgba(15,40,70,0.08)] bg-card/80 px-3 py-2.5"
             >
               <div className="min-w-0">
                 <p className="truncate text-sm text-ink">{item.text}</p>

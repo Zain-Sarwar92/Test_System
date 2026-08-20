@@ -17,7 +17,7 @@ export function TeachersFilter({
   const [subject, setSubject] = useState(defaultSubject);
 
   return (
-    <form className="mb-4 grid gap-2 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-white/70 p-3 sm:grid-cols-[1fr_14rem_auto]">
+    <form className="mb-4 grid gap-2 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/70 p-3 sm:grid-cols-[1fr_14rem_auto]">
       <Input
         name="q"
         defaultValue={defaultQuery}

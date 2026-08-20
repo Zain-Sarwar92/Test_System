@@ -84,7 +84,7 @@ export default async function NewStudentPage({
             Choose Science or Arts. Science students also pick Biology or Computer as elective.
           </p>
         </div>
-        <div className="fade-up rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-white p-6 shadow-[0_10px_30px_rgba(15,40,70,0.06)] sm:p-8">
+        <div className="fade-up rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-card p-6 shadow-[0_10px_30px_rgba(15,40,70,0.06)] sm:p-8">
           {sections.length ? (
             <StudentForm
               sections={sections}

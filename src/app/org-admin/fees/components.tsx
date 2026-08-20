@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { Card } from "@/components/ui/card";
 import { toast } from "@/components/ui/toast";
 
 export function formatPkr(value: { toFixed(decimalPlaces: number): string } | number) {
@@ -27,7 +26,7 @@ export function FeesNav() {
         <Link
           key={href}
           href={href}
-          className="rounded-[0.8rem] border border-[rgba(15,40,70,0.12)] bg-white/80 px-3 py-2 text-sm font-semibold text-ink-soft transition hover:border-brand/40 hover:text-brand"
+          className="rounded-[0.8rem] border border-[rgba(15,40,70,0.12)] bg-card/80 px-3 py-2 text-sm font-semibold text-ink-soft transition hover:border-brand/40 hover:text-brand"
         >
           {label}
         </Link>
@@ -61,16 +60,18 @@ export function StatCard({
   label,
   value,
   detail,
+  tone,
 }: {
   label: string;
   value: string;
   detail?: string;
+  tone?: string;
 }) {
   return (
-    <Card className="p-5">
-      <p className="text-xs font-semibold tracking-wide text-muted uppercase">{label}</p>
-      <p className="mt-2 font-display text-2xl font-semibold text-ink">{value}</p>
-      {detail ? <p className="mt-1 text-xs text-muted">{detail}</p> : null}
-    </Card>
+    <div className={`org-dash-card ${tone ? `tone-surface-${tone}` : ""}`.trim()}>
+      <p className="org-dash-card-label">{label}</p>
+      <p className="org-dash-card-value">{value}</p>
+      {detail ? <p className="org-dash-card-hint">{detail}</p> : null}
+    </div>
   );
 }

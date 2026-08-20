@@ -129,7 +129,7 @@ export default async function SectionSeriesPage({
           {series.rounds.map((round) => (
             <div
               key={round.id}
-              className="chart-card flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white px-4 py-4 sm:flex-row sm:items-center sm:justify-between"
+              className="chart-card flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card px-4 py-4 sm:flex-row sm:items-center sm:justify-between"
             >
               <div className="min-w-0">
                 <p className="font-display text-lg font-semibold text-ink">

@@ -321,7 +321,7 @@ export function SchedulePrintView({
         </Button>
       </div>
 
-      <div className="no-print mb-4 rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-white p-4 shadow-[0_8px_24px_rgba(11,31,51,0.05)] sm:p-5">
+      <div className="no-print mb-4 rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-card p-4 shadow-[0_8px_24px_rgba(11,31,51,0.05)] sm:p-5">
         <p className="text-sm font-semibold text-ink">1. Select fields to print</p>
         <p className="mt-1 text-sm text-muted">
           Columns: Date, Returning date (4 working days after the test), Subject,
@@ -339,7 +339,7 @@ export function SchedulePrintView({
                 className={
                   checked
                     ? "rounded-full border border-brand bg-brand/10 px-3.5 py-2 text-sm font-semibold text-brand"
-                    : "rounded-full border border-[rgba(15,40,70,0.12)] bg-white px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
+                    : "rounded-full border border-[rgba(15,40,70,0.12)] bg-card px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
                 }
               >
                 {checked ? "✓ " : ""}
@@ -350,7 +350,7 @@ export function SchedulePrintView({
         </div>
       </div>
 
-      <div className="no-print mb-5 rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-white p-4 shadow-[0_8px_24px_rgba(11,31,51,0.05)] sm:p-5">
+      <div className="no-print mb-5 rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-card p-4 shadow-[0_8px_24px_rgba(11,31,51,0.05)] sm:p-5">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
             <p className="text-sm font-semibold text-ink">
@@ -374,7 +374,7 @@ export function SchedulePrintView({
         </div>
       </div>
 
-      <div className="schedule-print-sheet rounded-[1rem] border border-[rgba(15,40,70,0.12)] bg-white p-5 sm:p-6">
+      <div className="schedule-print-sheet rounded-[1rem] border border-[rgba(15,40,70,0.12)] bg-card p-5 sm:p-6">
         <div className="mb-4 border-b border-[rgba(15,40,70,0.12)] pb-3">
           <p className="text-[11px] font-semibold tracking-[0.14em] text-muted uppercase">
             Test Schedule · Preview
@@ -393,17 +393,17 @@ export function SchedulePrintView({
               <thead>
                 <tr>
                   {fields.date ? (
-                    <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-[#f8fbfd] px-3 py-2.5 font-semibold text-ink">
+                    <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-mist px-3 py-2.5 font-semibold text-ink">
                       Date
                     </th>
                   ) : null}
                   {fields.returnDate ? (
-                    <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-[#f8fbfd] px-3 py-2.5 font-semibold text-ink">
+                    <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-mist px-3 py-2.5 font-semibold text-ink">
                       Returning date
                     </th>
                   ) : null}
                   {fields.subject ? (
-                    <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-[#f8fbfd] px-3 py-2.5 font-semibold text-ink">
+                    <th className="whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-mist px-3 py-2.5 font-semibold text-ink">
                       Subject
                     </th>
                   ) : null}
@@ -411,7 +411,7 @@ export function SchedulePrintView({
                     fields.teachers ? (
                       <th
                         key={`${className}-teachers`}
-                        className="min-w-[7rem] whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-[#f8fbfd] px-3 py-2.5 font-semibold text-ink"
+                        className="min-w-[7rem] whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-mist px-3 py-2.5 font-semibold text-ink"
                       >
                         {shortClassLabel(className)} Teacher
                       </th>
@@ -421,7 +421,7 @@ export function SchedulePrintView({
                     fields.syllabus ? (
                       <th
                         key={`${sectionCol.key}-syllabus`}
-                        className="min-w-[7rem] whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-[#f8fbfd] px-3 py-2.5 font-semibold text-ink"
+                        className="min-w-[7rem] whitespace-nowrap border border-[rgba(15,40,70,0.15)] bg-mist px-3 py-2.5 font-semibold text-ink"
                       >
                         {sectionCol.label}
                       </th>
@@ -447,7 +447,7 @@ export function SchedulePrintView({
                                 onChange={(e) =>
                                   updateRoundTitle(block.key, e.target.value)
                                 }
-                                className="no-print h-9 max-w-md border-brand/30 bg-white font-semibold"
+                                className="no-print h-9 max-w-md border-brand/30 bg-card font-semibold"
                                 placeholder="e.g. Round 1 / Mid Term"
                               />
                               <p className="print-only-round-title m-0 text-sm font-bold tracking-wide text-ink uppercase">
@@ -455,7 +455,7 @@ export function SchedulePrintView({
                               </p>
                               <button
                                 type="button"
-                                className="no-print inline-flex h-9 w-9 items-center justify-center rounded-lg border border-[rgba(15,40,70,0.1)] bg-white text-[#b42318] hover:bg-red-50"
+                                className="no-print inline-flex h-9 w-9 items-center justify-center rounded-lg border border-[rgba(15,40,70,0.1)] bg-card text-[#b42318] hover:bg-red-50"
                                 aria-label="Remove round line"
                                 onClick={() => removeRound(block.key)}
                               >

@@ -69,7 +69,7 @@ export default async function OrganizationsListPage() {
           return (
             <div
               key={org.id}
-              className="chart-card flex flex-col gap-4 rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#f7fafc] px-4 py-4 sm:flex-row sm:items-center sm:justify-between"
+              className="chart-card flex flex-col gap-4 rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-card to-mist px-4 py-4 sm:flex-row sm:items-center sm:justify-between"
               style={{ animationDelay: `${index * 35}ms` }}
             >
               <div className="flex min-w-0 items-start gap-3 text-left">

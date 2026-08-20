@@ -162,20 +162,20 @@ export default async function FeeDuesPage({ searchParams }: Props) {
       </Card>
 
       <div className="grid gap-4 sm:grid-cols-3">
-        <Card className="p-5">
-          <p className="text-xs font-semibold text-muted uppercase">Filtered charges</p>
-          <p className="mt-2 text-xl font-semibold text-ink">{formatPkr(totalAmount)}</p>
-        </Card>
-        <Card className="p-5">
-          <p className="text-xs font-semibold text-muted uppercase">Paid by allocations</p>
-          <p className="mt-2 text-xl font-semibold text-brand">{formatPkr(totalPaid)}</p>
-        </Card>
-        <Card className="p-5">
-          <p className="text-xs font-semibold text-muted uppercase">Balance</p>
-          <p className="mt-2 text-xl font-semibold text-ink">
+        <div className="org-dash-card tone-surface-charged">
+          <p className="org-dash-card-label">Filtered charges</p>
+          <p className="org-dash-card-value text-xl">{formatPkr(totalAmount)}</p>
+        </div>
+        <div className="org-dash-card tone-surface-collected">
+          <p className="org-dash-card-label">Paid by allocations</p>
+          <p className="org-dash-card-value text-xl">{formatPkr(totalPaid)}</p>
+        </div>
+        <div className="org-dash-card tone-surface-outstanding">
+          <p className="org-dash-card-label">Balance</p>
+          <p className="org-dash-card-value text-xl">
             {formatPkr(totalAmount.minus(totalPaid))}
           </p>
-        </Card>
+        </div>
       </div>
 
       <Card className="overflow-hidden p-0">

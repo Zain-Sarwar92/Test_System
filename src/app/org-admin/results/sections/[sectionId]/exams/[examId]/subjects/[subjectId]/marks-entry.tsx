@@ -407,7 +407,7 @@ export function MarksEntry({
           aria-label="Sheet photo preview"
         >
           <div
-            className="relative max-h-[92vh] max-w-[min(920px,96vw)] overflow-hidden rounded-[1rem] bg-white shadow-2xl"
+            className="relative max-h-[92vh] max-w-[min(920px,96vw)] overflow-hidden rounded-[1rem] bg-card shadow-2xl"
             onClick={(event) => event.stopPropagation()}
           >
             <button
@@ -429,7 +429,7 @@ export function MarksEntry({
       ) : null}
 
       <div className="grid gap-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
-        <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-white p-4 sm:p-5">
+        <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-card p-4 sm:p-5">
           <div className="flex items-start gap-3">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
               <Camera className="h-5 w-5" />
@@ -471,7 +471,7 @@ export function MarksEntry({
             className={`mt-4 flex cursor-pointer flex-col items-center justify-center rounded-[1rem] border-2 border-dashed px-4 py-6 text-center transition ${
               dragOver
                 ? "border-brand bg-brand/10"
-                : "border-[rgba(15,118,110,0.28)] bg-gradient-to-br from-[#f7fbfa] to-white hover:border-brand hover:bg-brand/5"
+                : "border-[rgba(15,118,110,0.28)] bg-gradient-to-br from-[#f7fbfa] to-card hover:border-brand hover:bg-brand/5"
             } ${pending ? "pointer-events-none opacity-70" : ""}`}
           >
             <input
@@ -552,7 +552,7 @@ export function MarksEntry({
           )}
         </div>
 
-        <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-white p-4 sm:p-5">
+        <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-card p-4 sm:p-5">
           <p className="font-semibold text-ink">Check and save marks</p>
           <p className="mt-1 text-sm text-muted">
             {entered} of {rows.length} students have marks.
@@ -573,7 +573,7 @@ export function MarksEntry({
         </div>
       </div>
 
-      <div className="overflow-x-auto rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-white">
+      <div className="overflow-x-auto rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-card">
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(15,40,70,0.06)] px-3 py-2">
           
           <Button type="button" size="sm" variant="outline" onClick={addManualRow} disabled={pending}>
@@ -597,7 +597,7 @@ export function MarksEntry({
             {rows.map((row) => (
               <tr
                 key={row.id}
-                className={`border-t border-[rgba(15,40,70,0.06)] ${row.isManual ? "bg-[#fffaf2]" : ""}`}
+                className={`border-t border-[rgba(15,40,70,0.06)] ${row.isManual ? "bg-amber-500/10" : ""}`}
               >
                 <td className="px-3 py-2">
                   {row.isManual ? (

@@ -19,7 +19,7 @@ export default async function TeacherSchedulesPage() {
 
       {schedules.length === 0 ? (
         <Card className="flex flex-col items-center gap-4 py-12 text-center">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#fff4e5] text-[#8a5a00]">
+          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/15 text-amber-800 dark:text-amber-200">
             <CalendarClock className="h-7 w-7" />
           </div>
           <div>

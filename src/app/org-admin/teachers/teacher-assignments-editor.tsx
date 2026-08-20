@@ -264,7 +264,7 @@ export function TeacherAssignmentsEditor({
       </div>
 
       {rows.length === 0 ? (
-        <div className="rounded-[1rem] border border-dashed border-[rgba(15,40,70,0.16)] bg-[#f8fbfd] px-4 py-10 text-center">
+        <div className="rounded-[1rem] border border-dashed border-[rgba(15,40,70,0.16)] bg-mist px-4 py-10 text-center">
           <p className="text-sm font-semibold text-ink">No teaching permissions</p>
           <p className="mt-1 text-sm text-muted">
             This teacher cannot generate tests until you assign at least one subject.

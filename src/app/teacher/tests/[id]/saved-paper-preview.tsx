@@ -294,7 +294,7 @@ export function SavedPaperPreview({
           </div>
         </div>
 
-        <div className="mt-3 flex flex-wrap items-center justify-between gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white px-4 py-3">
+        <div className="mt-3 flex flex-wrap items-center justify-between gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3">
           <div className="flex flex-wrap gap-2 text-sm">
             <span className="rounded-lg bg-brand/10 px-2.5 py-1 font-semibold text-brand">
               {questionCount} questions
@@ -305,7 +305,7 @@ export function SavedPaperPreview({
             {sections.map((s) => (
               <span
                 key={s.type}
-                className="rounded-lg border border-[rgba(15,40,70,0.1)] bg-white px-2.5 py-1 font-medium"
+                className="rounded-lg border border-[rgba(15,40,70,0.1)] bg-card px-2.5 py-1 font-medium"
               >
                 {TYPE_SHORT[s.type]}: {s.questions.length}
               </span>
@@ -374,7 +374,7 @@ export function SavedPaperPreview({
               </div>
               <button
                 type="button"
-                className="rounded-lg bg-white/15 px-3 py-1.5 text-sm font-semibold hover:bg-white/25"
+                className="rounded-lg bg-card/15 px-3 py-1.5 text-sm font-semibold hover:bg-card/25"
                 onClick={() => setSaveModalOpen(false)}
               >
                 Close
@@ -486,7 +486,7 @@ export function SavedPaperPreview({
               ) : null}
             </div>
 
-            <div className="flex items-center justify-between gap-3 border-t border-[rgba(15,40,70,0.1)] bg-[#f8fafc] px-5 py-3">
+            <div className="flex items-center justify-between gap-3 border-t border-[rgba(15,40,70,0.1)] bg-mist px-5 py-3">
               <p className="text-sm font-semibold text-ink">
                 Total marks: {totalMarks}
               </p>

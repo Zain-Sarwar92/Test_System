@@ -107,7 +107,7 @@ export function StudentListPrintView({
         </Button>
       </div>
 
-      <div className="no-print mb-4 rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-white p-4 shadow-[0_8px_24px_rgba(11,31,51,0.05)] sm:p-5">
+      <div className="no-print mb-4 rounded-[1.1rem] border border-[rgba(15,40,70,0.1)] bg-card p-4 shadow-[0_8px_24px_rgba(11,31,51,0.05)] sm:p-5">
         <p className="text-sm font-semibold text-ink">Fill details before printing</p>
         <p className="mt-1 text-xs text-muted">
           These fields print on the header so this list is unique for the class, section, exam, and date.

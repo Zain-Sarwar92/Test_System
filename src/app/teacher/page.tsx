@@ -65,7 +65,7 @@ export default async function TeacherPage() {
 
       <div className="grid grid-cols-2 gap-3 sm:gap-5">
         <Link href="/teacher/tests" className="block min-w-0">
-          <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#eaf1f8] to-white p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
+          <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#eaf1f8] to-card p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0">
                 <p className="text-xs font-medium text-muted sm:text-sm">Total Tests</p>
@@ -81,7 +81,7 @@ export default async function TeacherPage() {
         </Link>
 
         <Link href="/teacher/tests?status=FINAL" className="block min-w-0">
-          <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#e8f7f4] to-white p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
+          <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#e8f7f4] to-card p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0">
                 <p className="text-xs font-medium text-muted sm:text-sm">Saved Tests</p>
@@ -120,7 +120,7 @@ export default async function TeacherPage() {
             {openAssignments.map((item) => (
               <div
                 key={item.assignmentId}
-                className="flex flex-col gap-3 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-white/85 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                className="flex flex-col gap-3 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/85 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
               >
                 <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-2">
@@ -168,7 +168,7 @@ export default async function TeacherPage() {
               <Link
                 key={test.id}
                 href={`/teacher/tests/${test.id}`}
-                className="flex items-center justify-between rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-white/85 px-4 py-3 transition-colors hover:bg-[#f0faf8]"
+                className="flex items-center justify-between rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/85 px-4 py-3 transition-colors hover:bg-mist"
               >
                 <div className="min-w-0">
                   <p className="truncate text-sm font-semibold text-ink">

@@ -31,6 +31,7 @@ import { authClient } from "@/lib/auth-client";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { BrandMark } from "@/components/brand-logo";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export type NavIcon =
   | "overview"
@@ -250,6 +251,7 @@ export function AppShell({
           </nav>
 
           <div className="mt-4 flex flex-col gap-3 border-t border-white/10 pt-4">
+            <ThemeToggle />
             {showOrgSwitcher ? (
               <Link href="/select-org" className="block">
                 <Button
@@ -317,6 +319,7 @@ export function AppShell({
             </div>
             </div>
             <div className="flex shrink-0 items-center gap-2">
+              <ThemeToggle compact />
               {showOrgSwitcher ? (
                 <Link href="/select-org">
                   <Button
@@ -398,6 +401,7 @@ export function AppShell({
             </nav>
 
             <div className="mobile-drawer-footer">
+              <ThemeToggle />
               {showOrgSwitcher ? (
                 <Link href="/select-org" className="block" onClick={() => setMobileNavOpen(false)}>
                   <Button

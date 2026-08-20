@@ -47,7 +47,7 @@ export default async function OrganizationsPage() {
           <CreateOrgForm plans={plans.map((p) => ({ id: p.id, name: p.name }))} />
         </Card>
 
-        <Card className="fade-up h-fit bg-gradient-to-br from-[#e8f7f4] to-white">
+        <Card className="fade-up h-fit bg-gradient-to-br from-[#e8f7f4] to-card">
           <CardTitle className="text-base">What gets created</CardTitle>
           <ul className="mt-4 space-y-3 text-sm text-ink-soft">
             <li className="flex gap-2">

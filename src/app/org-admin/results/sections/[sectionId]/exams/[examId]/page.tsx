@@ -162,7 +162,7 @@ export default async function SectionExamSubjectsPage({
           return (
             <div
               key={subject.id}
-              className="chart-card rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-white p-5"
+              className="chart-card rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-card p-5"
             >
               <h3 className="font-display text-xl font-semibold text-ink">{subject.name}</h3>
               <p className="mt-2 text-sm text-muted">

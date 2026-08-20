@@ -12,6 +12,8 @@ function plural(count: number, singular: string, pluralForm = `${singular}s`) {
   return `${count} ${count === 1 ? singular : pluralForm}`;
 }
 
+const HUB_TONES = ["students", "teachers", "tests", "sections"] as const;
+
 export default async function StudentsPage({
   searchParams,
 }: {
@@ -213,23 +215,19 @@ export default async function StudentsPage({
               <Link
                 key={klass.id}
                 href={`/org-admin/students?classId=${klass.id}`}
-                className="chart-card group block rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#eef7ff] p-5 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
+                className={`org-dash-card tone-surface-${HUB_TONES[index % HUB_TONES.length]} chart-card group p-5 transition-transform duration-300 hover:-translate-y-1`}
                 style={{ animationDelay: `${index * 40}ms` }}
               >
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <p className="text-xs font-medium uppercase tracking-wide text-muted">
-                      {klass.boardName}
-                    </p>
-                    <h3 className="mt-1 font-display text-2xl font-semibold tracking-tight text-ink">
-                      {klass.name}
-                    </h3>
+                    <p className="org-dash-card-label">{klass.boardName}</p>
+                    <h3 className="org-dash-card-value mt-1 text-2xl">{klass.name}</h3>
                   </div>
-                  <span className="stat-icon">
+                  <span className={`org-dash-icon org-dash-icon-tone-${HUB_TONES[index % HUB_TONES.length]}`}>
                     <GraduationCap className="h-4 w-4" />
                   </span>
                 </div>
-                <p className="mt-4 text-sm text-muted">
+                <p className="org-dash-card-hint mt-4">
                   {plural(klass.sectionCount, "section")} · {plural(klass.studentCount, "student")}
                 </p>
                 <p className="mt-3 text-sm font-medium text-brand">
@@ -256,7 +254,7 @@ export default async function StudentsPage({
             {classSections.map((section, index) => (
               <div
                 key={section.id}
-                className="chart-card rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#f7fafc] p-5"
+                className={`org-dash-card tone-surface-${HUB_TONES[index % HUB_TONES.length]} chart-card p-5`}
                 style={{ animationDelay: `${index * 40}ms` }}
               >
                 <Link
@@ -265,18 +263,14 @@ export default async function StudentsPage({
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div>
-                      <p className="text-xs font-medium uppercase tracking-wide text-muted">
-                        Section
-                      </p>
-                      <h3 className="mt-1 font-display text-2xl font-semibold tracking-tight text-ink">
-                        {section.name}
-                      </h3>
+                      <p className="org-dash-card-label">Section</p>
+                      <h3 className="org-dash-card-value mt-1 text-2xl">{section.name}</h3>
                     </div>
-                    <span className="stat-icon">
+                    <span className={`org-dash-icon org-dash-icon-tone-${HUB_TONES[index % HUB_TONES.length]}`}>
                       <Users className="h-4 w-4" />
                     </span>
                   </div>
-                  <p className="mt-4 text-sm text-muted">
+                  <p className="org-dash-card-hint mt-4">
                     {plural(section._count.students, "student")}
                   </p>
                 </Link>
@@ -297,7 +291,7 @@ export default async function StudentsPage({
       ) : (
         <Card className="fade-up overflow-hidden p-0">
           <div className="p-4 md:p-5">
-            <form className="mb-4 grid gap-2 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-white/70 p-3 md:grid-cols-[1.4fr_1fr_auto]">
+            <form className="mb-4 grid gap-2 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/70 p-3 md:grid-cols-[1.4fr_1fr_auto]">
               <input type="hidden" name="classId" value={selectedClass.id} />
               <input type="hidden" name="sectionId" value={selectedSection.id} />
               <Input
@@ -347,7 +341,7 @@ export default async function StudentsPage({
                 return (
                   <div
                     key={student.id}
-                    className="chart-card rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#f7fafc] px-4 py-4"
+                    className="chart-card rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-card to-mist px-4 py-4"
                     style={{ animationDelay: `${index * 35}ms` }}
                   >
                     <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">

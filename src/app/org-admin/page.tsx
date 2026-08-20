@@ -255,7 +255,7 @@ export default async function OrgAdminPage() {
       />
 
       {!org.isActive ? (
-        <div className="flex items-start gap-3 rounded-[0.95rem] border border-amber-200 bg-amber-50 px-4 py-3 text-[0.95rem] text-amber-900">
+        <div className="flex items-start gap-3 rounded-[0.95rem] border border-amber-500/35 bg-amber-500/15 px-4 py-3 text-[0.95rem] text-amber-900 dark:text-amber-100">
           <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0" />
           <p>
             This organization is inactive. Teachers cannot sign in until Super Admin
@@ -265,7 +265,7 @@ export default async function OrgAdminPage() {
       ) : null}
 
       {sectionCount === 0 ? (
-        <div className="flex flex-wrap items-center justify-between gap-3 rounded-[0.95rem] border border-[rgba(15,40,70,0.1)] bg-white px-4 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-[0.95rem] border border-[rgba(15,40,70,0.1)] bg-card px-4 py-3">
           <p className="text-sm text-ink-soft">
             Create class sections first — teachers, students, and schedules depend on them.
           </p>

@@ -15,17 +15,17 @@ export function LogoUploadField({
 
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-stretch">
-      <div className="flex h-[5.5rem] w-[5.5rem] shrink-0 items-center justify-center overflow-hidden rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-white">
+      <div className="flex h-[5.5rem] w-[5.5rem] shrink-0 items-center justify-center overflow-hidden rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-card">
         {preview ? (
           <img src={preview} alt="" className="h-full w-full object-contain p-1.5" />
         ) : (
-          <ImagePlus className="h-7 w-7 text-[rgba(15,40,70,0.25)]" aria-hidden />
+          <ImagePlus className="h-7 w-7 text-muted" aria-hidden />
         )}
       </div>
 
       <label
         htmlFor={id}
-        className="flex min-h-[5.5rem] flex-1 cursor-pointer flex-col items-center justify-center rounded-[0.9rem] border border-dashed border-[rgba(15,118,110,0.35)] bg-[#f8fbfd] px-4 py-3 text-center transition hover:border-brand hover:bg-brand/5"
+        className="flex min-h-[5.5rem] flex-1 cursor-pointer flex-col items-center justify-center rounded-[0.9rem] border border-dashed border-[rgba(15,118,110,0.35)] bg-mist px-4 py-3 text-center transition hover:border-brand hover:bg-brand/5"
       >
         <Upload className="mb-1 h-4 w-4 text-brand" aria-hidden />
         <span className="text-sm font-semibold text-ink">

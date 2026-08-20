@@ -81,7 +81,7 @@ export default async function SuggestionsPage({
       </div>
 
       <div className="stats-grid">
-        <Card className="min-h-[7.5rem] bg-gradient-to-br from-[#fff4e5] to-white">
+        <Card className="min-h-[7.5rem] bg-gradient-to-br from-[#fff4e5] to-card">
           <div className="flex items-start justify-between gap-3">
             <CardDescription>Pending</CardDescription>
             <span className="stat-icon">
@@ -90,7 +90,7 @@ export default async function SuggestionsPage({
           </div>
           <CardTitle className="mt-3 text-[2rem]">{pending.length}</CardTitle>
         </Card>
-        <Card className="min-h-[7.5rem] bg-gradient-to-br from-[#e8f7f4] to-white">
+        <Card className="min-h-[7.5rem] bg-gradient-to-br from-[#e8f7f4] to-card">
           <div className="flex items-start justify-between gap-3">
             <CardDescription>Recently reviewed</CardDescription>
             <span className="stat-icon">
@@ -210,7 +210,7 @@ export default async function SuggestionsPage({
             {reviewed.map((item) => (
               <div
                 key={item.id}
-                className="flex flex-wrap items-center justify-between gap-2 rounded-[0.85rem] border border-[rgba(15,40,70,0.08)] bg-white/80 px-3 py-2.5"
+                className="flex flex-wrap items-center justify-between gap-2 rounded-[0.85rem] border border-[rgba(15,40,70,0.08)] bg-card/80 px-3 py-2.5"
               >
                 <div className="min-w-0">
                   <p className="truncate text-sm text-ink">{item.text}</p>

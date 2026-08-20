@@ -2126,7 +2126,7 @@ export function GenerateWizard({
               <div className="pts-planner-table-wrap">
                 <div className="overflow-x-auto rounded-[1rem] border border-[rgba(15,40,70,0.08)]">
                   <table className="w-full min-w-[640px] text-left text-sm">
-                    <thead className="bg-[#f8fafc] text-xs uppercase tracking-wide text-muted">
+                    <thead className="bg-mist text-xs uppercase tracking-wide text-muted">
                       <tr>
                         <th className="px-4 py-3 font-semibold">Chapter</th>
                         <th className="px-4 py-3 font-semibold">MCQ</th>
@@ -2139,7 +2139,7 @@ export function GenerateWizard({
                       {chapterPlanRows.map((row) => (
                         <tr
                           key={row.chapter.id}
-                          className="border-t border-[rgba(15,40,70,0.06)] bg-white align-top"
+                          className="border-t border-[rgba(15,40,70,0.06)] bg-card align-top"
                         >
                           <td className="px-4 py-3">
                             <p className="font-semibold text-ink">{row.chapter.name}</p>
@@ -2275,7 +2275,7 @@ export function GenerateWizard({
               </div>
               <button
                 type="button"
-                className="rounded-lg bg-white/15 px-3 py-1.5 text-sm font-semibold hover:bg-white/25"
+                className="rounded-lg bg-card/15 px-3 py-1.5 text-sm font-semibold hover:bg-card/25"
                 onClick={() => setSaveModalOpen(false)}
               >
                 Close
@@ -2388,7 +2388,7 @@ export function GenerateWizard({
               <label className="block text-sm font-semibold text-ink">
                 Instructions (optional)
                 <textarea
-                  className="mt-1.5 min-h-20 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 py-2.5 text-sm"
+                  className="mt-1.5 min-h-20 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2.5 text-sm"
                   value={instructions}
                   onChange={(e) => setInstructions(e.target.value)}
                   placeholder="Leave blank to use the default instructions"
@@ -2429,7 +2429,7 @@ export function GenerateWizard({
               </div>
               <button
                 type="button"
-                className="shrink-0 rounded-lg bg-white/15 px-3 py-1.5 text-sm font-semibold hover:bg-white/25"
+                className="shrink-0 rounded-lg bg-card/15 px-3 py-1.5 text-sm font-semibold hover:bg-card/25"
                 onClick={() => setModalOpen(false)}
               >
                 Close

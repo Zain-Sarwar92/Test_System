@@ -46,7 +46,7 @@ export function ResultExamList({
   return (
     <div className="space-y-4">
       {selected.length > 0 ? (
-        <div className="sticky top-3 z-10 flex flex-wrap items-center justify-between gap-3 rounded-[1rem] border border-brand/20 bg-white/95 p-4 shadow-lg backdrop-blur">
+        <div className="sticky top-3 z-10 flex flex-wrap items-center justify-between gap-3 rounded-[1rem] border border-brand/20 bg-card/95 p-4 shadow-lg backdrop-blur">
           <p className="text-sm font-semibold text-ink">
             {selected.length} result{selected.length === 1 ? "" : "s"} selected
           </p>
@@ -63,7 +63,7 @@ export function ResultExamList({
           return (
             <div
               key={exam.id}
-              className={`chart-card flex flex-col gap-3 rounded-[1rem] border bg-white px-4 py-4 sm:flex-row sm:items-center sm:justify-between ${
+              className={`chart-card flex flex-col gap-3 rounded-[1rem] border bg-card px-4 py-4 sm:flex-row sm:items-center sm:justify-between ${
                 checked
                   ? "border-brand/40 ring-2 ring-brand/10"
                   : "border-[rgba(15,40,70,0.08)]"
