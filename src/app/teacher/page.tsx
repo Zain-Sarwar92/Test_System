@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FileText, FilePlus2, CheckCircle2, AlertTriangle } from "lucide-react";
+import { FileText, FilePlus2, CheckCircle2, AlertTriangle, CalendarClock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
@@ -42,6 +42,47 @@ export default async function TeacherPage() {
       return rank[a.status] - rank[b.status];
     })
     .slice(0, 5);
+  const openCount = assigned.filter((a) => a.status !== "COMPLETED").length;
+
+  const stats = [
+    {
+      label: "Saved tests",
+      value: totalCount,
+      hint: "Ready to edit or export",
+      toneClass: "org-dash-card-tone-tests",
+      iconClass: "org-dash-icon-tone-tests",
+      icon: FileText,
+      href: "/teacher/tests",
+    },
+    {
+      label: "Finalized",
+      value: finalCount,
+      hint: "Published papers",
+      toneClass: "org-dash-card-tone-students",
+      iconClass: "org-dash-icon-tone-students",
+      icon: CheckCircle2,
+      href: "/teacher/tests?status=FINAL",
+    },
+    schedulesEnabled
+      ? {
+          label: "Open assignments",
+          value: openCount,
+          hint: openCount > 0 ? "Need a paper soon" : "Nothing pending",
+          toneClass: "org-dash-card-tone-schedules",
+          iconClass: "org-dash-icon-tone-schedules",
+          icon: CalendarClock,
+          href: "/teacher/schedules",
+        }
+      : null,
+  ].filter(Boolean) as Array<{
+    label: string;
+    value: number;
+    hint: string;
+    toneClass: string;
+    iconClass: string;
+    icon: typeof FileText;
+    href: string;
+  }>;
 
   return (
     <PageStack wide>
@@ -63,41 +104,22 @@ export default async function TeacherPage() {
         }
       />
 
-      <div className="grid grid-cols-2 gap-3 sm:gap-5">
-        <Link href="/teacher/tests" className="block min-w-0">
-          <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#eaf1f8] to-card p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
-            <div className="flex items-start justify-between gap-2">
-              <div className="min-w-0">
-                <p className="text-xs font-medium text-muted sm:text-sm">Total Tests</p>
-                <CardTitle className="mt-1.5 text-[1.65rem] leading-none sm:mt-2 sm:text-[2.4rem]">
-                  {totalCount}
-                </CardTitle>
+      <div className={`stats-grid ${stats.length >= 3 ? "stats-grid-3" : "stats-grid-2"}`}>
+        {stats.map((stat) => {
+          const Icon = stat.icon;
+          return (
+            <Link key={stat.label} href={stat.href} className={`org-dash-card ${stat.toneClass}`}>
+              <div className="org-dash-card-head">
+                <p className="org-dash-card-label">{stat.label}</p>
+                <span className={`org-dash-icon ${stat.iconClass}`}>
+                  <Icon className="h-4 w-4" />
+                </span>
               </div>
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#1a3350]/10 text-[#1a3350] transition-transform duration-300 group-hover:scale-110 sm:h-11 sm:w-11">
-                <FileText className="h-4 w-4 sm:h-5 sm:w-5" />
-              </div>
-            </div>
-          </Card>
-        </Link>
-
-        <Link href="/teacher/tests?status=FINAL" className="block min-w-0">
-          <Card className="group h-full min-h-[7.25rem] cursor-pointer bg-gradient-to-br from-[#e8f7f4] to-card p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[9rem] sm:p-6">
-            <div className="flex items-start justify-between gap-2">
-              <div className="min-w-0">
-                <p className="text-xs font-medium text-muted sm:text-sm">Saved Tests</p>
-                <CardTitle className="mt-1.5 text-[1.65rem] leading-none sm:mt-2 sm:text-[2.4rem]">
-                  {finalCount}
-                </CardTitle>
-                <p className="mt-1 text-[10px] leading-snug text-muted sm:mt-2 sm:text-xs">
-                  Ready to edit or export
-                </p>
-              </div>
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand transition-transform duration-300 group-hover:scale-110 sm:h-11 sm:w-11">
-                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5" />
-              </div>
-            </div>
-          </Card>
-        </Link>
+              <p className="org-dash-card-value">{stat.value}</p>
+              <p className="org-dash-card-hint">{stat.hint}</p>
+            </Link>
+          );
+        })}
       </div>
 
       {openAssignments.length > 0 ? (
@@ -120,7 +142,7 @@ export default async function TeacherPage() {
             {openAssignments.map((item) => (
               <div
                 key={item.assignmentId}
-                className="flex flex-col gap-3 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/85 px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                className="flex flex-col gap-3 rounded-xl border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)] transition hover:border-brand/30 sm:flex-row sm:items-center sm:justify-between"
               >
                 <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-2">
@@ -134,7 +156,7 @@ export default async function TeacherPage() {
                     {item.sectionName ? ` · ${item.sectionName}` : ""} · {item.testDateLabel}
                   </p>
                   {item.dueTomorrow ? (
-                    <p className="mt-1 flex items-center gap-1 text-xs font-semibold text-[#8a5a00]">
+                    <p className="mt-1 flex items-center gap-1 text-xs font-semibold text-amber-700 dark:text-amber-300">
                       <AlertTriangle className="h-3.5 w-3.5" />
                       Test due tomorrow
                     </p>
@@ -168,7 +190,7 @@ export default async function TeacherPage() {
               <Link
                 key={test.id}
                 href={`/teacher/tests/${test.id}`}
-                className="flex items-center justify-between rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/85 px-4 py-3 transition-colors hover:bg-mist"
+                className="flex items-center justify-between rounded-xl border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)] transition hover:border-brand/30 hover:shadow-[var(--shadow-elevated)]"
               >
                 <div className="min-w-0">
                   <p className="truncate text-sm font-semibold text-ink">
@@ -179,13 +201,7 @@ export default async function TeacherPage() {
                     {test.totalMarks} marks
                   </p>
                 </div>
-                <span
-                  className={
-                    "status-chip status-chip-success"
-                  }
-                >
-                  Final
-                </span>
+                <span className="status-chip status-chip-success">Final</span>
               </Link>
             ))}
           </div>

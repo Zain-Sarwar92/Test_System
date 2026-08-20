@@ -3,6 +3,7 @@ import {
   isStudentEnrolledInSubject,
   resolveSubjectMeta,
   shortElectiveLabel,
+  shortSubjectLabel,
   type StudentStream,
   type SubjectMeta,
   type SubjectTrack,
@@ -16,6 +17,11 @@ export function academicSession(date = new Date()) {
 
 export function sortByRoll(a: string, b: string) {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
+}
+
+/** Combined gazette headers: Round 1, Round 2, … (by selection order). */
+export function shortRoundLabel(_name: string, index: number) {
+  return `Round ${index + 1}`;
 }
 
 export function gradeFromPercent(percent: number | null) {
@@ -104,7 +110,7 @@ export function buildGazetteColumns(
     columns.push({
       kind: "subject",
       key: `subject:${subject.id}`,
-      label: subject.name,
+      label: shortSubjectLabel(subject.name),
       subjectId: subject.id,
       totalMarks: subject.totalMarks ?? 100,
     });

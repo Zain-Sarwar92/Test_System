@@ -153,7 +153,7 @@ export function AppShell({
             key={item.href}
             href={item.href}
             className={cn(
-              "flex items-center gap-3 rounded-[0.8rem] px-3.5 py-2.5 text-left text-[0.95rem] font-medium transition-all duration-300",
+              "flex items-center gap-3 rounded-[0.9rem] px-3.5 py-2.5 text-left text-[0.92rem] font-medium transition-all duration-300",
               active
                 ? "nav-active"
                 : "text-white/70 hover:translate-x-0.5 hover:bg-white/10 hover:text-white",
@@ -215,30 +215,30 @@ export function AppShell({
               <span className="brand-logo-mark h-9 w-9 shrink-0" aria-hidden>
                 <BrandMark />
               </span>
-              <p className="text-[11px] font-semibold tracking-[0.22em] text-teal-200/90 uppercase">
+              <p className="font-display text-[11px] font-semibold tracking-[0.24em] text-teal-200/90 uppercase">
                 Green Book
               </p>
             </div>
-            <h1 className="font-display mt-3 text-[1.65rem] leading-tight font-semibold text-white">
+            <h1 className="font-display mt-3.5 text-[1.75rem] leading-[1.12] font-semibold tracking-tight text-white">
               {title}
               {titleMeta ? (
-                <span className="font-display text-[1.05rem] font-medium text-teal-200/95">
+                <span className="font-display text-[1.05rem] font-medium tracking-normal text-teal-200/95">
                   {" "}
                   · {titleMeta}
                 </span>
               ) : null}
             </h1>
             {subtitle ? (
-              <p className="mt-2 text-sm leading-relaxed text-white/65">{subtitle}</p>
+              <p className="mt-2.5 text-[0.9rem] leading-relaxed text-white/65">{subtitle}</p>
             ) : null}
             {organizationName ? (
-              <div className="mt-3 flex items-start gap-2 rounded-[0.85rem] border border-white/15 bg-white/10 px-3 py-2.5">
+              <div className="mt-3.5 flex items-start gap-2 rounded-[0.95rem] border border-white/15 bg-white/10 px-3 py-2.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
                 <Building2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-teal-200/90" />
                 <div className="min-w-0">
-                  <p className="text-[10px] font-semibold tracking-[0.14em] text-white/50 uppercase">
+                  <p className="text-[10px] font-semibold tracking-[0.16em] text-white/50 uppercase">
                     Organization
                   </p>
-                  <p className="mt-0.5 truncate text-sm font-semibold text-white/90">
+                  <p className="mt-0.5 truncate text-sm font-semibold text-white/92">
                     {organizationName}
                   </p>
                 </div>

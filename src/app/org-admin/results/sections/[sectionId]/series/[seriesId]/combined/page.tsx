@@ -1,9 +1,13 @@
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { compileCombinedSectionResult, sortByRoll } from "@/lib/results";
+import {
+  compileMultiRoundSectionResult,
+  shortRoundLabel,
+  sortByRoll,
+} from "@/lib/results";
 import { withChosenElectives } from "@/lib/subject-stream";
-import { GazetteView } from "../../../exams/[examId]/gazette/gazette-view";
+import { CombinedGazetteView } from "../../../combined/combined-gazette-view";
 
 export default async function CombinedSeriesGazettePage({
   params,
@@ -106,12 +110,21 @@ export default async function CombinedSeriesGazettePage({
     assessmentsByRound.set(assessment.examTermId, list);
   }
 
-  const { columns, rows } = compileCombinedSectionResult({
+  const roundLabels = series.rounds.map((round, index) =>
+    shortRoundLabel(
+      round.roundOrder != null ? `Round ${round.roundOrder}` : round.name,
+      index,
+    ),
+  );
+
+  const { columns, rows } = compileMultiRoundSectionResult({
     passPercent: series.passPercent,
     students: students
       .map((student) => withChosenElectives(student))
       .sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber)),
-    rounds: series.rounds.map((round) => ({
+    rounds: series.rounds.map((round, index) => ({
+      id: round.id,
+      label: roundLabels[index]!,
       assessments: (assessmentsByRound.get(round.id) ?? []).map((assessment) => ({
         subjectId: assessment.subjectId,
         subject: assessment.subject,
@@ -126,38 +139,17 @@ export default async function CombinedSeriesGazettePage({
     })),
   });
 
-  const roundLabel = series.rounds
-    .map((round) => `R${round.roundOrder ?? "?"}`)
-    .join(" + ");
-  const dates = series.rounds
-    .map((round) => round.examDate)
-    .filter((date): date is Date => Boolean(date));
-  const examDate =
-    dates.length === 0
-      ? null
-      : dates
-          .sort((a, b) => a.getTime() - b.getTime())
-          .map((date) =>
-            date.toLocaleDateString("en-GB", {
-              day: "2-digit",
-              month: "short",
-              year: "numeric",
-            }),
-          )
-          .join(" – ");
-
   return (
-    <GazetteView
+    <CombinedGazetteView
       organization={section.organization}
       boardName={section.class.board.name}
       className={section.class.name}
       sectionName={section.name}
-      examName={`${series.name} (Combined)`}
       session={series.session}
+      roundLabels={roundLabels}
       columns={columns}
       rows={rows}
       backHref={`/org-admin/results/sections/${section.id}/series/${series.id}`}
-      subtitle={`Combined: ${roundLabel}`}
     />
   );
 }

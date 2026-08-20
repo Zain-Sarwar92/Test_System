@@ -1696,13 +1696,13 @@ export function GenerateWizard({
   return (
     <PageStack wide className="wizard-flow gap-4">
       {scheduleContext ? (
-        <div className="rounded-[0.9rem] border border-[#f0d9a8] bg-[#fff8eb] px-4 py-3 text-sm text-[#8a5a00]">
+        <div className="rounded-[1.1rem] border border-amber-500/25 bg-amber-500/10 px-4 py-3 text-sm text-amber-900 shadow-[var(--shadow-soft)] dark:text-amber-200">
           Creating test for assigned schedule:{" "}
           <strong>{scheduleContext.scheduleName}</strong>. Subject is locked to the
           schedule.
         </div>
       ) : null}
-      <div className={cn(step === "paper" && "pts-paper-sticky-chrome")}>
+      <div className={cn(step === "paper" ? "pts-paper-sticky-chrome" : "pts-wizard-panel")}>
         <div className="wizard-head">
           <div className="wizard-head-main">
             <div className="min-w-0 flex-1">
@@ -1829,44 +1829,44 @@ export function GenerateWizard({
             ) : null}
           </div>
         </div>
-      </div>
 
-      {step !== "paper" ? (
-        <nav className="pts-steps" aria-label="Test generation steps">
-          {WIZARD_STEPS.map((item, index) => {
-            const currentIndex = WIZARD_STEPS.findIndex((s) => s.id === step);
-            const state =
-              index < currentIndex
-                ? "done"
-                : index === currentIndex
-                  ? "current"
-                  : "todo";
-            return (
-              <div key={item.id} className="pts-steps-item">
-                {index > 0 ? <span className="pts-steps-line" aria-hidden /> : null}
-                <span
-                  className={cn(
-                    "pts-steps-dot",
-                    state === "done" && "pts-steps-dot--done",
-                    state === "current" && "pts-steps-dot--current",
-                  )}
-                >
-                  {index + 1}
-                </span>
-                <span
-                  className={cn(
-                    "pts-steps-label",
-                    state === "current" && "pts-steps-label--current",
-                    state === "todo" && "pts-steps-label--todo",
-                  )}
-                >
-                  {item.label}
-                </span>
-              </div>
-            );
-          })}
-        </nav>
-      ) : null}
+        {step !== "paper" ? (
+          <nav className="pts-steps" aria-label="Test generation steps">
+            {WIZARD_STEPS.map((item, index) => {
+              const currentIndex = WIZARD_STEPS.findIndex((s) => s.id === step);
+              const state =
+                index < currentIndex
+                  ? "done"
+                  : index === currentIndex
+                    ? "current"
+                    : "todo";
+              return (
+                <div key={item.id} className="pts-steps-item">
+                  {index > 0 ? <span className="pts-steps-line" aria-hidden /> : null}
+                  <span
+                    className={cn(
+                      "pts-steps-dot",
+                      state === "done" && "pts-steps-dot--done",
+                      state === "current" && "pts-steps-dot--current",
+                    )}
+                  >
+                    {index + 1}
+                  </span>
+                  <span
+                    className={cn(
+                      "pts-steps-label",
+                      state === "current" && "pts-steps-label--current",
+                      state === "todo" && "pts-steps-label--todo",
+                    )}
+                  >
+                    {item.label}
+                  </span>
+                </div>
+              );
+            })}
+          </nav>
+        ) : null}
+      </div>
 
       {/* BOARD */}
       {step === "board" ? (
@@ -1885,6 +1885,7 @@ export function GenerateWizard({
                   <span className="pts-choice-title">
                     {board.name.replace(/ Board$/i, "")}
                   </span>
+                  <span className="pts-choice-meta">Education board</span>
                 </span>
                 <ChevronRight className="pts-choice-chevron" aria-hidden />
               </button>
@@ -1910,6 +1911,10 @@ export function GenerateWizard({
                   </span>
                   <span className="pts-choice-body">
                     <span className="pts-choice-title">{klass.name}</span>
+                    <span className="pts-choice-meta">
+                      {klass.subjects.length} subject
+                      {klass.subjects.length === 1 ? "" : "s"}
+                    </span>
                   </span>
                   <ChevronRight className="pts-choice-chevron" aria-hidden />
                 </button>
@@ -1938,6 +1943,7 @@ export function GenerateWizard({
                   </span>
                   <span className="pts-choice-body">
                     <span className="pts-choice-title">{subject.name}</span>
+                    <span className="pts-choice-meta">Tap to continue</span>
                   </span>
                   <ChevronRight className="pts-choice-chevron" aria-hidden />
                 </button>
@@ -2124,7 +2130,7 @@ export function GenerateWizard({
               </div>
 
               <div className="pts-planner-table-wrap">
-                <div className="overflow-x-auto rounded-[1rem] border border-[rgba(15,40,70,0.08)]">
+                <div className="overflow-x-auto rounded-[1.15rem] border border-line shadow-[var(--shadow-soft)]">
                   <table className="w-full min-w-[640px] text-left text-sm">
                     <thead className="bg-mist text-xs uppercase tracking-wide text-muted">
                       <tr>
@@ -2139,7 +2145,7 @@ export function GenerateWizard({
                       {chapterPlanRows.map((row) => (
                         <tr
                           key={row.chapter.id}
-                          className="border-t border-[rgba(15,40,70,0.06)] bg-card align-top"
+                          className="border-t border-line bg-card align-top"
                         >
                           <td className="px-4 py-3">
                             <p className="font-semibold text-ink">{row.chapter.name}</p>
@@ -2191,7 +2197,7 @@ export function GenerateWizard({
               </WizardActionBar>
             </Card>
           ) : !modalOpen ? (
-            <Card className="border-dashed">
+            <Card className="chart-card border-dashed border-brand/30 bg-brand/[0.03]">
               <CardTitle>Select questions</CardTitle>
               <CardDescription className="mt-1">
                 A single chapter is selected, so the planner is not needed. Use the question picker to choose MCQ, Short, and Long questions.
@@ -2268,7 +2274,7 @@ export function GenerateWizard({
       {saveModalOpen ? (
         <div className="pts-modal-backdrop" role="dialog" aria-modal="true">
           <div className="pts-modal pts-modal--save">
-            <div className="flex items-center justify-between gap-3 bg-gradient-to-r from-[#1a3350] to-[#0f766e] px-5 py-4 text-white">
+            <div className="pts-modal-header">
               <div>
                 <p className="text-xs font-medium text-white/70">Save Test</p>
                 <h3 className="text-base font-bold">Fill test details</h3>
@@ -2282,7 +2288,7 @@ export function GenerateWizard({
               </button>
             </div>
 
-            <div className="nice-scroll flex-1 space-y-4 overflow-y-auto p-5">
+            <div className="nice-scroll flex-1 space-y-4 overflow-y-auto p-5 pb-8">
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <label className="block text-sm font-semibold text-ink sm:col-span-1">
                   Test name <span className="text-red-500">*</span>
@@ -2388,7 +2394,7 @@ export function GenerateWizard({
               <label className="block text-sm font-semibold text-ink">
                 Instructions (optional)
                 <textarea
-                  className="mt-1.5 min-h-20 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2.5 text-sm"
+                  className="field-area mt-1.5 min-h-24 w-full rounded-xl border border-line bg-[var(--field-bg)] px-3 py-2.5 text-sm text-ink"
                   value={instructions}
                   onChange={(e) => setInstructions(e.target.value)}
                   placeholder="Leave blank to use the default instructions"

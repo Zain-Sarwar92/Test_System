@@ -6,7 +6,6 @@ import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import {
-  deleteExamTerm,
   deleteResultSeries,
   deleteSectionExamResult,
 } from "../../../../actions";
@@ -156,32 +155,25 @@ export default async function SectionSeriesPage({
                   </Button>
                 </Link>
                 {round._count.assessments > 0 ? (
-                  <>
-                    <Link href={`/org-admin/results/sections/${section.id}/exams/${round.id}/gazette`}>
-                      <Button variant="outline" size="sm">
-                        Round gazette
-                      </Button>
-                    </Link>
-                    <ConfirmForm
-                      action={deleteSectionExamResult}
-                      message={`Clear all marks for ${section.name} in Round ${round.roundOrder}? The round stays; only this section’s result is removed.`}
-                    >
-                      <input type="hidden" name="sectionId" value={section.id} />
-                      <input type="hidden" name="examTermId" value={round.id} />
-                      <Button type="submit" variant="outline" size="sm">
-                        Clear section result
-                      </Button>
-                    </ConfirmForm>
-                  </>
+                  <Link href={`/org-admin/results/sections/${section.id}/exams/${round.id}/gazette`}>
+                    <Button variant="outline" size="sm">
+                      Round gazette
+                    </Button>
+                  </Link>
                 ) : null}
                 <ConfirmForm
-                  action={deleteExamTerm}
-                  message={`Delete Round ${round.roundOrder} for the whole school? All sections’ marks for this round will be removed.`}
+                  action={deleteSectionExamResult}
+                  message={`Remove Round ${round.roundOrder} result for ${section.name} only? Other sections keep their marks. The round stays in the series.`}
                 >
-                  <input type="hidden" name="examTermId" value={round.id} />
                   <input type="hidden" name="sectionId" value={section.id} />
+                  <input type="hidden" name="examTermId" value={round.id} />
+                  <input
+                    type="hidden"
+                    name="returnTo"
+                    value={`/org-admin/results/sections/${section.id}/series/${series.id}`}
+                  />
                   <Button type="submit" variant="danger" size="sm">
-                    Delete round
+                    Delete for this section
                   </Button>
                 </ConfirmForm>
               </div>

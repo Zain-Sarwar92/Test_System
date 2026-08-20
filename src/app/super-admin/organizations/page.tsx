@@ -30,7 +30,7 @@ export default async function OrganizationsPage() {
         }
       />
 
-      <div className="grid gap-5 xl:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.7fr)]">
+      <div className="mx-auto w-full max-w-2xl">
         <Card className="chart-card fade-up">
           <div className="flex items-start gap-3">
             <span className="stat-icon">
@@ -45,28 +45,6 @@ export default async function OrganizationsPage() {
           </div>
 
           <CreateOrgForm plans={plans.map((p) => ({ id: p.id, name: p.name }))} />
-        </Card>
-
-        <Card className="fade-up h-fit bg-gradient-to-br from-[#e8f7f4] to-card">
-          <CardTitle className="text-base">What gets created</CardTitle>
-          <ul className="mt-4 space-y-3 text-sm text-ink-soft">
-            <li className="flex gap-2">
-              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
-              New organization with name, logo &amp; address for test header
-            </li>
-            <li className="flex gap-2">
-              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
-              Org Admin account with the email/password you set
-            </li>
-            <li className="flex gap-2">
-              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
-              Admin can refine branding later under Org Profile
-            </li>
-            <li className="flex gap-2">
-              <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
-              Students, results, fees, and schedules stay off until you enable them
-            </li>
-          </ul>
         </Card>
       </div>
     </PageStack>

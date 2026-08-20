@@ -106,7 +106,7 @@ export default async function CollectFeePage({ searchParams }: Props) {
               <Link
                 key={student.id}
                 href={`/org-admin/fees/collect?studentId=${student.id}&q=${encodeURIComponent(params.q ?? "")}`}
-                className="rounded-xl border border-[rgba(15,40,70,0.08)] bg-card px-4 py-3 transition hover:border-brand/35"
+                className="rounded-xl border border-line bg-card px-4 py-3 shadow-[var(--shadow-soft)] transition hover:border-brand/35 hover:shadow-[var(--shadow-elevated)]"
               >
                 <p className="font-semibold text-ink">{student.name}</p>
                 <p className="text-xs text-muted">
@@ -141,7 +141,7 @@ export default async function CollectFeePage({ searchParams }: Props) {
               return (
                 <div
                   key={charge.id}
-                  className="rounded-[1rem] border border-[rgba(15,40,70,0.09)] bg-card p-4"
+                  className="rounded-[1rem] border border-line bg-card p-4 shadow-[var(--shadow-soft)]"
                 >
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
+import { BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
@@ -15,6 +16,8 @@ import {
 } from "../../../../actions";
 import { ConfirmForm } from "../../../../confirm-form";
 import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
+
+const HUB_TONES = ["students", "teachers", "tests", "sections"] as const;
 
 export default async function SectionExamSubjectsPage({
   params,
@@ -139,9 +142,10 @@ export default async function SectionExamSubjectsPage({
       />
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {assessments.map((assessment) => {
+        {assessments.map((assessment, index) => {
           const subject = assessment.subject;
           const meta = resolveSubjectMeta(subject);
+          const tone = HUB_TONES[index % HUB_TONES.length];
           const enrolledIds = new Set(
             enrolledStudents
               .filter((student) => isStudentEnrolledInSubject(student, meta))
@@ -162,10 +166,19 @@ export default async function SectionExamSubjectsPage({
           return (
             <div
               key={subject.id}
-              className="chart-card rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-card p-5"
+              className={`org-dash-card tone-surface-${tone} chart-card p-5`}
+              style={{ animationDelay: `${index * 40}ms` }}
             >
-              <h3 className="font-display text-xl font-semibold text-ink">{subject.name}</h3>
-              <p className="mt-2 text-sm text-muted">
+              <div className="flex items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <p className="org-dash-card-label">Subject</p>
+                  <h3 className="org-dash-card-value mt-1 text-xl">{subject.name}</h3>
+                </div>
+                <span className={`org-dash-icon org-dash-icon-tone-${tone}`}>
+                  <BookOpen className="h-4 w-4" />
+                </span>
+              </div>
+              <p className="org-dash-card-hint mt-3">
                 {entered}/{enrolledCount} enrolled marks
                 {` · Total ${Number(assessment.totalMarks)}`}
                 {assessment._count.sheets

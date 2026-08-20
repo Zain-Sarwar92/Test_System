@@ -227,7 +227,7 @@ export default async function OrgAdminPage() {
       <PageHeader
         kicker={org.isActive ? "Overview" : "Inactive organization"}
         title="Dashboard"
-        description={`Welcome back, ${firstName}. Manage people, tests, and operations for ${org.name}.`}
+        description={`Welcome back, ${firstName}. People, tests, and operations for ${org.name} — in one calm workspace.`}
         actions={
           <div className="flex flex-wrap gap-2">
             <Link href="/org-admin/generate">

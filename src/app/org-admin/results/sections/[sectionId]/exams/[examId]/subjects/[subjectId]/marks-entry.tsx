@@ -429,7 +429,7 @@ export function MarksEntry({
       ) : null}
 
       <div className="grid gap-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
-        <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-card p-4 sm:p-5">
+        <div className="rounded-[1.25rem] border border-line bg-card p-4 shadow-[var(--shadow-soft)] sm:p-5">
           <div className="flex items-start gap-3">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
               <Camera className="h-5 w-5" />
@@ -444,7 +444,7 @@ export function MarksEntry({
               <button
                 type="button"
                 onClick={() => setPreviewOpen(true)}
-                className="group relative h-20 w-16 shrink-0 overflow-hidden rounded-[0.7rem] bg-[#0b1f33] ring-2 ring-brand/25 ring-offset-2 ring-offset-white transition hover:ring-brand/50"
+                className="group relative h-20 w-16 shrink-0 overflow-hidden rounded-[0.7rem] bg-[#0b1f33] ring-2 ring-brand/25 ring-offset-2 ring-offset-[var(--card)] transition hover:ring-brand/50"
                 title="Open full photo"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -468,10 +468,10 @@ export function MarksEntry({
             }}
             onDragLeave={() => setDragOver(false)}
             onDrop={onDrop}
-            className={`mt-4 flex cursor-pointer flex-col items-center justify-center rounded-[1rem] border-2 border-dashed px-4 py-6 text-center transition ${
+            className={`mt-4 flex cursor-pointer flex-col items-center justify-center rounded-[1.15rem] border-2 border-dashed px-4 py-7 text-center transition ${
               dragOver
-                ? "border-brand bg-brand/10"
-                : "border-[rgba(15,118,110,0.28)] bg-gradient-to-br from-[#f7fbfa] to-card hover:border-brand hover:bg-brand/5"
+                ? "border-brand bg-brand/10 shadow-[var(--shadow-soft)]"
+                : "border-brand/30 bg-mist/40 hover:border-brand hover:bg-brand/5"
             } ${pending ? "pointer-events-none opacity-70" : ""}`}
           >
             <input
@@ -517,7 +517,7 @@ export function MarksEntry({
                       className={`rounded-md border px-2 py-1 text-[11px] font-semibold transition ${
                         activeSheet.id === sheet.id
                           ? "border-brand bg-brand text-white"
-                          : "border-[rgba(15,40,70,0.12)] text-ink-soft hover:border-brand/30"
+                          : "border-line text-ink-soft hover:border-brand/30"
                       }`}
                       title={sheet.originalName || `Photo ${index + 1}`}
                     >
@@ -552,7 +552,7 @@ export function MarksEntry({
           )}
         </div>
 
-        <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-card p-4 sm:p-5">
+        <div className="rounded-[1.25rem] border border-line bg-card p-4 shadow-[var(--shadow-soft)] sm:p-5">
           <p className="font-semibold text-ink">Check and save marks</p>
           <p className="mt-1 text-sm text-muted">
             {entered} of {rows.length} students have marks.
@@ -573,8 +573,8 @@ export function MarksEntry({
         </div>
       </div>
 
-      <div className="overflow-x-auto rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-card">
-        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(15,40,70,0.06)] px-3 py-2">
+      <div className="overflow-x-auto rounded-[1.25rem] border border-line bg-card shadow-[var(--shadow-soft)]">
+        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-line px-3 py-2">
           
           <Button type="button" size="sm" variant="outline" onClick={addManualRow} disabled={pending}>
             <Plus className="h-3.5 w-3.5" />
@@ -597,7 +597,7 @@ export function MarksEntry({
             {rows.map((row) => (
               <tr
                 key={row.id}
-                className={`border-t border-[rgba(15,40,70,0.06)] ${row.isManual ? "bg-amber-500/10" : ""}`}
+                className={`border-t border-line ${row.isManual ? "bg-amber-500/10" : ""}`}
               >
                 <td className="px-3 py-2">
                   {row.isManual ? (

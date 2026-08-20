@@ -3,16 +3,16 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 rounded-[0.8rem] text-sm font-semibold transition-all duration-200 disabled:pointer-events-none disabled:opacity-50 active:scale-[0.98]",
+  "inline-flex items-center justify-center gap-2 rounded-[0.9rem] text-sm font-semibold tracking-tight transition-all duration-200 disabled:pointer-events-none disabled:opacity-50 active:scale-[0.98]",
   {
     variants: {
       variant: {
         default:
-          "bg-gradient-to-br from-brand to-brand-deep text-white shadow-[0_10px_24px_rgba(15,118,110,0.28)] hover:brightness-110 hover:shadow-[0_12px_28px_rgba(15,118,110,0.34)]",
+          "bg-gradient-to-br from-brand to-brand-deep text-white shadow-[0_12px_28px_rgba(15,118,110,0.3)] hover:brightness-110 hover:shadow-[0_14px_32px_rgba(15,118,110,0.38)]",
         secondary:
-          "bg-card text-ink border border-line hover:border-brand/40",
+          "bg-card text-ink border border-line shadow-[var(--shadow-soft)] hover:border-brand/40 hover:shadow-[var(--shadow-elevated)]",
         outline:
-          "border border-line bg-card/70 text-ink-soft hover:bg-card hover:border-brand/40",
+          "border border-line bg-card/80 text-ink-soft shadow-[var(--shadow-soft)] hover:bg-card hover:border-brand/40 hover:text-ink",
         ghost: "text-ink-soft hover:bg-mist hover:text-ink",
         danger:
           "bg-gradient-to-br from-[#d92d20] to-[#912018] text-white hover:brightness-110",

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { compileMultiRoundSectionResult, sortByRoll } from "@/lib/results";
+import { compileMultiRoundSectionResult, shortRoundLabel, sortByRoll } from "@/lib/results";
 import { withChosenElectives } from "@/lib/subject-stream";
 import { CombinedGazetteView } from "./combined-gazette-view";
 
@@ -107,14 +107,15 @@ export default async function CombinedResultsPage({
   }
 
   const passPercent = Math.max(...exams.map((exam) => exam.passPercent));
+  const roundLabels = exams.map((exam, index) => shortRoundLabel(exam.name, index));
   const { columns, rows } = compileMultiRoundSectionResult({
     passPercent,
     students: students
       .map((student) => withChosenElectives(student))
       .sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber)),
-    rounds: exams.map((exam) => ({
+    rounds: exams.map((exam, index) => ({
       id: exam.id,
-      label: exam.name,
+      label: roundLabels[index]!,
       assessments: (byExam.get(exam.id) ?? []).map((assessment) => ({
         subjectId: assessment.subjectId,
         subject: assessment.subject,
@@ -130,22 +131,6 @@ export default async function CombinedResultsPage({
   });
 
   const sessions = [...new Set(exams.map((exam) => exam.session))].join(" / ");
-  const dates = exams
-    .map((exam) => exam.examDate)
-    .filter((date): date is Date => Boolean(date))
-    .sort((a, b) => a.getTime() - b.getTime());
-  const examDate =
-    dates.length === 0
-      ? null
-      : dates
-          .map((date) =>
-            date.toLocaleDateString("en-GB", {
-              day: "2-digit",
-              month: "short",
-              year: "numeric",
-            }),
-          )
-          .join(" – ");
 
   return (
     <CombinedGazetteView
@@ -154,7 +139,7 @@ export default async function CombinedResultsPage({
       className={section.class.name}
       sectionName={section.name}
       session={sessions}
-      roundLabels={exams.map((exam) => exam.name)}
+      roundLabels={roundLabels}
       columns={columns}
       rows={rows}
       backHref={`/org-admin/results/sections/${section.id}`}

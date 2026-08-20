@@ -10,7 +10,7 @@ export function Card({
   return (
     <div
       className={cn(
-        "rounded-[1.15rem] border border-line bg-card p-[1.35rem] shadow-[var(--shadow-soft)] md:p-6",
+        "rounded-[1.25rem] border border-line bg-card p-[1.4rem] shadow-[var(--shadow-soft)] md:p-6",
         className,
       )}
     >
