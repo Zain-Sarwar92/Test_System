@@ -10,6 +10,8 @@ function plural(count: number, singular: string, pluralForm = `${singular}s`) {
   return `${count} ${count === 1 ? singular : pluralForm}`;
 }
 
+const HUB_TONES = ["students", "teachers", "tests", "sections"] as const;
+
 export default async function ResultsClassesPage() {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
@@ -83,23 +85,19 @@ export default async function ResultsClassesPage() {
             <Link
               key={klass.id}
               href={`/org-admin/results/classes/${klass.id}`}
-              className="chart-card block rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#eef7ff] p-5 transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
+              className={`org-dash-card tone-surface-${HUB_TONES[index % HUB_TONES.length]} chart-card p-5 transition-transform duration-300 hover:-translate-y-1`}
               style={{ animationDelay: `${index * 40}ms` }}
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <p className="text-xs font-medium uppercase tracking-wide text-muted">
-                    {klass.boardName}
-                  </p>
-                  <h3 className="mt-1 font-display text-2xl font-semibold tracking-tight text-ink">
-                    {klass.name}
-                  </h3>
+                  <p className="org-dash-card-label">{klass.boardName}</p>
+                  <h3 className="org-dash-card-value mt-1 text-2xl">{klass.name}</h3>
                 </div>
-                <span className="stat-icon">
+                <span className={`org-dash-icon org-dash-icon-tone-${HUB_TONES[index % HUB_TONES.length]}`}>
                   <GraduationCap className="h-4 w-4" />
                 </span>
               </div>
-              <p className="mt-4 text-sm text-muted">
+              <p className="org-dash-card-hint mt-4">
                 {plural(klass.sectionCount, "section")} · {plural(klass.studentCount, "student")}
               </p>
               <p className="mt-3 text-sm font-medium text-brand">

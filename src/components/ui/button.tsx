@@ -10,10 +10,10 @@ const buttonVariants = cva(
         default:
           "bg-gradient-to-br from-brand to-brand-deep text-white shadow-[0_10px_24px_rgba(15,118,110,0.28)] hover:brightness-110 hover:shadow-[0_12px_28px_rgba(15,118,110,0.34)]",
         secondary:
-          "bg-gradient-to-br from-white to-mist text-ink border border-[rgba(15,40,70,0.1)] hover:border-[rgba(15,118,110,0.28)]",
+          "bg-card text-ink border border-line hover:border-brand/40",
         outline:
-          "border border-[rgba(15,40,70,0.14)] bg-white/70 text-ink-soft hover:bg-white hover:border-brand/40",
-        ghost: "text-ink-soft hover:bg-white/70 hover:text-ink",
+          "border border-line bg-card/70 text-ink-soft hover:bg-card hover:border-brand/40",
+        ghost: "text-ink-soft hover:bg-mist hover:text-ink",
         danger:
           "bg-gradient-to-br from-[#d92d20] to-[#912018] text-white hover:brightness-110",
       },

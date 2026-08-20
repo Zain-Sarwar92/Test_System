@@ -129,7 +129,7 @@ export default async function SectionsPage({ searchParams }: SectionsPageProps) 
                       className={`block rounded-[0.9rem] border px-3 py-3 transition ${
                         isActive
                           ? "border-brand/45 bg-brand/10"
-                          : "border-[rgba(15,40,70,0.1)] bg-white hover:border-brand/30 hover:bg-brand/5"
+                          : "border-[rgba(15,40,70,0.1)] bg-card hover:border-brand/30 hover:bg-brand/5"
                       }`}
                     >
                       <p className="font-semibold text-ink">{group.className}</p>
@@ -158,7 +158,7 @@ export default async function SectionsPage({ searchParams }: SectionsPageProps) 
                       {selectedGroup.sections.map((section) => (
                         <div
                           key={section.id}
-                          className="flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#f7fafc] px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                          className="flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-card to-mist px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
                         >
                           <div>
                             <p className="font-semibold text-ink">{section.name}</p>

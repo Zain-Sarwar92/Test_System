@@ -159,7 +159,7 @@ export default async function NewSchedulePage() {
       />
 
       {!hasAnySection ? (
-        <div className="mx-auto max-w-lg rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-white p-8 text-center shadow-[0_10px_30px_rgba(15,40,70,0.05)]">
+        <div className="mx-auto max-w-lg rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-card p-8 text-center shadow-[0_10px_30px_rgba(15,40,70,0.05)]">
           <p className="text-base font-semibold text-ink">No sections yet</p>
           <p className="mt-1 text-sm text-muted">
             Create org sections before scheduling teachers by Class + Section + Subject.
@@ -169,7 +169,7 @@ export default async function NewSchedulePage() {
           </Link>
         </div>
       ) : catalog.length === 0 ? (
-        <div className="mx-auto max-w-lg rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-white p-8 text-center shadow-[0_10px_30px_rgba(15,40,70,0.05)]">
+        <div className="mx-auto max-w-lg rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-card p-8 text-center shadow-[0_10px_30px_rgba(15,40,70,0.05)]">
           <p className="text-base font-semibold text-ink">No curriculum yet</p>
           <p className="mt-1 text-sm text-muted">
             Ask Super Admin to add boards, classes, and subjects first.

@@ -714,7 +714,7 @@ export function CreateScheduleForm({
 
   return (
     <div className="mx-auto w-full max-w-3xl space-y-6">
-      <div className="rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-white p-4 shadow-[0_10px_30px_rgba(15,40,70,0.05)] sm:p-5">
+      <div className="rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-card p-4 shadow-[0_10px_30px_rgba(15,40,70,0.05)] sm:p-5">
         <div className="nice-scroll flex items-center gap-1.5 overflow-x-auto pb-1">
           {STEPS.map((item, index) => {
             const active = step === item.id;
@@ -734,7 +734,7 @@ export function CreateScheduleForm({
                       ? "bg-brand text-white"
                       : done
                         ? "bg-brand/10 text-brand"
-                        : "bg-[#f3f7fb] text-muted"
+                        : "bg-mist text-muted"
                   }`}
                 >
                   {/* Tick slot is always reserved so chips never resize between steps. */}
@@ -752,7 +752,7 @@ export function CreateScheduleForm({
         </div>
       </div>
 
-      <div className="rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-white p-5 shadow-[0_10px_30px_rgba(15,40,70,0.05)] sm:p-6">
+      <div className="rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-card p-5 shadow-[0_10px_30px_rgba(15,40,70,0.05)] sm:p-6">
         {step === 1 ? (
           <div className="space-y-4">
             <div>
@@ -789,7 +789,7 @@ export function CreateScheduleForm({
                     className={
                       selected
                         ? "rounded-full border border-brand bg-brand/10 px-3.5 py-2 text-sm font-semibold text-brand"
-                        : "rounded-full border border-[rgba(15,40,70,0.12)] bg-white px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
+                        : "rounded-full border border-[rgba(15,40,70,0.12)] bg-card px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
                     }
                   >
                     {board.boardName}
@@ -809,7 +809,7 @@ export function CreateScheduleForm({
               </p>
             </div>
             {boardClasses.length === 0 ? (
-              <p className="rounded-[0.9rem] bg-[#f8fbfd] px-4 py-3 text-sm text-muted">
+              <p className="rounded-[0.9rem] bg-mist px-4 py-3 text-sm text-muted">
                 No classes on this board yet.
               </p>
             ) : (
@@ -830,7 +830,7 @@ export function CreateScheduleForm({
                       className={
                         selected
                           ? "rounded-full border border-brand bg-brand/10 px-3.5 py-2 text-sm font-semibold text-brand"
-                          : "rounded-full border border-[rgba(15,40,70,0.12)] bg-white px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
+                          : "rounded-full border border-[rgba(15,40,70,0.12)] bg-card px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
                       }
                     >
                       {classItem.className}
@@ -852,7 +852,7 @@ export function CreateScheduleForm({
               </p>
             </div>
             {selectedClasses.length === 0 ? (
-              <p className="rounded-[0.9rem] bg-[#f8fbfd] px-4 py-3 text-sm text-muted">
+              <p className="rounded-[0.9rem] bg-mist px-4 py-3 text-sm text-muted">
                 Select classes first.
               </p>
             ) : (
@@ -860,7 +860,7 @@ export function CreateScheduleForm({
                 {selectedClasses.map((classItem) => (
                   <div
                     key={classItem.classId}
-                    className="rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-[#f8fbfd] p-4"
+                    className="rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-mist p-4"
                   >
                     <p className="text-sm font-semibold text-ink">{classItem.className}</p>
                     {classItem.sections.length === 0 ? (
@@ -877,7 +877,7 @@ export function CreateScheduleForm({
                               className={
                                 selected
                                   ? "rounded-full border border-brand bg-brand/10 px-3.5 py-2 text-sm font-semibold text-brand"
-                                  : "rounded-full border border-[rgba(15,40,70,0.12)] bg-white px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
+                                  : "rounded-full border border-[rgba(15,40,70,0.12)] bg-card px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
                               }
                             >
                               {section.name}
@@ -902,7 +902,7 @@ export function CreateScheduleForm({
               </p>
             </div>
             {availableSubjects.length === 0 ? (
-              <p className="rounded-[0.9rem] bg-[#f8fbfd] px-4 py-3 text-sm text-muted">
+              <p className="rounded-[0.9rem] bg-mist px-4 py-3 text-sm text-muted">
                 No subjects found for the selected classes.
               </p>
             ) : (
@@ -925,8 +925,8 @@ export function CreateScheduleForm({
                         selected
                           ? "rounded-full border border-brand bg-brand/10 px-3.5 py-2 text-sm font-semibold text-brand"
                           : blocked
-                            ? "rounded-full border border-amber-200 bg-amber-50 px-3.5 py-2 text-sm font-medium text-amber-950"
-                            : "rounded-full border border-[rgba(15,40,70,0.12)] bg-white px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
+                            ? "rounded-full border border-amber-500/35 bg-amber-500/15 px-3.5 py-2 text-sm font-medium text-amber-800 dark:text-amber-200"
+                            : "rounded-full border border-[rgba(15,40,70,0.12)] bg-card px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
                       }
                     >
                       {subjectName}
@@ -937,7 +937,7 @@ export function CreateScheduleForm({
               </div>
             )}
             {subjectsMissingTeachers.length > 0 ? (
-              <div className="rounded-[0.9rem] border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+              <div className="rounded-[0.9rem] border border-amber-500/35 bg-amber-500/15 px-4 py-3 text-sm text-amber-900 dark:text-amber-100">
                 <p className="font-semibold">
                   {subjectsMissingTeachers.length} subject
                   {subjectsMissingTeachers.length === 1 ? "" : "s"} need a teacher before scheduling
@@ -977,7 +977,7 @@ export function CreateScheduleForm({
                 onChange={(e) =>
                   changeRoundCount(Number.parseInt(e.target.value || "1", 10))
                 }
-                className="h-10 bg-white"
+                className="h-10 bg-card"
               />
             </label>
 
@@ -993,7 +993,7 @@ export function CreateScheduleForm({
                     className={
                       active
                         ? "rounded-full border border-brand bg-brand/10 px-3.5 py-2 text-sm font-semibold text-brand"
-                        : "rounded-full border border-[rgba(15,40,70,0.12)] bg-white px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
+                        : "rounded-full border border-[rgba(15,40,70,0.12)] bg-card px-3.5 py-2 text-sm font-medium text-ink hover:border-brand/40"
                     }
                   >
                     {round.name}
@@ -1019,7 +1019,7 @@ export function CreateScheduleForm({
               return (
                 <>
                   {activeIndex > 0 ? (
-                    <p className="rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-[#f8fbfd] px-4 py-3 text-sm text-muted">
+                    <p className="rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-mist px-4 py-3 text-sm text-muted">
                       Edit any date below to skip a holiday — remaining tests in
                       this round and later rounds move with it
                       {shiftedBy > 0
@@ -1028,14 +1028,14 @@ export function CreateScheduleForm({
                       .
                     </p>
                   ) : (
-                    <p className="rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-[#f8fbfd] px-4 py-3 text-sm text-muted">
+                    <p className="rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-mist px-4 py-3 text-sm text-muted">
                       Fill Round 1 dates to generate later rounds. Editing a Round 1
                       date also shifts later tests in Round 1 and beyond.
                     </p>
                   )}
 
                   {!isRound1 && activeIndex >= 0 ? (
-                    <label className="block max-w-xs rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-[#f8fbfd] p-4">
+                    <label className="block max-w-xs rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-mist p-4">
                       <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-muted">
                         Gap before {activeRound.name}
                       </span>
@@ -1050,7 +1050,7 @@ export function CreateScheduleForm({
                             Number.parseInt(e.target.value || "0", 10),
                           )
                         }
-                        className="h-10 bg-white"
+                        className="h-10 bg-card"
                       />
                       <span className="mt-1.5 block text-xs text-muted">
                         Extra working days before this round. Shifts Round{" "}
@@ -1063,7 +1063,7 @@ export function CreateScheduleForm({
             })()}
 
             {detailRows.length === 0 ? (
-              <p className="rounded-[0.9rem] bg-[#f8fbfd] px-4 py-3 text-sm text-muted">
+              <p className="rounded-[0.9rem] bg-mist px-4 py-3 text-sm text-muted">
                 Select subjects first.
               </p>
             ) : (
@@ -1087,7 +1087,7 @@ export function CreateScheduleForm({
                   return (
                     <div
                       key={`${activeRound.key}-${row.subjectName}`}
-                      className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-[#f8fbfd] p-4 sm:p-5"
+                      className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-mist p-4 sm:p-5"
                     >
                       <div className="flex flex-wrap items-start justify-between gap-3">
                         <div>
@@ -1111,7 +1111,7 @@ export function CreateScheduleForm({
                                   e.target.value,
                                 )
                               }
-                              className="h-10 flex-1 bg-white"
+                              className="h-10 flex-1 bg-card"
                             />
                             {weekday ? (
                               <span className="w-9 shrink-0 text-center text-sm font-semibold text-ink">

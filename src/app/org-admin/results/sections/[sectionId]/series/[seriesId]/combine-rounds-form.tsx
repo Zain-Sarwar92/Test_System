@@ -60,7 +60,7 @@ export function CombineRoundsForm({
             key={round.id}
             className={`flex items-start gap-3 rounded-[0.9rem] border px-3 py-3 text-sm ${
               round.hasMarks
-                ? "border-[rgba(15,40,70,0.12)] bg-white"
+                ? "border-[rgba(15,40,70,0.12)] bg-card"
                 : "border-dashed border-[rgba(15,40,70,0.1)] bg-mist/40 text-muted"
             }`}
           >

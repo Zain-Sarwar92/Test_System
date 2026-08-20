@@ -138,7 +138,7 @@ export function OrgProfileForm({
           </label>
         </div>
         <div>
-          <span className="field-label">Or upload logo</span>
+          <span className="field-label b">Or upload logo</span>
           <LogoUploadField currentUrl={org.logoUrl} />
         </div>
 
@@ -153,7 +153,7 @@ export function OrgProfileForm({
           />
         </label>
 
-        <fieldset className="rounded-[1rem] border border-[rgba(15,40,70,0.1)] bg-[#f8fbfd] p-4">
+        <fieldset className="rounded-[1rem] border border-[rgba(15,40,70,0.1)] bg-mist p-4">
           <legend className="px-1 text-[0.95rem] font-semibold text-ink">
             Teacher curriculum access
           </legend>
@@ -169,7 +169,7 @@ export function OrgProfileForm({
                 defaultChecked={org.curriculumAccessMode === "ASSIGNED_ONLY"}
                 className="peer sr-only"
               />
-              <span className="block rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-white p-4 transition peer-checked:border-brand peer-checked:bg-brand/10">
+              <span className="block rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-card p-4 transition peer-checked:border-brand peer-checked:bg-brand/10">
                 <span className="block text-[0.95rem] font-semibold text-ink">
                   Assigned subjects only
                 </span>
@@ -186,7 +186,7 @@ export function OrgProfileForm({
                 defaultChecked={org.curriculumAccessMode === "ALL_CURRICULUM"}
                 className="peer sr-only"
               />
-              <span className="block rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-white p-4 transition peer-checked:border-brand peer-checked:bg-brand/10">
+              <span className="block rounded-[0.9rem] border border-[rgba(15,40,70,0.12)] bg-card p-4 transition peer-checked:border-brand peer-checked:bg-brand/10">
                 <span className="block text-[0.95rem] font-semibold text-ink">
                   All classes and subjects
                 </span>

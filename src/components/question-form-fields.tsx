@@ -110,7 +110,7 @@ export function QuestionFormFields({
 
   return (
     <>
-      <section className="space-y-3 rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-[#f7fafc] to-white p-4 md:p-5">
+      <section className="space-y-3 rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-mist to-card p-4 md:p-5">
         <p className="text-sm font-semibold text-ink-soft">Topic path</p>
         <div className="form-grid form-grid-2">
           <QuestionSelect label="Board" value={boardId}>

@@ -133,16 +133,16 @@ export function CreateTeacherForm({
                     ? "bg-brand text-white"
                     : done
                       ? "bg-brand/10 text-brand"
-                      : "bg-[#f3f7fb] text-muted"
+                      : "bg-mist text-muted"
                 }`}
               >
                 <span
                   className={`flex h-5 w-5 items-center justify-center rounded-full text-[11px] ${
                     active
-                      ? "bg-white/20"
+                      ? "bg-card/20"
                       : done
                         ? "bg-brand text-white"
-                        : "bg-white text-muted"
+                        : "bg-card text-muted"
                   }`}
                 >
                   {done ? <Check className="h-3 w-3" /> : item.id}

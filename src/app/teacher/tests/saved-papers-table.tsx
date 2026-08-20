@@ -282,7 +282,7 @@ export function SavedPapersTable({
       {error ? <p className="text-sm font-medium text-red-700">{error}</p> : null}
 
       {filtered.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-[rgba(15,40,70,0.14)] bg-white px-6 py-14 text-center shadow-[0_8px_24px_rgba(11,31,51,0.04)]">
+        <div className="rounded-2xl border border-dashed border-[rgba(15,40,70,0.14)] bg-card px-6 py-14 text-center shadow-[0_8px_24px_rgba(11,31,51,0.04)]">
           <p className="text-sm font-semibold text-ink">
             {papers.length === 0 ? "No saved tests yet" : "No matching tests"}
           </p>

@@ -51,7 +51,7 @@ export default async function SettingsPage() {
               <select
                 name="maintenanceMode"
                 defaultValue={settings.maintenance_mode}
-                className="mt-1 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 py-2 text-sm"
+                className="mt-1 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2 text-sm"
               >
                 <option value="false">Off</option>
                 <option value="true">On</option>

@@ -476,7 +476,7 @@ export function QuestionPickerModal({
           </div>
           <button
             type="button"
-            className="rounded-lg bg-white/15 px-3 py-1.5 text-sm font-semibold hover:bg-white/25"
+            className="rounded-lg bg-card/15 px-3 py-1.5 text-sm font-semibold hover:bg-card/25"
             onClick={onClose}
           >
             Close
@@ -496,8 +496,8 @@ export function QuestionPickerModal({
                 className={cn(
                   "rounded-lg px-3 py-1.5 text-xs font-semibold transition-all",
                   sectionChapterIds.includes(c.id)
-                    ? "bg-white text-[#1a3350] shadow-sm"
-                    : "bg-white/15 text-white/80 hover:bg-white/25",
+                    ? "bg-card text-[#1a3350] shadow-sm"
+                    : "bg-card/15 text-white/80 hover:bg-card/25",
                 )}
               >
                 {c.name.replace(/^(\d+\.\s*)/, "Ch ")}
@@ -512,7 +512,7 @@ export function QuestionPickerModal({
               Question type
               {isEnglishSubject ? (
                 <select
-                  className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
+                  className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 text-sm"
                   value={englishTypeFieldValue}
                   onChange={(e) => loadEnglishTypeField(e.target.value)}
                 >
@@ -532,7 +532,7 @@ export function QuestionPickerModal({
                 </select>
               ) : (
                 <select
-                  className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
+                  className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 text-sm"
                   value={activeType}
                   onChange={(e) => loadTypeFromPaper(e.target.value as QType)}
                 >
@@ -555,7 +555,7 @@ export function QuestionPickerModal({
             <label className="text-xs font-semibold text-muted">
               Medium
               <select
-                className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
+                className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 text-sm"
                 value={medium}
                 onChange={(e) => setMedium(e.target.value as QuestionMedium)}
               >
@@ -568,7 +568,7 @@ export function QuestionPickerModal({
               <label className="text-xs font-semibold text-muted">
                 Source
                 <select
-                  className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 text-sm"
+                  className="mt-1 h-10 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 text-sm"
                   value={sourceFilter}
                   onChange={(e) =>
                     setSourceFilter(e.target.value as QuestionSourceFilter)
@@ -662,7 +662,7 @@ export function QuestionPickerModal({
                       key={q.id}
                       className={cn(
                         "flex w-full gap-3 px-3 py-2.5 text-left transition-colors",
-                        selected ? "bg-[#ecfdf5]" : "bg-white hover:bg-[#f8fafc]",
+                        selected ? "bg-[#ecfdf5]" : "bg-card hover:bg-mist",
                       )}
                     >
                       <button
@@ -732,7 +732,7 @@ export function QuestionPickerModal({
               </div>
             </div>
           ) : (
-            <p className="rounded-xl border border-dashed border-[rgba(15,40,70,0.15)] bg-[#f8fafc] px-4 py-8 text-center text-sm text-muted">
+            <p className="rounded-xl border border-dashed border-[rgba(15,40,70,0.15)] bg-mist px-4 py-8 text-center text-sm text-muted">
               {pending
                 ? "Questions load ho rahe hain…"
                 : "Click Search or Random Select first — matching questions will appear here."}
@@ -740,7 +740,7 @@ export function QuestionPickerModal({
           )}
         </div>
 
-        <div className="sticky bottom-0 flex flex-wrap items-center justify-between gap-2 border-t border-[rgba(15,40,70,0.1)] bg-[#f8fafc] px-3 py-3 sm:px-4">
+        <div className="sticky bottom-0 flex flex-wrap items-center justify-between gap-2 border-t border-[rgba(15,40,70,0.1)] bg-mist px-3 py-3 sm:px-4">
           <p className="text-xs font-semibold text-ink">
             Selected {draftSelected.length}
             {typeof requiredCount === "number" && requiredCount > 0

@@ -193,7 +193,7 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
       </Card>
 
       <Card className="overflow-hidden p-0">
-        <div className="border-b border-[rgba(15,40,70,0.08)] bg-[#f8fbfd] px-5 py-4">
+        <div className="border-b border-[rgba(15,40,70,0.08)] bg-mist px-5 py-4">
           <CardTitle className="text-base">Schedule plan</CardTitle>
           <p className="mt-1 text-sm text-muted">
             Grouped by round. Teachers add syllabus per assignment.
@@ -203,7 +203,7 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
         <div className="nice-scroll overflow-x-auto">
           <table className="min-w-full border-collapse text-left text-sm">
             <thead>
-              <tr className="border-b border-[rgba(15,40,70,0.08)] bg-white">
+              <tr className="border-b border-[rgba(15,40,70,0.08)] bg-card">
                 <th className="whitespace-nowrap px-4 py-3 font-semibold text-ink">
                   Date
                 </th>
@@ -238,7 +238,7 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
 
                 return (
                   <Fragment key={`round-${round.id}`}>
-                    <tr className="bg-[#eef6f4]">
+                    <tr className="bg-brand/10">
                       <td
                         colSpan={colSpan}
                         className="px-4 py-3 font-semibold text-ink"
@@ -303,7 +303,7 @@ export default async function OrgScheduleDetailPage({ params }: PageProps) {
                                       return (
                                         <div
                                           key={assignment.id}
-                                          className="rounded-lg border border-[rgba(15,40,70,0.08)] bg-[#f8fbfd] px-2.5 py-2"
+                                          className="rounded-lg border border-[rgba(15,40,70,0.08)] bg-mist px-2.5 py-2"
                                         >
                                           {assignment.sectionName ? (
                                             <p className="text-[10px] font-semibold uppercase tracking-wide text-brand">

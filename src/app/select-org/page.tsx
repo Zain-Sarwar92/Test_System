@@ -61,7 +61,7 @@ export default async function SelectOrgPage() {
               <input type="hidden" name="organizationId" value={m.organizationId} />
               <button
                 type="submit"
-                className="group flex w-full items-center gap-4 rounded-2xl border border-[rgba(15,40,70,0.1)] bg-white px-5 py-4 text-left shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+                className="group flex w-full items-center gap-4 rounded-2xl border border-[rgba(15,40,70,0.1)] bg-card px-5 py-4 text-left shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
               >
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#e8f7f4] text-brand">
                   <Building2 className="h-5 w-5" />

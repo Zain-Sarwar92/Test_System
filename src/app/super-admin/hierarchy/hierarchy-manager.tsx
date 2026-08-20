@@ -688,7 +688,7 @@ function HierarchySaveToast({
 
   return (
     <div
-      className="fixed bottom-6 left-1/2 z-50 flex -translate-x-1/2 items-center gap-2.5 rounded-full border border-[rgba(15,40,70,0.1)] bg-white/95 px-4 py-2.5 text-sm font-medium shadow-[0_12px_40px_rgba(11,31,51,0.18)] backdrop-blur-sm"
+      className="fixed bottom-6 left-1/2 z-50 flex -translate-x-1/2 items-center gap-2.5 rounded-full border border-[rgba(15,40,70,0.1)] bg-card/95 px-4 py-2.5 text-sm font-medium shadow-[0_12px_40px_rgba(11,31,51,0.18)] backdrop-blur-sm"
       role="status"
       aria-live="polite"
     >
@@ -721,7 +721,7 @@ function LevelPanel({
   saved?: boolean;
 }) {
   return (
-    <div className="chart-card space-y-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-4">
+    <div className="chart-card space-y-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card p-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <h3 className="font-display text-lg font-semibold text-ink">{title}</h3>
         {pending ? (
@@ -773,7 +773,7 @@ function Row({
     (showOrder && Number(editOrder) !== (order ?? 0));
 
   return (
-    <div className="flex flex-wrap items-center gap-2 rounded-xl border border-[rgba(15,40,70,0.08)] bg-[#f8fafc] px-3 py-2">
+    <div className="flex flex-wrap items-center gap-2 rounded-xl border border-[rgba(15,40,70,0.08)] bg-mist px-3 py-2">
       <Input
         className="min-w-[140px] flex-1"
         value={editName}

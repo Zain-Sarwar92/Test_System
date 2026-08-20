@@ -114,7 +114,7 @@ export function FieldManager({ fields }: { fields: Field[] }) {
 
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
-      <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-white p-5">
+      <div className="rounded-[1.15rem] border border-[rgba(15,40,70,0.08)] bg-card p-5">
         <h3 className="font-display text-lg font-semibold text-ink">
           {editing ? "Edit custom field" : "Create custom field"}
         </h3>
@@ -198,14 +198,14 @@ export function FieldManager({ fields }: { fields: Field[] }) {
 
       <div className="space-y-3">
         {fields.length === 0 ? (
-          <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-6 text-sm text-muted">
+          <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card p-6 text-sm text-muted">
             No custom fields yet. Fixed student details are always available.
           </div>
         ) : null}
         {fields.map((field, index) => (
           <div
             key={field.id}
-            className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-white p-4"
+            className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-card p-4"
           >
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div>

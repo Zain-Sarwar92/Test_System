@@ -49,12 +49,12 @@ export function EditQuestionForm({ question }: { question: QuestionData }) {
   }
 
   return (
-    <form onSubmit={onSubmit} className="chart-card space-y-4 rounded-[1rem] bg-white p-4">
+    <form onSubmit={onSubmit} className="chart-card space-y-4 rounded-[1rem] bg-card p-4">
       <p className="text-sm text-muted">{question.path}</p>
       <label className="block">
         <span className="field-label">Type</span>
         <select
-          className="mt-1 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-white px-3 py-2 text-sm"
+          className="mt-1 w-full rounded-xl border border-[rgba(15,40,70,0.12)] bg-card px-3 py-2 text-sm"
           value={type}
           onChange={(e) => setType(e.target.value as typeof type)}
         >
