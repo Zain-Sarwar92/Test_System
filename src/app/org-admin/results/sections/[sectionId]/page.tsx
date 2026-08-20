@@ -1,12 +1,11 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { CreateExamForm } from "../../create-exam-form";
 import { ResultExamList } from "../../result-exam-list";
+import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 
 export default async function SectionExamsPage({
   params,
@@ -59,19 +58,14 @@ export default async function SectionExamsPage({
       <PageHeader
         kicker={`${section.class.board.name} · ${section.class.name}`}
         title={`${section.name} results`}
-        description="Create or open a result. Select completed results below to generate one combined result."
         actions={
-          <Link href={`/org-admin/results/classes/${section.class.id}`}>
-            <Button variant="secondary">Back to class</Button>
-          </Link>
+          <ResultsBackLink href={`/org-admin/results/classes/${section.class.id}`} />
         }
       />
 
       <Card>
         <CardTitle>New result</CardTitle>
-        <CardDescription className="mb-4">
-          Create Round 1, Round 2, Mid Term, Final, or any other result; then enter subject marks.
-        </CardDescription>
+  
         <CreateExamForm sectionId={section.id} />
       </Card>
 

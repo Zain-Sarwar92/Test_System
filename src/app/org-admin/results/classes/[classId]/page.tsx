@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Users } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 
 function plural(count: number, singular: string, pluralForm = `${singular}s`) {
   return `${count} ${count === 1 ? singular : pluralForm}`;
@@ -42,11 +42,8 @@ export default async function ResultClassSectionsPage({
       <PageHeader
         kicker={klass.board.name}
         title={`${klass.name} results`}
-        description="Choose a section to print subject lists, enter marks, and compile the result."
         actions={
-          <Link href="/org-admin/results">
-            <Button variant="secondary">All classes</Button>
-          </Link>
+          <ResultsBackLink href="/org-admin/results" />
         }
       />
 

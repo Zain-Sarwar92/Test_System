@@ -22,6 +22,9 @@ export default async function SectionStudentListPrintPage({
     totalMarks?: string;
     title?: string;
     date?: string;
+    assessmentId?: string;
+    withMarks?: string;
+    back?: string;
   }>;
 }) {
   const session = await requireRole(["ORG_ADMIN"]);
@@ -89,20 +92,111 @@ export default async function SectionStudentListPrintPage({
 
   students.sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber));
 
+  const withMarks = filters.withMarks === "1" || filters.withMarks === "true";
+  const assessmentId = filters.assessmentId?.trim();
+  const markByStudent = new Map<
+    string,
+    { obtainedMarks: string | null; isAbsent: boolean }
+  >();
+  let resolvedTotalMarks = filters.totalMarks?.trim() || "";
+
+  let manualPrintRows: Array<{
+    id: string;
+    rollNumber: string;
+    name: string;
+    fatherName: string;
+    obtainedMarks: string | null;
+    isAbsent: boolean;
+  }> = [];
+
+  if (withMarks && assessmentId) {
+    const assessment = await prisma.subjectAssessment.findFirst({
+      where: {
+        id: assessmentId,
+        organizationId,
+        sectionId: section.id,
+      },
+      select: {
+        totalMarks: true,
+        marks: {
+          select: {
+            studentId: true,
+            obtainedMarks: true,
+            isAbsent: true,
+          },
+        },
+        manualMarks: {
+          select: {
+            id: true,
+            rollNumber: true,
+            name: true,
+            fatherName: true,
+            obtainedMarks: true,
+            isAbsent: true,
+          },
+          orderBy: [{ rollNumber: "asc" }, { name: "asc" }],
+        },
+      },
+    });
+    if (assessment) {
+      for (const mark of assessment.marks) {
+        markByStudent.set(mark.studentId, {
+          obtainedMarks:
+            mark.obtainedMarks != null ? String(Number(mark.obtainedMarks)) : null,
+          isAbsent: mark.isAbsent,
+        });
+      }
+      manualPrintRows = assessment.manualMarks.map((mark) => ({
+        id: mark.id,
+        rollNumber: mark.rollNumber,
+        name: mark.name,
+        fatherName: mark.fatherName,
+        obtainedMarks:
+          mark.obtainedMarks != null ? String(Number(mark.obtainedMarks)) : null,
+        isAbsent: mark.isAbsent,
+      }));
+      if (!resolvedTotalMarks) {
+        resolvedTotalMarks = String(Number(assessment.totalMarks));
+      }
+    }
+  }
+
+  const printStudents = [
+    ...students.map((student) => {
+      const mark = markByStudent.get(student.id);
+      return {
+        id: student.id,
+        rollNumber: student.rollNumber,
+        name: student.name,
+        fatherName: student.fatherName,
+        obtainedMarks: mark?.obtainedMarks ?? null,
+        isAbsent: mark?.isAbsent ?? false,
+      };
+    }),
+    ...manualPrintRows,
+  ].sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber));
+
+  const backFromQuery = filters.back?.trim();
+  const backHref =
+    backFromQuery && backFromQuery.startsWith("/org-admin/")
+      ? backFromQuery
+      : `/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`;
+
   return (
     <StudentListPrintView
       organization={section.organization}
       boardName={section.class.board.name}
       className={section.class.name}
       sectionName={section.name}
-      students={students}
-      backHref={`/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`}
+      students={printStudents}
+      backHref={backHref}
       initialTitle={filters.title?.trim()}
       initialSession={filters.session?.trim()}
       initialSubject={filters.subject?.trim()}
       initialExam={filters.exam?.trim()}
       initialDate={filters.date?.trim()}
-      initialTotalMarks={filters.totalMarks?.trim()}
+      initialTotalMarks={resolvedTotalMarks || undefined}
+      withMarks={withMarks && (markByStudent.size > 0 || manualPrintRows.length > 0)}
     />
   );
 }

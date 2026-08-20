@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Printer } from "lucide-react";
+import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -11,6 +11,8 @@ export type StudentListRow = {
   rollNumber: string;
   name: string;
   fatherName: string;
+  obtainedMarks?: string | null;
+  isAbsent?: boolean;
 };
 
 export type StudentListOrg = {
@@ -58,6 +60,7 @@ export function StudentListPrintView({
   initialExam,
   initialDate,
   initialTotalMarks,
+  withMarks = false,
 }: {
   organization: StudentListOrg;
   boardName: string;
@@ -72,6 +75,7 @@ export function StudentListPrintView({
   initialExam?: string;
   initialDate?: string;
   initialTotalMarks?: string;
+  withMarks?: boolean;
 }) {
   const [title, setTitle] = useState(initialTitle || "Student List");
   const [session, setSession] = useState(initialSession || academicSession());
@@ -96,11 +100,7 @@ export function StudentListPrintView({
       {embedded ? null : (
         <>
       <div className="print-toolbar no-print">
-        <Link href={backHref}>
-          <Button variant="outline" size="sm">
-            Back to section
-          </Button>
-        </Link>
+        <ResultsBackLink href={backHref} />
         <Button size="sm" onClick={() => window.print()}>
           <Printer className="h-3.5 w-3.5" />
           Print / Save PDF
@@ -150,7 +150,7 @@ export function StudentListPrintView({
             <Input
               value={totalMarks}
               onChange={(event) => setTotalMarks(event.target.value)}
-              placeholder="e.g. 100"
+              placeholder="e.g. 30"
             />
           </label>
         </div>
@@ -248,7 +248,13 @@ export function StudentListPrintView({
                   <td className="col-roll">{student.rollNumber}</td>
                   <td className="col-name">{student.name}</td>
                   <td className="col-father">{student.fatherName}</td>
-                  <td className="col-obt" />
+                  <td className="col-obt">
+                    {withMarks
+                      ? student.isAbsent
+                        ? "A"
+                        : (student.obtainedMarks?.trim() || "")
+                      : ""}
+                  </td>
                   <td className="col-total">{totalMarks.trim()}</td>
                 </tr>
               ))}

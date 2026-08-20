@@ -154,8 +154,6 @@ export default async function CombinedResultsPage({
       className={section.class.name}
       sectionName={section.name}
       session={sessions}
-      passPercent={passPercent}
-      examDate={examDate}
       roundLabels={exams.map((exam) => exam.name)}
       columns={columns}
       rows={rows}

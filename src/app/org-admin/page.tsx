@@ -154,6 +154,8 @@ export default async function OrgAdminPage() {
           label: "Students",
           value: studentCount,
           hint: `${activeStudents} active · ${inactiveStudents} inactive`,
+          toneClass: "org-dash-card-tone-students",
+          iconClass: "org-dash-icon-tone-students",
           icon: GraduationCap,
           href: "/org-admin/students",
         }
@@ -162,6 +164,8 @@ export default async function OrgAdminPage() {
       label: "Teachers",
       value: teacherCount,
       hint: `${activeTeachers} active · ${inactiveTeachers} inactive`,
+      toneClass: "org-dash-card-tone-teachers",
+      iconClass: "org-dash-icon-tone-teachers",
       icon: Users,
       href: "/org-admin/teachers",
     },
@@ -169,6 +173,8 @@ export default async function OrgAdminPage() {
       label: "Tests",
       value: testCount,
       hint: `${finalTests} finalized · ${draftTests} drafts`,
+      toneClass: "org-dash-card-tone-tests",
+      iconClass: "org-dash-icon-tone-tests",
       icon: FileText,
       href: "/org-admin/tests",
     },
@@ -176,6 +182,8 @@ export default async function OrgAdminPage() {
       label: "Sections",
       value: sectionCount,
       hint: "Class sections in this school",
+      toneClass: "org-dash-card-tone-sections",
+      iconClass: "org-dash-icon-tone-sections",
       icon: Layers,
       href: "/org-admin/sections",
     },
@@ -184,6 +192,8 @@ export default async function OrgAdminPage() {
           label: "Schedules",
           value: activeSchedules,
           hint: "Active test schedules",
+          toneClass: "org-dash-card-tone-schedules",
+          iconClass: "org-dash-icon-tone-schedules",
           icon: CalendarClock,
           href: "/org-admin/schedules",
         }
@@ -196,6 +206,8 @@ export default async function OrgAdminPage() {
             unpaidCharges > 0
               ? `${unpaidCharges} unpaid or partial dues`
               : "All recorded payments",
+          toneClass: "org-dash-card-tone-fees",
+          iconClass: "org-dash-icon-tone-fees",
           icon: WalletCards,
           href: "/org-admin/fees",
         }
@@ -204,6 +216,8 @@ export default async function OrgAdminPage() {
     label: string;
     value: string | number;
     hint: string;
+    toneClass: string;
+    iconClass: string;
     icon: typeof Users;
     href: string;
   }>;
@@ -274,10 +288,10 @@ export default async function OrgAdminPage() {
         {stats.map((stat) => {
           const Icon = stat.icon;
           return (
-            <Link key={stat.label} href={stat.href} className="org-dash-card">
+            <Link key={stat.label} href={stat.href} className={`org-dash-card ${stat.toneClass}`}>
               <div className="org-dash-card-head">
                 <p className="org-dash-card-label">{stat.label}</p>
-                <span className="org-dash-icon">
+                <span className={`org-dash-icon ${stat.iconClass}`}>
                   <Icon className="h-4 w-4" />
                 </span>
               </div>

@@ -1,12 +1,11 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { resolveSubjectMeta } from "@/lib/subject-stream";
 import { SelectExamSubjectsForm } from "./select-exam-subjects-form";
+import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 
 export default async function SelectExamSubjectsPage({
   params,
@@ -66,9 +65,7 @@ export default async function SelectExamSubjectsPage({
         title={`Choose subjects · ${exam.name}`}
         description={`Session ${exam.session}. Select subjects for this result before entering marks.`}
         actions={
-          <Link href={`/org-admin/results/sections/${section.id}/exams/${exam.id}`}>
-            <Button variant="secondary">Back to exam</Button>
-          </Link>
+          <ResultsBackLink href={`/org-admin/results/sections/${section.id}`} />
         }
       />
 
@@ -82,9 +79,6 @@ export default async function SelectExamSubjectsPage({
       ) : (
         <Card>
           <CardTitle>Result subjects</CardTitle>
-          <CardDescription className="mb-4">
-            Marks entry and gazette will only use the subjects you select here.
-          </CardDescription>
           <SelectExamSubjectsForm
             sectionId={section.id}
             examId={exam.id}

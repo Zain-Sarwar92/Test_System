@@ -11,6 +11,7 @@ import {
   withChosenElectives,
 } from "@/lib/subject-stream";
 import { getOrCreateSubjectAssessment } from "@/app/org-admin/results/actions";
+import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 import { MarksEntry } from "./marks-entry";
 
 export default async function SubjectMarksPage({
@@ -59,6 +60,7 @@ export default async function SubjectMarksPage({
       include: {
         sheets: { orderBy: { createdAt: "desc" } },
         marks: true,
+        manualMarks: { orderBy: [{ rollNumber: "asc" }, { name: "asc" }] },
       },
     }),
     prisma.student.findMany({
@@ -82,62 +84,66 @@ export default async function SubjectMarksPage({
   const markByStudent = new Map(
     assessment.marks.map((mark) => [mark.studentId, mark]),
   );
-  const rows = [...enrolled]
-    .sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber))
-    .map((student) => {
-      const mark = markByStudent.get(student.id);
-      return {
-        id: student.id,
-        rollNumber: student.rollNumber,
-        name: student.name,
-        fatherName: student.fatherName,
-        obtained: mark?.obtainedMarks != null ? String(Number(mark.obtainedMarks)) : "",
-        absent: mark?.isAbsent ?? false,
-      };
-    });
+  const rows = [
+    ...[...enrolled]
+      .sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber))
+      .map((student) => {
+        const mark = markByStudent.get(student.id);
+        return {
+          id: student.id,
+          isManual: false as const,
+          rollNumber: student.rollNumber,
+          name: student.name,
+          fatherName: student.fatherName,
+          obtained: mark?.obtainedMarks != null ? String(Number(mark.obtainedMarks)) : "",
+          absent: mark?.isAbsent ?? false,
+        };
+      }),
+    ...assessment.manualMarks.map((mark) => ({
+      id: mark.id,
+      isManual: true as const,
+      rollNumber: mark.rollNumber,
+      name: mark.name,
+      fatherName: mark.fatherName,
+      obtained: mark.obtainedMarks != null ? String(Number(mark.obtainedMarks)) : "",
+      absent: mark.isAbsent,
+    })),
+  ];
+
+  const subjectsHref = `/org-admin/results/sections/${section.id}/exams/${exam.id}`;
+  const printBack = encodeURIComponent(subjectsHref);
+  const printBase = `/org-admin/students/print/${section.id}?subject=${encodeURIComponent(subject.name)}&exam=${encodeURIComponent(exam.name)}&session=${encodeURIComponent(exam.session)}&totalMarks=${encodeURIComponent(String(Number(assessment.totalMarks)))}&title=${encodeURIComponent("Award List")}&subjectId=${subject.id}&back=${printBack}`;
 
   return (
     <PageStack wide>
       <PageHeader
         kicker={`${section.class.name} · ${section.name} · ${exam.name}`}
         title={subject.name}
-        description={
-          subjectMeta.electiveGroup
-            ? `Only students who chose ${subject.name} as elective appear here.`
-            : subjectMeta.track === "SCIENCE"
-              ? "Only Science-group students appear here."
-              : subjectMeta.track === "ARTS"
-                ? "Only Arts-group students appear here."
-                : "Upload the filled award-list photo, or type obtained marks for each enrolled student."
-        }
         actions={
-          <div className="flex flex-wrap gap-2">
-            <Link href={`/org-admin/results/sections/${section.id}/exams/${exam.id}`}>
-              <Button variant="secondary">All subjects</Button>
-            </Link>
-            <Link
-              href={`/org-admin/students/print/${section.id}?subject=${encodeURIComponent(subject.name)}&exam=${encodeURIComponent(exam.name)}&session=${encodeURIComponent(exam.session)}&totalMarks=${encodeURIComponent(String(Number(assessment.totalMarks)))}&title=${encodeURIComponent("Award List")}&subjectId=${subject.id}`}
-            >
-              <Button variant="outline">Print list</Button>
-            </Link>
+          <div className="flex flex-col items-end gap-2">
+            <ResultsBackLink href={subjectsHref} />
+            {rows.some((row) => row.absent || row.obtained.trim()) ? (
+              <Link href={`${printBase}&assessmentId=${assessment.id}&withMarks=1`}>
+                <Button variant="outline">Print list</Button>
+              </Link>
+            ) : (
+              <Link href={printBase}>
+                <Button variant="outline">Print blank list</Button>
+              </Link>
+            )}
           </div>
         }
       />
-      {rows.length === 0 ? (
-        <div className="rounded-[1.1rem] border border-[rgba(15,40,70,0.08)] bg-white p-6 text-sm text-muted">
-          No enrolled students for this subject yet. Assign Science/Arts and Biology/Computer when adding students.
-        </div>
-      ) : (
-        <MarksEntry
-          assessmentId={assessment.id}
-          totalMarks={String(Number(assessment.totalMarks))}
-          students={rows}
-          sheets={assessment.sheets.map((sheet) => ({
-            id: sheet.id,
-            originalName: sheet.originalName,
-          }))}
-        />
-      )}
+      <MarksEntry
+        assessmentId={assessment.id}
+        totalMarks={String(Number(assessment.totalMarks))}
+        students={rows}
+        sheets={assessment.sheets.map((sheet) => ({
+          id: sheet.id,
+          originalName: sheet.originalName,
+        }))}
+        returnHref={subjectsHref}
+      />
     </PageStack>
   );
 }

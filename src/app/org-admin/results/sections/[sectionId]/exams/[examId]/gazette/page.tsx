@@ -1,7 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { compileSectionResult, sortByRoll } from "@/lib/results";
+import { compileSectionResult, appendManualGazetteRows, sortByRoll } from "@/lib/results";
 import {
   isStudentEnrolledInSubject,
   resolveSubjectMeta,
@@ -75,6 +75,7 @@ export default async function SectionGazettePage({
       },
       include: {
         marks: true,
+        manualMarks: true,
         subject: {
           select: {
             id: true,
@@ -99,10 +100,14 @@ export default async function SectionGazettePage({
     .map((student) => withChosenElectives(student))
     .sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber));
 
-  const markedAssessments = assessments.filter((assessment) =>
-    assessment.marks.some(
-      (mark) => mark.isAbsent || mark.obtainedMarks != null,
-    ),
+  const markedAssessments = assessments.filter(
+    (assessment) =>
+      assessment.marks.some(
+        (mark) => mark.isAbsent || mark.obtainedMarks != null,
+      ) ||
+      assessment.manualMarks.some(
+        (mark) => mark.isAbsent || mark.obtainedMarks != null,
+      ),
   );
 
   const subjects = markedAssessments
@@ -134,6 +139,22 @@ export default async function SectionGazettePage({
     subjects,
     marks,
   });
+  const rowsWithManual = appendManualGazetteRows({
+    columns,
+    rows,
+    subjects,
+    manualMarks: markedAssessments.flatMap((assessment) =>
+      assessment.manualMarks.map((mark) => ({
+        id: mark.id,
+        subjectId: assessment.subjectId,
+        rollNumber: mark.rollNumber,
+        name: mark.name,
+        fatherName: mark.fatherName,
+        obtainedMarks: mark.obtainedMarks == null ? null : Number(mark.obtainedMarks),
+        isAbsent: mark.isAbsent,
+      })),
+    ),
+  });
 
   return (
     <GazetteView
@@ -143,18 +164,8 @@ export default async function SectionGazettePage({
       sectionName={section.name}
       examName={exam.name}
       session={exam.session}
-      passPercent={exam.passPercent}
-      examDate={
-        exam.examDate
-          ? exam.examDate.toLocaleDateString("en-GB", {
-              day: "2-digit",
-              month: "short",
-              year: "numeric",
-            })
-          : null
-      }
       columns={columns}
-      rows={rows}
+      rows={rowsWithManual}
       backHref={`/org-admin/results/sections/${section.id}/exams/${exam.id}`}
       subtitle={`${stream === "SCIENCE" ? "Science" : "Arts"} Group`}
     />

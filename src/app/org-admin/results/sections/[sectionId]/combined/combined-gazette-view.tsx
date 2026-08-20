@@ -1,9 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { MultiRoundColumn, MultiRoundStudentRow } from "@/lib/results";
+import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 
 type Org = {
   name: string;
@@ -18,8 +18,6 @@ export function CombinedGazetteView({
   className,
   sectionName,
   session,
-  passPercent,
-  examDate,
   roundLabels,
   columns,
   rows,
@@ -30,8 +28,6 @@ export function CombinedGazetteView({
   className: string;
   sectionName: string;
   session: string;
-  passPercent: number;
-  examDate: string | null;
   roundLabels: string[];
   columns: MultiRoundColumn[];
   rows: MultiRoundStudentRow[];
@@ -45,9 +41,7 @@ export function CombinedGazetteView({
   return (
     <div className="print-page student-list-print">
       <div className="print-toolbar no-print">
-        <Link href={backHref}>
-          <Button variant="outline" size="sm">Back to results</Button>
-        </Link>
+        <ResultsBackLink href={backHref} />
         <Button size="sm" onClick={() => window.print()}>
           <Printer className="h-3.5 w-3.5" />
           Print / Save PDF
@@ -115,14 +109,6 @@ export function CombinedGazetteView({
             <strong>{session}</strong>
           </div>
           <div>
-            <span>Date</span>
-            <strong>{examDate ?? "____________"}</strong>
-          </div>
-          <div>
-            <span>Pass %</span>
-            <strong>{passPercent}%</strong>
-          </div>
-          <div>
             <span>Result</span>
             <strong>
               {passed}/{complete} passed
@@ -138,7 +124,6 @@ export function CombinedGazetteView({
               <tr>
                 <th rowSpan={2}>Roll</th>
                 <th rowSpan={2}>Student</th>
-                <th rowSpan={2}>Group</th>
                 <th rowSpan={2}>Father</th>
                 {columns.map((column) => (
                   <th key={column.key} colSpan={column.rounds.length + 1}>
@@ -150,7 +135,6 @@ export function CombinedGazetteView({
                 <th rowSpan={2}>%</th>
                 <th rowSpan={2}>Pos</th>
                 <th rowSpan={2}>Grade</th>
-                <th rowSpan={2}>Status</th>
               </tr>
               <tr>
                 {columns.flatMap((column) => [
@@ -169,7 +153,6 @@ export function CombinedGazetteView({
                 <tr key={row.id}>
                   <td>{row.rollNumber}</td>
                   <td className="name">{row.name}</td>
-                  <td>{row.stream === "SCIENCE" ? "Sci" : "Arts"}</td>
                   <td className="name">{row.fatherName}</td>
                   {row.breakdown.flatMap((cell) => [
                     ...cell.roundValues.map((value) => (
@@ -187,7 +170,6 @@ export function CombinedGazetteView({
                   <td>{row.percent == null ? "—" : row.percent}</td>
                   <td>{row.position ?? "—"}</td>
                   <td>{row.grade}</td>
-                  <td>{row.complete ? (row.passed ? "Pass" : "Fail") : "Pending"}</td>
                 </tr>
               ))}
             </tbody>

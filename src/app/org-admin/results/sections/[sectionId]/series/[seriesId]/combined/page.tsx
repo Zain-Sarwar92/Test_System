@@ -154,12 +154,9 @@ export default async function CombinedSeriesGazettePage({
       sectionName={section.name}
       examName={`${series.name} (Combined)`}
       session={series.session}
-      passPercent={series.passPercent}
-      examDate={examDate}
       columns={columns}
       rows={rows}
       backHref={`/org-admin/results/sections/${section.id}/series/${series.id}`}
-      backLabel="Back to series"
       subtitle={`Combined: ${roundLabel}`}
     />
   );

@@ -105,7 +105,7 @@ export async function createExamTerm(formData: FormData) {
   }
 }
 
-const DEFAULT_ASSESSMENT_TOTAL = 100;
+const DEFAULT_ASSESSMENT_TOTAL = 30;
 
 export async function saveExamSectionSubjects(formData: FormData) {
   try {
@@ -216,7 +216,7 @@ export async function getOrCreateSubjectAssessment(input: {
   const examTermId = z.string().min(1).parse(input.examTermId);
   const sectionId = z.string().min(1).parse(input.sectionId);
   const subjectId = z.string().min(1).parse(input.subjectId);
-  const totalMarks = z.coerce.number().positive().max(1000).parse(input.totalMarks || 100);
+  const totalMarks = z.coerce.number().positive().max(1000).parse(input.totalMarks || 30);
 
   const [exam, section, subject] = await Promise.all([
     prisma.examTerm.findFirst({ where: { id: examTermId, organizationId }, select: { id: true } }),
@@ -272,16 +272,36 @@ export async function saveStudentMarks(formData: FormData) {
   try {
     const organizationId = await getOrganizationId();
     const assessmentId = z.string().min(1).parse(formData.get("assessmentId"));
+    const totalMarksRaw = String(formData.get("totalMarks") ?? "").trim();
+    const totalMarksInput =
+      totalMarksRaw.length > 0
+        ? z.coerce.number().positive().max(1000).parse(totalMarksRaw)
+        : null;
     const raw = z.string().parse(formData.get("marks"));
-    const rows = z
-      .array(
-        z.object({
-          studentId: z.string().min(1),
-          obtained: z.string(),
-          absent: z.boolean(),
-        }),
-      )
-      .parse(JSON.parse(raw));
+    const parsedPayload = JSON.parse(raw) as unknown;
+    const marksPayload = z
+      .object({
+        studentMarks: z.array(
+          z.object({
+            studentId: z.string().min(1),
+            obtained: z.string(),
+            absent: z.boolean(),
+          }),
+        ),
+        manualMarks: z.array(
+          z.object({
+            id: z.string().min(1).optional(),
+            rollNumber: z.string().trim().min(1).max(50),
+            name: z.string().trim().min(1).max(120),
+            fatherName: z.string().trim().max(120).optional(),
+            obtained: z.string(),
+            absent: z.boolean(),
+          }),
+        ),
+      })
+      .parse(parsedPayload);
+    const rows = marksPayload.studentMarks;
+    const manualRows = marksPayload.manualMarks;
 
     const assessment = await prisma.subjectAssessment.findFirst({
       where: { id: assessmentId, organizationId },
@@ -297,12 +317,37 @@ export async function saveStudentMarks(formData: FormData) {
 
     const students = await prisma.student.findMany({
       where: { organizationId, sectionId: assessment.sectionId, isActive: true },
-      select: { id: true },
+      select: { id: true, rollNumber: true },
     });
     const allowed = new Set(students.map((student) => student.id));
-    const max = Number(assessment.totalMarks);
+    const enrolledRolls = new Set(
+      students.map((student) => student.rollNumber.trim().toLowerCase()),
+    );
+    const max =
+      totalMarksInput !== null ? totalMarksInput : Number(assessment.totalMarks);
+
+    const manualRolls = new Set<string>();
+    for (const row of manualRows) {
+      const rollKey = row.rollNumber.trim().toLowerCase();
+      if (manualRolls.has(rollKey)) {
+        throw new Error(`Duplicate roll number ${row.rollNumber} in extra rows`);
+      }
+      manualRolls.add(rollKey);
+      if (enrolledRolls.has(rollKey)) {
+        throw new Error(
+          `Roll ${row.rollNumber} is already on the section list — use that row instead of adding an extra one.`,
+        );
+      }
+    }
 
     await prisma.$transaction(async (tx) => {
+      if (totalMarksInput !== null && totalMarksInput !== Number(assessment.totalMarks)) {
+        await tx.subjectAssessment.update({
+          where: { id: assessment.id },
+          data: { totalMarks: new Prisma.Decimal(totalMarksInput) },
+        });
+      }
+
       for (const row of rows) {
         if (!allowed.has(row.studentId)) continue;
         const obtained = row.absent ? null : row.obtained.trim();
@@ -330,6 +375,55 @@ export async function saveStudentMarks(formData: FormData) {
           },
         });
       }
+
+      const keepManualIds = new Set<string>();
+      for (const row of manualRows) {
+        const obtained = row.absent ? null : row.obtained.trim();
+        if (!row.absent && obtained) {
+          const value = Number(obtained);
+          if (!Number.isFinite(value) || value < 0 || value > max) {
+            throw new Error(`Marks must be between 0 and ${max}`);
+          }
+        }
+        const obtainedMarks =
+          row.absent || !obtained ? null : new Prisma.Decimal(obtained);
+        const data = {
+          rollNumber: row.rollNumber.trim(),
+          name: row.name.trim(),
+          fatherName: (row.fatherName ?? "").trim(),
+          obtainedMarks,
+          isAbsent: row.absent,
+        };
+        if (row.id) {
+          const existing = await tx.assessmentManualMark.findFirst({
+            where: { id: row.id, assessmentId: assessment.id },
+            select: { id: true },
+          });
+          if (!existing) {
+            throw new Error(`Extra row not found for roll ${row.rollNumber}`);
+          }
+          await tx.assessmentManualMark.update({
+            where: { id: row.id },
+            data,
+          });
+          keepManualIds.add(row.id);
+        } else {
+          const created = await tx.assessmentManualMark.create({
+            data: { assessmentId: assessment.id, ...data },
+          });
+          keepManualIds.add(created.id);
+        }
+      }
+
+      await tx.assessmentManualMark.deleteMany({
+        where:
+          keepManualIds.size === 0
+            ? { assessmentId: assessment.id }
+            : {
+                assessmentId: assessment.id,
+                id: { notIn: [...keepManualIds] },
+              },
+      });
     });
     revalidateResults(assessment.sectionId, assessment.examTermId);
     return { ok: true as const };
@@ -357,7 +451,12 @@ export async function uploadAssessmentSheet(formData: FormData) {
 
     const assessment = await prisma.subjectAssessment.findFirst({
       where: { id: assessmentId, organizationId },
-      select: { id: true, sectionId: true, examTermId: true },
+      select: {
+        id: true,
+        sectionId: true,
+        examTermId: true,
+        sheets: { select: { id: true, imagePath: true } },
+      },
     });
     if (!assessment) throw new Error("Assessment not found");
 
@@ -368,6 +467,16 @@ export async function uploadAssessmentSheet(formData: FormData) {
       mimeType: file.type,
       bytes: Buffer.from(await file.arrayBuffer()),
     });
+
+    // One active photo per assessment — replace any previous uploads.
+    for (const old of assessment.sheets) {
+      await deleteAssessmentSheetFile(old.imagePath).catch(() => undefined);
+    }
+    if (assessment.sheets.length > 0) {
+      await prisma.assessmentSheet.deleteMany({
+        where: { assessmentId: assessment.id },
+      });
+    }
 
     const sheet = await prisma.assessmentSheet.create({
       data: {
@@ -388,9 +497,28 @@ export async function uploadAssessmentSheet(formData: FormData) {
  * Reads handwritten marks off an uploaded sheet photo. Nothing is saved here —
  * the values go back to the entry table so the admin can verify them first.
  */
+function friendlySheetReadError(error: string) {
+  const lower = error.toLowerCase();
+  if (lower.includes("gemini_api_key")) {
+    return "Photo reading is not configured. Enter marks manually for now.";
+  }
+  if (lower.includes("sheet not found") || lower.includes("missing on the server")) {
+    return "Photo file missing. Upload the sheet again.";
+  }
+  if (lower.includes("no marks found") || lower.includes("could not read marks")) {
+    return error;
+  }
+  if (lower.includes("gemini") || lower.includes("request failed")) {
+    return "Could not read the photo. Try a clearer image or enter marks manually.";
+  }
+  if (error.length > 140) {
+    return "Could not read marks from this photo. Try again or enter them manually.";
+  }
+  return error;
+}
+
 export async function readMarksFromSheet(input: {
   sheetId: string;
-  rollNumbers: string[];
 }): Promise<
   | {
       ok: true;
@@ -405,7 +533,6 @@ export async function readMarksFromSheet(input: {
     const parsed = z
       .object({
         sheetId: z.string().min(1),
-        rollNumbers: z.array(z.string().trim().min(1)).max(500),
       })
       .parse(input);
 
@@ -433,7 +560,6 @@ export async function readMarksFromSheet(input: {
       base64Image: file.toString("base64"),
       mimeType,
       totalMarks,
-      rollNumbers: parsed.rollNumbers,
     });
     return {
       ok: true as const,
@@ -444,7 +570,7 @@ export async function readMarksFromSheet(input: {
   } catch (error) {
     return {
       ok: false as const,
-      error: actionError(error, "Failed to read marks from the sheet"),
+      error: friendlySheetReadError(actionError(error, "Failed to read marks from the sheet")),
     };
   }
 }
@@ -488,6 +614,7 @@ export async function deleteSectionExamResult(formData: FormData) {
     where: { organizationId, sectionId, examTermId },
   });
   revalidateResults(sectionId, examTermId, exam.seriesId ?? undefined);
+  redirect(`/org-admin/results/sections/${sectionId}`);
 }
 
 /** Deletes one subject's marks for this section exam. */

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { deleteExamTerm, deleteSectionExamResult } from "./actions";
+import { deleteSectionExamResult } from "./actions";
 import { ConfirmForm } from "./confirm-form";
 
 type ExamItem = {
@@ -85,7 +85,7 @@ export function ResultExamList({
                     {exam.name}
                   </p>
                   <p className="mt-1 text-sm text-muted">
-                    Session {exam.session} · Pass {exam.passPercent}% ·{" "}
+                    Session {exam.session} ·{" "}
                     {exam.subjectCount} subject
                     {exam.subjectCount === 1 ? "" : "s"} with marks
                   </p>
@@ -101,26 +101,14 @@ export function ResultExamList({
                 <Link href={`/org-admin/results/sections/${sectionId}/exams/${exam.id}`}>
                   <Button variant="secondary" size="sm">Open</Button>
                 </Link>
-                {hasResult ? (
-                  <ConfirmForm
-                    action={deleteSectionExamResult}
-                    message={`Clear all marks for ${sectionName} in "${exam.name}"? The exam will stay; only this section’s result is removed.`}
-                  >
-                    <input type="hidden" name="sectionId" value={sectionId} />
-                    <input type="hidden" name="examTermId" value={exam.id} />
-                    <Button type="submit" variant="outline" size="sm">
-                      Clear section result
-                    </Button>
-                  </ConfirmForm>
-                ) : null}
                 <ConfirmForm
-                  action={deleteExamTerm}
-                  message={`Delete exam "${exam.name}" for the whole school? All sections’ marks for this exam will be removed.`}
+                  action={deleteSectionExamResult}
+                  message={`Delete "${exam.name}" result for ${sectionName} only? Marks for this section will be cleared. Other sections keep their results.`}
                 >
-                  <input type="hidden" name="examTermId" value={exam.id} />
                   <input type="hidden" name="sectionId" value={sectionId} />
+                  <input type="hidden" name="examTermId" value={exam.id} />
                   <Button type="submit" variant="danger" size="sm">
-                    Delete exam
+                    Delete
                   </Button>
                 </ConfirmForm>
               </div>

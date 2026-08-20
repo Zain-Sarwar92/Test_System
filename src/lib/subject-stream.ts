@@ -200,9 +200,19 @@ export function electiveOptionsForClass(
 
 export function shortElectiveLabel(name: string) {
   const n = name.toLowerCase();
-  if (n.includes("biology")) return "Bio";
-  if (n.includes("computer")) return "Comp";
-  return name.slice(0, 8);
+  if (n.includes("biology") || n.includes("حیاتیات")) return "Bio";
+  if (n.includes("computer") || n.includes("کمپیوٹر")) return "Comp";
+  if (
+    n.includes("اسلامیات اختیاری") ||
+    (n.includes("islamiyat") && n.includes("ikhtiyari"))
+  ) {
+    return "اسلامیات";
+  }
+  if (n.includes("education") || n.includes("ایجوکیشن")) return "Edu";
+  if (n.includes("civics") || n.includes("سوکس")) return "Civ";
+  if (n.includes("economics") || n.includes("معاشیات")) return "Eco";
+  if (n.includes("punjabi") || n.includes("پنجابی")) return "Pun";
+  return name.slice(0, 10);
 }
 
 /** Explicit DB tags for Punjab Class 9/10 default buckets. */

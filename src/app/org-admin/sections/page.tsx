@@ -7,7 +7,17 @@ import { requireRole } from "@/lib/rbac";
 import { orgHasModule } from "@/lib/org-modules";
 import { DeleteSectionButton } from "./section-actions";
 
-export default async function SectionsPage() {
+type SectionsPageProps = {
+  searchParams?:
+    | {
+        classId?: string | string[];
+      }
+    | Promise<{
+        classId?: string | string[];
+      }>;
+};
+
+export default async function SectionsPage({ searchParams }: SectionsPageProps) {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
 
@@ -64,6 +74,20 @@ export default async function SectionsPage() {
     }),
   );
 
+  const resolvedSearchParams = searchParams
+    ? await Promise.resolve(searchParams)
+    : undefined;
+  const selectedClassIdRaw = resolvedSearchParams?.classId;
+  const selectedClassId =
+    typeof selectedClassIdRaw === "string"
+      ? selectedClassIdRaw
+      : Array.isArray(selectedClassIdRaw)
+        ? selectedClassIdRaw[0]
+        : undefined;
+
+  const selectedGroup =
+    groups.find((group) => group.classId === selectedClassId) ?? groups[0] ?? null;
+
   return (
     <PageStack wide>
       <PageHeader
@@ -90,62 +114,99 @@ export default async function SectionsPage() {
             </div>
           ) : null}
 
-          {groups.map((group) => (
-            <div key={group.classId} className="space-y-3">
-              <div>
-                <h3 className="font-display text-lg font-semibold text-ink">
-                  {group.className}
-                </h3>
-                <p className="text-xs text-muted">{group.boardName}</p>
-              </div>
-              <div className="list-stack">
-                {group.sections.map((section) => (
-                  <div
-                    key={section.id}
-                    className="flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#f7fafc] px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
-                  >
-                    <div>
-                      <p className="font-semibold text-ink">{section.name}</p>
+          {groups.length > 0 ? (
+            <div className="grid gap-5 lg:grid-cols-[minmax(260px,320px)_minmax(0,1fr)]">
+              <div className="space-y-2">
+                <p className="text-xs font-semibold uppercase tracking-[0.04em] text-muted">
+                  Classes
+                </p>
+                {groups.map((group) => {
+                  const isActive = selectedGroup?.classId === group.classId;
+                  return (
+                    <Link
+                      key={group.classId}
+                      href={`/org-admin/sections?classId=${group.classId}`}
+                      className={`block rounded-[0.9rem] border px-3 py-3 transition ${
+                        isActive
+                          ? "border-brand/45 bg-brand/10"
+                          : "border-[rgba(15,40,70,0.1)] bg-white hover:border-brand/30 hover:bg-brand/5"
+                      }`}
+                    >
+                      <p className="font-semibold text-ink">{group.className}</p>
                       <p className="mt-0.5 text-xs text-muted">
-                        {section._count.teacherAssignments} teacher assignment
-                        {section._count.teacherAssignments === 1 ? "" : "s"}
-                        {studentsEnabled
-                          ? ` · ${section._count.students} student${
-                              section._count.students === 1 ? "" : "s"
-                            }`
-                          : ""}
+                        {group.boardName} · {group.sections.length} section
+                        {group.sections.length === 1 ? "" : "s"}
+                      </p>
+                    </Link>
+                  );
+                })}
+              </div>
+
+              <div className="space-y-3">
+                {selectedGroup ? (
+                  <>
+                    <div>
+                      <h3 className="font-display text-lg font-semibold text-ink">
+                        {selectedGroup.className}
+                      </h3>
+                      <p className="text-xs text-muted">
+                        {selectedGroup.boardName} · {selectedGroup.sections.length} section
+                        {selectedGroup.sections.length === 1 ? "" : "s"}
                       </p>
                     </div>
-                    <div className="flex flex-wrap gap-2">
-                      {studentsEnabled ? (
-                        <>
-                      <Link href={`/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`}>
-                        <Button type="button" variant="secondary" size="sm">
-                          Students
-                        </Button>
-                      </Link>
-                      <Link href={`/org-admin/students/print/${section.id}`}>
-                        <Button type="button" variant="outline" size="sm">
-                          Print List
-                        </Button>
-                      </Link>
-                        </>
-                      ) : null}
-                      <Link href={`/org-admin/sections/${section.id}/edit`}>
-                        <Button type="button" variant="outline" size="sm">
-                          Edit
-                        </Button>
-                      </Link>
-                      <DeleteSectionButton
-                        sectionId={section.id}
-                        sectionName={section.name}
-                      />
+                    <div className="list-stack">
+                      {selectedGroup.sections.map((section) => (
+                        <div
+                          key={section.id}
+                          className="flex flex-col gap-3 rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-gradient-to-br from-white to-[#f7fafc] px-4 py-3 sm:flex-row sm:items-center sm:justify-between"
+                        >
+                          <div>
+                            <p className="font-semibold text-ink">{section.name}</p>
+                            <p className="mt-0.5 text-xs text-muted">
+                              {section._count.teacherAssignments} teacher assignment
+                              {section._count.teacherAssignments === 1 ? "" : "s"}
+                              {studentsEnabled
+                                ? ` · ${section._count.students} student${
+                                    section._count.students === 1 ? "" : "s"
+                                  }`
+                                : ""}
+                            </p>
+                          </div>
+                          <div className="flex flex-wrap gap-2">
+                            {studentsEnabled ? (
+                              <>
+                                <Link
+                                  href={`/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`}
+                                >
+                                  <Button type="button" variant="secondary" size="sm">
+                                    Students
+                                  </Button>
+                                </Link>
+                                <Link href={`/org-admin/students/print/${section.id}`}>
+                                  <Button type="button" variant="outline" size="sm">
+                                    Print List
+                                  </Button>
+                                </Link>
+                              </>
+                            ) : null}
+                            <Link href={`/org-admin/sections/${section.id}/edit`}>
+                              <Button type="button" variant="outline" size="sm">
+                                Edit
+                              </Button>
+                            </Link>
+                            <DeleteSectionButton
+                              sectionId={section.id}
+                              sectionName={section.name}
+                            />
+                          </div>
+                        </div>
+                      ))}
                     </div>
-                  </div>
-                ))}
+                  </>
+                ) : null}
               </div>
             </div>
-          ))}
+          ) : null}
         </div>
       </Card>
     </PageStack>
