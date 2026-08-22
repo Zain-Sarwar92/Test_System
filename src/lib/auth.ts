@@ -4,6 +4,12 @@ import { nextCookies } from "better-auth/next-js";
 import { customSession } from "better-auth/plugins";
 import { prisma } from "@/lib/prisma";
 
+/**
+ * Auth model: Better Auth DB sessions via httpOnly cookies only.
+ * Do NOT store JWTs or session tokens in localStorage / sessionStorage.
+ * Server reads the session cookie (see getSession in rbac.ts).
+ */
+
 function normalizeAppUrl(url?: string) {
   return url?.replace(/\/+$/, "");
 }
@@ -46,7 +52,7 @@ function vercelHostOrigins(): string[] {
     .filter((v): v is string => Boolean(v));
 }
 
-const trustedOrigins = [
+export const trustedOrigins = [
   ...new Set(
     [
       authBaseUrl,
@@ -58,6 +64,8 @@ const trustedOrigins = [
     ].filter((v): v is string => Boolean(v)),
   ),
 ];
+
+const isProd = process.env.NODE_ENV === "production";
 
 export const auth = betterAuth({
   baseURL: authBaseUrl,
@@ -76,6 +84,16 @@ export const auth = betterAuth({
     // Org switch ke baad stale organizationId na rahe
     cookieCache: {
       enabled: false,
+    },
+  },
+  advanced: {
+    // Explicit cookie hardening (Better Auth defaults are similar; locked here on purpose)
+    useSecureCookies: isProd,
+    defaultCookieAttributes: {
+      httpOnly: true,
+      secure: isProd,
+      sameSite: "lax",
+      path: "/",
     },
   },
   user: {
