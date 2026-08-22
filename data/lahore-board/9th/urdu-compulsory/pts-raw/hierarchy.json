@@ -36,6 +36,24 @@
       "field": "QA"
     },
     {
+      "id": 24,
+      "name": "short-correct",
+      "bankType": "short",
+      "field": "CORRECT"
+    },
+    {
+      "id": 25,
+      "name": "short-idiom",
+      "bankType": "short",
+      "field": "IDIOM"
+    },
+    {
+      "id": 42,
+      "name": "short-meaning",
+      "bankType": "short",
+      "field": "MEANING"
+    },
+    {
       "id": 19,
       "name": "long-poem",
       "bankType": "long",
@@ -52,6 +70,36 @@
       "name": "long-passage",
       "bankType": "long",
       "field": "PASSAGE"
+    },
+    {
+      "id": 15,
+      "name": "long-letter",
+      "bankType": "long",
+      "field": "LETTER"
+    },
+    {
+      "id": 16,
+      "name": "long-application",
+      "bankType": "long",
+      "field": "APPLICATION"
+    },
+    {
+      "id": 26,
+      "name": "long-story",
+      "bankType": "long",
+      "field": "STORY"
+    },
+    {
+      "id": 31,
+      "name": "long-dialogue",
+      "bankType": "long",
+      "field": "DIALOGUE"
+    },
+    {
+      "id": 30,
+      "name": "long-central",
+      "bankType": "long",
+      "field": "CENTRAL"
     }
   ],
   "chapters": [

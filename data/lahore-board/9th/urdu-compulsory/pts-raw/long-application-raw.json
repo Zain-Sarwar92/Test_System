@@ -1,0 +1,142 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "9",
+  "subject": "اُردو لازمی",
+  "slug": "urdu-compulsory",
+  "type": "long",
+  "field": "APPLICATION",
+  "exportName": "long-application",
+  "subTypeId": 16,
+  "total": 6,
+  "exportedAt": "2026-08-22T10:19:13.058Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 344009,
+      "SubjectID": 50,
+      "TopicID": 10776,
+      "TopicRef": "8",
+      "TopicName": "8 درخواستیں",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہیڈ ماسٹر کے نا م درخواست&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (چھٹی کی درخواست )</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 16,
+        "bankType": "long",
+        "field": "APPLICATION",
+        "exportName": "long-application"
+      }
+    },
+    {
+      "QuestionID": 344010,
+      "SubjectID": 50,
+      "TopicID": 10776,
+      "TopicRef": "8",
+      "TopicName": "8 درخواستیں",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہیڈ ماسٹر کے نام درخواست&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (بیماری کی وجہ سے چھٹی کی درخواست )</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 16,
+        "bankType": "long",
+        "field": "APPLICATION",
+        "exportName": "long-application"
+      }
+    },
+    {
+      "QuestionID": 344011,
+      "SubjectID": 50,
+      "TopicID": 10776,
+      "TopicRef": "8",
+      "TopicName": "8 درخواستیں",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہیڈ ماسٹر کے نام درخواست&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (فیس معافی کی درخواست )</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 16,
+        "bankType": "long",
+        "field": "APPLICATION",
+        "exportName": "long-application"
+      }
+    },
+    {
+      "QuestionID": 344012,
+      "SubjectID": 50,
+      "TopicID": 10776,
+      "TopicRef": "8",
+      "TopicName": "8 درخواستیں",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہیڈ ماسٹر کے نام درخواست&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (سرٹیفکیٹ کے حصول کی درخواست)</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 16,
+        "bankType": "long",
+        "field": "APPLICATION",
+        "exportName": "long-application"
+      }
+    },
+    {
+      "QuestionID": 344013,
+      "SubjectID": 50,
+      "TopicID": 10776,
+      "TopicRef": "8",
+      "TopicName": "8 درخواستیں",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہیلتھ آفیسر کے نام درخواست&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (صفائی کے لیے درخواست)</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 16,
+        "bankType": "long",
+        "field": "APPLICATION",
+        "exportName": "long-application"
+      }
+    },
+    {
+      "QuestionID": 344014,
+      "SubjectID": 50,
+      "TopicID": 10776,
+      "TopicRef": "8",
+      "TopicName": "8 درخواستیں",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہیڈ پوسٹ ماسٹر کے نام درخواست (ڈاکیےکی شکایت )</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 16,
+        "bankType": "long",
+        "field": "APPLICATION",
+        "exportName": "long-application"
+      }
+    }
+  ]
+}

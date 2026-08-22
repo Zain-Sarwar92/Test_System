@@ -43,9 +43,15 @@
     },
     {
       "id": 18,
-      "name": "long-ayat",
+      "name": "long-hadith",
       "bankType": "long",
-      "field": "AYAT"
+      "field": "HADITH"
+    },
+    {
+      "id": 57,
+      "name": "long-personality",
+      "bankType": "long",
+      "field": "PERSONALITY"
     }
   ],
   "chapters": [

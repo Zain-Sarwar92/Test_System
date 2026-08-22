@@ -1,0 +1,142 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "9",
+  "subject": "اُردو لازمی",
+  "slug": "urdu-compulsory",
+  "type": "long",
+  "field": "DIALOGUE",
+  "exportName": "long-dialogue",
+  "subTypeId": 31,
+  "total": 6,
+  "exportedAt": "2026-08-22T10:19:31.285Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 344038,
+      "SubjectID": 50,
+      "TopicID": 10778,
+      "TopicRef": "10",
+      "TopicName": "10 مکالمے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مریض اور ڈاکٹر&nbsp;کے درمیان مکالمہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogue"
+      }
+    },
+    {
+      "QuestionID": 344039,
+      "SubjectID": 50,
+      "TopicID": 10778,
+      "TopicRef": "10",
+      "TopicName": "10 مکالمے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>دکان دار اور خریدار کے درمیان مکالمہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogue"
+      }
+    },
+    {
+      "QuestionID": 344040,
+      "SubjectID": 50,
+      "TopicID": 10778,
+      "TopicRef": "10",
+      "TopicName": "10 مکالمے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>دو ہم جماعت کے درمیان مکالمہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogue"
+      }
+    },
+    {
+      "QuestionID": 344041,
+      "SubjectID": 50,
+      "TopicID": 10778,
+      "TopicRef": "10",
+      "TopicName": "10 مکالمے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درزی خانے میں مکالمہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogue"
+      }
+    },
+    {
+      "QuestionID": 344042,
+      "SubjectID": 50,
+      "TopicID": 10778,
+      "TopicRef": "10",
+      "TopicName": "10 مکالمے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>تاریخ پاکستان پر مکالمہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogue"
+      }
+    },
+    {
+      "QuestionID": 344043,
+      "SubjectID": 50,
+      "TopicID": 10778,
+      "TopicRef": "10",
+      "TopicName": "10 مکالمے",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہوٹل میں مکالمہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogue"
+      }
+    }
+  ]
+}

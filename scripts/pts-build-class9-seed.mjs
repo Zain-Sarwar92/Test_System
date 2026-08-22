@@ -44,12 +44,28 @@ function fieldSource(field, priorityName) {
       return "Poem Stanzas";
     case "AYAT":
       return "Ayat / Quranic text";
+    case "HADITH":
+      return "Hadith";
+    case "PERSONALITY":
+      return "Personalities";
     case "PASSAGE":
       return "Passage";
     case "WORD":
       return "Word meaning";
     case "IDIOM":
-      return "Idiom / Muhavara";
+      return "Idiom completion";
+    case "CORRECT":
+      return "Sentence correction";
+    case "LETTER":
+      return "Letter";
+    case "APPLICATION":
+      return "Application";
+    case "STORY":
+      return "Story";
+    case "DIALOGUE":
+      return "Dialogue";
+    case "CENTRAL":
+      return "Central idea";
     default:
       return priorityName || field || "Exercise";
   }

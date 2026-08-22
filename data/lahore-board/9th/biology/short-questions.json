@@ -4,15 +4,15 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB Class 9 Biology (read-only export)",
-  "total_questions": 1990,
+  "total_questions": 2001,
   "counts": {
-    "mcq": 1050,
-    "short": 785,
+    "mcq": 1056,
+    "short": 790,
     "long": 155
   },
   "fieldCounts": {
-    "MCQ": 1050,
-    "QA": 785,
+    "MCQ": 1056,
+    "QA": 790,
     "LONG": 155
   },
   "questions": [
@@ -4560,6 +4560,50 @@
       "ur": "آرگیزم کی تعریف کریں۔"
     },
     {
+      "id": 337005,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are emergent properties?",
+      "ur": "ابھرتی خصوصیات کیا ہوتی ہیں؟"
+    },
+    {
+      "id": 337006,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when organelles interact within a cell?",
+      "ur": "کیا ہوتا ہے جب آرگنیلز سیل کے اندر تعامل کرتے ہیں؟"
+    },
+    {
+      "id": 337007,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain &quot;heart perform complex functions that its individual tissues cannot perform?&quot;",
+      "ur": "وضاحت کریں کہ &quot;دل پیچیدہ افعال انجام دیتا ہے جو اس کے انفرادی ٹشوز انجام نہیں دے سکتے؟&quot;"
+    },
+    {
+      "id": 337008,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain&quot; The interaction of various organ system brings emergent properties.&quot;",
+      "ur": "وضاحت کریں &quot;مختلف اعضاء کے نظام کا تعامل ابھرتی ہوئی خصوصیات لاتا ہے۔&quot;"
+    },
+    {
       "id": 337009,
       "chapter": 5,
       "topic_id": "5.1",
@@ -4569,6 +4613,17 @@
       "priority": "Additional",
       "en": "What is the smallest unit of matter?",
       "ur": "مادہ کا سب سے چھوٹا یونٹ کیا ہے؟"
+    },
+    {
+      "id": 337010,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of mitochondria in a cell?",
+      "ur": "مائٹو کنڈریا کا سیل میں کیا کام ہوتا ہے؟"
     },
     {
       "id": 337011,

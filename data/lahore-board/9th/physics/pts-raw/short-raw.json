@@ -8,8 +8,8 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 754,
-  "exportedAt": "2026-08-10T12:00:07.584Z",
+  "total": 755,
+  "exportedAt": "2026-08-22T09:54:47.420Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -2331,6 +2331,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": "<p>بنیادی یونٹس کی تعریف کریں۔  دو مثالوں سے کریں۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Define base units. Give two examples.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 439652,
+      "SubjectID": 46,
+      "TopicID": 10529,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 INTERNATIONAL SYSTEM OF UNITS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے بنیادی یونٹس کا انتخاب کریں۔</p>\r\n",
+      "EnglishQuestionDetails": "<p>Pick out the base unit in the following:</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

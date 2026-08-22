@@ -65,7 +65,7 @@ const SUBJECT_CONFIG = {
       { id: 1, name: "mcq", bankType: "mcq", field: "MCQ" },
       { id: 12, name: "short", bankType: "short", field: "QA" },
       { id: 13, name: "long", bankType: "long", field: "LONG" },
-      { id: 18, name: "long-ayat", bankType: "long", field: "AYAT" },
+      { id: 18, name: "long-hadith", bankType: "long", field: "HADITH" },
     ],
   },
   107: {

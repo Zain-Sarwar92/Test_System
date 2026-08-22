@@ -1,0 +1,135 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "10",
+  "subject": "اُردو لازمی",
+  "slug": "urdu-compulsory",
+  "type": "long",
+  "exportName": "long-central",
+  "subTypeId": 30,
+  "total": 6,
+  "exportedAt": "2026-08-22T10:47:28.358Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 496890,
+      "SubjectID": 66,
+      "TopicID": 14874,
+      "TopicRef": ".",
+      "TopicName": ". حمد",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حمد</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 498349,
+      "SubjectID": 66,
+      "TopicID": 14886,
+      "TopicRef": ".",
+      "TopicName": ". آدمی نامہ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>آدمی نامہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 498453,
+      "SubjectID": 66,
+      "TopicID": 14887,
+      "TopicRef": ".",
+      "TopicName": ". نمود صبح",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نمود صبح</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 498548,
+      "SubjectID": 66,
+      "TopicID": 14888,
+      "TopicRef": ".",
+      "TopicName": ". خطاب بہ جواناں اسلام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>خطاب بہ جوانان اسلام</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 498580,
+      "SubjectID": 66,
+      "TopicID": 14889,
+      "TopicRef": ".",
+      "TopicName": ". وغیرہ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>وغیرہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 496985,
+      "SubjectID": 66,
+      "TopicID": 14875,
+      "TopicRef": ".",
+      "TopicName": ". نعت",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نعت</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "exportName": "long-central"
+      }
+    }
+  ]
+}

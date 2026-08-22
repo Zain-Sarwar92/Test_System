@@ -82,9 +82,32 @@ const SUBJECT_CONFIG = {
     types: [
       { id: 1, name: "mcq", bankType: "mcq", field: "MCQ" },
       { id: 14, name: "short-qa", bankType: "short", field: "QA" },
+      {
+        id: 24,
+        name: "short-correct",
+        bankType: "short",
+        field: "CORRECT",
+      },
+      { id: 25, name: "short-idiom", bankType: "short", field: "IDIOM" },
+      { id: 42, name: "short-meaning", bankType: "short", field: "MEANING" },
       { id: 19, name: "long-poem", bankType: "long", field: "POEM" },
       { id: 28, name: "long-summary", bankType: "long", field: "SUMMARY" },
       { id: 48, name: "long-passage", bankType: "long", field: "PASSAGE" },
+      { id: 15, name: "long-letter", bankType: "long", field: "LETTER" },
+      {
+        id: 16,
+        name: "long-application",
+        bankType: "long",
+        field: "APPLICATION",
+      },
+      { id: 26, name: "long-story", bankType: "long", field: "STORY" },
+      { id: 31, name: "long-dialogue", bankType: "long", field: "DIALOGUE" },
+      {
+        id: 30,
+        name: "long-central",
+        bankType: "long",
+        field: "CENTRAL",
+      },
     ],
   },
   51: {
@@ -93,7 +116,13 @@ const SUBJECT_CONFIG = {
       { id: 1, name: "mcq", bankType: "mcq", field: "MCQ" },
       { id: 12, name: "short", bankType: "short", field: "QA" },
       { id: 13, name: "long", bankType: "long", field: "LONG" },
-      { id: 18, name: "long-ayat", bankType: "long", field: "AYAT" },
+      { id: 18, name: "long-hadith", bankType: "long", field: "HADITH" },
+      {
+        id: 57,
+        name: "long-personality",
+        bankType: "long",
+        field: "PERSONALITY",
+      },
     ],
   },
   52: {
