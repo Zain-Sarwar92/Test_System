@@ -1,29 +1,39 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { getSession, resolveUserRole } from "@/lib/rbac";
+import { requireBrowserApiSession } from "@/lib/api-guard";
+import { sealedJson } from "@/lib/api-envelope";
+import { resolveUserRole } from "@/lib/rbac";
 import { assertOrgModule } from "@/lib/org-modules";
 import { readAssessmentSheetBytes } from "@/lib/assessment-sheet-storage";
 
 export async function GET(
-  _request: Request,
+  request: Request,
   context: { params: Promise<{ sheetId: string }> },
 ) {
-  const session = await getSession();
-  if (!session) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const gate = await requireBrowserApiSession(request);
+  if ("response" in gate) {
+    // Prefer sealed JSON errors when client asks for JSON; plain for <img> loads.
+    const wantsJson = request.headers.get("accept")?.includes("application/json");
+    if (wantsJson) {
+      return sealedJson(
+        { error: gate.response.status === 401 ? "Unauthorized" : "Forbidden" },
+        { status: gate.response.status },
+      );
+    }
+    return gate.response;
   }
 
-  const role = await resolveUserRole(session);
+  const role = await resolveUserRole(gate.session);
   if (role !== "ORG_ADMIN") {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return sealedJson({ error: "Unauthorized" }, { status: 401 });
   }
 
   const dbUser = await prisma.user.findUnique({
-    where: { id: session.user.id },
+    where: { id: gate.session.user.id },
     select: { organizationId: true, isActive: true },
   });
   if (!dbUser?.isActive || !dbUser.organizationId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return sealedJson({ error: "Unauthorized" }, { status: 401 });
   }
 
   await assertOrgModule(dbUser.organizationId, "RESULTS");
@@ -34,7 +44,7 @@ export async function GET(
     select: { imagePath: true },
   });
   if (!sheet) {
-    return NextResponse.json({ error: "Not found" }, { status: 404 });
+    return sealedJson({ error: "Not found" }, { status: 404 });
   }
 
   try {
@@ -48,6 +58,6 @@ export async function GET(
       },
     });
   } catch {
-    return NextResponse.json({ error: "File missing" }, { status: 404 });
+    return sealedJson({ error: "File missing" }, { status: 404 });
   }
 }
