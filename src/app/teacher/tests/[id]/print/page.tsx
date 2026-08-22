@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { requireRole, requireActiveOrganizationId } from "@/lib/rbac";
 import { ExamPaperSheet, type ExamPaperSection } from "@/components/exam-paper-sheet";
+import { parseAttemptCountFromInstructions } from "@/lib/paper-marks";
 import { PrintToolbar } from "./print-toolbar";
 
 export default async function TeacherTestPrintPage({
@@ -71,6 +72,10 @@ export default async function TeacherTestPrintPage({
         type,
         title: titles[type],
         marksEach,
+        attemptCount: parseAttemptCountFromInstructions(
+          test.instructions,
+          type,
+        ),
         questions: rows.map((r) => ({
           id: r.question.id,
           text: r.textOverride ?? r.question.text,

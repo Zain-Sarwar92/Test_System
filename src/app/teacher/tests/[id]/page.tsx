@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { requireRole, requireActiveOrganizationId } from "@/lib/rbac";
+import { parseAttemptCountFromInstructions } from "@/lib/paper-marks";
 import { SavedPaperPreview } from "./saved-paper-preview";
 
 export default async function TeacherSavedPaperPage({
@@ -141,6 +142,10 @@ export default async function TeacherSavedPaperPage({
         type,
         title: titles[type],
         marksEach,
+        attemptCount: parseAttemptCountFromInstructions(
+          test.instructions,
+          type,
+        ),
         questions: rows.map((r) => ({
           id: r.question.id,
           type: r.question.type as "MCQ" | "SHORT" | "LONG",

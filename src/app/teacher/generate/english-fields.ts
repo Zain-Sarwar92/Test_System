@@ -1,5 +1,6 @@
 export type EnglishFieldFilter =
   | "ALL"
+  | "MCQ"
   | "COMPREHENSION"
   | "SPELLING"
   | "MEANING"
@@ -14,12 +15,27 @@ export type EnglishFieldFilter =
   | "TRANSLATE_UR"
   | "TRANSLATE_EN"
   | "POEM_STANZA"
-  | "PUNCTUATION";
+  | "POEM"
+  | "PASSAGE"
+  | "PUNCTUATION"
+  | "LONG"
+  | "HADITH"
+  | "PERSONALITY"
+  | "AYAT"
+  | "CORRECT"
+  | "IDIOM"
+  | "LETTER"
+  | "APPLICATION"
+  | "STORY"
+  | "DIALOGUE"
+  | "CENTRAL"
+  | "TAFHEEM";
 
 export type QType = "MCQ" | "SHORT" | "LONG";
 
 export const ENGLISH_FIELD_VALUES = [
   "ALL",
+  "MCQ",
   "COMPREHENSION",
   "SPELLING",
   "MEANING",
@@ -34,7 +50,21 @@ export const ENGLISH_FIELD_VALUES = [
   "TRANSLATE_UR",
   "TRANSLATE_EN",
   "POEM_STANZA",
+  "POEM",
+  "PASSAGE",
   "PUNCTUATION",
+  "LONG",
+  "HADITH",
+  "PERSONALITY",
+  "AYAT",
+  "CORRECT",
+  "IDIOM",
+  "LETTER",
+  "APPLICATION",
+  "STORY",
+  "DIALOGUE",
+  "CENTRAL",
+  "TAFHEEM",
 ] as const;
 
 /** English bank fields available when generating papers. */
@@ -204,16 +234,18 @@ const INTERMEDIATE_FIELD_LABELS: Partial<Record<EnglishFieldFilter, string>> = {
 
 export function englishOptionsForCounts(
   counts: Partial<Record<EnglishFieldFilter, number>>,
-  options?: { intermediate?: boolean },
+  options?: { intermediate?: boolean; includeEmpty?: boolean },
 ): Array<(typeof ENGLISH_QUESTION_TYPE_OPTIONS)[number] & { count: number }> {
-  return ENGLISH_QUESTION_TYPE_OPTIONS.map((opt) => ({
+  const mapped = ENGLISH_QUESTION_TYPE_OPTIONS.map((opt) => ({
     ...opt,
     label:
       options?.intermediate && INTERMEDIATE_FIELD_LABELS[opt.field]
         ? INTERMEDIATE_FIELD_LABELS[opt.field]!
         : opt.label,
     count: counts[opt.field] ?? 0,
-  })).filter((opt) => opt.count > 0);
+  }));
+  if (options?.includeEmpty) return mapped;
+  return mapped.filter((opt) => opt.count > 0);
 }
 
 export function sumEnglishFieldCounts(
@@ -233,4 +265,333 @@ export function sumEnglishFieldCounts(
     }
   }
   return out;
+}
+
+/** Class 9 Urdu Lazmi — labels match PTS Generate Paper type list. */
+export const URDU_QUESTION_TYPE_OPTIONS: Array<{
+  type: QType;
+  field: EnglishFieldFilter;
+  label: string;
+  value: string;
+}> = [
+  {
+    type: "MCQ",
+    field: "MCQ",
+    label: "Multiple Options (چارممکنہ جوابات)",
+    value: "MCQ:MCQ",
+  },
+  {
+    type: "SHORT",
+    field: "QA",
+    label: "Question Answers (سوالات جوابات)",
+    value: "SHORT:QA",
+  },
+  {
+    type: "SHORT",
+    field: "CORRECT",
+    label: "جملوں کی درستگی",
+    value: "SHORT:CORRECT",
+  },
+  {
+    type: "SHORT",
+    field: "IDIOM",
+    label: "جملوں کی تکمیل",
+    value: "SHORT:IDIOM",
+  },
+  {
+    type: "SHORT",
+    field: "MEANING",
+    label: "Pointing (اعراب لگائیں)",
+    value: "SHORT:MEANING",
+  },
+  {
+    type: "LONG",
+    field: "POEM",
+    label: "اشعار کی تشریح",
+    value: "LONG:POEM",
+  },
+  {
+    type: "LONG",
+    field: "ESSAYS",
+    label: "Essays (مضامین)",
+    value: "LONG:ESSAYS",
+  },
+  {
+    type: "LONG",
+    field: "SUMMARY",
+    label: "Summary (خلاصہ) Matric",
+    value: "LONG:SUMMARY",
+  },
+  {
+    type: "LONG",
+    field: "TAFHEEM",
+    label: "Comprehension Paragraphs (تفہیم عبارات)",
+    value: "LONG:TAFHEEM",
+  },
+  {
+    type: "LONG",
+    field: "PASSAGE",
+    label: "پیراگراف کی تشریح Matric",
+    value: "LONG:PASSAGE",
+  },
+  {
+    type: "LONG",
+    field: "LETTER",
+    label: "Letters (خطوط)",
+    value: "LONG:LETTER",
+  },
+  {
+    type: "LONG",
+    field: "APPLICATION",
+    label: "Applications (درخواستیں)",
+    value: "LONG:APPLICATION",
+  },
+  {
+    type: "LONG",
+    field: "STORY",
+    label: "Stories (کہانیاں)",
+    value: "LONG:STORY",
+  },
+  {
+    type: "LONG",
+    field: "DIALOGUE",
+    label: "Dialogues (مکالمے)",
+    value: "LONG:DIALOGUE",
+  },
+  {
+    type: "LONG",
+    field: "CENTRAL",
+    label: "Theme (مرکزی خیال)",
+    value: "LONG:CENTRAL",
+  },
+];
+
+export function isUrduSubjectName(name: string | null | undefined) {
+  const n = (name ?? "").trim().toLowerCase();
+  return /urdu|اردو|اُردو/.test(n) || /ردو/.test(name ?? "");
+}
+
+export function defaultUrduFieldForType(type: QType): EnglishFieldFilter {
+  return (
+    URDU_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.field ?? "MCQ"
+  );
+}
+
+export function urduTypeFieldSelectValue(
+  type: QType,
+  field: EnglishFieldFilter,
+): string {
+  const exact = `${type}:${field}`;
+  if (URDU_QUESTION_TYPE_OPTIONS.some((opt) => opt.value === exact)) {
+    return exact;
+  }
+  return (
+    URDU_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.value ??
+    URDU_QUESTION_TYPE_OPTIONS[0].value
+  );
+}
+
+export function parseUrduTypeField(
+  value: string,
+): { type: QType; field: EnglishFieldFilter } | null {
+  const match = URDU_QUESTION_TYPE_OPTIONS.find((opt) => opt.value === value);
+  if (match) return { type: match.type, field: match.field };
+  const [type, field] = value.split(":");
+  if (type !== "MCQ" && type !== "SHORT" && type !== "LONG") return null;
+  if (!ENGLISH_FIELD_VALUES.includes(field as EnglishFieldFilter)) return null;
+  return { type, field: field as EnglishFieldFilter };
+}
+
+export function urduOptionsForCounts(
+  counts: Partial<Record<EnglishFieldFilter, number>>,
+  options?: { includeEmpty?: boolean },
+): Array<(typeof URDU_QUESTION_TYPE_OPTIONS)[number] & { count: number }> {
+  const mapped = URDU_QUESTION_TYPE_OPTIONS.map((opt) => ({
+    ...opt,
+    count: counts[opt.field] ?? 0,
+  }));
+  if (options?.includeEmpty) return mapped;
+  return mapped.filter((opt) => opt.count > 0);
+}
+
+/** Islamiyat Lazmi — labels match PTS Generate Paper type list. */
+export const ISLAMIYAT_QUESTION_TYPE_OPTIONS: Array<{
+  type: QType;
+  field: EnglishFieldFilter;
+  label: string;
+  value: string;
+}> = [
+  {
+    type: "MCQ",
+    field: "MCQ",
+    label: "Multiple Options (چارممکنہ جوابات)",
+    value: "MCQ:MCQ",
+  },
+  {
+    type: "SHORT",
+    field: "QA",
+    label: "Short Questions (مختصر سوالات)",
+    value: "SHORT:QA",
+  },
+  {
+    type: "LONG",
+    field: "LONG",
+    label: "Long Questions (تفصیلاً سوالات)",
+    value: "LONG:LONG",
+  },
+  {
+    type: "LONG",
+    field: "HADITH",
+    label: "Hadith (احادیث)",
+    value: "LONG:HADITH",
+  },
+  {
+    type: "LONG",
+    field: "PERSONALITY",
+    label: "Personalities",
+    value: "LONG:PERSONALITY",
+  },
+];
+
+export function isIslamiyatSubjectName(name: string | null | undefined) {
+  const n = (name ?? "").trim().toLowerCase();
+  return /islamiyat|islamic|اسلامیات/.test(n);
+}
+
+export function defaultIslamiyatFieldForType(type: QType): EnglishFieldFilter {
+  return (
+    ISLAMIYAT_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.field ??
+    "MCQ"
+  );
+}
+
+export function islamiyatTypeFieldSelectValue(
+  type: QType,
+  field: EnglishFieldFilter,
+): string {
+  const exact = `${type}:${field}`;
+  if (ISLAMIYAT_QUESTION_TYPE_OPTIONS.some((opt) => opt.value === exact)) {
+    return exact;
+  }
+  return (
+    ISLAMIYAT_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.value ??
+    ISLAMIYAT_QUESTION_TYPE_OPTIONS[0].value
+  );
+}
+
+export function parseIslamiyatTypeField(
+  value: string,
+): { type: QType; field: EnglishFieldFilter } | null {
+  const match = ISLAMIYAT_QUESTION_TYPE_OPTIONS.find((opt) => opt.value === value);
+  if (match) return { type: match.type, field: match.field };
+  const [type, field] = value.split(":");
+  if (type !== "MCQ" && type !== "SHORT" && type !== "LONG") return null;
+  if (!ENGLISH_FIELD_VALUES.includes(field as EnglishFieldFilter)) return null;
+  return { type, field: field as EnglishFieldFilter };
+}
+
+export function islamiyatOptionsForCounts(
+  counts: Partial<Record<EnglishFieldFilter, number>>,
+  options?: { includeEmpty?: boolean },
+): Array<(typeof ISLAMIYAT_QUESTION_TYPE_OPTIONS)[number] & { count: number }> {
+  const mapped = ISLAMIYAT_QUESTION_TYPE_OPTIONS.map((opt) => ({
+    ...opt,
+    count: counts[opt.field] ?? 0,
+  }));
+  if (options?.includeEmpty) return mapped;
+  return mapped.filter((opt) => opt.count > 0);
+}
+
+/** Class 9 Tarjuma Tul Quran — labels match PTS Generate Paper type list. */
+export const TARJUMA_QUESTION_TYPE_OPTIONS: Array<{
+  type: QType;
+  field: EnglishFieldFilter;
+  label: string;
+  value: string;
+}> = [
+  {
+    type: "MCQ",
+    field: "MCQ",
+    label: "Multiple Options (چارممکنہ جوابات)",
+    value: "MCQ:MCQ",
+  },
+  {
+    type: "SHORT",
+    field: "QA",
+    label: "Short Questions (مختصر سوالات)",
+    value: "SHORT:QA",
+  },
+  {
+    type: "LONG",
+    field: "LONG",
+    label: "Long Questions (تفصیلاً سوالات)",
+    value: "LONG:LONG",
+  },
+  {
+    type: "LONG",
+    field: "AYAT",
+    label: "Verses (آیات)",
+    value: "LONG:AYAT",
+  },
+  {
+    type: "SHORT",
+    // Seed stores subType WORD; curriculum maps WORD → PAIR.
+    field: "PAIR",
+    label: "Word Meaning (الفاظ معنی)",
+    value: "SHORT:PAIR",
+  },
+];
+
+export function isTarjumaSubjectName(name: string | null | undefined) {
+  const n = (name ?? "").trim().toLowerCase();
+  const raw = name ?? "";
+  return (
+    /tarjuma|tarjama/.test(n) ||
+    /ترجمہ|ترجمۃ|ترجمه/.test(raw) ||
+    (/quran|قرآن|قرآن/.test(raw) && /ترجم|tarj/i.test(raw + n))
+  );
+}
+
+export function defaultTarjumaFieldForType(type: QType): EnglishFieldFilter {
+  return (
+    TARJUMA_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.field ??
+    "MCQ"
+  );
+}
+
+export function tarjumaTypeFieldSelectValue(
+  type: QType,
+  field: EnglishFieldFilter,
+): string {
+  const exact = `${type}:${field}`;
+  if (TARJUMA_QUESTION_TYPE_OPTIONS.some((opt) => opt.value === exact)) {
+    return exact;
+  }
+  return (
+    TARJUMA_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.value ??
+    TARJUMA_QUESTION_TYPE_OPTIONS[0].value
+  );
+}
+
+export function parseTarjumaTypeField(
+  value: string,
+): { type: QType; field: EnglishFieldFilter } | null {
+  const match = TARJUMA_QUESTION_TYPE_OPTIONS.find((opt) => opt.value === value);
+  if (match) return { type: match.type, field: match.field };
+  const [type, field] = value.split(":");
+  if (type !== "MCQ" && type !== "SHORT" && type !== "LONG") return null;
+  if (!ENGLISH_FIELD_VALUES.includes(field as EnglishFieldFilter)) return null;
+  return { type, field: field as EnglishFieldFilter };
+}
+
+export function tarjumaOptionsForCounts(
+  counts: Partial<Record<EnglishFieldFilter, number>>,
+  options?: { includeEmpty?: boolean },
+): Array<(typeof TARJUMA_QUESTION_TYPE_OPTIONS)[number] & { count: number }> {
+  const mapped = TARJUMA_QUESTION_TYPE_OPTIONS.map((opt) => ({
+    ...opt,
+    count: counts[opt.field] ?? 0,
+  }));
+  if (options?.includeEmpty) return mapped;
+  return mapped.filter((opt) => opt.count > 0);
 }

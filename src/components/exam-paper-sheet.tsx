@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { RichText } from "@/components/rich-text";
+import { scoredQuestionCount, sectionTotalMarks } from "@/lib/paper-marks";
 
 export type ExamPaperMedium = "ENGLISH" | "URDU" | "BOTH";
 
@@ -416,7 +417,16 @@ export function ExamPaperSheet({
 }) {
   const totalMarks =
     meta.totalMarks ??
-    sections.reduce((sum, s) => sum + s.questions.length * s.marksEach, 0);
+    sections.reduce(
+      (sum, s) =>
+        sum +
+        sectionTotalMarks({
+          questionCount: s.questions.length,
+          marksEach: s.marksEach,
+          attemptCount: s.attemptCount,
+        }),
+      0,
+    );
 
   const org = meta.organization;
   const orgName = org?.name?.trim() || meta.boardName || "Examination Test";
@@ -513,8 +523,16 @@ export function ExamPaperSheet({
         <p className="exam-empty">No questions added yet.</p>
       ) : (
         sections.map((section, sIdx) => {
-          const sectionMarks = section.questions.length * section.marksEach;
-          const marksLine = `(${section.marksEach}×${section.questions.length}=${sectionMarks})`;
+          const scoredCount = scoredQuestionCount(
+            section.questions.length,
+            section.attemptCount,
+          );
+          const sectionMarks = sectionTotalMarks({
+            questionCount: section.questions.length,
+            marksEach: section.marksEach,
+            attemptCount: section.attemptCount,
+          });
+          const marksLine = `(${section.marksEach}×${scoredCount}=${sectionMarks})`;
           const prompt = SECTION_PROMPT[section.type];
           const showSubjectiveBanner =
             hasSubjective &&
@@ -522,9 +540,12 @@ export function ExamPaperSheet({
             !subjectiveShown;
           if (showSubjectiveBanner) subjectiveShown = true;
 
-          const attemptNote = section.attemptCount
-            ? `Attempt any ${section.attemptCount} out of ${section.questions.length}`
-            : null;
+          const attemptNote =
+            section.attemptCount &&
+            section.attemptCount > 0 &&
+            section.attemptCount < section.questions.length
+              ? `Attempt any ${section.attemptCount} out of ${section.questions.length}`
+              : null;
 
           return (
             <div key={`${section.type}-${sIdx}`}>

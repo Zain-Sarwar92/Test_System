@@ -9,6 +9,7 @@ export function subTypeToEnglishField(
   const key = subType.toUpperCase();
   if (key === "WORD") return "PAIR";
   if (
+    key === "MCQ" ||
     key === "COMPREHENSION" ||
     key === "SPELLING" ||
     key === "MEANING" ||
@@ -23,7 +24,21 @@ export function subTypeToEnglishField(
     key === "TRANSLATE_UR" ||
     key === "TRANSLATE_EN" ||
     key === "POEM_STANZA" ||
-    key === "PUNCTUATION"
+    key === "POEM" ||
+    key === "PASSAGE" ||
+    key === "PUNCTUATION" ||
+    key === "LONG" ||
+    key === "HADITH" ||
+    key === "PERSONALITY" ||
+    key === "AYAT" ||
+    key === "CORRECT" ||
+    key === "IDIOM" ||
+    key === "LETTER" ||
+    key === "APPLICATION" ||
+    key === "STORY" ||
+    key === "DIALOGUE" ||
+    key === "CENTRAL" ||
+    key === "TAFHEEM"
   ) {
     return key;
   }
@@ -94,6 +109,7 @@ export type EnglishFieldCounts = Record<EnglishFieldFilter, number>;
 export function emptyEnglishFieldCounts(): EnglishFieldCounts {
   return {
     ALL: 0,
+    MCQ: 0,
     COMPREHENSION: 0,
     SPELLING: 0,
     MEANING: 0,
@@ -108,7 +124,21 @@ export function emptyEnglishFieldCounts(): EnglishFieldCounts {
     TRANSLATE_UR: 0,
     TRANSLATE_EN: 0,
     POEM_STANZA: 0,
+    POEM: 0,
+    PASSAGE: 0,
     PUNCTUATION: 0,
+    LONG: 0,
+    HADITH: 0,
+    PERSONALITY: 0,
+    AYAT: 0,
+    CORRECT: 0,
+    IDIOM: 0,
+    LETTER: 0,
+    APPLICATION: 0,
+    STORY: 0,
+    DIALOGUE: 0,
+    CENTRAL: 0,
+    TAFHEEM: 0,
   };
 }
 
@@ -207,6 +237,7 @@ export function englishFieldMatchesType(
 ): boolean {
   if (field === "ALL") return true;
   const mcq: EnglishFieldFilter[] = [
+    "MCQ",
     "COMPREHENSION",
     "SPELLING",
     "MEANING",
@@ -214,16 +245,38 @@ export function englishFieldMatchesType(
     "VERB",
     "GRAMMAR",
   ];
-  const short: EnglishFieldFilter[] = ["QA", "DI", "PAIR"];
+  const short: EnglishFieldFilter[] = [
+    "QA",
+    "DI",
+    "PAIR",
+    "CORRECT",
+    "IDIOM",
+  ];
   const long: EnglishFieldFilter[] = [
     "ESSAYS",
     "SUMMARY",
     "TRANSLATE_UR",
     "TRANSLATE_EN",
     "POEM_STANZA",
+    "POEM",
+    "PASSAGE",
     "PUNCTUATION",
+    "LONG",
+    "HADITH",
+    "PERSONALITY",
+    "AYAT",
+    "LETTER",
+    "APPLICATION",
+    "STORY",
+    "DIALOGUE",
+    "CENTRAL",
+    "TAFHEEM",
   ];
   if (type === "MCQ") return mcq.includes(field);
-  if (type === "SHORT") return short.includes(field);
+  if (type === "SHORT") {
+    // Urdu uses MEANING as short word-meaning; English uses MEANING as MCQ.
+    if (field === "MEANING") return true;
+    return short.includes(field);
+  }
   return long.includes(field);
 }
