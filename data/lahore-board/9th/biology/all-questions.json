@@ -4,15 +4,15 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB Class 9 Biology (read-only export)",
-  "total_questions": 1990,
+  "total_questions": 2001,
   "counts": {
-    "mcq": 1050,
-    "short": 785,
+    "mcq": 1056,
+    "short": 790,
     "long": 155
   },
   "fieldCounts": {
-    "MCQ": 1050,
-    "QA": 785,
+    "MCQ": 1056,
+    "QA": 790,
     "LONG": 155
   },
   "questions": [
@@ -9537,6 +9537,38 @@
       "correctAnswer": "C"
     },
     {
+      "id": 336910,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "\"The whole is greater than the sum of its parts\" is said by:",
+      "ur": "مکمل اس کے حصوں کے مجموعے سے بڑا ہے، کہا تھا:",
+      "optionA": "Abu Ali Sina / بو علی سینا",
+      "optionB": "Aristotle / ارسطو",
+      "optionC": "Ibn Rushd / ابن رشد",
+      "optionD": "Abu Usman Umar Al-Jahiz / ابو عثمان عمر الجاحز",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 336911,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "The abilities that are present in higher level or organization but are not possible from the:",
+      "ur": "وہ صلاحیتیں جو اعلی لیول یا تنظیم میں موجود ہوتی ہیں لیکن ان سے ممکن نہیں ہیں:",
+      "optionA": "Whole components / پورے حصے",
+      "optionB": "Half components / آدھے حصے",
+      "optionC": "Individual components / انفرادی حصے",
+      "optionD": "Unpredictable / غیر متوقع",
+      "correctAnswer": "C"
+    },
+    {
       "id": 336912,
       "chapter": 5,
       "topic_id": "5.1",
@@ -9551,6 +9583,70 @@
       "optionC": "Tissue / ٹشو",
       "optionD": "Organ / آرگن",
       "correctAnswer": "A"
+    },
+    {
+      "id": 336913,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which of the following tissue of heart helps to pump blood throughout the body:",
+      "ur": "مندرجہ ذیل میں سے دل کا کونسا ٹشو پورے جسم مین خون پمپ کرنے میں مدد دیتا ہے:",
+      "optionA": "Muscle tissue / مسل ٹشو",
+      "optionB": "Connective tissue / کنیکٹو ٹشو",
+      "optionC": "Epithelial tissue / ایپی تھیلیل",
+      "optionD": "None / کوئی نہیں",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 336914,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In individual, the interaction of various organ system brings:",
+      "ur": "فرد میں،مختلف آرگن سسٹم کا تعامل لاتا ہے:",
+      "optionA": "Consciousness / شعور",
+      "optionB": "Thinking / سوچنا",
+      "optionC": "Ability to adapt environment / ماحول کو اپنانے کی صلاحیت",
+      "optionD": "All of the above / مندرجہ بالا تمام",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 347834,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If tissue level is not developed in the levels of organization, which of the next level will not be formed?",
+      "ur": "اگر تنظیم کے لیولز میں ٹشو لیول تیار نہیں ہوتا ہے ،تو کونسا اگلا لیول نہیں بنے گا؟",
+      "optionA": "Molecular level / مالیکیولر لیول",
+      "optionB": "Atomic level / اٹامک لیول",
+      "optionC": "Organ level / آرگن لیول",
+      "optionD": "Organellel level / آرگیزم لیول",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 347835,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which structure is at a different level of organization from the other three?",
+      "ur": "کونسی ساخت تنظیم کے لیولز کی مختلف سطح پر دوسرے تینوں میں سے مختلف ہے:",
+      "optionA": "Kidney / گردے",
+      "optionB": "Liver / جگر",
+      "optionC": "Neuron / نیورون",
+      "optionD": "Lung / پھیپھڑے",
+      "correctAnswer": "C"
     },
     {
       "id": 347836,
@@ -21360,6 +21456,50 @@
       "ur": "آرگیزم کی تعریف کریں۔"
     },
     {
+      "id": 337005,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are emergent properties?",
+      "ur": "ابھرتی خصوصیات کیا ہوتی ہیں؟"
+    },
+    {
+      "id": 337006,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when organelles interact within a cell?",
+      "ur": "کیا ہوتا ہے جب آرگنیلز سیل کے اندر تعامل کرتے ہیں؟"
+    },
+    {
+      "id": 337007,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain &quot;heart perform complex functions that its individual tissues cannot perform?&quot;",
+      "ur": "وضاحت کریں کہ &quot;دل پیچیدہ افعال انجام دیتا ہے جو اس کے انفرادی ٹشوز انجام نہیں دے سکتے؟&quot;"
+    },
+    {
+      "id": 337008,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain&quot; The interaction of various organ system brings emergent properties.&quot;",
+      "ur": "وضاحت کریں &quot;مختلف اعضاء کے نظام کا تعامل ابھرتی ہوئی خصوصیات لاتا ہے۔&quot;"
+    },
+    {
       "id": 337009,
       "chapter": 5,
       "topic_id": "5.1",
@@ -21369,6 +21509,17 @@
       "priority": "Additional",
       "en": "What is the smallest unit of matter?",
       "ur": "مادہ کا سب سے چھوٹا یونٹ کیا ہے؟"
+    },
+    {
+      "id": 337010,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of mitochondria in a cell?",
+      "ur": "مائٹو کنڈریا کا سیل میں کیا کام ہوتا ہے؟"
     },
     {
       "id": 337011,

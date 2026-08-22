@@ -60,8 +60,10 @@ function fieldFromRawFilename(name: string): string | null {
     summary: "SUMMARY",
     passage: "PASSAGE",
     ayat: "AYAT",
+    hadith: "HADITH",
     idiom: "IDIOM",
     meaning: "MEANING",
+    word: "WORD",
     pair: "PAIR",
     di: "DI",
     essays: "ESSAYS",
@@ -71,6 +73,14 @@ function fieldFromRawFilename(name: string): string | null {
     comprehension: "COMPREHENSION",
     "translate-urdu": "TRANSLATE_UR",
     "translate-english": "TRANSLATE_EN",
+    central: "CENTRAL",
+    tafheem: "TAFHEEM",
+    correct: "CORRECT",
+    letter: "LETTER",
+    application: "APPLICATION",
+    story: "STORY",
+    dialogue: "DIALOGUE",
+    personality: "PERSONALITY",
   };
   return specMap[spec] ?? spec.replace(/-/g, "_").toUpperCase();
 }

@@ -1,0 +1,142 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "9",
+  "subject": "اُردو لازمی",
+  "slug": "urdu-compulsory",
+  "type": "long",
+  "field": "CENTRAL",
+  "exportName": "long-central",
+  "subTypeId": 30,
+  "total": 6,
+  "exportedAt": "2026-08-22T10:19:40.194Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 338861,
+      "SubjectID": 50,
+      "TopicID": 10693,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 حمد  (سمارٹ)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>حمد</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "field": "CENTRAL",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 338896,
+      "SubjectID": 50,
+      "TopicID": 10694,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 نعت  (سمارٹ)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نعت</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "field": "CENTRAL",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 339792,
+      "SubjectID": 50,
+      "TopicID": 10695,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 محنت کی برکت  (سمارٹ)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>محنت کی برکت</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "field": "CENTRAL",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 339811,
+      "SubjectID": 50,
+      "TopicID": 10696,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 جاوید کے نام  (سمارٹ)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جاوید کے نام</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "field": "CENTRAL",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 339862,
+      "SubjectID": 50,
+      "TopicID": 10697,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 پیام لطیف  (سمارٹ)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پیام لطیف</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "field": "CENTRAL",
+        "exportName": "long-central"
+      }
+    },
+    {
+      "QuestionID": 339894,
+      "SubjectID": 50,
+      "TopicID": 10698,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 کرکٹ اور مشاعرہ",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کرکٹ اور مشاعرہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 30,
+        "bankType": "long",
+        "field": "CENTRAL",
+        "exportName": "long-central"
+      }
+    }
+  ]
+}

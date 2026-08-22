@@ -44,6 +44,8 @@ function fieldSource(field, priorityName) {
       return "Poem Stanzas";
     case "AYAT":
       return "Ayat / Quranic text";
+    case "HADITH":
+      return "Hadith";
     case "PASSAGE":
       return "Passage";
     case "WORD":

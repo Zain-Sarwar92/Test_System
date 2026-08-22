@@ -4,14 +4,14 @@
   "subject": "Computer",
   "slug": "computer",
   "source": "PTS PTB Class 9 Computer (read-only export)",
-  "total_questions": 2251,
+  "total_questions": 2256,
   "counts": {
-    "mcq": 987,
+    "mcq": 992,
     "short": 916,
     "long": 348
   },
   "fieldCounts": {
-    "MCQ": 987,
+    "MCQ": 992,
     "QA": 916,
     "LONG": 348
   },
@@ -9169,6 +9169,22 @@
       "correctAnswer": "A"
     },
     {
+      "id": 389759,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where is the internal CSS typically placed in an HTML file?",
+      "ur": "HTML فائل میں اندرونی CSS عام طور پر کہاں رکھی جاتی ہے؟",
+      "optionA": "Inside the <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-87.svg\" /> / <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-87.svg\" />کے اندر",
+      "optionB": "Inside the <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-88.svg\" /> / <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-88.svg\" />کے اندر",
+      "optionC": "Inside the <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-89.svg\" /> / <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-89.svg\" />کے اندر",
+      "optionD": "Inside the <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-90.svg\" /> / <img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-90.svg\" />کے اندر",
+      "correctAnswer": "B"
+    },
+    {
       "id": 389761,
       "chapter": 5,
       "topic_id": "5.6",
@@ -9377,6 +9393,22 @@
       "correctAnswer": "C"
     },
     {
+      "id": 346747,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you include JavaScript in an HTML document?",
+      "ur": "آپ HTML دستاویز میں جاوا اسکرپٹ کیسے شامل کرتے ہیں؟",
+      "optionA": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-50.svg\" style=\"zoom:0.7;\" />",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-51.svg\" style=\"zoom:0.7;\" />",
+      "optionC": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-52.svg\" style=\"zoom:0.7;\" />",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-53.svg\" style=\"zoom:0.7;\" />",
+      "correctAnswer": "A"
+    },
+    {
       "id": 389672,
       "chapter": 5,
       "topic_id": "5.7",
@@ -9457,6 +9489,38 @@
       "correctAnswer": "B"
     },
     {
+      "id": 389790,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which JavaScript function can be used to display a message?",
+      "ur": "کون سا جاوا اسکرپٹ فنکشن پیغام دکھانے کے لیے استعمال کیا جا سکتا ہے؟",
+      "optionA": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-99.svg\" />",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-100.svg\" />",
+      "optionC": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-101.svg\" />",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/9th/comnew-chap8-102.svg\" />",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 389792,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What data type is represented by this code: var name = 'Ali';?",
+      "ur": "اس کوڈ سے کس ڈیٹا کی قسم کی نمائندگی کی جاتی ہے: var name = 'Ali';؟",
+      "optionA": "Number / نمبر",
+      "optionB": "String / سٹرنگ",
+      "optionC": "Boolean / بولین",
+      "optionD": "Array / ایرے",
+      "correctAnswer": "B"
+    },
+    {
       "id": 389794,
       "chapter": 5,
       "topic_id": "5.7",
@@ -9487,6 +9551,22 @@
       "optionC": "Function names / فنکشن کے نام",
       "optionD": "Comments / تبصرے",
       "correctAnswer": "B"
+    },
+    {
+      "id": 389797,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you call a function calculate( )?",
+      "ur": "آپ calculate( ) فنکشن کو کیسے کال کرتے ہیں؟",
+      "optionA": "call calculate( );",
+      "optionB": "calculate;",
+      "optionC": "calculate( );",
+      "optionD": "run calculate( );",
+      "correctAnswer": "C"
     },
     {
       "id": 389799,

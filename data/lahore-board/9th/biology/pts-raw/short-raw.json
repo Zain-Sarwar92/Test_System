@@ -8,8 +8,8 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 785,
-  "exportedAt": "2026-08-10T11:57:35.980Z",
+  "total": 790,
+  "exportedAt": "2026-08-22T09:53:02.618Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -8686,6 +8686,90 @@
       }
     },
     {
+      "QuestionID": 337005,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ابھرتی خصوصیات کیا ہوتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What are emergent properties?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 337006,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کیا ہوتا ہے جب آرگنیلز سیل کے اندر تعامل کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What happens when organelles interact within a cell?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 337007,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>وضاحت کریں کہ &quot;دل پیچیدہ افعال انجام دیتا ہے جو اس کے انفرادی ٹشوز انجام نہیں دے سکتے؟&quot;</p>\r\n",
+      "EnglishQuestionDetails": "<p>Explain &quot;heart perform complex functions that its individual tissues cannot perform?&quot;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 337008,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>وضاحت کریں &quot;مختلف اعضاء کے نظام کا تعامل ابھرتی ہوئی خصوصیات لاتا ہے۔&quot;</p>\r\n",
+      "EnglishQuestionDetails": "<p>Explain&quot; The interaction of various organ system brings emergent properties.&quot;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 337009,
       "SubjectID": 43,
       "TopicID": 10445,
@@ -8694,6 +8778,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": "<p>مادہ کا سب سے چھوٹا یونٹ کیا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>What is the smallest unit of matter?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 337010,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مائٹو کنڈریا کا سیل میں کیا کام ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the function of mitochondria in a cell?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

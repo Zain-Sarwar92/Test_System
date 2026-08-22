@@ -8,8 +8,8 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 987,
-  "exportedAt": "2026-08-10T11:58:05.710Z",
+  "total": 992,
+  "exportedAt": "2026-08-22T09:53:34.194Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -28613,6 +28613,56 @@
       }
     },
     {
+      "QuestionID": 389759,
+      "SubjectID": 44,
+      "TopicID": 10837,
+      "TopicRef": "5.6",
+      "TopicName": "5.6 STYLING WITH CSS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>HTML فائل میں اندرونی CSS عام طور پر کہاں رکھی جاتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Where is the internal CSS typically placed in an HTML file?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 409505,
+          "QuestionID": 389759,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-87.svg\" />کے اندر</p>\r\n",
+          "EmOption": "<p>Inside the <img alt=\"\" src=\"/Equations/9th/comnew-chap8-87.svg\" /></p>\r\n\r\n<p> </p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409506,
+          "QuestionID": 389759,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-88.svg\" />کے اندر</p>\r\n",
+          "EmOption": "<p>Inside the <img alt=\"\" src=\"/Equations/9th/comnew-chap8-88.svg\" /></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 409507,
+          "QuestionID": 389759,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-89.svg\" />کے اندر</p>\r\n\r\n<footer>\r\n<p> </p>\r\n</footer>\r\n",
+          "EmOption": "<p>Inside the <img alt=\"\" src=\"/Equations/9th/comnew-chap8-89.svg\" /></p>\r\n\r\n<footer>\r\n<p> </p>\r\n</footer>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409508,
+          "QuestionID": 389759,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-90.svg\" />کے اندر</p>\r\n<title></title>\r\n",
+          "EmOption": "<p>Inside the <img alt=\"\" src=\"/Equations/9th/comnew-chap8-90.svg\" /></p>\r\n<title></title>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 389761,
       "SubjectID": 44,
       "TopicID": 10837,
@@ -29263,6 +29313,56 @@
       }
     },
     {
+      "QuestionID": 346747,
+      "SubjectID": 44,
+      "TopicID": 10838,
+      "TopicRef": "5.7",
+      "TopicName": "5.7 INTRODUCTION TO JAVASCRIPT",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>آپ HTML دستاویز میں جاوا اسکرپٹ کیسے شامل کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>How do you include JavaScript in an HTML document?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 479457,
+          "QuestionID": 346747,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-50.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-50.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 479458,
+          "QuestionID": 346747,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-51.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-51.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 479459,
+          "QuestionID": 346747,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-52.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-52.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 479460,
+          "QuestionID": 346747,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-53.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-53.svg\" style=\"zoom:0.7;\" /></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 389672,
       "SubjectID": 44,
       "TopicID": 10838,
@@ -29513,6 +29613,106 @@
       }
     },
     {
+      "QuestionID": 389790,
+      "SubjectID": 44,
+      "TopicID": 10838,
+      "TopicRef": "5.7",
+      "TopicName": "5.7 INTRODUCTION TO JAVASCRIPT",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کون سا جاوا اسکرپٹ فنکشن پیغام دکھانے کے لیے استعمال کیا جا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which JavaScript function can be used to display a message?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 409517,
+          "QuestionID": 389790,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-99.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-99.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409518,
+          "QuestionID": 389790,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-100.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-100.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409519,
+          "QuestionID": 389790,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-101.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-101.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409520,
+          "QuestionID": 389790,
+          "UmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-102.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/9th/comnew-chap8-102.svg\" /></p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 389792,
+      "SubjectID": 44,
+      "TopicID": 10838,
+      "TopicRef": "5.7",
+      "TopicName": "5.7 INTRODUCTION TO JAVASCRIPT",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اس کوڈ سے کس ڈیٹا کی قسم کی نمائندگی کی جاتی ہے: var name = 'Ali';؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What data type is represented by this code: var name = 'Ali';?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 409733,
+          "QuestionID": 389792,
+          "UmOption": "<p>نمبر</p>\r\n",
+          "EmOption": "<p>Number</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409734,
+          "QuestionID": 389792,
+          "UmOption": "<p>سٹرنگ</p>\r\n",
+          "EmOption": "<p>String</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 409735,
+          "QuestionID": 389792,
+          "UmOption": "<p>بولین</p>\r\n",
+          "EmOption": "<p>Boolean</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409736,
+          "QuestionID": 389792,
+          "UmOption": "<p>ایرے</p>\r\n",
+          "EmOption": "<p>Array</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 389794,
       "SubjectID": 44,
       "TopicID": 10838,
@@ -29602,6 +29802,56 @@
           "QuestionID": 389795,
           "UmOption": "<p>تبصرے</p>\r\n",
           "EmOption": "<p>Comments</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 389797,
+      "SubjectID": 44,
+      "TopicID": 10838,
+      "TopicRef": "5.7",
+      "TopicName": "5.7 INTRODUCTION TO JAVASCRIPT",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>آپ calculate( ) فنکشن کو کیسے کال کرتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>How do you call a function calculate(  )?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 409553,
+          "QuestionID": 389797,
+          "UmOption": "<p>call calculate(  );</p>\r\n",
+          "EmOption": "<p>call calculate(  );</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409554,
+          "QuestionID": 389797,
+          "UmOption": "<p>calculate;</p>\r\n",
+          "EmOption": "<p>calculate;</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 409555,
+          "QuestionID": 389797,
+          "UmOption": "<p>calculate(  );</p>\r\n",
+          "EmOption": "<p>calculate(  );</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 409556,
+          "QuestionID": 389797,
+          "UmOption": "<p>run calculate(  );</p>\r\n",
+          "EmOption": "<p>run calculate(  );</p>\r\n",
           "Answer": false
         }
       ],

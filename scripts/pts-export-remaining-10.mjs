@@ -34,7 +34,10 @@ const SUBJECT_CONFIG = {
       { id: 1, name: "mcq", bankType: "mcq" },
       { id: 14, name: "short-qa", bankType: "short" },
       { id: 19, name: "long-poem", bankType: "long" },
+      { id: 27, name: "long-essays", bankType: "long" },
       { id: 28, name: "long-summary", bankType: "long" },
+      { id: 30, name: "long-central", bankType: "long" },
+      { id: 45, name: "long-tafheem", bankType: "long" },
       { id: 48, name: "long-passage", bankType: "long" },
     ],
   },
@@ -44,7 +47,7 @@ const SUBJECT_CONFIG = {
       { id: 1, name: "mcq", bankType: "mcq" },
       { id: 12, name: "short", bankType: "short" },
       { id: 13, name: "long", bankType: "long" },
-      { id: 18, name: "long-ayat", bankType: "long" },
+      { id: 18, name: "long-hadith", bankType: "long" },
     ],
   },
   68: {
@@ -121,7 +124,7 @@ const SUBJECT_CONFIG = {
       { id: 12, name: "short", bankType: "short" },
       { id: 13, name: "long", bankType: "long" },
       { id: 17, name: "long-ayat", bankType: "long" },
-      { id: 37, name: "short-meaning", bankType: "short" },
+      { id: 37, name: "short-word", bankType: "short" },
     ],
   },
   313: {

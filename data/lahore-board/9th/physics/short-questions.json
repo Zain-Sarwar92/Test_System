@@ -4,15 +4,15 @@
   "subject": "Physics",
   "slug": "physics",
   "source": "PTS PTB Class 9 Physics (read-only export)",
-  "total_questions": 1882,
+  "total_questions": 1883,
   "counts": {
     "mcq": 875,
-    "short": 754,
+    "short": 755,
     "long": 253
   },
   "fieldCounts": {
     "MCQ": 875,
-    "QA": 754,
+    "QA": 755,
     "LONG": 253
   },
   "questions": [
@@ -1236,6 +1236,17 @@
       "priority": "Additional",
       "en": "Define base units. Give two examples.",
       "ur": "بنیادی یونٹس کی تعریف کریں۔ دو مثالوں سے کریں۔"
+    },
+    {
+      "id": 439652,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Pick out the base unit in the following:",
+      "ur": "درج ذیل میں سے بنیادی یونٹس کا انتخاب کریں۔"
     },
     {
       "id": 439653,

@@ -7,10 +7,50 @@
   "type": "long",
   "exportName": "long-summary",
   "subTypeId": 28,
-  "total": 10,
-  "exportedAt": "2026-08-10T11:33:42.325Z",
+  "total": 16,
+  "exportedAt": "2026-08-22T10:47:22.845Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
+    {
+      "QuestionID": 496891,
+      "SubjectID": 66,
+      "TopicID": 14874,
+      "TopicRef": ".",
+      "TopicName": ". حمد",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>حمد</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 496986,
+      "SubjectID": 66,
+      "TopicID": 14875,
+      "TopicRef": ".",
+      "TopicName": ". نعت",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نعت</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "exportName": "long-summary"
+      }
+    },
     {
       "QuestionID": 497099,
       "SubjectID": 66,
@@ -179,6 +219,86 @@
       "TopicName": ". کچھ دیر تعلیم کے باب میں",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>کچھ دیر ذریعہ تعلیم کے باب میں</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 498350,
+      "SubjectID": 66,
+      "TopicID": 14886,
+      "TopicRef": ".",
+      "TopicName": ". آدمی نامہ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>آدمی نامہ</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 498451,
+      "SubjectID": 66,
+      "TopicID": 14887,
+      "TopicRef": ".",
+      "TopicName": ". نمود صبح",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>نمود صبح</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 498547,
+      "SubjectID": 66,
+      "TopicID": 14888,
+      "TopicRef": ".",
+      "TopicName": ". خطاب بہ جواناں اسلام",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>خطاب بہ جوانان اسلام</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 28,
+        "bankType": "long",
+        "exportName": "long-summary"
+      }
+    },
+    {
+      "QuestionID": 498578,
+      "SubjectID": 66,
+      "TopicID": 14889,
+      "TopicRef": ".",
+      "TopicName": ". وغیرہ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>وغیرہ</p>\r\n",
       "EnglishQuestionDetails": null,
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,

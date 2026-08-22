@@ -8,8 +8,8 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 1050,
-  "exportedAt": "2026-08-10T11:57:20.910Z",
+  "total": 1056,
+  "exportedAt": "2026-08-22T09:52:47.809Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -29763,6 +29763,106 @@
       }
     },
     {
+      "QuestionID": 336910,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مکمل اس کے حصوں کے مجموعے سے بڑا ہے، کہا تھا:</p>\r\n",
+      "EnglishQuestionDetails": "<p> \"The whole is greater than the sum of its parts\" is said by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 437041,
+          "QuestionID": 336910,
+          "UmOption": "<p>بو علی سینا</p>\r\n",
+          "EmOption": "<p> Abu Ali Sina</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 437042,
+          "QuestionID": 336910,
+          "UmOption": "<p>ارسطو</p>\r\n",
+          "EmOption": "<p>Aristotle </p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 437043,
+          "QuestionID": 336910,
+          "UmOption": "<p>ابن رشد</p>\r\n",
+          "EmOption": "<p>Ibn Rushd </p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 437044,
+          "QuestionID": 336910,
+          "UmOption": "<p>ابو عثمان عمر الجاحز</p>\r\n",
+          "EmOption": "<p>Abu Usman Umar Al-Jahiz </p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 336911,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>وہ صلاحیتیں&nbsp;جو اعلی لیول یا تنظیم میں موجود ہوتی&nbsp;ہیں لیکن ان سے ممکن نہیں ہیں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>&nbsp;The abilities that are present in higher level or organization but are not possible from the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 304193,
+          "QuestionID": 336911,
+          "UmOption": "<p>پورے حصے&nbsp;</p>\r\n",
+          "EmOption": "<p>&nbsp;Whole components</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 304194,
+          "QuestionID": 336911,
+          "UmOption": "<p>آدھے حصے</p>\r\n",
+          "EmOption": "<p>&nbsp;Half components&nbsp;</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 304195,
+          "QuestionID": 336911,
+          "UmOption": "<p>انفرادی حصے</p>\r\n",
+          "EmOption": "<p>Individual components&nbsp;</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 304196,
+          "QuestionID": 336911,
+          "UmOption": "<p>غیر متوقع</p>\r\n",
+          "EmOption": "<p>Unpredictable&nbsp;</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 336912,
       "SubjectID": 43,
       "TopicID": 10445,
@@ -29802,6 +29902,206 @@
           "QuestionID": 336912,
           "UmOption": "<p>آرگن</p>\r\n",
           "EmOption": "<p>Organ&nbsp;</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 336913,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>مندرجہ ذیل میں سے دل کا کونسا ٹشو پورے جسم&nbsp;مین خون&nbsp;پمپ کرنے میں مدد دیتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>&nbsp;Which of the following tissue of heart helps to pump blood throughout the body:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 292161,
+          "QuestionID": 336913,
+          "UmOption": "<p>مسل ٹشو</p>\r\n",
+          "EmOption": "<p>&nbsp;Muscle tissue&nbsp;</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 292162,
+          "QuestionID": 336913,
+          "UmOption": "<p>کنیکٹو ٹشو</p>\r\n",
+          "EmOption": "<p>Connective tissue&nbsp;</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 292163,
+          "QuestionID": 336913,
+          "UmOption": "<p>ایپی تھیلیل</p>\r\n",
+          "EmOption": "<p>&nbsp;Epithelial tissue&nbsp;</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 292164,
+          "QuestionID": 336913,
+          "UmOption": "<p>کوئی نہیں</p>\r\n",
+          "EmOption": "<p>None</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 336914,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>فرد میں،مختلف آرگن سسٹم کا تعامل لاتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>In individual, the interaction of various organ system brings:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 320913,
+          "QuestionID": 336914,
+          "UmOption": "<p>شعور</p>\r\n",
+          "EmOption": "<p>Consciousness</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 320914,
+          "QuestionID": 336914,
+          "UmOption": "<p>سوچنا</p>\r\n",
+          "EmOption": "<p>Thinking</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 320915,
+          "QuestionID": 336914,
+          "UmOption": "<p>ماحول کو اپنانے کی صلاحیت</p>\r\n",
+          "EmOption": "<p> Ability to adapt environment</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 320916,
+          "QuestionID": 336914,
+          "UmOption": "<p>مندرجہ بالا تمام</p>\r\n",
+          "EmOption": "<p>All of the above</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 347834,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اگر تنظیم کے لیولز میں ٹشو لیول&nbsp;تیار&nbsp; نہیں&nbsp;ہوتا ہے ،تو کونسا اگلا لیول نہیں بنے گا؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>If tissue level is not developed in the levels of organization, which of the next level will not be formed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 292177,
+          "QuestionID": 347834,
+          "UmOption": "<p>مالیکیولر لیول</p>\r\n",
+          "EmOption": "<p>Molecular level</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 292178,
+          "QuestionID": 347834,
+          "UmOption": "<p>اٹامک لیول</p>\r\n",
+          "EmOption": "<p>Atomic level</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 292179,
+          "QuestionID": 347834,
+          "UmOption": "<p>آرگن لیول</p>\r\n",
+          "EmOption": "<p>Organ level</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 292180,
+          "QuestionID": 347834,
+          "UmOption": "<p>آرگیزم لیول</p>\r\n",
+          "EmOption": "<p>Organellel level</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 347835,
+      "SubjectID": 43,
+      "TopicID": 10445,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 LEVELS OF ORGANIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کونسی ساخت تنظیم کے لیولز کی مختلف سطح پر دوسرے&nbsp;تینوں میں سے مختلف ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which structure is at a different level of organization from the other three?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 292241,
+          "QuestionID": 347835,
+          "UmOption": "<p>گردے</p>\r\n",
+          "EmOption": "<p>Kidney</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 292242,
+          "QuestionID": 347835,
+          "UmOption": "<p>جگر</p>\r\n",
+          "EmOption": "<p>Liver</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 292243,
+          "QuestionID": 347835,
+          "UmOption": "<p>نیورون</p>\r\n",
+          "EmOption": "<p>Neuron</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 292244,
+          "QuestionID": 347835,
+          "UmOption": "<p>پھیپھڑے</p>\r\n",
+          "EmOption": "<p>Lung</p>\r\n",
           "Answer": false
         }
       ],
