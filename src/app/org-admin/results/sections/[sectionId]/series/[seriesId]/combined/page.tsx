@@ -78,6 +78,7 @@ export default async function CombinedSeriesGazettePage({
         rollNumber: true,
         name: true,
         fatherName: true,
+        phone: true,
         stream: true,
         electiveSubjectId: true,
         electiveChoices: { select: { subjectId: true } },
@@ -150,6 +151,9 @@ export default async function CombinedSeriesGazettePage({
       columns={columns}
       rows={rows}
       backHref={`/org-admin/results/sections/${section.id}/series/${series.id}`}
+      phoneByStudentId={Object.fromEntries(
+        students.map((student) => [student.id, student.phone]),
+      )}
     />
   );
 }

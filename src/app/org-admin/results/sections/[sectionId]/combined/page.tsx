@@ -69,6 +69,7 @@ export default async function CombinedResultsPage({
         rollNumber: true,
         name: true,
         fatherName: true,
+        phone: true,
         stream: true,
         electiveSubjectId: true,
         electiveChoices: { select: { subjectId: true } },
@@ -143,6 +144,9 @@ export default async function CombinedResultsPage({
       columns={columns}
       rows={rows}
       backHref={`/org-admin/results/sections/${section.id}`}
+      phoneByStudentId={Object.fromEntries(
+        students.map((student) => [student.id, student.phone]),
+      )}
     />
   );
 }
