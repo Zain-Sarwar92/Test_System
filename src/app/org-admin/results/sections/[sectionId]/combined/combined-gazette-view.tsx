@@ -5,6 +5,10 @@ import { Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { MultiRoundColumn, MultiRoundStudentRow } from "@/lib/results";
 import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
+import {
+  WhatsAppResultPanel,
+  type WhatsAppShareStudent,
+} from "@/app/org-admin/results/whatsapp-result-panel";
 
 type Org = {
   name: string;
@@ -258,6 +262,7 @@ export function CombinedGazetteView({
   columns,
   rows,
   backHref,
+  phoneByStudentId = {},
 }: {
   organization: Org;
   boardName: string;
@@ -268,6 +273,7 @@ export function CombinedGazetteView({
   columns: MultiRoundColumn[];
   rows: MultiRoundStudentRow[];
   backHref: string;
+  phoneByStudentId?: Record<string, string | null | undefined>;
 }) {
   const roundCount = Math.max(
     1,
@@ -278,6 +284,37 @@ export function CombinedGazetteView({
   const subjectChunks = useMemo(
     () => chunkColumns(columns, pageSize),
     [columns, pageSize],
+  );
+
+  const shareStudents = useMemo<WhatsAppShareStudent[]>(
+    () =>
+      rows.map((row) => ({
+        id: row.id,
+        rollNumber: row.rollNumber,
+        name: row.name,
+        fatherName: row.fatherName,
+        phone: phoneByStudentId[row.id] ?? null,
+        lines: row.breakdown.map((cell, index) => {
+          const column = columns[index];
+          const rounds = cell.roundValues
+            .map((value, roundIndex) => {
+              const label =
+                column?.rounds[roundIndex]?.label.match(/(\d+)/)?.[1] ??
+                String(roundIndex + 1);
+              return `R${label}:${value.display}`;
+            })
+            .join(" ");
+          return {
+            label: column?.label ?? cell.key,
+            value: rounds || "—",
+          };
+        }),
+        total: row.complete ? `${row.obtainedTotal}/${row.maxTotal}` : null,
+        percent: row.percent,
+        grade: row.grade,
+        position: row.position,
+      })),
+    [rows, columns, phoneByStudentId],
   );
 
   const chrome = {
@@ -306,6 +343,15 @@ export function CombinedGazetteView({
           Print / Save PDF
         </Button>
       </div>
+
+      <WhatsAppResultPanel
+        orgName={organization.name.trim() || "Institute"}
+        title={`Combined result: ${roundLabels.join(" + ")}`}
+        className={className}
+        sectionName={sectionName}
+        session={session}
+        students={shareStudents}
+      />
 
       {columns.length === 0 ? (
         <article className="student-list-sheet gazette-sheet">

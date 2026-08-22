@@ -1,9 +1,14 @@
 "use client";
 
+import { useMemo } from "react";
 import { Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { CompiledStudent, GazetteColumn } from "@/lib/results";
 import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
+import {
+  WhatsAppResultPanel,
+  type WhatsAppShareStudent,
+} from "@/app/org-admin/results/whatsapp-result-panel";
 
 type Org = {
   name: string;
@@ -23,6 +28,7 @@ export function GazetteView({
   rows,
   backHref,
   subtitle,
+  phoneByStudentId = {},
 }: {
   organization: Org;
   boardName: string;
@@ -34,11 +40,34 @@ export function GazetteView({
   rows: CompiledStudent[];
   backHref: string;
   subtitle?: string | null;
+  phoneByStudentId?: Record<string, string | null | undefined>;
 }) {
   const orgName = organization.name.trim() || "Institute";
   const logoUrl = organization.logoUrl?.trim() || null;
   const complete = rows.filter((row) => row.complete).length;
   const passed = rows.filter((row) => row.passed).length;
+
+  const shareStudents = useMemo<WhatsAppShareStudent[]>(
+    () =>
+      rows.map((row) => ({
+        id: row.id,
+        rollNumber: row.rollNumber,
+        name: row.name,
+        fatherName: row.fatherName,
+        phone: phoneByStudentId[row.id] ?? null,
+        lines: row.cells
+          .filter((cell) => cell.applicable)
+          .map((cell, index) => ({
+            label: columns[index]?.label ?? cell.name,
+            value: cell.display,
+          })),
+        total: row.complete ? `${row.obtainedTotal}/${row.maxTotal}` : null,
+        percent: row.percent,
+        grade: row.grade,
+        position: row.position,
+      })),
+    [rows, columns, phoneByStudentId],
+  );
 
   return (
     <div className="print-page student-list-print">
@@ -49,6 +78,15 @@ export function GazetteView({
           Print / Save PDF
         </Button>
       </div>
+
+      <WhatsAppResultPanel
+        orgName={orgName}
+        title={`Result: ${examName}${subtitle ? ` · ${subtitle}` : ""}`}
+        className={className}
+        sectionName={sectionName}
+        session={session}
+        students={shareStudents}
+      />
 
       <article className="student-list-sheet gazette-sheet">
         {logoUrl ? (

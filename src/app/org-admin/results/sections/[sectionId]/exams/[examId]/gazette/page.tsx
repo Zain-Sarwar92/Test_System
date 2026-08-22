@@ -62,6 +62,7 @@ export default async function SectionGazettePage({
         rollNumber: true,
         name: true,
         fatherName: true,
+        phone: true,
         stream: true,
         electiveSubjectId: true,
         electiveChoices: { select: { subjectId: true } },
@@ -168,6 +169,9 @@ export default async function SectionGazettePage({
       rows={rowsWithManual}
       backHref={`/org-admin/results/sections/${section.id}/exams/${exam.id}`}
       subtitle={`${stream === "SCIENCE" ? "Science" : "Arts"} Group`}
+      phoneByStudentId={Object.fromEntries(
+        students.map((student) => [student.id, student.phone]),
+      )}
     />
   );
 }
