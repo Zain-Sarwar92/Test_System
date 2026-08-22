@@ -13,6 +13,7 @@ import {
   type ExamQuestionPatch,
 } from "@/components/exam-paper-sheet";
 import { cn } from "@/lib/utils";
+import { sectionTotalMarks } from "@/lib/paper-marks";
 import type { PoolQuestionCard } from "@/app/teacher/generate/actions";
 import { saveSavedPaper } from "./actions";
 import {
@@ -24,6 +25,7 @@ type PreviewSection = {
   type: "MCQ" | "SHORT" | "LONG";
   title: string;
   marksEach: number;
+  attemptCount?: number;
   questions: PoolQuestionCard[];
 };
 
@@ -118,7 +120,17 @@ export function SavedPaperPreview({
     [sections],
   );
   const totalMarks = useMemo(
-    () => sections.reduce((sum, s) => sum + s.questions.length * s.marksEach, 0),
+    () =>
+      sections.reduce(
+        (sum, s) =>
+          sum +
+          sectionTotalMarks({
+            questionCount: s.questions.length,
+            marksEach: s.marksEach,
+            attemptCount: s.attemptCount,
+          }),
+        0,
+      ),
     [sections],
   );
 
@@ -235,6 +247,7 @@ export function SavedPaperPreview({
     type: s.type,
     title: s.title,
     marksEach: s.marksEach,
+    attemptCount: s.attemptCount,
     questions: s.questions,
   }));
 

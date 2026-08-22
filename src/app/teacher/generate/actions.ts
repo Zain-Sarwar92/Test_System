@@ -23,6 +23,8 @@ import {
   type EnglishFieldFilter,
 } from "./english-fields";
 import { englishFieldWhere } from "@/lib/english-field-utils";
+import { aggregateQuestionsMedium } from "@/lib/question-medium";
+import { sectionTotalMarks } from "@/lib/paper-marks";
 
 export type PoolQuestionCard = {
   id: string;
@@ -200,7 +202,11 @@ export async function searchQuestionPool(input: {
     prisma.question.findMany({
       where,
       select: POOL_QUESTION_SELECT,
-      orderBy: [{ topic: { chapter: { order: "asc" } } }, { text: "asc" }],
+      orderBy: [
+        { topic: { chapter: { order: "asc" } } },
+        { topic: { order: "asc" } },
+        { text: "asc" },
+      ],
       take: 5000,
     }),
     prisma.question.count({ where }),
@@ -210,6 +216,44 @@ export async function searchQuestionPool(input: {
     questions: questions.map(mapQuestion),
     total,
   };
+}
+
+const inferMediumSchema = z.object({
+  topicIds: z.array(z.string().min(1)).min(1),
+  type: z.enum(["MCQ", "SHORT", "LONG"]),
+  chapterIds: z.array(z.string().min(1)).optional(),
+  englishField: z.enum(ENGLISH_FIELD_VALUES).default("ALL"),
+});
+
+/** Detect Dual / English / Urdu for a question type from bank content. */
+export async function inferQuestionTypeMedium(input: {
+  topicIds: string[];
+  type: "MCQ" | "SHORT" | "LONG";
+  chapterIds?: string[];
+  englishField?: EnglishFieldFilter;
+}): Promise<QuestionMedium> {
+  await requirePaperGeneratorWithOrg();
+  const parsed = inferMediumSchema.parse(input);
+
+  const rows = await prisma.question.findMany({
+    where: {
+      isActive: true,
+      type: parsed.type,
+      topicId: { in: parsed.topicIds },
+      ...poolSourceWhere({
+        source: "ALL",
+        englishField: parsed.englishField,
+      }),
+      ...chapterScopeWhere({
+        englishField: parsed.englishField,
+        chapterIds: parsed.chapterIds,
+      }),
+    },
+    select: { text: true, textUrdu: true },
+    take: 400,
+  });
+
+  return aggregateQuestionsMedium(rows);
 }
 
 const randomSchema = poolSchema.extend({
@@ -562,7 +606,21 @@ export async function saveSectionBuiltTest(input: z.infer<typeof saveSchema>) {
     throw new Error("No valid questions selected");
   }
 
-  const totalMarks = orderedItems.reduce((sum, item) => sum + item.marks, 0);
+  const totalMarks = parsed.sections.reduce((sum, section) => {
+    const marksEach =
+      section.marksEach ??
+      (section.questionIds[0]
+        ? (byId.get(section.questionIds[0])?.marks ?? 1)
+        : 1);
+    return (
+      sum +
+      sectionTotalMarks({
+        questionCount: section.questionIds.length,
+        marksEach,
+        attemptCount: section.attemptCount,
+      })
+    );
+  }, 0);
   const examDate =
     forcedExamDate && !Number.isNaN(forcedExamDate.getTime())
       ? forcedExamDate

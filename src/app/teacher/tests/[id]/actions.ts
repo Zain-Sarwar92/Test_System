@@ -5,6 +5,10 @@ import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireRole, requireActiveOrganizationId } from "@/lib/rbac";
 import { syncAssignmentCoverageForTest } from "@/lib/test-schedules";
+import {
+  parseAttemptCountFromInstructions,
+  sectionTotalMarks,
+} from "@/lib/paper-marks";
 
 async function requireOwnedTest(testId: string) {
   const session = await requireRole(["TEACHER"]);
@@ -380,11 +384,43 @@ export async function replaceSectionOnSavedTest(input: {
 }
 
 async function recalculateMarksAndOrder(testId: string) {
+  const test = await prisma.test.findUnique({
+    where: { id: testId },
+    select: { instructions: true },
+  });
   const items = await prisma.testQuestion.findMany({
     where: { testId },
     orderBy: { order: "asc" },
-    include: { question: { select: { marks: true } } },
+    include: {
+      question: { select: { marks: true, type: true } },
+    },
   });
+
+  const byType = new Map<
+    "MCQ" | "SHORT" | "LONG",
+    Array<(typeof items)[number]>
+  >();
+  for (const item of items) {
+    const type = item.question.type as "MCQ" | "SHORT" | "LONG";
+    const list = byType.get(type) ?? [];
+    list.push(item);
+    byType.set(type, list);
+  }
+
+  let totalMarks = 0;
+  for (const type of ["MCQ", "SHORT", "LONG"] as const) {
+    const rows = byType.get(type);
+    if (!rows?.length) continue;
+    const marksEach = rows[0].marks || rows[0].question.marks || 1;
+    totalMarks += sectionTotalMarks({
+      questionCount: rows.length,
+      marksEach,
+      attemptCount: parseAttemptCountFromInstructions(
+        test?.instructions,
+        type,
+      ),
+    });
+  }
 
   await prisma.$transaction([
     ...items.map((item, index) =>
@@ -398,12 +434,7 @@ async function recalculateMarksAndOrder(testId: string) {
     ),
     prisma.test.update({
       where: { id: testId },
-      data: {
-        totalMarks: items.reduce(
-          (sum, item) => sum + (item.marks || item.question.marks),
-          0,
-        ),
-      },
+      data: { totalMarks },
     }),
   ]);
 }

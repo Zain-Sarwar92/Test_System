@@ -17,6 +17,8 @@ import {
 } from "@/components/exam-paper-sheet";
 import { cn } from "@/lib/utils";
 import { buildTopicUsage } from "@/lib/distribution/engine";
+import { aggregateQuestionsMedium } from "@/lib/question-medium";
+import { sectionTotalMarks } from "@/lib/paper-marks";
 import { RichText } from "@/components/rich-text";
 import {
   Atom,
@@ -38,6 +40,7 @@ import {
   pickRandomQuestions,
   saveSectionBuiltTest,
   searchQuestionPool,
+  inferQuestionTypeMedium,
   type PoolQuestionCard,
   type QuestionMedium,
   type QuestionSourceFilter,
@@ -45,12 +48,27 @@ import {
 import {
   DEFAULT_ENGLISH_TYPE_FIELD,
   defaultEnglishFieldForType,
+  defaultIslamiyatFieldForType,
+  defaultTarjumaFieldForType,
+  defaultUrduFieldForType,
   englishOptionsForCounts,
   englishTypeFieldSelectValue,
   isEnglishSubjectName,
   isIntermediateEnglishClass,
+  isIslamiyatSubjectName,
+  isTarjumaSubjectName,
+  isUrduSubjectName,
+  islamiyatOptionsForCounts,
+  islamiyatTypeFieldSelectValue,
   parseEnglishTypeField,
+  parseIslamiyatTypeField,
+  parseTarjumaTypeField,
+  parseUrduTypeField,
   sumEnglishFieldCounts,
+  tarjumaOptionsForCounts,
+  tarjumaTypeFieldSelectValue,
+  urduOptionsForCounts,
+  urduTypeFieldSelectValue,
   type EnglishFieldFilter,
 } from "./english-fields";
 
@@ -313,7 +331,7 @@ function QuestionBilingualText({
       <RichText
         as="p"
         value={text}
-        className={cn("text-sm font-medium text-ink whitespace-pre-wrap", className)}
+        className={cn("font-medium text-ink whitespace-pre-wrap", className)}
       />
     );
   }
@@ -323,22 +341,38 @@ function QuestionBilingualText({
         as="p"
         value={textUrdu || text}
         dir="rtl"
-        className={cn("text-sm font-medium text-ink whitespace-pre-wrap", className)}
+        className={cn("font-medium text-ink whitespace-pre-wrap", className)}
+      />
+    );
+  }
+  const urduSide = textUrdu?.trim();
+  const duplicate =
+    !urduSide ||
+    urduSide === "—" ||
+    urduSide === text.trim();
+  if (duplicate) {
+    const looksUrdu = /[\u0600-\u06FF]/.test(text);
+    return (
+      <RichText
+        as="p"
+        value={textUrdu || text}
+        dir={looksUrdu ? "rtl" : undefined}
+        className={cn("font-medium text-ink whitespace-pre-wrap", className)}
       />
     );
   }
   return (
-    <div className={cn("grid gap-2 sm:grid-cols-2", className)}>
+    <div className={cn("grid gap-x-6 gap-y-1 sm:grid-cols-2", className)}>
       <RichText
         as="p"
         value={text}
-        className="text-sm font-medium text-ink whitespace-pre-wrap"
+        className="font-medium text-ink whitespace-pre-wrap"
       />
       <RichText
         as="p"
         value={textUrdu || "—"}
         dir="rtl"
-        className="text-sm font-medium text-ink whitespace-pre-wrap"
+        className="font-medium text-ink whitespace-pre-wrap text-right"
       />
     </div>
   );
@@ -458,7 +492,10 @@ export function GenerateWizard({
   const [testType, setTestType] = useState(scheduleContext?.scheduleName ?? "");
   const [message, setMessage] = useState<string | null>(null);
 
+  /** Multi-chapter distribution planner — keep off for MVP picker flow. */
+  const CHAPTER_PLANNER_ENABLED = false;
   const isMultiChapter = selectedChapterIds.length > 1;
+  const useChapterPlanner = CHAPTER_PLANNER_ENABLED && isMultiChapter;
   const questionsLocked = selectionMode === "random";
 
   const selectedBoard = boards.find((b) => b.id === boardId);
@@ -466,47 +503,83 @@ export function GenerateWizard({
   const selectedSubject = selectedClass?.subjects.find((s) => s.id === subjectId);
   const chapters = selectedSubject?.chapters ?? [];
   const isEnglishSubject = isEnglishSubjectName(selectedSubject?.name);
+  const isUrduSubject = isUrduSubjectName(selectedSubject?.name);
+  const isIslamiyatSubject = isIslamiyatSubjectName(selectedSubject?.name);
+  const isTarjumaSubject = isTarjumaSubjectName(selectedSubject?.name);
+  const usesPtsTypeFields =
+    isEnglishSubject ||
+    isUrduSubject ||
+    isIslamiyatSubject ||
+    isTarjumaSubject;
   const isIntermediateEnglish =
     isEnglishSubject && isIntermediateEnglishClass(selectedClass?.name);
   const selectedTopicIdSet = useMemo(
     () => new Set(selectedTopicIds),
     [selectedTopicIds],
   );
-  const selectedTopicsFlat = useMemo(
-    () =>
-      chapters.flatMap((chapter) =>
-        chapter.topics.filter((topic) => selectedTopicIdSet.has(topic.id)),
-      ),
-    [chapters, selectedTopicIdSet],
+  /** Subject-wide field counts so type list stays stable across chapter selection. */
+  const subjectTopicsFlat = useMemo(
+    () => chapters.flatMap((chapter) => chapter.topics),
+    [chapters],
   );
-  const englishFieldCounts = useMemo(
+  const subjectTopicIdSet = useMemo(
+    () => new Set(subjectTopicsFlat.map((t) => t.id)),
+    [subjectTopicsFlat],
+  );
+  const subjectFieldCounts = useMemo(
     () =>
-      isEnglishSubject
-        ? sumEnglishFieldCounts(selectedTopicsFlat, selectedTopicIdSet)
+      usesPtsTypeFields
+        ? sumEnglishFieldCounts(subjectTopicsFlat, subjectTopicIdSet)
         : {},
-    [isEnglishSubject, selectedTopicsFlat, selectedTopicIdSet],
+    [usesPtsTypeFields, subjectTopicsFlat, subjectTopicIdSet],
   );
-  const availableEnglishOptions = useMemo(
-    () =>
-      englishOptionsForCounts(englishFieldCounts, {
+  const availablePtsTypeOptions = useMemo(() => {
+    if (isTarjumaSubject) {
+      return tarjumaOptionsForCounts(subjectFieldCounts);
+    }
+    if (isIslamiyatSubject) {
+      return islamiyatOptionsForCounts(subjectFieldCounts);
+    }
+    if (isUrduSubject) {
+      return urduOptionsForCounts(subjectFieldCounts);
+    }
+    if (isEnglishSubject) {
+      return englishOptionsForCounts(subjectFieldCounts, {
         intermediate: isIntermediateEnglish,
-      }),
-    [englishFieldCounts, isIntermediateEnglish],
-  );
-  function firstEnglishFieldForType(type: QType): EnglishFieldFilter {
+      });
+    }
+    return [];
+  }, [
+    isTarjumaSubject,
+    isIslamiyatSubject,
+    isUrduSubject,
+    isEnglishSubject,
+    subjectFieldCounts,
+    isIntermediateEnglish,
+  ]);
+  function firstPtsFieldForType(type: QType): EnglishFieldFilter {
     return (
-      availableEnglishOptions.find((opt) => opt.type === type)?.field ??
-      defaultEnglishFieldForType(type)
+      availablePtsTypeOptions.find((opt) => opt.type === type)?.field ??
+      (isTarjumaSubject
+        ? defaultTarjumaFieldForType(type)
+        : isIslamiyatSubject
+          ? defaultIslamiyatFieldForType(type)
+          : isUrduSubject
+            ? defaultUrduFieldForType(type)
+            : defaultEnglishFieldForType(type))
     );
   }
-  const englishTypeFieldValue = englishTypeFieldSelectValue(
-    activeType,
-    englishField,
-  );
+  const ptsTypeFieldValue = isTarjumaSubject
+    ? tarjumaTypeFieldSelectValue(activeType, englishField)
+    : isIslamiyatSubject
+      ? islamiyatTypeFieldSelectValue(activeType, englishField)
+      : isUrduSubject
+        ? urduTypeFieldSelectValue(activeType, englishField)
+        : englishTypeFieldSelectValue(activeType, englishField);
 
   const pickerFilterSummary = useMemo(() => {
-    const typeLabel = isEnglishSubject
-      ? (availableEnglishOptions.find((opt) => opt.value === englishTypeFieldValue)
+    const typeLabel = usesPtsTypeFields
+      ? (availablePtsTypeOptions.find((opt) => opt.value === ptsTypeFieldValue)
           ?.label ?? TYPE_META[activeType].short)
       : TYPE_META[activeType].short;
     const sourceLabel =
@@ -530,9 +603,9 @@ export function GenerateWizard({
   }, [
     activeType,
     attemptCount,
-    availableEnglishOptions,
-    englishTypeFieldValue,
-    isEnglishSubject,
+    availablePtsTypeOptions,
+    ptsTypeFieldValue,
+    usesPtsTypeFields,
     marksPerQuestion,
     medium,
     requiredCount,
@@ -553,7 +626,13 @@ export function GenerateWizard({
     0,
   );
   const paperMarks = paperSections.reduce(
-    (sum, s) => sum + s.questions.length * s.marksEach,
+    (sum, s) =>
+      sum +
+      sectionTotalMarks({
+        questionCount: s.questions.length,
+        marksEach: s.marksEach,
+        attemptCount: s.attemptCount,
+      }),
     0,
   );
 
@@ -610,20 +689,20 @@ export function GenerateWizard({
     plannerTotals.MCQ + plannerTotals.SHORT + plannerTotals.LONG;
 
   useEffect(() => {
-    if (!isEnglishSubject || availableEnglishOptions.length === 0) return;
-    const current = availableEnglishOptions.some(
+    if (!usesPtsTypeFields || availablePtsTypeOptions.length === 0) return;
+    const current = availablePtsTypeOptions.some(
       (opt) => opt.type === activeType && opt.field === englishField,
     );
     if (current) return;
     const fallback =
-      availableEnglishOptions.find((opt) => opt.type === activeType) ??
-      availableEnglishOptions[0];
+      availablePtsTypeOptions.find((opt) => opt.type === activeType) ??
+      availablePtsTypeOptions[0];
     if (!fallback) return;
     setActiveType(fallback.type);
     setEnglishField(fallback.field);
   }, [
-    isEnglishSubject,
-    availableEnglishOptions,
+    usesPtsTypeFields,
+    availablePtsTypeOptions,
     activeType,
     englishField,
   ]);
@@ -652,6 +731,31 @@ export function GenerateWizard({
 
   const visiblePool = poolView === "selected" ? draftSelected : pool;
 
+  const poolByTopic = useMemo(() => {
+    const groups: Array<{
+      topicId: string;
+      topicName: string;
+      chapterName: string;
+      questions: PoolQuestionCard[];
+    }> = [];
+    const index = new Map<string, (typeof groups)[number]>();
+    for (const q of visiblePool) {
+      let group = index.get(q.topicId);
+      if (!group) {
+        group = {
+          topicId: q.topicId,
+          topicName: q.topicName,
+          chapterName: q.chapterName,
+          questions: [],
+        };
+        index.set(q.topicId, group);
+        groups.push(group);
+      }
+      group.questions.push(q);
+    }
+    return groups;
+  }, [visiblePool]);
+
   function goToStep(next: Step) {
     setMessage(null);
     if (next !== "paper") setManualEditMode(false);
@@ -665,8 +769,8 @@ export function GenerateWizard({
     setMedium("BOTH");
     setSourceFilter("ALL");
     setEnglishField(
-      isEnglishSubject
-        ? (availableEnglishOptions[0]?.field ?? DEFAULT_ENGLISH_TYPE_FIELD.field)
+      usesPtsTypeFields
+        ? (availablePtsTypeOptions[0]?.field ?? DEFAULT_ENGLISH_TYPE_FIELD.field)
         : DEFAULT_ENGLISH_TYPE_FIELD.field,
     );
     setPoolView("browse");
@@ -753,8 +857,8 @@ export function GenerateWizard({
     setSyllabusNote(scheduleContext?.syllabusText ?? "");
     setMessage(null);
 
-    // Single chapter: skip planner → paper preview + question picker popup
-    if (selectedChapterIds.length <= 1) {
+    // Skip planner (hidden): go straight to paper + question picker
+    if (!useChapterPlanner || selectedChapterIds.length <= 1) {
       setChapterPlan([]);
       setSelectionMode("manual");
       setModalOpen(true);
@@ -782,7 +886,7 @@ export function GenerateWizard({
       return;
     }
 
-    // Multi chapter: show distribution planner first
+    // Multi chapter: show distribution planner first (only if enabled)
     if (presetTargets) {
       const topicSet = new Set(selectedTopicIds);
       const rows = selectedChapters.map((chapter) => ({
@@ -877,7 +981,7 @@ export function GenerateWizard({
   }
 
   function hasChapterPlan() {
-    return isMultiChapter && chapterPlan.length > 0 && plannerQuestionTotal > 0;
+    return useChapterPlanner && chapterPlan.length > 0 && plannerQuestionTotal > 0;
   }
 
   function chapterQuotasForType(type: QType) {
@@ -891,11 +995,12 @@ export function GenerateWizard({
 
   function activateTypeWithPlan(type: QType) {
     const planned = plannedCountForType(type);
+    const field = firstPtsFieldForType(type);
     setActiveType(type);
     setRequiredCount(planned > 0 ? planned : "");
     setMarksPerQuestion(typeMeta[type].defaultMarks);
     setAttemptCount("");
-    setEnglishField(firstEnglishFieldForType(type));
+    setEnglishField(field);
     setPool([]);
     setPoolTotal(0);
     setDraftSelected([]);
@@ -904,6 +1009,7 @@ export function GenerateWizard({
       const allowed = chapterQuotasForType(type).map((q) => q.chapterId);
       setSectionChapterIds(allowed.length > 0 ? allowed : [...selectedChapterIds]);
     }
+    void syncMediumForType(type, field);
   }
 
   function openPickerFromPlanner() {
@@ -931,9 +1037,10 @@ export function GenerateWizard({
       activateTypeWithPlan(type);
       return;
     }
+    const field = firstPtsFieldForType(type);
     setActiveType(type);
     setAttemptCount("");
-    setEnglishField(firstEnglishFieldForType(type));
+    setEnglishField(field);
     setPool([]);
     setPoolTotal(0);
     setDraftSelected([]);
@@ -951,15 +1058,23 @@ export function GenerateWizard({
       setRequiredCount("");
       setMarksPerQuestion(typeMeta[type].defaultMarks);
     }
+    void syncMediumForType(type, field);
   }
 
-  function activateEnglishTypeField(value: string) {
-    const parsed = parseEnglishTypeField(value);
+  function activatePtsTypeField(value: string) {
+    const parsed = isTarjumaSubject
+      ? parseTarjumaTypeField(value)
+      : isIslamiyatSubject
+        ? parseIslamiyatTypeField(value)
+        : isUrduSubject
+          ? parseUrduTypeField(value)
+          : parseEnglishTypeField(value);
     if (!parsed) return;
 
     if (hasChapterPlan()) {
       activateTypeWithPlan(parsed.type);
       setEnglishField(parsed.field);
+      void syncMediumForType(parsed.type, parsed.field);
       return;
     }
 
@@ -972,6 +1087,26 @@ export function GenerateWizard({
     setPoolTotal(0);
     setDraftSelected([]);
     setPoolView("browse");
+    void syncMediumForType(parsed.type, parsed.field);
+  }
+
+  async function syncMediumForType(type: QType, field: EnglishFieldFilter) {
+    const topicIds =
+      selectedTopicIds.length > 0
+        ? selectedTopicIds
+        : subjectTopicsFlat.map((t) => t.id);
+    if (topicIds.length === 0) return;
+    try {
+      const next = await inferQuestionTypeMedium({
+        topicIds,
+        type,
+        chapterIds: selectedChapterIds,
+        englishField: usesPtsTypeFields ? field : "ALL",
+      });
+      setMedium(next);
+    } catch {
+      // keep current medium on failure
+    }
   }
 
   function parsedRequired() {
@@ -1177,13 +1312,16 @@ export function GenerateWizard({
           chapterIds: sectionChapterIds,
           excludeIds: [...usedQuestionIds],
           source: sourceFilter,
-          englishField: isEnglishSubject ? englishField : "ALL",
+          englishField: usesPtsTypeFields ? englishField : "ALL",
           medium,
         });
         setPool(result.questions);
         setPoolTotal(result.total);
         setDraftSelected([]);
         setPoolView("browse");
+        if (result.questions.length > 0) {
+          setMedium(aggregateQuestionsMedium(result.questions));
+        }
         setMessage(
           result.total === 0
             ? `No ${TYPE_META[activeType].short} found`
@@ -1244,13 +1382,16 @@ export function GenerateWizard({
           excludeIds: [...usedQuestionIds],
           mode: "BALANCED",
           source: sourceFilter,
-          englishField: isEnglishSubject ? englishField : "ALL",
+          englishField: usesPtsTypeFields ? englishField : "ALL",
           medium,
         });
         setPool(result.questions);
         setPoolTotal(result.questions.length);
         setDraftSelected(result.questions);
         setPoolView("selected");
+        if (result.questions.length > 0) {
+          setMedium(aggregateQuestionsMedium(result.questions));
+        }
         if (hasChapterPlan()) {
           setRequiredCount(result.questions.length);
         }
@@ -1327,7 +1468,7 @@ export function GenerateWizard({
           mode: "BALANCED",
           topicUsage,
           source: sourceFilter,
-          englishField: isEnglishSubject ? englishField : "ALL",
+          englishField: usesPtsTypeFields ? englishField : "ALL",
           medium,
         });
 
@@ -1375,7 +1516,7 @@ export function GenerateWizard({
           mode: "BALANCED",
           topicUsage,
           source: sourceFilter,
-          englishField: isEnglishSubject ? englishField : "ALL",
+          englishField: usesPtsTypeFields ? englishField : "ALL",
           medium,
         });
         const replacement = result.questions[0];
@@ -2035,9 +2176,7 @@ export function GenerateWizard({
                   {selectedTopicIds.length}
                 </strong>{" "}
                 topics
-                {selectedChapterIds.length > 1
-                  ? " · distribution planner next"
-                  : " · question picker next"}
+                {" · question picker next"}
               </>
             }
           >
@@ -2046,9 +2185,7 @@ export function GenerateWizard({
               disabled={selectedTopicIds.length === 0}
               className="min-w-[10rem]"
             >
-              {selectedChapterIds.length > 1
-                ? "Continue → Distribution"
-                : "Continue → Select Questions"}
+              Continue → Select Questions
             </Button>
           </WizardActionBar>
         </>
@@ -2057,7 +2194,7 @@ export function GenerateWizard({
       {/* WORKSPACE */}
       {step === "workspace" ? (
         <div className="space-y-4">
-          {isMultiChapter && !modalOpen ? (
+          {useChapterPlanner && !modalOpen ? (
             <Card className="chart-card pts-planner-wrap">
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div className="min-w-0">
@@ -2474,13 +2611,13 @@ export function GenerateWizard({
                 >
                   <div className="pts-picker-field pts-picker-field--type">
                     <span className="pts-picker-label">Question type</span>
-                    {isEnglishSubject ? (
+                    {usesPtsTypeFields ? (
                       <SearchSelect
                         ariaLabel="Question type"
-                        value={englishTypeFieldValue}
-                        onChange={activateEnglishTypeField}
+                        value={ptsTypeFieldValue}
+                        onChange={activatePtsTypeField}
                         searchPlaceholder="Search question type…"
-                        options={availableEnglishOptions
+                        options={availablePtsTypeOptions
                           .filter(
                             (opt) =>
                               !hasChapterPlan() ||
@@ -2566,9 +2703,8 @@ export function GenerateWizard({
                       value={medium}
                       searchPlaceholder="Search medium…"
                       onChange={(next) => {
+                        // Keep pool + selection; only switch EN/UR/Dual display.
                         setMedium(next as QuestionMedium);
-                        setPool([]);
-                        setDraftSelected([]);
                       }}
                       options={MEDIUM_OPTIONS.map((opt) => ({
                         value: opt.value,
@@ -2628,81 +2764,110 @@ export function GenerateWizard({
                     {pending ? " · loading…" : ` · ${visiblePool.length} found`}
                   </div>
                   <div className="pts-picker-pool-list">
-                    {visiblePool.map((q, idx) => {
-                      const selected = draftSelected.some((d) => d.id === q.id);
-                      return (
+                    {(() => {
+                      let qIndex = 0;
+                      return poolByTopic.map((group) => (
                         <div
-                          key={q.id}
-                          className={cn(
-                            "pts-picker-pool-item",
-                            selected && "is-selected",
-                          )}
+                          key={group.topicId}
+                          className="pts-picker-topic-block"
                         >
-                          <button
-                            type="button"
-                            className="mt-1 shrink-0"
-                            onClick={() => toggleDraftQuestion(q)}
-                            aria-label={selected ? "Unselect question" : "Select question"}
-                          >
-                            <input type="checkbox" readOnly checked={selected} />
-                          </button>
-                          <button
-                            type="button"
-                            className="min-w-0 flex-1 text-left"
-                            onClick={() => toggleDraftQuestion(q)}
-                          >
-                            <div className="mb-1 flex flex-wrap items-center gap-2">
-                              <span className="text-xs font-bold text-muted">{idx + 1}</span>
-                              <span
+                          <div className="pts-picker-topic-heading">
+                            <span>{group.topicName}</span>
+                          </div>
+                          {group.questions.map((q) => {
+                            qIndex += 1;
+                            const selected = draftSelected.some(
+                              (d) => d.id === q.id,
+                            );
+                            return (
+                              <div
+                                key={q.id}
                                 className={cn(
-                                  "source-chip",
-                                  sourceKind(q.source) === "exercise" &&
-                                    "source-chip-exercise",
-                                  sourceKind(q.source) === "additional" &&
-                                    "source-chip-additional",
-                                  sourceKind(q.source) === "other" && "source-chip-other",
+                                  "pts-picker-pool-item",
+                                  selected && "is-selected",
                                 )}
                               >
-                                {sourceLabel(q.source)}
-                              </span>
-                              <span className="truncate text-[10px] text-muted">
-                                {q.topicName}
-                              </span>
-                            </div>
-                            <QuestionBilingualText
-                              text={q.text}
-                              textUrdu={q.textUrdu}
-                              medium={medium}
-                              className="pts-picker-q-text"
-                            />
-                            {activeType === "MCQ" ? (
-                              <div className="mt-1 grid gap-0.5 text-[11px] text-ink-soft sm:grid-cols-2">
-                                {[q.optionA, q.optionB, q.optionC, q.optionD].map(
-                                  (opt, i) =>
-                                    opt ? (
-                                      <p key={i}>
-                                        ({String.fromCharCode(65 + i)}) {opt}
-                                      </p>
-                                    ) : null,
-                                )}
+                                <button
+                                  type="button"
+                                  className="mt-0.5 shrink-0"
+                                  onClick={() => toggleDraftQuestion(q)}
+                                  aria-label={
+                                    selected
+                                      ? "Unselect question"
+                                      : "Select question"
+                                  }
+                                >
+                                  <input
+                                    type="checkbox"
+                                    readOnly
+                                    checked={selected}
+                                  />
+                                </button>
+                                <div className="pts-picker-pool-item-meta">
+                                  <span
+                                    className={cn(
+                                      "source-chip",
+                                      sourceKind(q.source) === "exercise" &&
+                                        "source-chip-exercise",
+                                      sourceKind(q.source) === "additional" &&
+                                        "source-chip-additional",
+                                      sourceKind(q.source) === "other" &&
+                                        "source-chip-other",
+                                    )}
+                                  >
+                                    {sourceLabel(q.source)}
+                                  </span>
+                                </div>
+                                <span className="pts-picker-pool-item-num">
+                                  {qIndex}.
+                                </span>
+                                <button
+                                  type="button"
+                                  className="pts-picker-pool-item-body"
+                                  onClick={() => toggleDraftQuestion(q)}
+                                >
+                                  <QuestionBilingualText
+                                    text={q.text}
+                                    textUrdu={q.textUrdu}
+                                    medium={medium}
+                                    className="pts-picker-q-text"
+                                  />
+                                  {activeType === "MCQ" ? (
+                                    <div className="mt-1 grid gap-0.5 text-[13px] text-ink-soft sm:grid-cols-2">
+                                      {[
+                                        q.optionA,
+                                        q.optionB,
+                                        q.optionC,
+                                        q.optionD,
+                                      ].map((opt, i) =>
+                                        opt ? (
+                                          <p key={i}>
+                                            ({String.fromCharCode(65 + i)}){" "}
+                                            {opt}
+                                          </p>
+                                        ) : null,
+                                      )}
+                                    </div>
+                                  ) : null}
+                                </button>
+                                {selected ? (
+                                  <Button
+                                    type="button"
+                                    size="sm"
+                                    variant="outline"
+                                    className="mt-0.5 shrink-0"
+                                    disabled={pending}
+                                    onClick={() => replaceOneQuestion(q)}
+                                  >
+                                    Replace
+                                  </Button>
+                                ) : null}
                               </div>
-                            ) : null}
-                          </button>
-                          {selected ? (
-                            <Button
-                              type="button"
-                              size="sm"
-                              variant="outline"
-                              className="mt-0.5 shrink-0"
-                              disabled={pending}
-                              onClick={() => replaceOneQuestion(q)}
-                            >
-                              Replace
-                            </Button>
-                          ) : null}
+                            );
+                          })}
                         </div>
-                      );
-                    })}
+                      ));
+                    })()}
                   </div>
                 </div>
               ) : (
