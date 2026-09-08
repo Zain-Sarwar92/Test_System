@@ -281,7 +281,7 @@ export function inferSubjectMeta(name: string): {
 }
 
 export function resolveSubjectMeta(subject: {
-  id: string;
+  id?: string;
   name: string;
   track?: SubjectTrack | null;
   electiveGroup?: string | null;
@@ -313,7 +313,7 @@ export function resolveSubjectMeta(subject: {
   else track = inferred.track;
 
   return {
-    id: subject.id,
+    id: subject.id ?? "",
     name: subject.name,
     track,
     electiveGroup,

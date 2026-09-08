@@ -7,6 +7,7 @@ import { PageHeader, PageStack } from "@/components/page-header";
 import { HubCrumb } from "@/components/hub-crumb";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import type { Prisma, StudentStream } from "@/generated/prisma/client";
 import {
   formatStudyGroupLabel,
   groupFilterOptionsForClass,
@@ -127,7 +128,7 @@ export default async function StudentsPage({
       ? requestedGroup
       : "";
 
-  const groupWhere =
+  const groupWhere: Prisma.StudentWhereInput | null =
     activeGroup === ""
       ? null
       : isStoredStudyGroup(activeGroup)
@@ -136,8 +137,8 @@ export default async function StudentsPage({
           ? {
               OR: [
                 { studyGroup: activeGroup },
-                { studyGroup: null, stream: activeGroup },
-                { studyGroup: "", stream: activeGroup },
+                { studyGroup: null, stream: activeGroup as StudentStream },
+                { studyGroup: "", stream: activeGroup as StudentStream },
               ],
             }
           : null;
