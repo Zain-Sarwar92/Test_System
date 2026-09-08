@@ -108,6 +108,23 @@ export function CreateOrgForm({
             minLength={10}
           />
         </label>
+        <label className="md:col-span-2">
+          <span className="field-label">
+            Full admin PIN (Paper desk unlock) <span className="req-mark">*</span>
+          </span>
+          <Input
+            name="deskUnlockPin"
+            inputMode="numeric"
+            pattern="[0-9]{4,12}"
+            placeholder="e.g. 5821"
+            required
+            minLength={4}
+            maxLength={12}
+          />
+          <p className="mt-1 text-xs text-muted">
+            Yeh PIN org admin ko do — Paper desk se Full admin kholne ke liye.
+          </p>
+        </label>
       </div>
 
       <OrgModuleCheckboxes />

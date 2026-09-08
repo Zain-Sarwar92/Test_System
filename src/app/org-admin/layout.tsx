@@ -1,9 +1,11 @@
 import { AppShell, type NavIcon } from "@/components/app-shell";
 import { getOrganizationName } from "@/lib/cached-queries";
+import { getOrgDeskMode } from "@/lib/org-desk-mode";
 import { getOrgModuleFlags } from "@/lib/org-modules";
 import { requireRole, getOrgMemberships } from "@/lib/rbac";
+import { DeskModeToggle } from "./desk-mode-toggle";
 
-const nav: Array<{
+const fullNav: Array<{
   href: string;
   label: string;
   icon: NavIcon;
@@ -21,6 +23,16 @@ const nav: Array<{
   { href: "/org-admin/profile", label: "Profile", icon: "profile" },
 ];
 
+const paperNav: Array<{
+  href: string;
+  label: string;
+  icon: NavIcon;
+}> = [
+  { href: "/org-admin/generate", label: "Generate Test", icon: "generate" },
+  { href: "/org-admin/tests", label: "Saved Tests", icon: "tests" },
+  { href: "/org-admin/profile", label: "Profile", icon: "profile" },
+];
+
 export default async function OrgAdminLayout({
   children,
 }: {
@@ -28,7 +40,7 @@ export default async function OrgAdminLayout({
 }) {
   const session = await requireRole(["ORG_ADMIN"]);
   const organizationId = session.user.organizationId;
-  const [orgName, memberships, modules] = await Promise.all([
+  const [orgName, memberships, modules, deskMode] = await Promise.all([
     organizationId ? getOrganizationName(organizationId) : Promise.resolve(null),
     getOrgMemberships(session.user.id),
     organizationId
@@ -39,16 +51,22 @@ export default async function OrgAdminLayout({
           FEES: false,
           SCHEDULES: false,
         }),
+    getOrgDeskMode(),
   ]);
-  const visibleNav = nav.filter((item) => !item.module || modules[item.module]);
+
+  const visibleNav =
+    deskMode === "paper"
+      ? paperNav
+      : fullNav.filter((item) => !item.module || modules[item.module]);
 
   return (
     <AppShell
-      title="Org Admin"
+      title={deskMode === "paper" ? "Paper Desk" : "Org Admin"}
       subtitle={session.user.name}
       organizationName={orgName}
       nav={visibleNav}
-      showOrgSwitcher={memberships.length > 1}
+      showOrgSwitcher={memberships.length > 1 && deskMode === "full"}
+      sidebarExtra={<DeskModeToggle mode={deskMode} />}
     >
       {children}
     </AppShell>

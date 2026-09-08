@@ -13,9 +13,11 @@ import {
 import {
   deleteSectionExamResult,
   deleteSubjectAssessment,
+  prepareExamSectionSubjects,
 } from "../../../../actions";
 import { ConfirmForm } from "../../../../confirm-form";
 import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
+import { AddExamSubjectForm } from "@/app/org-admin/results/add-exam-subject-form";
 
 const HUB_TONES = ["students", "teachers", "tests", "sections"] as const;
 
@@ -29,6 +31,9 @@ export default async function SectionExamSubjectsPage({
   const { sectionId, examId } = await params;
   if (!organizationId) notFound();
 
+  // Remove empty Arts auto-adds (esp. Intermediate) and seed defaults if needed.
+  await prepareExamSectionSubjects({ sectionId, examTermId: examId });
+
   const [section, exam] = await Promise.all([
     prisma.section.findFirst({
       where: { id: sectionId, organizationId },
@@ -40,6 +45,15 @@ export default async function SectionExamSubjectsPage({
             id: true,
             name: true,
             board: { select: { name: true } },
+            subjects: {
+              orderBy: { name: "asc" },
+              select: {
+                id: true,
+                name: true,
+                track: true,
+                electiveGroup: true,
+              },
+            },
           },
         },
         _count: { select: { students: { where: { isActive: true } } } },
@@ -82,11 +96,25 @@ export default async function SectionExamSubjectsPage({
     );
   }
 
+  const selectedIds = new Set(assessments.map((row) => row.subjectId));
+  const availableSubjects = section.class.subjects
+    .filter((subject) => !selectedIds.has(subject.id))
+    .map((subject) => {
+      const meta = resolveSubjectMeta(subject);
+      return {
+        id: subject.id,
+        name: subject.name,
+        track: meta.track,
+        electiveGroup: meta.electiveGroup,
+      };
+    });
+
   const students = await prisma.student.findMany({
     where: { organizationId, sectionId: section.id, isActive: true },
     select: {
       id: true,
       stream: true,
+      studyGroup: true,
       electiveSubjectId: true,
       electiveChoices: { select: { subjectId: true } },
     },
@@ -110,7 +138,7 @@ export default async function SectionExamSubjectsPage({
       <PageHeader
         kicker={`${section.class.board.name} · ${section.class.name} · ${section.name}`}
         title={exam.name}
-        description={`Session ${exam.session}. ${assessments.length} subject${assessments.length === 1 ? "" : "s"} selected for this result.`}
+        description={`Session ${exam.session}. ${assessments.length} subject${assessments.length === 1 ? "" : "s"} on this result. Arts are off by default — use Add subject to include any class subject.`}
         actions={
           <div className="flex flex-col items-end gap-2">
             <ResultsBackLink href={examsListHref} />
@@ -140,6 +168,14 @@ export default async function SectionExamSubjectsPage({
           </div>
         }
       />
+
+      <div className="mb-4">
+        <AddExamSubjectForm
+          sectionId={section.id}
+          examId={exam.id}
+          availableSubjects={availableSubjects}
+        />
+      </div>
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {assessments.map((assessment, index) => {

@@ -5056,6 +5056,43 @@ input[dir="rtl"] {
   white-space: nowrap;
 }
 
+.gazette-table--wide {
+  width: max-content;
+  min-width: 100%;
+}
+
+.gazette-group-tag {
+  display: inline-block;
+  min-width: 2.4rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.35rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  background: #eee;
+  color: #222;
+}
+
+.gazette-group-tag--bio {
+  background: #e7f5ee;
+  color: #0f6b3c;
+}
+
+.gazette-group-tag--comp {
+  background: #e8eefc;
+  color: #1d4ed8;
+}
+
+.gazette-group-legend {
+  margin: 0.45rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-soft, #445);
+}
+
+.gazette-group-legend .text-muted {
+  color: var(--muted);
+}
+
 .print-only {
   display: none !important;
 }

@@ -13,10 +13,12 @@ import {
   type QuestionSourceFilter,
 } from "@/app/teacher/generate/actions";
 import {
+  CLASS9_ENGLISH_QUESTION_TYPE_OPTIONS,
   DEFAULT_ENGLISH_TYPE_FIELD,
   ENGLISH_QUESTION_TYPE_OPTIONS,
   defaultEnglishFieldForType,
   englishTypeFieldSelectValue,
+  isClass9EnglishClass,
   isEnglishSubjectName,
   parseEnglishTypeField,
   type EnglishFieldFilter,
@@ -197,9 +199,15 @@ export function QuestionPickerModal({
   }, [paperSections, activeType]);
 
   const isEnglishSubject = isEnglishSubjectName(subjectName);
+  const isClass9English =
+    isEnglishSubject && isClass9EnglishClass(className);
+  const englishTypeOptions = isClass9English
+    ? CLASS9_ENGLISH_QUESTION_TYPE_OPTIONS
+    : ENGLISH_QUESTION_TYPE_OPTIONS;
   const englishTypeFieldValue = englishTypeFieldSelectValue(
     activeType,
     englishField,
+    { class9: isClass9English },
   );
 
   const availableForType = typeCountInChapters(
@@ -223,7 +231,7 @@ export function QuestionPickerModal({
   function loadTypeFromPaper(type: QType) {
     const section = paperSections.find((s) => s.type === type);
     setActiveType(type);
-    setEnglishField(defaultEnglishFieldForType(type));
+    setEnglishField(defaultEnglishFieldForType(type, { class9: isClass9English }));
     setError(null);
     if (section && section.questions.length > 0) {
       setRequiredCount(section.questions.length);
@@ -245,7 +253,7 @@ export function QuestionPickerModal({
   }
 
   function loadEnglishTypeField(value: string) {
-    const parsed = parseEnglishTypeField(value);
+    const parsed = parseEnglishTypeField(value, { class9: isClass9English });
     if (!parsed) return;
     const section = paperSections.find((s) => s.type === parsed.type);
     setActiveType(parsed.type);
@@ -516,19 +524,11 @@ export function QuestionPickerModal({
                   value={englishTypeFieldValue}
                   onChange={(e) => loadEnglishTypeField(e.target.value)}
                 >
-                  {ENGLISH_QUESTION_TYPE_OPTIONS.map((opt) => {
-                    const onPaper =
-                      paperSections.find((s) => s.type === opt.type)?.questions
-                        .length ?? 0;
-                    return (
-                      <option key={opt.value} value={opt.value}>
-                        {opt.label}
-                        {opt.field === "ALL" && onPaper > 0
-                          ? ` — test: ${onPaper}`
-                          : ` — ${typeCountInChapters(chapters, opt.type)} available`}
-                      </option>
-                    );
-                  })}
+                  {englishTypeOptions.map((opt) => (
+                    <option key={opt.value} value={opt.value}>
+                      {opt.label}
+                    </option>
+                  ))}
                 </select>
               ) : (
                 <select

@@ -119,6 +119,23 @@ export default async function OrganizationDetailPage({
                 ))}
               </select>
             </label>
+            <label className="block">
+              <span className="field-label">Full admin PIN (Paper desk unlock)</span>
+              <Input
+                name="deskUnlockPin"
+                defaultValue={org.deskUnlockPin ?? ""}
+                inputMode="numeric"
+                pattern="[0-9]{4,12}"
+                required
+                minLength={4}
+                maxLength={12}
+                className="mt-1"
+                placeholder="e.g. 5821"
+              />
+              <p className="mt-1 text-xs text-muted">
+                Org admin ko yeh PIN batao — shared login pe Paper desk se fees/students unlock.
+              </p>
+            </label>
             <Button type="submit">Save changes</Button>
           </form>
         </Card>

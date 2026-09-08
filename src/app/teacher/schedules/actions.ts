@@ -6,8 +6,6 @@ import { requireRole, requireActiveOrganizationId } from "@/lib/rbac";
 import { assertOrgModule } from "@/lib/org-modules";
 import {
   formatScheduleDate,
-  isDueTomorrow,
-  isDueWithinWeek,
   resolveAssignmentStatus,
   type AssignmentCompletionStatus,
 } from "@/lib/test-schedule-status";
@@ -30,8 +28,6 @@ export type TeacherAssignedSchedule = {
   testDate: string;
   testDateLabel: string;
   status: AssignmentCompletionStatus;
-  dueTomorrow: boolean;
-  dueThisWeek: boolean;
   testId: string | null;
   coveredByTestId: string | null;
   syllabusText: string | null;
@@ -118,8 +114,6 @@ export async function getMyAssignedTestSchedules(): Promise<
       testDate: subjectItem.testDate.toISOString(),
       testDateLabel: formatScheduleDate(subjectItem.testDate),
       status,
-      dueTomorrow: isDueTomorrow(subjectItem.testDate),
-      dueThisWeek: isDueWithinWeek(subjectItem.testDate),
       testId: a.test?.id ?? null,
       coveredByTestId: a.coveredByTest?.id ?? null,
       syllabusText: a.syllabusText,

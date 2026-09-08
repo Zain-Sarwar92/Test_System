@@ -3,7 +3,10 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
-import { resolveSubjectMeta } from "@/lib/subject-stream";
+import {
+  inferResultSheetStream,
+  resolveSubjectMeta,
+} from "@/lib/subject-stream";
 import { SelectExamSubjectsForm } from "./select-exam-subjects-form";
 import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
 
@@ -17,7 +20,7 @@ export default async function SelectExamSubjectsPage({
   const { sectionId, examId } = await params;
   if (!organizationId) notFound();
 
-  const [section, exam, assessments] = await Promise.all([
+  const [section, exam, assessments, students] = await Promise.all([
     prisma.section.findFirst({
       where: { id: sectionId, organizationId },
       select: {
@@ -36,6 +39,11 @@ export default async function SelectExamSubjectsPage({
                 electiveGroup: true,
               },
             },
+            _count: {
+              select: {
+                sections: { where: { organizationId } },
+              },
+            },
           },
         },
       },
@@ -44,6 +52,15 @@ export default async function SelectExamSubjectsPage({
     prisma.subjectAssessment.findMany({
       where: { organizationId, sectionId, examTermId: examId },
       select: { subjectId: true },
+    }),
+    prisma.student.findMany({
+      where: { organizationId, sectionId, isActive: true },
+      select: {
+        stream: true,
+        studyGroup: true,
+        electiveSubjectId: true,
+        electiveChoices: { select: { subjectId: true } },
+      },
     }),
   ]);
   if (!section || !exam) notFound();
@@ -57,15 +74,31 @@ export default async function SelectExamSubjectsPage({
       electiveGroup: meta.electiveGroup,
     };
   });
+  const siblingSectionCount = Math.max(0, section.class._count.sections - 1);
+  const sheetStream = inferResultSheetStream(students);
+  const chosenElectiveIds = [
+    ...new Set(
+      students.flatMap((student) => [
+        ...(student.electiveSubjectId ? [student.electiveSubjectId] : []),
+        ...student.electiveChoices.map((choice) => choice.subjectId),
+      ]),
+    ),
+  ];
 
   return (
     <PageStack wide>
       <PageHeader
         kicker={`${section.class.board.name} · ${section.class.name} · ${section.name}`}
-        title={`Choose subjects · ${exam.name}`}
-        description={`Session ${exam.session}. Select subjects for this result before entering marks.`}
+        title={`Edit subjects · ${exam.name}`}
+        description={
+          sheetStream === "ARTS"
+            ? `Session ${exam.session}. Arts section — defaults are common + Arts (plus roster electives).`
+            : `Session ${exam.session}. Science section — defaults are Science + common subjects.`
+        }
         actions={
-          <ResultsBackLink href={`/org-admin/results/sections/${section.id}`} />
+          <ResultsBackLink
+            href={`/org-admin/results/sections/${section.id}/exams/${exam.id}`}
+          />
         }
       />
 
@@ -85,6 +118,9 @@ export default async function SelectExamSubjectsPage({
             examName={exam.name}
             subjects={subjects}
             initialSubjectIds={assessments.map((row) => row.subjectId)}
+            siblingSectionCount={siblingSectionCount}
+            sheetStream={sheetStream}
+            chosenElectiveIds={chosenElectiveIds}
           />
         </Card>
       )}

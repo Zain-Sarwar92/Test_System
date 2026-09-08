@@ -29,7 +29,8 @@ export type EnglishFieldFilter =
   | "STORY"
   | "DIALOGUE"
   | "CENTRAL"
-  | "TAFHEEM";
+  | "TAFHEEM"
+  | "VOICE";
 
 export type QType = "MCQ" | "SHORT" | "LONG";
 
@@ -65,15 +66,124 @@ export const ENGLISH_FIELD_VALUES = [
   "DIALOGUE",
   "CENTRAL",
   "TAFHEEM",
+  "VOICE",
 ] as const;
 
-/** English bank fields available when generating papers. */
-export const ENGLISH_QUESTION_TYPE_OPTIONS: Array<{
+type EnglishTypeOption = {
   type: QType;
   field: EnglishFieldFilter;
   label: string;
   value: string;
-}> = [
+};
+
+/** Class 9 English — labels match PTS Generate Paper type list (exact order). */
+export const CLASS9_ENGLISH_QUESTION_TYPE_OPTIONS: EnglishTypeOption[] = [
+  {
+    type: "MCQ",
+    field: "COMPREHENSION",
+    label: "Multiple Options (چارممکنہ جوابات)",
+    value: "MCQ:COMPREHENSION",
+  },
+  {
+    type: "MCQ",
+    field: "SPELLING",
+    label: "Tick Correct Spelling",
+    value: "MCQ:SPELLING",
+  },
+  {
+    type: "MCQ",
+    field: "MEANING",
+    label: "Correct Meaning Of Underlined Word",
+    value: "MCQ:MEANING",
+  },
+  {
+    type: "MCQ",
+    field: "VERB",
+    label: "Tick Correct Form Of Verb",
+    value: "MCQ:VERB",
+  },
+  {
+    type: "MCQ",
+    field: "GRAMMAR",
+    label: "Tick Correct According To Grammar",
+    value: "MCQ:GRAMMAR",
+  },
+  {
+    type: "SHORT",
+    field: "QA",
+    label: "Question Answers (سوالات جوابات)",
+    value: "SHORT:QA",
+  },
+  {
+    type: "LONG",
+    field: "LETTER",
+    label: "Letters (خطوط)",
+    value: "LONG:LETTER",
+  },
+  {
+    type: "SHORT",
+    field: "TRANSLATE_EN",
+    label: "Translate Into English Sentences",
+    value: "SHORT:TRANSLATE_EN",
+  },
+  {
+    type: "SHORT",
+    field: "VOICE",
+    label: "Active & Passive Voice",
+    value: "SHORT:VOICE",
+  },
+  {
+    type: "LONG",
+    field: "STORY",
+    label: "Stories (کہانیاں)",
+    value: "LONG:STORY",
+  },
+  {
+    type: "LONG",
+    field: "SUMMARY",
+    label: "Summary (خلاصہ) Matric",
+    value: "LONG:SUMMARY",
+  },
+  {
+    type: "LONG",
+    field: "DIALOGUE",
+    label: "Dialogues (مکالمے)",
+    value: "LONG:DIALOGUE",
+  },
+  {
+    type: "SHORT",
+    field: "PAIR",
+    label: "Words Into Sentences (الفاظ کو جملوں میں استعمال)",
+    value: "SHORT:PAIR",
+  },
+  {
+    type: "SHORT",
+    field: "IDIOM",
+    label: "Idioms",
+    value: "SHORT:IDIOM",
+  },
+  {
+    type: "LONG",
+    field: "TRANSLATE_UR",
+    label: "Translate Into Urdu Paragraphs",
+    value: "LONG:TRANSLATE_UR",
+  },
+  {
+    type: "LONG",
+    field: "PASSAGE",
+    label: "Comprehension Paragraphs (تفہیم عبارات)",
+    value: "LONG:PASSAGE",
+  },
+  {
+    type: "LONG",
+    field: "POEM_STANZA",
+    label: "Poems Stanzas",
+    value: "LONG:POEM_STANZA",
+  },
+];
+
+/** Default / Class 10+ English bank fields when generating papers. */
+export const ENGLISH_QUESTION_TYPE_OPTIONS: EnglishTypeOption[] = [
   {
     type: "MCQ",
     field: "COMPREHENSION",
@@ -166,11 +276,33 @@ export const ENGLISH_QUESTION_TYPE_OPTIONS: Array<{
   },
 ];
 
+export function isIntermediateEnglishClass(className: string | null | undefined) {
+  const n = (className ?? "").trim();
+  return /\bclass\s*1[12]\b/i.test(n) || /\binter(?:mediate)?\b/i.test(n);
+}
+
+export function isClass9EnglishClass(className: string | null | undefined) {
+  const n = (className ?? "").trim();
+  return /\bclass\s*9\b/i.test(n) || /\b9th\b/i.test(n);
+}
+
+export function englishTypeCatalog(options?: {
+  intermediate?: boolean;
+  class9?: boolean;
+}): EnglishTypeOption[] {
+  if (options?.class9) return CLASS9_ENGLISH_QUESTION_TYPE_OPTIONS;
+  return ENGLISH_QUESTION_TYPE_OPTIONS;
+}
+
 export const DEFAULT_ENGLISH_TYPE_FIELD = ENGLISH_QUESTION_TYPE_OPTIONS[0];
 
-export function defaultEnglishFieldForType(type: QType): EnglishFieldFilter {
+export function defaultEnglishFieldForType(
+  type: QType,
+  options?: { class9?: boolean },
+): EnglishFieldFilter {
+  const catalog = englishTypeCatalog(options);
   return (
-    ENGLISH_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.field ??
+    catalog.find((opt) => opt.type === type)?.field ??
     DEFAULT_ENGLISH_TYPE_FIELD.field
   );
 }
@@ -178,21 +310,25 @@ export function defaultEnglishFieldForType(type: QType): EnglishFieldFilter {
 export function englishTypeFieldSelectValue(
   type: QType,
   field: EnglishFieldFilter,
+  options?: { class9?: boolean },
 ): string {
+  const catalog = englishTypeCatalog(options);
   const exact = `${type}:${field}`;
-  if (ENGLISH_QUESTION_TYPE_OPTIONS.some((opt) => opt.value === exact)) {
+  if (catalog.some((opt) => opt.value === exact)) {
     return exact;
   }
   return (
-    ENGLISH_QUESTION_TYPE_OPTIONS.find((opt) => opt.type === type)?.value ??
+    catalog.find((opt) => opt.type === type)?.value ??
     DEFAULT_ENGLISH_TYPE_FIELD.value
   );
 }
 
 export function parseEnglishTypeField(
   value: string,
+  options?: { class9?: boolean },
 ): { type: QType; field: EnglishFieldFilter } | null {
-  const match = ENGLISH_QUESTION_TYPE_OPTIONS.find((opt) => opt.value === value);
+  const catalog = englishTypeCatalog(options);
+  const match = catalog.find((opt) => opt.value === value);
   if (match) return { type: match.type, field: match.field };
   const [type, field] = value.split(":");
   if (type !== "MCQ" && type !== "SHORT" && type !== "LONG") return null;
@@ -205,11 +341,6 @@ export function isEnglishSubjectName(name: string | null | undefined) {
 }
 
 /** Class 11/12 (Intermediate) — PTS groups English by MCQ/SHORT/LONG, not granular fields. */
-export function isIntermediateEnglishClass(className: string | null | undefined) {
-  const n = (className ?? "").trim();
-  return /\bclass\s*1[12]\b/i.test(n) || /\binter(?:mediate)?\b/i.test(n);
-}
-
 export const INTERMEDIATE_ENGLISH_TYPE_META: Record<
   QType,
   { label: string; urdu: string }
@@ -234,9 +365,17 @@ const INTERMEDIATE_FIELD_LABELS: Partial<Record<EnglishFieldFilter, string>> = {
 
 export function englishOptionsForCounts(
   counts: Partial<Record<EnglishFieldFilter, number>>,
-  options?: { intermediate?: boolean; includeEmpty?: boolean },
-): Array<(typeof ENGLISH_QUESTION_TYPE_OPTIONS)[number] & { count: number }> {
-  const mapped = ENGLISH_QUESTION_TYPE_OPTIONS.map((opt) => ({
+  options?: {
+    intermediate?: boolean;
+    class9?: boolean;
+    includeEmpty?: boolean;
+  },
+): Array<EnglishTypeOption & { count: number }> {
+  const catalog = englishTypeCatalog({
+    intermediate: options?.intermediate,
+    class9: options?.class9,
+  });
+  const mapped = catalog.map((opt) => ({
     ...opt,
     label:
       options?.intermediate && INTERMEDIATE_FIELD_LABELS[opt.field]
@@ -244,7 +383,7 @@ export function englishOptionsForCounts(
         : opt.label,
     count: counts[opt.field] ?? 0,
   }));
-  if (options?.includeEmpty) return mapped;
+  if (options?.includeEmpty || options?.class9) return mapped;
   return mapped.filter((opt) => opt.count > 0);
 }
 

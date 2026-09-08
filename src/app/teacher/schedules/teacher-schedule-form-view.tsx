@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { AlertTriangle, CheckCircle2, FilePlus2 } from "lucide-react";
+import { CheckCircle2, FilePlus2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { statusChipClass } from "@/lib/test-schedule-status";
@@ -237,22 +237,6 @@ export function TeacherScheduleFormView({
                         >
                           <td className="whitespace-nowrap px-3 py-3 align-top font-medium text-ink">
                             {first.testDateLabel}
-                            {dateGroup.items.some(
-                              (item) =>
-                                item.dueTomorrow && item.status !== "COMPLETED",
-                            ) ? (
-                              <p className="mt-1 flex items-center gap-1 text-[11px] font-semibold text-[#8a5a00]">
-                                <AlertTriangle className="h-3 w-3" />
-                                Due tomorrow — email reminder
-                              </p>
-                            ) : dateGroup.items.some(
-                                (item) =>
-                                  item.dueThisWeek && item.status !== "COMPLETED",
-                              ) ? (
-                              <p className="mt-1 text-[11px] font-semibold text-[#8a5a00]">
-                                Due within 1 week — create test
-                              </p>
-                            ) : null}
                           </td>
                           <td className="p-0 align-top font-semibold text-ink">
                             {dateGroup.items.map((item) => (

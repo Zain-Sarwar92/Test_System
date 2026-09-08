@@ -150,7 +150,7 @@ export default async function NewSchedulePage() {
       <PageHeader
         kicker="Scheduling"
         title="Create Test Schedule"
-        description="Name → board → classes → subjects → dates & teachers. Sections come from Academic Setup."
+        description="One form: name, board, classes, sections, subjects, dates. Teachers auto-assign. No emails."
         actions={
           <Link href="/org-admin/schedules">
             <Button variant="secondary">Back to schedules</Button>

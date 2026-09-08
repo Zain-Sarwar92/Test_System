@@ -47,9 +47,19 @@ function fieldSource(field, priorityName) {
     case "PASSAGE":
       return "Passage";
     case "WORD":
-      return "Word meaning";
+      return "Words Into Sentences";
     case "IDIOM":
-      return "Idiom / Muhavara";
+      return "Idioms";
+    case "LETTER":
+      return "Letters";
+    case "STORY":
+      return "Stories";
+    case "DIALOGUE":
+      return "Dialogues";
+    case "VOICE":
+      return "Active & Passive Voice";
+    case "PASSAGE":
+      return "Comprehension Paragraphs";
     default:
       return priorityName || field || "Exercise";
   }

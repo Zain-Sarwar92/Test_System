@@ -119,7 +119,7 @@ function GazetteTable({
             {showTotals ? (
               <>
                 <td className="col-total">
-                  {row.complete
+                  {row.maxTotal > 0
                     ? `${row.obtainedTotal}/${row.maxTotal}`
                     : "—"}
                 </td>

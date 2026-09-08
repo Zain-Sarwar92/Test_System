@@ -1,0 +1,121 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "9",
+  "subject": "English",
+  "slug": "english",
+  "type": "long",
+  "field": "DIALOGUE",
+  "exportName": "long-dialogues",
+  "subTypeId": 31,
+  "total": 5,
+  "exportedAt": "2026-08-24T07:22:21.502Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": [
+    {
+      "QuestionID": 344073,
+      "SubjectID": 48,
+      "TopicID": 10781,
+      "TopicRef": "3",
+      "TopicName": "3 Dialogues",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Dialogue between a teacher and a student</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogues"
+      }
+    },
+    {
+      "QuestionID": 344074,
+      "SubjectID": 48,
+      "TopicID": 10781,
+      "TopicRef": "3",
+      "TopicName": "3 Dialogues",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Dialogue between two students regarding salat</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogues"
+      }
+    },
+    {
+      "QuestionID": 344075,
+      "SubjectID": 48,
+      "TopicID": 10781,
+      "TopicRef": "3",
+      "TopicName": "3 Dialogues",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Dialogue asking one’s way</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogues"
+      }
+    },
+    {
+      "QuestionID": 344076,
+      "SubjectID": 48,
+      "TopicID": 10781,
+      "TopicRef": "3",
+      "TopicName": "3 Dialogues",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Dialogue between a brother and a sister concerning time</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogues"
+      }
+    },
+    {
+      "QuestionID": 344077,
+      "SubjectID": 48,
+      "TopicID": 10781,
+      "TopicRef": "3",
+      "TopicName": "3 Dialogues",
+      "QuestionPeriority": "Past Papers",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Dialogue between a tailor and a customer</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 31,
+        "bankType": "long",
+        "field": "DIALOGUE",
+        "exportName": "long-dialogues"
+      }
+    }
+  ]
+}

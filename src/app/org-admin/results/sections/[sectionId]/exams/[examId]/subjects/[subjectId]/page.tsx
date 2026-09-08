@@ -71,6 +71,7 @@ export default async function SubjectMarksPage({
         name: true,
         fatherName: true,
         stream: true,
+        studyGroup: true,
         electiveSubjectId: true,
         electiveChoices: { select: { subjectId: true } },
       },

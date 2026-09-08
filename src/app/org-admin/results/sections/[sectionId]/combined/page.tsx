@@ -70,6 +70,7 @@ export default async function CombinedResultsPage({
         name: true,
         fatherName: true,
         stream: true,
+        studyGroup: true,
         electiveSubjectId: true,
         electiveChoices: { select: { subjectId: true } },
       },
@@ -110,6 +111,7 @@ export default async function CombinedResultsPage({
   const roundLabels = exams.map((exam, index) => shortRoundLabel(exam.name, index));
   const { columns, rows } = compileMultiRoundSectionResult({
     passPercent,
+    className: section.class.name,
     students: students
       .map((student) => withChosenElectives(student))
       .sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber)),

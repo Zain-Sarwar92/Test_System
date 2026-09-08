@@ -10,9 +10,11 @@ import {
   Layers,
   AlertTriangle,
 } from "lucide-react";
+import { redirect } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
+import { getOrgDeskMode, paperDeskHome } from "@/lib/org-desk-mode";
 import { flagsFromOrg } from "@/lib/org-modules";
 import { requireRole } from "@/lib/rbac";
 
@@ -49,6 +51,9 @@ function BarRow({
 
 export default async function OrgAdminPage() {
   const session = await requireRole(["ORG_ADMIN"]);
+  if ((await getOrgDeskMode()) === "paper") {
+    redirect(paperDeskHome());
+  }
   const organizationId = session.user.organizationId;
 
   if (!organizationId) {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FileText, FilePlus2, CheckCircle2, AlertTriangle, CalendarClock } from "lucide-react";
+import { FileText, FilePlus2, CheckCircle2, CalendarClock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
@@ -67,7 +67,7 @@ export default async function TeacherPage() {
       ? {
           label: "Open assignments",
           value: openCount,
-          hint: openCount > 0 ? "Need a paper soon" : "Nothing pending",
+          hint: openCount > 0 ? "Assigned schedules" : "No open items",
           toneClass: "org-dash-card-tone-schedules",
           iconClass: "org-dash-icon-tone-schedules",
           icon: CalendarClock,
@@ -128,7 +128,7 @@ export default async function TeacherPage() {
             <div>
               <CardTitle>My Assigned Tests</CardTitle>
               <p className="mt-1 text-sm text-muted">
-                Upcoming and pending tests assigned by your organization admin.
+                Open tests assigned by your organization admin.
               </p>
             </div>
             <Link
@@ -155,12 +155,6 @@ export default async function TeacherPage() {
                     {item.scheduleName} · {item.className}
                     {item.sectionName ? ` · ${item.sectionName}` : ""} · {item.testDateLabel}
                   </p>
-                  {item.dueTomorrow ? (
-                    <p className="mt-1 flex items-center gap-1 text-xs font-semibold text-amber-700 dark:text-amber-300">
-                      <AlertTriangle className="h-3.5 w-3.5" />
-                      Test due tomorrow
-                    </p>
-                  ) : null}
                 </div>
                 <Link href={`/teacher/generate?assignmentId=${item.assignmentId}`}>
                   <Button size="sm" className="gap-1.5">

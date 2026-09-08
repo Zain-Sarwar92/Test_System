@@ -63,6 +63,7 @@ export default async function SectionGazettePage({
         name: true,
         fatherName: true,
         stream: true,
+        studyGroup: true,
         electiveSubjectId: true,
         electiveChoices: { select: { subjectId: true } },
       },
@@ -135,6 +136,7 @@ export default async function SectionGazettePage({
   );
   const { columns, rows } = compileSectionResult({
     passPercent: exam.passPercent,
+    className: section.class.name,
     students: streamStudents,
     subjects,
     marks,

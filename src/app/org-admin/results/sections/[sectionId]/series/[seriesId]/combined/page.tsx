@@ -79,6 +79,7 @@ export default async function CombinedSeriesGazettePage({
         name: true,
         fatherName: true,
         stream: true,
+        studyGroup: true,
         electiveSubjectId: true,
         electiveChoices: { select: { subjectId: true } },
       },
@@ -119,6 +120,7 @@ export default async function CombinedSeriesGazettePage({
 
   const { columns, rows } = compileMultiRoundSectionResult({
     passPercent: series.passPercent,
+    className: section.class.name,
     students: students
       .map((student) => withChosenElectives(student))
       .sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber)),

@@ -7,9 +7,8 @@ export type AssignmentCompletionStatus =
   | "UPCOMING";
 
 /**
- * Days before testDate (inclusive) that count as PENDING rather than UPCOMING.
- * Teachers should prepare papers due within this window; email still goes only
- * the day before the test.
+ * Days before testDate that used to count as PENDING.
+ * Kept for helpers; status resolve no longer uses a reminder window.
  */
 export const PENDING_WINDOW_DAYS = 7;
 
@@ -26,6 +25,7 @@ function daysBetween(from: Date, to: Date): number {
  * Resolve a teacher's completion status for a scheduled test.
  * COMPLETED only when a paper is actually linked — `completedAt` alone is ignored
  * so deleting a paper correctly reopens the assignment.
+ * No in-app "pending / due soon" reminder window — only UPCOMING vs OVERDUE.
  */
 export function resolveAssignmentStatus(input: {
   testDate: Date;
@@ -42,9 +42,6 @@ export function resolveAssignmentStatus(input: {
 
   if (daysUntil < 0) {
     return "OVERDUE";
-  }
-  if (daysUntil <= PENDING_WINDOW_DAYS) {
-    return "PENDING";
   }
   return "UPCOMING";
 }

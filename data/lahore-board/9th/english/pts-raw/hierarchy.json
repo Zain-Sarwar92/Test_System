@@ -42,6 +42,12 @@
       "field": "MEANING"
     },
     {
+      "id": 5,
+      "name": "mcq-verb",
+      "bankType": "mcq",
+      "field": "VERB"
+    },
+    {
       "id": 6,
       "name": "mcq-grammar",
       "bankType": "mcq",
@@ -54,10 +60,28 @@
       "field": "QA"
     },
     {
-      "id": 34,
-      "name": "short-word",
+      "id": 15,
+      "name": "long-letters",
+      "bankType": "long",
+      "field": "LETTER"
+    },
+    {
+      "id": 21,
+      "name": "short-translate-en",
       "bankType": "short",
-      "field": "WORD"
+      "field": "TRANSLATE_EN"
+    },
+    {
+      "id": 22,
+      "name": "short-voice",
+      "bankType": "short",
+      "field": "VOICE"
+    },
+    {
+      "id": 26,
+      "name": "long-stories",
+      "bankType": "long",
+      "field": "STORY"
     },
     {
       "id": 28,
@@ -66,10 +90,34 @@
       "field": "SUMMARY"
     },
     {
+      "id": 31,
+      "name": "long-dialogues",
+      "bankType": "long",
+      "field": "DIALOGUE"
+    },
+    {
+      "id": 34,
+      "name": "short-word",
+      "bankType": "short",
+      "field": "WORD"
+    },
+    {
+      "id": 36,
+      "name": "short-idioms",
+      "bankType": "short",
+      "field": "IDIOM"
+    },
+    {
       "id": 43,
       "name": "long-translate-urdu",
       "bankType": "long",
       "field": "TRANSLATE_UR"
+    },
+    {
+      "id": 45,
+      "name": "long-comprehension-para",
+      "bankType": "long",
+      "field": "PASSAGE"
     },
     {
       "id": 47,
