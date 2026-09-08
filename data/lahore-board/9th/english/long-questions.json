@@ -4,24 +4,312 @@
   "subject": "English",
   "slug": "english",
   "source": "PTS PTB Class 9 English (read-only export)",
-  "total_questions": 1653,
+  "total_questions": 3853,
   "counts": {
-    "mcq": 1109,
-    "short": 417,
-    "long": 127
+    "mcq": 1277,
+    "short": 2391,
+    "long": 185
   },
   "fieldCounts": {
     "COMPREHENSION": 60,
     "SPELLING": 341,
     "MEANING": 322,
+    "VERB": 168,
     "GRAMMAR": 386,
     "QA": 136,
-    "WORD": 281,
+    "LETTER": 16,
+    "TRANSLATE_EN": 1183,
+    "VOICE": 667,
+    "STORY": 12,
     "SUMMARY": 2,
+    "DIALOGUE": 5,
+    "WORD": 281,
+    "IDIOM": 124,
     "TRANSLATE_UR": 113,
+    "PASSAGE": 25,
     "POEM_STANZA": 12
   },
   "questions": [
+    {
+      "id": 344044,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your mother who is worried about your health."
+    },
+    {
+      "id": 344045,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your father asking him about the health of your mother."
+    },
+    {
+      "id": 344046,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your sister congratulating her on her success in the exams."
+    },
+    {
+      "id": 344047,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your mother about the test you just taken."
+    },
+    {
+      "id": 344048,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your father requesting him to send you some extra funds for payment of hostel dues."
+    },
+    {
+      "id": 344049,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your brother about the importance of the study of science subjects."
+    },
+    {
+      "id": 344050,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your friend congratulating her on her birthday."
+    },
+    {
+      "id": 344051,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your friend requesting her to spend her spring holidays with you."
+    },
+    {
+      "id": 344052,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your friend congratulating him on the marriage of his sister."
+    },
+    {
+      "id": 344053,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your friend requesting him to lend you some books."
+    },
+    {
+      "id": 344054,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your friend thanking her for her hospitality during your visit to her house."
+    },
+    {
+      "id": 344055,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your friend condoling the death of his mother."
+    },
+    {
+      "id": 344056,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your brother advising him to take steps to improve his health."
+    },
+    {
+      "id": 344057,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your sister thanking her for a gift."
+    },
+    {
+      "id": 344058,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To your friend thanking him for the books he lent to you."
+    },
+    {
+      "id": 344059,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LETTER",
+      "source": "Letters",
+      "priority": "Past Papers",
+      "en": "To a bookseller requesting him to send you some books per V.P.P."
+    },
+    {
+      "id": 346539,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "A Farmer and His Sons"
+    },
+    {
+      "id": 346540,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "The Kindness of Rasoolullah (SAW)"
+    },
+    {
+      "id": 346541,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "Robbers Turn into Good Citizens"
+    },
+    {
+      "id": 346542,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "The Muslim Brotherhood"
+    },
+    {
+      "id": 346543,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "A Foolish Stag"
+    },
+    {
+      "id": 346544,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "The Donkey Trapped in His Own Trick"
+    },
+    {
+      "id": 346545,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "A friend in Need is a Friend Indeed"
+    },
+    {
+      "id": 346546,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "A Faithful Friend"
+    },
+    {
+      "id": 346547,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "A Big Reward"
+    },
+    {
+      "id": 346548,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "The Tailor and the Elephant"
+    },
+    {
+      "id": 346549,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "The Boy Who Cried &quot;Wolf&quot;"
+    },
+    {
+      "id": 346550,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "STORY",
+      "source": "Stories",
+      "priority": "Past Papers",
+      "en": "The Jester and the King"
+    },
     {
       "id": 339664,
       "chapter": 3,
@@ -41,6 +329,56 @@
       "source": "Summary",
       "priority": "Additional",
       "en": "If"
+    },
+    {
+      "id": 344073,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "DIALOGUE",
+      "source": "Dialogues",
+      "priority": "Past Papers",
+      "en": "Dialogue between a teacher and a student"
+    },
+    {
+      "id": 344074,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "DIALOGUE",
+      "source": "Dialogues",
+      "priority": "Past Papers",
+      "en": "Dialogue between two students regarding salat"
+    },
+    {
+      "id": 344075,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "DIALOGUE",
+      "source": "Dialogues",
+      "priority": "Past Papers",
+      "en": "Dialogue asking one’s way"
+    },
+    {
+      "id": 344076,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "DIALOGUE",
+      "source": "Dialogues",
+      "priority": "Past Papers",
+      "en": "Dialogue between a brother and a sister concerning time"
+    },
+    {
+      "id": 344077,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "DIALOGUE",
+      "source": "Dialogues",
+      "priority": "Past Papers",
+      "en": "Dialogue between a tailor and a customer"
     },
     {
       "id": 339624,
@@ -1171,6 +1509,256 @@
       "source": "Translate into Urdu",
       "priority": "Additional",
       "en": "A one-act play is a short dramatic work that is structured within a single act, meaning it does not have multiple acts like traditional plays. It typically runs for about 15 to 60 minutes, depending on the length of the script, and features a straightforward plot, limited characters, and a single setting."
+    },
+    {
+      "id": 344078,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "One day, a wolf felt very hungry. He wandered here and there in search of food but he could not find anything to eat. At last, he saw a flock of sheep grazing in a pasture. He wanted to eat one but they were guarded by a hound. The shepherd’s son was also tending the flock vigilantly. The wolf found himself helpless. At last he hit upon a plan. He hid himself in the skin of a sheep and safely went into the flock. The hound could not find out the wolf in disguise. He killed a sheep and ate it without being caught. In this way, he ate up many sheep and their number began to fall every day. The shepherd was greatly worried but could not find out the thief. 1. Why did the wolf wander about? 2. Did he find anything to eat? 3. Why was the wolf helpless? 4. How did he get into the flock? 5. Why was the shepherd worried?"
+    },
+    {
+      "id": 344079,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "On a hot summer day, a fox felt very thirsty. He went about in search of water but could find water nowhere. At last, he reached a well. He peeped into it. Unfortunately, he slipped and fell into the well. A goat happened to pass by the well and looked into it. She said to fox, &quot;What are you doing here uncle?&quot;. The cunning fox replied, &quot;Dear niece, I am enjoying a swim down here. It is very pleasant. Come down and enjoy yourself too.&quot; The goat was also thirsty, she jumped into the well. 1. What happened to the thirsty fox? 2. Who passed by the well just then? 3. What did the goat do? 4. What did the goat say to the fox? 5. What did the fox say in reply? 6. Why did the goat jump into the well?"
+    },
+    {
+      "id": 344080,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Once a stag was drinking water at a stream. He happened to see his reflection in the water. He was pleased to see his beautiful horns but when he saw his thin legs, he felt sad as he thought they were ugly. Suddenly he saw a pack of hounds at a distance. He ran as fast as his legs could help him. Soon he left the hounds far behind. He had to pass through a thick forest of bushes. His horns were caught in a bush. He tried hard to pull his horns out of it but all in vain. By now, the hounds had come up. They fell upon him and tore him to pieces. 1. What was the stag doing? 2. What did he see in the water? 3. Why was he pleased? 4. What made him sad? 5. Why did he run? 6. How did his legs help him?"
+    },
+    {
+      "id": 344081,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "King Robert Bruce ruled over Scotland. He had been defeated many times by the English. He ran for his life and hid himself in a cave. He had lost all hope to win. As he lay there thinking if he should give up his struggle or not, he saw a spider trying to reach its cobweb in the ceiling of the cave. It fell down again and again but did not give up its attempt. At last the little insect reached its home in its ninth attempt. This gave courage to King Bruce. He made up his mind to fight and this time he won the battle. 1. By whom had Robert Bruce been defeated many times? 2. Where did he hide himself? 3. What did he see in the cave? 4. After how many attempts did the spider succeed? 5. What lesson did King Bruce learn from the spider?"
+    },
+    {
+      "id": 344082,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "For three years, the master and all his relatives lived in this valley. Many of the Muslims too joined them. All supplies to the valley were cut off. The Makkans saw to it that no food or drink reached the Banu Hashim. The poor Banu Hashim had to live on the leaves and roots of trees and bushes. The condition of children was particularly pitiable. At last some kind-hearted Makkans took pity on the Banu Hashim. They tore to pieces the agreement hanging in the Kaaba. The hunger stricken Banu Hashim were thus able to come back to their homes. 1. Who lived for three years in the valley? 2. Who joined the master and his relatives? 3. What did the Makkans do? 4. How did the Banu Hashim live? 5. What was the condition of the children? 6. Who took pity on Banu Hashim?"
+    },
+    {
+      "id": 344083,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "We see a kind of milk in tins. It is powdered milk. All the water in this milk has evaporated. When fresh milk stays in a dish for a little time, the thick part of the milk comes to the top. It is the cream of the milk. From this cream people make butter. If milk with the cream on it is made into powder, it is called Full Cream Milk Powder. When something floating is taken off the top of a liquid we say it skimmed. When the cream is skimmed from the milk, the thin milk that stays is called “Skim Milk”. Skim milk is a good milk but it has no fat in it. It is not good for very young babies. 1. Is the milk in tins powdered or liquid? 2. What becomes of the water in the milk? 3. What comes to the top of the fresh milk when it stays a little in a dish? 4. What does the thick part of the milk have in it? 5. What is Cream? 6. What do people make from cream?"
+    },
+    {
+      "id": 344084,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Hazrat Khalid Bin Waleed was extremely kind hearted and just to the people. His army had strict orders not to do any harm to the farmers, aged persons, women, children and other civilians. &quot;They are the real strength of the society,&quot; he said, &quot;They should always be treated with kindness and respect.&quot; This was something new for the conquered people, who felt very happy now. The Iranian and Byzantine officers were very hard on them. Hazrat Khalid Bin Waleed's treatment won their hearts so much that they began to hate their cruel old masters. 1. How did Hazrat Khalid Bin Waleed treat the people? 2. What were the orders given to the army? 3. What did he say about the farmers and civilians? 4. How had their former masters treated them? 5. How did Hazrat Khalid Bin Waleed (R.A) win the hearts of the conquered people? 6. Why did the people hate their old masters?"
+    },
+    {
+      "id": 344085,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "The age of steam has yielded place to the age of electricity. We have harnessed and introduced it into the service of man. The electric telegraph bears our message to and brings us news from all quarters of the world. Submarine cable does its own work all right. Who is not familiar with the electric bell? Who has not used telephone? Who is not enjoying electric light? Electric motors, wireless telegraphy, electric railways, electric modes of constructions and destruction all attest to the great power of electricity. Electricity has developed modern industry and has created many industries. It has enabled man to conquer the land, the sea and the air. 1. Why do we call the present age the age of electricity? 2. Which age has yielded place to the age of electricity? 3. How do we send and receive messages? 4. State some important uses of electricity? 5. What do you think is the future of electricity?"
+    },
+    {
+      "id": 344086,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "A man is known by the company he keeps. A good student should avoid the company of those who keep playing all the time. Many students miss their classes and seldom do their home work because fellow students do the same. There are hardworking students also who work while others play. They know when to study and when to play. They play when it is time to play. They enjoy the games of their choice because they know that playing games is essential for health. A sick student is not so quick in learning his lesson as a healthy one. 1. What kind of company should a good student keep? 2. Why do some students miss their classes? 3. Why do good students enjoy good health? 4. Why are games necessary for students? 5. Where does the success of a student lie?"
+    },
+    {
+      "id": 344087,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Newspapers keep us constantly in touch with the whole of mankind. In olden days, a man's world consisted of his own village and one or two neighboring villages. It was difficult for him to know what was going on in other parts of the country. But today the press assisted by rapid means of communications, brings us news from the farthest corners of the globe. The press is also responsible for educating public opinion. The laws of a nation are really shaped by its press. In fact, the public receives guidance from the newspapers. Thus, their power in modern times is really great. 1. What good do the newspapers do for us? 2. Why in olden days man could not know what was going on in far off places? 3. What is the responsibility of the press today? 4. How are the laws of a country shaped now a day? 5. How are newspapers a source of public guidance? 6. What is your opinion about the power of press?"
+    },
+    {
+      "id": 344088,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "About sixty years ago the question of choosing a profession was not taken up seriously. A son generally followed the trade of his father. But now a days one can take up a trade one likes. The students who make the right choice of profession are always successful. For the right choice of a profession, there should be some definite aim. The students who do not have any definite aim suffer a lot in the end as they have also a difficulty in finding an employment. In choosing a profession the teacher and the parents play a very important part. The teacher keeps an eye on his pupils. He studies their habits. So he can put his pupils on the right path of life. 1. What were the conditions about the choice of a profession sixty years ago? 2. Why did the people not choose the profession seriously? 3. Can a student of the present times choose his profession freely? 4. What is the advantage of a right choice of a profession? 5. How can a student choose his profession rightly? 6. What will be the difficulty of a student who is reading without a definite aim? 7. How can a teacher help his pupil in making a choice of profession?"
+    },
+    {
+      "id": 344089,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Making pottery on the potter's wheel is called &quot;throwing&quot;. The thrower is a very skillful workman. But there is another method of shaping articles out of clay,&quot; &quot;moulding&quot;. A plaster mould is made and the clay is pressed into it. this is a quicker and less difficult way and must be used to make things like handles; but all the most beautiful pottery is thrown. When a piece of pottery is taken off the wheel, it is put aside to dry, after which a design may be painted on it with special colors that will stand great heat; it is then ready to be fired. This is done in a large oven, or kiln. The pieces of pottery are placed in earthenware tubs called &quot;Saggers&quot; so that the flames cannot touch the pottery. 1. What is throwing? 2. What is the other method of shaping articles? 3. What is the advantage of Moulding? 4. How is pottery baked in fire? 5. How does the potter make designs on the pieces of pottery"
+    },
+    {
+      "id": 344090,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "The sultan sent agents to all parts of the East to buy rare manuscripts and bring them back to Cordova. His men were constantly searching the booksellers shops at Cairo, Damascus and Baghdad for rare volumes for his library. When the book was not to be bought at any price, he would have it copied and sometimes even hear of a book which was only in the author’s brain and send him a handsome present, and beg him to send the first copy to Cordova. By such means, he gathered no fewer than four hundred thousand books and this at a time when printing was unknown and every copy had to be painfully copied, in the fine clear hand of the professional copyist. 1. Why did Sultan send his agents to all parts of the East? 2. Where and what for they searched the booksellers shops? 3. What would he do when any book was not to be bought at any price? 4. What would he do when the author had not yet written the book? 5. How many books had he gathered? 6. Why was it difficult to collect so many books in those days?"
+    },
+    {
+      "id": 344091,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Mussa was in commander-in-chief, and the gates were in his charge. They had been barred when the Christians came in view; but Musa threw them open. &quot;Our bodies&quot;, he said, &quot;will bar the gates&quot;. The young men were kindled by such words and when he told them, &quot;We have nothing to fight for but the ground we stand on; and without that we are without a home or a country&quot;, they were ready to die with him. With such a leader, the Moorish cavaliers performed feats of bravery in the plain which divided the camp from the city. 1. Who was the chief commander and what was in his charge? 2. When were the gates barred? 3. Who threw them open? 4. What did Mussa say? 5. What effect had his words on the young men? 6. What divided the city from the camp?"
+    },
+    {
+      "id": 344092,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Early rising is a good habit as it gives us an early start of our day's work. We gain time while the late risers are asleep. The early risers have another advantage also and that is; they enjoy good and sound health. Those who are out of bed early, have plenty of time to do their work carefully, steadily and completely. They do not have to put off anything to the next day. The early riser is always happy, fresh and smart. He enjoys his work while those who get up late find their duty dull and dry and do it unwillingly. Early rising is, therefore, a key to success in life. 1. What kind of habit is &quot;Early rising&quot;? 2. Why can an early riser do more work than the late riser? 3. Why does an early riser enjoy good health? 4. Why does a late riser find his work dull and dry? 5. What is the key to success in life?"
+    },
+    {
+      "id": 344093,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Some ants are social insects. It means that they live in societies, cooperate with one another and do only the work assigned to them. They go out in search of food in an orderly fashion, marching, in lines and columns like soldiers. Different groups of social ants have different jobs to do. They manage their affairs through division of labour. Some ants guard and protect their community. They fight the other insects who attack them or raid their colony. They are called soldier ants. Another group gathers food for the whole community. The social ants have not learnt this division of labour. They have inherited it. 1. What do we mean by social insects? 2. Why are some ants called social insects? 3. How do the ants cooperate with one another? 4. What principle do they follow while doing their work? 5. Why are the members of a certain group called soldier ants? 6. How have the ants learnt the principle of division of labour?"
+    },
+    {
+      "id": 344094,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "Allama Muhammad Iqbal is not only the greatest poet of our age, but also one of the greatest poets of all times. There are not many poets who wrote so many great poems as he did. He did not write poetry for poetry's sake. He was in fact much more than a mere poet. He was a learned man. He was a great scholar and philosopher. He was a political leader of great importance. But more than anything, he was a Muslim who had a great love for God and his Prophet. He wrote poetry to express the great and everlasting truth of philosophy, history and Islam. He wrote poetry to awaken the Muslims of the whole world from the deep sleep and asked them to unite. 1. Why is Iqbal considered to be one of the greatest poets of all times? 2. Did he write poetry for poetry's sake? 3. How can you say that Iqbal was much more than a mere poet? 4. What kind of Muslim was Iqbal? 5. With what aim did he write poetry? 6. What was Iqbal's call to the Muslims of the whole world?"
+    },
+    {
+      "id": 344095,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "One day a girl found a coin. It rolled away before her broom when she was sweeping the yard and fell with a little clatter against the wall. She ran and picked it up. Someone had dropped it while crossing the yard and perhaps had not even troubled to look for it. It was worth little but it seemed a whole fortune to her, who never had anything of her own before. She rubbed it, cleaned on the sleeve of her blue cotton jacket and put it into her pocket. 1. What did the girl find? 2. When did she find it? 3. How had the coin been there? 4. What was the worth of the coin? 5. Why was it a whole fortune for her? 6. How did she clean it? 7. What did she do after cleaning it?"
+    },
+    {
+      "id": 344096,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "In December, 1930 Dr.Muhammad Iqbal was invited to preside over the annual meeting of All India Muslim League at Allahabad. In his address, he openly opposed the idea of power sharing together of Hindus and Muslims as one nation. He declared that the move to apply one constitution to both the Hindus and Muslims would result in a civil war. He wanted to see the Punjab, Sindh, Baluchistan and the N.W.F.P, a single state for the Muslims, so that they should live according to the teachings of Islam. We can say that Allama Iqbal was the first thinker to give us the idea of a separate homeland for the Muslims of India. i.e. partition of the subcontinent into two sovereign states. The Muslims soon realized the importance of the demand for two separate states. It was then the Pakistan Resolution was adopted in 1940. 1. Where was the annual meeting of the All India Muslim League held in 1930? 2. Who was invited to preside over the session? 3. What idea did Allama Iqbal oppose? 4. Which provinces did he want to be included in the Muslim state? 5. On what grounds did he demand a separate state for the Muslims of India? 6. When was the Pakistan Resolution moved?"
+    },
+    {
+      "id": 344097,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "The Indian National Congress was founded in 1885 by a liberal English man Mr.A.O. Hume. He had joined the Indian Civil Service in 1849 and retired from service after shouldering different responsibilities. He had been watching the ugly law and order situations in the country quite frequently. He was of the opinion that the high-handed rule of the Britishers was paving way for an unexpected outburst of violence. His plan was to put a safety valve to minimize the mounting sentiments against the British rule. It was meant to provide an outlet which could ventilate the revolutionary spirit. Mr.Hume put his plan before Lord. Duffrin. 1. Who founded the Indian National Congress? 2. Who was Mr.A.O.Hume? 3. When was the Indian National Congress founded? 4. Why did Hume think of founding this political organization? 5. With whom did he discuss his plan?"
+    },
+    {
+      "id": 344098,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "There was once a man whose doctor gave him medicine which was quite black. His servant who was illiterate made mistake and poured out a dose of ink in place of the drug. He gave it to his master who drank it. After the patient had taken the dose of ink, the servant somehow realized his mistake. He ran back to his master and said, &quot;Sir, I have given you a dose of ink instead of the medicine as both were equally black. What should be done now&quot;? The master replied softly, &quot;Now give me a piece of blotting paper to swallow&quot;. 1. What was the color of the medicine? 2. What did the servant give to his master? 3. When did the servant come to know of his mistake? 4. What did the servant do? 5. What did the master say to his servant?"
+    },
+    {
+      "id": 344099,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "There lived a monkey in a forest. One day he was going about in search of food as he was very hungry. At last he entered the house of a farmer. There was nobody in the house. The monkey found a hard vessel with a narrow opening. He put his hand into it. It had grains in it. He took a handful of the grains and tried to pull his hand out but he could not do so with his closed fist. After some time, the owner of the house came up. His dog was also with him. The dog fell upon the monkey and tore him into pieces. Thus, the monkey met his fate due to his greed. 1. Where did the monkey live? 2. Why did he enter the house of a farmer? 3. What did he find there? 4. What was in the vessel? 5. What did the monkey do? 6. Why could he not pull his hand out of the vessel?"
+    },
+    {
+      "id": 344100,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "A tailor ran a shop in a bazaar. An elephant used to go to the river through that bazaar. The tailor gave him a bun every day. One day the tailor pricked a needle into the trunk of the elephant. The elephant became angry but went away. On return he filled his trunk with muddy water. On reaching the shop of the tailor he put his trunk into it and squirted the dirty water into the shop of the tailor. All the fine and new dresses of his customers were spoiled. He was very sorry for annoying the elephant but it was no use of crying over spilt milk. 1. Where did the elephant go every day? 2. What did the tailor give him? 3. What mistake did the tailor make one day? 4. What did the elephant do after drinking water? 5. How did the elephant punish the tailor for his mistake? 6. What is the moral of the story?"
+    },
+    {
+      "id": 344101,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "A professional player is quite different from an amateur. His main aim is to make money. He plays the game to earn money or to win a name. On the other hand, the amateur player has no such aim. He plays because he gets pleasure in playing. Games not only give him recreation but also physical exercise. He enjoys good health and sound physique. He plays the game as he should. He observes all the rules and regulations of games. The amateur player plays honestly. He becomes a disciplined gentleman and a responsible citizen. He accepts defeat but does not resort to cheating or other unfair means to win. If he wins a game, he feels happy but he is not sad at losing one. 1. What is meant by professional player? 2. With what aim does he play games? 3. What makes an amateur player a responsible citizen? 4. What qualities of true sportsmanship does a professional player lack? 5. How does an amateur player differ from a professional player? 6. How does the amateur player take his defeat?"
+    },
+    {
+      "id": 344102,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "long",
+      "field": "PASSAGE",
+      "source": "Passage",
+      "priority": "Exercise",
+      "en": "The camel is rightly called the “Ship of the desert”. It is the best means of transport in deserts. Camels go slow. But they go on walking for hours on the burning sand and in the blazing sun. Camels carry heavy loads, much heavier in weight than any other beast of burden can. While the other animal’s feet sink into the sand, but nature has made the feet of camel such that it is not at all difficult for it to walk on sand. The camel is superior to all other animals because it can go without food and drink for days and weeks. It can store food and water. Its hump is also a store of food which the camels use when they get nothing to eat and drink for many days. In deserts, only bushes grow here and there and the camels can live on these. 1. Why is camel called the “ship of the desert”? 2. Is it for its speed that it is called the ship of desert? 3. What difficulty do the other beasts of burden have to face while walking on the sand? 4. Why does a camel walk easily on the loose sand of the desert? 5. What special quality makes camel superior to other animals used for transport? 6. How does the camel go without food and water for days and weeks? 7. What does the camel generally live on?"
     },
     {
       "id": 442796,

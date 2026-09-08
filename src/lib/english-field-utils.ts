@@ -38,7 +38,8 @@ export function subTypeToEnglishField(
     key === "STORY" ||
     key === "DIALOGUE" ||
     key === "CENTRAL" ||
-    key === "TAFHEEM"
+    key === "TAFHEEM" ||
+    key === "VOICE"
   ) {
     return key;
   }
@@ -70,11 +71,14 @@ export function inferEnglishFieldFromLegacy(
   if (s.includes("grammar")) return "GRAMMAR";
   if (s.includes("punctuat")) return "PUNCTUATION";
   if (s.includes("pair of words")) return "PAIR";
-  if (s.includes("word meaning")) return "PAIR";
+  if (s.includes("word meaning") || s.includes("words into sentences")) return "PAIR";
+  if (s.includes("active") && s.includes("passive")) return "VOICE";
+  if (s.includes("idiom")) return "IDIOM";
   if (s.includes("summary")) return "SUMMARY";
   if (s.includes("translate into urdu")) return "TRANSLATE_UR";
   if (s.includes("translate into english")) return "TRANSLATE_EN";
   if (s.includes("poem stanza")) return "POEM_STANZA";
+  if (s.includes("comprehension paragraph")) return "PASSAGE";
   if (s.includes("direct & indirect") || s.includes("past papers")) return "DI";
 
   // Generic fallbacks by question type
@@ -139,6 +143,7 @@ export function emptyEnglishFieldCounts(): EnglishFieldCounts {
     DIALOGUE: 0,
     CENTRAL: 0,
     TAFHEEM: 0,
+    VOICE: 0,
   };
 }
 
@@ -251,6 +256,8 @@ export function englishFieldMatchesType(
     "PAIR",
     "CORRECT",
     "IDIOM",
+    "VOICE",
+    "TRANSLATE_EN",
   ];
   const long: EnglishFieldFilter[] = [
     "ESSAYS",

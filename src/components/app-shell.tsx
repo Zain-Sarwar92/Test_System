@@ -106,6 +106,7 @@ export function AppShell({
   nav,
   children,
   showOrgSwitcher = false,
+  sidebarExtra,
 }: {
   title: string;
   subtitle?: string;
@@ -114,6 +115,7 @@ export function AppShell({
   nav: NavItem[];
   children: React.ReactNode;
   showOrgSwitcher?: boolean;
+  sidebarExtra?: React.ReactNode;
 }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -251,6 +253,7 @@ export function AppShell({
           </nav>
 
           <div className="mt-4 flex flex-col gap-3 border-t border-white/10 pt-4">
+            {sidebarExtra ? <div className="space-y-2">{sidebarExtra}</div> : null}
             <ThemeToggle />
             {showOrgSwitcher ? (
               <Link href="/select-org" className="block">
@@ -401,6 +404,7 @@ export function AppShell({
             </nav>
 
             <div className="mobile-drawer-footer">
+              {sidebarExtra ? <div className="space-y-2">{sidebarExtra}</div> : null}
               <ThemeToggle />
               {showOrgSwitcher ? (
                 <Link href="/select-org" className="block" onClick={() => setMobileNavOpen(false)}>

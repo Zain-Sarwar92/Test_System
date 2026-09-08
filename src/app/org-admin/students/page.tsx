@@ -7,6 +7,12 @@ import { PageHeader, PageStack } from "@/components/page-header";
 import { HubCrumb } from "@/components/hub-crumb";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import {
+  formatStudyGroupLabel,
+  groupFilterOptionsForClass,
+  isStoredStudyGroup,
+  studentGroupDisplay,
+} from "@/lib/subject-stream";
 import { StudentRowActions } from "./student-row-actions";
 
 function plural(count: number, singular: string, pluralForm = `${singular}s`) {
@@ -14,6 +20,22 @@ function plural(count: number, singular: string, pluralForm = `${singular}s`) {
 }
 
 const HUB_TONES = ["students", "teachers", "tests", "sections"] as const;
+
+function sectionStudentsHref(input: {
+  classId: string;
+  sectionId: string;
+  q?: string;
+  status?: string;
+  group?: string;
+}) {
+  const params = new URLSearchParams();
+  params.set("classId", input.classId);
+  params.set("sectionId", input.sectionId);
+  if (input.q) params.set("q", input.q);
+  if (input.status) params.set("status", input.status);
+  if (input.group) params.set("group", input.group);
+  return `/org-admin/students?${params.toString()}`;
+}
 
 export default async function StudentsPage({
   searchParams,
@@ -23,6 +45,7 @@ export default async function StudentsPage({
     classId?: string;
     sectionId?: string;
     status?: string;
+    group?: string;
   }>;
 }) {
   const session = await requireRole(["ORG_ADMIN"]);
@@ -31,6 +54,7 @@ export default async function StudentsPage({
   const query = filters.q?.trim() ?? "";
   const requestedClassId = filters.classId?.trim() ?? "";
   const requestedSectionId = filters.sectionId?.trim() ?? "";
+  const requestedGroup = filters.group?.trim().toUpperCase() ?? "";
   const status = filters.status === "active" || filters.status === "inactive"
     ? filters.status
     : "";
@@ -95,6 +119,29 @@ export default async function StudentsPage({
     : [];
   const selectedSection = classSections.find((section) => section.id === requestedSectionId);
 
+  const groupOptions = selectedClass
+    ? groupFilterOptionsForClass(selectedClass.name)
+    : [];
+  const activeGroup =
+    requestedGroup && groupOptions.some((option) => option.value === requestedGroup)
+      ? requestedGroup
+      : "";
+
+  const groupWhere =
+    activeGroup === ""
+      ? null
+      : isStoredStudyGroup(activeGroup)
+        ? { studyGroup: activeGroup }
+        : activeGroup === "SCIENCE" || activeGroup === "ARTS"
+          ? {
+              OR: [
+                { studyGroup: activeGroup },
+                { studyGroup: null, stream: activeGroup },
+                { studyGroup: "", stream: activeGroup },
+              ],
+            }
+          : null;
+
   const students =
     organizationId && selectedSection
       ? await prisma.student.findMany({
@@ -102,16 +149,21 @@ export default async function StudentsPage({
             organizationId,
             sectionId: selectedSection.id,
             ...(status ? { isActive: status === "active" } : {}),
-            ...(query
-              ? {
-                  OR: [
-                    { name: { contains: query, mode: "insensitive" } },
-                    { rollNumber: { contains: query, mode: "insensitive" } },
-                    { fatherName: { contains: query, mode: "insensitive" } },
-                    { phone: { contains: query, mode: "insensitive" } },
-                  ],
-                }
-              : {}),
+            AND: [
+              ...(groupWhere ? [groupWhere] : []),
+              ...(query
+                ? [
+                    {
+                      OR: [
+                        { name: { contains: query, mode: "insensitive" as const } },
+                        { rollNumber: { contains: query, mode: "insensitive" as const } },
+                        { fatherName: { contains: query, mode: "insensitive" as const } },
+                        { phone: { contains: query, mode: "insensitive" as const } },
+                      ],
+                    },
+                  ]
+                : []),
+            ],
           },
           orderBy: [{ rollNumber: "asc" }, { name: "asc" }],
           include: {
@@ -135,6 +187,38 @@ export default async function StudentsPage({
         })
       : [];
 
+  const groupCountRows =
+    organizationId && selectedSection
+      ? await prisma.student.findMany({
+          where: {
+            organizationId,
+            sectionId: selectedSection.id,
+            ...(status ? { isActive: status === "active" } : {}),
+          },
+          select: { studyGroup: true, stream: true },
+        })
+      : [];
+
+  const groupCounts = new Map<string, number>();
+  for (const option of groupOptions) {
+    groupCounts.set(option.value, 0);
+  }
+  for (const row of groupCountRows) {
+    const key = isStoredStudyGroup(row.studyGroup ?? "")
+      ? row.studyGroup!
+      : row.stream === "SCIENCE" || row.stream === "ARTS"
+        ? row.stream
+        : "";
+    if (!key || !groupCounts.has(key)) continue;
+    groupCounts.set(key, (groupCounts.get(key) ?? 0) + 1);
+  }
+
+  const printListHref = selectedSection
+    ? `/org-admin/students/print/${selectedSection.id}${
+        activeGroup ? `?group=${encodeURIComponent(activeGroup)}` : ""
+      }`
+    : null;
+
   const addStudentHref = selectedSection
     ? `/org-admin/students/new?sectionId=${selectedSection.id}`
     : selectedClass
@@ -154,16 +238,22 @@ export default async function StudentsPage({
         }
         description={
           selectedSection
-            ? `Students in ${selectedClass?.name} ${selectedSection.name}.`
+            ? activeGroup
+              ? `${formatStudyGroupLabel(activeGroup)} students in ${selectedClass?.name} ${selectedSection.name}.`
+              : `Students in ${selectedClass?.name} ${selectedSection.name}. Filter by group, then print that list.`
             : selectedClass
               ? `Choose a section in ${selectedClass.name} to view its students.`
               : "Choose a class, then a section, to manage that group of students."
         }
         actions={
           <div className="flex flex-wrap gap-2">
-            {selectedSection ? (
-              <Link href={`/org-admin/students/print/${selectedSection.id}`}>
-                <Button variant="outline">Print List</Button>
+            {printListHref ? (
+              <Link href={printListHref}>
+                <Button variant="outline">
+                  {activeGroup
+                    ? `Print ${formatStudyGroupLabel(activeGroup)} List`
+                    : "Print List"}
+                </Button>
               </Link>
             ) : null}
             <Link href="/org-admin/students/fields">
@@ -292,7 +382,7 @@ export default async function StudentsPage({
       ) : (
         <Card className="fade-up overflow-hidden p-0">
           <div className="p-4 md:p-5">
-            <form className="mb-4 grid gap-2 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/70 p-3 md:grid-cols-[1.4fr_1fr_auto]">
+            <form className="mb-3 grid gap-2 rounded-[0.9rem] border border-[rgba(15,40,70,0.08)] bg-card/70 p-3 md:grid-cols-[1.3fr_1fr_1fr_auto]">
               <input type="hidden" name="classId" value={selectedClass.id} />
               <input type="hidden" name="sectionId" value={selectedSection.id} />
               <Input
@@ -300,6 +390,14 @@ export default async function StudentsPage({
                 defaultValue={query}
                 placeholder="Search name, roll, father, or phone"
               />
+              <select name="group" defaultValue={activeGroup} className="field-control h-11">
+                <option value="">All groups</option>
+                {groupOptions.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
               <select name="status" defaultValue={status} className="field-control h-11">
                 <option value="">Any status</option>
                 <option value="active">Active</option>
@@ -308,12 +406,62 @@ export default async function StudentsPage({
               <Button type="submit" variant="secondary">Apply</Button>
             </form>
 
+            {groupOptions.length ? (
+              <div className="mb-4 flex flex-wrap gap-2">
+                <Link
+                  href={sectionStudentsHref({
+                    classId: selectedClass.id,
+                    sectionId: selectedSection.id,
+                    q: query || undefined,
+                    status: status || undefined,
+                  })}
+                >
+                  <Button size="sm" variant={activeGroup ? "outline" : "secondary"}>
+                    All ({groupCountRows.length})
+                  </Button>
+                </Link>
+                {groupOptions.map((option) => {
+                  const count = groupCounts.get(option.value) ?? 0;
+                  const selected = activeGroup === option.value;
+                  return (
+                    <Link
+                      key={option.value}
+                      href={sectionStudentsHref({
+                        classId: selectedClass.id,
+                        sectionId: selectedSection.id,
+                        q: query || undefined,
+                        status: status || undefined,
+                        group: option.value,
+                      })}
+                    >
+                      <Button size="sm" variant={selected ? "secondary" : "outline"}>
+                        {option.label} ({count})
+                      </Button>
+                    </Link>
+                  );
+                })}
+                {activeGroup && printListHref ? (
+                  <Link href={printListHref} className="ml-auto">
+                    <Button size="sm" variant="outline">
+                      Print {formatStudyGroupLabel(activeGroup)}
+                    </Button>
+                  </Link>
+                ) : null}
+              </div>
+            ) : null}
+
             <div className="list-stack">
               {students.length === 0 ? (
                 <div className="rounded-[1rem] border border-[rgba(15,40,70,0.08)] bg-mist/40 px-4 py-8">
-                  <CardTitle>No students in this section</CardTitle>
+                  <CardTitle>
+                    {activeGroup
+                      ? `No ${formatStudyGroupLabel(activeGroup)} students`
+                      : "No students in this section"}
+                  </CardTitle>
                   <CardDescription>
-                    Add a student to {selectedClass.name} {selectedSection.name}, or adjust the search.
+                    {activeGroup
+                      ? `Try another group, clear the filter, or add a ${formatStudyGroupLabel(activeGroup)} student to ${selectedClass.name} ${selectedSection.name}.`
+                      : `Add a student to ${selectedClass.name} ${selectedSection.name}, or adjust the search.`}
                   </CardDescription>
                   <Link href={addStudentHref} className="mt-4 inline-block">
                     <Button size="sm">Add Student</Button>
@@ -339,6 +487,7 @@ export default async function StudentsPage({
                   (sum, payment) => sum + Number(payment.amount),
                   0,
                 );
+                const groupLabel = studentGroupDisplay(student);
                 return (
                   <div
                     key={student.id}
@@ -356,6 +505,9 @@ export default async function StudentsPage({
                           </Link>
                           <span className={student.isActive ? "status-chip status-chip-success" : "status-chip status-chip-muted"}>
                             {student.isActive ? "Active" : "Inactive"}
+                          </span>
+                          <span className="status-chip status-chip-muted">
+                            {groupLabel}
                           </span>
                         </div>
                         <p className="mt-1 text-sm text-muted">

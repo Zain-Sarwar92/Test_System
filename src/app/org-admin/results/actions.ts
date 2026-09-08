@@ -17,6 +17,12 @@ import {
   readAssessmentSheetBytes,
   saveAssessmentSheetFile,
 } from "@/lib/assessment-sheet-storage";
+import {
+  isArtsCurriculumSubject,
+  isDefaultResultSubjectForStream,
+  inferResultSheetStream,
+  isScienceCurriculumSubject,
+} from "@/lib/subject-stream";
 
 const IMAGE_TYPES: Record<string, string> = {
   "image/jpeg": "jpg",
@@ -52,6 +58,316 @@ function revalidateResults(sectionId?: string, examId?: string, seriesId?: strin
     revalidatePath(`/org-admin/results/sections/${sectionId}/exams/${examId}/gazette`);
     revalidatePath(`/org-admin/results/sections/${sectionId}/exams/${examId}/print-lists`);
   }
+}
+
+const DEFAULT_ASSESSMENT_TOTAL = 30;
+
+async function loadSectionSheetContext(input: {
+  organizationId: string;
+  sectionId: string;
+}) {
+  const students = await prisma.student.findMany({
+    where: {
+      organizationId: input.organizationId,
+      sectionId: input.sectionId,
+      isActive: true,
+    },
+    select: {
+      stream: true,
+      studyGroup: true,
+      electiveSubjectId: true,
+      electiveChoices: { select: { subjectId: true } },
+    },
+  });
+  const sheetStream = inferResultSheetStream(students);
+  const chosenElectiveIds = new Set<string>();
+  for (const student of students) {
+    if (student.electiveSubjectId) chosenElectiveIds.add(student.electiveSubjectId);
+    for (const choice of student.electiveChoices) {
+      chosenElectiveIds.add(choice.subjectId);
+    }
+  }
+  return { students, sheetStream, chosenElectiveIds };
+}
+
+/** Drop Arts rows with no marks on Science sheets (legacy auto-adds). */
+async function pruneEmptyArtsAssessments(input: {
+  organizationId: string;
+  sectionId: string;
+  examTermId: string;
+}) {
+  const rows = await prisma.subjectAssessment.findMany({
+    where: {
+      organizationId: input.organizationId,
+      sectionId: input.sectionId,
+      examTermId: input.examTermId,
+    },
+    select: {
+      id: true,
+      subject: {
+        select: { id: true, name: true, track: true, electiveGroup: true },
+      },
+      marks: { select: { obtainedMarks: true, isAbsent: true } },
+      manualMarks: { select: { obtainedMarks: true, isAbsent: true } },
+    },
+  });
+
+  const toRemove = rows.filter((row) => {
+    if (!isArtsCurriculumSubject(row.subject)) return false;
+    const hasMarks =
+      row.marks.some((m) => m.isAbsent || m.obtainedMarks != null) ||
+      row.manualMarks.some((m) => m.isAbsent || m.obtainedMarks != null);
+    return !hasMarks;
+  });
+
+  if (toRemove.length === 0) return 0;
+  await prisma.subjectAssessment.deleteMany({
+    where: { id: { in: toRemove.map((row) => row.id) } },
+  });
+  return toRemove.length;
+}
+
+/** Drop Science rows with no marks on Arts sheets (wrong sibling copy / defaults). */
+async function pruneEmptyScienceAssessments(input: {
+  organizationId: string;
+  sectionId: string;
+  examTermId: string;
+}) {
+  const rows = await prisma.subjectAssessment.findMany({
+    where: {
+      organizationId: input.organizationId,
+      sectionId: input.sectionId,
+      examTermId: input.examTermId,
+    },
+    select: {
+      id: true,
+      subject: {
+        select: { id: true, name: true, track: true, electiveGroup: true },
+      },
+      marks: { select: { obtainedMarks: true, isAbsent: true } },
+      manualMarks: { select: { obtainedMarks: true, isAbsent: true } },
+    },
+  });
+
+  const toRemove = rows.filter((row) => {
+    if (!isScienceCurriculumSubject(row.subject)) return false;
+    const hasMarks =
+      row.marks.some((m) => m.isAbsent || m.obtainedMarks != null) ||
+      row.manualMarks.some((m) => m.isAbsent || m.obtainedMarks != null);
+    return !hasMarks;
+  });
+
+  if (toRemove.length === 0) return 0;
+  await prisma.subjectAssessment.deleteMany({
+    where: { id: { in: toRemove.map((row) => row.id) } },
+  });
+  return toRemove.length;
+}
+
+/**
+ * Ensure this section has subject rows for the exam.
+ * Defaults follow the section roster (Science vs Arts) — never copy Science
+ * subjects onto an Arts section from a sibling.
+ */
+async function ensureExamSectionSubjects(input: {
+  organizationId: string;
+  sectionId: string;
+  examTermId: string;
+}) {
+  const { sheetStream, chosenElectiveIds } = await loadSectionSheetContext(input);
+
+  if (sheetStream === "SCIENCE") {
+    await pruneEmptyArtsAssessments(input);
+  } else {
+    await pruneEmptyScienceAssessments(input);
+  }
+
+  const existingCount = await prisma.subjectAssessment.count({
+    where: {
+      organizationId: input.organizationId,
+      sectionId: input.sectionId,
+      examTermId: input.examTermId,
+    },
+  });
+  if (existingCount > 0) return { created: 0, source: "existing" as const, sheetStream };
+
+  const section = await prisma.section.findFirst({
+    where: { id: input.sectionId, organizationId: input.organizationId },
+    select: {
+      id: true,
+      classId: true,
+      class: {
+        select: {
+          subjects: {
+            select: { id: true, name: true, track: true, electiveGroup: true },
+          },
+          sections: {
+            where: { organizationId: input.organizationId },
+            select: { id: true },
+          },
+        },
+      },
+    },
+  });
+  if (!section) throw new Error("Section not found");
+
+  const resultSubjects = section.class.subjects.filter((subject) =>
+    isDefaultResultSubjectForStream(subject, sheetStream, chosenElectiveIds),
+  );
+  const allowedIds = new Set(resultSubjects.map((subject) => subject.id));
+
+  const siblingIds = section.class.sections
+    .map((row) => row.id)
+    .filter((id) => id !== section.id);
+
+  let subjectIds: string[] = [];
+  let source: "sibling" | "all" = "all";
+
+  if (siblingIds.length > 0) {
+    // Only copy from siblings that share the same sheet stream (Arts↔Arts, Science↔Science).
+    const siblingStudents = await prisma.student.findMany({
+      where: {
+        organizationId: input.organizationId,
+        sectionId: { in: siblingIds },
+        isActive: true,
+      },
+      select: { sectionId: true, stream: true, studyGroup: true },
+    });
+    const bySibling = new Map<string, Array<{ stream: string | null; studyGroup: string | null }>>();
+    for (const row of siblingStudents) {
+      const list = bySibling.get(row.sectionId) ?? [];
+      list.push({ stream: row.stream, studyGroup: row.studyGroup });
+      bySibling.set(row.sectionId, list);
+    }
+    const matchingSiblingIds = siblingIds.filter(
+      (id) => inferResultSheetStream(bySibling.get(id) ?? []) === sheetStream,
+    );
+
+    if (matchingSiblingIds.length > 0) {
+      const siblingAssessments = await prisma.subjectAssessment.findMany({
+        where: {
+          organizationId: input.organizationId,
+          examTermId: input.examTermId,
+          sectionId: { in: matchingSiblingIds },
+          subjectId: { in: [...allowedIds] },
+        },
+        select: { sectionId: true, subjectId: true },
+        orderBy: { createdAt: "asc" },
+      });
+      if (siblingAssessments.length > 0) {
+        const bySection = new Map<string, string[]>();
+        for (const row of siblingAssessments) {
+          if (!allowedIds.has(row.subjectId)) continue;
+          const list = bySection.get(row.sectionId) ?? [];
+          list.push(row.subjectId);
+          bySection.set(row.sectionId, list);
+        }
+        const best = [...bySection.values()].sort((a, b) => b.length - a.length)[0];
+        if (best?.length) {
+          subjectIds = [...new Set(best)];
+          source = "sibling";
+        }
+      }
+    }
+  }
+
+  if (subjectIds.length === 0) {
+    subjectIds = resultSubjects.map((subject) => subject.id);
+    source = "all";
+  }
+
+  if (subjectIds.length === 0) {
+    return { created: 0, source: "empty" as const, sheetStream };
+  }
+
+  await prisma.subjectAssessment.createMany({
+    data: subjectIds.map((subjectId) => ({
+      organizationId: input.organizationId,
+      examTermId: input.examTermId,
+      sectionId: input.sectionId,
+      subjectId,
+      totalMarks: new Prisma.Decimal(DEFAULT_ASSESSMENT_TOTAL),
+    })),
+    skipDuplicates: true,
+  });
+
+  return { created: subjectIds.length, source, sheetStream };
+}
+
+/** Prune empty Arts rows and seed defaults if this section still has none.
+ * Safe to call during page render (no revalidatePath).
+ */
+export async function prepareExamSectionSubjects(input: {
+  sectionId: string;
+  examTermId: string;
+}) {
+  const organizationId = await getOrganizationId();
+  return ensureExamSectionSubjects({
+    organizationId,
+    sectionId: input.sectionId,
+    examTermId: input.examTermId,
+  });
+}
+
+async function syncSectionSubjects(input: {
+  organizationId: string;
+  sectionId: string;
+  examTermId: string;
+  subjectIds: string[];
+  /** When false, only add missing subjects (used for sibling sections). */
+  allowRemove: boolean;
+}) {
+  const existing = await prisma.subjectAssessment.findMany({
+    where: {
+      organizationId: input.organizationId,
+      sectionId: input.sectionId,
+      examTermId: input.examTermId,
+    },
+    select: {
+      id: true,
+      subjectId: true,
+      marks: { select: { obtainedMarks: true, isAbsent: true } },
+      manualMarks: { select: { obtainedMarks: true, isAbsent: true } },
+    },
+  });
+
+  const selectedSet = new Set(input.subjectIds);
+  const toRemove = input.allowRemove
+    ? existing.filter((row) => !selectedSet.has(row.subjectId))
+    : [];
+  const blocked = toRemove.filter(
+    (row) =>
+      row.marks.some((mark) => mark.isAbsent || mark.obtainedMarks != null) ||
+      row.manualMarks.some((mark) => mark.isAbsent || mark.obtainedMarks != null),
+  );
+  if (blocked.length > 0) {
+    throw new Error(
+      "Cannot remove subjects that already have marks. Clear those marks first, then edit subjects.",
+    );
+  }
+
+  await prisma.$transaction(async (tx) => {
+    if (toRemove.length > 0) {
+      await tx.subjectAssessment.deleteMany({
+        where: { id: { in: toRemove.map((row) => row.id) } },
+      });
+    }
+
+    const existingIds = new Set(existing.map((row) => row.subjectId));
+    const toCreate = input.subjectIds.filter((id) => !existingIds.has(id));
+    if (toCreate.length > 0) {
+      await tx.subjectAssessment.createMany({
+        data: toCreate.map((subjectId) => ({
+          organizationId: input.organizationId,
+          examTermId: input.examTermId,
+          sectionId: input.sectionId,
+          subjectId,
+          totalMarks: new Prisma.Decimal(DEFAULT_ASSESSMENT_TOTAL),
+        })),
+        skipDuplicates: true,
+      });
+    }
+  });
 }
 
 export async function createExamTerm(formData: FormData) {
@@ -98,6 +414,13 @@ export async function createExamTerm(formData: FormData) {
         examDate: parsed.examDate ? new Date(`${parsed.examDate}T00:00:00`) : null,
       },
     });
+
+    await ensureExamSectionSubjects({
+      organizationId,
+      sectionId,
+      examTermId: exam.id,
+    });
+
     revalidateResults(sectionId, exam.id);
     return { ok: true as const, id: exam.id, sectionId };
   } catch (error) {
@@ -105,13 +428,15 @@ export async function createExamTerm(formData: FormData) {
   }
 }
 
-const DEFAULT_ASSESSMENT_TOTAL = 30;
-
 export async function saveExamSectionSubjects(formData: FormData) {
   try {
     const organizationId = await getOrganizationId();
     const sectionId = z.string().min(1).parse(formData.get("sectionId"));
     const examTermId = z.string().min(1).parse(formData.get("examTermId"));
+    const applyToAllSections =
+      String(formData.get("applyToAllSections") ?? "") === "1" ||
+      String(formData.get("applyToAllSections") ?? "").toLowerCase() === "true" ||
+      String(formData.get("applyToAllSections") ?? "") === "on";
     const subjectIds = [
       ...new Set(
         formData
@@ -132,6 +457,89 @@ export async function saveExamSectionSubjects(formData: FormData) {
           classId: true,
           class: {
             select: {
+              subjects: {
+                select: { id: true },
+              },
+              sections: {
+                where: { organizationId },
+                select: { id: true },
+              },
+            },
+          },
+        },
+      }),
+      prisma.examTerm.findFirst({
+        where: { id: examTermId, organizationId },
+        select: { id: true },
+      }),
+    ]);
+    if (!section || !exam) throw new Error("Exam or section not found");
+
+    const classSubjectIds = new Set(section.class.subjects.map((subject) => subject.id));
+    const invalid = subjectIds.filter((id) => !classSubjectIds.has(id));
+    if (invalid.length > 0) {
+      return { ok: false as const, error: "One or more subjects are not valid for this class." };
+    }
+
+    await syncSectionSubjects({
+      organizationId,
+      sectionId,
+      examTermId,
+      subjectIds,
+      allowRemove: true,
+    });
+
+    if (applyToAllSections) {
+      const siblingIds = section.class.sections
+        .map((row) => row.id)
+        .filter((id) => id !== sectionId);
+      for (const siblingId of siblingIds) {
+        await syncSectionSubjects({
+          organizationId,
+          sectionId: siblingId,
+          examTermId,
+          subjectIds,
+          allowRemove: false,
+        });
+        revalidateResults(siblingId, examTermId);
+      }
+    }
+
+    revalidateResults(sectionId, examTermId);
+    return { ok: true as const, sectionId, examTermId };
+  } catch (error) {
+    return {
+      ok: false as const,
+      error: actionError(error, "Failed to save subject selection"),
+    };
+  }
+}
+
+/** Add one or more class subjects to this section's exam (Arts included). */
+export async function addExamSectionSubjects(formData: FormData) {
+  try {
+    const organizationId = await getOrganizationId();
+    const sectionId = z.string().min(1).parse(formData.get("sectionId"));
+    const examTermId = z.string().min(1).parse(formData.get("examTermId"));
+    const subjectIds = [
+      ...new Set(
+        formData
+          .getAll("subjectIds")
+          .map(String)
+          .filter(Boolean),
+      ),
+    ];
+    if (subjectIds.length === 0) {
+      return { ok: false as const, error: "Select at least one subject to add." };
+    }
+
+    const [section, exam] = await Promise.all([
+      prisma.section.findFirst({
+        where: { id: sectionId, organizationId },
+        select: {
+          id: true,
+          class: {
+            select: {
               subjects: { select: { id: true } },
             },
           },
@@ -144,56 +552,21 @@ export async function saveExamSectionSubjects(formData: FormData) {
     ]);
     if (!section || !exam) throw new Error("Exam or section not found");
 
-    const allowedSubjectIds = new Set(section.class.subjects.map((subject) => subject.id));
-    const invalid = subjectIds.filter((id) => !allowedSubjectIds.has(id));
+    const allowed = new Set(section.class.subjects.map((subject) => subject.id));
+    const invalid = subjectIds.filter((id) => !allowed.has(id));
     if (invalid.length > 0) {
       return { ok: false as const, error: "One or more subjects are not valid for this class." };
     }
 
-    const existing = await prisma.subjectAssessment.findMany({
-      where: { organizationId, sectionId, examTermId },
-      select: {
-        id: true,
-        subjectId: true,
-        marks: {
-          select: { obtainedMarks: true, isAbsent: true },
-        },
-      },
-    });
-
-    const selectedSet = new Set(subjectIds);
-    const toRemove = existing.filter((row) => !selectedSet.has(row.subjectId));
-    const blocked = toRemove.filter((row) =>
-      row.marks.some((mark) => mark.isAbsent || mark.obtainedMarks != null),
-    );
-    if (blocked.length > 0) {
-      return {
-        ok: false as const,
-        error:
-          "Cannot remove subjects that already have marks. Clear those marks first, then edit subjects.",
-      };
-    }
-
-    await prisma.$transaction(async (tx) => {
-      if (toRemove.length > 0) {
-        await tx.subjectAssessment.deleteMany({
-          where: { id: { in: toRemove.map((row) => row.id) } },
-        });
-      }
-
-      const existingIds = new Set(existing.map((row) => row.subjectId));
-      const toCreate = subjectIds.filter((id) => !existingIds.has(id));
-      if (toCreate.length > 0) {
-        await tx.subjectAssessment.createMany({
-          data: toCreate.map((subjectId) => ({
-            organizationId,
-            examTermId,
-            sectionId,
-            subjectId,
-            totalMarks: new Prisma.Decimal(DEFAULT_ASSESSMENT_TOTAL),
-          })),
-        });
-      }
+    await prisma.subjectAssessment.createMany({
+      data: subjectIds.map((subjectId) => ({
+        organizationId,
+        examTermId,
+        sectionId,
+        subjectId,
+        totalMarks: new Prisma.Decimal(DEFAULT_ASSESSMENT_TOTAL),
+      })),
+      skipDuplicates: true,
     });
 
     revalidateResults(sectionId, examTermId);
@@ -201,7 +574,7 @@ export async function saveExamSectionSubjects(formData: FormData) {
   } catch (error) {
     return {
       ok: false as const,
-      error: actionError(error, "Failed to save subject selection"),
+      error: actionError(error, "Failed to add subjects"),
     };
   }
 }
@@ -765,6 +1138,13 @@ export async function addSeriesRound(formData: FormData) {
         examDate: examDateRaw ? new Date(`${examDateRaw}T00:00:00`) : null,
       },
     });
+
+    await ensureExamSectionSubjects({
+      organizationId,
+      sectionId,
+      examTermId: exam.id,
+    });
+
     revalidateResults(sectionId, exam.id, series.id);
     return { ok: true as const, id: exam.id };
   } catch (error) {

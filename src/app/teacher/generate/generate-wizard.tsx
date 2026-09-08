@@ -53,6 +53,7 @@ import {
   defaultUrduFieldForType,
   englishOptionsForCounts,
   englishTypeFieldSelectValue,
+  isClass9EnglishClass,
   isEnglishSubjectName,
   isIntermediateEnglishClass,
   isIslamiyatSubjectName,
@@ -513,6 +514,8 @@ export function GenerateWizard({
     isTarjumaSubject;
   const isIntermediateEnglish =
     isEnglishSubject && isIntermediateEnglishClass(selectedClass?.name);
+  const isClass9English =
+    isEnglishSubject && isClass9EnglishClass(selectedClass?.name);
   const selectedTopicIdSet = useMemo(
     () => new Set(selectedTopicIds),
     [selectedTopicIds],
@@ -546,6 +549,7 @@ export function GenerateWizard({
     if (isEnglishSubject) {
       return englishOptionsForCounts(subjectFieldCounts, {
         intermediate: isIntermediateEnglish,
+        class9: isClass9English,
       });
     }
     return [];
@@ -556,6 +560,7 @@ export function GenerateWizard({
     isEnglishSubject,
     subjectFieldCounts,
     isIntermediateEnglish,
+    isClass9English,
   ]);
   function firstPtsFieldForType(type: QType): EnglishFieldFilter {
     return (
@@ -566,7 +571,7 @@ export function GenerateWizard({
           ? defaultIslamiyatFieldForType(type)
           : isUrduSubject
             ? defaultUrduFieldForType(type)
-            : defaultEnglishFieldForType(type))
+            : defaultEnglishFieldForType(type, { class9: isClass9English }))
     );
   }
   const ptsTypeFieldValue = isTarjumaSubject
@@ -575,7 +580,9 @@ export function GenerateWizard({
       ? islamiyatTypeFieldSelectValue(activeType, englishField)
       : isUrduSubject
         ? urduTypeFieldSelectValue(activeType, englishField)
-        : englishTypeFieldSelectValue(activeType, englishField);
+        : englishTypeFieldSelectValue(activeType, englishField, {
+            class9: isClass9English,
+          });
 
   const pickerFilterSummary = useMemo(() => {
     const typeLabel = usesPtsTypeFields
@@ -1068,7 +1075,7 @@ export function GenerateWizard({
         ? parseIslamiyatTypeField(value)
         : isUrduSubject
           ? parseUrduTypeField(value)
-          : parseEnglishTypeField(value);
+          : parseEnglishTypeField(value, { class9: isClass9English });
     if (!parsed) return;
 
     if (hasChapterPlan()) {
@@ -2625,7 +2632,7 @@ export function GenerateWizard({
                           )
                           .map((opt) => ({
                             value: opt.value,
-                            label: `${opt.label} (${opt.count})`,
+                            label: opt.label,
                           }))}
                       />
                     ) : (

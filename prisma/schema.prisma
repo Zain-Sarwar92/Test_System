@@ -66,6 +66,17 @@ enum FeeFrequency {
   ONE_TIME
 }
 
+/// Kind of charge a fee head represents (orgs still pick their own display name).
+enum FeeCategory {
+  TUITION
+  TEST_DUES
+  GENERATOR
+  ADMISSION
+  LAB
+  TRANSPORT
+  OTHER
+}
+
 enum FeeChargeStatus {
   UNPAID
   PARTIAL
@@ -186,6 +197,8 @@ model Organization {
   moduleResults        Boolean              @default(false)
   moduleFees           Boolean              @default(false)
   moduleSchedules      Boolean              @default(false)
+  /// PIN to unlock Full admin from Paper desk (set by Super Admin).
+  deskUnlockPin        String?              @map("desk_unlock_pin")
   createdAt            DateTime             @default(now())
   updatedAt            DateTime             @updatedAt
 
@@ -349,6 +362,8 @@ model Student {
   name              String
   fatherName        String
   phone             String
+  /// Default monthly tuition amount collected at the counter.
+  monthlyFee       Decimal?      @map("monthly_fee") @db.Decimal(12, 2)
   isActive          Boolean        @default(true)
   stream            StudentStream @default(SCIENCE)
   /// Class 11/12 group: PRE_MEDICAL | PRE_ENGINEERING | ICS | ARTS
@@ -430,20 +445,28 @@ model StudentFieldValue {
 }
 
 model FeeHead {
-  id             String       @id @default(cuid())
-  organizationId String
-  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
-  name           String
-  description    String?
-  isActive       Boolean      @default(true)
-  createdAt      DateTime     @default(now())
-  updatedAt      DateTime     @updatedAt
+  id                String        @id @default(cuid())
+  organizationId    String
+  organization      Organization  @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  name              String
+  category          FeeCategory   @default(TUITION)
+  description       String?
+  /// Default collect amount (Monthly Fee still prefers student.monthlyFee).
+  defaultAmount     Decimal?      @map("default_amount") @db.Decimal(12, 2)
+  /// MONTHLY = recurring; ONE_TIME = once ever (e.g. admission).
+  frequency         FeeFrequency  @default(MONTHLY)
+  /// Empty = every month. Otherwise only these calendar months (1–12) are due.
+  applicableMonths  Int[]         @default([]) @map("applicable_months")
+  isActive          Boolean       @default(true)
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
 
   planItems FeePlanItem[]
   charges   FeeCharge[]
 
   @@unique([organizationId, name])
   @@index([organizationId])
+  @@index([organizationId, category])
   @@map("fee_head")
 }
 

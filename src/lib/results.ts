@@ -1,5 +1,8 @@
 import {
   chosenElectiveIds,
+  inferMatricGroup,
+  isHigherSecondaryClass,
+  isMatricSecondaryClass,
   isStudentEnrolledInSubject,
   resolveSubjectMeta,
   shortElectiveLabel,
@@ -56,6 +59,7 @@ export type CompiledStudent = {
   name: string;
   fatherName: string;
   stream: StudentStream;
+  studyGroup: string | null;
   electiveSubjectId: string | null;
   electiveChoiceIds: string[];
   cells: CompiledSubjectCell[];
@@ -85,18 +89,98 @@ export type GazetteColumn =
       totalMarks: number;
     };
 
+/** Matric: Bio/Comp one column. Intermediate: Bio/Comp/Chem one column. */
+export type GazetteElectiveMerge = "matric" | "intermediate" | "default";
+
+export function resolveGazetteElectiveMerge(className?: string | null): GazetteElectiveMerge {
+  if (!className) return "default";
+  if (isMatricSecondaryClass(className)) return "matric";
+  if (isHigherSecondaryClass(className)) return "intermediate";
+  return "default";
+}
+
+function isBiologyName(name: string) {
+  const n = name.trim().toLowerCase();
+  return n.includes("biology") || name.includes("حیاتیات");
+}
+
+function isChemistryName(name: string) {
+  const n = name.trim().toLowerCase();
+  return n.includes("chemistry") || name.includes("کیمیا");
+}
+
+function isComputerName(name: string) {
+  const n = name.trim().toLowerCase();
+  return n.includes("computer") || name.includes("کمپیوٹر");
+}
+
+function isMergedElectiveSubject(name: string, merge: GazetteElectiveMerge) {
+  if (merge === "matric") {
+    return isBiologyName(name) || isComputerName(name);
+  }
+  if (merge === "intermediate") {
+    return isBiologyName(name) || isComputerName(name) || isChemistryName(name);
+  }
+  return isBiologyName(name) || isChemistryName(name) || isComputerName(name);
+}
+
+function mergedElectiveLabel(subjects: SubjectMeta[], merge: GazetteElectiveMerge) {
+  if (merge === "matric") return "Bio / Comp";
+  if (merge === "intermediate") return "Bio / Comp / Chem";
+  return subjects.map((row) => shortElectiveLabel(row.name)).join(" / ");
+}
+
 export function buildGazetteColumns(
   subjects: SubjectMeta[],
+  merge: GazetteElectiveMerge = "default",
 ): GazetteColumn[] {
   const columns: GazetteColumn[] = [];
+
+  const altSubjects = subjects.filter((row) => isMergedElectiveSubject(row.name, merge));
+  // Matric / Intermediate: always one shared column when any of these subjects exist.
+  // Default (other classes): only merge when 2+ alternatives are present.
+  const shouldMerge =
+    merge === "matric" || merge === "intermediate"
+      ? altSubjects.length >= 1
+      : altSubjects.length > 1;
+  const altIds = new Set(shouldMerge ? altSubjects.map((row) => row.id) : []);
+
   let electiveColumnAdded = false;
+  let altColumnAdded = false;
 
   for (const subject of subjects) {
-    // All electives (Bio/Comp, Islamiyat Ikhtiyari, Arts options…) share one column.
+    if (shouldMerge && altIds.has(subject.id)) {
+      if (altColumnAdded) continue;
+      altColumnAdded = true;
+      columns.push({
+        kind: "elective",
+        key:
+          merge === "matric"
+            ? "group:BIO_COMP"
+            : merge === "intermediate"
+              ? "group:BIO_COMP_CHEM"
+              : "group:BIO_CHEM_COMP",
+        label: mergedElectiveLabel(altSubjects, merge),
+        group:
+          merge === "matric"
+            ? "BIO_COMP"
+            : merge === "intermediate"
+              ? "BIO_COMP_CHEM"
+              : "BIO_CHEM_COMP",
+        subjectIds: altSubjects.map((row) => row.id),
+        totalMarks: Math.max(...altSubjects.map((row) => row.totalMarks ?? 100)),
+      });
+      continue;
+    }
+
+    // Remaining electives (Arts options, etc.) share one column.
     if (subject.electiveGroup) {
       if (electiveColumnAdded) continue;
+      const groupSubjects = subjects.filter(
+        (row) => Boolean(row.electiveGroup) && !altIds.has(row.id),
+      );
+      if (groupSubjects.length === 0) continue;
       electiveColumnAdded = true;
-      const groupSubjects = subjects.filter((row) => Boolean(row.electiveGroup));
       columns.push({
         kind: "elective",
         key: "group:ELECTIVE",
@@ -107,6 +191,7 @@ export function buildGazetteColumns(
       });
       continue;
     }
+
     columns.push({
       kind: "subject",
       key: `subject:${subject.id}`,
@@ -120,12 +205,14 @@ export function buildGazetteColumns(
 
 export function compileSectionResult(input: {
   passPercent: number;
+  className?: string | null;
   students: Array<{
     id: string;
     rollNumber: string;
     name: string;
     fatherName: string;
     stream: StudentStream;
+    studyGroup?: string | null;
     electiveSubjectId?: string | null;
     electiveChoiceIds?: string[] | null;
   }>;
@@ -142,7 +229,10 @@ export function compileSectionResult(input: {
     markMap.set(`${mark.studentId}:${mark.subjectId}`, mark);
   }
 
-  const columns = buildGazetteColumns(input.subjects);
+  const columns = buildGazetteColumns(
+    input.subjects,
+    resolveGazetteElectiveMerge(input.className),
+  );
   const subjectById = new Map(input.subjects.map((subject) => [subject.id, subject]));
 
   const rows: CompiledStudent[] = input.students.map((student) => {
@@ -181,7 +271,9 @@ export function compileSectionResult(input: {
       const chosenIds = chosenElectiveIds(student);
       const chosenList = column.subjectIds
         .map((id) => subjectById.get(id)!)
-        .filter((subject) => subject && chosenIds.includes(subject.id));
+        .filter(
+          (subject) => subject && isStudentEnrolledInSubject(student, subject),
+        );
       if (chosenList.length === 0) {
         return {
           id: column.key,
@@ -195,54 +287,96 @@ export function compileSectionResult(input: {
         };
       }
 
-      const parts = chosenList.map((chosen) => {
-        const mark = markMap.get(`${student.id}:${chosen.id}`);
-        const isAbsent = mark?.isAbsent ?? false;
-        const obtained = isAbsent ? 0 : mark?.obtainedMarks ?? null;
-        const entered = Boolean(mark && (mark.isAbsent || mark.obtainedMarks != null));
-        return {
-          chosen,
-          mark,
-          isAbsent,
-          obtained,
-          entered,
-          totalMarks: chosen.totalMarks ?? column.totalMarks,
-        };
-      });
+      // Bio+Chem (Pre-med) may both apply — show all entered marks in one cell.
+      if (chosenList.length > 1) {
+        const parts = chosenList.map((chosen) => {
+          const mark = markMap.get(`${student.id}:${chosen.id}`);
+          const isAbsent = mark?.isAbsent ?? false;
+          const obtained = isAbsent ? 0 : mark?.obtainedMarks ?? null;
+          const entered = Boolean(
+            mark && (mark.isAbsent || mark.obtainedMarks != null),
+          );
+          return {
+            chosen,
+            isAbsent,
+            obtained,
+            entered,
+            totalMarks: chosen.totalMarks ?? column.totalMarks,
+          };
+        });
+        const entered = parts.every((part) => part.entered);
+        const isAbsent = parts.every((part) => part.isAbsent);
+        const obtained = parts.reduce(
+          (sum, part) => sum + (part.obtained ?? 0),
+          0,
+        );
+        const totalMarks = parts.reduce(
+          (sum, part) => sum + part.totalMarks,
+          0,
+        );
+        const display = !entered
+          ? "—"
+          : parts
+              .map((part) => {
+                const tag = shortElectiveLabel(part.chosen.name);
+                if (part.isAbsent) return `${tag} Abs`;
+                return `${tag} ${part.obtained ?? ""}`;
+              })
+              .join(" · ");
 
-      const applicable = true;
-      const entered = parts.every((part) => part.entered);
-      const isAbsent = parts.every((part) => part.isAbsent);
-      const obtained = parts.reduce((sum, part) => sum + (part.obtained ?? 0), 0);
-      const totalMarks = parts.reduce((sum, part) => sum + part.totalMarks, 0);
-      const display = !entered
-        ? "—"
-        : parts
-            .map((part) => (part.isAbsent ? "Abs" : String(part.obtained ?? "")))
-            .filter(Boolean)
-            .join(" · ");
+        return {
+          id: chosenList.map((row) => row.id).join("+"),
+          name: chosenList.map((row) => row.name).join(" / "),
+          totalMarks,
+          obtained,
+          isAbsent,
+          entered,
+          applicable: true,
+          display,
+        };
+      }
+
+      // Single applicable subject (Chem vs Comp / Bio only / Comp only).
+      const primary =
+        chosenList.find((subject) => chosenIds.includes(subject.id)) ??
+        chosenList[0]!;
+      const mark = markMap.get(`${student.id}:${primary.id}`);
+      const isAbsent = mark?.isAbsent ?? false;
+      const obtained = isAbsent ? 0 : mark?.obtainedMarks ?? null;
+      const entered = Boolean(
+        mark && (mark.isAbsent || mark.obtainedMarks != null),
+      );
+      const totalMarks = primary.totalMarks ?? column.totalMarks;
+      const tag = shortElectiveLabel(primary.name);
 
       return {
-        id: chosenList.map((row) => row.id).join("+"),
-        name: chosenList.map((row) => row.name).join(" / "),
+        id: primary.id,
+        name: primary.name,
         totalMarks,
         obtained,
         isAbsent,
         entered,
-        applicable,
-        display,
+        applicable: true,
+        display: !entered
+          ? "—"
+          : isAbsent
+            ? `${tag} Abs`
+            : `${tag} ${obtained ?? ""}`,
       };
     });
 
     const scored = cells.filter((cell) => cell.applicable);
     const complete = scored.length > 0 && scored.every((cell) => cell.entered);
+    // Missing / not-yet-entered marks count as 0 so Total / % / Position still calculate
+    // (absent already stores 0; empty cells show "—" but add 0 to the total).
     const obtainedTotal = scored.reduce((sum, cell) => sum + (cell.obtained ?? 0), 0);
     const maxTotal = scored.reduce((sum, cell) => sum + cell.totalMarks, 0);
-    const percent = complete ? percentOf(obtainedTotal, maxTotal) : null;
+    const percent = maxTotal > 0 ? percentOf(obtainedTotal, maxTotal) : null;
     const passed =
       complete &&
       scored.every((cell) => {
         if (cell.isAbsent) return false;
+        if (!cell.entered) return false;
         const subjectPercent = percentOf(cell.obtained ?? 0, cell.totalMarks);
         return subjectPercent != null && subjectPercent >= input.passPercent;
       }) &&
@@ -255,6 +389,15 @@ export function compileSectionResult(input: {
       name: student.name,
       fatherName: student.fatherName,
       stream: student.stream,
+      studyGroup:
+        student.studyGroup ??
+        (inferMatricGroup({
+          studyGroup: student.studyGroup,
+          stream: student.stream,
+          electiveSubjectId: student.electiveSubjectId,
+          electiveChoiceIds: chosenElectiveIds(student),
+          subjects: input.subjects,
+        }) || null),
       electiveSubjectId: student.electiveSubjectId ?? null,
       electiveChoiceIds: chosenElectiveIds(student),
       cells,
@@ -269,7 +412,7 @@ export function compileSectionResult(input: {
   });
 
   const ranked = [...rows]
-    .filter((row) => row.complete)
+    .filter((row) => row.maxTotal > 0)
     .sort((a, b) => b.obtainedTotal - a.obtainedTotal || sortByRoll(a.rollNumber, b.rollNumber));
 
   let lastTotal: number | null = null;
@@ -391,6 +534,7 @@ export function appendManualGazetteRows(input: {
         : isAbsent
           ? 0
           : groupMark?.obtainedMarks ?? null;
+      const tag = subject ? shortElectiveLabel(subject.name) : "";
       return {
         id: subject?.id ?? column.key,
         name: subject?.name ?? column.label,
@@ -402,10 +546,10 @@ export function appendManualGazetteRows(input: {
         display: !applicable
           ? "—"
           : isAbsent
-            ? "Abs"
+            ? `${tag} Abs`.trim()
             : obtained == null
               ? "—"
-              : String(obtained),
+              : `${tag} ${obtained}`.trim(),
       };
     });
 
@@ -421,6 +565,7 @@ export function appendManualGazetteRows(input: {
       name: person.name,
       fatherName: person.fatherName,
       stream: "SCIENCE" as StudentStream,
+      studyGroup: null,
       electiveSubjectId: null,
       electiveChoiceIds: [],
       cells,
@@ -440,12 +585,14 @@ export function appendManualGazetteRows(input: {
 /** Sum marks across selected rounds. Missing mark in an existing assessment counts as 0. */
 export function compileCombinedSectionResult(input: {
   passPercent: number;
+  className?: string | null;
   students: Array<{
     id: string;
     rollNumber: string;
     name: string;
     fatherName: string;
     stream: StudentStream;
+    studyGroup?: string | null;
     electiveSubjectId?: string | null;
     electiveChoiceIds?: string[] | null;
   }>;
@@ -555,6 +702,7 @@ export function compileCombinedSectionResult(input: {
 
   return compileSectionResult({
     passPercent: input.passPercent,
+    className: input.className,
     students: input.students,
     subjects,
     marks: forcedMarks,
@@ -597,12 +745,14 @@ type RoundAssessmentInput = {
 /** Same totals as the combined result, plus a per-round breakdown for each subject column. */
 export function compileMultiRoundSectionResult(input: {
   passPercent: number;
+  className?: string | null;
   students: Array<{
     id: string;
     rollNumber: string;
     name: string;
     fatherName: string;
     stream: StudentStream;
+    studyGroup?: string | null;
     electiveSubjectId?: string | null;
     electiveChoiceIds?: string[] | null;
   }>;
@@ -614,6 +764,7 @@ export function compileMultiRoundSectionResult(input: {
 }): { columns: MultiRoundColumn[]; rows: MultiRoundStudentRow[] } {
   const combined = compileCombinedSectionResult({
     passPercent: input.passPercent,
+    className: input.className,
     students: input.students,
     rounds: input.rounds.map((round) => ({ assessments: round.assessments })),
   });
@@ -673,13 +824,16 @@ export function compileMultiRoundSectionResult(input: {
   const rows: MultiRoundStudentRow[] = combined.rows.map((row) => {
     const breakdown = combined.columns.map((column, index) => {
       const subjectIds = columnSubjectIds[index];
+      const cell = row.cells[index];
       const chosenSubjectId =
         column.kind === "subject"
           ? subjectIds[0]
-          : subjectIds.find((id) => row.electiveChoiceIds.includes(id)) ??
-            subjectIds.find((id) => id === row.electiveSubjectId) ??
-            null;
-      const applicable = row.cells[index]?.applicable ?? false;
+          : cell?.applicable && cell.id && !cell.id.startsWith("group:")
+            ? cell.id
+            : subjectIds.find((id) => row.electiveChoiceIds.includes(id)) ??
+              subjectIds.find((id) => id === row.electiveSubjectId) ??
+              null;
+      const applicable = cell?.applicable ?? false;
 
       const roundValues = columns[index].rounds.map((round) => {
         if (!applicable || !chosenSubjectId) {

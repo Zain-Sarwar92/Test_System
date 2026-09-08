@@ -51,6 +51,7 @@ export function StudentListPrintView({
   boardName,
   className,
   sectionName,
+  groupLabel,
   students,
   backHref,
   embedded = false,
@@ -66,6 +67,7 @@ export function StudentListPrintView({
   boardName: string;
   className: string;
   sectionName: string;
+  groupLabel?: string;
   students: StudentListRow[];
   backHref: string;
   embedded?: boolean;
@@ -91,9 +93,12 @@ export function StudentListPrintView({
   const listRef = useMemo(() => {
     const classPart = className.replace(/\s+/g, "").toUpperCase();
     const sectionPart = sectionName.replace(/\s+/g, "").toUpperCase();
+    const groupPart = groupLabel
+      ? `-${groupLabel.replace(/\s+/g, "").toUpperCase()}`
+      : "";
     const datePart = listDate.replaceAll("-", "");
-    return `${classPart}-${sectionPart}-${datePart}`;
-  }, [className, sectionName, listDate]);
+    return `${classPart}-${sectionPart}${groupPart}-${datePart}`;
+  }, [className, sectionName, groupLabel, listDate]);
 
   return (
     <div className={embedded ? "student-list-print-break" : "print-page student-list-print"}>
@@ -205,6 +210,12 @@ export function StudentListPrintView({
             <span>Section</span>
             <strong>{sectionName}</strong>
           </div>
+          {groupLabel ? (
+            <div>
+              <span>Group</span>
+              <strong>{groupLabel}</strong>
+            </div>
+          ) : null}
           <div>
             <span>Session</span>
             <strong>{session || "____________"}</strong>
@@ -228,7 +239,11 @@ export function StudentListPrintView({
         </div>
 
         {students.length === 0 ? (
-          <p className="student-list-empty">No active students in this section.</p>
+          <p className="student-list-empty">
+            {groupLabel
+              ? `No active ${groupLabel} students in this section.`
+              : "No active students in this section."}
+          </p>
         ) : (
           <table className="student-list-table">
             <thead>

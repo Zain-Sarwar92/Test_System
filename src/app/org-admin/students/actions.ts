@@ -1,7 +1,9 @@
 "use server";
 
+import { randomUUID } from "node:crypto";
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
+import { Prisma } from "@/generated/prisma/client";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { assertOrgModule } from "@/lib/org-modules";
@@ -9,12 +11,185 @@ import { suggestNextRollNumber } from "@/lib/roll-number";
 import {
   ARTS_ELECTIVE_GROUP,
   SCIENCE_ELECTIVE_GROUP,
+  electiveIdsForIntermediateGroup,
   isHigherSecondaryClass,
+  isIntermediateStudyGroup,
+  isMatricSecondaryClass,
+  isMatricStudyGroup,
   resolveSubjectMeta,
+  scienceElectiveIdForMatricGroup,
   streamFromStudyGroup,
+  type IntermediateStudyGroup,
+  type MatricStudyGroup,
   type StudentStream,
   type StudyGroup,
 } from "@/lib/subject-stream";
+import { ONE_TIME_PERIOD_KEY } from "@/lib/fee-head-rules";
+
+const MONTHLY_FEE_LABEL = "Monthly Fee";
+const ADMISSION_FEE_LABEL = "Admission Fee";
+
+/** On enroll: mark current month Monthly Fee as paid when amount is set. */
+async function markCurrentMonthMonthlyFeePaid(
+  tx: Prisma.TransactionClient,
+  input: {
+    organizationId: string;
+    studentId: string;
+    amount: Prisma.Decimal;
+  },
+) {
+  const periodKey = new Date().toISOString().slice(0, 7);
+  const feeHead = await tx.feeHead.upsert({
+    where: {
+      organizationId_name: {
+        organizationId: input.organizationId,
+        name: MONTHLY_FEE_LABEL,
+      },
+    },
+    update: { isActive: true },
+    create: {
+      organizationId: input.organizationId,
+      name: MONTHLY_FEE_LABEL,
+      category: "TUITION",
+      frequency: "MONTHLY",
+      description: "Regular monthly tuition",
+      isActive: true,
+    },
+    select: { id: true },
+  });
+
+  const existing = await tx.feeCharge.findFirst({
+    where: {
+      organizationId: input.organizationId,
+      studentId: input.studentId,
+      feeHeadId: feeHead.id,
+      periodKey,
+    },
+    select: { id: true, status: true },
+  });
+  if (existing?.status === "PAID") return;
+
+  const charge =
+    existing ??
+    (await tx.feeCharge.create({
+      data: {
+        organizationId: input.organizationId,
+        studentId: input.studentId,
+        feeHeadId: feeHead.id,
+        periodKey,
+        description: MONTHLY_FEE_LABEL,
+        amount: input.amount,
+        status: "UNPAID",
+      },
+      select: { id: true },
+    }));
+
+  if (existing) {
+    await tx.feeCharge.update({
+      where: { id: charge.id },
+      data: { amount: input.amount, status: "UNPAID" },
+    });
+  }
+
+  const receiptNumber = `RCP-${Date.now().toString(36).toUpperCase()}-${randomUUID().slice(0, 6).toUpperCase()}`;
+  await tx.feePayment.create({
+    data: {
+      organizationId: input.organizationId,
+      studentId: input.studentId,
+      receiptNumber,
+      amount: input.amount,
+      method: "CASH",
+      paidAt: new Date(),
+      note: "Auto-paid on student enrollment",
+      allocations: { create: { chargeId: charge.id, amount: input.amount } },
+    },
+  });
+  await tx.feeCharge.update({
+    where: { id: charge.id },
+    data: { status: "PAID", amount: input.amount },
+  });
+}
+
+/** On enroll: create Admission Fee and mark paid when amount is set. */
+async function markAdmissionFeePaid(
+  tx: Prisma.TransactionClient,
+  input: {
+    organizationId: string;
+    studentId: string;
+    amount: Prisma.Decimal;
+  },
+) {
+  const feeHead = await tx.feeHead.upsert({
+    where: {
+      organizationId_name: {
+        organizationId: input.organizationId,
+        name: ADMISSION_FEE_LABEL,
+      },
+    },
+    update: { isActive: true, frequency: "ONE_TIME", category: "ADMISSION" },
+    create: {
+      organizationId: input.organizationId,
+      name: ADMISSION_FEE_LABEL,
+      category: "ADMISSION",
+      frequency: "ONE_TIME",
+      description: "Paid once per student",
+      defaultAmount: input.amount,
+      isActive: true,
+    },
+    select: { id: true },
+  });
+
+  const existing = await tx.feeCharge.findFirst({
+    where: {
+      organizationId: input.organizationId,
+      studentId: input.studentId,
+      feeHeadId: feeHead.id,
+      periodKey: ONE_TIME_PERIOD_KEY,
+    },
+    select: { id: true, status: true },
+  });
+  if (existing?.status === "PAID") return;
+
+  const charge =
+    existing ??
+    (await tx.feeCharge.create({
+      data: {
+        organizationId: input.organizationId,
+        studentId: input.studentId,
+        feeHeadId: feeHead.id,
+        periodKey: ONE_TIME_PERIOD_KEY,
+        description: ADMISSION_FEE_LABEL,
+        amount: input.amount,
+        status: "UNPAID",
+      },
+      select: { id: true },
+    }));
+
+  if (existing) {
+    await tx.feeCharge.update({
+      where: { id: charge.id },
+      data: { amount: input.amount, status: "UNPAID" },
+    });
+  }
+
+  const receiptNumber = `ADM-${Date.now().toString(36).toUpperCase()}-${randomUUID().slice(0, 6).toUpperCase()}`;
+  await tx.feePayment.create({
+    data: {
+      organizationId: input.organizationId,
+      studentId: input.studentId,
+      receiptNumber,
+      amount: input.amount,
+      method: "CASH",
+      paidAt: new Date(),
+      note: "Admission fee paid on enrollment",
+      allocations: { create: { chargeId: charge.id, amount: input.amount } },
+    },
+  });
+  await tx.feeCharge.update({
+    where: { id: charge.id },
+    data: { status: "PAID", amount: input.amount },
+  });
+}
 
 const studentSchema = z.object({
   id: z.string().min(1).optional(),
@@ -30,9 +205,34 @@ const studentSchema = z.object({
       (value) => (value.match(/\d/g)?.length ?? 0) >= 10,
       "Enter a valid phone number with at least 10 digits.",
     ),
+  monthlyFee: z.preprocess((value) => {
+    if (value == null) return undefined;
+    const raw = String(value).trim();
+    return raw ? raw : undefined;
+  }, z
+    .string()
+    .regex(/^(?:0|[1-9]\d*)(?:\.\d{1,2})?$/, "Enter a valid monthly fee")
+    .optional()),
+  admissionFee: z.preprocess((value) => {
+    if (value == null) return undefined;
+    const raw = String(value).trim();
+    return raw ? raw : undefined;
+  }, z
+    .string()
+    .regex(/^(?:0|[1-9]\d*)(?:\.\d{1,2})?$/, "Enter a valid admission fee")
+    .optional()),
   sectionId: z.string().min(1, "Select a section."),
   stream: z.enum(["SCIENCE", "ARTS"]),
-  studyGroup: z.enum(["PRE_MEDICAL", "PRE_ENGINEERING", "ICS", "ARTS"]).optional(),
+  studyGroup: z
+    .enum([
+      "PRE_MEDICAL",
+      "PRE_ENGINEERING",
+      "ICS",
+      "ARTS",
+      "BIOLOGY",
+      "COMPUTER",
+    ])
+    .optional(),
   electiveSubjectId: z.string().optional(),
   electiveSubjectIds: z.array(z.string().min(1)).optional(),
 });
@@ -160,31 +360,50 @@ async function resolveStreamAndElective(
     ),
   ];
   const senior = isHigherSecondaryClass(section.class.name);
+  const matric = isMatricSecondaryClass(section.class.name);
 
   if (senior) {
-    if (!studyGroup) {
+    if (!studyGroup || !isIntermediateStudyGroup(studyGroup)) {
       throw new Error("Select a group (Pre-medical, Pre-engineering, ICS, or Arts).");
     }
-    const nextStream = streamFromStudyGroup(studyGroup);
-    const electives = metas.filter((subject) => subject.electiveGroup);
-    const chosen = selected.filter((id) =>
-      electives.some((subject) => subject.id === id),
-    );
-    const invalid = selected.filter((id) => !chosen.includes(id));
-    if (invalid.length > 0) {
-      throw new Error("Choose electives from this class only.");
-    }
-    const sciencePick =
-      chosen.find(
-        (id) =>
-          metas.find((subject) => subject.id === id)?.electiveGroup ===
-          SCIENCE_ELECTIVE_GROUP,
-      ) ?? null;
+    const intermediateGroup = studyGroup as IntermediateStudyGroup;
+    const nextStream = streamFromStudyGroup(intermediateGroup);
+    const chosen = electiveIdsForIntermediateGroup(metas, intermediateGroup);
     return {
       stream: nextStream,
-      studyGroup,
-      electiveSubjectId: nextStream === "SCIENCE" ? sciencePick : null,
+      studyGroup: intermediateGroup,
+      electiveSubjectId: nextStream === "SCIENCE" ? (chosen[0] ?? null) : null,
       electiveChoiceIds: chosen,
+    };
+  }
+
+  if (matric) {
+    if (!studyGroup || !isMatricStudyGroup(studyGroup)) {
+      throw new Error("Select a group (Biology, Computer, or Arts).");
+    }
+    const matricGroup = studyGroup as MatricStudyGroup;
+    const nextStream = streamFromStudyGroup(matricGroup);
+    if (matricGroup === "ARTS") {
+      return {
+        stream: nextStream,
+        studyGroup: matricGroup,
+        electiveSubjectId: null as string | null,
+        electiveChoiceIds: [] as string[],
+      };
+    }
+    const electiveId = scienceElectiveIdForMatricGroup(metas, matricGroup);
+    if (!electiveId) {
+      throw new Error(
+        matricGroup === "BIOLOGY"
+          ? "Biology subject is not set up for this class."
+          : "Computer subject is not set up for this class.",
+      );
+    }
+    return {
+      stream: nextStream,
+      studyGroup: matricGroup,
+      electiveSubjectId: electiveId,
+      electiveChoiceIds: [electiveId],
     };
   }
 
@@ -285,6 +504,8 @@ export async function createStudent(formData: FormData) {
       name: formData.get("name"),
       fatherName: formData.get("fatherName"),
       phone: formData.get("phone"),
+      monthlyFee: formData.get("monthlyFee"),
+      admissionFee: formData.get("admissionFee"),
       sectionId: formData.get("sectionId"),
       stream: formData.get("stream") || "SCIENCE",
       studyGroup:
@@ -331,6 +552,7 @@ export async function createStudent(formData: FormData) {
           name: parsed.name,
           fatherName: parsed.fatherName,
           phone: parsed.phone,
+          monthlyFee: parsed.monthlyFee ? new Prisma.Decimal(parsed.monthlyFee) : null,
           sectionId: parsed.sectionId,
           stream: placement.stream,
           studyGroup: placement.studyGroup,
@@ -344,9 +566,24 @@ export async function createStudent(formData: FormData) {
           data: customValues.map((value) => ({ ...value, studentId: created.id })),
         });
       }
+      if (parsed.admissionFee) {
+        await markAdmissionFeePaid(tx, {
+          organizationId,
+          studentId: created.id,
+          amount: new Prisma.Decimal(parsed.admissionFee),
+        });
+      }
+      if (parsed.monthlyFee) {
+        await markCurrentMonthMonthlyFeePaid(tx, {
+          organizationId,
+          studentId: created.id,
+          amount: new Prisma.Decimal(parsed.monthlyFee),
+        });
+      }
       return created;
     });
     revalidateStudents(student.id);
+    revalidatePath("/org-admin/fees");
     return { ok: true as const, id: student.id };
   } catch (error) {
     return { ok: false as const, error: actionError(error, "Failed to create student") };
@@ -366,6 +603,7 @@ export async function updateStudent(formData: FormData) {
       name: formData.get("name"),
       fatherName: formData.get("fatherName"),
       phone: formData.get("phone"),
+      monthlyFee: formData.get("monthlyFee"),
       sectionId: formData.get("sectionId"),
       stream: formData.get("stream") || "SCIENCE",
       studyGroup:
@@ -412,6 +650,7 @@ export async function updateStudent(formData: FormData) {
           name: parsed.name,
           fatherName: parsed.fatherName,
           phone: parsed.phone,
+          monthlyFee: parsed.monthlyFee ? new Prisma.Decimal(parsed.monthlyFee) : null,
           sectionId: parsed.sectionId,
           stream: placement.stream,
           studyGroup: placement.studyGroup,
@@ -615,15 +854,15 @@ export async function deleteStudentField(formData: FormData) {
     }
     const field = await prisma.studentFieldDefinition.findFirst({
       where: { id, organizationId },
-      select: { id: true, isActive: true },
+      select: { id: true },
     });
     if (!field) {
       return { ok: false as const, error: "Custom field not found" };
     }
-    if (field.isActive) {
-      return { ok: false as const, error: "Deactivate the custom field before deleting" };
-    }
-    await prisma.studentFieldDefinition.deleteMany({ where: { id, organizationId } });
+    await prisma.$transaction(async (tx) => {
+      await tx.studentFieldValue.deleteMany({ where: { fieldId: id } });
+      await tx.studentFieldDefinition.deleteMany({ where: { id, organizationId } });
+    });
     revalidateStudents();
     return { ok: true as const };
   } catch (error) {

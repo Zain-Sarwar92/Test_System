@@ -9,10 +9,18 @@ import { MultiSearchSelect } from "@/components/ui/multi-search-select";
 import { SearchSelect } from "@/components/ui/search-select";
 import { createStudent, getNextRollNumber, updateStudent } from "./actions";
 import {
+  MATRIC_GROUP_OPTIONS,
   STUDY_GROUP_OPTIONS,
+  electiveIdsForIntermediateGroup,
   electiveOptionsForClass,
+  inferMatricGroup,
   isHigherSecondaryClass,
+  isMatricSecondaryClass,
+  resolveSubjectMeta,
+  scienceElectiveIdForMatricGroup,
   streamFromStudyGroup,
+  type IntermediateStudyGroup,
+  type MatricStudyGroup,
   type StudentStream,
   type StudyGroup,
 } from "@/lib/subject-stream";
@@ -49,6 +57,7 @@ type InitialStudent = {
   name: string;
   fatherName: string;
   phone: string;
+  monthlyFee?: string | null;
   sectionId: string;
   stream: StudentStream;
   studyGroup?: string | null;
@@ -56,6 +65,21 @@ type InitialStudent = {
   electiveChoiceIds?: string[];
   values: Record<string, string>;
 };
+
+function initialMatricGroup(
+  initial: InitialStudent | undefined,
+  classSubjects: ClassSubject[],
+  classId: string,
+): MatricStudyGroup | "" {
+  if (!initial) return "";
+  return inferMatricGroup({
+    studyGroup: initial.studyGroup,
+    stream: initial.stream,
+    electiveSubjectId: initial.electiveSubjectId,
+    electiveChoiceIds: initial.electiveChoiceIds,
+    subjects: classSubjects.filter((subject) => subject.classId === classId),
+  });
+}
 
 export function StudentForm({
   sections,
@@ -83,9 +107,21 @@ export function StudentForm({
   const [rollNumber, setRollNumber] = useState(initial?.rollNumber ?? "");
   const [rollHint, setRollHint] = useState("");
   const [stream, setStream] = useState<StudentStream>(initial?.stream ?? "SCIENCE");
-  const [studyGroup, setStudyGroup] = useState<StudyGroup | "">(
-    (initial?.studyGroup as StudyGroup | undefined) ?? "",
-  );
+  const [studyGroup, setStudyGroup] = useState<StudyGroup | "">(() => {
+    if (!initial) return "";
+    const className = presetSection?.className ?? "";
+    if (isMatricSecondaryClass(className)) {
+      return initialMatricGroup(
+        initial,
+        classSubjects,
+        presetSection?.classId ?? classId,
+      );
+    }
+    if (initial.studyGroup) {
+      return initial.studyGroup as StudyGroup;
+    }
+    return "";
+  });
   const [electiveSubjectIds, setElectiveSubjectIds] = useState<string[]>(() => {
     if (initial?.electiveChoiceIds?.length) return initial.electiveChoiceIds;
     return initial?.electiveSubjectId ? [initial.electiveSubjectId] : [];
@@ -127,6 +163,14 @@ export function StudentForm({
     [classOptions, classId],
   );
   const seniorClass = isHigherSecondaryClass(selectedClassName);
+  const matricClass = isMatricSecondaryClass(selectedClassName);
+  const classMetas = useMemo(
+    () =>
+      classSubjects
+        .filter((subject) => subject.classId === classId)
+        .map(resolveSubjectMeta),
+    [classSubjects, classId],
+  );
   const electives = useMemo(
     () =>
       electiveOptionsForClass(
@@ -146,16 +190,19 @@ export function StudentForm({
         : "",
     [electiveSubjectIds, electives, stream],
   );
-  const streamOptions = useMemo(
-    () =>
-      seniorClass
-        ? STUDY_GROUP_OPTIONS
-        : [
-            { value: "SCIENCE", label: "Science" },
-            { value: "ARTS", label: "Arts" },
-          ],
-    [seniorClass],
-  );
+  const streamOptions = useMemo(() => {
+    if (seniorClass) return STUDY_GROUP_OPTIONS;
+    if (matricClass) return MATRIC_GROUP_OPTIONS;
+    return [
+      { value: "SCIENCE", label: "Science" },
+      { value: "ARTS", label: "Arts" },
+    ];
+  }, [seniorClass, matricClass]);
+
+  const usesStudyGroup = seniorClass || matricClass;
+  // 9–12: group only (no separate elective picker). Primary may still use electives.
+  const showElectiveField =
+    !matricClass && !seniorClass && electiveOptions.length > 0;
 
   function resetClassDownstream() {
     setSectionId("");
@@ -164,12 +211,38 @@ export function StudentForm({
   }
 
   useEffect(() => {
+    if (matricClass) {
+      if (!studyGroup || studyGroup === "ARTS") {
+        setElectiveSubjectIds([]);
+        return;
+      }
+      if (studyGroup !== "BIOLOGY" && studyGroup !== "COMPUTER") return;
+      const electiveId = scienceElectiveIdForMatricGroup(classMetas, studyGroup);
+      setElectiveSubjectIds(electiveId ? [electiveId] : []);
+      return;
+    }
+    if (seniorClass) {
+      if (!studyGroup) {
+        setElectiveSubjectIds([]);
+        return;
+      }
+      setElectiveSubjectIds(
+        electiveIdsForIntermediateGroup(
+          classMetas,
+          studyGroup as IntermediateStudyGroup,
+        ),
+      );
+    }
+  }, [matricClass, seniorClass, studyGroup, classMetas]);
+
+  useEffect(() => {
+    if (matricClass || seniorClass) return;
     setElectiveSubjectIds((current) => {
       const allowed = new Set(electiveOptions.map((option) => option.value));
       const next = current.filter((id) => allowed.has(id));
       return next.length === current.length ? current : next;
     });
-  }, [electiveOptions]);
+  }, [electiveOptions, matricClass, seniorClass]);
 
   useEffect(() => {
     if (initial) return;
@@ -231,7 +304,10 @@ export function StudentForm({
     if (seniorClass && !studyGroup) {
       return "Select a group (Pre-medical, Pre-engineering, ICS, or Arts).";
     }
-    if (!seniorClass && stream === "SCIENCE" && electives.length > 0) {
+    if (matricClass && !studyGroup) {
+      return "Select a group (Biology, Computer, or Arts).";
+    }
+    if (!usesStudyGroup && stream === "SCIENCE" && electives.length > 0) {
       const sciencePicks = electiveSubjectIds.filter((id) =>
         electives.some((subject) => subject.id === id),
       );
@@ -285,7 +361,7 @@ export function StudentForm({
       {initial ? <input type="hidden" name="id" value={initial.id} /> : null}
       <input type="hidden" name="sectionId" value={sectionId} />
       <input type="hidden" name="stream" value={stream} />
-      <input type="hidden" name="studyGroup" value={seniorClass ? studyGroup : ""} />
+      <input type="hidden" name="studyGroup" value={usesStudyGroup ? studyGroup : ""} />
       <input
         type="hidden"
         name="electiveSubjectId"
@@ -351,31 +427,32 @@ export function StudentForm({
         </div>
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className={`grid gap-5 ${showElectiveField ? "sm:grid-cols-2" : ""}`}>
         <div className="block">
           <span className="mb-1.5 block text-sm font-semibold text-ink">
-            Group / Stream <span className="text-red-500">*</span>
+            {usesStudyGroup ? "Group" : "Group / Stream"}{" "}
+            <span className="text-red-500">*</span>
           </span>
           <SearchSelect
-            value={seniorClass ? studyGroup : stream}
+            value={usesStudyGroup ? studyGroup : stream}
             options={streamOptions}
             onChange={(value) => {
-              if (seniorClass) {
+              if (seniorClass || matricClass) {
                 const group = value as StudyGroup;
                 setStudyGroup(group);
                 setStream(streamFromStudyGroup(group));
               } else {
                 setStream(value as StudentStream);
+                setElectiveSubjectIds([]);
               }
-              setElectiveSubjectIds([]);
             }}
-            placeholder={seniorClass ? "Select group" : "Select stream"}
-            searchPlaceholder={seniorClass ? "Search group…" : "Search stream…"}
-            ariaLabel="Group / Stream"
+            placeholder={usesStudyGroup ? "Select group" : "Select stream"}
+            searchPlaceholder={usesStudyGroup ? "Search group…" : "Search stream…"}
+            ariaLabel={usesStudyGroup ? "Group" : "Group / Stream"}
             className="h-11 w-full"
           />
         </div>
-        {electiveOptions.length > 0 ? (
+        {showElectiveField ? (
           <div className="block">
             <span className="mb-1.5 block text-sm font-semibold text-ink">
               Elective
@@ -448,6 +525,34 @@ export function StudentForm({
           </span>
           <Input name="phone" type="tel" defaultValue={initial?.phone} maxLength={40} />
         </label>
+        <label className="block">
+          <span className="mb-1.5 block text-sm font-semibold text-ink">Monthly fee (PKR)</span>
+          <Input
+            name="monthlyFee"
+            inputMode="decimal"
+            defaultValue={initial?.monthlyFee ?? ""}
+            placeholder="e.g. 4000"
+          />
+          <span className="mt-1.5 block text-xs text-muted">
+            Collect pe Monthly Fee select karne par yeh amount auto fill hogi; current month paid mark hoga.
+          </span>
+        </label>
+        {!initial ? (
+          <label className="block">
+            <span className="mb-1.5 block text-sm font-semibold text-ink">
+              Admission fee (PKR)
+            </span>
+            <Input
+              name="admissionFee"
+              inputMode="decimal"
+              defaultValue="5000"
+              placeholder="e.g. 5000"
+            />
+            <span className="mt-1.5 block text-xs text-muted">
+              Agar amount diya to Admission Fee charge banegi aur paid mark hogi.
+            </span>
+          </label>
+        ) : null}
       </div>
 
       {fields.length ? (

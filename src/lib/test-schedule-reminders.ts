@@ -70,14 +70,25 @@ async function loadDueTomorrowAssignments(start: Date, end: Date) {
 
 /**
  * Email reminders only for papers due tomorrow that are still missing.
- * In-app "prepare within 1 week" is handled via PENDING status (7-day window).
- *
- * Multiple assignments for the same teacher are batched into one digest email
- * so a teacher with many sections does not get dozens of separate emails.
+ * Disabled — set TEST_REMINDER_EMAILS=1 to enable. In-app due reminders are also off.
  */
 export async function runTestScheduleReminders(
   now: Date = new Date(),
 ): Promise<ReminderRunResult> {
+  const enabled =
+    process.env.TEST_REMINDER_EMAILS === "1" ||
+    process.env.TEST_REMINDER_EMAILS === "true";
+
+  if (!enabled) {
+    return {
+      checked: 0,
+      sent: 0,
+      skipped: 0,
+      failed: 0,
+      errors: [],
+    };
+  }
+
   const tomorrow = new Date(now);
   tomorrow.setDate(tomorrow.getDate() + 1);
   const { start, end } = dayBounds(tomorrow);

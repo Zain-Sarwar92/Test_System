@@ -96,6 +96,7 @@ export default async function EditStudentPage({
               name: student.name,
               fatherName: student.fatherName,
               phone: student.phone,
+              monthlyFee: student.monthlyFee?.toFixed(2) ?? "",
               sectionId: student.sectionId,
               stream: student.stream,
               studyGroup: student.studyGroup,

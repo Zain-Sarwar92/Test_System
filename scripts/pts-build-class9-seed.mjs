@@ -51,21 +51,23 @@ function fieldSource(field, priorityName) {
     case "PASSAGE":
       return "Passage";
     case "WORD":
-      return "Word meaning";
+      return "Words Into Sentences";
     case "IDIOM":
-      return "Idiom completion";
+      return "Idioms";
     case "CORRECT":
       return "Sentence correction";
     case "LETTER":
-      return "Letter";
+      return "Letters";
     case "APPLICATION":
       return "Application";
     case "STORY":
-      return "Story";
+      return "Stories";
     case "DIALOGUE":
-      return "Dialogue";
+      return "Dialogues";
     case "CENTRAL":
       return "Central idea";
+    case "VOICE":
+      return "Active & Passive Voice";
     default:
       return priorityName || field || "Exercise";
   }

@@ -81,7 +81,8 @@ export default async function NewStudentPage({
           <p className="page-kicker">Students</p>
           <h2 className="page-title mt-1">Add Student</h2>
           <p className="page-subtitle mx-auto mt-1 max-w-xl">
-            Choose Science or Arts. Science students also pick Biology or Computer as elective.
+            Class 9–10: Biology / Computer / Arts. Class 11–12: Pre-medical /
+            Pre-engineering / ICS / Arts. No separate elective — group sets it.
           </p>
         </div>
         <div className="fade-up rounded-[1.25rem] border border-[rgba(15,40,70,0.1)] bg-card p-6 shadow-[0_10px_30px_rgba(15,40,70,0.06)] sm:p-8">

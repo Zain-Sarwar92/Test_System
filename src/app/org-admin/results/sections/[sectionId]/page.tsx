@@ -69,7 +69,10 @@ export default async function SectionExamsPage({
 
       <Card>
         <CardTitle>New result</CardTitle>
-  
+        <CardDescription className="mb-3">
+          Science + common subjects are added automatically. Use Add subject on the
+          exam page to include Arts or any other class subject.
+        </CardDescription>
         <CreateExamForm sectionId={section.id} />
       </Card>
 

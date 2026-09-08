@@ -34,8 +34,9 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## Docs
 
-- Product requirements: `.cursor/rules/test-generator-srs.mdc`
-- Implementation plan: `IMPLEMENTATION_PLAN.md`
+- **Complete project documentation:** `docs/PROJECT.md`
+- Schedules & teachers: `docs/schedules-and-teachers.md`
+- Product requirements (SRS): `.cursor/rules/test-generator-srs.mdc`
 - **Production deploy (Vercel):** `docs/DEPLOY.md`
 
 ## Scripts

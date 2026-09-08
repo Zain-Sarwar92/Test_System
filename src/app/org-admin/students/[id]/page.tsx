@@ -5,6 +5,7 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
+import { studentGroupDisplay } from "@/lib/subject-stream";
 
 function money(value: number) {
   return value.toLocaleString(undefined, {
@@ -49,6 +50,19 @@ export default async function StudentDetailPage({
         feePayments: {
           where: { organizationId },
           orderBy: { paidAt: "desc" },
+          include: {
+            allocations: {
+              select: {
+                amount: true,
+                charge: {
+                  select: {
+                    periodKey: true,
+                    feeHead: { select: { name: true } },
+                  },
+                },
+              },
+            },
+          },
         },
       },
     }),
@@ -118,6 +132,7 @@ export default async function StudentDetailPage({
               ["Roll number", student.rollNumber],
               ["Father name", student.fatherName],
               ["Phone", student.phone],
+              ["Group", studentGroupDisplay(student)],
               ["Board", student.section.class.board.name],
               ["Class", student.section.class.name],
               ["Section", student.section.name],
@@ -216,29 +231,59 @@ export default async function StudentDetailPage({
       <Card className="overflow-hidden p-0">
         <div className="border-b border-[rgba(15,40,70,0.08)] px-5 py-4">
           <CardTitle>Payment history</CardTitle>
+          <CardDescription>
+            Kis month ki fee, kitni amount, kis date ko submit hui.
+          </CardDescription>
         </div>
         <div className="overflow-x-auto p-5">
           {student.feePayments.length ? (
             <table className="min-w-full text-left text-sm">
               <thead className="text-xs uppercase tracking-wide text-muted">
                 <tr>
-                  <th className="px-2 py-2">Date</th>
+                  <th className="px-2 py-2">Submit date</th>
+                  <th className="px-2 py-2">Fee type</th>
+                  <th className="px-2 py-2">For month</th>
+                  <th className="px-2 py-2">Amount</th>
                   <th className="px-2 py-2">Receipt</th>
                   <th className="px-2 py-2">Method</th>
-                  <th className="px-2 py-2">Amount</th>
-                  <th className="px-2 py-2">Note</th>
                 </tr>
               </thead>
               <tbody>
-                {student.feePayments.map((payment) => (
-                  <tr key={payment.id} className="border-t border-[rgba(15,40,70,0.07)]">
-                    <td className="px-2 py-3">{payment.paidAt.toLocaleDateString()}</td>
-                    <td className="px-2 py-3 font-medium text-ink">{payment.receiptNumber}</td>
-                    <td className="px-2 py-3">{payment.method.replace("_", " ")}</td>
-                    <td className="px-2 py-3">{money(Number(payment.amount))}</td>
-                    <td className="px-2 py-3">{payment.note ?? "—"}</td>
-                  </tr>
-                ))}
+                {student.feePayments.map((payment) => {
+                  const feeLabel =
+                    payment.allocations
+                      .map((row) => row.charge.feeHead.name)
+                      .filter(Boolean)
+                      .join(", ") || "—";
+                  const months =
+                    payment.allocations
+                      .map((row) => row.charge.periodKey)
+                      .filter(Boolean)
+                      .join(", ") || "—";
+                  return (
+                    <tr key={payment.id} className="border-t border-[rgba(15,40,70,0.07)]">
+                      <td className="px-2 py-3">
+                        {payment.paidAt.toLocaleDateString("en-PK", {
+                          day: "2-digit",
+                          month: "short",
+                          year: "numeric",
+                        })}
+                      </td>
+                      <td className="px-2 py-3 font-medium text-ink">{feeLabel}</td>
+                      <td className="px-2 py-3">{months}</td>
+                      <td className="px-2 py-3">{money(Number(payment.amount))}</td>
+                      <td className="px-2 py-3">
+                        <Link
+                          href={`/org-admin/fees/receipts/${payment.id}`}
+                          className="font-medium text-brand hover:underline"
+                        >
+                          {payment.receiptNumber}
+                        </Link>
+                      </td>
+                      <td className="px-2 py-3">{payment.method.replaceAll("_", " ")}</td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           ) : (

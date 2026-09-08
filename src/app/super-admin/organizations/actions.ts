@@ -31,6 +31,12 @@ const orgSchema = z.object({
   adminName: z.string().trim().min(2).max(120),
   adminEmail: z.string().email(),
   adminPassword: passwordSchema,
+  deskUnlockPin: z
+    .string()
+    .trim()
+    .min(4, "Full admin PIN at least 4 digits")
+    .max(12)
+    .regex(/^\d+$/, "PIN must be digits only"),
 });
 
 const updateOrgSchema = z.object({
@@ -46,6 +52,12 @@ const updateOrgSchema = z.object({
   phone: z.string().trim().max(40).optional(),
   logoUrl: logoUrlSchema,
   planId: z.string().trim().optional(),
+  deskUnlockPin: z
+    .string()
+    .trim()
+    .min(4, "Full admin PIN at least 4 digits")
+    .max(12)
+    .regex(/^\d+$/, "PIN must be digits only"),
 });
 
 function slugify(value: string) {
@@ -92,6 +104,7 @@ export async function createOrganizationAction(formData: FormData): Promise<
       adminName: formData.get("adminName"),
       adminEmail: formData.get("adminEmail"),
       adminPassword: formData.get("adminPassword"),
+      deskUnlockPin: formData.get("deskUnlockPin"),
     });
 
     const existingOrg = await prisma.organization.findUnique({
@@ -116,6 +129,7 @@ export async function createOrganizationAction(formData: FormData): Promise<
         phone: parsed.phone || null,
         logoUrl: parsed.logoUrl || null,
         planId: parsed.planId || null,
+        deskUnlockPin: parsed.deskUnlockPin,
         isActive: true,
         ...parseOrgModulesFromForm(formData),
       },
@@ -178,6 +192,7 @@ export async function updateOrganization(formData: FormData) {
     phone: formData.get("phone") || undefined,
     logoUrl: "keep" in logo ? "" : logo.next || "",
     planId: formData.get("planId") || undefined,
+    deskUnlockPin: formData.get("deskUnlockPin"),
   });
 
   const existing = await prisma.organization.findFirst({
@@ -195,6 +210,7 @@ export async function updateOrganization(formData: FormData) {
       address: parsed.address || null,
       phone: parsed.phone || null,
       planId: parsed.planId || null,
+      deskUnlockPin: parsed.deskUnlockPin,
       ...("keep" in logo ? {} : { logoUrl: logo.next }),
     },
   });

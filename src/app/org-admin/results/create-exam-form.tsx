@@ -40,7 +40,7 @@ export function CreateExamForm({
       }
       toast.success("Exam saved successfully.");
       router.push(
-        `/org-admin/results/sections/${sectionId}/exams/${result.id}/select-subjects`,
+        `/org-admin/results/sections/${sectionId}/exams/${result.id}`,
       );
       router.refresh();
     });

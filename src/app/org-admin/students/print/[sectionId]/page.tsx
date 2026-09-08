@@ -3,6 +3,9 @@ import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/rbac";
 import { sortByRoll } from "@/lib/results";
 import {
+  formatStudyGroupLabel,
+  groupFilterOptionsForClass,
+  isStoredStudyGroup,
   isStudentEnrolledInSubject,
   resolveSubjectMeta,
   withChosenElectives,
@@ -25,6 +28,7 @@ export default async function SectionStudentListPrintPage({
     assessmentId?: string;
     withMarks?: string;
     back?: string;
+    group?: string;
   }>;
 }) {
   const session = await requireRole(["ORG_ADMIN"]);
@@ -61,6 +65,7 @@ export default async function SectionStudentListPrintPage({
           name: true,
           fatherName: true,
           stream: true,
+          studyGroup: true,
           electiveSubjectId: true,
           electiveChoices: { select: { subjectId: true } },
         },
@@ -70,7 +75,31 @@ export default async function SectionStudentListPrintPage({
 
   if (!section) notFound();
 
+  const groupOptions = groupFilterOptionsForClass(section.class.name);
+  const requestedGroup = filters.group?.trim().toUpperCase() ?? "";
+  const activeGroup =
+    requestedGroup && groupOptions.some((option) => option.value === requestedGroup)
+      ? requestedGroup
+      : "";
+
   let students = section.students.map((student) => withChosenElectives(student));
+
+  if (activeGroup) {
+    students = students.filter((student) => {
+      if (isStoredStudyGroup(activeGroup)) {
+        return student.studyGroup === activeGroup;
+      }
+      if (activeGroup === "SCIENCE" || activeGroup === "ARTS") {
+        return (
+          student.studyGroup === activeGroup ||
+          ((!student.studyGroup || student.studyGroup.trim() === "") &&
+            student.stream === activeGroup)
+        );
+      }
+      return true;
+    });
+  }
+
   const subjectId = filters.subjectId?.trim();
   if (subjectId) {
     const subject = await prisma.subject.findFirst({
@@ -177,10 +206,20 @@ export default async function SectionStudentListPrintPage({
   ].sort((a, b) => sortByRoll(a.rollNumber, b.rollNumber));
 
   const backFromQuery = filters.back?.trim();
+  const backParams = new URLSearchParams({
+    classId: section.class.id,
+    sectionId: section.id,
+  });
+  if (activeGroup) backParams.set("group", activeGroup);
   const backHref =
     backFromQuery && backFromQuery.startsWith("/org-admin/")
       ? backFromQuery
-      : `/org-admin/students?classId=${section.class.id}&sectionId=${section.id}`;
+      : `/org-admin/students?${backParams.toString()}`;
+
+  const groupLabel = activeGroup ? formatStudyGroupLabel(activeGroup) : undefined;
+  const defaultTitle = groupLabel
+    ? `${groupLabel} Student List`
+    : "Student List";
 
   return (
     <StudentListPrintView
@@ -188,9 +227,10 @@ export default async function SectionStudentListPrintPage({
       boardName={section.class.board.name}
       className={section.class.name}
       sectionName={section.name}
+      groupLabel={groupLabel}
       students={printStudents}
       backHref={backHref}
-      initialTitle={filters.title?.trim()}
+      initialTitle={filters.title?.trim() || defaultTitle}
       initialSession={filters.session?.trim()}
       initialSubject={filters.subject?.trim()}
       initialExam={filters.exam?.trim()}

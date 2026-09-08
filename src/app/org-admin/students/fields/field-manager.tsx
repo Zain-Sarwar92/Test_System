@@ -259,17 +259,15 @@ export function FieldManager({ fields }: { fields: Field[] }) {
                 >
                   {field.isActive ? "Deactivate" : "Activate"}
                 </Button>
-                {!field.isActive ? (
-                  <Button
-                    type="button"
-                    size="sm"
-                    variant="danger"
-                    disabled={pending}
-                    onClick={() => runDelete(field.id, field.label)}
-                  >
-                    Delete
-                  </Button>
-                ) : null}
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="danger"
+                  disabled={pending}
+                  onClick={() => runDelete(field.id, field.label)}
+                >
+                  Delete
+                </Button>
               </div>
             </div>
           </div>
