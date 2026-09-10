@@ -9,7 +9,7 @@
   "exportName": "long",
   "subTypeId": 13,
   "total": 178,
-  "exportedAt": "2026-08-11T12:27:25.328Z",
+  "exportedAt": "2026-09-08T13:18:53.540Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -273,27 +273,6 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>پائتھون میں ایک ایسا پروگرام لکھیں جو صارف سے ایک نام لے اور دیے گئے نام کو خوش آمدید (greeting) کا پیغام دکھائے۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Write a program in Python that will take a name from user and display greeting message to the given name.</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 13,
-        "bankType": "long",
-        "field": "LONG",
-        "exportName": "long"
-      }
-    },
-    {
-      "QuestionID": 503412,
-      "SubjectID": 60,
-      "TopicID": 14987,
-      "TopicRef": "3.2",
-      "TopicName": "3.2 BASIC PYTHON SYNTAX AND STRUCTURE",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>پائتھون میں مشروط سٹیٹمنٹس کیا ہیں؟ مناسب سینٹکس اور عملی مثالوں کے ساتھ if، else، اور else-if سٹیٹمنٹس کی وضاحت کریں۔</p>\r\n",
-      "EnglishQuestionDetails": "<p>What are conditional statements in Python? Explain if, else, and else-if statements with proper syntax and practical examples.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2058,6 +2037,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": "<p>پائتھن میں آپریٹر کی ترجیح کی تعریف کریں۔ پائتھن میں آپریٹر کی ترجیح کی ترتیب بیان کریں۔ نیز مثالیں بھی دیں۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Define operator precedence in Python. Describe the order of operator precedence in Python. Also give examples.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 503412,
+      "SubjectID": 60,
+      "TopicID": 14989,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 DECISION MAKING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پائتھون میں مشروط سٹیٹمنٹس کیا ہیں؟ مناسب سینٹکس اور عملی مثالوں کے ساتھ if، else، اور else-if سٹیٹمنٹس کی وضاحت کریں۔</p>\r\n",
+      "EnglishQuestionDetails": "<p>What are conditional statements in Python? Explain if, else, and else-if statements with proper syntax and practical examples.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

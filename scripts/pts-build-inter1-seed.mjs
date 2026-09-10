@@ -16,6 +16,10 @@ function fieldSource(field, priorityName) {
   switch (field) {
     case "SPELLING":
       return "Tick correct spelling";
+    case "SYNONYM":
+      return "Tick cross synonyms";
+    case "PUNCTUATION":
+      return "Punctuate the paragraph";
     case "MEANING":
       return "Correct meaning of underlined word";
     case "VERB":

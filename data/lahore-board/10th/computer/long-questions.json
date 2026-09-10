@@ -4,10 +4,10 @@
   "subject": "Computer",
   "slug": "computer",
   "source": "PTS PTB Class 10 Computer (read-only export)",
-  "total_questions": 1467,
+  "total_questions": 1505,
   "counts": {
-    "mcq": 643,
-    "short": 646,
+    "mcq": 679,
+    "short": 648,
     "long": 178
   },
   "questions": [
@@ -127,15 +127,6 @@
       "type": "long",
       "en": "Write a program in Python that will take a name from user and display greeting message to the given name.",
       "ur": "پائتھون میں ایک ایسا پروگرام لکھیں جو صارف سے ایک نام لے اور دیے گئے نام کو خوش آمدید (greeting) کا پیغام دکھائے۔"
-    },
-    {
-      "id": 503412,
-      "chapter": 3,
-      "topic_id": "3.2",
-      "source": "Exercise",
-      "type": "long",
-      "en": "What are conditional statements in Python? Explain if, else, and else-if statements with proper syntax and practical examples.",
-      "ur": "پائتھون میں مشروط سٹیٹمنٹس کیا ہیں؟ مناسب سینٹکس اور عملی مثالوں کے ساتھ if، else، اور else-if سٹیٹمنٹس کی وضاحت کریں۔"
     },
     {
       "id": 499327,
@@ -892,6 +883,15 @@
       "type": "long",
       "en": "Define operator precedence in Python. Describe the order of operator precedence in Python. Also give examples.",
       "ur": "پائتھن میں آپریٹر کی ترجیح کی تعریف کریں۔ پائتھن میں آپریٹر کی ترجیح کی ترتیب بیان کریں۔ نیز مثالیں بھی دیں۔"
+    },
+    {
+      "id": 503412,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "source": "Additional",
+      "type": "long",
+      "en": "What are conditional statements in Python? Explain if, else, and else-if statements with proper syntax and practical examples.",
+      "ur": "پائتھون میں مشروط سٹیٹمنٹس کیا ہیں؟ مناسب سینٹکس اور عملی مثالوں کے ساتھ if، else، اور else-if سٹیٹمنٹس کی وضاحت کریں۔"
     },
     {
       "id": 520328,

@@ -1,0 +1,577 @@
+{
+  "generatedAt": "2026-09-08T13:15:09.083Z",
+  "rows": [
+    {
+      "subject": "Biology",
+      "slug": "biology",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1486,
+      "localTotal": 1486,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 723,
+        "QA": 624,
+        "LONG": 139
+      },
+      "liveCompare": {
+        "MCQ": 723,
+        "SHORT": 624,
+        "LONG": 139
+      },
+      "localCompare": {
+        "MCQ": 723,
+        "SHORT": 624,
+        "LONG": 139
+      }
+    },
+    {
+      "subject": "Computer",
+      "slug": "computer",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1505,
+      "localTotal": 1467,
+      "status": "DIFF",
+      "diffs": [
+        "MCQ: PTS 679 / local 643",
+        "SHORT: PTS 648 / local 646"
+      ],
+      "liveDetailed": {
+        "MCQ": 679,
+        "QA": 648,
+        "LONG": 178
+      },
+      "liveCompare": {
+        "MCQ": 679,
+        "SHORT": 648,
+        "LONG": 178
+      },
+      "localCompare": {
+        "MCQ": 643,
+        "SHORT": 646,
+        "LONG": 178
+      }
+    },
+    {
+      "subject": "Chemistry",
+      "slug": "chemistry",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 2966,
+      "localTotal": 2960,
+      "status": "DIFF",
+      "diffs": [
+        "LONG: PTS 211 / local 210",
+        "MCQ: PTS 1415 / local 1410"
+      ],
+      "liveDetailed": {
+        "MCQ": 1415,
+        "QA": 1340,
+        "LONG": 211
+      },
+      "liveCompare": {
+        "MCQ": 1415,
+        "SHORT": 1340,
+        "LONG": 211
+      },
+      "localCompare": {
+        "MCQ": 1410,
+        "SHORT": 1340,
+        "LONG": 210
+      }
+    },
+    {
+      "subject": "Physics",
+      "slug": "physics",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1600,
+      "localTotal": 1600,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 753,
+        "QA": 661,
+        "LONG": 186
+      },
+      "liveCompare": {
+        "MCQ": 753,
+        "SHORT": 661,
+        "LONG": 186
+      },
+      "localCompare": {
+        "MCQ": 753,
+        "SHORT": 661,
+        "LONG": 186
+      }
+    },
+    {
+      "subject": "Mathematics",
+      "slug": "mathematics",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1480,
+      "localTotal": 1480,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 458,
+        "QA": 698,
+        "LONG": 324
+      },
+      "liveCompare": {
+        "MCQ": 458,
+        "SHORT": 698,
+        "LONG": 324
+      },
+      "localCompare": {
+        "MCQ": 458,
+        "SHORT": 698,
+        "LONG": 324
+      }
+    },
+    {
+      "subject": "English",
+      "slug": "english",
+      "mode": "detailed fields",
+      "types": "COMPREHENSION, DI, ESSAYS, GRAMMAR, MEANING, PAIR, POEM_STANZA, QA, SPELLING, SUMMARY, TRANSLATE_EN, TRANSLATE_UR, VERB",
+      "liveTotal": 2551,
+      "localTotal": 2551,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "COMPREHENSION": 61,
+        "SPELLING": 654,
+        "MEANING": 658,
+        "VERB": 137,
+        "GRAMMAR": 256,
+        "QA": 322,
+        "DI": 200,
+        "PAIR": 79,
+        "ESSAYS": 32,
+        "SUMMARY": 3,
+        "TRANSLATE_UR": 98,
+        "TRANSLATE_EN": 40,
+        "POEM_STANZA": 11
+      },
+      "liveCompare": {
+        "COMPREHENSION": 61,
+        "SPELLING": 654,
+        "MEANING": 658,
+        "VERB": 137,
+        "GRAMMAR": 256,
+        "QA": 322,
+        "DI": 200,
+        "PAIR": 79,
+        "ESSAYS": 32,
+        "SUMMARY": 3,
+        "TRANSLATE_UR": 98,
+        "TRANSLATE_EN": 40,
+        "POEM_STANZA": 11
+      },
+      "localCompare": {
+        "COMPREHENSION": 61,
+        "SPELLING": 654,
+        "MEANING": 658,
+        "VERB": 137,
+        "GRAMMAR": 256,
+        "QA": 322,
+        "DI": 200,
+        "PAIR": 79,
+        "ESSAYS": 32,
+        "SUMMARY": 3,
+        "TRANSLATE_UR": 98,
+        "TRANSLATE_EN": 40,
+        "POEM_STANZA": 11
+      }
+    },
+    {
+      "subject": "Pakistan Studies",
+      "slug": "pakistan-studies",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 2262,
+      "localTotal": 2262,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 968,
+        "QA": 1189,
+        "LONG": 105
+      },
+      "liveCompare": {
+        "MCQ": 968,
+        "SHORT": 1189,
+        "LONG": 105
+      },
+      "localCompare": {
+        "MCQ": 968,
+        "SHORT": 1189,
+        "LONG": 105
+      }
+    },
+    {
+      "subject": "اُردو لازمی",
+      "slug": "urdu-compulsory",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "CENTRAL, ESSAYS, MCQ, PASSAGE, POEM, QA, SUMMARY, TAFHEEM",
+      "liveTotal": 1912,
+      "localTotal": 1912,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 876,
+        "QA": 742,
+        "POEM": 85,
+        "ESSAYS": 81,
+        "SUMMARY": 16,
+        "CENTRAL": 6,
+        "TAFHEEM": 15,
+        "PASSAGE": 91
+      },
+      "liveCompare": {
+        "MCQ": 876,
+        "SHORT": 742,
+        "LONG": 294
+      },
+      "localCompare": {
+        "MCQ": 876,
+        "SHORT": 742,
+        "LONG": 294
+      }
+    },
+    {
+      "subject": "اسلامیات لازمی",
+      "slug": "islamiyat-compulsory",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "HADITH, LONG, MCQ, QA",
+      "liveTotal": 1062,
+      "localTotal": 1062,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 593,
+        "QA": 431,
+        "LONG": 28,
+        "HADITH": 10
+      },
+      "liveCompare": {
+        "MCQ": 593,
+        "SHORT": 431,
+        "LONG": 38
+      },
+      "localCompare": {
+        "MCQ": 593,
+        "SHORT": 431,
+        "LONG": 38
+      }
+    },
+    {
+      "subject": "General Science",
+      "slug": "general-science",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 815,
+      "localTotal": 815,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 400,
+        "QA": 323,
+        "LONG": 92
+      },
+      "liveCompare": {
+        "MCQ": 400,
+        "SHORT": 323,
+        "LONG": 92
+      },
+      "localCompare": {
+        "MCQ": 400,
+        "SHORT": 323,
+        "LONG": 92
+      }
+    },
+    {
+      "subject": "ایجوکیشن",
+      "slug": "education",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 588,
+      "localTotal": 588,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 268,
+        "QA": 276,
+        "LONG": 44
+      },
+      "liveCompare": {
+        "MCQ": 268,
+        "SHORT": 276,
+        "LONG": 44
+      },
+      "localCompare": {
+        "MCQ": 268,
+        "SHORT": 276,
+        "LONG": 44
+      }
+    },
+    {
+      "subject": "پنجابی",
+      "slug": "punjabi",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "IDIOM, MCQ, MEANING, PASSAGE, POEM, QA",
+      "liveTotal": 1017,
+      "localTotal": 1017,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 267,
+        "QA": 145,
+        "POEM": 99,
+        "MEANING": 185,
+        "IDIOM": 292,
+        "PASSAGE": 29
+      },
+      "liveCompare": {
+        "MCQ": 267,
+        "SHORT": 622,
+        "LONG": 128
+      },
+      "localCompare": {
+        "MCQ": 267,
+        "SHORT": 622,
+        "LONG": 128
+      }
+    },
+    {
+      "subject": "اسلامیات اختیاری",
+      "slug": "islamiyat-elective",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "AYAT, MCQ, QA",
+      "liveTotal": 1117,
+      "localTotal": 1117,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 497,
+        "QA": 590,
+        "AYAT": 30
+      },
+      "liveCompare": {
+        "MCQ": 497,
+        "SHORT": 590,
+        "LONG": 30
+      },
+      "localCompare": {
+        "MCQ": 497,
+        "SHORT": 590,
+        "LONG": 30
+      }
+    },
+    {
+      "subject": "ہوم اکنامکس",
+      "slug": "home-economics",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 643,
+      "localTotal": 643,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 296,
+        "QA": 294,
+        "LONG": 53
+      },
+      "liveCompare": {
+        "MCQ": 296,
+        "SHORT": 294,
+        "LONG": 53
+      },
+      "localCompare": {
+        "MCQ": 296,
+        "SHORT": 294,
+        "LONG": 53
+      }
+    },
+    {
+      "subject": "سوکس",
+      "slug": "civics",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 330,
+      "localTotal": 330,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 110,
+        "QA": 190,
+        "LONG": 30
+      },
+      "liveCompare": {
+        "MCQ": 110,
+        "SHORT": 190,
+        "LONG": 30
+      },
+      "localCompare": {
+        "MCQ": 110,
+        "SHORT": 190,
+        "LONG": 30
+      }
+    },
+    {
+      "subject": "معاشیات",
+      "slug": "economics",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 338,
+      "localTotal": 338,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 142,
+        "QA": 134,
+        "LONG": 62
+      },
+      "liveCompare": {
+        "MCQ": 142,
+        "SHORT": 134,
+        "LONG": 62
+      },
+      "localCompare": {
+        "MCQ": 142,
+        "SHORT": 134,
+        "LONG": 62
+      }
+    },
+    {
+      "subject": "ترجمۃ القرآن المجید",
+      "slug": "tarjuma-quran",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "AYAT, LONG, MCQ, PAIR, QA",
+      "liveTotal": 640,
+      "localTotal": 640,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 260,
+        "QA": 236,
+        "LONG": 15,
+        "AYAT": 35,
+        "PAIR": 94
+      },
+      "liveCompare": {
+        "MCQ": 260,
+        "SHORT": 330,
+        "LONG": 50
+      },
+      "localCompare": {
+        "MCQ": 260,
+        "SHORT": 330,
+        "LONG": 50
+      }
+    },
+    {
+      "subject": "اخلاقیات",
+      "slug": "ethics",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 243,
+      "localTotal": 243,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 78,
+        "QA": 136,
+        "LONG": 29
+      },
+      "liveCompare": {
+        "MCQ": 78,
+        "SHORT": 136,
+        "LONG": 29
+      },
+      "localCompare": {
+        "MCQ": 78,
+        "SHORT": 136,
+        "LONG": 29
+      }
+    },
+    {
+      "subject": "فزیکل ایجوکیشن",
+      "slug": "physical-education",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 514,
+      "localTotal": 514,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 260,
+        "QA": 239,
+        "LONG": 15
+      },
+      "liveCompare": {
+        "MCQ": 260,
+        "SHORT": 239,
+        "LONG": 15
+      },
+      "localCompare": {
+        "MCQ": 260,
+        "SHORT": 239,
+        "LONG": 15
+      }
+    },
+    {
+      "subject": "مرغبانی",
+      "slug": "poultry",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 414,
+      "localTotal": 414,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 171,
+        "QA": 212,
+        "LONG": 31
+      },
+      "liveCompare": {
+        "MCQ": 171,
+        "SHORT": 212,
+        "LONG": 31
+      },
+      "localCompare": {
+        "MCQ": 171,
+        "SHORT": 212,
+        "LONG": 31
+      }
+    },
+    {
+      "subject": "غذا اور غذائیت",
+      "slug": "food-nutrition",
+      "mode": "rollup MCQ/SHORT/LONG",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 712,
+      "localTotal": 712,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 281,
+        "QA": 405,
+        "LONG": 26
+      },
+      "liveCompare": {
+        "MCQ": 281,
+        "SHORT": 405,
+        "LONG": 26
+      },
+      "localCompare": {
+        "MCQ": 281,
+        "SHORT": 405,
+        "LONG": 26
+      }
+    }
+  ]
+}

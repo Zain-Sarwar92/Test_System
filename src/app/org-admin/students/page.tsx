@@ -535,6 +535,9 @@ export default async function StudentsPage({
                         ) : null}
                       </div>
                       <div className="flex shrink-0 flex-wrap gap-2">
+                        <Link href={`/org-admin/results/students/${student.id}`}>
+                          <Button size="sm">Results</Button>
+                        </Link>
                         <Link href={`/org-admin/students/${student.id}`}>
                           <Button size="sm" variant="outline">View</Button>
                         </Link>

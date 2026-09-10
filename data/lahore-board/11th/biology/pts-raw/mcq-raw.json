@@ -9,10 +9,110 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 1850,
-  "exportedAt": "2026-08-10T12:32:25.671Z",
+  "total": 1953,
+  "exportedAt": "2026-09-09T11:46:20.236Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
+    {
+      "QuestionID": 397858,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which domain of life is characterized by organisms that often inhabit extreme environments and have cell membranes with ether-linked lipids?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322733,
+          "QuestionID": 397858,
+          "UmOption": null,
+          "EmOption": "<p>Bacteria</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322734,
+          "QuestionID": 397858,
+          "UmOption": null,
+          "EmOption": "<p>Archaea</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322735,
+          "QuestionID": 397858,
+          "UmOption": null,
+          "EmOption": "<p>Eukarya</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322736,
+          "QuestionID": 397858,
+          "UmOption": null,
+          "EmOption": "<p>Protista</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397861,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is a key difference between the domains Bacteria and Archaea?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322737,
+          "QuestionID": 397861,
+          "UmOption": null,
+          "EmOption": "<p>Bacteria have membrane-bound organelles, while Archaea do not</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322738,
+          "QuestionID": 397861,
+          "UmOption": null,
+          "EmOption": "<p>Bacterial cell walls have peptidoglycan, while Archaeal cell walls do not have it</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322739,
+          "QuestionID": 397861,
+          "UmOption": null,
+          "EmOption": "<p>Archaea are only found in extreme environments, while Bacteria are not</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322740,
+          "QuestionID": 397861,
+          "UmOption": null,
+          "EmOption": "<p>Bacteria are all unicellular, while Archaea include multicellular organisms</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
     {
       "QuestionID": 397863,
       "SubjectID": 94,
@@ -103,6 +203,306 @@
           "QuestionID": 397865,
           "UmOption": null,
           "EmOption": "<p>Protoctista</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397868,
+      "SubjectID": 94,
+      "TopicID": 11611,
+      "TopicRef": "1.6",
+      "TopicName": "1.6 Classification of Viruses",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following criteria is commonly used to classify viruses?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322749,
+          "QuestionID": 397868,
+          "UmOption": null,
+          "EmOption": "<p>Their ability to cause specific diseases</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322750,
+          "QuestionID": 397868,
+          "UmOption": null,
+          "EmOption": "<p>The type of nucleic acid they contain</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322751,
+          "QuestionID": 397868,
+          "UmOption": null,
+          "EmOption": "<p>The colour of the virus particles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322752,
+          "QuestionID": 397868,
+          "UmOption": null,
+          "EmOption": "<p>Their mode of transmission</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397871,
+      "SubjectID": 94,
+      "TopicID": 11611,
+      "TopicRef": "1.6",
+      "TopicName": "1.6 Classification of Viruses",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which virus group includes viruses such as Coronaviruses and influenza viruses?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322761,
+          "QuestionID": 397871,
+          "UmOption": null,
+          "EmOption": "<p>Double-stranded DNA viruses</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322762,
+          "QuestionID": 397871,
+          "UmOption": null,
+          "EmOption": "<p>Single-stranded DNA viruses</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322763,
+          "QuestionID": 397871,
+          "UmOption": null,
+          "EmOption": "<p>Double-stranded RNA viruses</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322764,
+          "QuestionID": 397871,
+          "UmOption": null,
+          "EmOption": "<p>Single-stranded RNA viruses</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397874,
+      "SubjectID": 94,
+      "TopicID": 11612,
+      "TopicRef": "1.7",
+      "TopicName": "1.7 Biodiversity",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>At which level of biodiversity assessment do we evaluate the variety of different species within a particular habitat or ecosystem?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322765,
+          "QuestionID": 397874,
+          "UmOption": null,
+          "EmOption": "<p>Genetic diversity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322766,
+          "QuestionID": 397874,
+          "UmOption": null,
+          "EmOption": "<p>Ecosystem diversity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322767,
+          "QuestionID": 397874,
+          "UmOption": null,
+          "EmOption": "<p>Species diversity</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322768,
+          "QuestionID": 397874,
+          "UmOption": null,
+          "EmOption": "<p>Functional diversity</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397876,
+      "SubjectID": 94,
+      "TopicID": 11612,
+      "TopicRef": "1.7",
+      "TopicName": "1.7 Biodiversity",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which method is best suited for assessing the distribution of species across a gradient of environmental conditions within a single geographical area?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322769,
+          "QuestionID": 397876,
+          "UmOption": null,
+          "EmOption": "<p>Quadrat Sampling</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322770,
+          "QuestionID": 397876,
+          "UmOption": null,
+          "EmOption": "<p>Point Counts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322771,
+          "QuestionID": 397876,
+          "UmOption": null,
+          "EmOption": "<p>Transect Sampling</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322772,
+          "QuestionID": 397876,
+          "UmOption": null,
+          "EmOption": "<p>Remote Sensing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397879,
+      "SubjectID": 94,
+      "TopicID": 11613,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 Species and Speciation",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following statements is true regarding the concept of a species?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322773,
+          "QuestionID": 397879,
+          "UmOption": null,
+          "EmOption": "<p>A species is always defined by its physical characteristics alone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322774,
+          "QuestionID": 397879,
+          "UmOption": null,
+          "EmOption": "<p>Different species can interbreed and produce fertile offspring</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322775,
+          "QuestionID": 397879,
+          "UmOption": null,
+          "EmOption": "<p>Members of the same species are reproductively isolated from members of other species</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322776,
+          "QuestionID": 397879,
+          "UmOption": null,
+          "EmOption": "<p>The concept of a species can be defined solely based on genetic similarity</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397880,
+      "SubjectID": 94,
+      "TopicID": 11613,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 Species and Speciation",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What type of speciation occurs when populations are geographically separated by a physical barrier?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322777,
+          "QuestionID": 397880,
+          "UmOption": null,
+          "EmOption": "<p>Sympatric Speciation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322778,
+          "QuestionID": 397880,
+          "UmOption": null,
+          "EmOption": "<p>Parapatric Speciation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322779,
+          "QuestionID": 397880,
+          "UmOption": null,
+          "EmOption": "<p>Allopatric Speciation</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322780,
+          "QuestionID": 397880,
+          "UmOption": null,
+          "EmOption": "<p>Peripatric Speciation</p>\r\n",
           "Answer": false
         }
       ],
@@ -264,6 +664,56 @@
       }
     },
     {
+      "QuestionID": 399136,
+      "SubjectID": 94,
+      "TopicID": 11615,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 STRUCTURE OF BACTERIA",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which group of bacteria is known as a good source of antibiotics?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322893,
+          "QuestionID": 399136,
+          "UmOption": null,
+          "EmOption": "<p>Omnibacteria</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322894,
+          "QuestionID": 399136,
+          "UmOption": null,
+          "EmOption": "<p>Spirochaetes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322895,
+          "QuestionID": 399136,
+          "UmOption": null,
+          "EmOption": "<p>Pseudomonads</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322896,
+          "QuestionID": 399136,
+          "UmOption": null,
+          "EmOption": "<p>Actinomycetes</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 399141,
       "SubjectID": 94,
       "TopicID": 11615,
@@ -314,6 +764,56 @@
       }
     },
     {
+      "QuestionID": 399145,
+      "SubjectID": 94,
+      "TopicID": 11617,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 Motility in Bateria",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which type of motility in bacteria is mediated by pili?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322933,
+          "QuestionID": 399145,
+          "UmOption": null,
+          "EmOption": "<p>Brownian movement</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322934,
+          "QuestionID": 399145,
+          "UmOption": null,
+          "EmOption": "<p>Gliding motility</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322935,
+          "QuestionID": 399145,
+          "UmOption": null,
+          "EmOption": "<p>Twitching motility</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322936,
+          "QuestionID": 399145,
+          "UmOption": null,
+          "EmOption": "<p>Swarming motility</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 399150,
       "SubjectID": 94,
       "TopicID": 11617,
@@ -353,6 +853,56 @@
           "QuestionID": 399150,
           "UmOption": null,
           "EmOption": "<p>Ribosomes</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 399155,
+      "SubjectID": 94,
+      "TopicID": 11621,
+      "TopicRef": "2.6",
+      "TopicName": "2.6 Importance of Bacteria",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one of the following are not Nitrifying bacteria?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322905,
+          "QuestionID": 399155,
+          "UmOption": null,
+          "EmOption": "<p>Nitrosomonas</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322906,
+          "QuestionID": 399155,
+          "UmOption": null,
+          "EmOption": "<p>Nitrobacter</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322907,
+          "QuestionID": 399155,
+          "UmOption": null,
+          "EmOption": "<p>Azotobacter</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322908,
+          "QuestionID": 399155,
+          "UmOption": null,
+          "EmOption": "<p>Pseudomonas</p>\r\n",
           "Answer": false
         }
       ],
@@ -1664,6 +2214,56 @@
       }
     },
     {
+      "QuestionID": 405848,
+      "SubjectID": 94,
+      "TopicID": 11647,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 Factors Affecting The Rate of Enzyme Action",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If an enzyme solution is saturated with substrate, the most effective way to obtain an even faster yield of products would be</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 323237,
+          "QuestionID": 405848,
+          "UmOption": null,
+          "EmOption": "<p>Add more of the enzymes</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 323238,
+          "QuestionID": 405848,
+          "UmOption": null,
+          "EmOption": "<p>Add more substrate</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323239,
+          "QuestionID": 405848,
+          "UmOption": null,
+          "EmOption": "<p>Add an allosteric inhibitor</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323240,
+          "QuestionID": 405848,
+          "UmOption": null,
+          "EmOption": "<p>Add a non-competitive inhibitor</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 405843,
       "SubjectID": 94,
       "TopicID": 11649,
@@ -2964,6 +3564,56 @@
       }
     },
     {
+      "QuestionID": 406934,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The plant hormone which inhibits the stem and root growth is</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 323521,
+          "QuestionID": 406934,
+          "UmOption": null,
+          "EmOption": "<p>Auxin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323522,
+          "QuestionID": 406934,
+          "UmOption": null,
+          "EmOption": "<p>Ethylene</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 323523,
+          "QuestionID": 406934,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323524,
+          "QuestionID": 406934,
+          "UmOption": null,
+          "EmOption": "<p>Gibberellin</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 406928,
       "SubjectID": 94,
       "TopicID": 11668,
@@ -3614,6 +4264,56 @@
       }
     },
     {
+      "QuestionID": 408054,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which best explains the liver’s role in digestion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 323709,
+          "QuestionID": 408054,
+          "UmOption": null,
+          "EmOption": "<p>It produces insulin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323710,
+          "QuestionID": 408054,
+          "UmOption": null,
+          "EmOption": "<p>It stores undigested food</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323711,
+          "QuestionID": 408054,
+          "UmOption": null,
+          "EmOption": "<p>It produces bile for fat digestion</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 323712,
+          "QuestionID": 408054,
+          "UmOption": null,
+          "EmOption": "<p>It secretes enzymes into the colon</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 402510,
       "SubjectID": 94,
       "TopicID": 11676,
@@ -3703,6 +4403,56 @@
           "QuestionID": 402514,
           "UmOption": null,
           "EmOption": "<p>Alveoli</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402528,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In what form is carbon dioxide primarily transported in the bloodstream?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 323765,
+          "QuestionID": 402528,
+          "UmOption": null,
+          "EmOption": "<p>Dissolved in plasma</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323766,
+          "QuestionID": 402528,
+          "UmOption": null,
+          "EmOption": "<p>Bound to haemoglobin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323767,
+          "QuestionID": 402528,
+          "UmOption": null,
+          "EmOption": "<p>Converted to bicarbonate ions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 323768,
+          "QuestionID": 402528,
+          "UmOption": null,
+          "EmOption": "<p>None of the above</p>\r\n",
           "Answer": false
         }
       ],
@@ -3864,6 +4614,56 @@
       }
     },
     {
+      "QuestionID": 402524,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the maximum amount of air that can be inhaled or exhaled during a respiratory cycle?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 323757,
+          "QuestionID": 402524,
+          "UmOption": null,
+          "EmOption": "<p>Tidal volume</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323758,
+          "QuestionID": 402524,
+          "UmOption": null,
+          "EmOption": "<p>Vital capacity</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 323759,
+          "QuestionID": 402524,
+          "UmOption": null,
+          "EmOption": "<p>Inspiratory reserve volume</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323760,
+          "QuestionID": 402524,
+          "UmOption": null,
+          "EmOption": "<p>Expiratory reserve volume</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 402531,
       "SubjectID": 94,
       "TopicID": 11679,
@@ -4003,6 +4803,56 @@
           "QuestionID": 402535,
           "UmOption": null,
           "EmOption": "<p>Fluid build-up in lungs</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408087,
+      "SubjectID": 94,
+      "TopicID": 11681,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 STRUCTURE & FUNCTIONING OF HEART",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compared to vein, an artery;</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 323889,
+          "QuestionID": 408087,
+          "UmOption": null,
+          "EmOption": "<p>Has thinner walls</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323890,
+          "QuestionID": 408087,
+          "UmOption": null,
+          "EmOption": "<p>Is located more superficially</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 323891,
+          "QuestionID": 408087,
+          "UmOption": null,
+          "EmOption": "<p>Carries blood away from an organ</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 323892,
+          "QuestionID": 408087,
+          "UmOption": null,
+          "EmOption": "<p>Has no internal valves</p>\r\n",
           "Answer": false
         }
       ],
@@ -5164,6 +6014,56 @@
       }
     },
     {
+      "QuestionID": 397911,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which type of linkage is found in archaeal membrane lipids?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 307881,
+          "QuestionID": 397911,
+          "UmOption": null,
+          "EmOption": "<p>Ester linkage</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307882,
+          "QuestionID": 397911,
+          "UmOption": null,
+          "EmOption": "<p>Peptide linkage</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307883,
+          "QuestionID": 397911,
+          "UmOption": null,
+          "EmOption": "<p>Ether linkage</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 307884,
+          "QuestionID": 397911,
+          "UmOption": null,
+          "EmOption": "<p>Glycosidic linkage</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 397912,
       "SubjectID": 94,
       "TopicID": 11606,
@@ -5203,6 +6103,206 @@
           "QuestionID": 397912,
           "UmOption": null,
           "EmOption": "<p>Meiosis</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397913,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the unique metabolic process found in Archaea?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 307889,
+          "QuestionID": 397913,
+          "UmOption": null,
+          "EmOption": "<p>Fermentation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307890,
+          "QuestionID": 397913,
+          "UmOption": null,
+          "EmOption": "<p>Methanogenesis</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 307891,
+          "QuestionID": 397913,
+          "UmOption": null,
+          "EmOption": "<p>Photosynthesis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307892,
+          "QuestionID": 397913,
+          "UmOption": null,
+          "EmOption": "<p>Nitrogen fixation</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397915,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The wall of fungi in domain Eukarya is made of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 307897,
+          "QuestionID": 397915,
+          "UmOption": null,
+          "EmOption": "<p>Cellulose</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307898,
+          "QuestionID": 397915,
+          "UmOption": null,
+          "EmOption": "<p>Peptidoglycan</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307899,
+          "QuestionID": 397915,
+          "UmOption": null,
+          "EmOption": "<p>Chitin</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 307900,
+          "QuestionID": 397915,
+          "UmOption": null,
+          "EmOption": "<p>Glycogen</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397917,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Halobacteria thrive in which type of environment?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 307905,
+          "QuestionID": 397917,
+          "UmOption": null,
+          "EmOption": "<p>Acidic</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307906,
+          "QuestionID": 397917,
+          "UmOption": null,
+          "EmOption": "<p>Saline</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 307907,
+          "QuestionID": 397917,
+          "UmOption": null,
+          "EmOption": "<p>Cold</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307908,
+          "QuestionID": 397917,
+          "UmOption": null,
+          "EmOption": "<p>Anaerobic</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 397919,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Bacteria differ from Archaea and Eukarya by having:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 307913,
+          "QuestionID": 397919,
+          "UmOption": null,
+          "EmOption": "<p>Linear chromosomes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307914,
+          "QuestionID": 397919,
+          "UmOption": null,
+          "EmOption": "<p>Peptidoglycan in their cell wall</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 307915,
+          "QuestionID": 397919,
+          "UmOption": null,
+          "EmOption": "<p>Membrane-bound organelles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 307916,
+          "QuestionID": 397919,
+          "UmOption": null,
+          "EmOption": "<p>A nuclear envelope</p>\r\n",
           "Answer": false
         }
       ],
@@ -51864,6 +52964,306 @@
       }
     },
     {
+      "QuestionID": 406091,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Where are photosynthetic pigments located?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315505,
+          "QuestionID": 406091,
+          "UmOption": null,
+          "EmOption": "<p>Cell wall</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315506,
+          "QuestionID": 406091,
+          "UmOption": null,
+          "EmOption": "<p>Thylakoid membranes</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 315507,
+          "QuestionID": 406091,
+          "UmOption": null,
+          "EmOption": "<p>Cytoplasm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315508,
+          "QuestionID": 406091,
+          "UmOption": null,
+          "EmOption": "<p>Stomata</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406093,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens when a pigment absorbs a photon?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315509,
+          "QuestionID": 406093,
+          "UmOption": null,
+          "EmOption": "<p>It breaks</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315510,
+          "QuestionID": 406093,
+          "UmOption": null,
+          "EmOption": "<p>It reflects light</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315511,
+          "QuestionID": 406093,
+          "UmOption": null,
+          "EmOption": "<p>Its electrons become excited</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 315512,
+          "QuestionID": 406093,
+          "UmOption": null,
+          "EmOption": "<p>It cools down</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406095,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the core structure of chlorophyll&#39;s head?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315513,
+          "QuestionID": 406095,
+          "UmOption": null,
+          "EmOption": "<p>Carbon chain</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315514,
+          "QuestionID": 406095,
+          "UmOption": null,
+          "EmOption": "<p>Pyrrole rings</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 315515,
+          "QuestionID": 406095,
+          "UmOption": null,
+          "EmOption": "<p>Glucose</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315516,
+          "QuestionID": 406095,
+          "UmOption": null,
+          "EmOption": "<p>Water</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406098,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What element is at the center of chlorophyll&#39;s porphyrin ring?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315517,
+          "QuestionID": 406098,
+          "UmOption": null,
+          "EmOption": "<p>Calcium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315518,
+          "QuestionID": 406098,
+          "UmOption": null,
+          "EmOption": "<p>Iron</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315519,
+          "QuestionID": 406098,
+          "UmOption": null,
+          "EmOption": "<p>Magnesium</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 315520,
+          "QuestionID": 406098,
+          "UmOption": null,
+          "EmOption": "<p>Potassium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406100,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What makes chlorophyll-a different from chlorophyll-b?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315521,
+          "QuestionID": 406100,
+          "UmOption": null,
+          "EmOption": "<p>Color</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315522,
+          "QuestionID": 406100,
+          "UmOption": null,
+          "EmOption": "<p>Presence of magnesium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315523,
+          "QuestionID": 406100,
+          "UmOption": null,
+          "EmOption": "<p>Type of hydrocarbon tail</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315524,
+          "QuestionID": 406100,
+          "UmOption": null,
+          "EmOption": "<p>CH<sub>3</sub> group vs CHO group on the second pyrrole ring</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406103,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which wavelengths are least absorbed by chlorophyll?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315525,
+          "QuestionID": 406103,
+          "UmOption": null,
+          "EmOption": "<p>Red and blue</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315526,
+          "QuestionID": 406103,
+          "UmOption": null,
+          "EmOption": "<p>Green</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 315527,
+          "QuestionID": 406103,
+          "UmOption": null,
+          "EmOption": "<p>Violet</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315528,
+          "QuestionID": 406103,
+          "UmOption": null,
+          "EmOption": "<p>Orange</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 406147,
       "SubjectID": 94,
       "TopicID": 11652,
@@ -54714,6 +56114,306 @@
       }
     },
     {
+      "QuestionID": 416486,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the energy currency of cells?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335593,
+          "QuestionID": 416486,
+          "UmOption": null,
+          "EmOption": "<p>DNA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335594,
+          "QuestionID": 416486,
+          "UmOption": null,
+          "EmOption": "<p>RNA</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335595,
+          "QuestionID": 416486,
+          "UmOption": null,
+          "EmOption": "<p>ATP</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335596,
+          "QuestionID": 416486,
+          "UmOption": null,
+          "EmOption": "<p>NADPH</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 416490,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is NOT a component of ATP?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335597,
+          "QuestionID": 416490,
+          "UmOption": null,
+          "EmOption": "<p>Adenine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335598,
+          "QuestionID": 416490,
+          "UmOption": null,
+          "EmOption": "<p>Glucose</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335599,
+          "QuestionID": 416490,
+          "UmOption": null,
+          "EmOption": "<p>Ribose</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335600,
+          "QuestionID": 416490,
+          "UmOption": null,
+          "EmOption": "<p>Phosphate groups</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 416494,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is released when a high-energy phosphate bond in ATP is broken?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 352989,
+          "QuestionID": 416494,
+          "UmOption": null,
+          "EmOption": "<p>NADH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 352990,
+          "QuestionID": 416494,
+          "UmOption": null,
+          "EmOption": "<p>CO<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 352991,
+          "QuestionID": 416494,
+          "UmOption": null,
+          "EmOption": "<p>Inorganic phosphate and energy</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 352992,
+          "QuestionID": 416494,
+          "UmOption": null,
+          "EmOption": "<p>Oxygen and sugar</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 416499,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How much energy is released by breaking one phosphate bond in ATP?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335601,
+          "QuestionID": 416499,
+          "UmOption": null,
+          "EmOption": "<p>2 kcal/mole</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335602,
+          "QuestionID": 416499,
+          "UmOption": null,
+          "EmOption": "<p>4.6 kcal/mole</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335603,
+          "QuestionID": 416499,
+          "UmOption": null,
+          "EmOption": "<p>7.3 kcal/mole</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335604,
+          "QuestionID": 416499,
+          "UmOption": null,
+          "EmOption": "<p>10 kcal/mole</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 416500,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does ATP become when one phosphate group is removed? </p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335605,
+          "QuestionID": 416500,
+          "UmOption": null,
+          "EmOption": "<p>AMP</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335606,
+          "QuestionID": 416500,
+          "UmOption": null,
+          "EmOption": "<p>ADP</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335607,
+          "QuestionID": 416500,
+          "UmOption": null,
+          "EmOption": "<p>NADP</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335608,
+          "QuestionID": 416500,
+          "UmOption": null,
+          "EmOption": "<p>Glucose</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 416501,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do cells generate ATP?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335609,
+          "QuestionID": 416501,
+          "UmOption": null,
+          "EmOption": "<p>By combining oxygen with glucose</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335610,
+          "QuestionID": 416501,
+          "UmOption": null,
+          "EmOption": "<p>By storing water</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335611,
+          "QuestionID": 416501,
+          "UmOption": null,
+          "EmOption": "<p>By combining ADP with Pi using energy from food oxidation</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335612,
+          "QuestionID": 416501,
+          "UmOption": null,
+          "EmOption": "<p>By using nitrogen bases</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 406391,
       "SubjectID": 94,
       "TopicID": 11653,
@@ -57004,6 +58704,156 @@
           "UmOption": null,
           "EmOption": "<p>2</p>\r\n",
           "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406508,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which nutrient class yields the most energy during cellular respiration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315857,
+          "QuestionID": 406508,
+          "UmOption": null,
+          "EmOption": "<p>Carbohydrates</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315858,
+          "QuestionID": 406508,
+          "UmOption": null,
+          "EmOption": "<p>Proteins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315859,
+          "QuestionID": 406508,
+          "UmOption": null,
+          "EmOption": "<p>Lipids</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 315860,
+          "QuestionID": 406508,
+          "UmOption": null,
+          "EmOption": "<p>Vitamins</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406510,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the first step in lipid metabolism for respiration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 326505,
+          "QuestionID": 406510,
+          "UmOption": null,
+          "EmOption": "<p>Dehydration</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 326506,
+          "QuestionID": 406510,
+          "UmOption": null,
+          "EmOption": "<p>Hydrolysis into glycerol and fatty acids</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 326507,
+          "QuestionID": 406510,
+          "UmOption": null,
+          "EmOption": "<p>Glycolysis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 326508,
+          "QuestionID": 406510,
+          "UmOption": null,
+          "EmOption": "<p>Conversion to glucose</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 406513,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens to amino acids before they enter cellular respiration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 315861,
+          "QuestionID": 406513,
+          "UmOption": null,
+          "EmOption": "<p>They are fermented</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315862,
+          "QuestionID": 406513,
+          "UmOption": null,
+          "EmOption": "<p>They are phosphorylated</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 315863,
+          "QuestionID": 406513,
+          "UmOption": null,
+          "EmOption": "<p>They are deaminated</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 315864,
+          "QuestionID": 406513,
+          "UmOption": null,
+          "EmOption": "<p>They are stored as fat</p>\r\n",
+          "Answer": false
         }
       ],
       "_exportMeta": {
@@ -69564,6 +71414,656 @@
       }
     },
     {
+      "QuestionID": 407559,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is the main type of auxin in plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336009,
+          "QuestionID": 407559,
+          "UmOption": null,
+          "EmOption": "<p>Gibberellic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336010,
+          "QuestionID": 407559,
+          "UmOption": null,
+          "EmOption": "<p>Indole acetic acid (IAA)</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336011,
+          "QuestionID": 407559,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336012,
+          "QuestionID": 407559,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407560,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Auxins primarily promote cell enlargement in which part of the plant?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318305,
+          "QuestionID": 407560,
+          "UmOption": null,
+          "EmOption": "<p>Roots only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318306,
+          "QuestionID": 407560,
+          "UmOption": null,
+          "EmOption": "<p>Region behind the apex of stems</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318307,
+          "QuestionID": 407560,
+          "UmOption": null,
+          "EmOption": "<p>Leaves only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318308,
+          "QuestionID": 407560,
+          "UmOption": null,
+          "EmOption": "<p>Lateral buds</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407561,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>At high concentrations, auxins inhibit growth in:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318309,
+          "QuestionID": 407561,
+          "UmOption": null,
+          "EmOption": "<p>Stems</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318310,
+          "QuestionID": 407561,
+          "UmOption": null,
+          "EmOption": "<p>Leaves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318311,
+          "QuestionID": 407561,
+          "UmOption": null,
+          "EmOption": "<p>Roots</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318312,
+          "QuestionID": 407561,
+          "UmOption": null,
+          "EmOption": "<p>Flowers</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407565,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone promotes apical dominance in plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318325,
+          "QuestionID": 407565,
+          "UmOption": null,
+          "EmOption": "<p>Ethylene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318326,
+          "QuestionID": 407565,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318327,
+          "QuestionID": 407565,
+          "UmOption": null,
+          "EmOption": "<p>Auxin</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318328,
+          "QuestionID": 407565,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407566,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Gibberellins are mainly produced in:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318329,
+          "QuestionID": 407566,
+          "UmOption": null,
+          "EmOption": "<p>Mature leaves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318330,
+          "QuestionID": 407566,
+          "UmOption": null,
+          "EmOption": "<p>Root caps</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318331,
+          "QuestionID": 407566,
+          "UmOption": null,
+          "EmOption": "<p>Apical portions of roots and shoots</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318332,
+          "QuestionID": 407566,
+          "UmOption": null,
+          "EmOption": "<p>Fruits only</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407570,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Gibberellins promote which of the following?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318349,
+          "QuestionID": 407570,
+          "UmOption": null,
+          "EmOption": "<p>Seed dormancy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318350,
+          "QuestionID": 407570,
+          "UmOption": null,
+          "EmOption": "<p>Leaf senescence</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318351,
+          "QuestionID": 407570,
+          "UmOption": null,
+          "EmOption": "<p>Bolting in rosette plants</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318352,
+          "QuestionID": 407570,
+          "UmOption": null,
+          "EmOption": "<p>Root growth inhibition</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407572,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone promotes cell division during cytokinesis?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318357,
+          "QuestionID": 407572,
+          "UmOption": null,
+          "EmOption": "<p>Auxin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318358,
+          "QuestionID": 407572,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinin</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318359,
+          "QuestionID": 407572,
+          "UmOption": null,
+          "EmOption": "<p>Ethylene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318360,
+          "QuestionID": 407572,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407579,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Cytokinins are primarily produced in:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318389,
+          "QuestionID": 407579,
+          "UmOption": null,
+          "EmOption": "<p>Roots, young fruits, and seeds</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318390,
+          "QuestionID": 407579,
+          "UmOption": null,
+          "EmOption": "<p>Mature leaves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318391,
+          "QuestionID": 407579,
+          "UmOption": null,
+          "EmOption": "<p>Stem tips</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318392,
+          "QuestionID": 407579,
+          "UmOption": null,
+          "EmOption": "<p>Bark</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407580,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone promotes fruit ripening?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318393,
+          "QuestionID": 407580,
+          "UmOption": null,
+          "EmOption": "<p>Auxin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318394,
+          "QuestionID": 407580,
+          "UmOption": null,
+          "EmOption": "<p>Ethylene</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318395,
+          "QuestionID": 407580,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318396,
+          "QuestionID": 407580,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407581,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone breaks bud dormancy?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318397,
+          "QuestionID": 407581,
+          "UmOption": null,
+          "EmOption": "<p>Gibberellins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318398,
+          "QuestionID": 407581,
+          "UmOption": null,
+          "EmOption": "<p>Ethylene</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318399,
+          "QuestionID": 407581,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318400,
+          "QuestionID": 407581,
+          "UmOption": null,
+          "EmOption": "<p>Auxin</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407583,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which plant hormone delays leaf senescence?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318401,
+          "QuestionID": 407583,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318402,
+          "QuestionID": 407583,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318403,
+          "QuestionID": 407583,
+          "UmOption": null,
+          "EmOption": "<p>Gibberellins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318404,
+          "QuestionID": 407583,
+          "UmOption": null,
+          "EmOption": "<p>Both b and c</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407584,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone promotes lateral bud growth and breaks bud dormancy?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318405,
+          "QuestionID": 407584,
+          "UmOption": null,
+          "EmOption": "<p>Auxin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318406,
+          "QuestionID": 407584,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinin</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318407,
+          "QuestionID": 407584,
+          "UmOption": null,
+          "EmOption": "<p>Ethylene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318408,
+          "QuestionID": 407584,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 407586,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which hormone promotes stomatal opening?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318425,
+          "QuestionID": 407586,
+          "UmOption": null,
+          "EmOption": "<p>Abscisic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318426,
+          "QuestionID": 407586,
+          "UmOption": null,
+          "EmOption": "<p>Cytokinins</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318427,
+          "QuestionID": 407586,
+          "UmOption": null,
+          "EmOption": "<p>Ethylene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318428,
+          "QuestionID": 407586,
+          "UmOption": null,
+          "EmOption": "<p>Gibberellins</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 407617,
       "SubjectID": 94,
       "TopicID": 11668,
@@ -77314,6 +79814,256 @@
       }
     },
     {
+      "QuestionID": 408003,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which nutrients are stored in the liver?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318973,
+          "QuestionID": 408003,
+          "UmOption": null,
+          "EmOption": "<p>Proteins and nucleic acids</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318974,
+          "QuestionID": 408003,
+          "UmOption": null,
+          "EmOption": "<p>Glucose as glycogen, vitamins, minerals, fats</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318975,
+          "QuestionID": 408003,
+          "UmOption": null,
+          "EmOption": "<p>Enzymes and hormones</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318976,
+          "QuestionID": 408003,
+          "UmOption": null,
+          "EmOption": "<p>Water and salts</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408004,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the liver store excess glucose?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337181,
+          "QuestionID": 408004,
+          "UmOption": null,
+          "EmOption": "<p>As starch</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337182,
+          "QuestionID": 408004,
+          "UmOption": null,
+          "EmOption": "<p>As glycogen</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337183,
+          "QuestionID": 408004,
+          "UmOption": null,
+          "EmOption": "<p>As fat</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337184,
+          "QuestionID": 408004,
+          "UmOption": null,
+          "EmOption": "<p>As protein</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408006,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does the liver convert amino acids into for safe excretion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337185,
+          "QuestionID": 408006,
+          "UmOption": null,
+          "EmOption": "<p>Urea</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337186,
+          "QuestionID": 408006,
+          "UmOption": null,
+          "EmOption": "<p>Ammonia</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337187,
+          "QuestionID": 408006,
+          "UmOption": null,
+          "EmOption": "<p>Carbon dioxide</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337188,
+          "QuestionID": 408006,
+          "UmOption": null,
+          "EmOption": "<p>Glucose</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408007,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following substances does the liver detoxify?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337189,
+          "QuestionID": 408007,
+          "UmOption": null,
+          "EmOption": "<p>Vitamins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337190,
+          "QuestionID": 408007,
+          "UmOption": null,
+          "EmOption": "<p>Hormones</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337191,
+          "QuestionID": 408007,
+          "UmOption": null,
+          "EmOption": "<p>Drugs and alcohol</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337192,
+          "QuestionID": 408007,
+          "UmOption": null,
+          "EmOption": "<p>Fats</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408009,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the liver contribute to hormone regulation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336721,
+          "QuestionID": 408009,
+          "UmOption": null,
+          "EmOption": "<p>By synthesizing hormones only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336722,
+          "QuestionID": 408009,
+          "UmOption": null,
+          "EmOption": "<p>By breaking down and regulating hormones</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336723,
+          "QuestionID": 408009,
+          "UmOption": null,
+          "EmOption": "<p>By storing hormones</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336724,
+          "QuestionID": 408009,
+          "UmOption": null,
+          "EmOption": "<p>By transporting hormones</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 408013,
       "SubjectID": 94,
       "TopicID": 11674,
@@ -77453,6 +80203,506 @@
           "QuestionID": 408016,
           "UmOption": null,
           "EmOption": "<p>Digestion in the stomach</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402567,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the function of the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312841,
+          "QuestionID": 402567,
+          "UmOption": null,
+          "EmOption": "<p>To store oxygen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312842,
+          "QuestionID": 402567,
+          "UmOption": null,
+          "EmOption": "<p>To transport oxygen to tissues</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312843,
+          "QuestionID": 402567,
+          "UmOption": null,
+          "EmOption": "<p>To exchange gases between the environment and blood</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312844,
+          "QuestionID": 402567,
+          "UmOption": null,
+          "EmOption": "<p>To absorb nutrients</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402570,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does gaseous exchange occur at the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312849,
+          "QuestionID": 402570,
+          "UmOption": null,
+          "EmOption": "<p>Through osmosis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312850,
+          "QuestionID": 402570,
+          "UmOption": null,
+          "EmOption": "<p>Through diffusion</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312851,
+          "QuestionID": 402570,
+          "UmOption": null,
+          "EmOption": "<p>Through filtration</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312852,
+          "QuestionID": 402570,
+          "UmOption": null,
+          "EmOption": "<p>None</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402572,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In humans, which gas diffuses from the blood into the air?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335725,
+          "QuestionID": 402572,
+          "UmOption": null,
+          "EmOption": "<p>Oxygen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335726,
+          "QuestionID": 402572,
+          "UmOption": null,
+          "EmOption": "<p>Nitrogen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335727,
+          "QuestionID": 402572,
+          "UmOption": null,
+          "EmOption": "<p>Carbon dioxide</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335728,
+          "QuestionID": 402572,
+          "UmOption": null,
+          "EmOption": "<p>Hydrogen</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402574,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What property of the respiratory surface allows gases to pass through it?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312861,
+          "QuestionID": 402574,
+          "UmOption": null,
+          "EmOption": "<p>It is dry and thick</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312862,
+          "QuestionID": 402574,
+          "UmOption": null,
+          "EmOption": "<p>It is moist and impermeable</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312863,
+          "QuestionID": 402574,
+          "UmOption": null,
+          "EmOption": "<p>It is moist and permeable</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312864,
+          "QuestionID": 402574,
+          "UmOption": null,
+          "EmOption": "<p>It is rigid and dry</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402577,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why should the respiratory surface be thin?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312873,
+          "QuestionID": 402577,
+          "UmOption": null,
+          "EmOption": "<p>To retain water</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312874,
+          "QuestionID": 402577,
+          "UmOption": null,
+          "EmOption": "<p>So, gases travel a minimum distance</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312875,
+          "QuestionID": 402577,
+          "UmOption": null,
+          "EmOption": "<p>To allow blood circulation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312876,
+          "QuestionID": 402577,
+          "UmOption": null,
+          "EmOption": "<p>To prevent air entry</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402579,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the importance of blood supply to the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312881,
+          "QuestionID": 402579,
+          "UmOption": null,
+          "EmOption": "<p>To warm the surface</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312882,
+          "QuestionID": 402579,
+          "UmOption": null,
+          "EmOption": "<p>To supply nutrients</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312883,
+          "QuestionID": 402579,
+          "UmOption": null,
+          "EmOption": "<p>So, gases can diffuse in and out of blood</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312884,
+          "QuestionID": 402579,
+          "UmOption": null,
+          "EmOption": "<p>To remove waste</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402580,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What keeps the respiratory surface open and prevents it from collapsing?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312885,
+          "QuestionID": 402580,
+          "UmOption": null,
+          "EmOption": "<p>Blood vessels</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312886,
+          "QuestionID": 402580,
+          "UmOption": null,
+          "EmOption": "<p>Structural support</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312887,
+          "QuestionID": 402580,
+          "UmOption": null,
+          "EmOption": "<p>Cilia</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312888,
+          "QuestionID": 402580,
+          "UmOption": null,
+          "EmOption": "<p>Mucus</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402583,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is the respiratory surface located internally in vertebrates?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312897,
+          "QuestionID": 402583,
+          "UmOption": null,
+          "EmOption": "<p>To avoid air contact</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312898,
+          "QuestionID": 402583,
+          "UmOption": null,
+          "EmOption": "<p>To reduce heat loss</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312899,
+          "QuestionID": 402583,
+          "UmOption": null,
+          "EmOption": "<p>So, it does not lose water to the atmosphere</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312900,
+          "QuestionID": 402583,
+          "UmOption": null,
+          "EmOption": "<p>To make breathing difficult</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402584,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is meant by air ventilates over the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312901,
+          "QuestionID": 402584,
+          "UmOption": null,
+          "EmOption": "<p>Air flows only once through it</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312902,
+          "QuestionID": 402584,
+          "UmOption": null,
+          "EmOption": "<p>Air becomes stagnant</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312903,
+          "QuestionID": 402584,
+          "UmOption": null,
+          "EmOption": "<p>Air moves towards and away from it</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312904,
+          "QuestionID": 402584,
+          "UmOption": null,
+          "EmOption": "<p>Air is comletely filtered</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 402590,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does air pass through a branched tubular way before reaching the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 312905,
+          "QuestionID": 402590,
+          "UmOption": null,
+          "EmOption": "<p>To remove oxygen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312906,
+          "QuestionID": 402590,
+          "UmOption": null,
+          "EmOption": "<p>To cool it down</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 312907,
+          "QuestionID": 402590,
+          "UmOption": null,
+          "EmOption": "<p>So, air becomes saturated with water vapour</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 312908,
+          "QuestionID": 402590,
+          "UmOption": null,
+          "EmOption": "<p>To reduce pressure</p>\r\n",
           "Answer": false
         }
       ],
@@ -80864,6 +84114,156 @@
       }
     },
     {
+      "QuestionID": 403012,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is otitis media?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 313389,
+          "QuestionID": 403012,
+          "UmOption": null,
+          "EmOption": "<p>Infection of the throat</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 313390,
+          "QuestionID": 403012,
+          "UmOption": null,
+          "EmOption": "<p>Inflammation of the sinuses</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 313391,
+          "QuestionID": 403012,
+          "UmOption": null,
+          "EmOption": "<p>Inflammation of the middle ear</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 313392,
+          "QuestionID": 403012,
+          "UmOption": null,
+          "EmOption": "<p>Infection of the outer ear</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 403014,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What causes otitis media?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 313397,
+          "QuestionID": 403014,
+          "UmOption": null,
+          "EmOption": "<p>Dust allergy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 313398,
+          "QuestionID": 403014,
+          "UmOption": null,
+          "EmOption": "<p>Fluid accumulation in the Eustachian tube</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 313399,
+          "QuestionID": 403014,
+          "UmOption": null,
+          "EmOption": "<p>High blood pressure</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 313400,
+          "QuestionID": 403014,
+          "UmOption": null,
+          "EmOption": "<p>Smoking</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 403015,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is NOT a symptom of otitis media?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 313401,
+          "QuestionID": 403015,
+          "UmOption": null,
+          "EmOption": "<p>Severe ear pain</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 313402,
+          "QuestionID": 403015,
+          "UmOption": null,
+          "EmOption": "<p>Loss of balance</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 313403,
+          "QuestionID": 403015,
+          "UmOption": null,
+          "EmOption": "<p>Plugged nose</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 313404,
+          "QuestionID": 403015,
+          "UmOption": null,
+          "EmOption": "<p>Hearing difficulties</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 403034,
       "SubjectID": 94,
       "TopicID": 11679,
@@ -83703,6 +87103,1256 @@
           "QuestionID": 408249,
           "UmOption": null,
           "EmOption": "<p>PR segment</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408252,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which blood vessels carry blood away from the heart to various body parts?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319021,
+          "QuestionID": 408252,
+          "UmOption": null,
+          "EmOption": "<p>Veins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319022,
+          "QuestionID": 408252,
+          "UmOption": null,
+          "EmOption": "<p>Arteries</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319023,
+          "QuestionID": 408252,
+          "UmOption": null,
+          "EmOption": "<p>Capillaries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319024,
+          "QuestionID": 408252,
+          "UmOption": null,
+          "EmOption": "<p>Vena cava</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408253,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which arteries do NOT carry oxygenated blood?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337257,
+          "QuestionID": 408253,
+          "UmOption": null,
+          "EmOption": "<p>Coronary arteries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337258,
+          "QuestionID": 408253,
+          "UmOption": null,
+          "EmOption": "<p>Pulmonary arteries</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337259,
+          "QuestionID": 408253,
+          "UmOption": null,
+          "EmOption": "<p>Carotid arteries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337260,
+          "QuestionID": 408253,
+          "UmOption": null,
+          "EmOption": "<p>Aortic arteries</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408255,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the central core of an artery called?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319025,
+          "QuestionID": 408255,
+          "UmOption": null,
+          "EmOption": "<p>Tunica media</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319026,
+          "QuestionID": 408255,
+          "UmOption": null,
+          "EmOption": "<p>Intima</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319027,
+          "QuestionID": 408255,
+          "UmOption": null,
+          "EmOption": "<p>Lumen</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319028,
+          "QuestionID": 408255,
+          "UmOption": null,
+          "EmOption": "<p>Sinus</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408257,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the tunica externa of an artery composed of?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337261,
+          "QuestionID": 408257,
+          "UmOption": null,
+          "EmOption": "<p>Muscular tissue only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337262,
+          "QuestionID": 408257,
+          "UmOption": null,
+          "EmOption": "<p>Epithelial cells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337263,
+          "QuestionID": 408257,
+          "UmOption": null,
+          "EmOption": "<p>Connective and elastic tissue</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337264,
+          "QuestionID": 408257,
+          "UmOption": null,
+          "EmOption": "<p>Cartilage</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408259,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the main function of tunica media in arteries?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319029,
+          "QuestionID": 408259,
+          "UmOption": null,
+          "EmOption": "<p>Absorb-nutrients</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319030,
+          "QuestionID": 408259,
+          "UmOption": null,
+          "EmOption": "<p>Withstand high blood pressure during ventricular systole</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319031,
+          "QuestionID": 408259,
+          "UmOption": null,
+          "EmOption": "<p>Store red blood cells</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319032,
+          "QuestionID": 408259,
+          "UmOption": null,
+          "EmOption": "<p>Assist in digestion</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408260,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The inner layer of artery walls is called:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319033,
+          "QuestionID": 408260,
+          "UmOption": null,
+          "EmOption": "<p>Tunica extern</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319034,
+          "QuestionID": 408260,
+          "UmOption": null,
+          "EmOption": "<p>Tunica media</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319035,
+          "QuestionID": 408260,
+          "UmOption": null,
+          "EmOption": "<p>Tunica intima</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319036,
+          "QuestionID": 408260,
+          "UmOption": null,
+          "EmOption": "<p>Endothelium</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408261,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "Arterioles further divide to form:",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319037,
+          "QuestionID": 408261,
+          "UmOption": null,
+          "EmOption": "<p>Venules</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319038,
+          "QuestionID": 408261,
+          "UmOption": null,
+          "EmOption": "<p>Veins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319039,
+          "QuestionID": 408261,
+          "UmOption": null,
+          "EmOption": "<p>Capillaries</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319040,
+          "QuestionID": 408261,
+          "UmOption": null,
+          "EmOption": "<p>Aorta</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408263,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the internal diameter of a capillary?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337273,
+          "QuestionID": 408263,
+          "UmOption": null,
+          "EmOption": "<p>5 micrometres</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337274,
+          "QuestionID": 408263,
+          "UmOption": null,
+          "EmOption": "<p>10 micrometres</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337275,
+          "QuestionID": 408263,
+          "UmOption": null,
+          "EmOption": "<p>8 micrometres</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337276,
+          "QuestionID": 408263,
+          "UmOption": null,
+          "EmOption": "<p>15 micrometres</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408266,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Capillaries allow exchange of materials through:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337281,
+          "QuestionID": 408266,
+          "UmOption": null,
+          "EmOption": "<p>Osmosis only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337282,
+          "QuestionID": 408266,
+          "UmOption": null,
+          "EmOption": "<p>Filtration only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337283,
+          "QuestionID": 408266,
+          "UmOption": null,
+          "EmOption": "<p>Diffusion and active transport</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337284,
+          "QuestionID": 408266,
+          "UmOption": null,
+          "EmOption": "<p>Conduction</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408268,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which type of fluid leaks out from capillaries into tissues?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337285,
+          "QuestionID": 408268,
+          "UmOption": null,
+          "EmOption": "<p>Plasma</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337286,
+          "QuestionID": 408268,
+          "UmOption": null,
+          "EmOption": "<p>Interstitial fluid</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337287,
+          "QuestionID": 408268,
+          "UmOption": null,
+          "EmOption": "<p>Cytoplasm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337288,
+          "QuestionID": 408268,
+          "UmOption": null,
+          "EmOption": "<p>Lymph</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408270,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does interstitial fluid contain?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337289,
+          "QuestionID": 408270,
+          "UmOption": null,
+          "EmOption": "<p>Only water and salts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337290,
+          "QuestionID": 408270,
+          "UmOption": null,
+          "EmOption": "<p>Only hormones</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337291,
+          "QuestionID": 408270,
+          "UmOption": null,
+          "EmOption": "<p>Water, nutrients, gases, hormones, wastes, small proteins</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337292,
+          "QuestionID": 408270,
+          "UmOption": null,
+          "EmOption": "<p>Only glucose and RBCs</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408272,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which blood vessels return blood towards the heart?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337293,
+          "QuestionID": 408272,
+          "UmOption": null,
+          "EmOption": "<p>Arteries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337294,
+          "QuestionID": 408272,
+          "UmOption": null,
+          "EmOption": "<p>Veins</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337295,
+          "QuestionID": 408272,
+          "UmOption": null,
+          "EmOption": "<p>Capillaries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337296,
+          "QuestionID": 408272,
+          "UmOption": null,
+          "EmOption": "<p>Arterioles</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408274,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is the tunica media of veins thinner than that of arteries?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319041,
+          "QuestionID": 408274,
+          "UmOption": null,
+          "EmOption": "<p>Veins carry more blood</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319042,
+          "QuestionID": 408274,
+          "UmOption": null,
+          "EmOption": "<p>Veins do not withstand high pressure</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319043,
+          "QuestionID": 408274,
+          "UmOption": null,
+          "EmOption": "<p>Veins are made of bone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319044,
+          "QuestionID": 408274,
+          "UmOption": null,
+          "EmOption": "<p>Veins do not need walls</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408277,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What prevents backflow of blood in veins?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319045,
+          "QuestionID": 408277,
+          "UmOption": null,
+          "EmOption": "<p>Arterial pressure</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319046,
+          "QuestionID": 408277,
+          "UmOption": null,
+          "EmOption": "<p>Gravity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319047,
+          "QuestionID": 408277,
+          "UmOption": null,
+          "EmOption": "<p>Semilunar valves</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319048,
+          "QuestionID": 408277,
+          "UmOption": null,
+          "EmOption": "<p>Pulmonary action</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408279,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which veins bring blood into the right atrium of the heart?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319049,
+          "QuestionID": 408279,
+          "UmOption": null,
+          "EmOption": "<p>Pulmonary veins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319050,
+          "QuestionID": 408279,
+          "UmOption": null,
+          "EmOption": "<p>Superior and inferior vena cava</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319051,
+          "QuestionID": 408279,
+          "UmOption": null,
+          "EmOption": "<p>Coronary veins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319052,
+          "QuestionID": 408279,
+          "UmOption": null,
+          "EmOption": "<p>Jugular veins</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408297,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What regulates blood flow in capillaries?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319053,
+          "QuestionID": 408297,
+          "UmOption": null,
+          "EmOption": "<p>Only nervous stimulation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319054,
+          "QuestionID": 408297,
+          "UmOption": null,
+          "EmOption": "<p>Constriction and dilation, nervous stimulation, and pre-capillary sphincters</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319055,
+          "QuestionID": 408297,
+          "UmOption": null,
+          "EmOption": "<p>Heart rate only</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319056,
+          "QuestionID": 408297,
+          "UmOption": null,
+          "EmOption": "<p>Venous pressure</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408301,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What effect does constriction of capillaries have on blood flow?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337301,
+          "QuestionID": 408301,
+          "UmOption": null,
+          "EmOption": "<p>Increases blood flow</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337302,
+          "QuestionID": 408301,
+          "UmOption": null,
+          "EmOption": "<p>Decreases blood flow</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337303,
+          "QuestionID": 408301,
+          "UmOption": null,
+          "EmOption": "<p>Has no effect</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337304,
+          "QuestionID": 408301,
+          "UmOption": null,
+          "EmOption": "<p>Stops blood flow completely</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408303,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which chemical can cause dilation of capillaries?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337305,
+          "QuestionID": 408303,
+          "UmOption": null,
+          "EmOption": "<p>Adrenaline</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337306,
+          "QuestionID": 408303,
+          "UmOption": null,
+          "EmOption": "<p>Histamine</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337307,
+          "QuestionID": 408303,
+          "UmOption": null,
+          "EmOption": "<p>Acetylcholine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337308,
+          "QuestionID": 408303,
+          "UmOption": null,
+          "EmOption": "<p>Dopamine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408305,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the pre-capillary sphincter?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319057,
+          "QuestionID": 408305,
+          "UmOption": null,
+          "EmOption": "<p>A valve in veins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319058,
+          "QuestionID": 408305,
+          "UmOption": null,
+          "EmOption": "<p>A ring of muscle controlling blood entry into capillary loops</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319059,
+          "QuestionID": 408305,
+          "UmOption": null,
+          "EmOption": "<p>An elastic tissue in arteries</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319060,
+          "QuestionID": 408305,
+          "UmOption": null,
+          "EmOption": "<p>A nerve ending near capillaries</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408306,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which muscle type is abundant in arteriole walls?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319061,
+          "QuestionID": 408306,
+          "UmOption": null,
+          "EmOption": "<p>Longitudinal muscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319062,
+          "QuestionID": 408306,
+          "UmOption": null,
+          "EmOption": "<p>Circular muscles</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319063,
+          "QuestionID": 408306,
+          "UmOption": null,
+          "EmOption": "<p>Skeletal muscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319064,
+          "QuestionID": 408306,
+          "UmOption": null,
+          "EmOption": "<p>Smooth muscles only in veins</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408310,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does vasoconstriction cause?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319065,
+          "QuestionID": 408310,
+          "UmOption": null,
+          "EmOption": "<p>Dilation of arterioles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319066,
+          "QuestionID": 408310,
+          "UmOption": null,
+          "EmOption": "<p>Contraction of circular muscles in arterioles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319067,
+          "QuestionID": 408310,
+          "UmOption": null,
+          "EmOption": "<p>Increased blood flow</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319068,
+          "QuestionID": 408310,
+          "UmOption": null,
+          "EmOption": "<p>Relaxation of muscles in veins</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408312,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Vasodilation is the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319069,
+          "QuestionID": 408312,
+          "UmOption": null,
+          "EmOption": "<p>Contraction of arteriole muscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319070,
+          "QuestionID": 408312,
+          "UmOption": null,
+          "EmOption": "<p>Relaxation of circular muscles in arterioles</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319071,
+          "QuestionID": 408312,
+          "UmOption": null,
+          "EmOption": "<p>Narrowing of veins</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319072,
+          "QuestionID": 408312,
+          "UmOption": null,
+          "EmOption": "<p>Increase in blood pressure only</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408315,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What triggers vasodilation in tissues?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319073,
+          "QuestionID": 408315,
+          "UmOption": null,
+          "EmOption": "<p>Increased oxygen and decreased carbon dioxide</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319074,
+          "QuestionID": 408315,
+          "UmOption": null,
+          "EmOption": "<p>Decreased oxygen and increased carbon dioxide</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319075,
+          "QuestionID": 408315,
+          "UmOption": null,
+          "EmOption": "<p>Increased adrenaline</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319076,
+          "QuestionID": 408315,
+          "UmOption": null,
+          "EmOption": "<p>Increased nervous stimulation</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408317,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When metabolic activity decreases, what happens to arterioles?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337309,
+          "QuestionID": 408317,
+          "UmOption": null,
+          "EmOption": "<p>They dilate</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337310,
+          "QuestionID": 408317,
+          "UmOption": null,
+          "EmOption": "<p>They constrict</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337311,
+          "QuestionID": 408317,
+          "UmOption": null,
+          "EmOption": "<p>They burst</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337312,
+          "QuestionID": 408317,
+          "UmOption": null,
+          "EmOption": "<p>No change occurs</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408318,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Where is the velocity of blood flow the slowest?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319077,
+          "QuestionID": 408318,
+          "UmOption": null,
+          "EmOption": "<p>Aorta</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319078,
+          "QuestionID": 408318,
+          "UmOption": null,
+          "EmOption": "<p>Capillaries</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319079,
+          "QuestionID": 408318,
+          "UmOption": null,
+          "EmOption": "<p>Venules</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319080,
+          "QuestionID": 408318,
+          "UmOption": null,
+          "EmOption": "<p>Vena cava</p>\r\n",
           "Answer": false
         }
       ],
@@ -87053,6 +91703,256 @@
           "QuestionID": 408557,
           "UmOption": null,
           "EmOption": "<p>Convert fat into bone tissue</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408558,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the process of bone formation called?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336245,
+          "QuestionID": 408558,
+          "UmOption": null,
+          "EmOption": "<p>Calcification</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336246,
+          "QuestionID": 408558,
+          "UmOption": null,
+          "EmOption": "<p>Osteolysis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336247,
+          "QuestionID": 408558,
+          "UmOption": null,
+          "EmOption": "<p>Osteogenesis</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336248,
+          "QuestionID": 408558,
+          "UmOption": null,
+          "EmOption": "<p>Chondrogenesis</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408559,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>During long bone formation, what happens to chondrocytes in the center of the cartilage?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 319217,
+          "QuestionID": 408559,
+          "UmOption": null,
+          "EmOption": "<p>They multiply rapidly</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319218,
+          "QuestionID": 408559,
+          "UmOption": null,
+          "EmOption": "<p>They become osteoblasts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 319219,
+          "QuestionID": 408559,
+          "UmOption": null,
+          "EmOption": "<p>They die and leave cavities</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 319220,
+          "QuestionID": 408559,
+          "UmOption": null,
+          "EmOption": "<p>They turn into blood vessels</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408560,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the role of osteoclasts in bone formation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336249,
+          "QuestionID": 408560,
+          "UmOption": null,
+          "EmOption": "<p>Secreting unmineralized matrix</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336250,
+          "QuestionID": 408560,
+          "UmOption": null,
+          "EmOption": "<p>Resorbing calcified cartilage</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336251,
+          "QuestionID": 408560,
+          "UmOption": null,
+          "EmOption": "<p>Maintaining bone tissue</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336252,
+          "QuestionID": 408560,
+          "UmOption": null,
+          "EmOption": "<p>Fusing into bone plates</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408561,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What remains as cartilage after the bone is fully formed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336405,
+          "QuestionID": 408561,
+          "UmOption": null,
+          "EmOption": "<p>Shaft of the bone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336406,
+          "QuestionID": 408561,
+          "UmOption": null,
+          "EmOption": "<p>Ends of the bone</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336407,
+          "QuestionID": 408561,
+          "UmOption": null,
+          "EmOption": "<p>Articular (joint) surfaces</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336408,
+          "QuestionID": 408561,
+          "UmOption": null,
+          "EmOption": "<p>Entire bone</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408562,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do some skull bones form differently from long bones?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336253,
+          "QuestionID": 408562,
+          "UmOption": null,
+          "EmOption": "<p>By forming blood vessels first</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336254,
+          "QuestionID": 408562,
+          "UmOption": null,
+          "EmOption": "<p>By forming cartilage first</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336255,
+          "QuestionID": 408562,
+          "UmOption": null,
+          "EmOption": "<p>By direct transformation into hard bone</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336256,
+          "QuestionID": 408562,
+          "UmOption": null,
+          "EmOption": "<p>By turning into muscle tissue</p>\r\n",
           "Answer": false
         }
       ],
@@ -92503,6 +97403,256 @@
           "QuestionID": 408845,
           "UmOption": null,
           "EmOption": "<p>By massage only</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408863,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What causes tetany?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336569,
+          "QuestionID": 408863,
+          "UmOption": null,
+          "EmOption": "<p>Bacterial infection by Clostridium tetani</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336570,
+          "QuestionID": 408863,
+          "UmOption": null,
+          "EmOption": "<p>Increased muscle tone and overactive nerves causing involuntary muscle contractions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336571,
+          "QuestionID": 408863,
+          "UmOption": null,
+          "EmOption": "<p>Viral infection affecting muscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336572,
+          "QuestionID": 408863,
+          "UmOption": null,
+          "EmOption": "<p>Lack of oxygen in muscles</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408864,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which body parts are mainly affected by tetanus?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336573,
+          "QuestionID": 408864,
+          "UmOption": null,
+          "EmOption": "<p>Hands and feet</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336574,
+          "QuestionID": 408864,
+          "UmOption": null,
+          "EmOption": "<p>Face and larynx</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336575,
+          "QuestionID": 408864,
+          "UmOption": null,
+          "EmOption": "<p>Jaw and neck muscles</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336576,
+          "QuestionID": 408864,
+          "UmOption": null,
+          "EmOption": "<p>Lower back muscles</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408865,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the cause of tetanus?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336577,
+          "QuestionID": 408865,
+          "UmOption": null,
+          "EmOption": "<p>Electrolyte imbalance</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336578,
+          "QuestionID": 408865,
+          "UmOption": null,
+          "EmOption": "<p>Nerve problems</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336579,
+          "QuestionID": 408865,
+          "UmOption": null,
+          "EmOption": "<p>Bacterial infection producing a toxin</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336580,
+          "QuestionID": 408865,
+          "UmOption": null,
+          "EmOption": "<p>Muscle fatigue</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408866,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is a key difference in severity between tetany and tetanus?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336581,
+          "QuestionID": 408866,
+          "UmOption": null,
+          "EmOption": "<p>Tetany is more serious than tetanus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336582,
+          "QuestionID": 408866,
+          "UmOption": null,
+          "EmOption": "<p>Both have equal severity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336583,
+          "QuestionID": 408866,
+          "UmOption": null,
+          "EmOption": "<p>Tetanus is more serious and potentially life-threatening</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336584,
+          "QuestionID": 408866,
+          "UmOption": null,
+          "EmOption": "<p>Neither condition is serious</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 408867,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why are tetany and tetanus often confused?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336585,
+          "QuestionID": 408867,
+          "UmOption": null,
+          "EmOption": "<p>Because both are caused by bacteria</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336586,
+          "QuestionID": 408867,
+          "UmOption": null,
+          "EmOption": "<p>Because both affect the jaw muscles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336587,
+          "QuestionID": 408867,
+          "UmOption": null,
+          "EmOption": "<p>Because they have similar names but are different conditions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336588,
+          "QuestionID": 408867,
+          "UmOption": null,
+          "EmOption": "<p>Because both result from electrolyte imbalance</p>\r\n",
           "Answer": false
         }
       ],

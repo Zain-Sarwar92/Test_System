@@ -18,13 +18,38 @@ export function academicSession(date = new Date()) {
   return `${start}-${String(start + 1).slice(-2)}`;
 }
 
+/** YYYY-MM key for month-wise result grouping. */
+export function examMonthKey(
+  examDate: Date | string | null | undefined,
+  fallback?: Date | string | null,
+) {
+  const raw = examDate ?? fallback;
+  if (!raw) return null;
+  const d = raw instanceof Date ? raw : new Date(raw);
+  if (Number.isNaN(d.getTime())) return null;
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  return `${y}-${m}`;
+}
+
+export function formatExamMonthLabel(monthKey: string) {
+  const [y, m] = monthKey.split("-").map(Number);
+  if (!y || !m) return monthKey;
+  return new Date(y, m - 1, 1).toLocaleString("en-GB", {
+    month: "long",
+    year: "numeric",
+  });
+}
+
 export function sortByRoll(a: string, b: string) {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
 }
 
 /** Combined gazette headers: Round 1, Round 2, … (by selection order). */
-export function shortRoundLabel(_name: string, index: number) {
-  return `Round ${index + 1}`;
+export function shortRoundLabel(name: string, index: number) {
+  const cleaned = name.trim().replace(/\s+/g, " ");
+  if (cleaned) return cleaned;
+  return `Result ${index + 1}`;
 }
 
 export function gradeFromPercent(percent: number | null) {
@@ -40,6 +65,21 @@ export function gradeFromPercent(percent: number | null) {
 export function percentOf(obtained: number, total: number) {
   if (total <= 0) return null;
   return Math.round((obtained / total) * 1000) / 10;
+}
+
+/** Round marks to 1 decimal place. */
+export function roundResultMarks(n: number) {
+  return Math.round(n * 10) / 10;
+}
+
+/** Display marks / totals with exactly 1 decimal (e.g. 24.0). */
+export function formatResultMarks(n: number) {
+  return roundResultMarks(n).toFixed(1);
+}
+
+/** Display percentage with exactly 1 decimal. */
+export function formatResultPercent(n: number) {
+  return roundResultMarks(n).toFixed(1);
 }
 
 export type CompiledSubjectCell = {
@@ -242,11 +282,13 @@ export function compileSectionResult(input: {
         const applicable = isStudentEnrolledInSubject(student, subject);
         const mark = markMap.get(`${student.id}:${subject.id}`);
         const isAbsent = applicable && (mark?.isAbsent ?? false);
-        const obtained = !applicable
+        const rawObtained = !applicable
           ? null
           : isAbsent
             ? 0
             : mark?.obtainedMarks ?? null;
+        const obtained =
+          rawObtained == null ? null : roundResultMarks(rawObtained);
         const entered = !applicable
           ? true
           : Boolean(mark && (mark.isAbsent || mark.obtainedMarks != null));
@@ -264,7 +306,7 @@ export function compileSectionResult(input: {
               ? "Abs"
               : obtained == null
                 ? "—"
-                : String(obtained),
+                : formatResultMarks(obtained),
         };
       }
 
@@ -292,7 +334,8 @@ export function compileSectionResult(input: {
         const parts = chosenList.map((chosen) => {
           const mark = markMap.get(`${student.id}:${chosen.id}`);
           const isAbsent = mark?.isAbsent ?? false;
-          const obtained = isAbsent ? 0 : mark?.obtainedMarks ?? null;
+          const raw = isAbsent ? 0 : mark?.obtainedMarks ?? null;
+          const obtained = raw == null ? null : roundResultMarks(raw);
           const entered = Boolean(
             mark && (mark.isAbsent || mark.obtainedMarks != null),
           );
@@ -306,9 +349,8 @@ export function compileSectionResult(input: {
         });
         const entered = parts.every((part) => part.entered);
         const isAbsent = parts.every((part) => part.isAbsent);
-        const obtained = parts.reduce(
-          (sum, part) => sum + (part.obtained ?? 0),
-          0,
+        const obtained = roundResultMarks(
+          parts.reduce((sum, part) => sum + (part.obtained ?? 0), 0),
         );
         const totalMarks = parts.reduce(
           (sum, part) => sum + part.totalMarks,
@@ -320,7 +362,7 @@ export function compileSectionResult(input: {
               .map((part) => {
                 const tag = shortElectiveLabel(part.chosen.name);
                 if (part.isAbsent) return `${tag} Abs`;
-                return `${tag} ${part.obtained ?? ""}`;
+                return `${tag} ${part.obtained == null ? "" : formatResultMarks(part.obtained)}`;
               })
               .join(" · ");
 
@@ -342,7 +384,8 @@ export function compileSectionResult(input: {
         chosenList[0]!;
       const mark = markMap.get(`${student.id}:${primary.id}`);
       const isAbsent = mark?.isAbsent ?? false;
-      const obtained = isAbsent ? 0 : mark?.obtainedMarks ?? null;
+      const raw = isAbsent ? 0 : mark?.obtainedMarks ?? null;
+      const obtained = raw == null ? null : roundResultMarks(raw);
       const entered = Boolean(
         mark && (mark.isAbsent || mark.obtainedMarks != null),
       );
@@ -361,7 +404,7 @@ export function compileSectionResult(input: {
           ? "—"
           : isAbsent
             ? `${tag} Abs`
-            : `${tag} ${obtained ?? ""}`,
+            : `${tag} ${obtained == null ? "" : formatResultMarks(obtained)}`,
       };
     });
 
@@ -369,7 +412,9 @@ export function compileSectionResult(input: {
     const complete = scored.length > 0 && scored.every((cell) => cell.entered);
     // Missing / not-yet-entered marks count as 0 so Total / % / Position still calculate
     // (absent already stores 0; empty cells show "—" but add 0 to the total).
-    const obtainedTotal = scored.reduce((sum, cell) => sum + (cell.obtained ?? 0), 0);
+    const obtainedTotal = roundResultMarks(
+      scored.reduce((sum, cell) => sum + (cell.obtained ?? 0), 0),
+    );
     const maxTotal = scored.reduce((sum, cell) => sum + cell.totalMarks, 0);
     const percent = maxTotal > 0 ? percentOf(obtainedTotal, maxTotal) : null;
     const passed =
@@ -498,11 +543,12 @@ export function appendManualGazetteRows(input: {
         const mark = person.marks.get(column.subjectId);
         const applicable = Boolean(subject && mark);
         const isAbsent = applicable && (mark?.isAbsent ?? false);
-        const obtained = !applicable
+        const raw = !applicable
           ? null
           : isAbsent
             ? 0
             : mark?.obtainedMarks ?? null;
+        const obtained = raw == null ? null : roundResultMarks(raw);
         const entered = applicable;
         return {
           id: subject?.id ?? column.subjectId,
@@ -518,7 +564,7 @@ export function appendManualGazetteRows(input: {
               ? "Abs"
               : obtained == null
                 ? "—"
-                : String(obtained),
+                : formatResultMarks(obtained),
         };
       }
 
@@ -529,11 +575,12 @@ export function appendManualGazetteRows(input: {
       const subject = chosenSubjectId ? subjectById.get(chosenSubjectId) : undefined;
       const applicable = Boolean(groupMark && subject);
       const isAbsent = applicable && (groupMark?.isAbsent ?? false);
-      const obtained = !applicable
+      const rawGroup = !applicable
         ? null
         : isAbsent
           ? 0
           : groupMark?.obtainedMarks ?? null;
+      const obtained = rawGroup == null ? null : roundResultMarks(rawGroup);
       const tag = subject ? shortElectiveLabel(subject.name) : "";
       return {
         id: subject?.id ?? column.key,
@@ -546,16 +593,16 @@ export function appendManualGazetteRows(input: {
         display: !applicable
           ? "—"
           : isAbsent
-            ? `${tag} Abs`.trim()
-            : obtained == null
-              ? "—"
-              : `${tag} ${obtained}`.trim(),
+            ? `${tag} Abs`
+            : `${tag} ${obtained == null ? "" : formatResultMarks(obtained)}`,
       };
     });
 
     const scored = cells.filter((cell) => cell.applicable);
     const complete = scored.length > 0 && scored.every((cell) => cell.entered);
-    const obtainedTotal = scored.reduce((sum, cell) => sum + (cell.obtained ?? 0), 0);
+    const obtainedTotal = roundResultMarks(
+      scored.reduce((sum, cell) => sum + (cell.obtained ?? 0), 0),
+    );
     const maxTotal = scored.reduce((sum, cell) => sum + cell.totalMarks, 0);
     const percent = complete ? percentOf(obtainedTotal, maxTotal) : null;
 
@@ -849,7 +896,7 @@ export function compileMultiRoundSectionResult(input: {
         if (mark?.isAbsent) return { roundId: round.id, display: "Abs" };
         return {
           roundId: round.id,
-          display: String(mark?.obtainedMarks ?? 0),
+          display: formatResultMarks(Number(mark?.obtainedMarks ?? 0)),
         };
       });
 

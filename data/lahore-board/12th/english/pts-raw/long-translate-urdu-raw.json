@@ -1,5 +1,16 @@
 {
-  "classId": 12,
-  "subjectId": 123,
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "12",
+  "className": "INTER-II",
+  "subject": "ENGLISH",
+  "slug": "english",
+  "type": "long",
+  "field": "TRANSLATE_UR",
+  "exportName": "long-translate-urdu",
+  "subTypeId": 43,
+  "total": 0,
+  "exportedAt": "2026-09-10T08:31:00.148Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": []
 }

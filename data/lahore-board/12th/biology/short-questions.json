@@ -4,16 +4,16 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB INTER-II (Class 12) Biology (read-only export)",
-  "total_questions": 708,
+  "total_questions": 2146,
   "counts": {
-    "mcq": 295,
-    "short": 298,
-    "long": 115
+    "mcq": 1066,
+    "short": 960,
+    "long": 120
   },
   "fieldCounts": {
-    "MCQ": 295,
-    "QA": 298,
-    "LONG": 115
+    "MCQ": 1066,
+    "QA": 960,
+    "LONG": 120
   },
   "questions": [
     {
@@ -3000,6 +3000,6626 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "What are endorphins and what is their primary function?"
+    },
+    {
+      "id": 533167,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the Central Nervous System (CNS) and the Peripheral Nervous System (PNS)."
+    },
+    {
+      "id": 533169,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two types of nerves in the Peripheral Nervous System, and where do they arise from?"
+    },
+    {
+      "id": 533170,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the two divisions of the motor pathway and state their functions."
+    },
+    {
+      "id": 533171,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are meninges, and what is their primary function?"
+    },
+    {
+      "id": 533172,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the role and characteristics of the arachnoid layer."
+    },
+    {
+      "id": 533205,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main characteristics and function of the pia mater?"
+    },
+    {
+      "id": 533206,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What two anatomical statistics are given about the composition of the average adult human brain?"
+    },
+    {
+      "id": 533208,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how the cerebrum is structurally divided."
+    },
+    {
+      "id": 533209,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of the corpus callosum?"
+    },
+    {
+      "id": 533210,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the body if one cerebral hemisphere suffers damage?"
+    },
+    {
+      "id": 533223,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a sulcus and a fissure."
+    },
+    {
+      "id": 533224,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the cerebral cortex, and what percentage of the brain's total neurons does it contain?"
+    },
+    {
+      "id": 533225,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the functions of the parietal and temporal lobes."
+    },
+    {
+      "id": 533226,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where are the auditory cortex and visual cortex located, and what do they do?"
+    },
+    {
+      "id": 533227,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is white matter, and what is its primary function?"
+    },
+    {
+      "id": 533233,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three main divisions of the brainstem, and what does the medulla oblongata control?"
+    },
+    {
+      "id": 533234,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the location of the diencephalon and name its two major parts."
+    },
+    {
+      "id": 533235,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of the pons?"
+    },
+    {
+      "id": 533236,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the functions of the amygdala and the hippocampus in the limbic system."
+    },
+    {
+      "id": 533237,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and sensory inputs of the cerebellum."
+    },
+    {
+      "id": 533246,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many ventricles are there in the human brain, and where are the lateral ventricles located?"
+    },
+    {
+      "id": 533247,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structural extension and protection of the spinal cord."
+    },
+    {
+      "id": 533248,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the arrangement of grey and white matter in the spinal cord differ from that in the brain?"
+    },
+    {
+      "id": 533249,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Mention the total diameter of the spinal cord and clarify how its cervical and lumbar regions differ in function."
+    },
+    {
+      "id": 533251,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define nerves and distinguish them from ganglia."
+    },
+    {
+      "id": 533264,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Contrast the composition of the dorsal root and the ventral root of a spinal nerve."
+    },
+    {
+      "id": 533266,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between the functions of sensory pathways and motor pathways in the PNS."
+    },
+    {
+      "id": 533267,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the nature of the somatic nervous system and its exception regarding conscious control."
+    },
+    {
+      "id": 533270,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary function of the sympathetic nervous system?"
+    },
+    {
+      "id": 533292,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define biological receptors and state their primary function."
+    },
+    {
+      "id": 533293,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structural components of a human taste bud."
+    },
+    {
+      "id": 533294,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the four kinds of taste buds found in humans and state their primary locations on the tongue."
+    },
+    {
+      "id": 533295,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Trace the pathway of a taste impulse from the mouth to the brain."
+    },
+    {
+      "id": 533296,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where are the chemoreceptors for smell located, and what layer of tissue contains them?"
+    },
+    {
+      "id": 533312,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how an air-borne chemical triggers a nerve impulse for smell."
+    },
+    {
+      "id": 533313,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What roles do supporting cells and basal cells play in the nasal epithelium?"
+    },
+    {
+      "id": 533316,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define nociceptors and identify what specific types of stimuli they respond to."
+    },
+    {
+      "id": 533317,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the anatomical location of cold receptors and warm receptors in the skin."
+    },
+    {
+      "id": 533319,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are touch receptors, and what category of receptors do they belong to?"
+    },
+    {
+      "id": 533336,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where are Meissner's corpuscles found, and which body parts have them abundantly?"
+    },
+    {
+      "id": 533337,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure, location, and function of hair follicle receptors."
+    },
+    {
+      "id": 533338,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Merkel cells, and where are they found?"
+    },
+    {
+      "id": 533339,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Trace the path of a sensory signal from a touch receptor until it becomes a conscious sensation"
+    },
+    {
+      "id": 533371,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a drug and explain how it affects the working of the brain."
+    },
+    {
+      "id": 533372,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a psychoactive drug and a narcotic drug, giving examples of each."
+    },
+    {
+      "id": 533374,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the terms drug dependence and drug addiction."
+    },
+    {
+      "id": 533375,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are withdrawal symptoms, and what are some common examples?"
+    },
+    {
+      "id": 533376,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the brain adapt to a constant high level of dopamine, leading to drug tolerance?"
+    },
+    {
+      "id": 533387,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does caffeine interact with the nervous system to increase alertness?"
+    },
+    {
+      "id": 533388,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What withdrawal symptoms occur when regular caffeine or nicotine use is stopped abruptly?"
+    },
+    {
+      "id": 533389,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the drug \"use\" and drug \"abuse\"."
+    },
+    {
+      "id": 533390,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the methods of intake and psychological effects of Heroin."
+    },
+    {
+      "id": 533391,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the long-term negative health effects of chronic cannabis use?"
+    },
+    {
+      "id": 533398,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What immediate feelings does alcohol produce when consumed?"
+    },
+    {
+      "id": 533399,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the negative health effects associated with long-term alcohol consumption"
+    },
+    {
+      "id": 533400,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define inhalants and provide two everyday examples."
+    },
+    {
+      "id": 533401,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What specific physical and neurological damage can be caused by abusing inhalants?"
+    },
+    {
+      "id": 533402,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name at least six psychological and physical withdrawal symptoms of drug abuse."
+    },
+    {
+      "id": 533451,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a stroke and state its primary causes."
+    },
+    {
+      "id": 533453,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between an Ischemic stroke and a Haemorrhagic stroke?"
+    },
+    {
+      "id": 533454,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is \"aphasia\" and what are some other common symptoms of a stroke?"
+    },
+    {
+      "id": 533455,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three medical interventions or treatments used for a stroke."
+    },
+    {
+      "id": 533456,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Meningitis and list its three main symptoms."
+    },
+    {
+      "id": 533464,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a brain tumor and distinguish between its two biological types."
+    },
+    {
+      "id": 533465,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the common risk factors and treatment options for brain tumors."
+    },
+    {
+      "id": 533466,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a primary headache and a secondary headache."
+    },
+    {
+      "id": 533467,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a migraine, and what lifestyle modifications help treat headaches?"
+    },
+    {
+      "id": 533468,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define degenerative disorders and give three examples."
+    },
+    {
+      "id": 533480,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Electroencephalography (EEG) and state its basic operating principle."
+    },
+    {
+      "id": 533481,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the clinical uses of an EEG test."
+    },
+    {
+      "id": 533483,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the procedure of conducting an EEG."
+    },
+    {
+      "id": 533484,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Beta waves and Delta waves on an EEG."
+    },
+    {
+      "id": 533485,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a Computed Tomography (CT) scan and what does it use to create images?"
+    },
+    {
+      "id": 533494,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the step-by-step procedure of a CT scan."
+    },
+    {
+      "id": 533495,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the clinical uses of a CT scan?"
+    },
+    {
+      "id": 533496,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the basic scientific principle behind Magnetic Resonance Imaging (MRI)."
+    },
+    {
+      "id": 533497,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how radio waves are used during an MRI procedure to generate a signal."
+    },
+    {
+      "id": 533498,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the primary diagnostic uses of an MRI?"
+    },
+    {
+      "id": 533529,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between exocrine glands and endocrine glands."
+    },
+    {
+      "id": 533530,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a hormone and explain why it does not affect every cell in the body."
+    },
+    {
+      "id": 533531,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the chemical structure and solubility of peptide and protein hormones."
+    },
+    {
+      "id": 533548,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What determines whether an amino acid derivative hormone can pass through a cell membrane?"
+    },
+    {
+      "id": 533550,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the source gland and main function of Thyroxine and Triiodothyronine."
+    },
+    {
+      "id": 533551,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two hormones secreted by the Adrenal Cortex and state their main functions."
+    },
+    {
+      "id": 533552,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly describe how the discovery of the hormone \"secretin\" took place."
+    },
+    {
+      "id": 533553,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare hormones and neurotransmitters."
+    },
+    {
+      "id": 533561,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why the pituitary gland is called the \"master gland\" and identify what controls it."
+    },
+    {
+      "id": 533562,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the unique nature of neurosecretory cells found in the hypothalamus."
+    },
+    {
+      "id": 533563,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the hypothalamus control the posterior pituitary gland?"
+    },
+    {
+      "id": 533564,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the hypothalamus transmit its regulatory messages to the anterior pituitary?"
+    },
+    {
+      "id": 533572,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between releasing hormones and inhibiting hormones of the hypothalamus."
+    },
+    {
+      "id": 533573,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three distinct lobes of the human pituitary gland."
+    },
+    {
+      "id": 533574,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the primary functions of Growth Hormone (GH) and mention its alternative scientific name."
+    },
+    {
+      "id": 533575,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the target organ of Thyroid-stimulating Hormone (TSH) and what does it stimulate that organ to do?"
+    },
+    {
+      "id": 533581,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the two hormones known as gonadotropins and state the function of Prolactin."
+    },
+    {
+      "id": 533582,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the primary functions of Antidiuretic Hormone (ADH) and Oxytocin."
+    },
+    {
+      "id": 533583,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are the hypothalamus and the posterior pituitary structurally interconnected by a tract of axons?"
+    },
+    {
+      "id": 533584,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does breast-feeding benefit a nursing mother's uterus after pregnancy?"
+    },
+    {
+      "id": 533585,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of Melanocyte Stimulating Hormone (MSH), and where is it produced?"
+    },
+    {
+      "id": 533603,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Gigantism and Acromegaly in terms of their causes and physical effects."
+    },
+    {
+      "id": 533604,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main symptoms of Diabetes insipidus, and what causes it?"
+    },
+    {
+      "id": 533605,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the relationship between Tetra-iodothyronine and Tri-iodothyronine in the body."
+    },
+    {
+      "id": 533607,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Graves' disease, and what is its unique symptom involving the eyes?"
+    },
+    {
+      "id": 533619,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main clinical symptoms of hypothyroidism in an individual?"
+    },
+    {
+      "id": 533620,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Myxoedema and Goitre based on their clinical characteristics."
+    },
+    {
+      "id": 533621,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how parathormone acts on bones and kidneys to raise blood calcium levels."
+    },
+    {
+      "id": 533622,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the causes and effects of Hypercalcemia and Hypocalcaemia."
+    },
+    {
+      "id": 533623,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the dual nature of the pancreas and name its endocrine cell types."
+    },
+    {
+      "id": 533631,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four distinct ways in which insulin works to lower blood glucose levels."
+    },
+    {
+      "id": 533632,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define gluconeogenesis and state how insulin and glucagon interact with it or metabolic stores."
+    },
+    {
+      "id": 533633,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do patients with diabetes mellitus experience excessive urination and dehydration?"
+    },
+    {
+      "id": 533634,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the causes and symptoms of Hypoglycaemia and Hyperglycaemia."
+    },
+    {
+      "id": 533635,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Type I and Type II diabetes."
+    },
+    {
+      "id": 533641,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the two anatomical regions that compose an adrenal gland."
+    },
+    {
+      "id": 533642,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four physiological changes that happen during a \"fight or flight\" response triggered by the adrenal medulla."
+    },
+    {
+      "id": 533643,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the physiological controls of the adrenal medulla and the adrenal cortex."
+    },
+    {
+      "id": 533644,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how glucocorticoids (such as cortisol) maintain glucose homeostasis."
+    },
+    {
+      "id": 533645,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the causes and clinical features of Cushing disease and Addison's disease."
+    },
+    {
+      "id": 533655,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four major physiological functions of estrogen in females."
+    },
+    {
+      "id": 533657,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does progesterone function to support and maintain pregnancy?"
+    },
+    {
+      "id": 533658,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define puberty and outline the physical changes it brings about in males."
+    },
+    {
+      "id": 533659,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where is testosterone produced in males, and what is its biological role?"
+    },
+    {
+      "id": 533660,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the effects of estrogen deficiency in both young and adult females."
+    },
+    {
+      "id": 533670,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the exact location and immune function of the thymus gland."
+    },
+    {
+      "id": 533671,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the location of the pineal gland and the role of its primary secretion."
+    },
+    {
+      "id": 533672,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the two hormones produced by the small intestine wall and state their specific functions."
+    },
+    {
+      "id": 533673,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Mention three hormones produced by the kidneys and write down their individual duties."
+    },
+    {
+      "id": 533674,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are prostaglandins, where are they made, and what processes are they involved in?"
+    },
+    {
+      "id": 533680,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a feedback mechanism in the context of homeostasis."
+    },
+    {
+      "id": 533681,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the positive feedback loop of oxytocin operates during childbirth."
+    },
+    {
+      "id": 533682,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how the end product behaves differently in positive feedback versus negative feedback."
+    },
+    {
+      "id": 533683,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Outline the negative feedback loop that takes place when blood glucose levels go above normal."
+    },
+    {
+      "id": 533684,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does negative feedback manage alpha cell secretions when blood glucose levels drop too low?"
+    },
+    {
+      "id": 533718,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the primary functions of the human reproductive system?"
+    },
+    {
+      "id": 533719,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Contrast the male and female reproductive systems based on their specific functional roles."
+    },
+    {
+      "id": 533720,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and contents of a human testis."
+    },
+    {
+      "id": 533721,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do other organ systems differ from the reproductive system regarding their functionality since birth?"
+    },
+    {
+      "id": 533727,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Trace the path of spermatozoa through the male accessory ducts starting from the seminiferous tubules."
+    },
+    {
+      "id": 533728,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main functional roles of the fluid secreted by the bulbourethral glands?"
+    },
+    {
+      "id": 533729,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the anatomical composition of the human penis as a copulatory organ."
+    },
+    {
+      "id": 533730,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define spermatogenesis and state where it takes place."
+    },
+    {
+      "id": 533731,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Outline the stages of cell division during spermatogenesis from a primary spermatocyte to a spermatid."
+    },
+    {
+      "id": 533743,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the role of Leydig cells and state which hormone stimulates them."
+    },
+    {
+      "id": 533744,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how negative feedback works when testosterone levels rise in the male body."
+    },
+    {
+      "id": 533745,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are ovarian follicles, and what is their role in adult females?"
+    },
+    {
+      "id": 533746,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define ovulation and state what happens to the follicle after this event."
+    },
+    {
+      "id": 533747,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a mature ovum travel through the oviduct, and what happens to the zygote there?"
+    },
+    {
+      "id": 533769,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three structural parts of the uterus and describe their positions."
+    },
+    {
+      "id": 533770,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three layers that compose the wall of the uterus."
+    },
+    {
+      "id": 533771,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the functions of the basal layer and the functional layer of the endometrium."
+    },
+    {
+      "id": 533772,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the placenta, and what is its physiological role during pregnancy?"
+    },
+    {
+      "id": 533773,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When does the process of oogenesis begin in human females, and what happens to oogonia during this early stage?"
+    },
+    {
+      "id": 533805,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two cell products formed when a secondary oocyte completes meiosis II?"
+    },
+    {
+      "id": 533807,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the menstrual cycle and state its average duration."
+    },
+    {
+      "id": 533808,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe what happens to the uterine wall during the Menstrual Phase (Days 1–5)."
+    },
+    {
+      "id": 533809,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how negative feedback regulates FSH levels during the proliferative phase."
+    },
+    {
+      "id": 533810,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes ovulation to occur at the end of the proliferative phase?"
+    },
+    {
+      "id": 533824,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where exactly in the female body does a secondary oocyte complete its second meiotic division after fusing with a sperm?"
+    },
+    {
+      "id": 533825,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do gonadotropins and FSH levels start rising during the early days of the menstrual phase?"
+    },
+    {
+      "id": 533826,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the other ovarian follicles when only one grows into a mature Graafian follicle?"
+    },
+    {
+      "id": 533827,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the hormonal signal that tells the anterior pituitary to release Luteinizing Hormone (LH)."
+    },
+    {
+      "id": 533914,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a true-breeding (pure-breeding) plant."
+    },
+    {
+      "id": 533915,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What did Mendel discover when he performed his first monohybrid cross for \"seed shape\"?"
+    },
+    {
+      "id": 533916,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a dominant trait and a recessive trait based on Mendel's F1 cross"
+    },
+    {
+      "id": 533917,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the phenotypic ratio of the F2 generation when F1 plants are self-pollinated."
+    },
+    {
+      "id": 533918,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Breakdown the disguised 1:2:1 genetic ratio found within the F2 generation."
+    },
+    {
+      "id": 533930,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How did Mendel explain how traits are controlled, and what are those \"factors\" called today?"
+    },
+    {
+      "id": 533932,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a gene and a gene's locus according to modern genetics."
+    },
+    {
+      "id": 533933,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between homozygous and heterozygous individuals."
+    },
+    {
+      "id": 533935,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between the genotype and phenotype of an individual."
+    },
+    {
+      "id": 533938,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the outcome of a testcross if the unknown dominant plant is heterozygous (Rr)."
+    },
+    {
+      "id": 533951,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which two characters did Mendel examine together to study the independent assortment of genes?"
+    },
+    {
+      "id": 533952,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the genotypes of the two pure-breeding lines established by Mendel."
+    },
+    {
+      "id": 533958,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does independent assortment act as a source of genetic variation?"
+    },
+    {
+      "id": 533959,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Provide a modern re-statement of Mendel's law of independent assortment based on chromosomes"
+    },
+    {
+      "id": 533960,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the continuous mixing of alleles important for a population?"
+    },
+    {
+      "id": 534016,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List any three genetic complexities that serve as limitations to the Law of Independent Assortment."
+    },
+    {
+      "id": 534017,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Gene Linkage and Pleiotropy."
+    },
+    {
+      "id": 534018,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are probability rules used instead of Punnett squares for complex genetic crosses (like AaBbCcDdEe × AaBbCcDdEe)?"
+    },
+    {
+      "id": 534060,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the Sum Rule of Probability and provide the non-genetic example."
+    },
+    {
+      "id": 534067,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define complete dominance with an example."
+    },
+    {
+      "id": 534068,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by incomplete dominance?"
+    },
+    {
+      "id": 534069,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Show the gametes and genotypes produced when a red-flowered plant (RR) is crossed with a white-flowered plant (WW)."
+    },
+    {
+      "id": 534076,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define co-dominance and contrast it with incomplete dominance."
+    },
+    {
+      "id": 534086,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a blood group system."
+    },
+    {
+      "id": 534087,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the two most critical blood group systems that must be matched during a blood transfusion."
+    },
+    {
+      "id": 534088,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are \"secretors\" and which gene regulates this condition?"
+    },
+    {
+      "id": 534099,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is agglutination and when does it occur during blood transfusions?"
+    },
+    {
+      "id": 534100,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why blood group O is considered the universal donor."
+    },
+    {
+      "id": 534101,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Justify why the recessive blood group allele 'i' remains highly frequent in the population."
+    },
+    {
+      "id": 534102,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Rh-positive and Rh-negative individuals."
+    },
+    {
+      "id": 534103,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are the ABO and Rh systems combined to name an individual's blood type? Give an example."
+    },
+    {
+      "id": 534110,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is O-negative blood considered the actual universal donor compared to regular O blood?"
+    },
+    {
+      "id": 534111,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Erythroblastosis foetalis."
+    },
+    {
+      "id": 534112,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how a mother's immune system gets exposed to Rh antigens during this condition."
+    },
+    {
+      "id": 534113,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three serious complications that can happen to the foetus in severe cases of Erythroblastosis foetalis."
+    },
+    {
+      "id": 534114,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do the liver and spleen of an affected foetus become enlarged?"
+    },
+    {
+      "id": 534123,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four examples of polygenic traits found in humans."
+    },
+    {
+      "id": 534124,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What genotype and phenotype are expected in the children if the parents have genotypes AABBCC (very dark) and aabbcc (very light)?"
+    },
+    {
+      "id": 534125,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Identify the genotypes that represent the two extreme endpoints of maximum and minimum melanin production."
+    },
+    {
+      "id": 534131,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three non-genetic factors that can influence the final color of wheat grains?"
+    },
+    {
+      "id": 534132,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between allelic interactions and non-allelic interactions."
+    },
+    {
+      "id": 534133,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the terms \"epistatic\" and \"hypostatic\" with a suitable human example."
+    },
+    {
+      "id": 534134,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare how polygenic inheritance and epistasis differ in terms of gene mechanism and variation type."
+    },
+    {
+      "id": 534147,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the 'B' gene determines coat color in Labradors."
+    },
+    {
+      "id": 534148,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List all the possible genotypes for a black, a brown, and a yellow Labrador according to the provided chart."
+    },
+    {
+      "id": 534150,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the Bombay Phenotype and state why it occurs."
+    },
+    {
+      "id": 534151,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When and where was the Bombay Phenotype first discovered, and in which regions is it mostly found today?"
+    },
+    {
+      "id": 534171,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the function of Gene D and its alleles in determining foxglove flower color."
+    },
+    {
+      "id": 534172,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the dominant allele 'W' alter the phenotype of the flower?"
+    },
+    {
+      "id": 534173,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role does the recessive allele 'w' play in pigment distribution?"
+    },
+    {
+      "id": 534174,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List all the four possible genotypes that result in a white flower phenotype."
+    },
+    {
+      "id": 534191,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the two main points of the chromosomal theory of inheritance."
+    },
+    {
+      "id": 534192,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define gene linkage and mention how linked genes behave during gamete formation."
+    },
+    {
+      "id": 534193,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Complete Linkage and Incomplete Linkage based on phenotypic outcomes."
+    },
+    {
+      "id": 534194,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a large progeny (offspring) size essential when studying gene linkage?"
+    },
+    {
+      "id": 534216,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define crossing over and state its core cellular purpose."
+    },
+    {
+      "id": 534217,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do DNA strands physically exchange sections during crossing over?"
+    },
+    {
+      "id": 534219,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What properties change, and what properties remain intact within a recombinant chromatid after crossing over?"
+    },
+    {
+      "id": 534221,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how crossing over directly contributes to genetic variability within a species."
+    },
+    {
+      "id": 534279,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a karyotype and list what details it includes."
+    },
+    {
+      "id": 534280,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between autosomes and sex chromosomes."
+    },
+    {
+      "id": 534281,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the chromosome distribution (autosomes vs. sex chromosomes) for humans and Drosophila."
+    },
+    {
+      "id": 534282,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare homogametic and heterogametic sexes in the XX-XY system."
+    },
+    {
+      "id": 534283,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how fertilization determines whether an embryo develops into a male or female."
+    },
+    {
+      "id": 534290,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the chromosome composition of a male grasshopper under the XX-XO system."
+    },
+    {
+      "id": 534291,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a nullo gamete and explain how it forms in grasshoppers."
+    },
+    {
+      "id": 534292,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a female grasshopper produced compared to a male grasshopper?"
+    },
+    {
+      "id": 534293,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Contrast the role of the female in human sex determination with its role in bird sex determination."
+    },
+    {
+      "id": 534435,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define sex-linked traits and state why their expression ratios differ between males and females."
+    },
+    {
+      "id": 534437,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are pseudo-autosomal traits?"
+    },
+    {
+      "id": 534438,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the mutant fly that Thomas Hunt Morgan observed in 1910."
+    },
+    {
+      "id": 534439,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the total count of red-eyed and white-eyed flies obtained by Morgan in the F2 generation."
+    },
+    {
+      "id": 534440,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What initial conclusion did Morgan draw from the F1 generation results of his cross?"
+    },
+    {
+      "id": 534465,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why an X-linked recessive trait appears in all males who possess the recessive allele."
+    },
+    {
+      "id": 534467,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the transmission pattern of an X-linked recessive trait from an affected father to his children."
+    },
+    {
+      "id": 534470,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Contrast the inheritance of an X-linked dominant trait from a mother versus a father."
+    },
+    {
+      "id": 534481,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define holandric genes and state their transmission pattern."
+    },
+    {
+      "id": 534483,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three examples of Y-linked traits found in humans."
+    },
+    {
+      "id": 534484,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Haemophilia A, B, and C based on their genetic causes."
+    },
+    {
+      "id": 534544,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the primary health risks associated with thrombosis?"
+    },
+    {
+      "id": 534546,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define trichromatic vision and name the three types of cone cells involved."
+    },
+    {
+      "id": 534548,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Protanopia, Deuteranopia, and Tritanopia."
+    },
+    {
+      "id": 534549,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Is there a cure for color blindness? Name two assistive technologies that can help."
+    },
+    {
+      "id": 534550,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe Duchenne muscular dystrophy, including its inheritance pattern and main symptoms"
+    },
+    {
+      "id": 534613,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the two primary chemical components that make up eukaryotic chromosomes."
+    },
+    {
+      "id": 534614,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how chromatin transforms into distinct chromosomes when a cell prepares to divide."
+    },
+    {
+      "id": 534615,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define sister chromatids and state where they are physically attached to each other."
+    },
+    {
+      "id": 534616,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a \"satellite\" on a chromosome, and where is it located?"
+    },
+    {
+      "id": 534629,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the four types of chromosomes classified on the basis of their centromere location."
+    },
+    {
+      "id": 534630,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structural dimensions and nucleotide count of DNA in an average human chromosome"
+    },
+    {
+      "id": 534632,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do DNA strands show a strong chemical affinity for histone proteins?"
+    },
+    {
+      "id": 534633,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a nucleosome, and how is it structurally organized?"
+    },
+    {
+      "id": 534635,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between linker DNA and linker histone."
+    },
+    {
+      "id": 534697,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Outline the structural folding levels and thickness sizes from a nucleosome string up to a final chromatid."
+    },
+    {
+      "id": 534698,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Heterochromatin and Euchromatin."
+    },
+    {
+      "id": 534700,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the structural relationship between homologous chromosomes, loci, and alleles."
+    },
+    {
+      "id": 534714,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the requirements mentioned at the top of the page that a molecule must meet to be considered genetic material."
+    },
+    {
+      "id": 534715,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the S-type and R-type strains of Streptococcus pneumoniae."
+    },
+    {
+      "id": 534716,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why did Griffith initially think the S-type bacteria were virulent compared to the R-type?"
+    },
+    {
+      "id": 534717,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What crucial discovery did Griffith make when examining the blood of dead mice injected with the mixed bacterial strain?"
+    },
+    {
+      "id": 534765,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the primary objective behind conducting the Hershey-Chase experiments."
+    },
+    {
+      "id": 534767,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe what happens when a lytic bacteriophage infects a bacterial cell."
+    },
+    {
+      "id": 534772,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define DNA replication and state why it is biologically essential."
+    },
+    {
+      "id": 534773,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the Conservative and Semi-conservative models of DNA replication."
+    },
+    {
+      "id": 534774,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the molecular structure of daughter DNA strands according to the Dispersive model."
+    },
+    {
+      "id": 534884,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What was the main objective of the Meselson-Stahl experiment?"
+    },
+    {
+      "id": 534885,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the observation recorded at 0 minutes in the experiment."
+    },
+    {
+      "id": 534886,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What change was observed in the DNA bands between 20 minutes and 40 minutes of replication?"
+    },
+    {
+      "id": 534921,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the two stages of a pulse-chase experiment."
+    },
+    {
+      "id": 534922,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Based on the provided page, what structural composition makes up the light density DNA band after the second replication?"
+    },
+    {
+      "id": 534923,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the structural reason why DNA before any replication is the heaviest."
+    },
+    {
+      "id": 534952,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a replication origin site, and how does its quantity differ between prokaryotes and eukaryotes?"
+    },
+    {
+      "id": 534953,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a replication bubble and replication forks."
+    },
+    {
+      "id": 534954,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a primer necessary for DNA replication, and what is its length?"
+    },
+    {
+      "id": 534969,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the specific roles of DNA Polymerase I and DNA Polymerase II in a cell?"
+    },
+    {
+      "id": 534970,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do Deoxyribonucleoside triphosphates (dNTPs) provide energy for DNA synthesis?"
+    },
+    {
+      "id": 534971,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the synthesis of the leading strand and the lagging strand."
+    },
+    {
+      "id": 534972,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does DNA Polymerase III handle the two original template strands differently?"
+    },
+    {
+      "id": 535024,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the lagging strand described as being built in \"stops and starts\"?"
+    },
+    {
+      "id": 535025,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a replicon."
+    },
+    {
+      "id": 535026,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What two functions does DNA Polymerase I perform during the termination of replication?"
+    },
+    {
+      "id": 535027,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the semi-conservative nature of DNA replication."
+    },
+    {
+      "id": 535089,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State two differences between prokaryotic and eukaryotic DNA replication sites."
+    },
+    {
+      "id": 535090,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is DNA replication utilized in diagnostic studies?"
+    },
+    {
+      "id": 535091,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a mutation, and what causes it?"
+    },
+    {
+      "id": 535093,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is DNA stability vital for an organism?"
+    },
+    {
+      "id": 535353,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a singlet or doublet nucleotide sequence not enough to act as a genetic code for proteins?"
+    },
+    {
+      "id": 535354,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by a triplet code?"
+    },
+    {
+      "id": 535355,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe Marshall Nirenberg's 1961 experiment with poly-U mRNA."
+    },
+    {
+      "id": 535356,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are stop codons? Name them."
+    },
+    {
+      "id": 535357,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of the codon AUG?"
+    },
+    {
+      "id": 535389,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What benefit does the universal nature of the genetic code offer to modern biotechnology?"
+    },
+    {
+      "id": 535391,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two organisms or entities that serve as exceptions to the absolute universality of the genetic code."
+    },
+    {
+      "id": 535392,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what is meant by the \"non-overlapping\" characteristic of the genetic code."
+    },
+    {
+      "id": 535423,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define transcription."
+    },
+    {
+      "id": 535424,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the template strand and the coding strand."
+    },
+    {
+      "id": 535425,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Does the initiation phase of transcription require an RNA primer like DNA replication does? Explain."
+    },
+    {
+      "id": 535426,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the position and sequence of the two prokaryotic promoters."
+    },
+    {
+      "id": 535434,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What forms the raw materials for transcription elongation, and how do they provide energy?"
+    },
+    {
+      "id": 535435,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the position of the 3' end of the mRNA remain stable at the catalytic site of RNA polymerase?"
+    },
+    {
+      "id": 535436,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe what happens to the DNA molecule after the transcription bubble passes over a section."
+    },
+    {
+      "id": 535437,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the GC hairpin loop causes transcription to pause."
+    },
+    {
+      "id": 535458,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does eukaryotic mRNA need to undergo modifications before translation, unlike prokaryotic mRNA?"
+    },
+    {
+      "id": 535459,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the functions of the 5' cap and the 3' poly-A tail."
+    },
+    {
+      "id": 535460,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define mRNA splicing."
+    },
+    {
+      "id": 535461,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between introns and exons."
+    },
+    {
+      "id": 535491,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of \"Activation of Amino Acids\"."
+    },
+    {
+      "id": 535493,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the first amino acid used in translation initiation differ between prokaryotes and eukaryotes?"
+    },
+    {
+      "id": 535495,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the role of the \"initiation factor\" enzyme in translation."
+    },
+    {
+      "id": 535497,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the components that make up the final initiation complex?"
+    },
+    {
+      "id": 535514,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three active sites of a ribosome and state the function of the Exit (E) site."
+    },
+    {
+      "id": 535517,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are the three ribosomal sites oriented in a 5' to 3' direction as E-P-A?"
+    },
+    {
+      "id": 535518,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the role of the enzyme peptidyl transferase during translation elongation."
+    },
+    {
+      "id": 535521,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define translocation."
+    },
+    {
+      "id": 535524,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Trace the movement of a tRNA carrying the amino acid chain after a translocation event occurs."
+    },
+    {
+      "id": 535546,
+      "chapter": 19,
+      "topic_id": "19.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the regulation of gene expression?"
+    },
+    {
+      "id": 535547,
+      "chapter": 19,
+      "topic_id": "19.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is gene regulation important for multicellular organisms?"
+    },
+    {
+      "id": 535548,
+      "chapter": 19,
+      "topic_id": "19.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the four main levels at which gene expression can be regulated."
+    },
+    {
+      "id": 535552,
+      "chapter": 19,
+      "topic_id": "19.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between negative and positive gene regulation at the transcriptional level."
+    },
+    {
+      "id": 535576,
+      "chapter": 19,
+      "topic_id": "19.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how alternate splicing helps a single gene produce multiple kinds of proteins."
+    },
+    {
+      "id": 535578,
+      "chapter": 19,
+      "topic_id": "19.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the expression of the alcohol dehydrogenase gene between liver cells and brain neurons."
+    },
+    {
+      "id": 535580,
+      "chapter": 19,
+      "topic_id": "19.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do cell-specific regulatory proteins play during the splicing process?"
+    },
+    {
+      "id": 535610,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define mutation and state its classification based on size."
+    },
+    {
+      "id": 535611,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are induced mutations, and what can cause them?"
+    },
+    {
+      "id": 535612,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does natural selection interact with mutations in the process of evolution?"
+    },
+    {
+      "id": 535613,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between a mutagen and a mutant?"
+    },
+    {
+      "id": 535620,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how Ultraviolet (UV) radiation affects DNA structure and function."
+    },
+    {
+      "id": 535621,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do some chemical mutagens cause mistakes during base pairing?"
+    },
+    {
+      "id": 535622,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how a spontaneous deletion of several hundred nucleotides happens during chromosome pairing."
+    },
+    {
+      "id": 535629,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In what genetic inheritance manners can disorders resulting from point mutations be passed down?"
+    },
+    {
+      "id": 535630,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do red blood cells (RBCs) change their shape in a child with sickle cell anaemia?"
+    },
+    {
+      "id": 535631,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary function of the enzyme phenylalanine hydroxylase (PAH), and where is it produced?"
+    },
+    {
+      "id": 535637,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the cellular mechanism that causes Down syndrome."
+    },
+    {
+      "id": 535638,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List six distinct physical symptoms of Down syndrome."
+    },
+    {
+      "id": 535639,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Contrast the fertility status between males and females affected by Down syndrome."
+    },
+    {
+      "id": 535640,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main characteristics of females with Triple X syndrome?"
+    },
+    {
+      "id": 535641,
+      "chapter": 19,
+      "topic_id": "19.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give the total chromosome count and specific genetic breakdown formula for Klinefelter syndrome."
+    },
+    {
+      "id": 535733,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Biotechnology in scientific terms."
+    },
+    {
+      "id": 535734,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main focus of biotechnology?"
+    },
+    {
+      "id": 535735,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between traditional and modern biotechnology."
+    },
+    {
+      "id": 535736,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Genetic Engineering."
+    },
+    {
+      "id": 535737,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the two basic technologies that scientists rely on in genetic engineering."
+    },
+    {
+      "id": 535738,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Recombinant DNA Technology?"
+    },
+    {
+      "id": 535739,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary function of Polymerase Chain Reaction (PCR)?"
+    },
+    {
+      "id": 535740,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three ways to obtain a gene of interest?"
+    },
+    {
+      "id": 535741,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Restriction Endonucleases?"
+    },
+    {
+      "id": 535742,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a restriction site."
+    },
+    {
+      "id": 535743,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a palindromic sequence in the context of DNA?"
+    },
+    {
+      "id": 535744,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are sticky ends and how are they formed?"
+    },
+    {
+      "id": 535745,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a vector or molecular carrier?"
+    },
+    {
+      "id": 535746,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are bacterial plasmids important in biotechnology?"
+    },
+    {
+      "id": 535769,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four types of vectors mentioned other than basic plasmids."
+    },
+    {
+      "id": 535770,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is DNA Ligase and why is it called molecular glue?"
+    },
+    {
+      "id": 535771,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define an Expression System."
+    },
+    {
+      "id": 535772,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are bacterial cells preferred as an ideal expression system?"
+    },
+    {
+      "id": 535773,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of the 'cos sequence' in cosmids?"
+    },
+    {
+      "id": 535774,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens during the DNA Cleavage step of forming a Recombinant Vector?"
+    },
+    {
+      "id": 535792,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is Recombinant DNA (Vector) produced?"
+    },
+    {
+      "id": 535793,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens during the cloning of a recombinant vector?"
+    },
+    {
+      "id": 535794,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do scientists need to perform \"Screening of Clone Library\"?"
+    },
+    {
+      "id": 535795,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does antibiotic resistance help in selecting for the vector?"
+    },
+    {
+      "id": 535797,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the biological mechanism behind Blue-White Screening?"
+    },
+    {
+      "id": 535798,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In blue-white screening, why do the desired recombinant clones remain white?"
+    },
+    {
+      "id": 535841,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of the Polymerase Chain Reaction (PCR)?"
+    },
+    {
+      "id": 535842,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Denaturation in PCR."
+    },
+    {
+      "id": 535843,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens during the Annealing step of PCR?"
+    },
+    {
+      "id": 535844,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is Taq polymerase specifically used in PCR instead of normal human DNA polymerase?"
+    },
+    {
+      "id": 535845,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the process of Extension of Primer."
+    },
+    {
+      "id": 535846,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many copies of the original DNA fragment are present after completing exactly one PCR cycle?"
+    },
+    {
+      "id": 535859,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a Transgenic Organism."
+    },
+    {
+      "id": 535860,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a whole multicellular GMO produced during gene transfer?"
+    },
+    {
+      "id": 535861,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the technique of Electroporation."
+    },
+    {
+      "id": 535862,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Biolistic Transformation?"
+    },
+    {
+      "id": 535863,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a protoplast and how is it used in gene transfer?"
+    },
+    {
+      "id": 535864,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name four types of medical products synthesized by Transgenic Bacteria."
+    },
+    {
+      "id": 535879,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the benefit of modifying dairy cows with human genes?"
+    },
+    {
+      "id": 535881,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between inserting genes into germline cells versus somatic cells."
+    },
+    {
+      "id": 535882,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are genetically modified viruses used in gene therapy?"
+    },
+    {
+      "id": 535883,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the traits engineered into transgenic fish?"
+    },
+    {
+      "id": 535884,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How have scientists created malaria-resistant mosquitoes in the laboratory?"
+    },
+    {
+      "id": 535917,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the production of human insulin in bacteria considered a major triumph for genetic engineering?"
+    },
+    {
+      "id": 535918,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the first step in preparing the genes for human insulin production?"
+    },
+    {
+      "id": 535919,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the step of \"Construction of Recombinant Plasmids\" for insulin production."
+    },
+    {
+      "id": 535920,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are host cells transformed to produce both insulin chains?"
+    },
+    {
+      "id": 535921,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens during the fermentation and protein expression stage?"
+    },
+    {
+      "id": 535922,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are Chain A and Chain B joined to create a functional insulin molecule?"
+    },
+    {
+      "id": 535938,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main function of the vertebrate immune system?"
+    },
+    {
+      "id": 535939,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the three components that make up the body's First Line of Defence."
+    },
+    {
+      "id": 535940,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the types of immunity involved in the \"Third Line of Defence\"."
+    },
+    {
+      "id": 535941,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the thickness and structure of the skin's epidermis."
+    },
+    {
+      "id": 535942,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is skin an effective physical barrier against microbes?"
+    },
+    {
+      "id": 535953,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do oil and sweat glands chemically protect the skin surface from microbes?"
+    },
+    {
+      "id": 535954,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of lysozyme in sweat and saliva?"
+    },
+    {
+      "id": 535955,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the digestive tract kill bacteria present in food?"
+    },
+    {
+      "id": 535957,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the nasal cavity prevent microbes from entering deeper respiratory paths?"
+    },
+    {
+      "id": 535958,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of mucous in the bronchi and bronchioles?"
+    },
+    {
+      "id": 535959,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do cilia play in cleaning the respiratory passages?"
+    },
+    {
+      "id": 535988,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the four most important cellular and chemical components of the second line of defense?"
+    },
+    {
+      "id": 535989,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do macrophages destroy an invading bacterium?"
+    },
+    {
+      "id": 535990,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where can macrophages be found in the human body?"
+    },
+    {
+      "id": 535991,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three distinct methods used by neutrophils to kill pathogens."
+    },
+    {
+      "id": 535992,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the DNA fiber network released by neutrophils?"
+    },
+    {
+      "id": 536000,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary target of Natural Killer Cells?"
+    },
+    {
+      "id": 536001,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do perforins cause an infected target cell to burst?"
+    },
+    {
+      "id": 536002,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what \"self-protein\" is and state its importance."
+    },
+    {
+      "id": 536003,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the complement system and where does it circulate?"
+    },
+    {
+      "id": 536004,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of the Membrane-Attack Complex (MAC)?"
+    },
+    {
+      "id": 536005,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Interferons and state their role in defense."
+    },
+    {
+      "id": 536020,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main function of cytokines like interferons?"
+    },
+    {
+      "id": 536021,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Inflammatory Response."
+    },
+    {
+      "id": 536022,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does local heat at an inflamed site help the body fight infections?"
+    },
+    {
+      "id": 536023,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which phagocytes migrate to inflamed tissue and what are their roles?"
+    },
+    {
+      "id": 536024,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is pus made of?"
+    },
+    {
+      "id": 536025,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a misdirected immune response involving inflammation."
+    },
+    {
+      "id": 536062,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the Third Line of Defence?"
+    },
+    {
+      "id": 536063,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Innate Immunity and Acquired Immunity."
+    },
+    {
+      "id": 536064,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Active Immunity differ from Passive Immunity?"
+    },
+    {
+      "id": 536065,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Natural Active Immunity."
+    },
+    {
+      "id": 536066,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the mechanism behind Artificial Active Immunity (Vaccination)?"
+    },
+    {
+      "id": 536067,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where do the immune cells arise and circulate in the body?"
+    },
+    {
+      "id": 536068,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three main kinds of white blood cells mentioned in the immune system components."
+    },
+    {
+      "id": 536084,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where do T cells develop and where do they go to mature?"
+    },
+    {
+      "id": 536085,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the four main kinds of T cells and their basic functions."
+    },
+    {
+      "id": 536086,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do B cells behave after encountering a specific antigen?"
+    },
+    {
+      "id": 536087,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which cells bridge the second line of defense with the third line of defense?"
+    },
+    {
+      "id": 536089,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the \"Attack\" step in cell-mediated immunity"
+    },
+    {
+      "id": 536090,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of the \"Activation\" factor secreted by Helper T cells?"
+    },
+    {
+      "id": 536102,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Antibody-mediated or Humoral Immunity?"
+    },
+    {
+      "id": 536103,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the \"Proliferation\" step in antibody-mediated immunity."
+    },
+    {
+      "id": 536104,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are antibodies structurally derived from?"
+    },
+    {
+      "id": 536105,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the three distinct mechanisms used during the \"Attack\" phase to destroy an antibody-coated antigen"
+    },
+    {
+      "id": 536106,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of Suppressor T cells in humoral immunity?"
+    },
+    {
+      "id": 536107,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are genetic engineers using Tumor-Infiltrating Lymphocytes (TIL) to treat malignant melanoma?"
+    },
+    {
+      "id": 536120,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the basic chain structure of a Y-shaped antibody molecule."
+    },
+    {
+      "id": 536122,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the constant region and the variable region of an antibody."
+    },
+    {
+      "id": 536123,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define an antigen determinant."
+    },
+    {
+      "id": 536124,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between polyclonal and monoclonal antibodies."
+    },
+    {
+      "id": 536125,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are hybridomas and how are they created?"
+    },
+    {
+      "id": 536138,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State two practical applications of monoclonal antibodies in modern medicine."
+    },
+    {
+      "id": 536139,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Allergies and Allergens."
+    },
+    {
+      "id": 536140,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the role of mast cells in an allergic response."
+    },
+    {
+      "id": 536141,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four common symptoms caused by the release of histamines."
+    },
+    {
+      "id": 536142,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is anaphylactic shock?"
+    },
+    {
+      "id": 536143,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the process of desensitization protect an allergic patient?"
+    },
+    {
+      "id": 536151,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Autoimmune Diseases."
+    },
+    {
+      "id": 536152,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do muscles fail to respond to nerve impulses in Myasthenia gravis (MG)?"
+    },
+    {
+      "id": 536153,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes Type I diabetes from an immunological perspective?"
+    },
+    {
+      "id": 536154,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary drawback of using general immunosuppressive drugs to treat autoimmune diseases or transplant rejection?"
+    },
+    {
+      "id": 536155,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is transplant rejection and why does it occur?"
+    },
+    {
+      "id": 536156,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two advanced scientific approaches used to prevent transplant rejection?"
+    },
+    {
+      "id": 536239,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main activities involved in biostatistics to draw meaningful conclusions?"
+    },
+    {
+      "id": 536240,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do health professionals rely on sample data instead of testing entire populations?"
+    },
+    {
+      "id": 536241,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give the practical example of biostatistics."
+    },
+    {
+      "id": 536242,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the 'Study Design and Experimental Planning' phase involve?"
+    },
+    {
+      "id": 536243,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four critical steps included under experimental planning."
+    },
+    {
+      "id": 536260,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between primary and secondary data collection."
+    },
+    {
+      "id": 536261,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What tasks are included in data management and processing?"
+    },
+    {
+      "id": 536262,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between descriptive and inferential statistics."
+    },
+    {
+      "id": 536263,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by interpretation of results in biostatistics?"
+    },
+    {
+      "id": 536264,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does biostatistics assist in clinical trials and medical research?"
+    },
+    {
+      "id": 536265,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of biostatistics in the field of epidemiology?"
+    },
+    {
+      "id": 536272,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the field of genetics and genomics use biostatistics?"
+    },
+    {
+      "id": 536273,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of biostatistics in personalized medicine?"
+    },
+    {
+      "id": 536274,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does biostatistics assist policymakers in public health?"
+    },
+    {
+      "id": 536275,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of biostatistics in environmental health?"
+    },
+    {
+      "id": 536276,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the role of biostatistics in bioinformatics."
+    },
+    {
+      "id": 536277,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is biostatistics important for healthcare quality control?"
+    },
+    {
+      "id": 536278,
+      "chapter": 22,
+      "topic_id": "22.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does biostatistics benefit health programs and population interventions?"
+    },
+    {
+      "id": 536291,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What insights do key statistical measures provide about a dataset?"
+    },
+    {
+      "id": 536292,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of calculating the standard deviation and range?"
+    },
+    {
+      "id": 536293,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the \"Mean\" as a measure of central tendency."
+    },
+    {
+      "id": 536294,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the mean helpful from a biological perspective?"
+    },
+    {
+      "id": 536307,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Median as a measure of central tendency."
+    },
+    {
+      "id": 536308,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the median calculated when the number of values in a dataset is even?"
+    },
+    {
+      "id": 536309,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In which biological scenarios is the median preferred over the mean?"
+    },
+    {
+      "id": 536310,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the first two basic steps required to calculate the median."
+    },
+    {
+      "id": 536318,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Standard Deviation."
+    },
+    {
+      "id": 536319,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between a high standard deviation and a low standard deviation?"
+    },
+    {
+      "id": 536320,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the formula for population standard deviation and define its symbols."
+    },
+    {
+      "id": 536321,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two examples of how standard deviation is used in biological research."
+    },
+    {
+      "id": 536322,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do we calculate the square of deviations in Step 3 of the calculation process?"
+    },
+    {
+      "id": 536323,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Outline the 5 basic steps to calculate standard deviation."
+    },
+    {
+      "id": 536328,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Range as a measure of data dispersion."
+    },
+    {
+      "id": 536329,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do a larger range and a smaller range indicate about data points?"
+    },
+    {
+      "id": 536330,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the mathematical formula used to calculate the range."
+    },
+    {
+      "id": 536331,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the alternative names for the 25th, 50th, and 75th percentiles?"
+    },
+    {
+      "id": 536355,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main utility of bar charts in biological studies?"
+    },
+    {
+      "id": 536356,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the three key characteristics of a bar chart."
+    },
+    {
+      "id": 536357,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a categorical variable and a numerical variable using the insect example."
+    },
+    {
+      "id": 536358,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What was the specific purpose of the study conducted by the team of research students?"
+    },
+    {
+      "id": 536363,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a Pie Chart."
+    },
+    {
+      "id": 536364,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two examples of how pie charts are useful in the field of biology."
+    },
+    {
+      "id": 536365,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the first step required to create a pie chart?"
+    },
+    {
+      "id": 536366,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you find the total sum of frequency values when preparing a pie chart?"
+    },
+    {
+      "id": 536375,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What geometric instrument is used to accurately measure and draw sector angles for a pie chart?"
+    },
+    {
+      "id": 536376,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of Step 5 (\"Label and title\") when completing a pie chart?"
+    },
+    {
+      "id": 536377,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the x-axis in a graphical data representation."
+    },
+    {
+      "id": 536378,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the x-axis help researchers analyze biological data?"
+    },
+    {
+      "id": 536379,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main objective of Step 2 (\"Determine scale and range\") when setting up an axis?"
+    },
+    {
+      "id": 536387,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What data pair is plotted for the lowest temperature measurement in the enzyme experiment?"
+    },
+    {
+      "id": 536388,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Error Bars in data visualization."
+    },
+    {
+      "id": 536389,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are error bars valuable to researchers analyzing a central tendency like a mean?"
+    },
+    {
+      "id": 536390,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how range error bars are sketched and what they show."
+    },
+    {
+      "id": 536399,
+      "chapter": 22,
+      "topic_id": "22.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Experimental Design."
+    },
+    {
+      "id": 536400,
+      "chapter": 22,
+      "topic_id": "22.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between an independent variable and a dependent variable."
+    },
+    {
+      "id": 536401,
+      "chapter": 22,
+      "topic_id": "22.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are control variables and why are they important?"
+    },
+    {
+      "id": 536402,
+      "chapter": 22,
+      "topic_id": "22.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a control group and an experimental group."
+    },
+    {
+      "id": 536403,
+      "chapter": 22,
+      "topic_id": "22.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do scientists need a control group to evaluate an experimental group?"
+    },
+    {
+      "id": 536418,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the primary purpose of drug discovery and drug development."
+    },
+    {
+      "id": 536419,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Target Identification?"
+    },
+    {
+      "id": 536420,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do researchers perform Target Validation?"
+    },
+    {
+      "id": 536421,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the step of Lead Compound Identification."
+    },
+    {
+      "id": 536422,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What improvements are made during Lead Optimization?"
+    },
+    {
+      "id": 536423,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between in vitro and in vivo testing in Preclinical Research."
+    },
+    {
+      "id": 536424,
+      "chapter": 23,
+      "topic_id": "23.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the focus of Phase 1 Clinical Trials?"
+    },
+    {
+      "id": 536432,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Antibiotics."
+    },
+    {
+      "id": 536433,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the mechanism of action of Penicillin."
+    },
+    {
+      "id": 536434,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the discoverer and the natural source of Tetracycline."
+    },
+    {
+      "id": 536435,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the common side effects associated with the use of penicillin antibiotics?"
+    },
+    {
+      "id": 536444,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does penicillin cause bacterial cells to burst (lysis)?"
+    },
+    {
+      "id": 536445,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the resistance mechanism used by some bacteria against penicillin?"
+    },
+    {
+      "id": 536446,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two specific bacterial infections treated using tetracycline."
+    },
+    {
+      "id": 536447,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a bacteriostatic effect in the context of tetracycline action."
+    },
+    {
+      "id": 536448,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the common side effects associated with taking tetracycline."
+    },
+    {
+      "id": 536449,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how tetracycline blocks protein production inside a bacterial cell."
+    },
+    {
+      "id": 536464,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What natural source is chloroquine (quinine) derived from?"
+    },
+    {
+      "id": 536465,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the severe, rare side effects associated with fluoroquinolones."
+    },
+    {
+      "id": 536466,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the actions of Fluoroquinolones on Gram-positive versus Gram-negative bacteria."
+    },
+    {
+      "id": 536467,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two common types of infections primarily treated using Sulfonamides."
+    },
+    {
+      "id": 536468,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do sulfonamides cause selective toxicity without harming human cells?"
+    },
+    {
+      "id": 536469,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what is meant by competitive inhibition in Mode of Sulfonamides Action."
+    },
+    {
+      "id": 536478,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary purpose of antiviral drugs?"
+    },
+    {
+      "id": 536479,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three types of viruses that standard antiviral medications can combat."
+    },
+    {
+      "id": 536480,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define antiretroviral drugs."
+    },
+    {
+      "id": 536481,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a retrovirus?"
+    },
+    {
+      "id": 536482,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the relationship between antiviral and antiretroviral drugs as stated in the text box."
+    },
+    {
+      "id": 536493,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Monoclonal Antibodies"
+    },
+    {
+      "id": 536494,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three broad types of health conditions that monoclonal antibodies are effective at treating."
+    },
+    {
+      "id": 536495,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do monoclonal antibodies support the concept of personalized medicine?"
+    },
+    {
+      "id": 536496,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State two advantages of monoclonal antibodies over traditional drugs."
+    },
+    {
+      "id": 536497,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the high specificity of monoclonal antibodies beneficial during cancer therapy?"
+    },
+    {
+      "id": 536498,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two research or development advantages mentioned for these technologies?"
+    },
+    {
+      "id": 536520,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do Creationists claim about the origin and history of living organisms?"
+    },
+    {
+      "id": 536521,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the modern scientific concept of Evolution."
+    },
+    {
+      "id": 536522,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the idea of Spontaneous Generation?"
+    },
+    {
+      "id": 536523,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How did the progress of modern science affect the idea of spontaneous generation versus creationism?"
+    },
+    {
+      "id": 536524,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the three basic speculations of the concept of evolution in its earliest form."
+    },
+    {
+      "id": 536525,
+      "chapter": 24,
+      "topic_id": "24.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how natural selection leads to an increase in individuals with better traits within a population."
+    },
+    {
+      "id": 536535,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Who was Charles Darwin and what role did he play on the HMS Beagle?"
+    },
+    {
+      "id": 536536,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What did Darwin conclude about the Earth's geography from finding fossils in rocks?"
+    },
+    {
+      "id": 536537,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What unique observations did Darwin make regarding the giant tortoises on the Galápagos Islands?"
+    },
+    {
+      "id": 536538,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How did the plants and animals of the Galápagos Islands compare to those of the mainland?"
+    },
+    {
+      "id": 536539,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain Darwin's findings about the finches on different islands."
+    },
+    {
+      "id": 536540,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What relationship did Darwin identify between the origin of new species and adaptations?"
+    },
+    {
+      "id": 536552,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the essence of Charles Darwin's theory of evolution."
+    },
+    {
+      "id": 536554,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of Overproduction with an example."
+    },
+    {
+      "id": 536555,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three classifications of genetic variations?"
+    },
+    {
+      "id": 536556,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the \"Struggle for survival\"?"
+    },
+    {
+      "id": 536557,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Who was Alfred R. Wallace and what was his contribution to the theory of evolution?"
+    },
+    {
+      "id": 536558,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Neo-Darwinism."
+    },
+    {
+      "id": 536559,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Neo-Darwinism precisely define evolution?"
+    },
+    {
+      "id": 536568,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the core principle of the Hardy-Weinberg Theorem."
+    },
+    {
+      "id": 536569,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define 'Gene pool' with the help of an example."
+    },
+    {
+      "id": 536571,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Allele frequency and Genotype frequency."
+    },
+    {
+      "id": 536572,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the five conditions that must be followed to maintain Hardy-Weinberg equilibrium."
+    },
+    {
+      "id": 536573,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Genetic Drift (Neutral Selection)?"
+    },
+    {
+      "id": 536581,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the entry of individuals from another population affect gene frequencies?"
+    },
+    {
+      "id": 536582,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are mutations important for a species' long-term survival against environmental shocks?"
+    },
+    {
+      "id": 536583,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the effects of mutations vary depending on the environment."
+    },
+    {
+      "id": 536584,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Mutational Equilibrium?"
+    },
+    {
+      "id": 536585,
+      "chapter": 24,
+      "topic_id": "24.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does mutational equilibrium rarely exist in nature?"
+    },
+    {
+      "id": 536593,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Biogeography."
+    },
+    {
+      "id": 536594,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does biogeography show us about life-forms in different parts of the world?"
+    },
+    {
+      "id": 536595,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do similarities and differences between the African lion and the American mountain lion support evolution?"
+    },
+    {
+      "id": 536596,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do islands typically possess relatively few but highly unique species?"
+    },
+    {
+      "id": 536605,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary focus of comparative anatomists?"
+    },
+    {
+      "id": 536606,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Homologous Structures and Homology."
+    },
+    {
+      "id": 536607,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain what Divergent Evolution means."
+    },
+    {
+      "id": 536608,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Analogous Organs."
+    },
+    {
+      "id": 536609,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Convergent Evolution?"
+    },
+    {
+      "id": 536610,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do the wings of a bird and an insect look similar despite having different ancestors?"
+    },
+    {
+      "id": 536623,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Vestigial Organs with an example."
+    },
+    {
+      "id": 536624,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name four distinct vestigial structures found in the human body."
+    },
+    {
+      "id": 536625,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What was the original biological purpose of wisdom teeth in human ancestors?"
+    },
+    {
+      "id": 536626,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does molecular biology provide evidence for evolution?"
+    },
+    {
+      "id": 536627,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can scientists estimate the elapsed time since two species diverged from a common ancestor?"
+    },
+    {
+      "id": 536628,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by antibiotic resistance in microorganisms?"
+    },
+    {
+      "id": 536639,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the Endosymbiotic Theory state?"
+    },
+    {
+      "id": 536640,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how mitochondria and chloroplasts originated according to Lynn Margulis."
+    },
+    {
+      "id": 536641,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the Membrane Invagination Theory?"
+    },
+    {
+      "id": 536642,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three structural pieces of evidence supporting the endosymbiotic theory."
+    },
+    {
+      "id": 536643,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the reproduction of mitochondria and chloroplasts point to a prokaryotic origin?"
+    },
+    {
+      "id": 536644,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What structural origin is proposed for the flagella of eukaryotic cells?"
+    },
+    {
+      "id": 536645,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which new characteristics were eukaryotic cells able to develop due to their high efficiency?"
+    },
+    {
+      "id": 536653,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the title of the book published by Jean-Baptiste Lamarck, and what does it mean?"
+    },
+    {
+      "id": 536655,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "According to Lamarckism, when do changes occur in organisms?"
+    },
+    {
+      "id": 536656,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain Lamarck's principle of 'Use and disuse of organs'."
+    },
+    {
+      "id": 536657,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the 'Inheritance of acquired characters'?"
+    },
+    {
+      "id": 536666,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the evolution of the giraffe's neck according to Lamarckism."
+    },
+    {
+      "id": 536667,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How did the changes in the environment affect the ancestral giraffe population according to this theory?"
+    },
+    {
+      "id": 536668,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why was Lamarck criticized heavily during his own lifetime?"
+    },
+    {
+      "id": 536669,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the two main reasons why modern scientists disproved Lamarckism."
+    },
+    {
+      "id": 536682,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Ecology."
+    },
+    {
+      "id": 536683,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a Species? Give an example."
+    },
+    {
+      "id": 536684,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a Species and a Population."
+    },
+    {
+      "id": 536685,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how Markhors can represent either a species or a population based on location."
+    },
+    {
+      "id": 536686,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a Community in ecological terms?"
+    },
+    {
+      "id": 536688,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three distinct organisms that interact within the Mangrove Forest community in Karachi."
+    },
+    {
+      "id": 536700,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does an ecosystem consist of?"
+    },
+    {
+      "id": 536701,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the movement of energy and nutrients in an ecosystem."
+    },
+    {
+      "id": 536702,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a Biome."
+    },
+    {
+      "id": 536703,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three distinct types of biomes found in Pakistan."
+    },
+    {
+      "id": 536704,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the Biosphere?"
+    },
+    {
+      "id": 536705,
+      "chapter": 25,
+      "topic_id": "25.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the biosphere often called the \"Global Ecosystem\"?"
+    },
+    {
+      "id": 536715,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Biogeochemical Cycles."
+    },
+    {
+      "id": 536716,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a primary reservoir in an ecological cycle?"
+    },
+    {
+      "id": 536717,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between gaseous cycles and sedimentary cycles."
+    },
+    {
+      "id": 536718,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the water cycle considered the literal lifeline of Pakistan?"
+    },
+    {
+      "id": 536719,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how evaporation happens in the abiotic loop of the water cycle."
+    },
+    {
+      "id": 536720,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes precipitation to occur during the water cycle?"
+    },
+    {
+      "id": 536730,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two primary methods by which animals take in water?"
+    },
+    {
+      "id": 536731,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do terrestrial plants need to absorb water from the soil?"
+    },
+    {
+      "id": 536732,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Transpiration."
+    },
+    {
+      "id": 536733,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by 'metabolic water'?"
+    },
+    {
+      "id": 536734,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four distinct ways water exits the bodies of animals to return to the environment."
+    },
+    {
+      "id": 536735,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What ecological role does decomposition play in the water cycle?"
+    },
+    {
+      "id": 536742,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Nitrification and name the two groups of bacteria involved."
+    },
+    {
+      "id": 536743,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the specific roles of Nitrosomonas and Nitrobacter in nitrification."
+    },
+    {
+      "id": 536744,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Nitrogen Assimilation?"
+    },
+    {
+      "id": 536745,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the process of Ammonification."
+    },
+    {
+      "id": 536746,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Denitrification and why is it ecologically important?"
+    },
+    {
+      "id": 536747,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two denitrifying bacteria and state where they perform denitrification."
+    },
+    {
+      "id": 536758,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by a Trophic Level?"
+    },
+    {
+      "id": 536759,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Trophic Level 1 and Trophic Level 4."
+    },
+    {
+      "id": 536760,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three examples of detritivores and state what they consume."
+    },
+    {
+      "id": 536761,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the flow of energy differ fundamentally from the flow of matter?"
+    },
+    {
+      "id": 536762,
+      "chapter": 25,
+      "topic_id": "25.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why energy is lost as it moves up trophic levels."
+    },
+    {
+      "id": 536777,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Demography."
+    },
+    {
+      "id": 536778,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Population Survivorship?"
+    },
+    {
+      "id": 536779,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the characteristics of a Type I (convex) survivorship population."
+    },
+    {
+      "id": 536780,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do environmental factors influence death in Type II (diagonal) populations?"
+    },
+    {
+      "id": 536781,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Contrast the mortality rates of young versus adult individuals in a Type III (concave) population."
+    },
+    {
+      "id": 536782,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Population Growth."
+    },
+    {
+      "id": 536790,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the Exponential Growth Model."
+    },
+    {
+      "id": 536791,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes a population to follow a Logistic Growth Model instead of an exponential one?"
+    },
+    {
+      "id": 536792,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Carrying Capacity."
+    },
+    {
+      "id": 536793,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Population Density with an example."
+    },
+    {
+      "id": 536795,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the consequences when a population's density becomes too high?"
+    },
+    {
+      "id": 536796,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain Random Spacing and give an example."
+    },
+    {
+      "id": 536797,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Uniform Spacing and what causes it?"
+    },
+    {
+      "id": 536807,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Carrying Capacity and name three environmental factors that determine it."
+    },
+    {
+      "id": 536808,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Minimal Viable Population Size?"
+    },
+    {
+      "id": 536809,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the genetic dangers that a population faces if its size drops below the minimal viable threshold."
+    },
+    {
+      "id": 536810,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are small populations exceptionally vulnerable to natural disasters?"
+    },
+    {
+      "id": 536811,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three factors starting in the early 1700s that allowed the rapid growth of human populations."
+    },
+    {
+      "id": 536812,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the distribution of the human population in developed versus developing countries."
+    },
+    {
+      "id": 536818,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the Greenhouse Effect."
+    },
+    {
+      "id": 536819,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is causing the enhanced, unnatural warming of the Earth's atmosphere?"
+    },
+    {
+      "id": 536820,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four major human activities that release excessive carbon dioxide into the atmosphere."
+    },
+    {
+      "id": 536822,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is methane produced and what is its contribution to global warming?"
+    },
+    {
+      "id": 536823,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Fluorinated Gases and where do they come from?"
     }
   ],
   "type": "short"

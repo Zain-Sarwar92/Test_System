@@ -9,8 +9,8 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 1199,
-  "exportedAt": "2026-08-10T12:35:39.058Z",
+  "total": 1245,
+  "exportedAt": "2026-09-09T11:50:53.544Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -53,6 +53,106 @@
           "QuestionID": 410122,
           "UmOption": null,
           "EmOption": "<p>Development in aesthetics for the world</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410160,
+      "SubjectID": 96,
+      "TopicID": 11829,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 UNCERTAINTY IN MEASUREMENT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A measuring tape has been graduated with a minimum scale division of 0.2 cm. The allowed reading using this tape may be:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 325145,
+          "QuestionID": 410160,
+          "UmOption": null,
+          "EmOption": "<p>80.5 cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325146,
+          "QuestionID": 410160,
+          "UmOption": null,
+          "EmOption": "<p>80.6 cm</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 325147,
+          "QuestionID": 410160,
+          "UmOption": null,
+          "EmOption": "<p>80.65 cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325148,
+          "QuestionID": 410160,
+          "UmOption": null,
+          "EmOption": "<p>80.7 cm</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410129,
+      "SubjectID": 96,
+      "TopicID": 11830,
+      "TopicRef": "1.4",
+      "TopicName": "1.4 USE OF SIGNIFICANT FIGURES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The figure shows the reading on a micrometer screw gauge used to measure diameter of a thin rod. One complete turn of the thimble is 0.50 mm and there are 50 lines on the circular scale. The diameter of the rod is: <img src=\"/Equations/11th/phynew-chap1-5.png\" style=\"zoom:70%;\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 408893,
+          "QuestionID": 410129,
+          "UmOption": null,
+          "EmOption": "<p>3.67 mm</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 408894,
+          "QuestionID": 410129,
+          "UmOption": null,
+          "EmOption": "<p>3.17 mm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 408895,
+          "QuestionID": 410129,
+          "UmOption": null,
+          "EmOption": "<p>4.17 mm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 408896,
+          "QuestionID": 410129,
+          "UmOption": null,
+          "EmOption": "<p>4.20 mm</p>\r\n",
           "Answer": false
         }
       ],
@@ -453,6 +553,156 @@
           "QuestionID": 410157,
           "UmOption": null,
           "EmOption": "<p>Percentage uncertainty of a measurement</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410124,
+      "SubjectID": 96,
+      "TopicID": 11832,
+      "TopicRef": "1.6",
+      "TopicName": "1.6 ASSESSMENT OF TOTAL UNCERTAINTY IN THE FINAL RESULT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The length of a steel pipe is in between 0.7 m to 0.8 m. Identify the following, the appropriate instrument to be used for accuracy of 0.001 m.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 325229,
+          "QuestionID": 410124,
+          "UmOption": null,
+          "EmOption": "<p>A micrometer screw gauge</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325230,
+          "QuestionID": 410124,
+          "UmOption": null,
+          "EmOption": "<p>A metre rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325231,
+          "QuestionID": 410124,
+          "UmOption": null,
+          "EmOption": "<p>A ten metres measuring tape</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325232,
+          "QuestionID": 410124,
+          "UmOption": null,
+          "EmOption": "<p>A Vernier Callipers</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410126,
+      "SubjectID": 96,
+      "TopicID": 11832,
+      "TopicRef": "1.6",
+      "TopicName": "1.6 ASSESSMENT OF TOTAL UNCERTAINTY IN THE FINAL RESULT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The diameter of a steel ball is measured using a Vernier Callipers and its reading is shown in the figure.What is the diameter of the steel ball? <img src=\"/Equations/11th/phynew-chap1-4.png\" style=\"zoom:70%;\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 408897,
+          "QuestionID": 410126,
+          "UmOption": null,
+          "EmOption": "<p>1.30 cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 408898,
+          "QuestionID": 410126,
+          "UmOption": null,
+          "EmOption": "<p>1.39 cm</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 408899,
+          "QuestionID": 410126,
+          "UmOption": null,
+          "EmOption": "<p>1.40 cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 408900,
+          "QuestionID": 410126,
+          "UmOption": null,
+          "EmOption": "<p>1.31 cm</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410155,
+      "SubjectID": 96,
+      "TopicID": 11832,
+      "TopicRef": "1.6",
+      "TopicName": "1.6 ASSESSMENT OF TOTAL UNCERTAINTY IN THE FINAL RESULT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The following figures are of the same Vernier Callipers. Figure (1) shows the reading when the jaws are closed while fig (2) shows the reading when a solid cylinder is placed between the jaws. The length of the cylinder is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 325233,
+          "QuestionID": 410155,
+          "UmOption": null,
+          "EmOption": "<p>3.26 cm</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 325234,
+          "QuestionID": 410155,
+          "UmOption": null,
+          "EmOption": "<p>3.30 cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325235,
+          "QuestionID": 410155,
+          "UmOption": null,
+          "EmOption": "<p>3.34 cm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325236,
+          "QuestionID": 410155,
+          "UmOption": null,
+          "EmOption": "<p>4.20 cm</p>\r\n",
           "Answer": false
         }
       ],
@@ -964,6 +1214,56 @@
       }
     },
     {
+      "QuestionID": 410457,
+      "SubjectID": 96,
+      "TopicID": 11846,
+      "TopicRef": "2.12",
+      "TopicName": "2.12 Rocket Propulsion",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>As rocket moves upward during its journey, then its acceleration goes on:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 399433,
+          "QuestionID": 410457,
+          "UmOption": null,
+          "EmOption": "<p>Increasing</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 399434,
+          "QuestionID": 410457,
+          "UmOption": null,
+          "EmOption": "<p>Decreasing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399435,
+          "QuestionID": 410457,
+          "UmOption": null,
+          "EmOption": "<p>Remains same</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399436,
+          "QuestionID": 410457,
+          "UmOption": null,
+          "EmOption": "<p>It moves with uniform velocity</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410512,
       "SubjectID": 96,
       "TopicID": 11848,
@@ -1164,6 +1464,56 @@
       }
     },
     {
+      "QuestionID": 410517,
+      "SubjectID": 96,
+      "TopicID": 11850,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 ARTIFICIAL SATELLITES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An astronaut is orbiting around the Earth in a large capsule. then:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 327017,
+          "QuestionID": 410517,
+          "UmOption": null,
+          "EmOption": "<p>He will be in a state of weightlessness with respect to capsule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 327018,
+          "QuestionID": 410517,
+          "UmOption": null,
+          "EmOption": "<p>He is freely falling toward the Earth</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 327019,
+          "QuestionID": 410517,
+          "UmOption": null,
+          "EmOption": "<p>A ball projected at an angle has a straight line path as observed by him</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 327020,
+          "QuestionID": 410517,
+          "UmOption": null,
+          "EmOption": "<p>All the above</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410518,
       "SubjectID": 96,
       "TopicID": 11850,
@@ -1214,6 +1564,56 @@
       }
     },
     {
+      "QuestionID": 410519,
+      "SubjectID": 96,
+      "TopicID": 11850,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 ARTIFICIAL SATELLITES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A man inside the artificial satellite feels weightlessness because the force of attraction due to the Earth is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 327025,
+          "QuestionID": 410519,
+          "UmOption": null,
+          "EmOption": "<p>Zero at the pole</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 327026,
+          "QuestionID": 410519,
+          "UmOption": null,
+          "EmOption": "<p>Balanced by the force of attraction due to the moon</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 327027,
+          "QuestionID": 410519,
+          "UmOption": null,
+          "EmOption": "<p>Equal to the centripetal force</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 327028,
+          "QuestionID": 410519,
+          "UmOption": null,
+          "EmOption": "<p>Non-effective due to some particular design of the satellite</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410521,
       "SubjectID": 96,
       "TopicID": 11851,
@@ -1253,6 +1653,56 @@
           "QuestionID": 410521,
           "UmOption": null,
           "EmOption": "<p>Angular momentum of the body</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410573,
+      "SubjectID": 96,
+      "TopicID": 11856,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 WORK DONE BY A VARIABLE FORCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An iron sphere whose mass is 30 kg has the same diameter as an aluminium sphere whose mass is 10.5 kg. The spheres are simultaneously dropped from a cliff. When they are 10 m from the ground, they have identical:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 329693,
+          "QuestionID": 410573,
+          "UmOption": null,
+          "EmOption": "<p>Accelerations</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 329694,
+          "QuestionID": 410573,
+          "UmOption": null,
+          "EmOption": "<p>Momentums</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 329695,
+          "QuestionID": 410573,
+          "UmOption": null,
+          "EmOption": "<p>Potential energies</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 329696,
+          "QuestionID": 410573,
+          "UmOption": null,
+          "EmOption": "<p>Kinetic energies</p>\r\n",
           "Answer": false
         }
       ],
@@ -1514,6 +1964,106 @@
       }
     },
     {
+      "QuestionID": 410583,
+      "SubjectID": 96,
+      "TopicID": 11859,
+      "TopicRef": "4.5",
+      "TopicName": "4.5 ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A dry battery can deliver 3000 j of energy to a 2 W small electric motor before the battery is exhausted. For how many minutes does the battery run?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 329721,
+          "QuestionID": 410583,
+          "UmOption": null,
+          "EmOption": "<p>1500 min</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 329722,
+          "QuestionID": 410583,
+          "UmOption": null,
+          "EmOption": "<p>100 min</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 329723,
+          "QuestionID": 410583,
+          "UmOption": null,
+          "EmOption": "<p>50 min</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 329724,
+          "QuestionID": 410583,
+          "UmOption": null,
+          "EmOption": "<p>25 min</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410576,
+      "SubjectID": 96,
+      "TopicID": 11860,
+      "TopicRef": "4.6",
+      "TopicName": "4.6 ESCAPE VELOCITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The height above the ground of a child on a swing varies from 0.5 m of his lower point to 1.5 m at his highest point. The maximum speed of the child is approximately:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 329701,
+          "QuestionID": 410576,
+          "UmOption": null,
+          "EmOption": "<p>1.5 ms<sup>-1</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 329702,
+          "QuestionID": 410576,
+          "UmOption": null,
+          "EmOption": "<p>4.4 ms<sup>-1</sup></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 329703,
+          "QuestionID": 410576,
+          "UmOption": null,
+          "EmOption": "<p>9.8 ms<sup>-1</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 329704,
+          "QuestionID": 410576,
+          "UmOption": null,
+          "EmOption": "<p>Depends upon child's mass</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410580,
       "SubjectID": 96,
       "TopicID": 11861,
@@ -1553,6 +2103,106 @@
           "QuestionID": 410580,
           "UmOption": null,
           "EmOption": "<p>Sum of K.E and P.E</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410585,
+      "SubjectID": 96,
+      "TopicID": 11862,
+      "TopicRef": "4.8",
+      "TopicName": "4.8 INTERCONVERSION OF POTENTIAL ENERGY AND KINETIC ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The kinetic energy acquire by a mass m after travelling a fixed distance from rest under the action of a constant force is directly proportional to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355897,
+          "QuestionID": 410585,
+          "UmOption": null,
+          "EmOption": "<p><img src=\"/Equations/11th/phynew-chap4-1.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355898,
+          "QuestionID": 410585,
+          "UmOption": null,
+          "EmOption": "<p><img src=\"/Equations/11th/phynew-chap4-2.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355899,
+          "QuestionID": 410585,
+          "UmOption": null,
+          "EmOption": "<p>m</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355900,
+          "QuestionID": 410585,
+          "UmOption": null,
+          "EmOption": "<p>Independent of m</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410640,
+      "SubjectID": 96,
+      "TopicID": 11864,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 Classification of Solids",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is polymer solid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 330485,
+          "QuestionID": 410640,
+          "UmOption": null,
+          "EmOption": "<p>Wool</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 330486,
+          "QuestionID": 410640,
+          "UmOption": null,
+          "EmOption": "<p>Glass</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 330487,
+          "QuestionID": 410640,
+          "UmOption": null,
+          "EmOption": "<p>Sodium chloride</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 330488,
+          "QuestionID": 410640,
+          "UmOption": null,
+          "EmOption": "<p>Copper</p>\r\n",
           "Answer": false
         }
       ],
@@ -1814,6 +2464,56 @@
       }
     },
     {
+      "QuestionID": 410650,
+      "SubjectID": 96,
+      "TopicID": 11871,
+      "TopicRef": "5.8",
+      "TopicName": "5.8 STEADY, NON-VISCOUS AND IDEAL FLUID",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An idea flow of any fluid must satisfy:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 330509,
+          "QuestionID": 410650,
+          "UmOption": null,
+          "EmOption": "<p>Pascal law</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 330510,
+          "QuestionID": 410650,
+          "UmOption": null,
+          "EmOption": "<p>Bernoulli's equation</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 330511,
+          "QuestionID": 410650,
+          "UmOption": null,
+          "EmOption": "<p>Continuity equation only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 330512,
+          "QuestionID": 410650,
+          "UmOption": null,
+          "EmOption": "<p>Both b and c</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410647,
       "SubjectID": 96,
       "TopicID": 11872,
@@ -2014,6 +2714,106 @@
       }
     },
     {
+      "QuestionID": 410656,
+      "SubjectID": 96,
+      "TopicID": 11879,
+      "TopicRef": "5.16",
+      "TopicName": "5.16 Super Fluids",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a defining characteristic of a superfluid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 330521,
+          "QuestionID": 410656,
+          "UmOption": null,
+          "EmOption": "<p>Zero viscosity</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 330522,
+          "QuestionID": 410656,
+          "UmOption": null,
+          "EmOption": "<p>Infinite density</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 330523,
+          "QuestionID": 410656,
+          "UmOption": null,
+          "EmOption": "<p>Zero temperature</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 330524,
+          "QuestionID": 410656,
+          "UmOption": null,
+          "EmOption": "<p>Infinite thermal conductivity</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410727,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The Value of Boltzmann constant is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 331241,
+          "QuestionID": 410727,
+          "UmOption": null,
+          "EmOption": "<p>1.38 x 10<sup>-23</sup> J K-1</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 331242,
+          "QuestionID": 410727,
+          "UmOption": null,
+          "EmOption": "<p>1.38 x 10<sup>23</sup> J K-1</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331243,
+          "QuestionID": 410727,
+          "UmOption": null,
+          "EmOption": "<p>1.38 x 10<sup>26</sup> J K-1</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331244,
+          "QuestionID": 410727,
+          "UmOption": null,
+          "EmOption": "<p>1.38 x 10<sup>-23</sup> J-1 K-1</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410711,
       "SubjectID": 96,
       "TopicID": 11882,
@@ -2053,6 +2853,106 @@
           "QuestionID": 410711,
           "UmOption": null,
           "EmOption": "<p>Becomes zero</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410717,
+      "SubjectID": 96,
+      "TopicID": 11882,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 INTERNAL ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A device which converts thermal energy into mechanical energy is called:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 331217,
+          "QuestionID": 410717,
+          "UmOption": null,
+          "EmOption": "<p>Heat engine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331218,
+          "QuestionID": 410717,
+          "UmOption": null,
+          "EmOption": "<p>Carnot engine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331219,
+          "QuestionID": 410717,
+          "UmOption": null,
+          "EmOption": "<p>Refrigerator</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 331220,
+          "QuestionID": 410717,
+          "UmOption": null,
+          "EmOption": "<p>Turbine</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410724,
+      "SubjectID": 96,
+      "TopicID": 11882,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 INTERNAL ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens to internal energy of an object when its temperature:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 331237,
+          "QuestionID": 410724,
+          "UmOption": null,
+          "EmOption": "<p>Decreases</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331238,
+          "QuestionID": 410724,
+          "UmOption": null,
+          "EmOption": "<p>Remain constant</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331239,
+          "QuestionID": 410724,
+          "UmOption": null,
+          "EmOption": "<p>Increases</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 331240,
+          "QuestionID": 410724,
+          "UmOption": null,
+          "EmOption": "<p>Fluctuates</p>\r\n",
           "Answer": false
         }
       ],
@@ -2214,6 +3114,106 @@
       }
     },
     {
+      "QuestionID": 410730,
+      "SubjectID": 96,
+      "TopicID": 11884,
+      "TopicRef": "6.4",
+      "TopicName": "6.4 FIRST LAW OF THERMODYNAMICS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Thermodynamics mostly deals with:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 331249,
+          "QuestionID": 410730,
+          "UmOption": null,
+          "EmOption": "<p>Measurement of quantity of heat</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331250,
+          "QuestionID": 410730,
+          "UmOption": null,
+          "EmOption": "<p>Transfer of quantity of heat</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331251,
+          "QuestionID": 410730,
+          "UmOption": null,
+          "EmOption": "<p>Change of state</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331252,
+          "QuestionID": 410730,
+          "UmOption": null,
+          "EmOption": "<p>Conversion of heat to other forms of energy</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410719,
+      "SubjectID": 96,
+      "TopicID": 11890,
+      "TopicRef": "6.10",
+      "TopicName": "6.10 ENTROPY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When two objects are made in thermal contact having same temperature, then they are at:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 331225,
+          "QuestionID": 410719,
+          "UmOption": null,
+          "EmOption": "<p>Thermal equilibrium</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 331226,
+          "QuestionID": 410719,
+          "UmOption": null,
+          "EmOption": "<p>Chemical equilibrium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331227,
+          "QuestionID": 410719,
+          "UmOption": null,
+          "EmOption": "<p>Mechanical equilibrium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 331228,
+          "QuestionID": 410719,
+          "UmOption": null,
+          "EmOption": "<p>Physical equilibrium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410722,
       "SubjectID": 96,
       "TopicID": 11890,
@@ -2254,6 +3254,106 @@
           "UmOption": null,
           "EmOption": "<p>Is zero</p>\r\n",
           "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410910,
+      "SubjectID": 96,
+      "TopicID": 11892,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 Waves",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What type of waves do headphones use to produce sound?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 332057,
+          "QuestionID": 410910,
+          "UmOption": null,
+          "EmOption": "<p>Electromagnetic waves</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 332058,
+          "QuestionID": 410910,
+          "UmOption": null,
+          "EmOption": "<p>Mechanical waves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332059,
+          "QuestionID": 410910,
+          "UmOption": null,
+          "EmOption": "<p>Pressure waves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332060,
+          "QuestionID": 410910,
+          "UmOption": null,
+          "EmOption": "<p>Longitudinal waves</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410924,
+      "SubjectID": 96,
+      "TopicID": 11892,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 Waves",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The simple wave speed equation is represented by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355901,
+          "QuestionID": 410924,
+          "UmOption": null,
+          "EmOption": "<p>v =<img src=\"/Equations/11th/phynew-chap7-1.svg\" style=\"width: 18px; height: 20px;\" /></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 355902,
+          "QuestionID": 410924,
+          "UmOption": null,
+          "EmOption": "<p><img src=\"/Equations/11th/phynew-chap7-2.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355903,
+          "QuestionID": 410924,
+          "UmOption": null,
+          "EmOption": "<p><img src=\"/Equations/11th/phynew-chap7-3.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355904,
+          "QuestionID": 410924,
+          "UmOption": null,
+          "EmOption": "<p>v = d/t</p>\r\n",
+          "Answer": false
         }
       ],
       "_exportMeta": {
@@ -2314,6 +3414,56 @@
       }
     },
     {
+      "QuestionID": 410895,
+      "SubjectID": 96,
+      "TopicID": 11895,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 Stationary Waves & Their Formation",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A node in a stationary wave is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 332037,
+          "QuestionID": 410895,
+          "UmOption": null,
+          "EmOption": "<p>A point of maximum displacement</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332038,
+          "QuestionID": 410895,
+          "UmOption": null,
+          "EmOption": "<p>A point of intermediate displacement</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332039,
+          "QuestionID": 410895,
+          "UmOption": null,
+          "EmOption": "<p>A point of zero displacement</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 332040,
+          "QuestionID": 410895,
+          "UmOption": null,
+          "EmOption": "<p>A point of infinite displacement</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 410903,
       "SubjectID": 96,
       "TopicID": 11895,
@@ -2353,6 +3503,56 @@
           "QuestionID": 410903,
           "UmOption": null,
           "EmOption": "<p>Waves that propagate through a medium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 410899,
+      "SubjectID": 96,
+      "TopicID": 11898,
+      "TopicRef": "7.7",
+      "TopicName": "7.7 EXPERIMENT DEMONSTRATING STATIONARY WAVES USING MICROWAVES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An antinode in a stationary wave is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 347973,
+          "QuestionID": 410899,
+          "UmOption": null,
+          "EmOption": "<p>A point of maximum displacement</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 347974,
+          "QuestionID": 410899,
+          "UmOption": null,
+          "EmOption": "<p>A point of minimum displacement</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 347975,
+          "QuestionID": 410899,
+          "UmOption": null,
+          "EmOption": "<p>A point of zero displacement</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 347976,
+          "QuestionID": 410899,
+          "UmOption": null,
+          "EmOption": "<p>A point of infinite displacement</p>\r\n",
           "Answer": false
         }
       ],
@@ -2814,6 +4014,56 @@
       }
     },
     {
+      "QuestionID": 411010,
+      "SubjectID": 96,
+      "TopicID": 11908,
+      "TopicRef": "8.4",
+      "TopicName": "8.4 POLARIZATION OF LIGHT BY THE METHOD OF REFLECTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The condition for maximum intensity of light in a polarization experiment is when:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 332565,
+          "QuestionID": 411010,
+          "UmOption": null,
+          "EmOption": "<p>The light wave and analyzer are perpendicular</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332566,
+          "QuestionID": 411010,
+          "UmOption": null,
+          "EmOption": "<p>The light wave and analyzer are parallel</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 332567,
+          "QuestionID": 411010,
+          "UmOption": null,
+          "EmOption": "<p>The light wave and analyzer are at an angle of 45<sup>o</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332568,
+          "QuestionID": 411010,
+          "UmOption": null,
+          "EmOption": "<p>The light wave and analyzer are at an angle of 60<sup>o</sup></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411003,
       "SubjectID": 96,
       "TopicID": 11909,
@@ -2914,6 +4164,56 @@
       }
     },
     {
+      "QuestionID": 411006,
+      "SubjectID": 96,
+      "TopicID": 11909,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 MALUS'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The key purpose of an analyzer in a polarization experiment is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 332557,
+          "QuestionID": 411006,
+          "UmOption": null,
+          "EmOption": "<p>To polarize the light</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332558,
+          "QuestionID": 411006,
+          "UmOption": null,
+          "EmOption": "<p>To measure the intensity of light</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 332559,
+          "QuestionID": 411006,
+          "UmOption": null,
+          "EmOption": "<p>To change the direction of light</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332560,
+          "QuestionID": 411006,
+          "UmOption": null,
+          "EmOption": "<p>To filter out unwanted light</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411008,
       "SubjectID": 96,
       "TopicID": 11909,
@@ -3003,6 +4303,56 @@
           "QuestionID": 411009,
           "UmOption": null,
           "EmOption": "<p>The intensity becomes zero</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411013,
+      "SubjectID": 96,
+      "TopicID": 11910,
+      "TopicRef": "8.6",
+      "TopicName": "8.6 GRAVITATIONAL WAVES (GWS)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Who predicted the existence of gravitational waves?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 332573,
+          "QuestionID": 411013,
+          "UmOption": null,
+          "EmOption": "<p>Galileo Galilei</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332574,
+          "QuestionID": 411013,
+          "UmOption": null,
+          "EmOption": "<p>Albert Einstein</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 332575,
+          "QuestionID": 411013,
+          "UmOption": null,
+          "EmOption": "<p>Issac Newton</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332576,
+          "QuestionID": 411013,
+          "UmOption": null,
+          "EmOption": "<p>Leonardo da Vinci</p>\r\n",
           "Answer": false
         }
       ],
@@ -3164,6 +4514,56 @@
       }
     },
     {
+      "QuestionID": 411011,
+      "SubjectID": 96,
+      "TopicID": 11911,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 INTERFEROMETER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The unwanted light that interferes with vision is termed as:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 332569,
+          "QuestionID": 411011,
+          "UmOption": null,
+          "EmOption": "<p>Haze</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332570,
+          "QuestionID": 411011,
+          "UmOption": null,
+          "EmOption": "<p>Glare</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 332571,
+          "QuestionID": 411011,
+          "UmOption": null,
+          "EmOption": "<p>Contrast</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 332572,
+          "QuestionID": 411011,
+          "UmOption": null,
+          "EmOption": "<p>Flare</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411074,
       "SubjectID": 96,
       "TopicID": 11913,
@@ -3214,6 +4614,56 @@
       }
     },
     {
+      "QuestionID": 411085,
+      "SubjectID": 96,
+      "TopicID": 11913,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 COULOMB'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A ball of weight 0.1 N having a charge of 100<img src=\"/Equations/11th/phynew-chap9-1.svg\" />C remained suspended between two oppositely charge horizontal metal plates. The electric intensity between the plates is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355909,
+          "QuestionID": 411085,
+          "UmOption": null,
+          "EmOption": "<p>10 N C<sup>-1</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355910,
+          "QuestionID": 411085,
+          "UmOption": null,
+          "EmOption": "<p>100 N C<sup>-1</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355911,
+          "QuestionID": 411085,
+          "UmOption": null,
+          "EmOption": "<p>1000 N C<sup>-1</sup></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 355912,
+          "QuestionID": 411085,
+          "UmOption": null,
+          "EmOption": "<p>10000 N C<sup>-1</sup></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411076,
       "SubjectID": 96,
       "TopicID": 11914,
@@ -3253,6 +4703,56 @@
           "QuestionID": 411076,
           "UmOption": null,
           "EmOption": "<p>6.02 x 10<sup>-23</sup> C</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411093,
+      "SubjectID": 96,
+      "TopicID": 11916,
+      "TopicRef": "9.4",
+      "TopicName": "9.4 GAUSS'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The radius of curvature of the path of a charged particle in a uniform magnetic field is directly proportional to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 334265,
+          "QuestionID": 411093,
+          "UmOption": null,
+          "EmOption": "<p>The particle's charge</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 334266,
+          "QuestionID": 411093,
+          "UmOption": null,
+          "EmOption": "<p>The particle's momentum</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 334267,
+          "QuestionID": 411093,
+          "UmOption": null,
+          "EmOption": "<p>The particle's energy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 334268,
+          "QuestionID": 411093,
+          "UmOption": null,
+          "EmOption": "<p>The flux density of the field</p>\r\n",
           "Answer": false
         }
       ],
@@ -3564,6 +5064,56 @@
       }
     },
     {
+      "QuestionID": 411143,
+      "SubjectID": 96,
+      "TopicID": 11934,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 FORCE ON A CURRENT-CARRYING CONDUCTOR IN A UNIFORM MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The radius of curvature of the path of a charged particle in a uniform magnetic field is directly proportional to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335085,
+          "QuestionID": 411143,
+          "UmOption": null,
+          "EmOption": "<p>The particle's charge</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335086,
+          "QuestionID": 411143,
+          "UmOption": null,
+          "EmOption": "<p>The particle's momentum</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335087,
+          "QuestionID": 411143,
+          "UmOption": null,
+          "EmOption": "<p>The particle's energy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335088,
+          "QuestionID": 411143,
+          "UmOption": null,
+          "EmOption": "<p>The flux density of the field</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411151,
       "SubjectID": 96,
       "TopicID": 11934,
@@ -3653,6 +5203,56 @@
           "QuestionID": 411146,
           "UmOption": null,
           "EmOption": "<p>NmA</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411144,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The diagram shows a beam of electrons entering a magnetic field. What is the effect of magnetic field on the electrons?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335089,
+          "QuestionID": 411144,
+          "UmOption": null,
+          "EmOption": "<p>They are deflected into the plane of the diagram</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335090,
+          "QuestionID": 411144,
+          "UmOption": null,
+          "EmOption": "<p>They are deflected out of the plane of the diagram</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 335091,
+          "QuestionID": 411144,
+          "UmOption": null,
+          "EmOption": "<p>They are deflected towards the bottom of the diagram</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335092,
+          "QuestionID": 411144,
+          "UmOption": null,
+          "EmOption": "<p>They are deflected towards the top of the diagram</p>\r\n",
           "Answer": false
         }
       ],
@@ -3864,6 +5464,106 @@
       }
     },
     {
+      "QuestionID": 411152,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A magnet is suspended from a spring. The magnet oscillates and moves in and out of the coil connected to a galvanometer. When the magnet oscillates, the galvanometer shows:<img src=\"/Equations/11th/phynew-chap10-5.png\" style=\"zoom:50%;\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 408901,
+          "QuestionID": 411152,
+          "UmOption": null,
+          "EmOption": "<p>Deflection to the left and to the right with constant amplitude</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 408902,
+          "QuestionID": 411152,
+          "UmOption": null,
+          "EmOption": "<p>Deflected on one side</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 408903,
+          "QuestionID": 411152,
+          "UmOption": null,
+          "EmOption": "<p>No deflection</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 408904,
+          "QuestionID": 411152,
+          "UmOption": null,
+          "EmOption": "<p>Deflection to the left and right, but the amplitude steadily decreases</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411269,
+      "SubjectID": 96,
+      "TopicID": 11946,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 RELATIVE MOTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Relativistic mechanic yields results different from classical mechanics for objects moving with:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 335741,
+          "QuestionID": 411269,
+          "UmOption": null,
+          "EmOption": "<p>Low velocity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335742,
+          "QuestionID": 411269,
+          "UmOption": null,
+          "EmOption": "<p>Velocity equal to that of sound waves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335743,
+          "QuestionID": 411269,
+          "UmOption": null,
+          "EmOption": "<p>Velocity greater than sound waves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 335744,
+          "QuestionID": 411269,
+          "UmOption": null,
+          "EmOption": "<p>Velocity approaching that of light</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411271,
       "SubjectID": 96,
       "TopicID": 11946,
@@ -4054,6 +5754,56 @@
           "UmOption": null,
           "EmOption": "<p>Zero</p>\r\n",
           "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411320,
+      "SubjectID": 96,
+      "TopicID": 11954,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MATTER AND ANTI-MATTER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The first discovered anti-particle is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336701,
+          "QuestionID": 411320,
+          "UmOption": null,
+          "EmOption": "<p>Anti-proton</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336702,
+          "QuestionID": 411320,
+          "UmOption": null,
+          "EmOption": "<p>Anti-neutrino</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336703,
+          "QuestionID": 411320,
+          "UmOption": null,
+          "EmOption": "<p>Anti-photon</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336704,
+          "QuestionID": 411320,
+          "UmOption": null,
+          "EmOption": "<p>Anti-electron</p>\r\n",
+          "Answer": true
         }
       ],
       "_exportMeta": {
@@ -4414,6 +6164,106 @@
       }
     },
     {
+      "QuestionID": 411323,
+      "SubjectID": 96,
+      "TopicID": 11956,
+      "TopicRef": "12.5",
+      "TopicName": "12.5 FUNDAMENTAL PARTICLES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The strong nuclear force between the two particles is mediated by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336709,
+          "QuestionID": 411323,
+          "UmOption": null,
+          "EmOption": "<p>Gluons</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336710,
+          "QuestionID": 411323,
+          "UmOption": null,
+          "EmOption": "<p>Photon</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336711,
+          "QuestionID": 411323,
+          "UmOption": null,
+          "EmOption": "<p>Mesons</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336712,
+          "QuestionID": 411323,
+          "UmOption": null,
+          "EmOption": "<p>Gravitons</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411324,
+      "SubjectID": 96,
+      "TopicID": 11956,
+      "TopicRef": "12.5",
+      "TopicName": "12.5 FUNDAMENTAL PARTICLES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one of the following forces interacts between two particles through photons?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336713,
+          "QuestionID": 411324,
+          "UmOption": null,
+          "EmOption": "<p>Strong nuclear force</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336714,
+          "QuestionID": 411324,
+          "UmOption": null,
+          "EmOption": "<p>Weak force</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336715,
+          "QuestionID": 411324,
+          "UmOption": null,
+          "EmOption": "<p>Electromagnetic force</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336716,
+          "QuestionID": 411324,
+          "UmOption": null,
+          "EmOption": "<p>Gravitational force</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411329,
       "SubjectID": 96,
       "TopicID": 11956,
@@ -4614,6 +6464,106 @@
       }
     },
     {
+      "QuestionID": 411330,
+      "SubjectID": 96,
+      "TopicID": 11958,
+      "TopicRef": "12.7",
+      "TopicName": "12.7 HIGGS BOSON",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which particles are produced by strong interaction?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336729,
+          "QuestionID": 411330,
+          "UmOption": null,
+          "EmOption": "<p>Graviton</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336730,
+          "QuestionID": 411330,
+          "UmOption": null,
+          "EmOption": "<p>Leptons</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336731,
+          "QuestionID": 411330,
+          "UmOption": null,
+          "EmOption": "<p>Hadrons</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336732,
+          "QuestionID": 411330,
+          "UmOption": null,
+          "EmOption": "<p>Mesons</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411345,
+      "SubjectID": 96,
+      "TopicID": 11958,
+      "TopicRef": "12.7",
+      "TopicName": "12.7 HIGGS BOSON",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one of the following particle is responsible for the mass of the fundamental particle?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336761,
+          "QuestionID": 411345,
+          "UmOption": null,
+          "EmOption": "<p>Quarks</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336762,
+          "QuestionID": 411345,
+          "UmOption": null,
+          "EmOption": "<p>Anti-quark</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336763,
+          "QuestionID": 411345,
+          "UmOption": null,
+          "EmOption": "<p>Lepton</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336764,
+          "QuestionID": 411345,
+          "UmOption": null,
+          "EmOption": "<p>Higgs boson</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411332,
       "SubjectID": 96,
       "TopicID": 11959,
@@ -4654,6 +6604,106 @@
           "UmOption": null,
           "EmOption": "<p>All of these</p>\r\n",
           "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411341,
+      "SubjectID": 96,
+      "TopicID": 11962,
+      "TopicRef": "12.11",
+      "TopicName": "12.11 The Theories about the Forces between the Masses of Particles",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The electroweak theory was introduced by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336749,
+          "QuestionID": 411341,
+          "UmOption": null,
+          "EmOption": "<p>Dirac</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336750,
+          "QuestionID": 411341,
+          "UmOption": null,
+          "EmOption": "<p>Einstein</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336751,
+          "QuestionID": 411341,
+          "UmOption": null,
+          "EmOption": "<p>Anderson</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336752,
+          "QuestionID": 411341,
+          "UmOption": null,
+          "EmOption": "<p>Abdul Salam</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411343,
+      "SubjectID": 96,
+      "TopicID": 11963,
+      "TopicRef": "12.12",
+      "TopicName": "12.12 The Standard Model",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The asymmetry of matter and anti-matter is due to imbalance number of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 336757,
+          "QuestionID": 411343,
+          "UmOption": null,
+          "EmOption": "<p>Hadron</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336758,
+          "QuestionID": 411343,
+          "UmOption": null,
+          "EmOption": "<p>Lepton</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 336759,
+          "QuestionID": 411343,
+          "UmOption": null,
+          "EmOption": "<p>Baryon</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 336760,
+          "QuestionID": 411343,
+          "UmOption": null,
+          "EmOption": "<p>Photons</p>\r\n",
+          "Answer": false
         }
       ],
       "_exportMeta": {
@@ -9414,6 +11464,56 @@
       }
     },
     {
+      "QuestionID": 411467,
+      "SubjectID": 96,
+      "TopicID": 11836,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 Vectors",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one is a vector quantity:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 325513,
+          "QuestionID": 411467,
+          "UmOption": null,
+          "EmOption": "<p>Length</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325514,
+          "QuestionID": 411467,
+          "UmOption": null,
+          "EmOption": "<p>Velocity</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 325515,
+          "QuestionID": 411467,
+          "UmOption": null,
+          "EmOption": "<p>Volume</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325516,
+          "QuestionID": 411467,
+          "UmOption": null,
+          "EmOption": "<p>Unit vector</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411469,
       "SubjectID": 96,
       "TopicID": 11836,
@@ -9454,6 +11554,56 @@
           "UmOption": null,
           "EmOption": "<p>270<sup>o</sup></p>\r\n",
           "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411470,
+      "SubjectID": 96,
+      "TopicID": 11836,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 Vectors",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one is a vector quantity?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 325517,
+          "QuestionID": 411470,
+          "UmOption": null,
+          "EmOption": "<p>Power</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325518,
+          "QuestionID": 411470,
+          "UmOption": null,
+          "EmOption": "<p>Entropy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325519,
+          "QuestionID": 411470,
+          "UmOption": null,
+          "EmOption": "<p>Inertia</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325520,
+          "QuestionID": 411470,
+          "UmOption": null,
+          "EmOption": "<p>Tension</p>\r\n",
+          "Answer": true
         }
       ],
       "_exportMeta": {
@@ -12203,6 +14353,56 @@
           "QuestionID": 411575,
           "UmOption": null,
           "EmOption": "<p>None of these</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411576,
+      "SubjectID": 96,
+      "TopicID": 11840,
+      "TopicRef": "2.6",
+      "TopicName": "2.6 PROJECTILE MOTION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>As rocket moves upward during its motion, its acceleration goes on:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 325677,
+          "QuestionID": 411576,
+          "UmOption": null,
+          "EmOption": "<p>Increasing</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 325678,
+          "QuestionID": 411576,
+          "UmOption": null,
+          "EmOption": "<p>Decreasing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325679,
+          "QuestionID": 411576,
+          "UmOption": null,
+          "EmOption": "<p>Remains the same</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 325680,
+          "QuestionID": 411576,
+          "UmOption": null,
+          "EmOption": "<p>It moves with uniform velocity</p>\r\n",
           "Answer": false
         }
       ],
@@ -37914,6 +40114,56 @@
       }
     },
     {
+      "QuestionID": 414943,
+      "SubjectID": 96,
+      "TopicID": 11898,
+      "TopicRef": "7.7",
+      "TopicName": "7.7 EXPERIMENT DEMONSTRATING STATIONARY WAVES USING MICROWAVES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following instruments works on the principle of stationary waves in air columns?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 399441,
+          "QuestionID": 414943,
+          "UmOption": null,
+          "EmOption": "<p>Fuiter</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399442,
+          "QuestionID": 414943,
+          "UmOption": null,
+          "EmOption": "<p>Violin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399443,
+          "QuestionID": 414943,
+          "UmOption": null,
+          "EmOption": "<p>Flute</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 399444,
+          "QuestionID": 414943,
+          "UmOption": null,
+          "EmOption": "<p>Tuning fork</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 414944,
       "SubjectID": 96,
       "TopicID": 11898,
@@ -41954,6 +44204,56 @@
           "UmOption": null,
           "EmOption": "<p>Monochromatic light</p>\r\n",
           "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 415265,
+      "SubjectID": 96,
+      "TopicID": 11909,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 MALUS'S LAW",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>At Brewster's angle, the reflected light is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 399445,
+          "QuestionID": 415265,
+          "UmOption": null,
+          "EmOption": "<p>Completely unpolarized</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399446,
+          "QuestionID": 415265,
+          "UmOption": null,
+          "EmOption": "<p>Circularly polarized</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399447,
+          "QuestionID": 415265,
+          "UmOption": null,
+          "EmOption": "<p>Partially polarized</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399448,
+          "QuestionID": 415265,
+          "UmOption": null,
+          "EmOption": "<p>Completely plane polarized</p>\r\n",
+          "Answer": true
         }
       ],
       "_exportMeta": {

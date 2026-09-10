@@ -4,13 +4,658 @@
   "subject": "Physics",
   "slug": "physics",
   "source": "PTS PTB INTER-II (Class 12) Physics (read-only export)",
-  "total_questions": 0,
+  "total_questions": 803,
   "counts": {
-    "mcq": 0,
-    "short": 0,
-    "long": 0
+    "mcq": 375,
+    "short": 364,
+    "long": 64
   },
-  "fieldCounts": {},
-  "questions": [],
+  "fieldCounts": {
+    "MCQ": 375,
+    "QA": 364,
+    "LONG": 64
+  },
+  "questions": [
+    {
+      "id": 539979,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Derive the expression of pressure exerted by the gas on the walls of the container."
+    },
+    {
+      "id": 539980,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the expression for rms speed, and mean speed of a gas molecule."
+    },
+    {
+      "id": 539981,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the Boltzmann distributions law on the basis of statistical physics."
+    },
+    {
+      "id": 539982,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the role of pressure in a neutron star."
+    },
+    {
+      "id": 539984,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that temperature of a gas is a direct measure of the average translational K.E. of its molecules."
+    },
+    {
+      "id": 539987,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain stellar evolution in terms of the balance between gravitational pressure and internal pressure and how stellar mass determines whether a star ends as white dwarf, neutron or black hole."
+    },
+    {
+      "id": 540033,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate the rms velocity of hydrogen molecules at standard temperature and pressure (STP). Density of hydrogen at STP; p=8.957 x 10-2 Density of mercury = 13600 kg m-3 , g= 9.8m s-2"
+    },
+    {
+      "id": 540038,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the pressure of oxygen gas at 0oC if the density of oxygen is 1.44 kg m-3 at STP and rms speed at STP is 456.4 m s-1 ."
+    },
+    {
+      "id": 540039,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "At what temperature will the rms speed of the molecules of gas be three times its value at STP?"
+    },
+    {
+      "id": 540044,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a gas is at temperature 80o C and pressure 5 x 10-10 , having 1 m3 volume, what is the number of molecules per cubic metre, where Boltzmann's constant is 1.38 x 10-23 JK-1 ."
+    },
+    {
+      "id": 540048,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The temperature and pressure in the Sun's atmosphere are 2.00 x 106 K and 0.0300 pa respectively. Calculate the rms speed of free electrons (mass of the electron = 9.11 x 10-31 Kg)."
+    },
+    {
+      "id": 540050,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A star has a mass enclosed within radius r equal to 2.0 x 1030 Kg. density 1500 Kg m-3 and radius 7.0 x 108 m. Calculate the gravitational force inside the star."
+    },
+    {
+      "id": 540321,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that motion of mass attached with spring executes S.H.M. Also find an expression for its time period and frequency."
+    },
+    {
+      "id": 540323,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that motion of the projection of a particle moving around a circle with constant speed is S.H.M and derive a relation for its instantaneous velocity."
+    },
+    {
+      "id": 540325,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a simple pendulum? Show that motion of a simple pendulum is S.H.M. Also derive an expression for its time period, and on what factors does it depend?"
+    },
+    {
+      "id": 540327,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Derive expressions for K.E. and P.E. of the mass-spring system executing S.H.M. Also prove that its total energy remains same."
+    },
+    {
+      "id": 540328,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain resonance. Give some of its advantages and disadvantages."
+    },
+    {
+      "id": 540331,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss physical significance of phase in simple harmonic motion, and explain how does it relate to timing and synchronization of oscillation?"
+    },
+    {
+      "id": 540347,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A body is executing S.H.M of amplitude 0.05 m and frequency 10 Hz. Find the value of (i) maximum acceleration (ii) maximum velocity."
+    },
+    {
+      "id": 540348,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A mass of 0.5 kg is suspended from a spring. The spring is stretched 0.098 m.. Find: (i) the period of oscillation of mass when it is given a small displacement (ii) frequency of oscillation of spring."
+    },
+    {
+      "id": 540349,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A ball of mass0.5 kg is attached to an elastic spring. The spring is compressed by 10 cm by a force of 45 N. Calculate the energy stored in the spring. What will be the maximum velocity of the ball if the compressing force is suddenly removed?"
+    },
+    {
+      "id": 540351,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A 8.0 kg body executes S.H.M with amplitude 30 cm. The restoring force is 60 N, when the displacement is 30 cm. Find: (i) time period (ii) acceleration, speed, K.E. and P.E, when displacement is 12 cm."
+    },
+    {
+      "id": 540353,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A block of mass 5 kg is dropped from a height of 0.8 m onto a spring of spring constant 1960 N m-1. Find the displacement through which the spring will be compressed."
+    },
+    {
+      "id": 540715,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define interference of light. Explain the concept of coherent sources. Why are coherent sources necessary for sustained interference?"
+    },
+    {
+      "id": 540717,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the arrangement of Young's double slit experiment. Derive the expression for fringe width. How does it demonstrate the wave nature of light?"
+    },
+    {
+      "id": 540718,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the formation of interference in thin films with the help of bright and dark fringes."
+    },
+    {
+      "id": 540719,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain X-ray diffraction and derive Bragg's equation."
+    },
+    {
+      "id": 540721,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Coherent light of wavelength 500 nm is incident on two very narrow and closely spaced slits. The interference pattern is observed on a very tall screen that is 2.00 m from the slits. Near the center of the screen the separation between two adjacent interference maxima is 3.53 cm. What is the distance on the screen between the m=49 and m=50 maxima?"
+    },
+    {
+      "id": 540722,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Young's experiment is performed with light from excited helium atoms <img src=\"/pts-media/equations/12th/mthnew-ex5.2-14.svg\" style=\"width: 10px; height: 19px;\" />=502 nm. Fringes are measured carefully on a screen 120 m away from the double slit, and the center of the 20th fringe is found to be 0.6 mm from the center of the central bright fringe. What is the separation of the two slits?"
+    },
+    {
+      "id": 540723,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Coherent light with wavelength 450 nmfalls on a pair of slits. On a screen1.80 m away, the distance between dark fringes is 3.90mm. What is the slit separation?"
+    },
+    {
+      "id": 540724,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two slits spaced 0.450 mm apart are placed 75.0 cm from a screen. What is the distance between the second and third dark lines of the interference pattern on the screen when the slits are illuminated with coherent light with a wavelength of 500 nm?"
+    },
+    {
+      "id": 540726,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two very narrow slits are spaced 1.80 mm apart and are placed 35.0 cm from a screen. What is the distance between the first and second dark lines of the interference pattern when the slits are illuminated with coherent light of wavelength 550 nm?"
+    },
+    {
+      "id": 540727,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Monochromatic light is at normal incidence on a plane transmission grating. The first-order maximum in the interference pattern is at an angle of 11.3o. What is the angular position of the fourth-order maximum?"
+    },
+    {
+      "id": 540728,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a diffraction grating produces a third-order bright spot for red light of wavelength 700 nm at 65o from the central maximum, at what angle will the second-order bright spot be for violet light of wavelength 400 nm?"
+    },
+    {
+      "id": 540957,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Derive an expression for the absolute electric potential at a point due to a point charge q."
+    },
+    {
+      "id": 540958,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a capacitor? Find the capacitance of a parallel plate capacitor. What is the role of a dielectric in the capacitor?"
+    },
+    {
+      "id": 540960,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Derive the formula for series combinations of capacitors."
+    },
+    {
+      "id": 540961,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Determine the electric potential energy stored in a capacitor from the area under the potential-charge graph."
+    },
+    {
+      "id": 540962,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the charging and discharging of a capacitor by drawing circuit diagrams and graphs between charge versus time. What is a time constant for a capacitor discharging through a resistor?"
+    },
+    {
+      "id": 540963,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe some uses of capacitors in various household appliances."
+    },
+    {
+      "id": 540969,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A particle carrying a charge of (equation) starts from rest in a uniform electric field of intensity 60 N C-1. Find the kinetic energy acquired by the particle, when it has moved 2m."
+    },
+    {
+      "id": 540970,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What should be the potential difference through which an electron falls to acquire a speed of 2 x 106 m s-1"
+    },
+    {
+      "id": 540972,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The potential difference between points A and B is VA - VB =84V, while the potential difference between points C and B is VC - VB =24V. What should be the work done on moving a (equation) charge from C to A?"
+    },
+    {
+      "id": 540974,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A parallel plate capacitor has a capacitance of (equation) when filled with a dielectric. The area of each plate is 1.2 m2 and the separation between the plates is9 x 10-6 m. What is the dielectric constant?"
+    },
+    {
+      "id": 540975,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A (equation) capacitor is charged till the potential difference across its plates becomes 300V Find the energy stored in it."
+    },
+    {
+      "id": 540976,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two capacitors of (equation) and (equation) capacitances are connected in series and a potential difference of 300 volts is applied. Find the charge and potential difference for each capacitor."
+    },
+    {
+      "id": 540977,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A capacitor has a capacitance of (equation). It is charged by a battery. When the potential difference between the plates is 240 volts, how many electrons have been removed from one plate and placed on the other plate?"
+    },
+    {
+      "id": 540979,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Two positive point charges are held at two points 1.2 m apart. They are then moved towards each other so that their electric potential energy becomes double of its previous value. How much are they apart at their new positions?"
+    },
+    {
+      "id": 540980,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A (equation) capacitor is initialy charged 8 V. It is allowed to discharge through a (equation) resistor. Find the voltage across the capacitor after 0.5 s."
+    },
+    {
+      "id": 541189,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the behaviour of a capacitor in an AC circuit. Derive the expression for capacitive reactance and discuss why current leads the voltage by 90o or (equation)."
+    },
+    {
+      "id": 541190,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the behaviour of an inductor in an AC circuit. Derive the expression for inductive reactance and explain why current lags behind the voltage by 90o or (equation)."
+    },
+    {
+      "id": 541191,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define RLC-parallel circuit. Also write its key properties."
+    },
+    {
+      "id": 541192,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find expression for impedance in case of RC and RL-series circuits."
+    },
+    {
+      "id": 541193,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define full-wave rectification? Draw circuit, input and output signal phasor diagrams to explain how full-wave rectification is achieved by use of full wave bridge rectifier."
+    },
+    {
+      "id": 541194,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State and explain in detail RLC-series circuit?"
+    },
+    {
+      "id": 541251,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An AC circuit configured by a resistance of (equation), capacitor of capacitance (equation) is connected to an AC supply of 110 V having frequency 50 Hz. Calculate:(a) capacitive reactance(b) current in the circuit(c) suggest phase between the voltage and current in a capacitive circuit."
+    },
+    {
+      "id": 541252,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An alternating current I is represented by the equation; I= 240 sin (equation). Find:(a) the rms current(b) the frequency."
+    },
+    {
+      "id": 541253,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A 50 Hz AC of peak value 1 A flows through primary coil of a transformer. If the mutual inductance between the primary and secondary be 1.5 H, then find the mean value of induced voltage."
+    },
+    {
+      "id": 541254,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A 220 V AC source of frequency 2kHz is connected across a capacitor of (equation). Find out:(a) the reactance XC of capacitor (b) the current in the circuit."
+    },
+    {
+      "id": 541256,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In a coil of inductance 150 mH, a current changes steadily from 50 mA to 30 mA in 164 ms, find:(a) the magnitude of induced emf(b) direction of induced emf."
+    },
+    {
+      "id": 541257,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A choke coil is needed to operate a lamp at 160 Vrms and 50 Hz. The lamp has an resistance of (equation) when running at 10 Arms. Calculate the inductance of the choke coil."
+    },
+    {
+      "id": 540652,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does damping affect the amplitude and sharpness of resonance?"
+    },
+    {
+      "id": 540653,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the shape of the resonance curve for a heavily damped system."
+    },
+    {
+      "id": 540654,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a lead bob show greater resonance amplitude than a pith-ball of the same size and length?"
+    }
+  ],
   "type": "long"
 }

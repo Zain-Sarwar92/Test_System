@@ -3,5 +3,436 @@
   "class": "12",
   "subject": "Physics",
   "slug": "physics",
-  "chapters": []
+  "chapters": [
+    {
+      "number": 13,
+      "title": "Thermal Physics",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Brownian Motion"
+        },
+        {
+          "id": "13.2",
+          "title": "Kinetic Theory of Gases"
+        },
+        {
+          "id": "13.3",
+          "title": "Pressure in a Gas and Derivation of Pv"
+        },
+        {
+          "id": "13.4",
+          "title": "Average Translational Kinetic Energy of a Gas"
+        },
+        {
+          "id": "13.5",
+          "title": "Kinetic Theory and Statistical Physics"
+        },
+        {
+          "id": "13.6",
+          "title": "Stellar Evolution"
+        },
+        {
+          "id": "13.7",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Simple Harmonic Motion",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Oscillatory Motion"
+        },
+        {
+          "id": "14.2",
+          "title": "Simple Harmonic Motion"
+        },
+        {
+          "id": "14.3",
+          "title": "Practical S.H.M Systems"
+        },
+        {
+          "id": "14.4",
+          "title": "Simple Harmonic Motion and Uniform Circular Motion"
+        },
+        {
+          "id": "14.5",
+          "title": "Phase"
+        },
+        {
+          "id": "14.6",
+          "title": "Graphical Representation of S.H.M"
+        },
+        {
+          "id": "14.7",
+          "title": "Conservation of Energy in S.H.M"
+        },
+        {
+          "id": "14.8",
+          "title": "Free and Forced Oscillations"
+        },
+        {
+          "id": "14.9",
+          "title": "Damped Oscillation"
+        },
+        {
+          "id": "14.10",
+          "title": "Resonance"
+        },
+        {
+          "id": "14.11",
+          "title": "Sharpness of Resonance"
+        },
+        {
+          "id": "14.12",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Physical Optics",
+      "topics": [
+        {
+          "id": "15.1",
+          "title": "Wavefront"
+        },
+        {
+          "id": "15.2",
+          "title": "Huygen'S Principle"
+        },
+        {
+          "id": "15.3",
+          "title": "Interference"
+        },
+        {
+          "id": "15.4",
+          "title": "Interference of Microwaves"
+        },
+        {
+          "id": "15.5",
+          "title": "Young'S Double-Slit Experiment"
+        },
+        {
+          "id": "15.6",
+          "title": "Interference in Thin Films"
+        },
+        {
+          "id": "15.7",
+          "title": "Newton'S Rings"
+        },
+        {
+          "id": "15.8",
+          "title": "Diffraction Grating"
+        },
+        {
+          "id": "15.9",
+          "title": "DIFFRACTION OF X-RAY BY CRYSTALS AND BRAGG’S LAW"
+        },
+        {
+          "id": "15.10",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Electrostatics",
+      "topics": [
+        {
+          "id": "16.1",
+          "title": "Electric Potential Difference"
+        },
+        {
+          "id": "16.2",
+          "title": "Electric Potential"
+        },
+        {
+          "id": "16.3",
+          "title": "Electric Potential Energy"
+        },
+        {
+          "id": "16.4",
+          "title": "Capacitors"
+        },
+        {
+          "id": "16.5",
+          "title": "Parallel Plate Capacitors"
+        },
+        {
+          "id": "16.6",
+          "title": "Combined Capacitance of Capacitors"
+        },
+        {
+          "id": "16.7",
+          "title": "Energy Stored in a Capacitor"
+        },
+        {
+          "id": "16.8",
+          "title": "Charging and Discharging a Capacitor"
+        },
+        {
+          "id": "16.9",
+          "title": "Exponential Decay of Discharging Capacitor Through Resistor"
+        },
+        {
+          "id": "16.10",
+          "title": "Use of Capacitors"
+        },
+        {
+          "id": "16.11",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Alternating Current",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Alternating Current and Its Characteristics"
+        },
+        {
+          "id": "17.2",
+          "title": "Relation Between Mean Power and Maximum Power for An Alternating Current"
+        },
+        {
+          "id": "17.3",
+          "title": "Phase of a.C."
+        },
+        {
+          "id": "17.4",
+          "title": "Ac Circuits"
+        },
+        {
+          "id": "17.5",
+          "title": "Ac Through a Resistor"
+        },
+        {
+          "id": "17.6",
+          "title": "Ac Through Inductor"
+        },
+        {
+          "id": "17.7",
+          "title": "Choke"
+        },
+        {
+          "id": "17.8",
+          "title": "Ac Through a Capacitor"
+        },
+        {
+          "id": "17.9",
+          "title": "Impedance"
+        },
+        {
+          "id": "17.10",
+          "title": "Ac Through Rc-Series Circuit"
+        },
+        {
+          "id": "17.11",
+          "title": "Ac Through Rl-Series Circuit"
+        },
+        {
+          "id": "17.12",
+          "title": "Rectification"
+        },
+        {
+          "id": "17.13",
+          "title": "Self-Induction"
+        },
+        {
+          "id": "17.14",
+          "title": "Mutual Induction"
+        },
+        {
+          "id": "17.15",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Quantum Physics",
+      "topics": [
+        {
+          "id": "18.1",
+          "title": "Quantum Theory of Radiation"
+        },
+        {
+          "id": "18.2",
+          "title": "Photoelectric Effect"
+        },
+        {
+          "id": "18.3",
+          "title": "Compton Effect"
+        },
+        {
+          "id": "18.4",
+          "title": "Wave Nature of Particles"
+        },
+        {
+          "id": "18.5",
+          "title": "Wave-Particle Duality"
+        },
+        {
+          "id": "18.6",
+          "title": "Electron Microscope"
+        },
+        {
+          "id": "18.7",
+          "title": "Atomic Spectra"
+        },
+        {
+          "id": "18.8",
+          "title": "Uncertainty Principle"
+        },
+        {
+          "id": "18.9",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Nuclear and Particle Physics",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Mass Defect and Binding Energy"
+        },
+        {
+          "id": "19.2",
+          "title": "Nuclear Fission"
+        },
+        {
+          "id": "19.3",
+          "title": "Nuclear Reactor"
+        },
+        {
+          "id": "19.4",
+          "title": "Nuclear Fusion"
+        },
+        {
+          "id": "19.5",
+          "title": "Activity and Half-Life"
+        },
+        {
+          "id": "19.6",
+          "title": "Radioactive Tracers"
+        },
+        {
+          "id": "19.7",
+          "title": "Annihilation Reactions"
+        },
+        {
+          "id": "19.8",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Medical Physics",
+      "topics": [
+        {
+          "id": "20.1",
+          "title": "Ultrasound and Piezoelectric Effect"
+        },
+        {
+          "id": "20.2",
+          "title": "Diagnostic Use of Ultrasound in Medical Imaging"
+        },
+        {
+          "id": "20.3",
+          "title": "X-Rays"
+        },
+        {
+          "id": "20.4",
+          "title": "Computed Tomography Scanning (Ct-Scan)"
+        },
+        {
+          "id": "20.5",
+          "title": "Positron Emission Tomography Scanning (Pet-Scan)"
+        },
+        {
+          "id": "20.6",
+          "title": "Exercise"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Space and Environment",
+      "topics": [
+        {
+          "id": "21.1",
+          "title": "Luminosity of a Star"
+        },
+        {
+          "id": "21.2",
+          "title": "Radiant Flux Intensity"
+        },
+        {
+          "id": "21.3",
+          "title": "Standard Candles"
+        },
+        {
+          "id": "21.4",
+          "title": "Blackbody Radiation"
+        },
+        {
+          "id": "21.5",
+          "title": "Radius of a Star"
+        },
+        {
+          "id": "21.6",
+          "title": "Emission and Absorption Spectra From Different Stars"
+        },
+        {
+          "id": "21.7",
+          "title": "Cosmic Redshift: Evidence for An Expanding Universe"
+        },
+        {
+          "id": "21.8",
+          "title": "Hubble'S Law"
+        },
+        {
+          "id": "21.9",
+          "title": "Earth'S Climate System"
+        },
+        {
+          "id": "21.10",
+          "title": "Ocean Currents and Wind Patterns"
+        },
+        {
+          "id": "21.11",
+          "title": "Global Climate and Energy Transfer From the Sun"
+        },
+        {
+          "id": "21.12",
+          "title": "Atmospheric Circulation and Atmospheric Cells"
+        },
+        {
+          "id": "21.13",
+          "title": "Role of Salt and Density in Ocean Circulation"
+        },
+        {
+          "id": "21.14",
+          "title": "Thermohaline Circulation"
+        },
+        {
+          "id": "21.15",
+          "title": "Satellite Remote Sensing"
+        },
+        {
+          "id": "21.16",
+          "title": "Exercise"
+        }
+      ]
+    }
+  ]
 }

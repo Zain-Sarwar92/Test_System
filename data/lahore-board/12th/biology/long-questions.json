@@ -4,16 +4,16 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB INTER-II (Class 12) Biology (read-only export)",
-  "total_questions": 708,
+  "total_questions": 2146,
   "counts": {
-    "mcq": 295,
-    "short": 298,
-    "long": 115
+    "mcq": 1066,
+    "short": 960,
+    "long": 120
   },
   "fieldCounts": {
-    "MCQ": 295,
-    "QA": 298,
-    "LONG": 115
+    "MCQ": 1066,
+    "QA": 960,
+    "LONG": 120
   },
   "questions": [
     {
@@ -1128,6 +1128,56 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Write a detailed note on the Temperate Deciduous Forest in Pakistan."
+    },
+    {
+      "id": 535162,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define gene expression."
+    },
+    {
+      "id": 535170,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the Central Dogma of molecular biology?"
+    },
+    {
+      "id": 535171,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Transcription and Translation."
+    },
+    {
+      "id": 535174,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name any two essential questions that arose after the discovery of the structure of DNA and Central Dogma."
+    },
+    {
+      "id": 535175,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the precise nature of the genetic code?"
     },
     {
       "id": 530833,

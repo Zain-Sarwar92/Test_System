@@ -95,6 +95,18 @@
       "name": "long-poem-stanzas",
       "bankType": "long",
       "field": "POEM_STANZA"
+    },
+    {
+      "id": 4,
+      "name": "mcq-synonym",
+      "bankType": "mcq",
+      "field": "SYNONYM"
+    },
+    {
+      "id": 46,
+      "name": "long-punctuation",
+      "bankType": "long",
+      "field": "PUNCTUATION"
     }
   ],
   "chapters": [

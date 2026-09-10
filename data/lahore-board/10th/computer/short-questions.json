@@ -4,10 +4,10 @@
   "subject": "Computer",
   "slug": "computer",
   "source": "PTS PTB Class 10 Computer (read-only export)",
-  "total_questions": 1467,
+  "total_questions": 1505,
   "counts": {
-    "mcq": 643,
-    "short": 646,
+    "mcq": 679,
+    "short": 648,
     "long": 178
   },
   "questions": [
@@ -1765,6 +1765,15 @@
       "type": "short",
       "en": "What is the main benefit of detecting small issues early through monitoring?",
       "ur": "مانیٹرنگ کے ذریعے معمولی مسائل کا جلد پتہ لگانے کا بنیادی فائدہ کیا ہے؟"
+    },
+    {
+      "id": 527490,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does \"proper ventilation\" mean for computer health?",
+      "ur": "کمپیوٹر کی صحت کے لیے \"مناسب ہوا کے انتظام\" سے کیا مراد ہے؟"
     },
     {
       "id": 527493,
@@ -4438,6 +4447,15 @@
       "type": "short",
       "en": "What are the uses of linear regression?",
       "ur": "لینیئر ریگریشن کے استعمالات کیا ہیں؟"
+    },
+    {
+      "id": 521436,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are dependent and independent variables?",
+      "ur": "منحصر اور آزاد متغیر کیا ہے؟"
     },
     {
       "id": 529547,

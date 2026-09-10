@@ -9,10 +9,94 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 625,
-  "exportedAt": "2026-08-10T12:36:08.514Z",
+  "total": 696,
+  "exportedAt": "2026-09-09T11:51:34.597Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
+    {
+      "QuestionID": 410162,
+      "SubjectID": 96,
+      "TopicID": 11827,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 Physical Quantities and Their Units",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are base units and derived units? Give some examples of both these units.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410169,
+      "SubjectID": 96,
+      "TopicID": 11828,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 International System of Units",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write the following number using correct prefixes: (a) 580 x 10<sup>2</sup> g (b) 0.45 x 40<sup>5</sup>s</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410175,
+      "SubjectID": 96,
+      "TopicID": 11828,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 International System of Units",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why do we find it useful to have two units for the amount of substance. the kilogram and the mole?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410178,
+      "SubjectID": 96,
+      "TopicID": 11828,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 International System of Units",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is the kilogram (not the gram), the base unit of mass.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
     {
       "QuestionID": 410177,
       "SubjectID": 96,
@@ -56,6 +140,27 @@
       }
     },
     {
+      "QuestionID": 410167,
+      "SubjectID": 96,
+      "TopicID": 11830,
+      "TopicRef": "1.4",
+      "TopicName": "1.4 USE OF SIGNIFICANT FIGURES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write the following numbers is significant notation: (a) 143.7  (b) 206.4 x 10<sup>2</sup></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410171,
       "SubjectID": 96,
       "TopicID": 11830,
@@ -64,6 +169,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>How many significant figures are there in the following measurements? (i) 37 km (ii) 0.002953 m (iii) 7.50034 cm (iv) 200.0 m.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410182,
+      "SubjectID": 96,
+      "TopicID": 11831,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 PRECISION AND ACCURACY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the least count of a clock if it has: (a) Hour's hand, minute's hand and second's hand. (b) Hour's hand and minute's hand.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410166,
+      "SubjectID": 96,
+      "TopicID": 11832,
+      "TopicRef": "1.6",
+      "TopicName": "1.6 ASSESSMENT OF TOTAL UNCERTAINTY IN THE FINAL RESULT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is the Vernier scale related to the main scale of a Vernier Callipers? What is meant by L.C of the Vernier Callipers?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -106,6 +253,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Write the dimensions of: (i) Planck's constant (ii) Angular velocity.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410180,
+      "SubjectID": 96,
+      "TopicID": 11833,
+      "TopicRef": "1.7",
+      "TopicName": "1.7 DIMENSIONS OF PHYSICAL QUANTITIES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Considered the equation P=Q+R. If Q and R both have the dimensions of [MLT], what are the dimensions of  P? What are the units of P in SI? If the dimensions of Q were different from those of R, could we determine dimensions of P?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -182,6 +350,27 @@
       }
     },
     {
+      "QuestionID": 410475,
+      "SubjectID": 96,
+      "TopicID": 11839,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 MOTION UNDER GRAVITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>State the condition under which birds fly in air?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410469,
       "SubjectID": 96,
       "TopicID": 11840,
@@ -190,6 +379,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Show that range of projectile is maximum at an angle of 45<sup>o</sup>.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410470,
+      "SubjectID": 96,
+      "TopicID": 11840,
+      "TopicRef": "2.6",
+      "TopicName": "2.6 PROJECTILE MOTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Find the time of flight of a projectile to reach the maximum height.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -308,6 +518,27 @@
       }
     },
     {
+      "QuestionID": 410477,
+      "SubjectID": 96,
+      "TopicID": 11841,
+      "TopicRef": "2.7",
+      "TopicName": "2.7 MOMENTUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the circumstances for which velocity and acceleration of a vehicle are: (i) v is zero but a is not zero, (ii) a is zero but v is not zero. (iii) perpendicular to one another.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410464,
       "SubjectID": 96,
       "TopicID": 11842,
@@ -371,6 +602,48 @@
       }
     },
     {
+      "QuestionID": 410537,
+      "SubjectID": 96,
+      "TopicID": 11848,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 ANGULAR MEASUREMENTS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the advantages that radian has been preferred as SI unit to degree?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410524,
+      "SubjectID": 96,
+      "TopicID": 11849,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 CENTRIPETAL FORCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do we get butter from the milk by using centrifuge?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410526,
       "SubjectID": 96,
       "TopicID": 11849,
@@ -392,6 +665,48 @@
       }
     },
     {
+      "QuestionID": 410527,
+      "SubjectID": 96,
+      "TopicID": 11849,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 CENTRIPETAL FORCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the benefits of using rear wheels of heavy vehicles consisted of double tyres?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410529,
+      "SubjectID": 96,
+      "TopicID": 11849,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 CENTRIPETAL FORCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is the acceleration of a body moving uniformly in a circle, directed towards the centre?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410534,
       "SubjectID": 96,
       "TopicID": 11849,
@@ -400,6 +715,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Why do wo tumble when we take the sharp turn with large speed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410540,
+      "SubjectID": 96,
+      "TopicID": 11849,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 CENTRIPETAL FORCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In a rainstorm with a strong wind, what determines the best position to hold an umbrella?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -497,6 +833,27 @@
       }
     },
     {
+      "QuestionID": 410536,
+      "SubjectID": 96,
+      "TopicID": 11850,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 ARTIFICIAL SATELLITES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Is the motion of a satellite in its orbit, uniform or accelerated?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410525,
       "SubjectID": 96,
       "TopicID": 11851,
@@ -526,6 +883,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>When a moving car turn around a corner to the left, in what direction do the occupants tend to fall? Explain briefly.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410532,
+      "SubjectID": 96,
+      "TopicID": 11852,
+      "TopicRef": "3.5",
+      "TopicName": "3.5 ANGULAR MOMENTUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A loaf of a bread is lying on rotating plate. A cow takes away the loaf of bread and the rotation of the plate increases. why?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -602,6 +980,27 @@
       }
     },
     {
+      "QuestionID": 410605,
+      "SubjectID": 96,
+      "TopicID": 11855,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 Work done by a Constant Force",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A motorcycle running with constant speed on a horizontal track. Is any work being done on the motorcycle, if no net force is acting on it?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410589,
       "SubjectID": 96,
       "TopicID": 11856,
@@ -610,6 +1009,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is electrical power required at all when the elevator is descending? why should be there a limit on the number of passenger in this case?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410591,
+      "SubjectID": 96,
+      "TopicID": 11856,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 WORK DONE BY A VARIABLE FORCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A body is being raised to a height H from surface of the Earth. What is the sign of work done by both (body and the Earth)? Justify.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -749,6 +1169,90 @@
       }
     },
     {
+      "QuestionID": 410611,
+      "SubjectID": 96,
+      "TopicID": 11859,
+      "TopicRef": "4.5",
+      "TopicName": "4.5 ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Does wind contain kinetic energy? Explain.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410595,
+      "SubjectID": 96,
+      "TopicID": 11860,
+      "TopicRef": "4.6",
+      "TopicName": "4.6 ESCAPE VELOCITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A trolley of mass 1500 kg carrying sand bags of 500 kg is moving uniformly with a speed of 40 km h<sup>-1</sup> on a frictionless track. After some time, sand starts leaking out of whole sand bags on the road at a rate of 0.05 kg s<sup>-1</sup>. What is the speed of the trolley after entire sand bags are empty?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410598,
+      "SubjectID": 96,
+      "TopicID": 11860,
+      "TopicRef": "4.6",
+      "TopicName": "4.6 ESCAPE VELOCITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A bicycle has a K.E of 150 j. What K.E would the bicycle have if it had: (i) same mass but has speed double? (ii) three times mass and was moving with one half of the speed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410599,
+      "SubjectID": 96,
+      "TopicID": 11860,
+      "TopicRef": "4.6",
+      "TopicName": "4.6 ESCAPE VELOCITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What will be the effect on K.E of the body having mass m, moving with velocity v when its momentum becomes double? Justify.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410592,
       "SubjectID": 96,
       "TopicID": 11862,
@@ -770,6 +1274,48 @@
       }
     },
     {
+      "QuestionID": 410604,
+      "SubjectID": 96,
+      "TopicID": 11862,
+      "TopicRef": "4.8",
+      "TopicName": "4.8 INTERCONVERSION OF POTENTIAL ENERGY AND KINETIC ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A light and heavy body have same linear momentum, which one has greater K.E?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410609,
+      "SubjectID": 96,
+      "TopicID": 11862,
+      "TopicRef": "4.8",
+      "TopicName": "4.8 INTERCONVERSION OF POTENTIAL ENERGY AND KINETIC ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A slow moving truck can have more kinetic energy than a fast moving car. How is this possible?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410657,
       "SubjectID": 96,
       "TopicID": 11864,
@@ -778,6 +1324,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is meant by (i) cohesive force (ii) Viscosity?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410670,
+      "SubjectID": 96,
+      "TopicID": 11866,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 STRESS, STRAIN AND YOUNG'S MODULUS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate between stress, strain and Young's modulus. Write down their SI units.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -917,6 +1484,48 @@
       }
     },
     {
+      "QuestionID": 410663,
+      "SubjectID": 96,
+      "TopicID": 11871,
+      "TopicRef": "5.8",
+      "TopicName": "5.8 STEADY, NON-VISCOUS AND IDEAL FLUID",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is the flow rate related to the cross-sectional area and velocity of the fluid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410664,
+      "SubjectID": 96,
+      "TopicID": 11871,
+      "TopicRef": "5.8",
+      "TopicName": "5.8 STEADY, NON-VISCOUS AND IDEAL FLUID",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do you study the variation in velocity of a fluid at different points in a hose with varying diameter?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410668,
       "SubjectID": 96,
       "TopicID": 11875,
@@ -946,6 +1555,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What are some potential applications of superfluid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410731,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is meant by thermal equilibrium? Explain briefly.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410745,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does behaviors of real gases differ from ideal gas at high pressure and low temperature? Identify the reasons behind these differences based on kinetic theory of gases.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1127,6 +1778,111 @@
       }
     },
     {
+      "QuestionID": 410743,
+      "SubjectID": 96,
+      "TopicID": 11886,
+      "TopicRef": "6.6",
+      "TopicName": "6.6 Heat Engine",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Is it possible for a cyclic reversible heat engine to absorb heat at constant temperature and transforms it completely into work without rejecting some heat at low temperature? Explain.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410734,
+      "SubjectID": 96,
+      "TopicID": 11887,
+      "TopicRef": "6.7",
+      "TopicName": "6.7 SECOND LAW OF THERMODYNAMICS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>State 2<sup>nd</sup> law of thermodynamics in two different forms.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410753,
+      "SubjectID": 96,
+      "TopicID": 11887,
+      "TopicRef": "6.7",
+      "TopicName": "6.7 SECOND LAW OF THERMODYNAMICS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A coffee cup left on a table, and overtime coffee cup cools down. Explain thermodynamics processes occurring during this process.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410754,
+      "SubjectID": 96,
+      "TopicID": 11887,
+      "TopicRef": "6.7",
+      "TopicName": "6.7 SECOND LAW OF THERMODYNAMICS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How can we explain different weather patterns through thermodynamics processes like wind, rain. etc.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410746,
+      "SubjectID": 96,
+      "TopicID": 11888,
+      "TopicRef": "6.8",
+      "TopicName": "6.8 CARNOT ENGINE AND CARNOT'S THEOREM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Show that area under P-V graph is equal to work done.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410740,
       "SubjectID": 96,
       "TopicID": 11889,
@@ -1190,6 +1946,48 @@
       }
     },
     {
+      "QuestionID": 410946,
+      "SubjectID": 96,
+      "TopicID": 11892,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 Waves",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Distinguish between longitudinal and transverse waves.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410959,
+      "SubjectID": 96,
+      "TopicID": 11892,
+      "TopicRef": "7.1",
+      "TopicName": "7.1 Waves",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Can you compare the compressions and rarefactions of the longitudinal wave with the peaks and trought of the transverse wave? Discuss.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410934,
       "SubjectID": 96,
       "TopicID": 11894,
@@ -1219,6 +2017,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Differentiate between constructive and destructive interference of waves.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 410948,
+      "SubjectID": 96,
+      "TopicID": 11895,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 Stationary Waves & Their Formation",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Is it possible for two identical waves travelling in the same direction along a string to give rise to a stationary wave? How is it so?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1316,6 +2135,27 @@
       }
     },
     {
+      "QuestionID": 410956,
+      "SubjectID": 96,
+      "TopicID": 11903,
+      "TopicRef": "7.12",
+      "TopicName": "7.12 APPLICATIONS OF DOPPLER EFFECT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which measurement of a wave is the most important when determining the wave's intensity?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 410957,
       "SubjectID": 96,
       "TopicID": 11903,
@@ -1366,6 +2206,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Write down some applications of plane polarized.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411027,
+      "SubjectID": 96,
+      "TopicID": 11908,
+      "TopicRef": "8.4",
+      "TopicName": "8.4 POLARIZATION OF LIGHT BY THE METHOD OF REFLECTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the applications of Brewster's angle?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1463,6 +2324,27 @@
       }
     },
     {
+      "QuestionID": 411037,
+      "SubjectID": 96,
+      "TopicID": 11910,
+      "TopicRef": "8.6",
+      "TopicName": "8.6 GRAVITATIONAL WAVES (GWS)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How will the sky appear if there had been no atmosphere?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411038,
       "SubjectID": 96,
       "TopicID": 11910,
@@ -1484,6 +2366,69 @@
       }
     },
     {
+      "QuestionID": 411028,
+      "SubjectID": 96,
+      "TopicID": 11911,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 INTERFEROMETER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the space-time curvature?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411040,
+      "SubjectID": 96,
+      "TopicID": 11911,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 INTERFEROMETER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How are tidal forces formed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411108,
+      "SubjectID": 96,
+      "TopicID": 11913,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 COULOMB'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Electrostatic force is 10<sup>38</sup> times stronger than gravitational force. Argue that our galaxy should be almost electrically neutral.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411094,
       "SubjectID": 96,
       "TopicID": 11914,
@@ -1492,6 +2437,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>How does a moving conductor like an aeroplane acquire charge as it flies through the air? Describe briefly.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411105,
+      "SubjectID": 96,
+      "TopicID": 11914,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 ELECTRIC FIELD STRENGTH",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Electric lines of force never cross each other. Why?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411107,
+      "SubjectID": 96,
+      "TopicID": 11916,
+      "TopicRef": "9.4",
+      "TopicName": "9.4 GAUSS'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Is E necessarily zero inside a charged rubber balloon if the balloon is spherical? Assume that charge is distributed uniformly over the surface.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1555,6 +2542,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Is electron-volt a unit of potential difference or energy? Explain.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411104,
+      "SubjectID": 96,
+      "TopicID": 11921,
+      "TopicRef": "9.9",
+      "TopicName": "9.9 SHIELDING FROM EXTERNAL ELECTRIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which materials can be used to construct Faraday's cage and why?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411097,
+      "SubjectID": 96,
+      "TopicID": 11925,
+      "TopicRef": "9.13",
+      "TopicName": "9.13 RESISTIVITY AND ITS DEPENDENCE UPON TEMPERATURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A battery is rated at 100 A h (ampere-hour). How much charge can this battery supply?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1652,6 +2681,27 @@
       }
     },
     {
+      "QuestionID": 411103,
+      "SubjectID": 96,
+      "TopicID": 11932,
+      "TopicRef": "9.20",
+      "TopicName": "9.20 THERMISTORS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does resistance of a thermistor changes as temperature increases?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411196,
       "SubjectID": 96,
       "TopicID": 11934,
@@ -1681,6 +2731,90 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>A uniform electric field and a magnetic field act in the same direction. A proton is projected, into the space, with a uniform velocity in opposite direction. What will happen to the proton?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411175,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When a magnet is pushed into the solenoid, as shown in the figure, the galvanometer indicates a small current.Why is the current produced?What will be the magnetic pole produced at the left end of the solenoid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411177,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A bar magnet falls through a fixed metal ring (Fig.). Will the magnet fall with an acceleration of a freely falling body? Give reason.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411179,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the two charged particles of the same mass will be deflected most in the magnetic field (a) fast moving (b) slow moving?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411180,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An electron and a proton are projected into a magnetic field at right angles to it with a certain velocity. Which of the particles will suffer greater deflection? Why?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1744,6 +2878,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>A charge is lying stationary between the opposite poles of two magnets. Is a magnetic force exerted on it? Why?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411193,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The figure shows a coil of wire in the xy plane with a magnetic field directed along the y-axis. Around which of the three coordinate axes should the coil be rotated in order to generate an emf and a current in the coil?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1841,6 +2996,27 @@
       }
     },
     {
+      "QuestionID": 411192,
+      "SubjectID": 96,
+      "TopicID": 11939,
+      "TopicRef": "10.6",
+      "TopicName": "10.6 INDUCED EMF AND FARADAY'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When the switch in the circuit is closed a current is established in the coil and the metal ring jump upward why? Describe what would happen to the ring if the battery polarity were reversed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411195,
       "SubjectID": 96,
       "TopicID": 11939,
@@ -1849,6 +3025,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Is it possible to change both the area of the loop and the magnetic field passing through the loop and still not have an induced emf in the loop? Give reason.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411205,
+      "SubjectID": 96,
+      "TopicID": 11939,
+      "TopicRef": "10.6",
+      "TopicName": "10.6 INDUCED EMF AND FARADAY'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Consider a conducting rod of length L moving with velocity v to the right as shown in the figure. Left ends of the conducting rails are connected to a bulb. Due to motion of the rod through the magnetic field, an emf is produced across the ends of the rod. This emf gives rise to a current I. As a result, the bulb lights up. Explain where does the electrical energy consumed by the bulb come from?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411169,
+      "SubjectID": 96,
+      "TopicID": 11940,
+      "TopicRef": "10.7",
+      "TopicName": "10.7 Lenz's Law And Direction of Induced EMF",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>It is said that Lenz's law specifically applies to induced currents and not directly to induce emf. Explain briefly.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1904,6 +3122,48 @@
       }
     },
     {
+      "QuestionID": 411289,
+      "SubjectID": 96,
+      "TopicID": 11946,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 RELATIVE MOTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Speed of sound is affected by relative motion between the observer and the source. Does this apply to speed of light as well? Describe briefly.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411290,
+      "SubjectID": 96,
+      "TopicID": 11946,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 RELATIVE MOTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Is it ever possible to see a star moving away from us at a uniform velocity equal to the velocity of light?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411291,
       "SubjectID": 96,
       "TopicID": 11946,
@@ -1946,6 +3206,27 @@
       }
     },
     {
+      "QuestionID": 411277,
+      "SubjectID": 96,
+      "TopicID": 11947,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 FRAMES OF REFERENCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is meant by inertial frame of reference and a non-inertial frame of reference?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411279,
       "SubjectID": 96,
       "TopicID": 11948,
@@ -1967,6 +3248,27 @@
       }
     },
     {
+      "QuestionID": 411281,
+      "SubjectID": 96,
+      "TopicID": 11948,
+      "TopicRef": "11.3",
+      "TopicName": "11.3 SPECIAL THEORY OF RELATIVITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Does theory of relativity contradicts Newton's laws of motion? Explain briefly.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411283,
       "SubjectID": 96,
       "TopicID": 11948,
@@ -1975,6 +3277,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is meant by relativistic mass, length and time?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411286,
+      "SubjectID": 96,
+      "TopicID": 11948,
+      "TopicRef": "11.3",
+      "TopicName": "11.3 SPECIAL THEORY OF RELATIVITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>All motion are relatives. Does space-time is absolute? Explain briefly.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2093,6 +3416,69 @@
       }
     },
     {
+      "QuestionID": 411349,
+      "SubjectID": 96,
+      "TopicID": 11952,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 STRUCTURE AND PROPERTIES OF THE NUCLEUS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Identify the element that has 87 nucleons and 50 neutrons.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411351,
+      "SubjectID": 96,
+      "TopicID": 11953,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 FUNDAMENTAL FORCES OF NATURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the similarities and differences between the strong nuclear force and the electromagnetic force?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411355,
+      "SubjectID": 96,
+      "TopicID": 11953,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 FUNDAMENTAL FORCES OF NATURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does strong force hold the nucleus?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411353,
       "SubjectID": 96,
       "TopicID": 11954,
@@ -2135,6 +3521,27 @@
       }
     },
     {
+      "QuestionID": 411359,
+      "SubjectID": 96,
+      "TopicID": 11954,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MATTER AND ANTI-MATTER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why electron-positron pair cannot decay into a single photon?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411356,
       "SubjectID": 96,
       "TopicID": 11955,
@@ -2156,6 +3563,48 @@
       }
     },
     {
+      "QuestionID": 411358,
+      "SubjectID": 96,
+      "TopicID": 11955,
+      "TopicRef": "12.4",
+      "TopicName": "12.4 RADIOACTIVITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does beta-decay have a continuous energy spectrum and alpha-decay have a discrete energy spectrum?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411364,
+      "SubjectID": 96,
+      "TopicID": 11955,
+      "TopicRef": "12.4",
+      "TopicName": "12.4 RADIOACTIVITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does an alpha emitter emit alpha particles instead of four separate nucleons?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411365,
       "SubjectID": 96,
       "TopicID": 11955,
@@ -2164,6 +3613,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Which is more energetic alpha decay or beta decay? Justify your answer.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411366,
+      "SubjectID": 96,
+      "TopicID": 11955,
+      "TopicRef": "12.4",
+      "TopicName": "12.4 RADIOACTIVITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A nucleus undergoes gamma decay, emitting gamma ray photon with energy 1.5 MeV. Calculate.(i) frequency of gamma ray (ii) wavelength of gamma ray (iii) momentum of gamma ray</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2269,6 +3739,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Distinguish between fermions and bosons.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411361,
+      "SubjectID": 96,
+      "TopicID": 11958,
+      "TopicRef": "12.7",
+      "TopicName": "12.7 HIGGS BOSON",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>State the role of Higgs Boson in the generation of mass in modern physics theories.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

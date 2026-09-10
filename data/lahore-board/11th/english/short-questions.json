@@ -4,18 +4,20 @@
   "subject": "English",
   "slug": "english",
   "source": "PTS PTB INTER-I (Class 11) English (read-only export)",
-  "total_questions": 1660,
+  "total_questions": 2438,
   "counts": {
-    "mcq": 608,
+    "mcq": 1329,
     "short": 921,
-    "long": 131
+    "long": 188
   },
   "fieldCounts": {
     "COMPREHENSION": 608,
     "QA": 614,
     "PAIR": 307,
     "TRANSLATE_UR": 110,
-    "POEM_STANZA": 21
+    "POEM_STANZA": 21,
+    "SYNONYM": 721,
+    "PUNCTUATION": 57
   },
   "questions": [
     {

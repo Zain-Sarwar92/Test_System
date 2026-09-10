@@ -9,8 +9,8 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 700,
-  "exportedAt": "2026-08-10T12:37:38.055Z",
+  "total": 721,
+  "exportedAt": "2026-09-09T11:52:37.781Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -314,6 +314,56 @@
       }
     },
     {
+      "QuestionID": 403757,
+      "SubjectID": 98,
+      "TopicID": 11695,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 Graphical Representation of Software Systems",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The purpose of Use Case Diagrams is to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322261,
+          "QuestionID": 403757,
+          "UmOption": null,
+          "EmOption": "<p>Document the system's architecture</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322262,
+          "QuestionID": 403757,
+          "UmOption": null,
+          "EmOption": "<p>Identify and document the system's functional requirements</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322263,
+          "QuestionID": 403757,
+          "UmOption": null,
+          "EmOption": "<p>Illustrate the database schema</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322264,
+          "QuestionID": 403757,
+          "UmOption": null,
+          "EmOption": "<p>Define the system's user interface design</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 403875,
       "SubjectID": 98,
       "TopicID": 11705,
@@ -564,6 +614,56 @@
       }
     },
     {
+      "QuestionID": 403900,
+      "SubjectID": 98,
+      "TopicID": 11708,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 CONTROL STRUCTURES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A range ( ) function used to generate a sequence of numbers:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 399373,
+          "QuestionID": 403900,
+          "UmOption": null,
+          "EmOption": "<p>Generates a list of numbers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399374,
+          "QuestionID": 403900,
+          "UmOption": null,
+          "EmOption": "<p>Creates a sequence of numbers</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 399375,
+          "QuestionID": 403900,
+          "UmOption": null,
+          "EmOption": "<p>Calculates the sum of numbers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 399376,
+          "QuestionID": 403900,
+          "UmOption": null,
+          "EmOption": "<p>Prints a range of numbers</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 403902,
       "SubjectID": 98,
       "TopicID": 11709,
@@ -753,6 +853,156 @@
           "QuestionID": 404079,
           "UmOption": null,
           "EmOption": "<p>Undefined solutions</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 404081,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Complexity class representing problems solvable efficiently by a deterministic algorithm:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 384337,
+          "QuestionID": 404081,
+          "UmOption": null,
+          "EmOption": "<p>NP</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 384338,
+          "QuestionID": 404081,
+          "UmOption": null,
+          "EmOption": "<p>NP-hard</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 384339,
+          "QuestionID": 404081,
+          "UmOption": null,
+          "EmOption": "<p>NP-complete</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 384340,
+          "QuestionID": 404081,
+          "UmOption": null,
+          "EmOption": "<p>P</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 404082,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The statement that applies to unsolvable problems:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322389,
+          "QuestionID": 404082,
+          "UmOption": null,
+          "EmOption": "<p>They can be solved in polynomial time</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322390,
+          "QuestionID": 404082,
+          "UmOption": null,
+          "EmOption": "<p>They cannot be solved by any algorithm</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322391,
+          "QuestionID": 404082,
+          "UmOption": null,
+          "EmOption": "<p>They are always in NP class</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322392,
+          "QuestionID": 404082,
+          "UmOption": null,
+          "EmOption": "<p>They require exponential time to solve</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 404084,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The meaning of NP in computational complexity is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322393,
+          "QuestionID": 404084,
+          "UmOption": null,
+          "EmOption": "<p>Non-deterministic Polynomial time</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322394,
+          "QuestionID": 404084,
+          "UmOption": null,
+          "EmOption": "<p>Negative Polynomial time</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322395,
+          "QuestionID": 404084,
+          "UmOption": null,
+          "EmOption": "<p>Non-trivial Polynomial time</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322396,
+          "QuestionID": 404084,
+          "UmOption": null,
+          "EmOption": "<p>Numerical Polynomial time</p>\r\n",
           "Answer": false
         }
       ],
@@ -1364,6 +1614,56 @@
       }
     },
     {
+      "QuestionID": 404223,
+      "SubjectID": 98,
+      "TopicID": 11723,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 BASIC STATISTICAL CONCEPTS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An example of a basic statistical model:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322429,
+          "QuestionID": 404223,
+          "UmOption": null,
+          "EmOption": "<p>Linear Regression</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322430,
+          "QuestionID": 404223,
+          "UmOption": null,
+          "EmOption": "<p>Neural Networks</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322431,
+          "QuestionID": 404223,
+          "UmOption": null,
+          "EmOption": "<p>Decision Trees</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322432,
+          "QuestionID": 404223,
+          "UmOption": null,
+          "EmOption": "<p>Support Vector Machines</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 404229,
       "SubjectID": 98,
       "TopicID": 11724,
@@ -1403,6 +1703,206 @@
           "QuestionID": 404229,
           "UmOption": null,
           "EmOption": "<p>Building databases</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 404232,
+      "SubjectID": 98,
+      "TopicID": 11725,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 BUILDING STATISTICAL MODELS ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The meaning of the slope in a linear regression model:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322441,
+          "QuestionID": 404232,
+          "UmOption": null,
+          "EmOption": "<p>The intercept of the model</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322442,
+          "QuestionID": 404232,
+          "UmOption": null,
+          "EmOption": "<p>The change in the dependent variable for a unit change in the independent variable</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322443,
+          "QuestionID": 404232,
+          "UmOption": null,
+          "EmOption": "<p>The error term</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322444,
+          "QuestionID": 404232,
+          "UmOption": null,
+          "EmOption": "<p>The mean of the data</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 404233,
+      "SubjectID": 98,
+      "TopicID": 11725,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 BUILDING STATISTICAL MODELS ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An example of a real-world application of statistical models:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 385013,
+          "QuestionID": 404233,
+          "UmOption": null,
+          "EmOption": "<p>Predicting house prices</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 385014,
+          "QuestionID": 404233,
+          "UmOption": null,
+          "EmOption": "<p>Creating social media posts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 385015,
+          "QuestionID": 404233,
+          "UmOption": null,
+          "EmOption": "<p>Designing websites</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 385016,
+          "QuestionID": 404233,
+          "UmOption": null,
+          "EmOption": "<p>Writing essays</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 404242,
+      "SubjectID": 98,
+      "TopicID": 11725,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 BUILDING STATISTICAL MODELS ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A primary goal of K-Means Clustering:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322445,
+          "QuestionID": 404242,
+          "UmOption": null,
+          "EmOption": "<p>To classify data into predefined categories</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322446,
+          "QuestionID": 404242,
+          "UmOption": null,
+          "EmOption": "<p>To group data into clusters based on similarity</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322447,
+          "QuestionID": 404242,
+          "UmOption": null,
+          "EmOption": "<p>To predict continuous outcomes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322448,
+          "QuestionID": 404242,
+          "UmOption": null,
+          "EmOption": "<p>To reduce the dimensionality of data</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 404243,
+      "SubjectID": 98,
+      "TopicID": 11725,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 BUILDING STATISTICAL MODELS ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The meaning of \"K\" in K-Means Clustering:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 322449,
+          "QuestionID": 404243,
+          "UmOption": null,
+          "EmOption": "<p>Number of features in the dataset</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322450,
+          "QuestionID": 404243,
+          "UmOption": null,
+          "EmOption": "<p>Number of clusters to be formed</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 322451,
+          "QuestionID": 404243,
+          "UmOption": null,
+          "EmOption": "<p>Number of iterations required for convergence</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 322452,
+          "QuestionID": 404243,
+          "UmOption": null,
+          "EmOption": "<p>Number of data points in the dataset</p>\r\n",
           "Answer": false
         }
       ],
@@ -15764,6 +16264,506 @@
       }
     },
     {
+      "QuestionID": 405606,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is Class P in computational complexity?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317585,
+          "QuestionID": 405606,
+          "UmOption": null,
+          "EmOption": "<p>Problems that take forever to solve</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317586,
+          "QuestionID": 405606,
+          "UmOption": null,
+          "EmOption": "<p>Problems that are unsolvable</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317587,
+          "QuestionID": 405606,
+          "UmOption": null,
+          "EmOption": "<p>Problems that can be solved efficiently</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317588,
+          "QuestionID": 405606,
+          "UmOption": null,
+          "EmOption": "<p>Problems with no inputs</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405608,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is an example of a Class P problem?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317589,
+          "QuestionID": 405608,
+          "UmOption": null,
+          "EmOption": "<p>Finding the best move in chess</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317590,
+          "QuestionID": 405608,
+          "UmOption": null,
+          "EmOption": "<p>Solving a maze blindly</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317591,
+          "QuestionID": 405608,
+          "UmOption": null,
+          "EmOption": "<p>Sorting a list of numbers</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317592,
+          "QuestionID": 405608,
+          "UmOption": null,
+          "EmOption": "<p>Predicting future weather</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405611,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is unique about Class NP problems?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317593,
+          "QuestionID": 405611,
+          "UmOption": null,
+          "EmOption": "<p>They can&#39;t be solved at all</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317594,
+          "QuestionID": 405611,
+          "UmOption": null,
+          "EmOption": "<p>Their solutions are impossible to verify</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317595,
+          "QuestionID": 405611,
+          "UmOption": null,
+          "EmOption": "<p>Solutions can be verified quickly</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317596,
+          "QuestionID": 405611,
+          "UmOption": null,
+          "EmOption": "<p>They never have solutions.</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405616,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which example best illustrates a Class NP problem?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317597,
+          "QuestionID": 405616,
+          "UmOption": null,
+          "EmOption": "<p>Adding two numbers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317598,
+          "QuestionID": 405616,
+          "UmOption": null,
+          "EmOption": "<p>Solving a Sudoku puzzle</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317599,
+          "QuestionID": 405616,
+          "UmOption": null,
+          "EmOption": "<p>Typing a document</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317600,
+          "QuestionID": 405616,
+          "UmOption": null,
+          "EmOption": "<p>Printing a file</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405618,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does the &quot;N&quot; in NP stand for?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317601,
+          "QuestionID": 405618,
+          "UmOption": null,
+          "EmOption": "<p>Normal</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317602,
+          "QuestionID": 405618,
+          "UmOption": null,
+          "EmOption": "<p>Non-stop</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317603,
+          "QuestionID": 405618,
+          "UmOption": null,
+          "EmOption": "<p>Nondeterministic</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317604,
+          "QuestionID": 405618,
+          "UmOption": null,
+          "EmOption": "<p>Number</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405619,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is true about NP-Hard problems?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317605,
+          "QuestionID": 405619,
+          "UmOption": null,
+          "EmOption": "<p>They are easy to solve</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317606,
+          "QuestionID": 405619,
+          "UmOption": null,
+          "EmOption": "<p>They have no solution</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317607,
+          "QuestionID": 405619,
+          "UmOption": null,
+          "EmOption": "<p>They are at least as hard as the hardest NP problems</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317608,
+          "QuestionID": 405619,
+          "UmOption": null,
+          "EmOption": "<p>They can always be solved in polynomial time</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405621,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is an example of an NP-Hard problem?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 320229,
+          "QuestionID": 405621,
+          "UmOption": null,
+          "EmOption": "<p>Multiplying two numbers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 320230,
+          "QuestionID": 405621,
+          "UmOption": null,
+          "EmOption": "<p>Knapsack Problem</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 320231,
+          "QuestionID": 405621,
+          "UmOption": null,
+          "EmOption": "<p>Traveling Salesman Problem</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 320232,
+          "QuestionID": 405621,
+          "UmOption": null,
+          "EmOption": "<p>Sorting a list</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405623,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is special about NP-Complete problems?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317609,
+          "QuestionID": 405623,
+          "UmOption": null,
+          "EmOption": "<p>They are impossible to solve</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317610,
+          "QuestionID": 405623,
+          "UmOption": null,
+          "EmOption": "<p>They are easy to check and the hardest in NP</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317611,
+          "QuestionID": 405623,
+          "UmOption": null,
+          "EmOption": "<p>They are not part of NP</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317612,
+          "QuestionID": 405623,
+          "UmOption": null,
+          "EmOption": "<p>They always run in constant time</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405624,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If one NP-Complete problem is solved quickly, what happens?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317613,
+          "QuestionID": 405624,
+          "UmOption": null,
+          "EmOption": "<p>Nothing changes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317614,
+          "QuestionID": 405624,
+          "UmOption": null,
+          "EmOption": "<p>All problems become harder</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317615,
+          "QuestionID": 405624,
+          "UmOption": null,
+          "EmOption": "<p>All NP problems can be solved quickly</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317616,
+          "QuestionID": 405624,
+          "UmOption": null,
+          "EmOption": "<p>NP-Hard problems become easier</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405626,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the goal in the Knapsack Problem?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 317617,
+          "QuestionID": 405626,
+          "UmOption": null,
+          "EmOption": "<p>Maximize the number of items</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317618,
+          "QuestionID": 405626,
+          "UmOption": null,
+          "EmOption": "<p>Minimize the weight</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 317619,
+          "QuestionID": 405626,
+          "UmOption": null,
+          "EmOption": "<p>Maximize the value without exceeding weight</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 317620,
+          "QuestionID": 405626,
+          "UmOption": null,
+          "EmOption": "<p>Fill the bag completely</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 405635,
       "SubjectID": 98,
       "TopicID": 11719,
@@ -22603,6 +23603,56 @@
           "QuestionID": 405995,
           "UmOption": null,
           "EmOption": "<p>Bar chart</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 405996,
+      "SubjectID": 98,
+      "TopicID": 11726,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 INTRODUCTION TO DATA VISUALIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does a boxplot show?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 318017,
+          "QuestionID": 405996,
+          "UmOption": null,
+          "EmOption": "<p>Only the average value</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318018,
+          "QuestionID": 405996,
+          "UmOption": null,
+          "EmOption": "<p>Only total scores</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 318019,
+          "QuestionID": 405996,
+          "UmOption": null,
+          "EmOption": "<p>Data distribution, median, and outliers</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 318020,
+          "QuestionID": 405996,
+          "UmOption": null,
+          "EmOption": "<p>Categories and labels</p>\r\n",
           "Answer": false
         }
       ],

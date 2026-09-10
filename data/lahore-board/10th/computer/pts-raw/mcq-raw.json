@@ -8,8 +8,8 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 643,
-  "exportedAt": "2026-08-11T12:27:03.177Z",
+  "total": 679,
+  "exportedAt": "2026-09-08T13:18:30.406Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -9019,36 +9019,36 @@
       "TopicRef": "1.7",
       "TopicName": "1.7 FILE SYSTEM STRUCTURE AND MANAGEMENT",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>وہ فائل جس تک میک او ایس (macOS) کے ذریعے رسائی حاصل کی جاتی ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>File which access by macros:</p>\r\n",
+      "UrduQuestionDetails": "<p>وہ فائل جس تک میک او ایس کے ذریعے رسائی حاصل کی جاتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>File which access by macOS:</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 493009,
+          "OptionID": 528745,
           "QuestionID": 508375,
           "UmOption": "<p>FAT32</p>\r\n",
           "EmOption": "<p>FAT32</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493010,
+          "OptionID": 528746,
           "QuestionID": 508375,
           "UmOption": "<p>NTFS</p>\r\n",
           "EmOption": "<p>NTFS </p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493011,
+          "OptionID": 528747,
           "QuestionID": 508375,
           "UmOption": "<p>APFS</p>\r\n",
           "EmOption": "<p>APFS </p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 493012,
+          "OptionID": 528748,
           "QuestionID": 508375,
           "UmOption": "<p>EXT4</p>\r\n",
           "EmOption": "<p>EXT4</p>\r\n",
@@ -9769,36 +9769,36 @@
       "TopicRef": "1.8",
       "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>OS کی وہ کون سی قسم ہے جسے تبدیل نہیں کیا جا سکتا یا جو جنرل پرپز کمپیوٹنگ نہیں ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which types of OS cannot be changed or cannot be general purpose computing?</p>\r\n",
+      "UrduQuestionDetails": "<p>ایک آپریٹنگ سسٹم جو کسی مخصوص ڈیوائس میں صرف اس کے افعال کو کنٹرول کرنے کے لیے بنایا جاتا ہے، کیا کہلاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>An operating system that is built into a specific device to control only its specific functions is called:</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 492933,
+          "OptionID": 528849,
           "QuestionID": 508382,
           "UmOption": "<p> ریئل ٹائم OS</p>\r\n",
           "EmOption": "<p>Real Time OS </p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492934,
+          "OptionID": 528850,
           "QuestionID": 508382,
           "UmOption": "<p>ایمبیڈڈ OS</p>\r\n",
           "EmOption": "<p>Embedded OS</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 492935,
+          "OptionID": 528851,
           "QuestionID": 508382,
           "UmOption": "<p> نیٹ ورک OS</p>\r\n",
           "EmOption": "<p>Network OS</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492936,
+          "OptionID": 528852,
           "QuestionID": 508382,
           "UmOption": "<p> موبائل OS</p>\r\n",
           "EmOption": "<p>Mobile OS</p>\r\n",
@@ -9819,89 +9819,39 @@
       "TopicRef": "1.8",
       "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>OS کی وہ قسم جو ملٹی یوزر ڈیٹا بیس میں استعمال ہوتی ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Types of OS which is used in multi user databases:</p>\r\n",
+      "UrduQuestionDetails": "<p>کون سا آپریٹنگ سسٹم نیٹ ورک کے ذریعے جڑے ہوئے متعدد کمپیوٹرز کا انتظام اور مدد کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which operating system manages and supports multiple computers connected through a network?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 492941,
+          "OptionID": 528897,
           "QuestionID": 508384,
           "UmOption": "<p>نیٹ ورک OS</p>\r\n",
           "EmOption": "<p>Network OS</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 492942,
+          "OptionID": 528898,
           "QuestionID": 508384,
           "UmOption": "<p>موبائل OS</p>\r\n",
           "EmOption": "<p>Mobile OS</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492943,
+          "OptionID": 528899,
           "QuestionID": 508384,
           "UmOption": "<p>ونڈوز</p>\r\n",
           "EmOption": "<p>Windows</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492944,
+          "OptionID": 528900,
           "QuestionID": 508384,
           "UmOption": "<p>لینکس</p>\r\n",
           "EmOption": "<p>Linux</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 508385,
-      "SubjectID": 60,
-      "TopicID": 14978,
-      "TopicRef": "1.8",
-      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
-      "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>لینکس اور میک او ایس کے مقابلے میں، ونڈوز استعمال کرتا ہے .......... سسٹم کالز:</p>\r\n",
-      "EnglishQuestionDetails": "<p>As compare to Linux & MacOS, window use .......... system calls:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 492945,
-          "QuestionID": 508385,
-          "UmOption": "<p>1000</p>\r\n",
-          "EmOption": "<p>1000</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 492946,
-          "QuestionID": 508385,
-          "UmOption": "<p>2000</p>\r\n",
-          "EmOption": "<p>2000</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 492947,
-          "QuestionID": 508385,
-          "UmOption": "<p>3000</p>\r\n",
-          "EmOption": "<p>3000</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 492948,
-          "QuestionID": 508385,
-          "UmOption": "<p>4000</p>\r\n",
-          "EmOption": "<p>4000</p>\r\n",
           "Answer": false
         }
       ],
@@ -9963,56 +9913,6 @@
       }
     },
     {
-      "QuestionID": 508387,
-      "SubjectID": 60,
-      "TopicID": 14978,
-      "TopicRef": "1.8",
-      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
-      "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>وسائل کے اشتراک کے لیے کون سا OS فائدہ مند ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which OS is beneficial for sharing resources?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 493017,
-          "QuestionID": 508387,
-          "UmOption": "<p>رئیل ٹائم OS</p>\r\n",
-          "EmOption": "<p>Real Time OS</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 493018,
-          "QuestionID": 508387,
-          "UmOption": "<p>موبائل OS</p>\r\n",
-          "EmOption": "<p>Mobile OS</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 493019,
-          "QuestionID": 508387,
-          "UmOption": "<p>ایمبیڈڈ OS</p>\r\n",
-          "EmOption": "<p>Embedded OS</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 493020,
-          "QuestionID": 508387,
-          "UmOption": "<p>نیٹ ورک OS</p>\r\n",
-          "EmOption": "<p>Network OS</p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 508389,
       "SubjectID": 60,
       "TopicID": 14978,
@@ -10052,6 +9952,506 @@
           "QuestionID": 508389,
           "UmOption": "<p>نیٹ ورک</p>\r\n",
           "EmOption": "<p>Network</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536727,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کون سا آپریٹنگ سسٹم ایک سخت وقت کی حد (جسے ڈیڈ لائن کہا جاتا ہے) کے اندر ڈیٹا پروسیس کرنے کے لیے ڈیزائن کیا گیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which operating system is designed to process data within a strict time limit known as a deadline?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528809,
+          "QuestionID": 536727,
+          "UmOption": "<p>نیٹ ورک آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Network OS</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528810,
+          "QuestionID": 536727,
+          "UmOption": "<p>ریئل ٹائم آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Real-Time OS</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528811,
+          "QuestionID": 536727,
+          "UmOption": "<p>موبائل آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Mobile OS</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528812,
+          "QuestionID": 536727,
+          "UmOption": "<p>ایمبیڈڈ آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Embedded OS</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536736,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ریئل ٹائم آپریٹنگ سسٹم میں وقت کی سخت حد کو کیا کہا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the strict time limit in a Real-Time Operating System called?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528821,
+          "QuestionID": 536736,
+          "UmOption": "<p>انتظار کا وقت</p>\r\n",
+          "EmOption": "<p>Waiting time</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528822,
+          "QuestionID": 536736,
+          "UmOption": "<p>ڈیڈ لائن</p>\r\n",
+          "EmOption": "<p>Deadline</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528823,
+          "QuestionID": 536736,
+          "UmOption": "<p>لیٹنسی</p>\r\n",
+          "EmOption": "<p>Latency</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528824,
+          "QuestionID": 536736,
+          "UmOption": "<p>رسپانس ٹائم</p>\r\n",
+          "EmOption": "<p>Response time</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536741,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے کون سا نظام ریئل ٹائم آپریٹنگ سسٹم پر انحصار کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which of the following systems relies on a Real-Time Operating System?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528841,
+          "QuestionID": 536741,
+          "UmOption": "<p>مائیکرو ویو اوون</p>\r\n",
+          "EmOption": "<p>Microwave ovens</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528842,
+          "QuestionID": 536741,
+          "UmOption": "<p>سمارٹ ٹی وی</p>\r\n",
+          "EmOption": "<p>Smart TVs</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528843,
+          "QuestionID": 536741,
+          "UmOption": "<p>ایئر ٹریفک کنٹرول</p>\r\n",
+          "EmOption": "<p>Air traffic control</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528844,
+          "QuestionID": 536741,
+          "UmOption": "<p>پرسنل کمپیوٹرز</p>\r\n",
+          "EmOption": "<p>Personal computers</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536756,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایمبیڈڈ آپریٹنگ سسٹم کی خصوصیت درج ذیل میں سے کون سی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which feature is characteristic of an Embedded Operating System?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528881,
+          "QuestionID": 536756,
+          "UmOption": "<p>بہت زیادہ میموری کا استعمال</p>\r\n",
+          "EmOption": "<p>Uses massive memory</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528882,
+          "QuestionID": 536756,
+          "UmOption": "<p>عام مقصد کی کمپیوٹنگ کے لیے موزوں</p>\r\n",
+          "EmOption": "<p>Optimized for general-purpose computing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528883,
+          "QuestionID": 536756,
+          "UmOption": "<p>بہت کم میموری اور پاور کا استعمال</p>\r\n",
+          "EmOption": "<p>Uses very little memory and power</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528884,
+          "QuestionID": 536756,
+          "UmOption": "<p>مخصوص مقامی سرور کی ضرورت</p>\r\n",
+          "EmOption": "<p>Requires a dedicated local server</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536763,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کون سی ڈیوائس عام طور پر ایمبیڈڈ آپریٹنگ سسٹم کا استعمال کرتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which device typically uses an Embedded Operating System?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528889,
+          "QuestionID": 536763,
+          "UmOption": "<p>واشنگ مشین</p>\r\n",
+          "EmOption": "<p>Washing machine</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528890,
+          "QuestionID": 536763,
+          "UmOption": "<p>مین فریم کمپیوٹر</p>\r\n",
+          "EmOption": "<p>Mainframe computer</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528891,
+          "QuestionID": 536763,
+          "UmOption": "<p>ایئر ٹریفک کنٹرول ٹاور</p>\r\n",
+          "EmOption": "<p>Air traffic control tower</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528892,
+          "QuestionID": 536763,
+          "UmOption": "<p>ہائی اینڈ گیمنگ پی سی</p>\r\n",
+          "EmOption": "<p>High-end gaming PC</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536767,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایک نیٹ ورک آپریٹنگ سسٹم بنیادی طور پر کن وسائل کو شیئر کرنے کے قابل بناتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>A Network Operating System primarily enables the sharing of resources like:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528909,
+          "QuestionID": 536767,
+          "UmOption": "<p>فائلیں اور پرنٹرز</p>\r\n",
+          "EmOption": "<p>Files and printers</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528910,
+          "QuestionID": 536767,
+          "UmOption": "<p>بیٹری اور ٹچ اسکرین</p>\r\n",
+          "EmOption": "<p>Battery and touch-screen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528911,
+          "QuestionID": 536767,
+          "UmOption": "<p>صنعتی سینسرز</p>\r\n",
+          "EmOption": "<p>Industrial sensors</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528912,
+          "QuestionID": 536767,
+          "UmOption": "<p>ایمبیڈڈ فلیش ڈرائیوز</p>\r\n",
+          "EmOption": "<p>Embedded flash drives</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536768,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>نیٹ ورک آپریٹنگ سسٹم عام طور پر کہاں استعمال ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Where are Network Operating Systems commonly deployed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528913,
+          "QuestionID": 536768,
+          "UmOption": "<p>سمارٹ واچز</p>\r\n",
+          "EmOption": "<p>Smartwatches</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528914,
+          "QuestionID": 536768,
+          "UmOption": "<p>دفاتر، اسکول اور ڈیٹا سینٹرز</p>\r\n",
+          "EmOption": "<p>Offices, schools, and data centers</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528915,
+          "QuestionID": 536768,
+          "UmOption": "<p>گھریلو مائیکرو ویو</p>\r\n",
+          "EmOption": "<p>Household microwaves</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528916,
+          "QuestionID": 536768,
+          "UmOption": "<p>دل کی نگرانی کے آلات</p>\r\n",
+          "EmOption": "<p>Heart-monitoring devices</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536775,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کون سا آپریٹنگ سسٹم خاص طور پر اسمارٹ فونز، ٹیبلٹس اور ہینڈ ہیلڈ ڈیوائسز کے لیے ڈیزائن کیا گیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which operating system is specifically designed for smartphones, tablets, and handheld devices?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528941,
+          "QuestionID": 536775,
+          "UmOption": "<p>ریئل ٹائم آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Real-Time OS</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528942,
+          "QuestionID": 536775,
+          "UmOption": "<p>موبائل آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Mobile OS</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528943,
+          "QuestionID": 536775,
+          "UmOption": "<p>نیٹ ورک آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Network OS</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528944,
+          "QuestionID": 536775,
+          "UmOption": "<p>ایمبیڈڈ آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Embedded OS</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536794,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>فوٹو کھینچنے اور لوکیشن کا پتہ لگانے کے لیے موبائل آپریٹنگ سسٹم کس اہم فیچر کو سپورٹ کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which key feature is supported by a Mobile Operating System to capture photos and determine locations?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528981,
+          "QuestionID": 536794,
+          "UmOption": "<p>سرور سنکرونائزیشن</p>\r\n",
+          "EmOption": "<p>Server synchronization</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528982,
+          "QuestionID": 536794,
+          "UmOption": "<p>کیمرے، سینسرز اور ایپ اسٹورز</p>\r\n",
+          "EmOption": "<p>Cameras, sensors, and app stores</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528983,
+          "QuestionID": 536794,
+          "UmOption": "<p>ڈیڈ لائن کی نگرانی</p>\r\n",
+          "EmOption": "<p>Deadline monitoring</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528984,
+          "QuestionID": 536794,
+          "UmOption": "<p>مرکزی پرنٹنگ</p>\r\n",
+          "EmOption": "<p>Centralized printing</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 536798,
+      "SubjectID": 60,
+      "TopicID": 14978,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 TYPES OF OPERATING SYSTEMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اسمارٹ واچز کس قسم کا آپریٹنگ سسٹم استعمال کرتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Smartwatches use which type of operating system?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528985,
+          "QuestionID": 536798,
+          "UmOption": "<p>نیٹ ورک آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Network OS</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528986,
+          "QuestionID": 536798,
+          "UmOption": "<p>ریئل ٹائم آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Real-Time OS</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528987,
+          "QuestionID": 536798,
+          "UmOption": "<p>موبائل آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Mobile OS</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528988,
+          "QuestionID": 536798,
+          "UmOption": "<p>اسٹینڈرڈ ڈیسک ٹاپ آپریٹنگ سسٹم</p>\r\n",
+          "EmOption": "<p>Standard Desktop OS</p>\r\n",
           "Answer": false
         }
       ],
@@ -10719,39 +11119,39 @@
       "TopicRef": "2.1",
       "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>سسٹم کی کارکردگی کو باقاعدگی سے جانچنے کے عمل کو کہتے ہیں:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Process to check system's performance regularly is called:</p>\r\n",
+      "UrduQuestionDetails": "<p>سسٹم کو آسانی سے چلانے کے لیے اس کی کارکردگی کو باقاعدگی سے چیک کرنے کے عمل کو کیا کہا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the process called of regularly checking a system's performance to run it smoothly?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 493101,
+          "OptionID": 535705,
           "QuestionID": 508509,
-          "UmOption": "<p>ٹربل شوٹنگ</p>\r\n",
-          "EmOption": "<p>Troubleshooting</p>\r\n",
+          "UmOption": "<p> ڈیٹا اینٹری</p>\r\n",
+          "EmOption": "<p>Data entry</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493102,
+          "OptionID": 535706,
           "QuestionID": 508509,
-          "UmOption": "<p>ڈائیگناسٹک ٹیکنیک</p>\r\n",
-          "EmOption": "<p>Diagnostic Techniques</p>\r\n",
+          "UmOption": "<p> سافٹ ویئر انجینئرنگ</p>\r\n",
+          "EmOption": "<p>Software engineering</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493103,
+          "OptionID": 535707,
           "QuestionID": 508509,
-          "UmOption": "<p>ہیلتھ مانیٹرنگ</p>\r\n",
-          "EmOption": "<p>Health Monitoring</p>\r\n",
+          "UmOption": "<p> سسٹم ہیلتھ مانیٹرنگ</p>\r\n",
+          "EmOption": "<p>System health monitoring</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 493104,
+          "OptionID": 535708,
           "QuestionID": 508509,
-          "UmOption": "<p>اپ ڈیٹنگ</p>\r\n",
-          "EmOption": "<p>Updating</p>\r\n",
+          "UmOption": "<p>ہارڈ ویئر اسمبلی</p>\r\n",
+          "EmOption": "<p>Hardware assembly</p>\r\n",
           "Answer": false
         }
       ],
@@ -10802,6 +11202,606 @@
           "QuestionID": 508510,
           "UmOption": "<p>ان میں سے کوئی نہیں</p>\r\n",
           "EmOption": "<p>None of them</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539274,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کمپیوٹر کا مسئلہ حل ہونے کے بعد کیے جانے والے اقدامات کے عمل کو کیا کہا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the process of taking actions after a computer issue is resolved called?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535625,
+          "QuestionID": 539274,
+          "UmOption": "<p>پری ٹربل شوٹنگ</p>\r\n",
+          "EmOption": "<p>Pre-troubleshooting</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535626,
+          "QuestionID": 539274,
+          "UmOption": "<p>سسٹم فارمیٹنگ</p>\r\n",
+          "EmOption": "<p>System formatting</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535627,
+          "QuestionID": 539274,
+          "UmOption": "<p>سافٹ ویئر ڈویلپمنٹ</p>\r\n",
+          "EmOption": "<p>Software development</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535628,
+          "QuestionID": 539274,
+          "UmOption": "<p>پوسٹ ٹربل شوٹنگ مینٹیننس</p>\r\n",
+          "EmOption": "<p>Post-troubleshooting maintenance</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539279,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سسٹم کو دوبارہ شروع کرنا اور فزیکل کنکشنز کو چیک کرنا کس قسم کے اقدامات کی مثالیں ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Restarting the system and checking physical connections are examples of steps:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535637,
+          "QuestionID": 539279,
+          "UmOption": "<p>ٹربل شوٹنگ</p>\r\n",
+          "EmOption": "<p>Troubleshooting</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535638,
+          "QuestionID": 539279,
+          "UmOption": "<p>پروگرامنگ</p>\r\n",
+          "EmOption": "<p>Programming</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535639,
+          "QuestionID": 539279,
+          "UmOption": "<p>ڈیزائننگ</p>\r\n",
+          "EmOption": "<p>Designing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535640,
+          "QuestionID": 539279,
+          "UmOption": "<p>کوڈنگ</p>\r\n",
+          "EmOption": "<p>Coding</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539284,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>باقاعدہ دیکھ بھال کمپیوٹر کے استعمال میں بہتر کارکردگی، طویل زندگی اور کم ..........کو یقینی بناتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Regular maintenance ensures better performance, longer life, and fewer .......... in computer usage:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535653,
+          "QuestionID": 539284,
+          "UmOption": "<p>فیچرز</p>\r\n",
+          "EmOption": "<p>Features</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535654,
+          "QuestionID": 539284,
+          "UmOption": "<p>خلل یا رکاوٹیں</p>\r\n",
+          "EmOption": "<p>Disruptions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535655,
+          "QuestionID": 539284,
+          "UmOption": "<p>اخراجات</p>\r\n",
+          "EmOption": "<p>Costs</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535656,
+          "QuestionID": 539284,
+          "UmOption": "<p>اپ گریڈز</p>\r\n",
+          "EmOption": "<p>Upgrades</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539286,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اگر اسٹوریج فل ہونے کی وجہ سے کمپیوٹر سست ہو جائے تو کون سا عارضی اقدام اس کی رفتار کو بہتر بنا سکتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>If a computer becomes slow due to full storage, what temporary action can improve its speed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535661,
+          "QuestionID": 539286,
+          "UmOption": "<p>مزید ایپس انسٹال کرنا</p>\r\n",
+          "EmOption": "<p>Installing more apps</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535662,
+          "QuestionID": 539286,
+          "UmOption": "<p>چند فائلیں ڈیلیٹ کرنا</p>\r\n",
+          "EmOption": "<p>Deleting a few files</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535663,
+          "QuestionID": 539286,
+          "UmOption": "<p>ہمیشہ کے لیے بند کرنا</p>\r\n",
+          "EmOption": "<p>Shutting down forever</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535664,
+          "QuestionID": 539286,
+          "UmOption": "<p>اسکرین تبدیل کرنا</p>\r\n",
+          "EmOption": "<p>Changing the screen</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539291,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اگر اہم سسٹم اپڈیٹس انسٹال نہ کی جائیں تو کمپیوٹر منجمد ہو سکتا ہے، کریش ہو سکتا ہے، یا اسے ________ کا سامنا کرنا پڑ سکتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>If important system updates are not installed, the computer may freeze, crash, or suffer from ..........:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535665,
+          "QuestionID": 539291,
+          "UmOption": "<p>تیز بوٹنگ</p>\r\n",
+          "EmOption": "<p>Fast booting</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535666,
+          "QuestionID": 539291,
+          "UmOption": "<p>خود کار صفائی</p>\r\n",
+          "EmOption": "<p>Automatic cleaning</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535667,
+          "QuestionID": 539291,
+          "UmOption": "<p>ڈیٹا کی توسیع</p>\r\n",
+          "EmOption": "<p>Data expansion</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535668,
+          "QuestionID": 539291,
+          "UmOption": "<p>سسٹم فیلیئرز</p>\r\n",
+          "EmOption": "<p>System failures</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539294,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جب سسٹم یا ایپس کو اپ ڈیٹ نہیں کیا جاتا ہے، تو کس قسم کے نقصان دہ سافٹ ویئر زیادہ آسانی سے داخل ہو سکتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>When the system or apps are not updated, harmful software like .......... can enter more easily:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535677,
+          "QuestionID": 539294,
+          "UmOption": "<p>اینٹی وائرس</p>\r\n",
+          "EmOption": "<p>Antivirus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535678,
+          "QuestionID": 539294,
+          "UmOption": "<p>وائرسز</p>\r\n",
+          "EmOption": "<p>Viruses</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535679,
+          "QuestionID": 539294,
+          "UmOption": "<p>ڈرائیورز</p>\r\n",
+          "EmOption": "<p>Drivers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535680,
+          "QuestionID": 539294,
+          "UmOption": "<p>براؤزرز</p>\r\n",
+          "EmOption": "<p>Browsers</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539297,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کس چیز کے بغیر، کریش یا ہارڈ ویئر کی خرابی کے دوران اہم فائلیں ضائع ہو سکتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Without what can important files get lost during a crash or hardware failure?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535685,
+          "QuestionID": 539297,
+          "UmOption": "<p>وینٹیلیشن</p>\r\n",
+          "EmOption": "<p>Ventilation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535686,
+          "QuestionID": 539297,
+          "UmOption": "<p>صفائی</p>\r\n",
+          "EmOption": "<p>Cleaning</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535687,
+          "QuestionID": 539297,
+          "UmOption": "<p>بیک اپ</p>\r\n",
+          "EmOption": "<p>Backups</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535688,
+          "QuestionID": 539297,
+          "UmOption": "<p>مانیٹرز</p>\r\n",
+          "EmOption": "<p>Monitors</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539301,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>اگر سسٹم میں ہوا کا گزر مناسب نہ ہو تو مٹی اور اوور ہیٹنگ کن پرزوں کو نقصان پہنچا سکتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Dust and overheating can cause damage to which components if the system is not properly ventilated?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535697,
+          "QuestionID": 539301,
+          "UmOption": "<p>کلاؤڈ</p>\r\n",
+          "EmOption": "<p>Cloud</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535698,
+          "QuestionID": 539301,
+          "UmOption": "<p>سافٹ ویئر</p>\r\n",
+          "EmOption": "<p>Software</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535699,
+          "QuestionID": 539301,
+          "UmOption": "<p>ہارڈ ویئر</p>\r\n",
+          "EmOption": "<p>Hardware</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535700,
+          "QuestionID": 539301,
+          "UmOption": "<p>ڈیجیٹل</p>\r\n",
+          "EmOption": "<p>Digital</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539306,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کون سے جدید آپریٹنگ سسٹم میں سسٹم کی سرگرمی کی نگرانی کرنے والے بلٹ ان ٹولز شامل ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which modern operating systems include built-in tools to monitor system activity?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535717,
+          "QuestionID": 539306,
+          "UmOption": "<p>مائیکروسافٹ ونڈوز</p>\r\n",
+          "EmOption": "<p>Microsoft Windows</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535718,
+          "QuestionID": 539306,
+          "UmOption": "<p>ہارڈ ڈرائیوز</p>\r\n",
+          "EmOption": "<p>Hard Drives</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535719,
+          "QuestionID": 539306,
+          "UmOption": "<p>بنیادی کیلکولیٹرز</p>\r\n",
+          "EmOption": "<p>Basic Calculators</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535720,
+          "QuestionID": 539306,
+          "UmOption": "<p>گرافک کارڈز</p>\r\n",
+          "EmOption": "<p>Graphic Cards</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539309,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بلٹ ان مانیٹرنگ ٹولز صارفین کو یہ چیک کرنے کی اجازت دیتے ہیں کہ کتنی پروسیسنگ پاور اور .......... استعمال ہو رہی ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Built-in monitoring tools allow users to check how much processing power and .......... are being used:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535725,
+          "QuestionID": 539309,
+          "UmOption": "<p>ڈیسک کی جگہ</p>\r\n",
+          "EmOption": "<p>Desk space</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535726,
+          "QuestionID": 539309,
+          "UmOption": "<p>بیٹری کا سائز</p>\r\n",
+          "EmOption": "<p>Battery size</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535727,
+          "QuestionID": 539309,
+          "UmOption": "<p>میموری</p>\r\n",
+          "EmOption": "<p>Memory</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535728,
+          "QuestionID": 539309,
+          "UmOption": "<p>مانیٹر کا وزن</p>\r\n",
+          "EmOption": "<p>Monitor weight</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539316,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>سسٹم ہیلتھ مانیٹرنگ ٹولز صارفین کو وارننگز اور .......... دیکھنے میں مدد کرتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>System health monitoring tools help users view warnings and ...........:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535741,
+          "QuestionID": 539316,
+          "UmOption": "<p>وال پیپر تھیمز</p>\r\n",
+          "EmOption": "<p>Wallpaper themes</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535742,
+          "QuestionID": 539316,
+          "UmOption": "<p>بیک اپ</p>\r\n",
+          "EmOption": "<p>Backup</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535743,
+          "QuestionID": 539316,
+          "UmOption": "<p>بیٹری کا سائز</p>\r\n",
+          "EmOption": "<p>Battery size</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535744,
+          "QuestionID": 539316,
+          "UmOption": "<p>ایرر میسجز</p>\r\n",
+          "EmOption": "<p>Error messages</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539320,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>باقاعدگی سے نگرانی چھوٹے مسائل کو کس چیز میں تبدیل ہونے سے پہلے پکڑنے میں مدد کرتی ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Regular monitoring helps catch small problems before they turn into what?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535749,
+          "QuestionID": 539320,
+          "UmOption": "<p>پوشیدہ</p>\r\n",
+          "EmOption": "<p>Invisible</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535750,
+          "QuestionID": 539320,
+          "UmOption": "<p>عارضی</p>\r\n",
+          "EmOption": "<p>Temporary</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535751,
+          "QuestionID": 539320,
+          "UmOption": "<p>سنگین</p>\r\n",
+          "EmOption": "<p>Serious</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535752,
+          "QuestionID": 539320,
+          "UmOption": "<p>آسان</p>\r\n",
+          "EmOption": "<p>Easy</p>\r\n",
           "Answer": false
         }
       ],
@@ -10919,40 +11919,40 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>کارکردگی کی مانیٹرنگ میں صارف کی مدد کے لیے کون سا ٹول استعمال ہوتا ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which tool use to help user to monitor performance?</p>\r\n",
+      "UrduQuestionDetails": "<p>ٹاسک مینیجر مائیکروسافٹ ونڈوز میں ایک بلٹ ان ٹول ہے جو صارفین کو کس چیز کی نگرانی کرنے میں مدد کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Task Manager is a built-in tool in Microsoft Windows that helps users monitor what?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 493117,
+          "OptionID": 535769,
           "QuestionID": 508513,
-          "UmOption": "<p>اسٹارٹ اپ</p>\r\n",
-          "EmOption": "<p>Startup</p>\r\n",
+          "UmOption": "<p>انٹرنیٹ کی رفتار</p>\r\n",
+          "EmOption": "<p>Internet speed</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493118,
+          "OptionID": 535770,
           "QuestionID": 508513,
-          "UmOption": "<p>ٹاسک مینیجر</p>\r\n",
-          "EmOption": "<p>Task Manager</p>\r\n",
+          "UmOption": "<p>اسکرین کی روشنی</p>\r\n",
+          "EmOption": "<p>Screen brightness</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535771,
+          "QuestionID": 508513,
+          "UmOption": "<p>کی بورڈ کی زبان</p>\r\n",
+          "EmOption": "<p>Keyboard language</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535772,
+          "QuestionID": 508513,
+          "UmOption": "<p>کمپیوٹر کی کارکردگی</p>\r\n",
+          "EmOption": "<p>Computer performance</p>\r\n",
           "Answer": true
-        },
-        {
-          "OptionID": 493119,
-          "QuestionID": 508513,
-          "UmOption": "<p>وائرس اینڈ تھریٹس پروٹیکشن</p>\r\n",
-          "EmOption": "<p>Virus & threats protection</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 493120,
-          "QuestionID": 508513,
-          "UmOption": "<p>سیٹنگ</p>\r\n",
-          "EmOption": "<p>Settings</p>\r\n",
-          "Answer": false
         }
       ],
       "_exportMeta": {
@@ -10969,36 +11969,36 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>کون سا ٹیب صارف کو تمام فعال پروگرام دکھاتا ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which tab allow user to show all active programs?</p>\r\n",
+      "UrduQuestionDetails": "<p>ٹاسک مینیجر کا کون سا ٹیب تمام ایکٹو پروگرام اور ان کے استعمال کردہ سسٹم ریسورسز کو دکھاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which tab of the Task Manager shows all active programs and how much system resources they are using?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 493121,
+          "OptionID": 535777,
           "QuestionID": 508514,
           "UmOption": "<p>پروسیس ٹیب</p>\r\n",
           "EmOption": "<p>Processes Tab</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 493122,
+          "OptionID": 535778,
           "QuestionID": 508514,
           "UmOption": "<p>ایکٹیویٹیز ٹیب</p>\r\n",
           "EmOption": "<p>Activities Tab</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493123,
+          "OptionID": 535779,
           "QuestionID": 508514,
           "UmOption": "<p>فیور ڈیٹیلز</p>\r\n",
           "EmOption": "<p>Fewer Details</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493124,
+          "OptionID": 535780,
           "QuestionID": 508514,
           "UmOption": "<p>پرفارمنس ٹیب</p>\r\n",
           "EmOption": "<p>Performance Tab</p>\r\n",
@@ -11027,31 +12027,31 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 493125,
+          "OptionID": 536769,
           "QuestionID": 508515,
-          "UmOption": "<p>Ctrl+S</p>\r\n",
-          "EmOption": "<p>Ctrl+S</p>\r\n",
+          "UmOption": "<p>Ctrl + S</p>\r\n",
+          "EmOption": "<p>Ctrl + S</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493126,
+          "OptionID": 536770,
           "QuestionID": 508515,
-          "UmOption": "<p>Ctrl+Shift+Esc</p>\r\n",
-          "EmOption": "<p>Ctrl+Shift+Esc</p>\r\n",
+          "UmOption": "<p>Ctrl + Shift + Esc</p>\r\n",
+          "EmOption": "<p>Ctrl + Shift + Esc</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 493127,
+          "OptionID": 536771,
           "QuestionID": 508515,
-          "UmOption": "<p>Ctrl+Shift+F4</p>\r\n",
-          "EmOption": "<p>Ctrl+Shift+F4</p>\r\n",
+          "UmOption": "<p>Ctrl + Shift + F4</p>\r\n",
+          "EmOption": "<p>Ctrl + Shift + F4</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493128,
+          "OptionID": 536772,
           "QuestionID": 508515,
-          "UmOption": "<p>Alt+F4</p>\r\n",
-          "EmOption": "<p>Alt+F4</p>\r\n",
+          "UmOption": "<p>Alt + F4</p>\r\n",
+          "EmOption": "<p>Alt + F4</p>\r\n",
           "Answer": false
         }
       ],
@@ -11119,36 +12119,36 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>ٹاسک مینیجر مفید ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Task Manager is helpful when:</p>\r\n",
+      "UrduQuestionDetails": "<p>ٹاسک مینیجر اس وقت مفید ہوتا ہے جب آپ کا کمپیوٹر سست ہو یا:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Task Manager is helpful when your computer is slow or an:</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 493133,
+          "OptionID": 535785,
           "QuestionID": 508517,
           "UmOption": "<p>جب کمپیوٹر مؤثر طریقے سے کام کر رہا ہو</p>\r\n",
           "EmOption": "<p>Computer perform efficiently</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493134,
+          "OptionID": 535786,
           "QuestionID": 508517,
           "UmOption": "<p>جب انٹرنیٹ کی رفتار کم ہو جائے</p>\r\n",
           "EmOption": "<p>Internet speed goes down</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493135,
+          "OptionID": 535787,
           "QuestionID": 508517,
           "UmOption": "<p>جب ایپلی کیشن جواب دینا بند کر دے</p>\r\n",
           "EmOption": "<p>Application stop responding</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 493136,
+          "OptionID": 535788,
           "QuestionID": 508517,
           "UmOption": "<p>جب ایپلی کیشن ان انسٹال کریں</p>\r\n",
           "EmOption": "<p>Uninstall application</p>\r\n",
@@ -11169,39 +12169,39 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>کون سا پروگرام بیک گراؤنڈ سروسز کے بارے میں تفصیلی معلومات فراہم کرتا ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which program provide a detailed information about background services?</p>\r\n",
+      "UrduQuestionDetails": "<p>ٹاسک مینیجر کے فوری جائزے کے مقابلے میں ریسورس مانیٹر کیا فراہم کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What does Resource Monitor provide compared to the quick overview of Task Manager?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 493137,
+          "OptionID": 535805,
           "QuestionID": 508518,
-          "UmOption": "<p>ٹاسک مینیجر</p>\r\n",
-          "EmOption": "<p>Task Manager</p>\r\n",
+          "UmOption": "<p>کم ڈیٹا</p>\r\n",
+          "EmOption": "<p>Less data</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493138,
+          "OptionID": 535806,
           "QuestionID": 508518,
-          "UmOption": "<p>کنٹرول پینل</p>\r\n",
-          "EmOption": "<p>Control Panel</p>\r\n",
+          "UmOption": "<p>صرف گرافیکل اینیمیشنز</p>\r\n",
+          "EmOption": "<p>Graphical animations only</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493139,
+          "OptionID": 535807,
           "QuestionID": 508518,
-          "UmOption": "<p>اسٹارٹ مینو</p>\r\n",
-          "EmOption": "<p>Start Menu</p>\r\n",
+          "UmOption": "<p>کوئی معلومات نہیں</p>\r\n",
+          "EmOption": "<p>No information</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493140,
+          "OptionID": 535808,
           "QuestionID": 508518,
-          "UmOption": "<p>ریسورس مانیٹر</p>\r\n",
-          "EmOption": "<p>Resource Monitor</p>\r\n",
+          "UmOption": "<p>زیادہ تفصیلی معلومات</p>\r\n",
+          "EmOption": "<p>More detailed information</p>\r\n",
           "Answer": true
         }
       ],
@@ -11219,40 +12219,40 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>ریسورس مانیٹر مفید ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Resource Monitor is helpful when:</p>\r\n",
+      "UrduQuestionDetails": "<p>ریسورس مانیٹر خاص طور پر اس وقت مددگار ہوتا ہے جب:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Resource monitor is especially helpful when:</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 493141,
+          "OptionID": 535809,
           "QuestionID": 508519,
-          "UmOption": "<p>جب ایپس جواب دینا بند کر دیں</p>\r\n",
-          "EmOption": "<p>Apps stop responding</p>\r\n",
+          "UmOption": "<p>سسٹم سست چل رہا ہو</p>\r\n",
+          "EmOption": "<p>System is running slowly</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493142,
+          "OptionID": 535810,
           "QuestionID": 508519,
-          "UmOption": "<p>جب میموری کو صاف کرنے کی ضرورت ہو</p>\r\n",
-          "EmOption": "<p>Memory needs to clear</p>\r\n",
+          "UmOption": "<p>سسٹم زیادہ میموری استعمال کر رہا ہو</p>\r\n",
+          "EmOption": "<p>System using a lot of memory</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493143,
+          "OptionID": 535811,
           "QuestionID": 508519,
-          "UmOption": "<p>جب سسٹم زیادہ گرم ہو رہا ہو</p>\r\n",
+          "UmOption": "<p>سسٹم زیادہ گرم ہو رہا ہو</p>\r\n",
           "EmOption": "<p>System is overheating</p>\r\n",
-          "Answer": true
+          "Answer": false
         },
         {
-          "OptionID": 493144,
+          "OptionID": 535812,
           "QuestionID": 508519,
-          "UmOption": "<p>جب ریم سست جواب دے</p>\r\n",
-          "EmOption": "<p>RAM responds slowly</p>\r\n",
-          "Answer": false
+          "UmOption": "<p>تمام</p>\r\n",
+          "EmOption": "<p>All</p>\r\n",
+          "Answer": true
         }
       ],
       "_exportMeta": {
@@ -11269,36 +12269,36 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>ریسورس مانیٹر کھولنے کے لیے کون سا کلیدی لفظ استعمال ہوتا ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which keyword is used to open Resource Monitor?</p>\r\n",
+      "UrduQuestionDetails": "<p>ریسورس مانیٹر کھولنے کے لیے رن ڈائیلاگ باکس میں کون سی کمانڈ ٹائپ کرنی چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What command should be typed in the Run dialog box to open Resource Monitor?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 493145,
+          "OptionID": 535821,
           "QuestionID": 508520,
           "UmOption": "<p>temp</p>\r\n",
           "EmOption": "<p>temp</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493146,
+          "OptionID": 535822,
           "QuestionID": 508520,
           "UmOption": "<p>resmon</p>\r\n",
           "EmOption": "<p>resmon</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 493147,
+          "OptionID": 535823,
           "QuestionID": 508520,
           "UmOption": "<p>%resmon%</p>\r\n",
           "EmOption": "<p>%resmon%</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493148,
+          "OptionID": 535824,
           "QuestionID": 508520,
           "UmOption": "<p>Window+R</p>\r\n",
           "EmOption": "<p>Window+R</p>\r\n",
@@ -11419,36 +12419,36 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>سسٹم کے تفصیلی لاگز کی نگرانی کی جاتی ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Detailed logs of system is monitored by:</p>\r\n",
+      "UrduQuestionDetails": "<p>ونڈوز کا کون سا بلٹ ان ٹول سسٹم کی سرگرمیوں کے تفصیلی لاگز محفوظ کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which built-in Windows tool records detailed logs of system activities?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 493161,
+          "OptionID": 536749,
           "QuestionID": 508523,
           "UmOption": "<p>ایونٹ ویور</p>\r\n",
           "EmOption": "<p>Event Viewer</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 493162,
+          "OptionID": 536750,
           "QuestionID": 508523,
           "UmOption": "<p>ریسورس مانیٹر</p>\r\n",
           "EmOption": "<p>Resource Monitor</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493163,
+          "OptionID": 536751,
           "QuestionID": 508523,
           "UmOption": "<p>کنٹرول پینل</p>\r\n",
           "EmOption": "<p>Control Panel</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493164,
+          "OptionID": 536752,
           "QuestionID": 508523,
           "UmOption": "<p>ٹاسک مینیجر</p>\r\n",
           "EmOption": "<p>Task Manager</p>\r\n",
@@ -11469,39 +12469,39 @@
       "TopicRef": "2.2",
       "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
       "QuestionPeriority": "Additional",
-      "UrduQuestionDetails": "<p>ونڈوز میں رن کمانڈ کھولنے کے لیے کون سی شارٹ کٹ کلید استعمال ہوتی ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which short key is used to open Run command in Windows?</p>\r\n",
+      "UrduQuestionDetails": "<p>ریسورس مانیٹر چلانے کے لیے رن ڈائیلاگ باکس کھولنے والی شارٹ کٹ کیز کون سی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which shortcut key combination opens the Run dialog box to launch Resource Monitor?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 493169,
+          "OptionID": 536765,
           "QuestionID": 508524,
-          "UmOption": "<p>Alt+R</p>\r\n",
-          "EmOption": "<p>Alt+R</p>\r\n",
+          "UmOption": "<p>Alt + R</p>\r\n",
+          "EmOption": "<p>Alt + R</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493170,
+          "OptionID": 536766,
           "QuestionID": 508524,
-          "UmOption": "<p>Ctrl+R</p>\r\n",
-          "EmOption": "<p>Ctrl+R</p>\r\n",
+          "UmOption": "<p>Ctrl + R</p>\r\n",
+          "EmOption": "<p>Ctrl + R</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493171,
+          "OptionID": 536767,
           "QuestionID": 508524,
-          "UmOption": "<p>Shift+R</p>\r\n",
-          "EmOption": "<p>Shift+R</p>\r\n",
+          "UmOption": "<p>Shift + R</p>\r\n",
+          "EmOption": "<p>Shift + R</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 493172,
+          "OptionID": 536768,
           "QuestionID": 508524,
-          "UmOption": "<p>Window+R</p>\r\n",
-          "EmOption": "<p>Window+R</p>\r\n",
+          "UmOption": "<p>Windows + R</p>\r\n",
+          "EmOption": "<p>Windows + R</p>\r\n",
           "Answer": true
         }
       ],
@@ -11603,6 +12603,806 @@
           "UmOption": "<p>eventvwr</p>\r\n",
           "EmOption": "<p>eventvwr</p>\r\n",
           "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539325,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>جدید آپریٹنگ سسٹمز یہ فراہم کرتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Modern operating systems provides:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535753,
+          "QuestionID": 539325,
+          "UmOption": "<p>یوزر ڈیفائن ٹولز</p>\r\n",
+          "EmOption": "<p>User-defined tools</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535754,
+          "QuestionID": 539325,
+          "UmOption": "<p>بلٹ ان ٹولز</p>\r\n",
+          "EmOption": "<p>Built-in tools </p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535755,
+          "QuestionID": 539325,
+          "UmOption": "<p>دونوں a اور b</p>\r\n",
+          "EmOption": "<p>Both a and b</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535756,
+          "QuestionID": 539325,
+          "UmOption": "<p>ان میں سے کوئی نہیں</p>\r\n",
+          "EmOption": "<p>None of them</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539326,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>بلٹ ان تشخیصی ٹولز سے متعلق مسائل کی نشاندہی کرنے میں مدد ملتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Built-in diagnostic tools help identify problems related to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535757,
+          "QuestionID": 539326,
+          "UmOption": "<p>پروسیسنگ پاور</p>\r\n",
+          "EmOption": "<p>Processing power</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535758,
+          "QuestionID": 539326,
+          "UmOption": "<p>سسٹم کی خرابیاں</p>\r\n",
+          "EmOption": "<p>System errors</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535759,
+          "QuestionID": 539326,
+          "UmOption": "<p>اسٹوریج اور میموری</p>\r\n",
+          "EmOption": "<p>Storage and memory</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535760,
+          "QuestionID": 539326,
+          "UmOption": "<p>تمام</p>\r\n",
+          "EmOption": "<p>All</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539327,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے کون سا ٹول تین اہم تشخیصی ٹولز کے طور پر شامل نہیں ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which of the following is NOT listed as one of the three main diagnostic tools?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535761,
+          "QuestionID": 539327,
+          "UmOption": "<p>ٹاسک مینیجر</p>\r\n",
+          "EmOption": "<p>Task Manager</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535762,
+          "QuestionID": 539327,
+          "UmOption": "<p>ریسورس مانیٹر</p>\r\n",
+          "EmOption": "<p>Resource Monitor</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535763,
+          "QuestionID": 539327,
+          "UmOption": "<p>ایونٹ ویور</p>\r\n",
+          "EmOption": "<p>Event Viewer</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535764,
+          "QuestionID": 539327,
+          "UmOption": "<p>ڈسک ڈیفراگمینٹر</p>\r\n",
+          "EmOption": "<p>Disk Defragmenter</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539328,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ہر تشخیصی ٹول سسٹم کی صحت اور .......... سے متعلق مسائل کو حل کرنے میں مختلف کردار ادا کرتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Each diagnostic tool plays a different role in resolving system health and .......... issues:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535765,
+          "QuestionID": 539328,
+          "UmOption": "<p>بیرونی</p>\r\n",
+          "EmOption": "<p>Exterior</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535766,
+          "QuestionID": 539328,
+          "UmOption": "<p>قیمتوں</p>\r\n",
+          "EmOption": "<p>Pricing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535767,
+          "QuestionID": 539328,
+          "UmOption": "<p>مینوفیکچرنگ</p>\r\n",
+          "EmOption": "<p>Manufacturing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535768,
+          "QuestionID": 539328,
+          "UmOption": "<p>کارکردگی سے متعلق</p>\r\n",
+          "EmOption": "<p>Performance-related</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539329,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ٹاسک مینیجر ریئل ٹائم معلومات دکھاتا ہے کہ کیسے استعمال ہو رہے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Task Manager shows real-time information about how are being used:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535773,
+          "QuestionID": 539329,
+          "UmOption": "<p>سی پی یو</p>\r\n",
+          "EmOption": "<p>CPU</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535774,
+          "QuestionID": 539329,
+          "UmOption": "<p>ریم</p>\r\n",
+          "EmOption": "<p>RAM</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535775,
+          "QuestionID": 539329,
+          "UmOption": "<p>ڈسک</p>\r\n",
+          "EmOption": "<p>Disk</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535776,
+          "QuestionID": 539329,
+          "UmOption": "<p>تمام</p>\r\n",
+          "EmOption": "<p>All</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539330,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>شارٹ کٹ کیز کے علاوہ، آپ .......... پر رائٹ کلک کر کے اور ٹاسک مینیجر کو منتخب کر کے بھی اسے کھول سکتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Apart from shortcut keys, you can open Task Manager by right-clicking on the .......... and selecting Task Manager:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535781,
+          "QuestionID": 539330,
+          "UmOption": "<p>ڈیسک ٹاپ آئیکن</p>\r\n",
+          "EmOption": "<p>Desktop icon</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535782,
+          "QuestionID": 539330,
+          "UmOption": "<p>ٹاسک بار</p>\r\n",
+          "EmOption": "<p>Taskbar</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535783,
+          "QuestionID": 539330,
+          "UmOption": "<p>اسٹارٹ بٹن</p>\r\n",
+          "EmOption": "<p>Start button</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535784,
+          "QuestionID": 539330,
+          "UmOption": "<p>ری سائیکل بن</p>\r\n",
+          "EmOption": "<p>Recycle Bin</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539331,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پروسیسز ٹیب سے کسی ایسے پروگرام کو بند کرنے کے لیے جو ٹھیک کام نہیں کر رہا، آپ کو کس آپشن پر کلک کرنا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>To close a program that is not working properly from the processes tab, which option should you click?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535789,
+          "QuestionID": 539331,
+          "UmOption": "<p>ڈیلیٹ ٹاسک</p>\r\n",
+          "EmOption": "<p>Delete Task</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535790,
+          "QuestionID": 539331,
+          "UmOption": "<p>ری اسٹارٹ ٹاسک</p>\r\n",
+          "EmOption": "<p>Restart Task</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535791,
+          "QuestionID": 539331,
+          "UmOption": "<p>پاز ٹاسک</p>\r\n",
+          "EmOption": "<p>Pause Task</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535792,
+          "QuestionID": 539331,
+          "UmOption": "<p>اینڈ ٹاسک</p>\r\n",
+          "EmOption": "<p>End Task</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539332,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ٹاسک مینیجر آپ کو بیک گراؤنڈ میں .......... چلنے والے پروگراموں کو دیکھنے کی اجازت دیتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Task Manager allows you to view programs running .......... in the background:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535793,
+          "QuestionID": 539332,
+          "UmOption": "<p>اونچی آواز میں</p>\r\n",
+          "EmOption": "<p>Loudly</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535794,
+          "QuestionID": 539332,
+          "UmOption": "<p>خاموشی سے</p>\r\n",
+          "EmOption": "<p>Silently</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535795,
+          "QuestionID": 539332,
+          "UmOption": "<p>عارضی طور پر</p>\r\n",
+          "EmOption": "<p>Temporarily</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535796,
+          "QuestionID": 539332,
+          "UmOption": "<p>بلا ترتیب</p>\r\n",
+          "EmOption": "<p>Randomly</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539334,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کمپیوٹر کیسی کارکردگی دکھا رہا ہے، یہ ظاہر کرنے کے لیے پرفارمنس ٹیب کیا دکھاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What does the performance tab display to show how your computer is performing?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535797,
+          "QuestionID": 539334,
+          "UmOption": "<p>ورڈ دستاویزات</p>\r\n",
+          "EmOption": "<p>Word documents</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535798,
+          "QuestionID": 539334,
+          "UmOption": "<p>ویڈیو فائلیں</p>\r\n",
+          "EmOption": "<p>Video files</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535799,
+          "QuestionID": 539334,
+          "UmOption": "<p>اینیمیشن اثرات</p>\r\n",
+          "EmOption": "<p>Animation effects</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535800,
+          "QuestionID": 539334,
+          "UmOption": "<p>ریئل ٹائم گراف اور ڈیٹا</p>\r\n",
+          "EmOption": "<p>Real-time graphs and data</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539335,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ریسورس مانیٹر ایک جدیدسسٹم ٹول ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Resource Monitor is an advanced system tool in:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535801,
+          "QuestionID": 539335,
+          "UmOption": "<p>لینکس میں</p>\r\n",
+          "EmOption": "<p>Linux</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535802,
+          "QuestionID": 539335,
+          "UmOption": "<p>میک او ایس میں</p>\r\n",
+          "EmOption": "<p>macOS</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535803,
+          "QuestionID": 539335,
+          "UmOption": "<p>مانیٹر مائیکروسافٹ ونڈوز میں</p>\r\n",
+          "EmOption": "<p>Microsoft Windows</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535804,
+          "QuestionID": 539335,
+          "UmOption": "<p>کروم او ایس میں</p>\r\n",
+          "EmOption": "<p>ChromeOS</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539336,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ٹاسک مینیجر کے ذریعے ریسورس مانیٹر کھولنے کے لیے آپ کو کس ٹیب میں جانا چاہیے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>To open Resource Monitor via Task Manager, you should go to which tab?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535813,
+          "QuestionID": 539336,
+          "UmOption": "<p>پروسیسز ٹیب</p>\r\n",
+          "EmOption": "<p>Processes tab</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535814,
+          "QuestionID": 539336,
+          "UmOption": "<p>پرفارمنس ٹیب</p>\r\n",
+          "EmOption": "<p>Performance tab</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535815,
+          "QuestionID": 539336,
+          "UmOption": "<p>اسٹارٹ اپ ٹیب</p>\r\n",
+          "EmOption": "<p>Startup tab</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535816,
+          "QuestionID": 539336,
+          "UmOption": "<p>ہسٹری ٹیب</p>\r\n",
+          "EmOption": "<p>History tab</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539337,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ریسورس مانیٹر میں کون سا ٹیب یہ دکھاتا ہے کہ کون سے پروسیسز اور سروسز پروسیسر کا استعمال کر رہے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which tab in Resource Monitor shows which processes and services are using the processor?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535825,
+          "QuestionID": 539337,
+          "UmOption": "<p>سی پی یو ٹیب</p>\r\n",
+          "EmOption": "<p>CPU Tab</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 535826,
+          "QuestionID": 539337,
+          "UmOption": "<p>میموری ٹیب</p>\r\n",
+          "EmOption": "<p>Memory Tab</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535827,
+          "QuestionID": 539337,
+          "UmOption": "<p>ڈسک ٹیب</p>\r\n",
+          "EmOption": "<p>Disk Tab</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535828,
+          "QuestionID": 539337,
+          "UmOption": "<p>نیٹ ورک ٹیب</p>\r\n",
+          "EmOption": "<p>Network Tab</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539338,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کون سا ٹیب دکھاتا ہے کہ کون سی ایپلیکیشنز انٹرنیٹ پر ڈیٹا بھیج یا وصول کر رہی ہیں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which tab shows which applications are sending or receiving data over the internet:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 535829,
+          "QuestionID": 539338,
+          "UmOption": "<p>سی پی یو ٹیب</p>\r\n",
+          "EmOption": "<p>CPU Tab</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535830,
+          "QuestionID": 539338,
+          "UmOption": "<p>میموری ٹیب</p>\r\n",
+          "EmOption": "<p>Memory Tab</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535831,
+          "QuestionID": 539338,
+          "UmOption": "<p>ڈسک ٹیب</p>\r\n",
+          "EmOption": "<p>Disk Tab</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 535832,
+          "QuestionID": 539338,
+          "UmOption": "<p>نیٹ ورک ٹیب</p>\r\n",
+          "EmOption": "<p>Network Tab</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539906,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایونٹ ویوور صارفین کو درج ذیل میں سے کس سے متعلق لاگز اور معلومات چیک کرنے میں مدد کرتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Event Viewer helps users check logs and information related to which of the following?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 536753,
+          "QuestionID": 539906,
+          "UmOption": "<p>انٹرنیٹ ڈاؤن لوڈ کی رفتار</p>\r\n",
+          "EmOption": "<p>Internet download speed</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536754,
+          "QuestionID": 539906,
+          "UmOption": "<p>ہارڈ ڈرائیو کی اسٹوریج گنجائش</p>\r\n",
+          "EmOption": "<p>Hard drive storage capacity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536755,
+          "QuestionID": 539906,
+          "UmOption": "<p>مانیٹر کی ڈسپلے ریزولیوشن</p>\r\n",
+          "EmOption": "<p>Monitor display resolution</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536756,
+          "QuestionID": 539906,
+          "UmOption": "<p>غلطیاں، وارننگز، اور اہم واقعات</p>\r\n",
+          "EmOption": "<p>Errors, warnings, and important events</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539907,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایونٹ ویوور کی طرف سے ریکارڈ کیے جانے والے لاگز کن موضوعات سے متعلق کیٹیگریز میں ہوتے ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>The logs recorded by Event Viewer are categorized under topics related to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 536757,
+          "QuestionID": 539907,
+          "UmOption": "<p>آڈیو، ویڈیو، اور اینیمیشن</p>\r\n",
+          "EmOption": "<p>Audio, Video, and Animation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536758,
+          "QuestionID": 539907,
+          "UmOption": "<p>کی بورڈ، ماؤس، اور پرنٹر</p>\r\n",
+          "EmOption": "<p>Keyboard, Mouse, and Printer</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536759,
+          "QuestionID": 539907,
+          "UmOption": "<p>براؤزر ہسٹری اور کوکیز</p>\r\n",
+          "EmOption": "<p>Browser history and cookies</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536760,
+          "QuestionID": 539907,
+          "UmOption": "<p>سافٹ ویئر، ہارڈ ویئر، اور سیکیورٹی</p>\r\n",
+          "EmOption": "<p>Software, hardware, and security</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 539908,
+      "SubjectID": 60,
+      "TopicID": 14980,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 USING BUILT-IN DIAGNOSTIC TOOLS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>ایونٹ ویوور چلانے کے لیے رن ڈائیلاگ باکس کھولنے کے لیے کون سی شارٹ کٹ کیز کا مجموعہ استعمال کیا جاتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>To open the Run dialog box for launching Event Viewer, which shortcut key combination is used?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 536761,
+          "QuestionID": 539908,
+          "UmOption": "<p>Ctrl + Shift + Esc</p>\r\n",
+          "EmOption": "<p>Ctrl + Shift + Esc</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536762,
+          "QuestionID": 539908,
+          "UmOption": "<p>Windows + E</p>\r\n",
+          "EmOption": "<p>Windows + E</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 536763,
+          "QuestionID": 539908,
+          "UmOption": "<p>Windows + R</p>\r\n",
+          "EmOption": "<p>Windows + R</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 536764,
+          "QuestionID": 539908,
+          "UmOption": "<p>Alt + F4</p>\r\n",
+          "EmOption": "<p>Alt + F4</p>\r\n",
+          "Answer": false
         }
       ],
       "_exportMeta": {

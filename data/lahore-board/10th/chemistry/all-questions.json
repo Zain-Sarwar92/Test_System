@@ -4,11 +4,11 @@
   "subject": "Chemistry",
   "slug": "chemistry",
   "source": "PTS PTB Class 10 Chemistry (read-only export)",
-  "total_questions": 2960,
+  "total_questions": 2966,
   "counts": {
-    "mcq": 1410,
+    "mcq": 1415,
     "short": 1340,
-    "long": 210
+    "long": 211
   },
   "questions": [
     {
@@ -26,20 +26,6 @@
       "correctAnswer": "A"
     },
     {
-      "id": 500763,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Upon heating the rate of evaporation:",
-      "ur": "ایویپوریشن کی شرح گرم کرنے پر:",
-      "optionA": "Decreases / گھٹتی ہے",
-      "optionB": "Increases / بڑھتی ہے",
-      "optionC": "Remains the same / یکساں رہتی ہے",
-      "optionD": "Initially decreases and then increases upon further heating / پہلے گھٹتی ہے پھر مزید گرم کرنے پر بڑھتی ہے",
-      "correctAnswer": "B"
-    },
-    {
       "id": 500764,
       "chapter": 14,
       "topic_id": "14.1",
@@ -54,23 +40,9 @@
       "correctAnswer": "A"
     },
     {
-      "id": 500767,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Cooling the vapours of some gases change them directly into solid state. This phenomenon is called:",
-      "ur": "کچھ گیسوں کے بخارات کو ٹھنڈا کرنے پر یہ براہ راست ٹھوس حالت میں تبدیل ہو جاتے ہیں۔ اس مظاہر کو کیا کہتے ہیں:",
-      "optionA": "Evaporation / ایویپوریشن",
-      "optionB": "Condensation / کندن سیشن",
-      "optionC": "Sublimation / سب لیمیشن",
-      "optionD": "Deposition / ڈیپوزیشن",
-      "correctAnswer": "D"
-    },
-    {
       "id": 500768,
       "chapter": 14,
-      "topic_id": "14.1",
+      "topic_id": "14.2",
       "source": "Exercise",
       "type": "mcq",
       "en": "Physical state in which the particles possess the maximum energy:",
@@ -82,37 +54,9 @@
       "correctAnswer": "C"
     },
     {
-      "id": 500775,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "How does the process of evaporation depend on the force of attraction present among the molecules of a liquid?",
-      "ur": "ایویپوریشن مائع کے مالیکیولز میں موجود کشش پر کس طرح منحصر ہے؟",
-      "optionA": "It decreases with the increasing strength of attraction. / کشش میں اضافے کے ساتھ بڑھتی ہے",
-      "optionB": "It increases with the increasing strength of attraction. / کشش میں اضافے کے ساتھ گھٹتی ہے",
-      "optionC": "It is independent of the strength of the force of attraction. / کشش کی طاقت پر منحصر نہیں ہوتی",
-      "optionD": "It first increases and then decreases with the increasing strength of the force of attraction. / کشش کی طاقت میں اضافے کے ساتھ پہلے بڑھتی اور پھر کم ہوتی ہے",
-      "correctAnswer": "A"
-    },
-    {
-      "id": 500776,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which gas will diffuse at the fastest rate?",
-      "ur": "کسی گیس کے ڈفیوز ہونے کی شرح تیز ترین ہے:",
-      "optionA": "HCI",
-      "optionB": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap14.1.svg\" />",
-      "optionC": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap14.2.svg\" />",
-      "optionD": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap14.3.svg\" />",
-      "correctAnswer": "A"
-    },
-    {
       "id": 500777,
       "chapter": 14,
-      "topic_id": "14.1",
+      "topic_id": "14.3",
       "source": "Exercise",
       "type": "mcq",
       "en": "The phase changes A and B in <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap14.4.svg\" /> are:",
@@ -124,9 +68,51 @@
       "correctAnswer": "C"
     },
     {
+      "id": 500763,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Upon heating the rate of evaporation:",
+      "ur": "ایویپوریشن کی شرح گرم کرنے پر:",
+      "optionA": "Decreases / گھٹتی ہے",
+      "optionB": "Increases / بڑھتی ہے",
+      "optionC": "Remains the same / یکساں رہتی ہے",
+      "optionD": "Initially decreases and then increases upon further heating / پہلے گھٹتی ہے پھر مزید گرم کرنے پر بڑھتی ہے",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 500775,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "How does the process of evaporation depend on the force of attraction present among the molecules of a liquid?",
+      "ur": "ایویپوریشن مائع کے مالیکیولز میں موجود کشش پر کس طرح منحصر ہے؟",
+      "optionA": "It decreases with the increasing strength of attraction. / کشش میں اضافے کے ساتھ بڑھتی ہے",
+      "optionB": "It increases with the increasing strength of attraction. / کشش میں اضافے کے ساتھ گھٹتی ہے",
+      "optionC": "It is independent of the strength of the force of attraction. / کشش کی طاقت پر منحصر نہیں ہوتی",
+      "optionD": "It first increases and then decreases with the increasing strength of the force of attraction. / کشش کی طاقت میں اضافے کے ساتھ پہلے بڑھتی اور پھر کم ہوتی ہے",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 500767,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Cooling the vapours of some gases change them directly into solid state. This phenomenon is called:",
+      "ur": "کچھ گیسوں کے بخارات کو ٹھنڈا کرنے پر یہ براہ راست ٹھوس حالت میں تبدیل ہو جاتے ہیں۔ اس مظاہر کو کیا کہتے ہیں:",
+      "optionA": "Evaporation / ایویپوریشن",
+      "optionB": "Condensation / کندن سیشن",
+      "optionC": "Sublimation / سب لیمیشن",
+      "optionD": "Deposition / ڈیپوزیشن",
+      "correctAnswer": "D"
+    },
+    {
       "id": 500779,
       "chapter": 14,
-      "topic_id": "14.1",
+      "topic_id": "14.5",
       "source": "Exercise",
       "type": "mcq",
       "en": "A student noticed frost falling on the ground at 6.30 am and disappearing by 8.30 am. Which phase change was responsible for changing the frost into water vapours?",
@@ -136,6 +122,20 @@
       "optionC": "Sublimation / سب لیمیشن",
       "optionD": "Deposition / ڈیپوزیشن",
       "correctAnswer": "C"
+    },
+    {
+      "id": 500776,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which gas will diffuse at the fastest rate?",
+      "ur": "کسی گیس کے ڈفیوز ہونے کی شرح تیز ترین ہے:",
+      "optionA": "HCI",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap14.1.svg\" />",
+      "optionC": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap14.2.svg\" />",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap14.3.svg\" />",
+      "correctAnswer": "A"
     },
     {
       "id": 500806,
@@ -168,7 +168,7 @@
     {
       "id": 500808,
       "chapter": 15,
-      "topic_id": "15.1",
+      "topic_id": "15.2",
       "source": "Exercise",
       "type": "mcq",
       "en": "What will the molar concentration of potassium hydroxide solution if 2.0g of it is dissolved in <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap15.3.svg\" />of solution?",
@@ -182,7 +182,7 @@
     {
       "id": 500809,
       "chapter": 15,
-      "topic_id": "15.1",
+      "topic_id": "15.2",
       "source": "Exercise",
       "type": "mcq",
       "en": "What will be the mass of NaCl needed to make up 15dm3 of its solution with a concentration of 0.7g/dm3?",
@@ -196,7 +196,7 @@
     {
       "id": 500810,
       "chapter": 15,
-      "topic_id": "15.1",
+      "topic_id": "15.3",
       "source": "Exercise",
       "type": "mcq",
       "en": "Find out the concentration of H2SO4 in mol/dm3 if its 10cm3 react with 20cm3 of NaOH solution having concentration 0.1mol/dm3:",
@@ -266,7 +266,7 @@
     {
       "id": 500827,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.4",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which element in the following reaction is being reduced? <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap16-eq1.svg\" />",
@@ -278,37 +278,9 @@
       "correctAnswer": "B"
     },
     {
-      "id": 500828,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "During electrolysis of dilute solution of H2SO4, using Pt electrodes, which process takes place at the cathode?",
-      "ur": "pt الیکٹروڈ کا استعمال کرتے ہوئے ،H2SO4 کے مرتکز سلوشن کے الیکٹر ولیسز کے دوران جو عمل کیتھوڈ پر وقوع پذیر ہوتا ہے، اُسےکہتے ہیں :",
-      "optionA": "Reduction / ریڈکشن",
-      "optionB": "Neither oxidation nor reduction / ناہی ریڈکشن اور نہ ہی آکسیڈیشن",
-      "optionC": "Oxidation / آکسیڈیشن",
-      "optionD": "First oxidation and then reduction / پہلے آکسیڈیشن پھر ریڈکشن",
-      "correctAnswer": "A"
-    },
-    {
-      "id": 500829,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which product you will get at the anode when an aqueous solution of CuSO4 is electrolysed using copper electrodes?",
-      "ur": "کا پر الیکٹروڈز کا استعمال کرتے ہوئے ،CuSO4 کے ایکوس سلوشن کو الیکٹرولائز کیا جاتا ہے تو آپ کو اینوڈ پر کون سا پروڈکٹ ملے گا؟",
-      "optionA": "Cu",
-      "optionB": "O2",
-      "optionC": "H2",
-      "optionD": "No product, instead copper metal will go into the solution as Cu2+. / کوئی پروڈکٹ نہیں، اس کے بجائے کا پر میٹل سلوشن میں کا پر آئن کی صورت میں حل ہو جائے گا",
-      "correctAnswer": "D"
-    },
-    {
       "id": 500830,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.6",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which of the following statements is NOT correct about Zn-Cu electrochemical cell?",
@@ -322,7 +294,7 @@
     {
       "id": 500831,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.7",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which product will be obtained at the anode when a concentrated solution of NaCl will be electrolysed?",
@@ -336,7 +308,7 @@
     {
       "id": 500832,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.8",
       "source": "Exercise",
       "type": "mcq",
       "en": "When a dilute aqueous solution of ZnCl2 is electrolysed which product you will get at the cathode?",
@@ -348,9 +320,37 @@
       "correctAnswer": "A"
     },
     {
+      "id": 500828,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "During electrolysis of dilute solution of H2SO4, using Pt electrodes, which process takes place at the cathode?",
+      "ur": "pt الیکٹروڈ کا استعمال کرتے ہوئے ،H2SO4 کے مرتکز سلوشن کے الیکٹر ولیسز کے دوران جو عمل کیتھوڈ پر وقوع پذیر ہوتا ہے، اُسےکہتے ہیں :",
+      "optionA": "Reduction / ریڈکشن",
+      "optionB": "Neither oxidation nor reduction / ناہی ریڈکشن اور نہ ہی آکسیڈیشن",
+      "optionC": "Oxidation / آکسیڈیشن",
+      "optionD": "First oxidation and then reduction / پہلے آکسیڈیشن پھر ریڈکشن",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 500829,
+      "chapter": 16,
+      "topic_id": "16.12",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which product you will get at the anode when an aqueous solution of CuSO4 is electrolysed using copper electrodes?",
+      "ur": "کا پر الیکٹروڈز کا استعمال کرتے ہوئے ،CuSO4 کے ایکوس سلوشن کو الیکٹرولائز کیا جاتا ہے تو آپ کو اینوڈ پر کون سا پروڈکٹ ملے گا؟",
+      "optionA": "Cu",
+      "optionB": "O2",
+      "optionC": "H2",
+      "optionD": "No product, instead copper metal will go into the solution as Cu2+. / کوئی پروڈکٹ نہیں، اس کے بجائے کا پر میٹل سلوشن میں کا پر آئن کی صورت میں حل ہو جائے گا",
+      "correctAnswer": "D"
+    },
+    {
       "id": 500833,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.13",
       "source": "Exercise",
       "type": "mcq",
       "en": "What is produced at the cathode in hydrogen-oxygen fuel cell?",
@@ -364,7 +364,7 @@
     {
       "id": 500834,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.17",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which of the following metals is highest in the electrochemical series?",
@@ -404,20 +404,6 @@
       "correctAnswer": "D"
     },
     {
-      "id": 501977,
-      "chapter": 17,
-      "topic_id": "17.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which of the following explains the increase in rate of reaction in the presence of a catalyst?",
-      "ur": "درج ذیل میں سے کون کیٹالسٹ کی موجودگی میں ری ایکشن کے ریٹ میں اضافے کی وضاحت کرتا ہے:",
-      "optionA": "Catalyst provides extra energy to the reactant molecules / کیٹالسٹ ری ایکٹنٹس کے مالیکیولز کو اضافی انرجی فراہم کرتا ہے",
-      "optionB": "Catalyst provides an alternative pathway which lowers the activation energy / کیٹالسٹ ایک متبادل راستہ فراہم کرتا ہے جو ایکٹیویشن انرجی کو کم کرتا ہے",
-      "optionC": "Catalyst increases the collision frequency / کیٹالسٹ کولیژن فریکوینسی میں اضافہ کرتا ہے",
-      "optionD": "Catalyst decreases the collision frequency / کیٹالسٹ کولیژن فریکوینسی کو کم کرتا ہے",
-      "correctAnswer": "B"
-    },
-    {
       "id": 501980,
       "chapter": 17,
       "topic_id": "17.1",
@@ -432,9 +418,23 @@
       "correctAnswer": "A"
     },
     {
+      "id": 501977,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which of the following explains the increase in rate of reaction in the presence of a catalyst?",
+      "ur": "درج ذیل میں سے کون کیٹالسٹ کی موجودگی میں ری ایکشن کے ریٹ میں اضافے کی وضاحت کرتا ہے:",
+      "optionA": "Catalyst provides extra energy to the reactant molecules / کیٹالسٹ ری ایکٹنٹس کے مالیکیولز کو اضافی انرجی فراہم کرتا ہے",
+      "optionB": "Catalyst provides an alternative pathway which lowers the activation energy / کیٹالسٹ ایک متبادل راستہ فراہم کرتا ہے جو ایکٹیویشن انرجی کو کم کرتا ہے",
+      "optionC": "Catalyst increases the collision frequency / کیٹالسٹ کولیژن فریکوینسی میں اضافہ کرتا ہے",
+      "optionD": "Catalyst decreases the collision frequency / کیٹالسٹ کولیژن فریکوینسی کو کم کرتا ہے",
+      "correctAnswer": "B"
+    },
+    {
       "id": 501981,
       "chapter": 17,
-      "topic_id": "17.1",
+      "topic_id": "17.4",
       "source": "Exercise",
       "type": "mcq",
       "en": "When a reaction proceeds ahead, how the concentrations of reactants and products change?",
@@ -443,20 +443,6 @@
       "optionB": "Concentration of reactants decreases and that of the products increases. / ری ایکٹنٹس کے ارتکاز کم ہوتے ہیں جبکہ پروڈکٹس کے ارتکاز بڑھتے ہیں۔",
       "optionC": "Concentration of both reactants and products decreases. / ری ایکٹنٹس اور پروڈکٹس دونوں کے ارتکاز کم ہوتے ہیں۔",
       "optionD": "Concentration of both reactants and products increases. / ری ایکٹنٹس اور پروڈکٹس دونوں کے ارتکاز بڑھتے ہیں۔",
-      "correctAnswer": "B"
-    },
-    {
-      "id": 502004,
-      "chapter": 18,
-      "topic_id": "18.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which base is not soluble in water?",
-      "ur": "کونسی بیس پانی میں حل نہیں ہوتی؟",
-      "optionA": "KOH",
-      "optionB": "Mg(OH)2",
-      "optionC": "NaOH",
-      "optionD": "Na2CO3",
       "correctAnswer": "B"
     },
     {
@@ -474,9 +460,23 @@
       "correctAnswer": "A"
     },
     {
+      "id": 502004,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which base is not soluble in water?",
+      "ur": "کونسی بیس پانی میں حل نہیں ہوتی؟",
+      "optionA": "KOH",
+      "optionB": "Mg(OH)2",
+      "optionC": "NaOH",
+      "optionD": "Na2CO3",
+      "correctAnswer": "B"
+    },
+    {
       "id": 502006,
       "chapter": 18,
-      "topic_id": "18.1",
+      "topic_id": "18.4",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which salts are always soluble in water?",
@@ -488,23 +488,9 @@
       "correctAnswer": "C"
     },
     {
-      "id": 502007,
-      "chapter": 18,
-      "topic_id": "18.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which salt will be formed when marble pieces react with dilute nitric acid?",
-      "ur": "جب ماربل کے ٹکڑوں کا مرتکز نائٹرک ایسڈ کے ساتھ ری ایکشن ہوگا تو کون سا سالٹ بنے گا؟",
-      "optionA": "Sodium nitrate / سوڈیم نائٹریٹ",
-      "optionB": "Calcium nitrate / کیلشیم نائٹریٹ",
-      "optionC": "Potassium nitrate / پوٹاشیم نائٹریٹ",
-      "optionD": "Magnesium nitrate / میگنیشیم نائٹریٹ",
-      "correctAnswer": "B"
-    },
-    {
       "id": 502008,
       "chapter": 18,
-      "topic_id": "18.1",
+      "topic_id": "18.4",
       "source": "Exercise",
       "type": "mcq",
       "en": "Water insoluble salt is:",
@@ -514,6 +500,20 @@
       "optionC": "Potassium sulphate / پوٹاشیم سلفیٹ",
       "optionD": "Magnesium sulphate / میگنیشیم سلفیٹ",
       "correctAnswer": "A"
+    },
+    {
+      "id": 502007,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which salt will be formed when marble pieces react with dilute nitric acid?",
+      "ur": "جب ماربل کے ٹکڑوں کا مرتکز نائٹرک ایسڈ کے ساتھ ری ایکشن ہوگا تو کون سا سالٹ بنے گا؟",
+      "optionA": "Sodium nitrate / سوڈیم نائٹریٹ",
+      "optionB": "Calcium nitrate / کیلشیم نائٹریٹ",
+      "optionC": "Potassium nitrate / پوٹاشیم نائٹریٹ",
+      "optionD": "Magnesium nitrate / میگنیشیم نائٹریٹ",
+      "correctAnswer": "B"
     },
     {
       "id": 502058,
@@ -530,34 +530,6 @@
       "correctAnswer": "A"
     },
     {
-      "id": 502061,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Sodium is considered more reactive than magnesium because:",
-      "ur": "سوڈیم، میگنیشیم سے زیادہ ری ایکٹو سمجھا جاتا ہے، کیونکہ:",
-      "optionA": "It is more electropositive than magnesium / یہ میگنیشیم سے زیادہ الیکٹرو پازیٹو ہے۔",
-      "optionB": "It reacts with water slowly. / یہ پانی کے ساتھ آہستہ ری ایکشن کرتی ہے۔",
-      "optionC": "It is present in second group / یہ دوسرے گروپ میں پائی جاتی ہے۔",
-      "optionD": "It is the less metallic / یہ کم میٹالک ہے۔",
-      "correctAnswer": "A"
-    },
-    {
-      "id": 502063,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "SO3 is absorbed in H2SO4 rather than H2O during the production of sulphuric acid because:",
-      "ur": "سلفیورک ایسڈ کی تیاری کے دوران، SO3 پانی کے بجائےH2SO4 میں جذب کی جاتی ہے۔ کیونکہ:",
-      "optionA": "SO3 does not react with H2O / SO3 کا پانی کے ساتھ ری ایکشن نہیں ہوتا۔",
-      "optionB": "Reaction of SO3 with H2O is highly exothermic producing mist of H2SO4 which is difficult to condense. / SO3 کا پانی کے ساتھ ری ایکشن بہت زیادہ ایکسو تھرمک ہوتا ہے۔ جس سے سلفیورک ایسڈ ایک دھند کی مانند پیدا ہوتا ہے جسے کنڈینس (Condense) کرنا بہت مشکل ہوتا ہے۔",
-      "optionC": "It gives better yield of H2SO4 / یہ H2SO4 کی بہتر پیداوار فراہم کرتی ہے۔",
-      "optionD": "Reaction of SO3 with H2O can cause explosion. / SO3 کا پانی کے ساتھ ری ایکشن دھماکے کا سبب بن سکتا ہے۔",
-      "correctAnswer": "B"
-    },
-    {
       "id": 502059,
       "chapter": 19,
       "topic_id": "19.2",
@@ -570,6 +542,20 @@
       "optionC": "Do not let SO2 to react with oxygen / SO2 کا آکسیجن کے ساتھ ری ایکشن نہیں ہونے دیتیں۔",
       "optionD": "Decrease the rate of reaction appreciably / ری ایکشن کے ریٹ کو قابلِ ذکر حد تک کم کر دیتی ہیں۔",
       "correctAnswer": "A"
+    },
+    {
+      "id": 502063,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "SO3 is absorbed in H2SO4 rather than H2O during the production of sulphuric acid because:",
+      "ur": "سلفیورک ایسڈ کی تیاری کے دوران، SO3 پانی کے بجائےH2SO4 میں جذب کی جاتی ہے۔ کیونکہ:",
+      "optionA": "SO3 does not react with H2O / SO3 کا پانی کے ساتھ ری ایکشن نہیں ہوتا۔",
+      "optionB": "Reaction of SO3 with H2O is highly exothermic producing mist of H2SO4 which is difficult to condense. / SO3 کا پانی کے ساتھ ری ایکشن بہت زیادہ ایکسو تھرمک ہوتا ہے۔ جس سے سلفیورک ایسڈ ایک دھند کی مانند پیدا ہوتا ہے جسے کنڈینس (Condense) کرنا بہت مشکل ہوتا ہے۔",
+      "optionC": "It gives better yield of H2SO4 / یہ H2SO4 کی بہتر پیداوار فراہم کرتی ہے۔",
+      "optionD": "Reaction of SO3 with H2O can cause explosion. / SO3 کا پانی کے ساتھ ری ایکشن دھماکے کا سبب بن سکتا ہے۔",
+      "correctAnswer": "B"
     },
     {
       "id": 502060,
@@ -600,6 +586,20 @@
       "correctAnswer": "C"
     },
     {
+      "id": 502061,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Sodium is considered more reactive than magnesium because:",
+      "ur": "سوڈیم، میگنیشیم سے زیادہ ری ایکٹو سمجھا جاتا ہے، کیونکہ:",
+      "optionA": "It is more electropositive than magnesium / یہ میگنیشیم سے زیادہ الیکٹرو پازیٹو ہے۔",
+      "optionB": "It reacts with water slowly. / یہ پانی کے ساتھ آہستہ ری ایکشن کرتی ہے۔",
+      "optionC": "It is present in second group / یہ دوسرے گروپ میں پائی جاتی ہے۔",
+      "optionD": "It is the less metallic / یہ کم میٹالک ہے۔",
+      "correctAnswer": "A"
+    },
+    {
       "id": 502062,
       "chapter": 19,
       "topic_id": "19.6",
@@ -628,34 +628,6 @@
       "correctAnswer": "A"
     },
     {
-      "id": 502113,
-      "chapter": 20,
-      "topic_id": "20.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "The unpleasant odours in water can be removed by:",
-      "ur": "پانی میں ناخوشگوار بو کو دور کیا جا سکتا ہے:",
-      "optionA": "Adding chlorine / کلورین کے ذریعے",
-      "optionB": "Treating it with activated charcoal / ایکٹیویٹڈ چارکول کے ذریعے",
-      "optionC": "Sedimentation / سیڈیمینٹیشن کے ذریعے",
-      "optionD": "Filtration / فلٹریشن کے ذریعے",
-      "correctAnswer": "B"
-    },
-    {
-      "id": 502124,
-      "chapter": 20,
-      "topic_id": "20.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which gases are dissolved in natural water from the atmosphere through diffusion?",
-      "ur": "فضا میں موجود کون سی گیسیں ڈیفیوژن کے ذریعے قدرتی پانی میں جذب ہوتی ہیں؟",
-      "optionA": "O2 and CO2 / O2 اور CO2",
-      "optionB": "N2 and CO2 / N2 اور CO2",
-      "optionC": "O2 and N2 / O2 اور N2",
-      "optionD": "O2 , N2 and CO2 / O2 ، N2 اور CO2",
-      "correctAnswer": "D"
-    },
-    {
       "id": 502102,
       "chapter": 20,
       "topic_id": "20.3",
@@ -682,6 +654,34 @@
       "optionC": "Industrial waste-water / صنعتوں سے خارج ہونے والا پانی",
       "optionD": "Microbes in rocks / چٹانوں میں موجود جراثیم",
       "correctAnswer": "A"
+    },
+    {
+      "id": 502124,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which gases are dissolved in natural water from the atmosphere through diffusion?",
+      "ur": "فضا میں موجود کون سی گیسیں ڈیفیوژن کے ذریعے قدرتی پانی میں جذب ہوتی ہیں؟",
+      "optionA": "O2 and CO2 / O2 اور CO2",
+      "optionB": "N2 and CO2 / N2 اور CO2",
+      "optionC": "O2 and N2 / O2 اور N2",
+      "optionD": "O2 , N2 and CO2 / O2 ، N2 اور CO2",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 502113,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "The unpleasant odours in water can be removed by:",
+      "ur": "پانی میں ناخوشگوار بو کو دور کیا جا سکتا ہے:",
+      "optionA": "Adding chlorine / کلورین کے ذریعے",
+      "optionB": "Treating it with activated charcoal / ایکٹیویٹڈ چارکول کے ذریعے",
+      "optionC": "Sedimentation / سیڈیمینٹیشن کے ذریعے",
+      "optionD": "Filtration / فلٹریشن کے ذریعے",
+      "correctAnswer": "B"
     },
     {
       "id": 502126,
@@ -742,7 +742,7 @@
     {
       "id": 502189,
       "chapter": 21,
-      "topic_id": "21.1",
+      "topic_id": "21.2",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which is the displayed formula of ethanol?",
@@ -754,23 +754,9 @@
       "correctAnswer": "D"
     },
     {
-      "id": 502194,
-      "chapter": 21,
-      "topic_id": "21.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Identify the aldehydic functional group among the following:",
-      "ur": "مندرجہ ذیل میں سے ایلڈیہائیڈ فنکشنل گروپ کی نشاندہی کریں:",
-      "optionA": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq10.svg\" />",
-      "optionB": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq11.svg\" />",
-      "optionC": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq12.svg\" />",
-      "optionD": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq13.svg\" />",
-      "correctAnswer": "D"
-    },
-    {
       "id": 502197,
       "chapter": 21,
-      "topic_id": "21.1",
+      "topic_id": "21.3",
       "source": "Exercise",
       "type": "mcq",
       "en": "Select the general formula of alkyne family:",
@@ -784,7 +770,7 @@
     {
       "id": 502198,
       "chapter": 21,
-      "topic_id": "21.1",
+      "topic_id": "21.4",
       "source": "Exercise",
       "type": "mcq",
       "en": "How many structural isomers will be there for a saturated hydrocarbon having five carbon atoms?",
@@ -796,9 +782,23 @@
       "correctAnswer": "B"
     },
     {
+      "id": 502194,
+      "chapter": 21,
+      "topic_id": "21.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Identify the aldehydic functional group among the following:",
+      "ur": "مندرجہ ذیل میں سے ایلڈیہائیڈ فنکشنل گروپ کی نشاندہی کریں:",
+      "optionA": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq10.svg\" />",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq11.svg\" />",
+      "optionC": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq12.svg\" />",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-eq13.svg\" />",
+      "correctAnswer": "D"
+    },
+    {
       "id": 502199,
       "chapter": 21,
-      "topic_id": "21.1",
+      "topic_id": "21.6",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which ester among the following will be called ethyl propanoate?",
@@ -812,7 +812,7 @@
     {
       "id": 502200,
       "chapter": 21,
-      "topic_id": "21.1",
+      "topic_id": "21.6",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which functional group is present in alkenes?",
@@ -822,90 +822,6 @@
       "optionC": "Carbon-carbon double bond / کاربن-کاربن ڈبل بانڈ",
       "optionD": "Carbon-carbon single bond / کاربن-کاربن سنگل بانڈ",
       "correctAnswer": "C"
-    },
-    {
-      "id": 502227,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which of the following compounds is expected to give addition reaction?",
-      "ur": "مندرجہ ذیل کمپاؤنڈز میں سے کس سے ایڈیشن ری ایکشن کی توقع ہے:",
-      "optionA": "CH3 – CH3",
-      "optionB": "CH2 = CH2",
-      "optionC": "CH4",
-      "optionD": "CH3 – CH2 – CH3",
-      "correctAnswer": "B"
-    },
-    {
-      "id": 502228,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which of the followings is not used as a fuel?",
-      "ur": "مندرجہ ذیل میں سے کون بطور ایندھن استعمال نہیں ہوتا:",
-      "optionA": "LPG / ایل۔پی۔جی",
-      "optionB": "CNG / سی۔این۔جی",
-      "optionC": "Diesel / ڈیزل",
-      "optionD": "Asphalt / ایسفالٹ",
-      "correctAnswer": "D"
-    },
-    {
-      "id": 502229,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Indicate the type of the following reaction: <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap22-eq5.svg\" />",
-      "ur": "درج ذیل ری ایکشن کی قسم کی نشاندہی کریں: <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap22-eq5.svg\" />",
-      "optionA": "Substitution / سب سٹی ٹیوشن",
-      "optionB": "Oxidation / ریڈکشن",
-      "optionC": "Reduction / آکسیڈیشن",
-      "optionD": "Addition / ایڈیشن",
-      "correctAnswer": "C"
-    },
-    {
-      "id": 502232,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which species acts as a reducing agent in the reaction between ethene and KMnO4?",
-      "ur": "کون سا کمپاؤنڈ ایتھین اور KMnO4 کے درمیان ری ایکشن میں بطور ریڈیوسنگ ایجنٹ کام کرتا ہے:",
-      "optionA": "H2O",
-      "optionB": "CH2 = CH2",
-      "optionC": "KMnO4",
-      "optionD": "NaOH",
-      "correctAnswer": "B"
-    },
-    {
-      "id": 502234,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "The product which will be formed when propene reacts with bromine molecule:",
-      "ur": "جب پروپین (Propene)، برومین مالیکیول کے ساتھ ری ایکشن کرے گی تو کون سا پروڈکٹ بنے گا؟",
-      "optionA": "1,2-Dibromopropane / 2،1-ڈائی برومو پروپین",
-      "optionB": "1,1-Dibromopropane / 1،1-ڈائی برومو پروپین",
-      "optionC": "2,3-Dibromopropane / 3،2-ڈائی برومو پروپین",
-      "optionD": "1,3-Dibromopropane / 3،1-ڈائی برومو پروپین",
-      "correctAnswer": "D"
-    },
-    {
-      "id": 502236,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Select the name of the petroleum fraction which generates electricity in power plants:",
-      "ur": "پیٹرولیم کے اس حصے کا نام منتخب کریں جو پاور پلانٹس میں بجلی پیدا کرتا ہے:",
-      "optionA": "Bitumen / تارکول",
-      "optionB": "Lubricating oil / لبری کیٹنگ آئل",
-      "optionC": "Kerosene oil / کیروسین آئل",
-      "optionD": "Fuel oil / فیول آئل",
-      "correctAnswer": "D"
     },
     {
       "id": 502238,
@@ -922,9 +838,93 @@
       "correctAnswer": "C"
     },
     {
+      "id": 502227,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which of the following compounds is expected to give addition reaction?",
+      "ur": "مندرجہ ذیل کمپاؤنڈز میں سے کس سے ایڈیشن ری ایکشن کی توقع ہے:",
+      "optionA": "CH3 – CH3",
+      "optionB": "CH2 = CH2",
+      "optionC": "CH4",
+      "optionD": "CH3 – CH2 – CH3",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 502232,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which species acts as a reducing agent in the reaction between ethene and KMnO4?",
+      "ur": "کون سا کمپاؤنڈ ایتھین اور KMnO4 کے درمیان ری ایکشن میں بطور ریڈیوسنگ ایجنٹ کام کرتا ہے:",
+      "optionA": "H2O",
+      "optionB": "CH2 = CH2",
+      "optionC": "KMnO4",
+      "optionD": "NaOH",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 502234,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "The product which will be formed when propene reacts with bromine molecule:",
+      "ur": "جب پروپین (Propene)، برومین مالیکیول کے ساتھ ری ایکشن کرے گی تو کون سا پروڈکٹ بنے گا؟",
+      "optionA": "1,2-Dibromopropane / 2،1-ڈائی برومو پروپین",
+      "optionB": "1,1-Dibromopropane / 1،1-ڈائی برومو پروپین",
+      "optionC": "2,3-Dibromopropane / 3،2-ڈائی برومو پروپین",
+      "optionD": "1,3-Dibromopropane / 3،1-ڈائی برومو پروپین",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 502229,
+      "chapter": 22,
+      "topic_id": "22.3",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Indicate the type of the following reaction: <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap22-eq5.svg\" />",
+      "ur": "درج ذیل ری ایکشن کی قسم کی نشاندہی کریں: <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap22-eq5.svg\" />",
+      "optionA": "Substitution / سب سٹی ٹیوشن",
+      "optionB": "Oxidation / ریڈکشن",
+      "optionC": "Reduction / آکسیڈیشن",
+      "optionD": "Addition / ایڈیشن",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 502228,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which of the followings is not used as a fuel?",
+      "ur": "مندرجہ ذیل میں سے کون بطور ایندھن استعمال نہیں ہوتا:",
+      "optionA": "LPG / ایل۔پی۔جی",
+      "optionB": "CNG / سی۔این۔جی",
+      "optionC": "Diesel / ڈیزل",
+      "optionD": "Asphalt / ایسفالٹ",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 502236,
+      "chapter": 22,
+      "topic_id": "22.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Select the name of the petroleum fraction which generates electricity in power plants:",
+      "ur": "پیٹرولیم کے اس حصے کا نام منتخب کریں جو پاور پلانٹس میں بجلی پیدا کرتا ہے:",
+      "optionA": "Bitumen / تارکول",
+      "optionB": "Lubricating oil / لبری کیٹنگ آئل",
+      "optionC": "Kerosene oil / کیروسین آئل",
+      "optionD": "Fuel oil / فیول آئل",
+      "correctAnswer": "D"
+    },
+    {
       "id": 502239,
       "chapter": 22,
-      "topic_id": "22.1",
+      "topic_id": "22.5",
       "source": "Exercise",
       "type": "mcq",
       "en": "Fractional distillation of petroleum is based on:",
@@ -964,48 +964,6 @@
       "correctAnswer": "B"
     },
     {
-      "id": 502269,
-      "chapter": 23,
-      "topic_id": "23.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Alcohol which has the maximum heat of combustion is:",
-      "ur": "الکوحل جس کے جلنے سے سب سے زیادہ حرارت خارج ہوتی ہے:",
-      "optionA": "CH3CH2CH2OH",
-      "optionB": "CH3CH2OH",
-      "optionC": "CH3OH",
-      "optionD": "CH3CH2CH2CH2OH",
-      "correctAnswer": "D"
-    },
-    {
-      "id": 502270,
-      "chapter": 23,
-      "topic_id": "23.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "The most environment friendly fuel is:",
-      "ur": "سب سے زیادہ ماحول دوست ایندھن ہے:",
-      "optionA": "Coal / کوئلہ",
-      "optionB": "Kerosene oil / کیروسین آئل",
-      "optionC": "Ethanol / ایتھانول",
-      "optionD": "Wood / لکڑی",
-      "correctAnswer": "C"
-    },
-    {
-      "id": 502271,
-      "chapter": 23,
-      "topic_id": "23.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which property or properties of ethanol make it suitable to be used in cosmetic industry?",
-      "ur": "ایتھانول کی کون سی خاصیت اسے کاسمیٹک انڈسٹری میں استعمال کرنے کے لیے موزوں بناتی ہے:",
-      "optionA": "Easily Flammable / آسان آتش گیر مادہ",
-      "optionB": "Highly volatile and deodorizing / نہایت غیر مستحکم اور خوشبودار",
-      "optionC": "Antipyretic / اینٹی پائرٹیک / بخار کم کرنے والی دوا",
-      "optionD": "Sedative / سکون اور دوا",
-      "correctAnswer": "B"
-    },
-    {
       "id": 502273,
       "chapter": 23,
       "topic_id": "23.1",
@@ -1020,9 +978,51 @@
       "correctAnswer": "B"
     },
     {
+      "id": 502269,
+      "chapter": 23,
+      "topic_id": "23.2",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Alcohol which has the maximum heat of combustion is:",
+      "ur": "الکوحل جس کے جلنے سے سب سے زیادہ حرارت خارج ہوتی ہے:",
+      "optionA": "CH3CH2CH2OH",
+      "optionB": "CH3CH2OH",
+      "optionC": "CH3OH",
+      "optionD": "CH3CH2CH2CH2OH",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 502270,
+      "chapter": 23,
+      "topic_id": "23.3",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "The most environment friendly fuel is:",
+      "ur": "سب سے زیادہ ماحول دوست ایندھن ہے:",
+      "optionA": "Coal / کوئلہ",
+      "optionB": "Kerosene oil / کیروسین آئل",
+      "optionC": "Ethanol / ایتھانول",
+      "optionD": "Wood / لکڑی",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 502271,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which property or properties of ethanol make it suitable to be used in cosmetic industry?",
+      "ur": "ایتھانول کی کون سی خاصیت اسے کاسمیٹک انڈسٹری میں استعمال کرنے کے لیے موزوں بناتی ہے:",
+      "optionA": "Easily Flammable / آسان آتش گیر مادہ",
+      "optionB": "Highly volatile and deodorizing / نہایت غیر مستحکم اور خوشبودار",
+      "optionC": "Antipyretic / اینٹی پائرٹیک / بخار کم کرنے والی دوا",
+      "optionD": "Sedative / سکون اور دوا",
+      "correctAnswer": "B"
+    },
+    {
       "id": 502278,
       "chapter": 23,
-      "topic_id": "23.1",
+      "topic_id": "23.5",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which property of ethanol makes it suitable for cleaning wounds?",
@@ -1036,7 +1036,7 @@
     {
       "id": 502284,
       "chapter": 23,
-      "topic_id": "23.1",
+      "topic_id": "23.5",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which alcohol is used to accomplish all the following tasks: It is added in petrol to improve combustion. It serves as a feed stock to prepare vinegar and many other organic compounds.",
@@ -1046,20 +1046,6 @@
       "optionC": "Ethanol / ایتھانول",
       "optionD": "Methanol / میتھانول",
       "correctAnswer": "C"
-    },
-    {
-      "id": 502316,
-      "chapter": 24,
-      "topic_id": "24.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Identify the ester functional group:",
-      "ur": "ایسٹر فنکشنل گروپ کی نشاندہی کریں:",
-      "optionA": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-39.svg\" />",
-      "optionB": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-40.svg\" />",
-      "optionC": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-38.svg\" />",
-      "optionD": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-41.svg\" />",
-      "correctAnswer": "A"
     },
     {
       "id": 502320,
@@ -1090,37 +1076,23 @@
       "correctAnswer": "B"
     },
     {
-      "id": 502326,
+      "id": 502316,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.3",
       "source": "Exercise",
       "type": "mcq",
-      "en": "Which organic acid is used as a component of food?",
-      "ur": "کون سا آرگینک ایسڈ کھانے کے جزو کے طور پر استعمال ہوتا ہے:",
-      "optionA": "Formic acid / فارمک ایسڈ",
-      "optionB": "Oxalic acid / آکسالک ایسڈ",
-      "optionC": "Propanoic acid / پروپیونک ایسڈ",
-      "optionD": "Acetic acid / ایسٹک ایسڈ",
-      "correctAnswer": "D"
-    },
-    {
-      "id": 502327,
-      "chapter": 24,
-      "topic_id": "24.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which of the following acids is present in apples?",
-      "ur": "سیب میں درج ذیل میں سے کون سا ایسڈ موجود ہوتا ہے:",
-      "optionA": "Citric acid / سٹرک ایسڈ",
-      "optionB": "Tartaric acid / ٹارٹارک ایسڈ",
-      "optionC": "Acetic acid / ایسٹک ایسڈ",
-      "optionD": "Malic acid / میلک ایسڈ",
-      "correctAnswer": "D"
+      "en": "Identify the ester functional group:",
+      "ur": "ایسٹر فنکشنل گروپ کی نشاندہی کریں:",
+      "optionA": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-39.svg\" />",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-40.svg\" />",
+      "optionC": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-38.svg\" />",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-41.svg\" />",
+      "correctAnswer": "A"
     },
     {
       "id": 502330,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.3",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which substances will react to produce CH3 – CH2 – CH2 – COOC2H5?",
@@ -1134,7 +1106,7 @@
     {
       "id": 502332,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.3",
       "source": "Exercise",
       "type": "mcq",
       "en": "What is the formula of ester formed by the reaction of methanol with propanoic acid?",
@@ -1148,7 +1120,7 @@
     {
       "id": 502335,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.4",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which polymer is made by reacting a diol and a dicarboxylic acid?",
@@ -1162,7 +1134,7 @@
     {
       "id": 502336,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.4",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which compound is used as a synthetic fiber?",
@@ -1174,9 +1146,37 @@
       "correctAnswer": "B"
     },
     {
+      "id": 502326,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which organic acid is used as a component of food?",
+      "ur": "کون سا آرگینک ایسڈ کھانے کے جزو کے طور پر استعمال ہوتا ہے:",
+      "optionA": "Formic acid / فارمک ایسڈ",
+      "optionB": "Oxalic acid / آکسالک ایسڈ",
+      "optionC": "Propanoic acid / پروپیونک ایسڈ",
+      "optionD": "Acetic acid / ایسٹک ایسڈ",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 502327,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which of the following acids is present in apples?",
+      "ur": "سیب میں درج ذیل میں سے کون سا ایسڈ موجود ہوتا ہے:",
+      "optionA": "Citric acid / سٹرک ایسڈ",
+      "optionB": "Tartaric acid / ٹارٹارک ایسڈ",
+      "optionC": "Acetic acid / ایسٹک ایسڈ",
+      "optionD": "Malic acid / میلک ایسڈ",
+      "correctAnswer": "D"
+    },
+    {
       "id": 502358,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.2",
       "source": "Exercise",
       "type": "mcq",
       "en": "Functional groups present in fructose are:",
@@ -1188,23 +1188,9 @@
       "correctAnswer": "B"
     },
     {
-      "id": 502360,
-      "chapter": 25,
-      "topic_id": "25.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "Which functional group is present in a fat?",
-      "ur": "چربی میں کون سا فنکشنل گروپ موجود ہوتا ہے؟",
-      "optionA": "Carboxyl group / کاربوکسلک گروپ",
-      "optionB": "Ester group / ایسٹر گروپ",
-      "optionC": "Carbonyl group / کاربونائل گروپ",
-      "optionD": "Hydroxyl group / ہائیڈروآکسل گروپ",
-      "correctAnswer": "B"
-    },
-    {
       "id": 502362,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.3",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which function is not performed by proteins in our body?",
@@ -1218,7 +1204,7 @@
     {
       "id": 502364,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.3",
       "source": "Exercise",
       "type": "mcq",
       "en": "Which functional groups react to produce a peptide linkage in proteins?",
@@ -1230,9 +1216,23 @@
       "correctAnswer": "B"
     },
     {
+      "id": 502360,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "Which functional group is present in a fat?",
+      "ur": "چربی میں کون سا فنکشنل گروپ موجود ہوتا ہے؟",
+      "optionA": "Carboxyl group / کاربوکسلک گروپ",
+      "optionB": "Ester group / ایسٹر گروپ",
+      "optionC": "Carbonyl group / کاربونائل گروپ",
+      "optionD": "Hydroxyl group / ہائیڈروآکسل گروپ",
+      "correctAnswer": "B"
+    },
+    {
       "id": 502365,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.7",
       "source": "Exercise",
       "type": "mcq",
       "en": "The test performed to detect cancer in early stages is:",
@@ -1246,7 +1246,7 @@
     {
       "id": 502366,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.7",
       "source": "Exercise",
       "type": "mcq",
       "en": "Fatigue and depression are caused by deficiency of:",
@@ -1300,20 +1300,6 @@
       "correctAnswer": "A"
     },
     {
-      "id": 502390,
-      "chapter": 26,
-      "topic_id": "26.1",
-      "source": "Exercise",
-      "type": "mcq",
-      "en": "The structure of the monomer of the following polymer is: <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap26-eq5.svg\" />",
-      "ur": "درج ذیل پولیمر <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap26-eq5.svg\" /> کے مونومر کا سٹرکچر کون سا ہے:",
-      "optionA": "CH2 = CH2",
-      "optionB": "CH2 = CH2 - CH3 / CH2 = CH2 − CH3",
-      "optionC": "CH2 = CH - OCOCH3 / CH2 = CH − OCOCH3",
-      "optionD": "CH2 = CH - CO – O – CH3 / CH2 = CH − CO – O – CH3",
-      "correctAnswer": "C"
-    },
-    {
       "id": 502391,
       "chapter": 26,
       "topic_id": "26.1",
@@ -1353,6 +1339,20 @@
       "optionB": "Polystyrene / پولی سٹائرین",
       "optionC": "Polyamide / پولی امائڈ",
       "optionD": "Polyethene / پولی اتھین",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 502390,
+      "chapter": 26,
+      "topic_id": "26.2",
+      "source": "Exercise",
+      "type": "mcq",
+      "en": "The structure of the monomer of the following polymer is: <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap26-eq5.svg\" />",
+      "ur": "درج ذیل پولیمر <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap26-eq5.svg\" /> کے مونومر کا سٹرکچر کون سا ہے:",
+      "optionA": "CH2 = CH2",
+      "optionB": "CH2 = CH2 - CH3 / CH2 = CH2 − CH3",
+      "optionC": "CH2 = CH - OCOCH3 / CH2 = CH − OCOCH3",
+      "optionD": "CH2 = CH - CO – O – CH3 / CH2 = CH − CO – O – CH3",
       "correctAnswer": "C"
     },
     {
@@ -4534,6 +4534,34 @@
       "correctAnswer": "D"
     },
     {
+      "id": 524081,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "source": "Additional",
+      "type": "mcq",
+      "en": "What is the chemical formula of the Permanganate ion?",
+      "ur": "پرمینگنیٹ آئن کا کیمیکل فارمولا کیا ہے؟",
+      "optionA": "MnO42-",
+      "optionB": "MnO41-",
+      "optionC": "MnO31-",
+      "optionD": "Mn2O71-",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 524086,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "source": "Additional",
+      "type": "mcq",
+      "en": "What is the correct chemical formula for potassium permanganate?",
+      "ur": "پوٹاشیم پرمینگنیٹ کا درست کیمیکل فارمولا کیا ہے؟",
+      "optionA": "K2MnO4",
+      "optionB": "K(MnO4)2",
+      "optionC": "KMnO4",
+      "optionD": "K3MnO4",
+      "correctAnswer": "C"
+    },
+    {
       "id": 524088,
       "chapter": 16,
       "topic_id": "16.3",
@@ -4546,6 +4574,34 @@
       "optionC": "Subscript numbers / سب اسکرپٹ نمبرز میں",
       "optionD": "Superscript charges / سپر اسکرپٹ چارجز میں",
       "correctAnswer": "A"
+    },
+    {
+      "id": 524092,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "source": "Additional",
+      "type": "mcq",
+      "en": "What is the chemical formula for the carbonate ion?",
+      "ur": "کاربونیٹ آئن کا کیمیکل فارمولا کیا ہے؟",
+      "optionA": "CO31- / CO31−",
+      "optionB": "CO32- / CO32−",
+      "optionC": "HCO31- / HCO31−",
+      "optionD": "C2O42- / C2O42−",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 524094,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "source": "Additional",
+      "type": "mcq",
+      "en": "What is the correct chemical formula for ammonium carbonate?",
+      "ur": "امونیم کاربونیٹ کا درست کیمیکل فارمولا کیا ہے؟",
+      "optionA": "NH4CO3",
+      "optionB": "(NH4)3CO3",
+      "optionC": "NH4(CO3)2",
+      "optionD": "(NH4)2CO3",
+      "correctAnswer": "D"
     },
     {
       "id": 524097,
@@ -12192,6 +12248,20 @@
       "correctAnswer": "C"
     },
     {
+      "id": 522189,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "source": "Additional",
+      "type": "mcq",
+      "en": "What is the general formula for the alkynes series?",
+      "ur": "الکائنز سیریز کا جنرل فارمولا کیا ہے؟",
+      "optionA": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-9.svg\" />",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-8.svg\" />",
+      "optionC": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-19.svg\" />",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap21-20.svg\" />",
+      "correctAnswer": "B"
+    },
+    {
       "id": 522220,
       "chapter": 21,
       "topic_id": "21.3",
@@ -19752,15 +19822,6 @@
       "correctAnswer": "B"
     },
     {
-      "id": 500702,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why does the temperature remain constant during a phase change?",
-      "ur": "طبعی تبدیلی کے دوران درجہ حرارت یکساں کیوں رہتا ہے؟"
-    },
-    {
       "id": 500703,
       "chapter": 14,
       "topic_id": "14.1",
@@ -19768,87 +19829,6 @@
       "type": "short",
       "en": "Is it possible to compress a liquid like a gas?",
       "ur": "کیا مائع کو گیس کی طرح سکیٹرنا (Compress) ممکن ہے؟"
-    },
-    {
-      "id": 500704,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Can you change the temperature at which water boils in an experiment in your lab?",
-      "ur": "لیب میں تجربے کے دوران کیا پانی کا بوائلنگ پوائنٹ تبدیل کیا جا سکتا ہے؟"
-    },
-    {
-      "id": 500705,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "In which season the wet clothes get dry after a relatively longer time?",
-      "ur": "کس موسم میں گیلے کپڑے نسبتا زیادہ دیر سے سوکھتے ہیں؟"
-    },
-    {
-      "id": 500706,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "When a solid is heated, what happens to its particles which are vibrating?",
-      "ur": "جب ٹھوس کو گرم کیا جاتا ہے، تو مرتعش ذرات (Vibrating particles) کے ساتھ کیا ہوتا ہے؟"
-    },
-    {
-      "id": 500708,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Do solids and liquids also diffuse just like gases?",
-      "ur": "کیا ٹھوس اور مائع ، گیس کی طرح ڈفیوژ ہوتے ہیں؟"
-    },
-    {
-      "id": 500709,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why dew is formed in the early hours of the morning?",
-      "ur": "شبنم کے قطرے صبح کے وقت کیوں بنتے ہیں؟"
-    },
-    {
-      "id": 500712,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why the process of evaporation does not need the input of energy?",
-      "ur": "ایویپوریشن کے لیے توانائی کی ضرورت کیوں نہیں ہوتی؟"
-    },
-    {
-      "id": 500714,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why ice melts when the pressure is exerted on it?",
-      "ur": "جب برف پر دباؤ بڑھایا جاتا ہے تو وہ پگھلتی کیوں ہے؟"
-    },
-    {
-      "id": 500715,
-      "chapter": 14,
-      "topic_id": "14.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why do phase changes occur?",
-      "ur": "طبعی تبدیلیاں کیوں رونما ہوتی ہیں؟"
-    },
-    {
-      "id": 500699,
-      "chapter": 14,
-      "topic_id": "14.2",
-      "source": "Exercise",
-      "type": "short",
-      "en": "From where does the energy come when a liquid evaporates?",
-      "ur": "جب مائع ایوبپوریٹ ہوتی ہے تو توانائی کہاں سے حاصل ہوتی ہے؟"
     },
     {
       "id": 500700,
@@ -19860,6 +19840,33 @@
       "ur": "کیا کنڈن سیشن حرارت جذب کرنے والا عمل ہے؟"
     },
     {
+      "id": 500706,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "When a solid is heated, what happens to its particles which are vibrating?",
+      "ur": "جب ٹھوس کو گرم کیا جاتا ہے، تو مرتعش ذرات کے ساتھ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 500714,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why ice melts when the pressure is exerted on it?",
+      "ur": "جب برف پر دباؤ بڑھایا جاتا ہے تو وہ پگھلتی کیوں ہے؟"
+    },
+    {
+      "id": 500702,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why does the temperature remain constant during a phase change?",
+      "ur": "طبعی تبدیلی کے دوران درجہ حرارت یکساں کیوں رہتا ہے؟"
+    },
+    {
       "id": 500713,
       "chapter": 14,
       "topic_id": "14.3",
@@ -19867,6 +19874,42 @@
       "type": "short",
       "en": "Why the heating and cooling curves for the phase changes adopt the same path?",
       "ur": "طبعی تبدیلیوں میں حرارتی اور کولنگ کروز (Curves) ایک ہی راستہ کیوں اختیار کرتے ہیں؟"
+    },
+    {
+      "id": 500715,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why do phase changes occur?",
+      "ur": "طبعی تبدیلیاں کیوں رونما ہوتی ہیں؟"
+    },
+    {
+      "id": 500699,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "From where does the energy come when a liquid evaporates?",
+      "ur": "جب مائع ایوبپوریٹ ہوتی ہے تو توانائی کہاں سے حاصل ہوتی ہے؟"
+    },
+    {
+      "id": 500704,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Can you change the temperature at which water boils in an experiment in your lab?",
+      "ur": "لیب میں تجربے کے دوران کیا پانی کا بوائلنگ پوائنٹ تبدیل کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 500705,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "In which season the wet clothes get dry after a relatively longer time?",
+      "ur": "کس موسم میں گیلے کپڑے نسبتا زیادہ دیر سے سوکھتے ہیں؟"
     },
     {
       "id": 500710,
@@ -19887,6 +19930,15 @@
       "ur": "بوائلنگ کا بیرونی دباؤ کے ساتھ کیا تعلق ہے؟ وضاحت کریں۔"
     },
     {
+      "id": 500712,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why the process of evaporation does not need the input of energy?",
+      "ur": "ایویپوریشن کے لیے توانائی کی ضرورت کیوں نہیں ہوتی؟"
+    },
+    {
       "id": 500701,
       "chapter": 14,
       "topic_id": "14.5",
@@ -19894,6 +19946,24 @@
       "type": "short",
       "en": "Why naphthalene balls (used to repel insects) disappear after sometime?",
       "ur": "فینائل کی گولیاں ( کیڑے مار دوائی ) کچھ عرصے بعد تحلیل کیوں ہو جاتی ہیں؟"
+    },
+    {
+      "id": 500709,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why dew is formed in the early hours of the morning?",
+      "ur": "شبنم کے قطرے صبح کے وقت کیوں بنتے ہیں؟"
+    },
+    {
+      "id": 500708,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Do solids and liquids also diffuse just like gases?",
+      "ur": "کیا ٹھوس اور مائع ، گیس کی طرح ڈفیوژ ہوتے ہیں؟"
     },
     {
       "id": 500727,
@@ -19932,13 +20002,13 @@
       "ur": "اگر mol/dm3 سلوشن میں H2SO4 کی مقدار 49g ہو تو اس سلوشن کا ارتکاز کیا ہوگا؟"
     },
     {
-      "id": 500734,
+      "id": 500738,
       "chapter": 15,
       "topic_id": "15.4",
       "source": "Exercise",
       "type": "short",
-      "en": "Why is it important to find the purity of a compound which is used as a medicine?",
-      "ur": "ایسے کمپاؤنڈ کے خالص پن کو جانچنا کیوں ضروری ہے جو بطور دوائی استعمال ہوتا ہو؟"
+      "en": "Write down one method to find out the molecular mass of a compound without knowing its molecular formula.",
+      "ur": "مالیکیولر فارمولا جانے بغیر کسی بھی کمپاؤنڈ کا مالیکیولر ماس جانچنے کا کوئی ایک طریقہ تحریر کریں۔"
     },
     {
       "id": 500730,
@@ -19957,15 +20027,6 @@
       "type": "short",
       "en": "How do you know if a formula is empirical or not?",
       "ur": "ہم کس طرح جان پائیں گے کہ دیا گیا فارمولا ، امپیریکل فارمولا ہے یا نہیں؟"
-    },
-    {
-      "id": 500738,
-      "chapter": 15,
-      "topic_id": "15.5",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Write down one method to find out the molecular mass of a compound without knowing its molecular formula.",
-      "ur": "مالیکیولر فارمولا جانے بغیر کسی بھی کمپاؤنڈ کا مالیکیولر ماس جانچنے کا کوئی ایک طریقہ تحریر کریں۔"
     },
     {
       "id": 500733,
@@ -19995,6 +20056,15 @@
       "ur": "پرسنٹ ایچ پیلڈ کیوں اہم ہے؟"
     },
     {
+      "id": 500734,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is it important to find the purity of a compound which is used as a medicine?",
+      "ur": "ایسے کمپاؤنڈ کے خالص پن کو جانچنا کیوں ضروری ہے جو بطور دوائی استعمال ہوتا ہو؟"
+    },
+    {
       "id": 500793,
       "chapter": 15,
       "topic_id": "15.7",
@@ -20002,69 +20072,6 @@
       "type": "short",
       "en": "Why is the actual yield less than the theoretical yield?",
       "ur": "ایکچوئل پیلڈ تھیور ٹیکل پیلڈ سے کم کیوں ہوتی ہے؟"
-    },
-    {
-      "id": 500836,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "What happens when electricity is passed through an aqueous solution of NaCl?",
-      "ur": "جب NaCl کے ایکوس سلوشن میں سے بجلی گزرتی ہے تو کیا ہوتا ہے؟"
-    },
-    {
-      "id": 500837,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "What are the main objectives of electroplating?",
-      "ur": "الیکٹروپلیٹنگ کے بنیادی مقاصد کیا ہیں؟"
-    },
-    {
-      "id": 500838,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Mention one difference between an electrolytic cell and a galvanic cell.",
-      "ur": "الیکٹر ولیٹک سیل اور گیلو نیک سیل کے درمیان کوئی ایک فرق واضح کریں۔"
-    },
-    {
-      "id": 500839,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Through which electrode, electrons leave the electrolytic cell?",
-      "ur": "کس الیکٹروڈ کے ذریعے، الیکٹرانز ، الیکٹر ولیٹک سیل کو چھوڑ دیتے ہیں؟"
-    },
-    {
-      "id": 500840,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How does an electrolyte conduct electricity?",
-      "ur": "الیکٹرولائٹ کیسے بجلی کا موصل ہے؟"
-    },
-    {
-      "id": 500841,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "What will happen if a strip of Cu metal is dipped in FeSO4 solution?",
-      "ur": "جب Cu کی ایک پٹی کو FeSO4 کے سلوشن میں ڈبویا جائے تو کیا ہوگا ؟"
-    },
-    {
-      "id": 500842,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why fuel cells are regarded as environment friendly?",
-      "ur": "فیول سیلز کو ماحول دوست کیوں گردانا جاتا ہے؟"
     },
     {
       "id": 500844,
@@ -20078,34 +20085,115 @@
     {
       "id": 500845,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.4",
       "source": "Exercise",
       "type": "short",
       "en": "How can H2O2 behave as an oxidizing agent?",
       "ur": "H2O2 آکسیڈائزنگ ایجنٹ کے طور پر کیسے جانا جاتا ہے؟"
     },
     {
+      "id": 500839,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Through which electrode, electrons leave the electrolytic cell?",
+      "ur": "کس الیکٹروڈ کے ذریعے، الیکٹرانز ، الیکٹر ولیٹک سیل کو چھوڑ دیتے ہیں؟"
+    },
+    {
+      "id": 500840,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does an electrolyte conduct electricity?",
+      "ur": "الیکٹرولائٹ کیسے بجلی کا موصل ہے؟"
+    },
+    {
+      "id": 500851,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How can the chemical reactivity of metals be compared by using electrochemical series?",
+      "ur": "الیکٹرو کیمیکل سیریز کا استعمال کرتے ہوئے دھاتوں کی کیمیکل ری ایکٹویٹی کا موازنہ کیسے کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 500836,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What happens when electricity is passed through an aqueous solution of NaCl?",
+      "ur": "جب NaCl کے ایکوس سلوشن میں سے بجلی گزرتی ہے تو کیا ہوتا ہے؟"
+    },
+    {
       "id": 500846,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.7",
       "source": "Exercise",
       "type": "short",
       "en": "Why different products are formed at the electrodes when a dilute and concentrated aqueous solutions of NaCl are electrolysed?",
       "ur": "جب NaCl کے مرتکز اور ڈائیلیوٹ ایکوس سلوشن کو الیکٹرولائز کیا جاتا ہے تو مختلف پروڈکٹس کیوں حاصل ہوتے ہیں؟"
     },
     {
+      "id": 500842,
+      "chapter": 16,
+      "topic_id": "16.13",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why fuel cells are regarded as environment friendly?",
+      "ur": "فیول سیلز کو ماحول دوست کیوں گردانا جاتا ہے؟"
+    },
+    {
+      "id": 500850,
+      "chapter": 16,
+      "topic_id": "16.13",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do fuel cells produce electricity?",
+      "ur": "فیول سیل کس طرح بجلی پیدا کرتا ہے؟"
+    },
+    {
       "id": 500847,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.14",
       "source": "Exercise",
       "type": "short",
       "en": "Why corrosion becomes fast during rainy season?",
       "ur": "برسات میں کو روژن کا عمل کیوں تیز ہو جاتا ہے؟"
     },
     {
+      "id": 500837,
+      "chapter": 16,
+      "topic_id": "16.15",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are the main objectives of electroplating?",
+      "ur": "الیکٹروپلیٹنگ کے بنیادی مقاصد کیا ہیں؟"
+    },
+    {
+      "id": 500841,
+      "chapter": 16,
+      "topic_id": "16.15",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What will happen if a strip of Cu metal is dipped in FeSO4 solution?",
+      "ur": "جب Cu کی ایک پٹی کو FeSO4 کے سلوشن میں ڈبویا جائے تو کیا ہوگا ؟"
+    },
+    {
+      "id": 500838,
+      "chapter": 16,
+      "topic_id": "16.16",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Mention one difference between an electrolytic cell and a galvanic cell.",
+      "ur": "الیکٹر ولیٹک سیل اور گیلو نیک سیل کے درمیان کوئی ایک فرق واضح کریں۔"
+    },
+    {
       "id": 500848,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.16",
       "source": "Exercise",
       "type": "short",
       "en": "If a galvanic cell is established between Cu and Ag, what reactions do you expect at the electrodes?",
@@ -20114,29 +20202,11 @@
     {
       "id": 500849,
       "chapter": 16,
-      "topic_id": "16.1",
+      "topic_id": "16.16",
       "source": "Exercise",
       "type": "short",
       "en": "What is the function of a porous partition in a galvanic cell?",
-      "ur": "گیلونیک (Galvanic) سیل میں پوری پارٹیشن کا کیا کردار ہے؟"
-    },
-    {
-      "id": 500850,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How do fuel cells produce electricity?",
-      "ur": "فیول سیل کس طرح بجلی پیدا کرتا ہے؟"
-    },
-    {
-      "id": 500851,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How can the chemical reactivity of metals be compared by using electrochemical series?",
-      "ur": "الیکٹرو کیمیکل سیریز کا استعمال کرتے ہوئے دھاتوں کی کیمیکل ری ایکٹویٹی کا موازنہ کیسے کیا جا سکتا ہے؟"
+      "ur": "گیلونیک سیل میں پوری پارٹیشن کا کیا کردار ہے؟"
     },
     {
       "id": 501982,
@@ -20148,22 +20218,13 @@
       "ur": "کامیاب کولیژن کسے کہتے ہیں؟"
     },
     {
-      "id": 501983,
+      "id": 501992,
       "chapter": 17,
       "topic_id": "17.1",
       "source": "Exercise",
       "type": "short",
-      "en": "How does increase in the temperature increase the rate of a reaction?",
-      "ur": "درجہ حرارت میں اضافے سے ری ایکشن کے ریٹ میں کس طرح اضافہ ہوتا ہے؟"
-    },
-    {
-      "id": 501984,
-      "chapter": 17,
-      "topic_id": "17.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Define activation energy.",
-      "ur": "ایکٹیویشن انرجی کی تعریف کریں۔"
+      "en": "In what different ways you can increase the successful collisions between the particles of the reactants?",
+      "ur": "آپ کن طریقوں سے ری ایکٹنٹس کے ذرات کے درمیان کامیاب کولیژنز کی تعداد کو بڑھا سکتے ہیں؟"
     },
     {
       "id": 501994,
@@ -20175,13 +20236,22 @@
       "ur": "ہائر انرجی سٹیٹ حاصل کرنے کے لیے مالیکیولز انرجی کہاں سے حاصل کرتے ہیں؟"
     },
     {
-      "id": 501997,
+      "id": 501986,
       "chapter": 17,
-      "topic_id": "17.1",
+      "topic_id": "17.2",
       "source": "Exercise",
       "type": "short",
-      "en": "If you desire to stop a reaction going on at 60oC, what action you will take?",
-      "ur": "60oC پر ہونے والے ری ایکشن کو کیسے روکا جا سکتا ہے؟"
+      "en": "Why a catalyst used in a reaction is preferably taken in the powdered form?",
+      "ur": "ری ایکشن میں استعمال ہونے والے کیٹالسٹ کو ترجیحی طور پر پاؤڈر کی شکل میں کیوں لیا جاتا ہے؟"
+    },
+    {
+      "id": 501987,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is the rate of a reaction often very fast at the beginning of the reaction?",
+      "ur": "ری ایکشن کے آغاز میں ری ایکشن کا ریٹ اکثر تیز کیوں ہوتا ہے؟"
     },
     {
       "id": 501988,
@@ -20202,6 +20272,24 @@
       "ur": "ایک ایسے ری ایکشن کی مثال دیں جس کے دوران ماس بڑھ جاتا ہے۔"
     },
     {
+      "id": 501983,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does increase in the temperature increase the rate of a reaction?",
+      "ur": "درجہ حرارت میں اضافے سے ری ایکشن کے ریٹ میں کس طرح اضافہ ہوتا ہے؟"
+    },
+    {
+      "id": 501984,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define activation energy.",
+      "ur": "ایکٹیویشن انرجی کی تعریف کریں۔"
+    },
+    {
       "id": 501985,
       "chapter": 17,
       "topic_id": "17.4",
@@ -20209,24 +20297,6 @@
       "type": "short",
       "en": "Why does the burning of sulphur proceed slower in air than in pure oxygen?",
       "ur": "خالص آکسیجن کی نسبت ہوا میں سلفر آہستہ کیوں جلتی ہے؟"
-    },
-    {
-      "id": 501986,
-      "chapter": 17,
-      "topic_id": "17.4",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why a catalyst used in a reaction is preferably taken in the powdered form?",
-      "ur": "ری ایکشن میں استعمال ہونے والے کیٹالسٹ کو ترجیحی طور پر پاؤڈر کی شکل میں کیوں لیا جاتا ہے؟"
-    },
-    {
-      "id": 501987,
-      "chapter": 17,
-      "topic_id": "17.4",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why is the rate of a reaction often very fast at the beginning of the reaction?",
-      "ur": "ری ایکشن کے آغاز میں ری ایکشن کا ریٹ اکثر تیز کیوں ہوتا ہے؟"
     },
     {
       "id": 501989,
@@ -20256,24 +20326,6 @@
       "ur": "کسی انزائم کے بطور کیٹالسٹ عمل کرنے کی کوئی سی دو خصوصیات بتائیں۔"
     },
     {
-      "id": 501992,
-      "chapter": 17,
-      "topic_id": "17.4",
-      "source": "Exercise",
-      "type": "short",
-      "en": "In what different ways you can increase the successful collisions between the particles of the reactants?",
-      "ur": "آپ کن طریقوں سے ری ایکٹنٹس کے ذرات کے درمیان کامیاب کولیژنز کی تعداد کو بڑھا سکتے ہیں؟"
-    },
-    {
-      "id": 501995,
-      "chapter": 17,
-      "topic_id": "17.4",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How does the presence of V2O5 catalyst lower the activation energy of the following reaction? <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap17-eq1.svg\" />",
-      "ur": "کیٹالسٹ V2O5 کی موجودگی سے درج ذیل ری ایکشن کی ایکٹیویشن انرجی کس طرح کم ہوتی ہے؟ <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap17-eq1.svg\" />"
-    },
-    {
       "id": 501996,
       "chapter": 17,
       "topic_id": "17.4",
@@ -20283,13 +20335,22 @@
       "ur": "کسی انزائم کے بطور کیٹالسٹ عمل کرنے کی وضاحت کریں۔"
     },
     {
-      "id": 502009,
-      "chapter": 18,
-      "topic_id": "18.1",
+      "id": 501997,
+      "chapter": 17,
+      "topic_id": "17.4",
       "source": "Exercise",
       "type": "short",
-      "en": "Which factors are responsible for the strength of electrostatic forces between ions?",
-      "ur": "کون سے عوامل آئنز کے مابین الیکٹروسٹیٹک فورس کے طاقتور ہونے کے ذمہ دار ہیں؟"
+      "en": "If you desire to stop a reaction going on at 60oC, what action you will take?",
+      "ur": "60oC پر ہونے والے ری ایکشن کو کیسے روکا جا سکتا ہے؟"
+    },
+    {
+      "id": 501995,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does the presence of V2O5 catalyst lower the activation energy of the following reaction? <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap17-eq1.svg\" />",
+      "ur": "کیٹالسٹ V2O5 کی موجودگی سے درج ذیل ری ایکشن کی ایکٹیویشن انرجی کس طرح کم ہوتی ہے؟ <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap17-eq1.svg\" />"
     },
     {
       "id": 502013,
@@ -20301,15 +20362,6 @@
       "ur": "کرسٹل لیٹس کسے کہتے ہیں؟"
     },
     {
-      "id": 502014,
-      "chapter": 18,
-      "topic_id": "18.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why are melting points of ionic salts generally very high?",
-      "ur": "آیونک سالٹس کے میلٹنگ پوائنٹس عام طور پر بہت زیادہ کیوں ہوتے ہیں؟"
-    },
-    {
       "id": 502015,
       "chapter": 18,
       "topic_id": "18.1",
@@ -20319,31 +20371,31 @@
       "ur": "آیونک سالٹس ٹھوس حالت میں کیوں پائے جاتے ہیں؟"
     },
     {
-      "id": 502016,
+      "id": 502014,
       "chapter": 18,
-      "topic_id": "18.1",
+      "topic_id": "18.2",
       "source": "Exercise",
       "type": "short",
-      "en": "How will you prepare calcium sulphate in the laboratory?",
-      "ur": "آپ لیبارٹری میں کیلشیم سلفیٹ کو کیسے تیار کریں گے؟"
+      "en": "Why are melting points of ionic salts generally very high?",
+      "ur": "آیونک سالٹس کے میلٹنگ پوائنٹس عام طور پر بہت زیادہ کیوں ہوتے ہیں؟"
     },
     {
       "id": 502017,
       "chapter": 18,
-      "topic_id": "18.1",
+      "topic_id": "18.2",
       "source": "Exercise",
       "type": "short",
       "en": "Compare the melting points of NaCl and MgCl2.",
       "ur": "NaCl اور MgCl2 کے میلٹنگ پوائنٹس کا موازنہ کریں۔"
     },
     {
-      "id": 502018,
+      "id": 502009,
       "chapter": 18,
-      "topic_id": "18.1",
+      "topic_id": "18.4",
       "source": "Exercise",
       "type": "short",
-      "en": "How would you prepare pure crystals of copper sulfate in the laboratory?",
-      "ur": "آپ کاپر سلفیٹ کے خالص کرسٹلز لیبارٹری میں کس طرح تیار کریں گے؟"
+      "en": "Which factors are responsible for the strength of electrostatic forces between ions?",
+      "ur": "کون سے عوامل آئنز کے مابین الیکٹروسٹیٹک فورس کے طاقتور ہونے کے ذمہ دار ہیں؟"
     },
     {
       "id": 502010,
@@ -20373,6 +20425,24 @@
       "ur": "کوئی سے دو نا حل پذیر کاربونیٹس کے نام بتائیں۔"
     },
     {
+      "id": 502016,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How will you prepare calcium sulphate in the laboratory?",
+      "ur": "آپ لیبارٹری میں کیلشیم سلفیٹ کو کیسے تیار کریں گے؟"
+    },
+    {
+      "id": 502018,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How would you prepare pure crystals of copper sulfate in the laboratory?",
+      "ur": "آپ کاپر سلفیٹ کے خالص کرسٹلز لیبارٹری میں کس طرح تیار کریں گے؟"
+    },
+    {
       "id": 502066,
       "chapter": 19,
       "topic_id": "19.1",
@@ -20391,51 +20461,6 @@
       "ur": "ہائیڈروجن میتھین سے کیسے بنائی جاتی ہے؟"
     },
     {
-      "id": 502068,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Which conditions are used to oxidize SO2 to SO3?",
-      "ur": "SO2 کو SO3 میں آکسیڈائز کرنے کے لیے کون سی کنڈیشن مطلوب ہوتی ہیں؟"
-    },
-    {
-      "id": 502069,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why CO2 is called an acidic oxide while CO is called a neutral oxide?",
-      "ur": "CO2 کو ایسڈک آکسائیڈ جبکہ CO کو نیوٹرل آکسائیڈ کیوں پکارا جاتا ہے؟"
-    },
-    {
-      "id": 502070,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How do magnesium and calcium differ with each other towards their reactions with water?",
-      "ur": "کیلشیم اور میگنیشیم پانی کے ساتھ اپنے ری ایکشن میں ایک دوسرے سے کیسے مختلف ہیں؟"
-    },
-    {
-      "id": 502071,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How are the reactivities of metals determined?",
-      "ur": "دھاتوں کی ری ایکشن انگیزی (Reactivities) کا تعین کیسے کیا جاتا ہے؟"
-    },
-    {
-      "id": 502072,
-      "chapter": 19,
-      "topic_id": "19.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Which secondary pollutants are produced by oxides of nitrogen?",
-      "ur": "نائٹروجن کے آکسائیڈز سے کون سے ثانوی آلودہ ذرات پیدا ہوتے ہیں؟"
-    },
-    {
       "id": 502073,
       "chapter": 19,
       "topic_id": "19.1",
@@ -20445,40 +20470,85 @@
       "ur": "امونیا کو ایک اہم کیمیکل کیوں سمجھا جاتا ہے؟"
     },
     {
+      "id": 502068,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which conditions are used to oxidize SO2 to SO3?",
+      "ur": "SO2 کو SO3 میں آکسیڈائز کرنے کے لیے کون سی کنڈیشن مطلوب ہوتی ہیں؟"
+    },
+    {
       "id": 502074,
       "chapter": 19,
-      "topic_id": "19.1",
+      "topic_id": "19.2",
       "source": "Exercise",
       "type": "short",
       "en": "How SO2 present in the atmosphere is converted to SO3?",
       "ur": "ہوا میں موجود SO2 کیسے SO3 میں تبدیل ہوتی ہے؟"
     },
     {
-      "id": 502075,
+      "id": 502077,
       "chapter": 19,
-      "topic_id": "19.1",
+      "topic_id": "19.2",
       "source": "Exercise",
       "type": "short",
-      "en": "The burning of fossil fuels in a car engine is responsible for the production of oxides of nitrogen. Explain.",
-      "ur": "کار کے انجن میں فوسل فیولز کا جلنا نائٹروجن کے آکسائیڈز بناتا ہے۔ وضاحت کریں۔"
+      "en": "How fossil fuels produce SO2?",
+      "ur": "فوسل فیولز SO2 کیسے پیدا کرتے ہیں؟"
+    },
+    {
+      "id": 502069,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why CO2 is called an acidic oxide while CO is called a neutral oxide?",
+      "ur": "CO2 کو ایسڈک آکسائیڈ جبکہ CO کو نیوٹرل آکسائیڈ کیوں پکارا جاتا ہے؟"
+    },
+    {
+      "id": 502070,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do magnesium and calcium differ with each other towards their reactions with water?",
+      "ur": "کیلشیم اور میگنیشیم پانی کے ساتھ اپنے ری ایکشن میں ایک دوسرے سے کیسے مختلف ہیں؟"
+    },
+    {
+      "id": 502071,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How are the reactivities of metals determined?",
+      "ur": "دھاتوں کی ری ایکشن انگیزی کا تعین کیسے کیا جاتا ہے؟"
     },
     {
       "id": 502076,
       "chapter": 19,
-      "topic_id": "19.1",
+      "topic_id": "19.5",
       "source": "Exercise",
       "type": "short",
       "en": "The metals present at the top of the reactivity series are regarded as more reactive than those present at the bottom. Comment on this statement.",
       "ur": "ری ایکٹیویٹی سیریز کے اوپر والے حصے میں موجود دھاتیں نچلے حصے میں موجود دھاتوں سے زیادہ ری ایکٹو ہوتی ہیں۔ اس بیان پر تبصرہ کریں۔"
     },
     {
-      "id": 502077,
+      "id": 502072,
       "chapter": 19,
-      "topic_id": "19.1",
+      "topic_id": "19.6",
       "source": "Exercise",
       "type": "short",
-      "en": "How fossil fuels produce SO2?",
-      "ur": "فوسل فیولز SO2 کیسے پیدا کرتے ہیں؟"
+      "en": "Which secondary pollutants are produced by oxides of nitrogen?",
+      "ur": "نائٹروجن کے آکسائیڈز سے کون سے ثانوی آلودہ ذرات پیدا ہوتے ہیں؟"
+    },
+    {
+      "id": 502075,
+      "chapter": 19,
+      "topic_id": "19.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "The burning of fossil fuels in a car engine is responsible for the production of oxides of nitrogen. Explain.",
+      "ur": "کار کے انجن میں فوسل فیولز کا جلنا نائٹروجن کے آکسائیڈز بناتا ہے۔ وضاحت کریں۔"
     },
     {
       "id": 502129,
@@ -20517,15 +20587,6 @@
       "ur": "پانی میں موجود فائدہ مند اور نقصان دہ اجزا کے نام بتائیں۔"
     },
     {
-      "id": 502134,
-      "chapter": 20,
-      "topic_id": "20.4",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How would you remove harmful bacteria and other microbes present in water?",
-      "ur": "پانی میں موجود نقصان دہ بیکٹیریا اور دیگر جراثیموں کو کیسے تلف کیا جاتا ہے؟"
-    },
-    {
       "id": 502141,
       "chapter": 20,
       "topic_id": "20.4",
@@ -20535,13 +20596,13 @@
       "ur": "روزمرہ زندگی میں پلاسٹکس کے استعمال کے منفی اثرات بیان کریں۔"
     },
     {
-      "id": 502143,
+      "id": 502134,
       "chapter": 20,
-      "topic_id": "20.4",
+      "topic_id": "20.5",
       "source": "Exercise",
       "type": "short",
-      "en": "Explain one method to remove dissolved impurities present in water.",
-      "ur": "پانی میں موجود حل شدہ کثافتوں کو دور کرنے کا ایک طریقہ بتائیں۔"
+      "en": "How would you remove harmful bacteria and other microbes present in water?",
+      "ur": "پانی میں موجود نقصان دہ بیکٹیریا اور دیگر جراثیموں کو کیسے تلف کیا جاتا ہے؟"
     },
     {
       "id": 502135,
@@ -20551,6 +20612,15 @@
       "type": "short",
       "en": "What is the difference between sedimentation and filtration?",
       "ur": "سیڈیمینٹیشن اور فلٹریشن میں کیا فرق ہے؟"
+    },
+    {
+      "id": 502143,
+      "chapter": 20,
+      "topic_id": "20.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Explain one method to remove dissolved impurities present in water.",
+      "ur": "پانی میں موجود حل شدہ کثافتوں کو دور کرنے کا ایک طریقہ بتائیں۔"
     },
     {
       "id": 502136,
@@ -20598,13 +20668,13 @@
       "ur": "یوریا کو اچھی نائٹروجن کھاد کیوں سمجھا جاتا ہے؟"
     },
     {
-      "id": 502214,
+      "id": 502201,
       "chapter": 21,
       "topic_id": "21.1",
       "source": "Exercise",
       "type": "short",
-      "en": "How are the properties of 2-methylpropane different from n-butane, both containing the same number of carbon atoms?",
-      "ur": "2-میتھائل پروپین کی خصوصیات این-بیوٹین سے کس طرح مختلف ہیں، جبکہ دونوں ایک جیسے کاربن ایٹمز پر مشتمل ہیں؟"
+      "en": "What is the difference between saturated and unsaturated hydrocarbons?",
+      "ur": "سیچوریٹڈ اور ان سیچوریٹڈ ہائیڈرو کاربنز میں کیا فرق ہے؟"
     },
     {
       "id": 502202,
@@ -20614,24 +20684,6 @@
       "type": "short",
       "en": "Write down the structural formula of Butan-2-ol.",
       "ur": "بیوٹین-2-اول کا سٹرکچرل فارمولا تحریر کریں۔"
-    },
-    {
-      "id": 502216,
-      "chapter": 21,
-      "topic_id": "21.2",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Write down the structural formulae of isomers shown by saturated hydrocarbon containing five carbon atoms.",
-      "ur": "پانچ کاربن ایٹمز پر مشتمل سیچوریٹڈ ہائیڈروکاربن کے سٹرکچرل آئسومرز کے سٹرکچرل فارمولاز لکھیں۔"
-    },
-    {
-      "id": 502217,
-      "chapter": 21,
-      "topic_id": "21.2",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Write down the structural formulae of the isomers shown by butene.",
-      "ur": "بیوٹین کے آئسومرز کا سٹرکچرل فارمولا تحریر کریں۔"
     },
     {
       "id": 502211,
@@ -20652,6 +20704,33 @@
       "ur": "سٹرکچرل آئسومرزم کی تعریف کریں۔"
     },
     {
+      "id": 502206,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give IUPAC name to CH3 – CH2 – CH2 – CH3",
+      "ur": "CH3 – CH2 – CH2 – CH3 کا IUPAC نام تجویز کریں۔"
+    },
+    {
+      "id": 502216,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write down the structural formulae of isomers shown by saturated hydrocarbon containing five carbon atoms.",
+      "ur": "پانچ کاربن ایٹمز پر مشتمل سیچوریٹڈ ہائیڈروکاربن کے سٹرکچرل آئسومرز کے سٹرکچرل فارمولاز لکھیں۔"
+    },
+    {
+      "id": 502217,
+      "chapter": 21,
+      "topic_id": "21.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write down the structural formulae of the isomers shown by butene.",
+      "ur": "بیوٹین کے آئسومرز کا سٹرکچرل فارمولا تحریر کریں۔"
+    },
+    {
       "id": 502203,
       "chapter": 21,
       "topic_id": "21.5",
@@ -20661,13 +20740,13 @@
       "ur": "ایتھائل امائن کو آرگینک کمپاؤنڈ کیوں کہتے ہیں؟"
     },
     {
-      "id": 502209,
+      "id": 502204,
       "chapter": 21,
       "topic_id": "21.5",
       "source": "Exercise",
       "type": "short",
-      "en": "What is common in carboxyl group, amide functional group and ester functional group?",
-      "ur": "کاربوکسل گروپ، امائڈ فنکشنل گروپ اور ایسٹر فنکشنل گروپ میں کیا مشترک ہے؟"
+      "en": "Write down the formula of an ester called ethyl methanoate.",
+      "ur": "ایتھائل میتھانوایٹ کا فارمولا تحریر کریں۔"
     },
     {
       "id": 502219,
@@ -20679,58 +20758,22 @@
       "ur": "ایلڈیہائیڈ، کیٹون اور کاربوکسلک ایسڈ میں پائے جانے والے فنکشنل گروپ کے درمیان فرق کی وضاحت کریں۔"
     },
     {
-      "id": 502201,
+      "id": 502209,
       "chapter": 21,
       "topic_id": "21.6",
       "source": "Exercise",
       "type": "short",
-      "en": "What is the difference between saturated and unsaturated hydrocarbons?",
-      "ur": "سیچوریٹڈ اور ان سیچوریٹڈ ہائیڈرو کاربنز میں کیا فرق ہے؟"
+      "en": "What is common in carboxyl group, amide functional group and ester functional group?",
+      "ur": "کاربوکسل گروپ، امائڈ فنکشنل گروپ اور ایسٹر فنکشنل گروپ میں کیا مشترک ہے؟"
     },
     {
-      "id": 502204,
+      "id": 502214,
       "chapter": 21,
       "topic_id": "21.6",
       "source": "Exercise",
       "type": "short",
-      "en": "Write down the formula of an ester called ethyl methanoate.",
-      "ur": "ایتھائل میتھانوایٹ کا فارمولا تحریر کریں۔"
-    },
-    {
-      "id": 502206,
-      "chapter": 21,
-      "topic_id": "21.6",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Give IUPAC name to CH3 – CH2 – CH2 – CH3",
-      "ur": "CH3 – CH2 – CH2 – CH3 کا IUPAC نام تجویز کریں۔"
-    },
-    {
-      "id": 502241,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Give two examples of addition reactions.",
-      "ur": "ایڈیشن ری ایکشن کی دو مثالیں بیان کریں۔"
-    },
-    {
-      "id": 502242,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Give the names of the compounds obtained from coal tar and petroleum.",
-      "ur": "پیٹرولیم اور کول تار سے حاصل ہونے والے کمپاؤنڈز کے نام تحریر کریں۔"
-    },
-    {
-      "id": 502244,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How ethene is oxidized by cold aqueous solution of potassium permanganate.",
-      "ur": "پوٹاشیم پرمینگنیٹ کے ٹھنڈے آبی محلول سے ایتھین کو کیسے آکسیڈائز کیا جاتا ہے؟"
+      "en": "How are the properties of 2-methylpropane different from n-butane, both containing the same number of carbon atoms?",
+      "ur": "2-میتھائل پروپین کی خصوصیات این-بیوٹین سے کس طرح مختلف ہیں، جبکہ دونوں ایک جیسے کاربن ایٹمز پر مشتمل ہیں؟"
     },
     {
       "id": 502245,
@@ -20742,24 +20785,6 @@
       "ur": "ایڈیشن ری ایکشن اور ایلیمینیشن ری ایکشن میں فرق واضح کریں۔"
     },
     {
-      "id": 502246,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Name the starting materials used to generate oxyacetylene flame.",
-      "ur": "آکسی ایسیٹیلین شعلہ پیدا کرنے کے لیے استعمال ہونے والے کمپاؤنڈ کا نام بتائیں۔"
-    },
-    {
-      "id": 502247,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How can an alkene be identified?",
-      "ur": "الکین کو کیسے شناخت کیا جاتا ہے؟"
-    },
-    {
       "id": 502248,
       "chapter": 22,
       "topic_id": "22.1",
@@ -20769,27 +20794,45 @@
       "ur": "ڈی ہائیڈریشن اور ڈی ہائیڈروہیلوجینیشن کی اصطلاحات میں کیا فرق ہے؟"
     },
     {
+      "id": 502241,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give two examples of addition reactions.",
+      "ur": "ایڈیشن ری ایکشن کی دو مثالیں بیان کریں۔"
+    },
+    {
+      "id": 502244,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How ethene is oxidized by cold aqueous solution of potassium permanganate.",
+      "ur": "پوٹاشیم پرمینگنیٹ کے ٹھنڈے آبی محلول سے ایتھین کو کیسے آکسیڈائز کیا جاتا ہے؟"
+    },
+    {
+      "id": 502247,
+      "chapter": 22,
+      "topic_id": "22.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How can an alkene be identified?",
+      "ur": "الکین کو کیسے شناخت کیا جاتا ہے؟"
+    },
+    {
       "id": 502249,
       "chapter": 22,
-      "topic_id": "22.1",
+      "topic_id": "22.2",
       "source": "Exercise",
       "type": "short",
       "en": "You have got two test tubes A and B containing a saturated and unsaturated compound (Alkene). How will you identify the two?",
       "ur": "آپ کے پاس دو ٹیسٹ ٹیوبز A اور B ہیں جن میں سے ایک میں سیچوریٹڈ اور دوسری میں ان سیچوریٹڈ کمپاؤنڈ (الکین) ہے۔ ان دونوں کی شناخت کیسے کریں گے؟"
     },
     {
-      "id": 502251,
-      "chapter": 22,
-      "topic_id": "22.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why is oxyacetylene flame so hot?",
-      "ur": "آکسی ایسیٹیلین شعلہ بہت گرم کیوں ہوتا ہے؟"
-    },
-    {
       "id": 502252,
       "chapter": 22,
-      "topic_id": "22.1",
+      "topic_id": "22.2",
       "source": "Exercise",
       "type": "short",
       "en": "Do you expect ethyne to decolourize a cold solution of KMnO4?",
@@ -20798,38 +20841,38 @@
     {
       "id": 502253,
       "chapter": 22,
-      "topic_id": "22.1",
+      "topic_id": "22.2",
       "source": "Exercise",
       "type": "short",
       "en": "How do chlorine and hydrogen chloride add to ethene?",
       "ur": "کلورین اور ہائیڈروجن کلورائیڈ ایتھین کے ساتھ کیسے ایڈیشن ری ایکشن دیتی ہیں؟"
     },
     {
-      "id": 502285,
-      "chapter": 23,
-      "topic_id": "23.1",
+      "id": 502246,
+      "chapter": 22,
+      "topic_id": "22.3",
       "source": "Exercise",
       "type": "short",
-      "en": "Give two advantages of burning of alcohols over the burning of fossil fuel?",
-      "ur": "فوسل فیول جلانے کے مقابلے میں الکوحل جلانے کے دو فائدے بتائیں۔"
+      "en": "Name the starting materials used to generate oxyacetylene flame.",
+      "ur": "آکسی ایسیٹیلین شعلہ پیدا کرنے کے لیے استعمال ہونے والے کمپاؤنڈ کا نام بتائیں۔"
     },
     {
-      "id": 502288,
-      "chapter": 23,
-      "topic_id": "23.1",
+      "id": 502251,
+      "chapter": 22,
+      "topic_id": "22.3",
       "source": "Exercise",
       "type": "short",
-      "en": "Which properties of ethyl alcohol make it useful for cosmetic industry?",
-      "ur": "ایتھائل الکوحل کی کون سی خصوصیات اسے کاسمیٹک انڈسٹری کے لیے موزوں بناتی ہیں؟"
+      "en": "Why is oxyacetylene flame so hot?",
+      "ur": "آکسی ایسیٹیلین شعلہ بہت گرم کیوں ہوتا ہے؟"
     },
     {
-      "id": 502290,
-      "chapter": 23,
-      "topic_id": "23.1",
+      "id": 502242,
+      "chapter": 22,
+      "topic_id": "22.4",
       "source": "Exercise",
       "type": "short",
-      "en": "How is ethyl alcohol important for pharmaceutical industry?",
-      "ur": "فارماسیوٹیکل انڈسٹری کے لیے ایتھائل الکوحل کیسے اہم ہے؟"
+      "en": "Give the names of the compounds obtained from coal tar and petroleum.",
+      "ur": "پیٹرولیم اور کول تار سے حاصل ہونے والے کمپاؤنڈز کے نام تحریر کریں۔"
     },
     {
       "id": 502292,
@@ -20870,20 +20913,38 @@
     {
       "id": 502303,
       "chapter": 23,
-      "topic_id": "23.1",
+      "topic_id": "23.2",
       "source": "Exercise",
       "type": "short",
       "en": "How do properties of ethyl alcohol help us to utilize it as fuel?",
       "ur": "ایتھائل الکوحل کی خصوصیات اسے بطور ایندھن استعمال کرنے میں کیسے معاون ہیں؟"
     },
     {
-      "id": 502338,
-      "chapter": 24,
-      "topic_id": "24.1",
+      "id": 502285,
+      "chapter": 23,
+      "topic_id": "23.3",
       "source": "Exercise",
       "type": "short",
-      "en": "What is an esterification reaction?",
-      "ur": "ایسٹیریفیکیشن ری ایکشن کسے کہتے ہیں؟"
+      "en": "Give two advantages of burning of alcohols over the burning of fossil fuel?",
+      "ur": "فوسل فیول جلانے کے مقابلے میں الکوحل جلانے کے دو فائدے بتائیں۔"
+    },
+    {
+      "id": 502288,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which properties of ethyl alcohol make it useful for cosmetic industry?",
+      "ur": "ایتھائل الکوحل کی کون سی خصوصیات اسے کاسمیٹک انڈسٹری کے لیے موزوں بناتی ہیں؟"
+    },
+    {
+      "id": 502290,
+      "chapter": 23,
+      "topic_id": "23.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How is ethyl alcohol important for pharmaceutical industry?",
+      "ur": "فارماسیوٹیکل انڈسٹری کے لیے ایتھائل الکوحل کیسے اہم ہے؟"
     },
     {
       "id": 502339,
@@ -20904,72 +20965,81 @@
       "ur": "ایتھانول سے ایسٹک ایسڈ کی تیاری میں فرمنٹیشن کے دوران وافر مقدار میں آکسیجن کیوں فراہم کی جاتی ہے؟"
     },
     {
-      "id": 502342,
-      "chapter": 24,
-      "topic_id": "24.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "What is the role of carboxylic acids in the preparation of beverages?",
-      "ur": "مشروبات کی تیاری میں کاربوکسلک ایسڈ کے کردار کی وضاحت کریں۔"
-    },
-    {
-      "id": 502343,
-      "chapter": 24,
-      "topic_id": "24.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Give a practical example in which an acid or an ester is used as a flavouring agent.",
-      "ur": "ایک عملی مثال بیان کریں جس میں کسی ایسڈ یا ایسٹر کو بطور فلیورنگ ایجنٹ (flavouring agent) کے استعمال کیا جاتا ہے۔"
-    },
-    {
-      "id": 502344,
-      "chapter": 24,
-      "topic_id": "24.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Which carboxylic acids are very oftenly used as flavour enhancers?",
-      "ur": "کون سے کاربوکسلک ایسڈز ذائقہ بہتر بنانے کے لیے استعمال ہوتے ہیں؟"
-    },
-    {
-      "id": 502345,
-      "chapter": 24,
-      "topic_id": "24.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Which property of acetic acid does make it suitable to act as preservative in pickle?",
-      "ur": "ایسٹک ایسڈ کی کون سی خاصیت اسے اچار محفوظ کرنے کے لیے موزوں بناتی ہے؟"
-    },
-    {
-      "id": 502346,
-      "chapter": 24,
-      "topic_id": "24.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How does ethanol react with propanoic acid?",
-      "ur": "ایتھانول، پروپیونک ایسڈ کے ساتھ کیسے ری ایکشن کرتا ہے؟"
-    },
-    {
       "id": 502348,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.2",
       "source": "Exercise",
       "type": "short",
       "en": "How does acetic acid react with Mg and MgCO3?",
       "ur": "ایسٹک ایسڈ،Mg اور MgCO3 کے ساتھ کیسے ری ایکشن کرتا ہے؟"
     },
     {
+      "id": 502338,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is an esterification reaction?",
+      "ur": "ایسٹیریفیکیشن ری ایکشن کسے کہتے ہیں؟"
+    },
+    {
+      "id": 502346,
+      "chapter": 24,
+      "topic_id": "24.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does ethanol react with propanoic acid?",
+      "ur": "ایتھانول، پروپیونک ایسڈ کے ساتھ کیسے ری ایکشن کرتا ہے؟"
+    },
+    {
+      "id": 502342,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the role of carboxylic acids in the preparation of beverages?",
+      "ur": "مشروبات کی تیاری میں کاربوکسلک ایسڈ کے کردار کی وضاحت کریں۔"
+    },
+    {
+      "id": 502344,
+      "chapter": 24,
+      "topic_id": "24.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which carboxylic acids are very oftenly used as flavour enhancers?",
+      "ur": "کون سے کاربوکسلک ایسڈز ذائقہ بہتر بنانے کے لیے استعمال ہوتے ہیں؟"
+    },
+    {
       "id": 502349,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.4",
       "source": "Exercise",
       "type": "short",
       "en": "How carboxylic acids are used as solvents?",
       "ur": "کاربوکسلک ایسڈز بطور سالوینٹ کیسے استعمال ہوتے ہیں؟"
     },
     {
+      "id": 502343,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give a practical example in which an acid or an ester is used as a flavouring agent.",
+      "ur": "ایک عملی مثال بیان کریں جس میں کسی ایسڈ یا ایسٹر کو بطور فلیورنگ ایجنٹ کے استعمال کیا جاتا ہے۔"
+    },
+    {
+      "id": 502345,
+      "chapter": 24,
+      "topic_id": "24.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which property of acetic acid does make it suitable to act as preservative in pickle?",
+      "ur": "ایسٹک ایسڈ کی کون سی خاصیت اسے اچار محفوظ کرنے کے لیے موزوں بناتی ہے؟"
+    },
+    {
       "id": 502350,
       "chapter": 24,
-      "topic_id": "24.1",
+      "topic_id": "24.5",
       "source": "Exercise",
       "type": "short",
       "en": "How carboxylic acid are used in daily life?",
@@ -20978,101 +21048,101 @@
     {
       "id": 502367,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.2",
       "source": "Exercise",
       "type": "short",
       "en": "What is the difference between glucose and fructose?",
       "ur": "گلوکوز اور فرکٹوز کے درمیان کیا فرق ہے؟"
     },
     {
+      "id": 502378,
+      "chapter": 25,
+      "topic_id": "25.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write down the names of two polymeric carbohydrates.",
+      "ur": "دو پولیمرک کاربوہائیڈریٹس کے نام تحریر کریں۔"
+    },
+    {
       "id": 502368,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.3",
       "source": "Exercise",
       "type": "short",
       "en": "Give two examples of denaturation of proteins.",
       "ur": "پروٹین کی ڈی نیچریشن کے لیے کوئی سی دو مثالیں بیان کریں۔"
     },
     {
-      "id": 502369,
-      "chapter": 25,
-      "topic_id": "25.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "What are the sources of vitamin D?",
-      "ur": "وٹامن ڈی کے ذرائع بیان کریں۔"
-    },
-    {
       "id": 502370,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.3",
       "source": "Exercise",
       "type": "short",
       "en": "What is the role of enzymes in our body?",
       "ur": "ہمارے جسم میں انزائمز کیا کردار ادا کرتے ہیں؟"
     },
     {
-      "id": 502371,
-      "chapter": 25,
-      "topic_id": "25.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Which commercial products are obtained from oils and fats?",
-      "ur": "تیل اور چربی سے کون سی صنعتی مصنوعات حاصل ہوتی ہیں؟"
-    },
-    {
-      "id": 502373,
-      "chapter": 25,
-      "topic_id": "25.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Which vitamin helps in blood clotting?",
-      "ur": "خون جمانے میں کون سا وٹامن مددگار ثابت ہوتا ہے؟"
-    },
-    {
-      "id": 502374,
-      "chapter": 25,
-      "topic_id": "25.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "What is the function of DNA?",
-      "ur": "ڈی-این-اے (DNA) کا کیا کردار ہے؟"
-    },
-    {
       "id": 502375,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.3",
       "source": "Exercise",
       "type": "short",
       "en": "Write down three important functions played by of proteins in our body.",
       "ur": "ہمارے جسم میں پروٹینز کے ذریعے ادا کیے جانے والے تین اہم کام لکھیں۔"
     },
     {
+      "id": 502371,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which commercial products are obtained from oils and fats?",
+      "ur": "تیل اور چربی سے کون سی صنعتی مصنوعات حاصل ہوتی ہیں؟"
+    },
+    {
       "id": 502376,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.4",
       "source": "Exercise",
       "type": "short",
       "en": "Fatty acids serve as building blocks of lipids just like amino acids are for proteins. Comment on this statement.",
       "ur": "فیٹی ایسڈز، لپڈز کے لیے تعمیراتی بلاکس کا کام بالکل ایسے کرتے ہیں، جیسے امائنو ایسڈز، پروٹینز کے لیے۔ اس حقیقت پر تبصرہ کریں۔"
     },
     {
+      "id": 502369,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are the sources of vitamin D?",
+      "ur": "وٹامن ڈی کے ذرائع بیان کریں۔"
+    },
+    {
+      "id": 502373,
+      "chapter": 25,
+      "topic_id": "25.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which vitamin helps in blood clotting?",
+      "ur": "خون جمانے میں کون سا وٹامن مددگار ثابت ہوتا ہے؟"
+    },
+    {
       "id": 502377,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.5",
       "source": "Exercise",
       "type": "short",
       "en": "Write down about the sources of vitamin C. Which diseases are caused by its deficiency?",
       "ur": "وٹامن ڈی کے ذرائع بیان کریں۔ اس کی کمی سے کون سی بیماریاں پیدا ہوتی ہیں؟"
     },
     {
-      "id": 502378,
+      "id": 502374,
       "chapter": 25,
-      "topic_id": "25.1",
+      "topic_id": "25.6",
       "source": "Exercise",
       "type": "short",
-      "en": "Write down the names of two polymeric carbohydrates.",
-      "ur": "دو پولیمرک کاربوہائیڈریٹس کے نام تحریر کریں۔"
+      "en": "What is the function of DNA?",
+      "ur": "ڈی-این-اے کا کیا کردار ہے؟"
     },
     {
       "id": 502396,
@@ -21084,24 +21154,6 @@
       "ur": "ایڈیشن پولیمر اور کنڈنسیشن پولیمر کی دو دو مثالیں لکھیں۔"
     },
     {
-      "id": 502397,
-      "chapter": 26,
-      "topic_id": "26.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "How polymers are useful for us?",
-      "ur": "پولیمر ہمارے لیے کس طرح فائدہ مند ہیں؟"
-    },
-    {
-      "id": 502400,
-      "chapter": 26,
-      "topic_id": "26.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Are natural polymers hazardous for the environment? Explain why?",
-      "ur": "کیا قدرتی پولیمر ماحول کے لیے نقصان دہ ہیں؟ وضاحت سے وجہ لکھیں۔"
-    },
-    {
       "id": 502401,
       "chapter": 26,
       "topic_id": "26.1",
@@ -21109,24 +21161,6 @@
       "type": "short",
       "en": "Draw the structures of the following polymers. (a) Polypropylene (b) Polystyrene",
       "ur": "درج ذیل پولیمرز کے سٹرکچر لکھیں۔ (الف) پولی پروپائلین (Polypropylene) (ب) پولی سٹائرین (Polystrene)"
-    },
-    {
-      "id": 502402,
-      "chapter": 26,
-      "topic_id": "26.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why is it dangerous to burn discarded articles made of plastics?",
-      "ur": "پلاسٹک سے بنی فالتو اشیا کو جلانا کیوں نقصان دہ ہے؟"
-    },
-    {
-      "id": 502403,
-      "chapter": 26,
-      "topic_id": "26.1",
-      "source": "Exercise",
-      "type": "short",
-      "en": "Why is it not advisable to dump discarded synthetic articles in oceans?",
-      "ur": "کیوں ضائع شدہ مصنوعی (پلاسٹک کی) اشیا کو سمندر میں تلف کرنا مناسب نہیں ہے؟"
     },
     {
       "id": 502405,
@@ -21147,6 +21181,15 @@
       "ur": "درج ذیل ایڈیشن پولیمر سے مونومرز اخذ کریں۔ (الف) <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap26-eq6.svg\" /> (ب) <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap26-eq7.svg\" />"
     },
     {
+      "id": 502397,
+      "chapter": 26,
+      "topic_id": "26.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How polymers are useful for us?",
+      "ur": "پولیمر ہمارے لیے کس طرح فائدہ مند ہیں؟"
+    },
+    {
       "id": 502399,
       "chapter": 26,
       "topic_id": "26.4",
@@ -21154,6 +21197,33 @@
       "type": "short",
       "en": "How synthetic fibers are different from natural fibers?",
       "ur": "مصنوعی ریشے، قدرتی ریشے سے کس طرح مختلف ہیں؟"
+    },
+    {
+      "id": 502400,
+      "chapter": 26,
+      "topic_id": "26.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Are natural polymers hazardous for the environment? Explain why?",
+      "ur": "کیا قدرتی پولیمر ماحول کے لیے نقصان دہ ہیں؟ وضاحت سے وجہ لکھیں۔"
+    },
+    {
+      "id": 502402,
+      "chapter": 26,
+      "topic_id": "26.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is it dangerous to burn discarded articles made of plastics?",
+      "ur": "پلاسٹک سے بنی فالتو اشیا کو جلانا کیوں نقصان دہ ہے؟"
+    },
+    {
+      "id": 502403,
+      "chapter": 26,
+      "topic_id": "26.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is it not advisable to dump discarded synthetic articles in oceans?",
+      "ur": "کیوں ضائع شدہ مصنوعی (پلاسٹک کی) اشیا کو سمندر میں تلف کرنا مناسب نہیں ہے؟"
     },
     {
       "id": 506558,
@@ -31920,15 +31990,6 @@
       "ur": "درج ذیل کمپاؤنڈز میں سے نشان زدہ ایلیمنٹ کا آکسیڈیشن نمبر معلوم کریں۔ <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap16-eq2.svg\" />"
     },
     {
-      "id": 500856,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "Write down the formulae of the following compounds using ionic charges: Sodium hypochlorite, calcium oxalate, ammonium phosphate, and calcium nitrite.",
-      "ur": "آئنک چارجز کا استعمال کرتے ہوئے درج ذیل کمپاؤنڈ ز کا فارمولا تحریر کریں: سوڈیم ہائیپوکلورائیٹ کیلشیم آگزالیٹ، امونیم فاسفیٹ کیلشیم نائٹریٹ۔"
-    },
-    {
       "id": 500853,
       "chapter": 16,
       "topic_id": "16.2",
@@ -31936,6 +31997,15 @@
       "type": "long",
       "en": "Explain with examples how the formula of ionic compound can be written using oxidation numbers.",
       "ur": "آکسیڈیشن نمبر کا استعمال کرتے ہوئے آئنک کمپاؤنڈ کا فارمولا کسی طرح معلوم کیا جا سکتا ہے؟ مثال سے واضح کریں۔"
+    },
+    {
+      "id": 500856,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Exercise",
+      "type": "long",
+      "en": "Write down the formulae of the following compounds using ionic charges: Sodium hypochlorite, calcium oxalate, ammonium phosphate, and calcium nitrite.",
+      "ur": "آئنک چارجز کا استعمال کرتے ہوئے درج ذیل کمپاؤنڈ ز کا فارمولا تحریر کریں: سوڈیم ہائیپوکلورائیٹ کیلشیم آگزالیٹ، امونیم فاسفیٹ کیلشیم نائٹریٹ۔"
     },
     {
       "id": 500866,
@@ -32028,15 +32098,6 @@
       "ur": "سوڈیم کلورائیڈ کرسٹل کی تشکیل کی وضاحت کریں۔"
     },
     {
-      "id": 502021,
-      "chapter": 18,
-      "topic_id": "18.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "How are the following salts prepared? K2SO4 , CuCl2 , CaCl2",
-      "ur": "مندرجہ ذیل سالٹس کیسے تیار کیے جاتے ہیں؟ K2SO4 , CuCl2 , CaCl2"
-    },
-    {
       "id": 502024,
       "chapter": 18,
       "topic_id": "18.4",
@@ -32053,6 +32114,15 @@
       "type": "long",
       "en": "Explain the methods of preparation of two soluble salts.",
       "ur": "دو حل پذیر سالٹس کی تیاری کا طریقہ بیان کریں۔"
+    },
+    {
+      "id": 502021,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Exercise",
+      "type": "long",
+      "en": "How are the following salts prepared? K2SO4 , CuCl2 , CaCl2",
+      "ur": "مندرجہ ذیل سالٹس کیسے تیار کیے جاتے ہیں؟ K2SO4 , CuCl2 , CaCl2"
     },
     {
       "id": 502078,
@@ -32084,7 +32154,7 @@
     {
       "id": 502081,
       "chapter": 19,
-      "topic_id": "19.4",
+      "topic_id": "19.5",
       "source": "Exercise",
       "type": "long",
       "en": "Differentiate between first and second group metals based on their reactivities with oxygen and water.",
@@ -32154,15 +32224,6 @@
       "ur": "آرگینک کمپاؤنڈ کسے کہتے ہیں؟ ان میں موجود کاربن چین کی نوعیت کی بنیاد پر درجہ بندی کیسے کی جاتی ہے؟"
     },
     {
-      "id": 502225,
-      "chapter": 21,
-      "topic_id": "21.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "Name the following compounds. (a) CH3 – CH2 – CH2OH (b) CH3 – CH2 – CHO (c) CH3 – CH2 – CH2 – COOH (d) CH3 – CH2 – CO – O – CH3",
-      "ur": "درج ذیل کمپاؤنڈز کے نام تحریر کریں۔ (الف) CH3 – CH2 – CH2OH (ب) CH3 – CH2 – CHO (ج) CH3 – CH2 – CH2 – COOH (د) CH3 – CH2 – CO – O – CH3"
-    },
-    {
       "id": 502221,
       "chapter": 21,
       "topic_id": "21.2",
@@ -32179,6 +32240,15 @@
       "type": "long",
       "en": "Write down five characteristics of a homologous series.",
       "ur": "ہومولوگس سیریز کی پانچ خصوصیات تحریر کریں۔"
+    },
+    {
+      "id": 502225,
+      "chapter": 21,
+      "topic_id": "21.5",
+      "source": "Exercise",
+      "type": "long",
+      "en": "Name the following compounds. (a) CH3 – CH2 – CH2OH (b) CH3 – CH2 – CHO (c) CH3 – CH2 – CH2 – COOH (d) CH3 – CH2 – CO – O – CH3",
+      "ur": "درج ذیل کمپاؤنڈز کے نام تحریر کریں۔ (الف) CH3 – CH2 – CH2OH (ب) CH3 – CH2 – CHO (ج) CH3 – CH2 – CH2 – COOH (د) CH3 – CH2 – CO – O – CH3"
     },
     {
       "id": 502224,
@@ -32255,7 +32325,7 @@
     {
       "id": 502310,
       "chapter": 23,
-      "topic_id": "23.1",
+      "topic_id": "23.4",
       "source": "Exercise",
       "type": "long",
       "en": "Describe the applications of ethanol in pharmaceutical and cosmetic industries.",
@@ -32307,15 +32377,6 @@
       "ur": "روزمرہ زندگی میں ایسٹرز کے استعمال کی وضاحت کریں۔"
     },
     {
-      "id": 502383,
-      "chapter": 25,
-      "topic_id": "25.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "Compare the roles played by carbohydrates, proteins and lipids in our body.",
-      "ur": "ہمارے جسم میں کاربوہائیڈریٹس، پروٹینز اور لپڈز کی طرف سے ادا کیے گئے کردار کا موازنہ کریں۔"
-    },
-    {
       "id": 502379,
       "chapter": 25,
       "topic_id": "25.2",
@@ -32341,6 +32402,15 @@
       "type": "long",
       "en": "Construct peptide linkage and explain the structure of a polypeptide.",
       "ur": "پیپٹائیڈ لنکیج بنائیں، پولی پیپٹائیڈ کی ساخت تفصیلاً بیان کریں۔"
+    },
+    {
+      "id": 502383,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "source": "Exercise",
+      "type": "long",
+      "en": "Compare the roles played by carbohydrates, proteins and lipids in our body.",
+      "ur": "ہمارے جسم میں کاربوہائیڈریٹس، پروٹینز اور لپڈز کی طرف سے ادا کیے گئے کردار کا موازنہ کریں۔"
     },
     {
       "id": 502382,
@@ -33664,6 +33734,15 @@
       "type": "long",
       "en": "Calculate the amount of carbon dioxide in grams produced when 25g of glucose reacts with 40g of oxygen in the following photosynthesis reaction. <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap15-24.svg\" />",
       "ur": "فوٹوسینتھیسز کے اس ری ایکشن کے دوران جب 25g گلوکوز، 40g آکسیجن سے ری ایکشن کرے گا تو گراموں میں کتنی کاربن ڈائی آکسائیڈ بنے گی؟ <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap15-24.svg\" />"
+    },
+    {
+      "id": 507915,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Examples",
+      "type": "long",
+      "en": "A chemist reacts 50g of Zn with excess of nitric acid to get 80.2g Zn(NO3)2. Calculate the theoretical yield and the percentage yield of this reaction.",
+      "ur": "ایک کیمیا دان نے 50 گرام زنک Zn کا نائٹرک ایسڈ کی زائد مقدار سے ری ایکشن کر کے 80.2 گرام زنک نائٹریٹ بنایا۔ اس ری ایکشن کی تھیوریٹیکل ییلڈ اور فی صد ییلڈ معلوم کریں۔"
     },
     {
       "id": 507916,

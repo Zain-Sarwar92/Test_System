@@ -8,8 +8,8 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 646,
-  "exportedAt": "2026-08-11T12:27:14.503Z",
+  "total": 648,
+  "exportedAt": "2026-09-08T13:18:41.876Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -4095,6 +4095,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": "<p>مانیٹرنگ کے ذریعے معمولی مسائل کا جلد پتہ لگانے کا بنیادی فائدہ کیا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>What is the main benefit of detecting small issues early through monitoring?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 527490,
+      "SubjectID": 60,
+      "TopicID": 14979,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 INTRODUCTION TO POST-TROUBLESHOOTING",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کمپیوٹر کی صحت کے لیے \"مناسب ہوا کے انتظام\" سے کیا مراد ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What does \"proper ventilation\" mean for computer health?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -10332,6 +10353,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": "<p>لینیئر ریگریشن کے استعمالات کیا ہیں؟</p>\r\n",
       "EnglishQuestionDetails": "<p>What are the uses of linear regression?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 521436,
+      "SubjectID": 60,
+      "TopicID": 15001,
+      "TopicRef": "6.4",
+      "TopicName": "6.4 SUPERVISED AND UNSUPERVISED ALGORITHMS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>منحصر اور آزاد متغیر کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What are dependent and independent variables?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

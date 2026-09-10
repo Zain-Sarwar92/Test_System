@@ -9,8 +9,8 @@
   "field": "LONG",
   "exportName": "long",
   "subTypeId": 13,
-  "total": 95,
-  "exportedAt": "2026-08-10T12:35:07.254Z",
+  "total": 119,
+  "exportedAt": "2026-09-09T11:50:05.316Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -85,6 +85,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain with the help of equations, acidic and basic behavior of oxides and chlorides.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411546,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What do you mean by successive ionization energies? How the electronic shell structure of magnesium (Mg) is derived from the successive ionization energies?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -308,6 +329,48 @@
       }
     },
     {
+      "QuestionID": 411783,
+      "SubjectID": 95,
+      "TopicID": 12000,
+      "TopicRef": "4.5",
+      "TopicName": "4.5 MOLAR CONCENTRATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Ammonia gas (NH<sub>3</sub>) reacts with oxygen gas (O<sub>2</sub>) according to the following balanced equation: <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap4-1.svg\" /></sub> In an experiment, 34.0 g of ammonia is reacted with 96 g of oxygen.(i) Determine the limiting reactant(ii) Calculate the maximum mass of nitrogen monoxide (NO) that can be formed.(iii) Calculate the mass of the excess reactant remaining after the reaction is complete. (Relative atomic masses: H = 1.0, N = 14.0, O = 16.0)</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411770,
+      "SubjectID": 95,
+      "TopicID": 12002,
+      "TopicRef": "4.7",
+      "TopicName": "4.7 Limiting and Excess Reactant",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate limiting and non-limiting reactants. How a limiting reactant is determined from a balanced chemical equation and given data?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411771,
       "SubjectID": 95,
       "TopicID": 12003,
@@ -358,6 +421,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Hydrogen bonding is present in H<sub>2</sub>O, NH<sub>3</sub>, HF, (CH<sub>3</sub>)<sub>2</sub>CO and CHCl<sub>3</sub> molecules. Sketch structures and discuss briefly.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411900,
+      "SubjectID": 95,
+      "TopicID": 12014,
+      "TopicRef": "5.9",
+      "TopicName": "5.9 BOILING POINT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In a laboratory experiment,150 cm<sup>3</sup> of a volatile liquid was completely vaporized at 98 <sup>o</sup>C and a pressure of 1.01 x 10<sup>5</sup> pa.The mass of the vapor was found to be 0.495 g.Determine the molecular mass of the liquid (R=8.314 JK<sup>-1</sup> mol<sup>-1</sup>).</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -434,6 +518,48 @@
       }
     },
     {
+      "QuestionID": 411892,
+      "SubjectID": 95,
+      "TopicID": 12018,
+      "TopicRef": "5.13",
+      "TopicName": "5.13 LIQUID CRYSTALS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A sample of an unknown gas has a mass of 0.560 g. It occupies a volume of 2.87 × 10<sup>-4</sup> m<sup>3 </sup>at a temperature of 300 K and a pressure o 1.01 x 10<sup>5 </sup>pa.Calculate the molar mass of the gas.(Gas constant,R=8.31JK<sup>-1</sup> mol<sup>-1</sup>).</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412092,
+      "SubjectID": 95,
+      "TopicID": 12023,
+      "TopicRef": "6.4",
+      "TopicName": "6.4 BOND ENERGY (BOND DISSOCIATION ENERGY) AND ENTHALPY CHANGES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For the reaction: CaSO<sub>4(s) </sub>Ca<sup>2+</sup><sub>(aq) + </sub>SO4<sup>2-</sup><sub>(aq) </sub>Calculate<sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-41.svg\" /></sub> ,<sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-42.svg\" /></sub> and <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-43.svg\" style=\"width: 38px; height: 22px;\" /></sub>at 25<sup>o</sup>C using the following data; and discuss its spontaneity. T= 25<sup>o</sup>C=298K Enthalpy of Formation:<sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-44.svg\" /><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-45.svg\" style=\"width: 619px; height: 32px;\" /></sub></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 412050,
       "SubjectID": 95,
       "TopicID": 12024,
@@ -484,6 +610,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Calculate the heat of formation of ethyl alcohol from the following information(i) Heat of combustion of ethyl alcohol is - 1367kJmol<sup>-1 </sup>(ii) Heat of formation of carbon dioxide is - 393.7kJmol<sup>-1 </sup>(iii) Heat of formation of water is - 285.8 kJmol<sup>-1</sup></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412078,
+      "SubjectID": 95,
+      "TopicID": 12026,
+      "TopicRef": "6.7",
+      "TopicName": "6.7 ENTHALPY CHANGE AND CALORIE CONTENT OF FOOD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Calculate the entropy change of the surroundings<sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-39.svg\" /></sub><sub> </sub>/ for the reaction at 298K: <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-40.svg\" /></sub></p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -623,6 +770,111 @@
       }
     },
     {
+      "QuestionID": 412166,
+      "SubjectID": 95,
+      "TopicID": 12035,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 FACTORS AFFECTING RATE OF CHEMICAL REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Three experiments that have identical conditions were performed to  measure the initial rate of the reaction. <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap7-7.svg\" /></sub></p>\r\n\r\n<table align=\"center\" border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">Experiment</td>\r\n\t\t\t<td style=\"text-align: center;\">[HI] (M)</td>\r\n\t\t\t<td style=\"text-align: center;\">Rate (M/s)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">1</td>\r\n\t\t\t<td style=\"text-align: center;\">0.015</td>\r\n\t\t\t<td style=\"text-align: center;\">1.1x10<sup>-3</sup></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">2</td>\r\n\t\t\t<td style=\"text-align: center;\">0.030</td>\r\n\t\t\t<td style=\"text-align: center;\">4.4x10<sup>-3</sup></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">3</td>\r\n\t\t\t<td style=\"text-align: center;\">0.045</td>\r\n\t\t\t<td style=\"text-align: center;\">4.4x10<sup>-3</sup></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Write the rate law for the reaction. Find the value and units of the specific rate constant, k.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412148,
+      "SubjectID": 95,
+      "TopicID": 12036,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 RATE LAW, RATE CONSTANT AND ORDER OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do you find the numerical value of a rate constant by initial and half-life methods?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412154,
+      "SubjectID": 95,
+      "TopicID": 12036,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 RATE LAW, RATE CONSTANT AND ORDER OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The reaction between hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) and iodide ions (I<sup>-1</sup>) in acidic solution is believed to occur via the following mechanism: Step 1: <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap7-4.svg\" /></sub> Step 2: <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap7-5.svg\" /></sub>Step 3: <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap7-6.svg\" /></sub> (i) Write the overall balanced equation for the reaction (ii) Identify any intermediates and catalysts in thismechanism (iii) What is the rate-determining step? (iv) Write the rate equation for the reaction, expressing it in terms of the reactants in the overall reaction.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412159,
+      "SubjectID": 95,
+      "TopicID": 12036,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 RATE LAW, RATE CONSTANT AND ORDER OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A first order reaction is found to have a rate constant, k = 5.5 × 10<sup>-14</sup> s<sup>-1</sup>. Find the half-life of the reaction. </p>\r\n\r\n<table align=\"center\" border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">Temp. (K)</td>\r\n\t\t\t<td style=\"text-align: center;\">Rate constant (cm<sup>3</sup> mol<sup>–1</sup>S<sup>–1</sup>) (K)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">500</td>\r\n\t\t\t<td style=\"text-align: center;\">6.814 x 10<sup>–4</sup></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">550</td>\r\n\t\t\t<td style=\"text-align: center;\">2.64 x 10<sup>–2</sup></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">600</td>\r\n\t\t\t<td style=\"text-align: center;\">0.56 x 10<sup>0</sup></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">650</td>\r\n\t\t\t<td style=\"text-align: center;\">7.31 x 10<sup>0</sup></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align: center;\">700</td>\r\n\t\t\t<td style=\"text-align: center;\">66.67 x 10<sup>0</sup></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412245,
+      "SubjectID": 95,
+      "TopicID": 12041,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 REVERSIBLE REACTIONS, MICROSCOPIC EVENTS AND DYNAMIC EQUILIBRIUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Study the equilibrium H<sub>2</sub>O<sub>(g)</sub> + CO<sub>(g)</sub> (eq) H<sub>2(g)</sub> + CO<sub>2(g) </sub> (i) Write the expression of K<sub>p</sub>. (ii) When 1.00 mole of steam and 1.00 mole of CO are allowed to reach equilibrium, 33.3% of equilibrium mixture is hydrogen. Calculate the value of K<sub>p</sub>. State the units of K<sub>p</sub>.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 412223,
       "SubjectID": 95,
       "TopicID": 12047,
@@ -631,6 +883,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Define and explain the law of mass action and derive the expression for the equilibrium constant.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412242,
+      "SubjectID": 95,
+      "TopicID": 12047,
+      "TopicRef": "8.8",
+      "TopicName": "8.8 EQUILIBRIUM CONSTANT AND POSITION OF EQUILIBRIUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The equilibrium constant for the reaction between acetic acid and ethyl alcohol is 4. A mixture of 3 moles of acetic acid and 1 mole of hole of ethyl alcohol is allowed to come to equilibrium. Calculate the amount of ethyl acetate present at equilibrium.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -854,6 +1127,69 @@
       }
     },
     {
+      "QuestionID": 412394,
+      "SubjectID": 95,
+      "TopicID": 12070,
+      "TopicRef": "10.3",
+      "TopicName": "10.3 DISPROPORTIONNATION REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A constant current of 2.00 A is passed through a solution of copper(II) sulfate (CuSO<sub>4</sub> ) for 30.0 minutes. Calculate the mass of copper deposited at the cathode. (Molar mass of Cu = 63.5 g mol<sup>-¹</sup>, Faraday constant, F = 96500Cmol<sup>-1</sup>)</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412393,
+      "SubjectID": 95,
+      "TopicID": 12071,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 OXIDIZING AGENT (OXIDANT) AND REDUCING AGENT (REDUCTANT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Calculate the electrode potential for a zinc electrode immersed in a 0.010 mol dm<sup>-3 </sup>solution of zinc sulfate (ZnSO<sub>4</sub>) at 298 K. The standard electrode potential (E°) for <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap10-11.svg\" /></sub>is -0.76 V. (Gas constant, R = 8.31JK<sup>-1</sup>mol<sup>-1</sup>,Faraday constant, F = 96500C mol<sup>-1</sup>)</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412390,
+      "SubjectID": 95,
+      "TopicID": 12077,
+      "TopicRef": "10.10",
+      "TopicName": "10.10 Avogadro's Constant By The Electrolytic Method",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How Avogadro’s number can be derived using an electrolytic cell?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 412392,
       "SubjectID": 95,
       "TopicID": 12079,
@@ -875,6 +1211,27 @@
       }
     },
     {
+      "QuestionID": 412389,
+      "SubjectID": 95,
+      "TopicID": 12080,
+      "TopicRef": "10.13",
+      "TopicName": "10.13 STANDARD ELECTRODE POTENTIAL (E)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How electrode potential varies with concentration of an aqueous solution? Use the NERST equation to explain this variation.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 412391,
       "SubjectID": 95,
       "TopicID": 12082,
@@ -883,6 +1240,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Describe the construction and working principle of the Zn-Cu Galvanic cell.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412395,
+      "SubjectID": 95,
+      "TopicID": 12082,
+      "TopicRef": "10.15",
+      "TopicName": "10.15 ELECTROCHEMICAL CELL (GALVANIC CELL)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A galvanic cell consists of a standard hydrogen electrode (SHE) and a Ni<sup>2+</sup><sub>(aq) </sub>/Ni<sub>(s) </sub>half-cell. The measured cell potential at 298 K is 0.25 V, and the nickel electrode is the negative  terminal. (i) Write the balanced overall cell reaction. (ii) Determine the standard electrode potential (E°) of the Ni <sup>2+</sup><sub>(aq) </sub>/Ni<sub>(s)</sub> half-cell. (iii) Identify which electrode is the anode and which is the cathode.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -959,6 +1337,27 @@
       }
     },
     {
+      "QuestionID": 412426,
+      "SubjectID": 95,
+      "TopicID": 12101,
+      "TopicRef": "11.11",
+      "TopicName": "11.11 Organic Redox Reaction",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the following reactions of alkenes with examples: (i) Halogenation (ii) Ozonolysis (iii) Epoxidation d) Polymerization</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 412463,
       "SubjectID": 95,
       "TopicID": 12104,
@@ -1001,6 +1400,48 @@
       }
     },
     {
+      "QuestionID": 412466,
+      "SubjectID": 95,
+      "TopicID": 12107,
+      "TopicRef": "12.5",
+      "TopicName": "12.5 ROLE OF NO & NO2 IN SMOG & PAN FORMATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Give flowsheet diagram and equations involved in the contact process.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412467,
+      "SubjectID": 95,
+      "TopicID": 12111,
+      "TopicRef": "12.9",
+      "TopicName": "12.9 STABILITY OF OXIDATION STATES OF SULFUR",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Discuss sulfuric acid as an oxidizing agent and a dehydrating agent with three reactions for each.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 412505,
       "SubjectID": 95,
       "TopicID": 12120,
@@ -1022,6 +1463,48 @@
       }
     },
     {
+      "QuestionID": 412504,
+      "SubjectID": 95,
+      "TopicID": 12122,
+      "TopicRef": "13.6",
+      "TopicName": "13.6 RELATIVE THERMAL STABILITIES OF HYDROGEN HALIDES IN TERMS OF THEIR BOND STRENGTH",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe and explain the relative thermal stabilities of the halogen hydrides in terms of bonds strength.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412507,
+      "SubjectID": 95,
+      "TopicID": 12122,
+      "TopicRef": "13.6",
+      "TopicName": "13.6 RELATIVE THERMAL STABILITIES OF HYDROGEN HALIDES IN TERMS OF THEIR BOND STRENGTH",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Discuss the reducing power of halide ions with relevant reactions. Also explain the factors affecting it.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 412550,
       "SubjectID": 95,
       "TopicID": 12135,
@@ -1030,6 +1513,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Write short notes on the following: (i) CFC<sub>s</sub> and ozone layer depletion (ii) Greenhouse effect and global warming.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 412552,
+      "SubjectID": 95,
+      "TopicID": 12136,
+      "TopicRef": "14.8",
+      "TopicName": "14.8 Air Quality",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is meant by air quality AQI? Describe the factors affecting the air quality.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

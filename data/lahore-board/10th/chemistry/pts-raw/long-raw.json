@@ -8,8 +8,8 @@
   "field": "LONG",
   "exportName": "long",
   "subTypeId": 13,
-  "total": 210,
-  "exportedAt": "2026-08-11T12:28:42.738Z",
+  "total": 211,
+  "exportedAt": "2026-09-08T13:20:11.579Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -265,14 +265,14 @@
       }
     },
     {
-      "QuestionID": 500856,
+      "QuestionID": 500853,
       "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
+      "TopicID": 15046,
+      "TopicRef": "16.2",
+      "TopicName": "16.2 WRITING CHEMICAL FORMULAS OF IONIC COMPOUNDS BY APPLYING OXIDATION NUMBERS ",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>آئنک چارجز کا استعمال کرتے ہوئے درج ذیل کمپاؤنڈ ز کا فارمولا تحریر کریں: سوڈیم ہائیپوکلورائیٹ کیلشیم آگزالیٹ، امونیم فاسفیٹ کیلشیم نائٹریٹ۔</p>\r\n",
-      "EnglishQuestionDetails": "<p>Write down the formulae of the following compounds using ionic charges: Sodium hypochlorite, calcium oxalate, ammonium phosphate, and calcium nitrite.</p>\r\n",
+      "UrduQuestionDetails": "<p>آکسیڈیشن نمبر کا استعمال کرتے ہوئے آئنک کمپاؤنڈ کا فارمولا کسی طرح معلوم کیا جا سکتا ہے؟ مثال سے واضح کریں۔</p>\r\n",
+      "EnglishQuestionDetails": "<p>Explain with examples how the formula of ionic compound can be written using oxidation numbers.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -286,14 +286,14 @@
       }
     },
     {
-      "QuestionID": 500853,
+      "QuestionID": 500856,
       "SubjectID": 61,
       "TopicID": 15046,
       "TopicRef": "16.2",
       "TopicName": "16.2 WRITING CHEMICAL FORMULAS OF IONIC COMPOUNDS BY APPLYING OXIDATION NUMBERS ",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>آکسیڈیشن نمبر کا استعمال کرتے ہوئے آئنک کمپاؤنڈ کا فارمولا کسی طرح معلوم کیا جا سکتا ہے؟ مثال سے واضح کریں۔</p>\r\n",
-      "EnglishQuestionDetails": "<p>Explain with examples how the formula of ionic compound can be written using oxidation numbers.</p>\r\n",
+      "UrduQuestionDetails": "<p>آئنک چارجز کا استعمال کرتے ہوئے درج ذیل کمپاؤنڈ ز کا فارمولا تحریر کریں: سوڈیم ہائیپوکلورائیٹ کیلشیم آگزالیٹ، امونیم فاسفیٹ کیلشیم نائٹریٹ۔</p>\r\n",
+      "EnglishQuestionDetails": "<p>Write down the formulae of the following compounds using ionic charges: Sodium hypochlorite, calcium oxalate, ammonium phosphate, and calcium nitrite.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -517,27 +517,6 @@
       }
     },
     {
-      "QuestionID": 502021,
-      "SubjectID": 61,
-      "TopicID": 15067,
-      "TopicRef": "18.1",
-      "TopicName": "18.1 Arrangement of Ions in Salts",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>مندرجہ ذیل سالٹس کیسے تیار کیے جاتے ہیں؟  K<sub>2</sub>SO<sub>4</sub> , CuCl<sub>2</sub> , CaCl<sub>2</sub></p>\r\n",
-      "EnglishQuestionDetails": "<p>How are the following salts prepared? K<sub>2</sub>SO<sub>4</sub> , CuCl<sub>2</sub> , CaCl<sub>2</sub></p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 13,
-        "bankType": "long",
-        "field": "LONG",
-        "exportName": "long"
-      }
-    },
-    {
       "QuestionID": 502024,
       "SubjectID": 61,
       "TopicID": 15070,
@@ -567,6 +546,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>دو حل پذیر سالٹس کی تیاری کا طریقہ بیان کریں۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Explain the methods of preparation of two soluble salts.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 502021,
+      "SubjectID": 61,
+      "TopicID": 15071,
+      "TopicRef": "18.5",
+      "TopicName": "18.5 Preparation of Soluble Salts",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مندرجہ ذیل سالٹس کیسے تیار کیے جاتے ہیں؟  K<sub>2</sub>SO<sub>4</sub> , CuCl<sub>2</sub> , CaCl<sub>2</sub></p>\r\n",
+      "EnglishQuestionDetails": "<p>How are the following salts prepared? K<sub>2</sub>SO<sub>4</sub> , CuCl<sub>2</sub> , CaCl<sub>2</sub></p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -645,9 +645,9 @@
     {
       "QuestionID": 502081,
       "SubjectID": 61,
-      "TopicID": 15075,
-      "TopicRef": "19.4",
-      "TopicName": "19.4 Metals",
+      "TopicID": 15076,
+      "TopicRef": "19.5",
+      "TopicName": "19.5 Reactivity Series of metals",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>آکسیجن اور پانی کے ساتھ ری ایکشنز کی بنیاد پر پہلے اور دوسرے گروپ کی دھاتوں کے درمیان فرق کی وضاحت کریں۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Differentiate between first and second group metals based on their reactivities with oxygen and water.</p>\r\n",
@@ -811,27 +811,6 @@
       }
     },
     {
-      "QuestionID": 502225,
-      "SubjectID": 61,
-      "TopicID": 15088,
-      "TopicRef": "21.1",
-      "TopicName": "21.1 Classifications of Organic Compounds",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>درج ذیل کمپاؤنڈز کے نام تحریر کریں۔ (الف) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub>OH (ب) CH<sub>3</sub> – CH<sub>2</sub> – CHO (ج) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub> – COOH (د) CH<sub>3</sub> – CH<sub>2</sub> – CO – O – CH<sub>3</sub></p>\r\n",
-      "EnglishQuestionDetails": "<p>Name the following compounds. (a) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub>OH (b) CH<sub>3</sub> – CH<sub>2</sub> – CHO (c) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub> – COOH (d) CH<sub>3</sub> – CH<sub>2</sub> – CO – O – CH<sub>3</sub></p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 13,
-        "bankType": "long",
-        "field": "LONG",
-        "exportName": "long"
-      }
-    },
-    {
       "QuestionID": 502221,
       "SubjectID": 61,
       "TopicID": 15089,
@@ -861,6 +840,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>ہومولوگس سیریز کی پانچ خصوصیات تحریر کریں۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Write down five characteristics of a homologous series.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 502225,
+      "SubjectID": 61,
+      "TopicID": 15092,
+      "TopicRef": "21.5",
+      "TopicName": "21.5 Functional Group",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل کمپاؤنڈز کے نام تحریر کریں۔ (الف) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub>OH (ب) CH<sub>3</sub> – CH<sub>2</sub> – CHO (ج) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub> – COOH (د) CH<sub>3</sub> – CH<sub>2</sub> – CO – O – CH<sub>3</sub></p>\r\n",
+      "EnglishQuestionDetails": "<p>Name the following compounds. (a) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub>OH (b) CH<sub>3</sub> – CH<sub>2</sub> – CHO (c) CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub> – COOH (d) CH<sub>3</sub> – CH<sub>2</sub> – CO – O – CH<sub>3</sub></p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1044,9 +1044,9 @@
     {
       "QuestionID": 502310,
       "SubjectID": 61,
-      "TopicID": 15099,
-      "TopicRef": "23.1",
-      "TopicName": "23.1 MANUFACTURE OF ETHYL ALCOHOL",
+      "TopicID": 15102,
+      "TopicRef": "23.4",
+      "TopicName": "23.4 Role of Ethanol in Industries",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>فارماسیوٹیکل اور کاسمیٹک انڈسٹری میں ایتھانول کے استعمال کی وضاحت کریں۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Describe the applications of ethanol in pharmaceutical and cosmetic industries.</p>\r\n",
@@ -1168,27 +1168,6 @@
       }
     },
     {
-      "QuestionID": 502383,
-      "SubjectID": 61,
-      "TopicID": 15109,
-      "TopicRef": "25.1 ",
-      "TopicName": "25.1  The Importance of Nutrition",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>ہمارے جسم میں کاربوہائیڈریٹس، پروٹینز اور لپڈز کی طرف سے ادا کیے گئے کردار کا موازنہ کریں۔</p>\r\n",
-      "EnglishQuestionDetails": "<p>Compare the roles played by carbohydrates, proteins and lipids in our body.</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 13,
-        "bankType": "long",
-        "field": "LONG",
-        "exportName": "long"
-      }
-    },
-    {
       "QuestionID": 502379,
       "SubjectID": 61,
       "TopicID": 15110,
@@ -1239,6 +1218,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>پیپٹائیڈ لنکیج بنائیں، پولی پیپٹائیڈ کی ساخت تفصیلاً بیان کریں۔</p>\r\n",
       "EnglishQuestionDetails": "<p>Construct peptide linkage and explain the structure of a polypeptide.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 502383,
+      "SubjectID": 61,
+      "TopicID": 15112,
+      "TopicRef": "25.4",
+      "TopicName": "25.4 Lipids",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ہمارے جسم میں کاربوہائیڈریٹس، پروٹینز اور لپڈز کی طرف سے ادا کیے گئے کردار کا موازنہ کریں۔</p>\r\n",
+      "EnglishQuestionDetails": "<p>Compare the roles played by carbohydrates, proteins and lipids in our body.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -4326,6 +4326,27 @@
       "QuestionPeriority": "Examples",
       "UrduQuestionDetails": "<p>فوٹوسینتھیسز کے اس ری ایکشن کے دوران جب 25g گلوکوز، 40g آکسیجن سے ری ایکشن کرے گا تو گراموں میں کتنی کاربن ڈائی آکسائیڈ بنے گی؟ <img alt=\"\" src=\"/equations/10th/chemnew-chap15-24.svg\" /></p>\r\n",
       "EnglishQuestionDetails": "<p>Calculate the amount of carbon dioxide in grams produced when 25g of glucose reacts with 40g of oxygen in the following photosynthesis reaction. <img alt=\"\" src=\"/equations/10th/chemnew-chap15-24.svg\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 507915,
+      "SubjectID": 61,
+      "TopicID": 15044,
+      "TopicRef": "15.7",
+      "TopicName": "15.7 Yield",
+      "QuestionPeriority": "Examples",
+      "UrduQuestionDetails": "<p>ایک کیمیا دان نے 50 گرام زنک Zn  کا نائٹرک ایسڈ کی زائد مقدار سے ری ایکشن کر کے 80.2 گرام زنک نائٹریٹ بنایا۔ اس ری ایکشن کی تھیوریٹیکل ییلڈ اور فی صد ییلڈ معلوم کریں۔</p>\r\n",
+      "EnglishQuestionDetails": "<p>A chemist reacts 50g of Zn with excess of nitric acid to get 80.2g Zn(NO<sub>3</sub>)<sub>2</sub>. Calculate the theoretical yield and the percentage yield of this reaction.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

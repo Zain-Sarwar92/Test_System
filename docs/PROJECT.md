@@ -360,7 +360,7 @@ In-app “prepare soon” ≠ email. Email is **only the day before**.
 - Eligible: due **tomorrow**, no test, not covered, reminder not sent, teacher active, schedule `ACTIVE`
 - One **digest email per teacher** (all their pending items)
 - Cron: `vercel.json` → `/api/cron/test-reminders` daily 06:00 UTC
-- Local: `npm run reminders:run`
+- Auth: `Authorization: Bearer $CRON_SECRET`
 
 **Important behaviour (multi-teacher same subject):**
 
@@ -434,11 +434,9 @@ Useful scripts:
 | Script | Purpose |
 |--------|---------|
 | `npm run db:seed` | Super Admin (+ bank import as configured) |
-| `npm run db:seed-demo-system` | Demo org/teachers |
 | `npm run db:seed-primary` | Primary curriculum |
-| `npm run smoke:all` | End-to-end smoke |
-| `npm run smoke:schedules-teachers` | Schedule/teacher smoke |
-| `npm run reminders:run` | Send reminders now |
+| `npm run db:seed-ptb-all` | Import Lahore PTS question bank (9–12) |
+| `npm run db:import-class9` | Import Class 9 bank JSON into DB |
 
 ---
 

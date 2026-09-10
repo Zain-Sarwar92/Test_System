@@ -22,8 +22,9 @@ export default async function SectionExamsPage({
     select: {
       id: true,
       name: true,
-      class: { select: { id: true, name: true, board: { select: { name: true } } } },
-      _count: { select: { students: true } },
+      class: {
+        select: { id: true, name: true, board: { select: { name: true } } },
+      },
     },
   });
   if (!section) notFound();
@@ -31,7 +32,6 @@ export default async function SectionExamsPage({
   const exams = await prisma.examTerm.findMany({
     where: {
       organizationId,
-      // Only exams that have subject rows for THIS section (section-scoped list)
       assessments: { some: { sectionId } },
     },
     orderBy: [{ session: "desc" }, { createdAt: "desc" }, { name: "asc" }],
@@ -62,24 +62,27 @@ export default async function SectionExamsPage({
       <PageHeader
         kicker={`${section.class.board.name} · ${section.class.name}`}
         title={`${section.name} results`}
+        description="Create an exam, enter marks, then open the gazette or print student report cards."
         actions={
-          <ResultsBackLink href={`/org-admin/results/classes/${section.class.id}`} />
+          <ResultsBackLink
+            href={`/org-admin/results/classes/${section.class.id}`}
+          />
         }
       />
 
       <Card>
-        <CardTitle>New result</CardTitle>
+        <CardTitle>New exam</CardTitle>
         <CardDescription className="mb-3">
-          Science + common subjects are added automatically. Use Add subject on the
-          exam page to include Arts or any other class subject.
+          Science + common subjects are added automatically. Use Add subject on
+          the exam page for Arts or other subjects.
         </CardDescription>
         <CreateExamForm sectionId={section.id} />
       </Card>
 
       {exams.length === 0 ? (
         <Card>
-          <CardTitle>No results yet</CardTitle>
-          <CardDescription>Create the first result above.</CardDescription>
+          <CardTitle>No exams yet</CardTitle>
+          <CardDescription>Create the first exam above.</CardDescription>
         </Card>
       ) : (
         <ResultExamList

@@ -112,6 +112,9 @@ export default async function StudentDetailPage({
             <Link href={`/org-admin/students/${student.id}/edit`}>
               <Button variant="outline">Edit</Button>
             </Link>
+            <Link href={`/org-admin/results/students/${student.id}`}>
+              <Button variant="secondary">View results</Button>
+            </Link>
             <Link href={`/org-admin/fees/collect?studentId=${student.id}`}>
               <Button>Collect Fee</Button>
             </Link>

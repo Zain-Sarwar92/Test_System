@@ -1,10 +1,19 @@
 "use client";
 
 import { useMemo } from "react";
+import Link from "next/link";
 import { Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { MultiRoundColumn, MultiRoundStudentRow } from "@/lib/results";
+import {
+  formatResultMarks,
+  formatResultPercent,
+} from "@/lib/results";
 import { ResultsBackLink } from "@/app/org-admin/results/results-back-link";
+import {
+  ResultSheetChrome,
+  ResultSheetSignatures,
+} from "@/app/org-admin/results/result-sheet-chrome";
 import {
   WhatsAppResultPanel,
   type WhatsAppShareStudent,
@@ -35,24 +44,33 @@ function chunkColumns(columns: MultiRoundColumn[], size: number) {
   return chunks;
 }
 
-function tableRoundLabel(label: string, index: number) {
-  const match = label.match(/(\d+)/);
-  return match ? `R${match[1]}` : `R${index + 1}`;
+function tableRoundLabel(label: string, _index: number) {
+  const cleaned = label.trim();
+  return cleaned || "—";
+}
+
+function studentReportCardHref(reportCardBaseHref: string, studentId: string) {
+  return reportCardBaseHref.replace(
+    "/report-cards?",
+    `/report-cards/${studentId}?`,
+  );
 }
 
 function GazetteTable({
   columns,
   rows,
   showTotals,
+  reportCardBaseHref,
 }: {
   columns: MultiRoundColumn[];
   rows: MultiRoundStudentRow[];
   showTotals: boolean;
+  reportCardBaseHref?: string;
 }) {
   const keys = new Set(columns.map((column) => column.key));
 
   return (
-    <table className="gazette-table gazette-table--multi">
+    <table className="gazette-table gazette-table--multi result-sheet-table">
       <thead>
         <tr>
           <th rowSpan={2} className="col-roll">
@@ -104,9 +122,30 @@ function GazetteTable({
       </thead>
       <tbody>
         {rows.map((row) => (
-          <tr key={row.id} className="gazette-student-row">
+          <tr
+            key={row.id}
+            className={
+              row.complete && !row.passed
+                ? "gazette-student-row result-sheet-row--fail"
+                : "gazette-student-row"
+            }
+          >
             <td className="col-roll">{row.rollNumber}</td>
-            <td className="name col-name">{row.name}</td>
+            <td className="name col-name">
+              {reportCardBaseHref ? (
+                <>
+                  <Link
+                    href={studentReportCardHref(reportCardBaseHref, row.id)}
+                    className="no-print result-sheet-name-link"
+                  >
+                    {row.name}
+                  </Link>
+                  <span className="hidden print:inline">{row.name}</span>
+                </>
+              ) : (
+                row.name
+              )}
+            </td>
             <td className="name col-father">{row.fatherName}</td>
             {row.breakdown
               .filter((cell) => keys.has(cell.key))
@@ -122,16 +161,28 @@ function GazetteTable({
               )}
             {showTotals ? (
               <>
-                <td className="col-total">
+                <td className="col-total result-sheet-total">
                   {row.maxTotal > 0
-                    ? `${row.obtainedTotal}/${row.maxTotal}`
+                    ? `${formatResultMarks(row.obtainedTotal)}/${formatResultMarks(row.maxTotal)}`
                     : "—"}
                 </td>
                 <td className="col-pct">
-                  {row.percent == null ? "—" : row.percent}
+                  {row.percent == null
+                    ? "—"
+                    : formatResultPercent(row.percent)}
                 </td>
                 <td className="col-pos">{row.position ?? "—"}</td>
-                <td className="col-grade">{row.grade}</td>
+                <td className="col-grade">
+                  <span
+                    className={
+                      row.complete && !row.passed
+                        ? "result-sheet-grade result-sheet-grade--fail"
+                        : "result-sheet-grade"
+                    }
+                  >
+                    {row.grade}
+                  </span>
+                </td>
               </>
             ) : null}
           </tr>
@@ -143,7 +194,6 @@ function GazetteTable({
 
 function SheetChrome({
   organization,
-  boardName,
   className,
   sectionName,
   session,
@@ -153,7 +203,6 @@ function SheetChrome({
   compactHeader,
 }: {
   organization: Org;
-  boardName: string;
   className: string;
   sectionName: string;
   session: string;
@@ -162,99 +211,34 @@ function SheetChrome({
   sheetLabel?: string | null;
   compactHeader?: boolean;
 }) {
-  const orgName = organization.name.trim() || "Institute";
-  const logoUrl = organization.logoUrl?.trim() || null;
   const complete = rows.filter((row) => row.complete).length;
   const passed = rows.filter((row) => row.passed).length;
-
-  if (compactHeader) {
-    return (
-      <div className="student-list-title-block gazette-continued-header">
-        <h2 className="student-list-title">Combined Result Gazette</h2>
-        <p className="student-list-ref">
-          {roundLabels.join(" + ")} · {session}
-          {sheetLabel ? ` · ${sheetLabel}` : ""} · continued
-        </p>
-      </div>
-    );
-  }
+  const subtitle = sheetLabel
+    ? `Session ${session} · ${sheetLabel}`
+    : `Session ${session}`;
 
   return (
-    <>
-      {logoUrl ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={logoUrl} alt="" className="exam-watermark" aria-hidden />
-      ) : null}
-      <header className="exam-brand-header">
-        <div className="exam-brand-row">
-          <div className="exam-brand-logo">
-            {logoUrl ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={logoUrl} alt="" className="exam-logo-img" />
-            ) : (
-              <div className="exam-logo-fallback" aria-hidden>
-                {(orgName.slice(0, 2) || "IN").toUpperCase()}
-              </div>
-            )}
-          </div>
-          <div className="exam-brand-center">
-            <h1 className="exam-org-name">{orgName}</h1>
-            {organization.address ? (
-              <p className="exam-org-address">
-                HEAD OFFICE: {organization.address.toUpperCase()}
-              </p>
-            ) : null}
-            {organization.phone ? (
-              <p className="exam-org-phone">Ph: {organization.phone}</p>
-            ) : null}
-          </div>
-          <div className="exam-brand-spacer" aria-hidden />
-        </div>
-      </header>
-
-      <div className="student-list-title-block">
-        <h2 className="student-list-title">Combined Result Gazette</h2>
-        <p className="student-list-ref">
-          {roundLabels.join(" + ")} · {session}
-          {sheetLabel ? ` · ${sheetLabel}` : ""}
-        </p>
-      </div>
-
-      <div className="student-list-meta">
-        <div>
-          <span>Board</span>
-          <strong>{boardName}</strong>
-        </div>
-        <div>
-          <span>Class</span>
-          <strong>{className}</strong>
-        </div>
-        <div>
-          <span>Section</span>
-          <strong>{sectionName}</strong>
-        </div>
-        <div>
-          <span>Results</span>
-          <strong>{roundLabels.length} combined</strong>
-        </div>
-        <div>
-          <span>Session</span>
-          <strong>{session}</strong>
-        </div>
-        <div>
-          <span>Result</span>
-          <strong>
-            {passed}/{complete} passed
-          </strong>
-        </div>
-      </div>
-    </>
+    <ResultSheetChrome
+      organization={organization}
+      title={roundLabels.join(" + ")}
+      subtitle={subtitle}
+      kicker="Combined academic report"
+      compact={compactHeader}
+      continuedLabel={sheetLabel ? `${sheetLabel} · continued` : "Continued"}
+      meta={[
+        { label: "Class", value: className },
+        { label: "Section", value: sectionName },
+        { label: "Result", value: roundLabels.join(" · ") },
+        { label: "Session", value: session },
+        { label: "Passed", value: `${passed}/${complete}` },
+      ]}
+    />
   );
 }
 
 export function CombinedGazetteView({
   organization,
-  boardName,
+  boardName: _boardName,
   className,
   sectionName,
   session,
@@ -263,6 +247,7 @@ export function CombinedGazetteView({
   rows,
   backHref,
   phoneByStudentId = {},
+  reportCardBaseHref,
 }: {
   organization: Org;
   boardName: string;
@@ -274,6 +259,7 @@ export function CombinedGazetteView({
   rows: MultiRoundStudentRow[];
   backHref: string;
   phoneByStudentId?: Record<string, string | null | undefined>;
+  reportCardBaseHref?: string;
 }) {
   const roundCount = Math.max(
     1,
@@ -309,7 +295,9 @@ export function CombinedGazetteView({
             value: rounds || "—",
           };
         }),
-        total: row.complete ? `${row.obtainedTotal}/${row.maxTotal}` : null,
+        total: row.complete
+          ? `${formatResultMarks(row.obtainedTotal)}/${formatResultMarks(row.maxTotal)}`
+          : null,
         percent: row.percent,
         grade: row.grade,
         position: row.position,
@@ -319,7 +307,6 @@ export function CombinedGazetteView({
 
   const chrome = {
     organization,
-    boardName,
     className,
     sectionName,
     session,
@@ -328,7 +315,7 @@ export function CombinedGazetteView({
   };
 
   return (
-    <div className="print-page student-list-print gazette-print-page">
+    <div className="print-page student-list-print gazette-print-page result-sheet-page">
       <style>{`
         @media print {
           @page { size: A4 landscape; margin: 0.28in 0.22in; }
@@ -338,6 +325,25 @@ export function CombinedGazetteView({
 
       <div className="print-toolbar no-print">
         <ResultsBackLink href={backHref} />
+        {reportCardBaseHref ? (
+          <>
+            <Link href={reportCardBaseHref}>
+              <Button size="sm" variant="secondary">
+                Combined report cards
+              </Button>
+            </Link>
+            <Link
+              href={reportCardBaseHref.replace(
+                "/report-cards?",
+                "/report-cards/print-all?",
+              )}
+            >
+              <Button size="sm" variant="outline">
+                Print all cards
+              </Button>
+            </Link>
+          </>
+        ) : null}
         <Button size="sm" onClick={() => window.print()}>
           <Printer className="h-3.5 w-3.5" />
           Print / Save PDF
@@ -354,41 +360,31 @@ export function CombinedGazetteView({
       />
 
       {columns.length === 0 ? (
-        <article className="student-list-sheet gazette-sheet">
+        <article className="student-list-sheet gazette-sheet result-sheet">
           <p className="student-list-empty">No subject marks entered yet.</p>
         </article>
       ) : (
         <>
-          {/* Screen: full table */}
-          <article className="student-list-sheet gazette-sheet gazette-sheet--screen no-print">
+          <article className="student-list-sheet gazette-sheet gazette-sheet--screen result-sheet no-print">
             <SheetChrome {...chrome} />
             <div className="gazette-table-scroll">
-              <GazetteTable columns={columns} rows={rows} showTotals />
+              <GazetteTable
+                columns={columns}
+                rows={rows}
+                showTotals
+                reportCardBaseHref={reportCardBaseHref}
+              />
             </div>
-            <footer className="student-list-sign">
-              <div>
-                <span />
-                <p>Class Teacher</p>
-              </div>
-              <div>
-                <span />
-                <p>Checked By</p>
-              </div>
-              <div>
-                <span />
-                <p>Principal</p>
-              </div>
-            </footer>
+            <ResultSheetSignatures />
           </article>
 
-          {/* Print: split subjects so 3 rounds fit on landscape pages */}
           {subjectChunks.map((chunk, pageIndex) => {
             const isFirst = pageIndex === 0;
             const isLast = pageIndex === subjectChunks.length - 1;
             return (
               <article
                 key={`print-${pageIndex}`}
-                className={`student-list-sheet gazette-sheet gazette-sheet--print print-only${
+                className={`student-list-sheet gazette-sheet gazette-sheet--print result-sheet print-only${
                   !isLast ? " student-list-print-break" : ""
                 }`}
               >
@@ -409,20 +405,7 @@ export function CombinedGazetteView({
                   />
                 </div>
                 {isLast ? (
-                  <footer className="student-list-sign">
-                    <div>
-                      <span />
-                      <p>Class Teacher</p>
-                    </div>
-                    <div>
-                      <span />
-                      <p>Checked By</p>
-                    </div>
-                    <div>
-                      <span />
-                      <p>Principal</p>
-                    </div>
-                  </footer>
+                  <ResultSheetSignatures />
                 ) : (
                   <p className="gazette-continued">Continued on next sheet…</p>
                 )}

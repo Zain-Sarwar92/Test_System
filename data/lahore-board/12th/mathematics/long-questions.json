@@ -4,13 +4,16 @@
   "subject": "Mathematics",
   "slug": "mathematics",
   "source": "PTS PTB INTER-II (Class 12) Mathematics (read-only export)",
-  "total_questions": 0,
+  "total_questions": 1200,
   "counts": {
-    "mcq": 0,
-    "short": 0,
+    "mcq": 117,
+    "short": 1083,
     "long": 0
   },
-  "fieldCounts": {},
+  "fieldCounts": {
+    "MCQ": 117,
+    "QA": 1083
+  },
   "questions": [],
   "type": "long"
 }

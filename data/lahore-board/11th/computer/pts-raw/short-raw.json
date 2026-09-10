@@ -9,8 +9,8 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 456,
-  "exportedAt": "2026-08-10T12:37:52.478Z",
+  "total": 469,
+  "exportedAt": "2026-09-09T11:52:55.293Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -85,6 +85,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Evaluate the main steps involved in risk assessment and management, and assess their importance in a software project.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403781,
+      "SubjectID": 98,
+      "TopicID": 11695,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 Graphical Representation of Software Systems",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the purpose of a Use Case Diagram in software development.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403782,
+      "SubjectID": 98,
+      "TopicID": 11695,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 Graphical Representation of Software Systems",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compare and contrast a Sequence Diagram with an Activity Diagram, highlighting the key differences.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -182,6 +224,27 @@
       }
     },
     {
+      "QuestionID": 403914,
+      "SubjectID": 98,
+      "TopicID": 11708,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 CONTROL STRUCTURES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the use of the range() function in a for loop.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 403910,
       "SubjectID": 98,
       "TopicID": 11709,
@@ -232,6 +295,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain why modular programming is useful in Python.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403917,
+      "SubjectID": 98,
+      "TopicID": 11712,
+      "TopicRef": "2.8",
+      "TopicName": "2.8 Object-Oriented Programming in Python",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the difference between a class and an object in Python.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -526,6 +610,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is difference between enqueue () and dequeue ().</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 404245,
+      "SubjectID": 98,
+      "TopicID": 11725,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 BUILDING STATISTICAL MODELS ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the importance of building statistical models in real-world applications?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 404246,
+      "SubjectID": 98,
+      "TopicID": 11725,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 BUILDING STATISTICAL MODELS ",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Name one basic statistical model used for predicting outcomes and explain its purpose.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -4088,6 +4214,132 @@
       }
     },
     {
+      "QuestionID": 405602,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What kind of problems are in Class P?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405603,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does NP stand for in Class NP?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405604,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Can problems in Class NP be verified quickly once a solution is found?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405627,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is an NP-Hard problem?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405628,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What makes a problem NP-Complete?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405630,
+      "SubjectID": 98,
+      "TopicID": 11718,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 PROBLEM SOLVABILITY AND COMPLEXITY",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Give an example of an NP-Hard problem.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 405631,
       "SubjectID": 98,
       "TopicID": 11719,
@@ -5713,6 +5965,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>When would you use a bar chart?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405999,
+      "SubjectID": 98,
+      "TopicID": 11726,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 INTRODUCTION TO DATA VISUALIZATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What do boxplots show in data?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

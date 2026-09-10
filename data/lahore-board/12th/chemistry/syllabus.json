@@ -91,11 +91,52 @@
     {
       "number": 19,
       "title": "Basics of Organic Chemistry",
-      "topics": []
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Catenation"
+        },
+        {
+          "id": "19.2",
+          "title": "Hydrocarbons (Compounds of Carbon and Hydrogen Only)"
+        },
+        {
+          "id": "19.3",
+          "title": "Functional Groups"
+        },
+        {
+          "id": "19.4",
+          "title": "Nomenclature of Aliphatic Organic Compounds"
+        },
+        {
+          "id": "19.5",
+          "title": "Representing Organic Molecules"
+        },
+        {
+          "id": "19.6",
+          "title": "Deermination of the Molecular Formula"
+        },
+        {
+          "id": "19.7",
+          "title": "Understanding Organic Reactions"
+        },
+        {
+          "id": "19.8",
+          "title": "Mechanisms of Chemical Reactions"
+        },
+        {
+          "id": "19.9",
+          "title": "Isomerism"
+        },
+        {
+          "id": "19.10",
+          "title": "Stereochemistry in Drug Development"
+        }
+      ]
     },
     {
       "number": 20,
-      "title": "Taromatic Hydrocarbons",
+      "title": "Aromatic Hydrocarbons",
       "topics": []
     },
     {

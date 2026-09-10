@@ -4,16 +4,16 @@
   "subject": "Computer",
   "slug": "computer",
   "source": "PTS PTB INTER-II (Class 12) Computer (read-only export)",
-  "total_questions": 478,
+  "total_questions": 1472,
   "counts": {
-    "mcq": 198,
-    "short": 190,
-    "long": 90
+    "mcq": 675,
+    "short": 636,
+    "long": 161
   },
   "fieldCounts": {
-    "MCQ": 198,
-    "QA": 190,
-    "LONG": 90
+    "MCQ": 675,
+    "QA": 636,
+    "LONG": 161
   },
   "questions": [
     {
@@ -119,7 +119,7 @@
     {
       "id": 530153,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.1",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -129,7 +129,7 @@
     {
       "id": 530154,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -139,7 +139,7 @@
     {
       "id": 530155,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -149,7 +149,7 @@
     {
       "id": 530156,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -159,7 +159,7 @@
     {
       "id": 530157,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.3",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -169,7 +169,7 @@
     {
       "id": 530159,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.4",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -179,7 +179,7 @@
     {
       "id": 530160,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.5",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -189,7 +189,7 @@
     {
       "id": 530161,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.5",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -197,19 +197,9 @@
       "en": "What is a truth table?"
     },
     {
-      "id": 530162,
-      "chapter": 2,
-      "topic_id": "2.12",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is propositional satisfiability?"
-    },
-    {
       "id": 530163,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.8",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -219,7 +209,7 @@
     {
       "id": 530271,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.1",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -229,7 +219,7 @@
     {
       "id": 530272,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -239,7 +229,7 @@
     {
       "id": 530273,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -249,7 +239,7 @@
     {
       "id": 530274,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -259,7 +249,7 @@
     {
       "id": 530275,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -269,7 +259,7 @@
     {
       "id": 530276,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -279,7 +269,7 @@
     {
       "id": 530277,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -289,7 +279,7 @@
     {
       "id": 530278,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -299,7 +289,7 @@
     {
       "id": 530279,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
@@ -309,12 +299,212 @@
     {
       "id": 530280,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "short",
       "field": "QA",
       "source": "Exercise",
       "priority": "Exercise",
       "en": "How does polymorphism help in creating adaptable and reusable code?"
+    },
+    {
+      "id": 530347,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is a GUI and why is it important in application development?"
+    },
+    {
+      "id": 530348,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is Tkinter and why is it Python's built-in GUI toolkit?"
+    },
+    {
+      "id": 530350,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you create a window and add frames in Tkinter?"
+    },
+    {
+      "id": 530351,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name two common widgets used in Tkinter."
+    },
+    {
+      "id": 530352,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the purpose of layout management in Tkinter?"
+    },
+    {
+      "id": 530353,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the pack() method organize elements in Tkinter?"
+    },
+    {
+      "id": 530354,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is event-driven programming and how is it used in Tkinter?"
+    },
+    {
+      "id": 530355,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you handle user input in Tkinter?"
+    },
+    {
+      "id": 530356,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the CRUD operation in database management?"
+    },
+    {
+      "id": 530358,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you connect Python to a database like SQLite?"
+    },
+    {
+      "id": 530399,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is testing essential for ensuring reliable applications?"
+    },
+    {
+      "id": 530400,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are some common types of programming errors and bugs?"
+    },
+    {
+      "id": 530401,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is unit testing, and why is it important in programming?"
+    },
+    {
+      "id": 530402,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do Python's unittest and pytest modules help in unit testing?"
+    },
+    {
+      "id": 530403,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the purpose of writing and executing test cases?"
+    },
+    {
+      "id": 530404,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you set breakpoints in IDEs like PyCharm or VS Code?"
+    },
+    {
+      "id": 530405,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of monitoring variable values with watch expressions during debugging?"
+    },
+    {
+      "id": 530406,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the step-by-step debugging process in IDEs?"
+    },
+    {
+      "id": 530407,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does exception handling help in managing multiple exception types effectively?"
+    },
+    {
+      "id": 530408,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What tools can be used for profiling and measuring performance in Python?"
     },
     {
       "id": 530451,
@@ -415,206 +605,6 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Name any one tool used for machine learning."
-    },
-    {
-      "id": 530347,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is a GUI and why is it important in application development?"
-    },
-    {
-      "id": 530348,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is Tkinter and why is it Python's built-in GUI toolkit?"
-    },
-    {
-      "id": 530350,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How do you create a window and add frames in Tkinter?"
-    },
-    {
-      "id": 530351,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Name two common widgets used in Tkinter."
-    },
-    {
-      "id": 530352,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is the purpose of layout management in Tkinter?"
-    },
-    {
-      "id": 530353,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How does the pack() method organize elements in Tkinter?"
-    },
-    {
-      "id": 530354,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is event-driven programming and how is it used in Tkinter?"
-    },
-    {
-      "id": 530355,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How do you handle user input in Tkinter?"
-    },
-    {
-      "id": 530356,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is the CRUD operation in database management?"
-    },
-    {
-      "id": 530358,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How do you connect Python to a database like SQLite?"
-    },
-    {
-      "id": 530399,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Why is testing essential for ensuring reliable applications?"
-    },
-    {
-      "id": 530400,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What are some common types of programming errors and bugs?"
-    },
-    {
-      "id": 530401,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is unit testing, and why is it important in programming?"
-    },
-    {
-      "id": 530402,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How do Python's unittest and pytest modules help in unit testing?"
-    },
-    {
-      "id": 530403,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is the purpose of writing and executing test cases?"
-    },
-    {
-      "id": 530404,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How do you set breakpoints in IDEs like PyCharm or VS Code?"
-    },
-    {
-      "id": 530405,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is the role of monitoring variable values with watch expressions during debugging?"
-    },
-    {
-      "id": 530406,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is the step-by-step debugging process in IDEs?"
-    },
-    {
-      "id": 530407,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How does exception handling help in managing multiple exception types effectively?"
-    },
-    {
-      "id": 530408,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What tools can be used for profiling and measuring performance in Python?"
     },
     {
       "id": 530518,
@@ -1237,26 +1227,6 @@
       "en": "What is Wireless Access Point?"
     },
     {
-      "id": 531559,
-      "chapter": 1,
-      "topic_id": "1.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Explain the roles and functions of a Network Interface Card (NIC), Switch, and Router in managing data flow within and between computer networks."
-    },
-    {
-      "id": 531560,
-      "chapter": 1,
-      "topic_id": "1.4",
-      "type": "short",
-      "field": "QA",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Describe how Modems and Wireless Access Points (WAPs) facilitate network access, focusing on signal conversion, ISP connection, and wireless coverage expansion."
-    },
-    {
       "id": 531606,
       "chapter": 1,
       "topic_id": "1.5",
@@ -1747,16 +1717,6 @@
       "en": "Why are wired network connections considered more secure than wireless connections?"
     },
     {
-      "id": 531823,
-      "chapter": 1,
-      "topic_id": "1.9",
-      "type": "short",
-      "field": "QA",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What main advantages do wireless networks offer over wired networks?"
-    },
-    {
       "id": 531824,
       "chapter": 1,
       "topic_id": "1.9",
@@ -1915,6 +1875,4506 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "What is the purpose of Secure Shell (SSH)?"
+    },
+    {
+      "id": 532355,
+      "chapter": 1,
+      "topic_id": "1.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is network performance, and why is it important for data communication?"
+    },
+    {
+      "id": 532356,
+      "chapter": 1,
+      "topic_id": "1.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define network bandwidth and state its unit of measurement."
+    },
+    {
+      "id": 532374,
+      "chapter": 1,
+      "topic_id": "1.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is network latency?"
+    },
+    {
+      "id": 532378,
+      "chapter": 1,
+      "topic_id": "1.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How network latency affects real-time applications like gaming or video calls?"
+    },
+    {
+      "id": 532383,
+      "chapter": 1,
+      "topic_id": "1.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write any three common causes of network delay?"
+    },
+    {
+      "id": 532438,
+      "chapter": 1,
+      "topic_id": "1.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is network load balancing, and why is it used?"
+    },
+    {
+      "id": 532439,
+      "chapter": 1,
+      "topic_id": "1.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main benefits of implementing load balancing in a network?"
+    },
+    {
+      "id": 532440,
+      "chapter": 1,
+      "topic_id": "1.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does load balancing prevent server failure and ensure network availability?"
+    },
+    {
+      "id": 532441,
+      "chapter": 1,
+      "topic_id": "1.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly describe the Round Robin method of load balancing."
+    },
+    {
+      "id": 532443,
+      "chapter": 1,
+      "topic_id": "1.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the Least Connection method differ from the IP Hash method?"
+    },
+    {
+      "id": 532470,
+      "chapter": 1,
+      "topic_id": "1.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is network security, and why is it essential for homes and organizations?"
+    },
+    {
+      "id": 532471,
+      "chapter": 1,
+      "topic_id": "1.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a firewall act as a barrier between safe and unsafe networks?"
+    },
+    {
+      "id": 532472,
+      "chapter": 1,
+      "topic_id": "1.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is data encryption?"
+    },
+    {
+      "id": 532473,
+      "chapter": 1,
+      "topic_id": "1.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do access controls and permissions protect network resources?"
+    },
+    {
+      "id": 532474,
+      "chapter": 1,
+      "topic_id": "1.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of Access Control?"
+    },
+    {
+      "id": 532475,
+      "chapter": 1,
+      "topic_id": "1.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four common network security threats."
+    },
+    {
+      "id": 532489,
+      "chapter": 1,
+      "topic_id": "1.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is data backup?"
+    },
+    {
+      "id": 532492,
+      "chapter": 1,
+      "topic_id": "1.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between data backup and data recovery?"
+    },
+    {
+      "id": 532493,
+      "chapter": 1,
+      "topic_id": "1.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three common types of data backups."
+    },
+    {
+      "id": 532494,
+      "chapter": 1,
+      "topic_id": "1.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two storage locations commonly used for saving backups?"
+    },
+    {
+      "id": 532495,
+      "chapter": 1,
+      "topic_id": "1.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do recovery software and system restore help in recovering lost data?"
+    },
+    {
+      "id": 532496,
+      "chapter": 1,
+      "topic_id": "1.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Data Recovery?"
+    },
+    {
+      "id": 532517,
+      "chapter": 1,
+      "topic_id": "1.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is system usability,"
+    },
+    {
+      "id": 532518,
+      "chapter": 1,
+      "topic_id": "1.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary function of system security?"
+    },
+    {
+      "id": 532519,
+      "chapter": 1,
+      "topic_id": "1.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do additional login steps and strong passwords affect system usability?"
+    },
+    {
+      "id": 532520,
+      "chapter": 1,
+      "topic_id": "1.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why must organizations find a balance between usability and security?"
+    },
+    {
+      "id": 532522,
+      "chapter": 1,
+      "topic_id": "1.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the importance of system security?"
+    },
+    {
+      "id": 532525,
+      "chapter": 1,
+      "topic_id": "1.16",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the importance of system usability?"
+    },
+    {
+      "id": 532657,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is computational thinking?"
+    },
+    {
+      "id": 532658,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does computational thinking help us break big problems into?"
+    },
+    {
+      "id": 532660,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write any three daily life examples of Computational Thinking."
+    },
+    {
+      "id": 532664,
+      "chapter": 2,
+      "topic_id": "2.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What kind of steps do we create to solve a problem in computational thinking?"
+    },
+    {
+      "id": 532718,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Decomposition."
+    },
+    {
+      "id": 532721,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the importance of decomposition?"
+    },
+    {
+      "id": 532725,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How computational thinking helps in problem solving?"
+    },
+    {
+      "id": 532729,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Identifying a problem? Why is it important?"
+    },
+    {
+      "id": 532730,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Algorithm and give an example."
+    },
+    {
+      "id": 532732,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do you know about Creating step-by-step solutions?"
+    },
+    {
+      "id": 532739,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of creating step-by-step solutions?"
+    },
+    {
+      "id": 532743,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it important to evaluate solution?"
+    },
+    {
+      "id": 532744,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by improving solutions?"
+    },
+    {
+      "id": 532749,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is significance of improving solutions?"
+    },
+    {
+      "id": 532799,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is logic?"
+    },
+    {
+      "id": 532800,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does logic help computers handle complex information?"
+    },
+    {
+      "id": 532801,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does logic mean in computer science?"
+    },
+    {
+      "id": 532817,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of login in reasoning and decision making?"
+    },
+    {
+      "id": 533059,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is propositional logic?"
+    },
+    {
+      "id": 533060,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a proposition?"
+    },
+    {
+      "id": 533061,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a statement that is NOT a proposition."
+    },
+    {
+      "id": 533062,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What serves as the basic unit of logic?"
+    },
+    {
+      "id": 533063,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a proposition usually represented symbolically?"
+    },
+    {
+      "id": 533064,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a simple proposition?"
+    },
+    {
+      "id": 533065,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a compound proposition?"
+    },
+    {
+      "id": 533066,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are logical connectives?"
+    },
+    {
+      "id": 533067,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is the AND connective true?"
+    },
+    {
+      "id": 533068,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is the OR connective true?"
+    },
+    {
+      "id": 533069,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of the NOT connective?"
+    },
+    {
+      "id": 533070,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two examples of simple proposition."
+    },
+    {
+      "id": 533821,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is significance of truth table?"
+    },
+    {
+      "id": 533822,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the first step in creating a truth table?"
+    },
+    {
+      "id": 533828,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of truth table?"
+    },
+    {
+      "id": 533830,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How to create truth tables for logical expressions?"
+    },
+    {
+      "id": 533832,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are truth values?"
+    },
+    {
+      "id": 533834,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Create a truth table for P AND Q."
+    },
+    {
+      "id": 533835,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Create a truth table for P OR Q."
+    },
+    {
+      "id": 533836,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Create a truth table for NOT logical connective."
+    },
+    {
+      "id": 533851,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is propositional equivalence?"
+    },
+    {
+      "id": 533852,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is propositional equivalence checked?"
+    },
+    {
+      "id": 533854,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When are two logical expressions considered equivalent?"
+    },
+    {
+      "id": 533855,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which symbol is used to represent equivalence?"
+    },
+    {
+      "id": 533857,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What two methods can be used to identify equivalent logical expressions?"
+    },
+    {
+      "id": 533859,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main benefit of using logical laws on expressions?"
+    },
+    {
+      "id": 533861,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the importance of Equivalence in Logic?"
+    },
+    {
+      "id": 533891,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is propositional satisfiability?"
+    },
+    {
+      "id": 533892,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is a proposition considered unsatisfiable?"
+    },
+    {
+      "id": 533893,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a truth table be used to test satisfiability?"
+    },
+    {
+      "id": 533894,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the expression \"P AND NOT P\" unsatisfiable?"
+    },
+    {
+      "id": 533896,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the key difference between satisfiable and unsatisfiable expressions?"
+    },
+    {
+      "id": 533934,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is predicate logic?"
+    },
+    {
+      "id": 533936,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What components make up statements in predicate logic?"
+    },
+    {
+      "id": 533937,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a predicate?"
+    },
+    {
+      "id": 533939,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do variables represent in predicate logic?"
+    },
+    {
+      "id": 533940,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a predicate statement."
+    },
+    {
+      "id": 533941,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is predicate logic considered more powerful than propositional logic?"
+    },
+    {
+      "id": 533942,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the limitation of propositional logic when expressing a statement like \"Ali is Tall\"?"
+    },
+    {
+      "id": 533943,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do predicates and variables work together in logical expressions?"
+    },
+    {
+      "id": 533944,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of statements can predicate logic express that propositional logic cannot?"
+    },
+    {
+      "id": 533945,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differenciate Between Propositional and Predicate Logic."
+    },
+    {
+      "id": 534245,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are quantifiers in predicate logic?"
+    },
+    {
+      "id": 534246,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do quantifiers make predicate logic more powerful than propositional logic?"
+    },
+    {
+      "id": 534247,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the universal quantifier and state its symbol."
+    },
+    {
+      "id": 534248,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the existential quantifier and state its symbol."
+    },
+    {
+      "id": 534249,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the universal quantifier ensure accuracy in general rules?"
+    },
+    {
+      "id": 534251,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When should the existential quantifier be used instead of the universal quantifier?"
+    },
+    {
+      "id": 534253,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a statement that combines both universal and existential quantifiers."
+    },
+    {
+      "id": 534256,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do quantifiers help represent clearly and precisely?"
+    },
+    {
+      "id": 534312,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does predicate logic help solve real-world problems?"
+    },
+    {
+      "id": 534313,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three real-world structures or systems that predicate logic can model."
+    },
+    {
+      "id": 534314,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does logical reasoning assist in system management and decision-making?"
+    },
+    {
+      "id": 534315,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do quantifiers play when modeling real-world systems like a library?"
+    },
+    {
+      "id": 534317,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a rule like \"All students must attend class\" be represented conceptually using a universal quantifier?"
+    },
+    {
+      "id": 534322,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How to logical statements with quantifiers? Give an example."
+    },
+    {
+      "id": 534375,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are logic-based reasoning and inference?"
+    },
+    {
+      "id": 534376,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is logical inference?"
+    },
+    {
+      "id": 534378,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is guaranteed by logical inference if the premises are true?"
+    },
+    {
+      "id": 534379,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three fields where logical inference is used."
+    },
+    {
+      "id": 534381,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define deduction in terms of reasoning direction."
+    },
+    {
+      "id": 534382,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which logical rule structure is commonly used in deduction?"
+    },
+    {
+      "id": 534383,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Given the premises \"If it rains, the ground gets wet\" and \"It is raining,\" what conclusion is drawn using deduction?"
+    },
+    {
+      "id": 534384,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is deduction considered a reliable method of reasoning?"
+    },
+    {
+      "id": 534385,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do computers make use of deduction?"
+    },
+    {
+      "id": 534387,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What skill is improved by understanding logic-based reasoning and inference?"
+    },
+    {
+      "id": 534505,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of a class in OOP?"
+    },
+    {
+      "id": 534506,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three core concepts emphasized by OOP to manage data and behavior."
+    },
+    {
+      "id": 534507,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does OOP achieve modularity?"
+    },
+    {
+      "id": 534509,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does OOP help reduce code repetition?"
+    },
+    {
+      "id": 534510,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are programs developed using OOP easier to maintain and update?"
+    },
+    {
+      "id": 534511,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What two structural advantages does OOP provide for software development growth?"
+    },
+    {
+      "id": 534512,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does OOP enhance teamwork and collaboration among developers?"
+    },
+    {
+      "id": 534513,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by modularity in OOPs?"
+    },
+    {
+      "id": 534514,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Reusability in OOPs?"
+    },
+    {
+      "id": 534535,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the core concepts of Object-Oriented Programming?"
+    },
+    {
+      "id": 534537,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What term is used for the properties of an entity in OOP?"
+    },
+    {
+      "id": 534539,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Attribute?"
+    },
+    {
+      "id": 534541,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Method?"
+    },
+    {
+      "id": 534543,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What term is used for the properties of an entity in OOP? Given am example."
+    },
+    {
+      "id": 534545,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What term is used for the actions of an entity in OOP? Give an example."
+    },
+    {
+      "id": 534547,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do classes and objects contribute to making programs more structured?"
+    },
+    {
+      "id": 534560,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by Object in OOPs?"
+    },
+    {
+      "id": 534591,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of the __init__ method in Python classes?"
+    },
+    {
+      "id": 534592,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the self keyword represent inside Python class definitions?"
+    },
+    {
+      "id": 534593,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Encapsulation."
+    },
+    {
+      "id": 534595,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Python handle access control differently than Java or C++?"
+    },
+    {
+      "id": 534596,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four main reasons why encapsulation is important in software design."
+    },
+    {
+      "id": 534597,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is a public member defined and accessed in Python?"
+    },
+    {
+      "id": 534598,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What prefix convention is used to designate protected members in Python?"
+    },
+    {
+      "id": 534599,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What prefix syntax is used to declare private members in Python?"
+    },
+    {
+      "id": 534600,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Name Mangling in Python, and what purpose does it serve?"
+    },
+    {
+      "id": 534602,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does encapsulation control balance modifications in a bank account system?"
+    },
+    {
+      "id": 534644,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is inheritance in programming?"
+    },
+    {
+      "id": 534645,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two primary benefits of using inheritance?"
+    },
+    {
+      "id": 534646,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define single inheritance."
+    },
+    {
+      "id": 534647,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a base class?"
+    },
+    {
+      "id": 534648,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a derived class?"
+    },
+    {
+      "id": 534649,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is inheritance specified in Python class syntax?"
+    },
+    {
+      "id": 534650,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is method overriding?"
+    },
+    {
+      "id": 534651,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the super() function?"
+    },
+    {
+      "id": 534652,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define multiple inheritance."
+    },
+    {
+      "id": 534653,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What real-world device example combines features from multiple parent classes like Camera and Computer?"
+    },
+    {
+      "id": 534654,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between single and multiple inheritance."
+    },
+    {
+      "id": 534656,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Public and Private members of a class."
+    },
+    {
+      "id": 534657,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Public members of a class?"
+    },
+    {
+      "id": 534659,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Private members of a class?"
+    },
+    {
+      "id": 534660,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Protected members of a class?"
+    },
+    {
+      "id": 534662,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between superclass and subclass?"
+    },
+    {
+      "id": 534664,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many types of Inheritance are there?"
+    },
+    {
+      "id": 534695,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is multilevel inheritance?"
+    },
+    {
+      "id": 534696,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What real-world organizational structure is multilevel inheritance compared to?"
+    },
+    {
+      "id": 534699,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does multilevel inheritance differ fundamentally from single inheritance?"
+    },
+    {
+      "id": 534701,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is multilevel inheritance useful for designing complex software models?"
+    },
+    {
+      "id": 534702,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the Python code snippet to define the base Vehicle class."
+    },
+    {
+      "id": 534704,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the Python code snippet to define the base Person class."
+    },
+    {
+      "id": 534749,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the literal meaning of the word polymorphism?"
+    },
+    {
+      "id": 534751,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define polymorphism in OOPs."
+    },
+    {
+      "id": 534752,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does polymorphism contribute to code quality?"
+    },
+    {
+      "id": 534753,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two primary categories of polymorphism?"
+    },
+    {
+      "id": 534754,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which sub-concept belongs to Compile-time Polymorphism?"
+    },
+    {
+      "id": 534755,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which sub-concept belongs to Runtime Polymorphism?"
+    },
+    {
+      "id": 534758,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between compile-time and runtime polymorphism?"
+    },
+    {
+      "id": 534759,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is polymorphism useful when building extensible software applications?"
+    },
+    {
+      "id": 534792,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is compile-time polymorphism?"
+    },
+    {
+      "id": 534793,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name two programming languages that support traditional method or operator overloading."
+    },
+    {
+      "id": 534794,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is signature-based method overloading unnecessary in Python?"
+    },
+    {
+      "id": 534795,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What features in Python allow developers to achieve overloading-like behavior?"
+    },
+    {
+      "id": 534796,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is runtime polymorphism?"
+    },
+    {
+      "id": 534797,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is runtime polymorphism implemented in object-oriented programming?"
+    },
+    {
+      "id": 534798,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when a child class overrides a parent class method?"
+    },
+    {
+      "id": 534799,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What dictates which method implementation is executed during runtime polymorphism?"
+    },
+    {
+      "id": 535609,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a code snippet to demonstrate single inheritance."
+    },
+    {
+      "id": 535614,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a code snippet to demonstrate polymorphism."
+    },
+    {
+      "id": 535686,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a command-line interface?"
+    },
+    {
+      "id": 535687,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Graphical User Interface (GUI) and Command Line Interface (CLI)."
+    },
+    {
+      "id": 535688,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are GUIs particularly important for non-technical users?"
+    },
+    {
+      "id": 535689,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Mention three platform environments where GUI applications are widely utilized."
+    },
+    {
+      "id": 535691,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why Tkinter is convenient for Python developers?"
+    },
+    {
+      "id": 535692,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does it mean that Tkinter supports event-driven programming?"
+    },
+    {
+      "id": 535693,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the specific function of tk.Tk() in a Tkinter program?"
+    },
+    {
+      "id": 535694,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the main function of the Label widget in Tkinter."
+    },
+    {
+      "id": 535695,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of the Entry widget in a GUI application?"
+    },
+    {
+      "id": 535696,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how the Button widget handles user interaction in Tkinter."
+    },
+    {
+      "id": 535697,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the command=on_click argument in a Tkinter button declaration?"
+    },
+    {
+      "id": 535698,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the mainloop() method do, and what happens if it is omitted?"
+    },
+    {
+      "id": 535699,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does window.geometry(\"300x200\") affect the application window?"
+    },
+    {
+      "id": 535700,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of pady=10 when calling .pack() on a widget?"
+    },
+    {
+      "id": 535701,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can the text of a Label widget be changed programmatically after it has been created?"
+    },
+    {
+      "id": 535715,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are widgets in Tkinter, and what is their primary function?"
+    },
+    {
+      "id": 535716,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does layout management assist in GUI application design?"
+    },
+    {
+      "id": 535717,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of the main window in a Tkinter application?"
+    },
+    {
+      "id": 535718,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a Frame in Tkinter, and how does it help organize a user interface?"
+    },
+    {
+      "id": 535719,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of setting fill=\"both\" and expand=True when packing a Frame?"
+    },
+    {
+      "id": 535720,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you place a Label widget inside a specific Frame rather than directly inside the main window?"
+    },
+    {
+      "id": 535721,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is background color bg useful when defining multiple frames in a window?"
+    },
+    {
+      "id": 535722,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does dividing a main window into multiple frames improve GUI clarity?"
+    },
+    {
+      "id": 537004,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the main characteristics of a clean interface?"
+    },
+    {
+      "id": 537005,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by responsive interfaces in application design?"
+    },
+    {
+      "id": 537006,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the significance of responsive interfaces in application design?"
+    },
+    {
+      "id": 537007,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does simple design contribute to making an interface user-friendly?"
+    },
+    {
+      "id": 537008,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define event handling and interactivity in the context of graphical user interfaces."
+    },
+    {
+      "id": 537009,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an event? Give two examples of common events."
+    },
+    {
+      "id": 537010,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain the fundamental concept of event-driven programming."
+    },
+    {
+      "id": 537011,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does event-driven programming help in saving system resources?"
+    },
+    {
+      "id": 537012,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How user input is processed using widgets and connected functions?"
+    },
+    {
+      "id": 537013,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the outcome of proper widget-to-function connections in GUI applications?"
+    },
+    {
+      "id": 537027,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the specific role of Entry, Button widgets."
+    },
+    {
+      "id": 537028,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the specific role of check_login(), and messagebox widgets."
+    },
+    {
+      "id": 537029,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Enumerate the primary operations Python programs execute after establishing a database connection."
+    },
+    {
+      "id": 537030,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define database."
+    },
+    {
+      "id": 537031,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Summarize the key advantages of database."
+    },
+    {
+      "id": 537032,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the fundamental scope of working with databases in Python applications?"
+    },
+    {
+      "id": 537047,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define an entity and list two real-world examples."
+    },
+    {
+      "id": 537048,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define an attribute and name four attributes belonging to the Student entity."
+    },
+    {
+      "id": 537049,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how a relationship connects entities using the \"Student enrols in Course\" example."
+    },
+    {
+      "id": 537050,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define an identifier and state why Roll Number serves as one for a student."
+    },
+    {
+      "id": 537051,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain the operational structure of a Relational Database."
+    },
+    {
+      "id": 537052,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differeniate between records and fields in a database table."
+    },
+    {
+      "id": 537053,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a Primary Key and a Foreign Key based on their linking roles."
+    },
+    {
+      "id": 537054,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by primary key?"
+    },
+    {
+      "id": 537055,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is foreign key?"
+    },
+    {
+      "id": 537056,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define table."
+    },
+    {
+      "id": 537057,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Relationship database. Given one example."
+    },
+    {
+      "id": 537058,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by an attribute?"
+    },
+    {
+      "id": 537059,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a record (tuple) in database?"
+    },
+    {
+      "id": 537073,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define SQL and state its main application."
+    },
+    {
+      "id": 537074,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between sqlite3 and MySQL."
+    },
+    {
+      "id": 537075,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of a database cursor in executing SQL commands from Python?"
+    },
+    {
+      "id": 537076,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the specific data tasks executable via SQL commands in Python programs."
+    },
+    {
+      "id": 537077,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are SQL commands?"
+    },
+    {
+      "id": 537087,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are CRUD operations, and why are they important in database applications?"
+    },
+    {
+      "id": 537088,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of the Create operation, and what is its corresponding SQL syntax?"
+    },
+    {
+      "id": 537089,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the Read operation in database systems?"
+    },
+    {
+      "id": 537090,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which SQL command is associated with Read operation?"
+    },
+    {
+      "id": 537091,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is the Update operation used?"
+    },
+    {
+      "id": 537092,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do conditions control data modification during execution?"
+    },
+    {
+      "id": 537093,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which exact SQL command is used to delete a student record having an ID of 1 from the students table?"
+    },
+    {
+      "id": 537094,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is DELETE command in SQL?"
+    },
+    {
+      "id": 537095,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is UPDATE command in SQL?"
+    },
+    {
+      "id": 537096,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which command in SQL is used to fetch and display data?"
+    },
+    {
+      "id": 537104,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Delete operation benefits database maintenance?"
+    },
+    {
+      "id": 537105,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do conditions in SQL delete commands assist Python in targeting specific records?"
+    },
+    {
+      "id": 537106,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is careful execution necessary when running deletion operations in a database?"
+    },
+    {
+      "id": 537107,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What specific action is executed by the SQL query \"DELETE FROM students WHERE ID = 1\"?"
+    },
+    {
+      "id": 537108,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of connection.commit()?"
+    },
+    {
+      "id": 537109,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens if connection.commit() is omitted after a delete operation?"
+    },
+    {
+      "id": 537121,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by debugging?"
+    },
+    {
+      "id": 537122,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is testing?"
+    },
+    {
+      "id": 537123,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the importance of regular testing during application development?"
+    },
+    {
+      "id": 537124,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the importance of debugging?"
+    },
+    {
+      "id": 537125,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does thorough testing contribute to future program maintenance and stability?"
+    },
+    {
+      "id": 537126,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a syntax error and a logic error."
+    },
+    {
+      "id": 537127,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a runtime error? Give an example."
+    },
+    {
+      "id": 537128,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many types of errors are there?"
+    },
+    {
+      "id": 537129,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define resource leaks and data errors as common programming bugs."
+    },
+    {
+      "id": 537130,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a syntax error affect program execution compared to a logic error?"
+    },
+    {
+      "id": 537131,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define syntax error. Give an example."
+    },
+    {
+      "id": 537132,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define logical error. Give an example."
+    },
+    {
+      "id": 537133,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when a ZeroDivisionError occurs in a Python program?"
+    },
+    {
+      "id": 537142,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define unit testing."
+    },
+    {
+      "id": 537143,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two primary benefits of performing unit testing?"
+    },
+    {
+      "id": 537144,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which Python modules are used to write and run automated unit tests?"
+    },
+    {
+      "id": 537145,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do unit tests specifically check in software components?"
+    },
+    {
+      "id": 537146,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does writing clear and simple test cases affect code reliability?"
+    },
+    {
+      "id": 537156,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between unittest and pytest in terms of built-in availability."
+    },
+    {
+      "id": 537157,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly describe unittest module."
+    },
+    {
+      "id": 537158,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly describe pytest module."
+    },
+    {
+      "id": 537159,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does automated test execution benefit the development process?"
+    },
+    {
+      "id": 537160,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is repeated testing important when making changes to existing code?"
+    },
+    {
+      "id": 537161,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What makes pytest simpler to use compared to unittest?"
+    },
+    {
+      "id": 537162,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are assertions written in pytest to verify program output?"
+    },
+    {
+      "id": 537163,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are pytest tests executed from the command line interface?"
+    },
+    {
+      "id": 538149,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define breakpoints and watches in debugging."
+    },
+    {
+      "id": 538151,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are breakpoints in IDEs like PyCharm or VS Code?"
+    },
+    {
+      "id": 538153,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do breakpoints help developers focus on specific code sections?"
+    },
+    {
+      "id": 538154,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main function of watch expressions during program execution?"
+    },
+    {
+      "id": 538155,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do watch expressions update when variable values change?"
+    },
+    {
+      "id": 538156,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is step-by-step debugging?"
+    },
+    {
+      "id": 538158,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does step-by-step debugging help detect where errors occur?"
+    },
+    {
+      "id": 538159,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which three navigation actions can developers perform after reaching a breakpoint during debugging?"
+    },
+    {
+      "id": 538176,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can you set a breakpoint in PyCharm?"
+    },
+    {
+      "id": 538177,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when a program execution reaches a breakpoint in an IDE?"
+    },
+    {
+      "id": 538178,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do watch expressions assist in tracking variables during execution?"
+    },
+    {
+      "id": 538179,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between Step Into and Step Over in step-by-step debugging."
+    },
+    {
+      "id": 538180,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of the Continue command in PyCharm's debugger?"
+    },
+    {
+      "id": 538226,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define exception handling in python."
+    },
+    {
+      "id": 538227,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is try-except in python?"
+    },
+    {
+      "id": 538229,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of commit() in python?"
+    },
+    {
+      "id": 538230,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is rollback() used for in python?"
+    },
+    {
+      "id": 538231,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is finally block in python?"
+    },
+    {
+      "id": 538232,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does exception handling improve program reliability and user experience?"
+    },
+    {
+      "id": 538259,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it necessary to handle multiple exception types in a single program?"
+    },
+    {
+      "id": 538260,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Python support catching multiple exceptions within code structures?"
+    },
+    {
+      "id": 538261,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by handling multiple exception types?"
+    },
+    {
+      "id": 538276,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define profiling and optimization."
+    },
+    {
+      "id": 538277,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary focus of code optimization?"
+    },
+    {
+      "id": 538278,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is regular profiling necessary during software development?"
+    },
+    {
+      "id": 538279,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does profiling help identify?"
+    },
+    {
+      "id": 538280,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "for i in range(10000): for j in range(10000): # some repeated task here How is the total number of executions calculated?"
+    },
+    {
+      "id": 538281,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a performance bottleneck in programming?"
+    },
+    {
+      "id": 538282,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do profiling tools assist programmers in resolving performance bottlenecks?"
+    },
+    {
+      "id": 538294,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define measuring performance using profiling tools."
+    },
+    {
+      "id": 538295,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which Python modules are used for profiling, and what reports do they produce?"
+    },
+    {
+      "id": 538296,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a performance bottleneck?"
+    },
+    {
+      "id": 538297,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do profiling reports assist in locating bottlenecks?"
+    },
+    {
+      "id": 538298,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are three optimization techniques used to fix performance bottlenecks?"
+    },
+    {
+      "id": 538299,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the overall benefits of fixing performance bottlenecks in an application?"
+    },
+    {
+      "id": 538300,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the four main stages of the Performance Test Cycle."
+    },
+    {
+      "id": 538301,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do system hardware resources like Network, CPU, and Disks relate to the Performance Test Cycle?"
+    },
+    {
+      "id": 539731,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Data Science."
+    },
+    {
+      "id": 539732,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary role of data science in decision-making?"
+    },
+    {
+      "id": 539733,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the four sequential stages in the Data Science Work Flow."
+    },
+    {
+      "id": 539736,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two specific processes involved under the \"Data Analysis\" phase of the workflow?"
+    },
+    {
+      "id": 539737,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What occurs during the \"Modeling\" phase of the data science workflow?"
+    },
+    {
+      "id": 539738,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of the Feedback Loop in the Data Science Work Flow?"
+    },
+    {
+      "id": 539739,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is data science described as an interdisciplinary field?"
+    },
+    {
+      "id": 539741,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the roles of Mathematics and Statistics in data science."
+    },
+    {
+      "id": 539742,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Computer Science contribute to the field of data science?"
+    },
+    {
+      "id": 539743,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is domain knowledge and why is it necessary in data science?"
+    },
+    {
+      "id": 539744,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do communication skills assist in the final stages of data science work?"
+    },
+    {
+      "id": 539745,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What must happen to raw data after it is collected but before it is analyzed?"
+    },
+    {
+      "id": 539746,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does data science help organizations predict future trends?"
+    },
+    {
+      "id": 539747,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What three major real-world areas are explicitly mentioned as widely using data science?"
+    },
+    {
+      "id": 539795,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define data."
+    },
+    {
+      "id": 539796,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What forms can data take?"
+    },
+    {
+      "id": 539797,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does poor data quality affect final analytical results?"
+    },
+    {
+      "id": 539798,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is structured data?"
+    },
+    {
+      "id": 539799,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two examples of structured data."
+    },
+    {
+      "id": 539800,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is unstructured data?"
+    },
+    {
+      "id": 539801,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three examples of unstructured data."
+    },
+    {
+      "id": 539803,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is required to process unstructured data?"
+    },
+    {
+      "id": 539804,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List four common sources of data collection."
+    },
+    {
+      "id": 539806,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between structured and unstructured data."
+    },
+    {
+      "id": 539807,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between manual data collection and automatic data collection."
+    },
+    {
+      "id": 539809,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors determine the choice of data collection method?"
+    },
+    {
+      "id": 539810,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define data storage."
+    },
+    {
+      "id": 539811,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where can data be stored?"
+    },
+    {
+      "id": 539812,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define data management."
+    },
+    {
+      "id": 539813,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of backup systems in data management?"
+    },
+    {
+      "id": 539814,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is proper data understanding important prior to conducting analysis?"
+    },
+    {
+      "id": 539859,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Machine Learning."
+    },
+    {
+      "id": 539860,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary role of machine learning in modern applications?"
+    },
+    {
+      "id": 539861,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does machine learning guide predictions without relying on predefined rules?"
+    },
+    {
+      "id": 539862,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does learning from data mean in the context of machine learning models?"
+    },
+    {
+      "id": 539863,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does repeated training affect a machine learning model?"
+    },
+    {
+      "id": 539864,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is learning from data described as a continuous process?"
+    },
+    {
+      "id": 539865,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What determines the output in traditional programming?"
+    },
+    {
+      "id": 539866,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are updates handled differently in traditional programming compared to machine learning?"
+    },
+    {
+      "id": 539867,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which approach, traditional programming or machine learning, is better suited for complex problems and why?"
+    },
+    {
+      "id": 539868,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between traditional programming and machine learning?"
+    },
+    {
+      "id": 540444,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define labeled data."
+    },
+    {
+      "id": 540445,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is unlabeled data?"
+    },
+    {
+      "id": 540446,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which tasks are categorized under supervised learning?"
+    },
+    {
+      "id": 540447,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which tasks are categorized under unsupervised learning?"
+    },
+    {
+      "id": 540448,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define supervised machine learning."
+    },
+    {
+      "id": 540449,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a supervised learning model improve its accuracy during training?"
+    },
+    {
+      "id": 540450,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give four real-world application examples of supervised machine learning."
+    },
+    {
+      "id": 540451,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define unsupervised machine learning."
+    },
+    {
+      "id": 540452,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does unsupervised machine learning discover hidden structures in data?"
+    },
+    {
+      "id": 540453,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are two primary examples of unsupervised machine learning applications?"
+    },
+    {
+      "id": 540454,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define reinforcement machine learning."
+    },
+    {
+      "id": 540455,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do positive rewards and penalties function in reinforcement learning?"
+    },
+    {
+      "id": 540456,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary method through which learning continues in reinforcement learning?"
+    },
+    {
+      "id": 540457,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does an autonomous car or maze-navigating robot utilize reinforcement learning?"
+    },
+    {
+      "id": 540460,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between supervised machine learning and unsupervised machine learning."
+    },
+    {
+      "id": 540462,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between labeled data and unlabeled data."
+    },
+    {
+      "id": 540551,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What overall benefits does machine learning bring to organizations when analyzing large amounts of data?"
+    },
+    {
+      "id": 540552,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does machine learning assist doctors in healthcare decision-making?"
+    },
+    {
+      "id": 540553,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does machine learning help businesses understand customer behavior?"
+    },
+    {
+      "id": 540554,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the impact of data-driven decisions on business operations and performance?"
+    },
+    {
+      "id": 540555,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three business use cases of machine learning."
+    },
+    {
+      "id": 540556,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does machine learning make education systems smarter?"
+    },
+    {
+      "id": 540557,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do voice assistants and mobile phone security leverage machine learning in daily life?"
+    },
+    {
+      "id": 540558,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In what ways do social media and online media platforms use machine learning for users?"
+    },
+    {
+      "id": 540559,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do navigation apps and smart home devices assist users using machine learning?"
+    },
+    {
+      "id": 540560,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Enlist some use cases of machine learning in daily life."
+    },
+    {
+      "id": 540561,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain the use of machine learning in education."
+    },
+    {
+      "id": 540562,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do we use machine learning in business?"
+    },
+    {
+      "id": 541204,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a simple example of machine learning?"
+    },
+    {
+      "id": 541205,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which types of student data are collected for predicting student grades?"
+    },
+    {
+      "id": 541206,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is data cleaned and prepared before being used for learning?"
+    },
+    {
+      "id": 541208,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the term features in the context of building a machine learning model."
+    },
+    {
+      "id": 541209,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of training data in machine learning?"
+    },
+    {
+      "id": 541210,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary function of testing data?"
+    },
+    {
+      "id": 541211,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does feature selection impact the results of a machine learning model?"
+    },
+    {
+      "id": 541212,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does student grade prediction assist teachers in an educational setting?"
+    },
+    {
+      "id": 541494,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by model training using data?"
+    },
+    {
+      "id": 541546,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define features and target values in machine learning."
+    },
+    {
+      "id": 541548,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is feature engineering?"
+    },
+    {
+      "id": 541549,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What activities are included in feature engineering?"
+    },
+    {
+      "id": 541550,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is raw data often not directly ready for machine learning models?"
+    },
+    {
+      "id": 541552,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does feature engineering improve model performance?"
+    },
+    {
+      "id": 541553,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of feature engineering using student study hours."
+    },
+    {
+      "id": 541554,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main purpose of splitting data into training and testing sets?"
+    },
+    {
+      "id": 541555,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of training data in a train-test split?"
+    },
+    {
+      "id": 541557,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does testing data help check the real performance of a model?"
+    },
+    {
+      "id": 541558,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which problem is specifically prevented by using a train-test split?"
+    },
+    {
+      "id": 541559,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a common percentage ratio used for train-test data splitting?"
+    },
+    {
+      "id": 541560,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a simple predictive model?"
+    },
+    {
+      "id": 541561,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are simple predictive models especially helpful for beginners?"
+    },
+    {
+      "id": 541562,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are the results of test data used after evaluating a simple predictive model?"
+    },
+    {
+      "id": 541661,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define model evaluation."
+    },
+    {
+      "id": 541662,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are performance metrics in machine learning?"
+    },
+    {
+      "id": 541663,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why can relying solely on high accuracy be misleading?"
+    },
+    {
+      "id": 541664,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define accuracy in machine learning model evaluation."
+    },
+    {
+      "id": 541665,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is error rate related to accuracy?"
+    },
+    {
+      "id": 541666,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is balanced data important for accuracy results?"
+    },
+    {
+      "id": 541667,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define True Positives (TP) and True Negatives (TN)."
+    },
+    {
+      "id": 541668,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define False Positives (FP) and False Negatives (FN)."
+    },
+    {
+      "id": 541669,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the formula for calculating Accuracy?"
+    },
+    {
+      "id": 541670,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define precision."
+    },
+    {
+      "id": 541671,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define recall."
+    },
+    {
+      "id": 541672,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between the focus of precision and the focus of recall."
+    },
+    {
+      "id": 541673,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is reduced when a model achieves high precision?"
+    },
+    {
+      "id": 541674,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is reduced when a model achieves high recall?"
+    },
+    {
+      "id": 541675,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the equation used to calculate Precision?"
+    },
+    {
+      "id": 541676,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the equation used to calculate Recall?"
+    },
+    {
+      "id": 541677,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between True Positives (TP) and False Positives (FP)."
+    },
+    {
+      "id": 541678,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between True Negatives (TN) and False Negatives (FN)."
+    },
+    {
+      "id": 541690,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define F1-Score in machine learning evaluation."
+    },
+    {
+      "id": 541691,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the F-measure particularly useful when dealing with unbalanced data?"
+    },
+    {
+      "id": 541692,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which two aspects of a model's performance are balanced by the F1-score?"
+    },
+    {
+      "id": 541693,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a higher F-measure indicate about a model's performance?"
+    },
+    {
+      "id": 541694,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why should evaluators avoid relying on accuracy alone when assessing models?"
+    },
+    {
+      "id": 541695,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the F1-score provide a fair comparison between models?"
+    },
+    {
+      "id": 541696,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the equation for calculating the F1-Score?"
+    },
+    {
+      "id": 541697,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is precision defined within the F1-score framework?"
+    },
+    {
+      "id": 541699,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is recall defined within the F1-score framework?"
+    },
+    {
+      "id": 541710,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you calculate Precision when given TP = 40, TN = 50, FP = 10, and FN = 5?"
+    },
+    {
+      "id": 541711,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you calculate Recall when given TP = 40, TN = 50, FP = 10, and FN = 5?"
+    },
+    {
+      "id": 541755,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is validation in machine learning?"
+    },
+    {
+      "id": 541756,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is validation conducted during model development?"
+    },
+    {
+      "id": 541757,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does validation prevent models from memorizing data?"
+    },
+    {
+      "id": 541758,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is used to guide model improvement?"
+    },
+    {
+      "id": 541759,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a validation dataset."
+    },
+    {
+      "id": 541760,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why must validation data be clean and accurate?"
+    },
+    {
+      "id": 541761,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between model robustness and model reliability."
+    },
+    {
+      "id": 541762,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a robust model handle small changes or noise in data?"
+    },
+    {
+      "id": 541763,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is hyperparameter tuning?"
+    },
+    {
+      "id": 541764,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do hyperparameters affect the learning behavior of a model?"
+    },
+    {
+      "id": 541765,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does validation data assist in hyperparameter tuning?"
+    },
+    {
+      "id": 541766,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is hyperparameter tuning analogous to adjusting the volume of a speaker?"
+    },
+    {
+      "id": 541767,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when a model's hyperparameters are set correctly?"
     }
   ],
   "type": "short"

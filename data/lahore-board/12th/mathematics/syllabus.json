@@ -3,5 +3,244 @@
   "class": "12",
   "subject": "Mathematics",
   "slug": "mathematics",
-  "chapters": []
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Graphical Representation of Functions",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Exercise 1.1"
+        },
+        {
+          "id": "1.2",
+          "title": "Exercise 1.2"
+        },
+        {
+          "id": "1.3",
+          "title": "Exercise 1.3"
+        },
+        {
+          "id": "1.4",
+          "title": "Exercise 1.4"
+        },
+        {
+          "id": "1.5",
+          "title": "Exercise 1.5"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Further Differentiation",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Exercise 2.1"
+        },
+        {
+          "id": "2.2",
+          "title": "Exercise 2.2"
+        },
+        {
+          "id": "2.3",
+          "title": "Exercise 2.3"
+        },
+        {
+          "id": "2.4",
+          "title": "Exercise 2.4"
+        },
+        {
+          "id": "2.5",
+          "title": "Exercise 2.5"
+        },
+        {
+          "id": "2.6",
+          "title": "Exercise 2.6"
+        },
+        {
+          "id": "2.7",
+          "title": "Exercise 2.7"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Integration",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Exercise 3.1"
+        },
+        {
+          "id": "3.2",
+          "title": "Exercise 3.2"
+        },
+        {
+          "id": "3.3",
+          "title": "Exercise 3.3"
+        },
+        {
+          "id": "3.4",
+          "title": "Exercise 3.4"
+        },
+        {
+          "id": "3.5",
+          "title": "Exercise 3.5"
+        },
+        {
+          "id": "3.6",
+          "title": "Exercise 3.6"
+        },
+        {
+          "id": "3.7",
+          "title": "Exercise 3.7"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Differential Equations",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Exercise 4.1"
+        },
+        {
+          "id": "4.2",
+          "title": "Exercise 4.2"
+        },
+        {
+          "id": "4.3",
+          "title": "Exercise 4.3"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Analytical Geometry",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Exercise 5.1"
+        },
+        {
+          "id": "5.2",
+          "title": "Exercise 5.2"
+        },
+        {
+          "id": "5.3",
+          "title": "Exercise 5.3"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Conics",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Exercise 6.1"
+        },
+        {
+          "id": "6.2",
+          "title": "Exercise 6.2"
+        },
+        {
+          "id": "6.3",
+          "title": "Exercise 6.3"
+        },
+        {
+          "id": "6.4",
+          "title": "Exercise 6.4"
+        },
+        {
+          "id": "6.5",
+          "title": "Exercise 6.5"
+        },
+        {
+          "id": "6.6",
+          "title": "Exercise 6.6"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Kinematics",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Exercise 7"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Numerical Solutions of Nonlinear Equations",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Exercise 8.1"
+        },
+        {
+          "id": "8.2",
+          "title": "Exercise 8.2"
+        },
+        {
+          "id": "8.3",
+          "title": "Exercise 8.3"
+        },
+        {
+          "id": "8.4",
+          "title": "Exercise 8.4"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Inverse Trigonometric Functions and Their Graphs",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Exercise 9.1"
+        },
+        {
+          "id": "9.2",
+          "title": "Exercise 9.2"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Solution of Trigonometric Equations",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Ex. 10.1"
+        },
+        {
+          "id": "10.2",
+          "title": "Ex.10.2"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Vector Valued Functions and Their Derivatives",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Ex. 11.1"
+        },
+        {
+          "id": "11.2",
+          "title": "Ex. 11.2"
+        },
+        {
+          "id": "11.3",
+          "title": "Ex. 11.3"
+        }
+      ]
+    }
+  ]
 }

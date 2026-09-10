@@ -34,7 +34,14 @@ const SUBJECT_CONFIG = {
   116: { slug: "biology", types: STD },
   117: { slug: "chemistry", types: STD },
   118: { slug: "physics", types: STD },
-  119: { slug: "mathematics", types: STD },
+  // Class 12 Math: shorts are TypeID 14 (not 12); no LONG bank on PTS
+  119: {
+    slug: "mathematics",
+    types: [
+      { id: 1, name: "mcq", bankType: "mcq", field: "MCQ" },
+      { id: 14, name: "short", bankType: "short", field: "QA" },
+    ],
+  },
   120: { slug: "computer", types: STD },
   121: { slug: "statistics", types: STD },
   122: { slug: "economics", types: STD },
@@ -60,14 +67,14 @@ const SUBJECT_CONFIG = {
   126: { slug: "commercial-geography", types: STD },
   127: { slug: "business-statistics", types: STD },
   128: { slug: "pakistan-studies", types: STD },
+  // Class 12 Urdu: QA/passage use TypeID 49; Naat is TypeID 29 (no 14/28/48)
   129: {
     slug: "urdu-compulsory",
     types: [
       { id: 1, name: "mcq", bankType: "mcq", field: "MCQ" },
-      { id: 14, name: "short-qa", bankType: "short", field: "QA" },
       { id: 19, name: "long-poem", bankType: "long", field: "POEM" },
-      { id: 28, name: "long-summary", bankType: "long", field: "SUMMARY" },
-      { id: 48, name: "long-passage", bankType: "long", field: "PASSAGE" },
+      { id: 29, name: "long-naat", bankType: "long", field: "NAAT" },
+      { id: 49, name: "short-qa", bankType: "short", field: "QA" },
     ],
   },
   130: { slug: "education", types: STD },

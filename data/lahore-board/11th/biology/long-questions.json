@@ -4,18 +4,28 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB INTER-I (Class 11) Biology (read-only export)",
-  "total_questions": 3687,
+  "total_questions": 3973,
   "counts": {
-    "mcq": 1850,
-    "short": 1668,
-    "long": 169
+    "mcq": 1953,
+    "short": 1785,
+    "long": 235
   },
   "fieldCounts": {
-    "MCQ": 1850,
-    "QA": 1668,
-    "LONG": 169
+    "MCQ": 1953,
+    "QA": 1785,
+    "LONG": 235
   },
   "questions": [
+    {
+      "id": 397890,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare and contrast the domains Archaea and Bacteria and discuss how these differences reflect their evolutionary histories."
+    },
     {
       "id": 397895,
       "chapter": 1,
@@ -67,6 +77,16 @@
       "en": "Describe the concept of an ecosystem and niche."
     },
     {
+      "id": 397891,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of a species according to the biological species concept. How does this definition help in understanding species boundaries and the process of speciation? Provide examples to illustrate your points."
+    },
+    {
       "id": 397893,
       "chapter": 1,
       "topic_id": "1.8",
@@ -95,6 +115,36 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain the structure of bacterium flagellum."
+    },
+    {
+      "id": 399190,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Briefly describe the ecological and economic importance of bacteria."
+    },
+    {
+      "id": 399192,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the use of bacteria in research and technology."
+    },
+    {
+      "id": 399186,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain different methods of movement in bacteria."
     },
     {
       "id": 399189,
@@ -237,6 +287,16 @@
       "en": "Explain the structure, and functions of Golgi complex."
     },
     {
+      "id": 404577,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a researcher observes that a certain cell type has an exceptionally large Golgi apparatus, what can be inferred about the function of this cell?"
+    },
+    {
       "id": 401466,
       "chapter": 3,
       "topic_id": "3.6",
@@ -277,6 +337,36 @@
       "en": "Explain the chemical composition and the functions of plasma membrane."
     },
     {
+      "id": 404578,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a signalling molecule is lipid-soluble, like a steroid hormone, what is the most likely mechanism for its action within the target cell?"
+    },
+    {
+      "id": 404579,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why do we categorize endocytosis and exocytosis in active transport?"
+    },
+    {
+      "id": 404580,
+      "chapter": 3,
+      "topic_id": "3.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify why the membrane may be described as fluid."
+    },
+    {
       "id": 401475,
       "chapter": 3,
       "topic_id": "3.8",
@@ -305,6 +395,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain how the properties of water make it the medium of life."
+    },
+    {
+      "id": 404624,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe and draw sketches of dehydration synthesis reactions."
+    },
+    {
+      "id": 404638,
+      "chapter": 4,
+      "topic_id": "4.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the three-dimensional structure of a protein relate to its function?"
     },
     {
       "id": 404626,
@@ -357,6 +467,26 @@
       "en": "Define proteins and amino acids and outline the synthesis and breakage of peptide linkages."
     },
     {
+      "id": 404622,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish carbohydrates, proteins, lipids and nucleic acids as the four fundamental biological molecules."
+    },
+    {
+      "id": 404640,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do nucleic acids encode genetic information, and how is this information translated into proteins?"
+    },
+    {
       "id": 404630,
       "chapter": 4,
       "topic_id": "4.8",
@@ -395,6 +525,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain the general structure of RNA and differentiate between the three types of RNA."
+    },
+    {
+      "id": 404637,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What happens if even one amino acid is substituted for another in a polypeptide chain? Provide a specific example."
     },
     {
       "id": 404636,
@@ -447,6 +587,66 @@
       "en": "Describe the structure of enzyme, explaining the role and component parts of the active site of an enzyme."
     },
     {
+      "id": 405880,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the effect of temperature on the rate of enzyme action."
+    },
+    {
+      "id": 405881,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the optimum temperatures of enzymes of human and thermophilic bacteria."
+    },
+    {
+      "id": 405882,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how the concentration of enzyme affects the rate of enzyme action."
+    },
+    {
+      "id": 405884,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the effect of substrate concentration on the rate of enzyme action."
+    },
+    {
+      "id": 405896,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If a chemical reaction could occur without an enzyme, why is it important to have one?"
+    },
+    {
+      "id": 405899,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Construct and interpret graphs based on data about the effect of temperature,enzyme concentration and substrate concentration on the rate of enzyme action."
+    },
+    {
       "id": 405888,
       "chapter": 5,
       "topic_id": "5.5",
@@ -497,6 +697,36 @@
       "en": "Give examples of enzymes’ naming according to substrates."
     },
     {
+      "id": 405900,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify the competitive and non-competitive inhibitors from a list of chemicals used in daily life."
+    },
+    {
+      "id": 405894,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Does physical exercise involve anabolic processes, catabolic processes, or both? Give evidence for your answer"
+    },
+    {
+      "id": 405957,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are photosynthetic pigments and what role they play in the absorption and conversion of light energy?"
+    },
+    {
       "id": 405959,
       "chapter": 6,
       "topic_id": "6.1",
@@ -535,6 +765,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Describe light independent reactions of photosynthesis in terms of paragraph and illustrate in terms of Calvin cycle."
+    },
+    {
+      "id": 405975,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why might a disruption in either photosynthesis or respiration processes affect global carbon and oxygen cycles?"
     },
     {
       "id": 405958,
@@ -607,6 +847,66 @@
       "en": "Define chemiosmosis. How would you relate it with electron transport chain?"
     },
     {
+      "id": 405969,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Through which ways proteins and fats enter cellular respiration?"
+    },
+    {
+      "id": 405973,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does cellular respiration release energy more efficiently than fermentation?"
+    },
+    {
+      "id": 405974,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is the conversion of glucose into ATP during cellular respiration considered a more efficient use of energy than burning glucose directly?"
+    },
+    {
+      "id": 405970,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define photorespiration and present it in proving that “photosynthesis is not perfect”"
+    },
+    {
+      "id": 405971,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the effects of temperature on the oxidative activity of Rubisco?"
+    },
+    {
+      "id": 405972,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is the process of C4 photosynthesis an adaptation to deal with the problem of photorespiration?"
+    },
+    {
       "id": 406897,
       "chapter": 0,
       "topic_id": "7.1",
@@ -677,6 +977,16 @@
       "en": "Draw a flow chart to describe the steps involved in drug development till its prescription."
     },
     {
+      "id": 406958,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can you say that parenchyma and schlerenchyma provide support to plants?"
+    },
+    {
       "id": 406952,
       "chapter": 8,
       "topic_id": "8.7",
@@ -707,6 +1017,36 @@
       "en": "Describe the mechanism of opening and closing of stomata?"
     },
     {
+      "id": 406956,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Can you explain the hypothesis regarding the opening and closing of stomata?"
+    },
+    {
+      "id": 406957,
+      "chapter": 8,
+      "topic_id": "8.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What mechanisms enable carnivorous plants to supplement their nutrient uptake despite being autotrophs?"
+    },
+    {
+      "id": 406961,
+      "chapter": 8,
+      "topic_id": "8.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does Pressure Flow Theory explain the movement of sugars through a plant?"
+    },
+    {
       "id": 406951,
       "chapter": 8,
       "topic_id": "8.11",
@@ -725,6 +1065,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain the concept of photoperiodism and its influence on plant flowering. How do short-day, long-day and day-neutral plants differ in their flowering responses, and what role does phytochrome plays in this process?"
+    },
+    {
+      "id": 406962,
+      "chapter": 8,
+      "topic_id": "8.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What strategies would you adopt to induce flowering in a plant?"
+    },
+    {
+      "id": 406959,
+      "chapter": 8,
+      "topic_id": "8.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do the annual rings depict climatic variability?"
     },
     {
       "id": 408072,
@@ -787,6 +1147,56 @@
       "en": "Describe the hormonal and nervous regulation of gastric acid secretion."
     },
     {
+      "id": 408079,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does the small intestine need both peristalsis and segmentation?"
+    },
+    {
+      "id": 408080,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the liver help digestion without using enzymes?"
+    },
+    {
+      "id": 408081,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why do we need bile if we already have enzymes for fat digestion?"
+    },
+    {
+      "id": 408082,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the pancreas “know” when to release its enzymes?"
+    },
+    {
+      "id": 408083,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why are pancreatic secretions alkaline, not acidic?"
+    },
+    {
       "id": 402551,
       "chapter": 10,
       "topic_id": "10.1",
@@ -795,6 +1205,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Describe the mechanism of inhalation and exhalation."
+    },
+    {
+      "id": 402553,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the transport of oxygen through blood."
+    },
+    {
+      "id": 402554,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the transport of carbon dioxide through blood."
     },
     {
       "id": 402556,
@@ -867,6 +1297,66 @@
       "en": "Explain how a heartbeat is initiated and controlled."
     },
     {
+      "id": 408126,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the detailed structure of arteries, veins and capillaries."
+    },
+    {
+      "id": 408135,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write notes on Angina pectoris, heart attack, and heart failure."
+    },
+    {
+      "id": 408136,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Outline the main principles of coronary bypass and angioplasty."
+    },
+    {
+      "id": 408142,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is it so important for the human heart to develop early and begin functioning within the developing embryo?"
+    },
+    {
+      "id": 408127,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the role of precapillary sphincters in regulating the flow of blood through capillaries."
+    },
+    {
+      "id": 408143,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify how vasoconstriction or vasodilation is reflective of emotions"
+    },
+    {
       "id": 408129,
       "chapter": 11,
       "topic_id": "11.3",
@@ -887,6 +1377,46 @@
       "en": "Define blood pressure and explain systolic and diastolic pressure."
     },
     {
+      "id": 408134,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify the factors causing atherosclerosis and arteriosclerosis."
+    },
+    {
+      "id": 408137,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define hypertension and describe the factors that regulate blood pressure and can lead to hypertension and hypotension"
+    },
+    {
+      "id": 408141,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is the pressure in the pulmonary circulation lower than in the systemic circulation?"
+    },
+    {
+      "id": 408138,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "List the changes in life styles that can protect man from hypertension and cardiac problems."
+    },
+    {
       "id": 408130,
       "chapter": 11,
       "topic_id": "11.5",
@@ -905,6 +1435,36 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Describe the structure and role of lymph capillaries, lymph vessels and lymph ducts."
+    },
+    {
+      "id": 408144,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify in what way the blood circulatory system is dependent on the lymphatic system."
+    },
+    {
+      "id": 408146,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Interpret why the swelling of the lymph nodes is a cause of concern"
+    },
+    {
+      "id": 408147,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Trace the path of lymph from a lymph capillary until it is returned to the blood."
     },
     {
       "id": 408898,
@@ -935,6 +1495,56 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Draw a diagram of sarcomere and label its parts."
+    },
+    {
+      "id": 408910,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is calcium essential for both the structural integrity of bones and the process of muscle contraction?"
+    },
+    {
+      "id": 408901,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the types of arthritis, with their causes, symptoms and treatments."
+    },
+    {
+      "id": 408908,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify how the main functions of the skeleton are to act as a system of rods and levers."
+    },
+    {
+      "id": 408911,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is the human skeleton designed with both rigid bones and flexible joints instead of being made of a single solid structure?"
+    },
+    {
+      "id": 408900,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the cause and symptoms of joint dislocation, spondylosis, and sciatica."
     },
     {
       "id": 408902,
@@ -985,6 +1595,36 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Describe causes and symptoms of muscle fatigue, cramps and tetany."
+    },
+    {
+      "id": 408909,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify why do the muscles pull but do not push."
+    },
+    {
+      "id": 408912,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why do muscles always work in pairs (antagonistic muscles) rather than alone?"
+    },
+    {
+      "id": 408913,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does prolonged inactivity or space travel lead to muscle atrophy and bone weakening?"
     },
     {
       "id": 444347,
@@ -1205,6 +1845,16 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "What is the plasma membrane? Explain the fluid mosaic model of the plasma membrane."
+    },
+    {
+      "id": 444413,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the major techniques used to study the structure of the plasma membrane."
     },
     {
       "id": 444414,
@@ -1645,6 +2295,16 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "Write a detailed note on the lymphatic system of humans."
+    },
+    {
+      "id": 444539,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of bone development/ formation (osteogenesis) in details."
     },
     {
       "id": 444540,

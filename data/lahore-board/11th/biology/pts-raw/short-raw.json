@@ -9,8 +9,8 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 1668,
-  "exportedAt": "2026-08-10T12:32:42.088Z",
+  "total": 1785,
+  "exportedAt": "2026-09-09T11:46:44.205Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -35,6 +35,27 @@
       }
     },
     {
+      "QuestionID": 397883,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe one key feature that differentiates Archaea from Bacteria.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 397885,
       "SubjectID": 94,
       "TopicID": 11607,
@@ -43,6 +64,90 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Which kingdom is characterized by organisms with chitin in their cell walls and that are mostly decomposers?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397887,
+      "SubjectID": 94,
+      "TopicID": 11612,
+      "TopicRef": "1.7",
+      "TopicName": "1.7 Biodiversity",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the role of genetic drift in the process of speciation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397888,
+      "SubjectID": 94,
+      "TopicID": 11612,
+      "TopicRef": "1.7",
+      "TopicName": "1.7 Biodiversity",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the primary method used to assess species distribution along an environmental gradient?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397889,
+      "SubjectID": 94,
+      "TopicID": 11612,
+      "TopicRef": "1.7",
+      "TopicName": "1.7 Biodiversity",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which level of biodiversity assessment involves evaluating the variety of ecosystems in a region?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397886,
+      "SubjectID": 94,
+      "TopicID": 11613,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 Species and Speciation",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What type of speciation occurs when populations are geographically separated?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -245,6 +350,69 @@
       }
     },
     {
+      "QuestionID": 399180,
+      "SubjectID": 94,
+      "TopicID": 11617,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 Motility in Bateria",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do spirochetes achieve motility?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 399181,
+      "SubjectID": 94,
+      "TopicID": 11617,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 Motility in Bateria",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate between twitching and gliding movements in bacterial motility.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 399183,
+      "SubjectID": 94,
+      "TopicID": 11617,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 Motility in Bateria",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the difference between swimming motility and swarming motility in bacteria?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 399176,
       "SubjectID": 94,
       "TopicID": 11619,
@@ -253,6 +421,69 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Write the role of pili in bacterial cells. How do they differ from flagella?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 399182,
+      "SubjectID": 94,
+      "TopicID": 11619,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 FLAGELLA.",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do bacteria without flagella achieve motility?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 401424,
+      "SubjectID": 94,
+      "TopicID": 11626,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 Cell Theory",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>State the cell theory. How we can validate it? What are the exceptions to cell theory?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 401422,
+      "SubjectID": 94,
+      "TopicID": 11627,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 Microscopy",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compare the resolution and magnification of light microscope and electron microscope?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -581,6 +812,27 @@
       }
     },
     {
+      "QuestionID": 404611,
+      "SubjectID": 94,
+      "TopicID": 11636,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 Condensation (Synthesis) And Hydrolysis",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Draw a sketch of hydrolysis reactions.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 404613,
       "SubjectID": 94,
       "TopicID": 11636,
@@ -875,6 +1127,27 @@
       }
     },
     {
+      "QuestionID": 405865,
+      "SubjectID": 94,
+      "TopicID": 11649,
+      "TopicRef": "5.6",
+      "TopicName": "5.6 ENZYMEINHIBITION.",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is optimum pH? Give optimum pH of three human enzymes.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 405947,
       "SubjectID": 94,
       "TopicID": 11652,
@@ -946,6 +1219,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>State the role of CO<sub>2</sub> in photosynthesis.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405953,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the main structural difference between chlorophyll-a and chlorophyll-b?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 405956,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p> Differentiate between C-3 and C-4 photosynthesis.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1169,6 +1484,27 @@
       }
     },
     {
+      "QuestionID": 406938,
+      "SubjectID": 94,
+      "TopicID": 11661,
+      "TopicRef": "8.1",
+      "TopicName": "8.1 Nutrition In Plants",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate between macronutrients and micronutrients?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 406941,
       "SubjectID": 94,
       "TopicID": 11662,
@@ -1219,6 +1555,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Differentiate between long day plants and short day plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406939,
+      "SubjectID": 94,
+      "TopicID": 11664,
+      "TopicRef": "8.4",
+      "TopicName": "8.4 Water Potential",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is water potential?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406940,
+      "SubjectID": 94,
+      "TopicID": 11665,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 TRANSPORT OFF WATER IN PLANTS (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the main three pathways for the movement of water between plant cells?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1631,6 +2009,27 @@
       }
     },
     {
+      "QuestionID": 402537,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define respiratory surface and list its properties.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 402538,
       "SubjectID": 94,
       "TopicID": 11676,
@@ -1702,6 +2101,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is the role of diaphragm during inhalation and exhalation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 402542,
+      "SubjectID": 94,
+      "TopicID": 11677,
+      "TopicRef": "10.2",
+      "TopicName": "10.2 Transport of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What the three ways of the transport of carbon dioxide in blood?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1820,6 +2240,27 @@
       }
     },
     {
+      "QuestionID": 408110,
+      "SubjectID": 94,
+      "TopicID": 11681,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 STRUCTURE & FUNCTIONING OF HEART",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the main difference between the walls of an artery and a vein?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 408111,
       "SubjectID": 94,
       "TopicID": 11681,
@@ -1883,6 +2324,69 @@
       }
     },
     {
+      "QuestionID": 408117,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What do you mean by vasoconstriction and vasodilation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408118,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the rate of blood flow in different types of blood vessels?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408115,
+      "SubjectID": 94,
+      "TopicID": 11683,
+      "TopicRef": "11.3",
+      "TopicName": "11.3 BLOOD PRESSURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define angiography and angioplasty.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 408120,
       "SubjectID": 94,
       "TopicID": 11683,
@@ -1912,6 +2416,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>List the principles and uses of Electrocardiogram.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408121,
+      "SubjectID": 94,
+      "TopicID": 11685,
+      "TopicRef": "11.5",
+      "TopicName": "11.5 LYMPHATIC SYSTEM OF HUMAN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate between thrombus and embolus.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2177,6 +2702,48 @@
       }
     },
     {
+      "QuestionID": 408890,
+      "SubjectID": 94,
+      "TopicID": 11688,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 Disorders of Skeletal system",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Name the steps involved in bone repair.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408891,
+      "SubjectID": 94,
+      "TopicID": 11688,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 Disorders of Skeletal system",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What skeletal structures are affected from the osteoarthritis?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 408892,
       "SubjectID": 94,
       "TopicID": 11688,
@@ -2282,6 +2849,27 @@
       }
     },
     {
+      "QuestionID": 408918,
+      "SubjectID": 94,
+      "TopicID": 11688,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 Disorders of Skeletal system",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate between:Rheumatoid arthritis and osteoarthritis</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 408896,
       "SubjectID": 94,
       "TopicID": 11689,
@@ -2332,6 +2920,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Differentiate between: Ligament and tendon</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408924,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate between: Tetany and tetanus</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2542,6 +3151,195 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>How do Archaea reproduce?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397968,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is the cell membrane of Archaea unique?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397969,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the composition of cell wall in Archaea?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397970,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the cell wall composition in Archaea differ from Bacteria and Eukarya?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397971,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What genetic similarities do Archaea share with Eukarya?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397972,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is methanogenesis and in which domain is it found?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397974,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are some of the metabolic processes found in Bacteria?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397975,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What kinds of metabolic processes are found in Eukarya?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397976,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do the metabolic pathways of Archaea differ from Bacteria and Eukarya?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 397977,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the major groups of Archaea?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -11837,6 +12635,174 @@
       }
     },
     {
+      "QuestionID": 403475,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the purpose of Transmission Electron Microscopy in the study of plasma membranes?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403556,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does Scanning Electron Microscopy contribute to membrane studies?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403558,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the function of Confocal Microscopy in analyzing plasma membranes?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403560,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For what purpose is Total Internal Reflection Fluorescence Microscopy (TIRFM) used?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403562,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does Atomic Force Microscopy reveal about the plasma membrane?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403563,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is X-ray Crystallography used in the context of plasma membrane research?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403566,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is lipidomics and how is it used to study plasma membranes?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403570,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What does Fluorescence Recovery after Photo-bleaching (FRAP) measure, and how does it work?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 403573,
       "SubjectID": 94,
       "TopicID": 11628,
@@ -20279,6 +21245,153 @@
       }
     },
     {
+      "QuestionID": 406122,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Where are photosynthetic pigments found?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406126,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens when pigment molecules absorb photons?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406128,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the structure of chloroghyll?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406131,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does chlorophyll-a- differ from chlorophyll-b?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406133,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What colors of light does chlorophyll absorb and reflect?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406134,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are accessory pigments and where are they found?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406139,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is energy transferred by accessory plgments?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 406142,
       "SubjectID": 94,
       "TopicID": 11652,
@@ -21287,6 +22400,111 @@
       }
     },
     {
+      "QuestionID": 416463,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is ATP and what role does it play in cells?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 416465,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the components of an ATP molecule?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 416467,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens when one high-energy bond of ATP is broken?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 416470,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the chemical equation for the breakdown of ATP to ADP?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 416471,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens to ADP in some energy reactions?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 406443,
       "SubjectID": 94,
       "TopicID": 11653,
@@ -22072,6 +23290,48 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Why is aerobic respiration more efficient than anaerobic respiration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406535,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How are proteins used in cellular respiration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 406536,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do lipids contribute to cellular respiration?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -26818,6 +28078,426 @@
       }
     },
     {
+      "QuestionID": 407588,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are plant growth regulators?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407589,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How many major groups of plant growth regulators are there?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407591,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the main auxin found in plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407592,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do auxins affect stem growth?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407593,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the effect of auxins on root growth?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407594,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do auxins influence bud growth?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407595,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What role do gibberellins play in plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407596,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Where are gibberellins produced in plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407598,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are cytokinins and where are they produced?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407599,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do cytokinins affect root growth?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407600,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the function of abscisic acid in plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407601,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does abscisic acid affect stomata?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407602,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the role of ethylene in plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407604,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does ethylene affect fruit development?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407605,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is apical dominance and which hormone controls it?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407606,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Can auxins induce fruit development without fertilization?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407608,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do cytokinins influence leaf growth?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407609,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens to leaf senescence in the presence of auxins and gibberellins?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407611,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do gibberellins influence flowering in long-day plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 407612,
+      "SubjectID": 94,
+      "TopicID": 11667,
+      "TopicRef": "8.7",
+      "TopicName": "8.7 GROWTH IN PLANTS (SMART)",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the effect of cytokinins on bud dormancy?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 407659,
       "SubjectID": 94,
       "TopicID": 11668,
@@ -29527,6 +31207,279 @@
       }
     },
     {
+      "QuestionID": 408030,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What important functions does the liver perform related to nutrient storage?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408032,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What types of nutrients are stored in the liver?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408033,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the liver&#39;s role in metabolism?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408034,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the liver manage excess glucose?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408035,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the liver handle fats?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408036,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the liver process amino acids and remove harmful substances?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408037,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What detoxification processes occur in the liver?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408038,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the liver assist in hormone regulation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 402591,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is meant by the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 402592,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does gass exchange occur at the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 402594,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why must the respiratory surface be moist and permeable?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 402595,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What structural feature support efficient gas exchange at the respiratory surface?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 402597,
+      "SubjectID": 94,
+      "TopicID": 11676,
+      "TopicRef": "10.1",
+      "TopicName": "10.1 RESPIRATORY SYSTEM OF MAN",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is the respiratory surface protected from drying out, and how is air prepared befre reaching it?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 402662,
       "SubjectID": 94,
       "TopicID": 11676,
@@ -30871,6 +32824,90 @@
       }
     },
     {
+      "QuestionID": 403023,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is otitis media?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403024,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What causes otitis media?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403025,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the symptoms of otitis media?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 403027,
+      "SubjectID": 94,
+      "TopicID": 11679,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 RESPIRATORY DISORDERS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is acute otitis media different from chronic otitis media?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 403100,
       "SubjectID": 94,
       "TopicID": 11679,
@@ -32005,6 +34042,216 @@
       }
     },
     {
+      "QuestionID": 408280,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are arteries and what is their primary function?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408282,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the structure and function of the tunica media in arteries.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408283,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens to arteries as they branch out in the body?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408284,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are capillaries and what is their structure?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408285,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the process of material exchange in capillaries.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408286,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is interstitial fluid and what is its composition?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408288,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do veins differ structurally from arteries?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408289,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are semilunar valves and what is their function in veins?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408290,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is blood returned to the heart through veins?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408291,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the exception to the oxygenation rule in arteries and veins?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 408354,
       "SubjectID": 94,
       "TopicID": 11682,
@@ -32937,6 +35184,111 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>From which cells do osteoclasts develop and what is their function?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408563,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is osteogenesis and when does it begin?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408564,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is osteogenesis and when does it begin?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408565,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the role of osteoblasts and osteoclasts in bone formation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408566,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How are osteocytes formed and what is their function?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408567,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do some skull bones form differently during osteogenesis?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -35058,6 +37410,111 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What are some common causes of muscle cramps?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408857,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the main difference between tetany and tetanus in terms of their causes and nature?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408858,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which body parts are affected by tetany and tetanus respectively?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408859,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the underlying causes of tetany and tetanus?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408860,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the severity of tetany compare to tetanus?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 408861,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why are tetany and tetanus often confused with each other?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

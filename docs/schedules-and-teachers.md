@@ -234,7 +234,7 @@ Latest run (30 Jul 2026): **14/14 passed** after healing one orphan `completedAt
 1. **One teacher type per account** — multi-level teaching needs a future design change.  
 2. **Legacy papers** created before date-lock may still have exam date ≠ schedule date; UI warns on detail.  
 3. **Delete teacher** permanently removes the user when they only belong to this org (cascades tests/assignments).  
-4. Scheduling reminders exist (`npm run reminders:run` / cron route) but are out of scope for this smoke pass.  
+4. Scheduling reminders exist (Vercel cron `/api/cron/test-reminders`) but are out of scope for this smoke pass.  
 5. Full edit/restructure of an existing schedule (change subjects/classes after create) is not built yet — create / cancel / delete only.
 
 ---

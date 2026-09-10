@@ -72,12 +72,8 @@
     "db:fix-pts-media": "node scripts/fix-pts-media-everywhere.mjs",
     "db:fix-db-media": "tsx scripts/fix-db-media-paths.ts",
     "db:seed-boards": "tsx scripts/seed-boards-classes-subjects.ts",
-    "db:seed-demo-system": "tsx scripts/seed-demo-system.ts",
     "db:seed-dummy-questions": "tsx scripts/seed-dummy-questions.ts",
-    "db:seed-primary": "tsx scripts/upsert-primary-curriculum.ts",
-    "smoke:schedules-teachers": "tsx scripts/smoke-schedules-teachers.ts",
-    "smoke:all": "tsx scripts/smoke-all-flows.ts",
-    "reminders:run": "tsx scripts/send-test-reminders.ts"
+    "db:seed-primary": "tsx scripts/upsert-primary-curriculum.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
@@ -108,7 +104,6 @@
     "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.11",
-    "playwright": "^1.55.0",
     "prisma": "^7.9.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.1",

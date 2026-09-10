@@ -4,13 +4,2568 @@
   "subject": "Chemistry",
   "slug": "chemistry",
   "source": "PTS PTB INTER-II (Class 12) Chemistry (read-only export)",
-  "total_questions": 0,
+  "total_questions": 706,
   "counts": {
-    "mcq": 0,
-    "short": 0,
-    "long": 0
+    "mcq": 414,
+    "short": 255,
+    "long": 37
   },
-  "fieldCounts": {},
-  "questions": [],
+  "fieldCounts": {
+    "MCQ": 414,
+    "QA": 255,
+    "LONG": 37
+  },
+  "questions": [
+    {
+      "id": 539378,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why are the melting point and density of Be higher than Mg and Ca?"
+    },
+    {
+      "id": 539362,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Exactly 0.1 moles of calcium hydroxide and barium hydroxide are added to separate beakers containing 100 cm3 of water and stirred to form saturated solutions. Explain which solution has the higher pH value."
+    },
+    {
+      "id": 539365,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the balanced equation for the reaction of Ba with cold water."
+    },
+    {
+      "id": 539367,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does Be metal form a protective layer on reacting with air while other members do not do so? Explain in terms of the strength of bonding between Be2+ and oxide ion."
+    },
+    {
+      "id": 539380,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the reactivities of Group 1 and Group 2 metals in the same period?"
+    },
+    {
+      "id": 539369,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Predict the products of the thermal decomposition of strontium nitrate. Write the chemical equation."
+    },
+    {
+      "id": 539363,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The size of dichromate ion is larger than the sulphate ion. Following the pattern for the solubilities of Group 2 sulphates, predict which of calcium dichromate and strontium dichromate is more soluble in water?"
+    },
+    {
+      "id": 539374,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does solubility of Group 2 hydroxides increase in terms of the relative changes in <img alt=\"\" src=\"/pts-media/equations/5th/oxf-mathwise5-1.svg\" />Hohyd and <img alt=\"\" src=\"/pts-media/equations/5th/oxf-mathwise5-1.svg\" />Holattice?"
+    },
+    {
+      "id": 539375,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In Dow Process, write the balanced equation for the precipitation of magnesium ions from seawater."
+    },
+    {
+      "id": 539376,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State one medical use of BaSO4 and Mg(OH)2 each."
+    },
+    {
+      "id": 539381,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why calcium hydroxide is used in agriculture."
+    },
+    {
+      "id": 540474,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is zinc not included in the transition metals? Although it is a d block element and it shows electronic configuration with d orbitals."
+    },
+    {
+      "id": 540479,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the correlation between the ability of transition elements to exhibit variable oxidation states and their electron configuration?"
+    },
+    {
+      "id": 540480,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do transition metals function as effective catalysts? Give some examples."
+    },
+    {
+      "id": 540486,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the coordination number? Give coordination number of [Fe(CN)6]4-."
+    },
+    {
+      "id": 540487,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define a bidentate ligand and state how many bonds it forms to the central ion."
+    },
+    {
+      "id": 540507,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Using the examples [Co(NH3)6]3+ and [Fe(CN)6]3-, demonstrate how to predict the formula and overall charge of a complex ion. Clearly explain the role of the central metal ion charge, ligand charge, and coordination number in determining the final result for both examples."
+    },
+    {
+      "id": 540490,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How coordination number 4 has two shapes i.e., tetrahedral and square planar? Explain it."
+    },
+    {
+      "id": 540495,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What happens when excess of ammonia solution is added to Co(II) hydroxide precipitate?"
+    },
+    {
+      "id": 540497,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is there any effect of excessive dilution of complexes? If yes then justify how does dilution affect the position of equilibrium in ligand ion exchange reactions?"
+    },
+    {
+      "id": 540483,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why the complex [Cr(en)3]3+ is more stable than [Cr(H2O)6]3+?"
+    },
+    {
+      "id": 540489,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define Kstab. How it reflects the stability of coordination complexes?"
+    },
+    {
+      "id": 540492,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Illustrate the cis-trans isomerism shown by [Pt(NH3)2Cl2] complex."
+    },
+    {
+      "id": 540494,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give medicinal importance of cis platin."
+    },
+    {
+      "id": 540503,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the two types of stereoisomerism found in transition metal complexes. Use the examples [Pt(NH3)2Cl2] (square planar) and [Ni(NH2CH2CH2NH2)3]2+ (octahedral) to illustrate the key structural differences that give rise to geometrical and optical isomerism, respectively."
+    },
+    {
+      "id": 540488,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why comparing only the Eo values suggests the reaction is not feasible as written."
+    },
+    {
+      "id": 540504,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reaction between Cu2+ and I- results in a solid precipitate of CuI and aqueous I2. Write down the two relevant reduction half-equations with their Eo values."
+    },
+    {
+      "id": 540505,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reaction between Cu2+ and I- results in a solid precipitate of CuI and aqueous I2. Draw the structure of EDTA ligand and label its electron pair donating sites."
+    },
+    {
+      "id": 540506,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reaction between Cu2+ and I- results in a solid precipitate of CuI and aqueous I2. Use Le Chatelier's principle to explain why the reaction proceeds forward in practice."
+    },
+    {
+      "id": 544868,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define enantiomers. Give enantiomers of 2-methylbutan-1-ol."
+    },
+    {
+      "id": 544869,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Alkanes have no functional group. Justify."
+    },
+    {
+      "id": 544870,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Deduce the empirical and molecular formulae of the following compound: <img loading=\"lazy\" src=\"https://i.postimg.cc/SJV0LmPj/chem12-chap19-1-removebg-preview.png\" style=\"height: 40px; width: 40px;\" />"
+    },
+    {
+      "id": 544871,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Deduce the empirical and molecular formulae of the following compound: <img loading=\"lazy\" src=\"https://i.postimg.cc/w7FK59rM/chem12-chap19-2-removebg-preview.png\" style=\"height: 30px; width: 80px;\" />"
+    },
+    {
+      "id": 544872,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Deduce the empirical and molecular formulae of the following compound: <img loading=\"lazy\" src=\"https://i.postimg.cc/N5bh8Qnj/chem12-chap19-3-removebg-preview.png\" style=\"height: 30px; width: 31px;\" />"
+    },
+    {
+      "id": 544873,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give systematic name of the following compound: CH3 - CH2 - CN"
+    },
+    {
+      "id": 544875,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give systematic name of the following compound: CH3COCH2CH2 - CH3"
+    },
+    {
+      "id": 544879,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give systematic name of the following compound: CH3CH2COOCH3"
+    },
+    {
+      "id": 544880,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define electrophile and nucleophile with two examples each."
+    },
+    {
+      "id": 544881,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Pent-2-ene shows cis-trans isomerism but pent-1-ene does not. Give reason."
+    },
+    {
+      "id": 544883,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define constitutional isomerism."
+    },
+    {
+      "id": 544884,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define stereoisomerism."
+    },
+    {
+      "id": 544887,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define a racemic mixture."
+    },
+    {
+      "id": 544889,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define optical activity."
+    },
+    {
+      "id": 544890,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why meso tartaric acid is optically inactive although it has two chiral carbon atoms."
+    },
+    {
+      "id": 544924,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A compound C6H5CH3 reacts with Cl2 in the presence of sunlight to form the product C6H5CCl3. Name the mechanism of the reaction. Give its different steps."
+    },
+    {
+      "id": 544925,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw the mirror image of the following compound. Label each molecule as chiral or achiral: 2-bromo-2-chloropropane"
+    },
+    {
+      "id": 544926,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw the mirror image of the following compound. Label each molecule as chiral or achiral: 1-bromo-1-chloroethane"
+    },
+    {
+      "id": 544927,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw the mirror image of the following compound. Label each molecule as chiral or achiral: Ethoxyethane"
+    },
+    {
+      "id": 544928,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw the mirror image of the following compound. Label each molecule as chiral or achiral: 2-aminopropanoic acid"
+    },
+    {
+      "id": 544929,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the alkane of lowest relative molecular mass that contains a chiral centre? Give its systematic name and molecular formula. Also draw mirror image of this compound."
+    },
+    {
+      "id": 544930,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "3-chlorobutan-2-ol is an optically active compound. Draw all its possible optical isomers. Is there any meso form of this compound? Give reason."
+    },
+    {
+      "id": 539451,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are Group 2 elements called alkaline earth metals?"
+    },
+    {
+      "id": 539464,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the two most abundant alkaline earth metals in the earth's crust."
+    },
+    {
+      "id": 539465,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary industrial use of Beryllium (Be)?"
+    },
+    {
+      "id": 539466,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the biological significance of Magnesium (Mg) in plant life."
+    },
+    {
+      "id": 539467,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do manufacturers include Mg, Ca, Sr, and Ba in firework formulations?"
+    },
+    {
+      "id": 539503,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does chemical reactivity increase from Be to Ba in Group 2?"
+    },
+    {
+      "id": 539504,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Arrange the Group 2 elements in order of increasing chemical reactivity."
+    },
+    {
+      "id": 539505,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the general trend of Ionization Energy down Group 2."
+    },
+    {
+      "id": 539506,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factor determines the trends in melting points and density down Group 2?"
+    },
+    {
+      "id": 539507,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do Group 2 elements exhibit similar chemical properties throughout the group?"
+    },
+    {
+      "id": 539508,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of chemical process do Group 2 elements undergo during reactions?"
+    },
+    {
+      "id": 539509,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the increasing order reactivity series for Group 2 elements."
+    },
+    {
+      "id": 539510,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What stable charge do Group 2 elements acquire when they react, and why?"
+    },
+    {
+      "id": 539574,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is Beryllium less reactive towards oxygen compared to other Group 2 members?"
+    },
+    {
+      "id": 539575,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the basic character of Group 2 oxides increase down the group?"
+    },
+    {
+      "id": 539576,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What observation is made when Magnesium burns in air or oxygen?"
+    },
+    {
+      "id": 539577,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the chemical equation showing why Group 2 oxides behave as bases in aqueous solution."
+    },
+    {
+      "id": 539610,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does Magnesium yield different products with cold water compared to steam?"
+    },
+    {
+      "id": 539614,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does Beryllium fail to react with water or steam even upon heating?"
+    },
+    {
+      "id": 539615,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do Group 2 hydroxides become more basic as you move down the group?"
+    },
+    {
+      "id": 539617,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does Calcium form a cloudy white precipitate when added to cold water?"
+    },
+    {
+      "id": 539638,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why can the reaction of Calcium with dilute sulphuric acid stop prematurely?"
+    },
+    {
+      "id": 539639,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does Beryllium react more slowly with dilute acids than other Group 2 metals?"
+    },
+    {
+      "id": 539642,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write balanced chemical equations for the reaction of Magnesium with dilute HCl and dilute H2SO4."
+    },
+    {
+      "id": 539643,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the reactivity of Group 2 metals with dilute acids compare across Be, Mg, and Ca?"
+    },
+    {
+      "id": 539695,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are Group 1 metals softer and have lower melting points than Group 2 metals?"
+    },
+    {
+      "id": 539697,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do the hydroxides of Group 1 and Group 2 elements compare in terms of basic character and solubility?"
+    },
+    {
+      "id": 539705,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do Group 2 metals form M2+ ions instead of M+ ions?"
+    },
+    {
+      "id": 539706,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are Group 2 oxides (MO) less basic than Group 1 oxides (M2O)?"
+    },
+    {
+      "id": 539716,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between alkali and alkaline earth metals."
+    },
+    {
+      "id": 539720,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is Calcium's reaction with water less explosive than Sodium's?"
+    },
+    {
+      "id": 539725,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the density of group 1 differ from group 2?"
+    },
+    {
+      "id": 539728,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do Group 2 metals conduct electricity better than Group 1 metals?"
+    },
+    {
+      "id": 539734,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the ionization energy of Group 1 elements drastically higher than Group 2?"
+    },
+    {
+      "id": 539870,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is thermal decomposition?"
+    },
+    {
+      "id": 539872,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the thermal stability of Group 2 carbonates increase down the group?"
+    },
+    {
+      "id": 539882,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does BeCO3 decompose at a very low temperature?"
+    },
+    {
+      "id": 539885,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What gas observation confirms the thermal decomposition of a Group 2 nitrate?"
+    },
+    {
+      "id": 539886,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the balanced chemical equations for the thermal decomposition of CaCO3 and Ca(NO3)2."
+    },
+    {
+      "id": 539887,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Predict which nitrate is the least stable and which is the most stable among Group 2 elements and why?"
+    },
+    {
+      "id": 539891,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does BaCO3 require a higher temperature to decompose than SrCO3?"
+    },
+    {
+      "id": 539892,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a chemist use thermal decomposition temperatures practically in a laboratory?"
+    },
+    {
+      "id": 539896,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does CaCO3 require a higher temperature to decompose than MgCO3?"
+    },
+    {
+      "id": 539900,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a smaller cation like Mg2+ make a carbonate ion easier to decompose?"
+    },
+    {
+      "id": 539909,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Enthalpy of Hydration."
+    },
+    {
+      "id": 539910,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is hydration enthalpy always exothermic?"
+    },
+    {
+      "id": 539911,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does ionic size affect hydration enthalpy?"
+    },
+    {
+      "id": 539912,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Lattice Enthalpy."
+    },
+    {
+      "id": 539913,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When is lattice enthalpy highest in ionic crystals?"
+    },
+    {
+      "id": 539914,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does lattice energy drop when cation and anion sizes differ significantly?"
+    },
+    {
+      "id": 539915,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Enthalpy of Solution."
+    },
+    {
+      "id": 539916,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does solubility of Group 2 hydroxides increase down the group?"
+    },
+    {
+      "id": 539917,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is Mg(OH)2 sparingly soluble while Ba(OH)2 is soluble?"
+    },
+    {
+      "id": 539918,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does solubility of Group 2 sulfates decrease down the group?"
+    },
+    {
+      "id": 539919,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is MgSO4 soluble while BaSO4 is insoluble?"
+    },
+    {
+      "id": 540053,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a complex ion?"
+    },
+    {
+      "id": 540054,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the central metal ion act as a Lewis acid in a complex ion?"
+    },
+    {
+      "id": 540055,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by coordination number?"
+    },
+    {
+      "id": 540056,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do transition metals form complex ions more readily than Group 2 metals?"
+    },
+    {
+      "id": 540057,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which factors determine the ability of a Group 2 metal ion to form complex ions?"
+    },
+    {
+      "id": 540058,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do top elements in Group 2 form complexes more easily than bottom elements?"
+    },
+    {
+      "id": 540059,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does beryllium form [Be(H2O)4]2+ instead of a hexahydrate complex?"
+    },
+    {
+      "id": 540060,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What type of complex ion is formed when Group 2 salts dissolve in water?"
+    },
+    {
+      "id": 540061,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give the chemical formulas and coordination numbers for hydrated beryllium and magnesium ions."
+    },
+    {
+      "id": 540062,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the interaction strength of hydrated Group 2 ions change down the group?"
+    },
+    {
+      "id": 540063,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a ring-like complex structure?"
+    },
+    {
+      "id": 540064,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many electron pairs can EDTA donate to a metal ion?"
+    },
+    {
+      "id": 540065,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the reaction equation for calcium ion complexation with EDTA."
+    },
+    {
+      "id": 540066,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the application of EDTA in water softening."
+    },
+    {
+      "id": 540067,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is Ca-EDTA utilized in medicine?"
+    },
+    {
+      "id": 540139,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the Dow Process?"
+    },
+    {
+      "id": 540141,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is seawater a suitable source for magnesium production?"
+    },
+    {
+      "id": 540142,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is magnesium precipitated from seawater?"
+    },
+    {
+      "id": 540144,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is magnesium hydroxide converted into magnesium chloride in the Dow process?"
+    },
+    {
+      "id": 540153,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What reactions occur at the cathode and anode during molten MgCl2 electrolysis?"
+    },
+    {
+      "id": 540155,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define quicklime and state its chemical formula."
+    },
+    {
+      "id": 540157,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is calcination in the production of quicklime?"
+    },
+    {
+      "id": 540160,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the decomposition of CaCO3 reversible in a closed container?"
+    },
+    {
+      "id": 540161,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the yield of CaO maximized in modern industrial lime kilns?"
+    },
+    {
+      "id": 540163,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name three major industrial uses of CaO."
+    },
+    {
+      "id": 540165,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What source is used to generate Ca(OH)2 for the Dow Process?"
+    },
+    {
+      "id": 540195,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the reaction for converting Mg(OH)2 to MgCl2."
+    },
+    {
+      "id": 540199,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the chemical equation for the thermal decomposition of limestone."
+    },
+    {
+      "id": 540356,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between quicklime and slaked lime chemically."
+    },
+    {
+      "id": 540357,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the chemical difference between Gypsum and Plaster of Paris?"
+    },
+    {
+      "id": 540359,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do CaO and CaCO3 reduce environmental pollution in power plants?"
+    },
+    {
+      "id": 540362,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is MgO used as a furnace lining (refractory material)?"
+    },
+    {
+      "id": 540364,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is Beryllium metal used in X-ray tube windows?"
+    },
+    {
+      "id": 540365,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What gives fireworks and flares a bright red color?"
+    },
+    {
+      "id": 540374,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What medicinal uses do Epsom salts have?"
+    },
+    {
+      "id": 540378,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why CaCO3 is added to agricultural fields."
+    },
+    {
+      "id": 540379,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What specific role does Calcium play in plant development?"
+    },
+    {
+      "id": 540380,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What essential role does Magnesium play in photosynthesis?"
+    },
+    {
+      "id": 540382,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two examples of Group 2 compounds used as agricultural fertilizers."
+    },
+    {
+      "id": 540392,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the health benefit of calcium supplementation?"
+    },
+    {
+      "id": 540393,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the biological importance of magnesium compounds in human health?"
+    },
+    {
+      "id": 540627,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are d-block and f-block elements differentiated?"
+    },
+    {
+      "id": 540628,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is iron called the backbone of civilization?"
+    },
+    {
+      "id": 540629,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What makes copper, silver, and gold vital for smartphones?"
+    },
+    {
+      "id": 540630,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the three main characteristics of transition metals?"
+    },
+    {
+      "id": 540631,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why study the 3d series onwards?"
+    },
+    {
+      "id": 540668,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define transition elements."
+    },
+    {
+      "id": 540669,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are Zinc and Scandium not classified as transition elements?"
+    },
+    {
+      "id": 540671,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the anomalous configuration of Copper."
+    },
+    {
+      "id": 540674,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role does the symmetrical electron cloud play in Cr and Cu?"
+    },
+    {
+      "id": 540676,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the electronic configuration of M2+ and M3+."
+    },
+    {
+      "id": 540742,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do transition elements form colored complexes/ions?"
+    },
+    {
+      "id": 540743,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are transition metals and their compounds paramagnetic?"
+    },
+    {
+      "id": 540744,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do transition elements exhibit variable oxidation states?"
+    },
+    {
+      "id": 540745,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do atomic radii slightly increase at the end of the 3d series (e.g., Copper)?"
+    },
+    {
+      "id": 540747,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write any two physical properties of 3d transition elements."
+    },
+    {
+      "id": 540748,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write any two chemical properties of transition metals."
+    },
+    {
+      "id": 540778,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do first-row transition elements show variable oxidation states?"
+    },
+    {
+      "id": 540779,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is +2 the most common oxidation state among 3d transition elements?"
+    },
+    {
+      "id": 540781,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which element in the 3d series shows the maximum oxidation state, and why?"
+    },
+    {
+      "id": 540782,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What pattern or trend do oxidation states follow across the 3d series?"
+    },
+    {
+      "id": 540787,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why can 3d electrons be easily lost during bonding?"
+    },
+    {
+      "id": 540848,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do transition metals act as effective catalysts in chemical reactions?"
+    },
+    {
+      "id": 540849,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do transition metals act as catalysts in homogeneous catalysis?"
+    },
+    {
+      "id": 540853,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do vacant d-orbitals play in heterogeneous catalysis by transition metals?"
+    },
+    {
+      "id": 540854,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of a transition metal acting as a heterogeneous catalyst."
+    },
+    {
+      "id": 540859,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does solid iron accelerate the Haber Process?"
+    },
+    {
+      "id": 540947,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do transition metal ions form coordination complexes easily?"
+    },
+    {
+      "id": 540949,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a central transition metal ion act as a Lewis acid during complex formation?"
+    },
+    {
+      "id": 540950,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a ligand considered a Lewis base?"
+    },
+    {
+      "id": 540952,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between a monodentate and a bidentate ligand?"
+    },
+    {
+      "id": 540953,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is EDTA classified as a hexadentate ligand?"
+    },
+    {
+      "id": 540954,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the coordination number of a central metal ion determined?"
+    },
+    {
+      "id": 540955,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the overall charge on a coordination sphere calculated?"
+    },
+    {
+      "id": 540956,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do the naming conventions differ for anionic, neutral, and cationic ligands?"
+    },
+    {
+      "id": 540964,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is [Fe(CN)6]4- assigned a net charge of -4?"
+    },
+    {
+      "id": 540965,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the coordination sphere of a complex compound enclosed within square brackets?"
+    },
+    {
+      "id": 540966,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the difference between a Lewis acid and a Lewis base in the context of coordination chemistry?"
+    },
+    {
+      "id": 540967,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does ethylenediamine (en) act as a bidentate ligand?"
+    },
+    {
+      "id": 540968,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are cationic ligands rare compared to anionic or neutral ligands?"
+    },
+    {
+      "id": 540988,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the formula of a complex ion written given the central metal, ligands, and coordination number?"
+    },
+    {
+      "id": 540989,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the net charge of a complex ion calculated?"
+    },
+    {
+      "id": 540990,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is [Ni(CO)4] considered a neutral complex?"
+    },
+    {
+      "id": 540991,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does [Co(NH3)6]3+ carry a +3 charge?"
+    },
+    {
+      "id": 540992,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does [Fe(CN)6]4- act as an anionic complex?"
+    },
+    {
+      "id": 540994,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What components determine the formula and overall charge of a complex ion, and what general structure represents it?"
+    },
+    {
+      "id": 540995,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between cationic and neutral complexes."
+    },
+    {
+      "id": 540996,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between cationic and anionic complexes."
+    },
+    {
+      "id": 541032,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors determine the geometry (shape) of a transition metal complex?"
+    },
+    {
+      "id": 541033,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do complexes with a coordination number of 2 adopt a linear geometry?"
+    },
+    {
+      "id": 541034,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do square planar and tetrahedral geometries differ despite both having a coordination number of 4?"
+    },
+    {
+      "id": 541036,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do bulky or weak ligands like Cl- tend to form tetrahedral complexes rather than square planar ones?"
+    },
+    {
+      "id": 541038,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the spatial orientation of ligands in an octahedral transition metal complex?"
+    },
+    {
+      "id": 541152,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the term \"degenerate orbitals\" mean, and when do d-orbitals lose degeneracy?"
+    },
+    {
+      "id": 541153,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do d-orbitals split in an octahedral complex field?"
+    },
+    {
+      "id": 541154,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does tetrahedral splitting differ from octahedral splitting?"
+    },
+    {
+      "id": 541155,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the magnitude of crystal field splitting (<img alt=\"\" src=\"/pts-media/equations/5th/oxf-mathwise5-1.svg\" />) smaller in tetrahedral complexes than in octahedral complexes?"
+    },
+    {
+      "id": 541156,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a d-d transition, and how does it generate color in transition metal complexes?"
+    },
+    {
+      "id": 541169,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes d-orbitals to split?"
+    },
+    {
+      "id": 541171,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the mathematical relationship between the energy gap (<img alt=\"\" src=\"/pts-media/equations/5th/oxf-mathwise5-1.svg\" />E) and the light absorbed during a d-d transition?"
+    },
+    {
+      "id": 541173,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a complex compound appear violet when it absorbs yellow light?"
+    },
+    {
+      "id": 541186,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do strong-field ligands like CN- affect the energy gap (<img alt=\"\" src=\"/pts-media/equations/5th/oxf-mathwise5-1.svg\" />E) compared to weak-field ligands like I-?"
+    },
+    {
+      "id": 541187,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do complexes with a larger energy gap (<img alt=\"\" src=\"/pts-media/equations/5th/oxf-mathwise5-1.svg\" />E) absorb light of shorter wavelengths?"
+    },
+    {
+      "id": 541188,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the spectrochemical series for the given ligands in order of decreasing splitting ability (<img alt=\"\" src=\"/pts-media/equations/5th/oxf-mathwise5-1.svg\" />E)?"
+    },
+    {
+      "id": 541262,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Under what condition does a ligand exchange reaction occur in complex ions?"
+    },
+    {
+      "id": 541263,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What chemical change takes place when NaOH is added to a solution of [Cu(H2O)6]2+?"
+    },
+    {
+      "id": 541264,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the light blue precipitate dissolve upon adding concentrated ammonia solution?"
+    },
+    {
+      "id": 541265,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the balanced chemical equation for the formation of the tetrachlorocuprate(II) complex from hexaaquacoppper(II)."
+    },
+    {
+      "id": 541266,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does ligand substitution alter the physical appearance of copper(II) aqueous solutions?"
+    },
+    {
+      "id": 541308,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What chemical species is responsible for the pink color of cobalt(II) sulphate in an aqueous solution?"
+    },
+    {
+      "id": 541311,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the balanced chemical equation for the reaction of [Co(H2O)6]2+ with sodium hydroxide solution."
+    },
+    {
+      "id": 541313,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What structural and color changes occur when concentrated HCl is added to an aqueous cobalt(II) solution?"
+    },
+    {
+      "id": 541314,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which monodentate anionic ligands commonly cause aqueous cobalt(II) ions to form tetrahedral complexes?"
+    },
+    {
+      "id": 541348,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a ligand exchange reaction cause a visible color change in transition metal complexes?"
+    },
+    {
+      "id": 541349,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the color changes that occur when concentrated HCl is added to [Cu(H2O)6]2+ versus [Co(H2O)6]2+."
+    },
+    {
+      "id": 541470,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the stability constant (Kstab) of a complex ion?"
+    },
+    {
+      "id": 541474,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is H2O omitted from the equilibrium expression for Kstab?"
+    },
+    {
+      "id": 541475,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are stability constants reported on a log10 scale?"
+    },
+    {
+      "id": 541477,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a high value of log10 Kstab indicate regarding complex stability?"
+    },
+    {
+      "id": 541478,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the chelating effect?"
+    },
+    {
+      "id": 541480,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when ammonia solution is added to a yellow-green solution of [CuCl4]2-?"
+    },
+    {
+      "id": 541482,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the balanced chemical equation for the displacement of water ligands from [Cu(H2O)6]2+ by en (ethane-1,2-diamine)."
+    },
+    {
+      "id": 541483,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can a stable complex in solution be converted back into its original hydrated metal ion?"
+    },
+    {
+      "id": 541487,
+      "chapter": 18,
+      "topic_id": "18.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which ligand is a stronger competitor for binding with Cu2+ : Cl- or NH3? Give a reason based on Kstab."
+    },
+    {
+      "id": 541535,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are stereoisomers in transition metal complexes?"
+    },
+    {
+      "id": 541536,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between cis and trans isomers based on ligand placement and angles."
+    },
+    {
+      "id": 541537,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is cisplatin polar while transplatin is nonpolar?"
+    },
+    {
+      "id": 541539,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does cisplatin exhibit anti-cancer properties while transplatin does not?"
+    },
+    {
+      "id": 541540,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does cisplatin become \"activated\" inside cancer cells?"
+    },
+    {
+      "id": 541541,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the biological mechanism by which activated cisplatin causes cell death?"
+    },
+    {
+      "id": 541544,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do square planar complexes of type [MA2B2] show geometrical isomerism, but tetrahedral complexes do not?"
+    },
+    {
+      "id": 541547,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Identify the cis and trans ligands in [Co(NH3)4(H2O)2]3+."
+    },
+    {
+      "id": 541551,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How was the anti-cancer activity of cisplatin originally discovered?"
+    },
+    {
+      "id": 541589,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are enantiomers, and what fundamental structural condition must a molecule satisfy to form them?"
+    },
+    {
+      "id": 541590,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do dextrorotatory and laevorotatory isomers differ in their behavior toward plane-polarized light?"
+    },
+    {
+      "id": 541592,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the octahedral complex [Ni(en)3]2+ exhibit optical isomerism?"
+    },
+    {
+      "id": 541594,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define optical isomerism in transition metal complexes."
+    },
+    {
+      "id": 544698,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What determines the feasibility of a redox reaction based on standard electrode potentials?"
+    },
+    {
+      "id": 544699,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you identify which species will act as an oxidizing agent and which will act as a reducing agent in a redox reaction?"
+    },
+    {
+      "id": 544700,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are transition elements particularly effective in redox reactions?"
+    },
+    {
+      "id": 544709,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "In the reaction between manganate(VII) ions and ethanedioate ions, which ion undergoes reduction and why?"
+    },
+    {
+      "id": 544710,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is it necessary to multiply the oxidation and reduction half-reactions by coefficients during balancing?"
+    },
+    {
+      "id": 544711,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the sign of the electrode potential change when reversing the half-reaction for ethanedioate?"
+    },
+    {
+      "id": 544712,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a large positive net Eocell? value indicate about a chemical reaction?"
+    },
+    {
+      "id": 544717,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does Manganate(VII) (MnO4-) oxidize Iron(II) (Fe2+) to Iron(III) (Fe3+) in an acidic medium?"
+    },
+    {
+      "id": 544722,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the sign of the electrode potential for the Fe3+ / Fe2+ couple change from +0.77 V to -0.77 V in the combined equation?"
+    },
+    {
+      "id": 544724,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a net standard cell potential of +0.75 V indicate for the reaction between manganate(VII) ions and Fe2+?"
+    },
+    {
+      "id": 544727,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the reaction between Cu2+ and I- proceed forward despite a negative calculated net standard potential?"
+    },
+    {
+      "id": 544728,
+      "chapter": 18,
+      "topic_id": "18.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What visible physical observations occur when excess potassium iodide (KI) is added to aqueous copper(II) sulphate?"
+    }
+  ],
   "type": "short"
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronRight, GraduationCap } from "lucide-react";
+import { ChevronRight, FileSearch, GraduationCap } from "lucide-react";
 import { PageHeader, PageStack } from "@/components/page-header";
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
@@ -67,7 +67,39 @@ export default async function ResultsClassesPage() {
       <PageHeader
         kicker="Academics"
         title="Result compilation"
+        actions={
+          <Link href="/org-admin/results/students">
+            <Button size="sm">
+              <FileSearch className="mr-1.5 h-4 w-4" />
+              Student overall report
+            </Button>
+          </Link>
+        }
       />
+
+      <Link
+        href="/org-admin/results/students"
+        className="flex flex-wrap items-center justify-between gap-3 rounded-[1.25rem] border border-line bg-card px-5 py-4 shadow-[var(--shadow-soft)] transition-colors hover:bg-[rgba(15,40,70,0.02)]"
+      >
+        <div className="flex min-w-0 items-start gap-3">
+          <span className="org-dash-icon org-dash-icon-tone-tests shrink-0">
+            <FileSearch className="h-4 w-4" />
+          </span>
+          <div className="min-w-0">
+            <p className="font-display text-base font-semibold text-ink">
+              Find a student report
+            </p>
+            <p className="mt-0.5 text-sm text-muted">
+              Search name, roll, class, or section — open every test that
+              student appeared in.
+            </p>
+          </div>
+        </div>
+        <span className="text-sm font-medium text-brand">
+          Search
+          <ChevronRight className="ml-0.5 inline h-4 w-4 align-text-bottom" />
+        </span>
+      </Link>
 
       {classes.length === 0 ? (
         <Card>

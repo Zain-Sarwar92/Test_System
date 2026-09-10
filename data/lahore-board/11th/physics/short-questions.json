@@ -4,18 +4,58 @@
   "subject": "Physics",
   "slug": "physics",
   "source": "PTS PTB INTER-I (Class 11) Physics (read-only export)",
-  "total_questions": 2013,
+  "total_questions": 2182,
   "counts": {
-    "mcq": 1199,
-    "short": 625,
-    "long": 189
+    "mcq": 1245,
+    "short": 696,
+    "long": 241
   },
   "fieldCounts": {
-    "MCQ": 1199,
-    "QA": 625,
-    "LONG": 189
+    "MCQ": 1245,
+    "QA": 696,
+    "LONG": 241
   },
   "questions": [
+    {
+      "id": 410162,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are base units and derived units? Give some examples of both these units."
+    },
+    {
+      "id": 410169,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the following number using correct prefixes: (a) 580 x 102 g (b) 0.45 x 405s"
+    },
+    {
+      "id": 410175,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why do we find it useful to have two units for the amount of substance. the kilogram and the mole?"
+    },
+    {
+      "id": 410178,
+      "chapter": 1,
+      "topic_id": "1.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is the kilogram (not the gram), the base unit of mass."
+    },
     {
       "id": 410177,
       "chapter": 1,
@@ -37,6 +77,16 @@
       "en": "How many significant figures should be retained in the following?"
     },
     {
+      "id": 410167,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the following numbers is significant notation: (a) 143.7 (b) 206.4 x 102"
+    },
+    {
       "id": 410171,
       "chapter": 1,
       "topic_id": "1.4",
@@ -45,6 +95,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "How many significant figures are there in the following measurements? (i) 37 km (ii) 0.002953 m (iii) 7.50034 cm (iv) 200.0 m."
+    },
+    {
+      "id": 410182,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the least count of a clock if it has: (a) Hour's hand, minute's hand and second's hand. (b) Hour's hand and minute's hand."
+    },
+    {
+      "id": 410166,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is the Vernier scale related to the main scale of a Vernier Callipers? What is meant by L.C of the Vernier Callipers?"
     },
     {
       "id": 410170,
@@ -65,6 +135,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Write the dimensions of: (i) Planck's constant (ii) Angular velocity."
+    },
+    {
+      "id": 410180,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Considered the equation P=Q+R. If Q and R both have the dimensions of [MLT], what are the dimensions of P? What are the units of P in SI? If the dimensions of Q were different from those of R, could we determine dimensions of P?"
     },
     {
       "id": 410460,
@@ -97,6 +177,16 @@
       "en": "A person falling on a heap of sand does not hurt more as compared to a person falling on a concrete floor. why?"
     },
     {
+      "id": 410475,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the condition under which birds fly in air?"
+    },
+    {
       "id": 410469,
       "chapter": 2,
       "topic_id": "2.6",
@@ -105,6 +195,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Show that range of projectile is maximum at an angle of 45o."
+    },
+    {
+      "id": 410470,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Find the time of flight of a projectile to reach the maximum height."
     },
     {
       "id": 410471,
@@ -157,6 +257,16 @@
       "en": "State law of conservation of linear momentum. Also state condition under which it holds."
     },
     {
+      "id": 410477,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the circumstances for which velocity and acceleration of a vehicle are: (i) v is zero but a is not zero, (ii) a is zero but v is not zero. (iii) perpendicular to one another."
+    },
+    {
       "id": 410464,
       "chapter": 2,
       "topic_id": "2.8",
@@ -187,6 +297,26 @@
       "en": "If angular velocity of different particles of a rigid body is constant, will the linear velocity of these particles be also constant?"
     },
     {
+      "id": 410537,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the advantages that radian has been preferred as SI unit to degree?"
+    },
+    {
+      "id": 410524,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do we get butter from the milk by using centrifuge?"
+    },
+    {
       "id": 410526,
       "chapter": 3,
       "topic_id": "3.2",
@@ -197,6 +327,26 @@
       "en": "Why is it harder for a car to take turn at higher speed than at lower speed?"
     },
     {
+      "id": 410527,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the benefits of using rear wheels of heavy vehicles consisted of double tyres?"
+    },
+    {
+      "id": 410529,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is the acceleration of a body moving uniformly in a circle, directed towards the centre?"
+    },
+    {
       "id": 410534,
       "chapter": 3,
       "topic_id": "3.2",
@@ -205,6 +355,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Why do wo tumble when we take the sharp turn with large speed?"
+    },
+    {
+      "id": 410540,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In a rainstorm with a strong wind, what determines the best position to hold an umbrella?"
     },
     {
       "id": 410542,
@@ -247,6 +407,16 @@
       "en": "What will be time period of a simple pendulum is an artificial satellites at a certain height?"
     },
     {
+      "id": 410536,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is the motion of a satellite in its orbit, uniform or accelerated?"
+    },
+    {
       "id": 410525,
       "chapter": 3,
       "topic_id": "3.4",
@@ -265,6 +435,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "When a moving car turn around a corner to the left, in what direction do the occupants tend to fall? Explain briefly."
+    },
+    {
+      "id": 410532,
+      "chapter": 3,
+      "topic_id": "3.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A loaf of a bread is lying on rotating plate. A cow takes away the loaf of bread and the rotation of the plate increases. why?"
     },
     {
       "id": 410539,
@@ -297,6 +477,16 @@
       "en": "A body dropped from a height H reaches the ground with a speed of <img src=\"/pts-media/equations/11th/phynew-chap4-3.svg\" />. Calculate work done by air friction."
     },
     {
+      "id": 410605,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A motorcycle running with constant speed on a horizontal track. Is any work being done on the motorcycle, if no net force is acting on it?"
+    },
+    {
       "id": 410589,
       "chapter": 4,
       "topic_id": "4.2",
@@ -305,6 +495,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is electrical power required at all when the elevator is descending? why should be there a limit on the number of passenger in this case?"
+    },
+    {
+      "id": 410591,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A body is being raised to a height H from surface of the Earth. What is the sign of work done by both (body and the Earth)? Justify."
     },
     {
       "id": 410607,
@@ -367,6 +567,46 @@
       "en": "Does the international space system have gravitational P.E or kinetic energy or both? Explain."
     },
     {
+      "id": 410611,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Does wind contain kinetic energy? Explain."
+    },
+    {
+      "id": 410595,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A trolley of mass 1500 kg carrying sand bags of 500 kg is moving uniformly with a speed of 40 km h-1 on a frictionless track. After some time, sand starts leaking out of whole sand bags on the road at a rate of 0.05 kg s-1. What is the speed of the trolley after entire sand bags are empty?"
+    },
+    {
+      "id": 410598,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bicycle has a K.E of 150 j. What K.E would the bicycle have if it had: (i) same mass but has speed double? (ii) three times mass and was moving with one half of the speed?"
+    },
+    {
+      "id": 410599,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What will be the effect on K.E of the body having mass m, moving with velocity v when its momentum becomes double? Justify."
+    },
+    {
       "id": 410592,
       "chapter": 4,
       "topic_id": "4.8",
@@ -377,6 +617,26 @@
       "en": "A body falls towards the Earth in air. Will its total mechanical energy be conserved during fall? Justify."
     },
     {
+      "id": 410604,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A light and heavy body have same linear momentum, which one has greater K.E?"
+    },
+    {
+      "id": 410609,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A slow moving truck can have more kinetic energy than a fast moving car. How is this possible?"
+    },
+    {
       "id": 410657,
       "chapter": 5,
       "topic_id": "5.1",
@@ -385,6 +645,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is meant by (i) cohesive force (ii) Viscosity?"
+    },
+    {
+      "id": 410670,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between stress, strain and Young's modulus. Write down their SI units."
     },
     {
       "id": 410672,
@@ -447,6 +717,26 @@
       "en": "How is variation in pressure related to speed of a fluid?"
     },
     {
+      "id": 410663,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How is the flow rate related to the cross-sectional area and velocity of the fluid?"
+    },
+    {
+      "id": 410664,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you study the variation in velocity of a fluid at different points in a hose with varying diameter?"
+    },
+    {
       "id": 410668,
       "chapter": 5,
       "topic_id": "5.12",
@@ -465,6 +755,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What are some potential applications of superfluid?"
+    },
+    {
+      "id": 410731,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by thermal equilibrium? Explain briefly."
+    },
+    {
+      "id": 410745,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does behaviors of real gases differ from ideal gas at high pressure and low temperature? Identify the reasons behind these differences based on kinetic theory of gases."
     },
     {
       "id": 410733,
@@ -547,6 +857,56 @@
       "en": "Is it possible to construct a heat engine of 100% efficiency? Explain."
     },
     {
+      "id": 410743,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is it possible for a cyclic reversible heat engine to absorb heat at constant temperature and transforms it completely into work without rejecting some heat at low temperature? Explain."
+    },
+    {
+      "id": 410734,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State 2nd law of thermodynamics in two different forms."
+    },
+    {
+      "id": 410753,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A coffee cup left on a table, and overtime coffee cup cools down. Explain thermodynamics processes occurring during this process."
+    },
+    {
+      "id": 410754,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can we explain different weather patterns through thermodynamics processes like wind, rain. etc."
+    },
+    {
+      "id": 410746,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that area under P-V graph is equal to work done."
+    },
+    {
       "id": 410740,
       "chapter": 6,
       "topic_id": "6.9",
@@ -577,6 +937,26 @@
       "en": "What are coherent waves and coherent sources? Give examples."
     },
     {
+      "id": 410946,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between longitudinal and transverse waves."
+    },
+    {
+      "id": 410959,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Can you compare the compressions and rarefactions of the longitudinal wave with the peaks and trought of the transverse wave? Discuss."
+    },
+    {
       "id": 410934,
       "chapter": 7,
       "topic_id": "7.3",
@@ -595,6 +975,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Differentiate between constructive and destructive interference of waves."
+    },
+    {
+      "id": 410948,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is it possible for two identical waves travelling in the same direction along a string to give rise to a stationary wave? How is it so?"
     },
     {
       "id": 410950,
@@ -637,6 +1027,16 @@
       "en": "How would you apply Doppler effect in studying cardiac problems in humans?"
     },
     {
+      "id": 410956,
+      "chapter": 7,
+      "topic_id": "7.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which measurement of a wave is the most important when determining the wave's intensity?"
+    },
+    {
       "id": 410957,
       "chapter": 7,
       "topic_id": "7.12",
@@ -665,6 +1065,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Write down some applications of plane polarized."
+    },
+    {
+      "id": 411027,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the applications of Brewster's angle?"
     },
     {
       "id": 411023,
@@ -707,6 +1117,16 @@
       "en": "Explain how Malus's law is used in the design of polarized sunglasses. How do these surfaces reduce glare from reflective surface? Provide an example to illustrate your answer."
     },
     {
+      "id": 411037,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How will the sky appear if there had been no atmosphere?"
+    },
+    {
       "id": 411038,
       "chapter": 8,
       "topic_id": "8.6",
@@ -717,6 +1137,36 @@
       "en": "What is the significance of detecting gravitational waves?"
     },
     {
+      "id": 411028,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the space-time curvature?"
+    },
+    {
+      "id": 411040,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How are tidal forces formed?"
+    },
+    {
+      "id": 411108,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Electrostatic force is 1038 times stronger than gravitational force. Argue that our galaxy should be almost electrically neutral."
+    },
+    {
       "id": 411094,
       "chapter": 9,
       "topic_id": "9.2",
@@ -725,6 +1175,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "How does a moving conductor like an aeroplane acquire charge as it flies through the air? Describe briefly."
+    },
+    {
+      "id": 411105,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Electric lines of force never cross each other. Why?"
+    },
+    {
+      "id": 411107,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is E necessarily zero inside a charged rubber balloon if the balloon is spherical? Assume that charge is distributed uniformly over the surface."
     },
     {
       "id": 411096,
@@ -755,6 +1225,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Is electron-volt a unit of potential difference or energy? Explain."
+    },
+    {
+      "id": 411104,
+      "chapter": 9,
+      "topic_id": "9.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which materials can be used to construct Faraday's cage and why?"
+    },
+    {
+      "id": 411097,
+      "chapter": 9,
+      "topic_id": "9.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A battery is rated at 100 A h (ampere-hour). How much charge can this battery supply?"
     },
     {
       "id": 411099,
@@ -797,6 +1287,16 @@
       "en": "Why the terminal potential difference of a battery decreases when the current drawn from it is increased?"
     },
     {
+      "id": 411103,
+      "chapter": 9,
+      "topic_id": "9.20",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does resistance of a thermistor changes as temperature increases?"
+    },
+    {
       "id": 411196,
       "chapter": 10,
       "topic_id": "10.1",
@@ -815,6 +1315,46 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "A uniform electric field and a magnetic field act in the same direction. A proton is projected, into the space, with a uniform velocity in opposite direction. What will happen to the proton?"
+    },
+    {
+      "id": 411175,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When a magnet is pushed into the solenoid, as shown in the figure, the galvanometer indicates a small current.Why is the current produced?What will be the magnetic pole produced at the left end of the solenoid?"
+    },
+    {
+      "id": 411177,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A bar magnet falls through a fixed metal ring (Fig.). Will the magnet fall with an acceleration of a freely falling body? Give reason."
+    },
+    {
+      "id": 411179,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the two charged particles of the same mass will be deflected most in the magnetic field (a) fast moving (b) slow moving?"
+    },
+    {
+      "id": 411180,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An electron and a proton are projected into a magnetic field at right angles to it with a certain velocity. Which of the particles will suffer greater deflection? Why?"
     },
     {
       "id": 411184,
@@ -845,6 +1385,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "A charge is lying stationary between the opposite poles of two magnets. Is a magnetic force exerted on it? Why?"
+    },
+    {
+      "id": 411193,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The figure shows a coil of wire in the xy plane with a magnetic field directed along the y-axis. Around which of the three coordinate axes should the coil be rotated in order to generate an emf and a current in the coil?"
     },
     {
       "id": 411202,
@@ -887,6 +1437,16 @@
       "en": "Does the induced emf always act to decrease the magnetic flux through a circuit?"
     },
     {
+      "id": 411192,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When the switch in the circuit is closed a current is established in the coil and the metal ring jump upward why? Describe what would happen to the ring if the battery polarity were reversed?"
+    },
+    {
       "id": 411195,
       "chapter": 10,
       "topic_id": "10.6",
@@ -895,6 +1455,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Is it possible to change both the area of the loop and the magnetic field passing through the loop and still not have an induced emf in the loop? Give reason."
+    },
+    {
+      "id": 411205,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider a conducting rod of length L moving with velocity v to the right as shown in the figure. Left ends of the conducting rails are connected to a bulb. Due to motion of the rod through the magnetic field, an emf is produced across the ends of the rod. This emf gives rise to a current I. As a result, the bulb lights up. Explain where does the electrical energy consumed by the bulb come from?"
+    },
+    {
+      "id": 411169,
+      "chapter": 10,
+      "topic_id": "10.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "It is said that Lenz's law specifically applies to induced currents and not directly to induce emf. Explain briefly."
     },
     {
       "id": 411280,
@@ -917,6 +1497,26 @@
       "en": "Why mass of a moving object increases?"
     },
     {
+      "id": 411289,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Speed of sound is affected by relative motion between the observer and the source. Does this apply to speed of light as well? Describe briefly."
+    },
+    {
+      "id": 411290,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is it ever possible to see a star moving away from us at a uniform velocity equal to the velocity of light?"
+    },
+    {
       "id": 411291,
       "chapter": 11,
       "topic_id": "11.1",
@@ -937,6 +1537,16 @@
       "en": "If the speed of light were infinite, what would the equations of special theory of relativity reduce to?"
     },
     {
+      "id": 411277,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by inertial frame of reference and a non-inertial frame of reference?"
+    },
+    {
       "id": 411279,
       "chapter": 11,
       "topic_id": "11.3",
@@ -947,6 +1557,16 @@
       "en": "What are the two postulates of special theory of relativity?"
     },
     {
+      "id": 411281,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Does theory of relativity contradicts Newton's laws of motion? Explain briefly."
+    },
+    {
       "id": 411283,
       "chapter": 11,
       "topic_id": "11.3",
@@ -955,6 +1575,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is meant by relativistic mass, length and time?"
+    },
+    {
+      "id": 411286,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "All motion are relatives. Does space-time is absolute? Explain briefly."
     },
     {
       "id": 411287,
@@ -1007,6 +1637,36 @@
       "en": "What do different isotopes of a given element have in common? How are they different?"
     },
     {
+      "id": 411349,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify the element that has 87 nucleons and 50 neutrons."
+    },
+    {
+      "id": 411351,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the similarities and differences between the strong nuclear force and the electromagnetic force?"
+    },
+    {
+      "id": 411355,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does strong force hold the nucleus?"
+    },
+    {
       "id": 411353,
       "chapter": 12,
       "topic_id": "12.3",
@@ -1027,6 +1687,16 @@
       "en": "How do a proton and a neutron convert to each other?"
     },
     {
+      "id": 411359,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why electron-positron pair cannot decay into a single photon?"
+    },
+    {
       "id": 411356,
       "chapter": 12,
       "topic_id": "12.4",
@@ -1037,6 +1707,26 @@
       "en": "What is the difference between beta particle and electron?"
     },
     {
+      "id": 411358,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does beta-decay have a continuous energy spectrum and alpha-decay have a discrete energy spectrum?"
+    },
+    {
+      "id": 411364,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why does an alpha emitter emit alpha particles instead of four separate nucleons?"
+    },
+    {
       "id": 411365,
       "chapter": 12,
       "topic_id": "12.4",
@@ -1045,6 +1735,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Which is more energetic alpha decay or beta decay? Justify your answer."
+    },
+    {
+      "id": 411366,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A nucleus undergoes gamma decay, emitting gamma ray photon with energy 1.5 MeV. Calculate.(i) frequency of gamma ray (ii) wavelength of gamma ray (iii) momentum of gamma ray"
     },
     {
       "id": 411367,
@@ -1095,6 +1795,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Distinguish between fermions and bosons."
+    },
+    {
+      "id": 411361,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the role of Higgs Boson in the generation of mass in modern physics theories."
     },
     {
       "id": 411363,

@@ -4,11 +4,11 @@
   "subject": "Chemistry",
   "slug": "chemistry",
   "source": "PTS PTB Class 10 Chemistry (read-only export)",
-  "total_questions": 2960,
+  "total_questions": 2966,
   "counts": {
-    "mcq": 1410,
+    "mcq": 1415,
     "short": 1340,
-    "long": 210
+    "long": 211
   },
   "questions": [
     {
@@ -120,15 +120,6 @@
       "ur": "درج ذیل کمپاؤنڈز میں سے نشان زدہ ایلیمنٹ کا آکسیڈیشن نمبر معلوم کریں۔ <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap16-eq2.svg\" />"
     },
     {
-      "id": 500856,
-      "chapter": 16,
-      "topic_id": "16.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "Write down the formulae of the following compounds using ionic charges: Sodium hypochlorite, calcium oxalate, ammonium phosphate, and calcium nitrite.",
-      "ur": "آئنک چارجز کا استعمال کرتے ہوئے درج ذیل کمپاؤنڈ ز کا فارمولا تحریر کریں: سوڈیم ہائیپوکلورائیٹ کیلشیم آگزالیٹ، امونیم فاسفیٹ کیلشیم نائٹریٹ۔"
-    },
-    {
       "id": 500853,
       "chapter": 16,
       "topic_id": "16.2",
@@ -136,6 +127,15 @@
       "type": "long",
       "en": "Explain with examples how the formula of ionic compound can be written using oxidation numbers.",
       "ur": "آکسیڈیشن نمبر کا استعمال کرتے ہوئے آئنک کمپاؤنڈ کا فارمولا کسی طرح معلوم کیا جا سکتا ہے؟ مثال سے واضح کریں۔"
+    },
+    {
+      "id": 500856,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Exercise",
+      "type": "long",
+      "en": "Write down the formulae of the following compounds using ionic charges: Sodium hypochlorite, calcium oxalate, ammonium phosphate, and calcium nitrite.",
+      "ur": "آئنک چارجز کا استعمال کرتے ہوئے درج ذیل کمپاؤنڈ ز کا فارمولا تحریر کریں: سوڈیم ہائیپوکلورائیٹ کیلشیم آگزالیٹ، امونیم فاسفیٹ کیلشیم نائٹریٹ۔"
     },
     {
       "id": 500866,
@@ -228,15 +228,6 @@
       "ur": "سوڈیم کلورائیڈ کرسٹل کی تشکیل کی وضاحت کریں۔"
     },
     {
-      "id": 502021,
-      "chapter": 18,
-      "topic_id": "18.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "How are the following salts prepared? K2SO4 , CuCl2 , CaCl2",
-      "ur": "مندرجہ ذیل سالٹس کیسے تیار کیے جاتے ہیں؟ K2SO4 , CuCl2 , CaCl2"
-    },
-    {
       "id": 502024,
       "chapter": 18,
       "topic_id": "18.4",
@@ -253,6 +244,15 @@
       "type": "long",
       "en": "Explain the methods of preparation of two soluble salts.",
       "ur": "دو حل پذیر سالٹس کی تیاری کا طریقہ بیان کریں۔"
+    },
+    {
+      "id": 502021,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Exercise",
+      "type": "long",
+      "en": "How are the following salts prepared? K2SO4 , CuCl2 , CaCl2",
+      "ur": "مندرجہ ذیل سالٹس کیسے تیار کیے جاتے ہیں؟ K2SO4 , CuCl2 , CaCl2"
     },
     {
       "id": 502078,
@@ -284,7 +284,7 @@
     {
       "id": 502081,
       "chapter": 19,
-      "topic_id": "19.4",
+      "topic_id": "19.5",
       "source": "Exercise",
       "type": "long",
       "en": "Differentiate between first and second group metals based on their reactivities with oxygen and water.",
@@ -354,15 +354,6 @@
       "ur": "آرگینک کمپاؤنڈ کسے کہتے ہیں؟ ان میں موجود کاربن چین کی نوعیت کی بنیاد پر درجہ بندی کیسے کی جاتی ہے؟"
     },
     {
-      "id": 502225,
-      "chapter": 21,
-      "topic_id": "21.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "Name the following compounds. (a) CH3 – CH2 – CH2OH (b) CH3 – CH2 – CHO (c) CH3 – CH2 – CH2 – COOH (d) CH3 – CH2 – CO – O – CH3",
-      "ur": "درج ذیل کمپاؤنڈز کے نام تحریر کریں۔ (الف) CH3 – CH2 – CH2OH (ب) CH3 – CH2 – CHO (ج) CH3 – CH2 – CH2 – COOH (د) CH3 – CH2 – CO – O – CH3"
-    },
-    {
       "id": 502221,
       "chapter": 21,
       "topic_id": "21.2",
@@ -379,6 +370,15 @@
       "type": "long",
       "en": "Write down five characteristics of a homologous series.",
       "ur": "ہومولوگس سیریز کی پانچ خصوصیات تحریر کریں۔"
+    },
+    {
+      "id": 502225,
+      "chapter": 21,
+      "topic_id": "21.5",
+      "source": "Exercise",
+      "type": "long",
+      "en": "Name the following compounds. (a) CH3 – CH2 – CH2OH (b) CH3 – CH2 – CHO (c) CH3 – CH2 – CH2 – COOH (d) CH3 – CH2 – CO – O – CH3",
+      "ur": "درج ذیل کمپاؤنڈز کے نام تحریر کریں۔ (الف) CH3 – CH2 – CH2OH (ب) CH3 – CH2 – CHO (ج) CH3 – CH2 – CH2 – COOH (د) CH3 – CH2 – CO – O – CH3"
     },
     {
       "id": 502224,
@@ -455,7 +455,7 @@
     {
       "id": 502310,
       "chapter": 23,
-      "topic_id": "23.1",
+      "topic_id": "23.4",
       "source": "Exercise",
       "type": "long",
       "en": "Describe the applications of ethanol in pharmaceutical and cosmetic industries.",
@@ -507,15 +507,6 @@
       "ur": "روزمرہ زندگی میں ایسٹرز کے استعمال کی وضاحت کریں۔"
     },
     {
-      "id": 502383,
-      "chapter": 25,
-      "topic_id": "25.1",
-      "source": "Exercise",
-      "type": "long",
-      "en": "Compare the roles played by carbohydrates, proteins and lipids in our body.",
-      "ur": "ہمارے جسم میں کاربوہائیڈریٹس، پروٹینز اور لپڈز کی طرف سے ادا کیے گئے کردار کا موازنہ کریں۔"
-    },
-    {
       "id": 502379,
       "chapter": 25,
       "topic_id": "25.2",
@@ -541,6 +532,15 @@
       "type": "long",
       "en": "Construct peptide linkage and explain the structure of a polypeptide.",
       "ur": "پیپٹائیڈ لنکیج بنائیں، پولی پیپٹائیڈ کی ساخت تفصیلاً بیان کریں۔"
+    },
+    {
+      "id": 502383,
+      "chapter": 25,
+      "topic_id": "25.4",
+      "source": "Exercise",
+      "type": "long",
+      "en": "Compare the roles played by carbohydrates, proteins and lipids in our body.",
+      "ur": "ہمارے جسم میں کاربوہائیڈریٹس، پروٹینز اور لپڈز کی طرف سے ادا کیے گئے کردار کا موازنہ کریں۔"
     },
     {
       "id": 502382,
@@ -1864,6 +1864,15 @@
       "type": "long",
       "en": "Calculate the amount of carbon dioxide in grams produced when 25g of glucose reacts with 40g of oxygen in the following photosynthesis reaction. <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap15-24.svg\" />",
       "ur": "فوٹوسینتھیسز کے اس ری ایکشن کے دوران جب 25g گلوکوز، 40g آکسیجن سے ری ایکشن کرے گا تو گراموں میں کتنی کاربن ڈائی آکسائیڈ بنے گی؟ <img alt=\"\" src=\"/pts-media/equations/10th/chemnew-chap15-24.svg\" />"
+    },
+    {
+      "id": 507915,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Examples",
+      "type": "long",
+      "en": "A chemist reacts 50g of Zn with excess of nitric acid to get 80.2g Zn(NO3)2. Calculate the theoretical yield and the percentage yield of this reaction.",
+      "ur": "ایک کیمیا دان نے 50 گرام زنک Zn کا نائٹرک ایسڈ کی زائد مقدار سے ری ایکشن کر کے 80.2 گرام زنک نائٹریٹ بنایا۔ اس ری ایکشن کی تھیوریٹیکل ییلڈ اور فی صد ییلڈ معلوم کریں۔"
     },
     {
       "id": 507916,

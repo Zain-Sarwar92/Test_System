@@ -1,0 +1,816 @@
+{
+  "generatedAt": "2026-09-10T08:40:21.898Z",
+  "rows": [
+    {
+      "subject": "BIOLOGY",
+      "subjectId": 116,
+      "slug": "biology",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 2146,
+      "localTotal": 2146,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 1066,
+        "QA": 960,
+        "LONG": 120
+      },
+      "liveCompare": {
+        "MCQ": 1066,
+        "QA": 960,
+        "LONG": 120
+      },
+      "localCompare": {
+        "MCQ": 1066,
+        "QA": 960,
+        "LONG": 120
+      }
+    },
+    {
+      "subject": "CHEMISTRY",
+      "subjectId": 117,
+      "slug": "chemistry",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 706,
+      "localTotal": 706,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 414,
+        "QA": 255,
+        "LONG": 37
+      },
+      "liveCompare": {
+        "MCQ": 414,
+        "QA": 255,
+        "LONG": 37
+      },
+      "localCompare": {
+        "MCQ": 414,
+        "QA": 255,
+        "LONG": 37
+      }
+    },
+    {
+      "subject": "PHYSICS",
+      "subjectId": 118,
+      "slug": "physics",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 803,
+      "localTotal": 803,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 375,
+        "QA": 364,
+        "LONG": 64
+      },
+      "liveCompare": {
+        "MCQ": 375,
+        "QA": 364,
+        "LONG": 64
+      },
+      "localCompare": {
+        "MCQ": 375,
+        "QA": 364,
+        "LONG": 64
+      }
+    },
+    {
+      "subject": "MATHEMATICS",
+      "subjectId": 119,
+      "slug": "mathematics",
+      "mode": "rollup bank fields",
+      "types": "MCQ, QA",
+      "liveTotal": 1200,
+      "localTotal": 1200,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 117,
+        "QA": 1083
+      },
+      "liveCompare": {
+        "MCQ": 117,
+        "QA": 1083
+      },
+      "localCompare": {
+        "MCQ": 117,
+        "QA": 1083
+      }
+    },
+    {
+      "subject": "COMPUTER",
+      "subjectId": 120,
+      "slug": "computer",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1472,
+      "localTotal": 1472,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 675,
+        "QA": 636,
+        "LONG": 161
+      },
+      "liveCompare": {
+        "MCQ": 675,
+        "QA": 636,
+        "LONG": 161
+      },
+      "localCompare": {
+        "MCQ": 675,
+        "QA": 636,
+        "LONG": 161
+      }
+    },
+    {
+      "subject": "Statistics",
+      "subjectId": 121,
+      "slug": "statistics",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1566,
+      "localTotal": 1566,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 496,
+        "QA": 650,
+        "LONG": 420
+      },
+      "liveCompare": {
+        "MCQ": 496,
+        "QA": 650,
+        "LONG": 420
+      },
+      "localCompare": {
+        "MCQ": 496,
+        "QA": 650,
+        "LONG": 420
+      }
+    },
+    {
+      "subject": "Economics",
+      "subjectId": 122,
+      "slug": "economics",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1755,
+      "localTotal": 1755,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 974,
+        "QA": 693,
+        "LONG": 88
+      },
+      "liveCompare": {
+        "MCQ": 974,
+        "QA": 693,
+        "LONG": 88
+      },
+      "localCompare": {
+        "MCQ": 974,
+        "QA": 693,
+        "LONG": 88
+      }
+    },
+    {
+      "subject": "ENGLISH",
+      "subjectId": 123,
+      "slug": "english",
+      "mode": "detailed fields",
+      "types": "ESSAYS, MEANING, QA",
+      "liveTotal": 2011,
+      "localTotal": 2011,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "COMPREHENSION": 0,
+        "SPELLING": 0,
+        "MEANING": 962,
+        "GRAMMAR": 0,
+        "QA": 1013,
+        "DI": 0,
+        "WORD": 0,
+        "PAIR": 0,
+        "ESSAYS": 36,
+        "SUMMARY": 0,
+        "TRANSLATE_UR": 0,
+        "POEM_STANZA": 0
+      },
+      "liveCompare": {
+        "COMPREHENSION": 0,
+        "SPELLING": 0,
+        "MEANING": 962,
+        "GRAMMAR": 0,
+        "QA": 1013,
+        "DI": 0,
+        "WORD": 0,
+        "PAIR": 0,
+        "ESSAYS": 36,
+        "SUMMARY": 0,
+        "TRANSLATE_UR": 0,
+        "POEM_STANZA": 0
+      },
+      "localCompare": {
+        "MEANING": 962,
+        "QA": 1013,
+        "ESSAYS": 36
+      }
+    },
+    {
+      "subject": "Principles of Accounting",
+      "subjectId": 124,
+      "slug": "principles-of-accounting",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 891,
+      "localTotal": 891,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 533,
+        "QA": 238,
+        "LONG": 120
+      },
+      "liveCompare": {
+        "MCQ": 533,
+        "QA": 238,
+        "LONG": 120
+      },
+      "localCompare": {
+        "MCQ": 533,
+        "QA": 238,
+        "LONG": 120
+      }
+    },
+    {
+      "subject": "Principles of Banking",
+      "subjectId": 125,
+      "slug": "principles-of-banking",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1194,
+      "localTotal": 1194,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 560,
+        "QA": 492,
+        "LONG": 142
+      },
+      "liveCompare": {
+        "MCQ": 560,
+        "QA": 492,
+        "LONG": 142
+      },
+      "localCompare": {
+        "MCQ": 560,
+        "QA": 492,
+        "LONG": 142
+      }
+    },
+    {
+      "subject": "Commercial Geography",
+      "subjectId": 126,
+      "slug": "commercial-geography",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1991,
+      "localTotal": 1991,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 1079,
+        "QA": 819,
+        "LONG": 93
+      },
+      "liveCompare": {
+        "MCQ": 1079,
+        "QA": 819,
+        "LONG": 93
+      },
+      "localCompare": {
+        "MCQ": 1079,
+        "QA": 819,
+        "LONG": 93
+      }
+    },
+    {
+      "subject": "Business Statistics",
+      "subjectId": 127,
+      "slug": "business-statistics",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 775,
+      "localTotal": 775,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 346,
+        "QA": 292,
+        "LONG": 137
+      },
+      "liveCompare": {
+        "MCQ": 346,
+        "QA": 292,
+        "LONG": 137
+      },
+      "localCompare": {
+        "MCQ": 346,
+        "QA": 292,
+        "LONG": 137
+      }
+    },
+    {
+      "subject": "Pakistan Studies",
+      "subjectId": 128,
+      "slug": "pakistan-studies",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 2243,
+      "localTotal": 2243,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 919,
+        "QA": 1240,
+        "LONG": 84
+      },
+      "liveCompare": {
+        "MCQ": 919,
+        "QA": 1240,
+        "LONG": 84
+      },
+      "localCompare": {
+        "MCQ": 919,
+        "QA": 1240,
+        "LONG": 84
+      }
+    },
+    {
+      "subject": "اُردو لازمی",
+      "subjectId": 129,
+      "slug": "urdu-compulsory",
+      "mode": "detailed fields",
+      "types": "MCQ, NAAT, POEM, QA",
+      "liveTotal": 1552,
+      "localTotal": 1552,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 1333,
+        "POEM": 87,
+        "NAAT": 17,
+        "QA": 115
+      },
+      "liveCompare": {
+        "MCQ": 1333,
+        "POEM": 87,
+        "NAAT": 17,
+        "QA": 115
+      },
+      "localCompare": {
+        "MCQ": 1333,
+        "POEM": 87,
+        "NAAT": 17,
+        "QA": 115
+      }
+    },
+    {
+      "subject": "ایجوکیشن",
+      "subjectId": 130,
+      "slug": "education",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1728,
+      "localTotal": 1728,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 688,
+        "QA": 942,
+        "LONG": 98
+      },
+      "liveCompare": {
+        "MCQ": 688,
+        "QA": 942,
+        "LONG": 98
+      },
+      "localCompare": {
+        "MCQ": 688,
+        "QA": 942,
+        "LONG": 98
+      }
+    },
+    {
+      "subject": "سوکس",
+      "subjectId": 131,
+      "slug": "civics",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 662,
+      "localTotal": 662,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 217,
+        "QA": 383,
+        "LONG": 62
+      },
+      "liveCompare": {
+        "MCQ": 217,
+        "QA": 383,
+        "LONG": 62
+      },
+      "localCompare": {
+        "MCQ": 217,
+        "QA": 383,
+        "LONG": 62
+      }
+    },
+    {
+      "subject": "پنجابی",
+      "subjectId": 132,
+      "slug": "punjabi",
+      "mode": "detailed fields",
+      "types": "MCQ, POEM, QA",
+      "liveTotal": 1332,
+      "localTotal": 1332,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 619,
+        "QA": 588,
+        "POEM": 125,
+        "SUMMARY": 0,
+        "MEANING": 0,
+        "WORD": 0,
+        "IDIOM": 0,
+        "PASSAGE": 0
+      },
+      "liveCompare": {
+        "MCQ": 619,
+        "QA": 588,
+        "POEM": 125,
+        "SUMMARY": 0,
+        "MEANING": 0,
+        "WORD": 0,
+        "IDIOM": 0,
+        "PASSAGE": 0
+      },
+      "localCompare": {
+        "MCQ": 619,
+        "QA": 588,
+        "POEM": 125
+      }
+    },
+    {
+      "subject": "اسلامیات اختیاری",
+      "subjectId": 133,
+      "slug": "islamiyat-elective",
+      "mode": "rollup bank fields",
+      "types": "MCQ, QA",
+      "liveTotal": 797,
+      "localTotal": 797,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 373,
+        "QA": 424,
+        "AYAT": 0
+      },
+      "liveCompare": {
+        "MCQ": 373,
+        "QA": 424,
+        "LONG": 0
+      },
+      "localCompare": {
+        "MCQ": 373,
+        "QA": 424
+      }
+    },
+    {
+      "subject": "فزیکل ایجوکیشن",
+      "subjectId": 134,
+      "slug": "physical-education",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1307,
+      "localTotal": 1307,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 638,
+        "QA": 634,
+        "LONG": 35
+      },
+      "liveCompare": {
+        "MCQ": 638,
+        "QA": 634,
+        "LONG": 35
+      },
+      "localCompare": {
+        "MCQ": 638,
+        "QA": 634,
+        "LONG": 35
+      }
+    },
+    {
+      "subject": "سوشیالوجی",
+      "subjectId": 135,
+      "slug": "sociology",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1105,
+      "localTotal": 1105,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 590,
+        "QA": 432,
+        "LONG": 83
+      },
+      "liveCompare": {
+        "MCQ": 590,
+        "QA": 432,
+        "LONG": 83
+      },
+      "localCompare": {
+        "MCQ": 590,
+        "QA": 432,
+        "LONG": 83
+      }
+    },
+    {
+      "subject": "اخلاقیات",
+      "subjectId": 136,
+      "slug": "ethics",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 111,
+      "localTotal": 111,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 45,
+        "QA": 47,
+        "LONG": 19
+      },
+      "liveCompare": {
+        "MCQ": 45,
+        "QA": 47,
+        "LONG": 19
+      },
+      "localCompare": {
+        "MCQ": 45,
+        "QA": 47,
+        "LONG": 19
+      }
+    },
+    {
+      "subject": "ترجمۃ القرآن مجید",
+      "subjectId": 137,
+      "slug": "tarjuma-quran",
+      "mode": "detailed fields",
+      "types": "AYAT, LONG, MCQ, MEANING, QA",
+      "liveTotal": 747,
+      "localTotal": 747,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 347,
+        "QA": 227,
+        "LONG": 17,
+        "AYAT": 46,
+        "MEANING": 110
+      },
+      "liveCompare": {
+        "MCQ": 347,
+        "QA": 227,
+        "LONG": 17,
+        "AYAT": 46,
+        "MEANING": 110
+      },
+      "localCompare": {
+        "MCQ": 347,
+        "QA": 227,
+        "LONG": 17,
+        "AYAT": 46,
+        "MEANING": 110
+      }
+    },
+    {
+      "subject": "نفسیات",
+      "subjectId": 260,
+      "slug": "psychology",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 824,
+      "localTotal": 824,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 340,
+        "QA": 388,
+        "LONG": 96
+      },
+      "liveCompare": {
+        "MCQ": 340,
+        "QA": 388,
+        "LONG": 96
+      },
+      "localCompare": {
+        "MCQ": 340,
+        "QA": 388,
+        "LONG": 96
+      }
+    },
+    {
+      "subject": "فارسی",
+      "subjectId": 338,
+      "slug": "persian",
+      "mode": "rollup bank fields",
+      "types": "MCQ, QA",
+      "liveTotal": 299,
+      "localTotal": 299,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 120,
+        "QA": 179,
+        "LONG": 0
+      },
+      "liveCompare": {
+        "MCQ": 120,
+        "QA": 179,
+        "LONG": 0
+      },
+      "localCompare": {
+        "MCQ": 120,
+        "QA": 179
+      }
+    },
+    {
+      "subject": "تاریخِ اسلام",
+      "subjectId": 342,
+      "slug": "history-of-islam",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1536,
+      "localTotal": 1536,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 599,
+        "QA": 834,
+        "LONG": 103
+      },
+      "liveCompare": {
+        "MCQ": 599,
+        "QA": 834,
+        "LONG": 103
+      },
+      "localCompare": {
+        "MCQ": 599,
+        "QA": 834,
+        "LONG": 103
+      }
+    },
+    {
+      "subject": "حَدِیقَۃُ الاَدَبِ",
+      "subjectId": 368,
+      "slug": "hadeeqatul-adab",
+      "mode": "rollup bank fields",
+      "types": "MCQ, QA",
+      "liveTotal": 311,
+      "localTotal": 311,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 167,
+        "QA": 144,
+        "LONG": 0
+      },
+      "liveCompare": {
+        "MCQ": 167,
+        "QA": 144,
+        "LONG": 0
+      },
+      "localCompare": {
+        "MCQ": 167,
+        "QA": 144
+      }
+    },
+    {
+      "subject": "اِنسانی جغرافیہ",
+      "subjectId": 438,
+      "slug": "human-geography",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 345,
+      "localTotal": 345,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 93,
+        "QA": 217,
+        "LONG": 35
+      },
+      "liveCompare": {
+        "MCQ": 93,
+        "QA": 217,
+        "LONG": 35
+      },
+      "localCompare": {
+        "MCQ": 93,
+        "QA": 217,
+        "LONG": 35
+      }
+    },
+    {
+      "subject": "لائبریری سائنس",
+      "subjectId": 453,
+      "slug": "library-science",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1144,
+      "localTotal": 1144,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 357,
+        "QA": 743,
+        "LONG": 44
+      },
+      "liveCompare": {
+        "MCQ": 357,
+        "QA": 743,
+        "LONG": 44
+      },
+      "localCompare": {
+        "MCQ": 357,
+        "QA": 743,
+        "LONG": 44
+      }
+    },
+    {
+      "subject": "تاریخِ پاکستان",
+      "subjectId": 492,
+      "slug": "history-of-pakistan",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 562,
+      "localTotal": 562,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 227,
+        "QA": 283,
+        "LONG": 52
+      },
+      "liveCompare": {
+        "MCQ": 227,
+        "QA": 283,
+        "LONG": 52
+      },
+      "localCompare": {
+        "MCQ": 227,
+        "QA": 283,
+        "LONG": 52
+      }
+    },
+    {
+      "subject": "ہوم اکنامکس",
+      "subjectId": 1535,
+      "slug": "home-economics",
+      "mode": "rollup bank fields",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 919,
+      "localTotal": 919,
+      "status": "MATCH",
+      "diffs": [],
+      "liveDetailed": {
+        "MCQ": 356,
+        "QA": 491,
+        "LONG": 72
+      },
+      "liveCompare": {
+        "MCQ": 356,
+        "QA": 491,
+        "LONG": 72
+      },
+      "localCompare": {
+        "MCQ": 356,
+        "QA": 491,
+        "LONG": 72
+      }
+    }
+  ]
+}

@@ -170,6 +170,7 @@ export default async function SectionGazettePage({
       columns={columns}
       rows={rowsWithManual}
       backHref={`/org-admin/results/sections/${section.id}/exams/${exam.id}`}
+      reportCardBaseHref={`/org-admin/results/sections/${section.id}/exams/${exam.id}/report-cards`}
       subtitle={`${stream === "SCIENCE" ? "Science" : "Arts"} Group`}
       phoneByStudentId={Object.fromEntries(
         students.map((student) => [student.id, student.phone]),

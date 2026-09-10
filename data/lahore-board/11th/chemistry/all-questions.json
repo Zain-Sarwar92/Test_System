@@ -4,18 +4,48 @@
   "subject": "Chemistry",
   "slug": "chemistry",
   "source": "PTS PTB INTER-I (Class 11) Chemistry (read-only export)",
-  "total_questions": 2192,
+  "total_questions": 2328,
   "counts": {
-    "mcq": 1149,
-    "short": 948,
-    "long": 95
+    "mcq": 1193,
+    "short": 1016,
+    "long": 119
   },
   "fieldCounts": {
-    "MCQ": 1149,
-    "QA": 948,
-    "LONG": 95
+    "MCQ": 1193,
+    "QA": 1016,
+    "LONG": 119
   },
   "questions": [
+    {
+      "id": 411416,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which scientist first time observed the periodicity in the elements?",
+      "optionA": "J. Newlands",
+      "optionB": "L. Meyer",
+      "optionC": "J.W. Döbereiner",
+      "optionD": "D. I. Mendeleev",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 411417,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Recognize the element if it has 3 electron shells, belongs to “s” block and has 2 electrons in its outer most shell.",
+      "optionA": "Calcium",
+      "optionB": "Sodium",
+      "optionC": "Magnesium",
+      "optionD": "Potassium",
+      "correctAnswer": "C"
+    },
     {
       "id": 411418,
       "chapter": 1,
@@ -452,6 +482,21 @@
       "correctAnswer": "A"
     },
     {
+      "id": 411554,
+      "chapter": 3,
+      "topic_id": "3.9",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following molecules has zero dipole moment?",
+      "optionA": "NH3",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap3-1.svg\" />",
+      "optionC": "H2O",
+      "optionD": "BF3",
+      "correctAnswer": "D"
+    },
+    {
       "id": 411562,
       "chapter": 3,
       "topic_id": "3.9",
@@ -480,6 +525,21 @@
       "optionC": "B",
       "optionD": "F2",
       "correctAnswer": "B"
+    },
+    {
+      "id": 411569,
+      "chapter": 3,
+      "topic_id": "3.9",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following molecules has a net dipole moment?",
+      "optionA": "CO2",
+      "optionB": "CS2",
+      "optionC": "SO2",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap3-9.svg\" />",
+      "correctAnswer": "C"
     },
     {
       "id": 411721,
@@ -767,6 +827,21 @@
       "correctAnswer": "C"
     },
     {
+      "id": 411829,
+      "chapter": 5,
+      "topic_id": "5.10",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of following is the correct sequence of increasing <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap5-1.svg\" style=\"width: 36px; height: 25px;\" /> values of substances mentioned?",
+      "optionA": "H2O > NH3 > F2",
+      "optionB": "F2 > NH3 > H2O",
+      "optionC": "NH3 > H2O > F2",
+      "optionD": "H2O > F2 > NH3",
+      "correctAnswer": "A"
+    },
+    {
       "id": 411848,
       "chapter": 5,
       "topic_id": "5.12",
@@ -872,6 +947,21 @@
       "correctAnswer": "C"
     },
     {
+      "id": 412005,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider a reaction with <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-30.svg\" style=\"width: 28px; height: 20px;\" />>0 and<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-12.svg\" style=\"width: 28px; height: 20px;\" /><0 .This reaction will be:",
+      "optionA": "Spontaneous at all temperatures",
+      "optionB": "Non-spontaneous at all temperatures",
+      "optionC": "Spontaneous at high temperatures",
+      "optionD": "Spontaneous only at low temperatures",
+      "correctAnswer": "B"
+    },
+    {
       "id": 411965,
       "chapter": 6,
       "topic_id": "6.4",
@@ -932,6 +1022,21 @@
       "correctAnswer": "C"
     },
     {
+      "id": 412003,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following processes would typically result in an increase in entropy of the system?",
+      "optionA": "Freezing of water",
+      "optionB": "Condensation of steam",
+      "optionC": "Dissolving a solid in a liquid",
+      "optionD": "Formation of a cryctal from a saturated solution",
+      "correctAnswer": "C"
+    },
+    {
       "id": 411985,
       "chapter": 6,
       "topic_id": "6.8",
@@ -945,6 +1050,21 @@
       "optionC": "Activation energy",
       "optionD": "Enthalpy change of reaction",
       "correctAnswer": "B"
+    },
+    {
+      "id": 411970,
+      "chapter": 6,
+      "topic_id": "6.12",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For a reaction to occur spontaneously,",
+      "optionA": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-9.svg\" />must be negative",
+      "optionB": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-10.svg\" />must be negative",
+      "optionC": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-11.svg\" />must be negative",
+      "optionD": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-12.svg\" /> must be negative",
+      "correctAnswer": "A"
     },
     {
       "id": 412129,
@@ -1052,6 +1172,21 @@
       "correctAnswer": "C"
     },
     {
+      "id": 412116,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If we double the concentration of a reactant, the rate increases by four times, the reaction is:",
+      "optionA": "Second order",
+      "optionB": "First order",
+      "optionC": "Third order",
+      "optionD": "Zero order",
+      "correctAnswer": "A"
+    },
+    {
       "id": 412128,
       "chapter": 7,
       "topic_id": "7.3",
@@ -1082,6 +1217,66 @@
       "correctAnswer": "B"
     },
     {
+      "id": 412127,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reaction <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-1.svg\" /> occurs in two steps. What is the rate law equation for this reaction? <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-2.svg\" /> <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-3.svg\" />",
+      "optionA": "R = k1 [NO2]3",
+      "optionB": "R = k2 [NO3][CO]",
+      "optionC": "R = k1 [NO2]",
+      "optionD": "R = k1 [NO2]2",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 412118,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The rate determining step in a multi-step reaction is:",
+      "optionA": "Always the first step",
+      "optionB": "Always the last step",
+      "optionC": "The slowest step",
+      "optionD": "The fastest step",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412131,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A first-order reaction has a half-life (t1/2) of 20 minutes. What is the value of its rate constant (k)?",
+      "optionA": "0.05 min-1",
+      "optionB": "0.693 min-1",
+      "optionC": "0.0347 min-1",
+      "optionD": "13.86 min-1",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412191,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A saturated solution represents a dynamic equilibrium. Macroscopically, the concentration of dissolved solute is constant. Microscopically, this occurs because:",
+      "optionA": "No more solute particles are dissolving.",
+      "optionB": "The rate of dissolution of solute is zero.",
+      "optionC": "Solute particles are dissolving and precipitating at the same rate.",
+      "optionD": "All solute particles have dissolved.",
+      "correctAnswer": "C"
+    },
+    {
       "id": 412183,
       "chapter": 8,
       "topic_id": "8.2",
@@ -1094,6 +1289,36 @@
       "optionB": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap8-2.svg\" />",
       "optionC": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap8-3.svg\" />",
       "optionD": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap8-4.svg\" />",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412186,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which statement about the following equilibrium is correct? <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap8-5.svg\" style=\"width: 328px; height: 28px;\" />=-197.9 kJmol-1",
+      "optionA": "The value of Kp falls with a rise in temperature.",
+      "optionB": "The value of Kp falls with increasing pressure.",
+      "optionC": "Adding V2O5 catalyst increase the equilibrium yield of sulphur trioxide.",
+      "optionD": "The value of Kp is equal to Kc.",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 412196,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Kc = 0.040 at 450oC for the given reaction, evaluate Kp for the reaction. <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap8-10.svg\" />",
+      "optionA": "0.40",
+      "optionB": "0.64",
+      "optionC": "2.4",
+      "optionD": "0.052",
       "correctAnswer": "C"
     },
     {
@@ -1172,6 +1397,51 @@
       "correctAnswer": "B"
     },
     {
+      "id": 412287,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following is a Lewis acid but not a Bronsted-Lowry acid?",
+      "optionA": "NH3",
+      "optionB": "AICI3",
+      "optionC": "H2O",
+      "optionD": "HCI",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 412297,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following pairs of substances can act as a conjugate acid-base pair according to the Bronsted-Lowry theory?",
+      "optionA": "HCI and NaOH",
+      "optionB": "NH3 and NH4+",
+      "optionC": "H2O and H2SO2",
+      "optionD": "H2O and CH4",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 412283,
+      "chapter": 9,
+      "topic_id": "9.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following is the conjugate base of water?",
+      "optionA": "OH-(aq)",
+      "optionB": "H+(aq)",
+      "optionC": "H2O(I)",
+      "optionD": "H3O+(aq)",
+      "correctAnswer": "C"
+    },
+    {
       "id": 412300,
       "chapter": 9,
       "topic_id": "9.4",
@@ -1185,6 +1455,21 @@
       "optionC": "1 × 10-2 M",
       "optionD": "1 × 10-14 M",
       "correctAnswer": "A"
+    },
+    {
+      "id": 412253,
+      "chapter": 9,
+      "topic_id": "9.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given the following reaction: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-1.svg\" />",
+      "optionA": "NH3 is the acid, H2O is the base.",
+      "optionB": "NH3 is the base, H2O is the acid.",
+      "optionC": "NH4 + is the base, OH- is the acid.",
+      "optionD": "H2O is the base, OH- is the acid.",
+      "correctAnswer": "B"
     },
     {
       "id": 412254,
@@ -1247,6 +1532,36 @@
       "correctAnswer": "A"
     },
     {
+      "id": 412258,
+      "chapter": 9,
+      "topic_id": "9.10",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which indicator is typically used for titrations involving strong acids and strong bases?",
+      "optionA": "Methyl red",
+      "optionB": "Phenolphthalein",
+      "optionC": "Bromothymol blue",
+      "optionD": "Litmus solution",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 412290,
+      "chapter": 9,
+      "topic_id": "9.10",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In an acid-base titration,the equivalence point is reached when:",
+      "optionA": "pH of the solution is 7.0",
+      "optionB": "The indicator change color",
+      "optionC": "Equal volumes of acid and base have been added",
+      "optionD": "The reaction stops",
+      "correctAnswer": "D"
+    },
+    {
       "id": 412356,
       "chapter": 10,
       "topic_id": "10.3",
@@ -1259,6 +1574,21 @@
       "optionB": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-6.svg\" />",
       "optionC": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-7.svg\" />",
       "optionD": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-8.svg\" />",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412340,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The activity series of metals arranges metals in order of their:",
+      "optionA": "Atomic mass",
+      "optionB": "Density",
+      "optionC": "Ease of oxidation",
+      "optionD": "Ease of reduction",
       "correctAnswer": "C"
     },
     {
@@ -1277,6 +1607,21 @@
       "correctAnswer": "D"
     },
     {
+      "id": 412359,
+      "chapter": 10,
+      "topic_id": "10.8",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In an electrolysis experiment, if a charge of 96,500 Coulombs is passed through a solution, the amount of substance liberated or deposited at the electrode is directly related to:",
+      "optionA": "Mass number of the ion",
+      "optionB": "One mole of electrons being transferred",
+      "optionC": "Avogadro’s number of ions being discharged",
+      "optionD": "Standard electrode potential of the metal ion",
+      "correctAnswer": "B"
+    },
+    {
       "id": 412351,
       "chapter": 10,
       "topic_id": "10.9",
@@ -1289,6 +1634,36 @@
       "optionB": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-2.svg\" />",
       "optionC": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-3.svg\" />",
       "optionD": "<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-4.svg\" />",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412361,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The experimental determination of Avogadro’s number through electrolysis typically involves measuring:",
+      "optionA": "The current and voltage applied.",
+      "optionB": "The mass of the substance deposited or liberated by a known charge.",
+      "optionC": "The conductivity of the electrolytic solution.",
+      "optionD": "The temperature changes during electrolysis.",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 412365,
+      "chapter": 10,
+      "topic_id": "10.14",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A positive value for the standard electrode potential (E°) of a metal ion/metal half-cell (e.g., Cu2+/Cu) indicates that:",
+      "optionA": "The metal is a strong reducing agent",
+      "optionB": "The metal ion is readily oxidized",
+      "optionC": "The metal ion is readily reduced",
+      "optionD": "The metal will readily displace hydrogen from dilute acids",
       "correctAnswer": "C"
     },
     {
@@ -1335,6 +1710,51 @@
       "optionC": "Both",
       "optionD": "None of these",
       "correctAnswer": "C"
+    },
+    {
+      "id": 412342,
+      "chapter": 10,
+      "topic_id": "10.19",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "According to the activity series, which of the following metals would most readily displace hydrogen gas from dilute acids?",
+      "optionA": "Copper (Cu)",
+      "optionB": "Silver (Ag)",
+      "optionC": "Magnesium (Mg)",
+      "optionD": "Platinum (Pt)",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412363,
+      "chapter": 10,
+      "topic_id": "10.22",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The principle of measuring DO by Wrinkler’s Method is based on:",
+      "optionA": "Iodimetry",
+      "optionB": "Iodometry",
+      "optionC": "Acid-Base titration",
+      "optionD": "Complexometry",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 412397,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An alkene undergoes ozonolysis followed by reduction with zinc dust and water to yield propanone and methanal. The alkene is:",
+      "optionA": "1-Butene",
+      "optionB": "2-Butene",
+      "optionC": "2-Methylpropene",
+      "optionD": "2-Methyl-2-butene",
+      "correctAnswer": "D"
     },
     {
       "id": 412399,
@@ -1470,6 +1890,21 @@
       "optionC": "(CH3)2CH+",
       "optionD": "(CH3)3C+",
       "correctAnswer": "D"
+    },
+    {
+      "id": 412406,
+      "chapter": 11,
+      "topic_id": "11.9",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The enhanced stability of conjugated dienes compared to isolated dienes is primarily attributed to:",
+      "optionA": "Inductive effects of the double bonds.",
+      "optionB": "Increased s-character of the hybridised orbitals.",
+      "optionC": "Delocalisation of (eq) electrons across the conjugated system.",
+      "optionD": "Steric hindrance between the double bonds",
+      "correctAnswer": "C"
     },
     {
       "id": 412407,
@@ -1622,6 +2057,66 @@
       "correctAnswer": "A"
     },
     {
+      "id": 412440,
+      "chapter": 12,
+      "topic_id": "12.11",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The oxidation state of sulfur in H2SO4 is:",
+      "optionA": "+1",
+      "optionB": "+2",
+      "optionC": "+4",
+      "optionD": "+6",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 412443,
+      "chapter": 12,
+      "topic_id": "12.11",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sulfur dioxide (SO2) produced from the combustion of sulfur can be further oxidized to sulfur trioxide (SO3) under specific conditions, such as in the presence of a:",
+      "optionA": "Catalyst (e.g., vanadium(V) oxide) and high temperature",
+      "optionB": "Catalyst (e.g., iron) and low temperature",
+      "optionC": "Strong reducing agent and high pressure",
+      "optionD": "Dilute acid and room temperature",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 412442,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The drug omeprazole contains ______ group.",
+      "optionA": "Thiol",
+      "optionB": "Sulfoxide",
+      "optionC": "Bisulfide",
+      "optionD": "Sulfone",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412445,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Sulfur trioxide (SO3) is not directly dissolved in water to produce sulfuric acid in the Contact Process because this reaction is:",
+      "optionA": "Too slow",
+      "optionB": "Reversible and would result in a low yield",
+      "optionC": "Highly exothermic and produces a mist of sulfuric acid",
+      "optionD": "Requires very high pressures",
+      "correctAnswer": "C"
+    },
+    {
       "id": 412470,
       "chapter": 13,
       "topic_id": "13.3",
@@ -1635,6 +2130,21 @@
       "optionC": "I2",
       "optionD": "C<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap2-12.svg\" />2",
       "correctAnswer": "D"
+    },
+    {
+      "id": 412473,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which one of the following halogen molecules has strongest oxidizing power?",
+      "optionA": "Br2",
+      "optionB": "F2",
+      "optionC": "I2",
+      "optionD": "C<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap2-12.svg\" />2",
+      "correctAnswer": "B"
     },
     {
       "id": 412482,
@@ -1679,6 +2189,81 @@
       "optionB": "Chlorine and hydrogen explode in darkness.",
       "optionC": "Fluorine combines explosively with hydrogen even in cold and dark conditions.",
       "optionD": "Bromine and hydrogen do not react at all.",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412481,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the acidic strength of hydrogen halides change as you move down the group?",
+      "optionA": "It remains constant",
+      "optionB": "It decreases from HF to HI",
+      "optionC": "It increases from HF to HI",
+      "optionD": "It fluctuates erratically",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412474,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The decreasing thermal stability of the halogens down the group is primarily due to the:",
+      "optionA": "Increasing electronegativity of the atoms",
+      "optionB": "Decreasing bond length between the halogen atoms",
+      "optionC": "Increasing atomic radius, leading to a weaker covalent bond",
+      "optionD": "Increasing strength of van der Waals forces",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412484,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When aqueous silver nitrate is added to a solution containing bromide ions, a cream precipitate forms. What is the solubility of this precipitate in aqueous ammonia solution?",
+      "optionA": "Soluble in dilute ammonia solution",
+      "optionB": "Partially soluble in dilute ammonia solution",
+      "optionC": "Insoluble in dilute ammonia solution",
+      "optionD": "Soluble only upon heating with ammonia",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 412476,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which one of the following halides has strongest reducing power?",
+      "optionA": "F-",
+      "optionB": "Cl-",
+      "optionC": "Br-",
+      "optionD": "I-",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 412485,
+      "chapter": 13,
+      "topic_id": "13.10",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Concentrated sulfuric acid is added to solid sodium chloride. What is the initial observation?",
+      "optionA": "Reddish-brown fumes are evolved.",
+      "optionB": "A purple vapor is evolved.",
+      "optionC": "Steamy white fumes of hydrogen chloride are evolved.",
+      "optionD": "A black solid is formed.",
       "correctAnswer": "C"
     },
     {
@@ -1757,6 +2342,51 @@
       "correctAnswer": "D"
     },
     {
+      "id": 412514,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which particulate matter size is considered the most harmful to human health?",
+      "optionA": "PM 10.0",
+      "optionB": "PM 5.0",
+      "optionC": "PM 2.5",
+      "optionD": "PM 1.0",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412516,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following is a natural factor that can improve air quality?",
+      "optionA": "Wildfire",
+      "optionB": "Urbanization",
+      "optionC": "Rainfall",
+      "optionD": "Industrial emission",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 412531,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Primary pollutants like nitrogen oxides (NOx ) and volatile organic compounds (VOCs) react in the presence of sunlight to form a key component of photochemical smog, which is a:",
+      "optionA": "Primary pollutant",
+      "optionB": "Secondary pollutant",
+      "optionC": "Naturally occurring atmospheric gas",
+      "optionD": "Harmless byproduct of combustion",
+      "correctAnswer": "B"
+    },
+    {
       "id": 412519,
       "chapter": 14,
       "topic_id": "14.14",
@@ -1784,6 +2414,21 @@
       "optionB": "Gasoline driven vehicles",
       "optionC": "Using electric appliances",
       "optionD": "Solar panel installation",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 412522,
+      "chapter": 14,
+      "topic_id": "14.16",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An AQI value between 51 and 100 typically indicates which level of air quality?",
+      "optionA": "Good",
+      "optionB": "Moderate",
+      "optionC": "Unhealthy",
+      "optionD": "Fatal",
       "correctAnswer": "B"
     },
     {
@@ -2730,6 +3375,21 @@
       "optionC": "The ionization energy of Calcium is higher than that of Beryllium",
       "optionD": "The ionization energy of Calcium is lower than that of Strontium",
       "correctAnswer": "A"
+    },
+    {
+      "id": 412960,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Sun light shows the type of spectrum:",
+      "optionA": "Continuous spectrum",
+      "optionB": "Lline emission spectrum",
+      "optionC": "Line absorption spectrum",
+      "optionD": "Band spectrum",
+      "correctAnswer": "C"
     },
     {
       "id": 412966,
@@ -17252,6 +17912,26 @@
       "correctAnswer": "C"
     },
     {
+      "id": 411440,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Identify the element which is in period 5 and group 15?"
+    },
+    {
+      "id": 411435,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why the elements in Group 13 to 17 are called p-block elements?"
+    },
+    {
       "id": 411433,
       "chapter": 1,
       "topic_id": "1.7",
@@ -17402,6 +18082,26 @@
       "en": "Among the elements Li, K, Ca, S and Kr which one has the lowest first ionization energy? Which has the highest first ionization."
     },
     {
+      "id": 411519,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The successive ionization energies for an unknown element are:I1= 896kJ/mol, I2 = 1752 kJ/mol,I3 = 14,807 kJ/mol,I4 = 17,948 kJ/mol.To which family in the periodic table, does the unknown element most likely belong?"
+    },
+    {
+      "id": 411536,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider the following ionization energies for aluminium: Al(g) <img alt=\"\" src=\"/pts-media/equations/11th/chem-10-10.svg\" />Al+(g)+e- l1=580 kJ/mol, Al+(g) <img alt=\"\" src=\"/pts-media/equations/11th/chem-10-10.svg\" />Al2+(g)+e- l2=1815 kJ/mol, Al2(g) <img alt=\"\" src=\"/pts-media/equations/11th/chem-10-10.svg\" />Al3+(g)+e- l3=2740 kJ/mol, Al3+(g) <img alt=\"\" src=\"/pts-media/equations/11th/chem-10-10.svg\" />Al4+(g)+e- l4=11,600 kJ/mol.(i) Account for the trend in the values of the ionization energies.(ii) Explain the large increase between l3 and l4.(iii)List the four aluminium ions given in order of increasing size, and explain your ordering."
+    },
+    {
       "id": 411487,
       "chapter": 2,
       "topic_id": "2.4",
@@ -17430,6 +18130,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "State the general order of filling orbitals up to the 4p subshell."
+    },
+    {
+      "id": 411511,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In the ground state of mercury 80Hg:(i)How many electrons occupy atomic orbitals with n = 3?(ii)How many electrons occupy 4d atomic orbitals?"
+    },
+    {
+      "id": 411514,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In the ground state of mercury 80Hg: (i) How many electrons occupy 4pz atomic orbital? (ii)How many electrons in the valence shell have spin “up” (s = -½)?"
     },
     {
       "id": 411542,
@@ -17532,6 +18252,16 @@
       "en": "Which of the following bonds would be most polar? (i) C-Cl (ii) Si-F (iii) Se-F"
     },
     {
+      "id": 411689,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the bond energies of single, double, and triple bonds between the same two atoms (e.g.,H-H, O=O, N=N).Explain the trend in terms of the number of shared electrons."
+    },
+    {
       "id": 411678,
       "chapter": 3,
       "topic_id": "3.5",
@@ -17560,6 +18290,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Draw the orbital structure of the CO2 molecule in terms of VBT."
+    },
+    {
+      "id": 411679,
+      "chapter": 3,
+      "topic_id": "3.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The bond between K and <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap3-22.svg\" style=\"width: 23px; height: 20px;\" /> is ionic but that between Si and <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap3-22.svg\" style=\"width: 23px; height: 20px;\" /> is polar covalent. Explain why."
     },
     {
       "id": 411660,
@@ -17602,6 +18342,16 @@
       "en": "Predict the shapes of sulfate ([SO4]2-), borate ([BH4]- ) and tri-iodide ions ([I3]- according to the VSEPR model."
     },
     {
+      "id": 411671,
+      "chapter": 3,
+      "topic_id": "3.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The structures of PF3 and SiF4 are given below. Redraw these with partial charges and state which is polar and which is non-polar.<img src=\"/pts-media/equations/11th/chemnew-chap3-7.png\" style=\"zoom:80%;\" />, <img src=\"/pts-media/equations/11th/chemnew-chap3-8.png\" style=\"zoom:80%;\" />"
+    },
+    {
       "id": 411668,
       "chapter": 3,
       "topic_id": "3.9",
@@ -17610,6 +18360,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Sketch molecular orbital pictures of <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap3-18.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap3-19.svg\" />."
+    },
+    {
+      "id": 411680,
+      "chapter": 3,
+      "topic_id": "3.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "SO2 is a polar molecule but SO3 not. Justify."
+    },
+    {
+      "id": 411683,
+      "chapter": 3,
+      "topic_id": "3.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of O2 2+, and O2 2- would be paramagnetic? Give reason in the light of MOT."
     },
     {
       "id": 416833,
@@ -17680,6 +18450,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "4g of He, 17 g of NH3 and 64 g of SO2 occupy separately the volumes of 22.414 dm3 although the sizes and molecular masses of molecules of the three gases are very different from each other. Explain."
+    },
+    {
+      "id": 411763,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is stoichiometry?Give the basic assumption of stoichiometric calculations."
     },
     {
       "id": 411765,
@@ -17762,6 +18542,16 @@
       "en": "One feels sense of cooling under the fan after bath. Explain."
     },
     {
+      "id": 411865,
+      "chapter": 5,
+      "topic_id": "5.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How a dynamic equilibrium is established during evaporation of a liquid in a closed vessel at constant temperature?"
+    },
+    {
       "id": 411867,
       "chapter": 5,
       "topic_id": "5.7",
@@ -17790,6 +18580,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Why B.P of a liquid increases when the external pressure rises?"
+    },
+    {
+      "id": 411873,
+      "chapter": 5,
+      "topic_id": "5.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Propanone (CH3COCH3), propanol (CH3CH2CH2OH) and butane (CH3CH2CH2CH3) have very similar relative molecular masses. List them in the expected order of increasing boiling points. Explain your answer."
     },
     {
       "id": 411879,
@@ -17932,6 +18732,26 @@
       "en": "The enthalpy of solution can be either positive or negative. Explain what a positive <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-29.svg\" /> and a negative <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-29.svg\" style=\"width: 43px; height: 25px;\" /> indicate about the energy changes during the dissolution process."
     },
     {
+      "id": 412009,
+      "chapter": 6,
+      "topic_id": "6.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate clearly between entropy (S) and Gibbs free energy (G)."
+    },
+    {
+      "id": 412044,
+      "chapter": 6,
+      "topic_id": "6.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For a reaction to be spontaneous, what is the required sign of the Gibbs free energy change <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-26.svg\" style=\"width: 38px; height: 21px;\" />? Under what conditions of enthalpy change <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-27.svg\" style=\"width: 38px; height: 21px;\" /> and entropy change <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-28.svg\" style=\"width: 37px; height: 21px;\" /> will a reaction always be sportaneous?"
+    },
+    {
       "id": 412132,
       "chapter": 7,
       "topic_id": "7.2",
@@ -17952,6 +18772,16 @@
       "en": "Why the instantaneous rate changes during a reaction?"
     },
     {
+      "id": 412142,
+      "chapter": 7,
+      "topic_id": "7.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The rate constant for a certain reaction is 3.5×10-4 s-1at 25oC.What is the order of the reaction.? Explain based on the units of the rate constant."
+    },
+    {
       "id": 412136,
       "chapter": 7,
       "topic_id": "7.3",
@@ -17960,6 +18790,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Briefly summarize the effects of temperature and surface area on the rates of reactions."
+    },
+    {
+      "id": 412138,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A reaction is second order with respect to a reactant. How is the rate of reaction affected if the concentration is doubled and reduced to half?"
     },
     {
       "id": 412140,
@@ -17982,6 +18822,16 @@
       "en": "A catalyst lowers the activation energy of a chemical reaction. Illustrate it."
     },
     {
+      "id": 412143,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the initial concentration of the reactant is 0.50 mol dm-3, calculate the initial rate of the reaction."
+    },
+    {
       "id": 412133,
       "chapter": 7,
       "topic_id": "7.4",
@@ -17992,6 +18842,66 @@
       "en": "Give the difference between enthalpy change of reaction and energy of activation of reaction."
     },
     {
+      "id": 412137,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Justify that the radioactive decay is always a first order reaction."
+    },
+    {
+      "id": 412139,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by half-life and what is it used for?"
+    },
+    {
+      "id": 412146,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A radioactive isotope decays by a first-order process with a half-life of 12 hours. Calculate the rate constant for the decay in s-1."
+    },
+    {
+      "id": 412144,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How would the rate of this reaction change if the concentration of the reactant were doubled?"
+    },
+    {
+      "id": 412145,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A certain first-order reaction has a rate constant of 2.5×10-3 s-1. Calculate the half-life of the reaction in minutes."
+    },
+    {
+      "id": 412134,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate clearly between order and molecularity of a reaction."
+    },
+    {
       "id": 412202,
       "chapter": 8,
       "topic_id": "8.2",
@@ -18000,6 +18910,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Define reversible reaction. Give an example."
+    },
+    {
+      "id": 412207,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Reversible reaction attains the position of equilibrium which dynamic in nature and not static.Explain it."
     },
     {
       "id": 412201,
@@ -18032,6 +18952,16 @@
       "en": "The change of volume disturbs the equilibrium position for some of the gas phase reactions but not the equilibrium constant."
     },
     {
+      "id": 412212,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write two conditions of equilibrium constant."
+    },
+    {
       "id": 412208,
       "chapter": 8,
       "topic_id": "8.11",
@@ -18050,6 +18980,56 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Why ice at 0 oC can be melted by applying pressure without supply of heat from outside?"
+    },
+    {
+      "id": 412217,
+      "chapter": 8,
+      "topic_id": "8.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reversible reaction:<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap8-15.svg\" /> has come to equilibrium in a vessel of specific volume at a given temperature.Before the reaction began,the concentrations of the reactants were 0.060 mol/dm3 SO2and 0.05mol/dm3. After equilibrium was reached, the concentration of SO3 was 0.04mol/dm3.What is the equilibrium concentration of O2?"
+    },
+    {
+      "id": 412308,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of conjugate acid-base pairs. How are they related in terms of proton transfer?"
+    },
+    {
+      "id": 412316,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An amphoteric substance can behave as either an acid or a base. Identify whether water behaves as an acid or a base in each of the following reactions. i)<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-7.svg\" />(ii) <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-8.svg\" />"
+    },
+    {
+      "id": 412318,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An amphoteric substance can behave as either an acid or a base. Identify whether water behaves as an acid or a base in each of the following reactions.(i) <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-5.svg\" /> (ii) <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-6.svg\" />"
+    },
+    {
+      "id": 412325,
+      "chapter": 9,
+      "topic_id": "9.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "According to the Lewis acid-base concept, boron trifluoride (BF3) can act as an acid. Is this statement correct?"
     },
     {
       "id": 412324,
@@ -18080,6 +19060,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Why does common ion effect decrease solubility of a less soluble salt?"
+    },
+    {
+      "id": 412313,
+      "chapter": 9,
+      "topic_id": "9.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For the following three reactions, identify the reactants that are Arrhenius bases, Bronsted-Lowry bases, and/or Lewis bases. State which type(s) of bases each reactant is. Explain your answers. (i) <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-2.svg\" /> (ii) <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-3.svg\" /> (iii) <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap9-4.svg\" />"
     },
     {
       "id": 412320,
@@ -18132,6 +19122,16 @@
       "en": "Differentiate between: (i) Hydrolysis and dissolution (ii) Acidic and basic buffer solutions"
     },
     {
+      "id": 412309,
+      "chapter": 9,
+      "topic_id": "9.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the relationship between the strength of an acid and the strength of its conjugate base?"
+    },
+    {
       "id": 412372,
       "chapter": 10,
       "topic_id": "10.5",
@@ -18152,6 +19152,16 @@
       "en": "Calculate the Ox. No. of chromium (Cr) in the following compounds: (i) CrCl3 (ii) Cr2(SO4)3 (iii) Cr2O7 2-"
     },
     {
+      "id": 412382,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In an electrolysis experiment, a current of 0.500 A was passed through a solution of AgNO3 for 30.0 minutes. The mass of silver deposited on the cathode was found to be 0.503 g. Given that the molar mass of silver is 107.87 g mol-1 and the charge on a silver ion is +1. Calculate the value of Avogadro’s number (NA ) from this data."
+    },
+    {
       "id": 412368,
       "chapter": 10,
       "topic_id": "10.11",
@@ -18160,6 +19170,36 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "How and why electrical double layer is formed?"
+    },
+    {
+      "id": 412377,
+      "chapter": 10,
+      "topic_id": "10.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The order of decreasing reactivity of metals based on their position is K > Mg > Zn > Fe > Cu. Write balanced chemical equations for the reactions that would occur (if any) when:(i) Copper is added to a solution of magnesium sulfate. (ii) Iron is added to a dilute solution of hydrochloric acid."
+    },
+    {
+      "id": 412378,
+      "chapter": 10,
+      "topic_id": "10.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why some metals higher in the activity series can displace hydrogen from acids, while others lower in the series cannot."
+    },
+    {
+      "id": 412380,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate the number of Faradays required to deposit 108 g of Ag1+,63.5 g of Cu2+and 27 g of Al3+"
     },
     {
       "id": 412370,
@@ -18222,6 +19262,16 @@
       "en": "Explain why alkanes do not undergo addition reactions."
     },
     {
+      "id": 412409,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the following: (i) Cycloalkanes (ii) Isomerism"
+    },
+    {
       "id": 412413,
       "chapter": 11,
       "topic_id": "11.3",
@@ -18252,6 +19302,16 @@
       "en": "Explain how inductive effects from alkyl groups stabilize carbocations in alkenes."
     },
     {
+      "id": 412419,
+      "chapter": 11,
+      "topic_id": "11.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write the equation for each reaction.(i) CH3CH2CH=CH2 with H2 (Ni catalyst) (ii) CH3CH=CH2 with Cl2 (iii) CH3CH2CH=CHCH2CH3with H2O (H2SO4 catalyst) iii. CH3CH2CH=CHCH2CH2 with H2O (H2SO4 catalyst)."
+    },
+    {
       "id": 412421,
       "chapter": 11,
       "topic_id": "11.7",
@@ -18272,6 +19332,36 @@
       "en": "When propene (C3H6) undergoes electrophilic addition with HBr, it forms 2-bromopropane as the major product. Explain why 2-bromopropane is favored over 1-bromopropane, using the concept of carbocation stability."
     },
     {
+      "id": 412410,
+      "chapter": 11,
+      "topic_id": "11.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define the following: (iii) Conjugated dienes (iv) Inductive effect"
+    },
+    {
+      "id": 412417,
+      "chapter": 11,
+      "topic_id": "11.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain why conjugated alkenes may show different reactivity compared to isolated alkenes."
+    },
+    {
+      "id": 412415,
+      "chapter": 11,
+      "topic_id": "11.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Given the molecular formula C5H10, list all possible structural isomers that are alkenes."
+    },
+    {
       "id": 412420,
       "chapter": 11,
       "topic_id": "11.10",
@@ -18280,6 +19370,46 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Write structural formulas for each of the following compounds: (i) Isobutylene(ii) 2,3,4,4-Tetramethyl-2-pentene (iii) 2,5-Heptadiene (iv) 4,5-Dimethyl-2-hexene."
+    },
+    {
+      "id": 412671,
+      "chapter": 11,
+      "topic_id": "11.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down name of the following compounds according to IUPAC-System.(i) H3C-CH=CH(CH2)2 CH3 (ii) (CH3)2C=CH2 (iii) CH3-CH2-CH2-C=CH2 (IMAGE)"
+    },
+    {
+      "id": 412678,
+      "chapter": 11,
+      "topic_id": "11.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down name of the following compounds according to IUPAC-System. (i) CH2=CH-CH=CH2 (ii)CH2=C-CH2CH2CH3 (image) (iii) (CH2CH2)3CH"
+    },
+    {
+      "id": 412685,
+      "chapter": 11,
+      "topic_id": "11.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down name of the following compounds according to IUPAC-System. (i)CH3CH2C(CH3)2CH(CH2CH3)CH3 (ii) CH2=CH-C =C-CH=CH2 (iii) (CH3)3C-CH2-C(CH3)3"
+    },
+    {
+      "id": 412690,
+      "chapter": 11,
+      "topic_id": "11.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down name of the following compounds according to IUPAC-System. (i)CH2=CH-C=CH (ii) CH3C(CH3)2(CH2)CH3 (iii) H3C-CH2 CH-CH2-CH2CH3 (IMAGE) (b) (CH3)2CH-CH-CH(CH3)2(image) (iv) H3C-CH-CH2-CH(image)"
     },
     {
       "id": 412422,
@@ -18332,6 +19462,16 @@
       "en": "Which are the most stable oxidation states of sulfur in water at pH=0 and pH=14?"
     },
     {
+      "id": 412462,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is purpose of formation of oleum?"
+    },
+    {
       "id": 412449,
       "chapter": 12,
       "topic_id": "12.5",
@@ -18350,6 +19490,36 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is the construction and function of a catalytic converter?"
+    },
+    {
+      "id": 412461,
+      "chapter": 12,
+      "topic_id": "12.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does V2O5 catalyze the formation of SO3?"
+    },
+    {
+      "id": 412455,
+      "chapter": 12,
+      "topic_id": "12.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw the structures of cyclo-octasulfur (S8 ) and sulfuric acid."
+    },
+    {
+      "id": 412458,
+      "chapter": 12,
+      "topic_id": "12.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the importance of disulfide bridges?"
     },
     {
       "id": 412451,
@@ -18372,6 +19542,16 @@
       "en": "How does sulfur react with halogens?"
     },
     {
+      "id": 412459,
+      "chapter": 12,
+      "topic_id": "12.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write down self-ionization equation of sulfuric acid and its ionization in water."
+    },
+    {
       "id": 412456,
       "chapter": 12,
       "topic_id": "12.11",
@@ -18390,6 +19570,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is the composition and the chemical reaction of gunpowder combustion?"
+    },
+    {
+      "id": 412460,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give two examples where sulfuric acid acts as a dehydrating agent."
     },
     {
       "id": 412490,
@@ -18492,6 +19682,26 @@
       "en": "What is disproportionation reaction? Give an example."
     },
     {
+      "id": 412501,
+      "chapter": 13,
+      "topic_id": "13.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Write balanced chemical equations for the reaction of chlorine (Cl2) with: (i) Cold, dilute sodium hydroxide (NaOH). (ii) Hot, concentrated sodium hydroxide (NaOH)."
+    },
+    {
+      "id": 412503,
+      "chapter": 13,
+      "topic_id": "13.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For each reaction in question l), identify the oxidation states of chlorine in the reactant (Cl2) and in each of the chlorine-containing products.Use these oxidation states to explain why both reactions are classified as disproportionation reactions."
+    },
+    {
       "id": 412497,
       "chapter": 13,
       "topic_id": "13.11",
@@ -18500,6 +19710,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain the chemical principles behind the use of chlorine as a disinfectant in water purification. Include relevant chemical equations in your explanation."
+    },
+    {
+      "id": 412498,
+      "chapter": 13,
+      "topic_id": "13.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe one significant disadvantage associated with the use of chlorine in water purification."
+    },
+    {
+      "id": 412500,
+      "chapter": 13,
+      "topic_id": "13.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Chlorine gas reacts differently with sodium hydroxide solution depending on the temperature and concentration."
     },
     {
       "id": 412533,
@@ -18512,6 +19742,16 @@
       "en": "Identify and briefly explain three major natural sources of air pollutants."
     },
     {
+      "id": 412538,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the environmental impacts of persistent organic pollutants (POPs)?"
+    },
+    {
       "id": 412542,
       "chapter": 14,
       "topic_id": "14.4",
@@ -18520,6 +19760,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is photochemical smog? Under what conditions, it forms?"
+    },
+    {
+      "id": 412543,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What type of data do air quality index (AQI) system provide?"
     },
     {
       "id": 412534,
@@ -18542,6 +19792,16 @@
       "en": "How does polycyclic aromatic hydrocarbon (PAHs) affect human health?"
     },
     {
+      "id": 412544,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Distinguish between PM10 and PM2.5, specifying the size ranges and describing why PM2.5 is generally considered more harmful to human health."
+    },
+    {
       "id": 412545,
       "chapter": 14,
       "topic_id": "14.11",
@@ -18560,6 +19820,46 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain the reasons for the temperature trends observed in the troposphere and the stratosphere."
+    },
+    {
+      "id": 412537,
+      "chapter": 14,
+      "topic_id": "14.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe four significant anthropogenic (human-caused) activities that contribute to the deterioration of air quality. For each activity, name at least one major pollutant released."
+    },
+    {
+      "id": 412546,
+      "chapter": 14,
+      "topic_id": "14.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the specific measures to control smog?"
+    },
+    {
+      "id": 412548,
+      "chapter": 14,
+      "topic_id": "14.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the sources of lead and mercury pollution."
+    },
+    {
+      "id": 412547,
+      "chapter": 14,
+      "topic_id": "14.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does a catalytic converter reduce harmful vehicle emissions?"
     },
     {
       "id": 412566,
@@ -19380,6 +20680,46 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "The bending of the cathode rays in the electric and magnetic field shows that they are negatively charged."
+    },
+    {
+      "id": 413100,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how different spectral series originate in the spectrum."
+    },
+    {
+      "id": 413101,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is atomic emission spectrum obtained?"
+    },
+    {
+      "id": 413102,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the origin of line spectrum?"
+    },
+    {
+      "id": 413104,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define spectrum. Give its two types."
     },
     {
       "id": 413145,
@@ -26772,6 +28112,16 @@
       "en": "Explain with the help of equations, acidic and basic behavior of oxides and chlorides."
     },
     {
+      "id": 411546,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you mean by successive ionization energies? How the electronic shell structure of magnesium (Mg) is derived from the successive ionization energies?"
+    },
+    {
       "id": 411544,
       "chapter": 2,
       "topic_id": "2.4",
@@ -26872,6 +28222,26 @@
       "en": "A solution of sodium hydroxide (NaOH) is prepared by dissolving 2.00 g of solid sodium hydroxide in water to make a final volume of 250 cm3. (i) Determine the molar mass of sodium hydroxide.(ii)Calculate the number of moles of sodium hydroxide used.(iii) Calculate the concentration of the sodium hydroxide solution in mol dm-3.(iv)If more water is added to the above solution to raise the volume of solution to 500 cm3, what would be the concentration now?"
     },
     {
+      "id": 411783,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Ammonia gas (NH3) reacts with oxygen gas (O2) according to the following balanced equation: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap4-1.svg\" /> In an experiment, 34.0 g of ammonia is reacted with 96 g of oxygen.(i) Determine the limiting reactant(ii) Calculate the maximum mass of nitrogen monoxide (NO) that can be formed.(iii) Calculate the mass of the excess reactant remaining after the reaction is complete. (Relative atomic masses: H = 1.0, N = 14.0, O = 16.0)"
+    },
+    {
+      "id": 411770,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate limiting and non-limiting reactants. How a limiting reactant is determined from a balanced chemical equation and given data?"
+    },
+    {
       "id": 411771,
       "chapter": 4,
       "topic_id": "4.8",
@@ -26900,6 +28270,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Hydrogen bonding is present in H2O, NH3, HF, (CH3)2CO and CHCl3 molecules. Sketch structures and discuss briefly."
+    },
+    {
+      "id": 411900,
+      "chapter": 5,
+      "topic_id": "5.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In a laboratory experiment,150 cm3 of a volatile liquid was completely vaporized at 98 oC and a pressure of 1.01 x 105 pa.The mass of the vapor was found to be 0.495 g.Determine the molecular mass of the liquid (R=8.314 JK-1 mol-1)."
     },
     {
       "id": 411883,
@@ -26932,6 +28312,26 @@
       "en": "How liquid crystals resemble liquids and solids? Give their uses in daily life."
     },
     {
+      "id": 411892,
+      "chapter": 5,
+      "topic_id": "5.13",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A sample of an unknown gas has a mass of 0.560 g. It occupies a volume of 2.87 × 10-4 m3 at a temperature of 300 K and a pressure o 1.01 x 105 pa.Calculate the molar mass of the gas.(Gas constant,R=8.31JK-1 mol-1)."
+    },
+    {
+      "id": 412092,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For the reaction: CaSO4(s) Ca2+(aq) + SO42-(aq) Calculate<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-41.svg\" /> ,<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-42.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-43.svg\" style=\"width: 38px; height: 22px;\" />at 25oC using the following data; and discuss its spontaneity. T= 25oC=298K Enthalpy of Formation:<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-44.svg\" /><img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-45.svg\" style=\"width: 619px; height: 32px;\" />"
+    },
+    {
       "id": 412050,
       "chapter": 6,
       "topic_id": "6.5",
@@ -26960,6 +28360,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Calculate the heat of formation of ethyl alcohol from the following information(i) Heat of combustion of ethyl alcohol is - 1367kJmol-1 (ii) Heat of formation of carbon dioxide is - 393.7kJmol-1 (iii) Heat of formation of water is - 285.8 kJmol-1"
+    },
+    {
+      "id": 412078,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate the entropy change of the surroundings<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-39.svg\" /> / for the reaction at 298K: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-40.svg\" />"
     },
     {
       "id": 412048,
@@ -27022,6 +28432,56 @@
       "en": "How does the activation energy profile of an uncatalyzed reaction compare with that of the catalyzed reaction?"
     },
     {
+      "id": 412166,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three experiments that have identical conditions were performed to measure the initial rate of the reaction. <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-7.svg\" /> Experiment [HI] (M) Rate (M/s) 1 0.015 1.1x10-3 2 0.030 4.4x10-3 3 0.045 4.4x10-3 Write the rate law for the reaction. Find the value and units of the specific rate constant, k."
+    },
+    {
+      "id": 412148,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you find the numerical value of a rate constant by initial and half-life methods?"
+    },
+    {
+      "id": 412154,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reaction between hydrogen peroxide (H2O2) and iodide ions (I-1) in acidic solution is believed to occur via the following mechanism: Step 1: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-4.svg\" /> Step 2: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-5.svg\" />Step 3: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-6.svg\" /> (i) Write the overall balanced equation for the reaction (ii) Identify any intermediates and catalysts in thismechanism (iii) What is the rate-determining step? (iv) Write the rate equation for the reaction, expressing it in terms of the reactants in the overall reaction."
+    },
+    {
+      "id": 412159,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A first order reaction is found to have a rate constant, k = 5.5 × 10-14 s-1. Find the half-life of the reaction. Temp. (K) Rate constant (cm3 mol–1S–1) (K) 500 6.814 x 10–4 550 2.64 x 10–2 600 0.56 x 100 650 7.31 x 100 700 66.67 x 100"
+    },
+    {
+      "id": 412245,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Study the equilibrium H2O(g) + CO(g) (eq) H2(g) + CO2(g) (i) Write the expression of Kp. (ii) When 1.00 mole of steam and 1.00 mole of CO are allowed to reach equilibrium, 33.3% of equilibrium mixture is hydrogen. Calculate the value of Kp. State the units of Kp."
+    },
+    {
       "id": 412223,
       "chapter": 8,
       "topic_id": "8.8",
@@ -27030,6 +28490,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Define and explain the law of mass action and derive the expression for the equilibrium constant."
+    },
+    {
+      "id": 412242,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The equilibrium constant for the reaction between acetic acid and ethyl alcohol is 4. A mixture of 3 moles of acetic acid and 1 mole of hole of ethyl alcohol is allowed to come to equilibrium. Calculate the amount of ethyl acetate present at equilibrium."
     },
     {
       "id": 412227,
@@ -27132,6 +28602,36 @@
       "en": "The molar solubility of silver chromate (Ag2 CrO4) in pure water at 298 K is 6.5×10-5 mol dm-3. Calculate the Ksp of silver chromate at this temperature."
     },
     {
+      "id": 412394,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A constant current of 2.00 A is passed through a solution of copper(II) sulfate (CuSO4 ) for 30.0 minutes. Calculate the mass of copper deposited at the cathode. (Molar mass of Cu = 63.5 g mol-¹, Faraday constant, F = 96500Cmol-1)"
+    },
+    {
+      "id": 412393,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate the electrode potential for a zinc electrode immersed in a 0.010 mol dm-3 solution of zinc sulfate (ZnSO4) at 298 K. The standard electrode potential (E°) for <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-11.svg\" />is -0.76 V. (Gas constant, R = 8.31JK-1mol-1,Faraday constant, F = 96500C mol-1)"
+    },
+    {
+      "id": 412390,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How Avogadro’s number can be derived using an electrolytic cell?"
+    },
+    {
       "id": 412392,
       "chapter": 10,
       "topic_id": "10.12",
@@ -27142,6 +28642,16 @@
       "en": "What is meant by Standard Hydrogen Electrode (SHE)? How it is used to measure the electrode potential of another electrode?"
     },
     {
+      "id": 412389,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How electrode potential varies with concentration of an aqueous solution? Use the NERST equation to explain this variation."
+    },
+    {
       "id": 412391,
       "chapter": 10,
       "topic_id": "10.15",
@@ -27150,6 +28660,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Describe the construction and working principle of the Zn-Cu Galvanic cell."
+    },
+    {
+      "id": 412395,
+      "chapter": 10,
+      "topic_id": "10.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A galvanic cell consists of a standard hydrogen electrode (SHE) and a Ni2+(aq) /Ni(s) half-cell. The measured cell potential at 298 K is 0.25 V, and the nickel electrode is the negative terminal. (i) Write the balanced overall cell reaction. (ii) Determine the standard electrode potential (E°) of the Ni 2+(aq) /Ni(s) half-cell. (iii) Identify which electrode is the anode and which is the cathode."
     },
     {
       "id": 412425,
@@ -27182,6 +28702,16 @@
       "en": "Describe the free radical halogenation of methane using Cl2 as an example."
     },
     {
+      "id": 412426,
+      "chapter": 11,
+      "topic_id": "11.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the following reactions of alkenes with examples: (i) Halogenation (ii) Ozonolysis (iii) Epoxidation d) Polymerization"
+    },
+    {
       "id": 412463,
       "chapter": 12,
       "topic_id": "12.2",
@@ -27202,6 +28732,26 @@
       "en": "How oxides of nitrogen (NOx) cause the formation of photochemical smog and PAN? Give its mechanism."
     },
     {
+      "id": 412466,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give flowsheet diagram and equations involved in the contact process."
+    },
+    {
+      "id": 412467,
+      "chapter": 12,
+      "topic_id": "12.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss sulfuric acid as an oxidizing agent and a dehydrating agent with three reactions for each."
+    },
+    {
       "id": 412505,
       "chapter": 13,
       "topic_id": "13.4",
@@ -27212,6 +28762,26 @@
       "en": "Discuss the relative reactivity of the halogen elements as oxidizing agents. Arrange F2, Cl2, Br2, I2 in increasing order of the oxidizing power."
     },
     {
+      "id": 412504,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe and explain the relative thermal stabilities of the halogen hydrides in terms of bonds strength."
+    },
+    {
+      "id": 412507,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the reducing power of halide ions with relevant reactions. Also explain the factors affecting it."
+    },
+    {
       "id": 412550,
       "chapter": 14,
       "topic_id": "14.7",
@@ -27220,6 +28790,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Write short notes on the following: (i) CFCs and ozone layer depletion (ii) Greenhouse effect and global warming."
+    },
+    {
+      "id": 412552,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by air quality AQI? Describe the factors affecting the air quality."
     },
     {
       "id": 412549,

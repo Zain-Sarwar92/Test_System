@@ -9,10 +9,52 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 948,
-  "exportedAt": "2026-08-10T12:34:25.731Z",
+  "total": 1016,
+  "exportedAt": "2026-09-09T11:49:11.338Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
+    {
+      "QuestionID": 411440,
+      "SubjectID": 95,
+      "TopicID": 11967,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 METALS, NON METALS AND METALLOIDS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Identify the element which is in period 5 and group 15?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411435,
+      "SubjectID": 95,
+      "TopicID": 11968,
+      "TopicRef": "1.4",
+      "TopicName": "1.4 Blocks in Periodic Table",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why the elements in Group 13 to 17 are called p-block elements?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
     {
       "QuestionID": 411433,
       "SubjectID": 95,
@@ -329,6 +371,48 @@
       }
     },
     {
+      "QuestionID": 411519,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The successive ionization energies for an unknown element are:I<sub><span style=\"font-size: 15px;\">1</span></sub>= 896kJ/mol, I<sub>2</sub> = 1752 kJ/mol,I<sub>3</sub> = 14,807 kJ/mol,I<sub>4</sub> = 17,948 kJ/mol.To which family in the periodic table, does the unknown element most likely belong?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411536,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Consider the following ionization energies for aluminium: Al<sub>(g)</sub> <img alt=\"\" src=\"/Equations/11th/chem-10-10.svg\" />Al<sup>+</sup><sub>(g)</sub>+e<sup>-</sup> l<sub>1</sub>=580 kJ/mol, Al<sup>+</sup><sub>(g)</sub> <img alt=\"\" src=\"/Equations/11th/chem-10-10.svg\" />Al<sup>2+</sup><sub>(g)</sub>+e<sup>-</sup> l<sub>2</sub>=1815 kJ/mol, Al<sup>2</sup><sub>(g)</sub> <img alt=\"\" src=\"/Equations/11th/chem-10-10.svg\" />Al<sup>3+</sup><sub>(g)</sub>+e<sup>-</sup> l<sub>3</sub>=2740 kJ/mol, Al<sup>3+</sup><sub>(g)</sub> <img alt=\"\" src=\"/Equations/11th/chem-10-10.svg\" />Al<sup>4+</sup><sub>(g)</sub>+e<sup>-</sup> l<sub>4</sub>=11,600 kJ/mol.(i) Account for the trend in the values of the ionization energies.(ii) Explain the large increase between l<sub>3</sub> and l<sub>4</sub>.(iii)List the four aluminium ions given in order of increasing size, and explain your ordering.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411487,
       "SubjectID": 95,
       "TopicID": 11979,
@@ -379,6 +463,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>State the general order of filling orbitals up to the 4p subshell.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411511,
+      "SubjectID": 95,
+      "TopicID": 11980,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 SHAPES OF ATOMIC ORBITALS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the ground state of mercury 80Hg:(i)How many electrons occupy atomic orbitals with n = 3?(ii)How many electrons occupy 4d atomic orbitals?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411514,
+      "SubjectID": 95,
+      "TopicID": 11980,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 SHAPES OF ATOMIC ORBITALS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the ground state of mercury 80Hg: (i) How many electrons occupy 4pz atomic orbital? (ii)How many electrons in the valence shell have spin “up” (s = -½)?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -602,6 +728,27 @@
       }
     },
     {
+      "QuestionID": 411689,
+      "SubjectID": 95,
+      "TopicID": 11989,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 Bond Energy And Bond Length",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compare the bond energies of single, double, and triple bonds between the same two atoms (e.g.,H-H, O=O, N=N).Explain the trend in terms of the number of shared electrons.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411678,
       "SubjectID": 95,
       "TopicID": 11990,
@@ -652,6 +799,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Draw the orbital structure of the CO<sub>2</sub> molecule in terms of VBT.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411679,
+      "SubjectID": 95,
+      "TopicID": 11991,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 VALENCE BOND THEORY (VBT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The bond between K and <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap3-22.svg\" style=\"width: 23px; height: 20px;\" /> </sub>is ionic but that between Si and <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap3-22.svg\" style=\"width: 23px; height: 20px;\" /> </sub>is polar covalent. Explain why.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -749,6 +917,27 @@
       }
     },
     {
+      "QuestionID": 411671,
+      "SubjectID": 95,
+      "TopicID": 11993,
+      "TopicRef": "3.8",
+      "TopicName": "3.8 VALENCE SHELL ELECTRON PAIR REPULSION MODEL (VSEPR)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The structures of PF<sub>3</sub> and SiF<sub>4</sub> are given below. Redraw these with partial charges and state which is polar and which is non-polar.<img src=\"/Equations/11th/chemnew-chap3-7.png\" style=\"zoom:80%;\" />, <img src=\"/Equations/11th/chemnew-chap3-8.png\" style=\"zoom:80%;\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411668,
       "SubjectID": 95,
       "TopicID": 11994,
@@ -757,6 +946,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Sketch molecular orbital pictures of <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap3-18.svg\" /></sub> and <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap3-19.svg\" /></sub>.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411680,
+      "SubjectID": 95,
+      "TopicID": 11994,
+      "TopicRef": "3.9",
+      "TopicName": "3.9 MOLECULAR ORBITAL THEORY (MOT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>SO<sub>2</sub> is a polar molecule but SO<sub>3</sub> not. Justify.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411683,
+      "SubjectID": 95,
+      "TopicID": 11994,
+      "TopicRef": "3.9",
+      "TopicName": "3.9 MOLECULAR ORBITAL THEORY (MOT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of O<sub>2</sub> <sup>2+</sup>, and O<sub>2</sub> <sup>2-</sup> would be paramagnetic? Give reason in the light of MOT.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -904,6 +1135,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>4g of He, 17 g of NH<sub>3</sub> and 64 g of SO<sub>2</sub> occupy separately the volumes of 22.414 dm<sup>3</sup> although the sizes and molecular masses of molecules of the three gases are very different from each other. Explain.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411763,
+      "SubjectID": 95,
+      "TopicID": 12001,
+      "TopicRef": "4.6",
+      "TopicName": "4.6 STOICHIOMETRIC RELATIONSHIPS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is stoichiometry?Give the basic assumption of stoichiometric calculations.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1085,6 +1337,27 @@
       }
     },
     {
+      "QuestionID": 411865,
+      "SubjectID": 95,
+      "TopicID": 12012,
+      "TopicRef": "5.7",
+      "TopicName": "5.7 EVAPORATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How a dynamic equilibrium is established during evaporation of a liquid in a closed vessel at constant temperature?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 411867,
       "SubjectID": 95,
       "TopicID": 12012,
@@ -1135,6 +1408,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Why B.P of a liquid increases when the external pressure rises?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 411873,
+      "SubjectID": 95,
+      "TopicID": 12014,
+      "TopicRef": "5.9",
+      "TopicName": "5.9 BOILING POINT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Propanone (CH<sub>3</sub>COCH<sub>3</sub>), propanol (CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH) and butane (CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>) have very similar relative molecular masses. List them in the expected order of increasing boiling points. Explain your answer.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1442,6 +1736,48 @@
       }
     },
     {
+      "QuestionID": 412009,
+      "SubjectID": 95,
+      "TopicID": 12030,
+      "TopicRef": "6.11",
+      "TopicName": "6.11 Entropy",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate clearly between entropy (S) and Gibbs free energy (G).</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412044,
+      "SubjectID": 95,
+      "TopicID": 12031,
+      "TopicRef": "6.12",
+      "TopicName": "6.12 The Free Energy Change",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For a reaction to be spontaneous, what is the required sign of the Gibbs free energy change <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-26.svg\" style=\"width: 38px; height: 21px;\" /></sub>? Under what conditions of enthalpy change <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-27.svg\" style=\"width: 38px; height: 21px;\" /></sub> and entropy change <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-28.svg\" style=\"width: 37px; height: 21px;\" /></sub> will a reaction always be sportaneous?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412132,
       "SubjectID": 95,
       "TopicID": 12034,
@@ -1484,6 +1820,27 @@
       }
     },
     {
+      "QuestionID": 412142,
+      "SubjectID": 95,
+      "TopicID": 12034,
+      "TopicRef": "7.2",
+      "TopicName": "7.2 RATE OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The rate constant for a certain reaction is 3.5×10<sup>-4 </sup>s<sup>-1</sup>at 25<sup>o</sup>C.What is the order of the reaction.? Explain based on the units of the rate constant.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412136,
       "SubjectID": 95,
       "TopicID": 12035,
@@ -1492,6 +1849,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Briefly summarize the effects of temperature and surface area on the rates of reactions.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412138,
+      "SubjectID": 95,
+      "TopicID": 12035,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 FACTORS AFFECTING RATE OF CHEMICAL REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A reaction is second order with respect to a reactant. How is the rate of reaction affected if the concentration is doubled and reduced to half?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1547,6 +1925,27 @@
       }
     },
     {
+      "QuestionID": 412143,
+      "SubjectID": 95,
+      "TopicID": 12035,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 FACTORS AFFECTING RATE OF CHEMICAL REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If the initial concentration of the reactant is 0.50 mol dm<sup>-3</sup>, calculate the initial rate of the reaction.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412133,
       "SubjectID": 95,
       "TopicID": 12036,
@@ -1568,6 +1967,132 @@
       }
     },
     {
+      "QuestionID": 412137,
+      "SubjectID": 95,
+      "TopicID": 12036,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 RATE LAW, RATE CONSTANT AND ORDER OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Justify that the radioactive decay is always a first order reaction.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412139,
+      "SubjectID": 95,
+      "TopicID": 12036,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 RATE LAW, RATE CONSTANT AND ORDER OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is meant by half-life and what is it used for?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412146,
+      "SubjectID": 95,
+      "TopicID": 12036,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 RATE LAW, RATE CONSTANT AND ORDER OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A radioactive isotope decays by a first-order process with a half-life of 12 hours. Calculate the rate constant for the decay in s<sup>-1</sup>.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412144,
+      "SubjectID": 95,
+      "TopicID": 12037,
+      "TopicRef": "7.5",
+      "TopicName": "7.5 Determination of Rate Constant",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How would the rate of this reaction change if the concentration of the reactant were doubled?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412145,
+      "SubjectID": 95,
+      "TopicID": 12037,
+      "TopicRef": "7.5",
+      "TopicName": "7.5 Determination of Rate Constant",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A certain first-order reaction has a rate constant of 2.5×10<sup>-3 </sup>s<sup>-1</sup>. Calculate the half-life of the reaction in minutes.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412134,
+      "SubjectID": 95,
+      "TopicID": 12038,
+      "TopicRef": "7.6",
+      "TopicName": "7.6 Reaction Mechanism",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate clearly between order and molecularity of a reaction.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412202,
       "SubjectID": 95,
       "TopicID": 12041,
@@ -1576,6 +2101,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Define reversible reaction. Give an example.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412207,
+      "SubjectID": 95,
+      "TopicID": 12041,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 REVERSIBLE REACTIONS, MICROSCOPIC EVENTS AND DYNAMIC EQUILIBRIUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Reversible reaction attains the position of equilibrium which dynamic in nature and not static.Explain it.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1652,6 +2198,27 @@
       }
     },
     {
+      "QuestionID": 412212,
+      "SubjectID": 95,
+      "TopicID": 12047,
+      "TopicRef": "8.8",
+      "TopicName": "8.8 EQUILIBRIUM CONSTANT AND POSITION OF EQUILIBRIUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write two conditions of equilibrium constant.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412208,
       "SubjectID": 95,
       "TopicID": 12050,
@@ -1681,6 +2248,111 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Why ice at 0 <sup>o</sup>C can be melted by applying pressure without supply of heat from outside?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412217,
+      "SubjectID": 95,
+      "TopicID": 12053,
+      "TopicRef": "8.14",
+      "TopicName": "8.14 THE EFFECT OF CHANGE IN TEMPERATURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The reversible reaction:<sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap8-15.svg\" /> </sub>has come to equilibrium in a vessel of specific volume at a given temperature.Before the reaction began,the concentrations of the reactants were 0.060 mol/dm<sup>3 </sup>SO<sub>2</sub>and 0.05mol/dm<sup>3</sup>. After equilibrium was reached, the concentration of SO<sub>3</sub> was 0.04mol/dm<sup>3</sup>.What is the equilibrium concentration of O<sub>2</sub>?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412308,
+      "SubjectID": 95,
+      "TopicID": 12058,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 Lewis Concept of Acids And Bases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the concept of conjugate acid-base pairs. How are they related in terms of proton transfer?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412316,
+      "SubjectID": 95,
+      "TopicID": 12058,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 Lewis Concept of Acids And Bases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An amphoteric substance can behave as either an acid or a base. Identify whether water behaves as an acid or a base in each of the following reactions. i)<sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-7.svg\" /></sub>(ii) <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-8.svg\" /></sub></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412318,
+      "SubjectID": 95,
+      "TopicID": 12058,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 Lewis Concept of Acids And Bases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An amphoteric substance can behave as either an acid or a base. Identify whether water behaves as an acid or a base in each of the following reactions.(i) <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-5.svg\" /></sub> (ii) <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-6.svg\" /></sub></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412325,
+      "SubjectID": 95,
+      "TopicID": 12058,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 Lewis Concept of Acids And Bases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>According to the Lewis acid-base concept, boron trifluoride (BF<sub>3</sub>) can act as an acid. Is this statement correct?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1744,6 +2416,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Why does common ion effect decrease solubility of a less soluble salt?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412313,
+      "SubjectID": 95,
+      "TopicID": 12063,
+      "TopicRef": "9.7",
+      "TopicName": "9.7 BUFFER SOLUTIONS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For the following three reactions, identify the reactants that are Arrhenius bases, Bronsted-Lowry bases, and/or Lewis bases. State which type(s) of bases each reactant is. Explain your answers. (i) <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-2.svg\" /> </sub>(ii) <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-3.svg\" /> </sub>(iii) <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-4.svg\" /></sub></p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1862,6 +2555,27 @@
       }
     },
     {
+      "QuestionID": 412309,
+      "SubjectID": 95,
+      "TopicID": 12065,
+      "TopicRef": "9.9",
+      "TopicName": "9.9 Salt Hydrolysis",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the relationship between the strength of an acid and the strength of its conjugate base?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412372,
       "SubjectID": 95,
       "TopicID": 12072,
@@ -1904,6 +2618,27 @@
       }
     },
     {
+      "QuestionID": 412382,
+      "SubjectID": 95,
+      "TopicID": 12077,
+      "TopicRef": "10.10",
+      "TopicName": "10.10 Avogadro's Constant By The Electrolytic Method",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In an electrolysis experiment, a current of 0.500 A was passed through a solution of AgNO<sub>3</sub> for 30.0 minutes. The mass of silver deposited on the cathode was found to be 0.503 g. Given that the molar mass of silver is 107.87 g mol<sup>-1</sup> and the charge on a silver ion is <sup>+1</sup>. Calculate the value of Avogadro’s number (N<sub>A</sub> ) from this data.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412368,
       "SubjectID": 95,
       "TopicID": 12078,
@@ -1912,6 +2647,69 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>How and why electrical double layer is formed?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412377,
+      "SubjectID": 95,
+      "TopicID": 12079,
+      "TopicRef": "10.12",
+      "TopicName": "10.12 STANDARD HYDROGEN ELECTRODE (SHE)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The order of decreasing reactivity of metals based on their position is K > Mg > Zn > Fe > Cu. Write balanced chemical equations for the reactions that would occur (if any) when:(i) Copper is added to a solution of magnesium sulfate. (ii) Iron is added to a dilute solution of hydrochloric acid.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412378,
+      "SubjectID": 95,
+      "TopicID": 12079,
+      "TopicRef": "10.12",
+      "TopicName": "10.12 STANDARD HYDROGEN ELECTRODE (SHE)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain why some metals higher in the activity series can displace hydrogen from acids, while others lower in the series cannot.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412380,
+      "SubjectID": 95,
+      "TopicID": 12080,
+      "TopicRef": "10.13",
+      "TopicName": "10.13 STANDARD ELECTRODE POTENTIAL (E)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Calculate the number of Faradays required to deposit 108 g of Ag<sup>1+</sup>,63.5 g of Cu<sup>2+</sup>and 27 g of Al<sup>3+</sup></p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2051,6 +2849,27 @@
       }
     },
     {
+      "QuestionID": 412409,
+      "SubjectID": 95,
+      "TopicID": 12092,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 NOMENCLATURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define the following: (i) Cycloalkanes (ii) Isomerism</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412413,
       "SubjectID": 95,
       "TopicID": 12093,
@@ -2114,6 +2933,27 @@
       }
     },
     {
+      "QuestionID": 412419,
+      "SubjectID": 95,
+      "TopicID": 12097,
+      "TopicRef": "11.7",
+      "TopicName": "11.7 STRUCTURE AND REACTIVITY OF ALKENES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write the equation for each reaction.(i) CH<sub>3</sub>CH<sub>2</sub>CH=CH<sub>2 </sub>with H<sub>2</sub> (Ni catalyst)  (ii) CH<sub>3</sub>CH=CH<sub>2</sub> with Cl<sub>2 </sub>(iii) CH<sub>3</sub>CH<sub>2</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub>with H<sub>2</sub>O (H<sub>2</sub>SO<sub>4</sub> catalyst) iii. CH<sub>3</sub>CH<sub>2</sub>CH=CHCH2CH<sub>2</sub> with H<sub>2</sub>O (H<sub>2</sub>SO<sub>4</sub> catalyst).</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412421,
       "SubjectID": 95,
       "TopicID": 12097,
@@ -2156,6 +2996,69 @@
       }
     },
     {
+      "QuestionID": 412410,
+      "SubjectID": 95,
+      "TopicID": 12099,
+      "TopicRef": "11.9",
+      "TopicName": "11.9 Conjugated Dienes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define the following: (iii) Conjugated dienes (iv) Inductive effect</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412417,
+      "SubjectID": 95,
+      "TopicID": 12099,
+      "TopicRef": "11.9",
+      "TopicName": "11.9 Conjugated Dienes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain why conjugated alkenes may show different reactivity compared to isolated alkenes.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412415,
+      "SubjectID": 95,
+      "TopicID": 12100,
+      "TopicRef": "11.10",
+      "TopicName": "11.10 Isomerism",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Given the molecular formula C<sub>5</sub>H<sub>10</sub>, list all possible structural isomers that are alkenes.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412420,
       "SubjectID": 95,
       "TopicID": 12100,
@@ -2164,6 +3067,90 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Write structural formulas for each of the following compounds: (i) Isobutylene(ii) 2,3,4,4-Tetramethyl-2-pentene (iii) 2,5-Heptadiene (iv) 4,5-Dimethyl-2-hexene.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412671,
+      "SubjectID": 95,
+      "TopicID": 12100,
+      "TopicRef": "11.10",
+      "TopicName": "11.10 Isomerism",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write down name of the following compounds according to IUPAC-System.(i) H<sub>3</sub>C-CH=CH(CH<sub>2</sub>)<sub>2</sub> CH<sub>3</sub> (ii) (CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub> (iii) CH<sub>3</sub>-CH<sub>2</sub>-CH<sub>2</sub>-C=CH<sub>2 </sub>(IMAGE)</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412678,
+      "SubjectID": 95,
+      "TopicID": 12100,
+      "TopicRef": "11.10",
+      "TopicName": "11.10 Isomerism",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write down name of the following compounds according to IUPAC-System. (i) CH<sub>2</sub>=CH-CH=CH<sub>2 </sub>(ii)CH<sub>2</sub>=C-CH<sub>2</sub>CH<sub>2</sub>CH<sub>3 </sub>(image) (iii) (CH<sub>2</sub>CH<sub>2</sub>)<sub>3</sub>CH</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412685,
+      "SubjectID": 95,
+      "TopicID": 12100,
+      "TopicRef": "11.10",
+      "TopicName": "11.10 Isomerism",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write down name of the following compounds according to IUPAC-System. (i)CH<sub>3</sub>CH<sub>2</sub>C(CH<sub>3</sub>)<sub>2</sub>CH(CH<sub>2</sub>CH<sub>3</sub>)CH<sub>3 </sub> (ii) CH<sub>2</sub>=CH-C =C-CH=CH<sub>2  </sub>(iii) (CH<sub>3</sub>)<sub>3</sub>C-CH<sub>2</sub>-C(CH<sub>3</sub>)<sub>3</sub></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412690,
+      "SubjectID": 95,
+      "TopicID": 12100,
+      "TopicRef": "11.10",
+      "TopicName": "11.10 Isomerism",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write down name of the following compounds according to IUPAC-System. (i)CH<sub>2</sub>=CH-C=CH (ii) CH<sub>3</sub>C(CH<sub>3</sub>)<sub>2</sub>(CH<sub>2</sub>)CH<sub>3  </sub>(iii) H<sub>3</sub>C-CH<sub>2</sub> CH-CH<sub>2</sub>-CH<sub>2</sub>CH<sub>3</sub> (IMAGE) (b) (CH<sub>3</sub>)<sub>2</sub>CH-CH-CH(CH<sub>3</sub>)<sub>2</sub>(image) (iv) H<sub>3</sub>C-CH-CH<sub>2</sub>-CH(image)</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2282,6 +3269,27 @@
       }
     },
     {
+      "QuestionID": 412462,
+      "SubjectID": 95,
+      "TopicID": 12106,
+      "TopicRef": "12.4",
+      "TopicName": "12.4 SOURCES OF OXIDES OF NITROGEN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is purpose of formation of oleum?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412449,
       "SubjectID": 95,
       "TopicID": 12107,
@@ -2311,6 +3319,69 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is the construction and function of a catalytic converter?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412461,
+      "SubjectID": 95,
+      "TopicID": 12108,
+      "TopicRef": "12.6",
+      "TopicName": "12.6 CATALYTIC CONVERTER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does V<sub>2</sub>O<sub>5</sub> catalyze the formation of SO<sub>3</sub>?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412455,
+      "SubjectID": 95,
+      "TopicID": 12110,
+      "TopicRef": "12.8",
+      "TopicName": "12.8 SULFUR",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Draw the structures of cyclo-octasulfur (S<sub>8</sub> ) and sulfuric acid.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412458,
+      "SubjectID": 95,
+      "TopicID": 12111,
+      "TopicRef": "12.9",
+      "TopicName": "12.9 STABILITY OF OXIDATION STATES OF SULFUR",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the importance of disulfide bridges?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2366,6 +3437,27 @@
       }
     },
     {
+      "QuestionID": 412459,
+      "SubjectID": 95,
+      "TopicID": 12112,
+      "TopicRef": "12.10",
+      "TopicName": "12.10 REACTIONS OF SULFUR",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write down self-ionization equation of sulfuric acid and its ionization in water.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412456,
       "SubjectID": 95,
       "TopicID": 12113,
@@ -2395,6 +3487,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is the composition and the chemical reaction of gunpowder combustion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412460,
+      "SubjectID": 95,
+      "TopicID": 12114,
+      "TopicRef": "12.12",
+      "TopicName": "12.12 Role of Sulfur in Organic Synthesis",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Give two examples where sulfuric acid acts as a dehydrating agent.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2618,6 +3731,48 @@
       }
     },
     {
+      "QuestionID": 412501,
+      "SubjectID": 95,
+      "TopicID": 12126,
+      "TopicRef": "13.10",
+      "TopicName": "13.10 Reactions of Chlorine With Cold And Hot Aqueous Sodium Hydroxide",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write balanced chemical equations for the reaction of chlorine (Cl<sub>2</sub>) with: (i) Cold, dilute sodium hydroxide (NaOH). (ii) Hot, concentrated sodium hydroxide (NaOH).</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412503,
+      "SubjectID": 95,
+      "TopicID": 12126,
+      "TopicRef": "13.10",
+      "TopicName": "13.10 Reactions of Chlorine With Cold And Hot Aqueous Sodium Hydroxide",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For each reaction in question l), identify the oxidation states of chlorine in the reactant (Cl<sub>2</sub>) and in each of the chlorine-containing products.Use these oxidation states to explain why both reactions are classified as disproportionation reactions.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412497,
       "SubjectID": 95,
       "TopicID": 12127,
@@ -2626,6 +3781,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain the chemical principles behind the use of chlorine as a disinfectant in water purification. Include relevant chemical equations in your explanation.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412498,
+      "SubjectID": 95,
+      "TopicID": 12127,
+      "TopicRef": "13.11",
+      "TopicName": "13.11 USE OF CHLORINE IN WATER PURIFICATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe one significant disadvantage associated with the use of chlorine in water purification.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412500,
+      "SubjectID": 95,
+      "TopicID": 12127,
+      "TopicRef": "13.11",
+      "TopicName": "13.11 USE OF CHLORINE IN WATER PURIFICATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Chlorine gas reacts differently with sodium hydroxide solution depending on the temperature and concentration.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2660,6 +3857,27 @@
       }
     },
     {
+      "QuestionID": 412538,
+      "SubjectID": 95,
+      "TopicID": 12131,
+      "TopicRef": "14.3",
+      "TopicName": "14.3 SOURCES OF AIR POLLUTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the environmental impacts of persistent organic pollutants (POP<sub>s</sub>)?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412542,
       "SubjectID": 95,
       "TopicID": 12132,
@@ -2668,6 +3886,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is photochemical smog? Under what conditions, it forms?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412543,
+      "SubjectID": 95,
+      "TopicID": 12134,
+      "TopicRef": "14.6",
+      "TopicName": "14.6 EFFECTS OF AIR POLLUTANTS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What type of data do air quality index (AQI) system provide?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2723,6 +3962,27 @@
       }
     },
     {
+      "QuestionID": 412544,
+      "SubjectID": 95,
+      "TopicID": 12137,
+      "TopicRef": "14.9",
+      "TopicName": "14.9 Air Quality And Human Health",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Distinguish between PM<sub>10</sub> and PM<sub>2.5</sub>, specifying the size ranges and describing why PM<sub>2.5</sub> is generally considered more harmful to human health.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
       "QuestionID": 412545,
       "SubjectID": 95,
       "TopicID": 12139,
@@ -2752,6 +4012,90 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain the reasons for the temperature trends observed in the troposphere and the stratosphere.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412537,
+      "SubjectID": 95,
+      "TopicID": 12142,
+      "TopicRef": "14.14",
+      "TopicName": "14.14 Strategies Used to Reduce Air Pollution",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe four significant anthropogenic (human-caused) activities that contribute to the deterioration of air quality. For each activity, name at least one major pollutant released.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412546,
+      "SubjectID": 95,
+      "TopicID": 12142,
+      "TopicRef": "14.14",
+      "TopicName": "14.14 Strategies Used to Reduce Air Pollution",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the specific measures to control smog?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412548,
+      "SubjectID": 95,
+      "TopicID": 12142,
+      "TopicRef": "14.14",
+      "TopicName": "14.14 Strategies Used to Reduce Air Pollution",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the sources of lead and mercury pollution.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 412547,
+      "SubjectID": 95,
+      "TopicID": 12143,
+      "TopicRef": "14.15",
+      "TopicName": "14.15 Laws and Regulations Related To Atmosphere",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does a catalytic converter reduce harmful vehicle emissions?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -4474,6 +5818,90 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>The bending of the cathode rays in the electric and magnetic field shows that they are negatively charged.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 413100,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain how different spectral series originate in the spectrum.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 413101,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is atomic emission spectrum obtained?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 413102,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the origin of line spectrum?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 12,
+        "bankType": "short",
+        "field": "QA",
+        "exportName": "short"
+      }
+    },
+    {
+      "QuestionID": 413104,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define spectrum. Give its two types.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

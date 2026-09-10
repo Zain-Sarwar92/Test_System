@@ -4,16 +4,16 @@
   "subject": "Physics",
   "slug": "physics",
   "source": "PTS PTB INTER-I (Class 11) Physics (read-only export)",
-  "total_questions": 2013,
+  "total_questions": 2182,
   "counts": {
-    "mcq": 1199,
-    "short": 625,
-    "long": 189
+    "mcq": 1245,
+    "short": 696,
+    "long": 241
   },
   "fieldCounts": {
-    "MCQ": 1199,
-    "QA": 625,
-    "LONG": 189
+    "MCQ": 1245,
+    "QA": 696,
+    "LONG": 241
   },
   "questions": [
     {
@@ -30,6 +30,36 @@
       "optionC": "The development of destructive technology in warfare",
       "optionD": "Development in aesthetics for the world",
       "correctAnswer": "B"
+    },
+    {
+      "id": 410160,
+      "chapter": 1,
+      "topic_id": "1.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A measuring tape has been graduated with a minimum scale division of 0.2 cm. The allowed reading using this tape may be:",
+      "optionA": "80.5 cm",
+      "optionB": "80.6 cm",
+      "optionC": "80.65 cm",
+      "optionD": "80.7 cm",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 410129,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The figure shows the reading on a micrometer screw gauge used to measure diameter of a thin rod. One complete turn of the thimble is 0.50 mm and there are 50 lines on the circular scale. The diameter of the rod is: <img src=\"/pts-media/equations/11th/phynew-chap1-5.png\" style=\"zoom:70%;\" />",
+      "optionA": "3.67 mm",
+      "optionB": "3.17 mm",
+      "optionC": "4.17 mm",
+      "optionD": "4.20 mm",
+      "correctAnswer": "A"
     },
     {
       "id": 410133,
@@ -149,6 +179,51 @@
       "optionB": "Accuracy of a measurement",
       "optionC": "Fractional uncertainty of a measurement",
       "optionD": "Percentage uncertainty of a measurement",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 410124,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The length of a steel pipe is in between 0.7 m to 0.8 m. Identify the following, the appropriate instrument to be used for accuracy of 0.001 m.",
+      "optionA": "A micrometer screw gauge",
+      "optionB": "A metre rule",
+      "optionC": "A ten metres measuring tape",
+      "optionD": "A Vernier Callipers",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 410126,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The diameter of a steel ball is measured using a Vernier Callipers and its reading is shown in the figure.What is the diameter of the steel ball? <img src=\"/pts-media/equations/11th/phynew-chap1-4.png\" style=\"zoom:70%;\" />",
+      "optionA": "1.30 cm",
+      "optionB": "1.39 cm",
+      "optionC": "1.40 cm",
+      "optionD": "1.31 cm",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 410155,
+      "chapter": 1,
+      "topic_id": "1.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The following figures are of the same Vernier Callipers. Figure (1) shows the reading when the jaws are closed while fig (2) shows the reading when a solid cylinder is placed between the jaws. The length of the cylinder is:",
+      "optionA": "3.26 cm",
+      "optionB": "3.30 cm",
+      "optionC": "3.34 cm",
+      "optionD": "4.20 cm",
       "correctAnswer": "A"
     },
     {
@@ -302,6 +377,21 @@
       "correctAnswer": "C"
     },
     {
+      "id": 410457,
+      "chapter": 2,
+      "topic_id": "2.12",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "As rocket moves upward during its journey, then its acceleration goes on:",
+      "optionA": "Increasing",
+      "optionB": "Decreasing",
+      "optionC": "Remains same",
+      "optionD": "It moves with uniform velocity",
+      "correctAnswer": "A"
+    },
+    {
       "id": 410512,
       "chapter": 3,
       "topic_id": "3.1",
@@ -362,6 +452,21 @@
       "correctAnswer": "B"
     },
     {
+      "id": 410517,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An astronaut is orbiting around the Earth in a large capsule. then:",
+      "optionA": "He will be in a state of weightlessness with respect to capsule",
+      "optionB": "He is freely falling toward the Earth",
+      "optionC": "A ball projected at an angle has a straight line path as observed by him",
+      "optionD": "All the above",
+      "correctAnswer": "B"
+    },
+    {
       "id": 410518,
       "chapter": 3,
       "topic_id": "3.3",
@@ -377,6 +482,21 @@
       "correctAnswer": "C"
     },
     {
+      "id": 410519,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A man inside the artificial satellite feels weightlessness because the force of attraction due to the Earth is:",
+      "optionA": "Zero at the pole",
+      "optionB": "Balanced by the force of attraction due to the moon",
+      "optionC": "Equal to the centripetal force",
+      "optionD": "Non-effective due to some particular design of the satellite",
+      "correctAnswer": "C"
+    },
+    {
       "id": 410521,
       "chapter": 3,
       "topic_id": "3.4",
@@ -389,6 +509,21 @@
       "optionB": "Volume of the body",
       "optionC": "Kinetic energy of the body",
       "optionD": "Angular momentum of the body",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 410573,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An iron sphere whose mass is 30 kg has the same diameter as an aluminium sphere whose mass is 10.5 kg. The spheres are simultaneously dropped from a cliff. When they are 10 m from the ground, they have identical:",
+      "optionA": "Accelerations",
+      "optionB": "Momentums",
+      "optionC": "Potential energies",
+      "optionD": "Kinetic energies",
       "correctAnswer": "A"
     },
     {
@@ -467,6 +602,36 @@
       "correctAnswer": "D"
     },
     {
+      "id": 410583,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A dry battery can deliver 3000 j of energy to a 2 W small electric motor before the battery is exhausted. For how many minutes does the battery run?",
+      "optionA": "1500 min",
+      "optionB": "100 min",
+      "optionC": "50 min",
+      "optionD": "25 min",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 410576,
+      "chapter": 4,
+      "topic_id": "4.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The height above the ground of a child on a swing varies from 0.5 m of his lower point to 1.5 m at his highest point. The maximum speed of the child is approximately:",
+      "optionA": "1.5 ms-1",
+      "optionB": "4.4 ms-1",
+      "optionC": "9.8 ms-1",
+      "optionD": "Depends upon child's mass",
+      "correctAnswer": "B"
+    },
+    {
       "id": 410580,
       "chapter": 4,
       "topic_id": "4.7",
@@ -479,6 +644,36 @@
       "optionB": "Change in P.E",
       "optionC": "Zero",
       "optionD": "Sum of K.E and P.E",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 410585,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The kinetic energy acquire by a mass m after travelling a fixed distance from rest under the action of a constant force is directly proportional to:",
+      "optionA": "<img src=\"/pts-media/equations/11th/phynew-chap4-1.svg\" />",
+      "optionB": "<img src=\"/pts-media/equations/11th/phynew-chap4-2.svg\" />",
+      "optionC": "m",
+      "optionD": "Independent of m",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 410640,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following is polymer solid?",
+      "optionA": "Wool",
+      "optionB": "Glass",
+      "optionC": "Sodium chloride",
+      "optionD": "Copper",
       "correctAnswer": "A"
     },
     {
@@ -557,6 +752,21 @@
       "correctAnswer": "A"
     },
     {
+      "id": 410650,
+      "chapter": 5,
+      "topic_id": "5.8",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An idea flow of any fluid must satisfy:",
+      "optionA": "Pascal law",
+      "optionB": "Bernoulli's equation",
+      "optionC": "Continuity equation only",
+      "optionD": "Both b and c",
+      "correctAnswer": "B"
+    },
+    {
       "id": 410647,
       "chapter": 5,
       "topic_id": "5.9",
@@ -617,6 +827,36 @@
       "correctAnswer": "D"
     },
     {
+      "id": 410656,
+      "chapter": 5,
+      "topic_id": "5.16",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which of the following is a defining characteristic of a superfluid?",
+      "optionA": "Zero viscosity",
+      "optionB": "Infinite density",
+      "optionC": "Zero temperature",
+      "optionD": "Infinite thermal conductivity",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 410727,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The Value of Boltzmann constant is:",
+      "optionA": "1.38 x 10-23 J K-1",
+      "optionB": "1.38 x 1023 J K-1",
+      "optionC": "1.38 x 1026 J K-1",
+      "optionD": "1.38 x 10-23 J-1 K-1",
+      "correctAnswer": "A"
+    },
+    {
       "id": 410711,
       "chapter": 6,
       "topic_id": "6.2",
@@ -629,6 +869,36 @@
       "optionB": "Increases",
       "optionC": "Remains the same",
       "optionD": "Becomes zero",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 410717,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A device which converts thermal energy into mechanical energy is called:",
+      "optionA": "Heat engine",
+      "optionB": "Carnot engine",
+      "optionC": "Refrigerator",
+      "optionD": "Turbine",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 410724,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What happens to internal energy of an object when its temperature:",
+      "optionA": "Decreases",
+      "optionB": "Remain constant",
+      "optionC": "Increases",
+      "optionD": "Fluctuates",
       "correctAnswer": "C"
     },
     {
@@ -677,6 +947,36 @@
       "correctAnswer": "B"
     },
     {
+      "id": 410730,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Thermodynamics mostly deals with:",
+      "optionA": "Measurement of quantity of heat",
+      "optionB": "Transfer of quantity of heat",
+      "optionC": "Change of state",
+      "optionD": "Conversion of heat to other forms of energy",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 410719,
+      "chapter": 6,
+      "topic_id": "6.10",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When two objects are made in thermal contact having same temperature, then they are at:",
+      "optionA": "Thermal equilibrium",
+      "optionB": "Chemical equilibrium",
+      "optionC": "Mechanical equilibrium",
+      "optionD": "Physical equilibrium",
+      "correctAnswer": "A"
+    },
+    {
       "id": 410722,
       "chapter": 6,
       "topic_id": "6.10",
@@ -690,6 +990,36 @@
       "optionC": "Is Infinite",
       "optionD": "Is zero",
       "correctAnswer": "D"
+    },
+    {
+      "id": 410910,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What type of waves do headphones use to produce sound?",
+      "optionA": "Electromagnetic waves",
+      "optionB": "Mechanical waves",
+      "optionC": "Pressure waves",
+      "optionD": "Longitudinal waves",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 410924,
+      "chapter": 7,
+      "topic_id": "7.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The simple wave speed equation is represented by:",
+      "optionA": "v =<img src=\"/pts-media/equations/11th/phynew-chap7-1.svg\" style=\"width: 18px; height: 20px;\" />",
+      "optionB": "<img src=\"/pts-media/equations/11th/phynew-chap7-2.svg\" />",
+      "optionC": "<img src=\"/pts-media/equations/11th/phynew-chap7-3.svg\" />",
+      "optionD": "v = d/t",
+      "correctAnswer": "A"
     },
     {
       "id": 410893,
@@ -707,6 +1037,21 @@
       "correctAnswer": "A"
     },
     {
+      "id": 410895,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A node in a stationary wave is:",
+      "optionA": "A point of maximum displacement",
+      "optionB": "A point of intermediate displacement",
+      "optionC": "A point of zero displacement",
+      "optionD": "A point of infinite displacement",
+      "correctAnswer": "C"
+    },
+    {
       "id": 410903,
       "chapter": 7,
       "topic_id": "7.4",
@@ -719,6 +1064,21 @@
       "optionB": "Waves that move with a changing velocity",
       "optionC": "Waves that oscillate in a fixed position",
       "optionD": "Waves that propagate through a medium",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 410899,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An antinode in a stationary wave is:",
+      "optionA": "A point of maximum displacement",
+      "optionB": "A point of minimum displacement",
+      "optionC": "A point of zero displacement",
+      "optionD": "A point of infinite displacement",
       "correctAnswer": "C"
     },
     {
@@ -857,6 +1217,21 @@
       "correctAnswer": "B"
     },
     {
+      "id": 411010,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The condition for maximum intensity of light in a polarization experiment is when:",
+      "optionA": "The light wave and analyzer are perpendicular",
+      "optionB": "The light wave and analyzer are parallel",
+      "optionC": "The light wave and analyzer are at an angle of 45o",
+      "optionD": "The light wave and analyzer are at an angle of 60o",
+      "correctAnswer": "B"
+    },
+    {
       "id": 411003,
       "chapter": 8,
       "topic_id": "8.5",
@@ -887,6 +1262,21 @@
       "correctAnswer": "A"
     },
     {
+      "id": 411006,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The key purpose of an analyzer in a polarization experiment is:",
+      "optionA": "To polarize the light",
+      "optionB": "To measure the intensity of light",
+      "optionC": "To change the direction of light",
+      "optionD": "To filter out unwanted light",
+      "correctAnswer": "B"
+    },
+    {
       "id": 411008,
       "chapter": 8,
       "topic_id": "8.5",
@@ -914,6 +1304,21 @@
       "optionB": "The intensity decreases",
       "optionC": "The intensity remains the same",
       "optionD": "The intensity becomes zero",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 411013,
+      "chapter": 8,
+      "topic_id": "8.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Who predicted the existence of gravitational waves?",
+      "optionA": "Galileo Galilei",
+      "optionB": "Albert Einstein",
+      "optionC": "Issac Newton",
+      "optionD": "Leonardo da Vinci",
       "correctAnswer": "B"
     },
     {
@@ -962,6 +1367,21 @@
       "correctAnswer": "A"
     },
     {
+      "id": 411011,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The unwanted light that interferes with vision is termed as:",
+      "optionA": "Haze",
+      "optionB": "Glare",
+      "optionC": "Contrast",
+      "optionD": "Flare",
+      "correctAnswer": "B"
+    },
+    {
       "id": 411074,
       "chapter": 9,
       "topic_id": "9.1",
@@ -977,6 +1397,21 @@
       "correctAnswer": "D"
     },
     {
+      "id": 411085,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A ball of weight 0.1 N having a charge of 100<img src=\"/pts-media/equations/11th/phynew-chap9-1.svg\" />C remained suspended between two oppositely charge horizontal metal plates. The electric intensity between the plates is:",
+      "optionA": "10 N C-1",
+      "optionB": "100 N C-1",
+      "optionC": "1000 N C-1",
+      "optionD": "10000 N C-1",
+      "correctAnswer": "C"
+    },
+    {
       "id": 411076,
       "chapter": 9,
       "topic_id": "9.2",
@@ -989,6 +1424,21 @@
       "optionB": "3.2 x 10-19 C",
       "optionC": "1.6 x 10-19 C",
       "optionD": "6.02 x 10-23 C",
+      "correctAnswer": "B"
+    },
+    {
+      "id": 411093,
+      "chapter": 9,
+      "topic_id": "9.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The radius of curvature of the path of a charged particle in a uniform magnetic field is directly proportional to:",
+      "optionA": "The particle's charge",
+      "optionB": "The particle's momentum",
+      "optionC": "The particle's energy",
+      "optionD": "The flux density of the field",
       "correctAnswer": "B"
     },
     {
@@ -1082,6 +1532,21 @@
       "correctAnswer": "C"
     },
     {
+      "id": 411143,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The radius of curvature of the path of a charged particle in a uniform magnetic field is directly proportional to:",
+      "optionA": "The particle's charge",
+      "optionB": "The particle's momentum",
+      "optionC": "The particle's energy",
+      "optionD": "The flux density of the field",
+      "correctAnswer": "B"
+    },
+    {
       "id": 411151,
       "chapter": 10,
       "topic_id": "10.1",
@@ -1110,6 +1575,21 @@
       "optionC": "NmA-2",
       "optionD": "NmA",
       "correctAnswer": "A"
+    },
+    {
+      "id": 411144,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The diagram shows a beam of electrons entering a magnetic field. What is the effect of magnetic field on the electrons?",
+      "optionA": "They are deflected into the plane of the diagram",
+      "optionB": "They are deflected out of the plane of the diagram",
+      "optionC": "They are deflected towards the bottom of the diagram",
+      "optionD": "They are deflected towards the top of the diagram",
+      "correctAnswer": "B"
     },
     {
       "id": 411145,
@@ -1172,6 +1652,36 @@
       "correctAnswer": "B"
     },
     {
+      "id": 411152,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A magnet is suspended from a spring. The magnet oscillates and moves in and out of the coil connected to a galvanometer. When the magnet oscillates, the galvanometer shows:<img src=\"/pts-media/equations/11th/phynew-chap10-5.png\" style=\"zoom:50%;\" />",
+      "optionA": "Deflection to the left and to the right with constant amplitude",
+      "optionB": "Deflected on one side",
+      "optionC": "No deflection",
+      "optionD": "Deflection to the left and right, but the amplitude steadily decreases",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 411269,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Relativistic mechanic yields results different from classical mechanics for objects moving with:",
+      "optionA": "Low velocity",
+      "optionB": "Velocity equal to that of sound waves",
+      "optionC": "Velocity greater than sound waves",
+      "optionD": "Velocity approaching that of light",
+      "correctAnswer": "D"
+    },
+    {
       "id": 411271,
       "chapter": 11,
       "topic_id": "11.1",
@@ -1230,6 +1740,21 @@
       "optionC": "Same",
       "optionD": "Zero",
       "correctAnswer": "C"
+    },
+    {
+      "id": 411320,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The first discovered anti-particle is:",
+      "optionA": "Anti-proton",
+      "optionB": "Anti-neutrino",
+      "optionC": "Anti-photon",
+      "optionD": "Anti-electron",
+      "correctAnswer": "D"
     },
     {
       "id": 411321,
@@ -1337,6 +1862,36 @@
       "correctAnswer": "C"
     },
     {
+      "id": 411323,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The strong nuclear force between the two particles is mediated by:",
+      "optionA": "Gluons",
+      "optionB": "Photon",
+      "optionC": "Mesons",
+      "optionD": "Gravitons",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 411324,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which one of the following forces interacts between two particles through photons?",
+      "optionA": "Strong nuclear force",
+      "optionB": "Weak force",
+      "optionC": "Electromagnetic force",
+      "optionD": "Gravitational force",
+      "correctAnswer": "C"
+    },
+    {
       "id": 411329,
       "chapter": 12,
       "topic_id": "12.5",
@@ -1397,6 +1952,36 @@
       "correctAnswer": "B"
     },
     {
+      "id": 411330,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which particles are produced by strong interaction?",
+      "optionA": "Graviton",
+      "optionB": "Leptons",
+      "optionC": "Hadrons",
+      "optionD": "Mesons",
+      "correctAnswer": "C"
+    },
+    {
+      "id": 411345,
+      "chapter": 12,
+      "topic_id": "12.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which one of the following particle is responsible for the mass of the fundamental particle?",
+      "optionA": "Quarks",
+      "optionB": "Anti-quark",
+      "optionC": "Lepton",
+      "optionD": "Higgs boson",
+      "correctAnswer": "D"
+    },
+    {
       "id": 411332,
       "chapter": 12,
       "topic_id": "12.8",
@@ -1410,6 +1995,36 @@
       "optionC": "p - n",
       "optionD": "All of these",
       "correctAnswer": "D"
+    },
+    {
+      "id": 411341,
+      "chapter": 12,
+      "topic_id": "12.11",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The electroweak theory was introduced by:",
+      "optionA": "Dirac",
+      "optionB": "Einstein",
+      "optionC": "Anderson",
+      "optionD": "Abdul Salam",
+      "correctAnswer": "D"
+    },
+    {
+      "id": 411343,
+      "chapter": 12,
+      "topic_id": "12.12",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The asymmetry of matter and anti-matter is due to imbalance number of:",
+      "optionA": "Hadron",
+      "optionB": "Lepton",
+      "optionC": "Baryon",
+      "optionD": "Photons",
+      "correctAnswer": "C"
     },
     {
       "id": 410786,
@@ -2837,6 +3452,21 @@
       "correctAnswer": "A"
     },
     {
+      "id": 411467,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which one is a vector quantity:",
+      "optionA": "Length",
+      "optionB": "Velocity",
+      "optionC": "Volume",
+      "optionD": "Unit vector",
+      "correctAnswer": "B"
+    },
+    {
       "id": 411469,
       "chapter": 2,
       "topic_id": "2.2",
@@ -2850,6 +3480,21 @@
       "optionC": "180o",
       "optionD": "270o",
       "correctAnswer": "C"
+    },
+    {
+      "id": 411470,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which one is a vector quantity?",
+      "optionA": "Power",
+      "optionB": "Entropy",
+      "optionC": "Inertia",
+      "optionD": "Tension",
+      "correctAnswer": "D"
     },
     {
       "id": 411472,
@@ -3674,6 +4319,21 @@
       "optionB": "30ms-1",
       "optionC": "Zero",
       "optionD": "None of these",
+      "correctAnswer": "A"
+    },
+    {
+      "id": 411576,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "As rocket moves upward during its motion, its acceleration goes on:",
+      "optionA": "Increasing",
+      "optionB": "Decreasing",
+      "optionC": "Remains the same",
+      "optionD": "It moves with uniform velocity",
       "correctAnswer": "A"
     },
     {
@@ -11387,6 +12047,21 @@
       "correctAnswer": "B"
     },
     {
+      "id": 414943,
+      "chapter": 7,
+      "topic_id": "7.7",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which of the following instruments works on the principle of stationary waves in air columns?",
+      "optionA": "Fuiter",
+      "optionB": "Violin",
+      "optionC": "Flute",
+      "optionD": "Tuning fork",
+      "correctAnswer": "C"
+    },
+    {
       "id": 414944,
       "chapter": 7,
       "topic_id": "7.7",
@@ -12600,6 +13275,21 @@
       "optionC": "Polarized light",
       "optionD": "Monochromatic light",
       "correctAnswer": "C"
+    },
+    {
+      "id": 415265,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "mcq",
+      "field": "MCQ",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "At Brewster's angle, the reflected light is:",
+      "optionA": "Completely unpolarized",
+      "optionB": "Circularly polarized",
+      "optionC": "Partially polarized",
+      "optionD": "Completely plane polarized",
+      "correctAnswer": "D"
     },
     {
       "id": 415267,

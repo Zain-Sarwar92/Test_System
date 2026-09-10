@@ -8,8 +8,8 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 1410,
-  "exportedAt": "2026-08-11T12:27:50.394Z",
+  "total": 1415,
+  "exportedAt": "2026-09-08T13:19:23.862Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -52,56 +52,6 @@
           "QuestionID": 500761,
           "UmOption": "<p>ذرات کی شکل</p>\r\n",
           "EmOption": "<p>The shape of the particles.</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 500763,
-      "SubjectID": 61,
-      "TopicID": 15029,
-      "TopicRef": "14.1",
-      "TopicName": "14.1 Internal Energy",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>ایویپوریشن کی شرح گرم کرنے پر:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Upon heating the rate of evaporation: </p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 480317,
-          "QuestionID": 500763,
-          "UmOption": "<p>گھٹتی ہے</p>\r\n",
-          "EmOption": "<p>Decreases</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 480318,
-          "QuestionID": 500763,
-          "UmOption": "<p>بڑھتی ہے</p>\r\n",
-          "EmOption": "<p>Increases</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 480319,
-          "QuestionID": 500763,
-          "UmOption": "<p>یکساں رہتی ہے</p>\r\n",
-          "EmOption": "<p>Remains the same </p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 480320,
-          "QuestionID": 500763,
-          "UmOption": "<p>پہلے گھٹتی ہے پھر مزید گرم کرنے پر بڑھتی ہے</p>\r\n",
-          "EmOption": "<p>Initially decreases and then increases upon further heating</p>\r\n",
           "Answer": false
         }
       ],
@@ -163,61 +113,11 @@
       }
     },
     {
-      "QuestionID": 500767,
-      "SubjectID": 61,
-      "TopicID": 15029,
-      "TopicRef": "14.1",
-      "TopicName": "14.1 Internal Energy",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>کچھ گیسوں کے بخارات کو ٹھنڈا کرنے پر یہ براہ راست ٹھوس حالت میں تبدیل ہو جاتے ہیں۔ اس مظاہر کو کیا کہتے ہیں:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Cooling the vapours of some gases change them directly into solid state. This phenomenon is called:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 480333,
-          "QuestionID": 500767,
-          "UmOption": "<p>ایویپوریشن</p>\r\n",
-          "EmOption": "<p>Evaporation</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 480334,
-          "QuestionID": 500767,
-          "UmOption": "<p>کندن سیشن</p>\r\n",
-          "EmOption": "<p>Condensation</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 480335,
-          "QuestionID": 500767,
-          "UmOption": "<p>سب لیمیشن</p>\r\n",
-          "EmOption": "<p>Sublimation</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 480336,
-          "QuestionID": 500767,
-          "UmOption": "<p>ڈیپوزیشن</p>\r\n",
-          "EmOption": "<p>Deposition</p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 500768,
       "SubjectID": 61,
-      "TopicID": 15029,
-      "TopicRef": "14.1",
-      "TopicName": "14.1 Internal Energy",
+      "TopicID": 15030,
+      "TopicRef": "14.2",
+      "TopicName": "14.2  Interconversion of Physical States",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>طبعی حالت جس میں ذرات سب سے زیادہ توانائی رکھتے ہیں:</p>\r\n",
       "EnglishQuestionDetails": "<p>Physical state in which the particles possess the maximum energy:</p>\r\n",
@@ -227,28 +127,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 480337,
+          "OptionID": 527557,
           "QuestionID": 500768,
           "UmOption": "<p>ٹھوس</p>\r\n",
           "EmOption": "<p>Solid</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 480338,
+          "OptionID": 527558,
           "QuestionID": 500768,
           "UmOption": "<p>مائع</p>\r\n",
           "EmOption": "<p>Liquid</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 480339,
+          "OptionID": 527559,
           "QuestionID": 500768,
           "UmOption": "<p>گیس</p>\r\n",
           "EmOption": "<p>Gaseous</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 480340,
+          "OptionID": 527560,
           "QuestionID": 500768,
           "UmOption": "<p>بخارات</p>\r\n",
           "EmOption": "<p>Vapour</p>\r\n",
@@ -263,111 +163,11 @@
       }
     },
     {
-      "QuestionID": 500775,
-      "SubjectID": 61,
-      "TopicID": 15029,
-      "TopicRef": "14.1",
-      "TopicName": "14.1 Internal Energy",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>ایویپوریشن مائع کے مالیکیولز میں موجود کشش پر کس طرح منحصر ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>How does the process of evaporation depend on the force of attraction present among the molecules of a liquid?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 480345,
-          "QuestionID": 500775,
-          "UmOption": "<p>کشش میں اضافے کے ساتھ بڑھتی ہے</p>\r\n",
-          "EmOption": "<p>It decreases with the increasing strength of attraction.</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 480346,
-          "QuestionID": 500775,
-          "UmOption": "<p>کشش میں اضافے کے ساتھ گھٹتی ہے</p>\r\n",
-          "EmOption": "<p>It increases with the increasing strength of attraction.</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 480347,
-          "QuestionID": 500775,
-          "UmOption": "<p>کشش کی طاقت پر منحصر نہیں ہوتی</p>\r\n",
-          "EmOption": "<p>It is independent of the strength of the force of attraction.</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 480348,
-          "QuestionID": 500775,
-          "UmOption": "<p>کشش کی طاقت میں اضافے کے ساتھ پہلے بڑھتی اور پھر کم ہوتی ہے</p>\r\n",
-          "EmOption": "<p>It first increases and then decreases with the increasing strength of the force of attraction.</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 500776,
-      "SubjectID": 61,
-      "TopicID": 15029,
-      "TopicRef": "14.1",
-      "TopicName": "14.1 Internal Energy",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>کسی گیس کے ڈفیوز ہونے کی شرح تیز ترین ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which gas will diffuse at the fastest rate?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 483701,
-          "QuestionID": 500776,
-          "UmOption": "<p>HCI</p>\r\n",
-          "EmOption": "<p>HCI</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 483702,
-          "QuestionID": 500776,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.1.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.1.svg\" /></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 483703,
-          "QuestionID": 500776,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.2.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.2.svg\" /></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 483704,
-          "QuestionID": 500776,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.3.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.3.svg\" /></p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 500777,
       "SubjectID": 61,
-      "TopicID": 15029,
-      "TopicRef": "14.1",
-      "TopicName": "14.1 Internal Energy",
+      "TopicID": 15031,
+      "TopicRef": "14.3",
+      "TopicName": "14.3 HEATING AND COOLING CURVES",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>A  اور B طبعی تبدیلیوں کو ظاہر کرتے ہیں ان کے نام لکھیں۔ گیس A   مائع B  تھوس:</p>\r\n",
       "EnglishQuestionDetails": "<p>The phase changes A and B in <img alt=\"\" src=\"/equations/10th/chemnew-chap14.4.svg\" /> are:</p>\r\n",
@@ -377,28 +177,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 483705,
+          "OptionID": 527589,
           "QuestionID": 500777,
           "UmOption": "<p>میلٹنگ ، ایویپوریشن</p>\r\n",
           "EmOption": "<p>Melting, evaporating </p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483706,
+          "OptionID": 527590,
           "QuestionID": 500777,
           "UmOption": "<p>کندن سیشن ، میلٹنگ</p>\r\n",
           "EmOption": "<p>Condensation, melting</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483707,
+          "OptionID": 527591,
           "QuestionID": 500777,
           "UmOption": "<p>کندن سیشن ، فریزنگ</p>\r\n",
           "EmOption": "<p>Condensation, freezing</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 483708,
+          "OptionID": 527592,
           "QuestionID": 500777,
           "UmOption": "<p>بوائلنگ ، فریزنگ</p>\r\n",
           "EmOption": "<p>Boiling, freezing</p>\r\n",
@@ -413,13 +213,163 @@
       }
     },
     {
+      "QuestionID": 500763,
+      "SubjectID": 61,
+      "TopicID": 15032,
+      "TopicRef": "14.4",
+      "TopicName": "14.4  Evaporation and Boiling",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ایویپوریشن کی شرح گرم کرنے پر:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Upon heating the rate of evaporation: </p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 527537,
+          "QuestionID": 500763,
+          "UmOption": "<p>گھٹتی ہے</p>\r\n",
+          "EmOption": "<p>Decreases</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527538,
+          "QuestionID": 500763,
+          "UmOption": "<p>بڑھتی ہے</p>\r\n",
+          "EmOption": "<p>Increases</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 527539,
+          "QuestionID": 500763,
+          "UmOption": "<p>یکساں رہتی ہے</p>\r\n",
+          "EmOption": "<p>Remains the same </p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527540,
+          "QuestionID": 500763,
+          "UmOption": "<p>پہلے گھٹتی ہے پھر مزید گرم کرنے پر بڑھتی ہے</p>\r\n",
+          "EmOption": "<p>Initially decreases and then increases upon further heating</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 500775,
+      "SubjectID": 61,
+      "TopicID": 15032,
+      "TopicRef": "14.4",
+      "TopicName": "14.4  Evaporation and Boiling",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ایویپوریشن مائع کے مالیکیولز میں موجود کشش پر کس طرح منحصر ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>How does the process of evaporation depend on the force of attraction present among the molecules of a liquid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 527565,
+          "QuestionID": 500775,
+          "UmOption": "<p>کشش میں اضافے کے ساتھ بڑھتی ہے</p>\r\n",
+          "EmOption": "<p>It decreases with the increasing strength of attraction.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 527566,
+          "QuestionID": 500775,
+          "UmOption": "<p>کشش میں اضافے کے ساتھ گھٹتی ہے</p>\r\n",
+          "EmOption": "<p>It increases with the increasing strength of attraction.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527567,
+          "QuestionID": 500775,
+          "UmOption": "<p>کشش کی طاقت پر منحصر نہیں ہوتی</p>\r\n",
+          "EmOption": "<p>It is independent of the strength of the force of attraction.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527568,
+          "QuestionID": 500775,
+          "UmOption": "<p>کشش کی طاقت میں اضافے کے ساتھ پہلے بڑھتی اور پھر کم ہوتی ہے</p>\r\n",
+          "EmOption": "<p>It first increases and then decreases with the increasing strength of the force of attraction.</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 500767,
+      "SubjectID": 61,
+      "TopicID": 15033,
+      "TopicRef": "14.5",
+      "TopicName": "14.5 Sublimation",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کچھ گیسوں کے بخارات کو ٹھنڈا کرنے پر یہ براہ راست ٹھوس حالت میں تبدیل ہو جاتے ہیں۔ اس مظاہر کو کیا کہتے ہیں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Cooling the vapours of some gases change them directly into solid state. This phenomenon is called:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 527541,
+          "QuestionID": 500767,
+          "UmOption": "<p>ایویپوریشن</p>\r\n",
+          "EmOption": "<p>Evaporation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527542,
+          "QuestionID": 500767,
+          "UmOption": "<p>کندن سیشن</p>\r\n",
+          "EmOption": "<p>Condensation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527543,
+          "QuestionID": 500767,
+          "UmOption": "<p>سب لیمیشن</p>\r\n",
+          "EmOption": "<p>Sublimation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527544,
+          "QuestionID": 500767,
+          "UmOption": "<p>ڈیپوزیشن</p>\r\n",
+          "EmOption": "<p>Deposition</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 500779,
       "SubjectID": 61,
-      "TopicID": 15029,
-      "TopicRef": "14.1",
-      "TopicName": "14.1 Internal Energy",
+      "TopicID": 15033,
+      "TopicRef": "14.5",
+      "TopicName": "14.5 Sublimation",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p dir=\"rtl\">ایک طالب علم نے صبح 6:30 پر میدان میں گہرہ گرتے دیکھا جو کہ صبح 8:30 پر غائب ہو گیا۔ گہرے کو بخارات میں تبدیل کرنے سے کون سی طبعی تبدیلی وقوع پزیر ہوئی؟</p>\r\n",
+      "UrduQuestionDetails": "<p>ایک طالب علم نے صبح 6:30 پر میدان میں گہرہ گرتے دیکھا جو کہ صبح 8:30 پر غائب ہو گیا۔ گہرے کو بخارات میں تبدیل کرنے سے کون سی طبعی تبدیلی وقوع پزیر ہوئی؟</p>\r\n",
       "EnglishQuestionDetails": "<p>A student noticed frost falling on the ground at 6.30 am and disappearing by 8.30 am. Which phase change was responsible for changing the frost into water vapours?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
@@ -427,31 +377,81 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 480361,
+          "OptionID": 527597,
           "QuestionID": 500779,
           "UmOption": "<p>میلٹنگ</p>\r\n",
           "EmOption": "<p>Melting</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 480362,
+          "OptionID": 527598,
           "QuestionID": 500779,
           "UmOption": "<p>ایویپوریشن</p>\r\n",
           "EmOption": "<p>Evaporation</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 480363,
+          "OptionID": 527599,
           "QuestionID": 500779,
           "UmOption": "<p>سب لیمیشن</p>\r\n",
           "EmOption": "<p>Sublimation</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 480364,
+          "OptionID": 527600,
           "QuestionID": 500779,
           "UmOption": "<p>ڈیپوزیشن</p>\r\n",
           "EmOption": "<p>Deposition</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 500776,
+      "SubjectID": 61,
+      "TopicID": 15036,
+      "TopicRef": "14.8",
+      "TopicName": "14.8 Diffusion",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کسی گیس کے ڈفیوز ہونے کی شرح تیز ترین ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which gas will diffuse at the fastest rate?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 527573,
+          "QuestionID": 500776,
+          "UmOption": "<p>HCI</p>\r\n",
+          "EmOption": "<p>HCI</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 527574,
+          "QuestionID": 500776,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.1.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.1.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527575,
+          "QuestionID": 500776,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.2.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.2.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527576,
+          "QuestionID": 500776,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.3.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap14.3.svg\" /></p>\r\n",
           "Answer": false
         }
       ],
@@ -565,9 +565,9 @@
     {
       "QuestionID": 500808,
       "SubjectID": 61,
-      "TopicID": 15038,
-      "TopicRef": "15.1",
-      "TopicName": "15.1  MOLAR VOLUME",
+      "TopicID": 15039,
+      "TopicRef": "15.2",
+      "TopicName": "15.2 CONCENTRATION OF A SOLUTION",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>اگر پوٹاشیم ہائیڈرو آکسائڈ کا 2.0 گرام<img alt=\"\" src=\"/equations/10th/chemnew-chap15.3.svg\" />پانی میں حل کیا جائے تو اس کا مولر ارتکاز کیا ہوگا :</p>\r\n",
       "EnglishQuestionDetails": "<p>What will the molar concentration of potassium hydroxide solution if 2.0g of it is dissolved in <img alt=\"\" src=\"/equations/10th/chemnew-chap15.3.svg\" />of solution?</p>\r\n",
@@ -577,28 +577,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 483797,
+          "OptionID": 527641,
           "QuestionID": 500808,
           "UmOption": "<p>0.36mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.36mol/dm<sup>3</sup></p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 483798,
+          "OptionID": 527642,
           "QuestionID": 500808,
           "UmOption": "<p>0.53mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.53mol/dm<sup>3</sup></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483799,
+          "OptionID": 527643,
           "QuestionID": 500808,
           "UmOption": "<p>0.70mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.70mol/dm<sup>3</sup></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483800,
+          "OptionID": 527644,
           "QuestionID": 500808,
           "UmOption": "<p>0.45mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.45mol/dm<sup>3</sup></p>\r\n",
@@ -615,9 +615,9 @@
     {
       "QuestionID": 500809,
       "SubjectID": 61,
-      "TopicID": 15038,
-      "TopicRef": "15.1",
-      "TopicName": "15.1  MOLAR VOLUME",
+      "TopicID": 15039,
+      "TopicRef": "15.2",
+      "TopicName": "15.2 CONCENTRATION OF A SOLUTION",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>0.7g/dm<sup>3</sup> ارتکاز کے ساتھ اس کے سلوشن کے 15dm<sup>3</sup> بنانے کے لیے NaCl کی کتنی مقداردرکار ہوگی:</p>\r\n",
       "EnglishQuestionDetails": "<p>What will be the mass of NaCl needed to make up 15dm<sup>3</sup> of its solution with a concentration of 0.7g/dm<sup>3</sup>?</p>\r\n",
@@ -627,28 +627,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 484289,
+          "OptionID": 527629,
           "QuestionID": 500809,
           "UmOption": "<p>21g</p>\r\n",
           "EmOption": "<p>21g</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484290,
+          "OptionID": 527630,
           "QuestionID": 500809,
           "UmOption": "<p>10.5g</p>\r\n",
           "EmOption": "<p>10.5g</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 484291,
+          "OptionID": 527631,
           "QuestionID": 500809,
           "UmOption": "<p>31.5g</p>\r\n",
           "EmOption": "<p>31.5g</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484292,
+          "OptionID": 527632,
           "QuestionID": 500809,
           "UmOption": "<p>5.4g</p>\r\n",
           "EmOption": "<p>5.4g</p>\r\n",
@@ -665,9 +665,9 @@
     {
       "QuestionID": 500810,
       "SubjectID": 61,
-      "TopicID": 15038,
-      "TopicRef": "15.1",
-      "TopicName": "15.1  MOLAR VOLUME",
+      "TopicID": 15040,
+      "TopicRef": "15.3",
+      "TopicName": "15.3 CALCULATE THE CONCENTRATION OF A SOLUTION IN TITRATION USING EMPIRICAL DATA",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>اگر 10cm<sup>3</sup> مرتکز سلفیورک ایسڈ 20cm<sup>3</sup> سوڈیم ہائیڈروآکسائڈ سے ری ایکشن کرتا ہے جس کا کہ ارتکاز 0.1mol/dm<sup>3</sup> ہے تو سلفیورک ایسڈ کا ارتکاز mol/dm<sup>3</sup> میں کیا ہوگا؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Find out the concentration of H<sub>2</sub>SO<sub>4</sub> in mol/dm<sup>3</sup> if its 10cm<sup>3 </sup>react with  20cm<sup>3</sup> of NaOH solution having concentration 0.1mol/dm<sup>3</sup>:</p>\r\n",
@@ -677,28 +677,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 492321,
+          "OptionID": 527637,
           "QuestionID": 500810,
           "UmOption": "<p>0.01mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.01mol/dm<sup>3</sup></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492322,
+          "OptionID": 527638,
           "QuestionID": 500810,
           "UmOption": "<p>0.001mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.001mol/dm<sup>3</sup></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492323,
+          "OptionID": 527639,
           "QuestionID": 500810,
           "UmOption": "<p>0.1mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.1mol/dm<sup>3</sup></p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 492324,
+          "OptionID": 527640,
           "QuestionID": 500810,
           "UmOption": "<p>0.15mol/dm<sup>3</sup></p>\r\n",
           "EmOption": "<p>0.15mol/dm<sup>3</sup></p>\r\n",
@@ -727,28 +727,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 492325,
+          "OptionID": 527649,
           "QuestionID": 500811,
           "UmOption": "<p>C<sub>3</sub>H<sub>5</sub>O<sub>3</sub></p>\r\n",
           "EmOption": "<p>C<sub>3</sub>H<sub>5</sub>O<sub>3</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492326,
+          "OptionID": 527650,
           "QuestionID": 500811,
           "UmOption": "<p>C<sub>6</sub>H<sub>10</sub>O<sub>6</sub></p>\r\n",
           "EmOption": "<p>C<sub>6</sub>H<sub>10</sub>O<sub>6</sub></p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 492327,
+          "OptionID": 527651,
           "QuestionID": 500811,
           "UmOption": "<p>C<sub>9</sub>H<sub>15</sub>O<sub>9</sub></p>\r\n",
           "EmOption": "<p>C<sub>9</sub>H<sub>15</sub>O<sub>9</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492328,
+          "OptionID": 527652,
           "QuestionID": 500811,
           "UmOption": "<p>C<sub>8</sub>H<sub>10</sub>O<sub>8</sub></p>\r\n",
           "EmOption": "<p>C<sub>8</sub>H<sub>10</sub>O<sub>8</sub></p>\r\n",
@@ -915,9 +915,9 @@
     {
       "QuestionID": 500827,
       "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
+      "TopicID": 15048,
+      "TopicRef": "16.4",
+      "TopicName": "16.4 OXIDATION AND REDUCTION",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>درج ذیل ری ایکشن میں کون سا ایلیمنٹ ریڈیوس ہو رہا ہے:</p>\r\n\r\n<p><img alt=\"\" src=\"/equations/10th/chemnew-chap16-eq1.svg\" /></p>\r\n",
       "EnglishQuestionDetails": "<p>Which element in the following reaction is being reduced?</p>\r\n\r\n<p><img alt=\"\" src=\"/equations/10th/chemnew-chap16-eq1.svg\" /></p>\r\n",
@@ -927,28 +927,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 484313,
+          "OptionID": 527693,
           "QuestionID": 500827,
           "UmOption": "<p>Br</p>\r\n",
           "EmOption": "<p>Br</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484314,
+          "OptionID": 527694,
           "QuestionID": 500827,
           "UmOption": "<p>Mn</p>\r\n",
           "EmOption": "<p>Mn</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 484315,
+          "OptionID": 527695,
           "QuestionID": 500827,
           "UmOption": "<p>H</p>\r\n",
           "EmOption": "<p>H</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484316,
+          "OptionID": 527696,
           "QuestionID": 500827,
           "UmOption": "<p>Mn اور H دونوں</p>\r\n",
           "EmOption": "<p>Both Mn and H</p>\r\n",
@@ -963,111 +963,11 @@
       }
     },
     {
-      "QuestionID": 500828,
-      "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>pt الیکٹروڈ کا استعمال کرتے ہوئے ،H<sub>2</sub>SO<sub>4</sub> کے مرتکز سلوشن کے الیکٹر ولیسز کے دوران جو عمل کیتھوڈ پر وقوع پذیر ہوتا ہے، اُسےکہتے ہیں :</p>\r\n",
-      "EnglishQuestionDetails": "<p>During electrolysis of dilute solution of H<sub>2</sub>SO<sub>4</sub>, using Pt electrodes, which process takes place at the cathode?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 483873,
-          "QuestionID": 500828,
-          "UmOption": "<p>ریڈکشن</p>\r\n",
-          "EmOption": "<p>Reduction </p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 483874,
-          "QuestionID": 500828,
-          "UmOption": "<p>ناہی ریڈکشن اور نہ ہی آکسیڈیشن</p>\r\n",
-          "EmOption": "<p>Neither oxidation nor reduction</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 483875,
-          "QuestionID": 500828,
-          "UmOption": "<p>آکسیڈیشن</p>\r\n",
-          "EmOption": "<p>Oxidation</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 483876,
-          "QuestionID": 500828,
-          "UmOption": "<p>پہلے آکسیڈیشن پھر ریڈکشن</p>\r\n",
-          "EmOption": "<p>First oxidation and then reduction</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 500829,
-      "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>کا پر الیکٹروڈز کا استعمال کرتے ہوئے ،CuSO<sub>4</sub> کے ایکوس سلوشن کو الیکٹرولائز کیا جاتا ہے تو آپ کو اینوڈ پر کون سا پروڈکٹ ملے گا؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which product you will get at the anode when an aqueous solution of CuSO<sub>4</sub> is electrolysed using copper electrodes?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 484317,
-          "QuestionID": 500829,
-          "UmOption": "<p>Cu</p>\r\n",
-          "EmOption": "<p>Cu</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484318,
-          "QuestionID": 500829,
-          "UmOption": "<p>O<sub>2</sub></p>\r\n",
-          "EmOption": "<p>O<sub>2</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484319,
-          "QuestionID": 500829,
-          "UmOption": "<p>H<sub>2</sub></p>\r\n",
-          "EmOption": "<p>H<sub>2</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484320,
-          "QuestionID": 500829,
-          "UmOption": "<p>کوئی پروڈکٹ نہیں، اس کے بجائے کا پر میٹل سلوشن میں کا پر آئن کی صورت میں حل ہو جائے گا</p>\r\n",
-          "EmOption": "<p>No product, instead copper metal will go into the solution as Cu<sup>2+</sup>.</p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 500830,
       "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
+      "TopicID": 15050,
+      "TopicRef": "16.6",
+      "TopicName": "16.6 ELECTROLYSIS",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>درج ذیل میں سے کون سی عبارت Zn-Cu الیکٹروکیمیکل سیل کے بارے میں درست نہیں ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which of the following statements is NOT correct about Zn-Cu electrochemical cell?</p>\r\n",
@@ -1077,28 +977,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 484321,
+          "OptionID": 527753,
           "QuestionID": 500830,
           "UmOption": "<p>اینوڈ پر منفی چارج ہوتا ہے</p>\r\n",
           "EmOption": "<p>Anode is negatively charged</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484322,
+          "OptionID": 527754,
           "QuestionID": 500830,
           "UmOption": "<p>ریڈکشن اینوڈ پر وقوع پذیر ہوتی ہے</p>\r\n",
           "EmOption": "<p>Reduction occurs at anode</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 484323,
+          "OptionID": 527755,
           "QuestionID": 500830,
           "UmOption": "<p>کیتھوڈ پر مثبت چارج ہوتا ہے</p>\r\n",
           "EmOption": "<p>Cathode is positively charged</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484324,
+          "OptionID": 527756,
           "QuestionID": 500830,
           "UmOption": "<p>ریڈکشن کیتھوڈ پر وقوع پذیر ہوتی ہے</p>\r\n",
           "EmOption": "<p>Reduction occurs at cathode</p>\r\n",
@@ -1115,9 +1015,9 @@
     {
       "QuestionID": 500831,
       "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
+      "TopicID": 15051,
+      "TopicRef": "16.7",
+      "TopicName": "16.7  ELECTROLYSIS OF A CONCENTRATED AQUEOUS SOLUTION OF SODIUM CHLORIDE (BRINE) USING INERT ELECTRODES (GRAPHITE /PT) ",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>جب NaCl کے مرتکز سلوشن کو الیکٹرولائز کیا جاتا ہے تو اینوڈ پر کون سا پروڈکٹ حاصل ہوتا ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>Which product will be obtained at the anode when a concentrated solution of NaCl will be electrolysed?</p>\r\n",
@@ -1127,28 +1027,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 483897,
+          "OptionID": 527765,
           "QuestionID": 500831,
           "UmOption": "<p>Cl<sub>2</sub></p>\r\n",
           "EmOption": "<p>Cl<sub>2</sub></p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 483898,
+          "OptionID": 527766,
           "QuestionID": 500831,
           "UmOption": "<p>O<sub>2</sub></p>\r\n",
           "EmOption": "<p>O<sub>2</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483899,
+          "OptionID": 527767,
           "QuestionID": 500831,
           "UmOption": "<p>زیادہ O<sub>2</sub> کم Cl<sub>2</sub></p>\r\n",
           "EmOption": "<p>More O<sub>2</sub> and less Cl<sub>2</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483900,
+          "OptionID": 527768,
           "QuestionID": 500831,
           "UmOption": "<p>زیادہ Cl<sub>2 </sub>کم O<sub>2</sub></p>\r\n",
           "EmOption": "<p>More Cl<sub>2 </sub>and less O<sub>2</sub></p>\r\n",
@@ -1165,9 +1065,9 @@
     {
       "QuestionID": 500832,
       "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
+      "TopicID": 15052,
+      "TopicRef": "16.8",
+      "TopicName": "16.8 ELECTROLYSIS OF DILUTE AND CONCENTRATED AQUEOUS SOLUTIONS OF METAL HALIDES",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>جب ZnCl<sub>2</sub> کے مرتکز ایکوس سلوشن کو الیکٹرولائز کیا جاتا ہے تو کیتھوڈ پر کون سا پروڈکٹ حاصل ہوتا ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>When a dilute aqueous solution of ZnCl<sub>2</sub> is electrolysed which product you will get at the cathode?</p>\r\n",
@@ -1177,28 +1077,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 483905,
+          "OptionID": 527789,
           "QuestionID": 500832,
           "UmOption": "<p>H<sub>2</sub></p>\r\n",
           "EmOption": "<p>H<sub>2</sub></p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 483906,
+          "OptionID": 527790,
           "QuestionID": 500832,
           "UmOption": "<p>Zn</p>\r\n",
           "EmOption": "<p>Zn</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483907,
+          "OptionID": 527791,
           "QuestionID": 500832,
           "UmOption": "<p>O<sub>2</sub></p>\r\n",
           "EmOption": "<p>O<sub>2</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 483908,
+          "OptionID": 527792,
           "QuestionID": 500832,
           "UmOption": "<p>Zn اور O<sub>2 </sub>دونوں</p>\r\n",
           "EmOption": "<p>Zn and O<sub>2</sub></p>\r\n",
@@ -1213,11 +1113,111 @@
       }
     },
     {
+      "QuestionID": 500828,
+      "SubjectID": 61,
+      "TopicID": 15055,
+      "TopicRef": "16.11",
+      "TopicName": "16.11  ELECTROLYSIS OF DILUTE SOLUTION OF SULPHURIC ACID USING INERT ELECTRODES (CARBON OR PT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>pt الیکٹروڈ کا استعمال کرتے ہوئے ،H<sub>2</sub>SO<sub>4</sub> کے مرتکز سلوشن کے الیکٹر ولیسز کے دوران جو عمل کیتھوڈ پر وقوع پذیر ہوتا ہے، اُسےکہتے ہیں :</p>\r\n",
+      "EnglishQuestionDetails": "<p>During electrolysis of dilute solution of H<sub>2</sub>SO<sub>4</sub>, using Pt electrodes, which process takes place at the cathode?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 527701,
+          "QuestionID": 500828,
+          "UmOption": "<p>ریڈکشن</p>\r\n",
+          "EmOption": "<p>Reduction </p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 527702,
+          "QuestionID": 500828,
+          "UmOption": "<p>ناہی ریڈکشن اور نہ ہی آکسیڈیشن</p>\r\n",
+          "EmOption": "<p>Neither oxidation nor reduction</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527703,
+          "QuestionID": 500828,
+          "UmOption": "<p>آکسیڈیشن</p>\r\n",
+          "EmOption": "<p>Oxidation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527704,
+          "QuestionID": 500828,
+          "UmOption": "<p>پہلے آکسیڈیشن پھر ریڈکشن</p>\r\n",
+          "EmOption": "<p>First oxidation and then reduction</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 500829,
+      "SubjectID": 61,
+      "TopicID": 15056,
+      "TopicRef": "16.12",
+      "TopicName": "16.12 ELECTROLYSIS OF DILUTE AQUEOUS SOLUTION OF COPPER SULPHATE USING INERT ELECTRODES OR COPPER ELECTRODES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کا پر الیکٹروڈز کا استعمال کرتے ہوئے ،CuSO<sub>4</sub> کے ایکوس سلوشن کو الیکٹرولائز کیا جاتا ہے تو آپ کو اینوڈ پر کون سا پروڈکٹ ملے گا؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which product you will get at the anode when an aqueous solution of CuSO<sub>4</sub> is electrolysed using copper electrodes?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 527705,
+          "QuestionID": 500829,
+          "UmOption": "<p>Cu</p>\r\n",
+          "EmOption": "<p>Cu</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527706,
+          "QuestionID": 500829,
+          "UmOption": "<p>O<sub>2</sub></p>\r\n",
+          "EmOption": "<p>O<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527707,
+          "QuestionID": 500829,
+          "UmOption": "<p>H<sub>2</sub></p>\r\n",
+          "EmOption": "<p>H<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527708,
+          "QuestionID": 500829,
+          "UmOption": "<p>کوئی پروڈکٹ نہیں، اس کے بجائے کا پر میٹل سلوشن میں کا پر آئن کی صورت میں حل ہو جائے گا</p>\r\n",
+          "EmOption": "<p>No product, instead copper metal will go into the solution as Cu<sup>2+</sup>.</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 500833,
       "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
+      "TopicID": 15057,
+      "TopicRef": "16.13",
+      "TopicName": "16.13 FUEL CELLS",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>ہائیڈ روجن آکسیجن فیول سیل میں کیتھوڈ پر کیا حاصل ہوتا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>What is produced at the cathode in hydrogen-oxygen fuel cell?</p>\r\n",
@@ -1227,28 +1227,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 492341,
+          "OptionID": 527793,
           "QuestionID": 500833,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-35.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-35.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492342,
+          "OptionID": 527794,
           "QuestionID": 500833,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-36.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-36.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492343,
+          "OptionID": 527795,
           "QuestionID": 500833,
           "UmOption": "<p>H<sub>2</sub>O</p>\r\n",
           "EmOption": "<p>H<sub>2</sub>O</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 492344,
+          "OptionID": 527796,
           "QuestionID": 500833,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-37.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-37.svg\" /></p>\r\n",
@@ -1265,9 +1265,9 @@
     {
       "QuestionID": 500834,
       "SubjectID": 61,
-      "TopicID": 15045,
-      "TopicRef": "16.1",
-      "TopicName": "16.1 OXIDATION NUMBER OF ATOMS IN COMPOUNDS AND IONS",
+      "TopicID": 15061,
+      "TopicRef": "16.17",
+      "TopicName": "16.17 ORDER OF REACTIVITY OF METALS USING VOLTAGE DATA",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>الیکٹروکیمیکل سیریز میں درج ذیل میں سے کون سی دھات سب سے زیادہ او پر لکھی گئے ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>Which of the following metals is highest in the electrochemical series?</p>\r\n",
@@ -1277,28 +1277,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 484329,
+          "OptionID": 527801,
           "QuestionID": 500834,
           "UmOption": "<p>ٹن</p>\r\n",
           "EmOption": "<p>Tin</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484330,
+          "OptionID": 527802,
           "QuestionID": 500834,
           "UmOption": "<p>میگنیشیم</p>\r\n",
           "EmOption": "<p>Iron</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484331,
+          "OptionID": 527803,
           "QuestionID": 500834,
           "UmOption": "<p>آئرن</p>\r\n",
           "EmOption": "<p>Magnesium</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 484332,
+          "OptionID": 527804,
           "QuestionID": 500834,
           "UmOption": "<p>زنگ</p>\r\n",
           "EmOption": "<p>Zinc</p>\r\n",
@@ -1413,56 +1413,6 @@
       }
     },
     {
-      "QuestionID": 501977,
-      "SubjectID": 61,
-      "TopicID": 15062,
-      "TopicRef": "17.1",
-      "TopicName": "17.1 COLLISION THEORY OF REACTION RATE",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>درج ذیل میں سے کون کیٹالسٹ کی موجودگی میں ری ایکشن کے ریٹ میں اضافے کی وضاحت کرتا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which of the following explains the increase in rate of reaction in the presence of a catalyst?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 505389,
-          "QuestionID": 501977,
-          "UmOption": "<p>کیٹالسٹ ری ایکٹنٹس کے مالیکیولز کو اضافی انرجی فراہم کرتا ہے</p>\r\n",
-          "EmOption": "<p>Catalyst provides extra energy to the reactant molecules</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 505390,
-          "QuestionID": 501977,
-          "UmOption": "<p>کیٹالسٹ ایک متبادل راستہ فراہم کرتا ہے جو ایکٹیویشن انرجی کو کم کرتا ہے</p>\r\n",
-          "EmOption": "<p>Catalyst provides an alternative pathway which lowers the activation energy</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 505391,
-          "QuestionID": 501977,
-          "UmOption": "<p>کیٹالسٹ کولیژن فریکوینسی میں اضافہ کرتا ہے</p>\r\n",
-          "EmOption": "<p>Catalyst increases the collision frequency</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 505392,
-          "QuestionID": 501977,
-          "UmOption": "<p>کیٹالسٹ کولیژن فریکوینسی کو کم کرتا ہے</p>\r\n",
-          "EmOption": "<p>Catalyst decreases the collision frequency</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 501980,
       "SubjectID": 61,
       "TopicID": 15062,
@@ -1513,45 +1463,45 @@
       }
     },
     {
-      "QuestionID": 501981,
+      "QuestionID": 501977,
       "SubjectID": 61,
-      "TopicID": 15062,
-      "TopicRef": "17.1",
-      "TopicName": "17.1 COLLISION THEORY OF REACTION RATE",
+      "TopicID": 15065,
+      "TopicRef": "17.4",
+      "TopicName": "17.4 FACTORS AFFECTING THE RATES OF REACTIONS",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>جب کوئی ری ایکشن آگے بڑھتا ہے تو ری ایکٹنٹس اور پروڈکٹس کا ارتکاز کس طرح تبدیل ہوتا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>When a reaction proceeds ahead, how the concentrations of reactants and products change?</p>\r\n",
+      "UrduQuestionDetails": "<p>درج ذیل میں سے کون کیٹالسٹ کی موجودگی میں ری ایکشن کے ریٹ میں اضافے کی وضاحت کرتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which of the following explains the increase in rate of reaction in the presence of a catalyst?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 481737,
-          "QuestionID": 501981,
-          "UmOption": "<p>ری ایکٹنٹس کے ارتکاز بڑھتے ہیں اور پروڈکٹس کے ارتکاز کم ہوتے ہیں۔</p>\r\n",
-          "EmOption": "<p>Concentration of reactants increases and that of the products decreases.</p>\r\n",
+          "OptionID": 527821,
+          "QuestionID": 501977,
+          "UmOption": "<p>کیٹالسٹ ری ایکٹنٹس کے مالیکیولز کو اضافی انرجی فراہم کرتا ہے</p>\r\n",
+          "EmOption": "<p>Catalyst provides extra energy to the reactant molecules</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481738,
-          "QuestionID": 501981,
-          "UmOption": "<p>ری ایکٹنٹس کے ارتکاز کم ہوتے ہیں جبکہ پروڈکٹس کے ارتکاز بڑھتے ہیں۔</p>\r\n",
-          "EmOption": "<p>Concentration of reactants decreases and that of the products increases.</p>\r\n",
+          "OptionID": 527822,
+          "QuestionID": 501977,
+          "UmOption": "<p>کیٹالسٹ ایک متبادل راستہ فراہم کرتا ہے جو ایکٹیویشن انرجی کو کم کرتا ہے</p>\r\n",
+          "EmOption": "<p>Catalyst provides an alternative pathway which lowers the activation energy</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481739,
-          "QuestionID": 501981,
-          "UmOption": "<p>ری ایکٹنٹس اور پروڈکٹس دونوں کے ارتکاز کم ہوتے ہیں۔</p>\r\n",
-          "EmOption": "<p>Concentration of both reactants and products decreases.</p>\r\n",
+          "OptionID": 527823,
+          "QuestionID": 501977,
+          "UmOption": "<p>کیٹالسٹ کولیژن فریکوینسی میں اضافہ کرتا ہے</p>\r\n",
+          "EmOption": "<p>Catalyst increases the collision frequency</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481740,
-          "QuestionID": 501981,
-          "UmOption": "<p>ری ایکٹنٹس اور پروڈکٹس دونوں کے ارتکاز بڑھتے ہیں۔</p>\r\n",
-          "EmOption": "<p>Concentration of both reactants and products increases.</p>\r\n",
+          "OptionID": 527824,
+          "QuestionID": 501977,
+          "UmOption": "<p>کیٹالسٹ کولیژن فریکوینسی کو کم کرتا ہے</p>\r\n",
+          "EmOption": "<p>Catalyst decreases the collision frequency</p>\r\n",
           "Answer": false
         }
       ],
@@ -1563,45 +1513,45 @@
       }
     },
     {
-      "QuestionID": 502004,
+      "QuestionID": 501981,
       "SubjectID": 61,
-      "TopicID": 15067,
-      "TopicRef": "18.1",
-      "TopicName": "18.1 Arrangement of Ions in Salts",
+      "TopicID": 15065,
+      "TopicRef": "17.4",
+      "TopicName": "17.4 FACTORS AFFECTING THE RATES OF REACTIONS",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>کونسی بیس پانی میں حل نہیں ہوتی؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which base is not soluble in water?</p>\r\n",
+      "UrduQuestionDetails": "<p>جب کوئی ری ایکشن آگے بڑھتا ہے تو ری ایکٹنٹس اور پروڈکٹس کا ارتکاز کس طرح تبدیل ہوتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>When a reaction proceeds ahead, how the concentrations of reactants and products change?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
-      "IsSameMcq": true,
+      "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 481745,
-          "QuestionID": 502004,
-          "UmOption": "<p>KOH</p>\r\n",
-          "EmOption": "<p>KOH</p>\r\n",
+          "OptionID": 527829,
+          "QuestionID": 501981,
+          "UmOption": "<p>ری ایکٹنٹس کے ارتکاز بڑھتے ہیں اور پروڈکٹس کے ارتکاز کم ہوتے ہیں۔</p>\r\n",
+          "EmOption": "<p>Concentration of reactants increases and that of the products decreases.</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481746,
-          "QuestionID": 502004,
-          "UmOption": "<p>Mg(OH)<sub>2</sub></p>\r\n",
-          "EmOption": "<p>Mg(OH)<sub>2</sub></p>\r\n",
+          "OptionID": 527830,
+          "QuestionID": 501981,
+          "UmOption": "<p>ری ایکٹنٹس کے ارتکاز کم ہوتے ہیں جبکہ پروڈکٹس کے ارتکاز بڑھتے ہیں۔</p>\r\n",
+          "EmOption": "<p>Concentration of reactants decreases and that of the products increases.</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481747,
-          "QuestionID": 502004,
-          "UmOption": "<p>NaOH</p>\r\n",
-          "EmOption": "<p>NaOH</p>\r\n",
+          "OptionID": 527831,
+          "QuestionID": 501981,
+          "UmOption": "<p>ری ایکٹنٹس اور پروڈکٹس دونوں کے ارتکاز کم ہوتے ہیں۔</p>\r\n",
+          "EmOption": "<p>Concentration of both reactants and products decreases.</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481748,
-          "QuestionID": 502004,
-          "UmOption": "<p>Na<sub>2</sub>CO<sub>3</sub></p>\r\n",
-          "EmOption": "<p>Na<sub>2</sub>CO<sub>3</sub></p>\r\n",
+          "OptionID": 527832,
+          "QuestionID": 501981,
+          "UmOption": "<p>ری ایکٹنٹس اور پروڈکٹس دونوں کے ارتکاز بڑھتے ہیں۔</p>\r\n",
+          "EmOption": "<p>Concentration of both reactants and products increases.</p>\r\n",
           "Answer": false
         }
       ],
@@ -1663,11 +1613,61 @@
       }
     },
     {
+      "QuestionID": 502004,
+      "SubjectID": 61,
+      "TopicID": 15070,
+      "TopicRef": "18.4",
+      "TopicName": "18.4 Soluble and Insoluble Salts",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کونسی بیس پانی میں حل نہیں ہوتی؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which base is not soluble in water?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 527877,
+          "QuestionID": 502004,
+          "UmOption": "<p>KOH</p>\r\n",
+          "EmOption": "<p>KOH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527878,
+          "QuestionID": 502004,
+          "UmOption": "<p>Mg(OH)<sub>2</sub></p>\r\n",
+          "EmOption": "<p>Mg(OH)<sub>2</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 527879,
+          "QuestionID": 502004,
+          "UmOption": "<p>NaOH</p>\r\n",
+          "EmOption": "<p>NaOH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527880,
+          "QuestionID": 502004,
+          "UmOption": "<p>Na<sub>2</sub>CO<sub>3</sub></p>\r\n",
+          "EmOption": "<p>Na<sub>2</sub>CO<sub>3</sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 502006,
       "SubjectID": 61,
-      "TopicID": 15067,
-      "TopicRef": "18.1",
-      "TopicName": "18.1 Arrangement of Ions in Salts",
+      "TopicID": 15070,
+      "TopicRef": "18.4",
+      "TopicName": "18.4 Soluble and Insoluble Salts",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>کون سے سالٹس پانی میں ہمیشہ حل پذیر ہوتے ہیں؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which salts are always soluble in water?</p>\r\n",
@@ -1677,28 +1677,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 481753,
+          "OptionID": 527889,
           "QuestionID": 502006,
           "UmOption": "<p>کلورائیڈز</p>\r\n",
           "EmOption": "<p>Chlorides</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481754,
+          "OptionID": 527890,
           "QuestionID": 502006,
           "UmOption": "<p>سلفیٹس</p>\r\n",
           "EmOption": "<p>Sulphates</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481755,
+          "OptionID": 527891,
           "QuestionID": 502006,
           "UmOption": "<p>نائٹریٹس</p>\r\n",
           "EmOption": "<p>Nitrates</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481756,
+          "OptionID": 527892,
           "QuestionID": 502006,
           "UmOption": "<p>کاربونیٹس</p>\r\n",
           "EmOption": "<p>Carbonates</p>\r\n",
@@ -1713,45 +1713,45 @@
       }
     },
     {
-      "QuestionID": 502007,
+      "QuestionID": 502008,
       "SubjectID": 61,
-      "TopicID": 15067,
-      "TopicRef": "18.1",
-      "TopicName": "18.1 Arrangement of Ions in Salts",
+      "TopicID": 15070,
+      "TopicRef": "18.4",
+      "TopicName": "18.4 Soluble and Insoluble Salts",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>جب ماربل کے ٹکڑوں کا مرتکز نائٹرک ایسڈ کے ساتھ ری ایکشن ہوگا تو کون سا سالٹ بنے گا؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which salt will be formed when marble pieces react with dilute nitric acid?</p>\r\n",
+      "UrduQuestionDetails": "<p>پانی میں نا حل پذیر سالٹ:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Water insoluble salt is:</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 481757,
-          "QuestionID": 502007,
-          "UmOption": "<p>سوڈیم نائٹریٹ</p>\r\n",
-          "EmOption": "<p>Sodium nitrate</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481758,
-          "QuestionID": 502007,
-          "UmOption": "<p>کیلشیم نائٹریٹ</p>\r\n",
-          "EmOption": "<p>Calcium nitrate</p>\r\n",
+          "OptionID": 527941,
+          "QuestionID": 502008,
+          "UmOption": "<p>کیلشیم سلفیٹ</p>\r\n",
+          "EmOption": "<p>Calcium sulphate</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481759,
-          "QuestionID": 502007,
-          "UmOption": "<p>پوٹاشیم نائٹریٹ</p>\r\n",
-          "EmOption": "<p>Potassium nitrate</p>\r\n",
+          "OptionID": 527942,
+          "QuestionID": 502008,
+          "UmOption": "<p>سوڈیم سلفیٹ</p>\r\n",
+          "EmOption": "<p>Sodium sulphate</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481760,
-          "QuestionID": 502007,
-          "UmOption": "<p>میگنیشیم نائٹریٹ</p>\r\n",
-          "EmOption": "<p>Magnesium nitrate</p>\r\n",
+          "OptionID": 527943,
+          "QuestionID": 502008,
+          "UmOption": "<p>پوٹاشیم سلفیٹ</p>\r\n",
+          "EmOption": "<p>Potassium sulphate</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527944,
+          "QuestionID": 502008,
+          "UmOption": "<p>میگنیشیم سلفیٹ</p>\r\n",
+          "EmOption": "<p>Magnesium sulphate</p>\r\n",
           "Answer": false
         }
       ],
@@ -1763,45 +1763,45 @@
       }
     },
     {
-      "QuestionID": 502008,
+      "QuestionID": 502007,
       "SubjectID": 61,
-      "TopicID": 15067,
-      "TopicRef": "18.1",
-      "TopicName": "18.1 Arrangement of Ions in Salts",
+      "TopicID": 15071,
+      "TopicRef": "18.5",
+      "TopicName": "18.5 Preparation of Soluble Salts",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>پانی میں نا حل پذیر سالٹ:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Water insoluble salt is:</p>\r\n",
+      "UrduQuestionDetails": "<p>جب ماربل کے ٹکڑوں کا مرتکز نائٹرک ایسڈ کے ساتھ ری ایکشن ہوگا تو کون سا سالٹ بنے گا؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which salt will be formed when marble pieces react with dilute nitric acid?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 481761,
-          "QuestionID": 502008,
-          "UmOption": "<p>کیلشیم سلفیٹ</p>\r\n",
-          "EmOption": "<p>Calcium sulphate</p>\r\n",
+          "OptionID": 527925,
+          "QuestionID": 502007,
+          "UmOption": "<p>سوڈیم نائٹریٹ</p>\r\n",
+          "EmOption": "<p>Sodium nitrate</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 527926,
+          "QuestionID": 502007,
+          "UmOption": "<p>کیلشیم نائٹریٹ</p>\r\n",
+          "EmOption": "<p>Calcium nitrate</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481762,
-          "QuestionID": 502008,
-          "UmOption": "<p>سوڈیم سلفیٹ</p>\r\n",
-          "EmOption": "<p>Sodium sulphate</p>\r\n",
+          "OptionID": 527927,
+          "QuestionID": 502007,
+          "UmOption": "<p>پوٹاشیم نائٹریٹ</p>\r\n",
+          "EmOption": "<p>Potassium nitrate</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481763,
-          "QuestionID": 502008,
-          "UmOption": "<p>پوٹاشیم سلفیٹ</p>\r\n",
-          "EmOption": "<p>Potassium sulphate</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481764,
-          "QuestionID": 502008,
-          "UmOption": "<p>میگنیشیم سلفیٹ</p>\r\n",
-          "EmOption": "<p>Magnesium sulphate</p>\r\n",
+          "OptionID": 527928,
+          "QuestionID": 502007,
+          "UmOption": "<p>میگنیشیم نائٹریٹ</p>\r\n",
+          "EmOption": "<p>Magnesium nitrate</p>\r\n",
           "Answer": false
         }
       ],
@@ -1863,106 +1863,6 @@
       }
     },
     {
-      "QuestionID": 502061,
-      "SubjectID": 61,
-      "TopicID": 15072,
-      "TopicRef": "19.1",
-      "TopicName": "19.1 Ammonia",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>سوڈیم، میگنیشیم سے زیادہ ری ایکٹو سمجھا جاتا ہے، کیونکہ:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Sodium is considered more reactive than magnesium because:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 481801,
-          "QuestionID": 502061,
-          "UmOption": "<p>یہ میگنیشیم سے زیادہ الیکٹرو پازیٹو ہے۔</p>\r\n",
-          "EmOption": "<p>It is more electropositive than magnesium</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 481802,
-          "QuestionID": 502061,
-          "UmOption": "<p>یہ پانی کے ساتھ آہستہ ری ایکشن کرتی ہے۔</p>\r\n",
-          "EmOption": "<p>It reacts with water slowly.</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481803,
-          "QuestionID": 502061,
-          "UmOption": "<p>یہ دوسرے گروپ میں پائی جاتی ہے۔</p>\r\n",
-          "EmOption": "<p>It is present in second group</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481804,
-          "QuestionID": 502061,
-          "UmOption": "<p>یہ کم میٹالک ہے۔</p>\r\n",
-          "EmOption": "<p>It is the less metallic</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502063,
-      "SubjectID": 61,
-      "TopicID": 15072,
-      "TopicRef": "19.1",
-      "TopicName": "19.1 Ammonia",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>سلفیورک ایسڈ کی تیاری کے دوران، SO<sub>3</sub> پانی کے بجائےH<sub>2</sub>SO<sub>4</sub> میں جذب کی جاتی ہے۔ کیونکہ:</p>\r\n",
-      "EnglishQuestionDetails": "<p>SO<sub>3</sub> is absorbed in H<sub>2</sub>SO<sub>4</sub> rather than H<sub>2</sub>O during the production of sulphuric acid because:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 481809,
-          "QuestionID": 502063,
-          "UmOption": "<p>SO<sub>3 </sub>کا پانی کے ساتھ ری ایکشن نہیں ہوتا۔</p>\r\n",
-          "EmOption": "<p>SO<sub>3</sub> does not react with H<sub>2</sub>O</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481810,
-          "QuestionID": 502063,
-          "UmOption": "<p>SO<sub>3 </sub>کا پانی کے ساتھ ری ایکشن بہت زیادہ ایکسو تھرمک ہوتا ہے۔ جس سے سلفیورک ایسڈ ایک دھند کی مانند پیدا ہوتا ہے جسے کنڈینس (Condense) کرنا بہت مشکل ہوتا ہے۔</p>\r\n",
-          "EmOption": "<p>Reaction of SO<sub>3</sub> with H<sub>2</sub>O is highly exothermic producing mist of H<sub>2</sub>SO<sub>4</sub> which is difficult to condense.</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 481811,
-          "QuestionID": 502063,
-          "UmOption": "<p>یہ H<sub>2</sub>SO<sub>4</sub> کی بہتر پیداوار فراہم کرتی ہے۔</p>\r\n",
-          "EmOption": "<p>It gives better yield of H<sub>2</sub>SO<sub>4</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481812,
-          "QuestionID": 502063,
-          "UmOption": "<p>SO<sub>3 </sub>کا پانی کے ساتھ ری ایکشن دھماکے کا سبب بن سکتا ہے۔</p>\r\n",
-          "EmOption": "<p>Reaction of SO<sub>3</sub> with H<sub>2</sub>O can cause explosion.</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 502059,
       "SubjectID": 61,
       "TopicID": 15073,
@@ -2002,6 +1902,56 @@
           "QuestionID": 502059,
           "UmOption": "<p>ری ایکشن کے ریٹ کو قابلِ ذکر حد تک کم کر دیتی ہیں۔</p>\r\n",
           "EmOption": "<p>Decrease the rate of reaction appreciably</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502063,
+      "SubjectID": 61,
+      "TopicID": 15073,
+      "TopicRef": "19.2",
+      "TopicName": "19.2 Sulphuric Acid",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سلفیورک ایسڈ کی تیاری کے دوران، SO<sub>3</sub> پانی کے بجائےH<sub>2</sub>SO<sub>4</sub> میں جذب کی جاتی ہے۔ کیونکہ:</p>\r\n",
+      "EnglishQuestionDetails": "<p>SO<sub>3</sub> is absorbed in H<sub>2</sub>SO<sub>4</sub> rather than H<sub>2</sub>O during the production of sulphuric acid because:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528025,
+          "QuestionID": 502063,
+          "UmOption": "<p>SO<sub>3 </sub>کا پانی کے ساتھ ری ایکشن نہیں ہوتا۔</p>\r\n",
+          "EmOption": "<p>SO<sub>3</sub> does not react with H<sub>2</sub>O</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528026,
+          "QuestionID": 502063,
+          "UmOption": "<p>SO<sub>3 </sub>کا پانی کے ساتھ ری ایکشن بہت زیادہ ایکسو تھرمک ہوتا ہے۔ جس سے سلفیورک ایسڈ ایک دھند کی مانند پیدا ہوتا ہے جسے کنڈینس (Condense) کرنا بہت مشکل ہوتا ہے۔</p>\r\n",
+          "EmOption": "<p>Reaction of SO<sub>3</sub> with H<sub>2</sub>O is highly exothermic producing mist of H<sub>2</sub>SO<sub>4</sub> which is difficult to condense.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528027,
+          "QuestionID": 502063,
+          "UmOption": "<p>یہ H<sub>2</sub>SO<sub>4</sub> کی بہتر پیداوار فراہم کرتی ہے۔</p>\r\n",
+          "EmOption": "<p>It gives better yield of H<sub>2</sub>SO<sub>4</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528028,
+          "QuestionID": 502063,
+          "UmOption": "<p>SO<sub>3 </sub>کا پانی کے ساتھ ری ایکشن دھماکے کا سبب بن سکتا ہے۔</p>\r\n",
+          "EmOption": "<p>Reaction of SO<sub>3</sub> with H<sub>2</sub>O can cause explosion.</p>\r\n",
           "Answer": false
         }
       ],
@@ -2113,6 +2063,56 @@
       }
     },
     {
+      "QuestionID": 502061,
+      "SubjectID": 61,
+      "TopicID": 15076,
+      "TopicRef": "19.5",
+      "TopicName": "19.5 Reactivity Series of metals",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سوڈیم، میگنیشیم سے زیادہ ری ایکٹو سمجھا جاتا ہے، کیونکہ:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Sodium is considered more reactive than magnesium because:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528021,
+          "QuestionID": 502061,
+          "UmOption": "<p>یہ میگنیشیم سے زیادہ الیکٹرو پازیٹو ہے۔</p>\r\n",
+          "EmOption": "<p>It is more electropositive than magnesium</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528022,
+          "QuestionID": 502061,
+          "UmOption": "<p>یہ پانی کے ساتھ آہستہ ری ایکشن کرتی ہے۔</p>\r\n",
+          "EmOption": "<p>It reacts with water slowly.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528023,
+          "QuestionID": 502061,
+          "UmOption": "<p>یہ دوسرے گروپ میں پائی جاتی ہے۔</p>\r\n",
+          "EmOption": "<p>It is present in second group</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528024,
+          "QuestionID": 502061,
+          "UmOption": "<p>یہ کم میٹالک ہے۔</p>\r\n",
+          "EmOption": "<p>It is the less metallic</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 502062,
       "SubjectID": 61,
       "TopicID": 15077,
@@ -2213,106 +2213,6 @@
       }
     },
     {
-      "QuestionID": 502113,
-      "SubjectID": 61,
-      "TopicID": 15078,
-      "TopicRef": "20.1",
-      "TopicName": "20.1 Water",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>پانی میں ناخوشگوار بو کو دور کیا جا سکتا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>The unpleasant odours in water can be removed by:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 498913,
-          "QuestionID": 502113,
-          "UmOption": "<p>کلورین کے ذریعے</p>\r\n",
-          "EmOption": "<p>Adding chlorine</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 498914,
-          "QuestionID": 502113,
-          "UmOption": "<p>ایکٹیویٹڈ چارکول کے ذریعے</p>\r\n",
-          "EmOption": "<p>Treating it with activated charcoal</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 498915,
-          "QuestionID": 502113,
-          "UmOption": "<p>سیڈیمینٹیشن کے ذریعے</p>\r\n",
-          "EmOption": "<p>Sedimentation</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 498916,
-          "QuestionID": 502113,
-          "UmOption": "<p>فلٹریشن کے ذریعے</p>\r\n",
-          "EmOption": "<p>Filtration</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502124,
-      "SubjectID": 61,
-      "TopicID": 15078,
-      "TopicRef": "20.1",
-      "TopicName": "20.1 Water",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>فضا میں موجود کون سی گیسیں ڈیفیوژن کے ذریعے قدرتی پانی میں جذب ہوتی ہیں؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which gases are dissolved in natural water from the atmosphere through diffusion?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 481861,
-          "QuestionID": 502124,
-          "UmOption": "<p>O<sub>2</sub> اور CO<sub>2</sub></p>\r\n",
-          "EmOption": "<p>O<sub>2</sub> and CO<sub>2</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481862,
-          "QuestionID": 502124,
-          "UmOption": "<p>N<sub>2</sub> اور CO<sub>2</sub></p>\r\n",
-          "EmOption": "<p>N<sub>2</sub> and CO<sub>2</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481863,
-          "QuestionID": 502124,
-          "UmOption": "<p>O<sub>2</sub> اور N<sub>2</sub></p>\r\n",
-          "EmOption": "<p>O<sub>2</sub> and N<sub>2</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481864,
-          "QuestionID": 502124,
-          "UmOption": "<p>O<sub>2 </sub>، N<sub>2</sub> اور CO<sub>2</sub></p>\r\n",
-          "EmOption": "<p>O<sub>2</sub> , N<sub>2</sub> and CO<sub>2</sub></p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 502102,
       "SubjectID": 61,
       "TopicID": 15080,
@@ -2402,6 +2302,106 @@
           "QuestionID": 502114,
           "UmOption": "<p>چٹانوں میں موجود جراثیم</p>\r\n",
           "EmOption": "<p>Microbes in rocks</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502124,
+      "SubjectID": 61,
+      "TopicID": 15081,
+      "TopicRef": "20.4",
+      "TopicName": "20.4 SUBSTANCES PRESENT IN WATER obtained from natural sources",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>فضا میں موجود کون سی گیسیں ڈیفیوژن کے ذریعے قدرتی پانی میں جذب ہوتی ہیں؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which gases are dissolved in natural water from the atmosphere through diffusion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528073,
+          "QuestionID": 502124,
+          "UmOption": "<p>O<sub>2</sub> اور CO<sub>2</sub></p>\r\n",
+          "EmOption": "<p>O<sub>2</sub> and CO<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528074,
+          "QuestionID": 502124,
+          "UmOption": "<p>N<sub>2</sub> اور CO<sub>2</sub></p>\r\n",
+          "EmOption": "<p>N<sub>2</sub> and CO<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528075,
+          "QuestionID": 502124,
+          "UmOption": "<p>O<sub>2</sub> اور N<sub>2</sub></p>\r\n",
+          "EmOption": "<p>O<sub>2</sub> and N<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528076,
+          "QuestionID": 502124,
+          "UmOption": "<p>O<sub>2 </sub>، N<sub>2</sub> اور CO<sub>2</sub></p>\r\n",
+          "EmOption": "<p>O<sub>2</sub> , N<sub>2</sub> and CO<sub>2</sub></p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502113,
+      "SubjectID": 61,
+      "TopicID": 15082,
+      "TopicRef": "20.5",
+      "TopicName": "20.5 Treatment of Domestic Water Supply",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پانی میں ناخوشگوار بو کو دور کیا جا سکتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>The unpleasant odours in water can be removed by:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528037,
+          "QuestionID": 502113,
+          "UmOption": "<p>کلورین کے ذریعے</p>\r\n",
+          "EmOption": "<p>Adding chlorine</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528038,
+          "QuestionID": 502113,
+          "UmOption": "<p>ایکٹیویٹڈ چارکول کے ذریعے</p>\r\n",
+          "EmOption": "<p>Treating it with activated charcoal</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528039,
+          "QuestionID": 502113,
+          "UmOption": "<p>سیڈیمینٹیشن کے ذریعے</p>\r\n",
+          "EmOption": "<p>Sedimentation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528040,
+          "QuestionID": 502113,
+          "UmOption": "<p>فلٹریشن کے ذریعے</p>\r\n",
+          "EmOption": "<p>Filtration</p>\r\n",
           "Answer": false
         }
       ],
@@ -2615,9 +2615,9 @@
     {
       "QuestionID": 502189,
       "SubjectID": 61,
-      "TopicID": 15088,
-      "TopicRef": "21.1",
-      "TopicName": "21.1 Classifications of Organic Compounds",
+      "TopicID": 15089,
+      "TopicRef": "21.2",
+      "TopicName": "21.2 Structural Formula",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>درج ذیل میں سے کس میں ایتھنول کا ڈسپلیڈ فارمولا دکھایا گیا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which is the displayed formula of ethanol?</p>\r\n",
@@ -2627,28 +2627,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 484009,
+          "OptionID": 528093,
           "QuestionID": 502189,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq6.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq6.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484010,
+          "OptionID": 528094,
           "QuestionID": 502189,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq7.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq7.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484011,
+          "OptionID": 528095,
           "QuestionID": 502189,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq8.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq8.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 484012,
+          "OptionID": 528096,
           "QuestionID": 502189,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq9.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq9.svg\" /></p>\r\n",
@@ -2663,61 +2663,11 @@
       }
     },
     {
-      "QuestionID": 502194,
-      "SubjectID": 61,
-      "TopicID": 15088,
-      "TopicRef": "21.1",
-      "TopicName": "21.1 Classifications of Organic Compounds",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>مندرجہ ذیل میں سے ایلڈیہائیڈ فنکشنل گروپ کی نشاندہی کریں:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Identify the aldehydic functional group among the following:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 484013,
-          "QuestionID": 502194,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq10.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq10.svg\" /></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484014,
-          "QuestionID": 502194,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq11.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq11.svg\" /></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484015,
-          "QuestionID": 502194,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq12.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq12.svg\" /></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484016,
-          "QuestionID": 502194,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq13.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq13.svg\" /></p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 502197,
       "SubjectID": 61,
-      "TopicID": 15088,
-      "TopicRef": "21.1",
-      "TopicName": "21.1 Classifications of Organic Compounds",
+      "TopicID": 15090,
+      "TopicRef": "21.3",
+      "TopicName": "21.3 Homologous Series",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>الکائن فیملی کا جنرل فارمولا بتائیں:</p>\r\n",
       "EnglishQuestionDetails": "<p>Select the general formula of alkyne family:</p>\r\n",
@@ -2727,28 +2677,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 481933,
+          "OptionID": 528109,
           "QuestionID": 502197,
           "UmOption": "<p>C<sub>n</sub>H<sub>2n+1</sub></p>\r\n",
           "EmOption": "<p>C<sub>n</sub>H<sub>2n+1</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481934,
+          "OptionID": 528110,
           "QuestionID": 502197,
           "UmOption": "<p>C<sub>n</sub>H<sub>2n</sub></p>\r\n",
           "EmOption": "<p>C<sub>n</sub>H<sub>2n</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481935,
+          "OptionID": 528111,
           "QuestionID": 502197,
           "UmOption": "<p>C<sub>n</sub>H<sub>2n-2</sub></p>\r\n",
           "EmOption": "<p>C<sub>n</sub>H<sub>2n-2</sub></p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481936,
+          "OptionID": 528112,
           "QuestionID": 502197,
           "UmOption": "<p>C<sub>n</sub>H<sub>2n-1</sub></p>\r\n",
           "EmOption": "<p>C<sub>n</sub>H<sub>2n-1</sub></p>\r\n",
@@ -2765,9 +2715,9 @@
     {
       "QuestionID": 502198,
       "SubjectID": 61,
-      "TopicID": 15088,
-      "TopicRef": "21.1",
-      "TopicName": "21.1 Classifications of Organic Compounds",
+      "TopicID": 15091,
+      "TopicRef": "21.4",
+      "TopicName": "21.4 Isomerism",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>پانچ کاربن ایٹموں والے سیچوریٹڈ ہائیڈروکاربن کے لیے کتنے سٹرکچرل آئسومرز ہوں گے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>How many structural isomers will be there for a saturated hydrocarbon having five carbon atoms?</p>\r\n",
@@ -2777,28 +2727,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 481937,
+          "OptionID": 528113,
           "QuestionID": 502198,
           "UmOption": "<p>2</p>\r\n",
           "EmOption": "<p>2</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481938,
+          "OptionID": 528114,
           "QuestionID": 502198,
           "UmOption": "<p>3</p>\r\n",
           "EmOption": "<p>3</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481939,
+          "OptionID": 528115,
           "QuestionID": 502198,
           "UmOption": "<p>4</p>\r\n",
           "EmOption": "<p>4</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481940,
+          "OptionID": 528116,
           "QuestionID": 502198,
           "UmOption": "<p>5</p>\r\n",
           "EmOption": "<p>5</p>\r\n",
@@ -2813,11 +2763,61 @@
       }
     },
     {
+      "QuestionID": 502194,
+      "SubjectID": 61,
+      "TopicID": 15092,
+      "TopicRef": "21.5",
+      "TopicName": "21.5 Functional Group",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مندرجہ ذیل میں سے ایلڈیہائیڈ فنکشنل گروپ کی نشاندہی کریں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Identify the aldehydic functional group among the following:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 528101,
+          "QuestionID": 502194,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq10.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq10.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528102,
+          "QuestionID": 502194,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq11.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq11.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528103,
+          "QuestionID": 502194,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq12.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq12.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528104,
+          "QuestionID": 502194,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq13.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq13.svg\" /></p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 502199,
       "SubjectID": 61,
-      "TopicID": 15088,
-      "TopicRef": "21.1",
-      "TopicName": "21.1 Classifications of Organic Compounds",
+      "TopicID": 15093,
+      "TopicRef": "21.6",
+      "TopicName": "21.6 Naming Organic Compounds",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>مندرجہ ذیل میں سے کون سا ایسٹر ایتھائل پروپانوایٹ کہلائے گا؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which ester among the following will be called ethyl propanoate?</p>\r\n",
@@ -2827,28 +2827,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 501021,
+          "OptionID": 528117,
           "QuestionID": 502199,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-44.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-44.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 501022,
+          "OptionID": 528118,
           "QuestionID": 502199,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq15.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq15.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 501023,
+          "OptionID": 528119,
           "QuestionID": 502199,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq16.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq16.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 501024,
+          "OptionID": 528120,
           "QuestionID": 502199,
           "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq17.svg\" /></p>\r\n",
           "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-eq17.svg\" /></p>\r\n",
@@ -2865,9 +2865,9 @@
     {
       "QuestionID": 502200,
       "SubjectID": 61,
-      "TopicID": 15088,
-      "TopicRef": "21.1",
-      "TopicName": "21.1 Classifications of Organic Compounds",
+      "TopicID": 15093,
+      "TopicRef": "21.6",
+      "TopicName": "21.6 Naming Organic Compounds",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>الکینز (Alkenes) میں کون سا فنکشنل گروپ موجود ہوتا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which functional group is present in alkenes?</p>\r\n",
@@ -2877,332 +2877,32 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 481945,
+          "OptionID": 528121,
           "QuestionID": 502200,
           "UmOption": "<p>کوئی فنکشنل گروپ نہیں</p>\r\n",
           "EmOption": "<p>No functional group</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481946,
+          "OptionID": 528122,
           "QuestionID": 502200,
           "UmOption": "<p>کاربن-کاربن ٹرپل بانڈ</p>\r\n",
           "EmOption": "<p>Carbon-carbon triple bond</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 481947,
+          "OptionID": 528123,
           "QuestionID": 502200,
           "UmOption": "<p>کاربن-کاربن ڈبل بانڈ</p>\r\n",
           "EmOption": "<p>Carbon-carbon double bond</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 481948,
+          "OptionID": 528124,
           "QuestionID": 502200,
           "UmOption": "<p>کاربن-کاربن سنگل بانڈ</p>\r\n",
           "EmOption": "<p>Carbon-carbon single bond</p>\r\n",
           "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502227,
-      "SubjectID": 61,
-      "TopicID": 15094,
-      "TopicRef": "22.1",
-      "TopicName": "22.1 Alkenes",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>مندرجہ ذیل کمپاؤنڈز میں سے کس سے ایڈیشن ری ایکشن کی توقع ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which of the following compounds is expected to give addition reaction?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 481953,
-          "QuestionID": 502227,
-          "UmOption": "<p>CH<sub>3</sub> – CH<sub>3</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>3</sub> – CH<sub>3</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481954,
-          "QuestionID": 502227,
-          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 481955,
-          "QuestionID": 502227,
-          "UmOption": "<p>CH<sub>4</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>4</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481956,
-          "QuestionID": 502227,
-          "UmOption": "<p>CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>3</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>3</sub></p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502228,
-      "SubjectID": 61,
-      "TopicID": 15094,
-      "TopicRef": "22.1",
-      "TopicName": "22.1 Alkenes",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>مندرجہ ذیل میں سے کون بطور ایندھن استعمال نہیں ہوتا:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which of the followings is not used as a fuel?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 481957,
-          "QuestionID": 502228,
-          "UmOption": "<p>ایل۔پی۔جی</p>\r\n",
-          "EmOption": "<p>LPG</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481958,
-          "QuestionID": 502228,
-          "UmOption": "<p>سی۔این۔جی</p>\r\n",
-          "EmOption": "<p>CNG</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481959,
-          "QuestionID": 502228,
-          "UmOption": "<p>ڈیزل</p>\r\n",
-          "EmOption": "<p>Diesel</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481960,
-          "QuestionID": 502228,
-          "UmOption": "<p>ایسفالٹ</p>\r\n",
-          "EmOption": "<p>Asphalt</p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502229,
-      "SubjectID": 61,
-      "TopicID": 15094,
-      "TopicRef": "22.1",
-      "TopicName": "22.1 Alkenes",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>درج ذیل ری ایکشن کی قسم کی نشاندہی کریں:</p>\r\n\r\n<p><img alt=\"\" src=\"/equations/10th/chemnew-chap22-eq5.svg\" /></p>\r\n",
-      "EnglishQuestionDetails": "<p>Indicate the type of the following reaction:</p>\r\n\r\n<p><img alt=\"\" src=\"/equations/10th/chemnew-chap22-eq5.svg\" /></p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 484029,
-          "QuestionID": 502229,
-          "UmOption": "<p>سب سٹی ٹیوشن</p>\r\n",
-          "EmOption": "<p>Substitution</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484030,
-          "QuestionID": 502229,
-          "UmOption": "<p>ریڈکشن</p>\r\n",
-          "EmOption": "<p>Oxidation</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484031,
-          "QuestionID": 502229,
-          "UmOption": "<p>آکسیڈیشن</p>\r\n",
-          "EmOption": "<p>Reduction</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 484032,
-          "QuestionID": 502229,
-          "UmOption": "<p>ایڈیشن</p>\r\n",
-          "EmOption": "<p>Addition</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502232,
-      "SubjectID": 61,
-      "TopicID": 15094,
-      "TopicRef": "22.1",
-      "TopicName": "22.1 Alkenes",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>کون سا کمپاؤنڈ ایتھین اور KMnO<sub>4</sub> کے درمیان ری ایکشن میں بطور ریڈیوسنگ ایجنٹ کام کرتا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which species acts as a reducing agent in the reaction between ethene and KMnO<sub>4</sub>?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 481973,
-          "QuestionID": 502232,
-          "UmOption": "<p>H<sub>2</sub>O</p>\r\n",
-          "EmOption": "<p>H<sub>2</sub>O</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481974,
-          "QuestionID": 502232,
-          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 481975,
-          "QuestionID": 502232,
-          "UmOption": "<p>KMnO<sub>4</sub></p>\r\n",
-          "EmOption": "<p>KMnO<sub>4</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481976,
-          "QuestionID": 502232,
-          "UmOption": "<p>NaOH</p>\r\n",
-          "EmOption": "<p>NaOH</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502234,
-      "SubjectID": 61,
-      "TopicID": 15094,
-      "TopicRef": "22.1",
-      "TopicName": "22.1 Alkenes",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>جب پروپین (Propene)، برومین مالیکیول کے ساتھ ری ایکشن کرے گی تو کون سا پروڈکٹ بنے گا؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>The product which will be formed when propene reacts with bromine molecule:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 481981,
-          "QuestionID": 502234,
-          "UmOption": "<p>2،1-ڈائی برومو پروپین</p>\r\n",
-          "EmOption": "<p>1,2-Dibromopropane</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481982,
-          "QuestionID": 502234,
-          "UmOption": "<p>1،1-ڈائی برومو پروپین</p>\r\n",
-          "EmOption": "<p>1,1-Dibromopropane</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481983,
-          "QuestionID": 502234,
-          "UmOption": "<p>3،2-ڈائی برومو پروپین</p>\r\n",
-          "EmOption": "<p>2,3-Dibromopropane</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481984,
-          "QuestionID": 502234,
-          "UmOption": "<p>3،1-ڈائی برومو پروپین</p>\r\n",
-          "EmOption": "<p>1,3-Dibromopropane</p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502236,
-      "SubjectID": 61,
-      "TopicID": 15094,
-      "TopicRef": "22.1",
-      "TopicName": "22.1 Alkenes",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>پیٹرولیم کے اس حصے کا نام منتخب کریں جو پاور پلانٹس میں بجلی پیدا کرتا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Select the name of the petroleum fraction which generates electricity in power plants:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 481989,
-          "QuestionID": 502236,
-          "UmOption": "<p>تارکول</p>\r\n",
-          "EmOption": "<p>Bitumen</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481990,
-          "QuestionID": 502236,
-          "UmOption": "<p>لبری کیٹنگ آئل</p>\r\n",
-          "EmOption": "<p>Lubricating oil</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481991,
-          "QuestionID": 502236,
-          "UmOption": "<p>کیروسین آئل</p>\r\n",
-          "EmOption": "<p>Kerosene oil</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 481992,
-          "QuestionID": 502236,
-          "UmOption": "<p>فیول آئل</p>\r\n",
-          "EmOption": "<p>Fuel oil</p>\r\n",
-          "Answer": true
         }
       ],
       "_exportMeta": {
@@ -3263,11 +2963,311 @@
       }
     },
     {
+      "QuestionID": 502227,
+      "SubjectID": 61,
+      "TopicID": 15095,
+      "TopicRef": "22.2",
+      "TopicName": "22.2 Important Reactions of Alkenes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مندرجہ ذیل کمپاؤنڈز میں سے کس سے ایڈیشن ری ایکشن کی توقع ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which of the following compounds is expected to give addition reaction?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 528129,
+          "QuestionID": 502227,
+          "UmOption": "<p>CH<sub>3</sub> – CH<sub>3</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>3</sub> – CH<sub>3</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528130,
+          "QuestionID": 502227,
+          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528131,
+          "QuestionID": 502227,
+          "UmOption": "<p>CH<sub>4</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>4</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528132,
+          "QuestionID": 502227,
+          "UmOption": "<p>CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>3</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>3</sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502232,
+      "SubjectID": 61,
+      "TopicID": 15095,
+      "TopicRef": "22.2",
+      "TopicName": "22.2 Important Reactions of Alkenes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کون سا کمپاؤنڈ ایتھین اور KMnO<sub>4</sub> کے درمیان ری ایکشن میں بطور ریڈیوسنگ ایجنٹ کام کرتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which species acts as a reducing agent in the reaction between ethene and KMnO<sub>4</sub>?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 528153,
+          "QuestionID": 502232,
+          "UmOption": "<p>H<sub>2</sub>O</p>\r\n",
+          "EmOption": "<p>H<sub>2</sub>O</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528154,
+          "QuestionID": 502232,
+          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528155,
+          "QuestionID": 502232,
+          "UmOption": "<p>KMnO<sub>4</sub></p>\r\n",
+          "EmOption": "<p>KMnO<sub>4</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528156,
+          "QuestionID": 502232,
+          "UmOption": "<p>NaOH</p>\r\n",
+          "EmOption": "<p>NaOH</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502234,
+      "SubjectID": 61,
+      "TopicID": 15095,
+      "TopicRef": "22.2",
+      "TopicName": "22.2 Important Reactions of Alkenes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>جب پروپین (Propene)، برومین مالیکیول کے ساتھ ری ایکشن کرے گی تو کون سا پروڈکٹ بنے گا؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>The product which will be formed when propene reacts with bromine molecule:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528165,
+          "QuestionID": 502234,
+          "UmOption": "<p>2،1-ڈائی برومو پروپین</p>\r\n",
+          "EmOption": "<p>1,2-Dibromopropane</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528166,
+          "QuestionID": 502234,
+          "UmOption": "<p>1،1-ڈائی برومو پروپین</p>\r\n",
+          "EmOption": "<p>1,1-Dibromopropane</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528167,
+          "QuestionID": 502234,
+          "UmOption": "<p>3،2-ڈائی برومو پروپین</p>\r\n",
+          "EmOption": "<p>2,3-Dibromopropane</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528168,
+          "QuestionID": 502234,
+          "UmOption": "<p>3،1-ڈائی برومو پروپین</p>\r\n",
+          "EmOption": "<p>1,3-Dibromopropane</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502229,
+      "SubjectID": 61,
+      "TopicID": 15096,
+      "TopicRef": "22.3",
+      "TopicName": "22.3 Alkynes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل ری ایکشن کی قسم کی نشاندہی کریں:</p>\r\n\r\n<p><img alt=\"\" src=\"/equations/10th/chemnew-chap22-eq5.svg\" /></p>\r\n",
+      "EnglishQuestionDetails": "<p>Indicate the type of the following reaction:</p>\r\n\r\n<p><img alt=\"\" src=\"/equations/10th/chemnew-chap22-eq5.svg\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528145,
+          "QuestionID": 502229,
+          "UmOption": "<p>سب سٹی ٹیوشن</p>\r\n",
+          "EmOption": "<p>Substitution</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528146,
+          "QuestionID": 502229,
+          "UmOption": "<p>ریڈکشن</p>\r\n",
+          "EmOption": "<p>Oxidation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528147,
+          "QuestionID": 502229,
+          "UmOption": "<p>آکسیڈیشن</p>\r\n",
+          "EmOption": "<p>Reduction</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528148,
+          "QuestionID": 502229,
+          "UmOption": "<p>ایڈیشن</p>\r\n",
+          "EmOption": "<p>Addition</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502228,
+      "SubjectID": 61,
+      "TopicID": 15098,
+      "TopicRef": "22.5",
+      "TopicName": "22.5 Refining of Petroleum",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>مندرجہ ذیل میں سے کون بطور ایندھن استعمال نہیں ہوتا:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which of the followings is not used as a fuel?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528137,
+          "QuestionID": 502228,
+          "UmOption": "<p>ایل۔پی۔جی</p>\r\n",
+          "EmOption": "<p>LPG</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528138,
+          "QuestionID": 502228,
+          "UmOption": "<p>سی۔این۔جی</p>\r\n",
+          "EmOption": "<p>CNG</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528139,
+          "QuestionID": 502228,
+          "UmOption": "<p>ڈیزل</p>\r\n",
+          "EmOption": "<p>Diesel</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528140,
+          "QuestionID": 502228,
+          "UmOption": "<p>ایسفالٹ</p>\r\n",
+          "EmOption": "<p>Asphalt</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502236,
+      "SubjectID": 61,
+      "TopicID": 15098,
+      "TopicRef": "22.5",
+      "TopicName": "22.5 Refining of Petroleum",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>پیٹرولیم کے اس حصے کا نام منتخب کریں جو پاور پلانٹس میں بجلی پیدا کرتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Select the name of the petroleum fraction which generates electricity in power plants:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528169,
+          "QuestionID": 502236,
+          "UmOption": "<p>تارکول</p>\r\n",
+          "EmOption": "<p>Bitumen</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528170,
+          "QuestionID": 502236,
+          "UmOption": "<p>لبری کیٹنگ آئل</p>\r\n",
+          "EmOption": "<p>Lubricating oil</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528171,
+          "QuestionID": 502236,
+          "UmOption": "<p>کیروسین آئل</p>\r\n",
+          "EmOption": "<p>Kerosene oil</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528172,
+          "QuestionID": 502236,
+          "UmOption": "<p>فیول آئل</p>\r\n",
+          "EmOption": "<p>Fuel oil</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 502239,
       "SubjectID": 61,
-      "TopicID": 15094,
-      "TopicRef": "22.1",
-      "TopicName": "22.1 Alkenes",
+      "TopicID": 15098,
+      "TopicRef": "22.5",
+      "TopicName": "22.5 Refining of Petroleum",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>پیٹرولیم کی جزوی کشید کی بنیاد ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>Fractional distillation of petroleum is based on:</p>\r\n",
@@ -3277,28 +3277,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482001,
+          "OptionID": 528173,
           "QuestionID": 502239,
           "UmOption": "<p>وسکوسیٹی</p>\r\n",
           "EmOption": "<p>Viscosity</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482002,
+          "OptionID": 528174,
           "QuestionID": 502239,
           "UmOption": "<p>بوائلنگ پوائنٹ رینج</p>\r\n",
           "EmOption": "<p>Boiling point range</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482003,
+          "OptionID": 528175,
           "QuestionID": 502239,
           "UmOption": "<p>آگ پکڑنے کی طاقت</p>\r\n",
           "EmOption": "<p>Flammability</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482004,
+          "OptionID": 528176,
           "QuestionID": 502239,
           "UmOption": "<p>میلٹنگ پوائنٹ رینج</p>\r\n",
           "EmOption": "<p style=\"text-align: justify;\">Melting point range</p>\r\n",
@@ -3413,156 +3413,6 @@
       }
     },
     {
-      "QuestionID": 502269,
-      "SubjectID": 61,
-      "TopicID": 15099,
-      "TopicRef": "23.1",
-      "TopicName": "23.1 MANUFACTURE OF ETHYL ALCOHOL",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>الکوحل جس کے جلنے سے سب سے زیادہ حرارت خارج ہوتی ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Alcohol which has the maximum heat of combustion is:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 482057,
-          "QuestionID": 502269,
-          "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
-          "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482058,
-          "QuestionID": 502269,
-          "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
-          "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482059,
-          "QuestionID": 502269,
-          "UmOption": "<p>CH<sub>3</sub>OH</p>\r\n",
-          "EmOption": "<p>CH<sub>3</sub>OH</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482060,
-          "QuestionID": 502269,
-          "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
-          "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
-          "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502270,
-      "SubjectID": 61,
-      "TopicID": 15099,
-      "TopicRef": "23.1",
-      "TopicName": "23.1 MANUFACTURE OF ETHYL ALCOHOL",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>سب سے زیادہ ماحول دوست ایندھن ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>The most environment friendly fuel is:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 482065,
-          "QuestionID": 502270,
-          "UmOption": "<p>کوئلہ</p>\r\n",
-          "EmOption": "<p>Coal</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482066,
-          "QuestionID": 502270,
-          "UmOption": "<p>کیروسین آئل</p>\r\n",
-          "EmOption": "<p>Kerosene oil</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482067,
-          "QuestionID": 502270,
-          "UmOption": "<p>ایتھانول</p>\r\n",
-          "EmOption": "<p>Ethanol</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 482068,
-          "QuestionID": 502270,
-          "UmOption": "<p>لکڑی</p>\r\n",
-          "EmOption": "<p>Wood</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502271,
-      "SubjectID": 61,
-      "TopicID": 15099,
-      "TopicRef": "23.1",
-      "TopicName": "23.1 MANUFACTURE OF ETHYL ALCOHOL",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>ایتھانول کی کون سی خاصیت اسے کاسمیٹک انڈسٹری میں استعمال کرنے کے لیے موزوں بناتی ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which property or properties of ethanol make it suitable to be used in cosmetic industry?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 482069,
-          "QuestionID": 502271,
-          "UmOption": "<p>آسان آتش گیر مادہ</p>\r\n",
-          "EmOption": "<p>Easily Flammable</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482070,
-          "QuestionID": 502271,
-          "UmOption": "<p>نہایت غیر مستحکم اور خوشبودار</p>\r\n",
-          "EmOption": "<p>Highly volatile and deodorizing</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 482071,
-          "QuestionID": 502271,
-          "UmOption": "<p>اینٹی پائرٹیک / بخار کم کرنے والی دوا</p>\r\n",
-          "EmOption": "<p>Antipyretic</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482072,
-          "QuestionID": 502271,
-          "UmOption": "<p>سکون اور دوا</p>\r\n",
-          "EmOption": "<p>Sedative</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 502273,
       "SubjectID": 61,
       "TopicID": 15099,
@@ -3613,11 +3463,161 @@
       }
     },
     {
+      "QuestionID": 502269,
+      "SubjectID": 61,
+      "TopicID": 15100,
+      "TopicRef": "23.2",
+      "TopicName": "23.2 Combustion of Alcohols",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>الکوحل جس کے جلنے سے سب سے زیادہ حرارت خارج ہوتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Alcohol which has the maximum heat of combustion is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 528213,
+          "QuestionID": 502269,
+          "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
+          "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528214,
+          "QuestionID": 502269,
+          "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
+          "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528215,
+          "QuestionID": 502269,
+          "UmOption": "<p>CH<sub>3</sub>OH</p>\r\n",
+          "EmOption": "<p>CH<sub>3</sub>OH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528216,
+          "QuestionID": 502269,
+          "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
+          "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502270,
+      "SubjectID": 61,
+      "TopicID": 15101,
+      "TopicRef": "23.3",
+      "TopicName": "23.3 Applications of Alcohols as Fuels",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سب سے زیادہ ماحول دوست ایندھن ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>The most environment friendly fuel is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528217,
+          "QuestionID": 502270,
+          "UmOption": "<p>کوئلہ</p>\r\n",
+          "EmOption": "<p>Coal</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528218,
+          "QuestionID": 502270,
+          "UmOption": "<p>کیروسین آئل</p>\r\n",
+          "EmOption": "<p>Kerosene oil</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528219,
+          "QuestionID": 502270,
+          "UmOption": "<p>ایتھانول</p>\r\n",
+          "EmOption": "<p>Ethanol</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528220,
+          "QuestionID": 502270,
+          "UmOption": "<p>لکڑی</p>\r\n",
+          "EmOption": "<p>Wood</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502271,
+      "SubjectID": 61,
+      "TopicID": 15102,
+      "TopicRef": "23.4",
+      "TopicName": "23.4 Role of Ethanol in Industries",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>ایتھانول کی کون سی خاصیت اسے کاسمیٹک انڈسٹری میں استعمال کرنے کے لیے موزوں بناتی ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which property or properties of ethanol make it suitable to be used in cosmetic industry?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528221,
+          "QuestionID": 502271,
+          "UmOption": "<p>آسان آتش گیر مادہ</p>\r\n",
+          "EmOption": "<p>Easily Flammable</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528222,
+          "QuestionID": 502271,
+          "UmOption": "<p>نہایت غیر مستحکم اور خوشبودار</p>\r\n",
+          "EmOption": "<p>Highly volatile and deodorizing</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528223,
+          "QuestionID": 502271,
+          "UmOption": "<p>اینٹی پائرٹیک / بخار کم کرنے والی دوا</p>\r\n",
+          "EmOption": "<p>Antipyretic</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528224,
+          "QuestionID": 502271,
+          "UmOption": "<p>سکون اور دوا</p>\r\n",
+          "EmOption": "<p>Sedative</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 502278,
       "SubjectID": 61,
-      "TopicID": 15099,
-      "TopicRef": "23.1",
-      "TopicName": "23.1 MANUFACTURE OF ETHYL ALCOHOL",
+      "TopicID": 15103,
+      "TopicRef": "23.5",
+      "TopicName": "23.5 Impact of Alcohols on Daily life",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>ایتھانول کی کون سی خوبی اسے زخموں کی صفائی کے لیے موزوں بناتی ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>Which property of ethanol makes it suitable for cleaning wounds?</p>\r\n",
@@ -3627,28 +3627,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482077,
+          "OptionID": 528285,
           "QuestionID": 502278,
           "UmOption": "<p>سالوینٹ</p>\r\n",
           "EmOption": "<p>Good solvent</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482078,
+          "OptionID": 528286,
           "QuestionID": 502278,
           "UmOption": "<p>وولٹیلیٹی</p>\r\n",
           "EmOption": "<p>Volatility</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482079,
+          "OptionID": 528287,
           "QuestionID": 502278,
           "UmOption": "<p>جراثیم کش</p>\r\n",
           "EmOption": "<p>Antiseptic</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482080,
+          "OptionID": 528288,
           "QuestionID": 502278,
           "UmOption": "<p>نابد بودار</p>\r\n",
           "EmOption": "<p>Deodorizing</p>\r\n",
@@ -3665,9 +3665,9 @@
     {
       "QuestionID": 502284,
       "SubjectID": 61,
-      "TopicID": 15099,
-      "TopicRef": "23.1",
-      "TopicName": "23.1 MANUFACTURE OF ETHYL ALCOHOL",
+      "TopicID": 15103,
+      "TopicRef": "23.5",
+      "TopicName": "23.5 Impact of Alcohols on Daily life",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>درج ذیل تمام کاموں کو سرانجام دینے کے لیے کون سا الکوحل استعمال ہوتا ہے؟</p>\r\n\r\n<p>\"کمبسٹن کو بہتر بنانے کے لیے پٹرول میں شامل کیا جاتا ہے، یہ سرکہ اور دیگر آرگینک کمپاؤنڈز بنانے کے لیے فیڈ اسٹاک کے طور پر کام کرتا ہے:\" </p>\r\n",
       "EnglishQuestionDetails": "<p>Which alcohol is used to accomplish all the following tasks:</p>\r\n\r\n<p>It is added in petrol to improve combustion. It serves as a feed stock to prepare vinegar and many other organic compounds.</p>\r\n",
@@ -3677,81 +3677,31 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482081,
+          "OptionID": 528317,
           "QuestionID": 502284,
           "UmOption": "<p>پروپینول</p>\r\n",
           "EmOption": "<p>Propanol</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482082,
+          "OptionID": 528318,
           "QuestionID": 502284,
           "UmOption": "<p>پروپین-2-اول</p>\r\n",
           "EmOption": "<p>Propan-2-ol</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482083,
+          "OptionID": 528319,
           "QuestionID": 502284,
           "UmOption": "<p>ایتھانول</p>\r\n",
           "EmOption": "<p>Ethanol</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482084,
+          "OptionID": 528320,
           "QuestionID": 502284,
           "UmOption": "<p>میتھانول</p>\r\n",
           "EmOption": "<p>Methanol</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502316,
-      "SubjectID": 61,
-      "TopicID": 15104,
-      "TopicRef": "24.1",
-      "TopicName": "24.1  Preparation of Acetic Acid or Ethanoic Acid",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>ایسٹر فنکشنل گروپ کی نشاندہی کریں:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Identify the ester functional group:</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 501013,
-          "QuestionID": 502316,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-39.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-39.svg\" /></p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 501014,
-          "QuestionID": 502316,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-40.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-40.svg\" /></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 501015,
-          "QuestionID": 502316,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-38.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-38.svg\" /></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 501016,
-          "QuestionID": 502316,
-          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-41.svg\" /></p>\r\n",
-          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-41.svg\" /></p>\r\n",
           "Answer": false
         }
       ],
@@ -3863,96 +3813,46 @@
       }
     },
     {
-      "QuestionID": 502326,
+      "QuestionID": 502316,
       "SubjectID": 61,
-      "TopicID": 15104,
-      "TopicRef": "24.1",
-      "TopicName": "24.1  Preparation of Acetic Acid or Ethanoic Acid",
+      "TopicID": 15106,
+      "TopicRef": "24.3",
+      "TopicName": "24.3 REACTION OF CARBOXYLIC ACIDS WITH ALCOHOLS (ESTERIFICATION)",
       "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>کون سا آرگینک ایسڈ کھانے کے جزو کے طور پر استعمال ہوتا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which organic acid is used as a component of food?</p>\r\n",
+      "UrduQuestionDetails": "<p>ایسٹر فنکشنل گروپ کی نشاندہی کریں:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Identify the ester functional group:</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
-      "IsSameMcq": false,
+      "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 482105,
-          "QuestionID": 502326,
-          "UmOption": "<p>فارمک ایسڈ</p>\r\n",
-          "EmOption": "<p>Formic acid</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482106,
-          "QuestionID": 502326,
-          "UmOption": "<p>آکسالک ایسڈ</p>\r\n",
-          "EmOption": "<p>Oxalic acid</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482107,
-          "QuestionID": 502326,
-          "UmOption": "<p>پروپیونک ایسڈ</p>\r\n",
-          "EmOption": "<p>Propanoic acid</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482108,
-          "QuestionID": 502326,
-          "UmOption": "<p>ایسٹک ایسڈ</p>\r\n",
-          "EmOption": "<p>Acetic acid</p>\r\n",
+          "OptionID": 528357,
+          "QuestionID": 502316,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-39.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-39.svg\" /></p>\r\n",
           "Answer": true
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
-      "QuestionID": 502327,
-      "SubjectID": 61,
-      "TopicID": 15104,
-      "TopicRef": "24.1",
-      "TopicName": "24.1  Preparation of Acetic Acid or Ethanoic Acid",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>سیب میں درج ذیل میں سے کون سا ایسڈ موجود ہوتا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which of the following acids is present in apples?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
+        },
         {
-          "OptionID": 482113,
-          "QuestionID": 502327,
-          "UmOption": "<p>سٹرک ایسڈ</p>\r\n",
-          "EmOption": "<p>Citric acid</p>\r\n",
+          "OptionID": 528358,
+          "QuestionID": 502316,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-40.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-40.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482114,
-          "QuestionID": 502327,
-          "UmOption": "<p>ٹارٹارک ایسڈ</p>\r\n",
-          "EmOption": "<p>Tartaric acid</p>\r\n",
+          "OptionID": 528359,
+          "QuestionID": 502316,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-38.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-38.svg\" /></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482115,
-          "QuestionID": 502327,
-          "UmOption": "<p>ایسٹک ایسڈ</p>\r\n",
-          "EmOption": "<p>Acetic acid</p>\r\n",
+          "OptionID": 528360,
+          "QuestionID": 502316,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-41.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-41.svg\" /></p>\r\n",
           "Answer": false
-        },
-        {
-          "OptionID": 482116,
-          "QuestionID": 502327,
-          "UmOption": "<p>میلک ایسڈ</p>\r\n",
-          "EmOption": "<p>Malic acid</p>\r\n",
-          "Answer": true
         }
       ],
       "_exportMeta": {
@@ -3965,9 +3865,9 @@
     {
       "QuestionID": 502330,
       "SubjectID": 61,
-      "TopicID": 15104,
-      "TopicRef": "24.1",
-      "TopicName": "24.1  Preparation of Acetic Acid or Ethanoic Acid",
+      "TopicID": 15106,
+      "TopicRef": "24.3",
+      "TopicName": "24.3 REACTION OF CARBOXYLIC ACIDS WITH ALCOHOLS (ESTERIFICATION)",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub> – COOC<sub>2</sub>H<sub>5</sub> کس دوا جزاء کے ری ایکشن سے بنے گا:</p>\r\n",
       "EnglishQuestionDetails": "<p>Which substances will react to produce CH<sub>3</sub> – CH<sub>2</sub> – CH<sub>2</sub> – COOC<sub>2</sub>H<sub>5</sub>?</p>\r\n",
@@ -3977,28 +3877,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 482125,
+          "OptionID": 528449,
           "QuestionID": 502330,
           "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>OH</p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>OH</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482126,
+          "OptionID": 528450,
           "QuestionID": 502330,
           "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482127,
+          "OptionID": 528451,
           "QuestionID": 502330,
           "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>CH<sub>2</sub>OH</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482128,
+          "OptionID": 528452,
           "QuestionID": 502330,
           "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>OH</p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>OH</p>\r\n",
@@ -4015,9 +3915,9 @@
     {
       "QuestionID": 502332,
       "SubjectID": 61,
-      "TopicID": 15104,
-      "TopicRef": "24.1",
-      "TopicName": "24.1  Preparation of Acetic Acid or Ethanoic Acid",
+      "TopicID": 15106,
+      "TopicRef": "24.3",
+      "TopicName": "24.3 REACTION OF CARBOXYLIC ACIDS WITH ALCOHOLS (ESTERIFICATION)",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>میتھانول اور پروپیونک ایسڈ کے ری ایکشن سے بننے والے ایسٹر کا فارمولا کیا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>What is the formula of ester formed by the reaction of methanol with propanoic acid?</p>\r\n",
@@ -4027,28 +3927,28 @@
       "IsSameMcq": true,
       "MultipleOptions": [
         {
-          "OptionID": 482133,
+          "OptionID": 528409,
           "QuestionID": 502332,
           "UmOption": "<p>CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub></p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482134,
+          "OptionID": 528410,
           "QuestionID": 502332,
           "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>COCH<sub>3</sub></p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>COCH<sub>3</sub></p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482135,
+          "OptionID": 528411,
           "QuestionID": 502332,
           "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub></p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub></p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482136,
+          "OptionID": 528412,
           "QuestionID": 502332,
           "UmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>OCOCH<sub>3</sub></p>\r\n",
           "EmOption": "<p>CH<sub>3</sub>CH<sub>2</sub>OCOCH<sub>3</sub></p>\r\n",
@@ -4065,9 +3965,9 @@
     {
       "QuestionID": 502335,
       "SubjectID": 61,
-      "TopicID": 15104,
-      "TopicRef": "24.1",
-      "TopicName": "24.1  Preparation of Acetic Acid or Ethanoic Acid",
+      "TopicID": 15107,
+      "TopicRef": "24.4 ",
+      "TopicName": "24.4  Industrial Applications of Carboxylic Acids and Esters",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>ڈائی اول اور ڈائی کاربوکسلک ایسڈ کے ری ایکشن سے کون سا پولیمر بنتا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which polymer is made by reacting a diol and a dicarboxylic acid?</p>\r\n",
@@ -4077,28 +3977,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482145,
+          "OptionID": 528417,
           "QuestionID": 502335,
           "UmOption": "<p>پولی تھین</p>\r\n",
           "EmOption": "<p>Polyethene</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482146,
+          "OptionID": 528418,
           "QuestionID": 502335,
           "UmOption": "<p>پولی ایسٹر</p>\r\n",
           "EmOption": "<p>Polyester</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482147,
+          "OptionID": 528419,
           "QuestionID": 502335,
           "UmOption": "<p>پولی سٹائرین</p>\r\n",
           "EmOption": "<p>Polystyrene</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482148,
+          "OptionID": 528420,
           "QuestionID": 502335,
           "UmOption": "<p>پولی ایمائیڈ</p>\r\n",
           "EmOption": "<p>Polyamide</p>\r\n",
@@ -4115,9 +4015,9 @@
     {
       "QuestionID": 502336,
       "SubjectID": 61,
-      "TopicID": 15104,
-      "TopicRef": "24.1",
-      "TopicName": "24.1  Preparation of Acetic Acid or Ethanoic Acid",
+      "TopicID": 15107,
+      "TopicRef": "24.4 ",
+      "TopicName": "24.4  Industrial Applications of Carboxylic Acids and Esters",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>کون سا مرکب بطور مصنوعی ریشہ استعمال کیا جاتا ہے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which compound is used as a synthetic fiber?</p>\r\n",
@@ -4127,28 +4027,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482149,
+          "OptionID": 528425,
           "QuestionID": 502336,
           "UmOption": "<p>میتھائل ایسیٹیٹ</p>\r\n",
           "EmOption": "<p>Methyl acetate</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482150,
+          "OptionID": 528426,
           "QuestionID": 502336,
           "UmOption": "<p>پولی ایسٹر</p>\r\n",
           "EmOption": "<p>Polyester</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482151,
+          "OptionID": 528427,
           "QuestionID": 502336,
           "UmOption": "<p>ریزن</p>\r\n",
           "EmOption": "<p>Resin</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482152,
+          "OptionID": 528428,
           "QuestionID": 502336,
           "UmOption": "<p>این۔ایمائل ایسیٹیٹ</p>\r\n",
           "EmOption": "<p>n-Amyl acetate</p>\r\n",
@@ -4163,11 +4063,111 @@
       }
     },
     {
+      "QuestionID": 502326,
+      "SubjectID": 61,
+      "TopicID": 15108,
+      "TopicRef": "24.5",
+      "TopicName": "24.5 Carboxylic Acids and Esters in Daily Life",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>کون سا آرگینک ایسڈ کھانے کے جزو کے طور پر استعمال ہوتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which organic acid is used as a component of food?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528385,
+          "QuestionID": 502326,
+          "UmOption": "<p>فارمک ایسڈ</p>\r\n",
+          "EmOption": "<p>Formic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528386,
+          "QuestionID": 502326,
+          "UmOption": "<p>آکسالک ایسڈ</p>\r\n",
+          "EmOption": "<p>Oxalic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528387,
+          "QuestionID": 502326,
+          "UmOption": "<p>پروپیونک ایسڈ</p>\r\n",
+          "EmOption": "<p>Propanoic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528388,
+          "QuestionID": 502326,
+          "UmOption": "<p>ایسٹک ایسڈ</p>\r\n",
+          "EmOption": "<p>Acetic acid</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502327,
+      "SubjectID": 61,
+      "TopicID": 15108,
+      "TopicRef": "24.5",
+      "TopicName": "24.5 Carboxylic Acids and Esters in Daily Life",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>سیب میں درج ذیل میں سے کون سا ایسڈ موجود ہوتا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which of the following acids is present in apples?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528393,
+          "QuestionID": 502327,
+          "UmOption": "<p>سٹرک ایسڈ</p>\r\n",
+          "EmOption": "<p>Citric acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528394,
+          "QuestionID": 502327,
+          "UmOption": "<p>ٹارٹارک ایسڈ</p>\r\n",
+          "EmOption": "<p>Tartaric acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528395,
+          "QuestionID": 502327,
+          "UmOption": "<p>ایسٹک ایسڈ</p>\r\n",
+          "EmOption": "<p>Acetic acid</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528396,
+          "QuestionID": 502327,
+          "UmOption": "<p>میلک ایسڈ</p>\r\n",
+          "EmOption": "<p>Malic acid</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 502358,
       "SubjectID": 61,
-      "TopicID": 15109,
-      "TopicRef": "25.1 ",
-      "TopicName": "25.1  The Importance of Nutrition",
+      "TopicID": 15110,
+      "TopicRef": "25.2",
+      "TopicName": "25.2 Carbohydrates",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>فرکٹوز میں کون سا فنکشنل گروپ موجود ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>Functional groups present in fructose are:</p>\r\n",
@@ -4177,28 +4177,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482173,
+          "OptionID": 528473,
           "QuestionID": 502358,
           "UmOption": "<p>ہائیڈروآکسل اور ایلڈیہائیڈ</p>\r\n",
           "EmOption": "<p>Hydroxyl and aldehyde</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482174,
+          "OptionID": 528474,
           "QuestionID": 502358,
           "UmOption": "<p>ہائیڈروآکسل اور کیٹون</p>\r\n",
           "EmOption": "<p>Hydroxyl and Ketone</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482175,
+          "OptionID": 528475,
           "QuestionID": 502358,
           "UmOption": "<p>ہائیڈروآکسل اور ایسٹر</p>\r\n",
           "EmOption": "<p>Hydroxyl and ester</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482176,
+          "OptionID": 528476,
           "QuestionID": 502358,
           "UmOption": "<p>ہائیڈروآکسل اور ایمائیڈ</p>\r\n",
           "EmOption": "<p>Hydroxyl and amide</p>\r\n",
@@ -4213,61 +4213,11 @@
       }
     },
     {
-      "QuestionID": 502360,
-      "SubjectID": 61,
-      "TopicID": 15109,
-      "TopicRef": "25.1 ",
-      "TopicName": "25.1  The Importance of Nutrition",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>چربی میں کون سا فنکشنل گروپ موجود ہوتا ہے؟</p>\r\n",
-      "EnglishQuestionDetails": "<p>Which functional group is present in a fat?</p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": false,
-      "MultipleOptions": [
-        {
-          "OptionID": 482181,
-          "QuestionID": 502360,
-          "UmOption": "<p>کاربوکسلک گروپ</p>\r\n",
-          "EmOption": "<p>Carboxyl group</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482182,
-          "QuestionID": 502360,
-          "UmOption": "<p>ایسٹر گروپ</p>\r\n",
-          "EmOption": "<p>Ester group</p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 482183,
-          "QuestionID": 502360,
-          "UmOption": "<p>کاربونائل گروپ</p>\r\n",
-          "EmOption": "<p>Carbonyl group</p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 482184,
-          "QuestionID": 502360,
-          "UmOption": "<p>ہائیڈروآکسل گروپ</p>\r\n",
-          "EmOption": "<p>Hydroxyl group</p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 502362,
       "SubjectID": 61,
-      "TopicID": 15109,
-      "TopicRef": "25.1 ",
-      "TopicName": "25.1  The Importance of Nutrition",
+      "TopicID": 15111,
+      "TopicRef": "25.3",
+      "TopicName": "25.3 Proteins",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>پروٹین ہمارے جسم میں کون سا کام سرانجام نہیں دیتے؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which function is not performed by proteins in our body?</p>\r\n",
@@ -4277,28 +4227,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482189,
+          "OptionID": 528529,
           "QuestionID": 502362,
           "UmOption": "<p>یہ کیمیائی پیغام رسان کے طور پر کام کرتے ہیں۔</p>\r\n",
           "EmOption": "<p>They serve as chemical messengers.</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482190,
+          "OptionID": 528530,
           "QuestionID": 502362,
           "UmOption": "<p>یہ توانائی سے بھرپور ایندھن کے ذخیرے کے طور پر کام کرتے ہیں۔</p>\r\n",
           "EmOption": "<p>They serve as storage of energy-rich fuel.</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482191,
+          "OptionID": 528531,
           "QuestionID": 502362,
           "UmOption": "<p>یہ جینیاتی معلومات محفوظ کرتے ہیں۔</p>\r\n",
           "EmOption": "<p>They store genetic information.</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482192,
+          "OptionID": 528532,
           "QuestionID": 502362,
           "UmOption": "<p>یہ بائیو کیمیکل تعاملات میں بطور کیٹالسٹ کام کرتے ہیں۔</p>\r\n",
           "EmOption": "<p>They serve as catalysts for biochemical reactions.</p>\r\n",
@@ -4315,9 +4265,9 @@
     {
       "QuestionID": 502364,
       "SubjectID": 61,
-      "TopicID": 15109,
-      "TopicRef": "25.1 ",
-      "TopicName": "25.1  The Importance of Nutrition",
+      "TopicID": 15111,
+      "TopicRef": "25.3",
+      "TopicName": "25.3 Proteins",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>کون سے فنکشنل گروپس ری ایکشن کر کے پروٹین کے اندر پیپٹائڈ لنکیج بناتے ہیں؟</p>\r\n",
       "EnglishQuestionDetails": "<p>Which functional groups react to produce a peptide linkage in proteins?</p>\r\n",
@@ -4327,28 +4277,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482197,
+          "OptionID": 528533,
           "QuestionID": 502364,
           "UmOption": "<p>کاربوکسلک گروپ اور ہائیڈروآکسل گروپ</p>\r\n",
           "EmOption": "<p>Carboxyl group and hydroxyl group</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482198,
+          "OptionID": 528534,
           "QuestionID": 502364,
           "UmOption": "<p>کاربوکسلک گروپ اور ایمائنو گروپ</p>\r\n",
           "EmOption": "<p>Carboxyl group and amino group</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482199,
+          "OptionID": 528535,
           "QuestionID": 502364,
           "UmOption": "<p>ہائیڈروآکسل گروپ اور ایمائنو گروپ</p>\r\n",
           "EmOption": "<p>Hydroxyl group and amino group</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482200,
+          "OptionID": 528536,
           "QuestionID": 502364,
           "UmOption": "<p>ایسٹر گروپ اور امائنو گروپ</p>\r\n",
           "EmOption": "<p>Ester group and amino group</p>\r\n",
@@ -4363,11 +4313,61 @@
       }
     },
     {
+      "QuestionID": 502360,
+      "SubjectID": 61,
+      "TopicID": 15112,
+      "TopicRef": "25.4",
+      "TopicName": "25.4 Lipids",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>چربی میں کون سا فنکشنل گروپ موجود ہوتا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>Which functional group is present in a fat?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 528525,
+          "QuestionID": 502360,
+          "UmOption": "<p>کاربوکسلک گروپ</p>\r\n",
+          "EmOption": "<p>Carboxyl group</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528526,
+          "QuestionID": 502360,
+          "UmOption": "<p>ایسٹر گروپ</p>\r\n",
+          "EmOption": "<p>Ester group</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528527,
+          "QuestionID": 502360,
+          "UmOption": "<p>کاربونائل گروپ</p>\r\n",
+          "EmOption": "<p>Carbonyl group</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528528,
+          "QuestionID": 502360,
+          "UmOption": "<p>ہائیڈروآکسل گروپ</p>\r\n",
+          "EmOption": "<p>Hydroxyl group</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 502365,
       "SubjectID": 61,
-      "TopicID": 15109,
-      "TopicRef": "25.1 ",
-      "TopicName": "25.1  The Importance of Nutrition",
+      "TopicID": 15115,
+      "TopicRef": "25.7",
+      "TopicName": "25.7 Applications of Biochemistry",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>ابتدائی مرحلے میں کینسر کا پتہ لگانے کے لیے کیا جانے والا ٹیسٹ ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>The test performed to detect cancer in early stages is:</p>\r\n",
@@ -4377,28 +4377,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482201,
+          "OptionID": 528545,
           "QuestionID": 502365,
           "UmOption": "<p>جینیاتی ٹیسٹ / جینیٹک ٹیسٹ</p>\r\n",
           "EmOption": "<p>Genetic test</p>\r\n",
           "Answer": true
         },
         {
-          "OptionID": 482202,
+          "OptionID": 528546,
           "QuestionID": 502365,
           "UmOption": "<p>یورین ٹیسٹ</p>\r\n",
           "EmOption": "<p>Urine test</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482203,
+          "OptionID": 528547,
           "QuestionID": 502365,
           "UmOption": "<p>گیلری ٹیسٹ</p>\r\n",
           "EmOption": "<p>Galleri test</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482204,
+          "OptionID": 528548,
           "QuestionID": 502365,
           "UmOption": "<p>الیکٹرولائٹ ٹیسٹ</p>\r\n",
           "EmOption": "<p>Electrolyte test</p>\r\n",
@@ -4415,9 +4415,9 @@
     {
       "QuestionID": 502366,
       "SubjectID": 61,
-      "TopicID": 15109,
-      "TopicRef": "25.1 ",
-      "TopicName": "25.1  The Importance of Nutrition",
+      "TopicID": 15115,
+      "TopicRef": "25.7",
+      "TopicName": "25.7 Applications of Biochemistry",
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": "<p>کس کی کمی سے تھکاوٹ اور ذہنی دباؤ پیدا ہوتا ہے:</p>\r\n",
       "EnglishQuestionDetails": "<p>Fatigue and depression are caused by deficiency of:</p>\r\n",
@@ -4427,28 +4427,28 @@
       "IsSameMcq": false,
       "MultipleOptions": [
         {
-          "OptionID": 482205,
+          "OptionID": 528549,
           "QuestionID": 502366,
           "UmOption": "<p>وٹامن اے</p>\r\n",
           "EmOption": "<p>Vitamin A</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482206,
+          "OptionID": 528550,
           "QuestionID": 502366,
           "UmOption": "<p>وٹامن سی</p>\r\n",
           "EmOption": "<p>Vitamin C</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482207,
+          "OptionID": 528551,
           "QuestionID": 502366,
           "UmOption": "<p>وٹامن ڈی</p>\r\n",
           "EmOption": "<p>Vitamin D</p>\r\n",
           "Answer": false
         },
         {
-          "OptionID": 482208,
+          "OptionID": 528552,
           "QuestionID": 502366,
           "UmOption": "<p>وٹامن بی ون</p>\r\n",
           "EmOption": "<p>Vitamin B1</p>\r\n",
@@ -4613,56 +4613,6 @@
       }
     },
     {
-      "QuestionID": 502390,
-      "SubjectID": 61,
-      "TopicID": 15116,
-      "TopicRef": "26.1",
-      "TopicName": "26.1 TYPES OF POLYMERS",
-      "QuestionPeriority": "Exercise",
-      "UrduQuestionDetails": "<p>درج ذیل پولیمر <img alt=\"\" src=\"/equations/10th/chemnew-chap26-eq5.svg\" /> کے مونومر کا سٹرکچر کون سا ہے:</p>\r\n",
-      "EnglishQuestionDetails": "<p>The structure of the monomer of the following polymer is: <img alt=\"\" src=\"/equations/10th/chemnew-chap26-eq5.svg\" /></p>\r\n",
-      "UrduFillAnswer": null,
-      "EnglishFillAnswer": null,
-      "TrueFalseAnswer": false,
-      "IsSameMcq": true,
-      "MultipleOptions": [
-        {
-          "OptionID": 484053,
-          "QuestionID": 502390,
-          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484054,
-          "QuestionID": 502390,
-          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2 </sub>− CH<sub>3</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2 </sub>- CH<sub>3</sub></p>\r\n",
-          "Answer": false
-        },
-        {
-          "OptionID": 484055,
-          "QuestionID": 502390,
-          "UmOption": "<p>CH<sub>2</sub> = CH − OCOCH<sub>3</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>2</sub> = CH - OCOCH<sub>3</sub></p>\r\n",
-          "Answer": true
-        },
-        {
-          "OptionID": 484056,
-          "QuestionID": 502390,
-          "UmOption": "<p>CH<sub>2</sub> = CH − CO – O – CH<sub>3</sub></p>\r\n",
-          "EmOption": "<p>CH<sub>2</sub> = CH - CO – O – CH<sub>3</sub></p>\r\n",
-          "Answer": false
-        }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
-    },
-    {
       "QuestionID": 502391,
       "SubjectID": 61,
       "TopicID": 15116,
@@ -4802,6 +4752,56 @@
           "QuestionID": 502393,
           "UmOption": "<p>پولی اتھین</p>\r\n",
           "EmOption": "<p>Polyethene</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 502390,
+      "SubjectID": 61,
+      "TopicID": 15117,
+      "TopicRef": "26.2",
+      "TopicName": "26.2 Structure of Monomer from Polymer",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": "<p>درج ذیل پولیمر <img alt=\"\" src=\"/equations/10th/chemnew-chap26-eq5.svg\" /> کے مونومر کا سٹرکچر کون سا ہے:</p>\r\n",
+      "EnglishQuestionDetails": "<p>The structure of the monomer of the following polymer is: <img alt=\"\" src=\"/equations/10th/chemnew-chap26-eq5.svg\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 528609,
+          "QuestionID": 502390,
+          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528610,
+          "QuestionID": 502390,
+          "UmOption": "<p>CH<sub>2</sub> = CH<sub>2 </sub>− CH<sub>3</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>2</sub> = CH<sub>2 </sub>- CH<sub>3</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 528611,
+          "QuestionID": 502390,
+          "UmOption": "<p>CH<sub>2</sub> = CH − OCOCH<sub>3</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>2</sub> = CH - OCOCH<sub>3</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 528612,
+          "QuestionID": 502390,
+          "UmOption": "<p>CH<sub>2</sub> = CH − CO – O – CH<sub>3</sub></p>\r\n",
+          "EmOption": "<p>CH<sub>2</sub> = CH - CO – O – CH<sub>3</sub></p>\r\n",
           "Answer": false
         }
       ],
@@ -16163,6 +16163,106 @@
       }
     },
     {
+      "QuestionID": 524081,
+      "SubjectID": 61,
+      "TopicID": 15047,
+      "TopicRef": "16.3",
+      "TopicName": "16.3 WRITING CHEMICAL FORMULAS OF IONIC COMPOUNDS USING IONIC CHARGES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پرمینگنیٹ آئن کا کیمیکل فارمولا کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the chemical formula of the Permanganate ion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 504477,
+          "QuestionID": 524081,
+          "UmOption": "<p>MnO<sub>4</sub><sup>2-</sup></p>\r\n",
+          "EmOption": "<p>MnO<sub>4</sub><sup>2-</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504478,
+          "QuestionID": 524081,
+          "UmOption": "<p>MnO<sub>4</sub><sup>1-</sup></p>\r\n",
+          "EmOption": "<p>MnO<sub>4</sub><sup>1-</sup></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 504479,
+          "QuestionID": 524081,
+          "UmOption": "<p>MnO<sub>3</sub><sup>1-</sup></p>\r\n",
+          "EmOption": "<p>MnO<sub>3</sub><sup>1-</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504480,
+          "QuestionID": 524081,
+          "UmOption": "<p>Mn<sub>2</sub>O<sub>7</sub><sup>1-</sup></p>\r\n",
+          "EmOption": "<p>Mn<sub>2</sub>O<sub>7</sub><sup>1-</sup></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 524086,
+      "SubjectID": 61,
+      "TopicID": 15047,
+      "TopicRef": "16.3",
+      "TopicName": "16.3 WRITING CHEMICAL FORMULAS OF IONIC COMPOUNDS USING IONIC CHARGES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>پوٹاشیم پرمینگنیٹ کا درست کیمیکل فارمولا کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the correct chemical formula for potassium permanganate?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 504481,
+          "QuestionID": 524086,
+          "UmOption": "<p>K<sub>2</sub>MnO<sub>4</sub></p>\r\n",
+          "EmOption": "<p>K<sub>2</sub>MnO<sub>4</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504482,
+          "QuestionID": 524086,
+          "UmOption": "<p>K(MnO<sub>4</sub>)<sub>2</sub></p>\r\n",
+          "EmOption": "<p>K(MnO<sub>4</sub>)<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504483,
+          "QuestionID": 524086,
+          "UmOption": "<p>KMnO<sub>4</sub></p>\r\n",
+          "EmOption": "<p>KMnO<sub>4</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 504484,
+          "QuestionID": 524086,
+          "UmOption": "<p>K<sub>3</sub>MnO<sub>4</sub></p>\r\n",
+          "EmOption": "<p>K<sub>3</sub>MnO<sub>4</sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 524088,
       "SubjectID": 61,
       "TopicID": 15047,
@@ -16203,6 +16303,106 @@
           "UmOption": "<p>سپر اسکرپٹ چارجز میں</p>\r\n",
           "EmOption": "<p>Superscript charges</p>\r\n",
           "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 524092,
+      "SubjectID": 61,
+      "TopicID": 15047,
+      "TopicRef": "16.3",
+      "TopicName": "16.3 WRITING CHEMICAL FORMULAS OF IONIC COMPOUNDS USING IONIC CHARGES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>کاربونیٹ آئن کا کیمیکل فارمولا کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the chemical formula for the carbonate ion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 504489,
+          "QuestionID": 524092,
+          "UmOption": "<p>CO<sub>3</sub><sup>1−</sup></p>\r\n",
+          "EmOption": "<p>CO<sub>3</sub><sup>1-</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504490,
+          "QuestionID": 524092,
+          "UmOption": "<p>CO<sub>3</sub><sup>2−</sup></p>\r\n",
+          "EmOption": "<p>CO<sub>3</sub><sup>2-</sup></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 504491,
+          "QuestionID": 524092,
+          "UmOption": "<p>HCO<sub>3</sub><sup>1−</sup></p>\r\n",
+          "EmOption": "<p>HCO<sub>3</sub><sup>1-</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504492,
+          "QuestionID": 524092,
+          "UmOption": "<p>C<sub>2</sub>O<sub>4</sub><sup>2−</sup></p>\r\n",
+          "EmOption": "<p>C<sub>2</sub>O<sub>4</sub><sup>2-</sup></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 524094,
+      "SubjectID": 61,
+      "TopicID": 15047,
+      "TopicRef": "16.3",
+      "TopicName": "16.3 WRITING CHEMICAL FORMULAS OF IONIC COMPOUNDS USING IONIC CHARGES",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>امونیم کاربونیٹ کا درست کیمیکل فارمولا کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the correct chemical formula for ammonium carbonate?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 504497,
+          "QuestionID": 524094,
+          "UmOption": "<p>NH<sub>4</sub>CO<sub>3</sub></p>\r\n",
+          "EmOption": "<p>NH<sub>4</sub>CO<sub>3</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504498,
+          "QuestionID": 524094,
+          "UmOption": "<p>(NH<sub>4</sub>)<sub>3</sub>CO<sub>3</sub></p>\r\n",
+          "EmOption": "<p>(NH<sub>4</sub>)<sub>3</sub>CO<sub>3</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504499,
+          "QuestionID": 524094,
+          "UmOption": "<p>NH<sub>4</sub>(CO<sub>3</sub>)<sub>2</sub></p>\r\n",
+          "EmOption": "<p>NH<sub>4</sub>(CO<sub>3</sub>)<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 504500,
+          "QuestionID": 524094,
+          "UmOption": "<p>(NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub></p>\r\n",
+          "EmOption": "<p>(NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub></p>\r\n",
+          "Answer": true
         }
       ],
       "_exportMeta": {
@@ -43502,6 +43702,56 @@
           "QuestionID": 525905,
           "UmOption": "<p>فنکشنل گروپس کو</p>\r\n",
           "EmOption": "<p>Functional groups</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 522189,
+      "SubjectID": 61,
+      "TopicID": 15090,
+      "TopicRef": "21.3",
+      "TopicName": "21.3 Homologous Series",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": "<p>الکائنز سیریز کا جنرل فارمولا کیا ہے؟</p>\r\n",
+      "EnglishQuestionDetails": "<p>What is the general formula for the alkynes series?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": true,
+      "MultipleOptions": [
+        {
+          "OptionID": 500289,
+          "QuestionID": 522189,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-9.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-9.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 500290,
+          "QuestionID": 522189,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-8.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-8.svg\" /></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 500291,
+          "QuestionID": 522189,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-19.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-19.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 500292,
+          "QuestionID": 522189,
+          "UmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-20.svg\" /></p>\r\n",
+          "EmOption": "<p><img alt=\"\" src=\"/equations/10th/chemnew-chap21-20.svg\" /></p>\r\n",
           "Answer": false
         }
       ],

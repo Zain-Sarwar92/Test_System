@@ -9,8 +9,5859 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 0,
-  "exportedAt": "2026-08-10T13:03:59.426Z",
+  "total": 117,
+  "exportedAt": "2026-09-10T08:29:00.466Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
-  "questions": []
+  "questions": [
+    {
+      "QuestionID": 544581,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p> Whether a parabola opens upward or downward depends entirely on the value of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548057,
+          "QuestionID": 544581,
+          "UmOption": null,
+          "EmOption": "<p>b</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548058,
+          "QuestionID": 544581,
+          "UmOption": null,
+          "EmOption": "<p>c</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548059,
+          "QuestionID": 544581,
+          "UmOption": null,
+          "EmOption": "<p>a</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548060,
+          "QuestionID": 544581,
+          "UmOption": null,
+          "EmOption": "<p>x</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544582,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Logarithmic functions are widely used in real-life contexts to measure:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548061,
+          "QuestionID": 544582,
+          "UmOption": null,
+          "EmOption": "<p>Compound interest</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548062,
+          "QuestionID": 544582,
+          "UmOption": null,
+          "EmOption": "<p>Sound intensity, growth, and decay</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548063,
+          "QuestionID": 544582,
+          "UmOption": null,
+          "EmOption": "<p>Graphical scaling only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548064,
+          "QuestionID": 544582,
+          "UmOption": null,
+          "EmOption": "<p>Linear factors</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544584,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compound interest is a real-life application primarily related to which type of functions?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548069,
+          "QuestionID": 544584,
+          "UmOption": null,
+          "EmOption": "<p>Logarithmic functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548070,
+          "QuestionID": 544584,
+          "UmOption": null,
+          "EmOption": "<p>Linear functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548071,
+          "QuestionID": 544584,
+          "UmOption": null,
+          "EmOption": "<p>Exponential functions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548072,
+          "QuestionID": 544584,
+          "UmOption": null,
+          "EmOption": "<p>Hyperbolic functions</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544585,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Functions are generally classified in this unit into which two main categories?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548073,
+          "QuestionID": 544585,
+          "UmOption": null,
+          "EmOption": "<p>Real and Imaginary</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548074,
+          "QuestionID": 544585,
+          "UmOption": null,
+          "EmOption": "<p>Algebraic and Transcendental</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548075,
+          "QuestionID": 544585,
+          "UmOption": null,
+          "EmOption": "<p>Linear and Quadratic</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548076,
+          "QuestionID": 544585,
+          "UmOption": null,
+          "EmOption": "<p>Shifted and Scaled</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544643,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>To find the y-intercept of the function y=a(x-h)(x-k), we substitute:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548113,
+          "QuestionID": 544643,
+          "UmOption": null,
+          "EmOption": "<p>y=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548114,
+          "QuestionID": 544643,
+          "UmOption": null,
+          "EmOption": "<p>x=0</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548115,
+          "QuestionID": 544643,
+          "UmOption": null,
+          "EmOption": "<p>x=h</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548116,
+          "QuestionID": 544643,
+          "UmOption": null,
+          "EmOption": "<p>x=k</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544650,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If h=k, the quadratic function becomes y=a(x-h)<sup>2</sup>, and the graph touches the x-axis at:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548121,
+          "QuestionID": 544650,
+          "UmOption": null,
+          "EmOption": "<p>(0,h)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548122,
+          "QuestionID": 544650,
+          "UmOption": null,
+          "EmOption": "<p>(-h,0)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548123,
+          "QuestionID": 544650,
+          "UmOption": null,
+          "EmOption": "<p>(h,0)</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548124,
+          "QuestionID": 544650,
+          "UmOption": null,
+          "EmOption": "<p>(ah,0)</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544652,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>At what value does the graph of y=a(x-h)(x-k) cut the y-axis?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548125,
+          "QuestionID": 544652,
+          "UmOption": null,
+          "EmOption": "<p>y=h+k</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548126,
+          "QuestionID": 544652,
+          "UmOption": null,
+          "EmOption": "<p>y=ahk</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548127,
+          "QuestionID": 544652,
+          "UmOption": null,
+          "EmOption": "<p>y=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548128,
+          "QuestionID": 544652,
+          "UmOption": null,
+          "EmOption": "<p>y=a(h-k)</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544656,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>To determine a quadratic function from its graph using factor form, we must know the x-intercepts and:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548129,
+          "QuestionID": 544656,
+          "UmOption": null,
+          "EmOption": "<p>The y-intercept only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548130,
+          "QuestionID": 544656,
+          "UmOption": null,
+          "EmOption": "<p>One additional point on the curve</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548131,
+          "QuestionID": 544656,
+          "UmOption": null,
+          "EmOption": "<p>The vertex only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548132,
+          "QuestionID": 544656,
+          "UmOption": null,
+          "EmOption": "<p>Two additional points</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544657,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the equation f(x)=a(x-h)(x-k), the constant a determines the parabola's:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548133,
+          "QuestionID": 544657,
+          "UmOption": null,
+          "EmOption": "<p>Only position</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548134,
+          "QuestionID": 544657,
+          "UmOption": null,
+          "EmOption": "<p>Shape and direction</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548135,
+          "QuestionID": 544657,
+          "UmOption": null,
+          "EmOption": "<p>x-intercepts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548136,
+          "QuestionID": 544657,
+          "UmOption": null,
+          "EmOption": "<p>Highest power</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544658,
+      "SubjectID": 119,
+      "TopicID": 15747,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 E.X: 1.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>To find the value of the constant a, we substitute the coordinates of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548137,
+          "QuestionID": 544658,
+          "UmOption": null,
+          "EmOption": "<p>The origin (0,0)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548138,
+          "QuestionID": 544658,
+          "UmOption": null,
+          "EmOption": "<p>A third known point</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548139,
+          "QuestionID": 544658,
+          "UmOption": null,
+          "EmOption": "<p>The x-intercepts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548140,
+          "QuestionID": 544658,
+          "UmOption": null,
+          "EmOption": "<p>Any point outside the curve</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544670,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which two fundamental classes of functions are studied together to model real-world phenomena?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548165,
+          "QuestionID": 544670,
+          "UmOption": null,
+          "EmOption": "<p>Linear and Quadratic</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548166,
+          "QuestionID": 544670,
+          "UmOption": null,
+          "EmOption": "<p>Algebraic and Transcendental</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548167,
+          "QuestionID": 544670,
+          "UmOption": null,
+          "EmOption": "<p>Real and Complex</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548168,
+          "QuestionID": 544670,
+          "UmOption": null,
+          "EmOption": "<p>Exponential and Logarithmic</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544671,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A function y=f(x) is algebraic if it satisfies a polynomial equation involving powers of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548169,
+          "QuestionID": 544671,
+          "UmOption": null,
+          "EmOption": "<p>Only x</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548170,
+          "QuestionID": 544671,
+          "UmOption": null,
+          "EmOption": "<p>Powers of y with polynomial coefficients in x</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548171,
+          "QuestionID": 544671,
+          "UmOption": null,
+          "EmOption": "<p>Trigonometric terms</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548172,
+          "QuestionID": 544671,
+          "UmOption": null,
+          "EmOption": "<p>Infinite operations</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544672,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A function is algebraic if it can be obtained using a ...... number of algebraic operations.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548173,
+          "QuestionID": 544672,
+          "UmOption": null,
+          "EmOption": "<p>Finite</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548174,
+          "QuestionID": 544672,
+          "UmOption": null,
+          "EmOption": "<p>Infinite</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548175,
+          "QuestionID": 544672,
+          "UmOption": null,
+          "EmOption": "<p>Undefined</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548176,
+          "QuestionID": 544672,
+          "UmOption": null,
+          "EmOption": "<p>Negative</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544676,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A function is called a transcendental function if it is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548177,
+          "QuestionID": 544676,
+          "UmOption": null,
+          "EmOption": "<p>Linear</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548178,
+          "QuestionID": 544676,
+          "UmOption": null,
+          "EmOption": "<p>Not algebraic</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548179,
+          "QuestionID": 544676,
+          "UmOption": null,
+          "EmOption": "<p>A polynomial of degree n</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548180,
+          "QuestionID": 544676,
+          "UmOption": null,
+          "EmOption": "<p>Symmetric</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544678,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why are functions like In(2x) and sin(x) called transcendental?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548185,
+          "QuestionID": 544678,
+          "UmOption": null,
+          "EmOption": "<p>They cannot be obtained using a finite number of algebraic operations</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548186,
+          "QuestionID": 544678,
+          "UmOption": null,
+          "EmOption": "<p>They contain only simple quotients</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548187,
+          "QuestionID": 544678,
+          "UmOption": null,
+          "EmOption": "<p>They always equal zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548188,
+          "QuestionID": 544678,
+          "UmOption": null,
+          "EmOption": "<p>They are always linear</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544682,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The function  f(x)=e<sup>x</sup> is specifically called the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548193,
+          "QuestionID": 544682,
+          "UmOption": null,
+          "EmOption": "<p>Common exponential function</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548194,
+          "QuestionID": 544682,
+          "UmOption": null,
+          "EmOption": "<p>Natural exponential function</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548195,
+          "QuestionID": 544682,
+          "UmOption": null,
+          "EmOption": "<p>Logarithmic function</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548196,
+          "QuestionID": 544682,
+          "UmOption": null,
+          "EmOption": "<p>Decay function</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544683,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the approximate value of the mathematical constant e?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548197,
+          "QuestionID": 544683,
+          "UmOption": null,
+          "EmOption": "<p>2.14159</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548198,
+          "QuestionID": 544683,
+          "UmOption": null,
+          "EmOption": "<p>2.71828</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548199,
+          "QuestionID": 544683,
+          "UmOption": null,
+          "EmOption": "<p>3.14159</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548200,
+          "QuestionID": 544683,
+          "UmOption": null,
+          "EmOption": "<p>1.41421</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544688,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For any allowed base a, the value of a<sup>0</sup> is always:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548201,
+          "QuestionID": 544688,
+          "UmOption": null,
+          "EmOption": "<p>0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548202,
+          "QuestionID": 544688,
+          "UmOption": null,
+          "EmOption": "<p>1</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548203,
+          "QuestionID": 544688,
+          "UmOption": null,
+          "EmOption": "<p>a</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548204,
+          "QuestionID": 544688,
+          "UmOption": null,
+          "EmOption": "<p>-1</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544689,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For all real values of x (rational and irrational), the expression a<sup>x</sup> is always:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548205,
+          "QuestionID": 544689,
+          "UmOption": null,
+          "EmOption": "<p>Negative</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548206,
+          "QuestionID": 544689,
+          "UmOption": null,
+          "EmOption": "<p>Zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548207,
+          "QuestionID": 544689,
+          "UmOption": null,
+          "EmOption": "<p>Positive</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548208,
+          "QuestionID": 544689,
+          "UmOption": null,
+          "EmOption": "<p>Imaginary</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544692,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p> A function is called injective (one-to-one) if:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548209,
+          "QuestionID": 544692,
+          "UmOption": null,
+          "EmOption": "<p>Different inputs always give the same output</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548210,
+          "QuestionID": 544692,
+          "UmOption": null,
+          "EmOption": "<p>Different inputs always give different outputs</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548211,
+          "QuestionID": 544692,
+          "UmOption": null,
+          "EmOption": "<p>It has a horizontal asymptote</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548212,
+          "QuestionID": 544692,
+          "UmOption": null,
+          "EmOption": "<p>The base a is equal to 1</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544694,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Graphically, a function is injective if every horizontal line meets its graph at most:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548213,
+          "QuestionID": 544694,
+          "UmOption": null,
+          "EmOption": "<p>Twice</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548214,
+          "QuestionID": 544694,
+          "UmOption": null,
+          "EmOption": "<p>Zero times</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548215,
+          "QuestionID": 544694,
+          "UmOption": null,
+          "EmOption": "<p>Once</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548216,
+          "QuestionID": 544694,
+          "UmOption": null,
+          "EmOption": "<p>Infinitely many times</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544695,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The horizontal asymptote for the exponential function f(x)=a<sup>x</sup> is represented by the line:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548217,
+          "QuestionID": 544695,
+          "UmOption": null,
+          "EmOption": "<p>x=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548218,
+          "QuestionID": 544695,
+          "UmOption": null,
+          "EmOption": "<p>y=1</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548219,
+          "QuestionID": 544695,
+          "UmOption": null,
+          "EmOption": "<p>y=0</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548220,
+          "QuestionID": 544695,
+          "UmOption": null,
+          "EmOption": "<p>y=a</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544701,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Hyperbolic functions are a specific class of:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548221,
+          "QuestionID": 544701,
+          "UmOption": null,
+          "EmOption": "<p>Algebraic functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548222,
+          "QuestionID": 544701,
+          "UmOption": null,
+          "EmOption": "<p>Transcendental functions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548223,
+          "QuestionID": 544701,
+          "UmOption": null,
+          "EmOption": "<p>Linear functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548224,
+          "QuestionID": 544701,
+          "UmOption": null,
+          "EmOption": "<p>Polynomial functions</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544702,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Hyperbolic functions arise or originate from:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548225,
+          "QuestionID": 544702,
+          "UmOption": null,
+          "EmOption": "<p>Hyperbolas</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548226,
+          "QuestionID": 544702,
+          "UmOption": null,
+          "EmOption": "<p>Circles</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548227,
+          "QuestionID": 544702,
+          "UmOption": null,
+          "EmOption": "<p>Parabolas</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548228,
+          "QuestionID": 544702,
+          "UmOption": null,
+          "EmOption": "<p>Ellipses</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544703,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is NOT listed in the text as a basic hyperbolic function?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548229,
+          "QuestionID": 544703,
+          "UmOption": null,
+          "EmOption": "<p>sinhx</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548230,
+          "QuestionID": 544703,
+          "UmOption": null,
+          "EmOption": "<p>coshx</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548231,
+          "QuestionID": 544703,
+          "UmOption": null,
+          "EmOption": "<p>tanhx</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548232,
+          "QuestionID": 544703,
+          "UmOption": null,
+          "EmOption": "<p>secx</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544704,
+      "SubjectID": 119,
+      "TopicID": 15748,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 E.X: 1.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Inverse hyperbolic functions are defined on:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548233,
+          "QuestionID": 544704,
+          "UmOption": null,
+          "EmOption": "<p>All complex numbers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548234,
+          "QuestionID": 544704,
+          "UmOption": null,
+          "EmOption": "<p>Open intervals only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548235,
+          "QuestionID": 544704,
+          "UmOption": null,
+          "EmOption": "<p>Suitable restricted domains</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548236,
+          "QuestionID": 544704,
+          "UmOption": null,
+          "EmOption": "<p>Entire real number line without restriction</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544713,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A logarithmic function y=log<sub>a</sub> x is defined only when the input x is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548237,
+          "QuestionID": 544713,
+          "UmOption": null,
+          "EmOption": "<p>Any real number</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548238,
+          "QuestionID": 544713,
+          "UmOption": null,
+          "EmOption": "<p>Greater than zero</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548239,
+          "QuestionID": 544713,
+          "UmOption": null,
+          "EmOption": "<p>Less than zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548240,
+          "QuestionID": 544713,
+          "UmOption": null,
+          "EmOption": "<p>Equal to zero</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544714,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A logarithm with base e is called a:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548241,
+          "QuestionID": 544714,
+          "UmOption": null,
+          "EmOption": "<p>Natural logarithm</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548242,
+          "QuestionID": 544714,
+          "UmOption": null,
+          "EmOption": "<p>Common logarithm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548243,
+          "QuestionID": 544714,
+          "UmOption": null,
+          "EmOption": "<p>Universal logarithm</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548244,
+          "QuestionID": 544714,
+          "UmOption": null,
+          "EmOption": "<p>Simple logarithm</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544715,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>According to basic logarithmic identities, the value of log<sub>a</sub>  1 is always:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548245,
+          "QuestionID": 544715,
+          "UmOption": null,
+          "EmOption": "<p>1</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548246,
+          "QuestionID": 544715,
+          "UmOption": null,
+          "EmOption": "<p>0</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548247,
+          "QuestionID": 544715,
+          "UmOption": null,
+          "EmOption": "<p>a</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548248,
+          "QuestionID": 544715,
+          "UmOption": null,
+          "EmOption": "<p>Undefined</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544723,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Unlike exponential functions which have horizontal asymptotes, logarithmic functions possess a:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548249,
+          "QuestionID": 544723,
+          "UmOption": null,
+          "EmOption": "<p>Slant asymptote</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548250,
+          "QuestionID": 544723,
+          "UmOption": null,
+          "EmOption": "<p>Vertical asymptote</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548251,
+          "QuestionID": 544723,
+          "UmOption": null,
+          "EmOption": "<p>Circular asymptote</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548252,
+          "QuestionID": 544723,
+          "UmOption": null,
+          "EmOption": "<p>No asymptote at all</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544729,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does the graph of the function y=log<sub>a</sub> x have NO y-intercept?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548253,
+          "QuestionID": 544729,
+          "UmOption": null,
+          "EmOption": "<p>Because y can never be zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548254,
+          "QuestionID": 544729,
+          "UmOption": null,
+          "EmOption": "<p>Because the function is undefined at x=0</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548255,
+          "QuestionID": 544729,
+          "UmOption": null,
+          "EmOption": "<p>Because the base a cannot be negative</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548256,
+          "QuestionID": 544729,
+          "UmOption": null,
+          "EmOption": "<p>Because the graph is always a straight line</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544731,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The logarithmic function y=log<sub>a</sub> x is continuous for:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548257,
+          "QuestionID": 544731,
+          "UmOption": null,
+          "EmOption": "<p>All x>0</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548258,
+          "QuestionID": 544731,
+          "UmOption": null,
+          "EmOption": "<p>All real numbers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548259,
+          "QuestionID": 544731,
+          "UmOption": null,
+          "EmOption": "<p>All negative real numbers</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548260,
+          "QuestionID": 544731,
+          "UmOption": null,
+          "EmOption": "<p>Integers only</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544736,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The graph of the modulus function f(x)=IxI forms which specific shape?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548261,
+          "QuestionID": 544736,
+          "UmOption": null,
+          "EmOption": "<p>U-shaped</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548262,
+          "QuestionID": 544736,
+          "UmOption": null,
+          "EmOption": "<p>V-shaped</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548263,
+          "QuestionID": 544736,
+          "UmOption": null,
+          "EmOption": "<p>Straight line</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548264,
+          "QuestionID": 544736,
+          "UmOption": null,
+          "EmOption": "<p>Parabola</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544737,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The modulus or absolute value of any real number is always:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548265,
+          "QuestionID": 544737,
+          "UmOption": null,
+          "EmOption": "<p>Strictly negative</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548266,
+          "QuestionID": 544737,
+          "UmOption": null,
+          "EmOption": "<p>Zero only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548267,
+          "QuestionID": 544737,
+          "UmOption": null,
+          "EmOption": "<p>Non-negative</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548268,
+          "QuestionID": 544737,
+          "UmOption": null,
+          "EmOption": "<p>An integer</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544738,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For x<0, the piecewise definition of the modulus function is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548269,
+          "QuestionID": 544738,
+          "UmOption": null,
+          "EmOption": "<p>f(x)=x</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548270,
+          "QuestionID": 544738,
+          "UmOption": null,
+          "EmOption": "<p>f(x)=-x</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548271,
+          "QuestionID": 544738,
+          "UmOption": null,
+          "EmOption": "<p>f(x)=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548272,
+          "QuestionID": 544738,
+          "UmOption": null,
+          "EmOption": "<p>f(x)=-3</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544739,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A function has an inverse if and only if it is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548273,
+          "QuestionID": 544739,
+          "UmOption": null,
+          "EmOption": "<p>Linear</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548274,
+          "QuestionID": 544739,
+          "UmOption": null,
+          "EmOption": "<p>Modulus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548275,
+          "QuestionID": 544739,
+          "UmOption": null,
+          "EmOption": "<p>Continuous only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548276,
+          "QuestionID": 544739,
+          "UmOption": null,
+          "EmOption": "<p>Bijective</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544740,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The graph of a function and its inverse are geometrically symmetric about the line:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548277,
+          "QuestionID": 544740,
+          "UmOption": null,
+          "EmOption": "<p>y=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548278,
+          "QuestionID": 544740,
+          "UmOption": null,
+          "EmOption": "<p>x=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548279,
+          "QuestionID": 544740,
+          "UmOption": null,
+          "EmOption": "<p>y=x</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548280,
+          "QuestionID": 544740,
+          "UmOption": null,
+          "EmOption": "<p>y=-x</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544745,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Geometrically, the graph of an inverse function is obtained by reflecting the original graph about the line:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548281,
+          "QuestionID": 544745,
+          "UmOption": null,
+          "EmOption": "<p>y=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548282,
+          "QuestionID": 544745,
+          "UmOption": null,
+          "EmOption": "<p>x=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548283,
+          "QuestionID": 544745,
+          "UmOption": null,
+          "EmOption": "<p>y=x</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548284,
+          "QuestionID": 544745,
+          "UmOption": null,
+          "EmOption": "<p>y=-x</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544746,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>To geometrically find an inverse function's graph, the original function must be:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548285,
+          "QuestionID": 544746,
+          "UmOption": null,
+          "EmOption": "<p>One-to-one</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548286,
+          "QuestionID": 544746,
+          "UmOption": null,
+          "EmOption": "<p>Modulus</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548287,
+          "QuestionID": 544746,
+          "UmOption": null,
+          "EmOption": "<p>Discontinuous</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548288,
+          "QuestionID": 544746,
+          "UmOption": null,
+          "EmOption": "<p>Quadratic</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544747,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The reflection mapping maintains an equal ...... distance from each point to the line y=x.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548289,
+          "QuestionID": 544747,
+          "UmOption": null,
+          "EmOption": "<p>Parallel</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548290,
+          "QuestionID": 544747,
+          "UmOption": null,
+          "EmOption": "<p>Horizontal</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548291,
+          "QuestionID": 544747,
+          "UmOption": null,
+          "EmOption": "<p>Perpendicular</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548292,
+          "QuestionID": 544747,
+          "UmOption": null,
+          "EmOption": "<p>Slant</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544748,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The process of reflecting a curve across y=x preserves the ...... between the two graphs.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548293,
+          "QuestionID": 544748,
+          "UmOption": null,
+          "EmOption": "<p>Geometric symmetry</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548294,
+          "QuestionID": 544748,
+          "UmOption": null,
+          "EmOption": "<p>Linear intercepts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548295,
+          "QuestionID": 544748,
+          "UmOption": null,
+          "EmOption": "<p>Domain limits</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548296,
+          "QuestionID": 544748,
+          "UmOption": null,
+          "EmOption": "<p>Vertical behavior</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544751,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>One of the most important real-life applications of graph transformations:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548297,
+          "QuestionID": 544751,
+          "UmOption": null,
+          "EmOption": "<p>Chemical testing</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548298,
+          "QuestionID": 544751,
+          "UmOption": null,
+          "EmOption": "<p>Computer graphics</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548299,
+          "QuestionID": 544751,
+          "UmOption": null,
+          "EmOption": "<p>Financial audits</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548300,
+          "QuestionID": 544751,
+          "UmOption": null,
+          "EmOption": "<p>Static accounting</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544752,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which three fundamental transformations are the main focus of this section?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548301,
+          "QuestionID": 544752,
+          "UmOption": null,
+          "EmOption": "<p>Horizontal shift, vertical shift, and scaling</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548302,
+          "QuestionID": 544752,
+          "UmOption": null,
+          "EmOption": "<p>Rotation, reflection, and stretching</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548303,
+          "QuestionID": 544752,
+          "UmOption": null,
+          "EmOption": "<p>Compression, rotation, and translation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548304,
+          "QuestionID": 544752,
+          "UmOption": null,
+          "EmOption": "<p>Inversion, scaling, and rotation</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544753,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The movement of a graph from its original position without changing its shape or size is called:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548305,
+          "QuestionID": 544753,
+          "UmOption": null,
+          "EmOption": "<p>Scaling</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548306,
+          "QuestionID": 544753,
+          "UmOption": null,
+          "EmOption": "<p>Stretching</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548307,
+          "QuestionID": 544753,
+          "UmOption": null,
+          "EmOption": "<p>Shifting</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548308,
+          "QuestionID": 544753,
+          "UmOption": null,
+          "EmOption": "<p>Compression</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544754,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>To achieve a horizontal shift, the change is applied directly to the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548309,
+          "QuestionID": 544754,
+          "UmOption": null,
+          "EmOption": "<p>Output variable y</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548310,
+          "QuestionID": 544754,
+          "UmOption": null,
+          "EmOption": "<p>Input variable x</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548311,
+          "QuestionID": 544754,
+          "UmOption": null,
+          "EmOption": "<p>Constant term only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548312,
+          "QuestionID": 544754,
+          "UmOption": null,
+          "EmOption": "<p>Base value</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544755,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the function y=f(x-h), if h>0, the graph shifts h units to the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548313,
+          "QuestionID": 544755,
+          "UmOption": null,
+          "EmOption": "<p>Right</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548314,
+          "QuestionID": 544755,
+          "UmOption": null,
+          "EmOption": "<p>Left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548315,
+          "QuestionID": 544755,
+          "UmOption": null,
+          "EmOption": "<p>Upward</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548316,
+          "QuestionID": 544755,
+          "UmOption": null,
+          "EmOption": "<p>Downward</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544760,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>To achieve a vertical shift, the modification is applied directly to the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548317,
+          "QuestionID": 544760,
+          "UmOption": null,
+          "EmOption": "<p>Input variable x</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548318,
+          "QuestionID": 544760,
+          "UmOption": null,
+          "EmOption": "<p>Output variable y</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548319,
+          "QuestionID": 544760,
+          "UmOption": null,
+          "EmOption": "<p>Coefficient of x<sup>2</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548320,
+          "QuestionID": 544760,
+          "UmOption": null,
+          "EmOption": "<p>Highest power only</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544761,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the function y=f(x)+k if k>0, the graph shifts k units:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548321,
+          "QuestionID": 544761,
+          "UmOption": null,
+          "EmOption": "<p>To the right</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548322,
+          "QuestionID": 544761,
+          "UmOption": null,
+          "EmOption": "<p>To the left</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548323,
+          "QuestionID": 544761,
+          "UmOption": null,
+          "EmOption": "<p>Upward</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548324,
+          "QuestionID": 544761,
+          "UmOption": null,
+          "EmOption": "<p>Downward</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544762,
+      "SubjectID": 119,
+      "TopicID": 15749,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 E.X: 1.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The graph of the function y=(x-2)<sup>2</sup> represents a parabola with its vertex at:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548325,
+          "QuestionID": 544762,
+          "UmOption": null,
+          "EmOption": "<p>(0,0)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548326,
+          "QuestionID": 544762,
+          "UmOption": null,
+          "EmOption": "<p>(0,2)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548327,
+          "QuestionID": 544762,
+          "UmOption": null,
+          "EmOption": "<p>(2,0)</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548328,
+          "QuestionID": 544762,
+          "UmOption": null,
+          "EmOption": "<p>(-2,0)</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544821,
+      "SubjectID": 119,
+      "TopicID": 15750,
+      "TopicRef": "1.4",
+      "TopicName": "1.4 E.X: 1.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Where does the variable appear in an exponential equation or inequality?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548381,
+          "QuestionID": 544821,
+          "UmOption": null,
+          "EmOption": "<p>In the base</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548382,
+          "QuestionID": 544821,
+          "UmOption": null,
+          "EmOption": "<p>In the exponent</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548383,
+          "QuestionID": 544821,
+          "UmOption": null,
+          "EmOption": "<p>In the coefficient</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548384,
+          "QuestionID": 544821,
+          "UmOption": null,
+          "EmOption": "<p>In the constant term</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544822,
+      "SubjectID": 119,
+      "TopicID": 15750,
+      "TopicRef": "1.4",
+      "TopicName": "1.4 E.X: 1.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What must be considered before solving an expression that is not defined for all real values of the variable?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548385,
+          "QuestionID": 544822,
+          "UmOption": null,
+          "EmOption": "<p>The range</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548386,
+          "QuestionID": 544822,
+          "UmOption": null,
+          "EmOption": "<p>The coefficients</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548387,
+          "QuestionID": 544822,
+          "UmOption": null,
+          "EmOption": "<p>The domain</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548388,
+          "QuestionID": 544822,
+          "UmOption": null,
+          "EmOption": "<p>The degree</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544823,
+      "SubjectID": 119,
+      "TopicID": 15750,
+      "TopicRef": "1.4",
+      "TopicName": "1.4 E.X: 1.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which types of equations and inequalities are specifically covered in this section?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548389,
+          "QuestionID": 544823,
+          "UmOption": null,
+          "EmOption": "<p>Exponential and Logarithmic</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548390,
+          "QuestionID": 544823,
+          "UmOption": null,
+          "EmOption": "<p>Linear and Quadratic</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548391,
+          "QuestionID": 544823,
+          "UmOption": null,
+          "EmOption": "<p>Polynomial and Radical</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548392,
+          "QuestionID": 544823,
+          "UmOption": null,
+          "EmOption": "<p>Trigonometric and Matrix</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544826,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the growth and decay formula, what does a positive value of k(k>0) represent?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548393,
+          "QuestionID": 544826,
+          "UmOption": null,
+          "EmOption": "<p>Growth</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548394,
+          "QuestionID": 544826,
+          "UmOption": null,
+          "EmOption": "<p>Decay</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548395,
+          "QuestionID": 544826,
+          "UmOption": null,
+          "EmOption": "<p>Initial amount</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548396,
+          "QuestionID": 544826,
+          "UmOption": null,
+          "EmOption": "<p>Time</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544827,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What role do logarithms play in exponential models?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548397,
+          "QuestionID": 544827,
+          "UmOption": null,
+          "EmOption": "<p>They calculate the initial amount</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548398,
+          "QuestionID": 544827,
+          "UmOption": null,
+          "EmOption": "<p>They help determine unknown quantities like time (t) or rate (k).</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548399,
+          "QuestionID": 544827,
+          "UmOption": null,
+          "EmOption": "<p>They decrease the value over time</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548400,
+          "QuestionID": 544827,
+          "UmOption": null,
+          "EmOption": "<p>They represent sound intensity in decibels</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544828,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In natural growth or decay processes, the rate of change is proportional to which of the following?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548401,
+          "QuestionID": 544828,
+          "UmOption": null,
+          "EmOption": "<p>Initial amount only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548402,
+          "QuestionID": 544828,
+          "UmOption": null,
+          "EmOption": "<p>Constant time t</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548403,
+          "QuestionID": 544828,
+          "UmOption": null,
+          "EmOption": "<p>The current amount</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548404,
+          "QuestionID": 544828,
+          "UmOption": null,
+          "EmOption": "<p>The value of e</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544832,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the unit of sound intensity?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548405,
+          "QuestionID": 544832,
+          "UmOption": null,
+          "EmOption": "<p>Decibel (dB)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548406,
+          "QuestionID": 544832,
+          "UmOption": null,
+          "EmOption": "<p>Watt (W)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548407,
+          "QuestionID": 544832,
+          "UmOption": null,
+          "EmOption": "<p>Watts per square meter</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548408,
+          "QuestionID": 544832,
+          "UmOption": null,
+          "EmOption": "<p>Joule per second</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544833,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is sound intensity measured on a logarithmic scale (decibel scale)?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548409,
+          "QuestionID": 544833,
+          "UmOption": null,
+          "EmOption": "<p>Because sound level is always a constant value</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548410,
+          "QuestionID": 544833,
+          "UmOption": null,
+          "EmOption": "<p>Because sound intensity varies over a very wide range</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548411,
+          "QuestionID": 544833,
+          "UmOption": null,
+          "EmOption": "<p>To make calculations linear</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548412,
+          "QuestionID": 544833,
+          "UmOption": null,
+          "EmOption": "<p>Because the human ear cannot detect high intensities</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544837,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compound interest is generally classified into how many types?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548413,
+          "QuestionID": 544837,
+          "UmOption": null,
+          "EmOption": "<p>Three</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548414,
+          "QuestionID": 544837,
+          "UmOption": null,
+          "EmOption": "<p>Two</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548415,
+          "QuestionID": 544837,
+          "UmOption": null,
+          "EmOption": "<p>Four</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548416,
+          "QuestionID": 544837,
+          "UmOption": null,
+          "EmOption": "<p>Five</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544838,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the discrete compound interest formula, what does the variable 'n' represent?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548417,
+          "QuestionID": 544838,
+          "UmOption": null,
+          "EmOption": "<p>The initial amount of money invested</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548418,
+          "QuestionID": 544838,
+          "UmOption": null,
+          "EmOption": "<p>The total time duration in years</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548419,
+          "QuestionID": 544838,
+          "UmOption": null,
+          "EmOption": "<p>The number of times interest is compounded per unit time</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548420,
+          "QuestionID": 544838,
+          "UmOption": null,
+          "EmOption": "<p>The annual interest rate in decimal form</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544839,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When interest is added to the principal at fixed intervals like yearly, quarterly, or monthly, it is called:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548421,
+          "QuestionID": 544839,
+          "UmOption": null,
+          "EmOption": "<p>Continuous compound interest</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548422,
+          "QuestionID": 544839,
+          "UmOption": null,
+          "EmOption": "<p>Simple interest</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548423,
+          "QuestionID": 544839,
+          "UmOption": null,
+          "EmOption": "<p>Fixed baseline interest</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548424,
+          "QuestionID": 544839,
+          "UmOption": null,
+          "EmOption": "<p>Discrete compound interest</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544843,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Continuous compounding represents the limiting case of discrete compounding when the number of compounding periods becomes:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548425,
+          "QuestionID": 544843,
+          "UmOption": null,
+          "EmOption": "<p>Zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548426,
+          "QuestionID": 544843,
+          "UmOption": null,
+          "EmOption": "<p>One</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548427,
+          "QuestionID": 544843,
+          "UmOption": null,
+          "EmOption": "<p>Finitely small</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548428,
+          "QuestionID": 544843,
+          "UmOption": null,
+          "EmOption": "<p>Infinitely large</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544844,
+      "SubjectID": 119,
+      "TopicID": 15751,
+      "TopicRef": "1.5",
+      "TopicName": "1.5 E.X: 1.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In continuous compound interest, how often is interest added to the principal?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548429,
+          "QuestionID": 544844,
+          "UmOption": null,
+          "EmOption": "<p>Monthly</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548430,
+          "QuestionID": 544844,
+          "UmOption": null,
+          "EmOption": "<p>Yearly</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548431,
+          "QuestionID": 544844,
+          "UmOption": null,
+          "EmOption": "<p>Continuously at every instant of time</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548432,
+          "QuestionID": 544844,
+          "UmOption": null,
+          "EmOption": "<p>Weekly</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544853,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Who introduced the fundamental concept of differentiation in calculus?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548461,
+          "QuestionID": 544853,
+          "UmOption": null,
+          "EmOption": "<p>Gauss and Riemann</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548462,
+          "QuestionID": 544853,
+          "UmOption": null,
+          "EmOption": "<p>Newton and Leibniz</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548463,
+          "QuestionID": 544853,
+          "UmOption": null,
+          "EmOption": "<p>Euler and Lagrange</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548464,
+          "QuestionID": 544853,
+          "UmOption": null,
+          "EmOption": "<p>Pascal and Fermat</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544854,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which rules were already studied in the previous class to find derivatives of polynomials and rational functions?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548465,
+          "QuestionID": 544854,
+          "UmOption": null,
+          "EmOption": "<p>Chain rule and Power rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548466,
+          "QuestionID": 544854,
+          "UmOption": null,
+          "EmOption": "<p>L'Hopital's rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548467,
+          "QuestionID": 544854,
+          "UmOption": null,
+          "EmOption": "<p>Sum, difference, product, and quotient rules</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548468,
+          "QuestionID": 544854,
+          "UmOption": null,
+          "EmOption": "<p>ubstitution method</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544856,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiation will be applied to identify which behavior of functions?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548473,
+          "QuestionID": 544856,
+          "UmOption": null,
+          "EmOption": "<p>ncreasing and decreasing functions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548474,
+          "QuestionID": 544856,
+          "UmOption": null,
+          "EmOption": "<p>Domain and range</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548475,
+          "QuestionID": 544856,
+          "UmOption": null,
+          "EmOption": "<p>Periodic behavior</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548476,
+          "QuestionID": 544856,
+          "UmOption": null,
+          "EmOption": "<p>Continuity and limits</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544857,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What will be used to find local and global extrema in this unit?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548477,
+          "QuestionID": 544857,
+          "UmOption": null,
+          "EmOption": "<p>Critical points</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548478,
+          "QuestionID": 544857,
+          "UmOption": null,
+          "EmOption": "<p>Linear approximations</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548479,
+          "QuestionID": 544857,
+          "UmOption": null,
+          "EmOption": "<p>Percentage errors</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548480,
+          "QuestionID": 544857,
+          "UmOption": null,
+          "EmOption": "<p>Quotients</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544864,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which trigonometric functions' derivatives are found \"by definition\" first?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548489,
+          "QuestionID": 544864,
+          "UmOption": null,
+          "EmOption": "<p>tan x and cos x</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548490,
+          "QuestionID": 544864,
+          "UmOption": null,
+          "EmOption": "<p>sec x and csc x</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548491,
+          "QuestionID": 544864,
+          "UmOption": null,
+          "EmOption": "<p>sin x and cos x</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548492,
+          "QuestionID": 544864,
+          "UmOption": null,
+          "EmOption": "<p>Only sin x</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544865,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which rules can be used to find the derivatives of the remaining trigonometric functions?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548493,
+          "QuestionID": 544865,
+          "UmOption": null,
+          "EmOption": "<p>Chain rule and Power rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548494,
+          "QuestionID": 544865,
+          "UmOption": null,
+          "EmOption": "<p>Product rule and Quotient rule</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548495,
+          "QuestionID": 544865,
+          "UmOption": null,
+          "EmOption": "<p>Sum rule and Difference rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548496,
+          "QuestionID": 544865,
+          "UmOption": null,
+          "EmOption": "<p>L'Hopital's rule</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544874,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which rule must be applied to terms containing y during implicit differentiation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548497,
+          "QuestionID": 544874,
+          "UmOption": null,
+          "EmOption": "<p>Product Rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548498,
+          "QuestionID": 544874,
+          "UmOption": null,
+          "EmOption": "<p>Quotient Rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548499,
+          "QuestionID": 544874,
+          "UmOption": null,
+          "EmOption": "<p>Chain Rule</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548500,
+          "QuestionID": 544874,
+          "UmOption": null,
+          "EmOption": "<p>Power Rule</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544876,
+      "SubjectID": 119,
+      "TopicID": 15752,
+      "TopicRef": "2.1",
+      "TopicName": "2.1 E.X: 2.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the first step of implicit differentiation, both sides of F(x,y)=0 are differentiated with respect to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548501,
+          "QuestionID": 544876,
+          "UmOption": null,
+          "EmOption": "<p>X</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548502,
+          "QuestionID": 544876,
+          "UmOption": null,
+          "EmOption": "<p>Y</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548503,
+          "QuestionID": 544876,
+          "UmOption": null,
+          "EmOption": "<p>F</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548504,
+          "QuestionID": 544876,
+          "UmOption": null,
+          "EmOption": "<p>O</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544882,
+      "SubjectID": 119,
+      "TopicID": 15753,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 E.X: 2.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the approximate value of the mathematical constant e used in the natural exponential function?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548505,
+          "QuestionID": 544882,
+          "UmOption": null,
+          "EmOption": "<p>3.14159</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548506,
+          "QuestionID": 544882,
+          "UmOption": null,
+          "EmOption": "<p>2.71828</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548507,
+          "QuestionID": 544882,
+          "UmOption": null,
+          "EmOption": "<p>1.41421</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548508,
+          "QuestionID": 544882,
+          "UmOption": null,
+          "EmOption": "<p>1.61803</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544891,
+      "SubjectID": 119,
+      "TopicID": 15753,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 E.X: 2.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If a<sup>y</sup> =x, then what is the correct logarithmic representation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548509,
+          "QuestionID": 544891,
+          "UmOption": null,
+          "EmOption": "<p>y=log<sub>a</sub> x</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548510,
+          "QuestionID": 544891,
+          "UmOption": null,
+          "EmOption": "<p>x=log<sub>a</sub> y</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548511,
+          "QuestionID": 544891,
+          "UmOption": null,
+          "EmOption": "<p>y=log<sub>x</sub> a</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548512,
+          "QuestionID": 544891,
+          "UmOption": null,
+          "EmOption": "<p>a=log<sub>y</sub> x</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544892,
+      "SubjectID": 119,
+      "TopicID": 15753,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 E.X: 2.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the domain restriction for the argument x in the function y=log<sub>a</sub> x</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548513,
+          "QuestionID": 544892,
+          "UmOption": null,
+          "EmOption": "<p>x<0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548514,
+          "QuestionID": 544892,
+          "UmOption": null,
+          "EmOption": "<p>x<u><</u> 0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548515,
+          "QuestionID": 544892,
+          "UmOption": null,
+          "EmOption": "<p>x>0</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548516,
+          "QuestionID": 544892,
+          "UmOption": null,
+          "EmOption": "<p>None</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544896,
+      "SubjectID": 119,
+      "TopicID": 15754,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 E.X: 2.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the equation of the normal line when the slope of the tangent line is zero (m=0)?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548517,
+          "QuestionID": 544896,
+          "UmOption": null,
+          "EmOption": "<p>x=x<sub>o</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548518,
+          "QuestionID": 544896,
+          "UmOption": null,
+          "EmOption": "<p>y=y<sub>o</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548519,
+          "QuestionID": 544896,
+          "UmOption": null,
+          "EmOption": "<p>y-y<sub>o</sub> =0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548520,
+          "QuestionID": 544896,
+          "UmOption": null,
+          "EmOption": "<p>None of these</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544900,
+      "SubjectID": 119,
+      "TopicID": 15754,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 E.X: 2.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If the first derivative f' of a function is differentiable, its derivative is called the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548521,
+          "QuestionID": 544900,
+          "UmOption": null,
+          "EmOption": "<p>First derivative</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548522,
+          "QuestionID": 544900,
+          "UmOption": null,
+          "EmOption": "<p>Second derivative</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548523,
+          "QuestionID": 544900,
+          "UmOption": null,
+          "EmOption": "<p>Higher-order limit</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548524,
+          "QuestionID": 544900,
+          "UmOption": null,
+          "EmOption": "<p>Partial derivative</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544901,
+      "SubjectID": 119,
+      "TopicID": 15754,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 E.X: 2.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The collective term used for successive derivatives such as the third, fourth, and fifth derivatives is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548525,
+          "QuestionID": 544901,
+          "UmOption": null,
+          "EmOption": "<p>Initial derivatives</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548526,
+          "QuestionID": 544901,
+          "UmOption": null,
+          "EmOption": "<p>Lower-order derivatives</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548527,
+          "QuestionID": 544901,
+          "UmOption": null,
+          "EmOption": "<p>Higher-order derivatives</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548528,
+          "QuestionID": 544901,
+          "UmOption": null,
+          "EmOption": "<p>Polynomial derivatives</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544902,
+      "SubjectID": 119,
+      "TopicID": 15754,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 E.X: 2.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What condition must be met to continue finding successive derivatives of a function?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548529,
+          "QuestionID": 544902,
+          "UmOption": null,
+          "EmOption": "<p>The function must equal zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548530,
+          "QuestionID": 544902,
+          "UmOption": null,
+          "EmOption": "<p>The function must be linear</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548531,
+          "QuestionID": 544902,
+          "UmOption": null,
+          "EmOption": "<p>The new function must remain differentiable</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548532,
+          "QuestionID": 544902,
+          "UmOption": null,
+          "EmOption": "<p>The function must be explicit</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544908,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For the function f(x)=IxI, why is x=0 considered a critical point?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548533,
+          "QuestionID": 544908,
+          "UmOption": null,
+          "EmOption": "<p>Because f(0)=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548534,
+          "QuestionID": 544908,
+          "UmOption": null,
+          "EmOption": "<p>Because the derivative does not exist at x=0</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548535,
+          "QuestionID": 544908,
+          "UmOption": null,
+          "EmOption": "<p>Because the function is discontinuous at x=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548536,
+          "QuestionID": 544908,
+          "UmOption": null,
+          "EmOption": "<p>Because it is a stationary point</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544909,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following statements is completely true regarding critical and stationary points?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548537,
+          "QuestionID": 544909,
+          "UmOption": null,
+          "EmOption": "<p>Every stationary point is a critical point</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548538,
+          "QuestionID": 544909,
+          "UmOption": null,
+          "EmOption": "<p>Every critical point is a stationary point</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548539,
+          "QuestionID": 544909,
+          "UmOption": null,
+          "EmOption": "<p>Critical points and stationary points are completely unrelated</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548540,
+          "QuestionID": 544909,
+          "UmOption": null,
+          "EmOption": "<p>A stationary point can never be a critical point</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544914,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the global maximum and global minimum of a function collectively called?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548541,
+          "QuestionID": 544914,
+          "UmOption": null,
+          "EmOption": "<p>Critical boundaries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548542,
+          "QuestionID": 544914,
+          "UmOption": null,
+          "EmOption": "<p>Stationary points</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548543,
+          "QuestionID": 544914,
+          "UmOption": null,
+          "EmOption": "<p>Global extrema</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548544,
+          "QuestionID": 544914,
+          "UmOption": null,
+          "EmOption": "<p>Absolute intervals</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544915,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For the function f(x)=x<sup>2</sup> defined on the closed interval [0,2], what is the global maximum value?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548545,
+          "QuestionID": 544915,
+          "UmOption": null,
+          "EmOption": "<p>2</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548546,
+          "QuestionID": 544915,
+          "UmOption": null,
+          "EmOption": "<p>0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548547,
+          "QuestionID": 544915,
+          "UmOption": null,
+          "EmOption": "<p>4</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548548,
+          "QuestionID": 544915,
+          "UmOption": null,
+          "EmOption": "<p>It does not exist</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544917,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the key difference in definition between global extrema and local extrema?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548549,
+          "QuestionID": 544917,
+          "UmOption": null,
+          "EmOption": "<p>Global uses derivative while local does not</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548550,
+          "QuestionID": 544917,
+          "UmOption": null,
+          "EmOption": "<p>Local extrema are defined within a specific open sub-interval</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548551,
+          "QuestionID": 544917,
+          "UmOption": null,
+          "EmOption": "<p>Global extrema only exist for linear functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548552,
+          "QuestionID": 544917,
+          "UmOption": null,
+          "EmOption": "<p>Local extrema must always equal zero</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544920,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When finding the global extrema of a function on a closed interval [a,b], at which points should you first evaluate the function?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548553,
+          "QuestionID": 544920,
+          "UmOption": null,
+          "EmOption": "<p>Only at the point x=0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548554,
+          "QuestionID": 544920,
+          "UmOption": null,
+          "EmOption": "<p>Only at the midpoint of the interval</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548555,
+          "QuestionID": 544920,
+          "UmOption": null,
+          "EmOption": "<p>At all critical points and endpoints of the interval</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548556,
+          "QuestionID": 544920,
+          "UmOption": null,
+          "EmOption": "<p>At infinity</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544921,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The largest value obtained after evaluating the function at its critical points and endpoints is called the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548557,
+          "QuestionID": 544921,
+          "UmOption": null,
+          "EmOption": "<p>Local minimum value</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548558,
+          "QuestionID": 544921,
+          "UmOption": null,
+          "EmOption": "<p>Critical value</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548559,
+          "QuestionID": 544921,
+          "UmOption": null,
+          "EmOption": "<p>Global maximum value</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548560,
+          "QuestionID": 544921,
+          "UmOption": null,
+          "EmOption": "<p>Inflection point value</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544922,
+      "SubjectID": 119,
+      "TopicID": 15755,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 E.X: 2.4",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The smallest value obtained after checking the critical points and endpoints on a closed interval is called the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548561,
+          "QuestionID": 544922,
+          "UmOption": null,
+          "EmOption": "<p>Global minimum value</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548562,
+          "QuestionID": 544922,
+          "UmOption": null,
+          "EmOption": "<p>Local maximum value</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548563,
+          "QuestionID": 544922,
+          "UmOption": null,
+          "EmOption": "<p>Stationary value</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548564,
+          "QuestionID": 544922,
+          "UmOption": null,
+          "EmOption": "<p>Explicit value</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544935,
+      "SubjectID": 119,
+      "TopicID": 15756,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 E.X: 2.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What geometric line does linearization use to approximate a function near a specific point?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548565,
+          "QuestionID": 544935,
+          "UmOption": null,
+          "EmOption": "<p>Secant line</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548566,
+          "QuestionID": 544935,
+          "UmOption": null,
+          "EmOption": "<p>Tangent line</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548567,
+          "QuestionID": 544935,
+          "UmOption": null,
+          "EmOption": "<p>Normal line</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548568,
+          "QuestionID": 544935,
+          "UmOption": null,
+          "EmOption": "<p>Asymptote</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544936,
+      "SubjectID": 119,
+      "TopicID": 15756,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 E.X: 2.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Linearization is widely used in fields like machine learning, physics, engineering, and economics for:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548569,
+          "QuestionID": 544936,
+          "UmOption": null,
+          "EmOption": "<p>Finding global extrema</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548570,
+          "QuestionID": 544936,
+          "UmOption": null,
+          "EmOption": "<p>Finding exact analytical roots</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548571,
+          "QuestionID": 544936,
+          "UmOption": null,
+          "EmOption": "<p>Quick, local estimates around known values</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548572,
+          "QuestionID": 544936,
+          "UmOption": null,
+          "EmOption": "<p>Calculating total volumes</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544937,
+      "SubjectID": 119,
+      "TopicID": 15756,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 E.X: 2.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A function of the form y=mx+c is called a:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548573,
+          "QuestionID": 544937,
+          "UmOption": null,
+          "EmOption": "<p>Linear function</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548574,
+          "QuestionID": 544937,
+          "UmOption": null,
+          "EmOption": "<p>Quadratic function</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548575,
+          "QuestionID": 544937,
+          "UmOption": null,
+          "EmOption": "<p>Exponential function</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548576,
+          "QuestionID": 544937,
+          "UmOption": null,
+          "EmOption": "<p>Logarithmic function</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544941,
+      "SubjectID": 119,
+      "TopicID": 15756,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 E.X: 2.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Every differentiable curve behaves locally like its:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548577,
+          "QuestionID": 544941,
+          "UmOption": null,
+          "EmOption": "<p>Normal line</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548578,
+          "QuestionID": 544941,
+          "UmOption": null,
+          "EmOption": "<p>Secant line</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548579,
+          "QuestionID": 544941,
+          "UmOption": null,
+          "EmOption": "<p>Tangent line</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548580,
+          "QuestionID": 544941,
+          "UmOption": null,
+          "EmOption": "<p>Asymptote</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544942,
+      "SubjectID": 119,
+      "TopicID": 15756,
+      "TopicRef": "2.5",
+      "TopicName": "2.5 E.X: 2.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The approximation provided by the tangent line is highly accurate for:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548581,
+          "QuestionID": 544942,
+          "UmOption": null,
+          "EmOption": "<p>All real numbers infinitely</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548582,
+          "QuestionID": 544942,
+          "UmOption": null,
+          "EmOption": "<p>Large values of x far from the point</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548583,
+          "QuestionID": 544942,
+          "UmOption": null,
+          "EmOption": "<p>A small interval on either side of the point of tangency</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548584,
+          "QuestionID": 544942,
+          "UmOption": null,
+          "EmOption": "<p>Negative values of x only</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544944,
+      "SubjectID": 119,
+      "TopicID": 15757,
+      "TopicRef": "2.6",
+      "TopicName": "2.6 E.X: 2.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the differential formula dy=f'(x)dx, what type of variable is dx?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548585,
+          "QuestionID": 544944,
+          "UmOption": null,
+          "EmOption": "<p>Dependent variable</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548586,
+          "QuestionID": 544944,
+          "UmOption": null,
+          "EmOption": "<p>Independent variable</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548587,
+          "QuestionID": 544944,
+          "UmOption": null,
+          "EmOption": "<p>Constant variable</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548588,
+          "QuestionID": 544944,
+          "UmOption": null,
+          "EmOption": "<p>Undefined variable</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544947,
+      "SubjectID": 119,
+      "TopicID": 15758,
+      "TopicRef": "2.7",
+      "TopicName": "2.7 E.X: 2.7",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p> What is the very first step in solving extrema problems in real-life scenarios?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548589,
+          "QuestionID": 544947,
+          "UmOption": null,
+          "EmOption": "<p>Understand the Problem</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548590,
+          "QuestionID": 544947,
+          "UmOption": null,
+          "EmOption": "<p>Define Variables</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548591,
+          "QuestionID": 544947,
+          "UmOption": null,
+          "EmOption": "<p>Formulate the Function</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548592,
+          "QuestionID": 544947,
+          "UmOption": null,
+          "EmOption": "<p>Find Critical Points</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544948,
+      "SubjectID": 119,
+      "TopicID": 15758,
+      "TopicRef": "2.7",
+      "TopicName": "2.7 E.X: 2.7",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which mathematical test is mentioned to confirm whether a critical point is a maximum or minimum?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548593,
+          "QuestionID": 544948,
+          "UmOption": null,
+          "EmOption": "<p>First derivative test</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548594,
+          "QuestionID": 544948,
+          "UmOption": null,
+          "EmOption": "<p>Second derivative test</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548595,
+          "QuestionID": 544948,
+          "UmOption": null,
+          "EmOption": "<p>Rolle's theorem</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548596,
+          "QuestionID": 544948,
+          "UmOption": null,
+          "EmOption": "<p>Mean value theorem</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544950,
+      "SubjectID": 119,
+      "TopicID": 15759,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 E.X: 3.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Integration is defined as the reverse process of which of the following?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548597,
+          "QuestionID": 544950,
+          "UmOption": null,
+          "EmOption": "<p>Limit notation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548598,
+          "QuestionID": 544950,
+          "UmOption": null,
+          "EmOption": "<p>Differentiation</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548599,
+          "QuestionID": 544950,
+          "UmOption": null,
+          "EmOption": "<p>Linearization</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548600,
+          "QuestionID": 544950,
+          "UmOption": null,
+          "EmOption": "<p>Matrix multiplication</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544951,
+      "SubjectID": 119,
+      "TopicID": 15759,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 E.X: 3.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Integration is an important branch of calculus used to find:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548601,
+          "QuestionID": 544951,
+          "UmOption": null,
+          "EmOption": "<p>Slopes of curves only</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548602,
+          "QuestionID": 544951,
+          "UmOption": null,
+          "EmOption": "<p>Percentage errors</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548603,
+          "QuestionID": 544951,
+          "UmOption": null,
+          "EmOption": "<p>Accumulation, area, volume, and total change</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548604,
+          "QuestionID": 544951,
+          "UmOption": null,
+          "EmOption": "<p>Tangent line equations</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544952,
+      "SubjectID": 119,
+      "TopicID": 15759,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 E.X: 3.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What can be calculated using integration to find the space occupied by solids of revolution?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548605,
+          "QuestionID": 544952,
+          "UmOption": null,
+          "EmOption": "<p>Critical boundaries</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548606,
+          "QuestionID": 544952,
+          "UmOption": null,
+          "EmOption": "<p>Linear approximations</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548607,
+          "QuestionID": 544952,
+          "UmOption": null,
+          "EmOption": "<p>Derivatives</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548608,
+          "QuestionID": 544952,
+          "UmOption": null,
+          "EmOption": "<p>Volumes</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544956,
+      "SubjectID": 119,
+      "TopicID": 15759,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 E.X: 3.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p> What is the process of recovering a function F from its derivative f called?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548609,
+          "QuestionID": 544956,
+          "UmOption": null,
+          "EmOption": "<p>Differentiation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548610,
+          "QuestionID": 544956,
+          "UmOption": null,
+          "EmOption": "<p>Linearization</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548611,
+          "QuestionID": 544956,
+          "UmOption": null,
+          "EmOption": "<p>Antidifferentiation</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548612,
+          "QuestionID": 544956,
+          "UmOption": null,
+          "EmOption": "<p>Integration by parts</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544957,
+      "SubjectID": 119,
+      "TopicID": 15759,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 E.X: 3.1",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The set or family of all antiderivatives of f is called the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548613,
+          "QuestionID": 544957,
+          "UmOption": null,
+          "EmOption": "<p>Definite integral</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548614,
+          "QuestionID": 544957,
+          "UmOption": null,
+          "EmOption": "<p>Indefinite integral</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548615,
+          "QuestionID": 544957,
+          "UmOption": null,
+          "EmOption": "<p>Differential equation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548616,
+          "QuestionID": 544957,
+          "UmOption": null,
+          "EmOption": "<p>Constant set</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544962,
+      "SubjectID": 119,
+      "TopicID": 15760,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 E.X: 3.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The method of substitution or change of variable stems from reversing which rule for derivatives?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548617,
+          "QuestionID": 544962,
+          "UmOption": null,
+          "EmOption": "<p>Product Rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548618,
+          "QuestionID": 544962,
+          "UmOption": null,
+          "EmOption": "<p>Quotient Rule</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548619,
+          "QuestionID": 544962,
+          "UmOption": null,
+          "EmOption": "<p>Chain Rule</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548620,
+          "QuestionID": 544962,
+          "UmOption": null,
+          "EmOption": "<p>Power Rule</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544963,
+      "SubjectID": 119,
+      "TopicID": 15760,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 E.X: 3.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the process of replacing x with a new variable u=g(x) and dx with du called?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548621,
+          "QuestionID": 544963,
+          "UmOption": null,
+          "EmOption": "<p>Integration by parts</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548622,
+          "QuestionID": 544963,
+          "UmOption": null,
+          "EmOption": "<p>Method of substitution (or change of variable)</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548623,
+          "QuestionID": 544963,
+          "UmOption": null,
+          "EmOption": "<p>Implicit differentiation</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548624,
+          "QuestionID": 544963,
+          "UmOption": null,
+          "EmOption": "<p>Linearization</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544965,
+      "SubjectID": 119,
+      "TopicID": 15760,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 E.X: 3.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the primary objective of using a trigonometric substitution in integration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548625,
+          "QuestionID": 544965,
+          "UmOption": null,
+          "EmOption": "<p>To increase the degree of the polynomial</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548626,
+          "QuestionID": 544965,
+          "UmOption": null,
+          "EmOption": "<p>To convert a definite integral into an indefinite one</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548627,
+          "QuestionID": 544965,
+          "UmOption": null,
+          "EmOption": "<p>To eliminate the radical sign in the integrand</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548628,
+          "QuestionID": 544965,
+          "UmOption": null,
+          "EmOption": "<p>To find the derivative of the function</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544966,
+      "SubjectID": 119,
+      "TopicID": 15760,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 E.X: 3.2",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which pair of identities is used to simplify the expressions after substitution?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548629,
+          "QuestionID": 544966,
+          "UmOption": null,
+          "EmOption": "<p>Sum and difference identities</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548630,
+          "QuestionID": 544966,
+          "UmOption": null,
+          "EmOption": "<p>Double angle identities</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548631,
+          "QuestionID": 544966,
+          "UmOption": null,
+          "EmOption": "<p>Pythagorean identities</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548632,
+          "QuestionID": 544966,
+          "UmOption": null,
+          "EmOption": "<p>Product-to-sum identities</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544972,
+      "SubjectID": 119,
+      "TopicID": 15761,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 E.X: 3.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The rule that corresponds to the Product Rule for differentiation is called:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548633,
+          "QuestionID": 544972,
+          "UmOption": null,
+          "EmOption": "<p>Substitution method</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548634,
+          "QuestionID": 544972,
+          "UmOption": null,
+          "EmOption": "<p>Integration by parts</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548635,
+          "QuestionID": 544972,
+          "UmOption": null,
+          "EmOption": "<p>Partial fractions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548636,
+          "QuestionID": 544972,
+          "UmOption": null,
+          "EmOption": "<p>Chain rule</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544973,
+      "SubjectID": 119,
+      "TopicID": 15761,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 E.X: 3.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In the mnemonic LIATE, the letter 'I' stands for</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548637,
+          "QuestionID": 544973,
+          "UmOption": null,
+          "EmOption": "<p>Inverse trigonometric functions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548638,
+          "QuestionID": 544973,
+          "UmOption": null,
+          "EmOption": "<p>Integral functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548639,
+          "QuestionID": 544973,
+          "UmOption": null,
+          "EmOption": "<p>Identity functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548640,
+          "QuestionID": 544973,
+          "UmOption": null,
+          "EmOption": "<p>Irrational functions</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544974,
+      "SubjectID": 119,
+      "TopicID": 15761,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 E.X: 3.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The mnemonic LIATE is used as a guideline to choose the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548641,
+          "QuestionID": 544974,
+          "UmOption": null,
+          "EmOption": "<p>Value of the constant c</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548642,
+          "QuestionID": 544974,
+          "UmOption": null,
+          "EmOption": "<p>First function for integration by parts</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548643,
+          "QuestionID": 544974,
+          "UmOption": null,
+          "EmOption": "<p>Derivative of the function</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548644,
+          "QuestionID": 544974,
+          "UmOption": null,
+          "EmOption": "<p>Limits of integration</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544975,
+      "SubjectID": 119,
+      "TopicID": 15761,
+      "TopicRef": "3.3",
+      "TopicName": "3.3 E.X: 3.3",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>According to the LIATE rule, which type of function comes first between Algebraic (A) and Trigonometric (T) functions?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548645,
+          "QuestionID": 544975,
+          "UmOption": null,
+          "EmOption": "<p>Both at the same time</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548646,
+          "QuestionID": 544975,
+          "UmOption": null,
+          "EmOption": "<p>Trigonometric functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548647,
+          "QuestionID": 544975,
+          "UmOption": null,
+          "EmOption": "<p>Algebraic functions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548648,
+          "QuestionID": 544975,
+          "UmOption": null,
+          "EmOption": "<p>None of the above</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544988,
+      "SubjectID": 119,
+      "TopicID": 15763,
+      "TopicRef": "3.5",
+      "TopicName": "3.5 E.X: 3.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The definite integral of a functionff from a to b is geometrically defined as the</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548649,
+          "QuestionID": 544988,
+          "UmOption": null,
+          "EmOption": "<p>Derivative of the curve</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548650,
+          "QuestionID": 544988,
+          "UmOption": null,
+          "EmOption": "<p>Slope of the tangent line</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548651,
+          "QuestionID": 544988,
+          "UmOption": null,
+          "EmOption": "<p>Net signed area bounded by the curve and the x-axis</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548652,
+          "QuestionID": 544988,
+          "UmOption": null,
+          "EmOption": "<p>Product of the limits</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544989,
+      "SubjectID": 119,
+      "TopicID": 15763,
+      "TopicRef": "3.5",
+      "TopicName": "3.5 E.X: 3.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The value of a definite integral is always a:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548653,
+          "QuestionID": 544989,
+          "UmOption": null,
+          "EmOption": "<p>Family of functions</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548654,
+          "QuestionID": 544989,
+          "UmOption": null,
+          "EmOption": "<p>Real number</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548655,
+          "QuestionID": 544989,
+          "UmOption": null,
+          "EmOption": "<p>Variable quantity</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548656,
+          "QuestionID": 544989,
+          "UmOption": null,
+          "EmOption": "<p>Imaginary number</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 544990,
+      "SubjectID": 119,
+      "TopicID": 15763,
+      "TopicRef": "3.5",
+      "TopicName": "3.5 E.X: 3.5",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Unlike definite integrals, the result of an indefinite integral is a:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548657,
+          "QuestionID": 544990,
+          "UmOption": null,
+          "EmOption": "<p>Single real number</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548658,
+          "QuestionID": 544990,
+          "UmOption": null,
+          "EmOption": "<p>Family of functions</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548659,
+          "QuestionID": 544990,
+          "UmOption": null,
+          "EmOption": "<p>Constant zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548660,
+          "QuestionID": 544990,
+          "UmOption": null,
+          "EmOption": "<p>Geometrical point</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545001,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If a curve lies entirely above the x-axis, the sign of the net signed area is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548661,
+          "QuestionID": 545001,
+          "UmOption": null,
+          "EmOption": "<p>Positive</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548662,
+          "QuestionID": 545001,
+          "UmOption": null,
+          "EmOption": "<p>Negative</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548663,
+          "QuestionID": 545001,
+          "UmOption": null,
+          "EmOption": "<p>Zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548664,
+          "QuestionID": 545001,
+          "UmOption": null,
+          "EmOption": "<p>Infinite</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545002,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When the curve lies entirely below the x-axis, the definite integral gives a net signed area that is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548665,
+          "QuestionID": 545002,
+          "UmOption": null,
+          "EmOption": "<p>Negative</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548666,
+          "QuestionID": 545002,
+          "UmOption": null,
+          "EmOption": "<p>Positive</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548667,
+          "QuestionID": 545002,
+          "UmOption": null,
+          "EmOption": "<p>Zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548668,
+          "QuestionID": 545002,
+          "UmOption": null,
+          "EmOption": "<p>Undefined</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545003,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If a curve crosses the x-axis, how is the net signed area found?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548669,
+          "QuestionID": 545003,
+          "UmOption": null,
+          "EmOption": "<p>By multiplying the areas</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548670,
+          "QuestionID": 545003,
+          "UmOption": null,
+          "EmOption": "<p>By subtracting the upper area from the lower area</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548671,
+          "QuestionID": 545003,
+          "UmOption": null,
+          "EmOption": "<p>By algebraically adding the positive and negative areas</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548672,
+          "QuestionID": 545003,
+          "UmOption": null,
+          "EmOption": "<p>By taking the absolute value of the total area</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545004,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The net signed area will be zero when:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548673,
+          "QuestionID": 545004,
+          "UmOption": null,
+          "EmOption": "<p>The curve does not touch the x-axis</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548674,
+          "QuestionID": 545004,
+          "UmOption": null,
+          "EmOption": "<p>The positive area above the axis exactly equals the negative area below it</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548675,
+          "QuestionID": 545004,
+          "UmOption": null,
+          "EmOption": "<p>The limits of integration are zero</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548676,
+          "QuestionID": 545004,
+          "UmOption": null,
+          "EmOption": "<p>The curve is a straight line</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545010,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In economics, the area between two curves is used to calculate consumer surplus and:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548677,
+          "QuestionID": 545010,
+          "UmOption": null,
+          "EmOption": "<p>Market price</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548678,
+          "QuestionID": 545010,
+          "UmOption": null,
+          "EmOption": "<p>Producer surplus</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548679,
+          "QuestionID": 545010,
+          "UmOption": null,
+          "EmOption": "<p>Demand function</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548680,
+          "QuestionID": 545010,
+          "UmOption": null,
+          "EmOption": "<p>Supply function</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545013,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The graph of the demand function p=D(x) generally slopes:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548681,
+          "QuestionID": 545013,
+          "UmOption": null,
+          "EmOption": "<p>Upwards</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548682,
+          "QuestionID": 545013,
+          "UmOption": null,
+          "EmOption": "<p>Downwards</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548683,
+          "QuestionID": 545013,
+          "UmOption": null,
+          "EmOption": "<p>Horizontally</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548684,
+          "QuestionID": 545013,
+          "UmOption": null,
+          "EmOption": "<p>Vertically</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545014,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>According to the supply function, as the price of a commodity increases, the producer is willing to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548685,
+          "QuestionID": 545014,
+          "UmOption": null,
+          "EmOption": "<p>Supply more</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548686,
+          "QuestionID": 545014,
+          "UmOption": null,
+          "EmOption": "<p>Supply less</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548687,
+          "QuestionID": 545014,
+          "UmOption": null,
+          "EmOption": "<p>Stop supply</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548688,
+          "QuestionID": 545014,
+          "UmOption": null,
+          "EmOption": "<p>Maintain the same supply</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 545016,
+      "SubjectID": 119,
+      "TopicID": 15764,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 E.X: 3.6",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The point where the demand and supply curves intersect is called the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 548689,
+          "QuestionID": 545016,
+          "UmOption": null,
+          "EmOption": "<p>Surplus point</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548690,
+          "QuestionID": 545016,
+          "UmOption": null,
+          "EmOption": "<p>Market equilibrium</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 548691,
+          "QuestionID": 545016,
+          "UmOption": null,
+          "EmOption": "<p>Origin</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 548692,
+          "QuestionID": 545016,
+          "UmOption": null,
+          "EmOption": "<p>Break-even point</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    }
+  ]
 }

@@ -5032,28 +5032,37 @@ input[dir="rtl"] {
 
 .gazette-table th,
 .gazette-table td {
-  border: 1px solid #111;
-  padding: 0.28rem 0.3rem;
+  border: 1px solid #d4d4d8;
+  padding: 0.32rem 0.35rem;
   text-align: center;
   vertical-align: middle;
 }
 
 .gazette-table th {
-  background: #f3f3f3;
+  background: #1f2937;
+  color: #f8fafc;
   font-size: 0.62rem;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
+  border-color: #374151;
 }
 
 .gazette-table th span {
   display: block;
-  font-weight: 650;
+  font-weight: 500;
+  letter-spacing: 0;
   text-transform: none;
+  color: #cbd5e1;
 }
 
 .gazette-table td.name {
   text-align: left;
   white-space: nowrap;
+}
+
+.gazette-table tbody tr:nth-child(even) {
+  background: #f8fafc;
 }
 
 .gazette-table--wide {
@@ -5081,6 +5090,275 @@ input[dir="rtl"] {
 .gazette-group-tag--comp {
   background: #e8eefc;
   color: #1d4ed8;
+}
+
+/* Shared Generate Result sheet (single + combined) */
+.result-sheet-page {
+  background: transparent;
+}
+
+.result-sheet {
+  border: 1px solid #d4d4d8 !important;
+  border-radius: 0.85rem !important;
+  padding: 1rem 0.9rem 1.1rem !important;
+  box-shadow:
+    0 1px 2px rgb(15 23 42 / 4%),
+    0 12px 28px rgb(15 23 42 / 6%) !important;
+  font-family:
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
+}
+
+.result-sheet-header {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid #e4e4e7;
+}
+
+.result-sheet-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.result-sheet-logo {
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.result-sheet-logo-fallback {
+  display: grid;
+  place-items: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  flex-shrink: 0;
+  border: 1.5px solid #1f2937;
+  border-radius: 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+.result-sheet-brand-text {
+  text-align: center;
+  min-width: 0;
+}
+
+.result-sheet-brand-text h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 1.15;
+  color: #0f172a;
+}
+
+.result-sheet-brand-text p {
+  margin: 0.18rem 0 0;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #52525b;
+}
+
+.result-sheet-title-block {
+  text-align: center;
+}
+
+.result-sheet-kicker {
+  margin: 0 0 0.2rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #71717a;
+}
+
+.result-sheet-title-block h2 {
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #0f172a;
+}
+
+.result-sheet-subtitle {
+  margin: 0.28rem 0 0;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: #3f3f46;
+}
+
+.result-sheet-continued {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0.65rem;
+  text-align: center;
+}
+
+.result-sheet-continued-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.result-sheet-continued-ref {
+  margin: 0.2rem 0 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #52525b;
+}
+
+.result-sheet-meta {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 0.85rem;
+  border: 1px solid #d4d4d8;
+  border-radius: 0.55rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+@media (min-width: 720px) {
+  .result-sheet-meta {
+    grid-template-columns: repeat(var(--result-meta-cols, 5), minmax(0, 1fr));
+  }
+}
+
+.result-sheet-meta > div {
+  display: grid;
+  gap: 0.12rem;
+  min-height: 2.45rem;
+  padding: 0.4rem 0.55rem;
+  border-right: 1px solid #e4e4e7;
+  border-bottom: 1px solid #e4e4e7;
+  background: linear-gradient(180deg, #fafafa 0%, #fff 100%);
+}
+
+.result-sheet-meta > div:nth-child(2n) {
+  border-right: none;
+}
+
+@media (min-width: 720px) {
+  .result-sheet-meta > div {
+    border-bottom: none;
+  }
+
+  .result-sheet-meta > div:nth-child(2n) {
+    border-right: 1px solid #e4e4e7;
+  }
+
+  .result-sheet-meta > div:last-child {
+    border-right: none;
+  }
+}
+
+@media (max-width: 719px) {
+  .result-sheet-meta > div:nth-child(odd):last-child {
+    border-right: none;
+    border-bottom: none;
+    grid-column: 1 / -1;
+  }
+
+  .result-sheet-meta > div:nth-last-child(-n + 2):nth-child(odd),
+  .result-sheet-meta > div:nth-last-child(-n + 2):nth-child(even) {
+    border-bottom: none;
+  }
+}
+
+.result-sheet-meta span {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #71717a;
+}
+
+.result-sheet-meta strong {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: #18181b;
+  line-height: 1.2;
+}
+
+.result-sheet-table.gazette-table td {
+  color: #18181b;
+}
+
+.result-sheet-name-link {
+  font-weight: 700;
+  color: #0f766e;
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+.result-sheet-name-link:hover {
+  text-decoration: underline;
+}
+
+.result-sheet-total {
+  font-weight: 700;
+}
+
+.result-sheet-grade {
+  display: inline-block;
+  min-width: 1.6rem;
+  padding: 0.08rem 0.28rem;
+  border-radius: 0.3rem;
+  font-weight: 800;
+  background: #ecfdf5;
+  color: #047857;
+}
+
+.result-sheet-grade--fail {
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.result-sheet-row--fail td {
+  background: #fff7f7;
+}
+
+.result-sheet-sign {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+  text-align: center;
+}
+
+.result-sheet-sign span {
+  display: block;
+  height: 1.65rem;
+  border-bottom: 1px solid #a1a1aa;
+  margin: 0 auto;
+  width: 78%;
+}
+
+.result-sheet-sign p {
+  margin: 0.4rem 0 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #3f3f46;
 }
 
 .gazette-group-legend {
@@ -5114,6 +5392,8 @@ input[dir="rtl"] {
   width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  border: 1px solid #e4e4e7;
+  border-radius: 0.45rem;
 }
 
 .gazette-table--multi {
@@ -5130,8 +5410,11 @@ input[dir="rtl"] {
 }
 
 .gazette-table--multi .col-mark {
-  min-width: 2.4rem;
-  white-space: nowrap;
+  min-width: 3.5rem;
+  max-width: 6.5rem;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.2;
 }
 
 .gazette-table--multi .col-total {
@@ -5149,6 +5432,686 @@ input[dir="rtl"] {
   font-size: 0.8rem;
   font-weight: 650;
   color: var(--muted);
+}
+
+.report-card-screen {
+  min-height: 100%;
+  padding: 1rem 1rem 2.5rem;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(15, 80, 60, 0.08), transparent),
+    #eef1f4;
+}
+
+.report-card-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  max-width: 820px;
+  margin: 0 auto 1rem;
+}
+
+.report-card-sheet {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem 1.5rem;
+  background: #fff;
+  color: #132033;
+  border: 1px solid rgba(15, 40, 70, 0.12);
+  border-radius: 0.35rem;
+  box-shadow: 0 12px 40px rgba(15, 40, 70, 0.08);
+}
+
+/* Shared school printed report-card design */
+.school-rc-sheet {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0.95rem 1rem 1.1rem;
+  background: #fff;
+  color: #111;
+  border: 2px solid #111;
+  outline: 1px solid #111;
+  outline-offset: 3px;
+  box-shadow: 0 14px 42px rgba(15, 40, 70, 0.1);
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.school-rc-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  text-align: center;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid #111;
+}
+
+.school-rc-logo,
+.school-rc-logo-fallback {
+  width: 3.35rem;
+  height: 3.35rem;
+  flex-shrink: 0;
+}
+
+.school-rc-logo {
+  object-fit: contain;
+}
+
+.school-rc-logo-fallback {
+  display: grid;
+  place-items: center;
+  border: 1px solid #111;
+  background: #f4f4f4;
+  font-weight: 800;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
+.school-rc-header-text h1 {
+  margin: 0;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.05rem, 2.4vw, 1.4rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.school-rc-header-text p {
+  margin: 0.12rem 0 0;
+  font-size: 0.74rem;
+  color: #222;
+}
+
+.school-rc-address {
+  max-width: 36rem;
+  margin-inline: auto;
+}
+
+.school-rc-title {
+  margin: 0.55rem 0 0.55rem;
+  text-align: center;
+  font-size: 1.02rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.school-rc-section-title {
+  margin: 0.75rem 0 0.28rem;
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.school-rc-student,
+.school-rc-table,
+.school-rc-attendance,
+.school-rc-behavior {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.school-rc-student th,
+.school-rc-student td,
+.school-rc-table th,
+.school-rc-table td,
+.school-rc-attendance th,
+.school-rc-attendance td,
+.school-rc-behavior th,
+.school-rc-behavior td {
+  border: 1px solid #1a1a1a;
+  padding: 0.28rem 0.4rem;
+  vertical-align: middle;
+}
+
+.school-rc-student th {
+  width: 16%;
+  text-align: left;
+  font-weight: 700;
+  background: #f0f0f0;
+  white-space: nowrap;
+}
+
+.school-rc-student td {
+  width: 34%;
+  font-weight: 600;
+}
+
+.school-rc-table-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.school-rc-table th {
+  background: #ebebeb;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.school-rc-table td {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.school-rc-table .col-num {
+  width: 2rem;
+}
+
+.school-rc-table .col-subject {
+  text-align: left;
+  font-weight: 600;
+  min-width: 7.5rem;
+}
+
+.school-rc-table .status-pass {
+  font-weight: 800;
+  color: #0f5c3a;
+}
+
+.school-rc-table .status-fail {
+  font-weight: 800;
+  color: #8a1f1f;
+}
+
+.school-rc-totals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr));
+  gap: 0;
+  margin-top: -1px;
+  border: 1px solid #1a1a1a;
+  border-top: none;
+  background: #fafafa;
+}
+
+.school-rc-totals > div {
+  padding: 0.38rem 0.3rem;
+  text-align: center;
+  border-right: 1px solid #1a1a1a;
+}
+
+.school-rc-totals > div:last-child {
+  border-right: none;
+}
+
+.school-rc-totals span {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.school-rc-totals strong {
+  display: block;
+  margin-top: 0.12rem;
+  font-size: 0.95rem;
+}
+
+.school-rc-remarks-row {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 0.5rem;
+  margin-top: 0.65rem;
+}
+
+.school-rc-remarks {
+  border: 1px solid #1a1a1a;
+  padding: 0.4rem 0.5rem 0.55rem;
+  min-height: 4.4rem;
+  background: #fff;
+}
+
+.school-rc-remarks > span {
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.school-rc-remarks-line {
+  margin-top: 1.05rem;
+  border-bottom: 1px solid #aaa;
+}
+
+.school-rc-behavior th {
+  width: 46%;
+  text-align: left;
+  font-weight: 700;
+  background: #f5f5f5;
+}
+
+.school-rc-behavior td {
+  height: 1.45rem;
+}
+
+.school-rc-attendance th {
+  background: #ebebeb;
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.22rem 0.08rem;
+}
+
+.school-rc-attendance td {
+  height: 1.45rem;
+  padding: 0.16rem;
+}
+
+.school-rc-accumulative td {
+  font-size: 0.82rem;
+}
+
+.school-rc-empty {
+  margin: 0.3rem 0;
+  font-size: 0.82rem;
+  color: #555;
+}
+
+.school-rc-sign {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.school-rc-sign span {
+  display: block;
+  height: 2rem;
+  border-bottom: 1px solid #333;
+  margin-bottom: 0.3rem;
+}
+
+.school-rc-sign p {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 640px) {
+  .school-rc-sheet {
+    outline-offset: 2px;
+    padding: 0.75rem;
+  }
+
+  .school-rc-remarks-row {
+    grid-template-columns: 1fr;
+  }
+
+  .school-rc-sign {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .school-rc-sheet {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .school-rc-sheet--break {
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .school-rc-attendance th,
+  .school-rc-table th,
+  .school-rc-student th,
+  .school-rc-behavior th,
+  .school-rc-totals {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+.report-card-batch {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.report-card-batch .school-rc-sheet,
+.report-card-batch .report-card-sheet {
+  margin: 0;
+}
+
+.report-card-org {
+  margin: 0 0 0.25rem;
+  padding: 0.85rem 0.9rem 0.95rem;
+  border: 1px solid rgba(15, 40, 70, 0.1);
+  border-radius: 0.75rem;
+  background:
+    linear-gradient(180deg, #f8fafc 0%, #ffffff 55%);
+}
+
+.report-card-org-top {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.report-card-org-logo {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  padding: 0.3rem;
+  border: 1px solid rgba(15, 40, 70, 0.1);
+  border-radius: 0.75rem;
+  background: #fff;
+}
+
+.report-card-org-logo-fallback {
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(15, 80, 60, 0.18);
+  background: rgba(15, 80, 60, 0.08);
+  color: #0f5040;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+}
+
+.report-card-org-identity {
+  min-width: 0;
+  flex: 1;
+}
+
+.report-card-org-kicker {
+  margin: 0 0 0.2rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.report-card-org-identity h1 {
+  margin: 0;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: #0f172a;
+}
+
+.report-card-org-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55rem;
+  margin-top: 0.8rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(15, 40, 70, 0.08);
+}
+
+@media (min-width: 640px) {
+  .report-card-org-contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem 1rem;
+  }
+}
+
+.report-card-org-contact-item {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.report-card-org-contact-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.report-card-org-contact-item strong {
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #1e293b;
+  word-break: break-word;
+}
+
+.report-card-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #132033;
+}
+
+.report-card-logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.report-card-logo-fallback {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: rgba(15, 80, 60, 0.1);
+  color: #0f5040;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.report-card-brand-text h1 {
+  margin: 0;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.report-card-brand-text p {
+  margin: 0.2rem 0 0;
+  font-size: 0.78rem;
+  color: #5b6b7c;
+}
+
+.report-card-title {
+  margin: 0.85rem 0 1rem;
+  text-align: center;
+}
+
+.report-card-title-kicker {
+  margin: 0 0 0.25rem !important;
+  font-size: 0.68rem !important;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #64748b !important;
+}
+
+.report-card-title h2 {
+  margin: 0;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.report-card-title p {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  color: #5b6b7c;
+}
+
+.report-card-rounds {
+  margin-top: 0.25rem !important;
+  font-size: 0.8rem !important;
+  font-weight: 600;
+}
+
+.report-card-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem 1rem;
+  margin: 0 0 1.25rem;
+  padding: 0.85rem 1rem;
+  background: #f6f8fa;
+  border: 1px solid rgba(15, 40, 70, 0.08);
+}
+
+.report-card-meta dt {
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #5b6b7c;
+}
+
+.report-card-meta dd {
+  margin: 0.15rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.report-card-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.report-card-table th,
+.report-card-table td {
+  padding: 0.55rem 0.65rem;
+  border: 1px solid rgba(15, 40, 70, 0.14);
+  text-align: left;
+}
+
+.report-card-table th {
+  background: #f0f3f6;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #5b6b7c;
+}
+
+.report-card-table tfoot td {
+  font-weight: 700;
+  background: #f8fafb;
+}
+
+.report-card-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 1.15rem 0 1.5rem;
+}
+
+.report-card-summary > div {
+  padding: 0.7rem 0.75rem;
+  text-align: center;
+  border: 1px solid rgba(15, 40, 70, 0.12);
+  background: #fbfcfd;
+}
+
+.report-card-summary span {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #5b6b7c;
+}
+
+.report-card-summary strong {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 1.05rem;
+}
+
+.report-card-sign {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.report-card-sign span {
+  display: block;
+  height: 2.5rem;
+  border-bottom: 1px solid rgba(15, 40, 70, 0.35);
+  margin-bottom: 0.45rem;
+}
+
+.report-card-sign p {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #5b6b7c;
+}
+
+@media (max-width: 640px) {
+  .report-card-meta,
+  .report-card-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .report-card-sign {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .report-card-screen {
+    background: #fff;
+    padding: 0;
+  }
+
+  .report-card-sheet {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .report-card-batch {
+    max-width: none;
+    gap: 0;
+  }
+
+  .report-card-sheet--break,
+  .school-rc-sheet--break {
+    break-after: page;
+    page-break-after: always;
+  }
 }
 
 .print-page {
@@ -5341,6 +6304,22 @@ input[dir="rtl"] {
     overflow: visible !important;
   }
 
+  .result-sheet {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+
+  .result-sheet-meta {
+    border-radius: 0 !important;
+  }
+
+  .gazette-table-scroll {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
   .student-list-table th,
   .student-list-table td {
     print-color-adjust: exact;
@@ -5382,11 +6361,32 @@ input[dir="rtl"] {
   .gazette-table th {
     font-size: 8px !important;
     padding: 0.14rem 0.1rem !important;
-    background: #eee !important;
+    background: #1f2937 !important;
+    color: #f8fafc !important;
+    border-color: #374151 !important;
+  }
+
+  .gazette-table th span {
+    color: #cbd5e1 !important;
   }
 
   .gazette-table td {
     padding: 0.12rem 0.08rem !important;
+    border-color: #d4d4d8 !important;
+  }
+
+  .result-sheet-row--fail td {
+    background: #fff7f7 !important;
+  }
+
+  .result-sheet-grade {
+    background: #ecfdf5 !important;
+    color: #047857 !important;
+  }
+
+  .result-sheet-grade--fail {
+    background: #fef2f2 !important;
+    color: #b91c1c !important;
   }
 
   .gazette-student-row {
@@ -5395,7 +6395,9 @@ input[dir="rtl"] {
   }
 
   .gazette-table th,
-  .gazette-table td {
+  .gazette-table td,
+  .result-sheet-grade,
+  .result-sheet-meta > div {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
@@ -5544,25 +6546,41 @@ html.dark .student-list-sheet .student-list-meta span,
 html.dark .student-list-sheet .student-list-meta strong,
 html.dark .student-list-sheet .student-list-empty,
 html.dark .student-list-sheet .student-list-sign p,
-html.dark .student-list-sheet .gazette-table th,
+html.dark .student-list-sheet .result-sheet-brand-text h1,
+html.dark .student-list-sheet .result-sheet-brand-text p,
+html.dark .student-list-sheet .result-sheet-title-block h2,
+html.dark .student-list-sheet .result-sheet-subtitle,
+html.dark .student-list-sheet .result-sheet-meta span,
+html.dark .student-list-sheet .result-sheet-meta strong,
+html.dark .student-list-sheet .result-sheet-sign p,
 html.dark .student-list-sheet .gazette-table td,
 html.dark .student-list-sheet .student-list-table th,
 html.dark .student-list-sheet .student-list-table td {
   color: #111 !important;
 }
 
-html.dark .student-list-sheet .gazette-table th,
 html.dark .student-list-sheet .student-list-table th {
   background: #f3f3f3 !important;
 }
 
-html.dark .student-list-sheet .gazette-table th,
+html.dark .student-list-sheet .gazette-table th {
+  background: #1f2937 !important;
+  color: #f8fafc !important;
+  border-color: #374151 !important;
+}
+
+html.dark .student-list-sheet .gazette-table th span {
+  color: #cbd5e1 !important;
+}
+
 html.dark .student-list-sheet .gazette-table td,
 html.dark .student-list-sheet .student-list-table th,
 html.dark .student-list-sheet .student-list-table td,
 html.dark .student-list-sheet .student-list-meta,
-html.dark .student-list-sheet .student-list-meta > div {
-  border-color: #111 !important;
+html.dark .student-list-sheet .student-list-meta > div,
+html.dark .student-list-sheet .result-sheet-meta,
+html.dark .student-list-sheet .result-sheet-meta > div {
+  border-color: #d4d4d8 !important;
 }
 
 html.dark .exam-sheet .exam-info-label {

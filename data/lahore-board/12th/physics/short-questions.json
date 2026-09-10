@@ -4,13 +4,3658 @@
   "subject": "Physics",
   "slug": "physics",
   "source": "PTS PTB INTER-II (Class 12) Physics (read-only export)",
-  "total_questions": 0,
+  "total_questions": 803,
   "counts": {
-    "mcq": 0,
-    "short": 0,
-    "long": 0
+    "mcq": 375,
+    "short": 364,
+    "long": 64
   },
-  "fieldCounts": {},
-  "questions": [],
+  "fieldCounts": {
+    "MCQ": 375,
+    "QA": 364,
+    "LONG": 64
+  },
+  "questions": [
+    {
+      "id": 539953,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Do all gases have the same kinetic energy at the same temperature? If yes, give example."
+    },
+    {
+      "id": 539954,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A vessel is fitted with a mixture of two different gases. Will the mean kinetic energy per molecule of gases be equal? Explain briefly."
+    },
+    {
+      "id": 539955,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If density of a gas is doubled, keeping all other factors unchanged. What will be the effect on the pressure of the gas?"
+    },
+    {
+      "id": 539957,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A gas enclosed in a container is heated up. What is the effect on the pressure of gas molecules?"
+    },
+    {
+      "id": 539958,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The number of molecules of a gas in a container is doubled. What will be the effect on the rms speed?"
+    },
+    {
+      "id": 539959,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain briefly, why it is not possible to increase the temperature of the gas while keeping its volume and pressure constant."
+    },
+    {
+      "id": 539960,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "On reducing the volume of a gas at constant temperature, the pressure of the gas increases. Explain briefly on the basis of kinetic theory of gases."
+    },
+    {
+      "id": 539962,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the balance between gravitational force and internal pressure determine whether a star expands or contracts during its evolution?"
+    },
+    {
+      "id": 540304,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define simple harmonic motion and write its equation."
+    },
+    {
+      "id": 540305,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the basic conditions for frictionless system to execute simple harmonic motion."
+    },
+    {
+      "id": 540306,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between free and forced oscillations."
+    },
+    {
+      "id": 540307,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why we cannot construct an ideal simple pendulum? Explain briefly."
+    },
+    {
+      "id": 540309,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does sharpness of resonance occur?"
+    },
+    {
+      "id": 540310,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What would happen to the time period if the Earth suddenly stop rotating?"
+    },
+    {
+      "id": 540311,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is restoring force? What provides restoring force for simple harmonic oscillator in the case of simple pendulum and mass-spring system?"
+    },
+    {
+      "id": 540312,
+      "chapter": 14,
+      "topic_id": "14.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What role do shock absorbers play in oscillations of vehicles in a bumpy road? Explain briefly."
+    },
+    {
+      "id": 540698,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Can Huygen's principle be applied on sound and water waves? Explain briefly."
+    },
+    {
+      "id": 540699,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why interference pattern is not produced due to headlights of a car? Explain briefly."
+    },
+    {
+      "id": 540701,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why interference pattern is observed on soap bubbles but not on window glass or windscreens of cars?"
+    },
+    {
+      "id": 540702,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the whole apparatus of Young's double-slit experiment is submerged in water, what will be the effect on fringes?"
+    },
+    {
+      "id": 540703,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the double-slit experimental arrangements for light and sound waves, similarities and differences."
+    },
+    {
+      "id": 540704,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For a diffraction grating, what are the advantages of using: (a) many slits (b) narrow slits (c) closely spaced slits?"
+    },
+    {
+      "id": 540705,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How the number of orders in a given diffraction grating can be increased?"
+    },
+    {
+      "id": 540706,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How the pattern would change if red light is replaced with blue light in a given diffraction grating?"
+    },
+    {
+      "id": 540707,
+      "chapter": 15,
+      "topic_id": "15.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why central spot in Newton's rings is dark?"
+    },
+    {
+      "id": 540935,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "If the absolute potential at a point is zero, what can you say about the electric intensity at that point?"
+    },
+    {
+      "id": 540936,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is electron volt, a unit of potential difference or energy? Explain briefly."
+    },
+    {
+      "id": 540937,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define capacitance and write its units."
+    },
+    {
+      "id": 540938,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define dielectric constant. Give its mathematical form."
+    },
+    {
+      "id": 540939,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the capacitance of a capacitor change if the separation between its plates is increased?"
+    },
+    {
+      "id": 540940,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When will the energy stored in three capacitors be greater? (i) They are connected in series.(ii) They are connected in parallel."
+    },
+    {
+      "id": 540941,
+      "chapter": 16,
+      "topic_id": "16.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is time constant? Write its formula."
+    },
+    {
+      "id": 541170,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What impacts does resistance have on capacitance?"
+    },
+    {
+      "id": 541172,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What happens when an AC line touches a DC line?"
+    },
+    {
+      "id": 541174,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the difference between peak to peak and amplitude in case of sine wave?"
+    },
+    {
+      "id": 541175,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why are RC circuits used in timing circuits?"
+    },
+    {
+      "id": 541176,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why are choke coils preferred over resistors for limiting current in AC circuits?"
+    },
+    {
+      "id": 541177,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define rms values of voltage and current with their phasor diagrams."
+    },
+    {
+      "id": 541178,
+      "chapter": 17,
+      "topic_id": "17.15",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Resonance in LRC-circuits has various applications, give any four of them."
+    },
+    {
+      "id": 541720,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How energy of a packet is related to its frequency according to quantum theory? Describe briefly."
+    },
+    {
+      "id": 541721,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does the photoelectric current vary with intensity of incident light on a metal surface?"
+    },
+    {
+      "id": 541722,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which has more energy, a photon of UV radiation or a photon of yellow light? Describe briefly."
+    },
+    {
+      "id": 541723,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Is work function of a metal related to threshold frequency in a photoelectric emission? State briefly."
+    },
+    {
+      "id": 541724,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain briefly, why we can observe the wave-like properties of electrons but not for a flying tennis ball."
+    },
+    {
+      "id": 541725,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Radiation with a certain frequency causes electrons to be emitted from the surface of one metal and not from the surface of another metal. Why?"
+    },
+    {
+      "id": 541726,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Will high frequency light has more number of electrons than a low frequency light? Describe briefly."
+    },
+    {
+      "id": 541728,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "When does light behave as a wave and when does it behaves as consisted of particles?"
+    },
+    {
+      "id": 541729,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "ame two possible spectral line series in the spectrum of atomic hydrogen. In which region of electromagnetic spectrum each lies?"
+    },
+    {
+      "id": 541731,
+      "chapter": 18,
+      "topic_id": "18.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by shift, and on which factors does it depend?"
+    },
+    {
+      "id": 540075,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define thermal physics."
+    },
+    {
+      "id": 540076,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a macroscopic system and a microscopic system."
+    },
+    {
+      "id": 540078,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Mention any four daily life applications of the kinetic theory of gases."
+    },
+    {
+      "id": 540079,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give examples of where the particle motion concepts of thermal physics can be extended beyond simple gases, liquids, and solids."
+    },
+    {
+      "id": 540089,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is Brownian motion?"
+    },
+    {
+      "id": 540090,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a molecule in a gas follow a random or zig-zag path?"
+    },
+    {
+      "id": 540091,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the relationship between the speed of Brownian particles and the viscosity of the fluid."
+    },
+    {
+      "id": 540092,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define viscosity."
+    },
+    {
+      "id": 540093,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When did Albert Einstein explain Brownian motion, and who verified it?"
+    },
+    {
+      "id": 540113,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does gas pressure arise according to the kinetic theory of gases?"
+    },
+    {
+      "id": 540114,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the transport properties defined by the kinetic theory of gases."
+    },
+    {
+      "id": 540115,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State any three basic assumptions of the kinetic molecular theory."
+    },
+    {
+      "id": 540117,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the assumption regarding forces of attraction or repulsion between gas particles?"
+    },
+    {
+      "id": 540118,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the term \"mean free path\"."
+    },
+    {
+      "id": 540127,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the pressure of a gas defined in the context of the kinetic theory?"
+    },
+    {
+      "id": 540128,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does an increase in temperature lead to a higher gas pressure?"
+    },
+    {
+      "id": 540129,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the ideal gas law equation using the number of moles (n) and the general gas constant (R)?"
+    },
+    {
+      "id": 540130,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Express the ideal gas law equation in terms of the Boltzmann constant."
+    },
+    {
+      "id": 540131,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main difference between macroscopic and microscopic properties?"
+    },
+    {
+      "id": 540148,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the equation for the change in momentum of a molecule colliding along the x-axis."
+    },
+    {
+      "id": 540149,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the distance traveled by a molecule between consecutive collisions with the same wall taken as 2L?"
+    },
+    {
+      "id": 540150,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the average force exerted on the wall by a single molecule calculated?"
+    },
+    {
+      "id": 540151,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Express the total pressure P on a wall due to N molecules with different speeds in the x-direction."
+    },
+    {
+      "id": 540168,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the temperature of a gas related to the motion of its molecules?"
+    },
+    {
+      "id": 540169,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define one electron volt (eV) and write its value in Joules."
+    },
+    {
+      "id": 540171,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why popcorn pops when heated, using the kinetic theory."
+    },
+    {
+      "id": 540172,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does pumping more air into a car tyre increase its internal pressure and hardness?"
+    },
+    {
+      "id": 540184,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define statistical physics."
+    },
+    {
+      "id": 540185,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the Boltzmann distribution law."
+    },
+    {
+      "id": 540186,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the mathematical formula for the Boltzmann distribution law."
+    },
+    {
+      "id": 540188,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does an individual molecule's kinetic energy change compared to the average kinetic energy of the gas?"
+    },
+    {
+      "id": 540208,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define stellar evolution and state what determines the lifetime of a star."
+    },
+    {
+      "id": 540210,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a proto-star, and how do its density and temperature change during formation?"
+    },
+    {
+      "id": 540211,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the hydrostatic equation that describes a stable star and define its variables."
+    },
+    {
+      "id": 540212,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two possibilities if the balance between pressure force and gravitational force is not maintained in a star?"
+    },
+    {
+      "id": 540223,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does energy production by nuclear fusion help a star survive?"
+    },
+    {
+      "id": 540224,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the final fate of low and intermediate-mass stars once their nuclear fuel is exhausted?"
+    },
+    {
+      "id": 540226,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What types of cosmic remnants are formed after a massive star undergoes a supernova explosion?"
+    },
+    {
+      "id": 540227,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why has no red dwarf star completed its life cycle yet?"
+    },
+    {
+      "id": 540234,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are pulsars, and how is their radiation produced?"
+    },
+    {
+      "id": 540235,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the extreme density of a neutron star using an example."
+    },
+    {
+      "id": 540236,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List all the life stages of the Sun in their correct order of evolution."
+    },
+    {
+      "id": 540237,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the Sun currently produce and transfer its enormous heat energy?"
+    },
+    {
+      "id": 540370,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define oscillatory motion."
+    },
+    {
+      "id": 540372,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List any four daily life examples of oscillatory or vibratory motion."
+    },
+    {
+      "id": 540397,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do atoms or molecules behave inside a solid substance?"
+    },
+    {
+      "id": 540398,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of a restoring force in vibratory motion?"
+    },
+    {
+      "id": 540410,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define instantaneous displacement and amplitude."
+    },
+    {
+      "id": 540411,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Express the relationship between time period, frequency, and angular frequency ."
+    },
+    {
+      "id": 540412,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define frequency and state its SI unit along with its dimension."
+    },
+    {
+      "id": 540416,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Simple Harmonic Motion (SHM)."
+    },
+    {
+      "id": 540417,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the primary condition regarding restoring force for an object executing SHM."
+    },
+    {
+      "id": 540418,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the acceleration condition for SHM and explain its terms."
+    },
+    {
+      "id": 540419,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Do all restoring forces cause simple harmonic motion? Explain with an example."
+    },
+    {
+      "id": 540427,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the equation for the applied force and the restoring force acting on a mass-spring system."
+    },
+    {
+      "id": 540428,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the mass cross the mean position O instead of stopping there when released?"
+    },
+    {
+      "id": 540430,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the laws of physics combined to analyze the acceleration of a mass-spring system."
+    },
+    {
+      "id": 540437,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the basic construction of a simple pendulum."
+    },
+    {
+      "id": 540439,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the formula for the restoring force of a simple pendulum and explain what the negative sign shows."
+    },
+    {
+      "id": 540440,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "All vibrating bodies produce sound. Why does a vibrating simple pendulum not produce sound?"
+    },
+    {
+      "id": 540464,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the factors on which the time period of a simple pendulum depends and those it is independent of."
+    },
+    {
+      "id": 540465,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a seconds pendulum."
+    },
+    {
+      "id": 540466,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how a simple pendulum can be used to measure the value of \"g\" at a particular location."
+    },
+    {
+      "id": 540475,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do we co-relate simple harmonic motion with uniform circular motion?"
+    },
+    {
+      "id": 540476,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the motion executed by the projection of a particle moving along a circular path."
+    },
+    {
+      "id": 540477,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the experimental setup used to demonstrate the relationship between circular and oscillatory motion."
+    },
+    {
+      "id": 540478,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the behavior of the ball's shadow prove it executes simple harmonic motion?"
+    },
+    {
+      "id": 540482,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define instantaneous displacement in the context of the uniform circular motion model."
+    },
+    {
+      "id": 540484,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Derive the formula for the instantaneous displacement x using the reference circle diagram."
+    },
+    {
+      "id": 540485,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the instantaneous velocity of point Q taken as the horizontal component of the particle's linear velocity?"
+    },
+    {
+      "id": 540498,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the acceleration of the projection point Q related to the centripetal acceleration of the particle?"
+    },
+    {
+      "id": 540499,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the mathematical conclusion reached when a particle moves along the circumference of a circle with uniform angular frequency."
+    },
+    {
+      "id": 540501,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the term \"phase\" in simple harmonic motion."
+    },
+    {
+      "id": 540502,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the general equation for the instantaneous displacement of an oscillator and define its variables."
+    },
+    {
+      "id": 540515,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the equations for displacement, velocity, and acceleration of a body performing SHM."
+    },
+    {
+      "id": 540516,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the values of velocity and acceleration at the mean position of an oscillator."
+    },
+    {
+      "id": 540517,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the values of velocity and acceleration at the extreme positions of an oscillator."
+    },
+    {
+      "id": 540523,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the origin of potential energy and kinetic energy in a body executing SHM."
+    },
+    {
+      "id": 540524,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the law of conservation of energy for an ideal system executing SHM."
+    },
+    {
+      "id": 540525,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how the restoring force changes as a mass moves from the mean position to an extreme position."
+    },
+    {
+      "id": 540537,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the relationship between the total energy of a mass-spring system and its amplitude."
+    },
+    {
+      "id": 540538,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the interconversion of kinetic energy and potential energy during one complete oscillation."
+    },
+    {
+      "id": 540539,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the straight horizontal line for Total Energy (T.E.) indicate in the graph?"
+    },
+    {
+      "id": 540574,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define free oscillations (or free vibrations) and give an example."
+    },
+    {
+      "id": 540576,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the energy and amplitude of an ideal system during free oscillations?"
+    },
+    {
+      "id": 540577,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define forced vibrations."
+    },
+    {
+      "id": 540578,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List any three practical examples of forced vibrations."
+    },
+    {
+      "id": 540594,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define damped oscillations and damping forces."
+    },
+    {
+      "id": 540595,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the total mechanical energy in an ideal free oscillation system versus a practical system?"
+    },
+    {
+      "id": 540596,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between light damping and heavy damping."
+    },
+    {
+      "id": 540597,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is critical damping? Give an example."
+    },
+    {
+      "id": 540602,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State one practical application of damped oscillations in daily life."
+    },
+    {
+      "id": 540603,
+      "chapter": 14,
+      "topic_id": "14.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a damping system required in automobiles?"
+    },
+    {
+      "id": 540609,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why can a damped oscillator not maintain its natural frequency for a long duration?"
+    },
+    {
+      "id": 540610,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by forced oscillation and driving force?"
+    },
+    {
+      "id": 540611,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the phenomenon of resonance."
+    },
+    {
+      "id": 540612,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly describe the construction of the experimental setup used to demonstrate resonance."
+    },
+    {
+      "id": 540618,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when pendulum P is set into vibration if its length matches pendulums A and B?"
+    },
+    {
+      "id": 540619,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do plastic or glass containers not heat up in a microwave oven?"
+    },
+    {
+      "id": 540620,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does resonance help in cooking food inside a microwave oven?"
+    },
+    {
+      "id": 540621,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly describe the 2005 earthquake mention in the text as an effect of resonance."
+    },
+    {
+      "id": 540638,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is resonance utilized in tuning a radio station?"
+    },
+    {
+      "id": 540639,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are marching soldiers advised to break steps while crossing a bridge?"
+    },
+    {
+      "id": 540640,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a guitar's sound box produce a louder and richer sound?"
+    },
+    {
+      "id": 540642,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain how Magnetic Resonance Imaging (MRI) works."
+    },
+    {
+      "id": 540643,
+      "chapter": 14,
+      "topic_id": "14.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What forces can cause dangerous resonance in aeroplane wings?"
+    },
+    {
+      "id": 540663,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name some experimental examples used to study the relationship between standing waves and resonance."
+    },
+    {
+      "id": 540664,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a Rubens tube and what is its alternative name?"
+    },
+    {
+      "id": 540665,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Briefly explain the construction and working of a Rubens tube."
+    },
+    {
+      "id": 540666,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happened to the Tacoma Narrows Bridge in 1940 due to resonance?"
+    },
+    {
+      "id": 540678,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do flames in a Rubens tube indicate the pressure differences of a standing wave?"
+    },
+    {
+      "id": 540679,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does sand gather specifically at the nodes on a Chladni plate?"
+    },
+    {
+      "id": 540681,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the term \"Acoustic Levitation\"."
+    },
+    {
+      "id": 540682,
+      "chapter": 14,
+      "topic_id": "14.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the basic components and working mechanism of an acoustic levitator."
+    },
+    {
+      "id": 540737,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What basic dilemma or question has existed regarding the transmission of light energy?"
+    },
+    {
+      "id": 540738,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How was Huygen's wave theory of light later established and proved?"
+    },
+    {
+      "id": 540739,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain Maxwell’s proposition regarding light propagation."
+    },
+    {
+      "id": 540740,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the dual nature of light?"
+    },
+    {
+      "id": 540764,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a wavefront."
+    },
+    {
+      "id": 540765,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the three main types of wavefronts."
+    },
+    {
+      "id": 540766,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "When do spherical wavefronts turn into plane wavefronts? Provide an example."
+    },
+    {
+      "id": 540767,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the relationship between the direction of wave energy transfer and a wavefront?"
+    },
+    {
+      "id": 540772,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What kind of wavefronts does a periodic source produce?"
+    },
+    {
+      "id": 540773,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a \"ray\" in the context of wave motion."
+    },
+    {
+      "id": 540775,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can we experimentally obtain plane wavefronts using a lens?"
+    },
+    {
+      "id": 540784,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the first part of Huygens' Principle."
+    },
+    {
+      "id": 540785,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the new position of a wavefront determined at a later time using Huygens' method?"
+    },
+    {
+      "id": 540786,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the usage of Huygens' principle with Maxwell's equations."
+    },
+    {
+      "id": 540794,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the phenomenon of interference."
+    },
+    {
+      "id": 540795,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the three basic conditions required for two waves to produce a noticeable interference pattern."
+    },
+    {
+      "id": 540796,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the principle of superposition predict when two identical sound waves arrive exactly in phase?"
+    },
+    {
+      "id": 540797,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by \"Coherence\" in waves?"
+    },
+    {
+      "id": 540798,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give two everyday examples of light interference."
+    },
+    {
+      "id": 540803,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can two loudspeakers be made to act as coherent sources?"
+    },
+    {
+      "id": 540804,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why fail to get interference with two separate lasers?"
+    },
+    {
+      "id": 540805,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do double slits provide coherent light?"
+    },
+    {
+      "id": 540806,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the visual result of non-coherent light sources?"
+    },
+    {
+      "id": 540810,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can constructive and destructive interference be detected in the microwave experiment?"
+    },
+    {
+      "id": 540811,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the interference pattern of microwaves easily observable in this setup?"
+    },
+    {
+      "id": 540812,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the mathematical conditions for path difference for both Maxima and Minima."
+    },
+    {
+      "id": 540813,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are interference 'fringes' and how are they formed by light waves?"
+    },
+    {
+      "id": 540820,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do bright and dark fringes of light compare to the interference pattern of sound?"
+    },
+    {
+      "id": 540821,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the screen's pattern if you carefully cover up one of the two slits?"
+    },
+    {
+      "id": 540822,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does the appearance of a broad band of light from a single slit represent?"
+    },
+    {
+      "id": 540823,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does this experiment prove that light arrives at the screen from both slits?"
+    },
+    {
+      "id": 540828,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What was the main purpose of Thomas Young's experiment in 1801?"
+    },
+    {
+      "id": 540829,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the light beam immediately as it passes through the two slits?"
+    },
+    {
+      "id": 540830,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a laser considered an ideal light source for observing interference today?"
+    },
+    {
+      "id": 540831,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the location of Point A on the screen relative to the two slits."
+    },
+    {
+      "id": 540836,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is a bright fringe observed specifically at Point A?"
+    },
+    {
+      "id": 540838,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the formula for the path difference in Young's double-slit experiment and define its variables."
+    },
+    {
+      "id": 540844,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the algebraic condition for constructive interference in Young's experiment."
+    },
+    {
+      "id": 540845,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the algebraic condition for destructive interference in Young's experiment."
+    },
+    {
+      "id": 540856,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a \"thin film\"."
+    },
+    {
+      "id": 540857,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do the two reflected waves from a thin film arise? Name their respective paths."
+    },
+    {
+      "id": 540858,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do we see different colors at different places on a soap bubble when white light falls on it?"
+    },
+    {
+      "id": 540860,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes the complex, swirling shapes of the colored patterns in oil or soap bubbles?"
+    },
+    {
+      "id": 540867,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the relationship between the path difference of the two waves and the thickness of the thin air film?"
+    },
+    {
+      "id": 540868,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the discrepancy between the expected and the actual observation at the line of contact?"
+    },
+    {
+      "id": 540869,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are the bright and dark fringes interchanged in the actual experiment?"
+    },
+    {
+      "id": 540870,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can the phase shift observed during light reflection be theoretically explained?"
+    },
+    {
+      "id": 540877,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are Newton's rings and how are they formed?"
+    },
+    {
+      "id": 540878,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List three practical applications or uses of Newton's rings."
+    },
+    {
+      "id": 540879,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do light rays form circular fringes instead of straight fringes in this experiment?"
+    },
+    {
+      "id": 540889,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main advantage of using a diffraction grating over a simple double slit?"
+    },
+    {
+      "id": 540890,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the definition of a diffraction grating and how it can be manufactured."
+    },
+    {
+      "id": 540891,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the phenomenon of diffraction."
+    },
+    {
+      "id": 540892,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by \"Grating Spacing\"?"
+    },
+    {
+      "id": 540898,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are first-order and second-order lines in a diffraction grating pattern?"
+    },
+    {
+      "id": 540899,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the diffraction pattern when white light is used instead of monochromatic light?"
+    },
+    {
+      "id": 540900,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the angular distribution of colors (red vs. blue) in a grating spectrum."
+    },
+    {
+      "id": 540901,
+      "chapter": 15,
+      "topic_id": "15.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you determine the value of grating spacing d for a given number of slits, and what is its typical order of magnitude for visible light?"
+    },
+    {
+      "id": 540907,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why cannot ordinary diffraction gratings be used to observe the diffraction of X-rays?"
+    },
+    {
+      "id": 540908,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do crystals allow the diffraction of X-rays to be observed?"
+    },
+    {
+      "id": 540909,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the main finding of W.H. Bragg and W.L. Bragg in 1914 regarding X-rays."
+    },
+    {
+      "id": 540910,
+      "chapter": 15,
+      "topic_id": "15.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why there is a path difference between X-ray beams reflected from different crystal planes."
+    },
+    {
+      "id": 541014,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the term \"Electrostatics\" or \"Static Electricity\"."
+    },
+    {
+      "id": 541015,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State Coulomb's law and write its mathematical formula."
+    },
+    {
+      "id": 541017,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a capacitor and what is its primary function?"
+    },
+    {
+      "id": 541018,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define \"Electric Potential Difference\" between two points."
+    },
+    {
+      "id": 541029,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define electric potential at a point in an electric field."
+    },
+    {
+      "id": 541030,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the reference point for zero electric potential chosen at infinity?"
+    },
+    {
+      "id": 541031,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do we mathematically manage the changing electric field when deriving the potential expression between two points A and B?"
+    },
+    {
+      "id": 541041,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the electric potential change with an increase in distance from a charge?"
+    },
+    {
+      "id": 541042,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the movement and energy transformation of a free positive charge in an electric field."
+    },
+    {
+      "id": 541043,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare the natural direction of movement of free positive and negative charges in an electric field."
+    },
+    {
+      "id": 541044,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the unit of energy \"electron-volt (eV)\" used in atomic physics."
+    },
+    {
+      "id": 541050,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an isolated spherical conductor?"
+    },
+    {
+      "id": 541051,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the capacitance of an isolated hollow spherical conductor."
+    },
+    {
+      "id": 541052,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the unit \"1 farad\" in the context of a spherical conductor."
+    },
+    {
+      "id": 541053,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the expression for the electric potential V at the surface of a sphere of radius R."
+    },
+    {
+      "id": 541060,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a parallel plate capacitor and how is it constructed?"
+    },
+    {
+      "id": 541061,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the plates of a capacitor when they are connected to a battery of voltage V?"
+    },
+    {
+      "id": 541062,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the comprehensive definition of the capacitance of a capacitor."
+    },
+    {
+      "id": 541063,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the initial relation for the capacitance of a parallel plate capacitor in vacuum."
+    },
+    {
+      "id": 541067,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the effect of inserting a dielectric material between the plates of a charged capacitor connected to a voltmeter."
+    },
+    {
+      "id": 541068,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define \"Dielectric Constant\" or relative permittivity."
+    },
+    {
+      "id": 541069,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the mathematical formula for the capacitance of a parallel plate capacitor with a medium."
+    },
+    {
+      "id": 541070,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the atoms of a dielectric material when it is subjected to an electric field?"
+    },
+    {
+      "id": 541075,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do charges appear on the surfaces of a dielectric slab placed between oppositely charged plates?"
+    },
+    {
+      "id": 541076,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the relationship between the polarity of charges on the dielectric surfaces and the adjacent metal plates?"
+    },
+    {
+      "id": 541077,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how polarization effectively decreases the electric intensity and potential difference between the plates."
+    },
+    {
+      "id": 541082,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the combination of capacitors and why is it used?"
+    },
+    {
+      "id": 541083,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the two common types of capacitor combinations."
+    },
+    {
+      "id": 541084,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how capacitors are physically connected in a parallel combination."
+    },
+    {
+      "id": 541085,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the key characteristic of charge and potential difference in a parallel combination of capacitors."
+    },
+    {
+      "id": 541086,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Express the rule for the combined capacitance of capacitors connected in parallel."
+    },
+    {
+      "id": 541091,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the physical construction or connection scheme of a series combination of capacitors."
+    },
+    {
+      "id": 541092,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does each capacitor receive the exact same magnitude of charge Q in a series combination?"
+    },
+    {
+      "id": 541093,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the rule for potential difference across a series combination of capacitors."
+    },
+    {
+      "id": 541094,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If the entire series combination is replaced by a single equivalent capacitor Ce, what will be its charge and potential difference?"
+    },
+    {
+      "id": 541098,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two alternative ways to define the function of a capacitor?"
+    },
+    {
+      "id": 541099,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the experiment that provides clear evidence of energy storage in a capacitor."
+    },
+    {
+      "id": 541100,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "If the final charge is Q and the final potential difference is V, what is the resulting expression for the energy stored?"
+    },
+    {
+      "id": 541105,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a capacitor not charge up to its maximum value immediately?"
+    },
+    {
+      "id": 541106,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the term \"Time Constant\" for an RC circuit."
+    },
+    {
+      "id": 541107,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the discharging process of a capacitor achieved in an RC circuit?"
+    },
+    {
+      "id": 541116,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by \"exponential decay\" in the context of a discharging capacitor?"
+    },
+    {
+      "id": 541117,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the general formula for exponential decay in an RC circuit and define its variables."
+    },
+    {
+      "id": 541118,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the specific individual decay equations for charge, voltage, and current during the discharging process."
+    },
+    {
+      "id": 541121,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the water tank analogy used to describe the decay of charge in a capacitor."
+    },
+    {
+      "id": 541122,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the \"Time Constant\" in the context of a discharging capacitor."
+    },
+    {
+      "id": 541123,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does a large time constant indicate about a capacitor's discharging behavior?"
+    },
+    {
+      "id": 541130,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role does a capacitor play during the starting process of an electric fan motor?"
+    },
+    {
+      "id": 541131,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why do single phase motors in refrigerator compressors require high capacitance capacitors?"
+    },
+    {
+      "id": 541132,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Differentiate between a \"start capacitor\" and a \"run capacitor\"."
+    },
+    {
+      "id": 541133,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are time delay circuits used in refrigerators and air-conditioners?"
+    },
+    {
+      "id": 541143,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does a capacitor work to produce a bright burst of light in a camera flashgun?"
+    },
+    {
+      "id": 541144,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of capacitors as filters in rectifier circuits?"
+    },
+    {
+      "id": 541145,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are capacitors utilized in the medical field for cardiac emergencies?"
+    },
+    {
+      "id": 541146,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Mention the role of capacitors in diagnostic machines like EEG and ECG."
+    },
+    {
+      "id": 541275,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define alternating current (AC)."
+    },
+    {
+      "id": 541276,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the formulas for the instantaneous voltage and instantaneous current of an AC generator."
+    },
+    {
+      "id": 541277,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What condition must a periodically varying current fulfill to be classified as alternating current?"
+    },
+    {
+      "id": 541278,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to the polarity of potential difference in an AC source?"
+    },
+    {
+      "id": 541285,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Waveform and Cycle of an alternating quantity."
+    },
+    {
+      "id": 541286,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the relationship between frequency (f) and time period (T)? State their units."
+    },
+    {
+      "id": 541287,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the average value of a complete alternating sine wave over a full cycle equal zero?"
+    },
+    {
+      "id": 541288,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is AC considered better than DC for supplying power between distant cities?"
+    },
+    {
+      "id": 541295,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a pulsating DC signal, and where is average value primarily used?"
+    },
+    {
+      "id": 541296,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Peak Value and Peak-to-Peak (p-p) Value."
+    },
+    {
+      "id": 541297,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the three different mathematical expressions for instantaneous AC voltage."
+    },
+    {
+      "id": 541298,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How can we detect AC voltage hidden under a carpet? Explain the mechanism."
+    },
+    {
+      "id": 541299,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the Root-Mean-Square (rms) or effective value of AC?"
+    },
+    {
+      "id": 541322,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define a resistive load and give examples of components that are not resistive."
+    },
+    {
+      "id": 541323,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the basic equation for instantaneous power in an AC circuit."
+    },
+    {
+      "id": 541324,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the average (mean) power in an AC circuit half of its peak power value?"
+    },
+    {
+      "id": 541325,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define 'Phase' in an alternating current cycle."
+    },
+    {
+      "id": 541326,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the phases at points A, B, C, D, and E in a standard AC cycle?"
+    },
+    {
+      "id": 541327,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by 'Initial Phase'?"
+    },
+    {
+      "id": 541331,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the equations for voltage and current when the current lags behind the voltage."
+    },
+    {
+      "id": 541332,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the conditions required to represent an alternating quantity by a rotating vector."
+    },
+    {
+      "id": 541337,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the basic circuit element in a DC circuit, and what formula defines its behavior?"
+    },
+    {
+      "id": 541338,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name the basic circuit elements used to control current and voltage in AC circuits."
+    },
+    {
+      "id": 541383,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the phase relationship between alternating voltage and alternating current through a resistor?"
+    },
+    {
+      "id": 541384,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are the voltage and current vectors represented for an AC circuit containing a resistor?"
+    },
+    {
+      "id": 541386,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the formulas for instantaneous voltage, instantaneous current, and peak current for an AC circuit with a resistor."
+    },
+    {
+      "id": 541390,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the opposition presented by a resistive circuit to alternating current."
+    },
+    {
+      "id": 541406,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does it make no difference to the power dissipation whether the current flowing through a resistor is positive or negative?"
+    },
+    {
+      "id": 541421,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define an inductor. What are its alternative names?"
+    },
+    {
+      "id": 541422,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How and where does an inductor store electrical energy?"
+    },
+    {
+      "id": 541425,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary function of an inductor in an electrical circuit?"
+    },
+    {
+      "id": 541453,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What factors determine the value of inductive reactance?"
+    },
+    {
+      "id": 541454,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does an inductor allow DC to pass easily but block high-frequency AC?"
+    },
+    {
+      "id": 541455,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the average power dissipated in a pure inductor equal to zero?"
+    },
+    {
+      "id": 541456,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the primary practical advantage of using an inductor in an AC circuit?"
+    },
+    {
+      "id": 541471,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the basic physical construction of a choke coil."
+    },
+    {
+      "id": 541472,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is practically no power dissipated as heat by a choke coil?"
+    },
+    {
+      "id": 541473,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the primary applications of a choke coil in electronics and electrical appliances?"
+    },
+    {
+      "id": 541476,
+      "chapter": 17,
+      "topic_id": "17.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a capacitor block DC but allow AC to pass?"
+    },
+    {
+      "id": 541486,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does a capacitor behave differently from a resistor regarding energy storage?"
+    },
+    {
+      "id": 541488,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why alternating current (AC) can flow in a circuit containing a capacitor despite the insulation between its plates."
+    },
+    {
+      "id": 541489,
+      "chapter": 17,
+      "topic_id": "17.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the instantaneous mathematical relationship between the charge on a capacitor's plates and the voltage across them."
+    },
+    {
+      "id": 541497,
+      "chapter": 17,
+      "topic_id": "17.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Impedance and state its symbol."
+    },
+    {
+      "id": 541498,
+      "chapter": 17,
+      "topic_id": "17.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Distinguish between Resistance and Reactance."
+    },
+    {
+      "id": 541500,
+      "chapter": 17,
+      "topic_id": "17.9",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Express impedance (Z) mathematically in terms of voltage and current."
+    },
+    {
+      "id": 541506,
+      "chapter": 17,
+      "topic_id": "17.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is current taken as the reference vector in a series AC circuit?"
+    },
+    {
+      "id": 541507,
+      "chapter": 17,
+      "topic_id": "17.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the equations for potential drops across the resistor and capacitor in an RC-series circuit."
+    },
+    {
+      "id": 541508,
+      "chapter": 17,
+      "topic_id": "17.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the total applied voltage obtained in an RC-series circuit?"
+    },
+    {
+      "id": 541509,
+      "chapter": 17,
+      "topic_id": "17.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an impedance diagram, and how is it used to find total impedance?"
+    },
+    {
+      "id": 541513,
+      "chapter": 17,
+      "topic_id": "17.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why does the capacitor in an RC-series circuit consume no electrical power?"
+    },
+    {
+      "id": 541514,
+      "chapter": 17,
+      "topic_id": "17.10",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the two formulas used to calculate the power consumed in an RC-series circuit? Define the terms used."
+    },
+    {
+      "id": 541566,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write down the equations for the RMS voltage across the resistor and inductor in an RL-series circuit."
+    },
+    {
+      "id": 541568,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Derive the mathematical expression for the total impedance ((Z) of an RL-series AC circuit."
+    },
+    {
+      "id": 541569,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the phase relationship between voltage and current differ between an RC-series circuit and an RL-series circuit?"
+    },
+    {
+      "id": 541570,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do electric eels generate powerful electrical shocks?"
+    },
+    {
+      "id": 541576,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is power dissipation in an RL-series circuit blamed primarily on the resistor?"
+    },
+    {
+      "id": 541577,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define 'Power Factor' and state the formula for power consumption in an RL circuit."
+    },
+    {
+      "id": 541578,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do you calculate AC power from a known DC power source? State the formula."
+    },
+    {
+      "id": 541579,
+      "chapter": 17,
+      "topic_id": "17.11",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How much AC power will be received from a DC solar panel rated at 575 Watts with a 75% inverting efficiency?"
+    },
+    {
+      "id": 541587,
+      "chapter": 17,
+      "topic_id": "17.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how an RLC-series circuit behaves at very high frequencies versus very low frequencies."
+    },
+    {
+      "id": 541588,
+      "chapter": 17,
+      "topic_id": "17.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the condition of 'Resonance' in an RLC-series circuit."
+    },
+    {
+      "id": 541598,
+      "chapter": 17,
+      "topic_id": "17.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "State the behavior of circuit impedance and current at the resonance condition."
+    },
+    {
+      "id": 541599,
+      "chapter": 17,
+      "topic_id": "17.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why is the power factor equal to 1 at resonance?"
+    },
+    {
+      "id": 541600,
+      "chapter": 17,
+      "topic_id": "17.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how resistance affects oscillations in an RLC circuit using its mechanical analogy."
+    },
+    {
+      "id": 541602,
+      "chapter": 17,
+      "topic_id": "17.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is a band-pass filter, and where is it used?"
+    },
+    {
+      "id": 541603,
+      "chapter": 17,
+      "topic_id": "17.12",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the phenomenon of 'Voltage Amplification' at resonance."
+    },
+    {
+      "id": 541609,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main structural difference in quantity distribution between a series RLC circuit and a parallel RLC circuit?"
+    },
+    {
+      "id": 541610,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Contrast the behavior of total impedance and source current at resonance between series and parallel RLC circuits."
+    },
+    {
+      "id": 541611,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Admittance (Y) and explain its utility in parallel AC circuits."
+    },
+    {
+      "id": 541612,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define 'Bandwidth' in the context of an RLC-parallel circuit."
+    },
+    {
+      "id": 541613,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an Electrocardiogram (ECG) and how does it function?"
+    },
+    {
+      "id": 541620,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how an induction cooktop uses a parallel RLC circuit to heat metal cookware."
+    },
+    {
+      "id": 541621,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Quality Factor (Q) and explain what it signifies mathematically."
+    },
+    {
+      "id": 541622,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does resistance influence the Q-factor in a parallel RLC circuit?"
+    },
+    {
+      "id": 541623,
+      "chapter": 17,
+      "topic_id": "17.13",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "On what factors does the power factor of a parallel RLC circuit depend, and what is its value at resonance?"
+    },
+    {
+      "id": 541628,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the primary coil and secondary coil in the context of mutual induction."
+    },
+    {
+      "id": 541629,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the phenomenon of Mutual Induction."
+    },
+    {
+      "id": 541630,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write the formula for the net flux linkage of the secondary coil and define its constant of proportionality."
+    },
+    {
+      "id": 541631,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "List the three main physical factors on which the mutual inductance (M) of a pair of coils depends."
+    },
+    {
+      "id": 541636,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define Mutual Inductance in terms of induced electromotive force (emf) and rate of change of current."
+    },
+    {
+      "id": 541637,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the physical significance of the negative sign in the mutual induction formula?"
+    },
+    {
+      "id": 541638,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define the SI unit 'Henry'."
+    },
+    {
+      "id": 541639,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Name four real-world devices or fields where mutual inductance finds practical applications."
+    },
+    {
+      "id": 541640,
+      "chapter": 17,
+      "topic_id": "17.14",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Do you have an idea how a pacemaker works?"
+    }
+  ],
   "type": "short"
 }

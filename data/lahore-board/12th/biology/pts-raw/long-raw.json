@@ -9,8 +9,8 @@
   "field": "LONG",
   "exportName": "long",
   "subTypeId": 13,
-  "total": 115,
-  "exportedAt": "2026-08-11T12:16:42.810Z",
+  "total": 120,
+  "exportedAt": "2026-09-09T13:34:16.568Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -2332,6 +2332,111 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Write a detailed note on the Temperate Deciduous Forest in Pakistan.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 535162,
+      "SubjectID": 116,
+      "TopicID": 15681,
+      "TopicRef": "19.4",
+      "TopicName": "19.4 GENE EXPRESSION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define gene expression.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 535170,
+      "SubjectID": 116,
+      "TopicID": 15681,
+      "TopicRef": "19.4",
+      "TopicName": "19.4 GENE EXPRESSION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the Central Dogma of molecular biology?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 535171,
+      "SubjectID": 116,
+      "TopicID": 15681,
+      "TopicRef": "19.4",
+      "TopicName": "19.4 GENE EXPRESSION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Differentiate between Transcription and Translation.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 535174,
+      "SubjectID": 116,
+      "TopicID": 15681,
+      "TopicRef": "19.4",
+      "TopicName": "19.4 GENE EXPRESSION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Name any two essential questions that arose after the discovery of the structure of DNA and Central Dogma.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 535175,
+      "SubjectID": 116,
+      "TopicID": 15681,
+      "TopicRef": "19.4",
+      "TopicName": "19.4 GENE EXPRESSION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is the precise nature of the genetic code?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

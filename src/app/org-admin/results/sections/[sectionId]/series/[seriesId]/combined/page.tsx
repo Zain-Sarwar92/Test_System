@@ -113,10 +113,7 @@ export default async function CombinedSeriesGazettePage({
   }
 
   const roundLabels = series.rounds.map((round, index) =>
-    shortRoundLabel(
-      round.roundOrder != null ? `Round ${round.roundOrder}` : round.name,
-      index,
-    ),
+    shortRoundLabel(round.name, index),
   );
 
   const { columns, rows } = compileMultiRoundSectionResult({

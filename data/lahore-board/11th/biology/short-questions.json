@@ -4,16 +4,16 @@
   "subject": "Biology",
   "slug": "biology",
   "source": "PTS PTB INTER-I (Class 11) Biology (read-only export)",
-  "total_questions": 3687,
+  "total_questions": 3973,
   "counts": {
-    "mcq": 1850,
-    "short": 1668,
-    "long": 169
+    "mcq": 1953,
+    "short": 1785,
+    "long": 235
   },
   "fieldCounts": {
-    "MCQ": 1850,
-    "QA": 1668,
-    "LONG": 169
+    "MCQ": 1953,
+    "QA": 1785,
+    "LONG": 235
   },
   "questions": [
     {
@@ -27,6 +27,16 @@
       "en": "What are the three domains of life and how do they differ in terms of cellular structure?"
     },
     {
+      "id": 397883,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe one key feature that differentiates Archaea from Bacteria."
+    },
+    {
       "id": 397885,
       "chapter": 1,
       "topic_id": "1.2",
@@ -35,6 +45,46 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Which kingdom is characterized by organisms with chitin in their cell walls and that are mostly decomposers?"
+    },
+    {
+      "id": 397887,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the role of genetic drift in the process of speciation?"
+    },
+    {
+      "id": 397888,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the primary method used to assess species distribution along an environmental gradient?"
+    },
+    {
+      "id": 397889,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Which level of biodiversity assessment involves evaluating the variety of ecosystems in a region?"
+    },
+    {
+      "id": 397886,
+      "chapter": 1,
+      "topic_id": "1.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What type of speciation occurs when populations are geographically separated?"
     },
     {
       "id": 399166,
@@ -127,6 +177,36 @@
       "en": "Write about the role of endospores in bacterial survival."
     },
     {
+      "id": 399180,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do spirochetes achieve motility?"
+    },
+    {
+      "id": 399181,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between twitching and gliding movements in bacterial motility."
+    },
+    {
+      "id": 399183,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the difference between swimming motility and swarming motility in bacteria?"
+    },
+    {
       "id": 399176,
       "chapter": 2,
       "topic_id": "2.4",
@@ -135,6 +215,36 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Write the role of pili in bacterial cells. How do they differ from flagella?"
+    },
+    {
+      "id": 399182,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do bacteria without flagella achieve motility?"
+    },
+    {
+      "id": 401424,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "State the cell theory. How we can validate it? What are the exceptions to cell theory?"
+    },
+    {
+      "id": 401422,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare the resolution and magnification of light microscope and electron microscope?"
     },
     {
       "id": 401443,
@@ -287,6 +397,16 @@
       "en": "What do you mean by “stem cell”? What are the main usages of stem cells?"
     },
     {
+      "id": 404611,
+      "chapter": 4,
+      "topic_id": "4.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Draw a sketch of hydrolysis reactions."
+    },
+    {
       "id": 404613,
       "chapter": 4,
       "topic_id": "4.3",
@@ -427,6 +547,16 @@
       "en": "Give examples of competitive and non-competitive inhibitors."
     },
     {
+      "id": 405865,
+      "chapter": 5,
+      "topic_id": "5.6",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is optimum pH? Give optimum pH of three human enzymes."
+    },
+    {
       "id": 405947,
       "chapter": 6,
       "topic_id": "6.1",
@@ -465,6 +595,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "State the role of CO2 in photosynthesis."
+    },
+    {
+      "id": 405953,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the main structural difference between chlorophyll-a and chlorophyll-b?"
+    },
+    {
+      "id": 405956,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between C-3 and C-4 photosynthesis."
     },
     {
       "id": 405951,
@@ -567,6 +717,16 @@
       "en": "Write a short note on protein data bank."
     },
     {
+      "id": 406938,
+      "chapter": 8,
+      "topic_id": "8.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between macronutrients and micronutrients?"
+    },
+    {
       "id": 406941,
       "chapter": 8,
       "topic_id": "8.2",
@@ -595,6 +755,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Differentiate between long day plants and short day plants?"
+    },
+    {
+      "id": 406939,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is water potential?"
+    },
+    {
+      "id": 406940,
+      "chapter": 8,
+      "topic_id": "8.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the main three pathways for the movement of water between plant cells?"
     },
     {
       "id": 406944,
@@ -787,6 +967,16 @@
       "en": "How does stress negatively impact digestion?"
     },
     {
+      "id": 402537,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define respiratory surface and list its properties."
+    },
+    {
       "id": 402538,
       "chapter": 10,
       "topic_id": "10.1",
@@ -825,6 +1015,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is the role of diaphragm during inhalation and exhalation?"
+    },
+    {
+      "id": 402542,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What the three ways of the transport of carbon dioxide in blood?"
     },
     {
       "id": 402548,
@@ -877,6 +1077,16 @@
       "en": "Differentiate between: Bronchi and bronchioles"
     },
     {
+      "id": 408110,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the main difference between the walls of an artery and a vein?"
+    },
+    {
       "id": 408111,
       "chapter": 11,
       "topic_id": "11.1",
@@ -907,6 +1117,36 @@
       "en": "What is meant by Purkinje fibres?"
     },
     {
+      "id": 408117,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you mean by vasoconstriction and vasodilation?"
+    },
+    {
+      "id": 408118,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the rate of blood flow in different types of blood vessels?"
+    },
+    {
+      "id": 408115,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Define angiography and angioplasty."
+    },
+    {
       "id": 408120,
       "chapter": 11,
       "topic_id": "11.3",
@@ -925,6 +1165,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "List the principles and uses of Electrocardiogram."
+    },
+    {
+      "id": 408121,
+      "chapter": 11,
+      "topic_id": "11.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between thrombus and embolus."
     },
     {
       "id": 408882,
@@ -1047,6 +1297,26 @@
       "en": "What is fibrous joint? Give examples."
     },
     {
+      "id": 408890,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name the steps involved in bone repair."
+    },
+    {
+      "id": 408891,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What skeletal structures are affected from the osteoarthritis?"
+    },
+    {
       "id": 408892,
       "chapter": 12,
       "topic_id": "12.2",
@@ -1097,6 +1367,16 @@
       "en": "Differentiate between: Axial skeleton and appendicular skeleton"
     },
     {
+      "id": 408918,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between:Rheumatoid arthritis and osteoarthritis"
+    },
+    {
       "id": 408896,
       "chapter": 12,
       "topic_id": "12.3",
@@ -1125,6 +1405,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Differentiate between: Ligament and tendon"
+    },
+    {
+      "id": 408924,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate between: Tetany and tetanus"
     },
     {
       "id": 397948,
@@ -1225,6 +1515,96 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "How do Archaea reproduce?"
+    },
+    {
+      "id": 397968,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the cell membrane of Archaea unique?"
+    },
+    {
+      "id": 397969,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the composition of cell wall in Archaea?"
+    },
+    {
+      "id": 397970,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the cell wall composition in Archaea differ from Bacteria and Eukarya?"
+    },
+    {
+      "id": 397971,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What genetic similarities do Archaea share with Eukarya?"
+    },
+    {
+      "id": 397972,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is methanogenesis and in which domain is it found?"
+    },
+    {
+      "id": 397974,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are some of the metabolic processes found in Bacteria?"
+    },
+    {
+      "id": 397975,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What kinds of metabolic processes are found in Eukarya?"
+    },
+    {
+      "id": 397976,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do the metabolic pathways of Archaea differ from Bacteria and Eukarya?"
+    },
+    {
+      "id": 397977,
+      "chapter": 1,
+      "topic_id": "1.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the major groups of Archaea?"
     },
     {
       "id": 397978,
@@ -5647,6 +6027,86 @@
       "en": "Do eukaryotic calls contain membranes around their internal organelles? what is the function of these membrane?"
     },
     {
+      "id": 403475,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the purpose of Transmission Electron Microscopy in the study of plasma membranes?"
+    },
+    {
+      "id": 403556,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does Scanning Electron Microscopy contribute to membrane studies?"
+    },
+    {
+      "id": 403558,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of Confocal Microscopy in analyzing plasma membranes?"
+    },
+    {
+      "id": 403560,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "For what purpose is Total Internal Reflection Fluorescence Microscopy (TIRFM) used?"
+    },
+    {
+      "id": 403562,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does Atomic Force Microscopy reveal about the plasma membrane?"
+    },
+    {
+      "id": 403563,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is X-ray Crystallography used in the context of plasma membrane research?"
+    },
+    {
+      "id": 403566,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is lipidomics and how is it used to study plasma membranes?"
+    },
+    {
+      "id": 403570,
+      "chapter": 3,
+      "topic_id": "3.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does Fluorescence Recovery after Photo-bleaching (FRAP) measure, and how does it work?"
+    },
+    {
       "id": 403573,
       "chapter": 3,
       "topic_id": "3.4",
@@ -9667,6 +10127,76 @@
       "en": "How is NADPH formed in photosynthesis?"
     },
     {
+      "id": 406122,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where are photosynthetic pigments found?"
+    },
+    {
+      "id": 406126,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when pigment molecules absorb photons?"
+    },
+    {
+      "id": 406128,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the structure of chloroghyll?"
+    },
+    {
+      "id": 406131,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does chlorophyll-a- differ from chlorophyll-b?"
+    },
+    {
+      "id": 406133,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What colors of light does chlorophyll absorb and reflect?"
+    },
+    {
+      "id": 406134,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are accessory pigments and where are they found?"
+    },
+    {
+      "id": 406139,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is energy transferred by accessory plgments?"
+    },
+    {
       "id": 406142,
       "chapter": 6,
       "topic_id": "6.1",
@@ -10147,6 +10677,56 @@
       "en": "Which two biological processes help to understand the principles of bioenergetics?"
     },
     {
+      "id": 416463,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is ATP and what role does it play in cells?"
+    },
+    {
+      "id": 416465,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the components of an ATP molecule?"
+    },
+    {
+      "id": 416467,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens when one high-energy bond of ATP is broken?"
+    },
+    {
+      "id": 416470,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the chemical equation for the breakdown of ATP to ADP?"
+    },
+    {
+      "id": 416471,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to ADP in some energy reactions?"
+    },
+    {
       "id": 406443,
       "chapter": 6,
       "topic_id": "6.2",
@@ -10525,6 +11105,26 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "Why is aerobic respiration more efficient than anaerobic respiration?"
+    },
+    {
+      "id": 406535,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are proteins used in cellular respiration?"
+    },
+    {
+      "id": 406536,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do lipids contribute to cellular respiration?"
     },
     {
       "id": 406537,
@@ -12767,6 +13367,206 @@
       "en": "How are annual rings formed in trees?"
     },
     {
+      "id": 407588,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are plant growth regulators?"
+    },
+    {
+      "id": 407589,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How many major groups of plant growth regulators are there?"
+    },
+    {
+      "id": 407591,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main auxin found in plants?"
+    },
+    {
+      "id": 407592,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do auxins affect stem growth?"
+    },
+    {
+      "id": 407593,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of auxins on root growth?"
+    },
+    {
+      "id": 407594,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do auxins influence bud growth?"
+    },
+    {
+      "id": 407595,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What role do gibberellins play in plants?"
+    },
+    {
+      "id": 407596,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Where are gibberellins produced in plants?"
+    },
+    {
+      "id": 407598,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are cytokinins and where are they produced?"
+    },
+    {
+      "id": 407599,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do cytokinins affect root growth?"
+    },
+    {
+      "id": 407600,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the function of abscisic acid in plants?"
+    },
+    {
+      "id": 407601,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does abscisic acid affect stomata?"
+    },
+    {
+      "id": 407602,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of ethylene in plants?"
+    },
+    {
+      "id": 407604,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does ethylene affect fruit development?"
+    },
+    {
+      "id": 407605,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is apical dominance and which hormone controls it?"
+    },
+    {
+      "id": 407606,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can auxins induce fruit development without fertilization?"
+    },
+    {
+      "id": 407608,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do cytokinins influence leaf growth?"
+    },
+    {
+      "id": 407609,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to leaf senescence in the presence of auxins and gibberellins?"
+    },
+    {
+      "id": 407611,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do gibberellins influence flowering in long-day plants?"
+    },
+    {
+      "id": 407612,
+      "chapter": 8,
+      "topic_id": "8.7",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the effect of cytokinins on bud dormancy?"
+    },
+    {
       "id": 407659,
       "chapter": 8,
       "topic_id": "8.8",
@@ -14057,6 +14857,136 @@
       "en": "How does cholecystokinin (CCK) regulate pancreatic and gallbladder secretions?"
     },
     {
+      "id": 408030,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What important functions does the liver perform related to nutrient storage?"
+    },
+    {
+      "id": 408032,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What types of nutrients are stored in the liver?"
+    },
+    {
+      "id": 408033,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the liver's role in metabolism?"
+    },
+    {
+      "id": 408034,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the liver manage excess glucose?"
+    },
+    {
+      "id": 408035,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the liver handle fats?"
+    },
+    {
+      "id": 408036,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the liver process amino acids and remove harmful substances?"
+    },
+    {
+      "id": 408037,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What detoxification processes occur in the liver?"
+    },
+    {
+      "id": 408038,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the liver assist in hormone regulation?"
+    },
+    {
+      "id": 402591,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is meant by the respiratory surface?"
+    },
+    {
+      "id": 402592,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does gass exchange occur at the respiratory surface?"
+    },
+    {
+      "id": 402594,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why must the respiratory surface be moist and permeable?"
+    },
+    {
+      "id": 402595,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What structural feature support efficient gas exchange at the respiratory surface?"
+    },
+    {
+      "id": 402597,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is the respiratory surface protected from drying out, and how is air prepared befre reaching it?"
+    },
+    {
       "id": 402662,
       "chapter": 10,
       "topic_id": "10.1",
@@ -14697,6 +15627,46 @@
       "en": "What treatments are available for sinusitis?"
     },
     {
+      "id": 403023,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is otitis media?"
+    },
+    {
+      "id": 403024,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What causes otitis media?"
+    },
+    {
+      "id": 403025,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the symptoms of otitis media?"
+    },
+    {
+      "id": 403027,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is acute otitis media different from chronic otitis media?"
+    },
+    {
       "id": 403100,
       "chapter": 10,
       "topic_id": "10.4",
@@ -15237,6 +16207,106 @@
       "en": "What is the normal duration of the QT interval in an ECG?"
     },
     {
+      "id": 408280,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are arteries and what is their primary function?"
+    },
+    {
+      "id": 408282,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the structure and function of the tunica media in arteries."
+    },
+    {
+      "id": 408283,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What happens to arteries as they branch out in the body?"
+    },
+    {
+      "id": 408284,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are capillaries and what is their structure?"
+    },
+    {
+      "id": 408285,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of material exchange in capillaries."
+    },
+    {
+      "id": 408286,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is interstitial fluid and what is its composition?"
+    },
+    {
+      "id": 408288,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do veins differ structurally from arteries?"
+    },
+    {
+      "id": 408289,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are semilunar valves and what is their function in veins?"
+    },
+    {
+      "id": 408290,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How is blood returned to the heart through veins?"
+    },
+    {
+      "id": 408291,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the exception to the oxygenation rule in arteries and veins?"
+    },
+    {
       "id": 408354,
       "chapter": 11,
       "topic_id": "11.2",
@@ -15685,6 +16755,56 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "From which cells do osteoclasts develop and what is their function?"
+    },
+    {
+      "id": 408563,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is osteogenesis and when does it begin?"
+    },
+    {
+      "id": 408564,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is osteogenesis and when does it begin?"
+    },
+    {
+      "id": 408565,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the role of osteoblasts and osteoclasts in bone formation?"
+    },
+    {
+      "id": 408566,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How are osteocytes formed and what is their function?"
+    },
+    {
+      "id": 408567,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How do some skull bones form differently during osteogenesis?"
     },
     {
       "id": 408575,
@@ -16695,6 +17815,56 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "What are some common causes of muscle cramps?"
+    },
+    {
+      "id": 408857,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is the main difference between tetany and tetanus in terms of their causes and nature?"
+    },
+    {
+      "id": 408858,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Which body parts are affected by tetany and tetanus respectively?"
+    },
+    {
+      "id": 408859,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are the underlying causes of tetany and tetanus?"
+    },
+    {
+      "id": 408860,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "How does the severity of tetany compare to tetanus?"
+    },
+    {
+      "id": 408861,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Why are tetany and tetanus often confused with each other?"
     }
   ],
   "type": "short"

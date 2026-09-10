@@ -1,0 +1,451 @@
+{
+  "generatedAt": "2026-09-08T12:57:15.199Z",
+  "rows": [
+    {
+      "subject": "Biology",
+      "slug": "biology",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 2001,
+      "localTotal": 2001,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 1056,
+        "QA": 790,
+        "LONG": 155
+      },
+      "local": {
+        "MCQ": 1056,
+        "QA": 790,
+        "LONG": 155
+      }
+    },
+    {
+      "subject": "Computer",
+      "slug": "computer",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 2256,
+      "localTotal": 2256,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 992,
+        "QA": 916,
+        "LONG": 348
+      },
+      "local": {
+        "MCQ": 992,
+        "QA": 916,
+        "LONG": 348
+      }
+    },
+    {
+      "subject": "Chemistry",
+      "slug": "chemistry",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 2376,
+      "localTotal": 2376,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 1142,
+        "QA": 1081,
+        "LONG": 153
+      },
+      "local": {
+        "MCQ": 1142,
+        "QA": 1081,
+        "LONG": 153
+      }
+    },
+    {
+      "subject": "Physics",
+      "slug": "physics",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1883,
+      "localTotal": 1883,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 875,
+        "QA": 755,
+        "LONG": 253
+      },
+      "local": {
+        "MCQ": 875,
+        "QA": 755,
+        "LONG": 253
+      }
+    },
+    {
+      "subject": "Mathematics",
+      "slug": "mathematics",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 1968,
+      "localTotal": 1968,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 545,
+        "QA": 1073,
+        "LONG": 350
+      },
+      "local": {
+        "MCQ": 545,
+        "QA": 1073,
+        "LONG": 350
+      }
+    },
+    {
+      "subject": "English",
+      "slug": "english",
+      "types": "COMPREHENSION, DIALOGUE, GRAMMAR, IDIOM, LETTER, MEANING, PAIR, PASSAGE, POEM_STANZA, QA, SPELLING, STORY, SUMMARY, TRANSLATE_EN, TRANSLATE_UR, VERB, VOICE",
+      "liveTotal": 3853,
+      "localTotal": 3853,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "COMPREHENSION": 60,
+        "SPELLING": 341,
+        "MEANING": 322,
+        "VERB": 168,
+        "GRAMMAR": 386,
+        "QA": 136,
+        "LETTER": 16,
+        "TRANSLATE_EN": 1183,
+        "VOICE": 667,
+        "STORY": 12,
+        "SUMMARY": 2,
+        "DIALOGUE": 5,
+        "PAIR": 281,
+        "IDIOM": 124,
+        "TRANSLATE_UR": 113,
+        "PASSAGE": 25,
+        "POEM_STANZA": 12
+      },
+      "local": {
+        "COMPREHENSION": 60,
+        "SPELLING": 341,
+        "MEANING": 322,
+        "VERB": 168,
+        "GRAMMAR": 386,
+        "QA": 136,
+        "LETTER": 16,
+        "TRANSLATE_EN": 1183,
+        "VOICE": 667,
+        "STORY": 12,
+        "SUMMARY": 2,
+        "DIALOGUE": 5,
+        "PAIR": 281,
+        "IDIOM": 124,
+        "TRANSLATE_UR": 113,
+        "PASSAGE": 25,
+        "POEM_STANZA": 12
+      }
+    },
+    {
+      "subject": "اُردو لازمی",
+      "slug": "urdu-compulsory",
+      "types": "APPLICATION, CENTRAL, CORRECT, DIALOGUE, IDIOM, LETTER, MCQ, MEANING, PASSAGE, POEM, QA, STORY, SUMMARY",
+      "liveTotal": 3109,
+      "localTotal": 3109,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 1698,
+        "QA": 920,
+        "CORRECT": 131,
+        "IDIOM": 79,
+        "MEANING": 13,
+        "POEM": 80,
+        "SUMMARY": 10,
+        "PASSAGE": 113,
+        "LETTER": 24,
+        "APPLICATION": 6,
+        "STORY": 23,
+        "DIALOGUE": 6,
+        "CENTRAL": 6
+      },
+      "local": {
+        "MCQ": 1698,
+        "QA": 920,
+        "CORRECT": 131,
+        "IDIOM": 79,
+        "MEANING": 13,
+        "POEM": 80,
+        "SUMMARY": 10,
+        "PASSAGE": 113,
+        "LETTER": 24,
+        "APPLICATION": 6,
+        "STORY": 23,
+        "DIALOGUE": 6,
+        "CENTRAL": 6
+      }
+    },
+    {
+      "subject": "اسلامیات لازمی",
+      "slug": "islamiyat-compulsory",
+      "types": "HADITH, LONG, MCQ, PERSONALITY, QA",
+      "liveTotal": 2951,
+      "localTotal": 2951,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 1242,
+        "QA": 1477,
+        "LONG": 186,
+        "HADITH": 20,
+        "PERSONALITY": 26
+      },
+      "local": {
+        "MCQ": 1242,
+        "QA": 1477,
+        "LONG": 186,
+        "HADITH": 20,
+        "PERSONALITY": 26
+      }
+    },
+    {
+      "subject": "General Science",
+      "slug": "general-science",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 937,
+      "localTotal": 937,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 418,
+        "QA": 422,
+        "LONG": 97
+      },
+      "local": {
+        "MCQ": 418,
+        "QA": 422,
+        "LONG": 97
+      }
+    },
+    {
+      "subject": "ایجوکیشن",
+      "slug": "education",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 647,
+      "localTotal": 647,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 284,
+        "QA": 332,
+        "LONG": 31
+      },
+      "local": {
+        "MCQ": 284,
+        "QA": 332,
+        "LONG": 31
+      }
+    },
+    {
+      "subject": "پنجابی",
+      "slug": "punjabi",
+      "types": "IDIOM, MCQ, MEANING, PAIR, PASSAGE, POEM, QA, SUMMARY",
+      "liveTotal": 938,
+      "localTotal": 938,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 252,
+        "QA": 142,
+        "POEM": 86,
+        "SUMMARY": 1,
+        "MEANING": 169,
+        "PAIR": 6,
+        "IDIOM": 255,
+        "PASSAGE": 27
+      },
+      "local": {
+        "MCQ": 252,
+        "QA": 142,
+        "POEM": 86,
+        "SUMMARY": 1,
+        "MEANING": 169,
+        "PAIR": 6,
+        "IDIOM": 255,
+        "PASSAGE": 27
+      }
+    },
+    {
+      "subject": "اسلامیات اختیاری",
+      "slug": "islamiyat-elective",
+      "types": "AYAT, MCQ, QA",
+      "liveTotal": 1123,
+      "localTotal": 1123,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 438,
+        "QA": 669,
+        "AYAT": 16
+      },
+      "local": {
+        "MCQ": 438,
+        "QA": 669,
+        "AYAT": 16
+      }
+    },
+    {
+      "subject": "ہوم اکنامکس",
+      "slug": "home-economics",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 534,
+      "localTotal": 534,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 194,
+        "QA": 245,
+        "LONG": 95
+      },
+      "local": {
+        "MCQ": 194,
+        "QA": 245,
+        "LONG": 95
+      }
+    },
+    {
+      "subject": "سوکس",
+      "slug": "civics",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 296,
+      "localTotal": 296,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 113,
+        "QA": 151,
+        "LONG": 32
+      },
+      "local": {
+        "MCQ": 113,
+        "QA": 151,
+        "LONG": 32
+      }
+    },
+    {
+      "subject": "معاشیات",
+      "slug": "economics",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 322,
+      "localTotal": 322,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 143,
+        "QA": 127,
+        "LONG": 52
+      },
+      "local": {
+        "MCQ": 143,
+        "QA": 127,
+        "LONG": 52
+      }
+    },
+    {
+      "subject": "ترجمۃ القرآن المجید",
+      "slug": "tarjuma-quran",
+      "types": "AYAT, LONG, MCQ, PAIR, QA",
+      "liveTotal": 973,
+      "localTotal": 973,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 356,
+        "QA": 447,
+        "LONG": 63,
+        "AYAT": 20,
+        "PAIR": 87
+      },
+      "local": {
+        "MCQ": 356,
+        "QA": 447,
+        "LONG": 63,
+        "AYAT": 20,
+        "PAIR": 87
+      }
+    },
+    {
+      "subject": "اخلاقیات",
+      "slug": "ethics",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 507,
+      "localTotal": 507,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 191,
+        "QA": 270,
+        "LONG": 46
+      },
+      "local": {
+        "MCQ": 191,
+        "QA": 270,
+        "LONG": 46
+      }
+    },
+    {
+      "subject": "فزیکل ایجوکیشن",
+      "slug": "physical-education",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 671,
+      "localTotal": 671,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 330,
+        "QA": 318,
+        "LONG": 23
+      },
+      "local": {
+        "MCQ": 330,
+        "QA": 318,
+        "LONG": 23
+      }
+    },
+    {
+      "subject": "مرغبانی",
+      "slug": "poultry",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 362,
+      "localTotal": 362,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 144,
+        "QA": 185,
+        "LONG": 33
+      },
+      "local": {
+        "MCQ": 144,
+        "QA": 185,
+        "LONG": 33
+      }
+    },
+    {
+      "subject": "غذا اور غذائیت",
+      "slug": "food-nutrition",
+      "types": "LONG, MCQ, QA",
+      "liveTotal": 461,
+      "localTotal": 461,
+      "status": "MATCH",
+      "diffs": [],
+      "live": {
+        "MCQ": 175,
+        "QA": 253,
+        "LONG": 33
+      },
+      "local": {
+        "MCQ": 175,
+        "QA": 253,
+        "LONG": 33
+      }
+    }
+  ]
+}

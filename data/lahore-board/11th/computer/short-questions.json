@@ -4,16 +4,16 @@
   "subject": "Computer",
   "slug": "computer",
   "source": "PTS PTB INTER-I (Class 11) Computer (read-only export)",
-  "total_questions": 1349,
+  "total_questions": 1394,
   "counts": {
-    "mcq": 700,
-    "short": 456,
-    "long": 193
+    "mcq": 721,
+    "short": 469,
+    "long": 204
   },
   "fieldCounts": {
-    "MCQ": 700,
-    "QA": 456,
-    "LONG": 193
+    "MCQ": 721,
+    "QA": 469,
+    "LONG": 204
   },
   "questions": [
     {
@@ -57,6 +57,26 @@
       "en": "Evaluate the main steps involved in risk assessment and management, and assess their importance in a software project."
     },
     {
+      "id": 403781,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the purpose of a Use Case Diagram in software development."
+    },
+    {
+      "id": 403782,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Compare and contrast a Sequence Diagram with an Activity Diagram, highlighting the key differences."
+    },
+    {
       "id": 403783,
       "chapter": 1,
       "topic_id": "1.6",
@@ -97,6 +117,16 @@
       "en": "How does the short-hand if-else statement differ from the regular if-else statement?"
     },
     {
+      "id": 403914,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the use of the range() function in a for loop."
+    },
+    {
       "id": 403910,
       "chapter": 2,
       "topic_id": "2.5",
@@ -125,6 +155,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain why modular programming is useful in Python."
+    },
+    {
+      "id": 403917,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the difference between a class and an object in Python."
     },
     {
       "id": 404109,
@@ -265,6 +305,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What is difference between enqueue () and dequeue ()."
+    },
+    {
+      "id": 404245,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is the importance of building statistical models in real-world applications?"
+    },
+    {
+      "id": 404246,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Name one basic statistical model used for predicting outcomes and explain its purpose."
     },
     {
       "id": 404247,
@@ -1957,6 +2017,66 @@
       "en": "Why is the GCD problem considered solvable?"
     },
     {
+      "id": 405602,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What kind of problems are in Class P?"
+    },
+    {
+      "id": 405603,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What does NP stand for in Class NP?"
+    },
+    {
+      "id": 405604,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Can problems in Class NP be verified quickly once a solution is found?"
+    },
+    {
+      "id": 405627,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What is an NP-Hard problem?"
+    },
+    {
+      "id": 405628,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What makes a problem NP-Complete?"
+    },
+    {
+      "id": 405630,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Give an example of an NP-Hard problem."
+    },
+    {
       "id": 405631,
       "chapter": 3,
       "topic_id": "3.4",
@@ -2735,6 +2855,16 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "When would you use a bar chart?"
+    },
+    {
+      "id": 405999,
+      "chapter": 5,
+      "topic_id": "5.4",
+      "type": "short",
+      "field": "QA",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What do boxplots show in data?"
     },
     {
       "id": 406005,

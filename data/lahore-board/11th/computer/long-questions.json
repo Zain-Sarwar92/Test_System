@@ -4,16 +4,16 @@
   "subject": "Computer",
   "slug": "computer",
   "source": "PTS PTB INTER-I (Class 11) Computer (read-only export)",
-  "total_questions": 1349,
+  "total_questions": 1394,
   "counts": {
-    "mcq": 700,
-    "short": 456,
-    "long": 193
+    "mcq": 721,
+    "short": 469,
+    "long": 204
   },
   "fieldCounts": {
-    "MCQ": 700,
-    "QA": 456,
-    "LONG": 193
+    "MCQ": 721,
+    "QA": 469,
+    "LONG": 204
   },
   "questions": [
     {
@@ -25,6 +25,36 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Imagine you are managing a project to develop a simple mobile application. Describe how you would use the Agile Methodology to handle this project."
+    },
+    {
+      "id": 403784,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Design a flowchart for a user registration process in a software application. Outline its key steps."
+    },
+    {
+      "id": 403786,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Consider an online banking system. Create a Use Case Diagram to show the interactions between customers, bank staff, and the system."
+    },
+    {
+      "id": 403787,
+      "chapter": 1,
+      "topic_id": "1.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "You are developing a food delivery application. Create a Sequence Diagram to show the process of placing an order, from the customer selecting items to the delivery of the order."
     },
     {
       "id": 403788,
@@ -55,6 +85,26 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Evaluate the following Python expressions. (25+3 * 4 ** 2-6)/ (2 ** 3 + 1) - 7"
+    },
+    {
+      "id": 450778,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following Python expressions. (18/3 + 4 ** 2) -(2* (7-3))/(97,4)"
+    },
+    {
+      "id": 450779,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Evaluate the following Python expressions. (12+6 * (5-2)) ** 2 / ((4 ** 2 - 7) + 10)"
     },
     {
       "id": 450780,
@@ -105,6 +155,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Discuss the nature of optimization problems and provide examples of their applications in real-world scenarios."
+    },
+    {
+      "id": 404119,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Provide a detailed explanation of why the Halting Problem is considered unsolvable and its implications in computer science."
     },
     {
       "id": 404124,
@@ -207,6 +267,26 @@
       "en": "Explain data collection methods."
     },
     {
+      "id": 404250,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the role and importance of statistical models in solving real-world problems"
+    },
+    {
+      "id": 404251,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe the steps involved in building a basic statistical model (e.g., linear regression). Include details on data collection, model training, and evaluation."
+    },
+    {
       "id": 404253,
       "chapter": 5,
       "topic_id": "5.4",
@@ -255,6 +335,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Discuss the advancements and benefits of edge computing in modern technology."
+    },
+    {
+      "id": 404294,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of serverless architectures and their impact on application development."
     },
     {
       "id": 404315,
@@ -1115,6 +1205,26 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "Explain the difference between solvable and unsolvable problems with examples."
+    },
+    {
+      "id": 444333,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain with examples the difference between Class P and Class NP problems."
+    },
+    {
+      "id": 444334,
+      "chapter": 3,
+      "topic_id": "3.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between NP-Hard and NP-Complete problems with examples."
     },
     {
       "id": 444335,

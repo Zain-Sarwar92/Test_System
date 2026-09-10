@@ -8,11 +8,7 @@ import { toast } from "@/components/ui/toast";
 import { createExamTerm } from "./actions";
 import { academicSession } from "@/lib/results";
 
-export function CreateExamForm({
-  sectionId,
-}: {
-  sectionId: string;
-}) {
+export function CreateExamForm({ sectionId }: { sectionId: string }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
 
@@ -29,7 +25,6 @@ export function CreateExamForm({
       return;
     }
 
-    // Defaults kept server-side (pass % 33); date optional / unused in UI.
     formData.set("passPercent", "33");
 
     startTransition(async () => {
@@ -50,11 +45,20 @@ export function CreateExamForm({
     <form action={submit} className="grid gap-3 sm:grid-cols-2">
       <input type="hidden" name="sectionId" value={sectionId} />
       <label className="block">
-        <span className="mb-1 block text-sm font-semibold text-ink">Exam name</span>
-        <Input name="name" required placeholder="Mid Term" maxLength={80} />
+        <span className="mb-1 block text-sm font-semibold text-ink">
+          Exam name
+        </span>
+        <Input
+          name="name"
+          required
+          placeholder="e.g. March Test"
+          maxLength={80}
+        />
       </label>
       <label className="block">
-        <span className="mb-1 block text-sm font-semibold text-ink">Session</span>
+        <span className="mb-1 block text-sm font-semibold text-ink">
+          Session
+        </span>
         <Input name="session" defaultValue={academicSession()} required />
       </label>
       <div className="sm:col-span-2">

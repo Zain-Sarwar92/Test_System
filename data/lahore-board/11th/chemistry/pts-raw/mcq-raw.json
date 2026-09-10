@@ -9,10 +9,110 @@
   "field": "MCQ",
   "exportName": "mcq",
   "subTypeId": 1,
-  "total": 1149,
-  "exportedAt": "2026-08-10T12:33:40.583Z",
+  "total": 1193,
+  "exportedAt": "2026-09-09T11:48:14.723Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
+    {
+      "QuestionID": 411416,
+      "SubjectID": 95,
+      "TopicID": 11965,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 Historical Background",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which scientist first time observed the periodicity in the elements?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 420597,
+          "QuestionID": 411416,
+          "UmOption": null,
+          "EmOption": "<p>J. Newlands</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 420598,
+          "QuestionID": 411416,
+          "UmOption": null,
+          "EmOption": "<p>L. Meyer</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 420599,
+          "QuestionID": 411416,
+          "UmOption": null,
+          "EmOption": "<p>J.W. Döbereiner</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 420600,
+          "QuestionID": 411416,
+          "UmOption": null,
+          "EmOption": "<p>D. I. Mendeleev</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411417,
+      "SubjectID": 95,
+      "TopicID": 11970,
+      "TopicRef": "1.6",
+      "TopicName": "1.6 PERIODIC ARRANGEMENT AND ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Recognize the element if it has 3 electron shells, belongs to “s” block and has 2 electrons in its outer most shell.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 420693,
+          "QuestionID": 411417,
+          "UmOption": null,
+          "EmOption": "<p>Calcium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 420694,
+          "QuestionID": 411417,
+          "UmOption": null,
+          "EmOption": "<p>Sodium</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 420695,
+          "QuestionID": 411417,
+          "UmOption": null,
+          "EmOption": "<p>Magnesium</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 420696,
+          "QuestionID": 411417,
+          "UmOption": null,
+          "EmOption": "<p>Potassium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
     {
       "QuestionID": 411418,
       "SubjectID": 95,
@@ -1464,6 +1564,56 @@
       }
     },
     {
+      "QuestionID": 411554,
+      "SubjectID": 95,
+      "TopicID": 11994,
+      "TopicRef": "3.9",
+      "TopicName": "3.9 MOLECULAR ORBITAL THEORY (MOT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following molecules has zero dipole moment?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355205,
+          "QuestionID": 411554,
+          "UmOption": null,
+          "EmOption": "<p>NH<sub>3</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355206,
+          "QuestionID": 411554,
+          "UmOption": null,
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/11th/chemnew-chap3-1.svg\" /></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355207,
+          "QuestionID": 411554,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355208,
+          "QuestionID": 411554,
+          "UmOption": null,
+          "EmOption": "<p>BF<sub>3</sub></p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411562,
       "SubjectID": 95,
       "TopicID": 11994,
@@ -1553,6 +1703,56 @@
           "QuestionID": 411565,
           "UmOption": null,
           "EmOption": "<p>F<sub>2</sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411569,
+      "SubjectID": 95,
+      "TopicID": 11994,
+      "TopicRef": "3.9",
+      "TopicName": "3.9 MOLECULAR ORBITAL THEORY (MOT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following molecules has a net dipole moment?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 421733,
+          "QuestionID": 411569,
+          "UmOption": null,
+          "EmOption": "<p>CO<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 421734,
+          "QuestionID": 411569,
+          "UmOption": null,
+          "EmOption": "<p>CS<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 421735,
+          "QuestionID": 411569,
+          "UmOption": null,
+          "EmOption": "<p>SO<sub>2</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 421736,
+          "QuestionID": 411569,
+          "UmOption": null,
+          "EmOption": "<p><img alt=\"\" src=\"/Equations/11th/chemnew-chap3-9.svg\" /></p>\r\n",
           "Answer": false
         }
       ],
@@ -2514,6 +2714,56 @@
       }
     },
     {
+      "QuestionID": 411829,
+      "SubjectID": 95,
+      "TopicID": 12015,
+      "TopicRef": "5.10",
+      "TopicName": "5.10 Energetics of Phase Changes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of following is the correct sequence of increasing <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap5-1.svg\" style=\"width: 36px; height: 25px;\" /> </sub>values of substances mentioned?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 423237,
+          "QuestionID": 411829,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O > NH<sub>3 </sub>> F<sub>2</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 423238,
+          "QuestionID": 411829,
+          "UmOption": null,
+          "EmOption": "<p>F<sub>2</sub> > NH<sub>3</sub> > H<sub>2</sub>O</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 423239,
+          "QuestionID": 411829,
+          "UmOption": null,
+          "EmOption": "<p>NH<sub>3</sub> > H<sub>2</sub>O > F<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 423240,
+          "QuestionID": 411829,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O > F<sub>2</sub> > NH<sub>3</sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411848,
       "SubjectID": 95,
       "TopicID": 12017,
@@ -2864,6 +3114,56 @@
       }
     },
     {
+      "QuestionID": 412005,
+      "SubjectID": 95,
+      "TopicID": 12022,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 STANDING ENTHALPY CHANGES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Consider a reaction with <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-30.svg\" style=\"width: 28px; height: 20px;\" /></sub>>0 and<sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-12.svg\" style=\"width: 28px; height: 20px;\" /></sub><0 .This reaction will be:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355369,
+          "QuestionID": 412005,
+          "UmOption": null,
+          "EmOption": "<p>Spontaneous at all temperatures</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355370,
+          "QuestionID": 412005,
+          "UmOption": null,
+          "EmOption": "<p>Non-spontaneous at all temperatures</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 355371,
+          "QuestionID": 412005,
+          "UmOption": null,
+          "EmOption": "<p>Spontaneous at high temperatures</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355372,
+          "QuestionID": 412005,
+          "UmOption": null,
+          "EmOption": "<p>Spontaneous only at low temperatures</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411965,
       "SubjectID": 95,
       "TopicID": 12023,
@@ -3064,6 +3364,56 @@
       }
     },
     {
+      "QuestionID": 412003,
+      "SubjectID": 95,
+      "TopicID": 12026,
+      "TopicRef": "6.7",
+      "TopicName": "6.7 ENTHALPY CHANGE AND CALORIE CONTENT OF FOOD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following processes would typically result in an increase in entropy of the system?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 424409,
+          "QuestionID": 412003,
+          "UmOption": null,
+          "EmOption": "<p>Freezing of water</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424410,
+          "QuestionID": 412003,
+          "UmOption": null,
+          "EmOption": "<p>Condensation of steam </p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424411,
+          "QuestionID": 412003,
+          "UmOption": null,
+          "EmOption": "<p>Dissolving a solid in a liquid</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 424412,
+          "QuestionID": 412003,
+          "UmOption": null,
+          "EmOption": "<p>Formation of a cryctal from a saturated solution</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 411985,
       "SubjectID": 95,
       "TopicID": 12027,
@@ -3103,6 +3453,56 @@
           "QuestionID": 411985,
           "UmOption": null,
           "EmOption": "<p>Enthalpy change of reaction</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 411970,
+      "SubjectID": 95,
+      "TopicID": 12031,
+      "TopicRef": "6.12",
+      "TopicName": "6.12 The Free Energy Change",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>For a reaction to occur spontaneously,</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 424505,
+          "QuestionID": 411970,
+          "UmOption": null,
+          "EmOption": "<p><sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-9.svg\" /></sub>must be negative</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 424506,
+          "QuestionID": 411970,
+          "UmOption": null,
+          "EmOption": "<p><sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-10.svg\" /></sub>must be negative</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424507,
+          "QuestionID": 411970,
+          "UmOption": null,
+          "EmOption": "<p><sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-11.svg\" /></sub>must be negative</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424508,
+          "QuestionID": 411970,
+          "UmOption": null,
+          "EmOption": "<p><sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap6-12.svg\" /> </sub>must be negative</p>\r\n",
           "Answer": false
         }
       ],
@@ -3464,6 +3864,56 @@
       }
     },
     {
+      "QuestionID": 412116,
+      "SubjectID": 95,
+      "TopicID": 12035,
+      "TopicRef": "7.3",
+      "TopicName": "7.3 FACTORS AFFECTING RATE OF CHEMICAL REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If we double the concentration of a reactant, the rate increases by four times, the reaction is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 348801,
+          "QuestionID": 412116,
+          "UmOption": null,
+          "EmOption": "<p>Second order</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 348802,
+          "QuestionID": 412116,
+          "UmOption": null,
+          "EmOption": "<p>First order</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 348803,
+          "QuestionID": 412116,
+          "UmOption": null,
+          "EmOption": "<p>Third order</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 348804,
+          "QuestionID": 412116,
+          "UmOption": null,
+          "EmOption": "<p>Zero order</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 412128,
       "SubjectID": 95,
       "TopicID": 12035,
@@ -3564,6 +4014,206 @@
       }
     },
     {
+      "QuestionID": 412127,
+      "SubjectID": 95,
+      "TopicID": 12036,
+      "TopicRef": "7.4",
+      "TopicName": "7.4 RATE LAW, RATE CONSTANT AND ORDER OF REACTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The reaction <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap7-1.svg\" /></sub> occurs in two steps. What is the rate law equation for this reaction? <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap7-2.svg\" /></sub> <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap7-3.svg\" /></sub></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 380153,
+          "QuestionID": 412127,
+          "UmOption": null,
+          "EmOption": "<p>R = k<sub>1</sub> [NO<sub>2</sub>]<sup>3</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 380154,
+          "QuestionID": 412127,
+          "UmOption": null,
+          "EmOption": "<p>R = k<sub>2</sub> [NO<sub>3</sub>][CO]</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 380155,
+          "QuestionID": 412127,
+          "UmOption": null,
+          "EmOption": "<p>R = k<sub>1</sub> [NO<sub>2</sub>]</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 380156,
+          "QuestionID": 412127,
+          "UmOption": null,
+          "EmOption": "<p>R = k<sub>1</sub> [NO<sub>2</sub>]<sup>2</sup></p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412118,
+      "SubjectID": 95,
+      "TopicID": 12037,
+      "TopicRef": "7.5",
+      "TopicName": "7.5 Determination of Rate Constant",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The rate determining step in a multi-step reaction is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 424793,
+          "QuestionID": 412118,
+          "UmOption": null,
+          "EmOption": "<p>Always the first step</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424794,
+          "QuestionID": 412118,
+          "UmOption": null,
+          "EmOption": "<p>Always the last step</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424795,
+          "QuestionID": 412118,
+          "UmOption": null,
+          "EmOption": "<p>The slowest step</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 424796,
+          "QuestionID": 412118,
+          "UmOption": null,
+          "EmOption": "<p>The fastest step</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412131,
+      "SubjectID": 95,
+      "TopicID": 12037,
+      "TopicRef": "7.5",
+      "TopicName": "7.5 Determination of Rate Constant",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A first-order reaction has a half-life (t<sub>1/2</sub>) of 20 minutes. What is the value of its rate constant (k)?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 348825,
+          "QuestionID": 412131,
+          "UmOption": null,
+          "EmOption": "<p>0.05 min<sup>-1</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 348826,
+          "QuestionID": 412131,
+          "UmOption": null,
+          "EmOption": "<p>0.693 min<sup>-1</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 348827,
+          "QuestionID": 412131,
+          "UmOption": null,
+          "EmOption": "<p>0.0347 min<sup>-1</sup></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 348828,
+          "QuestionID": 412131,
+          "UmOption": null,
+          "EmOption": "<p>13.86 min<sup>-1</sup></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412191,
+      "SubjectID": 95,
+      "TopicID": 12040,
+      "TopicRef": "8.1",
+      "TopicName": "8.1 MACROSCOPIC EVENTS AND MICROSCOPIC EVENTS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A saturated solution represents a dynamic equilibrium. Macroscopically, the concentration of dissolved solute is constant. Microscopically, this occurs because:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 424829,
+          "QuestionID": 412191,
+          "UmOption": null,
+          "EmOption": "<p>No more solute particles are dissolving.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424830,
+          "QuestionID": 412191,
+          "UmOption": null,
+          "EmOption": "<p>The rate of dissolution of solute is zero.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 424831,
+          "QuestionID": 412191,
+          "UmOption": null,
+          "EmOption": "<p>Solute particles are dissolving and precipitating at the same rate.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 424832,
+          "QuestionID": 412191,
+          "UmOption": null,
+          "EmOption": "<p>All solute particles have dissolved.</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 412183,
       "SubjectID": 95,
       "TopicID": 12041,
@@ -3603,6 +4253,106 @@
           "QuestionID": 412183,
           "UmOption": null,
           "EmOption": "<p><sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap8-4.svg\" /></sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412186,
+      "SubjectID": 95,
+      "TopicID": 12041,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 REVERSIBLE REACTIONS, MICROSCOPIC EVENTS AND DYNAMIC EQUILIBRIUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which statement about the following equilibrium is correct? <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap8-5.svg\" style=\"width: 328px; height: 28px;\" /></sub>=-197.9 kJmol<sup>-1</sup></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355445,
+          "QuestionID": 412186,
+          "UmOption": null,
+          "EmOption": "<p>The value of K<sub>p</sub> falls with a rise in temperature.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 355446,
+          "QuestionID": 412186,
+          "UmOption": null,
+          "EmOption": "<p>The value of K<sub>p</sub> falls with increasing pressure.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355447,
+          "QuestionID": 412186,
+          "UmOption": null,
+          "EmOption": "<p>Adding V<sub>2</sub>O<sub>5 </sub>catalyst increase the equilibrium yield of sulphur trioxide.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355448,
+          "QuestionID": 412186,
+          "UmOption": null,
+          "EmOption": "<p>The value of K<sub>p </sub>is equal to K<sub>c</sub>.</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412196,
+      "SubjectID": 95,
+      "TopicID": 12041,
+      "TopicRef": "8.2",
+      "TopicName": "8.2 REVERSIBLE REACTIONS, MICROSCOPIC EVENTS AND DYNAMIC EQUILIBRIUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>K<sub>c</sub> = 0.040 at 450<sup>o</sup>C for the given reaction, evaluate K<sub>p</sub> for the reaction.   <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap8-10.svg\" /></sub></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355457,
+          "QuestionID": 412196,
+          "UmOption": null,
+          "EmOption": "<p>0.40</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355458,
+          "QuestionID": 412196,
+          "UmOption": null,
+          "EmOption": "<p>0.64</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355459,
+          "QuestionID": 412196,
+          "UmOption": null,
+          "EmOption": "<p>2.4</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 355460,
+          "QuestionID": 412196,
+          "UmOption": null,
+          "EmOption": "<p>0.052</p>\r\n",
           "Answer": false
         }
       ],
@@ -3864,6 +4614,156 @@
       }
     },
     {
+      "QuestionID": 412287,
+      "SubjectID": 95,
+      "TopicID": 12058,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 Lewis Concept of Acids And Bases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a Lewis acid but not a Bronsted-Lowry acid?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349145,
+          "QuestionID": 412287,
+          "UmOption": null,
+          "EmOption": "<p>NH<sub>3</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349146,
+          "QuestionID": 412287,
+          "UmOption": null,
+          "EmOption": "<p>AICI<sub>3</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349147,
+          "QuestionID": 412287,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349148,
+          "QuestionID": 412287,
+          "UmOption": null,
+          "EmOption": "<p>HCI</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412297,
+      "SubjectID": 95,
+      "TopicID": 12058,
+      "TopicRef": "9.2",
+      "TopicName": "9.2 Lewis Concept of Acids And Bases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following pairs of substances can act as a conjugate acid-base pair according to the Bronsted-Lowry theory?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349165,
+          "QuestionID": 412297,
+          "UmOption": null,
+          "EmOption": "<p>HCI and NaOH</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349166,
+          "QuestionID": 412297,
+          "UmOption": null,
+          "EmOption": "<p>NH<sub>3</sub> and NH<sub>4</sub><sup>+</sup></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349167,
+          "QuestionID": 412297,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O and H<sub>2</sub>SO<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349168,
+          "QuestionID": 412297,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O and CH<sub>4</sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412283,
+      "SubjectID": 95,
+      "TopicID": 12059,
+      "TopicRef": "9.3",
+      "TopicName": "9.3 IONIC PRODUCT WATER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is the conjugate base of water?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349137,
+          "QuestionID": 412283,
+          "UmOption": null,
+          "EmOption": "<p>OH<sup>-</sup><sub>(aq)</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349138,
+          "QuestionID": 412283,
+          "UmOption": null,
+          "EmOption": "<p>H<sup>+</sup><sub>(aq)</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349139,
+          "QuestionID": 412283,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O<sub>(I)</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349140,
+          "QuestionID": 412283,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>3</sub>O<sup>+</sup><sub>(aq)</sub></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 412300,
       "SubjectID": 95,
       "TopicID": 12060,
@@ -3903,6 +4803,56 @@
           "QuestionID": 412300,
           "UmOption": null,
           "EmOption": "<p>1 × 10<sup>-14 </sup>M</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412253,
+      "SubjectID": 95,
+      "TopicID": 12062,
+      "TopicRef": "9.6",
+      "TopicName": "9.6 COMMON ION EFFECT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Given the following reaction: <sub><img alt=\"\" src=\"/Equations/11th/chemnew-chap9-1.svg\" /></sub></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355545,
+          "QuestionID": 412253,
+          "UmOption": null,
+          "EmOption": "<p>NH<sub>3</sub> is the acid, H<sub>2</sub>O is the base.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355546,
+          "QuestionID": 412253,
+          "UmOption": null,
+          "EmOption": "<p>NH<sub>3</sub> is the base, H<sub>2</sub>O is the acid.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 355547,
+          "QuestionID": 412253,
+          "UmOption": null,
+          "EmOption": "<p>NH<sub>4</sub> <sup>+</sup> is the base, OH<sup>-</sup> is the acid.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355548,
+          "QuestionID": 412253,
+          "UmOption": null,
+          "EmOption": "<p>H<sub>2</sub>O is the base, OH<sup>-</sup> is the acid.</p>\r\n",
           "Answer": false
         }
       ],
@@ -4114,6 +5064,106 @@
       }
     },
     {
+      "QuestionID": 412258,
+      "SubjectID": 95,
+      "TopicID": 12066,
+      "TopicRef": "9.10",
+      "TopicName": "9.10 Acid-Base Indicators",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which indicator is typically used for titrations involving strong acids and strong bases?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349133,
+          "QuestionID": 412258,
+          "UmOption": null,
+          "EmOption": "<p>Methyl red</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349134,
+          "QuestionID": 412258,
+          "UmOption": null,
+          "EmOption": "<p>Phenolphthalein</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349135,
+          "QuestionID": 412258,
+          "UmOption": null,
+          "EmOption": "<p>Bromothymol blue</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349136,
+          "QuestionID": 412258,
+          "UmOption": null,
+          "EmOption": "<p>Litmus solution</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412290,
+      "SubjectID": 95,
+      "TopicID": 12066,
+      "TopicRef": "9.10",
+      "TopicName": "9.10 Acid-Base Indicators",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In an acid-base titration,the equivalence point is reached when:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349149,
+          "QuestionID": 412290,
+          "UmOption": null,
+          "EmOption": "<p>pH of the solution is 7.0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349150,
+          "QuestionID": 412290,
+          "UmOption": null,
+          "EmOption": "<p>The indicator change color</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349151,
+          "QuestionID": 412290,
+          "UmOption": null,
+          "EmOption": "<p>Equal volumes of acid and base have been added</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349152,
+          "QuestionID": 412290,
+          "UmOption": null,
+          "EmOption": "<p>The reaction stops</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 412356,
       "SubjectID": 95,
       "TopicID": 12070,
@@ -4153,6 +5203,56 @@
           "QuestionID": 412356,
           "UmOption": null,
           "EmOption": "<p><img alt=\"\" src=\"/Equations/11th/chemnew-chap10-8.svg\" /></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412340,
+      "SubjectID": 95,
+      "TopicID": 12071,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 OXIDIZING AGENT (OXIDANT) AND REDUCING AGENT (REDUCTANT)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The activity series of metals arranges metals in order of their:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349193,
+          "QuestionID": 412340,
+          "UmOption": null,
+          "EmOption": "<p>Atomic mass</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349194,
+          "QuestionID": 412340,
+          "UmOption": null,
+          "EmOption": "<p>Density</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349195,
+          "QuestionID": 412340,
+          "UmOption": null,
+          "EmOption": "<p>Ease of oxidation</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349196,
+          "QuestionID": 412340,
+          "UmOption": null,
+          "EmOption": "<p>Ease of reduction</p>\r\n",
           "Answer": false
         }
       ],
@@ -4214,6 +5314,56 @@
       }
     },
     {
+      "QuestionID": 412359,
+      "SubjectID": 95,
+      "TopicID": 12075,
+      "TopicRef": "10.8",
+      "TopicName": "10.8 Mass of a Substance Deposited During Electrolysis",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In an electrolysis experiment, if a charge of 96,500 Coulombs is passed through a solution, the amount of substance liberated or deposited at the electrode is directly related to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349261,
+          "QuestionID": 412359,
+          "UmOption": null,
+          "EmOption": "<p>Mass number of the ion</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349262,
+          "QuestionID": 412359,
+          "UmOption": null,
+          "EmOption": "<p>One mole of electrons being transferred</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349263,
+          "QuestionID": 412359,
+          "UmOption": null,
+          "EmOption": "<p>Avogadro’s number of ions being discharged</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349264,
+          "QuestionID": 412359,
+          "UmOption": null,
+          "EmOption": "<p>Standard electrode potential of the metal ion</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 412351,
       "SubjectID": 95,
       "TopicID": 12076,
@@ -4253,6 +5403,106 @@
           "QuestionID": 412351,
           "UmOption": null,
           "EmOption": "<p><img alt=\"\" src=\"/Equations/11th/chemnew-chap10-4.svg\" /></p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412361,
+      "SubjectID": 95,
+      "TopicID": 12077,
+      "TopicRef": "10.10",
+      "TopicName": "10.10 Avogadro's Constant By The Electrolytic Method",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The experimental determination of Avogadro’s number through electrolysis typically involves measuring:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349273,
+          "QuestionID": 412361,
+          "UmOption": null,
+          "EmOption": "<p>The current and voltage applied.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349274,
+          "QuestionID": 412361,
+          "UmOption": null,
+          "EmOption": "<p>The mass of the substance deposited or liberated by a known charge.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349275,
+          "QuestionID": 412361,
+          "UmOption": null,
+          "EmOption": "<p>The conductivity of the electrolytic solution.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349276,
+          "QuestionID": 412361,
+          "UmOption": null,
+          "EmOption": "<p>The temperature changes during electrolysis.</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412365,
+      "SubjectID": 95,
+      "TopicID": 12081,
+      "TopicRef": "10.14",
+      "TopicName": "10.14 MEASURING STANDARD ELECTRODE POTENTIALS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A positive value for the standard electrode potential (E°) of a metal ion/metal half-cell (e.g., Cu<sup>2+</sup>/Cu) indicates that:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349293,
+          "QuestionID": 412365,
+          "UmOption": null,
+          "EmOption": "<p>The metal is a strong reducing agent</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349294,
+          "QuestionID": 412365,
+          "UmOption": null,
+          "EmOption": "<p>The metal ion is readily oxidized</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349295,
+          "QuestionID": 412365,
+          "UmOption": null,
+          "EmOption": "<p>The metal ion is readily reduced</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349296,
+          "QuestionID": 412365,
+          "UmOption": null,
+          "EmOption": "<p>The metal will readily displace hydrogen from dilute acids</p>\r\n",
           "Answer": false
         }
       ],
@@ -4404,6 +5654,156 @@
           "UmOption": null,
           "EmOption": "<p>None of these</p>\r\n",
           "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412342,
+      "SubjectID": 95,
+      "TopicID": 12086,
+      "TopicRef": "10.19",
+      "TopicName": "10.19 Activity Series of Metals",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>According to the activity series, which of the following metals would most readily displace hydrogen gas from dilute acids?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349217,
+          "QuestionID": 412342,
+          "UmOption": null,
+          "EmOption": "<p>Copper (Cu)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349218,
+          "QuestionID": 412342,
+          "UmOption": null,
+          "EmOption": "<p>Silver (Ag)</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349219,
+          "QuestionID": 412342,
+          "UmOption": null,
+          "EmOption": "<p>Magnesium (Mg)</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349220,
+          "QuestionID": 412342,
+          "UmOption": null,
+          "EmOption": "<p>Platinum (Pt)</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412363,
+      "SubjectID": 95,
+      "TopicID": 12089,
+      "TopicRef": "10.22",
+      "TopicName": "10.22 Winkler Method, BOD And Do",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The principle of measuring DO by Wrinkler’s Method is based on:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349281,
+          "QuestionID": 412363,
+          "UmOption": null,
+          "EmOption": "<p>Iodimetry</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349282,
+          "QuestionID": 412363,
+          "UmOption": null,
+          "EmOption": "<p>Iodometry</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349283,
+          "QuestionID": 412363,
+          "UmOption": null,
+          "EmOption": "<p>Acid-Base titration</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349284,
+          "QuestionID": 412363,
+          "UmOption": null,
+          "EmOption": "<p>Complexometry</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412397,
+      "SubjectID": 95,
+      "TopicID": 12091,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 ALIPHATIC AND AROMATIC HYDROCARBONS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An alkene undergoes ozonolysis followed by reduction with zinc dust and water to yield propanone and methanal. The alkene is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349361,
+          "QuestionID": 412397,
+          "UmOption": null,
+          "EmOption": "<p>1-Butene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349362,
+          "QuestionID": 412397,
+          "UmOption": null,
+          "EmOption": "<p>2-Butene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349363,
+          "QuestionID": 412397,
+          "UmOption": null,
+          "EmOption": "<p>2-Methylpropene</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349364,
+          "QuestionID": 412397,
+          "UmOption": null,
+          "EmOption": "<p>2-Methyl-2-butene</p>\r\n",
+          "Answer": true
         }
       ],
       "_exportMeta": {
@@ -4854,6 +6254,56 @@
           "UmOption": null,
           "EmOption": "<p>(CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup></p>\r\n",
           "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412406,
+      "SubjectID": 95,
+      "TopicID": 12099,
+      "TopicRef": "11.9",
+      "TopicName": "11.9 Conjugated Dienes",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The enhanced stability of conjugated dienes compared to isolated dienes is primarily attributed to:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349417,
+          "QuestionID": 412406,
+          "UmOption": null,
+          "EmOption": "<p>Inductive effects of the double bonds.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349418,
+          "QuestionID": 412406,
+          "UmOption": null,
+          "EmOption": "<p>Increased s-character of the hybridised orbitals.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349419,
+          "QuestionID": 412406,
+          "UmOption": null,
+          "EmOption": "<p>Delocalisation of <u>(eq)</u> electrons across the conjugated system.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349420,
+          "QuestionID": 412406,
+          "UmOption": null,
+          "EmOption": "<p>Steric hindrance between the double bonds</p>\r\n",
+          "Answer": false
         }
       ],
       "_exportMeta": {
@@ -5364,6 +6814,206 @@
       }
     },
     {
+      "QuestionID": 412440,
+      "SubjectID": 95,
+      "TopicID": 12113,
+      "TopicRef": "12.11",
+      "TopicName": "12.11 USES OF SULFUR AND ITS COMPOUNDS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The oxidation state of sulfur in H<sub>2</sub>SO<sub>4</sub> is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349549,
+          "QuestionID": 412440,
+          "UmOption": null,
+          "EmOption": "<p>+1</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349550,
+          "QuestionID": 412440,
+          "UmOption": null,
+          "EmOption": "<p>+2</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349551,
+          "QuestionID": 412440,
+          "UmOption": null,
+          "EmOption": "<p>+4</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349552,
+          "QuestionID": 412440,
+          "UmOption": null,
+          "EmOption": "<p>+6</p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412443,
+      "SubjectID": 95,
+      "TopicID": 12113,
+      "TopicRef": "12.11",
+      "TopicName": "12.11 USES OF SULFUR AND ITS COMPOUNDS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Sulfur dioxide (SO<sub>2</sub>) produced from the combustion of sulfur can be further oxidized to sulfur trioxide (SO<sub>3</sub>) under specific conditions, such as in the presence of a:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349557,
+          "QuestionID": 412443,
+          "UmOption": null,
+          "EmOption": "<p>Catalyst (e.g., vanadium(V) oxide) and high temperature</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349558,
+          "QuestionID": 412443,
+          "UmOption": null,
+          "EmOption": "<p>Catalyst (e.g., iron) and low temperature</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349559,
+          "QuestionID": 412443,
+          "UmOption": null,
+          "EmOption": "<p>Strong reducing agent and high pressure</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349560,
+          "QuestionID": 412443,
+          "UmOption": null,
+          "EmOption": "<p>Dilute acid and room temperature</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412442,
+      "SubjectID": 95,
+      "TopicID": 12114,
+      "TopicRef": "12.12",
+      "TopicName": "12.12 Role of Sulfur in Organic Synthesis",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The drug omeprazole contains ______ group.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349585,
+          "QuestionID": 412442,
+          "UmOption": null,
+          "EmOption": "<p>Thiol</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349586,
+          "QuestionID": 412442,
+          "UmOption": null,
+          "EmOption": "<p>Sulfoxide</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349587,
+          "QuestionID": 412442,
+          "UmOption": null,
+          "EmOption": "<p>Bisulfide</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349588,
+          "QuestionID": 412442,
+          "UmOption": null,
+          "EmOption": "<p>Sulfone</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412445,
+      "SubjectID": 95,
+      "TopicID": 12114,
+      "TopicRef": "12.12",
+      "TopicName": "12.12 Role of Sulfur in Organic Synthesis",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Sulfur trioxide (SO<sub>3</sub>) is not directly dissolved in water to produce sulfuric acid in the Contact Process because this reaction is:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349561,
+          "QuestionID": 412445,
+          "UmOption": null,
+          "EmOption": "<p>Too slow</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349562,
+          "QuestionID": 412445,
+          "UmOption": null,
+          "EmOption": "<p>Reversible and would result in a low yield</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349563,
+          "QuestionID": 412445,
+          "UmOption": null,
+          "EmOption": "<p>Highly exothermic and produces a mist of sulfuric acid</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349564,
+          "QuestionID": 412445,
+          "UmOption": null,
+          "EmOption": "<p>Requires very high pressures</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 412470,
       "SubjectID": 95,
       "TopicID": 12119,
@@ -5404,6 +7054,56 @@
           "UmOption": null,
           "EmOption": "<p>C<img alt=\"\" src=\"/Equations/11th/chemnew-chap2-12.svg\" /><sub>2</sub></p>\r\n",
           "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412473,
+      "SubjectID": 95,
+      "TopicID": 12120,
+      "TopicRef": "13.4",
+      "TopicName": "13.4 RELATIVE REACTIVITIES OF THE HALOGENS AS OXIDIZING AGENTS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one of the following halogen molecules has strongest oxidizing power?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 355693,
+          "QuestionID": 412473,
+          "UmOption": null,
+          "EmOption": "<p>Br<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355694,
+          "QuestionID": 412473,
+          "UmOption": null,
+          "EmOption": "<p>F<sub>2</sub></p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 355695,
+          "QuestionID": 412473,
+          "UmOption": null,
+          "EmOption": "<p>I<sub>2</sub></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 355696,
+          "QuestionID": 412473,
+          "UmOption": null,
+          "EmOption": "<p>C<img alt=\"\" src=\"/Equations/11th/chemnew-chap2-12.svg\" /><sub>2</sub></p>\r\n",
+          "Answer": false
         }
       ],
       "_exportMeta": {
@@ -5553,6 +7253,256 @@
           "QuestionID": 412478,
           "UmOption": null,
           "EmOption": "<p>Bromine and hydrogen do not react at all.</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412481,
+      "SubjectID": 95,
+      "TopicID": 12121,
+      "TopicRef": "13.5",
+      "TopicName": "13.5 REACTIONS OF THE HALOGENS WITH HYDROGEN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the acidic strength of hydrogen halides change as you move down the group?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349701,
+          "QuestionID": 412481,
+          "UmOption": null,
+          "EmOption": "<p>It remains constant</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349702,
+          "QuestionID": 412481,
+          "UmOption": null,
+          "EmOption": "<p>It decreases from HF to HI</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349703,
+          "QuestionID": 412481,
+          "UmOption": null,
+          "EmOption": "<p>It increases from HF to HI</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349704,
+          "QuestionID": 412481,
+          "UmOption": null,
+          "EmOption": "<p>It fluctuates erratically</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412474,
+      "SubjectID": 95,
+      "TopicID": 12122,
+      "TopicRef": "13.6",
+      "TopicName": "13.6 RELATIVE THERMAL STABILITIES OF HYDROGEN HALIDES IN TERMS OF THEIR BOND STRENGTH",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The decreasing thermal stability of the halogens down the group is primarily due to the:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349681,
+          "QuestionID": 412474,
+          "UmOption": null,
+          "EmOption": "<p>Increasing electronegativity of the atoms</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349682,
+          "QuestionID": 412474,
+          "UmOption": null,
+          "EmOption": "<p>Decreasing bond length between the halogen atoms</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349683,
+          "QuestionID": 412474,
+          "UmOption": null,
+          "EmOption": "<p>Increasing atomic radius, leading to a weaker covalent bond</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349684,
+          "QuestionID": 412474,
+          "UmOption": null,
+          "EmOption": "<p>Increasing strength of van der Waals forces</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412484,
+      "SubjectID": 95,
+      "TopicID": 12122,
+      "TopicRef": "13.6",
+      "TopicName": "13.6 RELATIVE THERMAL STABILITIES OF HYDROGEN HALIDES IN TERMS OF THEIR BOND STRENGTH",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When aqueous silver nitrate is added to a solution containing bromide ions, a cream precipitate forms. What is the solubility of this precipitate in aqueous ammonia solution?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349705,
+          "QuestionID": 412484,
+          "UmOption": null,
+          "EmOption": "<p>Soluble in dilute ammonia solution</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349706,
+          "QuestionID": 412484,
+          "UmOption": null,
+          "EmOption": "<p>Partially soluble in dilute ammonia solution</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349707,
+          "QuestionID": 412484,
+          "UmOption": null,
+          "EmOption": "<p>Insoluble in dilute ammonia solution</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349708,
+          "QuestionID": 412484,
+          "UmOption": null,
+          "EmOption": "<p>Soluble only upon heating with ammonia</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412476,
+      "SubjectID": 95,
+      "TopicID": 12123,
+      "TopicRef": "13.7",
+      "TopicName": "13.7 Relative Reacitivity of Halide Ions As Reducing Agents",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which one of the following halides has strongest reducing power?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349689,
+          "QuestionID": 412476,
+          "UmOption": null,
+          "EmOption": "<p>F<sup>-</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349690,
+          "QuestionID": 412476,
+          "UmOption": null,
+          "EmOption": "<p>Cl<sup>-</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349691,
+          "QuestionID": 412476,
+          "UmOption": null,
+          "EmOption": "<p>Br<sup>-</sup></p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349692,
+          "QuestionID": 412476,
+          "UmOption": null,
+          "EmOption": "<p>I<sup>-</sup></p>\r\n",
+          "Answer": true
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412485,
+      "SubjectID": 95,
+      "TopicID": 12126,
+      "TopicRef": "13.10",
+      "TopicName": "13.10 Reactions of Chlorine With Cold And Hot Aqueous Sodium Hydroxide",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Concentrated sulfuric acid is added to solid sodium chloride. What is the initial observation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349709,
+          "QuestionID": 412485,
+          "UmOption": null,
+          "EmOption": "<p>Reddish-brown fumes are evolved.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349710,
+          "QuestionID": 412485,
+          "UmOption": null,
+          "EmOption": "<p>A purple vapor is evolved.</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349711,
+          "QuestionID": 412485,
+          "UmOption": null,
+          "EmOption": "<p>Steamy white fumes of hydrogen chloride are evolved.</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349712,
+          "QuestionID": 412485,
+          "UmOption": null,
+          "EmOption": "<p>A black solid is formed.</p>\r\n",
           "Answer": false
         }
       ],
@@ -5814,6 +7764,156 @@
       }
     },
     {
+      "QuestionID": 412514,
+      "SubjectID": 95,
+      "TopicID": 12137,
+      "TopicRef": "14.9",
+      "TopicName": "14.9 Air Quality And Human Health",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which particulate matter size is considered the most harmful to human health?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349725,
+          "QuestionID": 412514,
+          "UmOption": null,
+          "EmOption": "<p>PM 10.0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349726,
+          "QuestionID": 412514,
+          "UmOption": null,
+          "EmOption": "<p>PM 5.0</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349727,
+          "QuestionID": 412514,
+          "UmOption": null,
+          "EmOption": "<p>PM 2.5</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349728,
+          "QuestionID": 412514,
+          "UmOption": null,
+          "EmOption": "<p>PM 1.0</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412516,
+      "SubjectID": 95,
+      "TopicID": 12139,
+      "TopicRef": "14.11",
+      "TopicName": "14.11 Methods & Techniques To Measure & Monitor Air Quality",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Which of the following is a natural factor that can improve air quality?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349733,
+          "QuestionID": 412516,
+          "UmOption": null,
+          "EmOption": "<p>Wildfire</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349734,
+          "QuestionID": 412516,
+          "UmOption": null,
+          "EmOption": "<p>Urbanization</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349735,
+          "QuestionID": 412516,
+          "UmOption": null,
+          "EmOption": "<p>Rainfall</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349736,
+          "QuestionID": 412516,
+          "UmOption": null,
+          "EmOption": "<p>Industrial emission</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412531,
+      "SubjectID": 95,
+      "TopicID": 12139,
+      "TopicRef": "14.11",
+      "TopicName": "14.11 Methods & Techniques To Measure & Monitor Air Quality",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Primary pollutants like nitrogen oxides (NO<sub>x</sub> ) and volatile organic compounds (VOC<sub>s</sub>) react in the presence of sunlight to form a key component of photochemical smog, which is a:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 349757,
+          "QuestionID": 412531,
+          "UmOption": null,
+          "EmOption": "<p>Primary pollutant</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349758,
+          "QuestionID": 412531,
+          "UmOption": null,
+          "EmOption": "<p>Secondary pollutant</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 349759,
+          "QuestionID": 412531,
+          "UmOption": null,
+          "EmOption": "<p>Naturally occurring atmospheric gas</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 349760,
+          "QuestionID": 412531,
+          "UmOption": null,
+          "EmOption": "<p>Harmless byproduct of combustion</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
       "QuestionID": 412519,
       "SubjectID": 95,
       "TopicID": 12142,
@@ -5903,6 +8003,56 @@
           "QuestionID": 412517,
           "UmOption": null,
           "EmOption": "<p>Solar panel installation</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412522,
+      "SubjectID": 95,
+      "TopicID": 12144,
+      "TopicRef": "14.16",
+      "TopicName": "14.16 Economic, Social & Political Issues",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An AQI value between 51 and 100 typically indicates which level of air quality?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 428077,
+          "QuestionID": 412522,
+          "UmOption": null,
+          "EmOption": "<p>Good</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 428078,
+          "QuestionID": 412522,
+          "UmOption": null,
+          "EmOption": "<p>Moderate</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 428079,
+          "QuestionID": 412522,
+          "UmOption": null,
+          "EmOption": "<p>Unhealthy</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 428080,
+          "QuestionID": 412522,
+          "UmOption": null,
+          "EmOption": "<p>Fatal</p>\r\n",
           "Answer": false
         }
       ],
@@ -9053,6 +11203,56 @@
           "QuestionID": 412957,
           "UmOption": null,
           "EmOption": "<p>The ionization energy of Calcium is lower than that of Strontium</p>\r\n",
+          "Answer": false
+        }
+      ],
+      "_exportMeta": {
+        "subTypeId": 1,
+        "bankType": "mcq",
+        "field": "MCQ",
+        "exportName": "mcq"
+      }
+    },
+    {
+      "QuestionID": 412960,
+      "SubjectID": 95,
+      "TopicID": 11978,
+      "TopicRef": "2.3",
+      "TopicName": "2.3 EXPERIMENTAL EVIDENCES FOR THE ELECTRONIC CONFIGURATION",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Sun light shows the type of spectrum:</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [
+        {
+          "OptionID": 337381,
+          "QuestionID": 412960,
+          "UmOption": null,
+          "EmOption": "<p>Continuous spectrum</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337382,
+          "QuestionID": 412960,
+          "UmOption": null,
+          "EmOption": "<p>Lline emission spectrum</p>\r\n",
+          "Answer": false
+        },
+        {
+          "OptionID": 337383,
+          "QuestionID": 412960,
+          "UmOption": null,
+          "EmOption": "<p>Line absorption spectrum</p>\r\n",
+          "Answer": true
+        },
+        {
+          "OptionID": 337384,
+          "QuestionID": 412960,
+          "UmOption": null,
+          "EmOption": "<p>Band spectrum</p>\r\n",
           "Answer": false
         }
       ],

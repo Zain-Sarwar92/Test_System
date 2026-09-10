@@ -9,8 +9,8 @@
   "field": "LONG",
   "exportName": "long",
   "subTypeId": 13,
-  "total": 189,
-  "exportedAt": "2026-08-10T12:36:38.621Z",
+  "total": 241,
+  "exportedAt": "2026-09-09T11:52:14.898Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
     {
@@ -35,6 +35,48 @@
       }
     },
     {
+      "QuestionID": 410433,
+      "SubjectID": 96,
+      "TopicID": 11828,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 International System of Units",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Astronomers usually measure astronomical distance in light years. One light year is the distance that light travel in one year. If speed of light is 3x10<sup>8</sup>ms<sup>-1</sup>, what is one light year in metres?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410434,
+      "SubjectID": 96,
+      "TopicID": 11828,
+      "TopicRef": "1.2",
+      "TopicName": "1.2 International System of Units",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write the estimated answer of the following in standard form. (a) How many second are there in 1 year? (b) How many years are in 1 second?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410191,
       "SubjectID": 96,
       "TopicID": 11829,
@@ -43,6 +85,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is meant by uncertainty 1n a measurement? How the uncertainty in a digital instrument is indicated?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410425,
+      "SubjectID": 96,
+      "TopicID": 11829,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 UNCERTAINTY IN MEASUREMENT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The mass of solid cylinder is 12.85 g. Its length is 3.35 cm and diameter is 1.25 cm. Find the density of its material expressing the uncertainty in the density.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410440,
+      "SubjectID": 96,
+      "TopicID": 11829,
+      "TopicRef": "1.3",
+      "TopicName": "1.3 UNCERTAINTY IN MEASUREMENT",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Derive a formula for the period of a simple pendulum using dimensional analysis. The various possible factors on which the time period T may depend are: (i) length of the pendulum (ii) Mass of the bob m (iii) angle <img src=\"/Equations/11th/phynew-chap1-3.svg\" /> which the thread makes with the vertical (iv) acceleration due to gravity g.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -287,6 +371,27 @@
       }
     },
     {
+      "QuestionID": 410482,
+      "SubjectID": 96,
+      "TopicID": 11838,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 EQUATIONS OF MOTIONS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Derive three equations of motion by graphical method.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410491,
       "SubjectID": 96,
       "TopicID": 11839,
@@ -392,6 +497,27 @@
       }
     },
     {
+      "QuestionID": 410506,
+      "SubjectID": 96,
+      "TopicID": 11842,
+      "TopicRef": "2.8",
+      "TopicName": "2.8 ELASTIC AND INELASTIC COLLISIONS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A trolley of mass 1.0 kg moving with velocity 1.0 ms<sup>-1</sup> collides with a similar trolley at rest: (i) after collision, the 1<sup>st</sup> trolley comes to rest whereas the second starts moving with velocity of 1.0 m s<sup>-1</sup> in the same direction. Show that it is an example of an elastic collision. (ii) After the collision, they stick together and move away with a velocity of 0.5 ms<sup>-1</sup>. Show that it is an example of an inelastic collision.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410486,
       "SubjectID": 96,
       "TopicID": 11843,
@@ -421,6 +547,69 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain an inelastic collision in one dimensions.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410508,
+      "SubjectID": 96,
+      "TopicID": 11843,
+      "TopicRef": "2.9",
+      "TopicName": "2.9 INELASTIC COLLISION IN ONE DIMENSION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A railway wagon of mass 4 x 10<sup>4</sup> kg moving with velocity of 3 ms<sup>-1</sup> collides with another wagon of mass 2 x 10<sup>4</sup> kg which is at rest. They stick together and more off together. Find their combined velocity.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410487,
+      "SubjectID": 96,
+      "TopicID": 11844,
+      "TopicRef": "2.10",
+      "TopicName": "2.10 Elastic Collision in Two Dimensions",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain elastic collision in two dimensions.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410510,
+      "SubjectID": 96,
+      "TopicID": 11845,
+      "TopicRef": "2.11",
+      "TopicName": "2.11 Inelastic Collision In Two Dimension",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A car with mass 575 kg moves at 15.0 ms<sup>-1</sup> smashes into the rear end of a car with mass 1575 kg moves at 5 ms<sup>-1</sup> in the same direction. (a) what is the final velocity if the wrecked car lock together? (b) How much kinetic energy is lost in the collision?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -484,6 +673,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>A car is moving with a speed of 108 km h<sup>-1</sup>. If its wheel has diameter of 60 cm, find its angular speed in rad s<sup>-1</sup> and rev s<sup>-1</sup>.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410559,
+      "SubjectID": 96,
+      "TopicID": 11848,
+      "TopicRef": "3.1",
+      "TopicName": "3.1 ANGULAR MEASUREMENTS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An electric motor is running at 1800 rev min<sup>-1</sup>. On switching off, it comes to rest in 20 s. If angular retardation is uniform. Find the number of revolutions it makes before stopping.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -644,6 +854,27 @@
       }
     },
     {
+      "QuestionID": 410561,
+      "SubjectID": 96,
+      "TopicID": 11851,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 MOMENT OF INERTIA",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The flywheel of an engine is rotating at 2100 rev min<sup>-1</sup> when the power source is shut off. What torque is required to stop it in 3 minutes? The moment of inertia of the flywheel is 36 kg m<sup>2</sup>.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410563,
       "SubjectID": 96,
       "TopicID": 11851,
@@ -728,6 +959,48 @@
       }
     },
     {
+      "QuestionID": 410568,
+      "SubjectID": 96,
+      "TopicID": 11853,
+      "TopicRef": "3.6",
+      "TopicName": "3.6 LAW OF CONSERVATION OF ANGULAR MOMENTUM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A diver comes off a board with arms straight up and legs straight down, giving him a moment of inertia of 18 kg m<sup>2</sup> about his rotation axis. Then tucks into a small ball. decreasing his moment of inertia to 3.6 kg m<sup>2</sup>. While tucked, he makes two complete rotations in 1.0 seconds. If he had not tucked at all, how many revolutions would he have made in 1.5 s from board to water?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410630,
+      "SubjectID": 96,
+      "TopicID": 11855,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 Work done by a Constant Force",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An electrical motor of one horse power is used to run a water pump. water pump takes 15 minutes to fill a tank of 400 litres at a height of 10 m (1 hp 746 watts). Find: (a) actual input work done by electric motor to fill the tank (b) actual output work done.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410613,
       "SubjectID": 96,
       "TopicID": 11856,
@@ -757,6 +1030,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>If an object of mass 2 kg thrown up from ground reaches a height of 5 m and flashback to the Earth (neglecting air resistance), calculate: (i) work done by gravity when the object reaches at 5 m height. (ii) work done by gravity when the object comes back to the Earth (iii) total work done by gravity in upward and downward motion. Also mention physical significance of the result.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410633,
+      "SubjectID": 96,
+      "TopicID": 11856,
+      "TopicRef": "4.2",
+      "TopicName": "4.2 WORK DONE BY A VARIABLE FORCE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A passenger just arrives at the airport and dragging his suitcase to luggage check in at the desk. He pulls strap with a force of 200 N at an angle of 45<sup>o</sup> to the floor to displace it 50 m to the desk. Determine the value of work done by him on the suitcase.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -833,6 +1127,27 @@
       }
     },
     {
+      "QuestionID": 410612,
+      "SubjectID": 96,
+      "TopicID": 11859,
+      "TopicRef": "4.5",
+      "TopicName": "4.5 ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define K.E and derive an expression for the same.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410616,
       "SubjectID": 96,
       "TopicID": 11859,
@@ -896,6 +1211,27 @@
       }
     },
     {
+      "QuestionID": 410635,
+      "SubjectID": 96,
+      "TopicID": 11860,
+      "TopicRef": "4.6",
+      "TopicName": "4.6 ESCAPE VELOCITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A 200 g apple is lifted to 10 m and then dropped. What is the its velocity when it hits the ground? Assume that 75% of work done in lifting the apple if transferred to K.E by the time it hits the ground.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410617,
       "SubjectID": 96,
       "TopicID": 11861,
@@ -917,6 +1253,27 @@
       }
     },
     {
+      "QuestionID": 410624,
+      "SubjectID": 96,
+      "TopicID": 11862,
+      "TopicRef": "4.8",
+      "TopicName": "4.8 INTERCONVERSION OF POTENTIAL ENERGY AND KINETIC ENERGY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A family uses of 10 kW of power. Direct solar energy is incident on horizontal surface at an average rate of 300 W per square metre. If 75% of this energy can be converted into needed to supply 10 kW?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410627,
       "SubjectID": 96,
       "TopicID": 11862,
@@ -925,6 +1282,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>A 75 watt fan is used for 8 hours daily fro 30 day. Find: (i) Energy consumed in electrical units. (ii) Electricity bill if one unit costs Rs. 22.5?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410681,
+      "SubjectID": 96,
+      "TopicID": 11864,
+      "TopicRef": "5.1",
+      "TopicName": "5.1 Classification of Solids",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain in detail the classification of solids with respect to atomic arrangements.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410698,
+      "SubjectID": 96,
+      "TopicID": 11866,
+      "TopicRef": "5.3",
+      "TopicName": "5.3 STRESS, STRAIN AND YOUNG'S MODULUS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A copper wire of length 3 metres and cross-sectional area of 1 x 10<sup>-6</sup> m<sup>2</sup> is subjected to a force of 500 N. Calculate the stress and strain produced in the wire. (Young;s modulus of copper Y = 1.1 x 10<sup>11</sup> Nm<sup>-6</sup>).</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1106,6 +1505,27 @@
       }
     },
     {
+      "QuestionID": 410704,
+      "SubjectID": 96,
+      "TopicID": 11875,
+      "TopicRef": "5.12",
+      "TopicName": "5.12 USES OF BERNOULLI'S EQUATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Water flows through a horizontal pipe with a velocity of 3 ms<sup>-1</sup> and pressure of 200,000 pa at point 1. At the nozzle (point 2), the pressure decreases to atmospheric pressure 101,300 pa and the velocity increases to 14 ms<sup>-1</sup>. Calculate the velocity of the water exiting the nozzle.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410705,
       "SubjectID": 96,
       "TopicID": 11875,
@@ -1148,6 +1568,27 @@
       }
     },
     {
+      "QuestionID": 410701,
+      "SubjectID": 96,
+      "TopicID": 11877,
+      "TopicRef": "5.14",
+      "TopicName": "5.14 TERMINAL VELOCITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Water flows through a pipe with a diameter of 0.05 m at a velocity of 2 ms<sup>-1</sup>. If the pipe narrows to a diameter of 0.03 m. Calculate the velocity of water at narrow section.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410706,
       "SubjectID": 96,
       "TopicID": 11877,
@@ -1156,6 +1597,132 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Calculate the terminal velocity of a spherical raindrop with a radius 0.5 mm falling through the air. (7 for air = 19 x 10<sup>-6</sup>kg m<sup>-1</sup>s<sup>-1</sup>, p=1000 kg m<sup>-3</sup> for water).</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410685,
+      "SubjectID": 96,
+      "TopicID": 11879,
+      "TopicRef": "5.16",
+      "TopicName": "5.16 Super Fluids",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the term of superfluidity.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410756,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are the postulates of kinetic theory of gases? Derive a relation for idea gas equation in the form PV=NK<sub>8</sub> T from general gas equation.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410757,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>State and explain various gas laws.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410766,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>In a vacuum chamber which is connected to a cryogenic pump, pressure as low as 1,00 npa is being attained. Calculate the number of molecules in 1.00 m<sup>3</sup> vessel at this pressure and temperature of 300 K.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410776,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A gas occupies 400 mL at 20<sup>o</sup>C. What volume will it occupy at 80<sup>o</sup>C, assuming constant pressure?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410777,
+      "SubjectID": 96,
+      "TopicID": 11881,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 Assumptions of The Kinetic Theory of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A gas has pressure of 2 atm at 300 K. What pressure will it have at 450 K, assuming constant volume.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1400,6 +1967,27 @@
       }
     },
     {
+      "QuestionID": 410977,
+      "SubjectID": 96,
+      "TopicID": 11898,
+      "TopicRef": "7.7",
+      "TopicName": "7.7 EXPERIMENT DEMONSTRATING STATIONARY WAVES USING MICROWAVES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The speed of a wave on a typical string is 24 ms<sup>-</sup>¹. What driving frequency will it resonate if its length is 6.0 m?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410992,
       "SubjectID": 96,
       "TopicID": 11898,
@@ -1463,6 +2051,27 @@
       }
     },
     {
+      "QuestionID": 410979,
+      "SubjectID": 96,
+      "TopicID": 11900,
+      "TopicRef": "7.9",
+      "TopicName": "7.9 BEATS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The lowest resonance frequency for a guitar string of length 0.75 m is 400 Hz. Calculate the speed of a transverse wave on the string.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 410980,
       "SubjectID": 96,
       "TopicID": 11900,
@@ -1513,6 +2122,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>A train is approaching a station at 90 km h<sup>-1</sup>sounding a whistle of frequency1000 Hz. What will be the apparent frequency of the whistle as heard by a listener sitting on the platform?What will be the apparent frequency heard by the same listener if the train moves away from the station with the same speed?(Speed of sound is 340ms<sup>-1</sup>)</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410982,
+      "SubjectID": 96,
+      "TopicID": 11901,
+      "TopicRef": "7.10",
+      "TopicName": "7.10 INTENSITY (I) OF A WAVE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A steel wire hangs vertically from a fixed point, supporting a weight of 80 N at its lower end, The diameter of the wire is 0.50 mm and its length from the fixed point to the weight is 1.5 m. Calculate the fundamental frequency emitted by the wire when it is plucked. Density of steel wire is 7.8 x 10<sup>3</sup> kg m<sup>-3</sup></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 410983,
+      "SubjectID": 96,
+      "TopicID": 11901,
+      "TopicRef": "7.10",
+      "TopicName": "7.10 INTENSITY (I) OF A WAVE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Average intensity of sunlight on the surface of the Earth is nearly 500 W m<sup>-</sup>². Determine the amount of energy that falls on a solar panel having an area of 0.5 m<sup>2</sup> in four hours.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1757,6 +2408,48 @@
       }
     },
     {
+      "QuestionID": 411052,
+      "SubjectID": 96,
+      "TopicID": 11909,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 MALUS'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is meant by optical activity? Discuss it.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411053,
+      "SubjectID": 96,
+      "TopicID": 11909,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 MALUS'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>When an unpolarized light of intensity lo is incident on a polarizing sheet, find the intensity of light which does not get transmitted.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411055,
       "SubjectID": 96,
       "TopicID": 11909,
@@ -1799,6 +2492,27 @@
       }
     },
     {
+      "QuestionID": 411058,
+      "SubjectID": 96,
+      "TopicID": 11909,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 MALUS'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>An unpolarized light having intensity of 15 Wm<sup>-2</sup> is incident on a pair of polarizers.The first polaroid filter has its transmission axis at 50 deg from the vertical. The second polaroid filter has its transmission axis at 20<sup>o</sup> from the vertical. Calculate the intensity of light transmitted to both filters.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411060,
       "SubjectID": 96,
       "TopicID": 11909,
@@ -1828,6 +2542,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Two polarizing sheets have their polarizing directions parallel so that intensity of emitted light is maximum. Through what angle must either sheet be rotated if the intensity is to be dropped by half?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411063,
+      "SubjectID": 96,
+      "TopicID": 11909,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 MALUS'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A beam of unpolarized light is incident on a stack of four polarizing sheets that are lined up so that the characteristic direction of each is rotated by 30<sup>o</sup> clockwise with respect to the preceding sheet. What fraction in percentage of the incident intensity be transmitted?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1946,6 +2681,27 @@
       }
     },
     {
+      "QuestionID": 411122,
+      "SubjectID": 96,
+      "TopicID": 11913,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 COULOMB'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The electron and proton in a hydrogen atom are separated (on the average) by a distance of approximately 5.3 x 10<sup>-11</sup>m. Find the ratio of the electric force and the gravitational force between the electron and proton in this state.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411126,
       "SubjectID": 96,
       "TopicID": 11914,
@@ -2009,6 +2765,27 @@
       }
     },
     {
+      "QuestionID": 411133,
+      "SubjectID": 96,
+      "TopicID": 11923,
+      "TopicRef": "9.11",
+      "TopicName": "9.11 CURRENT THROUGH A CONDUCTOR",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>During an experiment, a copper wire of 50 m long and 150<img src=\"/Equations/11th/phynew-chap9-9.svg\" /> thick is hung vertically. Then a current of 1 A is passed across its ends for 50 s. Find the resistance of the wire and the heat. dissipated during this process. [Resistivity of copper is <img src=\"/Equations/11th/phynew-chap9-10.svg\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411120,
       "SubjectID": 96,
       "TopicID": 11924,
@@ -2017,6 +2794,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>A particle of charge +20 <img src=\"/Equations/11th/phynew-chap9-1.svg\" />C is placed between two parallel plates, 10 cm apart and having a potential difference of 0.5 kV between them. Calculate the electric field between the plates, and the electric force exerted on the charged particle.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411130,
+      "SubjectID": 96,
+      "TopicID": 11925,
+      "TopicRef": "9.13",
+      "TopicName": "9.13 RESISTIVITY AND ITS DEPENDENCE UPON TEMPERATURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A circular copper rod is 50 cm long and has 1 cm diameter. Find the resistance across its ends. What should be the side of square cross-section of a 50 cm long tungsten rod if its resistance is the same? [Resistivity of copper is 1<sub><img src=\"/Equations/11th/phynew-chap9-7.svg\" /></sub> and that of tungsten is <img src=\"/Equations/11th/phynew-chap9-8.svg\" /></p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2198,6 +2996,27 @@
       }
     },
     {
+      "QuestionID": 411248,
+      "SubjectID": 96,
+      "TopicID": 11935,
+      "TopicRef": "10.2",
+      "TopicName": "10.2 MAGNETIC FLUX AND FLUX DENSITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A current-carrying conductor PQ of length 2 m is placed perpendicularly to a magnetic field of flux density 0.5 T as shown in the figure. The resulting force on the conductor is 1 N acting into the plane of the paper. What is the magnitude and direction of the current?</p>\r\n\r\n<p><img src=\"/Equations/11th/phynew-chap10-4.png\" style=\"zoom:60%;\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411212,
       "SubjectID": 96,
       "TopicID": 11937,
@@ -2269,6 +3088,90 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>A copper ring has a radius of 4.0 cm and resistance of 1.0 (eq). A magnetic field is applied over the ring, perpendicular to its plane. If the magnetic field increases from 0.2 T to 0.4 T in a time interval of 5 x 10<sup>-3</sup>s, what is current in the ring during the interval?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411235,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A proton is accelerated by a potential difference of 6 x 105 volts. It then enters perpendicularly in a uniform magnetic field B = 1.0 weber m<sup>-2 ,</sup>Find the radius of curvature of the path of the proton. m = 1.67x10<sup>-27</sup>kg, e = 1.6x10<sup>-19</sup>C.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411239,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A proton enters a uniform magnetic field B = 0.3 weber m<sup>-2</sup> in a direction making an angle 45<sup>o</sup> with the magnetic field. What will be the radius of the circular path if the velocity of proton is 10<sup>4</sup> m s<sup>-1</sup></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411252,
+      "SubjectID": 96,
+      "TopicID": 11937,
+      "TopicRef": "10.4",
+      "TopicName": "10.4 MOTION OF A CHARGED PARTICLES IN A MAGNETIC FIELD",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>A charged particle moves through a velocity selector at a constant velocity of 4.96 x 10<sup>4</sup>  m s<sup>-1</sup> in a direction perpendicular to both E and B. If the magnetic field strength is 0.114 T, what should be the magnitude of electric field intensity so that the particle moves undeflected?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411213,
+      "SubjectID": 96,
+      "TopicID": 11938,
+      "TopicRef": "10.5",
+      "TopicName": "10.5 Velocity Selector",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is a velocity selector? Explain its working.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2366,6 +3269,27 @@
       }
     },
     {
+      "QuestionID": 411243,
+      "SubjectID": 96,
+      "TopicID": 11939,
+      "TopicRef": "10.6",
+      "TopicName": "10.6 INDUCED EMF AND FARADAY'S LAW",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Three identical conducting rods L<sub>1,</sub>L<sub>2</sub> and L<sub>3</sub>are moving in different planes with the same speeds v<sub>1</sub> = v<sub>2</sub> = v<sub>3</sub> = 2.5 m s<sup>-1</sup> as shown in the figure.The length of each rod is 60 cm. A constant magnetic field of magnitude B = 0.5T is directed along z-axis. Find the magnitude of emf induced in each rod and indicate which end of the rod is positive. <img src=\"/Equations/11th/phynew-chap10-6.png\" style=\"zoom:60%;\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411246,
       "SubjectID": 96,
       "TopicID": 11940,
@@ -2416,6 +3340,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>An electron is accelerated to a speed v = 0.85c Calculate its total energy and kinetic energy in electron volt.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411310,
+      "SubjectID": 96,
+      "TopicID": 11946,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 RELATIVE MOTION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>The period of pendulum is measured to be 3 s in an inertial frame of reference. What will be the period measured by an observer in a spaceship with a constant speed of 0.95 c with respect to the pendulum?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2534,6 +3479,27 @@
       }
     },
     {
+      "QuestionID": 411312,
+      "SubjectID": 96,
+      "TopicID": 11948,
+      "TopicRef": "11.3",
+      "TopicName": "11.3 SPECIAL THEORY OF RELATIVITY",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Hypothetically, if a ball of mass 0.5 kg is projected with a velocity of 0.9 c, what will be its mass in flight?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 411301,
       "SubjectID": 96,
       "TopicID": 11949,
@@ -2563,6 +3529,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>The rest mass of an electron is 9.11 x 10<sup>-31</sup> kg. Calculate the corresponding rest-mass energy.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 411303,
+      "SubjectID": 96,
+      "TopicID": 11950,
+      "TopicRef": "11.5",
+      "TopicName": "11.5 Space-time in Relativity",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>State the Einstein's concept about the space-time. Describe the view of gravity according to this concept.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2828,6 +3815,27 @@
       }
     },
     {
+      "QuestionID": 411387,
+      "SubjectID": 96,
+      "TopicID": 11959,
+      "TopicRef": "12.8",
+      "TopicName": "12.8 Conservation Laws",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Calculate the Q-value for the reaction taking place in Rutherford's experiment on artificial disintegration of nitrogen by bombardment with alpha particles. Relative masses are: <img src=\"/Equations/11th/phynew-chap12-14.svg\" /> <img src=\"/Equations/11th/phynew-chap12-15.svg\" /></p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 444436,
       "SubjectID": 96,
       "TopicID": 11828,
@@ -2920,6 +3928,48 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>How is the total uncertainty in the final result assessed? Explain.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 444448,
+      "SubjectID": 96,
+      "TopicID": 11836,
+      "TopicRef": "2.2",
+      "TopicName": "2.2 Vectors",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are rectangular compenents of a vectors? How a vector can be determined from its rectangular components?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 444454,
+      "SubjectID": 96,
+      "TopicID": 11838,
+      "TopicRef": "2.4",
+      "TopicName": "2.4 EQUATIONS OF MOTIONS",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define first equation of motion by graphical method.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -3038,6 +4088,27 @@
       }
     },
     {
+      "QuestionID": 444470,
+      "SubjectID": 96,
+      "TopicID": 11849,
+      "TopicRef": "3.2",
+      "TopicName": "3.2 CENTRIPETAL FORCE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What is centrifuge? State some everyday applications of centripetal force.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 444473,
       "SubjectID": 96,
       "TopicID": 11853,
@@ -3046,6 +4117,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>State some examples of law of conservation of angular momentum.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 444475,
+      "SubjectID": 96,
+      "TopicID": 11855,
+      "TopicRef": "4.1",
+      "TopicName": "4.1 Work done by a Constant Force",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is work done by a constant force? Explain.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

@@ -4,16 +4,16 @@
   "subject": "Chemistry",
   "slug": "chemistry",
   "source": "PTS PTB INTER-I (Class 11) Chemistry (read-only export)",
-  "total_questions": 2192,
+  "total_questions": 2328,
   "counts": {
-    "mcq": 1149,
-    "short": 948,
-    "long": 95
+    "mcq": 1193,
+    "short": 1016,
+    "long": 119
   },
   "fieldCounts": {
-    "MCQ": 1149,
-    "QA": 948,
-    "LONG": 95
+    "MCQ": 1193,
+    "QA": 1016,
+    "LONG": 119
   },
   "questions": [
     {
@@ -55,6 +55,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Explain with the help of equations, acidic and basic behavior of oxides and chlorides."
+    },
+    {
+      "id": 411546,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What do you mean by successive ionization energies? How the electronic shell structure of magnesium (Mg) is derived from the successive ionization energies?"
     },
     {
       "id": 411544,
@@ -157,6 +167,26 @@
       "en": "A solution of sodium hydroxide (NaOH) is prepared by dissolving 2.00 g of solid sodium hydroxide in water to make a final volume of 250 cm3. (i) Determine the molar mass of sodium hydroxide.(ii)Calculate the number of moles of sodium hydroxide used.(iii) Calculate the concentration of the sodium hydroxide solution in mol dm-3.(iv)If more water is added to the above solution to raise the volume of solution to 500 cm3, what would be the concentration now?"
     },
     {
+      "id": 411783,
+      "chapter": 4,
+      "topic_id": "4.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Ammonia gas (NH3) reacts with oxygen gas (O2) according to the following balanced equation: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap4-1.svg\" /> In an experiment, 34.0 g of ammonia is reacted with 96 g of oxygen.(i) Determine the limiting reactant(ii) Calculate the maximum mass of nitrogen monoxide (NO) that can be formed.(iii) Calculate the mass of the excess reactant remaining after the reaction is complete. (Relative atomic masses: H = 1.0, N = 14.0, O = 16.0)"
+    },
+    {
+      "id": 411770,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Differentiate limiting and non-limiting reactants. How a limiting reactant is determined from a balanced chemical equation and given data?"
+    },
+    {
       "id": 411771,
       "chapter": 4,
       "topic_id": "4.8",
@@ -185,6 +215,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Hydrogen bonding is present in H2O, NH3, HF, (CH3)2CO and CHCl3 molecules. Sketch structures and discuss briefly."
+    },
+    {
+      "id": 411900,
+      "chapter": 5,
+      "topic_id": "5.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "In a laboratory experiment,150 cm3 of a volatile liquid was completely vaporized at 98 oC and a pressure of 1.01 x 105 pa.The mass of the vapor was found to be 0.495 g.Determine the molecular mass of the liquid (R=8.314 JK-1 mol-1)."
     },
     {
       "id": 411883,
@@ -217,6 +257,26 @@
       "en": "How liquid crystals resemble liquids and solids? Give their uses in daily life."
     },
     {
+      "id": 411892,
+      "chapter": 5,
+      "topic_id": "5.13",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A sample of an unknown gas has a mass of 0.560 g. It occupies a volume of 2.87 × 10-4 m3 at a temperature of 300 K and a pressure o 1.01 x 105 pa.Calculate the molar mass of the gas.(Gas constant,R=8.31JK-1 mol-1)."
+    },
+    {
+      "id": 412092,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "For the reaction: CaSO4(s) Ca2+(aq) + SO42-(aq) Calculate<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-41.svg\" /> ,<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-42.svg\" /> and <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-43.svg\" style=\"width: 38px; height: 22px;\" />at 25oC using the following data; and discuss its spontaneity. T= 25oC=298K Enthalpy of Formation:<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-44.svg\" /><img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-45.svg\" style=\"width: 619px; height: 32px;\" />"
+    },
+    {
       "id": 412050,
       "chapter": 6,
       "topic_id": "6.5",
@@ -245,6 +305,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Calculate the heat of formation of ethyl alcohol from the following information(i) Heat of combustion of ethyl alcohol is - 1367kJmol-1 (ii) Heat of formation of carbon dioxide is - 393.7kJmol-1 (iii) Heat of formation of water is - 285.8 kJmol-1"
+    },
+    {
+      "id": 412078,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate the entropy change of the surroundings<img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-39.svg\" /> / for the reaction at 298K: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap6-40.svg\" />"
     },
     {
       "id": 412048,
@@ -307,6 +377,56 @@
       "en": "How does the activation energy profile of an uncatalyzed reaction compare with that of the catalyzed reaction?"
     },
     {
+      "id": 412166,
+      "chapter": 7,
+      "topic_id": "7.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Three experiments that have identical conditions were performed to measure the initial rate of the reaction. <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-7.svg\" /> Experiment [HI] (M) Rate (M/s) 1 0.015 1.1x10-3 2 0.030 4.4x10-3 3 0.045 4.4x10-3 Write the rate law for the reaction. Find the value and units of the specific rate constant, k."
+    },
+    {
+      "id": 412148,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you find the numerical value of a rate constant by initial and half-life methods?"
+    },
+    {
+      "id": 412154,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The reaction between hydrogen peroxide (H2O2) and iodide ions (I-1) in acidic solution is believed to occur via the following mechanism: Step 1: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-4.svg\" /> Step 2: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-5.svg\" />Step 3: <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap7-6.svg\" /> (i) Write the overall balanced equation for the reaction (ii) Identify any intermediates and catalysts in thismechanism (iii) What is the rate-determining step? (iv) Write the rate equation for the reaction, expressing it in terms of the reactants in the overall reaction."
+    },
+    {
+      "id": 412159,
+      "chapter": 7,
+      "topic_id": "7.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A first order reaction is found to have a rate constant, k = 5.5 × 10-14 s-1. Find the half-life of the reaction. Temp. (K) Rate constant (cm3 mol–1S–1) (K) 500 6.814 x 10–4 550 2.64 x 10–2 600 0.56 x 100 650 7.31 x 100 700 66.67 x 100"
+    },
+    {
+      "id": 412245,
+      "chapter": 8,
+      "topic_id": "8.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Study the equilibrium H2O(g) + CO(g) (eq) H2(g) + CO2(g) (i) Write the expression of Kp. (ii) When 1.00 mole of steam and 1.00 mole of CO are allowed to reach equilibrium, 33.3% of equilibrium mixture is hydrogen. Calculate the value of Kp. State the units of Kp."
+    },
+    {
       "id": 412223,
       "chapter": 8,
       "topic_id": "8.8",
@@ -315,6 +435,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Define and explain the law of mass action and derive the expression for the equilibrium constant."
+    },
+    {
+      "id": 412242,
+      "chapter": 8,
+      "topic_id": "8.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The equilibrium constant for the reaction between acetic acid and ethyl alcohol is 4. A mixture of 3 moles of acetic acid and 1 mole of hole of ethyl alcohol is allowed to come to equilibrium. Calculate the amount of ethyl acetate present at equilibrium."
     },
     {
       "id": 412227,
@@ -417,6 +547,36 @@
       "en": "The molar solubility of silver chromate (Ag2 CrO4) in pure water at 298 K is 6.5×10-5 mol dm-3. Calculate the Ksp of silver chromate at this temperature."
     },
     {
+      "id": 412394,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A constant current of 2.00 A is passed through a solution of copper(II) sulfate (CuSO4 ) for 30.0 minutes. Calculate the mass of copper deposited at the cathode. (Molar mass of Cu = 63.5 g mol-¹, Faraday constant, F = 96500Cmol-1)"
+    },
+    {
+      "id": 412393,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Calculate the electrode potential for a zinc electrode immersed in a 0.010 mol dm-3 solution of zinc sulfate (ZnSO4) at 298 K. The standard electrode potential (E°) for <img alt=\"\" src=\"/pts-media/equations/11th/chemnew-chap10-11.svg\" />is -0.76 V. (Gas constant, R = 8.31JK-1mol-1,Faraday constant, F = 96500C mol-1)"
+    },
+    {
+      "id": 412390,
+      "chapter": 10,
+      "topic_id": "10.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How Avogadro’s number can be derived using an electrolytic cell?"
+    },
+    {
       "id": 412392,
       "chapter": 10,
       "topic_id": "10.12",
@@ -427,6 +587,16 @@
       "en": "What is meant by Standard Hydrogen Electrode (SHE)? How it is used to measure the electrode potential of another electrode?"
     },
     {
+      "id": 412389,
+      "chapter": 10,
+      "topic_id": "10.13",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How electrode potential varies with concentration of an aqueous solution? Use the NERST equation to explain this variation."
+    },
+    {
       "id": 412391,
       "chapter": 10,
       "topic_id": "10.15",
@@ -435,6 +605,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Describe the construction and working principle of the Zn-Cu Galvanic cell."
+    },
+    {
+      "id": 412395,
+      "chapter": 10,
+      "topic_id": "10.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A galvanic cell consists of a standard hydrogen electrode (SHE) and a Ni2+(aq) /Ni(s) half-cell. The measured cell potential at 298 K is 0.25 V, and the nickel electrode is the negative terminal. (i) Write the balanced overall cell reaction. (ii) Determine the standard electrode potential (E°) of the Ni 2+(aq) /Ni(s) half-cell. (iii) Identify which electrode is the anode and which is the cathode."
     },
     {
       "id": 412425,
@@ -467,6 +647,16 @@
       "en": "Describe the free radical halogenation of methane using Cl2 as an example."
     },
     {
+      "id": 412426,
+      "chapter": 11,
+      "topic_id": "11.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the following reactions of alkenes with examples: (i) Halogenation (ii) Ozonolysis (iii) Epoxidation d) Polymerization"
+    },
+    {
       "id": 412463,
       "chapter": 12,
       "topic_id": "12.2",
@@ -487,6 +677,26 @@
       "en": "How oxides of nitrogen (NOx) cause the formation of photochemical smog and PAN? Give its mechanism."
     },
     {
+      "id": 412466,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Give flowsheet diagram and equations involved in the contact process."
+    },
+    {
+      "id": 412467,
+      "chapter": 12,
+      "topic_id": "12.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss sulfuric acid as an oxidizing agent and a dehydrating agent with three reactions for each."
+    },
+    {
       "id": 412505,
       "chapter": 13,
       "topic_id": "13.4",
@@ -497,6 +707,26 @@
       "en": "Discuss the relative reactivity of the halogen elements as oxidizing agents. Arrange F2, Cl2, Br2, I2 in increasing order of the oxidizing power."
     },
     {
+      "id": 412504,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe and explain the relative thermal stabilities of the halogen hydrides in terms of bonds strength."
+    },
+    {
+      "id": 412507,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the reducing power of halide ions with relevant reactions. Also explain the factors affecting it."
+    },
+    {
       "id": 412550,
       "chapter": 14,
       "topic_id": "14.7",
@@ -505,6 +735,16 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Write short notes on the following: (i) CFCs and ozone layer depletion (ii) Greenhouse effect and global warming."
+    },
+    {
+      "id": 412552,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is meant by air quality AQI? Describe the factors affecting the air quality."
     },
     {
       "id": 412549,

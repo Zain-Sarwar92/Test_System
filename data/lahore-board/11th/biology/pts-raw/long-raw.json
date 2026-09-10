@@ -9,10 +9,31 @@
   "field": "LONG",
   "exportName": "long",
   "subTypeId": 13,
-  "total": 169,
-  "exportedAt": "2026-08-10T12:32:57.684Z",
+  "total": 235,
+  "exportedAt": "2026-09-09T11:47:05.184Z",
   "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
   "questions": [
+    {
+      "QuestionID": 397890,
+      "SubjectID": 94,
+      "TopicID": 11606,
+      "TopicRef": "1.1",
+      "TopicName": "1.1 THREE-DOMAIN SYSTEM OF CLASSIFICATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compare and contrast the domains Archaea and Bacteria and discuss how these differences reflect their evolutionary histories.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
     {
       "QuestionID": 397895,
       "SubjectID": 94,
@@ -119,6 +140,27 @@
       }
     },
     {
+      "QuestionID": 397891,
+      "SubjectID": 94,
+      "TopicID": 11613,
+      "TopicRef": "1.8",
+      "TopicName": "1.8 Species and Speciation",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the concept of a species according to the biological species concept. How does this definition help in understanding species boundaries and the process of speciation? Provide examples to illustrate your points.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 397893,
       "SubjectID": 94,
       "TopicID": 11613,
@@ -169,6 +211,69 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain the structure of bacterium flagellum.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 399190,
+      "SubjectID": 94,
+      "TopicID": 11621,
+      "TopicRef": "2.6",
+      "TopicName": "2.6 Importance of Bacteria",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Briefly describe the ecological and economic importance of bacteria.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 399192,
+      "SubjectID": 94,
+      "TopicID": 11621,
+      "TopicRef": "2.6",
+      "TopicName": "2.6 Importance of Bacteria",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the use of bacteria in research and technology.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 399186,
+      "SubjectID": 94,
+      "TopicID": 11622,
+      "TopicRef": "2.7",
+      "TopicName": "2.7 NORMAL FLORA",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain different methods of movement in bacteria.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -476,6 +581,27 @@
       }
     },
     {
+      "QuestionID": 404577,
+      "SubjectID": 94,
+      "TopicID": 11629,
+      "TopicRef": "3.5",
+      "TopicName": "3.5 PROKARYOTIC AND EUKARYOTIC CELLS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If a researcher observes that a certain cell type has an exceptionally large Golgi apparatus, what can be inferred about the function of this cell?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 401466,
       "SubjectID": 94,
       "TopicID": 11630,
@@ -560,6 +686,69 @@
       }
     },
     {
+      "QuestionID": 404578,
+      "SubjectID": 94,
+      "TopicID": 11631,
+      "TopicRef": "3.7",
+      "TopicName": "3.7 MEMBRANE TRANSPORT MECHANISMS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If a signalling molecule is lipid-soluble, like a steroid hormone, what is the most likely mechanism for its action within the target cell?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 404579,
+      "SubjectID": 94,
+      "TopicID": 11631,
+      "TopicRef": "3.7",
+      "TopicName": "3.7 MEMBRANE TRANSPORT MECHANISMS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why do we categorize endocytosis and exocytosis in active transport?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 404580,
+      "SubjectID": 94,
+      "TopicID": 11631,
+      "TopicRef": "3.7",
+      "TopicName": "3.7 MEMBRANE TRANSPORT MECHANISMS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Justify why the membrane may be described as fluid.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 401475,
       "SubjectID": 94,
       "TopicID": 11632,
@@ -610,6 +799,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain how the properties of water make it the medium of life.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 404624,
+      "SubjectID": 94,
+      "TopicID": 11636,
+      "TopicRef": "4.3",
+      "TopicName": "4.3 Condensation (Synthesis) And Hydrolysis",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe and draw sketches of dehydration synthesis reactions.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 404638,
+      "SubjectID": 94,
+      "TopicID": 11637,
+      "TopicRef": "4.4",
+      "TopicName": "4.4 IMPORTANCE OF WATER",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the three-dimensional structure of a protein relate to its function?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -728,6 +959,48 @@
       }
     },
     {
+      "QuestionID": 404622,
+      "SubjectID": 94,
+      "TopicID": 11640,
+      "TopicRef": "4.7",
+      "TopicName": "4.7 LIPIDS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Distinguish carbohydrates, proteins, lipids and nucleic acids as the four fundamental biological molecules.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 404640,
+      "SubjectID": 94,
+      "TopicID": 11640,
+      "TopicRef": "4.7",
+      "TopicName": "4.7 LIPIDS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do nucleic acids encode genetic information, and how is this information translated into proteins?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 404630,
       "SubjectID": 94,
       "TopicID": 11641,
@@ -799,6 +1072,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain the general structure of RNA and differentiate between the three types of RNA.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 404637,
+      "SubjectID": 94,
+      "TopicID": 11641,
+      "TopicRef": "4.8",
+      "TopicName": "4.8 NUCLEIC ACIDS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What happens if even one amino acid is substituted for another in a polypeptide chain? Provide a specific example.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -917,6 +1211,132 @@
       }
     },
     {
+      "QuestionID": 405880,
+      "SubjectID": 94,
+      "TopicID": 11647,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 Factors Affecting The Rate of Enzyme Action",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the effect of temperature on the rate of enzyme action.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405881,
+      "SubjectID": 94,
+      "TopicID": 11647,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 Factors Affecting The Rate of Enzyme Action",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Compare the optimum temperatures of enzymes of human and thermophilic bacteria.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405882,
+      "SubjectID": 94,
+      "TopicID": 11647,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 Factors Affecting The Rate of Enzyme Action",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe how the concentration of enzyme affects the rate of enzyme action.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405884,
+      "SubjectID": 94,
+      "TopicID": 11647,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 Factors Affecting The Rate of Enzyme Action",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the effect of substrate concentration on the rate of enzyme action.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405896,
+      "SubjectID": 94,
+      "TopicID": 11647,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 Factors Affecting The Rate of Enzyme Action",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>If a chemical reaction could occur without an enzyme, why is it important to have one?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405899,
+      "SubjectID": 94,
+      "TopicID": 11647,
+      "TopicRef": "5.4",
+      "TopicName": "5.4 Factors Affecting The Rate of Enzyme Action",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Construct and interpret graphs based on data about the effect of temperature,enzyme concentration and substrate concentration on the rate of enzyme action.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 405888,
       "SubjectID": 94,
       "TopicID": 11648,
@@ -1022,6 +1442,69 @@
       }
     },
     {
+      "QuestionID": 405900,
+      "SubjectID": 94,
+      "TopicID": 11649,
+      "TopicRef": "5.6",
+      "TopicName": "5.6 ENZYMEINHIBITION.",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Identify the competitive and non-competitive inhibitors from a list of chemicals used in daily life.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405894,
+      "SubjectID": 94,
+      "TopicID": 11650,
+      "TopicRef": "5.7",
+      "TopicName": "5.7 CLASSIFICATION OF ENZYMES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Does physical exercise involve anabolic processes, catabolic processes, or both?</p>\r\n\r\n<p>Give evidence for your answer</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405957,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What are photosynthetic pigments and what role they play in the absorption and conversion of light energy?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 405959,
       "SubjectID": 94,
       "TopicID": 11652,
@@ -1093,6 +1576,27 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Describe light independent reactions of photosynthesis in terms of paragraph and illustrate in terms of Calvin cycle.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405975,
+      "SubjectID": 94,
+      "TopicID": 11652,
+      "TopicRef": "6.1",
+      "TopicName": "6.1 PHOTOSYNTHESIS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why might a disruption in either photosynthesis or respiration processes affect global carbon and oxygen cycles?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1253,6 +1757,132 @@
       }
     },
     {
+      "QuestionID": 405969,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Through which ways proteins and fats enter cellular respiration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405973,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does cellular respiration release energy more efficiently than fermentation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405974,
+      "SubjectID": 94,
+      "TopicID": 11653,
+      "TopicRef": "6.2",
+      "TopicName": "6.2 CELLULAR RESPIRATION",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is the conversion of glucose into ATP during cellular respiration considered a more efficient use of energy than burning glucose directly?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405970,
+      "SubjectID": 94,
+      "TopicID": 11654,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 Photorespiration",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define photorespiration and present it in proving that “photosynthesis is not perfect”</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405971,
+      "SubjectID": 94,
+      "TopicID": 11654,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 Photorespiration",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p> What are the effects of temperature on the oxidative activity of Rubisco?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 405972,
+      "SubjectID": 94,
+      "TopicID": 11654,
+      "TopicRef": "6.3",
+      "TopicName": "6.3 Photorespiration",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How is the process of C4 photosynthesis an adaptation to deal with the problem of photorespiration?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 406897,
       "SubjectID": 94,
       "TopicID": 11656,
@@ -1400,6 +2030,27 @@
       }
     },
     {
+      "QuestionID": 406958,
+      "SubjectID": 94,
+      "TopicID": 11665,
+      "TopicRef": "8.5",
+      "TopicName": "8.5 TRANSPORT OFF WATER IN PLANTS (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How can you say that parenchyma and schlerenchyma provide support to plants?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 406952,
       "SubjectID": 94,
       "TopicID": 11667,
@@ -1463,6 +2114,69 @@
       }
     },
     {
+      "QuestionID": 406956,
+      "SubjectID": 94,
+      "TopicID": 11668,
+      "TopicRef": "8.8",
+      "TopicName": "8.8 OSMOREGULATION IN PLANTS (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Can you explain the hypothesis regarding the opening and closing of stomata?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 406957,
+      "SubjectID": 94,
+      "TopicID": 11669,
+      "TopicRef": "8.9",
+      "TopicName": "8.9 THERMOREGULATION IN PLANTS (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What mechanisms enable carnivorous plants to supplement their nutrient uptake despite being autotrophs?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 406961,
+      "SubjectID": 94,
+      "TopicID": 11670,
+      "TopicRef": "8.10",
+      "TopicName": "8.10 MOVEMENT IN PLANTS (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does Pressure Flow Theory explain the movement of sugars through a plant?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 406951,
       "SubjectID": 94,
       "TopicID": 11671,
@@ -1492,6 +2206,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Explain the concept of photoperiodism and its influence on plant flowering. How do short-day, long-day and day-neutral plants differ in their flowering responses, and what role does phytochrome plays in this process?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 406962,
+      "SubjectID": 94,
+      "TopicID": 11671,
+      "TopicRef": "8.11",
+      "TopicName": "8.11 PHTOTOPERIODISM (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>What strategies would you adopt to induce flowering in a plant?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 406959,
+      "SubjectID": 94,
+      "TopicID": 11672,
+      "TopicRef": "8.12",
+      "TopicName": "8.12 VERNALISATION (SMART)",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How do the annual rings depict climatic variability?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1631,6 +2387,111 @@
       }
     },
     {
+      "QuestionID": 408079,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does the small intestine need both peristalsis and segmentation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408080,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the liver help digestion without using enzymes?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408081,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why do we need bile if we already have enzymes for fat digestion?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408082,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>How does the pancreas “know” when to release its enzymes?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408083,
+      "SubjectID": 94,
+      "TopicID": 11674,
+      "TopicRef": "9.1",
+      "TopicName": "9.1 ANATOMY & PHYSIOLOGY OF DIGESTIVE SYSTEM",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why are pancreatic secretions alkaline, not acidic?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 402551,
       "SubjectID": 94,
       "TopicID": 11676,
@@ -1639,6 +2500,48 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Describe the mechanism of inhalation and exhalation.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 402553,
+      "SubjectID": 94,
+      "TopicID": 11677,
+      "TopicRef": "10.2",
+      "TopicName": "10.2 Transport of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the transport of oxygen through blood.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 402554,
+      "SubjectID": 94,
+      "TopicID": 11677,
+      "TopicRef": "10.2",
+      "TopicName": "10.2 Transport of Gases",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the transport of carbon dioxide through blood.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1799,6 +2702,132 @@
       }
     },
     {
+      "QuestionID": 408126,
+      "SubjectID": 94,
+      "TopicID": 11681,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 STRUCTURE & FUNCTIONING OF HEART",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the detailed structure of arteries, veins and capillaries.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408135,
+      "SubjectID": 94,
+      "TopicID": 11681,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 STRUCTURE & FUNCTIONING OF HEART",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write notes on Angina pectoris, heart attack, and heart failure.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408136,
+      "SubjectID": 94,
+      "TopicID": 11681,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 STRUCTURE & FUNCTIONING OF HEART",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Outline the main principles of coronary bypass and angioplasty.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408142,
+      "SubjectID": 94,
+      "TopicID": 11681,
+      "TopicRef": "11.1",
+      "TopicName": "11.1 STRUCTURE & FUNCTIONING OF HEART",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is it so important for the human heart to develop early and begin functioning within the developing embryo?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408127,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the role of precapillary sphincters in regulating the flow of blood through capillaries.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408143,
+      "SubjectID": 94,
+      "TopicID": 11682,
+      "TopicRef": "11.2",
+      "TopicName": "11.2 BLOOD VESSELS",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Justify how vasoconstriction or vasodilation is reflective of emotions</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 408129,
       "SubjectID": 94,
       "TopicID": 11683,
@@ -1841,6 +2870,90 @@
       }
     },
     {
+      "QuestionID": 408134,
+      "SubjectID": 94,
+      "TopicID": 11683,
+      "TopicRef": "11.3",
+      "TopicName": "11.3 BLOOD PRESSURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Identify the factors causing atherosclerosis and arteriosclerosis.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408137,
+      "SubjectID": 94,
+      "TopicID": 11683,
+      "TopicRef": "11.3",
+      "TopicName": "11.3 BLOOD PRESSURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Define hypertension and describe the factors that regulate blood pressure and can lead to hypertension and hypotension</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408141,
+      "SubjectID": 94,
+      "TopicID": 11683,
+      "TopicRef": "11.3",
+      "TopicName": "11.3 BLOOD PRESSURE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is the pressure in the pulmonary circulation lower than in the systemic circulation?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408138,
+      "SubjectID": 94,
+      "TopicID": 11684,
+      "TopicRef": "11.4",
+      "TopicName": "11.4 Cardiovascular Disorders",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>List the changes in life styles that can protect man from hypertension and cardiac problems.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
       "QuestionID": 408130,
       "SubjectID": 94,
       "TopicID": 11685,
@@ -1870,6 +2983,69 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Describe the structure and role of lymph capillaries, lymph vessels and lymph ducts.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408144,
+      "SubjectID": 94,
+      "TopicID": 11685,
+      "TopicRef": "11.5",
+      "TopicName": "11.5 LYMPHATIC SYSTEM OF HUMAN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Justify in what way the blood circulatory system is dependent on the lymphatic system.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408146,
+      "SubjectID": 94,
+      "TopicID": 11685,
+      "TopicRef": "11.5",
+      "TopicName": "11.5 LYMPHATIC SYSTEM OF HUMAN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Interpret why the swelling of the lymph nodes is a cause of concern</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408147,
+      "SubjectID": 94,
+      "TopicID": 11685,
+      "TopicRef": "11.5",
+      "TopicName": "11.5 LYMPHATIC SYSTEM OF HUMAN",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Trace the path of lymph from a lymph capillary until it is returned to the blood.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -1933,6 +3109,111 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Draw a diagram of sarcomere and label its parts.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408910,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is calcium essential for both the structural integrity of bones and the process of muscle contraction?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408901,
+      "SubjectID": 94,
+      "TopicID": 11688,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 Disorders of Skeletal system",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the types of arthritis, with their causes, symptoms and treatments.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408908,
+      "SubjectID": 94,
+      "TopicID": 11688,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 Disorders of Skeletal system",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Justify how the main functions of the skeleton are to act as a system of rods and levers.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408911,
+      "SubjectID": 94,
+      "TopicID": 11688,
+      "TopicRef": "12.2",
+      "TopicName": "12.2 Disorders of Skeletal system",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why is the human skeleton designed with both rigid bones and flexible joints instead of being made of a single solid structure?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408900,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Write the cause and symptoms of joint dislocation, spondylosis, and sciatica.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2038,6 +3319,69 @@
       "QuestionPeriority": "Exercise",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Describe causes and symptoms of muscle fatigue, cramps and tetany.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408909,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Justify why do the muscles pull but do not push.</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408912,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why do muscles always work in pairs (antagonistic muscles) rather than alone?</p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 408913,
+      "SubjectID": 94,
+      "TopicID": 11689,
+      "TopicRef": "12.3",
+      "TopicName": "12.3 MUSCLES",
+      "QuestionPeriority": "Exercise",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Why does prolonged inactivity or space travel lead to muscle atrophy and bone weakening?</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -2500,6 +3844,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>What is the plasma membrane? Explain the fluid mosaic model of the plasma membrane. </p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 444413,
+      "SubjectID": 94,
+      "TopicID": 11628,
+      "TopicRef": "3.4",
+      "TopicName": "3.4 STRUCTURE OF CELL",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Describe the major techniques used to study the structure of the plasma membrane. </p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
@@ -3424,6 +4789,27 @@
       "QuestionPeriority": "Additional",
       "UrduQuestionDetails": null,
       "EnglishQuestionDetails": "<p>Write a detailed note on the lymphatic system of humans. </p>\r\n",
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": [],
+      "_exportMeta": {
+        "subTypeId": 13,
+        "bankType": "long",
+        "field": "LONG",
+        "exportName": "long"
+      }
+    },
+    {
+      "QuestionID": 444539,
+      "SubjectID": 94,
+      "TopicID": 11687,
+      "TopicRef": "12.1",
+      "TopicName": "12.1 BONES AND CARTILAGE",
+      "QuestionPeriority": "Additional",
+      "UrduQuestionDetails": null,
+      "EnglishQuestionDetails": "<p>Explain the process of bone development/ formation (osteogenesis) in details.</p>\r\n",
       "UrduFillAnswer": null,
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,

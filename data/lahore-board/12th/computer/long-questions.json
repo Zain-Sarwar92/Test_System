@@ -4,16 +4,16 @@
   "subject": "Computer",
   "slug": "computer",
   "source": "PTS PTB INTER-II (Class 12) Computer (read-only export)",
-  "total_questions": 478,
+  "total_questions": 1472,
   "counts": {
-    "mcq": 198,
-    "short": 190,
-    "long": 90
+    "mcq": 675,
+    "short": 636,
+    "long": 161
   },
   "fieldCounts": {
-    "MCQ": 198,
-    "QA": 190,
-    "LONG": 90
+    "MCQ": 675,
+    "QA": 636,
+    "LONG": 161
   },
   "questions": [
     {
@@ -99,7 +99,7 @@
     {
       "id": 530165,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.1",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -109,7 +109,7 @@
     {
       "id": 530166,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.2",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -119,7 +119,7 @@
     {
       "id": 530167,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.3",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -129,7 +129,7 @@
     {
       "id": 530168,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.4",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -139,7 +139,7 @@
     {
       "id": 530169,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.5",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -149,7 +149,7 @@
     {
       "id": 530170,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.6",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -159,7 +159,7 @@
     {
       "id": 530172,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.7",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -169,7 +169,7 @@
     {
       "id": 530173,
       "chapter": 2,
-      "topic_id": "2.12",
+      "topic_id": "2.9",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -179,7 +179,7 @@
     {
       "id": 530284,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.1",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -187,39 +187,9 @@
       "en": "Explain the concept of classes and objects in Object-Oriented Programming (OOP)."
     },
     {
-      "id": 530286,
-      "chapter": 3,
-      "topic_id": "3.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is encapsulation in OOP?"
-    },
-    {
-      "id": 530287,
-      "chapter": 3,
-      "topic_id": "3.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How does inheritance work in OOP?"
-    },
-    {
-      "id": 530289,
-      "chapter": 3,
-      "topic_id": "3.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What are the advantages of using inheritance in Python?"
-    },
-    {
       "id": 530290,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -227,19 +197,9 @@
       "en": "What is polymorphism in OOP, and how does it enhance flexibility in code?"
     },
     {
-      "id": 530292,
-      "chapter": 3,
-      "topic_id": "3.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How can encapsulation help improve data security in OOP?"
-    },
-    {
       "id": 530294,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
@@ -249,12 +209,172 @@
     {
       "id": 530295,
       "chapter": 3,
-      "topic_id": "3.3",
+      "topic_id": "3.2",
       "type": "long",
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
       "en": "What are the key differences between a class and an object in Object-Oriented Programming?"
+    },
+    {
+      "id": 530365,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of Graphical User Interface (GUI) and discuss its importance in application development."
+    },
+    {
+      "id": 530366,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe Tkinter as Python's built-in GUI toolkit."
+    },
+    {
+      "id": 530367,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What are the key components and widgets in Tkinter?"
+    },
+    {
+      "id": 530368,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is layout management in Tkinter, and how are elements organized using pack(), grid(), and place()?"
+    },
+    {
+      "id": 530370,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How can you design clean and responsive user interfaces in Tkinter?"
+    },
+    {
+      "id": 530371,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the concept of event-driven programming in Tkinter."
+    },
+    {
+      "id": 530372,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do you handle user input and connect widgets to functions in Tkinter?"
+    },
+    {
+      "id": 530373,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the process of connecting Python to a database using SQLite or MySQL."
+    },
+    {
+      "id": 530411,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Why is testing essential for reliable applications, and what role does it play in ensuring program stability?"
+    },
+    {
+      "id": 530413,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Discuss the common types of programming errors and bugs that occur during software development."
+    },
+    {
+      "id": 530414,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is unit testing, and how do Python's unittest and pytest modules support effective testing?"
+    },
+    {
+      "id": 530415,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Explain the process of writing and executing test cases using Python's unittest or pytest modules."
+    },
+    {
+      "id": 530416,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How do breakpoints and watch expressions help in debugging? Discuss their role in identifying issues in the code."
+    },
+    {
+      "id": 530417,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Describe how to set breakpoints in IDEs like PyCharm or VS Code, and explain their significance in the debugging process."
+    },
+    {
+      "id": 530418,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "What is step-by-step debugging, and how does it help in identifying and fixing bugs in Python programs?"
+    },
+    {
+      "id": 530419,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "How does exception handling work in Python? Explain how to handle multiple exception types effectively to prevent program crashes."
     },
     {
       "id": 530461,
@@ -335,166 +455,6 @@
       "source": "Exercise",
       "priority": "Exercise",
       "en": "Discuss predictive modeling and causality, and explain the importance of model interpretation in real-world use cases."
-    },
-    {
-      "id": 530365,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Explain the concept of Graphical User Interface (GUI) and discuss its importance in application development."
-    },
-    {
-      "id": 530366,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Describe Tkinter as Python's built-in GUI toolkit."
-    },
-    {
-      "id": 530367,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What are the key components and widgets in Tkinter?"
-    },
-    {
-      "id": 530368,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is layout management in Tkinter, and how are elements organized using pack(), grid(), and place()?"
-    },
-    {
-      "id": 530370,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How can you design clean and responsive user interfaces in Tkinter?"
-    },
-    {
-      "id": 530371,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Explain the concept of event-driven programming in Tkinter."
-    },
-    {
-      "id": 530372,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How do you handle user input and connect widgets to functions in Tkinter?"
-    },
-    {
-      "id": 530373,
-      "chapter": 4,
-      "topic_id": "4.3",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Discuss the process of connecting Python to a database using SQLite or MySQL."
-    },
-    {
-      "id": 530411,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Why is testing essential for reliable applications, and what role does it play in ensuring program stability?"
-    },
-    {
-      "id": 530413,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Discuss the common types of programming errors and bugs that occur during software development."
-    },
-    {
-      "id": 530414,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is unit testing, and how do Python's unittest and pytest modules support effective testing?"
-    },
-    {
-      "id": 530415,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Explain the process of writing and executing test cases using Python's unittest or pytest modules."
-    },
-    {
-      "id": 530416,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How do breakpoints and watch expressions help in debugging? Discuss their role in identifying issues in the code."
-    },
-    {
-      "id": 530417,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "Describe how to set breakpoints in IDEs like PyCharm or VS Code, and explain their significance in the debugging process."
-    },
-    {
-      "id": 530418,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "What is step-by-step debugging, and how does it help in identifying and fixing bugs in Python programs?"
-    },
-    {
-      "id": 530419,
-      "chapter": 5,
-      "topic_id": "5.4",
-      "type": "long",
-      "field": "LONG",
-      "source": "Exercise",
-      "priority": "Exercise",
-      "en": "How does exception handling work in Python? Explain how to handle multiple exception types effectively to prevent program crashes."
     },
     {
       "id": 530530,
@@ -777,6 +737,26 @@
       "en": "Describe the Internet as a Public WAN, explaining how standard communication protocols enable worldwide information sharing across services such as email, websites, and cloud storage."
     },
     {
+      "id": 535164,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe how Modems and Wireless Access Points (WAPs) facilitate network access, focusing on signal conversion, ISP connection, and wireless coverage expansion."
+    },
+    {
+      "id": 535167,
+      "chapter": 1,
+      "topic_id": "1.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the roles and functions of a Network Interface Card (NIC), Switch, and Router in managing data flow within and between computer networks."
+    },
+    {
       "id": 531631,
       "chapter": 1,
       "topic_id": "1.5",
@@ -915,6 +895,736 @@
       "source": "Additional",
       "priority": "Additional",
       "en": "Compare network configuration tools (ipconfig and ifconfig) with remote management utilities (Telnet, PuTTY, and SSH), focusing on their settings and data encryption security."
+    },
+    {
+      "id": 532411,
+      "chapter": 1,
+      "topic_id": "1.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain network bandwidth and latency as key metrics of network performance. Also write common causes of network delay."
+    },
+    {
+      "id": 532449,
+      "chapter": 1,
+      "topic_id": "1.13",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of network load balancing, Also discuss the basic methods of load balancing (Round Robin, Least Connection, and IP Hash)."
+    },
+    {
+      "id": 532488,
+      "chapter": 1,
+      "topic_id": "1.14",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain why network security is important? Also discuss the concept of firewalls, encryption, access control."
+    },
+    {
+      "id": 532498,
+      "chapter": 1,
+      "topic_id": "1.15",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of data backup and its types. Also discuss the common causes of data loss and explain the methods and tools used for effective data recovery."
+    },
+    {
+      "id": 532527,
+      "chapter": 1,
+      "topic_id": "1.16",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of usability and security in system design, detailing how each contributes to a better and safer user experience."
+    },
+    {
+      "id": 532756,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on problem solving using computational thinking. Also discuss Identifying a problem, Decomposition, Evaluating and Improving solutions."
+    },
+    {
+      "id": 532864,
+      "chapter": 2,
+      "topic_id": "2.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of Logic. Also discuss its role and importance in computer science, reasoning and decision making."
+    },
+    {
+      "id": 533071,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define propositional logic and propositions, explaining what can and cannot be classified as a proposition with examples."
+    },
+    {
+      "id": 533072,
+      "chapter": 2,
+      "topic_id": "2.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the difference between simple and compound propositions, detailing how logical connectives (AND, OR, NOT) are used to join them to express complex ideas."
+    },
+    {
+      "id": 533837,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a detailed note on Truth Table. Also discuss its purpose, creation of truth tables for logical expressions."
+    },
+    {
+      "id": 533866,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of propositional equivalence and its importance. How it is verified using truth tables?"
+    },
+    {
+      "id": 533897,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of satisfiability, contrast satisfiable expressions with unsatisfiable expressions, and discuss their significance in algorithm design and program verification."
+    },
+    {
+      "id": 533946,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the core concepts of predicate logic, defining predicates and variables, and describing how they combine to represent detailed statements, properties, and relationships."
+    },
+    {
+      "id": 533947,
+      "chapter": 2,
+      "topic_id": "2.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare and contrast propositional logic and predicate logic, highlighting the structural differences, expressiveness, and limitations of each using an example."
+    },
+    {
+      "id": 534266,
+      "chapter": 2,
+      "topic_id": "2.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the role of quantifiers in predicate logic, detailing the differences between the Universal Quantifier and the Existential Quantifier with their respective symbols, meanings, and examples."
+    },
+    {
+      "id": 534324,
+      "chapter": 2,
+      "topic_id": "2.10",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain how predicate logic can be used to model real-world problems and systems, using the library system as an example to illustrate predicates, variables, and relationships."
+    },
+    {
+      "id": 534391,
+      "chapter": 2,
+      "topic_id": "2.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of logic-based reasoning and logical inference. Also describe deduction using logical rules, explaining how it moves from general facts to specific conclusions"
+    },
+    {
+      "id": 534515,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the foundational concepts of Object-Oriented Programming (OOP), defining classes, objects, and the key principles used to manage data and behavior effectively."
+    },
+    {
+      "id": 534516,
+      "chapter": 3,
+      "topic_id": "3.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the major benefits of Object-Oriented Programming in software development, detailing modularity, reusability, maintenance, scalability, and developer collaboration."
+    },
+    {
+      "id": 534563,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the core concepts of Object-Oriented Programming (OOP), specifically detailing the definition and relationship between classes and objects in representing real-world entities."
+    },
+    {
+      "id": 534605,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Demonstrate how to write a Python class that initializes attributes using __init__, stores instance data, and defines methods to display information for multiple unique objects."
+    },
+    {
+      "id": 534606,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of encapsulation, highlighting its importance, data access control, and how Python implements public, protected, and private access levels using naming conventions and Name Mangling."
+    },
+    {
+      "id": 534705,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of inheritance in Object-Oriented Programming, detailing its fundamental purpose, advantages, and the distinction between a parent (base) class and a child (derived) class."
+    },
+    {
+      "id": 534706,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare and contrast Single Inheritance and Multiple Inheritance, providing descriptions and structural mechanisms for each, along with an explanation of method overriding and the use of the super() function."
+    },
+    {
+      "id": 534707,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept and structure of Multilevel Inheritance, describing how properties and behaviors are passed down through successive levels of derived classes using a multi-generational chain (Grandparent --> Parent --> Child)."
+    },
+    {
+      "id": 534766,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of Polymorphism in Object-Oriented Programming. Also discuss the classification of Polymorphism into Compile-time and Runtime Polymorphism."
+    },
+    {
+      "id": 534800,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Compare and contrast Compile-Time Polymorphism and Runtime Polymorphism in Object-Oriented Programming (OOP)"
+    },
+    {
+      "id": 535653,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a Python program defining a Student class that initializes a student's name and displays it. Create two student objects for \"Ali\" and \"Ahmed\" and display their names."
+    },
+    {
+      "id": 535654,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a Python program to demonstrate single inheritance by creating an Animal parent class and a Dog child class that calls both eat() and bark() methods."
+    },
+    {
+      "id": 535656,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a Python program to demonstrate multiple inheritance by creating Father and Mother base classes and a Child derived class that accesses methods from both parent classes."
+    },
+    {
+      "id": 535659,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a Python program to demonstrate multilevel inheritance in which ElectricCar inherits from Car, which in turn inherits from Vehicle."
+    },
+    {
+      "id": 535662,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a python program to demonstrate the concept of Complite-time Polymorphism (Overloading) by creating a class Calculator."
+    },
+    {
+      "id": 535664,
+      "chapter": 3,
+      "topic_id": "3.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a python code to demonstrate the concept of Runtime polymorphism (Overriding) by creating classes Animal, Dog and Cat."
+    },
+    {
+      "id": 535702,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain Graphical User Interfaces (GUIs) in detail. Discuss their core visual elements, advantages over command-line interfaces, and importance in modern software usability for non-technical users."
+    },
+    {
+      "id": 535703,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Provide a detailed overview of Tkinter as Python's built-in GUI toolkit. Discuss its key features, suitability, standard widget set, and how it handles event-driven programming."
+    },
+    {
+      "id": 535704,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write out a complete Python program using Tkinter that creates an application window with a title, custom size, label, entry box, and button. Explain line-by-line the functionality of every method and widget used, including Tk(), title(), geometry(), Label(), Entry(), Button(), config(), pack(), and mainloop()."
+    },
+    {
+      "id": 535723,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of Tkinter widgets and layout management. Describe how combining widgets and layout managers creates interactive GUI applications."
+    },
+    {
+      "id": 535724,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the process of using frames in Tkinter. Explain how frames act as container sections to organize widgets into a clean layout."
+    },
+    {
+      "id": 535725,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a complete Python Tkinter program that creates a window divided into two frames with labels. Explain the main methods and options used to configure and pack these elements."
+    },
+    {
+      "id": 535819,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a program to demonstrate the steps to create Windows and Frames in tkinter."
+    },
+    {
+      "id": 535820,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a program to demonstrate the Pack() layout in tkinter."
+    },
+    {
+      "id": 535822,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a program to demonstrate the Grid() layout in tkinter."
+    },
+    {
+      "id": 535823,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a program to demonstrate the Place() layout in tkinter."
+    },
+    {
+      "id": 535824,
+      "chapter": 4,
+      "topic_id": "4.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a program to create Simple Login Form in tkinter."
+    },
+    {
+      "id": 535826,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a python program to demonstrate the steps to Connect to a Database (sqlite3). Also write code to fetch and display data and steps to Close the connection."
+    },
+    {
+      "id": 535828,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "What are CRUD operations? Explain all operations in detail."
+    },
+    {
+      "id": 535830,
+      "chapter": 4,
+      "topic_id": "4.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a python program to demonstrate the process of Removing Data Safely from database (sqlite3)."
+    },
+    {
+      "id": 537134,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss in detail the importance of testing and debugging techniques in software development, highlighting how they improve performance, user confidence, and future maintenance."
+    },
+    {
+      "id": 537135,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the common types of programming errors and bugs, including syntax errors, logic errors, runtime errors in detail."
+    },
+    {
+      "id": 537164,
+      "chapter": 5,
+      "topic_id": "5.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a python program to demonstrate the writing and executing test cases using pytest module."
+    },
+    {
+      "id": 538182,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the process of setting breakpoints and using watch expressions in PyCharm. Also describe the step-by-step debugging process, detailing the specific behaviors and differences between Step Into, Step Over, and Continue commands."
+    },
+    {
+      "id": 538233,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of Exception Handling in Python. Also describe the roles of try-except, commit(), rollback(), and finally in managing errors and maintaining data integrity."
+    },
+    {
+      "id": 538236,
+      "chapter": 5,
+      "topic_id": "5.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a python program to demostrate the use of try-except, commit(), rollback() and finally in managing errors and maintaining data integrity during database operations."
+    },
+    {
+      "id": 538283,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concepts of Profiling and Optimization. Also discuss performance bottleneck in detail."
+    },
+    {
+      "id": 538302,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a python program to demonstrate the concept of identifying and fixing performance bottlenecks."
+    },
+    {
+      "id": 538303,
+      "chapter": 5,
+      "topic_id": "5.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the methods for identifying and resolving performance bottlenecks, detailing specific optimization techniques and how fixing bottlenecks enhances overall application responsiveness."
+    },
+    {
+      "id": 539748,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the complete Data Science Work Flow step by step, detailing each stage from Data Collection to Decision Making along with the Feedback Loop."
+    },
+    {
+      "id": 539749,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss in detail why Data Science is considered an interdisciplinary field, highlighting the specific contribution of each underlying subject."
+    },
+    {
+      "id": 539815,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the key differences between structured and unstructured data, including their organizational formats, ease of analysis, and common real-world examples."
+    },
+    {
+      "id": 539816,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss the various data sources and collection methods, detailing the distinction between manual and automatic data collection as well as real-time versus stored data gathering."
+    },
+    {
+      "id": 539818,
+      "chapter": 6,
+      "topic_id": "6.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Describe the concepts of Data Storage and Data Management, emphasizing how proper storage, security, backup systems, and organization contribute to protecting data and ensuring long-term usability."
+    },
+    {
+      "id": 539869,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the fundamental concepts of Machine Learning, including how models learn from examples, process large datasets, adapt over time, and support modern automated systems."
+    },
+    {
+      "id": 539871,
+      "chapter": 6,
+      "topic_id": "6.3",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Provide a comprehensive comparison between Traditional Programming and Machine Learning, highlighting differences in rules versus data, code changes, problem-solving capability, and the overall workflow."
+    },
+    {
+      "id": 540491,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the key differences between Labeled Data and Unlabeled Data, including how each is structured and the respective machine learning mechanisms and tasks associated with them."
+    },
+    {
+      "id": 540493,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Define machine learning. Also discuss Supervised and Unsupervised Machine Learning in detail."
+    },
+    {
+      "id": 540496,
+      "chapter": 6,
+      "topic_id": "6.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain Reinforcement Machine Learning, detailing how an agent interacts with an environment, the role of rewards and penalties in trial-and-error learning, and its real-world applications in robotics, games, and autonomous systems."
+    },
+    {
+      "id": 540563,
+      "chapter": 6,
+      "topic_id": "6.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Discuss in detail how Machine Learning transforms business, education and daily life."
+    },
+    {
+      "id": 541490,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a program to demonstrate the process of building a Machine Learning model to show how exam scores are affected by the number of study hours."
+    },
+    {
+      "id": 541563,
+      "chapter": 6,
+      "topic_id": "6.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concepts of features and target values, feature engineering and train-split process of data in detail."
+    },
+    {
+      "id": 541679,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Write a note on Accuracy and Error. Also discuss Precision and Recall in detail with their mathematical formulas."
+    },
+    {
+      "id": 541700,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain the concept of F1-Score in detail, detailing its purpose, importance in handling unbalanced datasets, and how it balances correctness and completeness."
+    },
+    {
+      "id": 541712,
+      "chapter": 6,
+      "topic_id": "6.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Given the values TP = 40, TN = 50, FP = 10, and FN = 5, demonstrate step-by-step how to calculate Precision, Recall, and the resulting F1-Score using their respective equations."
+    },
+    {
+      "id": 541769,
+      "chapter": 6,
+      "topic_id": "6.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Additional",
+      "priority": "Additional",
+      "en": "Explain validation and model improvement in detail, highlighting why validation is necessary before real-world deployment and how feedback is used to correct weak areas."
     }
   ],
   "type": "long"

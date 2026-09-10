@@ -1,4 +1,102 @@
 {
+  "course": {
+    "CourseID": 1,
+    "name": "PTB"
+  },
+  "class": {
+    "ClassID": 12,
+    "name": "INTER-II"
+  },
+  "subject": {
+    "SubjectID": 123,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 12,
+    "SubjectName": "ENGLISH",
+    "Category": "SNC-2026",
+    "ImageUrl": "/images/subjects/637341239702640459.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2026-08-08T09:53:56.747",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "slug": "english",
+  "exportTypes": [
+    {
+      "id": 1,
+      "name": "mcq-comprehension",
+      "bankType": "mcq",
+      "field": "COMPREHENSION"
+    },
+    {
+      "id": 2,
+      "name": "mcq-spelling",
+      "bankType": "mcq",
+      "field": "SPELLING"
+    },
+    {
+      "id": 3,
+      "name": "mcq-meaning",
+      "bankType": "mcq",
+      "field": "MEANING"
+    },
+    {
+      "id": 6,
+      "name": "mcq-grammar",
+      "bankType": "mcq",
+      "field": "GRAMMAR"
+    },
+    {
+      "id": 14,
+      "name": "short-qa",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 23,
+      "name": "short-di",
+      "bankType": "short",
+      "field": "DI"
+    },
+    {
+      "id": 34,
+      "name": "short-word",
+      "bankType": "short",
+      "field": "WORD"
+    },
+    {
+      "id": 35,
+      "name": "short-pair",
+      "bankType": "short",
+      "field": "PAIR"
+    },
+    {
+      "id": 27,
+      "name": "long-essays",
+      "bankType": "long",
+      "field": "ESSAYS"
+    },
+    {
+      "id": 28,
+      "name": "long-summary",
+      "bankType": "long",
+      "field": "SUMMARY"
+    },
+    {
+      "id": 43,
+      "name": "long-translate-urdu",
+      "bankType": "long",
+      "field": "TRANSLATE_UR"
+    },
+    {
+      "id": 47,
+      "name": "long-poem-stanzas",
+      "bankType": "long",
+      "field": "POEM_STANZA"
+    }
+  ],
   "chapters": [
     {
       "ChapterID": 8378,
@@ -215,6 +313,23 @@
       "TextDirection": 1,
       "CreatedDateTime": "2026-08-08T12:11:03",
       "UpdatedDateTime": "2026-08-08T12:14:30.593",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 8471,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterName": "ENGLISH (B)",
+      "Syllabus": "ENGLISH (B)",
+      "TextDirection": 1,
+      "CreatedDateTime": "2026-09-08T16:27:59.82",
+      "UpdatedDateTime": "2026-09-08T16:27:59.82",
       "IsActive": true,
       "Admin": null,
       "Course": null,
@@ -564,7 +679,101 @@
       "Class": null,
       "Subject": null,
       "Chapter": null
+    },
+    {
+      "TopicID": 15880,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8471,
+      "TopicName": "Essays",
+      "TopicRef": "1",
+      "CreatedDateTime": "2026-09-08T16:28:45.917",
+      "UpdatedDateTime": "2026-09-08T16:28:45.917",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15881,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8471,
+      "TopicName": "Idioms",
+      "TopicRef": "2",
+      "CreatedDateTime": "2026-09-08T16:28:45.923",
+      "UpdatedDateTime": "2026-09-08T16:28:45.923",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15882,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8471,
+      "TopicName": "Translate into English Paragraph's",
+      "TopicRef": "3",
+      "CreatedDateTime": "2026-09-08T16:28:45.923",
+      "UpdatedDateTime": "2026-09-08T16:28:45.923",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15883,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8471,
+      "TopicName": "Correct Sentences",
+      "TopicRef": "4",
+      "CreatedDateTime": "2026-09-08T16:28:45.923",
+      "UpdatedDateTime": "2026-09-08T16:28:45.923",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15884,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 12,
+      "SubjectID": 123,
+      "ChapterID": 8471,
+      "TopicName": "Correct Prepositions",
+      "TopicRef": "5",
+      "CreatedDateTime": "2026-09-08T16:28:45.923",
+      "UpdatedDateTime": "2026-09-08T16:28:45.923",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
     }
-  ],
-  "subjectId": 123
+  ]
 }
